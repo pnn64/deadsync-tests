@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
+# Preserve fixture bytes; never normalize compressed archive parts.
 * text=auto
+*.part -text
+.githooks/* text eol=lf
