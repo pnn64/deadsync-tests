@@ -1,10 +1,10 @@
 {
   "fixture_schema_version": 1,
   "oracle_schema_version": 1,
-  "harness_version": "0.1.0",
+  "harness_version": "0.1.95",
   "corpus": "all-complete-bmp-plus-default-and-missing",
   "itgmania": {
-    "git_revision": "54e62e5ffedf406a1713ec55a1da3dcecf50817c",
+    "git_revision": "5c737928d93778c2c9f68e276052b220b43a468f",
     "git_dirty": "false"
   },
   "fonts": [
@@ -34,6 +34,31 @@
       "glyphs": 18
     },
     {
+      "font": "Unprofessional/_ScreenEvaluation numbers.ini",
+      "fixture": "Unprofessional/_ScreenEvaluation numbers.json",
+      "glyphs": 19
+    },
+    {
+      "font": "Unprofessional/_game chars 36px 4x1.ini",
+      "fixture": "Unprofessional/_game chars 36px 4x1.json",
+      "glyphs": 7
+    },
+    {
+      "font": "Unprofessional/_unprofessional monospace numbers.ini",
+      "fixture": "Unprofessional/_unprofessional monospace numbers.json",
+      "glyphs": 18
+    },
+    {
+      "font": "Unprofessional/_unprofessional small.ini",
+      "fixture": "Unprofessional/_unprofessional small.json",
+      "glyphs": 99
+    },
+    {
+      "font": "Unprofessional/_unprofessional white.ini",
+      "fixture": "Unprofessional/_unprofessional white.json",
+      "glyphs": 84
+    },
+    {
       "font": "_combo/Arial Rounded/Arial Rounded.ini",
       "fixture": "_combo/Arial Rounded/Arial Rounded.json",
       "glyphs": 19
@@ -57,6 +82,11 @@
       "font": "_combo/Source Code/Source Code.ini",
       "fixture": "_combo/Source Code/Source Code.json",
       "glyphs": 25
+    },
+    {
+      "font": "_combo/Unprofessional/Unprofessional.ini",
+      "fixture": "_combo/Unprofessional/Unprofessional.json",
+      "glyphs": 92
     },
     {
       "font": "_combo/Wendy (Cursed)/Wendy (Cursed).ini",
@@ -92,6 +122,11 @@
       "font": "miso/_miso light.ini",
       "fixture": "miso/_miso light.json",
       "glyphs": 374
+    },
+    {
+      "font": "miso/_miso unprof.ini",
+      "fixture": "miso/_miso unprof.json",
+      "glyphs": 221
     },
     {
       "font": "wendy/_ScreenEvaluation numbers.ini",

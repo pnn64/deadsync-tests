@@ -1,0 +1,4042 @@
+{
+  "schema_version": 1,
+  "oracle_schema_version": 1,
+  "font": "miso/_miso unprof.ini",
+  "corpus": "all-complete-bmp-plus-default-and-missing",
+  "height": 15,
+  "line_spacing": 24,
+  "right_to_left": false,
+  "distance_field": false,
+  "default_stroke_color": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "line_width": 1731,
+  "line_height": 34,
+  "pages": [
+    {
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "texture_hints": "",
+      "source_size": {
+        "width": 360,
+        "height": 360
+      },
+      "image_size": {
+        "width": 720,
+        "height": 720
+      },
+      "frames": {
+        "width": 15,
+        "height": 15
+      },
+      "height": 15,
+      "line_spacing": 24,
+      "vertical_shift": -19.0,
+      "draw_extra_pixels_left": 1,
+      "draw_extra_pixels_right": 0
+    },
+    {
+      "texture": "Common default 2x1.png",
+      "texture_hints": "",
+      "source_size": {
+        "width": 64,
+        "height": 34
+      },
+      "image_size": {
+        "width": 64,
+        "height": 34
+      },
+      "frames": {
+        "width": 2,
+        "height": 1
+      },
+      "height": 34,
+      "line_spacing": 34,
+      "vertical_shift": -34.0,
+      "draw_extra_pixels_left": 0,
+      "draw_extra_pixels_right": 0
+    }
+  ],
+  "glyphs": [
+    {
+      "codepoint": 32,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 0,
+      "pen_x": 0,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 16.0,
+        "top": 0.0,
+        "right": 30.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 33,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 1,
+      "pen_x": 4,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 64.0,
+        "top": 0.0,
+        "right": 78.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 34,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 2,
+      "pen_x": 8,
+      "advance": 6,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 110.0,
+        "top": 0.0,
+        "right": 128.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 35,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 3,
+      "pen_x": 14,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 154.0,
+        "top": 0.0,
+        "right": 180.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 36,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 4,
+      "pen_x": 23,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 204.0,
+        "top": 0.0,
+        "right": 226.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 37,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 5,
+      "pen_x": 31,
+      "advance": 12,
+      "width": 15.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 248.0,
+        "top": 0.0,
+        "right": 278.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 38,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 6,
+      "pen_x": 43,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 298.0,
+        "top": 0.0,
+        "right": 324.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 39,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 7,
+      "pen_x": 53,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 352.0,
+        "top": 0.0,
+        "right": 366.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 40,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 8,
+      "pen_x": 57,
+      "advance": 5,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 398.0,
+        "top": 0.0,
+        "right": 416.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 41,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 9,
+      "pen_x": 62,
+      "advance": 5,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 446.0,
+        "top": 0.0,
+        "right": 464.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 42,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 10,
+      "pen_x": 67,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 492.0,
+        "top": 0.0,
+        "right": 514.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 43,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 11,
+      "pen_x": 75,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 538.0,
+        "top": 0.0,
+        "right": 564.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 44,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 12,
+      "pen_x": 84,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 592.0,
+        "top": 0.0,
+        "right": 606.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 45,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 13,
+      "pen_x": 88,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 636.0,
+        "top": 0.0,
+        "right": 658.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 46,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 14,
+      "pen_x": 96,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 688.0,
+        "top": 0.0,
+        "right": 702.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 47,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 15,
+      "pen_x": 100,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 12.0,
+        "top": 48.0,
+        "right": 34.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 48,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 16,
+      "pen_x": 108,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 60.0,
+        "top": 48.0,
+        "right": 82.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 49,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 17,
+      "pen_x": 116,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 108.0,
+        "top": 48.0,
+        "right": 130.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 50,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 18,
+      "pen_x": 124,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 156.0,
+        "top": 48.0,
+        "right": 178.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 51,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 19,
+      "pen_x": 132,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 202.0,
+        "top": 48.0,
+        "right": 228.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 52,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 20,
+      "pen_x": 141,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 252.0,
+        "top": 48.0,
+        "right": 274.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 53,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 21,
+      "pen_x": 149,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 300.0,
+        "top": 48.0,
+        "right": 322.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 54,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 22,
+      "pen_x": 157,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 348.0,
+        "top": 48.0,
+        "right": 370.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 55,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 23,
+      "pen_x": 165,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 396.0,
+        "top": 48.0,
+        "right": 418.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 56,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 24,
+      "pen_x": 173,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 444.0,
+        "top": 48.0,
+        "right": 466.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 57,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 25,
+      "pen_x": 181,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 492.0,
+        "top": 48.0,
+        "right": 514.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 58,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 26,
+      "pen_x": 189,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 544.0,
+        "top": 48.0,
+        "right": 558.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 59,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 27,
+      "pen_x": 193,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 592.0,
+        "top": 48.0,
+        "right": 606.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 60,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 28,
+      "pen_x": 197,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 636.0,
+        "top": 48.0,
+        "right": 658.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 61,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 29,
+      "pen_x": 205,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 684.0,
+        "top": 48.0,
+        "right": 706.0,
+        "bottom": 96.0
+      }
+    },
+    {
+      "codepoint": 62,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 30,
+      "pen_x": 213,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 12.0,
+        "top": 96.0,
+        "right": 34.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 63,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 31,
+      "pen_x": 221,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 60.0,
+        "top": 96.0,
+        "right": 82.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 64,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 32,
+      "pen_x": 228,
+      "advance": 15,
+      "width": 19.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 100.0,
+        "top": 96.0,
+        "right": 138.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 65,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 33,
+      "pen_x": 243,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 154.0,
+        "top": 96.0,
+        "right": 180.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 66,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 34,
+      "pen_x": 252,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 204.0,
+        "top": 96.0,
+        "right": 226.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 67,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 35,
+      "pen_x": 260,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 252.0,
+        "top": 96.0,
+        "right": 274.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 68,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 36,
+      "pen_x": 268,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 300.0,
+        "top": 96.0,
+        "right": 322.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 69,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 37,
+      "pen_x": 276,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 348.0,
+        "top": 96.0,
+        "right": 370.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 70,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 38,
+      "pen_x": 283,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 396.0,
+        "top": 96.0,
+        "right": 418.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 71,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 39,
+      "pen_x": 290,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 444.0,
+        "top": 96.0,
+        "right": 466.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 72,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 40,
+      "pen_x": 298,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 492.0,
+        "top": 96.0,
+        "right": 514.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 73,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 41,
+      "pen_x": 306,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 544.0,
+        "top": 96.0,
+        "right": 558.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 74,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 42,
+      "pen_x": 310,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 588.0,
+        "top": 96.0,
+        "right": 610.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 75,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 43,
+      "pen_x": 317,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 636.0,
+        "top": 96.0,
+        "right": 658.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 76,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 44,
+      "pen_x": 325,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 684.0,
+        "top": 96.0,
+        "right": 706.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 77,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 45,
+      "pen_x": 332,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 10.0,
+        "top": 144.0,
+        "right": 36.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 78,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 46,
+      "pen_x": 342,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 58.0,
+        "top": 144.0,
+        "right": 84.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 79,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 47,
+      "pen_x": 351,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 108.0,
+        "top": 144.0,
+        "right": 130.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 80,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 48,
+      "pen_x": 359,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 156.0,
+        "top": 144.0,
+        "right": 178.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 81,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 49,
+      "pen_x": 367,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 204.0,
+        "top": 144.0,
+        "right": 226.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 82,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 50,
+      "pen_x": 375,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 252.0,
+        "top": 144.0,
+        "right": 274.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 83,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 51,
+      "pen_x": 383,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 300.0,
+        "top": 144.0,
+        "right": 322.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 84,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 52,
+      "pen_x": 391,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 348.0,
+        "top": 144.0,
+        "right": 370.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 85,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 53,
+      "pen_x": 399,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 396.0,
+        "top": 144.0,
+        "right": 418.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 86,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 54,
+      "pen_x": 407,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 442.0,
+        "top": 144.0,
+        "right": 468.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 87,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 55,
+      "pen_x": 416,
+      "advance": 14,
+      "width": 17.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 486.0,
+        "top": 144.0,
+        "right": 520.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 88,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 56,
+      "pen_x": 430,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 540.0,
+        "top": 144.0,
+        "right": 562.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 89,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 57,
+      "pen_x": 438,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 588.0,
+        "top": 144.0,
+        "right": 610.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 90,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 58,
+      "pen_x": 446,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 636.0,
+        "top": 144.0,
+        "right": 658.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 91,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 59,
+      "pen_x": 454,
+      "advance": 5,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 686.0,
+        "top": 144.0,
+        "right": 704.0,
+        "bottom": 192.0
+      }
+    },
+    {
+      "codepoint": 92,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 60,
+      "pen_x": 459,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 12.0,
+        "top": 192.0,
+        "right": 34.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 93,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 61,
+      "pen_x": 467,
+      "advance": 5,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 62.0,
+        "top": 192.0,
+        "right": 80.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 94,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 62,
+      "pen_x": 472,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 106.0,
+        "top": 192.0,
+        "right": 132.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 95,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 63,
+      "pen_x": 482,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 154.0,
+        "top": 192.0,
+        "right": 180.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 96,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 64,
+      "pen_x": 492,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 202.0,
+        "top": 192.0,
+        "right": 228.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 97,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 65,
+      "pen_x": 502,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 252.0,
+        "top": 192.0,
+        "right": 274.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 98,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 66,
+      "pen_x": 509,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 300.0,
+        "top": 192.0,
+        "right": 322.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 99,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 67,
+      "pen_x": 516,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 348.0,
+        "top": 192.0,
+        "right": 370.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 100,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 68,
+      "pen_x": 523,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 396.0,
+        "top": 192.0,
+        "right": 418.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 101,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 69,
+      "pen_x": 530,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 444.0,
+        "top": 192.0,
+        "right": 466.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 102,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 70,
+      "pen_x": 537,
+      "advance": 6,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 494.0,
+        "top": 192.0,
+        "right": 512.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 103,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 71,
+      "pen_x": 543,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 540.0,
+        "top": 192.0,
+        "right": 562.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 104,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 72,
+      "pen_x": 550,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 588.0,
+        "top": 192.0,
+        "right": 610.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 105,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 73,
+      "pen_x": 557,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 640.0,
+        "top": 192.0,
+        "right": 654.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 106,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 74,
+      "pen_x": 561,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 688.0,
+        "top": 192.0,
+        "right": 702.0,
+        "bottom": 240.0
+      }
+    },
+    {
+      "codepoint": 107,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 75,
+      "pen_x": 565,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 12.0,
+        "top": 240.0,
+        "right": 34.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 108,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 76,
+      "pen_x": 573,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 64.0,
+        "top": 240.0,
+        "right": 78.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 109,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 77,
+      "pen_x": 577,
+      "advance": 11,
+      "width": 15.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 104.0,
+        "top": 240.0,
+        "right": 134.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 110,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 78,
+      "pen_x": 588,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 156.0,
+        "top": 240.0,
+        "right": 178.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 111,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 79,
+      "pen_x": 595,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 204.0,
+        "top": 240.0,
+        "right": 226.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 112,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 80,
+      "pen_x": 602,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 252.0,
+        "top": 240.0,
+        "right": 274.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 113,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 81,
+      "pen_x": 609,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 300.0,
+        "top": 240.0,
+        "right": 322.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 114,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 82,
+      "pen_x": 616,
+      "advance": 6,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 350.0,
+        "top": 240.0,
+        "right": 368.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 115,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 83,
+      "pen_x": 622,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 396.0,
+        "top": 240.0,
+        "right": 418.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 116,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 84,
+      "pen_x": 629,
+      "advance": 6,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 446.0,
+        "top": 240.0,
+        "right": 464.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 117,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 85,
+      "pen_x": 635,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 492.0,
+        "top": 240.0,
+        "right": 514.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 118,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 86,
+      "pen_x": 642,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 540.0,
+        "top": 240.0,
+        "right": 562.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 119,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 87,
+      "pen_x": 649,
+      "advance": 11,
+      "width": 15.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 584.0,
+        "top": 240.0,
+        "right": 614.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 120,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 88,
+      "pen_x": 660,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 636.0,
+        "top": 240.0,
+        "right": 658.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 121,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 89,
+      "pen_x": 667,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 684.0,
+        "top": 240.0,
+        "right": 706.0,
+        "bottom": 288.0
+      }
+    },
+    {
+      "codepoint": 122,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 90,
+      "pen_x": 674,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 12.0,
+        "top": 288.0,
+        "right": 34.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 123,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 91,
+      "pen_x": 681,
+      "advance": 5,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 62.0,
+        "top": 288.0,
+        "right": 80.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 124,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 92,
+      "pen_x": 686,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 112.0,
+        "top": 288.0,
+        "right": 126.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 125,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 93,
+      "pen_x": 690,
+      "advance": 5,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 158.0,
+        "top": 288.0,
+        "right": 176.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 126,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 94,
+      "pen_x": 695,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 204.0,
+        "top": 288.0,
+        "right": 226.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 160,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 0,
+      "pen_x": 703,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 16.0,
+        "top": 0.0,
+        "right": 30.0,
+        "bottom": 48.0
+      }
+    },
+    {
+      "codepoint": 161,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 123,
+      "pen_x": 707,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 160.0,
+        "top": 384.0,
+        "right": 174.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 162,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 124,
+      "pen_x": 711,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 204.0,
+        "top": 384.0,
+        "right": 226.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 163,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 125,
+      "pen_x": 719,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 252.0,
+        "top": 384.0,
+        "right": 274.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 164,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 126,
+      "pen_x": 727,
+      "advance": 15,
+      "width": 19.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 292.0,
+        "top": 384.0,
+        "right": 330.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 165,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 127,
+      "pen_x": 742,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 348.0,
+        "top": 384.0,
+        "right": 370.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 166,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 128,
+      "pen_x": 750,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 400.0,
+        "top": 384.0,
+        "right": 414.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 167,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 129,
+      "pen_x": 754,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 444.0,
+        "top": 384.0,
+        "right": 466.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 168,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 130,
+      "pen_x": 762,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 490.0,
+        "top": 384.0,
+        "right": 516.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 169,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 131,
+      "pen_x": 772,
+      "advance": 14,
+      "width": 17.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 534.0,
+        "top": 384.0,
+        "right": 568.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 170,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 132,
+      "pen_x": 786,
+      "advance": 6,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 590.0,
+        "top": 384.0,
+        "right": 608.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 171,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 133,
+      "pen_x": 792,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 636.0,
+        "top": 384.0,
+        "right": 658.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 172,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 134,
+      "pen_x": 800,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 684.0,
+        "top": 384.0,
+        "right": 706.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 173,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 135,
+      "pen_x": 808,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 12.0,
+        "top": 432.0,
+        "right": 34.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 174,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 136,
+      "pen_x": 815,
+      "advance": 14,
+      "width": 17.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 54.0,
+        "top": 432.0,
+        "right": 88.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 175,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 137,
+      "pen_x": 829,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 106.0,
+        "top": 432.0,
+        "right": 132.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 176,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 138,
+      "pen_x": 839,
+      "advance": 6,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 158.0,
+        "top": 432.0,
+        "right": 176.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 177,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 139,
+      "pen_x": 845,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 202.0,
+        "top": 432.0,
+        "right": 228.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 178,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 140,
+      "pen_x": 854,
+      "advance": 6,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 254.0,
+        "top": 432.0,
+        "right": 272.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 179,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 141,
+      "pen_x": 860,
+      "advance": 6,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 302.0,
+        "top": 432.0,
+        "right": 320.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 180,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 142,
+      "pen_x": 866,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 346.0,
+        "top": 432.0,
+        "right": 372.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 181,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 143,
+      "pen_x": 876,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 396.0,
+        "top": 432.0,
+        "right": 418.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 182,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 144,
+      "pen_x": 883,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 442.0,
+        "top": 432.0,
+        "right": 468.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 183,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 145,
+      "pen_x": 893,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 496.0,
+        "top": 432.0,
+        "right": 510.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 184,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 146,
+      "pen_x": 897,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 538.0,
+        "top": 432.0,
+        "right": 564.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 185,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 147,
+      "pen_x": 907,
+      "advance": 5,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 590.0,
+        "top": 432.0,
+        "right": 608.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 186,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 148,
+      "pen_x": 912,
+      "advance": 6,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 638.0,
+        "top": 432.0,
+        "right": 656.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 187,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 149,
+      "pen_x": 918,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 684.0,
+        "top": 432.0,
+        "right": 706.0,
+        "bottom": 480.0
+      }
+    },
+    {
+      "codepoint": 188,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 150,
+      "pen_x": 926,
+      "advance": 12,
+      "width": 15.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 8.0,
+        "top": 480.0,
+        "right": 38.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 189,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 151,
+      "pen_x": 938,
+      "advance": 12,
+      "width": 15.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 56.0,
+        "top": 480.0,
+        "right": 86.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 190,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 152,
+      "pen_x": 950,
+      "advance": 13,
+      "width": 17.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 102.0,
+        "top": 480.0,
+        "right": 136.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 191,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 153,
+      "pen_x": 963,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 156.0,
+        "top": 480.0,
+        "right": 178.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 192,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 154,
+      "pen_x": 970,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 202.0,
+        "top": 480.0,
+        "right": 228.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 193,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 155,
+      "pen_x": 979,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 250.0,
+        "top": 480.0,
+        "right": 276.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 194,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 156,
+      "pen_x": 988,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 298.0,
+        "top": 480.0,
+        "right": 324.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 195,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 157,
+      "pen_x": 997,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 346.0,
+        "top": 480.0,
+        "right": 372.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 196,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 158,
+      "pen_x": 1006,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 394.0,
+        "top": 480.0,
+        "right": 420.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 197,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 159,
+      "pen_x": 1015,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 442.0,
+        "top": 480.0,
+        "right": 468.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 198,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 160,
+      "pen_x": 1024,
+      "advance": 12,
+      "width": 15.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 488.0,
+        "top": 480.0,
+        "right": 518.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 199,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 161,
+      "pen_x": 1036,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 540.0,
+        "top": 480.0,
+        "right": 562.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 200,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 162,
+      "pen_x": 1044,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 588.0,
+        "top": 480.0,
+        "right": 610.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 201,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 163,
+      "pen_x": 1051,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 636.0,
+        "top": 480.0,
+        "right": 658.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 202,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 164,
+      "pen_x": 1058,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 684.0,
+        "top": 480.0,
+        "right": 706.0,
+        "bottom": 528.0
+      }
+    },
+    {
+      "codepoint": 203,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 165,
+      "pen_x": 1065,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 12.0,
+        "top": 528.0,
+        "right": 34.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 204,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 166,
+      "pen_x": 1073,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 64.0,
+        "top": 528.0,
+        "right": 78.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 205,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 167,
+      "pen_x": 1077,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 112.0,
+        "top": 528.0,
+        "right": 126.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 206,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 168,
+      "pen_x": 1081,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 160.0,
+        "top": 528.0,
+        "right": 174.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 207,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 169,
+      "pen_x": 1085,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 208.0,
+        "top": 528.0,
+        "right": 222.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 208,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 170,
+      "pen_x": 1089,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 250.0,
+        "top": 528.0,
+        "right": 276.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 209,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 171,
+      "pen_x": 1098,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 298.0,
+        "top": 528.0,
+        "right": 324.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 210,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 172,
+      "pen_x": 1107,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 348.0,
+        "top": 528.0,
+        "right": 370.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 211,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 173,
+      "pen_x": 1115,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 396.0,
+        "top": 528.0,
+        "right": 418.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 212,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 174,
+      "pen_x": 1123,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 444.0,
+        "top": 528.0,
+        "right": 466.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 213,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 175,
+      "pen_x": 1131,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 492.0,
+        "top": 528.0,
+        "right": 514.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 214,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 176,
+      "pen_x": 1139,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 540.0,
+        "top": 528.0,
+        "right": 562.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 215,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 177,
+      "pen_x": 1147,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 588.0,
+        "top": 528.0,
+        "right": 610.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 216,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 178,
+      "pen_x": 1155,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 636.0,
+        "top": 528.0,
+        "right": 658.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 217,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 179,
+      "pen_x": 1163,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 684.0,
+        "top": 528.0,
+        "right": 706.0,
+        "bottom": 576.0
+      }
+    },
+    {
+      "codepoint": 218,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 180,
+      "pen_x": 1171,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 12.0,
+        "top": 576.0,
+        "right": 34.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 219,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 181,
+      "pen_x": 1179,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 60.0,
+        "top": 576.0,
+        "right": 82.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 220,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 182,
+      "pen_x": 1187,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 108.0,
+        "top": 576.0,
+        "right": 130.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 221,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 183,
+      "pen_x": 1195,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 156.0,
+        "top": 576.0,
+        "right": 178.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 222,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 184,
+      "pen_x": 1203,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 204.0,
+        "top": 576.0,
+        "right": 226.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 223,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 185,
+      "pen_x": 1211,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 250.0,
+        "top": 576.0,
+        "right": 276.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 224,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 186,
+      "pen_x": 1220,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 300.0,
+        "top": 576.0,
+        "right": 322.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 225,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 187,
+      "pen_x": 1227,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 348.0,
+        "top": 576.0,
+        "right": 370.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 226,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 188,
+      "pen_x": 1234,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 396.0,
+        "top": 576.0,
+        "right": 418.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 227,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 189,
+      "pen_x": 1241,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 444.0,
+        "top": 576.0,
+        "right": 466.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 228,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 190,
+      "pen_x": 1248,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 492.0,
+        "top": 576.0,
+        "right": 514.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 229,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 191,
+      "pen_x": 1255,
+      "advance": 6,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 542.0,
+        "top": 576.0,
+        "right": 560.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 230,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 192,
+      "pen_x": 1261,
+      "advance": 11,
+      "width": 15.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 584.0,
+        "top": 576.0,
+        "right": 614.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 231,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 193,
+      "pen_x": 1272,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 636.0,
+        "top": 576.0,
+        "right": 658.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 232,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 194,
+      "pen_x": 1279,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 684.0,
+        "top": 576.0,
+        "right": 706.0,
+        "bottom": 624.0
+      }
+    },
+    {
+      "codepoint": 233,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 195,
+      "pen_x": 1286,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 12.0,
+        "top": 624.0,
+        "right": 34.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 234,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 196,
+      "pen_x": 1293,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 60.0,
+        "top": 624.0,
+        "right": 82.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 235,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 197,
+      "pen_x": 1300,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 108.0,
+        "top": 624.0,
+        "right": 130.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 236,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 198,
+      "pen_x": 1307,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 160.0,
+        "top": 624.0,
+        "right": 174.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 237,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 199,
+      "pen_x": 1311,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 208.0,
+        "top": 624.0,
+        "right": 222.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 238,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 200,
+      "pen_x": 1315,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 256.0,
+        "top": 624.0,
+        "right": 270.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 239,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 201,
+      "pen_x": 1319,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 304.0,
+        "top": 624.0,
+        "right": 318.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 240,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 202,
+      "pen_x": 1323,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 348.0,
+        "top": 624.0,
+        "right": 370.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 241,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 203,
+      "pen_x": 1330,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 396.0,
+        "top": 624.0,
+        "right": 418.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 242,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 204,
+      "pen_x": 1337,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 444.0,
+        "top": 624.0,
+        "right": 466.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 243,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 205,
+      "pen_x": 1344,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 492.0,
+        "top": 624.0,
+        "right": 514.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 244,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 206,
+      "pen_x": 1351,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 540.0,
+        "top": 624.0,
+        "right": 562.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 245,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 207,
+      "pen_x": 1358,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 588.0,
+        "top": 624.0,
+        "right": 610.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 246,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 208,
+      "pen_x": 1365,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 636.0,
+        "top": 624.0,
+        "right": 658.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 247,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 209,
+      "pen_x": 1372,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 684.0,
+        "top": 624.0,
+        "right": 706.0,
+        "bottom": 672.0
+      }
+    },
+    {
+      "codepoint": 248,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 210,
+      "pen_x": 1380,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 12.0,
+        "top": 672.0,
+        "right": 34.0,
+        "bottom": 720.0
+      }
+    },
+    {
+      "codepoint": 249,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 211,
+      "pen_x": 1387,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 60.0,
+        "top": 672.0,
+        "right": 82.0,
+        "bottom": 720.0
+      }
+    },
+    {
+      "codepoint": 250,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 212,
+      "pen_x": 1394,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 108.0,
+        "top": 672.0,
+        "right": 130.0,
+        "bottom": 720.0
+      }
+    },
+    {
+      "codepoint": 251,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 213,
+      "pen_x": 1401,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 156.0,
+        "top": 672.0,
+        "right": 178.0,
+        "bottom": 720.0
+      }
+    },
+    {
+      "codepoint": 252,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 214,
+      "pen_x": 1408,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 204.0,
+        "top": 672.0,
+        "right": 226.0,
+        "bottom": 720.0
+      }
+    },
+    {
+      "codepoint": 253,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 215,
+      "pen_x": 1416,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 252.0,
+        "top": 672.0,
+        "right": 274.0,
+        "bottom": 720.0
+      }
+    },
+    {
+      "codepoint": 254,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 216,
+      "pen_x": 1423,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 300.0,
+        "top": 672.0,
+        "right": 322.0,
+        "bottom": 720.0
+      }
+    },
+    {
+      "codepoint": 255,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 217,
+      "pen_x": 1430,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 348.0,
+        "top": 672.0,
+        "right": 370.0,
+        "bottom": 720.0
+      }
+    },
+    {
+      "codepoint": 338,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 106,
+      "pen_x": 1438,
+      "advance": 12,
+      "width": 15.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 56.0,
+        "top": 336.0,
+        "right": 86.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 339,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 119,
+      "pen_x": 1450,
+      "advance": 11,
+      "width": 15.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 680.0,
+        "top": 336.0,
+        "right": 710.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 352,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 104,
+      "pen_x": 1461,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 684.0,
+        "top": 288.0,
+        "right": 706.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 353,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 117,
+      "pen_x": 1469,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 588.0,
+        "top": 336.0,
+        "right": 610.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 376,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 121,
+      "pen_x": 1476,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 58.0,
+        "top": 384.0,
+        "right": 84.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 381,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 107,
+      "pen_x": 1485,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 108.0,
+        "top": 336.0,
+        "right": 130.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 382,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 120,
+      "pen_x": 1493,
+      "advance": 7,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 12.0,
+        "top": 384.0,
+        "right": 34.0,
+        "bottom": 432.0
+      }
+    },
+    {
+      "codepoint": 402,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 97,
+      "pen_x": 1500,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 346.0,
+        "top": 288.0,
+        "right": 372.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 710,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 102,
+      "pen_x": 1510,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 586.0,
+        "top": 288.0,
+        "right": 612.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 732,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 115,
+      "pen_x": 1520,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 490.0,
+        "top": 336.0,
+        "right": 516.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 8211,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 113,
+      "pen_x": 1530,
+      "advance": 10,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 394.0,
+        "top": 336.0,
+        "right": 420.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 8212,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 114,
+      "pen_x": 1540,
+      "advance": 20,
+      "width": 23.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 432.0,
+        "top": 336.0,
+        "right": 478.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 8216,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 108,
+      "pen_x": 1560,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 160.0,
+        "top": 336.0,
+        "right": 174.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 8217,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 109,
+      "pen_x": 1564,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 208.0,
+        "top": 336.0,
+        "right": 222.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 8218,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 96,
+      "pen_x": 1568,
+      "advance": 4,
+      "width": 7.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 304.0,
+        "top": 288.0,
+        "right": 318.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 8220,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 110,
+      "pen_x": 1572,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 252.0,
+        "top": 336.0,
+        "right": 274.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 8221,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 111,
+      "pen_x": 1580,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 300.0,
+        "top": 336.0,
+        "right": 322.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 8222,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 98,
+      "pen_x": 1588,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 396.0,
+        "top": 288.0,
+        "right": 418.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 8224,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 100,
+      "pen_x": 1596,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 490.0,
+        "top": 288.0,
+        "right": 516.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 8225,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 101,
+      "pen_x": 1605,
+      "advance": 9,
+      "width": 13.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 538.0,
+        "top": 288.0,
+        "right": 564.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 8226,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 112,
+      "pen_x": 1614,
+      "advance": 5,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 350.0,
+        "top": 336.0,
+        "right": 368.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 8230,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 99,
+      "pen_x": 1619,
+      "advance": 12,
+      "width": 15.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 440.0,
+        "top": 288.0,
+        "right": 470.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 8240,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 103,
+      "pen_x": 1631,
+      "advance": 18,
+      "width": 21.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 626.0,
+        "top": 288.0,
+        "right": 668.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 8249,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 105,
+      "pen_x": 1649,
+      "advance": 5,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 14.0,
+        "top": 336.0,
+        "right": 32.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 8250,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 118,
+      "pen_x": 1654,
+      "advance": 5,
+      "width": 9.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 638.0,
+        "top": 336.0,
+        "right": 656.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 8364,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 95,
+      "pen_x": 1659,
+      "advance": 8,
+      "width": 11.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 252.0,
+        "top": 288.0,
+        "right": 274.0,
+        "bottom": 336.0
+      }
+    },
+    {
+      "codepoint": 8482,
+      "uses_default_glyph": false,
+      "texture": "miso/_miso unprof 15x15 (doubleres).png",
+      "frame": 116,
+      "pen_x": 1667,
+      "advance": 13,
+      "width": 17.0,
+      "height": 24.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -19.0,
+      "sample_rect": {
+        "left": 534.0,
+        "top": 336.0,
+        "right": 568.0,
+        "bottom": 384.0
+      }
+    },
+    {
+      "codepoint": 65533,
+      "uses_default_glyph": false,
+      "texture": "Common default 2x1.png",
+      "frame": 1,
+      "pen_x": 1680,
+      "advance": 17,
+      "width": 19.0,
+      "height": 34.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -34.0,
+      "sample_rect": {
+        "left": 38.0,
+        "top": 0.0,
+        "right": 57.0,
+        "bottom": 34.0
+      }
+    },
+    {
+      "codepoint": 63743,
+      "uses_default_glyph": true,
+      "texture": "Common default 2x1.png",
+      "frame": 0,
+      "pen_x": 1697,
+      "advance": 17,
+      "width": 19.0,
+      "height": 34.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -34.0,
+      "sample_rect": {
+        "left": 6.0,
+        "top": 0.0,
+        "right": 25.0,
+        "bottom": 34.0
+      }
+    },
+    {
+      "codepoint": 888,
+      "uses_default_glyph": true,
+      "texture": "Common default 2x1.png",
+      "frame": 0,
+      "pen_x": 1714,
+      "advance": 17,
+      "width": 19.0,
+      "height": 34.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -34.0,
+      "sample_rect": {
+        "left": 6.0,
+        "top": 0.0,
+        "right": 25.0,
+        "bottom": 34.0
+      }
+    }
+  ]
+}

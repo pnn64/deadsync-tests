@@ -1,0 +1,1867 @@
+{
+  "schema_version": 1,
+  "oracle_schema_version": 1,
+  "font": "Unprofessional/_unprofessional small.ini",
+  "corpus": "all-complete-bmp-plus-default-and-missing",
+  "height": 100,
+  "line_spacing": 100,
+  "right_to_left": false,
+  "distance_field": false,
+  "default_stroke_color": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "line_width": 2740,
+  "line_height": 100,
+  "pages": [
+    {
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "texture_hints": "",
+      "source_size": {
+        "width": 806,
+        "height": 700
+      },
+      "image_size": {
+        "width": 1612,
+        "height": 1400
+      },
+      "frames": {
+        "width": 13,
+        "height": 7
+      },
+      "height": 100,
+      "line_spacing": 100,
+      "vertical_shift": -100.0,
+      "draw_extra_pixels_left": 0,
+      "draw_extra_pixels_right": 0
+    },
+    {
+      "texture": "Unprofessional/_game chars 36px 4x1 (doubleres).png",
+      "texture_hints": "32bpp",
+      "source_size": {
+        "width": 288,
+        "height": 72
+      },
+      "image_size": {
+        "width": 576,
+        "height": 144
+      },
+      "frames": {
+        "width": 4,
+        "height": 1
+      },
+      "height": 66,
+      "line_spacing": 72,
+      "vertical_shift": -84.0,
+      "draw_extra_pixels_left": 0,
+      "draw_extra_pixels_right": 0
+    },
+    {
+      "texture": "Common default 2x1.png",
+      "texture_hints": "",
+      "source_size": {
+        "width": 64,
+        "height": 34
+      },
+      "image_size": {
+        "width": 64,
+        "height": 34
+      },
+      "frames": {
+        "width": 2,
+        "height": 1
+      },
+      "height": 34,
+      "line_spacing": 34,
+      "vertical_shift": -34.0,
+      "draw_extra_pixels_left": 0,
+      "draw_extra_pixels_right": 0
+    }
+  ],
+  "glyphs": [
+    {
+      "codepoint": 32,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 90,
+      "pen_x": 0,
+      "advance": 13,
+      "width": 15.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1534.0,
+        "top": 1200.0,
+        "right": 1564.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 33,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 37,
+      "pen_x": 13,
+      "advance": 13,
+      "width": 15.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1410.0,
+        "top": 400.0,
+        "right": 1440.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 34,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 43,
+      "pen_x": 26,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 526.0,
+        "top": 600.0,
+        "right": 588.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 35,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 79,
+      "pen_x": 54,
+      "advance": 41,
+      "width": 43.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 142.0,
+        "top": 1200.0,
+        "right": 228.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 36,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 80,
+      "pen_x": 95,
+      "advance": 35,
+      "width": 37.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 272.0,
+        "top": 1200.0,
+        "right": 346.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 37,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 81,
+      "pen_x": 130,
+      "advance": 35,
+      "width": 37.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 396.0,
+        "top": 1200.0,
+        "right": 470.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 38,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 83,
+      "pen_x": 165,
+      "advance": 25,
+      "width": 27.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 654.0,
+        "top": 1200.0,
+        "right": 708.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 39,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 42,
+      "pen_x": 190,
+      "advance": 13,
+      "width": 15.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 418.0,
+        "top": 600.0,
+        "right": 448.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 40,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 84,
+      "pen_x": 203,
+      "advance": 17,
+      "width": 19.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 786.0,
+        "top": 1200.0,
+        "right": 824.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 41,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 85,
+      "pen_x": 220,
+      "advance": 17,
+      "width": 19.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 910.0,
+        "top": 1200.0,
+        "right": 948.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 43,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 44,
+      "pen_x": 237,
+      "advance": 25,
+      "width": 27.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 654.0,
+        "top": 600.0,
+        "right": 708.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 44,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 39,
+      "pen_x": 262,
+      "advance": 13,
+      "width": 15.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 46.0,
+        "top": 600.0,
+        "right": 76.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 45,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 46,
+      "pen_x": 275,
+      "advance": 21,
+      "width": 23.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 906.0,
+        "top": 600.0,
+        "right": 952.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 46,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 38,
+      "pen_x": 296,
+      "advance": 13,
+      "width": 15.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1534.0,
+        "top": 400.0,
+        "right": 1564.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 47,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 88,
+      "pen_x": 309,
+      "advance": 23,
+      "width": 25.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1276.0,
+        "top": 1200.0,
+        "right": 1326.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 48,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 35,
+      "pen_x": 332,
+      "advance": 29,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1146.0,
+        "top": 400.0,
+        "right": 1208.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 49,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 26,
+      "pen_x": 361,
+      "advance": 18,
+      "width": 21.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 40.0,
+        "top": 400.0,
+        "right": 82.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 50,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 27,
+      "pen_x": 379,
+      "advance": 29,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 154.0,
+        "top": 400.0,
+        "right": 216.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 51,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 28,
+      "pen_x": 408,
+      "advance": 29,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 278.0,
+        "top": 400.0,
+        "right": 340.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 52,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 29,
+      "pen_x": 437,
+      "advance": 29,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 402.0,
+        "top": 400.0,
+        "right": 464.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 53,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 30,
+      "pen_x": 466,
+      "advance": 29,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 526.0,
+        "top": 400.0,
+        "right": 588.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 54,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 31,
+      "pen_x": 495,
+      "advance": 29,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 650.0,
+        "top": 400.0,
+        "right": 712.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 55,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 32,
+      "pen_x": 524,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 774.0,
+        "top": 400.0,
+        "right": 836.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 56,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 33,
+      "pen_x": 552,
+      "advance": 29,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 898.0,
+        "top": 400.0,
+        "right": 960.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 57,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 34,
+      "pen_x": 581,
+      "advance": 29,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1022.0,
+        "top": 400.0,
+        "right": 1084.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 58,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 41,
+      "pen_x": 610,
+      "advance": 13,
+      "width": 15.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 294.0,
+        "top": 600.0,
+        "right": 324.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 59,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 40,
+      "pen_x": 623,
+      "advance": 13,
+      "width": 15.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 170.0,
+        "top": 600.0,
+        "right": 200.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 60,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 48,
+      "pen_x": 636,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1146.0,
+        "top": 600.0,
+        "right": 1208.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 61,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 45,
+      "pen_x": 664,
+      "advance": 21,
+      "width": 23.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 782.0,
+        "top": 600.0,
+        "right": 828.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 62,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 49,
+      "pen_x": 685,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1270.0,
+        "top": 600.0,
+        "right": 1332.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 63,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 36,
+      "pen_x": 713,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1270.0,
+        "top": 400.0,
+        "right": 1332.0,
+        "bottom": 600.0
+      }
+    },
+    {
+      "codepoint": 64,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 78,
+      "pen_x": 741,
+      "advance": 43,
+      "width": 45.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 16.0,
+        "top": 1200.0,
+        "right": 106.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 65,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 0,
+      "pen_x": 784,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 30.0,
+        "top": 0.0,
+        "right": 92.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 66,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 1,
+      "pen_x": 812,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 154.0,
+        "top": 0.0,
+        "right": 216.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 67,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 2,
+      "pen_x": 840,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 278.0,
+        "top": 0.0,
+        "right": 340.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 68,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 3,
+      "pen_x": 868,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 402.0,
+        "top": 0.0,
+        "right": 464.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 69,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 4,
+      "pen_x": 896,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 526.0,
+        "top": 0.0,
+        "right": 588.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 70,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 5,
+      "pen_x": 924,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 650.0,
+        "top": 0.0,
+        "right": 712.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 71,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 6,
+      "pen_x": 952,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 774.0,
+        "top": 0.0,
+        "right": 836.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 72,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 7,
+      "pen_x": 980,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 898.0,
+        "top": 0.0,
+        "right": 960.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 73,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 8,
+      "pen_x": 1008,
+      "advance": 13,
+      "width": 15.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1038.0,
+        "top": 0.0,
+        "right": 1068.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 74,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 9,
+      "pen_x": 1021,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1146.0,
+        "top": 0.0,
+        "right": 1208.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 75,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 10,
+      "pen_x": 1049,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1270.0,
+        "top": 0.0,
+        "right": 1332.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 76,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 11,
+      "pen_x": 1077,
+      "advance": 25,
+      "width": 27.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1398.0,
+        "top": 0.0,
+        "right": 1452.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 77,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 12,
+      "pen_x": 1102,
+      "advance": 43,
+      "width": 45.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1504.0,
+        "top": 0.0,
+        "right": 1594.0,
+        "bottom": 200.0
+      }
+    },
+    {
+      "codepoint": 78,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 13,
+      "pen_x": 1145,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 30.0,
+        "top": 200.0,
+        "right": 92.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 79,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 14,
+      "pen_x": 1173,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 154.0,
+        "top": 200.0,
+        "right": 216.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 80,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 15,
+      "pen_x": 1201,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 278.0,
+        "top": 200.0,
+        "right": 340.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 81,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 16,
+      "pen_x": 1229,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 402.0,
+        "top": 200.0,
+        "right": 464.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 82,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 17,
+      "pen_x": 1257,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 526.0,
+        "top": 200.0,
+        "right": 588.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 83,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 18,
+      "pen_x": 1285,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 650.0,
+        "top": 200.0,
+        "right": 712.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 84,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 19,
+      "pen_x": 1313,
+      "advance": 25,
+      "width": 27.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 778.0,
+        "top": 200.0,
+        "right": 832.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 85,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 20,
+      "pen_x": 1338,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 898.0,
+        "top": 200.0,
+        "right": 960.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 86,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 21,
+      "pen_x": 1366,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1022.0,
+        "top": 200.0,
+        "right": 1084.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 87,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 22,
+      "pen_x": 1394,
+      "advance": 43,
+      "width": 45.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1132.0,
+        "top": 200.0,
+        "right": 1222.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 88,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 23,
+      "pen_x": 1437,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1270.0,
+        "top": 200.0,
+        "right": 1332.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 89,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 24,
+      "pen_x": 1465,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1394.0,
+        "top": 200.0,
+        "right": 1456.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 90,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 25,
+      "pen_x": 1493,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1518.0,
+        "top": 200.0,
+        "right": 1580.0,
+        "bottom": 400.0
+      }
+    },
+    {
+      "codepoint": 91,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 50,
+      "pen_x": 1521,
+      "advance": 17,
+      "width": 19.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1406.0,
+        "top": 600.0,
+        "right": 1444.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 92,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 89,
+      "pen_x": 1538,
+      "advance": 23,
+      "width": 25.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1400.0,
+        "top": 1200.0,
+        "right": 1450.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 93,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 51,
+      "pen_x": 1561,
+      "advance": 17,
+      "width": 19.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1530.0,
+        "top": 600.0,
+        "right": 1568.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 94,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 82,
+      "pen_x": 1578,
+      "advance": 43,
+      "width": 45.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 512.0,
+        "top": 1200.0,
+        "right": 602.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 95,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 47,
+      "pen_x": 1621,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1022.0,
+        "top": 600.0,
+        "right": 1084.0,
+        "bottom": 800.0
+      }
+    },
+    {
+      "codepoint": 97,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 52,
+      "pen_x": 1649,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 30.0,
+        "top": 800.0,
+        "right": 92.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 98,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 53,
+      "pen_x": 1677,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 154.0,
+        "top": 800.0,
+        "right": 216.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 99,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 54,
+      "pen_x": 1705,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 278.0,
+        "top": 800.0,
+        "right": 340.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 100,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 55,
+      "pen_x": 1733,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 402.0,
+        "top": 800.0,
+        "right": 464.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 101,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 56,
+      "pen_x": 1761,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 526.0,
+        "top": 800.0,
+        "right": 588.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 102,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 57,
+      "pen_x": 1789,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 650.0,
+        "top": 800.0,
+        "right": 712.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 103,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 58,
+      "pen_x": 1817,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 774.0,
+        "top": 800.0,
+        "right": 836.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 104,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 59,
+      "pen_x": 1845,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 898.0,
+        "top": 800.0,
+        "right": 960.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 105,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 60,
+      "pen_x": 1873,
+      "advance": 13,
+      "width": 15.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1038.0,
+        "top": 800.0,
+        "right": 1068.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 106,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 61,
+      "pen_x": 1886,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1146.0,
+        "top": 800.0,
+        "right": 1208.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 107,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 62,
+      "pen_x": 1914,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1270.0,
+        "top": 800.0,
+        "right": 1332.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 108,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 63,
+      "pen_x": 1942,
+      "advance": 25,
+      "width": 27.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1398.0,
+        "top": 800.0,
+        "right": 1452.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 109,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 64,
+      "pen_x": 1967,
+      "advance": 43,
+      "width": 45.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1504.0,
+        "top": 800.0,
+        "right": 1594.0,
+        "bottom": 1000.0
+      }
+    },
+    {
+      "codepoint": 110,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 65,
+      "pen_x": 2010,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 30.0,
+        "top": 1000.0,
+        "right": 92.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 111,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 66,
+      "pen_x": 2038,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 154.0,
+        "top": 1000.0,
+        "right": 216.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 112,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 67,
+      "pen_x": 2066,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 278.0,
+        "top": 1000.0,
+        "right": 340.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 113,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 68,
+      "pen_x": 2094,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 402.0,
+        "top": 1000.0,
+        "right": 464.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 114,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 69,
+      "pen_x": 2122,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 526.0,
+        "top": 1000.0,
+        "right": 588.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 115,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 70,
+      "pen_x": 2150,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 650.0,
+        "top": 1000.0,
+        "right": 712.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 116,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 71,
+      "pen_x": 2178,
+      "advance": 25,
+      "width": 27.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 778.0,
+        "top": 1000.0,
+        "right": 832.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 117,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 72,
+      "pen_x": 2203,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 898.0,
+        "top": 1000.0,
+        "right": 960.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 118,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 73,
+      "pen_x": 2231,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1022.0,
+        "top": 1000.0,
+        "right": 1084.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 119,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 74,
+      "pen_x": 2259,
+      "advance": 43,
+      "width": 45.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1132.0,
+        "top": 1000.0,
+        "right": 1222.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 120,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 75,
+      "pen_x": 2302,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1270.0,
+        "top": 1000.0,
+        "right": 1332.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 121,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 76,
+      "pen_x": 2330,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1394.0,
+        "top": 1000.0,
+        "right": 1456.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 122,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 77,
+      "pen_x": 2358,
+      "advance": 28,
+      "width": 31.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1518.0,
+        "top": 1000.0,
+        "right": 1580.0,
+        "bottom": 1200.0
+      }
+    },
+    {
+      "codepoint": 123,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 86,
+      "pen_x": 2386,
+      "advance": 23,
+      "width": 25.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1028.0,
+        "top": 1200.0,
+        "right": 1078.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 125,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 87,
+      "pen_x": 2409,
+      "advance": 23,
+      "width": 25.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1152.0,
+        "top": 1200.0,
+        "right": 1202.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 160,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_unprofessional small 13x7 (doubleres).png",
+      "frame": 90,
+      "pen_x": 2432,
+      "advance": 13,
+      "width": 15.0,
+      "height": 100.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -100.0,
+      "sample_rect": {
+        "left": 1534.0,
+        "top": 1200.0,
+        "right": 1564.0,
+        "bottom": 1400.0
+      }
+    },
+    {
+      "codepoint": 57357,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_game chars 36px 4x1 (doubleres).png",
+      "frame": 0,
+      "pen_x": 2445,
+      "advance": 61,
+      "width": 63.0,
+      "height": 72.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -84.0,
+      "sample_rect": {
+        "left": 8.0,
+        "top": 0.0,
+        "right": 134.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 57360,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_game chars 36px 4x1 (doubleres).png",
+      "frame": 2,
+      "pen_x": 2506,
+      "advance": 61,
+      "width": 63.0,
+      "height": 72.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -84.0,
+      "sample_rect": {
+        "left": 296.0,
+        "top": 0.0,
+        "right": 422.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 57363,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_game chars 36px 4x1 (doubleres).png",
+      "frame": 1,
+      "pen_x": 2567,
+      "advance": 61,
+      "width": 63.0,
+      "height": 72.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -84.0,
+      "sample_rect": {
+        "left": 152.0,
+        "top": 0.0,
+        "right": 278.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 57384,
+      "uses_default_glyph": false,
+      "texture": "Unprofessional/_game chars 36px 4x1 (doubleres).png",
+      "frame": 3,
+      "pen_x": 2628,
+      "advance": 61,
+      "width": 63.0,
+      "height": 72.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -84.0,
+      "sample_rect": {
+        "left": 440.0,
+        "top": 0.0,
+        "right": 566.0,
+        "bottom": 144.0
+      }
+    },
+    {
+      "codepoint": 65533,
+      "uses_default_glyph": false,
+      "texture": "Common default 2x1.png",
+      "frame": 1,
+      "pen_x": 2689,
+      "advance": 17,
+      "width": 19.0,
+      "height": 34.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -34.0,
+      "sample_rect": {
+        "left": 38.0,
+        "top": 0.0,
+        "right": 57.0,
+        "bottom": 34.0
+      }
+    },
+    {
+      "codepoint": 63743,
+      "uses_default_glyph": true,
+      "texture": "Common default 2x1.png",
+      "frame": 0,
+      "pen_x": 2706,
+      "advance": 17,
+      "width": 19.0,
+      "height": 34.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -34.0,
+      "sample_rect": {
+        "left": 6.0,
+        "top": 0.0,
+        "right": 25.0,
+        "bottom": 34.0
+      }
+    },
+    {
+      "codepoint": 888,
+      "uses_default_glyph": true,
+      "texture": "Common default 2x1.png",
+      "frame": 0,
+      "pen_x": 2723,
+      "advance": 17,
+      "width": 19.0,
+      "height": 34.0,
+      "horizontal_shift": -2.0,
+      "vertical_shift": -34.0,
+      "sample_rect": {
+        "left": 6.0,
+        "top": 0.0,
+        "right": 25.0,
+        "bottom": 34.0
+      }
+    }
+  ]
+}
