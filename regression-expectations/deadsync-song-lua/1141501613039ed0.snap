@@ -1,0 +1,18 @@
+song/tests/rust_song_activation.rs::compare_sampled_perframes::eq1
+test: sampled_perframes_keep_gap_holds_and_side_effect_only_diagnostics
+false
+false
+false
+false
+test: sampled_perframes_keep_prefix_global_order_overlaps_raw_holes_and_player_curves
+false
+false
+test: sampled_perframes_replay_messages_in_stable_order_and_filter_queued_blocks
+false
+false
+false
+false
+test: sampled_perframes_restore_clocks_after_errors_and_keep_partial_script_writes
+true
+test: sampled_perframes_root_future_callbacks_and_release_consumed_inputs_after_gc
+false

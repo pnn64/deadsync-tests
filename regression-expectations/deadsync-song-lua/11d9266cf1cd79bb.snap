@@ -1,0 +1,12 @@
+song/tests/rust_live_frames.rs::health_error
+test: disabled_following_player_keeps_health_fallback_after_nested_life_write
+true
+test: health_notification_can_write_the_following_player_before_its_health_read
+false
+test: health_partial_errors_keep_prior_status_and_recover_without_duplicate_notifications
+true
+false
+test: health_thresholds_and_fail_off_match_native_phase
+false
+test: released_live_owners_reject_use_and_new_owner_resets_health_publication
+false

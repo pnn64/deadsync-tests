@@ -1,0 +1,20 @@
+song/tests/rust_song_activation.rs::compare_indexed_actor_capture::eq3
+test: indexed_actor_capture_errors_rewind_state_and_restore_reentrant_properties
+(0.0, 0.0)
+(0.0, 0.0)
+test: indexed_actor_capture_keeps_nested_queue_output_and_outer_script_mutations
+(0.0, 0.0)
+(0.0, 0.0)
+test: indexed_actor_capture_limit_errors_restore_metadata_and_allow_later_capture
+(0.0, 0.0)
+test: indexed_actor_capture_preserves_order_duplicates_state_and_runtime_clock
+(2.0, 3.0)
+test: indexed_actor_capture_preserves_preexisting_tween_queue_steps
+(0.0, 0.0)
+test: indexed_actor_capture_restores_media_effects_raw_tables_and_wrapper_membership
+(0.0, 0.0)
+test: indexed_actor_capture_roots_first_return_through_restoration_then_releases_it
+(0.0, 0.0)
+test: indexed_actor_capture_snapshot_errors_keep_native_clock_boundary_and_recover
+(7.0, 7.0)
+(7.0, 7.0)

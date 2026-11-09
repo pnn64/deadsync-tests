@@ -1,0 +1,15 @@
+song/tests/rust_song_activation.rs::compare_static_schedule::eq5
+test: static_schedule_composes_prefix_global_mods_eases_actions_and_perframe_inputs
+"[[], [], [], [], [], [], [], [], [], [], []]"
+test: static_schedule_keeps_prefix_lookup_order_soft_perframe_errors_and_fresh_globals
+"[[], [], [], [], [], [], [], [], [], [], []]"
+"[[], [], [], [], [], [], [], [], [], [], []]"
+test: static_schedule_retains_selected_perframe_tables_after_global_replacement
+"[[], [], [], [], [], [], [], [], [], [], []]"
+test: static_schedule_skips_reader_owned_tables_by_identity_and_initialized_presence
+"[[], [], [], [], [], [], [], [], [], [], []]"
+"[[], [], [], [], [], [], [], [], [], [], []]"
+test: static_schedule_xero_captures_retain_future_functions_and_release_parsed_tables
+"[[], [], [], [], [], [], [], [], [], [], []]"
+test: static_schedule_xero_nodes_keep_first_winner_sparse_pairs_state_and_capture_dedup
+"[[], [], [], [], [], [], [], [], [], [], []]"

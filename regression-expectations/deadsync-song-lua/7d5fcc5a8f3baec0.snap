@@ -1,0 +1,3 @@
+song/tests/rust_song_activation.rs::zero_update_snapshot_keeps_removed_actors_and_strips_only_unchanged_prefixes::eq1
+test: zero_update_snapshot_keeps_removed_actors_and_strips_only_unchanged_prefixes
+3

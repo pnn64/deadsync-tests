@@ -1,0 +1,32 @@
+song/tests/rust_generated_players.rs::writes
+test: constructors_own_attack_display_and_preserve_actor_methods
+(368, 3708975810850800404, [])
+(1952, 16759070395331504165, [])
+(368, 3708975810850800404, [])
+(1952, 16759070395331504165, [])
+test: errors_keep_native_partial_writes_and_clear_recursion_guard
+(368, 3708975810850800404, [])
+(1307, 10836619759645388654, [])
+(368, 3708975810850800404, [])
+(1307, 10836619759645388654, [SetLife { player: 0, life: 0.125 }, SetLife { player: 0, life: 0.25 }, SetLife { player: 0, life: 0.375 }, SetLife { player: 0, life: 0.5 }])
+test: execution_limit_unwinds_life_notification_and_allows_later_updates
+(368, 3708975810850800404, [])
+(59, 11730322675667309667, [])
+test: life_queries_capture_meter_and_distinguish_live_value_from_local_flags
+(368, 3708975810850800404, [])
+(422, 2508267816470028205, [])
+(273, 2645770639491507976, [])
+(368, 3708975810850800404, [])
+(422, 2508267816470028205, [])
+(273, 2645770639491507976, [])
+test: meter_getters_can_reenter_collect_and_replace_their_receiver_fields
+(368, 3708975810850800404, [])
+(486, 6669664243092006969, [])
+test: released_player_scene_unsubscribes_and_releases_generated_owners
+(368, 3708975810850800404, [])
+(293, 13972619706864632701, [])
+test: set_life_updates_shared_stats_and_notifies_before_side_effect
+(368, 3708975810850800404, [])
+(1245, 5505339953682967818, [])
+(368, 3708975810850800404, [])
+(1245, 5505339953682967818, [SetLife { player: 0, life: 0.2 }, SetLife { player: 0, life: 1.0 }, SetLife { player: 0, life: 0.0 }, SetLife { player: 0, life: 0.625 }, SetLife { player: 0, life: 0.5 }, SetLife { player: 0, life: 0.375 }])

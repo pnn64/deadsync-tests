@@ -1,0 +1,23 @@
+song/tests/rust_song_activation.rs::compare_static_schedule::eq7
+test: static_schedule_composes_prefix_global_mods_eases_actions_and_perframe_inputs
+Some("prefix")
+Some("global")
+test: static_schedule_keeps_prefix_lookup_order_soft_perframe_errors_and_fresh_globals
+None
+Some("global")
+Some("raw")
+Some("raw")
+test: static_schedule_retains_selected_perframe_tables_after_global_replacement
+None
+None
+test: static_schedule_skips_reader_owned_tables_by_identity_and_initialized_presence
+None
+Some("runtime")
+None
+None
+test: static_schedule_xero_captures_retain_future_functions_and_release_parsed_tables
+None
+None
+test: static_schedule_xero_nodes_keep_first_winner_sparse_pairs_state_and_capture_dedup
+None
+None

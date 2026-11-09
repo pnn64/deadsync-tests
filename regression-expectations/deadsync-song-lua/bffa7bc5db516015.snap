@@ -1,0 +1,3 @@
+song/tests/rust_song_activation.rs::function_action_sound_manager_preserves_partial_errors_gc_and_runtime_message_context::eq1
+test: function_action_sound_manager_preserves_partial_errors_gc_and_runtime_message_context
+[SongLuaSoundEvent { beat: 4.0, path: "$FIXTURE0/runtime.wav", source_message: None, queued_startup: true }, SongLuaSoundEvent { beat: 4.0, path: "$FIXTURE0/runtime.wav", source_message: Some("Capture"), queued_startup: true }]

@@ -1,0 +1,21 @@
+song/tests/rust_song_activation.rs::compare_actor_messages::eq2
+test: actor_messages_failures_defer_once_and_keep_actor_roots_through_retirement
+[]
+[]
+test: actor_messages_scan_freezes_sorted_names_restores_history_and_extracts_sounds
+[("Tone", "$FIXTURE0/message.wav"), ("Tone", "$FIXTURE0/message.wav")]
+test: message_retry_deferred_rejects_unrepresentable_sound_music_broadcast_and_state_changes
+[]
+[]
+[]
+[]
+test: message_retry_deferred_success_captures_source_cross_tracked_and_repeated_sounds
+[]
+test: message_retry_removed_handler_preserves_prior_publication_and_consumes_records_on_error
+[]
+[]
+test: message_retry_runtime_capture_coverage_and_missing_overlay_consume_without_retry
+[]
+[]
+test: message_retry_successful_chronological_delivery_marks_observed_even_without_writes
+[]

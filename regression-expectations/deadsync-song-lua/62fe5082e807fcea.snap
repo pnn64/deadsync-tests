@@ -1,0 +1,40 @@
+song/tests/rust_gameplay_reload.rs::selected
+test: context_uses_retained_chart_identity_metadata_and_missing_selection_fallbacks
+([Some(0), Some(1)], [Easy, Hard], "single", [None, None], "gameplay reconstruction")
+([Some(1), Some(1)], [Hard, Hard], "single", [None, None], "gameplay reconstruction")
+([None, Some(1)], [Challenge, Hard], "single", [None, None], "gameplay reconstruction")
+([None, None], [Medium, Challenge], "single", [None, None], "gameplay reconstruction")
+([Some(0), Some(1)], [Easy, Hard], "single", [None, None], "gameplay reconstruction")
+([Some(1), Some(1)], [Hard, Hard], "single", [None, None], "gameplay reconstruction")
+([None, Some(1)], [Challenge, Hard], "single", [None, None], "gameplay reconstruction")
+([None, None], [Medium, Challenge], "single", [None, None], "gameplay reconstruction")
+test: initial_screen_seeds_nonhuman_chart_and_loads_all_original_phases
+([Some(0), Some(0)], [Easy, Easy], "single", [None, None], "gameplay reconstruction")
+([Some(1), Some(1)], [Hard, Hard], "single", [None, None], "gameplay reconstruction")
+([Some(0), Some(1)], [Easy, Hard], "single", [None, None], "gameplay reconstruction")
+([Some(0), Some(1)], [Easy, Hard], "single", [None, None], "gameplay reconstruction")
+([Some(0), Some(0)], [Easy, Easy], "single", [None, None], "gameplay reconstruction")
+([Some(1), Some(1)], [Hard, Hard], "single", [None, None], "gameplay reconstruction")
+([Some(0), Some(1)], [Easy, Hard], "single", [None, None], "gameplay reconstruction")
+([Some(0), Some(1)], [Easy, Hard], "single", [None, None], "gameplay reconstruction")
+test: rebuild_preserves_process_state_and_rng_but_resets_options_statistics_clock_and_subscriptions
+([Some(1), Some(1)], [Hard, Hard], "single", [None, None], "gameplay reconstruction")
+([Some(1), Some(1)], [Hard, Hard], "single", [None, None], "gameplay reconstruction")
+test: repeated_reconstruction_releases_outgoing_scene_roots_after_collection
+([Some(0), Some(0)], [Easy, Easy], "single", [None, None], "gameplay reconstruction")
+([Some(0), Some(0)], [Easy, Easy], "single", [None, None], "gameplay reconstruction")
+([Some(0), Some(0)], [Easy, Easy], "single", [None, None], "gameplay reconstruction")
+([Some(0), Some(0)], [Easy, Easy], "single", [None, None], "gameplay reconstruction")
+test: replacement_resets_screen_input_map_and_keeps_saved_methods_bound_to_new_map
+([Some(0), Some(0)], [Easy, Easy], "single", [None, None], "gameplay reconstruction")
+test: selected_context_uses_chart_timing_and_keeps_supplied_fallback_when_timing_is_missing
+([Some(0), Some(1)], [Easy, Hard], "single", [Some(TimingData { row_to_beat: [], bpms: [BpmPoint { beat: 0.0, bpm: 90.0 }], stops: [], delays: [], warps: [], speeds: [], scrolls: [], fakes: [], time_signatures: [TimeSignatureSegment { beat: 0.0, numerator: 4, denominator: 4 }], speed_runtime: [], scroll_prefix: [], pause_rows_sorted: [false, false], scroll_prefix_sorted: true, bpms_strictly_sorted: true, global_offset_sec: 0.0, global_offset_rate: 1.0, global_offset_ns: 0, beat0_offset_ns: -1000000000, native_song_offset_sec: -1.0, native_group_offset_sec: 0.0, max_bpm: 90.0 }), Some(TimingData { row_to_beat: [], bpms: [BpmPoint { beat: 0.0, bpm: 180.0 }], stops: [], delays: [], warps: [], speeds: [], scrolls: [], fakes: [], time_signatures: [TimeSignatureSegment { beat: 0.0, numerator: 4, denominator: 4 }], speed_runtime: [], scroll_prefix: [], pause_rows_sorted: [false, false], scroll_prefix_sorted: true, bpms_strictly_sorted: true, global_offset_sec: 0.0, global_offset_rate: 1.0, global_offset_ns: 0, beat0_offset_ns: -2000000000, native_song_offset_sec: -2.0, native_group_offset_sec: 0.0, max_bpm: 180.0 })], "gameplay reconstruction")
+([Some(1), Some(1)], [Hard, Hard], "single", [Some(TimingData { row_to_beat: [], bpms: [BpmPoint { beat: 0.0, bpm: 180.0 }], stops: [], delays: [], warps: [], speeds: [], scrolls: [], fakes: [], time_signatures: [TimeSignatureSegment { beat: 0.0, numerator: 4, denominator: 4 }], speed_runtime: [], scroll_prefix: [], pause_rows_sorted: [false, false], scroll_prefix_sorted: true, bpms_strictly_sorted: true, global_offset_sec: 0.0, global_offset_rate: 1.0, global_offset_ns: 0, beat0_offset_ns: -2000000000, native_song_offset_sec: -2.0, native_group_offset_sec: 0.0, max_bpm: 180.0 }), Some(TimingData { row_to_beat: [], bpms: [BpmPoint { beat: 0.0, bpm: 180.0 }], stops: [], delays: [], warps: [], speeds: [], scrolls: [], fakes: [], time_signatures: [TimeSignatureSegment { beat: 0.0, numerator: 4, denominator: 4 }], speed_runtime: [], scroll_prefix: [], pause_rows_sorted: [false, false], scroll_prefix_sorted: true, bpms_strictly_sorted: true, global_offset_sec: 0.0, global_offset_rate: 1.0, global_offset_ns: 0, beat0_offset_ns: -2000000000, native_song_offset_sec: -2.0, native_group_offset_sec: 0.0, max_bpm: 180.0 })], "gameplay reconstruction")
+([Some(1), Some(1)], [Hard, Hard], "single", [Some(TimingData { row_to_beat: [], bpms: [BpmPoint { beat: 0.0, bpm: 240.0 }], stops: [], delays: [], warps: [], speeds: [], scrolls: [], fakes: [], time_signatures: [TimeSignatureSegment { beat: 0.0, numerator: 4, denominator: 4 }], speed_runtime: [], scroll_prefix: [], pause_rows_sorted: [false, false], scroll_prefix_sorted: true, bpms_strictly_sorted: true, global_offset_sec: 0.0, global_offset_rate: 1.0, global_offset_ns: 0, beat0_offset_ns: -3000000000, native_song_offset_sec: -3.0, native_group_offset_sec: 0.0, max_bpm: 240.0 }), None], "gameplay reconstruction")
+([None, Some(1)], [Challenge, Hard], "single", [Some(TimingData { row_to_beat: [], bpms: [BpmPoint { beat: 0.0, bpm: 240.0 }], stops: [], delays: [], warps: [], speeds: [], scrolls: [], fakes: [], time_signatures: [TimeSignatureSegment { beat: 0.0, numerator: 4, denominator: 4 }], speed_runtime: [], scroll_prefix: [], pause_rows_sorted: [false, false], scroll_prefix_sorted: true, bpms_strictly_sorted: true, global_offset_sec: 0.0, global_offset_rate: 1.0, global_offset_ns: 0, beat0_offset_ns: -3000000000, native_song_offset_sec: -3.0, native_group_offset_sec: 0.0, max_bpm: 240.0 }), None], "gameplay reconstruction")
+test: style_projection_keeps_native_fallback_reentry_and_read_order
+([Some(0), Some(1)], [Easy, Hard], "double", [None, None], "gameplay reconstruction")
+([Some(1), Some(1)], [Hard, Hard], "double", [None, None], "gameplay reconstruction")
+([Some(1), Some(1)], [Hard, Hard], "couple", [None, None], "gameplay reconstruction")
+([Some(1), Some(1)], [Hard, Hard], "single", [None, None], "gameplay reconstruction")
+([Some(1), Some(1)], [Hard, Hard], "routine", [None, None], "gameplay reconstruction")

@@ -1,0 +1,3 @@
+song/tests/rust_song_compiler.rs::startup_error
+test: unsupported_startup_screen_request_is_rejected
+"song Lua startup requested unsupported screen 'ScreenSelectMusic'"

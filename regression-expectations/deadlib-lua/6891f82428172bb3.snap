@@ -1,0 +1,3 @@
+tests/stdlib.rs::random_state_is_shared_between_vms_on_the_same_os_thread::expected
+test: random_state_is_shared_between_vms_on_the_same_os_thread
+[0.013428144169438765, 0.5814691610461745, 0.7042146061586352]

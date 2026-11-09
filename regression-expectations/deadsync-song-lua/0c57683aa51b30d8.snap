@@ -1,0 +1,11 @@
+song/tests/rust_song_activation.rs::compare_command_scope::eq3
+test: command_local_scopes_capture_commands_reached_by_play_queue_and_broadcast
+"2,2,2"
+"2,2,2"
+test: command_local_scopes_keep_custom_environment_bindings_and_restore_referenced_tables
+"1,1"
+"2,1"
+test: command_local_scopes_restore_after_callback_errors_and_instruction_limits
+"1"
+test: command_local_scopes_restore_shared_cells_cycles_and_detached_commands_after_gc
+"detached"

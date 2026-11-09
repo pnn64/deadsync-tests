@@ -1,0 +1,6 @@
+song/tests/rust_models.rs::fixture_paths
+test: existing_model_material_fixture_loads_identical_owned_geometry_and_materials
+("Triangle", ["$FIXTURE0model-material/triangle.txt", "$FIXTURE0model-material/triangle.txt", "$FIXTURE0model-material/triangle.txt"])
+("Unassigned", ["$FIXTURE0model-material/unassigned.txt", "$FIXTURE0model-material/unassigned.txt", "$FIXTURE0model-material/unassigned.txt"])
+("Cyber", ["$FIXTURE0model-material/../../../../assets/noteskins/dance/cyber/_down tap note model.txt", "$FIXTURE0model-material/../../../../assets/noteskins/dance/cyber/_down tap note model.txt", "$FIXTURE0model-material/../../../../assets/noteskins/dance/cyber/_down tap note model.txt"])
+("DarkCyber", ["$FIXTURE0model-material/../../../../assets/noteskins/dance/cyber/_down tap note model.txt", "$FIXTURE0model-material/../../../../assets/noteskins/dance/cyber/_down tap note model.txt", "$FIXTURE0model-material/../../../../assets/noteskins/dance/cyber/_down tap note model.txt"])

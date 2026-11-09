@@ -1,0 +1,7 @@
+song/tests/rust_input.rs::predicate_compilation
+test: compiled_predicates_match_lua_for_all_event_fields_and_reject_side_effects
+(31, 7933965237942683781, false)
+(13, 13217221527821629350, false)
+(25, 715321066964734231, false)
+(19, 17563638308260654110, false)
+(30, 3701009752285417541, true)

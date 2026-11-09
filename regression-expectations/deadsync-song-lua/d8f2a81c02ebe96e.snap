@@ -1,0 +1,13 @@
+song/tests/rust_song_activation.rs::compare_function_probe_state::eq2
+test: function_probe_state_errors_rewind_removed_functions_and_allow_recovery
+true
+false
+test: function_probe_state_handles_large_shared_graphs_and_native_function_roots
+false
+false
+test: function_probe_state_restores_custom_environments_and_referenced_helpers
+false
+test: function_probe_state_restores_shared_cells_cycles_helpers_and_global_bindings
+false
+test: function_probe_state_roots_new_return_values_and_retains_aliases_after_gc
+false

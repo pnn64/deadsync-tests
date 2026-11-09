@@ -1,0 +1,3 @@
+song/tests/rust_screen_assembly.rs::failed_constructor_count
+test: failed_screen_construction_releases_partial_actors_and_allows_recovery
+1.0

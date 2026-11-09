@@ -1,0 +1,31 @@
+song/tests/rust_live_compiler.rs::observations
+test: dynamic_command_source_scope_preserves_the_selected_observer_profile
+[]
+[]
+test: empty_live_session_keeps_the_screen_and_zero_authored_entries
+[]
+test: malformed_live_file_keeps_rust_dummy_fallback_and_prior_side_effects
+[]
+test: original_unsupported_statistics_getlife_fixture_remains_a_rejection_control
+[]
+test: replacement_init_does_not_observe_the_previous_frames_live_player_feedback
+["3fe0000000000000", "3fe0000000000000", "3fe0000000000000", "3fe0000000000000"]
+test: retained_scene_reload_runs_end_then_rebuilds_in_the_same_vm
+[]
+["0000000000000000", "3fefe8f01d6d583e", "3fedd78289170ce5", "[111, 110, 49, 59, 117, 112, 100, 97, 116, 101, 49, 59, 117, 112, 100, 97, 116, 101, 49, 59, 101, 110, 100, 49, 59, 111, 110, 50, 59, 117, 112, 100, 97, 116, 101, 50]"]
+["[111, 110, 49, 59, 117, 112, 100, 97, 116, 101, 49, 59, 117, 112, 100, 97, 116, 101, 49, 59, 101, 110, 100, 49, 59, 111, 110, 50, 59, 117, 112, 100, 97, 116, 101, 50, 59, 117, 112, 100, 97, 116, 101, 50, 59, 101, 110, 100, 50, 59, 111, 110, 51, 59, 117, 112, 100, 97, 116, 101, 51]", "3fc06661c48003bc"]
+test: saved_scalar_getters_and_writes_revert_to_lua_backing_after_reload
+[]
+["4014000000000000", "401c000000000000", "4022000000000000", "4014000000000000", "3ff8000000000000", "4004000000000000", "400c000000000000", "0000000000000000", "3ff0000000000000", "4028000000000000", "4050800000000000", "3fe0000000000000", "3fe0000000000000"]
+["4020000000000000", "4026000000000000", "4026000000000000", "4020000000000000", "4000000000000000", "4018000000000000"]
+["[81]", "4020000000000000"]
+test: sound_owner_events_survive_startup_and_runtime_reload_in_native_order
+[]
+[]
+test: source_callback_scope_survives_nested_theme_gc_and_unwinds_after_error
+[]
+test: startup_reloads_preserve_globals_rng_end_order_and_saved_actor_ownership
+["[111, 110, 49, 59, 117, 112, 100, 97, 116, 101, 49, 59, 101, 110, 100, 49, 59, 111, 110, 50, 59, 117, 112, 100, 97, 116, 101, 50, 59, 101, 110, 100, 50, 59, 111, 110, 51, 59, 117, 112, 100, 97, 116, 101, 51]", "3fefe8f01d6d583e", "3fedd78289170ce5", "3fc06661c48003bc"]
+test: unified_live_compilation_freezes_initial_assets_and_retains_future_callbacks
+[]
+["4043ffffe0000000", "3fc99999a0000000", "[111, 110, 49, 59, 117, 112, 100, 97, 116, 101, 49, 59, 117, 112, 100, 97, 116, 101, 49, 59, 117, 112, 100, 97, 116, 101, 49]"]

@@ -1,0 +1,13 @@
+song/tests/rust_song_activation.rs::compare_column_eases::eq3
+test: column_eases_endpoint_capture_keeps_metadata_clocks_shared_cells_rng_and_original_splines
+(0.0, 0.0)
+(0.0, 0.0)
+test: column_eases_endpoint_errors_keep_native_body_sample_and_restore_priority
+(0.0, 0.0)
+(0.0, 0.0)
+(0.0, 0.0)
+(4.0, 4.0)
+test: column_eases_endpoint_first_return_stays_alive_during_authored_restoration
+(0.0, 0.0)
+test: column_eases_snapshot_failure_preserves_selected_clock_and_does_not_call_body
+(4.0, 4.0)

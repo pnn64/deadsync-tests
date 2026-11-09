@@ -1,0 +1,5 @@
+song/tests/rust_song_activation.rs::startup_broadcast_capture_preserves_phase_params_and_nested_delivery::eq1
+test: startup_broadcast_capture_preserves_phase_params_and_nested_delivery
+[(0.0, "UpdateEvent", true), (0.0, "NestedEvent", false), (0.0, "NilParams", true)]
+[(0.0, "InitEvent", false), (0.0, "BeginEvent", false), (0.0, "ScreenChanged", false), (0.0, "OnEvent", true), (0.0, "UpdateEvent", true), (0.0, "NestedEvent", false), (0.0, "NilParams", true)]
+[(0.0, "InitEvent", false), (0.0, "BeginEvent", false), (0.0, "ScreenChanged", false), (0.0, "OnEvent", true)]

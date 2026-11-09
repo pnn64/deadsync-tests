@@ -1,0 +1,6 @@
+tests/syntax.rs::embedded_nul::expected
+test: embedded_nul_scanner_quirks_preserve_executable_values
+[Number(1.0)]
+[Number(1.0)]
+[Number(1.0)]
+[]

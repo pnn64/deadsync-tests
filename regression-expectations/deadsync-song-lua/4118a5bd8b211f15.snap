@@ -1,0 +1,11 @@
+song/tests/rust_song_multitap.rs::hits
+test: double_two_player_decorations_and_existing_visuals_match
+true
+test: hit_command_capture_rewinds_shared_locals_globals_and_rng
+true
+test: hit_command_failures_remove_temporary_commands_and_preserve_actor_state
+false
+test: numbered_factory_curves_and_missing_visuals_match
+true
+test: precision_collapsed_beat_edges_preserve_replay_fallback
+true

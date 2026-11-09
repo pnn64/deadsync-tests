@@ -1,0 +1,10 @@
+song/tests/rust_song_activation.rs::startup_order_retained_init_globals_options_and_requests_match_compiler::eq4
+test: startup_order_retained_init_globals_options_and_requests_match_compiler
+"actions"
+"perframes"
+"mods"
+"eases"
+"actions"
+"perframes"
+"mods"
+"eases"

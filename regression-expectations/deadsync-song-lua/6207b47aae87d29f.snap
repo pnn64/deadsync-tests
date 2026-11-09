@@ -1,0 +1,4 @@
+song/tests/rust_theme.rs::bitmap
+test: theme_font_paths_and_metrics_feed_owned_actor_resources
+BitmapText { font: Some(("miso", "assets/fonts/miso/_miso light.ini")), text: "Hard", stroke_color: None, attributes: [] }
+BitmapText { font: Some(("miso", "assets/fonts/miso/_miso light.ini")), text: "Hard", stroke_color: None, attributes: [] }

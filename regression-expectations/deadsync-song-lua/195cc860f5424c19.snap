@@ -1,0 +1,8 @@
+song/tests/rust_top_screen.rs::requests
+test: transitions_keep_off_order_out_activation_and_request_commit_boundaries
+(None, [])
+(None, [])
+(None, [])
+(Some(Transition("SM_GoToNextScreen")), [SongLuaLiveSourceRequest { music_seconds: 0.0, request: Transition("SM_GoToNextScreen") }])
+(Some(Transition("activate")), [SongLuaLiveSourceRequest { music_seconds: 0.0, request: Transition("activate") }])
+(None, [SongLuaLiveSourceRequest { music_seconds: 0.0, request: Transition("bad") }])

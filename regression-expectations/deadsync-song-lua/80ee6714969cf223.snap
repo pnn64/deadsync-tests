@@ -1,0 +1,34 @@
+song/tests/rust_transitions.rs::capture_count
+test: capture_finish_merges_blocks_and_discards_pending_callbacks_without_advancing_getters
+2
+test: capture_finish_retains_detached_immediate_cache_until_its_scope_changes
+2
+test: capture_hurry_scales_history_and_clock_but_retains_queued_dispatch_starts
+2
+2
+2
+test: capture_parent_finish_and_hurry_visit_children_while_stop_only_changes_self
+2
+2
+2
+test: capture_queue_overflow_finishes_history_before_the_next_tween_or_command
+2
+2
+2
+2
+2
+test: capture_stop_cancels_pending_commands_and_keeps_direct_and_immediate_blocks
+2
+test: capture_zero_duration_getters_and_cancellation_keep_explicit_writes
+2
+2
+2
+2
+2
+2
+test: preparation_exports_constructor_blocks_with_timing_easing_and_explicit_writes
+2
+2
+8
+test: preparation_queues_preserve_order_shared_state_and_handoff_without_duplicate_callbacks
+2

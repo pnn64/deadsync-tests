@@ -1,0 +1,27 @@
+song/tests/rust_song_observations.rs::layer_count
+test: accepted_rejected_and_parsed_noteskin_writes_match
+1
+test: chronological_direct_queued_update_and_message_writes_match
+1
+test: chronological_option_setters_and_gc_match
+1
+test: current_steps_observation_uses_authored_metadata_after_notifications
+1
+test: multilayer_screen_and_player_write_indices_match
+2
+test: nested_manager_calls_and_reload_history_match
+1
+test: option_observation_follows_republished_global_owner_identity
+1
+test: original_init_screen_request_remains_discarded
+1
+test: original_nil_message_probe_preserves_error_cause_and_observations
+1
+test: original_stage_queue_is_not_the_published_song_option_owner
+1
+test: queued_update_command_keeps_last_same_frame_immediate_setter
+1
+test: startup_option_setters_and_partial_speed_failures_match
+1
+test: startup_queue_capture_excludes_noteskin_discovery_writes
+1

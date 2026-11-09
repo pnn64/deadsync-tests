@@ -1,0 +1,8 @@
+song/tests/rust_preferences_display.rs::texture
+test: existing_display_size_fixture_preserves_framebuffer_dimensions_and_render_state
+FrameTexture { capture_name: "ScreenTex", capture_size: Some([1366.0, 768.0]), alpha_buffer: false, depth_buffer: false, float_buffer: true }
+FrameTexture { capture_name: "VStripsTex", capture_size: Some([1366.0, 768.0]), alpha_buffer: false, depth_buffer: false, float_buffer: true }
+FrameTexture { capture_name: "HStripsTex", capture_size: Some([1366.0, 768.0]), alpha_buffer: false, depth_buffer: false, float_buffer: true }
+FrameTexture { capture_name: "ScreenTex", capture_size: Some([1366.0, 768.0]), alpha_buffer: false, depth_buffer: false, float_buffer: true }
+FrameTexture { capture_name: "VStripsTex", capture_size: Some([1366.0, 768.0]), alpha_buffer: false, depth_buffer: false, float_buffer: true }
+FrameTexture { capture_name: "HStripsTex", capture_size: Some([1366.0, 768.0]), alpha_buffer: false, depth_buffer: false, float_buffer: true }

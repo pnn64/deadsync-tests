@@ -1,0 +1,23 @@
+song/tests/rust_messages.rs::Pair::new::ranks
+test: authored_and_theme_message_errors_restore_state_and_recover
+(398, 4402035014861505347, [1, 2])
+test: broadcast_arity_identity_dynamic_fields_and_manager_call_styles
+(608, 2177776605099245273, [2, 4, 1, 3])
+test: broadcast_validation_suppression_history_and_logging_match_production
+(400, 9816528394177657885, [2, 1])
+test: judgment_metamethods_gc_and_existing_native_objects_match_production
+(464, 10637994509202028946, [2, 1])
+test: judgment_normalization_retains_note_and_result_objects_across_gc
+(1020, 3682985629470211283, [2, 1])
+test: listener_snapshot_reloads_handlers_and_defers_new_subscribers
+(1002, 16041020995064249660, [2, 3, 4, 1])
+test: native_messages_preserve_engine_params_and_omitted_arguments
+(450, 12593103089293417774, [1, 2])
+test: null_actor_instances_copy_template_native_state_without_advancing_template
+(711, 7846074718204343965, [3, 4, 2, 1])
+test: null_actor_is_an_independent_live_template_and_subscriber
+(642, 11008870471250337594, [4, 2, 1, 3])
+test: queued_messages_use_empty_shared_params_and_frame_boundaries
+(588, 8370665693863191877, [3, 2, 1])
+test: same_message_reentry_preserves_direct_command_guard_and_scopes
+(804, 9601285983968685826, [1, 2, 3])

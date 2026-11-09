@@ -1,0 +1,23 @@
+song/tests/rust_song_multitap.rs::gate
+test: complete_plan_rejects_hidden_root_wrapper_column_and_screen_callbacks
+(false, Some(false))
+(false, Some(false))
+(false, Some(false))
+(false, Some(false))
+(false, Some(false))
+(false, Some(false))
+(false, Some(false))
+test: loaded_theme_and_truthy_deferred_fields_keep_chronological_replay
+(false, Some(false))
+(false, Some(false))
+test: malformed_plan_fields_and_optional_rotation_propagate_errors
+(true, None)
+(true, None)
+(true, None)
+test: numbered_factory_curves_and_missing_visuals_match
+(false, Some(true))
+test: plan_cache_retains_traversal_until_update_function_invalidates_it
+(false, Some(true))
+(false, Some(false))
+(false, Some(false))
+(false, Some(true))

@@ -1,0 +1,19 @@
+song/tests/rust_song_activation.rs::compare_easing_reader::eq1
+test: easing_reader_callback_mutation_keeps_original_sequence_and_function_alive_through_gc
+["(Beat, 1.0, 1.0, Len, 0.0, 1.0, None, None, None, None)"]
+[]
+test: easing_reader_decisions_preserve_callback_metadata_output_order_and_stats_merging
+["(Second, 1.0, 2.0, End, 3.0, 4.0, Some(\"linear\"), Some(5.0), Some(6.0), Some(7.0))", "(Second, 2.0, 2.0, End, 3.0, 4.0, Some(\"linear\"), Some(5.0), Some(6.0), Some(7.0))", "(Second, 3.0, 2.0, End, 3.0, 4.0, Some(\"linear\"), Some(5.0), Some(6.0), Some(7.0))", "(Second, 4.0, 2.0, End, 3.0, 4.0, Some(\"linear\"), Some(5.0), Some(6.0), Some(7.0))", "(Second, 5.0, 2.0, End, 3.0, 4.0, Some(\"linear\"), Some(5.0), Some(6.0), Some(7.0))", "(Second, 6.0, 2.0, End, 3.0, 4.0, Some(\"linear\"), Some(5.0), Some(6.0), Some(7.0))"]
+test: easing_reader_hard_function_and_utf8_errors_stop_the_sequence_and_allow_recovery
+["(Beat, 2.0, 1.0, Len, 0.0, 1.0, None, None, None, None)"]
+[]
+["(Beat, 5.0, 1.0, Len, 0.0, 1.0, None, None, None, None)"]
+test: easing_reader_loaded_aliases_table_tags_native_functions_and_registry_roots
+[]
+test: easing_reader_raw_fields_preserve_span_float_player_and_nil_rules
+[]
+[]
+[]
+test: easing_reader_registration_getters_preserve_order_raw_tags_and_partial_errors
+[]
+[]

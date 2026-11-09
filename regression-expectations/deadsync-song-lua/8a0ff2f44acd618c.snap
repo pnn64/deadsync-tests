@@ -1,0 +1,21 @@
+song/tests/rust_screen_manager.rs::Pair::take
+test: clock_lookup_reentry_preserves_request_order_and_roots_old_runtime
+(Some(NewScreen("outer")), [(Number(4625513042329731072), NewScreen("inner")), (Number(4625513042329731072), NewScreen("outer"))])
+test: hooks_observe_authored_calls_without_internal_numeric_conversion_calls
+(Some(NewScreen("hooked")), [(Number(4614500768194494464), NewScreen("hooked"))])
+test: invalid_names_only_count_effects_and_disabled_capture_does_not_read_clock
+(Some(NewScreen("without clock")), [])
+(None, [])
+test: pending_transition_survives_higher_priority_new_screen_and_runtimes_are_isolated
+(Some(NewScreen("winner")), [])
+(Some(Transition("SM_DoNextScreen")), [])
+(None, [])
+(None, [])
+test: request_and_name_writes_keep_partial_effects_on_failure
+(Some(NewScreen("queued before counter error")), [(Number(0), NewScreen("queued before counter error"))])
+(None, [])
+test: requests_preserve_duplicates_precision_and_drain_without_changing_top
+(Some(NewScreen("last")), [])
+(Some(NewScreen("ScreenGameplay")), [(Number(4593560419993387008), NewScreen("ScreenSelectMusic")), (Number(4593560419993387008), NewScreen("ScreenGameplay")), (Number(4593560419993387008), NewScreen("ScreenGameplay"))])
+(None, [])
+(Some(NewScreen("after drain")), [(Number(4593560419993387008), NewScreen("after drain"))])

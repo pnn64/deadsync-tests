@@ -1,0 +1,3 @@
+song/tests/rust_song_frame_capture.rs::finished
+test: frame_tracks_outlive_gc_and_scene_teardown_and_foreign_screens_are_rejected
+[SongLuaOverlayUpdateTrack { overlay_index: 0, target: BaseAlpha, samples: [SongLuaOverlayUpdateSample { time: 0.25, value: F32(0.25) }] }, SongLuaOverlayUpdateTrack { overlay_index: 1, target: Visible, samples: [SongLuaOverlayUpdateSample { time: 0.25, value: Bool(false) }] }]

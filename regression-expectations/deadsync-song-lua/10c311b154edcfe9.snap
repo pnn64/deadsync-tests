@@ -1,0 +1,102 @@
+song/tests/rust_live_scene.rs::output
+test: a_rejected_broadcast_history_write_does_not_capture_a_source_event
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: a_sound_without_a_file_keeps_the_existing_compiled_owner_filter
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: authored_startup_and_runtime_tween_queues_keep_current_render_poses
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: authored_statistics_selection_before_scene_construction_governs_live_writes
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [(0.2, "LifeChanged", true)], [], [SetLife { player: 0, life: 0.75 }], [], [], [], 0, 0)
+test: gameplay_outro_noted_after_actors_uses_the_same_off_boundary
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: health_callback_failures_are_reported_once_and_preserve_the_live_scene
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: health_callbacks_write_the_selected_statistics_and_freeze_poses_before_health
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: immediate_draw_submissions_and_normal_draw_frames_keep_their_live_boundaries
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [DrawFrame { second: 0.0, immediate: true, owners: [1], owner_ends: [1], ops: [Draw { source: Overlay(1), state: SongLuaOverlayState { aux: 0.0, x: 17.0, y: 0.0, z: 0.0, z_bias: 0.0, draw_order: 0, draw_by_z_position: false, aft_created: false, aft_preserve: false, halign: 0.5, valign: 0.5, text_align: Center, uppercase: false, shadow_len: [0.0, 0.0], shadow_color: [0.0, 0.0, 0.0, 0.5], glow: [1.0, 1.0, 1.0, 0.0], fov: None, vanishpoint: None, diffuse: [1.0, 1.0, 1.0, 1.0], vertex_colors: None, visible: true, hibernating: false, cropleft: 0.0, cropright: 0.0, croptop: 0.0, cropbottom: 0.0, fadeleft: 0.0, faderight: 0.0, fadetop: 0.0, fadebottom: 0.0, mask_source: false, mask_dest: false, depth_test: false, depth_write: false, depth_test_on_fail: false, cull_mode: None, zoom: 1.0, zoom_x: 1.0, zoom_y: 1.0, zoom_z: 1.0, basezoom: 1.0, basezoom_x: 1.0, basezoom_y: 1.0, basezoom_z: 1.0, scale_factors: None, rot_x_deg: 0.0, rot_y_deg: 0.0, rot_z_deg: 0.0, base_rotation: [0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0], base_alpha: 1.0, skew_x: 0.0, skew_y: 0.0, blend: Alpha, vibrate: false, effect_magnitude: [0.0, 0.0, 0.0], inherited_vibrate: [0.0, 0.0, 0.0], effect_clock: Time, effect_timer: true, effect_no_offset: false, effect_mode: None, effect_color1: [1.0, 1.0, 1.0, 1.0], effect_color2: [1.0, 1.0, 1.0, 1.0], effect_period: 1.0, effect_offset: 0.0, effect_time: None, effect_timing: None, rainbow: false, rainbow_scroll: false, text_jitter: false, text_distortion: 0.0, text_glow_mode: Both, mult_attrs_with_diffuse: false, spin_baked: false, sprite_texture: true, sprite_animate: false, sprite_loop: true, sprite_playback_rate: 1.0, sprite_state_delay: 0.1, sprite_state_index: None, sprite_animation_epoch: None, decode_movie: false, vert_spacing: None, wrap_width_pixels: None, max_width: None, max_height: None, max_w_pre_zoom: false, max_h_pre_zoom: false, max_dimension_uses_zoom: false, texture_filtering: true, texture_wrapping: false, texcoord_offset: None, custom_texture_rect: None, texcoord_velocity: None, size: Some([8.0, 12.0]), stretch_rect: None }, parents: [], camera: None, vertices: None }] }], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [DrawFrame { second: 0.1, immediate: true, owners: [1], owner_ends: [1], ops: [Draw { source: Overlay(1), state: SongLuaOverlayState { aux: 0.0, x: 18.1, y: 0.0, z: 0.0, z_bias: 0.0, draw_order: 0, draw_by_z_position: false, aft_created: false, aft_preserve: false, halign: 0.5, valign: 0.5, text_align: Center, uppercase: false, shadow_len: [0.0, 0.0], shadow_color: [0.0, 0.0, 0.0, 0.5], glow: [1.0, 1.0, 1.0, 0.0], fov: None, vanishpoint: None, diffuse: [1.0, 1.0, 1.0, 1.0], vertex_colors: None, visible: true, hibernating: false, cropleft: 0.0, cropright: 0.0, croptop: 0.0, cropbottom: 0.0, fadeleft: 0.0, faderight: 0.0, fadetop: 0.0, fadebottom: 0.0, mask_source: false, mask_dest: false, depth_test: false, depth_write: false, depth_test_on_fail: false, cull_mode: None, zoom: 1.0, zoom_x: 1.0, zoom_y: 1.0, zoom_z: 1.0, basezoom: 1.0, basezoom_x: 1.0, basezoom_y: 1.0, basezoom_z: 1.0, scale_factors: None, rot_x_deg: 0.0, rot_y_deg: 0.0, rot_z_deg: 0.0, base_rotation: [0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0], base_alpha: 1.0, skew_x: 0.0, skew_y: 0.0, blend: Alpha, vibrate: false, effect_magnitude: [0.0, 0.0, 0.0], inherited_vibrate: [0.0, 0.0, 0.0], effect_clock: Time, effect_timer: true, effect_no_offset: false, effect_mode: None, effect_color1: [1.0, 1.0, 1.0, 1.0], effect_color2: [1.0, 1.0, 1.0, 1.0], effect_period: 1.0, effect_offset: 0.0, effect_time: None, effect_timing: None, rainbow: false, rainbow_scroll: false, text_jitter: false, text_distortion: 0.0, text_glow_mode: Both, mult_attrs_with_diffuse: false, spin_baked: false, sprite_texture: true, sprite_animate: false, sprite_loop: true, sprite_playback_rate: 1.0, sprite_state_delay: 0.1, sprite_state_index: None, sprite_animation_epoch: None, decode_movie: false, vert_spacing: None, wrap_width_pixels: None, max_width: None, max_height: None, max_w_pre_zoom: false, max_h_pre_zoom: false, max_dimension_uses_zoom: false, texture_filtering: true, texture_wrapping: false, texcoord_offset: None, custom_texture_rect: None, texcoord_velocity: None, size: Some([8.0, 12.0]), stretch_rect: None }, parents: [], camera: None, vertices: None }] }, DrawFrame { second: 0.1, immediate: true, owners: [1], owner_ends: [1], ops: [Draw { source: Overlay(1), state: SongLuaOverlayState { aux: 0.0, x: 29.0, y: 0.0, z: 0.0, z_bias: 0.0, draw_order: 0, draw_by_z_position: false, aft_created: false, aft_preserve: false, halign: 0.5, valign: 0.5, text_align: Center, uppercase: false, shadow_len: [0.0, 0.0], shadow_color: [0.0, 0.0, 0.0, 0.5], glow: [1.0, 1.0, 1.0, 0.0], fov: None, vanishpoint: None, diffuse: [1.0, 1.0, 1.0, 1.0], vertex_colors: None, visible: true, hibernating: false, cropleft: 0.0, cropright: 0.0, croptop: 0.0, cropbottom: 0.0, fadeleft: 0.0, faderight: 0.0, fadetop: 0.0, fadebottom: 0.0, mask_source: false, mask_dest: false, depth_test: false, depth_write: false, depth_test_on_fail: false, cull_mode: None, zoom: 1.0, zoom_x: 1.0, zoom_y: 1.0, zoom_z: 1.0, basezoom: 1.0, basezoom_x: 1.0, basezoom_y: 1.0, basezoom_z: 1.0, scale_factors: None, rot_x_deg: 0.0, rot_y_deg: 0.0, rot_z_deg: 0.0, base_rotation: [0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0], base_alpha: 1.0, skew_x: 0.0, skew_y: 0.0, blend: Alpha, vibrate: false, effect_magnitude: [0.0, 0.0, 0.0], inherited_vibrate: [0.0, 0.0, 0.0], effect_clock: Time, effect_timer: true, effect_no_offset: false, effect_mode: None, effect_color1: [1.0, 1.0, 1.0, 1.0], effect_color2: [1.0, 1.0, 1.0, 1.0], effect_period: 1.0, effect_offset: 0.0, effect_time: None, effect_timing: None, rainbow: false, rainbow_scroll: false, text_jitter: false, text_distortion: 0.0, text_glow_mode: Both, mult_attrs_with_diffuse: false, spin_baked: false, sprite_texture: true, sprite_animate: false, sprite_loop: true, sprite_playback_rate: 1.0, sprite_state_delay: 0.1, sprite_state_index: None, sprite_animation_epoch: None, decode_movie: false, vert_spacing: None, wrap_width_pixels: None, max_width: None, max_height: None, max_w_pre_zoom: false, max_h_pre_zoom: false, max_dimension_uses_zoom: false, texture_filtering: true, texture_wrapping: false, texcoord_offset: None, custom_texture_rect: None, texcoord_velocity: None, size: Some([8.0, 12.0]), stretch_rect: None }, parents: [], camera: None, vertices: None }] }], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: input_and_custom_draw_update_states_and_drain_in_execution_order
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: live_outputs_preserve_explicit_nil_tables_nested_messages_and_requests
+(None, [], [(0.0, "ScreenChanged", false), (0.0, "Nested", true)], [], [], [(0.0, 0.0, "Nested", Ok(Some(Object {"flag": Bool(true), "list": Array [Number(1), Number(2)], "tick": Number(1)})))], [], [], 0, 0)
+(Some(NewScreen("ScreenGameplay")), [SongLuaLiveSourceRequest { music_seconds: 0.10000000149011612, request: NewScreen("ScreenGameplay") }, SongLuaLiveSourceRequest { music_seconds: 0.10000000149011612, request: Transition("SM_GoToNextScreen") }], [(0.2, "Nested", true), (0.2, "Inner", false), (0.2, "ExplicitNil", true)], [], [], [(0.2, 0.10000000149011612, "Nested", Ok(Some(Object {"flag": Bool(true), "list": Array [Number(1), Number(2)], "tick": Number(2)}))), (0.2, 0.10000000149011612, "Inner", Ok(None)), (0.2, 0.10000000149011612, "ExplicitNil", Ok(Some(Object {"type": String("nil")})))], [], [], 0, 0)
+(Some(NewScreen("ScreenGameplay")), [SongLuaLiveSourceRequest { music_seconds: 0.20000000298023224, request: NewScreen("ScreenGameplay") }, SongLuaLiveSourceRequest { music_seconds: 0.20000000298023224, request: Transition("SM_GoToNextScreen") }], [(0.4, "Nested", true), (0.4, "Inner", false), (0.4, "ExplicitNil", true)], [], [], [(0.4, 0.20000000298023224, "Nested", Ok(Some(Object {"flag": Bool(true), "list": Array [Number(1), Number(2)], "tick": Number(3)}))), (0.4, 0.20000000298023224, "Inner", Ok(None)), (0.4, 0.20000000298023224, "ExplicitNil", Ok(Some(Object {"type": String("nil")})))], [], [], 0, 0)
+test: malformed_live_source_keeps_the_existing_dummy_actor_fallback
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: malformed_raw_pose_fields_do_not_override_native_owned_live_tweens
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: prepared_background_failure_retries_the_host_phase_without_a_stale_prepared_mark
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: replay_captured_subscriber_paths_preserve_the_native_order
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], ["missing captured subscriber identity for ScreenGameplay/25", "missing captured subscriber identity for ScreenGameplay/3/1"], [], 0, 0)
+test: replay_missing_subscriber_identity_dispatches_and_reports_coverage_once
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], ["missing captured subscriber identity for ScreenGameplay/25", "missing captured subscriber identity for ScreenGameplay/3/1"], [], 0, 0)
+(None, [], [(0.0, "Probe", false)], [], [], [(0.0, 0.0, "Probe", Ok(None))], ["missing captured subscriber identity for 1/1"], [], 0, 0)
+(None, [], [(0.2, "Probe", false)], [], [], [(0.2, 0.10000000149011612, "Probe", Ok(None))], [], [], 0, 0)
+test: replay_option_deltas_are_independent_consumed_once_and_survive_a_prepared_frame
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: replay_overlay_observation_precedes_foreground_writes_and_survives_gc
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [(0.2, "CurrentStepsP1Changed", false), (0.2, "LifeChanged", true)], [], [SetLife { player: 0, life: 0.2 }], [], [], [], 0, 0)
+(None, [], [(0.4, "CurrentStepsP1Changed", false), (0.4, "LifeChanged", true)], [], [SetLife { player: 0, life: 0.2 }], [], [], [], 0, 0)
+test: retained_scene_update_prepare_draw_end_and_owned_render_states_match
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: retained_sound_owners_preserve_startup_play_pause_and_teardown_order
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 1)
+(None, [], [], [], [], [], [], [], 0, 4)
+(None, [], [], [], [], [], [], [], 0, 2)
+test: scene_outro_clears_attacks_and_orders_success_and_all_failed_off
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [RecordLife { player: 0, life: 0.0 }, RecordLife { player: 1, life: 0.0 }], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: source_broadcast_snapshots_keep_functions_actors_cycles_and_trace_limits
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [(0.0, "Closure", true), (0.0, "HostFunction", true), (0.0, "Actor", true), (0.0, "Dense", true), (0.0, "Mixed", true), (0.0, "Collision", true), (0.0, "Cycle", true), (0.0, "Depth", true), (0.0, "Entries", true), (0.0, "Thread", true), (0.0, "Infinity", true)], [], [], [(0.0, 0.0, "Closure", Ok(Some(Object {"value": Object {"last_line": Number(2), "line": Number(2), "source": String("@/live-frame-check.lua"), "type": String("function")}}))), (0.0, 0.0, "HostFunction", Ok(Some(Object {"value": Object {"last_line": Number(-1), "line": Number(-1), "source": String("=[C]"), "type": String("function")}}))), (0.0, 0.0, "Actor", Err("broadcast table contains a cycle")), (0.0, 0.0, "Dense", Ok(Some(Array [Number(1), Number(2), String("a/b")]))), (0.0, 0.0, "Mixed", Ok(Some(Object {"-1": Number(3), "3": Number(2), "name": String("ok"), "true": Number(1)}))), (0.0, 0.0, "Collision", Err("broadcast table has colliding stringified keys")), (0.0, 0.0, "Cycle", Err("broadcast table contains a cycle")), (0.0, 0.0, "Depth", Err("broadcast table exceeds native trace depth")), (0.0, 0.0, "Entries", Err("broadcast table exceeds native trace entry limit")), (0.0, 0.0, "Thread", Err("broadcast thread trace remains pending")), (0.0, 0.0, "Infinity", Err("broadcast number trace remains pending"))], [], [], 0, 0)

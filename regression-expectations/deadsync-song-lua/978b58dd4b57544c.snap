@@ -1,0 +1,10 @@
+song/tests/rust_song_activation.rs::compare_callback_table_discovery::eq2
+test: callback_tables_keep_direct_nested_recurring_and_raw_child_discovery_order
+["B", "C"]
+["A", "B", "C"]
+test: callback_tables_keep_original_global_namespace_and_authored_debug_getter
+["first"]
+test: callback_tables_preserve_optional_debug_lookup_and_typed_metadata_errors
+[]
+[]
+[]

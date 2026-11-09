@@ -1,0 +1,5 @@
+song/tests/rust_live_compiler.rs::actor_sounds
+test: sound_owner_events_survive_startup_and_runtime_reload_in_native_order
+("sounds", [Play { owner: 0, path: "$FIXTURE0\\beep.wav" }, Stop { owner: 0 }, Play { owner: 1, path: "$FIXTURE0\\beep.wav" }, Stop { owner: 1 }, Play { owner: 2, path: "$FIXTURE0\\beep.wav" }])
+("sounds", [Stop { owner: 2 }, Stop { owner: 2 }, Play { owner: 3, path: "$FIXTURE0\\beep.wav" }])
+("sounds", [Stop { owner: 3 }, Stop { owner: 3 }])

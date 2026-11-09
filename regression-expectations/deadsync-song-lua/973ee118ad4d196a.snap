@@ -1,0 +1,3 @@
+song/tests/rust_live_scene.rs::handled
+test: input_and_custom_draw_update_states_and_drain_in_execution_order
+false

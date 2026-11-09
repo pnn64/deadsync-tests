@@ -1,0 +1,3 @@
+song/tests/rust_preparation.rs::message_ranks
+test: construction_retains_initial_state_and_defers_init_links_and_subscriptions
+(10, 2519866648865048931, [1, 2])

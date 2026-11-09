@@ -1,0 +1,6 @@
+tests/syntax.rs::reader_error_precedence::expected
+test: reader_runtime_errors_precede_pending_lexical_faults
+(true, true, true, 2)
+(true, true, true, 2)
+(true, true, true, 2)
+(true, true, true, 2)

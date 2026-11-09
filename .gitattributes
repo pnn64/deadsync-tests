@@ -1,4 +1,9 @@
 # Preserve fixture bytes; never normalize compressed archive parts.
 * text=auto
 *.part -text
+# Regression snapshots must retain the exact bytes captured by the test runner.
+/regression-expectations/**/*.snap -text
+# This pinned upstream source is covered by a provenance checksum.
+/itgmania-song-lua-micro/actor-definition-source/*.lua -text
+*.gz -text
 .githooks/* text eol=lf

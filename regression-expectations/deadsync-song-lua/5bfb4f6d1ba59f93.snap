@@ -1,0 +1,12 @@
+song/tests/rust_song_multitap.rs::descriptors
+test: descriptors_preserve_selection_coercion_holes_and_peak_errors
+("multitaps=nil", false, None)
+("multitaps={Challenge={{lane='1.8',taps={3,' 2 ',false,1,0/0,1/0},peak=' 1.4 '},false,{lane=9,taps={1}},{lane=-1,taps={1}},{lane=2,taps={false}},nil,{lane=3,taps={1}}},Double_Challenge={{lane=8,taps={2,1}}}}", false, Some([(1, [1.0, 2.0, 3.0], Some(1.4))]))
+("multitaps=setmetatable({Challenge={{lane=1,taps={2,1}}}},{__index=function(_,k)collectgarbage();return nil end})", false, Some([(1, [1.0, 2.0], None)]))
+("multitaps={Challenge={setmetatable({lane=1,taps={2,1}},{__index=function()error('peak suppressed')end})}}", false, Some([(1, [1.0, 2.0], None)]))
+("multitaps={Challenge={setmetatable({},{__index=function(_,k)collectgarbage();if k=='lane' then return 2 elseif k=='taps' then multitaps=nil;return {4,2} end end})}}", false, Some([(2, [2.0, 4.0], None)]))
+("multitaps=nil", true, None)
+("multitaps={Challenge={{lane='1.8',taps={3,' 2 ',false,1,0/0,1/0},peak=' 1.4 '},false,{lane=9,taps={1}},{lane=-1,taps={1}},{lane=2,taps={false}},nil,{lane=3,taps={1}}},Double_Challenge={{lane=8,taps={2,1}}}}", true, Some([(8, [1.0, 2.0], None)]))
+("multitaps=setmetatable({Challenge={{lane=1,taps={2,1}}}},{__index=function(_,k)collectgarbage();return nil end})", true, None)
+("multitaps={Challenge={setmetatable({lane=1,taps={2,1}},{__index=function()error('peak suppressed')end})}}", true, None)
+("multitaps={Challenge={setmetatable({},{__index=function(_,k)collectgarbage();if k=='lane' then return 2 elseif k=='taps' then multitaps=nil;return {4,2} end end})}}", true, None)

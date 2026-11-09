@@ -1,0 +1,13 @@
+song/tests/rust_song_activation.rs::message_probe_defaults_match_all_existing_parameter_shapes_and_retained_methods::eq1
+test: message_probe_defaults_match_all_existing_parameter_shapes_and_retained_methods
+true
+true
+true
+true
+true
+true
+false
+false
+false
+false
+false

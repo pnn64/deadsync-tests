@@ -1,0 +1,3 @@
+song/tests/rust_song_activation.rs::kind_output_preserves_startup_sprite_binding_and_aft_name_rules::eq3
+test: kind_output_preserves_startup_sprite_binding_and_aft_name_rules
+"Some(AftSprite { capture_name: \"capture\" })"

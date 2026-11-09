@@ -1,0 +1,8 @@
+song/tests/rust_live_gameplay.rs::judge
+test: gameplay_judgment_pipeline_uses_installed_callbacks
+true
+true
+true
+true
+true
+true

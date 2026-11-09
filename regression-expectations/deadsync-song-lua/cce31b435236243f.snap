@@ -1,0 +1,21 @@
+song/tests/rust_song_updates.rs::messages
+test: complete_driver_appends_runtime_wrappers_and_remaps_their_tracks
+(456, 5168491013944357389, [])
+test: complete_driver_bakes_player_options_and_column_rotation
+(689, 4940202880151490492, [])
+test: complete_driver_captures_notefield_wrappers_motion_and_hold_frames
+(497, 5290885362636950466, [])
+test: complete_driver_captures_parent_child_callbacks_and_getter_feedback
+(555, 17162885637818994731, [])
+test: complete_driver_keeps_field_wrapper_cursor_reads_after_authored_gc
+(747, 13210641918523931953, [])
+test: complete_driver_keeps_startup_queues_cancellation_and_recurrence
+(721, 11910910242966347102, [SongLuaMessageEvent { beat: 0.0, message: "__songlua_actor_startup", persists: true }])
+test: complete_driver_preserves_message_replay_and_broadcast_provenance
+(464, 4374377519861875623, [SongLuaMessageEvent { beat: 0.1, message: "Pulse", persists: true }])
+test: complete_driver_preserves_static_tree_output
+(75, 13759888443472578353, [])
+test: complete_driver_reports_frame_metadata_errors
+(242, 826730674543990818, [])
+test: complete_driver_uses_exact_song_timing_origin_rate_and_frame_clocks
+(596, 12141226233803249375, [])

@@ -1,0 +1,9 @@
+song/tests/rust_models.rs::path_queries
+test: model_paths_preserve_fallbacks_getter_order_gc_and_failed_query_cleanup
+("m.Meshes=nil;m.Materials=nil;m.Bones=nil", false, Some(None))
+("m.Meshes='geometry.txt'", false, Some(Some(["$FIXTURE0/geometry.txt", "$FIXTURE0/geometry.txt", "$FIXTURE0/geometry.txt"])))
+("m.Materials='surface.txt';m.Bones='bones.txt'", false, Some(Some(["$FIXTURE0/geometry.txt", "$FIXTURE0/surface.txt", "$FIXTURE0/bones.txt"])))
+("m.Meshes=' ';m.Materials='surface.txt';m.Bones=nil", false, Some(Some(["$FIXTURE0/surface.txt", "$FIXTURE0/surface.txt", "$FIXTURE0/surface.txt"])))
+("m.Meshes='missing.txt'", true, None)
+("m.Meshes=false", true, None)
+("m.Meshes='geometry';m.Materials=nil;m.Bones=nil", true, None)

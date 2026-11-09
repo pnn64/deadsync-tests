@@ -1,0 +1,3 @@
+song/tests/rust_sound.rs::end
+test: end_callbacks_precede_owner_stops_without_advancing_queued_work
+["a play $FIXTURE0/choice B.wav", "b pause true", "b play $FIXTURE0/choice a.wav", "a stop", "b stop"]

@@ -1,0 +1,3 @@
+tests/file_loading.rs::observe::stdin4
+test: standard_input_loading_shares_buffers_and_ignores_io_input_redirection
+[Number(4627167142146473984)]

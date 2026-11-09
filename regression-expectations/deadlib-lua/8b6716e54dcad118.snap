@@ -1,0 +1,29 @@
+tests/userdata.rs::compare::expected
+test: automatic_finalization_restores_interrupted_lua_registers
+[Boolean(true), Number(4666723722223157248)]
+[Number(4666723172467343360)]
+[Number(4647503709213818880), Number(4683343527671758848)]
+test: finalizer_errors_preserve_objects_and_leave_pending_work_recoverable
+[Boolean(false), Boolean(true), Number(0), Number(4607182418800017408)]
+[Bytes([49, 44, 51])]
+[Boolean(false), Boolean(true), Number(4607182418800017408)]
+[Boolean(true), Number(4607182418800017408)]
+test: finalizers_can_collect_recursively_and_resume_child_threads
+[Bytes([51, 44, 50, 44, 49, 44, 48, 44, 57])]
+[Number(4625759767262920704)]
+[Number(4641170522237829120)]
+test: finalizers_run_once_in_reverse_creation_order_and_can_resurrect
+[Bytes([50, 48, 44, 49, 57, 44, 49, 56, 44, 49, 55, 44, 49, 54, 44, 49, 53, 44, 49, 52, 44, 49, 51, 44, 49, 50, 44, 49, 49, 44, 49, 48, 44, 57, 44, 56, 44, 55, 44, 54, 44, 53, 44, 52, 44, 51, 44, 50, 44, 49, 44, 48]), Number(4626604192193052672), Number(4613937818241073152)]
+[Bytes([50, 44, 49, 49])]
+test: proxies_keep_raw_metatables_environments_and_identity
+[Bytes([117, 115, 101, 114, 100, 97, 116, 97]), Boolean(true), Nil, Nil, Bytes([112, 114, 111, 116, 101, 99, 116, 101, 100]), Boolean(true), Boolean(false)]
+[Boolean(true), Boolean(false), Boolean(false)]
+[Number(4619567317775286272), Boolean(true), Boolean(true), Boolean(false), Boolean(false)]
+[Boolean(true), Number(4611686018427387904), Boolean(false), Boolean(false)]
+test: reused_userdata_slots_preserve_finalization_order_across_collections
+[Number(4708079683143467008), Number(4656295404189515776)]
+test: userdata_dispatches_metamethods_with_lua51_arguments
+[Number(4619567317775286272), Boolean(true), Number(4621256167635550208), Boolean(true), Boolean(false), Boolean(true), Number(4623507967449235456), Number(4617315517961601024), Number(4625478292286210048), Bytes([106, 111, 105, 110, 101, 100]), Bytes([112, 114, 111, 120, 121])]
+test: weak_tables_distinguish_finalized_userdata_keys_and_values
+[Number(4607182418800017408), Bytes([117, 115, 101, 114, 100, 97, 116, 97]), Nil, Nil]
+[Number(0), Nil]

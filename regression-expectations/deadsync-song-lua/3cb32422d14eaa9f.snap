@@ -1,0 +1,5 @@
+song/tests/rust_live_compiler.rs::compile_error
+test: live_startup_reload_limit_rejects_after_the_existing_128_reconstructions
+"song Lua exceeded 128 startup gameplay reloads"
+test: unsupported_startup_screen_rejection_matches
+"song Lua startup requested unsupported screen 'ScreenSelectMusic'"

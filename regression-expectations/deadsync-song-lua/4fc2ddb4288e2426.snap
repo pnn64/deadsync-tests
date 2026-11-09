@@ -1,0 +1,3 @@
+song/tests/rust_song_activation.rs::callback_tables_root_detached_results_across_getters_gc_and_foreign_release::eq2
+test: callback_tables_root_detached_results_across_getters_gc_and_foreign_release
+["1", "2"]

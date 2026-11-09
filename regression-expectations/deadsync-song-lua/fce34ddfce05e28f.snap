@@ -1,0 +1,23 @@
+song/tests/rust_live_gameplay.rs::tap
+test: did_tap_note_preserves_independent_returns_brightness_and_error_suppression
+GameplayNoteFieldTap { player: 0, column: 1, score: "W3", bright: true }
+GameplayNoteFieldTap { player: 0, column: 1, score: "HitMine", bright: false }
+GameplayNoteFieldTap { player: 0, column: 2, score: "W1", bright: true }
+GameplayNoteFieldTap { player: 0, column: 1, score: "W2", bright: false }
+GameplayNoteFieldTap { player: 0, column: 1, score: "W1", bright: true }
+GameplayNoteFieldTap { player: 0, column: 1, score: "W3", bright: true }
+GameplayNoteFieldTap { player: 0, column: 1, score: "W3", bright: true }
+GameplayNoteFieldTap { player: 0, column: 1, score: "W3", bright: false }
+GameplayNoteFieldTap { player: 0, column: 1, score: "W3", bright: true }
+GameplayNoteFieldTap { player: 0, column: 1, score: "W3", bright: false }
+GameplayNoteFieldTap { player: 0, column: 0, score: "W3", bright: true }
+GameplayNoteFieldTap { player: 0, column: 3, score: "W3", bright: true }
+GameplayNoteFieldTap { player: 0, column: 1, score: "W3", bright: false }
+GameplayNoteFieldTap { player: 0, column: 1, score: "W3", bright: false }
+test: installed_callbacks_survive_collection_reload_and_loading_thread_handoff
+GameplayNoteFieldTap { player: 1, column: 1, score: "W3", bright: false }
+GameplayNoteFieldTap { player: 0, column: 3, score: "Miss", bright: true }
+GameplayNoteFieldTap { player: 0, column: 1, score: "W3", bright: false }
+test: missing_tap_handlers_and_invalid_players_keep_native_write_drain_boundaries
+GameplayNoteFieldTap { player: 18446744073709551615, column: 1, score: "W3", bright: false }
+GameplayNoteFieldTap { player: 0, column: 1, score: "W3", bright: false }

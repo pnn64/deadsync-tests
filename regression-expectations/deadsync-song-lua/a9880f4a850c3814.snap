@@ -1,0 +1,6 @@
+song/tests/rust_statistics.rs::Pair::writes::players
+test: fail_player_publishes_and_queues_in_native_order_only_in_live_mode
+Some([true, false])
+Some([true, true])
+Some([true, true])
+Some([true, true])

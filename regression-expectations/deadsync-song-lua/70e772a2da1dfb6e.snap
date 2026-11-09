@@ -1,0 +1,3 @@
+song/tests/rust_song_activation.rs::touched_actor_capture_preserves_preexisting_tween_queue_steps::eq3
+test: touched_actor_capture_preserves_preexisting_tween_queue_steps
+[Some(1.0)]

@@ -1,0 +1,10 @@
+song/unit/state_readers::short_class_fields_keep_string_coercions_spills_and_errors::assert_0
+test: short_class_fields_keep_string_coercions_spills_and_errors
+Ok(None)
+Ok(Some("ActorFrame"))
+Ok(Some("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"))
+Err("invalid utf-8 sequence of 1 bytes from index 0")
+Ok(Some("42"))
+Ok(Some("1.5"))
+Err("string expected")
+Err("string expected")

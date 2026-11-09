@@ -1,0 +1,12 @@
+song/tests/rust_arrows.rs::Live::update
+test: live_cache_refresh_follows_actor_and_health_callbacks_and_ignores_public_update_override
+(4591870180066957722, 4611686018427387904, [], [(0.2, "HealthStateChanged", true)], [])
+(4596373779694328218, 4611967493404098560, [], [], [])
+test: live_raw_frame_clocks_are_consumed_after_success_and_independent_of_queries
+(4591870180066957722, 4619567317775286272, [], [(0.2, "HealthStateChanged", true)], [])
+(4591870180066957722, 4619567317775286272, [], [], [])
+(4596373779694328218, 4619567317775286272, [], [], [])
+(4600877379321698714, 4619567317775286272, [], [], [])
+test: scene_reload_keeps_arrow_bindings_and_saved_option_handles_in_the_same_vm
+(4591870180066957722, 4613937818241073152, [], [(0.2, "HealthStateChanged", true)], [])
+(4596373779694328218, 4616189618054758400, [], [(0.4, "HealthStateChanged", true)], [])

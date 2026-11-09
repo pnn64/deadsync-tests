@@ -1,0 +1,7 @@
+song/tests/rust_input.rs::offline
+test: screen_replacement_keeps_active_callbacks_live_and_saved_methods_use_new_registry
+Err("song Lua registers input callbacks and requires runtime Lua (context.live = true)")
+test: strict_registration_chaining_dedup_and_sticky_offline_rejection
+Ok(())
+Err("song Lua registers input callbacks and requires runtime Lua (context.live = true)")
+Err("song Lua registers input callbacks and requires runtime Lua (context.live = true)")

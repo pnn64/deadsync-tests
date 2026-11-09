@@ -1,0 +1,3 @@
+song/tests/rust_models.rs::collecting_paths
+test: model_paths_preserve_fallbacks_getter_order_gc_and_failed_query_cleanup
+Some(["$FIXTURE0/surface.txt", "$FIXTURE0/surface.txt", "$FIXTURE0/surface.txt"])

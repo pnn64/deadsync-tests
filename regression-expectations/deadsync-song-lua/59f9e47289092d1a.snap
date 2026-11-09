@@ -1,0 +1,19 @@
+song/tests/rust_song_activation.rs::compare_easing_reader::eq2
+test: easing_reader_callback_mutation_keeps_original_sequence_and_function_alive_through_gc
+true
+true
+test: easing_reader_decisions_preserve_callback_metadata_output_order_and_stats_merging
+true
+test: easing_reader_hard_function_and_utf8_errors_stop_the_sequence_and_allow_recovery
+false
+false
+true
+test: easing_reader_loaded_aliases_table_tags_native_functions_and_registry_roots
+true
+test: easing_reader_raw_fields_preserve_span_float_player_and_nil_rules
+true
+true
+true
+test: easing_reader_registration_getters_preserve_order_raw_tags_and_partial_errors
+true
+true

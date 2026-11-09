@@ -1,0 +1,25 @@
+song/tests/rust_song_activation.rs::compare_actor_command::eq1
+test: actor_messages_command_defaults_and_missing_handlers_match_native
+false
+false
+false
+false
+false
+false
+false
+false
+false
+test: actor_messages_command_errors_restore_reached_actors_locals_rng_and_keep_structural_edits
+true
+false
+test: actor_messages_command_preserves_prior_capture_history_queues_and_mutable_alias_boundary
+false
+test: actor_messages_discard_command_returns_before_reentrant_mutable_restore_gc
+false
+test: actor_messages_instruction_limits_restore_history_and_live_mode_skips_message_probes
+false
+test: actor_messages_key_errors_preserve_native_partial_state_and_allow_recovery
+false
+true
+true
+false

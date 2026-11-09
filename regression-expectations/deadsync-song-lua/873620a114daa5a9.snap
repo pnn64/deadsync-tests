@@ -1,0 +1,28 @@
+song/tests/rust_loader.rs::observations
+test: cmd_preprocessing_loadstring_and_captured_primitives_match_legacy
+[Number(4619567317775286272), Number(4622945017495814144), String([99, 109, 100, 40, 120, 44, 32, 57, 57, 41]), String([99, 109, 100, 40, 121, 44, 32, 52, 50, 41])]
+[Number(4624070917402656768), Number(4607182418800017408), Boolean(false)]
+[Number(4627167142146473984), Number(4622945017495814144), String([99, 109, 100, 40, 120, 44, 32, 57, 57, 41]), String([99, 109, 100, 40, 121, 44, 32, 52, 50, 41])]
+test: environment_metamethods_can_collect_reenter_and_replace_the_target
+[Number(4621819117588971520), Number(4635118810238550016), Number(4629418941960159232), Number(4635118810238550016), Number(4621819117588971520), Number(4621819117588971520), Number(4629418941960159232)]
+test: environment_retargeting_inheritance_and_compile_globals_match_legacy
+[Number(4626322717216342016), Number(4626604192193052672), Number(4626604192193052672), Number(4626604192193052672), Number(4626604192193052672), Number(4613937818241073152), Number(4630826316843712512), Number(4630967054332067840), Number(4630967054332067840), Number(4630967054332067840)]
+[Number(4607182418800017408), Number(4622382067542392832), Number(4622382067542392832), Nil]
+test: initial_xero_environment_and_dofile_first_result_match_legacy
+[Number(4622382067542392832), Number(4607182418800017408), Number(4607182418800017408), Number(4622945017495814144), Number(4622945017495814144)]
+[Number(4611686018427387904), Number(4611686018427387904), Number(4622945017495814144)]
+test: instruction_limit_and_coroutine_yield_do_not_leak_file_context
+[Boolean(false), String([100, 101, 97, 100]), Nil, Nil, Nil]
+[Nil, Nil, Nil]
+test: missing_invalid_and_failed_nested_files_restore_context_and_leave_session_usable
+[Boolean(true), String([115, 116, 114, 105, 110, 103]), Boolean(true), String([115, 116, 114, 105, 110, 103]), Boolean(false), Boolean(false), Boolean(true), Boolean(true), Boolean(true)]
+[Nil, Nil, Nil]
+[Number(4631107791820423168), Nil]
+test: nested_files_keep_directories_paths_arguments_and_all_return_values
+[Number(4617315517961601024), Number(4624633867356078080), Nil, Boolean(true), Boolean(true), Nil, Nil, Nil, Nil]
+test: path_precedence_unicode_names_and_directory_easing_fallback_match_legacy
+[Number(4619567317775286272), Boolean(true), Number(4635822497680326656)]
+[Number(4626041242239631360)]
+[Number(4626041242239631360)]
+test: unreachable_loaded_functions_are_collected_while_saved_functions_remain_usable
+[Number(0), Number(4631107791820423168)]

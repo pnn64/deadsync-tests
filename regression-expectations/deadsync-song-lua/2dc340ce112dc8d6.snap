@@ -1,0 +1,3 @@
+song/tests/rust_live_frames.rs::player_writes
+test: health_notification_can_write_the_following_player_before_its_health_read
+[SetLife { player: 1, life: 0.05 }]

@@ -1,0 +1,234 @@
+{
+  "upstream": "ITGmania v1.2.0",
+  "revision": "5c737928d93778c2c9f68e276052b220b43a468f",
+  "source": "Themes/_fallback/Scripts/02 ActorDef.lua",
+  "sha256": "e146db352c0328d94e5225b4a7705abb4cc7253b81cf217c2bea3f6f7f7cd093",
+  "registered_classes": [
+    {
+      "class": "Actor",
+      "source": "Actor.cpp",
+      "sha256": "c5991992c937e7be25147697a4116397743fae547a1046ba96bb28c83482c150"
+    },
+    {
+      "class": "ActorFrame",
+      "source": "ActorFrame.cpp",
+      "sha256": "6dd9ea82229994cf1406dce363ce58a4414d429320fc75da0d1c543696ebf1ac"
+    },
+    {
+      "class": "ActorFrameTexture",
+      "source": "ActorFrameTexture.cpp",
+      "sha256": "38d918bd700777bb0a4ce3978c084fca2764e5d6c11a070fd2f9f9c5fc2b6893"
+    },
+    {
+      "class": "ActorMultiTexture",
+      "source": "ActorMultiTexture.cpp",
+      "sha256": "8027ca150eca6b0a62b30fd7a06aed699a29f207ae0e95081097dc8802d46013"
+    },
+    {
+      "class": "ActorMultiVertex",
+      "source": "ActorMultiVertex.cpp",
+      "sha256": "5ee73f28421f39b3b22955e6735f8979fb63948baf23261272d11965e42b8dd8"
+    },
+    {
+      "class": "ActorProxy",
+      "source": "ActorProxy.cpp",
+      "sha256": "88361635de14dd7777a4c004432b3fe7da171d403d080a5544fda8c2e9f008c4"
+    },
+    {
+      "class": "ActorScroller",
+      "source": "ActorScroller.cpp",
+      "sha256": "8ac901cfeb731aa215773ab6eb7650e805965fe5ba54dbc3b37b653c6a552d94"
+    },
+    {
+      "class": "Sound",
+      "source": "ActorSound.cpp",
+      "sha256": "c62476bf9c67f836eab5279d5b1370d8617c2fdce95abbb0e1785284eb78d7e5"
+    },
+    {
+      "class": "Banner",
+      "source": "Banner.cpp",
+      "sha256": "4e0f3be8cc57095210b8ad74b43ffb99f2d1a8d3e580cf57a19389fc2414160c"
+    },
+    {
+      "class": "BGAnimation",
+      "source": "BGAnimation.cpp",
+      "sha256": "2f95d8603c55b8405087f73b0f290fe28e9c398708bf59dc7720ecf24710e403"
+    },
+    {
+      "class": "BitmapText",
+      "source": "BitmapText.cpp",
+      "sha256": "9db88dd98d82a88eea8b8544e2d12b7bb4d8d2fea52847c54f9f3e7655b1fc78"
+    },
+    {
+      "class": "BPMDisplay",
+      "source": "BPMDisplay.cpp",
+      "sha256": "6b779ae3888f328d8e43b9705985964686498e8e18677024115b0b07d457d0dc"
+    },
+    {
+      "class": "SongBPMDisplay",
+      "source": "BPMDisplay.cpp",
+      "sha256": "6b779ae3888f328d8e43b9705985964686498e8e18677024115b0b07d457d0dc"
+    },
+    {
+      "class": "ComboGraph",
+      "source": "ComboGraph.cpp",
+      "sha256": "78154d0ddd398ee7919c451e839f24cf01890885de5ef94817ab148cebee75cc"
+    },
+    {
+      "class": "ControllerStateDisplay",
+      "source": "ControllerStateDisplay.cpp",
+      "sha256": "ca6bdb17f4c1b08c6274841d44e6859a9356d8a35e8741e84c25f1f76f5e2abc"
+    },
+    {
+      "class": "CourseContentsList",
+      "source": "CourseContentsList.cpp",
+      "sha256": "077c330187befb5f980073d4a8c0ea8142684471d3e6dc46981e8d250450fd54"
+    },
+    {
+      "class": "DifficultyIcon",
+      "source": "DifficultyIcon.cpp",
+      "sha256": "3cd03a4c165d9a92a43c4aa43ced6ca4a19a9a12858431d1ded996a2fe31b2c2"
+    },
+    {
+      "class": "StepsDisplayList",
+      "source": "DifficultyList.cpp",
+      "sha256": "aca51d0f8cbb6733cb663b971c9d4dc4e97ec40c18daf33174758698ee264407"
+    },
+    {
+      "class": "DynamicActorScroller",
+      "source": "DynamicActorScroller.cpp",
+      "sha256": "7459fe99adad5e19a3f64ae50bb4f7f9ecb640e8ada5321974927fd7e889c43c"
+    },
+    {
+      "class": "FadingBanner",
+      "source": "FadingBanner.cpp",
+      "sha256": "bd64a95aed4a4a93618f5b8d54a77c318228a54fd5592d6cb8415438ee05f935"
+    },
+    {
+      "class": "GradeDisplay",
+      "source": "GradeDisplay.cpp",
+      "sha256": "df8728dad5a459de13d718908edb94b1f5ac9ca22fa451ea12cfda81a3ee0d2d"
+    },
+    {
+      "class": "GraphDisplay",
+      "source": "GraphDisplay.cpp",
+      "sha256": "78d3eff231653b2a5fcf26f9f9a287d62b2e1e6c818186e326b0fe121938773f"
+    },
+    {
+      "class": "GraphLine",
+      "source": "GraphDisplay.cpp",
+      "sha256": "78d3eff231653b2a5fcf26f9f9a287d62b2e1e6c818186e326b0fe121938773f"
+    },
+    {
+      "class": "GrooveRadar",
+      "source": "GrooveRadar.cpp",
+      "sha256": "f6f7af7448337d6d620bc71980d159e13a3679ca174af93183a33caa64c46cb5"
+    },
+    {
+      "class": "HelpDisplay",
+      "source": "HelpDisplay.cpp",
+      "sha256": "09dc603a2a23505af2a4b735c77af2848f24001df06a883041debc9b728b4cff"
+    },
+    {
+      "class": "HoldJudgment",
+      "source": "HoldJudgment.cpp",
+      "sha256": "95f1d6f2e531d8145941657ded3c7158a846dd1fa935c84243b298b16de0a1de"
+    },
+    {
+      "class": "MemoryCardDisplay",
+      "source": "MemoryCardDisplay.cpp",
+      "sha256": "dbf4266ac2a151e88fb49e9f7f7b23abeee265086944aef1d3ca499ca53e297c"
+    },
+    {
+      "class": "MeterDisplay",
+      "source": "MeterDisplay.cpp",
+      "sha256": "7b63510b8a63e638cecf2a7c953eb2198610680d36ef9aa9e876ea5f78148e39"
+    },
+    {
+      "class": "SongMeterDisplay",
+      "source": "MeterDisplay.cpp",
+      "sha256": "7b63510b8a63e638cecf2a7c953eb2198610680d36ef9aa9e876ea5f78148e39"
+    },
+    {
+      "class": "Model",
+      "source": "Model.cpp",
+      "sha256": "f1f1e78b1400d38ec5836678946fe1914716cf26249d0a37699fbad5b6305081"
+    },
+    {
+      "class": "ModIconRow",
+      "source": "ModIconRow.cpp",
+      "sha256": "6c9663e3def63b891abb8e6dcc10ec119f955762efd8fc039725584ecd356d69"
+    },
+    {
+      "class": "PaneDisplay",
+      "source": "PaneDisplay.cpp",
+      "sha256": "448e759db34ab953eeb44f85c089a28b78ed748bb535228de2772737c2c215ee"
+    },
+    {
+      "class": "PercentageDisplay",
+      "source": "PercentageDisplay.cpp",
+      "sha256": "0c9b257bb3e8b6e636aa6ea06ee5063a32c0a2f82f16cc0b9acc95cc49e27dce"
+    },
+    {
+      "class": "Quad",
+      "source": "Quad.cpp",
+      "sha256": "4f1e12f180c0496ea07a98c24f84b1ab267ce34910a59ff7d1e53c6397df40b7"
+    },
+    {
+      "class": "RollingNumbers",
+      "source": "RollingNumbers.cpp",
+      "sha256": "3777672093d97cdf0852315a53839664b0b2b6abf58f8b831304a2b9170800bc"
+    },
+    {
+      "class": "ScoreDisplayAliveTime",
+      "source": "ScoreDisplayAliveTime.cpp",
+      "sha256": "50784d4e449f97abaa9ef9469ecad15b09ce350160b1d038a3236ec30390e3d2"
+    },
+    {
+      "class": "ScoreDisplayCalories",
+      "source": "ScoreDisplayCalories.cpp",
+      "sha256": "86c45fd5223f2cc7c00460f6cd7f7e5a6a965087ae7b185b4be22ae2e4d977bb"
+    },
+    {
+      "class": "DeviceList",
+      "source": "ScreenTestInput.cpp",
+      "sha256": "46b1183a3e6d0780982eb94015033fc9ebc2371907e76f8876c951812d468370"
+    },
+    {
+      "class": "InputList",
+      "source": "ScreenTestInput.cpp",
+      "sha256": "46b1183a3e6d0780982eb94015033fc9ebc2371907e76f8876c951812d468370"
+    },
+    {
+      "class": "Sprite",
+      "source": "Sprite.cpp",
+      "sha256": "5e734fbf27ca87b298caa34828e21904323e963a4be370927d6c8dc1411b7385"
+    },
+    {
+      "class": "StepsDisplay",
+      "source": "StepsDisplay.cpp",
+      "sha256": "8c33c1e5e716c5af285e246314c11d82de4e1e025bda55464623af8e6d6fb8f2"
+    },
+    {
+      "class": "TextBanner",
+      "source": "TextBanner.cpp",
+      "sha256": "1649926855c63fc623f90c8e97ee6d375877cf706be6a8902d2c315f02575dca"
+    },
+    {
+      "class": "WorkoutGraph",
+      "source": "WorkoutGraph.cpp",
+      "sha256": "2ee4836e55935d4de3c391c434e4303be1e93b5de36582e8b161301666832835"
+    }
+  ],
+  "host_sources": {
+    "ActorUtil.cpp": "282b2acd5b45b27ff6c55a4ca1b0189f9405818205fd747316f9f82800c56475",
+    "RageUtil.cpp": "8487049a1d4ed4c2c1c9ae8e232f4039787eb01e7b854684b85394bf6c79c012"
+  },
+  "adapter_scope": "Declarations and template loading only; class registration names do not claim actor instance or rendering support.",
+  "ported_source": "crates/deadsync-song-lua/src/rust_engine/actor_def.lua",
+  "adaptations": [
+    "Path directory extraction accepts Windows separators.",
+    "Absolute drive and UNC paths bypass source-relative joining.",
+    "Only constructor/composition, LoadActorFunc/LoadActor, WrapInActorFrame and NullActor sections are installed; params/font/theme-decoration helpers remain pending."
+  ]
+}

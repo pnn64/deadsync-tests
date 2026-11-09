@@ -1,0 +1,4 @@
+song/tests/rust_song_activation.rs::render_property_capture_reuses_pending_destinations_across_drains_and_validates_owners::eq3
+test: render_property_capture_reuses_pending_destinations_across_drains_and_validates_owners
+7
+7

@@ -1,0 +1,35 @@
+song/tests/rust_messages.rs::Pair::observations
+test: authored_and_theme_message_errors_restore_state_and_recover
+(0, ["false", "1", "outer", "outside", "true", "7", "outer", "outside"])
+test: broadcast_arity_identity_dynamic_fields_and_manager_call_styles
+(0, ["child", "1", "true", "Probe", "root", "1", "true", "Probe", "child", "0", "false", "Probe", "root", "0", "false", "Probe", "child", "1", "false", "Probe", "root", "1", "false", "Probe", "child", "1", "true", "Probe", "added", "true", "Probe", "true", "Probe", "false", "Probe", "false", "Probe", "true", "5", "true", "true", "child", "1", "true", "Probe", "added", "true"])
+test: broadcast_validation_suppression_history_and_logging_match_production
+(0, ["false", "false", "false", "false", "true", "true", "true", "true", "true", "probe", "1", "probe", "0", "7", "", "false", "  ", "false", "Probe", "false", "Probe", "false", "Probe", "true", "Probe", "false"])
+test: judgment_metamethods_gc_and_existing_native_objects_match_production
+(0, ["params.get", "Player", "params.set", "Player", "params.get", "TapNoteScore", "params.set", "TapNoteScore", "params.get", "HoldNoteScore", "params.set", "HoldNoteScore", "params.get", "TapNoteOffset", "params.set", "TapNoteOffset", "note.get", "GetTapNoteType", "result.get", "GetHeld", "note.get", "Held", "note.get", "held", "note.get", "Hidden", "note.get", "hidden", "note.get", "TapNoteOffset", "note.get", "Offset", "note.get", "TapNoteScore", "note.get", "Score", "result.set", "GetHeld", "result.set", "GetHidden", "result.set", "GetTapNoteOffset", "result.set", "GetTapNoteScore", "note.set", "HoldNoteResult", "note.get", "TapNoteType", "note.get", "Type", "note.get", "NoteType", "params.get", "TapNoteType", "params.get", "Type", "params.get", "NoteType", "note.get", "TapNoteSource", "note.get", "Source", "note.get", "TapNoteSubType", "note.get", "SubType", "note.get", "HoldDuration", "note.get", "AttackDuration", "note.get", "AttackModifiers", "note.get", "KeysoundIndex", "note.set", "GetTapNoteType", "note.set", "GetTapNoteSource", "note.set", "GetTapNoteSubType", "note.set", "GetPlayerNumber", "note.set", "GetAttackModifiers", "note.set", "GetTapNoteResult", "note.set", "GetHoldNoteResult", "note.set", "GetHoldDuration", "note.set", "GetAttackDuration", "note.set", "GetKeysoundIndex", "received", "true", "received", "true", "repeat", "2", "native", "true", "true"])
+test: judgment_normalization_retains_note_and_result_objects_across_gc
+(0, ["PlayerNumber_P1", "TapNoteScore_W3", "HoldNoteScore_None", "0", "3", "TapNoteType_Tap", "TapNoteSource_Original", "TapNoteSubType_Hold", "PlayerNumber_P1", "", "0", "0", "0", "true", "false", "false", "0", "TapNoteScore_W3", "PlayerNumber_P2", "TapNoteScore_W1", "HoldNoteScore_None", "0.017000000000000001", "1", "TapNoteType_Mine", "TapNoteSource_Original", "TapNoteSubType_Hold", "PlayerNumber_P2", "", "0", "0", "0", "true", "false", "false", "0.017000000923871994", "TapNoteScore_W1", "4", "TapNoteType_HoldHead", "custom", "roll", "PlayerNumber_P2", "dizzy", "1.25", "0.20000000298023224", "3", "true", "true", "false", "0.10000000149011612", "specific", "true", "true", "true", "specific", "true", "TapNoteType_HoldHead", "PlayerNumber_P1", "TapNoteScore_W3", "HoldNoteScore_None", "0", "1", "TapNoteType_Tap", "TapNoteSource_Original", "TapNoteSubType_Hold", "PlayerNumber_P1", "", "0", "0", "0", "true", "false", "false", "0", "TapNoteScore_W3"])
+test: listener_snapshot_reloads_handlers_and_defers_new_subscribers
+(0, ["old", "root", "new", "child", "next", "late", "late", "new", "root", "new", "child"])
+test: native_messages_preserve_engine_params_and_omitted_arguments
+(0, ["1", "nil", "nil"])
+(0, ["1", "nil", "nil", "0", "nil", "nil"])
+(0, ["1", "nil", "nil", "0", "nil", "nil", "1", "nil", "nil"])
+(0, ["1", "nil", "nil", "0", "nil", "nil", "1", "nil", "nil"])
+test: null_actor_instances_copy_template_native_state_without_advancing_template
+(0, ["3", "11", "9", "2", "5", "6", "false", "2.25", "11", "11", "9", "2", "5", "6", "false", "0.25", "11", "11", "9", "2", "5", "6", "false", "0.25"])
+(4593671619917905920, ["3", "11", "9", "2", "5", "6", "false", "2.25", "11", "11", "9", "2", "5", "6", "false", "0.25", "11", "11", "9", "2", "5", "6", "false", "0.25"])
+(4593671619917905920, ["3", "11", "9", "2", "5", "6", "false", "2.25", "11", "11", "9", "2", "5", "6", "false", "0.25", "11", "11", "9", "2", "5", "6", "false", "0.25", "3", "11", "9", "2", "5", "6", "false", "2.25", "11", "11", "9", "2", "5", "6", "false", "0.125", "11", "11", "9", "2", "5", "6", "false", "0.125"])
+(4600427019358961664, ["3", "11", "9", "2", "5", "6", "false", "2.25", "11", "11", "9", "2", "5", "6", "false", "0.25", "11", "11", "9", "2", "5", "6", "false", "0.25", "3", "11", "9", "2", "5", "6", "false", "2.25", "11", "11", "9", "2", "5", "6", "false", "0.125", "11", "11", "9", "2", "5", "6", "false", "0.125"])
+(4600427019358961664, ["3", "11", "9", "2", "5", "6", "false", "2.25", "11", "11", "9", "2", "5", "6", "false", "0.25", "11", "11", "9", "2", "5", "6", "false", "0.25", "3", "11", "9", "2", "5", "6", "false", "2.25", "11", "11", "9", "2", "5", "6", "false", "0.125", "11", "11", "9", "2", "5", "6", "false", "0.125", "3", "11", "9", "2", "5", "6", "false", "2.25", "11", "11", "9", "2", "5", "6", "false", "0", "11", "11", "9", "2", "5", "6", "false", "0"])
+test: null_actor_is_an_independent_live_template_and_subscriber
+(0, ["pulse", "false", "4", "pulse", "false", "7", "pulse", "true", "0"])
+test: queued_messages_use_empty_shared_params_and_frame_boundaries
+(0, [""])
+(0, [""])
+(4602678819172646912, [""])
+(4602678819172646912, [""])
+(4603804719079489536, ["child", "table", "true", "Pulse", "root", "table", "false", "Pulse", "child", "table", "true", "Pulse", "root", "table", "false", "Pulse"])
+(4603804719079489536, ["child", "table", "true", "Pulse", "root", "table", "false", "Pulse", "child", "table", "true", "Pulse", "root", "table", "false", "Pulse", "0", "Pulse", "true", "Pulse", "true"])
+test: same_message_reentry_preserves_direct_command_guard_and_scopes
+(0, ["enter", "root", "0", "Pulse", "child", "0", "enter", "root", "1", "Pulse", "child", "1", "leave", "root", "1", "Pulse", "child", "1", "leave", "root", "0", "Pulse", "child", "0"])

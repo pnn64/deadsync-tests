@@ -1,0 +1,3 @@
+tests/file_loading.rs::observe::stdin5
+test: standard_input_loading_shares_buffers_and_ignores_io_input_redirection
+[Number(0), Number(0)]

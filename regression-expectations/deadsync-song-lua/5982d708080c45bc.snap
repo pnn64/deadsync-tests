@@ -1,0 +1,14 @@
+song/tests/rust_live_visuals.rs::draw_bindings
+test: invalid_global_bindings_leave_previous_bindings_and_missing_slots_stop_after_prior_writes
+("bindings", [(1, Root(1)), (2, Root(18446744073709551615))])
+("bindings", [(0, Root(0)), (1, Root(1)), (2, Root(2)), (3, Root(3)), (4, Root(4)), (5, Root(5)), (6, Root(6))])
+test: live_poses_content_and_tracked_visibility_reach_prepared_slots
+("bindings", [(0, Root(0)), (1, Root(1)), (2, Root(2)), (3, Root(3)), (4, Root(4)), (5, Root(5)), (6, Root(6))])
+test: proxy_actor_identity_resolves_within_each_layer_and_duplicate_bindings_use_the_last_target
+("bindings", [(5, Root(5)), (4, Root(4))])
+("bindings", [(5, Background(0, 5)), (4, Background(0, 4))])
+("bindings", [(5, Foreground(1, 5)), (4, Foreground(1, 4))])
+("bindings", [(5, Background(0, 5)), (4, Foreground(0, 4))])
+("bindings", [(5, Foreground(1, 5)), (4, Foreground(0, 4))])
+("bindings", [(5, Root(5)), (4, Root(4)), (4, Background(1, 4))])
+("bindings", [(0, Root(0)), (1, Root(1)), (2, Root(2)), (3, Root(3)), (4, Root(4)), (5, Root(5)), (6, Root(6))])

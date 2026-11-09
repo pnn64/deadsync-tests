@@ -1,0 +1,19 @@
+song/tests/rust_song_activation.rs::compare_tracked_output::eq1
+test: tracked_output_manual_snapshot_keeps_raw_data_and_does_not_repeat_authored_getters
+11
+11
+test: tracked_output_pins_identities_through_retirement_and_rejects_foreign_or_released_roots
+11
+test: tracked_output_preserves_order_state_aliases_and_optional_layers
+11
+10
+11
+10
+test: tracked_output_recreates_missing_children_and_retains_native_partial_errors
+11
+11
+test: tracked_output_roots_transient_foregrounds_before_reentrant_global_reads
+11
+test: tracked_output_uses_manual_draw_snapshots_without_resurrecting_whole_players
+11
+11

@@ -1,0 +1,4 @@
+song/tests/rust_song_activation.rs::captured_initial_update_blocks_and_wrapper_defaults_match_compiler::eq8
+test: captured_initial_update_blocks_and_wrapper_defaults_match_compiler
+[]
+[(0.0, "ScreenChanged", false)]

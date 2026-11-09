@@ -1,0 +1,3 @@
+song/tests/rust_graphs.rs::message_ranks
+test: native_child_message_subscriptions_precede_ordinary_scene_registration
+(45, 16165584708678116151, [1, 3, 6, 4, 2, 5])

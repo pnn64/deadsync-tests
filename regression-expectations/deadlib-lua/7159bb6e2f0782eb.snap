@@ -1,0 +1,3 @@
+tests/file_loading.rs::observe::stdin0
+test: standard_input_loading_shares_buffers_and_ignores_io_input_redirection
+[Bytes([120]), Number(4625478292286210048), Bytes([61, 115, 116, 100, 105, 110])]

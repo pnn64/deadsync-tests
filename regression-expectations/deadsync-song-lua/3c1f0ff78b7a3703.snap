@@ -1,0 +1,4 @@
+song/tests/rust_song_activation.rs::callback_tables_global_name_predicate_keeps_literals_short_circuit_and_meter_stream::eq3
+test: callback_tables_global_name_predicate_keeps_literals_short_circuit_and_meter_stream
+true
+false

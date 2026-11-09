@@ -1,0 +1,3 @@
+song/tests/rust_screen_manager.rs::hooks
+test: hooks_observe_authored_calls_without_internal_numeric_conversion_calls
+4

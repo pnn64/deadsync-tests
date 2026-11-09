@@ -1,0 +1,46 @@
+song/tests/rust_live_compiler.rs::output
+test: dynamic_command_source_scope_preserves_the_selected_observer_profile
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [(0.0, "NestedDynamicTheme", false), (0.0, "NestedDynamicTheme", false)], [], [], [], [], [], 0, 0)
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [(0.0, "NestedDynamicTheme", false), (0.0, "NestedDynamicTheme", false)], [], [], [(0.0, 0.0, "NestedDynamicTheme", Ok(None))], [], [], 0, 0)
+test: empty_live_session_keeps_the_screen_and_zero_authored_entries
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: malformed_live_file_keeps_rust_dummy_fallback_and_prior_side_effects
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: multilayer_wrapper_proxy_aft_and_sprite_payloads_use_shared_layer_splitting
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: original_unsupported_statistics_getlife_fixture_remains_a_rejection_control
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+test: replacement_init_does_not_observe_the_previous_frames_live_player_feedback
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+test: retained_scene_reload_runs_end_then_rebuilds_in_the_same_vm
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+test: saved_scalar_getters_and_writes_revert_to_lua_backing_after_reload
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+test: sound_owner_events_survive_startup_and_runtime_reload_in_native_order
+(None, [SongLuaLiveSourceRequest { music_seconds: 0.0, request: NewScreen("ScreenGameplay") }, SongLuaLiveSourceRequest { music_seconds: 0.0, request: NewScreen("ScreenGameplay") }], [(0.0, "ScreenChanged", false), (0.0, "ScreenChanged", false), (0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 5)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 3)
+(None, [], [], [], [], [], [], [], 0, 2)
+test: source_callback_scope_survives_nested_theme_gc_and_unwinds_after_error
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [(0.0, "NestedTheme", false), (0.0, "NestedTheme", false)], [], [], [(0.0, 0.0, "NestedTheme", Ok(None))], [], [], 0, 0)
+test: startup_reloads_preserve_globals_rng_end_order_and_saved_actor_ownership
+(None, [SongLuaLiveSourceRequest { music_seconds: 0.0, request: NewScreen("ScreenGameplay") }, SongLuaLiveSourceRequest { music_seconds: 0.0, request: NewScreen("ScreenGameplay") }], [(0.0, "ScreenChanged", false), (0.0, "ScreenChanged", false), (0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+test: unified_live_compilation_freezes_initial_assets_and_retains_future_callbacks
+(None, [], [(0.0, "ScreenChanged", false)], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)
+(None, [], [], [], [], [], [], [], 0, 0)

@@ -1,0 +1,21 @@
+tests/host_reentry.rs::compare::expected
+test: protected_reentry_matches_the_c_api_for_values_errors_and_live_native_slots
+[Boolean(true)]
+[Boolean(true), Number(4625478292286210048), Nil, Number(4631107791820423168), Boolean(false)]
+[Boolean(true), Number(4625478292286210048)]
+[Boolean(false), Boolean(false), Boolean(false), Bytes([97, 116, 116, 101, 109, 112, 116, 32, 116, 111, 32, 99, 97, 108, 108, 32, 97, 32, 110, 117, 109, 98, 101, 114, 32, 118, 97, 108, 117, 101])]
+[Boolean(false), Bytes([98, 97, 100, 32, 97, 114, 103, 117, 109, 101, 110, 116, 32, 35, 49, 32, 116, 111, 32, 39, 63, 39, 32, 40, 110, 117, 109, 98, 101, 114, 32, 101, 120, 112, 101, 99, 116, 101, 100, 44, 32, 103, 111, 116, 32, 98, 111, 111, 108, 101, 97, 110, 41])]
+[Boolean(true), Number(4631107791820423168)]
+[Boolean(false), Boolean(true)]
+[Boolean(false), Bytes([98, 105, 110, 97, 114, 121, 0, 255])]
+[Boolean(true), Boolean(false), Number(0)]
+[Boolean(true), Boolean(true), Bytes([67]), Boolean(true)]
+[Boolean(true), Bytes([40, 42, 116, 101, 109, 112, 111, 114, 97, 114, 121, 41]), Number(4625478292286210048), Bytes([40, 42, 116, 101, 109, 112, 111, 114, 97, 114, 121, 41]), Number(4636666922610458624), Number(4625478292286210048)]
+[Boolean(true), Boolean(true), Boolean(true), Boolean(true), Number(4631107791820423168)]
+[Boolean(true), Boolean(false), Bytes([97, 116, 116, 101, 109, 112, 116, 32, 116, 111, 32, 121, 105, 101, 108, 100, 32, 97, 99, 114, 111, 115, 115, 32, 109, 101, 116, 97, 109, 101, 116, 104, 111, 100, 47, 67, 45, 99, 97, 108, 108, 32, 98, 111, 117, 110, 100, 97, 114, 121])]
+[Boolean(true), Boolean(true), Boolean(true), Number(4630967054332067840), Boolean(true), Number(4631107791820423168)]
+[Boolean(true), Number(4631107791820423168), Bytes([99, 97, 108, 108, 58, 104, 111, 115, 116, 44, 99, 97, 108, 108, 58, 99, 104, 105, 108, 100, 44, 114, 101, 116, 117, 114, 110, 58, 99, 104, 105, 108, 100, 44, 114, 101, 116, 117, 114, 110, 58, 104, 111, 115, 116])]
+[Boolean(true), Boolean(true), Nil, Number(0)]
+[Boolean(false), Bytes([102, 105, 110, 97, 108, 105, 122, 101, 114])]
+test: unnamed
+[Boolean(true), Bytes([67, 32, 115, 116, 97, 99, 107, 32, 111, 118, 101, 114, 102, 108, 111, 119])]

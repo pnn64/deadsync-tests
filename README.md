@@ -30,6 +30,12 @@ complete archive before restoring its original filename locally. Restored
 archives are ignored by Git. Every file in this repository's branch history is
 strictly below 50,000,000 bytes.
 
+Lua regression expectations live in `regression-expectations/<crate>`. Snapshots
+of 50,000,000 bytes or more are stored as `.snap.gz` files. DeadSync's fixture
+setup command restores their exact bytes and verifies gzip checksums, and the
+restored `.snap` files are ignored. `prepare_test_fixtures.py --split` compresses
+new oversized snapshots as well as splitting archives.
+
 ## Updating fixtures
 
 1. In DeadSync, create a branch in the submodule with

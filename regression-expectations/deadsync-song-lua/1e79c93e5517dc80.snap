@@ -1,0 +1,14 @@
+song/tests/rust_song_column_output.rs::hides
+test: zoom_hides_keep_raw_thresholds_sparse_points_modes_and_outer_player_indices
+[SongLuaNoteHideWindow { spline_beats_per_t: 2.0, spline_size: 4, player: 0, column: 3, start_beat: 0.0, end_beat: 2.0 }, SongLuaNoteHideWindow { spline_beats_per_t: 2.0, spline_size: 4, player: 0, column: 3, start_beat: 6.0, end_beat: 6.0 }, SongLuaNoteHideWindow { spline_beats_per_t: 1.0, spline_size: 2, player: 1, column: 1, start_beat: 0.0, end_beat: 1.0 }]
+[SongLuaNoteHideWindow { spline_beats_per_t: 1.0, spline_size: 2, player: 1, column: 1, start_beat: 0.0, end_beat: 1.0 }]
+[SongLuaNoteHideWindow { spline_beats_per_t: 1.0, spline_size: 2, player: 1, column: 1, start_beat: 0.0, end_beat: 1.0 }]
+[SongLuaNoteHideWindow { spline_beats_per_t: 1.0, spline_size: 2, player: 1, column: 1, start_beat: 0.0, end_beat: 1.0 }]
+[SongLuaNoteHideWindow { spline_beats_per_t: 1.0, spline_size: 2, player: 1, column: 1, start_beat: 0.0, end_beat: 1.0 }]
+test: zoom_hides_keep_typed_errors_and_recover_without_changing_spline_capture
+[SongLuaNoteHideWindow { spline_beats_per_t: 1.0, spline_size: 1, player: 0, column: 0, start_beat: 0.0, end_beat: 0.0 }]
+[SongLuaNoteHideWindow { spline_beats_per_t: 1.0, spline_size: 1, player: 0, column: 0, start_beat: 0.0, end_beat: 0.0 }]
+[SongLuaNoteHideWindow { spline_beats_per_t: 1.0, spline_size: 1, player: 0, column: 0, start_beat: 0.0, end_beat: 0.0 }]
+[SongLuaNoteHideWindow { spline_beats_per_t: 1.0, spline_size: 1, player: 0, column: 0, start_beat: 0.0, end_beat: 0.0 }]
+test: zoom_hides_retain_the_current_player_and_read_later_globals_after_processing
+[SongLuaNoteHideWindow { spline_beats_per_t: 1.0, spline_size: 1, player: 0, column: 0, start_beat: 0.0, end_beat: 0.0 }]

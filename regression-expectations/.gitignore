@@ -1,0 +1,3 @@
+# Restored regression snapshots (managed by prepare_test_fixtures.py)
+/.snapshot-*
+/deadsync-song-lua/9a624c4875e88c03.snap

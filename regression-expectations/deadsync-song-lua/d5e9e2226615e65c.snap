@@ -1,0 +1,34 @@
+song/tests/rust_sound.rs::compare::prepared
+test: end_callbacks_precede_owner_stops_without_advancing_queued_work
+(729, 5597806414678649675, [])
+(13, 9603909815650805270, [])
+(62, 9888693083882675191, [])
+test: failed_end_keeps_partial_effects_and_is_not_retried
+(281, 7135231519354196286, [])
+(10, 9718497878353267217, [])
+test: immediate_sound_order_is_independent_of_tweens_and_keeps_actor_identity
+(224, 17653535899572533217, [])
+(7, 13615907732229478141, [])
+(7, 13615907732229478141, [])
+(420, 5749640616108598131, [])
+test: preparation_capture_preserves_beat_message_scope_and_startup_phase
+(7, 13615907732229478141, [])
+(387, 13150527642056179947, [SongLuaSoundEvent { beat: 0.5, path: "$FIXTURE0/choice a.wav", source_message: None, queued_startup: false }, SongLuaSoundEvent { beat: 0.5, path: "$FIXTURE0/choice a.wav", source_message: Some("Outer"), queued_startup: false }, SongLuaSoundEvent { beat: 0.5, path: "$FIXTURE0/choice B.wav", source_message: Some("Inner"), queued_startup: false }, SongLuaSoundEvent { beat: 0.5, path: "$FIXTURE0/choice a.wav", source_message: Some("Outer"), queued_startup: false }, SongLuaSoundEvent { beat: 0.5, path: "$FIXTURE0/choice a.wav", source_message: None, queued_startup: false }])
+(62, 3679770413817200776, [SongLuaSoundEvent { beat: 0.5, path: "$FIXTURE0/choice B.wav", source_message: None, queued_startup: true }, SongLuaSoundEvent { beat: 0.5, path: "$FIXTURE0/choice B.wav", source_message: Some("Outer"), queued_startup: true }, SongLuaSoundEvent { beat: 0.5, path: "$FIXTURE0/choice B.wav", source_message: Some("Inner"), queued_startup: true }, SongLuaSoundEvent { beat: 0.5, path: "$FIXTURE0/choice B.wav", source_message: Some("Outer"), queued_startup: true }])
+(54, 971252667929158155, [])
+test: preparation_errors_retain_emitted_events_and_restore_broadcast_scope
+(339, 16515264182804084020, [SongLuaSoundEvent { beat: 0.0, path: "$FIXTURE0/choice a.wav", source_message: Some("Fault"), queued_startup: false }, SongLuaSoundEvent { beat: 0.0, path: "$FIXTURE0/choice a.wav", source_message: None, queued_startup: false }, SongLuaSoundEvent { beat: 0.0, path: "$FIXTURE0/choice a.wav", source_message: None, queued_startup: false }])
+test: retiring_scene_stops_sound_owners_and_retained_handles_keep_metadata
+(55, 5043914047628752319, [])
+test: sound_file_getters_reenter_collect_and_preserve_error_recovery
+(999, 14838707563712450342, [])
+test: sound_handles_parameters_and_borrowed_methods_match_production
+(1067, 12426277005831885132, [])
+test: sound_length_cache_uses_file_text_and_retains_failed_prefix_probes
+(119, 16803268022561003328, [])
+(245, 13032461519224627057, [])
+(40, 1664199092760983159, [])
+(35, 2583004500807915535, [])
+(120, 924737706772290031, [])
+test: sound_paths_prefix_selection_and_metadata_cache_match_production
+(544, 416730890011404772, [])

@@ -1,0 +1,31 @@
+song/tests/rust_song_activation.rs::compare_column_samples::eq1
+test: column_eases_global_collection_roots_both_fields_before_reading_columns
+true
+test: column_eases_samples_keep_native_mode_baselines_numeric_coercion_and_target_order
+true
+true
+true
+true
+true
+true
+true
+true
+test: column_eases_samples_pin_transient_columns_handlers_and_points_during_witness_setters
+true
+test: column_eases_samples_recheck_nonuniform_witnesses_and_keep_later_y_errors
+true
+true
+false
+false
+true
+test: column_eases_samples_release_each_processed_field_before_the_next_getter
+true
+true
+test: column_eases_samples_validate_two_point_splines_and_preserve_sparse_raw_points
+true
+true
+true
+true
+true
+false
+false

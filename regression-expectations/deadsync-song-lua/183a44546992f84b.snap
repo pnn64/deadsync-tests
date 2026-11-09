@@ -1,0 +1,6 @@
+song/tests/rust_song_activation.rs::compare_stable_message_pass::eq1
+test: message_retry_stable_cross_actor_scope_freezes_handlers_and_preserves_alias_indices
+false
+test: message_retry_unstable_targets_and_second_run_errors_defer_with_original_details
+false
+false

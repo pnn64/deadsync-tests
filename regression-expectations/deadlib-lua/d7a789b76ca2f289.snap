@@ -1,0 +1,7 @@
+tests/gc.rs::host_full_collection::expected
+test: host_full_collection_uses_the_reference_restart_and_finalizer_controls
+(false, true)
+(false, true)
+(false, true)
+(true, true)
+(true, false)

@@ -1,0 +1,54 @@
+song/tests/rust_song_activation.rs::compare_function_ease_probe::eq2
+test: function_ease_probe_classifies_all_existing_player_targets_and_repeated_setters
+(Some(PlayerX), ["player.x", "player.x"], [2])
+(Some(PlayerY), ["player.y", "player.y"], [2])
+(Some(PlayerZ), ["player.z", "player.z"], [2])
+(Some(PlayerRotationX), ["player.rotationx", "player.rotationx"], [2])
+(Some(PlayerRotationY), ["player.rotationy", "player.rotationy"], [2])
+(Some(PlayerRotationZ), ["player.rotationz", "player.rotationz"], [2])
+(Some(PlayerSkewX), ["player.skewx", "player.skewx"], [2])
+(Some(PlayerSkewY), ["player.skewy", "player.skewy"], [2])
+(Some(PlayerZoom), ["player.zoom", "player.zoom"], [2])
+(Some(PlayerZoomX), ["player.zoomx", "player.zoomx"], [2])
+(Some(PlayerZoomY), ["player.zoomy", "player.zoomy"], [2])
+(Some(PlayerZoomZ), ["player.zoomz", "player.zoomz"], [2])
+test: function_ease_probe_follows_native_lifecycle_capture_ownership
+(None, [], [])
+(None, [], [])
+(None, [], [0])
+(None, [], [0])
+(None, [], [0])
+(None, [], [0])
+(None, [], [0])
+(None, [], [])
+(None, [], [])
+test: function_ease_probe_keeps_first_return_through_authored_global_restoration
+(None, [], [])
+test: function_ease_probe_keeps_native_empty_tween_ownership_and_skips_nonwriting_operations
+(None, [], [0])
+(None, [], [])
+(None, [], [])
+(None, [], [])
+(None, ["overlay.x"], [0])
+(None, [], [0])
+(None, [], [0])
+(None, [], [0])
+(None, [], [0])
+test: function_ease_probe_preserves_partial_global_restoration_when_a_setter_fails
+(Some(PlayerY), ["player.y"], [2])
+test: function_ease_probe_preserves_setter_error_preflight_before_semantic_writes
+(None, [], [])
+(None, [], [])
+(None, [], [2])
+(None, [], [2])
+test: function_ease_probe_restores_rng_clocks_globals_and_keeps_shared_writes_on_body_errors
+(None, ["player.x"], [2])
+test: function_ease_probe_tracks_write_order_separately_from_named_setter_calls
+(None, ["overlay.x", "overlay.y"], [1, 0])
+(None, ["player.x", "player.y"], [2])
+(None, ["notefield.x"], [4])
+(None, ["judgment.rotationz"], [5])
+(None, ["player.baserotationx"], [2])
+(None, ["overlay.skewx"], [0, 1])
+test: function_ease_probe_uses_original_observation_tables_and_validates_corrupt_sequences
+(Some(PlayerY), ["player.y"], [])

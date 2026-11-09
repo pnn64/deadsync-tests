@@ -1,0 +1,15 @@
+song/tests/rust_song_activation.rs::compare_overlay_ease::eq1
+test: overlay_compiler_ease_duplicate_indices_empty_output_and_error_recovery_match_native
+false
+false
+true
+true
+false
+test: overlay_compiler_ease_endpoints_keep_intersection_metadata_and_clamped_clocks
+false
+false
+test: overlay_compiler_ease_known_and_unknown_probes_keep_native_rewind_boundaries
+false
+false
+test: overlay_compiler_ease_retains_detached_function_through_both_endpoints_and_releases_it
+false
