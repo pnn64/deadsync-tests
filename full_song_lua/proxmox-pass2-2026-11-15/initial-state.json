@@ -1,0 +1,26 @@
+{
+  "deadsync": {
+    "path": "C:\\GitHub\\deadsync",
+    "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+    "status": " M crates/deadsync-song-lua/src/actors.rs\n M crates/deadsync-song-lua/src/actors/function_capture.rs\n M crates/deadsync-song-lua/src/actors/lifecycle.rs\n M crates/deadsync-song-lua/src/actors/messages/capture.rs\n M crates/deadsync-song-lua/src/actors/offline.rs\n M crates/deadsync-song-lua/src/actors/song_capture.rs\n M crates/deadsync-song-lua/src/actors/song_replay.rs\n ? tests/fixtures\n",
+    "initial_diff_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+  },
+  "harness": {
+    "path": "C:\\GitHub\\itgmania-harness",
+    "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+    "status": "",
+    "initial_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "native": {
+    "path": "C:\\GitHub\\itgmania-harness\\vendor\\itgmania",
+    "head": "5c737928d93778c2c9f68e276052b220b43a468f",
+    "status": "",
+    "initial_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rssp": {
+    "path": "C:\\GitHub\\rssp",
+    "head": "da616e3aef6dada87eab30d44164e526c51deafe",
+    "status": "?? optimize.ps1\n?? optimize.sh\n?? rust-performance.md\n",
+    "initial_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

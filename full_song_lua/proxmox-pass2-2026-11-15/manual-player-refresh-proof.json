@@ -1,0 +1,869 @@
+{
+  "native_revision": {
+    "execution": "embedded_native_sources",
+    "git_dirty": "false",
+    "git_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+    "source_root": "C:\\GitHub\\itgmania-harness\\vendor/itgmania"
+  },
+  "input_sha256": "7853dd95dfa5bedac225d3dbdc286fc99784b7aa4bf796d129407d39e3a02de2",
+  "raw_capture_sha256": "3eb829a5c680963176972bfed13d616d04439af2d0153ae891e93c7d1113c982",
+  "fixture_sha256": "a004b0edeaa46871d332e92991f3f571a88121d2ef152edb4e69dae520a68056",
+  "all_changes_preserve_float32_bits": true,
+  "changes": [
+    {
+      "path": "/sprites/ordinary-underlay/0/vertices/0/screen/1",
+      "old": 428.00003051757807,
+      "native": 428.0000305175781
+    },
+    {
+      "path": "/sprites/ordinary-underlay/0/vertices/3/screen/1",
+      "old": 428.00003051757807,
+      "native": 428.0000305175781
+    },
+    {
+      "path": "/sprites/main-underlay/0/vertices/0/clip/0",
+      "old": 1.00812029838562,
+      "native": 1.0081202983856201
+    },
+    {
+      "path": "/sprites/main-underlay/0/vertices/0/ndc/0",
+      "old": 1.00812029838562,
+      "native": 1.0081202983856201
+    },
+    {
+      "path": "/sprites/main-underlay/0/vertices/0/screen/1",
+      "old": 477.9978637695313,
+      "native": 477.99786376953125
+    },
+    {
+      "path": "/sprites/main-underlay/0/vertices/1/view/1",
+      "old": 483.3576049804687,
+      "native": 483.35760498046875
+    },
+    {
+      "path": "/sprites/main-underlay/0/vertices/1/world/1",
+      "old": 483.3576049804687,
+      "native": 483.35760498046875
+    },
+    {
+      "path": "/sprites/main-underlay/0/vertices/2/screen/1",
+      "old": 484.9662780761718,
+      "native": 484.9662780761719
+    },
+    {
+      "path": "/sprites/main-underlay/0/vertices/2/view/1",
+      "old": 484.9662780761718,
+      "native": 484.9662780761719
+    },
+    {
+      "path": "/sprites/main-underlay/0/vertices/2/world/1",
+      "old": 484.9662780761718,
+      "native": 484.9662780761719
+    },
+    {
+      "path": "/sprites/main-stage/0/vertices/0/clip/1",
+      "old": -1.0387444496154783,
+      "native": -1.0387444496154785
+    },
+    {
+      "path": "/sprites/main-stage/0/vertices/0/ndc/1",
+      "old": -1.0387444496154783,
+      "native": -1.0387444496154785
+    },
+    {
+      "path": "/sprites/main-stage/0/vertices/0/view/1",
+      "old": 489.2986450195313,
+      "native": 489.29864501953125
+    },
+    {
+      "path": "/sprites/main-stage/0/vertices/0/world/1",
+      "old": 489.2986450195313,
+      "native": 489.29864501953125
+    },
+    {
+      "path": "/sprites/main-stage/0/vertices/1/clip/1",
+      "old": -1.053632736206055,
+      "native": -1.0536327362060547
+    },
+    {
+      "path": "/sprites/main-stage/0/vertices/1/ndc/1",
+      "old": -1.053632736206055,
+      "native": -1.0536327362060547
+    },
+    {
+      "path": "/sprites/main0-hud/0/vertices/0/screen/1",
+      "old": 222.37205505371097,
+      "native": 222.37205505371094
+    },
+    {
+      "path": "/sprites/main0-hud/0/vertices/0/view/1",
+      "old": 20.98548889160156,
+      "native": 20.985488891601562
+    },
+    {
+      "path": "/sprites/main0-hud/0/vertices/1/ndc/2",
+      "old": 0.9977613091468812,
+      "native": 0.9977613091468811
+    },
+    {
+      "path": "/sprites/main0-hud/0/vertices/1/screen/2",
+      "old": 0.9977613091468812,
+      "native": 0.9977613091468811
+    },
+    {
+      "path": "/sprites/main0-hud/0/vertices/1/view/1",
+      "old": 27.99110412597656,
+      "native": 27.991104125976562
+    },
+    {
+      "path": "/sprites/main0-hud/0/vertices/2/clip/1",
+      "old": 6.04499053955078,
+      "native": 6.044990539550781
+    },
+    {
+      "path": "/sprites/main0-hud/0/vertices/3/ndc/2",
+      "old": 0.9977328181266784,
+      "native": 0.9977328181266785
+    },
+    {
+      "path": "/sprites/main0-hud/0/vertices/3/screen/2",
+      "old": 0.9977328181266784,
+      "native": 0.9977328181266785
+    },
+    {
+      "path": "/sprites/main0-hud/0/vertices/3/view/1",
+      "old": 27.68955993652344,
+      "native": 27.689559936523438
+    },
+    {
+      "path": "/sprites/main0-field/0/vertices/0/screen/0",
+      "old": 243.0965881347656,
+      "native": 243.09658813476562
+    },
+    {
+      "path": "/sprites/main0-field/0/vertices/0/view/0",
+      "old": 119.82269287109376,
+      "native": 119.82269287109375
+    },
+    {
+      "path": "/sprites/main0-field/0/vertices/1/view/0",
+      "old": 115.8717803955078,
+      "native": 115.87178039550781
+    },
+    {
+      "path": "/sprites/main0-field/0/vertices/1/world/0",
+      "old": 228.0940093994141,
+      "native": 228.09400939941406
+    },
+    {
+      "path": "/sprites/main0-field/0/vertices/2/clip/0",
+      "old": -123.50579833984376,
+      "native": -123.50579833984375
+    },
+    {
+      "path": "/sprites/main0-field/0/vertices/2/clip/1",
+      "old": 188.68002319335935,
+      "native": 188.68002319335938
+    },
+    {
+      "path": "/sprites/main0-field/0/vertices/3/clip/1",
+      "old": 212.9795837402344,
+      "native": 212.97958374023438
+    },
+    {
+      "path": "/sprites/main0-field/0/vertices/3/ndc/2",
+      "old": 0.9982702732086183,
+      "native": 0.9982702732086182
+    },
+    {
+      "path": "/sprites/main0-field/0/vertices/3/screen/2",
+      "old": 0.9982702732086183,
+      "native": 0.9982702732086182
+    },
+    {
+      "path": "/sprites/main0-field/0/vertices/3/world/0",
+      "old": 252.5285491943359,
+      "native": 252.52854919433594
+    },
+    {
+      "path": "/sprites/main0-judgment/0/vertices/0/screen/1",
+      "old": 254.3915100097656,
+      "native": 254.39151000976562
+    },
+    {
+      "path": "/sprites/main0-judgment/0/vertices/0/world/1",
+      "old": 251.8467712402344,
+      "native": 251.84677124023438
+    },
+    {
+      "path": "/sprites/main0-judgment/0/vertices/0/world/2",
+      "old": 28.75980758666992,
+      "native": 28.759807586669922
+    },
+    {
+      "path": "/sprites/main0-judgment/0/vertices/1/view/0",
+      "old": -126.27899169921876,
+      "native": -126.27899169921875
+    },
+    {
+      "path": "/sprites/main0-judgment/0/vertices/2/clip/0",
+      "old": -224.2146148681641,
+      "native": -224.21461486816406
+    },
+    {
+      "path": "/sprites/main0-judgment/0/vertices/2/ndc/0",
+      "old": -0.38777714967727667,
+      "native": -0.3877771496772766
+    },
+    {
+      "path": "/sprites/main0-judgment/0/vertices/2/view/0",
+      "old": -107.31266784667967,
+      "native": -107.31266784667969
+    },
+    {
+      "path": "/sprites/main0-judgment/0/vertices/2/world/2",
+      "old": 36.50945663452149,
+      "native": 36.509456634521484
+    },
+    {
+      "path": "/sprites/main1-hud/0/vertices/0/ndc/0",
+      "old": 0.4062867164611816,
+      "native": 0.40628671646118164
+    },
+    {
+      "path": "/sprites/main1-hud/0/vertices/0/screen/0",
+      "old": 450.01174926757807,
+      "native": 450.0117492675781
+    },
+    {
+      "path": "/sprites/main1-hud/0/vertices/0/world/0",
+      "old": 453.9387817382813,
+      "native": 453.93878173828125
+    },
+    {
+      "path": "/sprites/main1-hud/0/vertices/1/screen/0",
+      "old": 450.0639343261718,
+      "native": 450.0639343261719
+    },
+    {
+      "path": "/sprites/main1-hud/0/vertices/2/ndc/2",
+      "old": 0.9981098175048829,
+      "native": 0.9981098175048828
+    },
+    {
+      "path": "/sprites/main1-hud/0/vertices/2/screen/2",
+      "old": 0.9981098175048829,
+      "native": 0.9981098175048828
+    },
+    {
+      "path": "/sprites/main1-hud/0/vertices/3/clip/1",
+      "old": -118.05481719970705,
+      "native": -118.05481719970703
+    },
+    {
+      "path": "/sprites/main1-hud/0/vertices/3/ndc/1",
+      "old": -0.18564438819885257,
+      "native": -0.18564438819885254
+    },
+    {
+      "path": "/sprites/main1-hud/0/vertices/3/world/0",
+      "old": 464.4489135742187,
+      "native": 464.44891357421875
+    },
+    {
+      "path": "/sprites/main1-field/0/vertices/0/clip/0",
+      "old": 384.8673706054687,
+      "native": 384.86737060546875
+    },
+    {
+      "path": "/sprites/main1-field/0/vertices/0/world/0",
+      "old": 480.3989562988282,
+      "native": 480.3989562988281
+    },
+    {
+      "path": "/sprites/main1-field/0/vertices/1/world/0",
+      "old": 481.3654174804687,
+      "native": 481.36541748046875
+    },
+    {
+      "path": "/sprites/main1-field/0/vertices/2/clip/1",
+      "old": 201.5227203369141,
+      "native": 201.52272033691406
+    },
+    {
+      "path": "/sprites/main1-field/0/vertices/2/screen/0",
+      "old": 494.1588745117187,
+      "native": 494.15887451171875
+    },
+    {
+      "path": "/sprites/main1-field/0/vertices/2/world/0",
+      "old": 494.33792114257807,
+      "native": 494.3379211425781
+    },
+    {
+      "path": "/sprites/main1-field/0/vertices/3/clip/0",
+      "old": 418.0542297363282,
+      "native": 418.0542297363281
+    },
+    {
+      "path": "/sprites/main1-field/0/vertices/3/clip/1",
+      "old": 245.08755493164065,
+      "native": 245.08755493164062
+    },
+    {
+      "path": "/sprites/main1-field/0/vertices/3/world/2",
+      "old": 1.312979221343994,
+      "native": 1.3129792213439941
+    },
+    {
+      "path": "/sprites/main1-judgment/0/vertices/0/ndc/0",
+      "old": 0.46573960781097407,
+      "native": 0.4657396078109741
+    },
+    {
+      "path": "/sprites/main1-judgment/0/vertices/0/world/0",
+      "old": 477.08206176757807,
+      "native": 477.0820617675781
+    },
+    {
+      "path": "/sprites/main1-judgment/0/vertices/1/ndc/2",
+      "old": 0.9981541633605956,
+      "native": 0.9981541633605957
+    },
+    {
+      "path": "/sprites/main1-judgment/0/vertices/1/screen/2",
+      "old": 0.9981541633605956,
+      "native": 0.9981541633605957
+    },
+    {
+      "path": "/sprites/main1-judgment/0/vertices/2/ndc/0",
+      "old": 0.4974896907806397,
+      "native": 0.49748969078063965
+    },
+    {
+      "path": "/sprites/main1-judgment/0/vertices/2/world/0",
+      "old": 489.7798156738282,
+      "native": 489.7798156738281
+    },
+    {
+      "path": "/sprites/main1-judgment/0/vertices/3/ndc/2",
+      "old": 0.9981622099876403,
+      "native": 0.9981622099876404
+    },
+    {
+      "path": "/sprites/main1-judgment/0/vertices/3/screen/2",
+      "old": 0.9981622099876403,
+      "native": 0.9981622099876404
+    },
+    {
+      "path": "/sprites/main2-hud/0/vertices/0/view/0",
+      "old": 15.208404541015623,
+      "native": 15.208404541015625
+    },
+    {
+      "path": "/sprites/main2-hud/0/vertices/1/view/0",
+      "old": 15.208404541015623,
+      "native": 15.208404541015625
+    },
+    {
+      "path": "/sprites/main2-hud/0/vertices/2/view/0",
+      "old": 15.208404541015623,
+      "native": 15.208404541015625
+    },
+    {
+      "path": "/sprites/main2-hud/0/vertices/3/view/0",
+      "old": 15.208404541015623,
+      "native": 15.208404541015625
+    },
+    {
+      "path": "/sprites/main2-judgment/0/vertices/0/view/0",
+      "old": 15.208404541015623,
+      "native": 15.208404541015625
+    },
+    {
+      "path": "/sprites/main2-judgment/0/vertices/1/view/0",
+      "old": 15.208404541015623,
+      "native": 15.208404541015625
+    },
+    {
+      "path": "/sprites/main2-judgment/0/vertices/2/view/0",
+      "old": 15.208404541015623,
+      "native": 15.208404541015625
+    },
+    {
+      "path": "/sprites/main2-judgment/0/vertices/3/view/0",
+      "old": 15.208404541015623,
+      "native": 15.208404541015625
+    },
+    {
+      "path": "/sprites/capture-underlay/0/vertices/0/screen/1",
+      "old": 437.00003051757807,
+      "native": 437.0000305175781
+    },
+    {
+      "path": "/sprites/capture-underlay/0/vertices/1/screen/1",
+      "old": 443.00003051757807,
+      "native": 443.0000305175781
+    },
+    {
+      "path": "/sprites/capture-underlay/0/vertices/2/screen/1",
+      "old": 443.00003051757807,
+      "native": 443.0000305175781
+    },
+    {
+      "path": "/sprites/capture-underlay/0/vertices/3/screen/1",
+      "old": 437.00003051757807,
+      "native": 437.0000305175781
+    },
+    {
+      "path": "/sprites/capture-stage/0/vertices/0/screen/1",
+      "old": 448.00003051757807,
+      "native": 448.0000305175781
+    },
+    {
+      "path": "/sprites/capture-stage/0/vertices/1/screen/1",
+      "old": 452.00003051757807,
+      "native": 452.0000305175781
+    },
+    {
+      "path": "/sprites/capture-stage/0/vertices/2/screen/1",
+      "old": 452.00003051757807,
+      "native": 452.0000305175781
+    },
+    {
+      "path": "/sprites/capture-stage/0/vertices/3/screen/1",
+      "old": 448.00003051757807,
+      "native": 448.0000305175781
+    },
+    {
+      "path": "/sprites/capture0-hud/0/vertices/0/clip/0",
+      "old": -381.5304565429687,
+      "native": -381.53045654296875
+    },
+    {
+      "path": "/sprites/capture0-hud/0/vertices/1/ndc/2",
+      "old": 0.9977613091468812,
+      "native": 0.9977613091468811
+    },
+    {
+      "path": "/sprites/capture0-hud/0/vertices/1/screen/2",
+      "old": 0.9977613091468812,
+      "native": 0.9977613091468811
+    },
+    {
+      "path": "/sprites/capture0-hud/0/vertices/1/world/0",
+      "old": 118.72357177734376,
+      "native": 118.72357177734375
+    },
+    {
+      "path": "/sprites/capture0-hud/0/vertices/2/ndc/1",
+      "old": 0.01554291509091854,
+      "native": 0.015542915090918541
+    },
+    {
+      "path": "/sprites/capture0-hud/0/vertices/3/ndc/2",
+      "old": 0.9977328181266784,
+      "native": 0.9977328181266785
+    },
+    {
+      "path": "/sprites/capture0-hud/0/vertices/3/screen/0",
+      "old": 123.10578918457033,
+      "native": 123.10578918457031
+    },
+    {
+      "path": "/sprites/capture0-hud/0/vertices/3/screen/1",
+      "old": 227.41275024414065,
+      "native": 227.41275024414062
+    },
+    {
+      "path": "/sprites/capture0-hud/0/vertices/3/screen/2",
+      "old": 0.9977328181266784,
+      "native": 0.9977328181266785
+    },
+    {
+      "path": "/sprites/capture0-field/0/vertices/0/ndc/0",
+      "old": -0.3874619305133819,
+      "native": -0.38746193051338196
+    },
+    {
+      "path": "/sprites/capture0-field/0/vertices/0/ndc/1",
+      "old": 0.41855847835540766,
+      "native": 0.4185584783554077
+    },
+    {
+      "path": "/sprites/capture0-field/0/vertices/0/screen/0",
+      "old": 196.01219177246097,
+      "native": 196.01219177246094
+    },
+    {
+      "path": "/sprites/capture0-field/0/vertices/2/clip/0",
+      "old": -227.24513244628903,
+      "native": -227.24513244628906
+    },
+    {
+      "path": "/sprites/capture0-field/0/vertices/3/ndc/1",
+      "old": 0.3937097787857056,
+      "native": 0.39370977878570557
+    },
+    {
+      "path": "/sprites/capture0-field/0/vertices/3/ndc/2",
+      "old": 0.9982702732086183,
+      "native": 0.9982702732086182
+    },
+    {
+      "path": "/sprites/capture0-field/0/vertices/3/screen/2",
+      "old": 0.9982702732086183,
+      "native": 0.9982702732086182
+    },
+    {
+      "path": "/sprites/capture0-judgment/0/vertices/0/world/1",
+      "old": 249.3921813964844,
+      "native": 249.39218139648438
+    },
+    {
+      "path": "/sprites/capture0-judgment/0/vertices/0/world/2",
+      "old": 28.75980758666992,
+      "native": 28.759807586669922
+    },
+    {
+      "path": "/sprites/capture0-judgment/0/vertices/2/ndc/1",
+      "old": -0.10706169158220293,
+      "native": -0.10706169158220291
+    },
+    {
+      "path": "/sprites/capture0-judgment/0/vertices/2/world/2",
+      "old": 36.50945663452149,
+      "native": 36.509456634521484
+    },
+    {
+      "path": "/sprites/capture0-judgment/0/vertices/3/world/1",
+      "old": 255.27359008789065,
+      "native": 255.27359008789062
+    },
+    {
+      "path": "/sprites/capture1-hud/0/vertices/0/world/1",
+      "old": 252.20864868164065,
+      "native": 252.20864868164062
+    },
+    {
+      "path": "/sprites/capture1-hud/0/vertices/1/view/0",
+      "old": 94.73345947265624,
+      "native": 94.73345947265625
+    },
+    {
+      "path": "/sprites/capture1-hud/0/vertices/2/clip/1",
+      "old": -57.436325073242195,
+      "native": -57.43632507324219
+    },
+    {
+      "path": "/sprites/capture1-hud/0/vertices/2/ndc/1",
+      "old": -0.0898217558860779,
+      "native": -0.08982175588607788
+    },
+    {
+      "path": "/sprites/capture1-hud/0/vertices/2/ndc/2",
+      "old": 0.9981098175048829,
+      "native": 0.9981098175048828
+    },
+    {
+      "path": "/sprites/capture1-hud/0/vertices/2/screen/0",
+      "old": 410.20706176757807,
+      "native": 410.2070617675781
+    },
+    {
+      "path": "/sprites/capture1-hud/0/vertices/2/screen/2",
+      "old": 0.9981098175048829,
+      "native": 0.9981098175048828
+    },
+    {
+      "path": "/sprites/capture1-hud/0/vertices/3/ndc/1",
+      "old": -0.03876860067248344,
+      "native": -0.038768600672483444
+    },
+    {
+      "path": "/sprites/capture1-field/0/vertices/0/screen/0",
+      "old": 412.58010864257807,
+      "native": 412.5801086425781
+    },
+    {
+      "path": "/sprites/capture1-field/0/vertices/0/world/1",
+      "old": 112.29060363769533,
+      "native": 112.29060363769531
+    },
+    {
+      "path": "/sprites/capture1-field/0/vertices/1/ndc/1",
+      "old": 0.47255480289459234,
+      "native": 0.4725548028945923
+    },
+    {
+      "path": "/sprites/capture1-field/0/vertices/1/world/0",
+      "old": 415.1782531738282,
+      "native": 415.1782531738281
+    },
+    {
+      "path": "/sprites/capture1-field/0/vertices/2/clip/1",
+      "old": 368.3917846679687,
+      "native": 368.39178466796875
+    },
+    {
+      "path": "/sprites/capture1-field/0/vertices/2/view/0",
+      "old": -15.311431884765623,
+      "native": -15.311431884765625
+    },
+    {
+      "path": "/sprites/capture1-field/0/vertices/2/world/1",
+      "old": 125.48640441894533,
+      "native": 125.48640441894531
+    },
+    {
+      "path": "/sprites/capture1-field/0/vertices/3/clip/0",
+      "old": 251.9063415527344,
+      "native": 251.90634155273438
+    },
+    {
+      "path": "/sprites/capture1-field/0/vertices/3/clip/1",
+      "old": 415.9809875488282,
+      "native": 415.9809875488281
+    },
+    {
+      "path": "/sprites/capture1-field/0/vertices/3/world/0",
+      "old": 424.55075073242193,
+      "native": 424.5507507324219
+    },
+    {
+      "path": "/sprites/capture1-field/0/vertices/3/world/2",
+      "old": 1.312979221343994,
+      "native": 1.3129792213439941
+    },
+    {
+      "path": "/sprites/capture1-judgment/0/vertices/0/clip/0",
+      "old": 202.03793334960935,
+      "native": 202.03793334960938
+    },
+    {
+      "path": "/sprites/capture1-judgment/0/vertices/0/screen/0",
+      "old": 420.1098937988282,
+      "native": 420.1098937988281
+    },
+    {
+      "path": "/sprites/capture1-judgment/0/vertices/1/ndc/2",
+      "old": 0.9981541633605956,
+      "native": 0.9981541633605957
+    },
+    {
+      "path": "/sprites/capture1-judgment/0/vertices/1/screen/2",
+      "old": 0.9981541633605956,
+      "native": 0.9981541633605957
+    },
+    {
+      "path": "/sprites/capture1-judgment/0/vertices/3/ndc/1",
+      "old": -0.10581836849451064,
+      "native": -0.10581836849451065
+    },
+    {
+      "path": "/sprites/capture1-judgment/0/vertices/3/ndc/2",
+      "old": 0.9981622099876403,
+      "native": 0.9981622099876404
+    },
+    {
+      "path": "/sprites/capture1-judgment/0/vertices/3/screen/0",
+      "old": 429.61135864257807,
+      "native": 429.6113586425781
+    },
+    {
+      "path": "/sprites/capture1-judgment/0/vertices/3/screen/2",
+      "old": 0.9981622099876403,
+      "native": 0.9981622099876404
+    },
+    {
+      "path": "/sprites/capture1-judgment/0/vertices/3/view/0",
+      "old": 126.54364013671876,
+      "native": 126.54364013671875
+    },
+    {
+      "path": "/sprites/capture1-judgment/0/vertices/3/world/0",
+      "old": 436.5436401367187,
+      "native": 436.54364013671875
+    },
+    {
+      "path": "/sprites/capture2-hud/0/vertices/0/ndc/0",
+      "old": -0.11193291842937468,
+      "native": -0.1119329184293747
+    },
+    {
+      "path": "/sprites/capture2-hud/0/vertices/0/ndc/1",
+      "old": -0.05642866715788842,
+      "native": -0.05642866715788841
+    },
+    {
+      "path": "/sprites/capture2-hud/0/vertices/0/screen/1",
+      "old": 253.5428771972656,
+      "native": 253.54287719726562
+    },
+    {
+      "path": "/sprites/capture2-hud/0/vertices/1/ndc/0",
+      "old": -0.11193291842937468,
+      "native": -0.1119329184293747
+    },
+    {
+      "path": "/sprites/capture2-hud/0/vertices/1/ndc/1",
+      "old": -0.05642866715788842,
+      "native": -0.05642866715788841
+    },
+    {
+      "path": "/sprites/capture2-hud/0/vertices/1/screen/1",
+      "old": 253.5428771972656,
+      "native": 253.54287719726562
+    },
+    {
+      "path": "/sprites/capture2-hud/0/vertices/2/ndc/0",
+      "old": -0.11193291842937468,
+      "native": -0.1119329184293747
+    },
+    {
+      "path": "/sprites/capture2-hud/0/vertices/2/ndc/1",
+      "old": -0.05642866715788842,
+      "native": -0.05642866715788841
+    },
+    {
+      "path": "/sprites/capture2-hud/0/vertices/2/screen/1",
+      "old": 253.5428771972656,
+      "native": 253.54287719726562
+    },
+    {
+      "path": "/sprites/capture2-hud/0/vertices/3/ndc/0",
+      "old": -0.11193291842937468,
+      "native": -0.1119329184293747
+    },
+    {
+      "path": "/sprites/capture2-hud/0/vertices/3/ndc/1",
+      "old": -0.05642866715788842,
+      "native": -0.05642866715788841
+    },
+    {
+      "path": "/sprites/capture2-hud/0/vertices/3/screen/1",
+      "old": 253.5428771972656,
+      "native": 253.54287719726562
+    },
+    {
+      "path": "/sprites/capture2-field/0/vertices/0/ndc/0",
+      "old": -0.1094030737876892,
+      "native": -0.10940307378768921
+    },
+    {
+      "path": "/sprites/capture2-field/0/vertices/0/view/0",
+      "old": 13.637359619140623,
+      "native": 13.637359619140625
+    },
+    {
+      "path": "/sprites/capture2-field/0/vertices/1/ndc/0",
+      "old": -0.1094030737876892,
+      "native": -0.10940307378768921
+    },
+    {
+      "path": "/sprites/capture2-field/0/vertices/1/view/0",
+      "old": 13.637359619140623,
+      "native": 13.637359619140625
+    },
+    {
+      "path": "/sprites/capture2-field/0/vertices/2/ndc/0",
+      "old": -0.1094030737876892,
+      "native": -0.10940307378768921
+    },
+    {
+      "path": "/sprites/capture2-field/0/vertices/2/view/0",
+      "old": 13.637359619140623,
+      "native": 13.637359619140625
+    },
+    {
+      "path": "/sprites/capture2-field/0/vertices/3/ndc/0",
+      "old": -0.1094030737876892,
+      "native": -0.10940307378768921
+    },
+    {
+      "path": "/sprites/capture2-field/0/vertices/3/view/0",
+      "old": 13.637359619140623,
+      "native": 13.637359619140625
+    },
+    {
+      "path": "/sprites/capture2-judgment/0/vertices/0/ndc/0",
+      "old": -0.11193291842937468,
+      "native": -0.1119329184293747
+    },
+    {
+      "path": "/sprites/capture2-judgment/0/vertices/0/ndc/1",
+      "old": -0.05642866715788842,
+      "native": -0.05642866715788841
+    },
+    {
+      "path": "/sprites/capture2-judgment/0/vertices/0/screen/1",
+      "old": 253.5428771972656,
+      "native": 253.54287719726562
+    },
+    {
+      "path": "/sprites/capture2-judgment/0/vertices/1/ndc/0",
+      "old": -0.11193291842937468,
+      "native": -0.1119329184293747
+    },
+    {
+      "path": "/sprites/capture2-judgment/0/vertices/1/ndc/1",
+      "old": -0.05642866715788842,
+      "native": -0.05642866715788841
+    },
+    {
+      "path": "/sprites/capture2-judgment/0/vertices/1/screen/1",
+      "old": 253.5428771972656,
+      "native": 253.54287719726562
+    },
+    {
+      "path": "/sprites/capture2-judgment/0/vertices/2/ndc/0",
+      "old": -0.11193291842937468,
+      "native": -0.1119329184293747
+    },
+    {
+      "path": "/sprites/capture2-judgment/0/vertices/2/ndc/1",
+      "old": -0.05642866715788842,
+      "native": -0.05642866715788841
+    },
+    {
+      "path": "/sprites/capture2-judgment/0/vertices/2/screen/1",
+      "old": 253.5428771972656,
+      "native": 253.54287719726562
+    },
+    {
+      "path": "/sprites/capture2-judgment/0/vertices/3/ndc/0",
+      "old": -0.11193291842937468,
+      "native": -0.1119329184293747
+    },
+    {
+      "path": "/sprites/capture2-judgment/0/vertices/3/ndc/1",
+      "old": -0.05642866715788842,
+      "native": -0.05642866715788841
+    },
+    {
+      "path": "/sprites/capture2-judgment/0/vertices/3/screen/1",
+      "old": 253.5428771972656,
+      "native": 253.54287719726562
+    },
+    {
+      "path": "/sprites/ordinary-stage/0/vertices/0/screen/1",
+      "old": 439.00003051757807,
+      "native": 439.0000305175781
+    },
+    {
+      "path": "/sprites/ordinary-stage/0/vertices/1/screen/1",
+      "old": 443.00003051757807,
+      "native": 443.0000305175781
+    },
+    {
+      "path": "/sprites/ordinary-stage/0/vertices/2/screen/1",
+      "old": 443.00003051757807,
+      "native": 443.0000305175781
+    },
+    {
+      "path": "/sprites/ordinary-stage/0/vertices/3/screen/1",
+      "old": 439.00003051757807,
+      "native": 439.0000305175781
+    }
+  ]
+}

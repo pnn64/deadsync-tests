@@ -1,0 +1,15 @@
+{
+  "files": [
+    "crates/deadsync-song-lua/src/actors.rs",
+    "crates/deadsync-song-lua/src/actors/function_capture.rs",
+    "crates/deadsync-song-lua/src/actors/lifecycle.rs",
+    "crates/deadsync-song-lua/src/actors/messages/capture.rs",
+    "crates/deadsync-song-lua/src/actors/offline.rs",
+    "crates/deadsync-song-lua/src/actors/song_capture.rs",
+    "crates/deadsync-song-lua/src/actors/song_replay.rs"
+  ],
+  "initial_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0",
+  "current_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0",
+  "content_unchanged_ignoring_git_index_abbreviation": true,
+  "excluded_from_commit": true
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "movie": "Metronogik/bn-4x.mp4",
+    "movie_sha256": "82a6bed0393a75f5472c8d89c3c9536ab67b3c7f627a34b40f05ed5de39e9a9a",
+    "binary_sha256": "221b3ddf6d53a2fbebc5fe88514486b35a7537bba85ba6d0a90e64bbc88c99a2",
+    "command": [
+      "valgrind",
+      "--tool=memcheck",
+      "--num-callers=24",
+      "--leak-check=no",
+      "--undef-value-errors=no",
+      "--error-exitcode=77",
+      "--exit-on-first-error=yes",
+      "--log-file=/opt/song-lua-audit/pass2-video-controls/movie-0/valgrind.log",
+      "/opt/song-lua-audit/pass2-video-controls/movie-0/stage/ITGmania-harness-trace",
+      "--game=dance",
+      "--theme=itgmania-harness"
+    ],
+    "exit": 0,
+    "completed": true,
+    "timed_out": false,
+    "seconds": 97.15741012099988,
+    "zero_memcheck_errors": true,
+    "invalid_write": false
+  },
+  {
+    "movie": "Happy Now/Darkness1.mp4",
+    "movie_sha256": "1d079e0dbe3aa48749b7bd9c26972f4ca5307b7ae32e84291a23c4b5e0d4430e",
+    "binary_sha256": "221b3ddf6d53a2fbebc5fe88514486b35a7537bba85ba6d0a90e64bbc88c99a2",
+    "command": [
+      "valgrind",
+      "--tool=memcheck",
+      "--num-callers=24",
+      "--leak-check=no",
+      "--undef-value-errors=no",
+      "--error-exitcode=77",
+      "--exit-on-first-error=yes",
+      "--log-file=/opt/song-lua-audit/pass2-video-controls/movie-1/valgrind.log",
+      "/opt/song-lua-audit/pass2-video-controls/movie-1/stage/ITGmania-harness-trace",
+      "--game=dance",
+      "--theme=itgmania-harness"
+    ],
+    "exit": 0,
+    "completed": true,
+    "timed_out": false,
+    "seconds": 87.36503725700004,
+    "zero_memcheck_errors": true,
+    "invalid_write": false
+  },
+  {
+    "movie": "Young Dumb And Broke/lua/VHS.mp4",
+    "movie_sha256": "88be31250d9f9e7cf23061279011be4b52fd66cb888d747b28b115b3f8b7666f",
+    "binary_sha256": "221b3ddf6d53a2fbebc5fe88514486b35a7537bba85ba6d0a90e64bbc88c99a2",
+    "command": [
+      "valgrind",
+      "--tool=memcheck",
+      "--num-callers=24",
+      "--leak-check=no",
+      "--undef-value-errors=no",
+      "--error-exitcode=77",
+      "--exit-on-first-error=yes",
+      "--log-file=/opt/song-lua-audit/pass2-video-controls/movie-2/valgrind.log",
+      "/opt/song-lua-audit/pass2-video-controls/movie-2/stage/ITGmania-harness-trace",
+      "--game=dance",
+      "--theme=itgmania-harness"
+    ],
+    "exit": 0,
+    "completed": true,
+    "timed_out": false,
+    "seconds": 115.31629494799995,
+    "zero_memcheck_errors": true,
+    "invalid_write": false
+  },
+  {
+    "movie": "My Penny/bn.avi",
+    "movie_sha256": "5c9b4fa05cb88447d8708618c191e7c8723cb7959707d7f15000ea09b5392613",
+    "binary_sha256": "221b3ddf6d53a2fbebc5fe88514486b35a7537bba85ba6d0a90e64bbc88c99a2",
+    "command": [
+      "valgrind",
+      "--tool=memcheck",
+      "--num-callers=24",
+      "--leak-check=no",
+      "--undef-value-errors=no",
+      "--error-exitcode=77",
+      "--exit-on-first-error=yes",
+      "--log-file=/opt/song-lua-audit/pass2-video-controls/movie-3/valgrind.log",
+      "/opt/song-lua-audit/pass2-video-controls/movie-3/stage/ITGmania-harness-trace",
+      "--game=dance",
+      "--theme=itgmania-harness"
+    ],
+    "exit": 0,
+    "completed": true,
+    "timed_out": false,
+    "seconds": 92.87507574400001,
+    "zero_memcheck_errors": true,
+    "invalid_write": false
+  },
+  {
+    "movie": "INAZUMA (Gio)/inazuma/thunder.mp4",
+    "movie_sha256": "b7523379bc45781c94a8d059e20b535af700cfbf57fe13d80cbd7bd40672eb48",
+    "binary_sha256": "221b3ddf6d53a2fbebc5fe88514486b35a7537bba85ba6d0a90e64bbc88c99a2",
+    "command": [
+      "valgrind",
+      "--tool=memcheck",
+      "--num-callers=24",
+      "--leak-check=no",
+      "--undef-value-errors=no",
+      "--error-exitcode=77",
+      "--exit-on-first-error=yes",
+      "--log-file=/opt/song-lua-audit/pass2-video-controls/movie-4/valgrind.log",
+      "/opt/song-lua-audit/pass2-video-controls/movie-4/stage/ITGmania-harness-trace",
+      "--game=dance",
+      "--theme=itgmania-harness"
+    ],
+    "exit": 0,
+    "completed": true,
+    "timed_out": false,
+    "seconds": 98.50159065999992,
+    "zero_memcheck_errors": true,
+    "invalid_write": false
+  }
+]

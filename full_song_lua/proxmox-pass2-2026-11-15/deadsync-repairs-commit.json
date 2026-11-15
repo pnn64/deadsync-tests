@@ -1,0 +1,40 @@
+{
+  "commit": "6ea770358113696413b589402cd00d1e44e7ffbf",
+  "files": [
+    "Cargo.lock",
+    "crates/deadsync-chart/src/song.rs",
+    "crates/deadsync-gameplay/src/runtime_methods.rs",
+    "crates/deadsync-gameplay/src/runtime_regression_tests.rs",
+    "crates/deadsync-profile-gameplay/src/lib.rs",
+    "crates/deadsync-shell/src/gameplay_entry.rs",
+    "crates/deadsync-simfile/src/cache.rs",
+    "crates/deadsync-simfile/src/changes.rs",
+    "crates/deadsync-song-lua/src/actors/effects.rs",
+    "crates/deadsync-song-lua/src/actors/live_trace.lua",
+    "crates/deadsync-song-lua/src/actors/live_trace.rs",
+    "crates/deadsync-song-lua/src/compiled_layers.rs",
+    "crates/deadsync-song-lua/src/compiler.rs",
+    "crates/deadsync-song-lua/src/compiler/live.rs",
+    "crates/deadsync-song-lua/src/lib.rs",
+    "crates/deadsync-song-lua/src/managers/game_state.rs",
+    "crates/deadsync-song-lua/src/managers/game_state/helpers.rs",
+    "crates/deadsync-song-lua/src/managers/game_state/scene.rs",
+    "crates/deadsync-song-lua/src/managers/game_state/selection.rs",
+    "crates/deadsync-song-lua/src/playback/prepare.rs",
+    "crates/deadsync-song-lua/src/song_layers.rs",
+    "crates/deadsync-song-lua/tests/effects.rs",
+    "crates/deadsync-song-lua/tests/game_state.rs",
+    "crates/deadsync-song-lua/tests/live_scene.rs",
+    "tests/song_lua_itgmania_semantic_parity/native_gameplay.rs",
+    "tests/song_lua_itgmania_semantic_parity/whole_song_archives.rs"
+  ],
+  "excluded_user_files": [
+    "crates/deadsync-song-lua/src/actors.rs",
+    "crates/deadsync-song-lua/src/actors/function_capture.rs",
+    "crates/deadsync-song-lua/src/actors/lifecycle.rs",
+    "crates/deadsync-song-lua/src/actors/messages/capture.rs",
+    "crates/deadsync-song-lua/src/actors/offline.rs",
+    "crates/deadsync-song-lua/src/actors/song_capture.rs",
+    "crates/deadsync-song-lua/src/actors/song_replay.rs"
+  ]
+}

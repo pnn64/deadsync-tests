@@ -1,0 +1,1931 @@
+{
+  "input": [
+    {
+      "autoplay": 1,
+      "catalog_preferences": {
+        "global_offset_seconds": -0.00800000037997961,
+        "initialization": "native-catalog-note-time-calculation",
+        "music_rate": 1
+      },
+      "gameplay_preferences": {
+        "column_cue_min_time": 1.5,
+        "default_modifiers": "",
+        "game_mode": "ITG",
+        "initialization": "theme-game-mode",
+        "max_input_latency_seconds": 0,
+        "mod_level": "ModsLevel_Preferred",
+        "music_rate": 1,
+        "players": [
+          {
+            "disabled_timing_windows": [],
+            "fail_setting": "FailType_Immediate",
+            "min_tns_to_hide_notes": "TapNoteScore_W3",
+            "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+            "player": "PlayerNumber_P1",
+            "theme_modifiers": {
+              "ActionOnMissedTarget": "Nothing",
+              "BackgroundFilter": "Darker",
+              "ColumnCues": true,
+              "ComboFont": "Wendy",
+              "DataVisualizations": "Step Statistics",
+              "DisplayScorebox": true,
+              "ErrorBar": "None",
+              "ErrorBarMultiTick": false,
+              "ErrorBarTrim": "Off",
+              "ErrorBarUp": false,
+              "FlashDecent": false,
+              "FlashExcellent": false,
+              "FlashFantastic": false,
+              "FlashGreat": false,
+              "FlashMiss": false,
+              "FlashWayOff": false,
+              "HideCombo": false,
+              "HideComboExplosions": false,
+              "HideDanger": false,
+              "HideEarlyDecentWayOffFlash": false,
+              "HideEarlyDecentWayOffJudgments": false,
+              "HideLifebar": false,
+              "HideLookahead": false,
+              "HideScore": false,
+              "HideSongBG": false,
+              "HideTargets": false,
+              "HoldJudgment": "Love 1x2 (doubleres).png",
+              "JudgmentGraphic": "Love 2x6 (doubleres).png",
+              "JudgmentTilt": false,
+              "LifeMeterType": "Standard",
+              "MeasureCounter": "None",
+              "MeasureCounterLeft": false,
+              "MeasureCounterUp": true,
+              "MeasureLines": "Off",
+              "Mini": "0%",
+              "NPSGraphAtTop": false,
+              "NoteFieldOffsetX": 0,
+              "NoteFieldOffsetY": 0,
+              "Pacemaker": false,
+              "ShowExScore": false,
+              "ShowFaPlusPane": true,
+              "ShowFaPlusWindow": false,
+              "SpeedMod": 250,
+              "SpeedModType": "M",
+              "SubtractiveScoring": false,
+              "TargetScore": 11,
+              "TiltMultiplier": 1,
+              "TimingWindows": [
+                true,
+                true,
+                true,
+                true,
+                true
+              ],
+              "VisualDelay": "0ms"
+            }
+          }
+        ],
+        "timing_window_add": 0.001500000013038516,
+        "timing_window_scale": 1,
+        "timing_windows": {
+          "Attack": 0.13500000536441803,
+          "Checkpoint": 0.1664000004529953,
+          "Hold": 0.3199999928474426,
+          "Mine": 0.07000000029802322,
+          "Roll": 0.3499999940395355,
+          "W1": 0.0215000007301569,
+          "W2": 0.0430000014603138,
+          "W3": 0.10199999809265137,
+          "W4": 0.13500000536441803,
+          "W5": 0.18000000715255737
+        }
+      },
+      "headless_graphics": false,
+      "injected_inputs": false,
+      "lua_gc_mode": "automatic",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+      },
+      "observer_frame_period_seconds": 0.01666666666666667,
+      "preferences": {
+        "constant_update_delta_seconds": 0,
+        "default_sync_offset": "SyncOffset_ITG",
+        "display_aspect_ratio": 1.7777777910232544,
+        "global_offset_seconds": -0.00800000037997961,
+        "last_seen_video_driver": "OpenGL",
+        "visual_delay_seconds": 0
+      },
+      "requested_difficulty": "Challenge",
+      "script": [],
+      "style": "single",
+      "window_visible": false
+    }
+  ],
+  "stage_samples.item": [
+    {
+      "beat": 211.02659606933594,
+      "gameplay_seconds": 83.11648559570312,
+      "phase": "progress",
+      "players": [
+        {
+          "actual": 0,
+          "alive_seconds": 83.11648559570312,
+          "autoplay": 1,
+          "current_max_score": 0,
+          "current_possible": 0,
+          "description": "TaroNuke",
+          "difficulty": "Difficulty_Challenge",
+          "failed": false,
+          "life_begin": 0.5,
+          "life_latest": 0.5,
+          "meter": 14,
+          "misses": 0,
+          "player": "PlayerNumber_P1",
+          "possible": 5680,
+          "score": 0,
+          "w1": 0,
+          "w2": 0
+        }
+      ],
+      "scene": 1,
+      "seconds": 77.00927734375
+    }
+  ],
+  "update_frames.item": [
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 83.862292
+      },
+      "beat": 207.1463165283203,
+      "delta": 0.016783999279141426,
+      "native_update_frame": 4471,
+      "option_deltas": {
+        "players": [
+          0.01678300090134144,
+          0.0167820006608963
+        ],
+        "song": 0.0167820006608963
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.08748626708984,
+      "sequence": 4471,
+      "wall_seconds": 83.860984
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 83.879485
+      },
+      "beat": 207.2165069580078,
+      "delta": 0.016426000744104385,
+      "native_update_frame": 4472,
+      "option_deltas": {
+        "players": [
+          0.016426000744104385,
+          0.016426000744104385
+        ],
+        "song": 0.016426000744104385
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.10433197021484,
+      "sequence": 4472,
+      "wall_seconds": 83.87804
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 83.896196
+      },
+      "beat": 207.28660583496094,
+      "delta": 0.017441000789403915,
+      "native_update_frame": 4473,
+      "option_deltas": {
+        "players": [
+          0.017441000789403915,
+          0.017441999167203903
+        ],
+        "song": 0.017441999167203903
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.12115478515625,
+      "sequence": 4473,
+      "wall_seconds": 83.89484
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 83.913047
+      },
+      "beat": 207.35653686523438,
+      "delta": 0.01664399914443493,
+      "native_update_frame": 4474,
+      "option_deltas": {
+        "players": [
+          0.016644999384880066,
+          0.016644999384880066
+        ],
+        "song": 0.016644999384880066
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.137939453125,
+      "sequence": 4474,
+      "wall_seconds": 83.911658
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 83.929974
+      },
+      "beat": 207.42645263671875,
+      "delta": 0.01701200008392334,
+      "native_update_frame": 4475,
+      "option_deltas": {
+        "players": [
+          0.01704300008714199,
+          0.01704300008714199
+        ],
+        "song": 0.01704300008714199
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.15471649169922,
+      "sequence": 4475,
+      "wall_seconds": 83.928593
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 83.946568
+      },
+      "beat": 207.49635314941406,
+      "delta": 0.01671599969267845,
+      "native_update_frame": 4476,
+      "option_deltas": {
+        "players": [
+          0.016683999449014664,
+          0.016682999208569527
+        ],
+        "song": 0.016682999208569527
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.17149353027344,
+      "sequence": 4476,
+      "wall_seconds": 83.945151
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 83.963592
+      },
+      "beat": 207.56639099121094,
+      "delta": 0.016662999987602234,
+      "native_update_frame": 4477,
+      "option_deltas": {
+        "players": [
+          0.016662999987602234,
+          0.016662999987602234
+        ],
+        "song": 0.01666400022804737
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.18830108642578,
+      "sequence": 4477,
+      "wall_seconds": 83.961857
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 83.980477
+      },
+      "beat": 207.63619995117188,
+      "delta": 0.0184749998152256,
+      "native_update_frame": 4478,
+      "option_deltas": {
+        "players": [
+          0.018492000177502632,
+          0.018495000898838043
+        ],
+        "song": 0.018492000177502632
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.2050552368164,
+      "sequence": 4478,
+      "wall_seconds": 83.978758
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 83.997018
+      },
+      "beat": 207.7061309814453,
+      "delta": 0.016937000676989555,
+      "native_update_frame": 4479,
+      "option_deltas": {
+        "players": [
+          0.016950000077486038,
+          0.016963999718427658
+        ],
+        "song": 0.0169489998370409
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.22183990478516,
+      "sequence": 4479,
+      "wall_seconds": 83.995455
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.013869
+      },
+      "beat": 207.7763214111328,
+      "delta": 0.016414999961853027,
+      "native_update_frame": 4480,
+      "option_deltas": {
+        "players": [
+          0.016398999840021133,
+          0.016385000199079514
+        ],
+        "song": 0.016398999840021133
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.23868560791016,
+      "sequence": 4480,
+      "wall_seconds": 84.012339
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.03061
+      },
+      "beat": 207.84622192382812,
+      "delta": 0.017041999846696854,
+      "native_update_frame": 4481,
+      "option_deltas": {
+        "players": [
+          0.0170499999076128,
+          0.017051000148057938
+        ],
+        "song": 0.0170499999076128
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.25546264648438,
+      "sequence": 4481,
+      "wall_seconds": 84.029213
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.047345
+      },
+      "beat": 207.916259765625,
+      "delta": 0.015201999805867672,
+      "native_update_frame": 4482,
+      "option_deltas": {
+        "players": [
+          0.015181000344455242,
+          0.015177999623119831
+        ],
+        "song": 0.015181999653577805
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.27227020263672,
+      "sequence": 4482,
+      "wall_seconds": 84.045988
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.063908
+      },
+      "beat": 207.9861602783203,
+      "delta": 0.01676500029861927,
+      "native_update_frame": 4483,
+      "option_deltas": {
+        "players": [
+          0.016766000539064407,
+          0.016766000539064407
+        ],
+        "song": 0.016766000539064407
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.28904724121094,
+      "sequence": 4483,
+      "wall_seconds": 84.062596
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.081132
+      },
+      "beat": 208.05596923828125,
+      "delta": 0.01650400087237358,
+      "native_update_frame": 4484,
+      "option_deltas": {
+        "players": [
+          0.0165180005133152,
+          0.016517000272870064
+        ],
+        "song": 0.016517000272870064
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.30580139160156,
+      "sequence": 4484,
+      "wall_seconds": 84.079601
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.097426
+      },
+      "beat": 208.1258087158203,
+      "delta": 0.017253000289201736,
+      "native_update_frame": 4485,
+      "option_deltas": {
+        "players": [
+          0.017256999388337135,
+          0.017257999628782272
+        ],
+        "song": 0.017256999388337135
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.32256317138672,
+      "sequence": 4485,
+      "wall_seconds": 84.09617
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.114356
+      },
+      "beat": 208.19581604003906,
+      "delta": 0.016220999881625175,
+      "native_update_frame": 4486,
+      "option_deltas": {
+        "players": [
+          0.01619900017976761,
+          0.01619900017976761
+        ],
+        "song": 0.016200000420212746
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.33936309814453,
+      "sequence": 4486,
+      "wall_seconds": 84.112964
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.130971
+      },
+      "beat": 208.26565551757812,
+      "delta": 0.01702900044620037,
+      "native_update_frame": 4487,
+      "option_deltas": {
+        "players": [
+          0.01702599972486496,
+          0.01702599972486496
+        ],
+        "song": 0.017024999484419823
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.35612487792969,
+      "sequence": 4487,
+      "wall_seconds": 84.129779
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.147933
+      },
+      "beat": 208.3356475830078,
+      "delta": 0.016592999920248985,
+      "native_update_frame": 4488,
+      "option_deltas": {
+        "players": [
+          0.01659799925982952,
+          0.01659799925982952
+        ],
+        "song": 0.016598999500274658
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.3729248046875,
+      "sequence": 4488,
+      "wall_seconds": 84.146654
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.16776
+      },
+      "beat": 208.4058380126953,
+      "delta": 0.01704300008714199,
+      "native_update_frame": 4489,
+      "option_deltas": {
+        "players": [
+          0.017045000568032265,
+          0.017044000327587128
+        ],
+        "song": 0.017044000327587128
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.3897705078125,
+      "sequence": 4489,
+      "wall_seconds": 84.163684
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.185451
+      },
+      "beat": 208.47567749023438,
+      "delta": 0.020262999460101128,
+      "native_update_frame": 4490,
+      "option_deltas": {
+        "players": [
+          0.020274000242352486,
+          0.020275000482797623
+        ],
+        "song": 0.020274000242352486
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.40653228759766,
+      "sequence": 4490,
+      "wall_seconds": 84.181437
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.201681
+      },
+      "beat": 208.54568481445312,
+      "delta": 0.02024099975824356,
+      "native_update_frame": 4491,
+      "option_deltas": {
+        "players": [
+          0.02023399993777275,
+          0.02023399993777275
+        ],
+        "song": 0.02023399993777275
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.42333221435547,
+      "sequence": 4491,
+      "wall_seconds": 84.197524
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.218968
+      },
+      "beat": 208.6154327392578,
+      "delta": 0.01737299934029579,
+      "native_update_frame": 4492,
+      "option_deltas": {
+        "players": [
+          0.01737299934029579,
+          0.01737299934029579
+        ],
+        "song": 0.01737299934029579
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.44007110595703,
+      "sequence": 4492,
+      "wall_seconds": 84.214326
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.236363
+      },
+      "beat": 208.68533325195312,
+      "delta": 0.01757100038230419,
+      "native_update_frame": 4493,
+      "option_deltas": {
+        "players": [
+          0.017568999901413918,
+          0.017570000141859055
+        ],
+        "song": 0.017570000141859055
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.45684814453125,
+      "sequence": 4493,
+      "wall_seconds": 84.2312
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.253249
+      },
+      "beat": 208.75523376464844,
+      "delta": 0.019694000482559204,
+      "native_update_frame": 4494,
+      "option_deltas": {
+        "players": [
+          0.019711999222636223,
+          0.019711999222636223
+        ],
+        "song": 0.019711000844836235
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.47362518310547,
+      "sequence": 4494,
+      "wall_seconds": 84.248159
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.267865
+      },
+      "beat": 208.82516479492188,
+      "delta": 0.01458400022238493,
+      "native_update_frame": 4495,
+      "option_deltas": {
+        "players": [
+          0.014561000280082226,
+          0.014558999799191952
+        ],
+        "song": 0.014560000039637089
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.49040985107422,
+      "sequence": 4495,
+      "wall_seconds": 84.264454
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.284199
+      },
+      "beat": 208.89517211914062,
+      "delta": 0.011574000120162964,
+      "native_update_frame": 4496,
+      "option_deltas": {
+        "players": [
+          0.011641000397503376,
+          0.011641999706625938
+        ],
+        "song": 0.011641999706625938
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.50720977783203,
+      "sequence": 4496,
+      "wall_seconds": 84.28133
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.298763
+      },
+      "beat": 208.9650115966797,
+      "delta": 0.016208000481128693,
+      "native_update_frame": 4497,
+      "option_deltas": {
+        "players": [
+          0.016141999512910843,
+          0.016141999512910843
+        ],
+        "song": 0.01614299975335598
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.52397155761719,
+      "sequence": 4497,
+      "wall_seconds": 84.297627
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.315723
+      },
+      "beat": 209.03500366210938,
+      "delta": 0.013547999784350395,
+      "native_update_frame": 4498,
+      "option_deltas": {
+        "players": [
+          0.013547999784350395,
+          0.01355000026524067
+        ],
+        "song": 0.013546999543905258
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.540771484375,
+      "sequence": 4498,
+      "wall_seconds": 84.314546
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.554926
+      },
+      "beat": 209.10491943359375,
+      "delta": 0.016963999718427658,
+      "native_update_frame": 4499,
+      "option_deltas": {
+        "players": [
+          0.016975000500679016,
+          0.016973000019788742
+        ],
+        "song": 0.016976000741124153
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.55754852294922,
+      "sequence": 4499,
+      "wall_seconds": 84.331382
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.568068
+      },
+      "beat": 209.83631896972656,
+      "delta": 0.23920999467372894,
+      "native_update_frame": 4500,
+      "option_deltas": {
+        "players": [
+          0.2393220067024231,
+          0.2393220067024231
+        ],
+        "song": 0.23932099342346191
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.73308563232422,
+      "sequence": 4500,
+      "wall_seconds": 84.558753
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.576304
+      },
+      "beat": 209.90628051757812,
+      "delta": 0.013341999612748623,
+      "native_update_frame": 4501,
+      "option_deltas": {
+        "players": [
+          0.01321799959987402,
+          0.01321799959987402
+        ],
+        "song": 0.013218999840319157
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.7498779296875,
+      "sequence": 4501,
+      "wall_seconds": 84.575244
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.593117
+      },
+      "beat": 209.97625732421875,
+      "delta": 0.00811500009149313,
+      "native_update_frame": 4502,
+      "option_deltas": {
+        "players": [
+          0.00810100045055151,
+          0.008100000210106373
+        ],
+        "song": 0.00810100045055151
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.76667022705078,
+      "sequence": 4502,
+      "wall_seconds": 84.591894
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.611908
+      },
+      "beat": 210.0482635498047,
+      "delta": 0.016868000850081444,
+      "native_update_frame": 4503,
+      "option_deltas": {
+        "players": [
+          0.016881000250577927,
+          0.016881000250577927
+        ],
+        "song": 0.01688000001013279
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.78350830078125,
+      "sequence": 4503,
+      "wall_seconds": 84.610302
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.627149
+      },
+      "beat": 210.12083435058594,
+      "delta": 0.018756000325083733,
+      "native_update_frame": 4504,
+      "option_deltas": {
+        "players": [
+          0.01875700056552887,
+          0.018756000325083733
+        ],
+        "song": 0.01875700056552887
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.80025482177734,
+      "sequence": 4504,
+      "wall_seconds": 84.625427
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.643916
+      },
+      "beat": 210.19351196289062,
+      "delta": 0.015224000439047813,
+      "native_update_frame": 4505,
+      "option_deltas": {
+        "players": [
+          0.015238000079989433,
+          0.015238000079989433
+        ],
+        "song": 0.01523900032043457
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.81702423095703,
+      "sequence": 4505,
+      "wall_seconds": 84.64234
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.65916
+      },
+      "beat": 209.86741638183594,
+      "delta": 0.01659099943935871,
+      "native_update_frame": 4506,
+      "option_deltas": {
+        "players": [
+          0.016589999198913574,
+          0.01659099943935871
+        ],
+        "song": 0.016589999198913574
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.74054718017578,
+      "sequence": 4506,
+      "wall_seconds": 84.659071
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.678029
+      },
+      "beat": 209.93740844726562,
+      "delta": 0.015185000374913216,
+      "native_update_frame": 4507,
+      "option_deltas": {
+        "players": [
+          0.015166000463068485,
+          0.015166000463068485
+        ],
+        "song": 0.015166000463068485
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.7573471069336,
+      "sequence": 4507,
+      "wall_seconds": 84.676572
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.694733
+      },
+      "beat": 210.00770568847656,
+      "delta": 0.018911000341176987,
+      "native_update_frame": 4508,
+      "option_deltas": {
+        "players": [
+          0.01892399974167347,
+          0.018924999982118607
+        ],
+        "song": 0.018922999501228333
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.7741470336914,
+      "sequence": 4508,
+      "wall_seconds": 84.692942
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.711348
+      },
+      "beat": 210.08033752441406,
+      "delta": 0.016672000288963318,
+      "native_update_frame": 4509,
+      "option_deltas": {
+        "players": [
+          0.01666099950671196,
+          0.016659999266266823
+        ],
+        "song": 0.01666099950671196
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.79090881347656,
+      "sequence": 4509,
+      "wall_seconds": 84.709625
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.727977
+      },
+      "beat": 210.15304565429688,
+      "delta": 0.016888000071048737,
+      "native_update_frame": 4510,
+      "option_deltas": {
+        "players": [
+          0.016892999410629272,
+          0.016892999410629272
+        ],
+        "song": 0.016892999410629272
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.80768585205078,
+      "sequence": 4510,
+      "wall_seconds": 84.726337
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.744906
+      },
+      "beat": 210.22593688964844,
+      "delta": 0.0165839996188879,
+      "native_update_frame": 4511,
+      "option_deltas": {
+        "players": [
+          0.01659099943935871,
+          0.01659199967980385
+        ],
+        "song": 0.01659199967980385
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.82450866699219,
+      "sequence": 4511,
+      "wall_seconds": 84.743186
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.76196
+      },
+      "beat": 210.29867553710938,
+      "delta": 0.016692999750375748,
+      "native_update_frame": 4512,
+      "option_deltas": {
+        "players": [
+          0.016683999449014664,
+          0.016683999449014664
+        ],
+        "song": 0.016683999449014664
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.84129333496094,
+      "sequence": 4512,
+      "wall_seconds": 84.760202
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.778715
+      },
+      "beat": 210.37147521972656,
+      "delta": 0.017179999500513077,
+      "native_update_frame": 4513,
+      "option_deltas": {
+        "players": [
+          0.017183000221848488,
+          0.017183000221848488
+        ],
+        "song": 0.017183000221848488
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.85809326171875,
+      "sequence": 4513,
+      "wall_seconds": 84.776973
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.794977
+      },
+      "beat": 210.44410705566406,
+      "delta": 0.01656300015747547,
+      "native_update_frame": 4514,
+      "option_deltas": {
+        "players": [
+          0.016560999676585197,
+          0.016560999676585197
+        ],
+        "song": 0.016560999676585197
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.8748550415039,
+      "sequence": 4514,
+      "wall_seconds": 84.793383
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.811941
+      },
+      "beat": 210.5167999267578,
+      "delta": 0.016238000243902206,
+      "native_update_frame": 4515,
+      "option_deltas": {
+        "players": [
+          0.016239000484347343,
+          0.016239000484347343
+        ],
+        "song": 0.016239000484347343
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.89163208007812,
+      "sequence": 4515,
+      "wall_seconds": 84.810326
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.829354
+      },
+      "beat": 210.5897979736328,
+      "delta": 0.017009999603033066,
+      "native_update_frame": 4516,
+      "option_deltas": {
+        "players": [
+          0.017010999843478203,
+          0.017009999603033066
+        ],
+        "song": 0.017009999603033066
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.90847778320312,
+      "sequence": 4516,
+      "wall_seconds": 84.82734
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.846438
+      },
+      "beat": 210.662841796875,
+      "delta": 0.017483999952673912,
+      "native_update_frame": 4517,
+      "option_deltas": {
+        "players": [
+          0.017486000433564186,
+          0.017487000674009323
+        ],
+        "song": 0.017486000433564186
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.92533111572266,
+      "sequence": 4517,
+      "wall_seconds": 84.84428
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.863078
+      },
+      "beat": 210.73573303222656,
+      "delta": 0.017121000215411186,
+      "native_update_frame": 4518,
+      "option_deltas": {
+        "players": [
+          0.017118999734520912,
+          0.017118999734520912
+        ],
+        "song": 0.017118999734520912
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.94215393066406,
+      "sequence": 4518,
+      "wall_seconds": 84.860997
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.880162
+      },
+      "beat": 210.80844116210938,
+      "delta": 0.016614999622106552,
+      "native_update_frame": 4519,
+      "option_deltas": {
+        "players": [
+          0.016610000282526016,
+          0.016610000282526016
+        ],
+        "song": 0.016611000522971153
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.95893096923828,
+      "sequence": 4519,
+      "wall_seconds": 84.877796
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.896497
+      },
+      "beat": 210.88116455078125,
+      "delta": 0.017007000744342804,
+      "native_update_frame": 4520,
+      "option_deltas": {
+        "players": [
+          0.01701599918305874,
+          0.01701599918305874
+        ],
+        "song": 0.01701599918305874
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.97571563720703,
+      "sequence": 4520,
+      "wall_seconds": 84.894471
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.913006
+      },
+      "beat": 210.95387268066406,
+      "delta": 0.016472000628709793,
+      "native_update_frame": 4521,
+      "option_deltas": {
+        "players": [
+          0.016465000808238983,
+          0.016464000567793846
+        ],
+        "song": 0.016465000808238983
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 76.99249267578125,
+      "sequence": 4521,
+      "wall_seconds": 84.911001
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.93041
+      },
+      "beat": 211.02659606933594,
+      "delta": 0.016296999529004097,
+      "native_update_frame": 4522,
+      "option_deltas": {
+        "players": [
+          0.016296999529004097,
+          0.016296999529004097
+        ],
+        "song": 0.016296999529004097
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.00927734375,
+      "sequence": 4522,
+      "wall_seconds": 84.927959
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.946487
+      },
+      "beat": 211.0991973876953,
+      "delta": 0.017472999170422554,
+      "native_update_frame": 4523,
+      "option_deltas": {
+        "players": [
+          0.01747399941086769,
+          0.01747399941086769
+        ],
+        "song": 0.017472999170422554
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.02603149414062,
+      "sequence": 4523,
+      "wall_seconds": 84.944549
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.963226
+      },
+      "beat": 211.17190551757812,
+      "delta": 0.016177000477910042,
+      "native_update_frame": 4524,
+      "option_deltas": {
+        "players": [
+          0.016174999997019768,
+          0.016176000237464905
+        ],
+        "song": 0.016176000237464905
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.04280853271484,
+      "sequence": 4524,
+      "wall_seconds": 84.961323
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.980296
+      },
+      "beat": 211.24462890625,
+      "delta": 0.016628999263048172,
+      "native_update_frame": 4525,
+      "option_deltas": {
+        "players": [
+          0.01662999950349331,
+          0.016628999263048172
+        ],
+        "song": 0.01662999950349331
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.0595932006836,
+      "sequence": 4525,
+      "wall_seconds": 84.978336
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 84.997012
+      },
+      "beat": 211.3173370361328,
+      "delta": 0.01709499955177307,
+      "native_update_frame": 4526,
+      "option_deltas": {
+        "players": [
+          0.017098000273108482,
+          0.017098000273108482
+        ],
+        "song": 0.017097000032663345
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.07637023925781,
+      "sequence": 4526,
+      "wall_seconds": 84.995018
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.013907
+      },
+      "beat": 211.39007568359375,
+      "delta": 0.016857000067830086,
+      "native_update_frame": 4527,
+      "option_deltas": {
+        "players": [
+          0.01685599982738495,
+          0.016857000067830086
+        ],
+        "song": 0.016857000067830086
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.09315490722656,
+      "sequence": 4527,
+      "wall_seconds": 85.011772
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.030554
+      },
+      "beat": 211.4627685546875,
+      "delta": 0.016742000356316566,
+      "native_update_frame": 4528,
+      "option_deltas": {
+        "players": [
+          0.016750000417232513,
+          0.016749000176787376
+        ],
+        "song": 0.016750000417232513
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.10993194580078,
+      "sequence": 4528,
+      "wall_seconds": 85.028541
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.047348
+      },
+      "beat": 211.5354766845703,
+      "delta": 0.016766000539064407,
+      "native_update_frame": 4529,
+      "option_deltas": {
+        "players": [
+          0.016759000718593597,
+          0.016759000718593597
+        ],
+        "song": 0.01675800047814846
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.126708984375,
+      "sequence": 4529,
+      "wall_seconds": 85.045354
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.064182
+      },
+      "beat": 211.6082000732422,
+      "delta": 0.01667499914765358,
+      "native_update_frame": 4530,
+      "option_deltas": {
+        "players": [
+          0.016687000170350075,
+          0.016688000410795212
+        ],
+        "song": 0.016688000410795212
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.14349365234375,
+      "sequence": 4530,
+      "wall_seconds": 85.062192
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.081219
+      },
+      "beat": 211.68080139160156,
+      "delta": 0.016920000314712524,
+      "native_update_frame": 4531,
+      "option_deltas": {
+        "players": [
+          0.01690799929201603,
+          0.01690700091421604
+        ],
+        "song": 0.01690700091421604
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.16024780273438,
+      "sequence": 4531,
+      "wall_seconds": 85.079143
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.097501
+      },
+      "beat": 211.75364685058594,
+      "delta": 0.017100000753998756,
+      "native_update_frame": 4532,
+      "option_deltas": {
+        "players": [
+          0.01709900051355362,
+          0.017100000753998756
+        ],
+        "song": 0.017100000753998756
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.17705535888672,
+      "sequence": 4532,
+      "wall_seconds": 85.095615
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.114351
+      },
+      "beat": 211.8263397216797,
+      "delta": 0.016140000894665718,
+      "native_update_frame": 4533,
+      "option_deltas": {
+        "players": [
+          0.01613900065422058,
+          0.016138000413775444
+        ],
+        "song": 0.016138000413775444
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.19383239746094,
+      "sequence": 4533,
+      "wall_seconds": 85.112394
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.131677
+      },
+      "beat": 211.8990478515625,
+      "delta": 0.01690799929201603,
+      "native_update_frame": 4534,
+      "option_deltas": {
+        "players": [
+          0.016908999532461166,
+          0.016909999772906303
+        ],
+        "song": 0.016909999772906303
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.21060943603516,
+      "sequence": 4534,
+      "wall_seconds": 85.129561
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.148061
+      },
+      "beat": 211.9716796875,
+      "delta": 0.01736699976027012,
+      "native_update_frame": 4535,
+      "option_deltas": {
+        "players": [
+          0.017368000000715256,
+          0.017368000000715256
+        ],
+        "song": 0.017368000000715256
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.22737121582031,
+      "sequence": 4535,
+      "wall_seconds": 85.146094
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.164952
+      },
+      "beat": 212.0444793701172,
+      "delta": 0.016482999548316002,
+      "native_update_frame": 4536,
+      "option_deltas": {
+        "players": [
+          0.016481999307870865,
+          0.016481000930070877
+        ],
+        "song": 0.016481999307870865
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.24417114257812,
+      "sequence": 4536,
+      "wall_seconds": 85.162939
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.182156
+      },
+      "beat": 212.1171112060547,
+      "delta": 0.016950000077486038,
+      "native_update_frame": 4537,
+      "option_deltas": {
+        "players": [
+          0.016945000737905502,
+          0.01694599911570549
+        ],
+        "song": 0.016945000737905502
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.26093292236328,
+      "sequence": 4537,
+      "wall_seconds": 85.180016
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.197995
+      },
+      "beat": 212.18980407714844,
+      "delta": 0.01707500033080578,
+      "native_update_frame": 4538,
+      "option_deltas": {
+        "players": [
+          0.017078999429941177,
+          0.01707799918949604
+        ],
+        "song": 0.01707799918949604
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.2777099609375,
+      "sequence": 4538,
+      "wall_seconds": 85.196205
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.214932
+      },
+      "beat": 212.26271057128906,
+      "delta": 0.015828000381588936,
+      "native_update_frame": 4539,
+      "option_deltas": {
+        "players": [
+          0.0158270001411438,
+          0.0158270001411438
+        ],
+        "song": 0.015828000381588936
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.2945327758789,
+      "sequence": 4539,
+      "wall_seconds": 85.212996
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.23181
+      },
+      "beat": 212.33554077148438,
+      "delta": 0.017048999667167664,
+      "native_update_frame": 4540,
+      "option_deltas": {
+        "players": [
+          0.017048999667167664,
+          0.017048999667167664
+        ],
+        "song": 0.017047999426722527
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.31134033203125,
+      "sequence": 4540,
+      "wall_seconds": 85.229807
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.24859
+      },
+      "beat": 212.40834045410156,
+      "delta": 0.01674799993634224,
+      "native_update_frame": 4541,
+      "option_deltas": {
+        "players": [
+          0.016749000176787376,
+          0.016749000176787376
+        ],
+        "song": 0.016749000176787376
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.32814025878906,
+      "sequence": 4541,
+      "wall_seconds": 85.24665
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.265374
+      },
+      "beat": 212.48094177246094,
+      "delta": 0.016815999522805214,
+      "native_update_frame": 4542,
+      "option_deltas": {
+        "players": [
+          0.016812000423669815,
+          0.016811000183224678
+        ],
+        "song": 0.016813000664114952
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.34489440917969,
+      "sequence": 4542,
+      "wall_seconds": 85.263404
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.282175
+      },
+      "beat": 212.55368041992188,
+      "delta": 0.016829000785946846,
+      "native_update_frame": 4543,
+      "option_deltas": {
+        "players": [
+          0.016829999163746834,
+          0.01683099940419197
+        ],
+        "song": 0.016829999163746834
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.36167907714844,
+      "sequence": 4543,
+      "wall_seconds": 85.280344
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          [],
+          []
+        ],
+        "update_seconds": 85.301123
+      },
+      "beat": 212.62648010253906,
+      "delta": 0.016739999875426292,
+      "native_update_frame": 4544,
+      "option_deltas": {
+        "players": [
+          0.016743000596761703,
+          0.01674400083720684
+        ],
+        "song": 0.016743000596761703
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 77.37847900390625,
+      "sequence": 4544,
+      "wall_seconds": 85.297048
+    }
+  ]
+}

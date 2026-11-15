@@ -1,0 +1,170 @@
+[
+  {
+    "id": "10fe9862c1cf88c3",
+    "source_simfile": "Cuphead [TaroNuke]/botanic.sm",
+    "title": "Botanic Panic",
+    "simfile_sha256": "6d4f35389c80992011e7b143c5959d32fb5887dfc189975153fbab4885aacd96",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Cuphead [TaroNuke]/botanic.sm",
+      "previous_archive": "a117399b12110fdd9e25667e3876644df41ee739dff619c564ad5b79b24ba983.tar.zst",
+      "title": "Botanic Panic",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 158.8,
+    "song_folder_bytes": 16174246,
+    "worker": "05-heavy",
+    "previous_status": "replay_resource_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "42G",
+    "original_worker": "14"
+  },
+  {
+    "id": "272cbdbb21a302b2",
+    "source_simfile": "Paint the Town Red/PaintTheTownRed.sm",
+    "title": "Paint the Town Red",
+    "simfile_sha256": "a876df80258c0fb9a9c0eb23294c0857e7a249fc8c37e96f6305f2c4b5456173",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Paint the Town Red/PaintTheTownRed.sm",
+      "previous_archive": "e4942b8b777e9f2b992747ad194cd073c09f60011b0778345685ea95b767e6cb.tar.zst",
+      "title": "Paint the Town Red",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "game_mode": "ITG",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single"
+    },
+    "estimated_song_seconds": 226.8,
+    "song_folder_bytes": 36931691,
+    "worker": "05-heavy",
+    "previous_status": "replay_resource_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "42G",
+    "original_worker": "15"
+  },
+  {
+    "id": "7a0708216dd461ad",
+    "source_simfile": "mawaru7/mawaru7.sm",
+    "title": "MAWARUCHI SURVIVER",
+    "simfile_sha256": "16daf42ecde7e00d77cd7bd7b68bda40a6fda0949ea7d16d838ea6d98ce227cd",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "mawaru7/mawaru7.sm",
+      "previous_archive": "97e7ca47890de2ef68c3c67c4366c1db83d00d7a213eaa93e8c8fc0591d7850d.tar.zst",
+      "title": "mawaru7",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 385.8,
+    "song_folder_bytes": 31653896,
+    "worker": "05-heavy",
+    "previous_status": "replay_resource_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "42G",
+    "original_worker": "15"
+  },
+  {
+    "id": "9a7dc9dd696c05ad",
+    "source_simfile": "mr sandman/mr sandman.sm",
+    "title": "Mr. Sandman",
+    "simfile_sha256": "e2262781ebdd5afd187dbdb5ce568db701ed7a4b6f8b856dbeb4f471c17b27c3",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "mr sandman/mr sandman.sm",
+      "previous_archive": "7817e31172693ca9bba50c4d844c0b461d18807edce464baf3977273dfee9782.tar.zst",
+      "title": "mr sandman",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "game_mode": "ITG",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single"
+    },
+    "estimated_song_seconds": 155.6,
+    "song_folder_bytes": 1655450,
+    "worker": "05-heavy",
+    "previous_status": "replay_resource_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "42G",
+    "original_worker": "14"
+  }
+]

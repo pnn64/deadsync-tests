@@ -1,0 +1,8 @@
+{
+  "deadsync_repairs_commit": "6ea770358113696413b589402cd00d1e44e7ffbf",
+  "harness": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+  "native": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+  "rssp": "5b0284eed201e6511265f9e295e3520e12ac1536",
+  "tests_fixture_parent": "c09be9cb202f1f746c87fca7950df78dd9a2a5e5",
+  "note": "The tests fixture parent precedes the commit containing this report. DeadSync subsequently pins that pushed report commit. Capture/build snapshots retain their original base-plus-diff hashes; final-source-equivalence.json verifies the committed repairs plus the seven preserved user edits match the final VM runner. Those user edits were not included in the repair commit."
+}

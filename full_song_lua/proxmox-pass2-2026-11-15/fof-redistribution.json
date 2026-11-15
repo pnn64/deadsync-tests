@@ -1,0 +1,53 @@
+{
+  "id": "e115c0f3019c18b4",
+  "source_simfile": "fof_guys/fof.ssc",
+  "title": "Fof Guys",
+  "simfile_sha256": "a40dbf6a805eb74a544ba1fb6179d15d18c6df1ba2220218e3937e25a82a5fe6",
+  "style": "single",
+  "difficulty": "Difficulty_Challenge",
+  "gc_mode": "automatic",
+  "capture_fps": 60,
+  "max_events": 6000000,
+  "capture_timeout": 1800,
+  "replay_timeout": 2400,
+  "selection_basis": "previous indexed native context",
+  "available_charts": [
+    [
+      "dance-single",
+      "Challenge"
+    ],
+    [
+      "dance-single",
+      "Hard"
+    ],
+    [
+      "dance-single",
+      "Medium"
+    ],
+    [
+      "dance-single",
+      "Easy"
+    ],
+    [
+      "dance-single",
+      "Beginner"
+    ]
+  ],
+  "previous_context": {
+    "source_simfile": "fof_guys/fof.ssc",
+    "previous_archive": "50ada90f96b306f583ae02382994d5c4497b33546c02fac6b3f826b0b00913fb.tar.zst",
+    "title": "Fof Guys",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  "estimated_song_seconds": 180.3,
+  "song_folder_bytes": 5258969,
+  "worker": "15-fof-heavy",
+  "previous_status": "capture_resource_limit",
+  "run_role": "primary-retry",
+  "stage_memory": "50G",
+  "original_worker": "14"
+}

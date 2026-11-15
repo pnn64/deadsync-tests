@@ -1,0 +1,279 @@
+{
+  "checked_at": "2026-11-15T23:25:36.308489+00:00",
+  "task_vms": [
+    {
+      "vmid": 1200,
+      "name": "deadsync-lua-template",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 8192,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1201,
+      "name": "deadsync-lua-01",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 2048,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1201/vm-1201-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1202,
+      "name": "deadsync-lua-02",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 2048,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1202/vm-1202-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1203,
+      "name": "deadsync-lua-03",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 2048,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1203/vm-1203-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1204,
+      "name": "deadsync-lua-04",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 32768,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1204/vm-1204-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1205,
+      "name": "deadsync-lua-05",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 32768,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1205/vm-1205-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1206,
+      "name": "deadsync-lua-06",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 2048,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1206/vm-1206-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1207,
+      "name": "deadsync-lua-07",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 2048,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1207/vm-1207-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1208,
+      "name": "deadsync-lua-08",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 2048,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1208/vm-1208-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1209,
+      "name": "deadsync-lua-09",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 2048,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1209/vm-1209-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1210,
+      "name": "deadsync-lua-10",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 2048,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1210/vm-1210-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1211,
+      "name": "deadsync-lua-11",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 2048,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1211/vm-1211-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1212,
+      "name": "deadsync-lua-12",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 32768,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1212/vm-1212-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1213,
+      "name": "deadsync-lua-13",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 2048,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1213/vm-1213-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1214,
+      "name": "deadsync-lua-14",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 2048,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1214/vm-1214-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1215,
+      "name": "deadsync-lua-15",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 2048,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1215/vm-1215-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1216,
+      "name": "deadsync-lua-large-retry",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 32768,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1216/vm-1216-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1300,
+      "name": "deadsync-lua-pass2-builder",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 8192,
+      "retained_system_disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1300/base-1300-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1301,
+      "name": "deadsync-lua-pass2-01",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 8192,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1301/vm-1301-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1302,
+      "name": "deadsync-lua-pass2-02",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 32768,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1302/vm-1302-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1303,
+      "name": "deadsync-lua-pass2-03",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 32768,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1303/vm-1303-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1304,
+      "name": "deadsync-lua-pass2-04",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 8192,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1304/vm-1304-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1305,
+      "name": "deadsync-lua-pass2-05",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 49152,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1305/vm-1305-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1306,
+      "name": "deadsync-lua-pass2-06",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 8192,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1306/vm-1306-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1307,
+      "name": "deadsync-lua-pass2-07",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 8192,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1307/vm-1307-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1308,
+      "name": "deadsync-lua-pass2-08",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 8192,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1308/vm-1308-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1309,
+      "name": "deadsync-lua-pass2-09",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 8192,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1309/vm-1309-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1310,
+      "name": "deadsync-lua-pass2-10",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 8192,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1310/vm-1310-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1311,
+      "name": "deadsync-lua-pass2-11",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 8192,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1311/vm-1311-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1312,
+      "name": "deadsync-lua-pass2-12",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 8192,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1312/vm-1312-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1313,
+      "name": "deadsync-lua-pass2-13",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 8192,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1313/vm-1313-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1314,
+      "name": "deadsync-lua-pass2-14",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 57344,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1314/vm-1314-disk-0.qcow2,size=192G"
+    },
+    {
+      "vmid": 1315,
+      "name": "deadsync-lua-pass2-15",
+      "status": "stopped",
+      "cores": 2,
+      "memory_MiB": 57344,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1315/vm-1315-disk-0.qcow2,size=192G"
+    },
+    {
+      "vmid": 1316,
+      "name": "deadsync-lua-pass2-controls",
+      "status": "stopped",
+      "cores": 4,
+      "memory_MiB": 16384,
+      "retained_system_disk": "deadsync-lua-audit:1300/base-1300-disk-0.qcow2/1316/vm-1316-disk-0.qcow2,size=96G"
+    }
+  ],
+  "disks_retained": true,
+  "other_vms_untouched": true
+}

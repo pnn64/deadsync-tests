@@ -1,0 +1,236 @@
+[
+  {
+    "name": "observer",
+    "exit": 0,
+    "expected_success": true,
+    "command": [
+      "/opt/song-lua-audit/bin/itgmania-harness-rs",
+      "song-lua-trace",
+      "/opt/song-lua-audit/pass2-controls-v3/observer/song/control.sm",
+      "--itgmania-bin",
+      "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+      "--fallback-theme",
+      "Harness Simply Love",
+      "--headless",
+      "--style",
+      "single",
+      "--until-gameplay-end",
+      "--capture-fps",
+      "60",
+      "--max-events",
+      "100000",
+      "--timeout",
+      "120",
+      "--keep-run-dir",
+      "--out",
+      "/opt/song-lua-audit/pass2-controls-v3/observer/native.json"
+    ],
+    "log": "",
+    "script_errors": [],
+    "completion": {
+      "next_screen": "ScreenEvaluationStage",
+      "reason": "gameplay-exit",
+      "stage_committed": true,
+      "stages_played_after": 1,
+      "stages_played_before": 0
+    },
+    "preferences": {
+      "constant_update_delta_seconds": 0,
+      "default_sync_offset": "SyncOffset_ITG",
+      "display_aspect_ratio": 1.7777777910232544,
+      "global_offset_seconds": -0.00800000037997961,
+      "last_seen_video_driver": "OpenGL",
+      "visual_delay_seconds": 0
+    },
+    "events": [
+      {
+        "actor": "def-0001",
+        "args": [],
+        "beat": 0.026612162590026855,
+        "caller": {
+          "line": 1,
+          "source": "song:/default.lua",
+          "tail_call": false
+        },
+        "command": "OnCommand",
+        "definition_id": "def-0001",
+        "detail": {
+          "native_tween_time_left": 0,
+          "results": [
+            4
+          ]
+        },
+        "kind": "query",
+        "line": 1,
+        "operation": "Actor.getaux",
+        "phase": "callback",
+        "scene": 1,
+        "seconds": -0.7946938872337341,
+        "seq": 7,
+        "source": "song:/default.lua"
+      },
+      {
+        "actor": "player-state:PlayerNumber_P1/options:ModsLevel_Song",
+        "args": [
+          0.5,
+          true
+        ],
+        "beat": 0.026612162590026855,
+        "caller": {
+          "line": 1,
+          "source": "song:/default.lua",
+          "tail_call": false
+        },
+        "command": "OnCommand",
+        "definition_id": "def-0001",
+        "detail": {
+          "results": [
+            {
+              "path": "player-state:PlayerNumber_P1/options:ModsLevel_Song",
+              "type": "PlayerOptions"
+            }
+          ]
+        },
+        "kind": "modifier",
+        "line": 1,
+        "operation": "PlayerOptions.Boost",
+        "phase": "callback",
+        "scene": 1,
+        "seconds": -0.7946938872337341,
+        "seq": 10,
+        "source": "song:/default.lua"
+      },
+      {
+        "actor": "player-state:PlayerNumber_P1/options:ModsLevel_Song",
+        "args": [
+          0.25,
+          true
+        ],
+        "beat": 0.026612162590026855,
+        "caller": {
+          "line": 1,
+          "source": "song:/default.lua",
+          "tail_call": false
+        },
+        "command": "OnCommand",
+        "definition_id": "def-0001",
+        "detail": {
+          "results": [
+            {
+              "path": "player-state:PlayerNumber_P1/options:ModsLevel_Song",
+              "type": "PlayerOptions"
+            }
+          ]
+        },
+        "kind": "modifier",
+        "line": 1,
+        "operation": "PlayerOptions.Reverse",
+        "phase": "callback",
+        "scene": 1,
+        "seconds": -0.7946938872337341,
+        "seq": 11,
+        "source": "song:/default.lua"
+      }
+    ]
+  },
+  {
+    "name": "syntax-error",
+    "exit": 1,
+    "expected_success": false,
+    "command": [
+      "/opt/song-lua-audit/bin/itgmania-harness-rs",
+      "song-lua-trace",
+      "/opt/song-lua-audit/pass2-controls-v3/syntax-error/song/control.sm",
+      "--itgmania-bin",
+      "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+      "--fallback-theme",
+      "Harness Simply Love",
+      "--headless",
+      "--style",
+      "single",
+      "--until-gameplay-end",
+      "--capture-fps",
+      "60",
+      "--max-events",
+      "100000",
+      "--timeout",
+      "120",
+      "--keep-run-dir",
+      "--out",
+      "/opt/song-lua-audit/pass2-controls-v3/syntax-error/native.json"
+    ],
+    "log": "error: ITGmania song Lua semantic trace failed: native script loading or execution failed: {\"message\":\"Lua runtime error: /Songs/Harness/Probe/default.lua:2: '<eof>' expected near 'local'\",\"screen\":\"ScreenGameplay\"}; retained run directory /opt/song-lua-audit/pass2-controls-v3/syntax-error/tmp/itgmania-harness-rs/song-lua-15804-1794772582920108509-0\n",
+    "script_errors": [
+      {
+        "message": "Lua runtime error: /Songs/Harness/Probe/default.lua:2: '<eof>' expected near 'local'",
+        "screen": "ScreenGameplay"
+      }
+    ],
+    "completion": {
+      "next_screen": "ScreenEvaluationStage",
+      "reason": "gameplay-exit",
+      "stage_committed": true,
+      "stages_played_after": 1,
+      "stages_played_before": 0
+    },
+    "preferences": {
+      "constant_update_delta_seconds": 0,
+      "default_sync_offset": "SyncOffset_ITG",
+      "display_aspect_ratio": 1.7777777910232544,
+      "global_offset_seconds": -0.00800000037997961,
+      "last_seen_video_driver": "OpenGL",
+      "visual_delay_seconds": 0
+    },
+    "events": []
+  },
+  {
+    "name": "load-error",
+    "exit": 1,
+    "expected_success": false,
+    "command": [
+      "/opt/song-lua-audit/bin/itgmania-harness-rs",
+      "song-lua-trace",
+      "/opt/song-lua-audit/pass2-controls-v3/load-error/song/control.sm",
+      "--itgmania-bin",
+      "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+      "--fallback-theme",
+      "Harness Simply Love",
+      "--headless",
+      "--style",
+      "single",
+      "--until-gameplay-end",
+      "--capture-fps",
+      "60",
+      "--max-events",
+      "100000",
+      "--timeout",
+      "120",
+      "--keep-run-dir",
+      "--out",
+      "/opt/song-lua-audit/pass2-controls-v3/load-error/native.json"
+    ],
+    "log": "error: ITGmania song Lua semantic trace failed: native script loading or execution failed: {\"message\":\"Lua runtime error: /Songs/Harness/Probe/default.lua:1: pass2 deliberate top-level load error\\n[C]: error()\\n/Songs/Harness/Probe/default.lua:1: main()\",\"screen\":\"ScreenGameplay\"}; retained run directory /opt/song-lua-audit/pass2-controls-v3/load-error/tmp/itgmania-harness-rs/song-lua-15805-1794772582920108509-0\n",
+    "script_errors": [
+      {
+        "message": "Lua runtime error: /Songs/Harness/Probe/default.lua:1: pass2 deliberate top-level load error\n[C]: error()\n/Songs/Harness/Probe/default.lua:1: main()",
+        "screen": "ScreenGameplay"
+      }
+    ],
+    "completion": {
+      "next_screen": "ScreenEvaluationStage",
+      "reason": "gameplay-exit",
+      "stage_committed": true,
+      "stages_played_after": 1,
+      "stages_played_before": 0
+    },
+    "preferences": {
+      "constant_update_delta_seconds": 0,
+      "default_sync_offset": "SyncOffset_ITG",
+      "display_aspect_ratio": 1.7777777910232544,
+      "global_offset_seconds": -0.00800000037997961,
+      "last_seen_video_driver": "OpenGL",
+      "visual_delay_seconds": 0
+    },
+    "events": []
+  }
+]

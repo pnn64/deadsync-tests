@@ -1,0 +1,2655 @@
+[
+  {
+    "id": "001abcd0e01187de",
+    "source_simfile": "Bank Account/Bank Account.ssc",
+    "title": "Bank Account",
+    "simfile_sha256": "92b09483a60ce1e1a1f6d9c2dcb6b00d4db1382e8c5faaa2a8a087106d1ba7ed",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Bank Account/Bank Account.ssc",
+      "previous_archive": "0211e7ed4192b8c793f8ca9b308da10fd59666ac4c07769ac8e29e21fad42268.tar.zst",
+      "title": "Bank Account",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 90.6,
+    "song_folder_bytes": 3704003,
+    "worker": "03",
+    "previous_status": "native_lua_error",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "00b8031e64c3cf41",
+    "source_simfile": "Haxo (Sharks Remix) [sorae]/haxo.ssc",
+    "title": "Haxo",
+    "simfile_sha256": "d02a73daed864c71d7c0a94e5a8780c2800796ba72db07f98b79790c12eecc72",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Haxo (Sharks Remix) [sorae]/haxo.ssc",
+      "previous_archive": "8a276535e1cbc6189402d1d8aed8ce0ba89df4d729e41f12f3c9d779cdab1d8c.tar.zst",
+      "title": "Haxo",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 108.8,
+    "song_folder_bytes": 4445429,
+    "worker": "04",
+    "previous_status": "native_lua_error",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "02d24424431a0192",
+    "source_simfile": "mawaru9/mawaru9.sm",
+    "title": "MAWARU SIMULATOR 2016",
+    "simfile_sha256": "0012dd2fa9cef58ae543bd88b3ab84e25d0b390fcea2827c97c3dd1ac7d5a624",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 1920,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ]
+    ],
+    "previous_context": null,
+    "estimated_song_seconds": 1200,
+    "song_folder_bytes": 45239749,
+    "worker": "05",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "10fe9862c1cf88c3",
+    "source_simfile": "Cuphead [TaroNuke]/botanic.sm",
+    "title": "Botanic Panic",
+    "simfile_sha256": "6d4f35389c80992011e7b143c5959d32fb5887dfc189975153fbab4885aacd96",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Cuphead [TaroNuke]/botanic.sm",
+      "previous_archive": "a117399b12110fdd9e25667e3876644df41ee739dff619c564ad5b79b24ba983.tar.zst",
+      "title": "Botanic Panic",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 158.8,
+    "song_folder_bytes": 16174246,
+    "worker": "14",
+    "previous_status": "replay_resource_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "50G"
+  },
+  {
+    "id": "131298138770f9dd",
+    "source_simfile": "INAZUMA (Gio)/INAZUMA.ssc",
+    "title": "INAZUMA",
+    "simfile_sha256": "c0fbe90d2636f645bae1dcb7b91d162eab21e194ba52ea333140b7edb8181d83",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "INAZUMA (Gio)/INAZUMA.ssc",
+      "previous_archive": "bf02bf5a33a96b32b7639d4d0e5eb349a9208ce4a706e48b51d0618eb77f6f8a.tar.zst",
+      "title": "INAZUMA (Gio)",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 111.9,
+    "song_folder_bytes": 5172073,
+    "worker": "06",
+    "previous_status": "native_crash_handler_hang",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "272cbdbb21a302b2",
+    "source_simfile": "Paint the Town Red/PaintTheTownRed.sm",
+    "title": "Paint the Town Red",
+    "simfile_sha256": "a876df80258c0fb9a9c0eb23294c0857e7a249fc8c37e96f6305f2c4b5456173",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Paint the Town Red/PaintTheTownRed.sm",
+      "previous_archive": "e4942b8b777e9f2b992747ad194cd073c09f60011b0778345685ea95b767e6cb.tar.zst",
+      "title": "Paint the Town Red",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "game_mode": "ITG",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single"
+    },
+    "estimated_song_seconds": 226.8,
+    "song_folder_bytes": 36931691,
+    "worker": "15",
+    "previous_status": "replay_resource_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "50G"
+  },
+  {
+    "id": "2ac31dad727e6303",
+    "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.ssc",
+    "title": "THE WORLD REVOLVING",
+    "simfile_sha256": "ae38b82cd09bdaaa1dc0b5599e341b5d46befa7aefb3962de70f679bed63a1f0",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.ssc",
+      "previous_archive": "640c48d2df81663e1a2271544a3119d4b0f6694e7476e23ce170cd68669fc8dd.tar.zst",
+      "title": "THE WORLD REVOLVING",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 109.9,
+    "song_folder_bytes": 6898833,
+    "worker": "07",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "2bb9c0a9995617ac",
+    "source_simfile": "[FULL SONG] ChikuTaku [wrsw]/ChikuTaku.ssc",
+    "title": "[FULL SONG] ChikuTaku",
+    "simfile_sha256": "4cd34afa0a9e7d2f47c426f1ae85fc1504f98890354e544e2df0fc225df239f2",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 1920,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "[FULL SONG] ChikuTaku [wrsw]/ChikuTaku.ssc",
+      "previous_archive": "894c528ecff961e8807fe90e10f0597bc1b45d3a8377401d9d7b354a56288019.tar.zst",
+      "title": "[FULL SONG] ChikuTaku",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 1200,
+    "song_folder_bytes": 77745126,
+    "worker": "08",
+    "previous_status": "native_lua_error",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "3ed87baea8fc010d",
+    "source_simfile": "mawaru8/mawaru8.sm",
+    "title": "MAWARU! SETSUGETSUKA!",
+    "simfile_sha256": "a0e32b54c2762591bb87110e8661cdc1b9e31b6d5d9a287e8500ced93cc5d492",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "previous_archive": "ee1cd83a8822f6809cdfedef10871a04a83814aad1f667e03794539dff600942.tar.zst",
+      "title": "MAWARU! SETSUGETSUKA!",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 363.5,
+    "song_folder_bytes": 21322756,
+    "worker": "09",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "3effbc28e93b70bc",
+    "source_simfile": "Anxiety/Anxiety.ssc",
+    "title": "Episode 04",
+    "simfile_sha256": "d985c1bef86ea049230a8fc8bc8235dae842ec28b69fbbb525f330bf8dac7214",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Anxiety/Anxiety.ssc",
+      "previous_archive": "00b3d2301d7140ae9132978a8a6f4f872cbf5d0ce463e1faf33f7ac0f7caf336.tar.zst",
+      "title": "Episode 04",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 206.2,
+    "song_folder_bytes": 10899819,
+    "worker": "01",
+    "previous_status": "replay_error",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "3f7a546d6574982b",
+    "source_simfile": "DS ULTIMATE LUA TEST/DS ULTIMATE LUA TEST.sm",
+    "title": "DS ULTIMATE LUA TEST",
+    "simfile_sha256": "5d0025fc36772e46addedab3ecce8ee2d0c26a7a14301e12021237c86a9b027e",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-double",
+        "Challenge"
+      ]
+    ],
+    "previous_context": null,
+    "estimated_song_seconds": 176.0,
+    "song_folder_bytes": 91125468,
+    "worker": "03",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "4295240e49b7f6c2",
+    "source_simfile": "BBKKBKK [UPS 4]/BBKKBKK.ssc",
+    "title": "B.B.K.K.B.K.K.",
+    "simfile_sha256": "af0c7b141798dbf1c2dfa8c7854ebd67b4ae5efadb76a0661e972341b8113ce7",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "BBKKBKK [UPS 4]/BBKKBKK.ssc",
+      "previous_archive": "31b6d48d1377c91006340baac97ad428c6e89188e12ab32b2899de445b76b18c.tar.zst",
+      "title": "B.B.K.K.B.K.K.",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 135.5,
+    "song_folder_bytes": 9488931,
+    "worker": "10",
+    "previous_status": "native_crash_handler_hang",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "5a130a6b5626f565",
+    "source_simfile": "Cyberpunk 2077/Cyberpunk 2077.ssc",
+    "title": "Cyberpunk 2077",
+    "simfile_sha256": "160be0cdbe9f8b0863ab41865a2f9d7a6a75a5e9771f524a96fb81e6e6d35012",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Cyberpunk 2077/Cyberpunk 2077.ssc",
+      "previous_archive": "3f0404368ddd09c3f9b9ac778d19d433100126b71b0251aab6cd353d51378abf.tar.zst",
+      "title": "Cyberpunk 2077",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 174.4,
+    "song_folder_bytes": 6731185,
+    "worker": "11",
+    "previous_status": "native_crash",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "5e922ad5ae24e720",
+    "source_simfile": "Get Into It/GetIntoIt.ssc",
+    "title": "Get Into It (Yuh)",
+    "simfile_sha256": "c13e18cc0089f8bd5f5dbf814ff97ae0fd614856914b8c41b1593a120e9ebed5",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Get Into It/GetIntoIt.ssc",
+      "previous_archive": "7231617a36c1e3d64c03cbd164907558954e2a5a64bbe698315d24831ccf6327.tar.zst",
+      "title": "Get Into It (Yuh)",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 126.5,
+    "song_folder_bytes": 10220284,
+    "worker": "06",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "648cae001699309d",
+    "source_simfile": "Happy Now/Happy Now.ssc",
+    "title": "Happy Now",
+    "simfile_sha256": "9c577d5c3cbbc12ea6b4ed5313ac789e3b3adcd24c0e5a345f4b078292f05740",
+    "style": "single",
+    "difficulty": "Difficulty_Easy",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Happy Now/Happy Now.ssc",
+      "previous_archive": "2d593c336223218398eefd84e4e8d2d8f96e05c8aab4d277d9a172c8398e462e.tar.zst",
+      "title": "Happy Now",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Easy",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 207.5,
+    "song_folder_bytes": 11850920,
+    "worker": "12",
+    "previous_status": "native_crash_handler_hang",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "67053c6979c0becb",
+    "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+    "title": "308|MISC|[lv.Quest] ArrowQuest",
+    "simfile_sha256": "fb767f349b23e62155118f76097269da54e20bf983f6bd0a71e8baba098d266e",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 10000000,
+    "capture_timeout": 4200,
+    "replay_timeout": 3600,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+      "previous_archive": "64727f8e25081f8a66aea85242c43958278e43bbca2e89b72a3c4577c1a4ad1d.tar.zst",
+      "title": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 1200,
+    "song_folder_bytes": 22281283,
+    "worker": "14",
+    "previous_status": "capture_observation_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "50G"
+  },
+  {
+    "id": "6a3e1a6f93bdc9fc",
+    "source_simfile": "Paint the Town Red/PaintTheTownRed.ssc",
+    "title": "Paint the Town Red",
+    "simfile_sha256": "8a10265702779990b74a9f9e49c21f41c8eb645e8677a59c98f6d808b628ad5c",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Paint the Town Red/PaintTheTownRed.ssc",
+      "previous_archive": "e8b81a5779d5234a7439926e1824649382332656ba1eedc293203454c6ba52fb.tar.zst",
+      "title": "Paint the Town Red",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "game_mode": "ITG",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single"
+    },
+    "estimated_song_seconds": 201.6,
+    "song_folder_bytes": 36931691,
+    "worker": "14",
+    "previous_status": "replay_resource_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "50G"
+  },
+  {
+    "id": "715ba44e314f2f6e",
+    "source_simfile": "Happiness/Happiness.ssc",
+    "title": "\u5e78\u305b\u306b\u306a\u308c\u308b\u96a0\u3057\u30b3\u30de\u30f3\u30c9\u304c\u3042\u308b\u3089\u3057\u3044",
+    "simfile_sha256": "8efb7562272cde881e6061fecef4aa76c53998620b6006ad2e6182d9d481cb5b",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Happiness/Happiness.ssc",
+      "previous_archive": "8e48a72f9a686fd35d01d3e2497686d50a8ad30332660add585dbc758097c631.tar.zst",
+      "title": "\u5e78\u305b\u306b\u306a\u308c\u308b\u96a0\u3057\u30b3\u30de\u30f3\u30c9\u304c\u3042\u308b\u3089\u3057\u3044",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 153.8,
+    "song_folder_bytes": 14517645,
+    "worker": "13",
+    "previous_status": "native_lua_error",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "74d97529575b9032",
+    "source_simfile": "Spectrum (Odyssey's Prism Mix) [Telperion]/spectrod.ssc",
+    "title": "Spectrum",
+    "simfile_sha256": "029596d9d093479e06f71010fdda42b381856414c3bc8678f62ddf4aa70025ee",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 903,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Spectrum (Odyssey's Prism Mix) [Telperion]/spectrod.ssc",
+      "previous_archive": "7512061d5df64d6d64302b75a82c1cbd524224d5ef1b5c95bd7bc07356df6518.tar.zst",
+      "title": "Spectrum (Odyssey's Prism Mix)",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 522.6,
+    "song_folder_bytes": 7716001,
+    "worker": "01",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "7666d9897cac1286",
+    "source_simfile": "DREAMING-ING!!/DREAMING-ING!!.ssc",
+    "title": "DREAMING-ING!!",
+    "simfile_sha256": "0e7c2c767ce9e342b4ed9ec53e6c6d5ff4ba6f55acad41173fe9f91cf20360d3",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "DREAMING-ING!!/DREAMING-ING!!.ssc",
+      "previous_archive": "93ca146c9950796bb6a18f98c1d63cd1f0fdd6df66c0d2bc000240452ef90e6c.tar.zst",
+      "title": "DREAMING-ING!!",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 30.7,
+    "song_folder_bytes": 3573590,
+    "worker": "02",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "798ceb1db0a936b4",
+    "source_simfile": "Dreams Bloom After School/Dreams Bloom After School.ssc",
+    "title": "\u5922\u54b2\u304dAfter school",
+    "simfile_sha256": "2004c1803ec2d989574fd554ab8cf755f58b8b66dd44ebaad4aa85a6f516cd8a",
+    "style": "single",
+    "difficulty": "Difficulty_Hard",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Dreams Bloom After School/Dreams Bloom After School.ssc",
+      "previous_archive": "5239a79f19a8c9473f63ce1456d28a80274988579e3f2bc92fa55b25c178000d.tar.zst",
+      "title": "\u5922\u54b2\u304dAfter school",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Hard",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 107.0,
+    "song_folder_bytes": 9070045,
+    "worker": "03",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "7a0708216dd461ad",
+    "source_simfile": "mawaru7/mawaru7.sm",
+    "title": "MAWARUCHI SURVIVER",
+    "simfile_sha256": "16daf42ecde7e00d77cd7bd7b68bda40a6fda0949ea7d16d838ea6d98ce227cd",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "mawaru7/mawaru7.sm",
+      "previous_archive": "97e7ca47890de2ef68c3c67c4366c1db83d00d7a213eaa93e8c8fc0591d7850d.tar.zst",
+      "title": "mawaru7",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 385.8,
+    "song_folder_bytes": 31653896,
+    "worker": "15",
+    "previous_status": "replay_resource_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "50G"
+  },
+  {
+    "id": "7c462fc586e600b3",
+    "source_simfile": "Anxiety/Anxiety.sm",
+    "title": "Episode 04",
+    "simfile_sha256": "adde178f3cd392cc673fae70c129116bb411af454239e998c8a47c52a732608a",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Anxiety/Anxiety.sm",
+      "previous_archive": "3318aeb2e7fd1de204f12496812fa60f138019834bf2c5222b092403aefa2ce3.tar.zst",
+      "title": "Episode 04",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 241.7,
+    "song_folder_bytes": 10899819,
+    "worker": "02",
+    "previous_status": "replay_error",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "7fa17005f2a1fbae",
+    "source_simfile": "What A Wonderful World/WAWW.sm",
+    "title": "What a Wonderful World",
+    "simfile_sha256": "44d9e8c548a43bfbf4e7b1f35229c66a5063759098784abd70c542409d7f22b5",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "What A Wonderful World/WAWW.sm",
+      "previous_archive": "1ef17a67fbdc88116dbe889a4a05140c8737c0bd646d5e4ecd90a035cf4242f8.tar.zst",
+      "title": "What a Wonderful World",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 729.6,
+    "song_folder_bytes": 7456688,
+    "worker": "14",
+    "previous_status": "replay_resource_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "50G"
+  },
+  {
+    "id": "82dbf1390bb50291",
+    "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
+    "title": "A Dramatic Irony",
+    "simfile_sha256": "34ac0b352f59c244678cb2151aa6d43450e384091651375ac74da68dbe28415e",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 1200,
+    "replay_timeout": 1800,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
+      "previous_archive": "7db9fbbe9b9aaef7a7ff728adff2e573aae7917aa2c1c45cb3bf3676783997c0.tar.zst",
+      "title": "A Dramatic Irony",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 172.4,
+    "song_folder_bytes": 4695811,
+    "worker": "04",
+    "previous_status": "capture_timeout",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "83441ecafa3cfba6",
+    "source_simfile": "Brain Power - [Cardboard Box]/Brain Power.ssc",
+    "title": "Brain Power",
+    "simfile_sha256": "ab1bed3728ccb835e806e3ed4ca837eb2608e80322d4ea4207a6e377be17a35c",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Brain Power - [Cardboard Box]/Brain Power.ssc",
+      "previous_archive": "0e9b59cd89b8971a8035aca5c55ef7fc791622c8bd888c3ccc9d3b8a875174e0.tar.zst",
+      "title": "Brain Power",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 124.2,
+    "song_folder_bytes": 16041765,
+    "worker": "04",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "85aa930d114b2262",
+    "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm",
+    "title": "308|MISC|[lv.Quest] ArrowQuest",
+    "simfile_sha256": "fb767f349b23e62155118f76097269da54e20bf983f6bd0a71e8baba098d266e",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 10000000,
+    "capture_timeout": 4200,
+    "replay_timeout": 3600,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": null,
+    "estimated_song_seconds": 1200,
+    "song_folder_bytes": 22281283,
+    "worker": "15",
+    "previous_status": "capture_observation_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "50G"
+  },
+  {
+    "id": "898f3b171ed333ed",
+    "source_simfile": "Quarantine/Quarantine.sm",
+    "title": "Quarantine",
+    "simfile_sha256": "1cc54fe975c64299283b4fadf57edffae8145bfd8688f9e2c2c7f2f02f0eb9ca",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Beginner"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Quarantine/Quarantine.sm",
+      "previous_archive": "020dcc2a97b078b09945a7d8ff3e4bad9a00d20c15f854806a277e46c4afab00.tar.zst",
+      "title": "Quarantine",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 237.1,
+    "song_folder_bytes": 15400970,
+    "worker": "02",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "8f4d4741245868cf",
+    "source_simfile": "Velvet LEFTS 1/chart.ssc",
+    "title": "Turii -Panta Rhei-",
+    "simfile_sha256": "a38146c07ea9483591ae94748621822e163c8ad283e60fe1273048a229f94514",
+    "style": "versus",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Velvet LEFTS 1/chart.ssc",
+      "previous_archive": "ce1da310466ea79a289cb1ddf0cbf2e4994bde69967d6e128d30f8136b45b049.tar.zst",
+      "title": "Velvet LEFTS 1",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "versus",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG",
+      "previous_gc_mode": "stopped"
+    },
+    "estimated_song_seconds": 128.1,
+    "song_folder_bytes": 3647788,
+    "worker": "05",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "91cfdcfe801f2621",
+    "source_simfile": "Brain Power - [Cardboard Box]/Brain Power.sm",
+    "title": "Brain Power",
+    "simfile_sha256": "a53bb82ba00b19b125cfa74125418f73b1be297d3d42f39709f0828c880fb328",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Brain Power - [Cardboard Box]/Brain Power.sm",
+      "previous_archive": "7474f7c949e0a8a85dc83cfe432cfbffdd9a3ed240051e6e0bad6408a5767e4b.tar.zst",
+      "title": "Brain Power",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 153.9,
+    "song_folder_bytes": 16041765,
+    "worker": "05",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "935b7152e8f43749",
+    "source_simfile": "274-MODS-[lv.04] SAIKYOU STRONGER/REDALiCE_vs_USAO_-_STRONGER.ssc",
+    "title": "274|MODS|[lv.04] \u6700\u5f37STRONGER",
+    "simfile_sha256": "958272d1bb472a04d33a65df202772e77c737122c96e0c827baf15632a982b67",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "274-MODS-[lv.04] SAIKYOU STRONGER/REDALiCE_vs_USAO_-_STRONGER.ssc",
+      "previous_archive": "70169ce37058f254e043ee79a3ef1a9473d2949333c5995b934e06625298fbd3.tar.zst",
+      "title": "274|MODS|[lv.04] \u6700\u5f37STRONGER",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 141.7,
+    "song_folder_bytes": 11916211,
+    "worker": "06",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "939315314b14098a",
+    "source_simfile": "My Penny/My Penny.ssc",
+    "title": "My Penny",
+    "simfile_sha256": "c068da62f7dc51d0898f667568ec7b043295b6e31abe654fdd32d0110f4ef754",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "My Penny/My Penny.ssc",
+      "previous_archive": "311ee5ed6f5a27c0ab7b5e528fcc539efe6c4158463eba38a6de3b3f05bad2dd.tar.zst",
+      "title": "My Penny",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 16.6,
+    "song_folder_bytes": 9528783,
+    "worker": "07",
+    "previous_status": "native_crash_handler_hang",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "94e45bc78c33fb2c",
+    "source_simfile": "Bad Apple!!/Bad Apple!!.sm",
+    "title": "Bad Apple!!",
+    "simfile_sha256": "311cfaad74397daad087798b7222bd32a641a8f3e242662911a3b77d681b7ae6",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Bad Apple!!/Bad Apple!!.sm",
+      "previous_archive": "fb466d41aaf6c15fff9b1e0a0908d572f20636a67af06f2bdbc9c92f42c56333.tar.zst",
+      "title": "Bad Apple!!",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 379.1,
+    "song_folder_bytes": 16051437,
+    "worker": "10",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "9a7dc9dd696c05ad",
+    "source_simfile": "mr sandman/mr sandman.sm",
+    "title": "Mr. Sandman",
+    "simfile_sha256": "e2262781ebdd5afd187dbdb5ce568db701ed7a4b6f8b856dbeb4f471c17b27c3",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "mr sandman/mr sandman.sm",
+      "previous_archive": "7817e31172693ca9bba50c4d844c0b461d18807edce464baf3977273dfee9782.tar.zst",
+      "title": "mr sandman",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "game_mode": "ITG",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single"
+    },
+    "estimated_song_seconds": 155.6,
+    "song_folder_bytes": 1655450,
+    "worker": "14",
+    "previous_status": "replay_resource_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "50G"
+  },
+  {
+    "id": "a170dd312f720cd4",
+    "source_simfile": "[11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc",
+    "title": "[5800] [11] KENPO SAITO",
+    "simfile_sha256": "5f7cb652fa4362cf45f2000a2224db187c355097377c08d91ea40f3178edcc5d",
+    "style": "double",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-double",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "[11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc",
+      "previous_archive": "0fce279451ee016948df2d5f96f9105d0be1c541ec33361b222c207c4f59ec8c.tar.zst",
+      "title": "[5800] [11] KENPO SAITO",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 155.8,
+    "song_folder_bytes": 3376024,
+    "worker": "08",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "a5df4e3b38df280f",
+    "source_simfile": "Anzu no Uta (U.P.S.)/Anzu no Uta.sm",
+    "title": "\u3042\u3093\u305a\u306e\u3046\u305f",
+    "simfile_sha256": "a66c2e4d4d3538fb3569ad8f6b0fc167d476cfac0e1694ed1846979ec289dedf",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Anzu no Uta (U.P.S.)/Anzu no Uta.sm",
+      "previous_archive": "a8b5d091317c8e39173c1db0703dd3f2453ffce560acac89b8bd88bf12142941.tar.zst",
+      "title": "\u3042\u3093\u305a\u306e\u3046\u305f",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 152.6,
+    "song_folder_bytes": 3880124,
+    "worker": "08",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "aa110bbb4b97b8a4",
+    "source_simfile": "Cloud99 (As Above Mix)/Song.ssc",
+    "title": "Cloud99",
+    "simfile_sha256": "162ebaf65a1a39818e74a10cea6f2e2a49b0af07b2dfce1224de0bd85395a9e5",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Cloud99 (As Above Mix)/Song.ssc",
+      "previous_archive": "1bcc1a4ca0385bafaf8cfb255b5e89d8ea2741ec789f893dfc8daeb75cbea4f8.tar.zst",
+      "title": "Cloud99 (As Above Mix)",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 196.1,
+    "song_folder_bytes": 4029725,
+    "worker": "09",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "ad5a7b90e1897ac2",
+    "source_simfile": "Young Dumb And Broke/YDB.sm",
+    "title": "Episode 19",
+    "simfile_sha256": "1addc2202817def4719e4b62fb85ade39e8450cfe01a19ed3adc3370efce6cd0",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Young Dumb And Broke/YDB.sm",
+      "previous_archive": "4e0a2477264b7c00a578002042169ab1903b9c6e57b175c4e80c493bdd402acc.tar.zst",
+      "title": "Young Dumb And Broke",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 227.7,
+    "song_folder_bytes": 371917194,
+    "worker": "10",
+    "previous_status": "native_crash",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "ade709b3e4efeb3a",
+    "source_simfile": "Crazy Crazy/Crazy Crazy.ssc",
+    "title": "\u30af\u30ec\u30a4\u30b8\u30fc\u30af\u30ec\u30a4\u30b8\u30fc",
+    "simfile_sha256": "8d66006246b74fce0bc31918eb7fad3f01d5cacdfca03902e9354b88e563af99",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Crazy Crazy/Crazy Crazy.ssc",
+      "previous_archive": "c37d64e24f0d44ebbcc3acc647beeabbefee645976e01f50d8d3622e72a8bce5.tar.zst",
+      "title": "Crazy Crazy",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 129.2,
+    "song_folder_bytes": 5153937,
+    "worker": "11",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "b8627b23d498bfe5",
+    "source_simfile": "Max 300/MAX 300.ssc",
+    "title": "MAX 300",
+    "simfile_sha256": "c16f7f2cf7d6e41f916deecdd9a2f5a494ae4204277d7ff1d78036d171c48f69",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 1920,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-double",
+        "Easy"
+      ],
+      [
+        "dance-double",
+        "Medium"
+      ],
+      [
+        "dance-double",
+        "Hard"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Max 300/MAX 300.ssc",
+      "previous_archive": "a76ae37dce83b3d452896ad243d4f49a0a484934af3441ddf7fa271b387a94bf.tar.zst",
+      "title": "MAX 300",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 1200,
+    "song_folder_bytes": 3661596,
+    "worker": "12",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "ba1dd6297cd6aae0",
+    "source_simfile": "Apollo/Apollo.sm",
+    "title": "Apollo",
+    "simfile_sha256": "415084485199d886c19862c31e59f0331e3e03b5dd2816c9f8e9b02a984ca828",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-double",
+        "Hard"
+      ],
+      [
+        "dance-double",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Apollo/Apollo.sm",
+      "previous_archive": "830650734bc8dd390075773519b00d92d225ce12f935c22698954fb02736b063.tar.zst",
+      "title": "Apollo",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 382.3,
+    "song_folder_bytes": 3027976,
+    "worker": "12",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "bbd73a8be292d1aa",
+    "source_simfile": "Get Into It/GetIntoIt.sm",
+    "title": "Get Into It",
+    "simfile_sha256": "5577279c57ba4255fcec3f2f7e105c0e2627731193ee239d4ecc2486806027af",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Get Into It/GetIntoIt.sm",
+      "previous_archive": "0f930b5c92c851793a6a4ddcac966901028639f31d42079fedb8e431a2a27d7c.tar.zst",
+      "title": "Get Into It",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 153.9,
+    "song_folder_bytes": 10220284,
+    "worker": "07",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "bd062750cefe5be7",
+    "source_simfile": "Metronogik/Song.ssc",
+    "title": "Metronogik",
+    "simfile_sha256": "b47ec860275040252ac437d921d2c8b04338a126a65f0fd84fee2494781d4808",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 1920,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Metronogik/Song.ssc",
+      "previous_archive": "aef8b4093321c103b961511a236cb5d10e5efe7c2c723b760330945bf0424c41.tar.zst",
+      "title": "Metronogik",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG",
+      "previous_gc_mode": "automatic"
+    },
+    "estimated_song_seconds": 1200,
+    "song_folder_bytes": 4055588,
+    "worker": "13",
+    "previous_status": "native_crash",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "beb47e811c5aafd3",
+    "source_simfile": "james/james.sm",
+    "title": "james",
+    "simfile_sha256": "90aa95cea1b414042d77e510e78aa77392ffb72cad525a7116df2f17b7b31aaa",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": null,
+    "estimated_song_seconds": 171.0,
+    "song_folder_bytes": 9162590,
+    "worker": "01",
+    "previous_status": "capture_timeout",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "becedc74eda050de",
+    "source_simfile": "Turn A - [Freya]/turn_a.ssc",
+    "title": "\u2200",
+    "simfile_sha256": "7877692800f17f5cb85481cc652be8317830640b81c55b87d7c3c49da5a55990",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 1920,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Turn A - [Freya]/turn_a.ssc",
+      "previous_archive": "b27c43a22b46afe29c45fdb7c0327a9c4d4d88a63850ae5670a6695f21dfbd2d.tar.zst",
+      "title": "\u2200",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "game_mode": "ITG",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single"
+    },
+    "estimated_song_seconds": 1200,
+    "song_folder_bytes": 20551524,
+    "worker": "09",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "c3aff14ffb37944f",
+    "source_simfile": "Happy Now Remastered/Happy Now.ssc",
+    "title": "Episode 00",
+    "simfile_sha256": "d7cb2c12b9ab2e40fb30ed6c082ed12ccd4f71f2420bde2942b72ac5f6e68195",
+    "style": "single",
+    "difficulty": "Difficulty_Edit",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Happy Now Remastered/Happy Now.ssc",
+      "previous_archive": "5f9232153aa3b8eb1b90650db260e28ab7fafb3196ff188edaa067386658bf11.tar.zst",
+      "title": "Happy Now Remastered",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Edit",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 207.5,
+    "song_folder_bytes": 13849870,
+    "worker": "02",
+    "previous_status": "native_crash_handler_hang",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "c3e0c410f04c30dd",
+    "source_simfile": "Megalovania SM5 - [TaroNuke]/megalovania.sm",
+    "title": "MEGALOVANIA",
+    "simfile_sha256": "cc4f9cb19318d83f9ea651ecb790ab5d12bcb02fc60dfff11ea2ae79e8cf31f3",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Megalovania SM5 - [TaroNuke]/megalovania.sm",
+      "previous_archive": "1c886092d9f50df26205d2c2de6c0bfaaa2f39bba8c399230f5de6998c9acf6f.tar.zst",
+      "title": "Megalovania SM5 - [TaroNuke]",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 438.0,
+    "song_folder_bytes": 4122159,
+    "worker": "11",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "c5080f1c121d14e5",
+    "source_simfile": "Lesson by DJ/Lesson by DJ.sm",
+    "title": "Lesson by DJ",
+    "simfile_sha256": "c5300bc691048803db427d58d9e76b7dbd159cfba2c9bffee3bf8b632964b840",
+    "style": "single",
+    "difficulty": null,
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [],
+    "previous_context": null,
+    "estimated_song_seconds": 10,
+    "song_folder_bytes": 4029044,
+    "worker": "03",
+    "previous_status": "no_selectable_chart",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "ccab525f9b554b84",
+    "source_simfile": "Apollo/Apollo.ssc",
+    "title": "Apollo",
+    "simfile_sha256": "dc4b926e7a0687cf4a7576292592ae518dba636cabba234c8c95fb502f0a4e5f",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-double",
+        "Hard"
+      ],
+      [
+        "dance-double",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Apollo/Apollo.ssc",
+      "previous_archive": "cecb2ec63fc4f9140e774ebd938b0d81734227a96df9babf33fc2ad8e6556a27.tar.zst",
+      "title": "Apollo",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 368.1,
+    "song_folder_bytes": 3027976,
+    "worker": "13",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "cd3de8f3c03c51bc",
+    "source_simfile": "Young Dumb And Broke/YDB.ssc",
+    "title": "Episode 19",
+    "simfile_sha256": "8768a55012287ef1a6fb4f70a6b18e53f129ec03782bb3d2dfdbdf0517377d4c",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Young Dumb And Broke/YDB.ssc",
+      "previous_archive": "a2878b466f009d3ae3351a9d10c0814acad8b7b362c9af5a3a00a4b6435e54d9.tar.zst",
+      "title": "Young Dumb And Broke",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 190.9,
+    "song_folder_bytes": 371917194,
+    "worker": "04",
+    "previous_status": "native_crash_handler_hang",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "cdb3faa216e1adfc",
+    "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.sm",
+    "title": "THE WORLD REVOLVING",
+    "simfile_sha256": "325e86230449989c83c5e1a2fb2ff61c36220675dfd3ea95582decc85711177f",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.sm",
+      "previous_archive": "094bded99b321b1461efce49b0b423811110326fe6a88d606bdc6c0b58f337bb.tar.zst",
+      "title": "THE WORLD REVOLVING",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 114.9,
+    "song_folder_bytes": 6898833,
+    "worker": "05",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "cf1c3df5d6e9f28b",
+    "source_simfile": "Cursed Metamorph - [Zaia]/saved/Cursed Metamorph.ssc",
+    "title": "Cursed Metamorph",
+    "simfile_sha256": "08f8865ca23a834cbed37f92c94f5c5439c2cf6eec65fbaff66d9d827e60aa50",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": null,
+    "estimated_song_seconds": 236.6,
+    "song_folder_bytes": 12915977,
+    "worker": "06",
+    "previous_status": "native_capture_error",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "d007bb219d9d393a",
+    "source_simfile": "242-MISC.[lv.02] ChikuTaku/ChikuTaku.ssc",
+    "title": "242|MISC.|[lv.02] ChikuTaku",
+    "simfile_sha256": "24fa9211245c1c1e36be0a6c473db4833747a455d2b2e801782bd368149dad62",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 1920,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "242-MISC.[lv.02] ChikuTaku/ChikuTaku.ssc",
+      "previous_archive": "733a636d41eaa4f2add786f07e40a02f94dbddd2937b777b19231594486f16c7.tar.zst",
+      "title": "242|MISC.|[lv.02] ChikuTaku",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 1200,
+    "song_folder_bytes": 77745148,
+    "worker": "07",
+    "previous_status": "native_lua_error",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "d3aa73c0f2f94a22",
+    "source_simfile": "99+ [-YOSEFU-]/99+.ssc",
+    "title": "99+",
+    "simfile_sha256": "c7148d546f5017efbf3802b04006da99caea362d13e4a68cd19131f74637d179",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "99+ [-YOSEFU-]/99+.ssc",
+      "previous_archive": "00f94060905e800369ced918322fe391f65142fdf8e5e1328c9d0b3ff683a124.tar.zst",
+      "title": "99+",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 112.5,
+    "song_folder_bytes": 4064885,
+    "worker": "08",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "e115c0f3019c18b4",
+    "source_simfile": "fof_guys/fof.ssc",
+    "title": "Fof Guys",
+    "simfile_sha256": "a40dbf6a805eb74a544ba1fb6179d15d18c6df1ba2220218e3937e25a82a5fe6",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Beginner"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "fof_guys/fof.ssc",
+      "previous_archive": "50ada90f96b306f583ae02382994d5c4497b33546c02fac6b3f826b0b00913fb.tar.zst",
+      "title": "Fof Guys",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 180.3,
+    "song_folder_bytes": 5258969,
+    "worker": "14",
+    "previous_status": "capture_resource_limit",
+    "run_role": "primary-retry",
+    "stage_memory": "50G"
+  },
+  {
+    "id": "e42e22ef486a712f",
+    "source_simfile": "Happy Now/Happy Now.sm",
+    "title": "Happy Now",
+    "simfile_sha256": "4b7b4826b11cb66575c6385f0bbce11e377c10ad0f288b308ed0561b1db997fb",
+    "style": "single",
+    "difficulty": "Difficulty_Easy",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Happy Now/Happy Now.sm",
+      "previous_archive": "acb0e9e5d14752e6555d2b9da0fb9506358aa8778a45de2b079e7a11541d6423.tar.zst",
+      "title": "Happy Now",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Easy",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 250.2,
+    "song_folder_bytes": 11850920,
+    "worker": "09",
+    "previous_status": "native_crash_handler_hang",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "e870bbfb00099d8e",
+    "source_simfile": "Happy Now Remastered/Happy Now.sm",
+    "title": "Episode 20",
+    "simfile_sha256": "88dccb258ff2b8a2254c64f461b3ab0dd1d4c78c669d77495e0ec4394a9d94e7",
+    "style": "single",
+    "difficulty": "Difficulty_Edit",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Happy Now Remastered/Happy Now.sm",
+      "previous_archive": "259ab04ad65a6aebe890dbd508623e2bfc2412c759cdf2acc400ece8817618b2.tar.zst",
+      "title": "Happy Now Remastered",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Edit",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 250.2,
+    "song_folder_bytes": 13849870,
+    "worker": "10",
+    "previous_status": "native_crash_handler_hang",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "ee72a53d84d7fc88",
+    "source_simfile": "james/james.ssc",
+    "title": "james",
+    "simfile_sha256": "9c675cd26cc1f0b2c00956c7901ef13957d68ade067469fbfc8abd58dfdecdda",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": null,
+    "estimated_song_seconds": 142.0,
+    "song_folder_bytes": 9162590,
+    "worker": "11",
+    "previous_status": "capture_timeout",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "fbe89f6bae9565a6",
+    "source_simfile": "After Dark/After Dark.ssc",
+    "title": "After Dark",
+    "simfile_sha256": "a47f421b8be490920f6cfd93ed45695c8711b39f76db67387193ddd1d789a1bb",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "After Dark/After Dark.ssc",
+      "previous_archive": "3946d566a891cca39191a517dda06b45f209fcd99db5c4ffd7785e619ced7b7f.tar.zst",
+      "title": "After Dark",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 278.9,
+    "song_folder_bytes": 17545303,
+    "worker": "01",
+    "previous_status": "parity_failure",
+    "run_role": "primary-retry",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "68eda87bf02562c3",
+    "source_simfile": "280-MODS-[MASTER] Sharkmode/Sharkmode.ssc",
+    "title": "280|MODS|[MASTER] Sharkmode",
+    "simfile_sha256": "c14dd67edb5ce1322ed37d8a5f9f72908dc1416a7011642cfcb8eed17215ee71",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "280-MODS-[MASTER] Sharkmode/Sharkmode.ssc",
+      "previous_archive": "abd922102376397cd0ffea134db835d8e4dac178380e144e631f3863a8d86510.tar.zst",
+      "title": "280|MODS|[MASTER] Sharkmode",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 139.4,
+    "song_folder_bytes": 5064594,
+    "worker": "12",
+    "previous_status": "pass",
+    "run_role": "regression-control",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "730650ffb42269d8",
+    "source_simfile": "Sharkmode [Ky_Dash]/Sharkmode.ssc",
+    "title": "Sharkmode",
+    "simfile_sha256": "1e28512dd3481ef7d34e72fbee9f0c252c258544fcc2d267aac2dfb8541edb91",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Sharkmode [Ky_Dash]/Sharkmode.ssc",
+      "previous_archive": "c0e87ceaf1b5d72eab4c21ebea3e99708582eb20a0b1a0385d076fe8820074fb.tar.zst",
+      "title": "Sharkmode",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "single",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 139.4,
+    "song_folder_bytes": 5102098,
+    "worker": "13",
+    "previous_status": "pass",
+    "run_role": "regression-control",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "c893672a26e2b70c",
+    "source_simfile": "Sequential Dreambox - [Zaia]/Sequential Dreambox.ssc",
+    "title": "Sequential Dreambox",
+    "simfile_sha256": "698cb06f326aa77f4e016a462c3eb368b22365d1e28f8d44f870ec933e8813dc",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-double",
+        "Easy"
+      ],
+      [
+        "dance-double",
+        "Medium"
+      ],
+      [
+        "dance-double",
+        "Hard"
+      ],
+      [
+        "dance-double",
+        "Challenge"
+      ],
+      [
+        "pump-single",
+        "Easy"
+      ],
+      [
+        "pump-single",
+        "Medium"
+      ],
+      [
+        "pump-single",
+        "Hard"
+      ],
+      [
+        "pump-single",
+        "Challenge"
+      ],
+      [
+        "pump-double",
+        "Easy"
+      ],
+      [
+        "pump-double",
+        "Medium"
+      ],
+      [
+        "pump-double",
+        "Hard"
+      ],
+      [
+        "pump-double",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Sequential Dreambox - [Zaia]/Sequential Dreambox.ssc",
+      "previous_archive": "5077e6aea0055072fbe8769109d4e9ff540f404f1db36d0f14c40d65518d380d.tar.zst",
+      "title": "Sequential Dreambox",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 331.8,
+    "song_folder_bytes": 33566222,
+    "worker": "01",
+    "previous_status": "pass",
+    "run_role": "regression-control",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "coverage-106fc438f82f1926",
+    "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+    "title": "Kita Saitama 2000",
+    "simfile_sha256": "c5e17e8777a3fe392638dfae654ae7c7649c4312c73e444fd7a777d599de8b60",
+    "style": "versus",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1200,
+    "replay_timeout": 2400,
+    "selection_basis": "Supplemental profile to exercise an authored chart/player guard",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+      "previous_archive": "b2ef051cb9f03c73c2b4631fdd96d444f06afb81cb101c73fbda3a637c936f60.tar.zst",
+      "title": "Kita Saitama 2000",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 120.0,
+    "song_folder_bytes": 2447650,
+    "worker": "02",
+    "primary_id": "106fc438f82f1926",
+    "run_role": "alternate-profile-control",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "bank-versus-control",
+    "source_simfile": "Bank Account/Bank Account.ssc",
+    "title": "Bank Account",
+    "simfile_sha256": "92b09483a60ce1e1a1f6d9c2dcb6b00d4db1382e8c5faaa2a8a087106d1ba7ed",
+    "style": "versus",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "Supplemental native control: unconditional PlayerP2 ActorProxy targets require two joined players.",
+    "available_charts": [
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Bank Account/Bank Account.ssc",
+      "previous_archive": "0211e7ed4192b8c793f8ca9b308da10fd59666ac4c07769ac8e29e21fad42268.tar.zst",
+      "title": "Bank Account",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 90.6,
+    "song_folder_bytes": 3704003,
+    "worker": "03",
+    "primary_id": "001abcd0e01187de",
+    "run_role": "alternate-profile-control",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "velvet-stopped-control",
+    "source_simfile": "Velvet LEFTS 1/chart.ssc",
+    "title": "Turii -Panta Rhei-",
+    "simfile_sha256": "a38146c07ea9483591ae94748621822e163c8ad283e60fe1273048a229f94514",
+    "style": "versus",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "stopped",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Velvet LEFTS 1/chart.ssc",
+      "previous_archive": "ce1da310466ea79a289cb1ddf0cbf2e4994bde69967d6e128d30f8136b45b049.tar.zst",
+      "title": "Velvet LEFTS 1",
+      "previous_execution": "native_gameplay",
+      "difficulty": "Difficulty_Challenge",
+      "style": "versus",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG",
+      "previous_gc_mode": "stopped"
+    },
+    "estimated_song_seconds": 128.1,
+    "song_folder_bytes": 3647788,
+    "worker": "04",
+    "primary_id": "8f4d4741245868cf",
+    "purpose": "Supplemental fresh GC-mode control; excluded from corpus counts.",
+    "run_role": "alternate-profile-control",
+    "stage_memory": "6G"
+  },
+  {
+    "id": "82dbf1390bb50291-fixed60",
+    "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
+    "title": "A Dramatic Irony",
+    "simfile_sha256": "34ac0b352f59c244678cb2151aa6d43450e384091651375ac74da68dbe28415e",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 10000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
+      "previous_archive": "7db9fbbe9b9aaef7a7ff728adff2e573aae7917aa2c1c45cb3bf3676783997c0.tar.zst",
+      "title": "A Dramatic Irony",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 172.4,
+    "song_folder_bytes": 4695811,
+    "worker": "15",
+    "previous_status": "capture_timeout",
+    "run_role": "fixed-update-control",
+    "stage_memory": "50G",
+    "fixed_update_fps": 60
+  },
+  {
+    "id": "beb47e811c5aafd3-fixed60",
+    "source_simfile": "james/james.sm",
+    "title": "james",
+    "simfile_sha256": "90aa95cea1b414042d77e510e78aa77392ffb72cad525a7116df2f17b7b31aaa",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 10000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": null,
+    "estimated_song_seconds": 171.0,
+    "song_folder_bytes": 9162590,
+    "worker": "15",
+    "previous_status": "capture_timeout",
+    "run_role": "fixed-update-control",
+    "stage_memory": "50G",
+    "fixed_update_fps": 60
+  },
+  {
+    "id": "ee72a53d84d7fc88-fixed60",
+    "source_simfile": "james/james.ssc",
+    "title": "james",
+    "simfile_sha256": "9c675cd26cc1f0b2c00956c7901ef13957d68ade067469fbfc8abd58dfdecdda",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 10000000,
+    "capture_timeout": 1800,
+    "replay_timeout": 2400,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": null,
+    "estimated_song_seconds": 142.0,
+    "song_folder_bytes": 9162590,
+    "worker": "15",
+    "previous_status": "capture_timeout",
+    "run_role": "fixed-update-control",
+    "stage_memory": "50G",
+    "fixed_update_fps": 60
+  }
+]

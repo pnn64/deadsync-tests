@@ -1,0 +1,83 @@
+{
+  "checks": [
+    {
+      "suite": "DeadSync gameplay unit tests",
+      "passed": 841,
+      "ignored": 0,
+      "failed": 0
+    },
+    {
+      "suite": "DeadSync simfile library tests",
+      "passed": 234,
+      "ignored": 0,
+      "failed": 0
+    },
+    {
+      "suite": "DeadSync native gameplay replay tests",
+      "passed": 73,
+      "ignored": 0,
+      "failed": 0
+    },
+    {
+      "suite": "DeadSync game_state and live_scene tests",
+      "passed": 38,
+      "ignored": 0,
+      "failed": 0
+    },
+    {
+      "suite": "DeadSync effects tests",
+      "passed": 11,
+      "ignored": 0,
+      "failed": 0
+    },
+    {
+      "suite": "DeadSync profile-gameplay library tests",
+      "passed": 26,
+      "ignored": 0,
+      "failed": 0
+    },
+    {
+      "suite": "DeadSync native manual-player compositor",
+      "passed": 1,
+      "ignored": 0,
+      "failed": 0
+    },
+    {
+      "suite": "RSSP library tests",
+      "passed": 156,
+      "ignored": 23,
+      "failed": 0
+    },
+    {
+      "suite": "Harness unit tests",
+      "passed": 215,
+      "ignored": 3,
+      "failed": 0
+    },
+    {
+      "suite": "Harness actor conformance integration",
+      "passed": 18,
+      "ignored": 0,
+      "failed": 0
+    },
+    {
+      "suite": "Harness chart_baselines integration",
+      "passed": 15,
+      "ignored": 0,
+      "failed": 0
+    },
+    {
+      "suite": "Harness diff_cli integration",
+      "passed": 1,
+      "ignored": 0,
+      "failed": 0
+    },
+    {
+      "suite": "Harness oracle_cli integration",
+      "passed": 23,
+      "ignored": 3,
+      "failed": 0
+    }
+  ],
+  "note": "Targeted DeadSync checks; entire application test suite was not run. Harness full cargo test --locked completed. Initial manual-geometry golden failure was diagnosed as decimal drift, refreshed from native output, and rerun successfully."
+}

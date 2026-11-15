@@ -1,0 +1,13 @@
+{
+  "id": "272cbdbb21a302b2",
+  "original_capture_ip": "192.168.1.36",
+  "original_capture_archive": "/opt/song-lua-audit/pass2-results/272cbdbb21a302b2/candidate/876dedca16d082ab4d21b18db6f77ffb2b6157d5895e099c6663c67538420e0e.tar.zst",
+  "replay_ip": "192.168.1.47",
+  "imported_archive": "/opt/song-lua-audit/pass2-imported-results/272cbdbb21a302b2/candidate/876dedca16d082ab4d21b18db6f77ffb2b6157d5895e099c6663c67538420e0e.tar.zst",
+  "compressed_sha256": "9fb15c43356e8c0cbb0bdad8bf843fd161e655669d75917dab5e17e149854a0e",
+  "bytes": 202425991,
+  "original_replay_memory": "42G",
+  "final_replay_memory": "50G",
+  "native_capture_regenerated": false,
+  "reason": "Retest the same clean fresh native capture with the final runner and the larger budget already used for the SSC variant."
+}

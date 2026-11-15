@@ -1,0 +1,90 @@
+[
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-b-results/feedback-megalovania-v2/accepted/91441f58d8d6e65b010b60bf28509824dddc9f66c06022e591874e1c2b953d9b.tar.zst",
+    "sha256": "91441f58d8d6e65b010b60bf28509824dddc9f66c06022e591874e1c2b953d9b"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-b-results/feedback-megalovania-v2/report.json.zst",
+    "sha256": "e000cbc3b50c27901aaab76fec535cf7268715b2f61cd1537a2839d4d05b0c6b"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-b-results/join-reload/report.json.zst",
+    "sha256": "f01e46908b3a7abc55b10a2c92bb9e0c35d09af466bd5fa24173a9703b54cc48"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-b-results/join-reload/candidate/34772b67fa1a6b5cc62ebae26c19f4dbceebc9cb9f531072de7b399cce6267f5.tar.zst",
+    "sha256": "4ab160ee7fe799b9278e9f8a7ac3a7818f037e513adb93598376f7ae19373d8f"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-b-results/feedback-megalovania/native-diagnostics.tar.zst",
+    "sha256": "6067866447720db281d545699ba0ad927137ff9a0dd2ec22d11170b5a04eed81"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-b-results/feedback-apollo/native-diagnostics.tar.zst",
+    "sha256": "972ff746ff9ae1c9dbd88cd2362aa40962fad34af82de8f02f63cffc48d3083a"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-b-results/feedback-apollo-v2/accepted/ba83486aea0d7e36f446681c94d2c64c78cfaa6993e10bcc80e88739d8cefa82.tar.zst",
+    "sha256": "ba83486aea0d7e36f446681c94d2c64c78cfaa6993e10bcc80e88739d8cefa82"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-b-results/feedback-apollo-v2/report.json.zst",
+    "sha256": "32901d9092319a8a66fccdf1497285ce0df86aac648777f35734a0423af55e97"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-c-results/roll-long-frame/accepted/1a253e2f7fcf8cdb4ee2ab3e8fdea48d69d82e4268cc843c55a7b7f4d0c9abe5.tar.zst",
+    "sha256": "1a253e2f7fcf8cdb4ee2ab3e8fdea48d69d82e4268cc843c55a7b7f4d0c9abe5"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-c-results/roll-long-frame/report.json.zst",
+    "sha256": "56bdde85a065e9f15f6ee03ef34d5b45cc87ae65abb98af50d559f84a846f2de"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-c-results/join-reload-v2/report.json.zst",
+    "sha256": "8853cf67d5174893a477f6d4c52b3a53e3f7cee66423a8b3ec217da66d768083"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-c-results/join-reload-v2/candidate/e79b1586e446186fd74a9ac675bbe05ec771d81e6412be4054bfd7fdda602cf2.tar.zst",
+    "sha256": "32e035296308b918e8deba0e1e7a297ba95dcf99c01dbe3eb8f87c7cf36ce6e1"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-d-results/join-reload-v3/accepted/4660470145a7aca3ab2a7ed54f4d068ed8c929b2066d456dbc1fa9edef70933c.tar.zst",
+    "sha256": "4660470145a7aca3ab2a7ed54f4d068ed8c929b2066d456dbc1fa9edef70933c"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-controls-d-results/join-reload-v3/report.json.zst",
+    "sha256": "200f0bec009e3a25b1aacd9cdf5639c0edb0a81363e265f3d1fce8f975ce1bba"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-final-results/feedback-megalovania-v2/accepted/91441f58d8d6e65b010b60bf28509824dddc9f66c06022e591874e1c2b953d9b.tar.zst",
+    "sha256": "91441f58d8d6e65b010b60bf28509824dddc9f66c06022e591874e1c2b953d9b"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-final-results/feedback-megalovania-v2/report.json.zst",
+    "sha256": "23778917e2ca858a681698e98694d75cbd104756b87c6630cb728c9d7d43d88e"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-final-results/roll-long-frame/accepted/1a253e2f7fcf8cdb4ee2ab3e8fdea48d69d82e4268cc843c55a7b7f4d0c9abe5.tar.zst",
+    "sha256": "1a253e2f7fcf8cdb4ee2ab3e8fdea48d69d82e4268cc843c55a7b7f4d0c9abe5"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-final-results/roll-long-frame/report.json.zst",
+    "sha256": "8492d653ec32dccc355c10d98ed8a79dc6c6fe9712a932e25acfcb9d64a01ca6"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-final-results/feedback-apollo-v2/accepted/ba83486aea0d7e36f446681c94d2c64c78cfaa6993e10bcc80e88739d8cefa82.tar.zst",
+    "sha256": "ba83486aea0d7e36f446681c94d2c64c78cfaa6993e10bcc80e88739d8cefa82"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-final-results/feedback-apollo-v2/report.json.zst",
+    "sha256": "7276af38e3369a69e79a0271805a5a6cd7831e33ad92079352486f5e078a2d82"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-final-results/join-reload-v3/accepted/4660470145a7aca3ab2a7ed54f4d068ed8c929b2066d456dbc1fa9edef70933c.tar.zst",
+    "sha256": "4660470145a7aca3ab2a7ed54f4d068ed8c929b2066d456dbc1fa9edef70933c"
+  },
+  {
+    "path": "/opt/song-lua-audit/pass2-final-results/join-reload-v3/report.json.zst",
+    "sha256": "802da993f0adb2128a1ff25703f0657d75dc2abace589eef284fcd9bf69cf10d"
+  }
+]

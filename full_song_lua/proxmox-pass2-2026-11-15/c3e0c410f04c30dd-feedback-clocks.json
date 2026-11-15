@@ -1,0 +1,2412 @@
+{
+  "input": [
+    {
+      "autoplay": 1,
+      "catalog_preferences": {
+        "global_offset_seconds": -0.00800000037997961,
+        "initialization": "native-catalog-note-time-calculation",
+        "music_rate": 1
+      },
+      "gameplay_preferences": {
+        "column_cue_min_time": 1.5,
+        "default_modifiers": "",
+        "game_mode": "ITG",
+        "initialization": "theme-game-mode",
+        "max_input_latency_seconds": 0,
+        "mod_level": "ModsLevel_Preferred",
+        "music_rate": 1,
+        "players": [
+          {
+            "disabled_timing_windows": [],
+            "fail_setting": "FailType_Immediate",
+            "min_tns_to_hide_notes": "TapNoteScore_W3",
+            "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+            "player": "PlayerNumber_P1",
+            "theme_modifiers": {
+              "ActionOnMissedTarget": "Nothing",
+              "BackgroundFilter": "Darker",
+              "ColumnCues": true,
+              "ComboFont": "Wendy",
+              "DataVisualizations": "Step Statistics",
+              "DisplayScorebox": true,
+              "ErrorBar": "None",
+              "ErrorBarMultiTick": false,
+              "ErrorBarTrim": "Off",
+              "ErrorBarUp": false,
+              "FlashDecent": false,
+              "FlashExcellent": false,
+              "FlashFantastic": false,
+              "FlashGreat": false,
+              "FlashMiss": false,
+              "FlashWayOff": false,
+              "HideCombo": false,
+              "HideComboExplosions": false,
+              "HideDanger": false,
+              "HideEarlyDecentWayOffFlash": false,
+              "HideEarlyDecentWayOffJudgments": false,
+              "HideLifebar": false,
+              "HideLookahead": false,
+              "HideScore": false,
+              "HideSongBG": false,
+              "HideTargets": false,
+              "HoldJudgment": "Love 1x2 (doubleres).png",
+              "JudgmentGraphic": "Love 2x6 (doubleres).png",
+              "JudgmentTilt": false,
+              "LifeMeterType": "Standard",
+              "MeasureCounter": "None",
+              "MeasureCounterLeft": false,
+              "MeasureCounterUp": true,
+              "MeasureLines": "Off",
+              "Mini": "0%",
+              "NPSGraphAtTop": false,
+              "NoteFieldOffsetX": 0,
+              "NoteFieldOffsetY": 0,
+              "Pacemaker": false,
+              "ShowExScore": false,
+              "ShowFaPlusPane": true,
+              "ShowFaPlusWindow": false,
+              "SpeedMod": 250,
+              "SpeedModType": "M",
+              "SubtractiveScoring": false,
+              "TargetScore": 11,
+              "TiltMultiplier": 1,
+              "TimingWindows": [
+                true,
+                true,
+                true,
+                true,
+                true
+              ],
+              "VisualDelay": "0ms"
+            }
+          }
+        ],
+        "timing_window_add": 0.001500000013038516,
+        "timing_window_scale": 1,
+        "timing_windows": {
+          "Attack": 0.13500000536441803,
+          "Checkpoint": 0.1664000004529953,
+          "Hold": 0.3199999928474426,
+          "Mine": 0.07000000029802322,
+          "Roll": 0.3499999940395355,
+          "W1": 0.0215000007301569,
+          "W2": 0.0430000014603138,
+          "W3": 0.10199999809265137,
+          "W4": 0.13500000536441803,
+          "W5": 0.18000000715255737
+        }
+      },
+      "headless_graphics": false,
+      "injected_inputs": false,
+      "lua_gc_mode": "automatic",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+      },
+      "observer_frame_period_seconds": 0.01666666666666667,
+      "preferences": {
+        "constant_update_delta_seconds": 0,
+        "default_sync_offset": "SyncOffset_ITG",
+        "display_aspect_ratio": 1.7777777910232544,
+        "global_offset_seconds": -0.00800000037997961,
+        "last_seen_video_driver": "OpenGL",
+        "visual_delay_seconds": 0
+      },
+      "requested_difficulty": "Challenge",
+      "script": [],
+      "style": "single",
+      "window_visible": false
+    }
+  ],
+  "stage_samples.item": [
+    {
+      "beat": 463.9725341796875,
+      "gameplay_seconds": 130.7611846923828,
+      "phase": "progress",
+      "players": [
+        {
+          "actual": 0,
+          "alive_seconds": 130.7611846923828,
+          "autoplay": 0,
+          "current_max_score": 0,
+          "current_possible": 0,
+          "description": "The easiest file",
+          "difficulty": "Difficulty_Challenge",
+          "failed": false,
+          "life_begin": 0.5,
+          "life_latest": 0.5,
+          "meter": 1,
+          "misses": 0,
+          "player": "PlayerNumber_P1",
+          "possible": 4000,
+          "score": 0,
+          "w1": 0,
+          "w2": 0
+        }
+      ],
+      "scene": 1,
+      "seconds": 124.01013946533203
+    }
+  ],
+  "update_frames.item": [
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.161949
+      },
+      "beat": 462.4930725097656,
+      "delta": 0.018831999972462654,
+      "native_update_frame": 7414,
+      "option_deltas": {
+        "players": [
+          0.018830999732017517,
+          0.018831999972462654
+        ],
+        "song": 0.018831999972462654
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.64027404785156,
+      "sequence": 7414,
+      "wall_seconds": 132.161063
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.17944
+      },
+      "beat": 462.560546875,
+      "delta": 0.0175160001963377,
+      "native_update_frame": 7415,
+      "option_deltas": {
+        "players": [
+          0.017542999237775803,
+          0.01754399947822094
+        ],
+        "song": 0.017542000859975815
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.65714263916016,
+      "sequence": 7415,
+      "wall_seconds": 132.178805
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.195927
+      },
+      "beat": 462.6276550292969,
+      "delta": 0.015576000325381756,
+      "native_update_frame": 7416,
+      "option_deltas": {
+        "players": [
+          0.015548000112175941,
+          0.015545000322163105
+        ],
+        "song": 0.015548000112175941
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.67391967773438,
+      "sequence": 7416,
+      "wall_seconds": 132.194779
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.212582
+      },
+      "beat": 462.695068359375,
+      "delta": 0.016489999368786812,
+      "native_update_frame": 7417,
+      "option_deltas": {
+        "players": [
+          0.016519999131560326,
+          0.0165219996124506
+        ],
+        "song": 0.016520999372005463
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.6907730102539,
+      "sequence": 7417,
+      "wall_seconds": 132.211738
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.22835
+      },
+      "beat": 462.7620849609375,
+      "delta": 0.018567999824881554,
+      "native_update_frame": 7418,
+      "option_deltas": {
+        "players": [
+          0.018556000664830208,
+          0.018567999824881554
+        ],
+        "song": 0.01855500042438507
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.70752716064453,
+      "sequence": 7418,
+      "wall_seconds": 132.227791
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.245751
+      },
+      "beat": 462.8295593261719,
+      "delta": 0.013953999616205692,
+      "native_update_frame": 7419,
+      "option_deltas": {
+        "players": [
+          0.013930000364780426,
+          0.013918000273406506
+        ],
+        "song": 0.013930999673902988
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.72439575195312,
+      "sequence": 7419,
+      "wall_seconds": 132.245169
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.262041
+      },
+      "beat": 462.89697265625,
+      "delta": 0.017072999849915504,
+      "native_update_frame": 7420,
+      "option_deltas": {
+        "players": [
+          0.01707799918949604,
+          0.017077000811696053
+        ],
+        "song": 0.01707799918949604
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.74124908447266,
+      "sequence": 7420,
+      "wall_seconds": 132.261483
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.278813
+      },
+      "beat": 462.9640808105469,
+      "delta": 0.01637900061905384,
+      "native_update_frame": 7421,
+      "option_deltas": {
+        "players": [
+          0.01637900061905384,
+          0.016380000859498978
+        ],
+        "song": 0.01637900061905384
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.75802612304688,
+      "sequence": 7421,
+      "wall_seconds": 132.278268
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.298519
+      },
+      "beat": 463.0313720703125,
+      "delta": 0.01676899939775467,
+      "native_update_frame": 7422,
+      "option_deltas": {
+        "players": [
+          0.01676899939775467,
+          0.016767000779509544
+        ],
+        "song": 0.016767999157309532
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.77484893798828,
+      "sequence": 7422,
+      "wall_seconds": 132.297662
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.31346
+      },
+      "beat": 463.0985107421875,
+      "delta": 0.02041199989616871,
+      "native_update_frame": 7423,
+      "option_deltas": {
+        "players": [
+          0.020430000498890877,
+          0.020433999598026276
+        ],
+        "song": 0.020430000498890877
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.79163360595703,
+      "sequence": 7423,
+      "wall_seconds": 132.312525
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.329071
+      },
+      "beat": 463.16571044921875,
+      "delta": 0.01512799970805645,
+      "native_update_frame": 7424,
+      "option_deltas": {
+        "players": [
+          0.015141000039875507,
+          0.015141000039875507
+        ],
+        "song": 0.015142000280320644
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.80843353271484,
+      "sequence": 7424,
+      "wall_seconds": 132.32853
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.345976
+      },
+      "beat": 463.23284912109375,
+      "delta": 0.014537000097334385,
+      "native_update_frame": 7425,
+      "option_deltas": {
+        "players": [
+          0.014507000334560871,
+          0.01450399961322546
+        ],
+        "song": 0.014507000334560871
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.8252182006836,
+      "sequence": 7425,
+      "wall_seconds": 132.345432
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.362854
+      },
+      "beat": 463.30023193359375,
+      "delta": 0.01796399988234043,
+      "native_update_frame": 7426,
+      "option_deltas": {
+        "players": [
+          0.017962999641895294,
+          0.017962999641895294
+        ],
+        "song": 0.017961999401450157
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.8420639038086,
+      "sequence": 7426,
+      "wall_seconds": 132.362305
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.379881
+      },
+      "beat": 463.36761474609375,
+      "delta": 0.015838999301195145,
+      "native_update_frame": 7427,
+      "option_deltas": {
+        "players": [
+          0.015835000202059746,
+          0.015835000202059746
+        ],
+        "song": 0.015836000442504883
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.8589096069336,
+      "sequence": 7427,
+      "wall_seconds": 132.379285
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.396737
+      },
+      "beat": 463.43475341796875,
+      "delta": 0.0172520000487566,
+      "native_update_frame": 7428,
+      "option_deltas": {
+        "players": [
+          0.017264999449253082,
+          0.017264999449253082
+        ],
+        "song": 0.017264999449253082
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.87569427490234,
+      "sequence": 7428,
+      "wall_seconds": 132.396037
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.414178
+      },
+      "beat": 463.50213623046875,
+      "delta": 0.017799999564886093,
+      "native_update_frame": 7429,
+      "option_deltas": {
+        "players": [
+          0.01780799962580204,
+          0.017810000106692314
+        ],
+        "song": 0.01780799962580204
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.89253997802734,
+      "sequence": 7429,
+      "wall_seconds": 132.413306
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.430019
+      },
+      "beat": 463.56915283203125,
+      "delta": 0.017649000510573387,
+      "native_update_frame": 7430,
+      "option_deltas": {
+        "players": [
+          0.017633000388741493,
+          0.017632000148296356
+        ],
+        "song": 0.017633000388741493
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.90929412841797,
+      "sequence": 7430,
+      "wall_seconds": 132.429483
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.448058
+      },
+      "beat": 463.63665771484375,
+      "delta": 0.014585000462830067,
+      "native_update_frame": 7431,
+      "option_deltas": {
+        "players": [
+          0.014585000462830067,
+          0.014585000462830067
+        ],
+        "song": 0.014585000462830067
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.9261703491211,
+      "sequence": 7431,
+      "wall_seconds": 132.447156
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.46464
+      },
+      "beat": 463.7037658691406,
+      "delta": 0.01981399953365326,
+      "native_update_frame": 7432,
+      "option_deltas": {
+        "players": [
+          0.01983500085771084,
+          0.019836999475955963
+        ],
+        "song": 0.0198340006172657
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.94294738769531,
+      "sequence": 7432,
+      "wall_seconds": 132.463757
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.480808
+      },
+      "beat": 463.7708740234375,
+      "delta": 0.016452999785542488,
+      "native_update_frame": 7433,
+      "option_deltas": {
+        "players": [
+          0.016450000926852226,
+          0.01644900068640709
+        ],
+        "song": 0.016450000926852226
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.95972442626953,
+      "sequence": 7433,
+      "wall_seconds": 132.4802
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.498266
+      },
+      "beat": 463.83819580078125,
+      "delta": 0.014585000462830067,
+      "native_update_frame": 7434,
+      "option_deltas": {
+        "players": [
+          0.014565999619662762,
+          0.014564000070095062
+        ],
+        "song": 0.014566999860107899
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.97655487060547,
+      "sequence": 7434,
+      "wall_seconds": 132.497313
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.5145
+      },
+      "beat": 463.9053039550781,
+      "delta": 0.019395999610424042,
+      "native_update_frame": 7435,
+      "option_deltas": {
+        "players": [
+          0.019411999732255936,
+          0.019415000453591347
+        ],
+        "song": 0.019411999732255936
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 123.99333190917969,
+      "sequence": 7435,
+      "wall_seconds": 132.513683
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.532836
+      },
+      "beat": 463.9725341796875,
+      "delta": 0.014127000235021114,
+      "native_update_frame": 7436,
+      "option_deltas": {
+        "players": [
+          0.014108999632298946,
+          0.014104999601840973
+        ],
+        "song": 0.014108000323176384
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.01013946533203,
+      "sequence": 7436,
+      "wall_seconds": 132.530799
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.549462
+      },
+      "beat": 464.03955078125,
+      "delta": 0.021087000146508217,
+      "native_update_frame": 7437,
+      "option_deltas": {
+        "players": [
+          0.021122999489307404,
+          0.02112700045108795
+        ],
+        "song": 0.021122999489307404
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.02689361572266,
+      "sequence": 7437,
+      "wall_seconds": 132.548888
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.565002
+      },
+      "beat": 464.10693359375,
+      "delta": 0.01388499978929758,
+      "native_update_frame": 7438,
+      "option_deltas": {
+        "players": [
+          0.013849000446498394,
+          0.013845999725162983
+        ],
+        "song": 0.013849999755620956
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.04373931884766,
+      "sequence": 7438,
+      "wall_seconds": 132.564458
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.581356
+      },
+      "beat": 464.174072265625,
+      "delta": 0.015534999780356884,
+      "native_update_frame": 7439,
+      "option_deltas": {
+        "players": [
+          0.015531999990344048,
+          0.015531999990344048
+        ],
+        "song": 0.01553099974989891
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.0605239868164,
+      "sequence": 7439,
+      "wall_seconds": 132.58081
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.598396
+      },
+      "beat": 464.2411804199219,
+      "delta": 0.016311999410390854,
+      "native_update_frame": 7440,
+      "option_deltas": {
+        "players": [
+          0.016315000131726265,
+          0.016316000372171402
+        ],
+        "song": 0.016316000372171402
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.07730102539062,
+      "sequence": 7440,
+      "wall_seconds": 132.597825
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.615111
+      },
+      "beat": 464.3084716796875,
+      "delta": 0.017085000872612,
+      "native_update_frame": 7441,
+      "option_deltas": {
+        "players": [
+          0.017085000872612,
+          0.017084000632166862
+        ],
+        "song": 0.017085000872612
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.09412384033203,
+      "sequence": 7441,
+      "wall_seconds": 132.614541
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.632392
+      },
+      "beat": 464.3755187988281,
+      "delta": 0.016621999442577362,
+      "native_update_frame": 7442,
+      "option_deltas": {
+        "players": [
+          0.016620999202132225,
+          0.016620999202132225
+        ],
+        "song": 0.016620999202132225
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.11088562011719,
+      "sequence": 7442,
+      "wall_seconds": 132.631448
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.648264
+      },
+      "beat": 464.442626953125,
+      "delta": 0.019166000187397003,
+      "native_update_frame": 7443,
+      "option_deltas": {
+        "players": [
+          0.01918799988925457,
+          0.01919100061058998
+        ],
+        "song": 0.01918799988925457
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.1276626586914,
+      "sequence": 7443,
+      "wall_seconds": 132.647735
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.665883
+      },
+      "beat": 464.509765625,
+      "delta": 0.014103000052273273,
+      "native_update_frame": 7444,
+      "option_deltas": {
+        "players": [
+          0.014082999899983406,
+          0.01408000010997057
+        ],
+        "song": 0.014082999899983406
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.14444732666016,
+      "sequence": 7444,
+      "wall_seconds": 132.664999
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.682685
+      },
+      "beat": 464.5768737792969,
+      "delta": 0.019013000652194023,
+      "native_update_frame": 7445,
+      "option_deltas": {
+        "players": [
+          0.019030999392271042,
+          0.01903199963271618
+        ],
+        "song": 0.019029999151825905
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.16122436523438,
+      "sequence": 7445,
+      "wall_seconds": 132.681801
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.699416
+      },
+      "beat": 464.6438903808594,
+      "delta": 0.01682399958372116,
+      "native_update_frame": 7446,
+      "option_deltas": {
+        "players": [
+          0.016821999102830887,
+          0.016821999102830887
+        ],
+        "song": 0.016821999102830887
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.177978515625,
+      "sequence": 7446,
+      "wall_seconds": 132.69857
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.716771
+      },
+      "beat": 464.7110290527344,
+      "delta": 0.01666099950671196,
+      "native_update_frame": 7447,
+      "option_deltas": {
+        "players": [
+          0.016661999747157097,
+          0.016662999987602234
+        ],
+        "song": 0.016662999987602234
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.19476318359375,
+      "sequence": 7447,
+      "wall_seconds": 132.715316
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.733948
+      },
+      "beat": 464.7782287597656,
+      "delta": 0.01731099933385849,
+      "native_update_frame": 7448,
+      "option_deltas": {
+        "players": [
+          0.017317000776529312,
+          0.0173179991543293
+        ],
+        "song": 0.017317000776529312
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.21156311035156,
+      "sequence": 7448,
+      "wall_seconds": 132.733069
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.749672
+      },
+      "beat": 464.845458984375,
+      "delta": 0.0171509999781847,
+      "native_update_frame": 7449,
+      "option_deltas": {
+        "players": [
+          0.017176000401377678,
+          0.01717500016093254
+        ],
+        "song": 0.017176000401377678
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.2283706665039,
+      "sequence": 7449,
+      "wall_seconds": 132.748922
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 132.766641
+      },
+      "beat": 464.912841796875,
+      "delta": 0.015468999743461609,
+      "native_update_frame": 7450,
+      "option_deltas": {
+        "players": [
+          0.015433000400662422,
+          0.015433000400662422
+        ],
+        "song": 0.015433000400662422
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.2452163696289,
+      "sequence": 7450,
+      "wall_seconds": 132.765836
+    },
+    {
+      "beat": 464.9798583984375,
+      "delta": 0.01687600091099739,
+      "native_update_frame": 7451,
+      "option_deltas": {
+        "players": [
+          0.01690400019288063,
+          0.01690400019288063
+        ],
+        "song": 0.016902999952435493
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.26197052001953,
+      "sequence": 7451,
+      "wall_seconds": 132.782129
+    },
+    {
+      "beat": 465.0469970703125,
+      "delta": 0.015348000451922417,
+      "native_update_frame": 7452,
+      "option_deltas": {
+        "players": [
+          0.015405000187456608,
+          0.01540399994701147
+        ],
+        "song": 0.015406000427901745
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.27875518798828,
+      "sequence": 7452,
+      "wall_seconds": 132.798926
+    },
+    {
+      "beat": 465.1144714355469,
+      "delta": 0.017947999760508537,
+      "native_update_frame": 7453,
+      "option_deltas": {
+        "players": [
+          0.017837999388575554,
+          0.017837999388575554
+        ],
+        "song": 0.017837999388575554
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.29562377929688,
+      "sequence": 7453,
+      "wall_seconds": 132.815829
+    },
+    {
+      "beat": 465.18157958984375,
+      "delta": 0.016282999888062477,
+      "native_update_frame": 7454,
+      "option_deltas": {
+        "players": [
+          0.016284000128507614,
+          0.016284000128507614
+        ],
+        "song": 0.016284000128507614
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.3124008178711,
+      "sequence": 7454,
+      "wall_seconds": 132.83252
+    },
+    {
+      "beat": 465.24908447265625,
+      "delta": 0.01474899984896183,
+      "native_update_frame": 7455,
+      "option_deltas": {
+        "players": [
+          0.014744999818503857,
+          0.01474399957805872
+        ],
+        "song": 0.014744999818503857
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.32927703857422,
+      "sequence": 7455,
+      "wall_seconds": 132.849371
+    },
+    {
+      "beat": 465.31439208984375,
+      "delta": 0.016877999529242516,
+      "native_update_frame": 7456,
+      "option_deltas": {
+        "players": [
+          0.016877999529242516,
+          0.016878999769687653
+        ],
+        "song": 0.016877999529242516
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.3456039428711,
+      "sequence": 7456,
+      "wall_seconds": 132.866133
+    },
+    {
+      "beat": 465.31439208984375,
+      "delta": 0.016937000676989555,
+      "native_update_frame": 7457,
+      "option_deltas": {
+        "players": [
+          0.016937000676989555,
+          0.01693600043654442
+        ],
+        "song": 0.016937000676989555
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.3456039428711,
+      "sequence": 7457,
+      "wall_seconds": 132.882918
+    },
+    {
+      "beat": 465.31439208984375,
+      "delta": 0.016736000776290894,
+      "native_update_frame": 7458,
+      "option_deltas": {
+        "players": [
+          0.01673699915409088,
+          0.01673699915409088
+        ],
+        "song": 0.016736000776290894
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.3456039428711,
+      "sequence": 7458,
+      "wall_seconds": 132.899718
+    },
+    {
+      "beat": 465.31439208984375,
+      "delta": 0.01673699915409088,
+      "native_update_frame": 7459,
+      "option_deltas": {
+        "players": [
+          0.01673699915409088,
+          0.01673699915409088
+        ],
+        "song": 0.01673699915409088
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.3456039428711,
+      "sequence": 7459,
+      "wall_seconds": 132.916527
+    },
+    {
+      "beat": 465.31439208984375,
+      "delta": 0.01675800047814846,
+      "native_update_frame": 7460,
+      "option_deltas": {
+        "players": [
+          0.01675800047814846,
+          0.01675800047814846
+        ],
+        "song": 0.016759000718593597
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.3456039428711,
+      "sequence": 7460,
+      "wall_seconds": 132.933307
+    },
+    {
+      "beat": 465.31439208984375,
+      "delta": 0.01672999933362007,
+      "native_update_frame": 7461,
+      "option_deltas": {
+        "players": [
+          0.016728999093174934,
+          0.016728999093174934
+        ],
+        "song": 0.016728000715374947
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.3456039428711,
+      "sequence": 7461,
+      "wall_seconds": 132.950293
+    },
+    {
+      "beat": 465.31439208984375,
+      "delta": 0.017023000866174698,
+      "native_update_frame": 7462,
+      "option_deltas": {
+        "players": [
+          0.017024999484419823,
+          0.017024999484419823
+        ],
+        "song": 0.017024999484419823
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.3456039428711,
+      "sequence": 7462,
+      "wall_seconds": 132.966834
+    },
+    {
+      "beat": 465.31439208984375,
+      "delta": 0.01664300076663494,
+      "native_update_frame": 7463,
+      "option_deltas": {
+        "players": [
+          0.01664000004529953,
+          0.01664000004529953
+        ],
+        "song": 0.01664000004529953
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.3456039428711,
+      "sequence": 7463,
+      "wall_seconds": 132.98371
+    },
+    {
+      "beat": 465.31439208984375,
+      "delta": 0.016721000894904137,
+      "native_update_frame": 7464,
+      "option_deltas": {
+        "players": [
+          0.01672700047492981,
+          0.01672700047492981
+        ],
+        "song": 0.01672700047492981
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.3456039428711,
+      "sequence": 7464,
+      "wall_seconds": 133.000422
+    },
+    {
+      "beat": 465.31439208984375,
+      "delta": 0.016804000362753868,
+      "native_update_frame": 7465,
+      "option_deltas": {
+        "players": [
+          0.01679999940097332,
+          0.016800999641418457
+        ],
+        "song": 0.016800999641418457
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.3456039428711,
+      "sequence": 7465,
+      "wall_seconds": 133.017194
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.034881
+      },
+      "beat": 465.31439208984375,
+      "delta": 0.016676999628543854,
+      "native_update_frame": 7466,
+      "option_deltas": {
+        "players": [
+          0.016675999388098717,
+          0.01667499914765358
+        ],
+        "song": 0.016675999388098717
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.3456039428711,
+      "sequence": 7466,
+      "wall_seconds": 133.033885
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.052785
+      },
+      "beat": 465.38165283203125,
+      "delta": 0.017117999494075775,
+      "native_update_frame": 7467,
+      "option_deltas": {
+        "players": [
+          0.017134999856352806,
+          0.017136000096797943
+        ],
+        "song": 0.017134999856352806
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.36241912841797,
+      "sequence": 7467,
+      "wall_seconds": 133.05199
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.068276
+      },
+      "beat": 465.44879150390625,
+      "delta": 0.01814199984073639,
+      "native_update_frame": 7468,
+      "option_deltas": {
+        "players": [
+          0.01814199984073639,
+          0.018139999359846115
+        ],
+        "song": 0.018140999600291252
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.37920379638672,
+      "sequence": 7468,
+      "wall_seconds": 133.067553
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.086235
+      },
+      "beat": 465.5158386230469,
+      "delta": 0.015203000046312809,
+      "native_update_frame": 7469,
+      "option_deltas": {
+        "players": [
+          0.015201999805867672,
+          0.015203000046312809
+        ],
+        "song": 0.015203000046312809
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.39596557617188,
+      "sequence": 7469,
+      "wall_seconds": 133.084994
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.102996
+      },
+      "beat": 465.5830383300781,
+      "delta": 0.018510999158024788,
+      "native_update_frame": 7470,
+      "option_deltas": {
+        "players": [
+          0.01853100024163723,
+          0.018533000722527504
+        ],
+        "song": 0.018530000001192093
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.41276550292969,
+      "sequence": 7470,
+      "wall_seconds": 133.101768
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.119649
+      },
+      "beat": 465.32470703125,
+      "delta": 0.01677599921822548,
+      "native_update_frame": 7471,
+      "option_deltas": {
+        "players": [
+          0.016777999699115753,
+          0.01677899993956089
+        ],
+        "song": 0.016777999699115753
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.34818267822266,
+      "sequence": 7471,
+      "wall_seconds": 133.11837
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.135467
+      },
+      "beat": 465.3917541503906,
+      "delta": 0.016607999801635742,
+      "native_update_frame": 7472,
+      "option_deltas": {
+        "players": [
+          0.016607999801635742,
+          0.016606999561190605
+        ],
+        "song": 0.016607999801635742
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.36494445800781,
+      "sequence": 7472,
+      "wall_seconds": 133.13472
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.153786
+      },
+      "beat": 465.45904541015625,
+      "delta": 0.015282000415027142,
+      "native_update_frame": 7473,
+      "option_deltas": {
+        "players": [
+          0.015256999991834164,
+          0.015255000442266464
+        ],
+        "song": 0.0152580002322793
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.38176727294922,
+      "sequence": 7473,
+      "wall_seconds": 133.152177
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.170361
+      },
+      "beat": 465.5265197753906,
+      "delta": 0.018875999376177788,
+      "native_update_frame": 7474,
+      "option_deltas": {
+        "players": [
+          0.01892000064253807,
+          0.018922999501228333
+        ],
+        "song": 0.018919000402092934
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.39863586425781,
+      "sequence": 7474,
+      "wall_seconds": 133.169106
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.187034
+      },
+      "beat": 465.59356689453125,
+      "delta": 0.016604000702500343,
+      "native_update_frame": 7475,
+      "option_deltas": {
+        "players": [
+          0.016582999378442764,
+          0.016582999378442764
+        ],
+        "song": 0.016582999378442764
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.41539764404297,
+      "sequence": 7475,
+      "wall_seconds": 133.185804
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.203894
+      },
+      "beat": 465.6607666015625,
+      "delta": 0.016662999987602234,
+      "native_update_frame": 7476,
+      "option_deltas": {
+        "players": [
+          0.01667799986898899,
+          0.016676999628543854
+        ],
+        "song": 0.01667799986898899
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.43219757080078,
+      "sequence": 7476,
+      "wall_seconds": 133.202557
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.220619
+      },
+      "beat": 465.7279968261719,
+      "delta": 0.016837000846862793,
+      "native_update_frame": 7477,
+      "option_deltas": {
+        "players": [
+          0.016857000067830086,
+          0.016857000067830086
+        ],
+        "song": 0.016857000067830086
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.44900512695312,
+      "sequence": 7477,
+      "wall_seconds": 133.219368
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.238556
+      },
+      "beat": 465.79510498046875,
+      "delta": 0.016705000773072243,
+      "native_update_frame": 7478,
+      "option_deltas": {
+        "players": [
+          0.01680300012230873,
+          0.016805000603199005
+        ],
+        "song": 0.01680300012230873
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.46578216552734,
+      "sequence": 7478,
+      "wall_seconds": 133.237129
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.254281
+      },
+      "beat": 465.8622131347656,
+      "delta": 0.01801699958741665,
+      "native_update_frame": 7479,
+      "option_deltas": {
+        "players": [
+          0.017890000715851784,
+          0.01788800023496151
+        ],
+        "song": 0.017890000715851784
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.48255920410156,
+      "sequence": 7479,
+      "wall_seconds": 133.252996
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.270938
+      },
+      "beat": 465.929443359375,
+      "delta": 0.015724999830126762,
+      "native_update_frame": 7480,
+      "option_deltas": {
+        "players": [
+          0.015723999589681625,
+          0.015724999830126762
+        ],
+        "song": 0.01572299934923649
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.4993667602539,
+      "sequence": 7480,
+      "wall_seconds": 133.269688
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.287475
+      },
+      "beat": 465.99664306640625,
+      "delta": 0.016565000638365746,
+      "native_update_frame": 7481,
+      "option_deltas": {
+        "players": [
+          0.016560999676585197,
+          0.016575999557971954
+        ],
+        "song": 0.01656300015747547
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.51616668701172,
+      "sequence": 7481,
+      "wall_seconds": 133.286265
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.306828
+      },
+      "beat": 466.06378173828125,
+      "delta": 0.01667799986898899,
+      "native_update_frame": 7482,
+      "option_deltas": {
+        "players": [
+          0.016676999628543854,
+          0.016661999747157097
+        ],
+        "song": 0.016676999628543854
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.53295135498047,
+      "sequence": 7482,
+      "wall_seconds": 133.305572
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.321424
+      },
+      "beat": 466.13116455078125,
+      "delta": 0.019301999360322952,
+      "native_update_frame": 7483,
+      "option_deltas": {
+        "players": [
+          0.019305000081658363,
+          0.019303999841213226
+        ],
+        "song": 0.019305000081658363
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.54979705810547,
+      "sequence": 7483,
+      "wall_seconds": 133.320188
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.338135
+      },
+      "beat": 466.1982727050781,
+      "delta": 0.014619000256061554,
+      "native_update_frame": 7484,
+      "option_deltas": {
+        "players": [
+          0.01460999995470047,
+          0.014611000195145607
+        ],
+        "song": 0.014608999714255333
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.56657409667969,
+      "sequence": 7484,
+      "wall_seconds": 133.336915
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.355011
+      },
+      "beat": 466.2655944824219,
+      "delta": 0.016665000468492508,
+      "native_update_frame": 7485,
+      "option_deltas": {
+        "players": [
+          0.016673000529408455,
+          0.016673000529408455
+        ],
+        "song": 0.016673000529408455
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.58340454101562,
+      "sequence": 7485,
+      "wall_seconds": 133.353794
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.37183
+      },
+      "beat": 466.33270263671875,
+      "delta": 0.016851000487804413,
+      "native_update_frame": 7486,
+      "option_deltas": {
+        "players": [
+          0.01685200072824955,
+          0.016851000487804413
+        ],
+        "song": 0.01685200072824955
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.60018157958984,
+      "sequence": 7486,
+      "wall_seconds": 133.370579
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.388569
+      },
+      "beat": 466.3998107910156,
+      "delta": 0.016812000423669815,
+      "native_update_frame": 7487,
+      "option_deltas": {
+        "players": [
+          0.016813000664114952,
+          0.01681400090456009
+        ],
+        "song": 0.016813000664114952
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.61695861816406,
+      "sequence": 7487,
+      "wall_seconds": 133.387348
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.405368
+      },
+      "beat": 466.467041015625,
+      "delta": 0.01674400083720684,
+      "native_update_frame": 7488,
+      "option_deltas": {
+        "players": [
+          0.016739999875426292,
+          0.016739999875426292
+        ],
+        "song": 0.016739999875426292
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.6337661743164,
+      "sequence": 7488,
+      "wall_seconds": 133.40413
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.422129
+      },
+      "beat": 466.53424072265625,
+      "delta": 0.016805000603199005,
+      "native_update_frame": 7489,
+      "option_deltas": {
+        "players": [
+          0.01680699922144413,
+          0.016806000843644142
+        ],
+        "song": 0.01680699922144413
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.65056610107422,
+      "sequence": 7489,
+      "wall_seconds": 133.420899
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.437734
+      },
+      "beat": 466.6012878417969,
+      "delta": 0.016773000359535217,
+      "native_update_frame": 7490,
+      "option_deltas": {
+        "players": [
+          0.016770999878644943,
+          0.01677200011909008
+        ],
+        "song": 0.016770999878644943
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.66732788085938,
+      "sequence": 7490,
+      "wall_seconds": 133.43703
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.454504
+      },
+      "beat": 466.6684875488281,
+      "delta": 0.01501299999654293,
+      "native_update_frame": 7491,
+      "option_deltas": {
+        "players": [
+          0.014999999664723873,
+          0.01499900035560131
+        ],
+        "song": 0.014999999664723873
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.68412780761719,
+      "sequence": 7491,
+      "wall_seconds": 133.453838
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.471316
+      },
+      "beat": 466.7355041503906,
+      "delta": 0.016746999695897102,
+      "native_update_frame": 7492,
+      "option_deltas": {
+        "players": [
+          0.01674499921500683,
+          0.01674499921500683
+        ],
+        "song": 0.016745999455451965
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.70088195800781,
+      "sequence": 7492,
+      "wall_seconds": 133.470651
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.488179
+      },
+      "beat": 466.8026428222656,
+      "delta": 0.016806000843644142,
+      "native_update_frame": 7493,
+      "option_deltas": {
+        "players": [
+          0.016801999881863594,
+          0.01679999940097332
+        ],
+        "song": 0.016801999881863594
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.71766662597656,
+      "sequence": 7493,
+      "wall_seconds": 133.487517
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.504821
+      },
+      "beat": 466.8696594238281,
+      "delta": 0.01687699928879738,
+      "native_update_frame": 7494,
+      "option_deltas": {
+        "players": [
+          0.0168830007314682,
+          0.016884999349713326
+        ],
+        "song": 0.0168830007314682
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.73442077636719,
+      "sequence": 7494,
+      "wall_seconds": 133.504139
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.521655
+      },
+      "beat": 466.93695068359375,
+      "delta": 0.01663300022482872,
+      "native_update_frame": 7495,
+      "option_deltas": {
+        "players": [
+          0.01662600040435791,
+          0.016623999923467636
+        ],
+        "song": 0.01662600040435791
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.7512435913086,
+      "sequence": 7495,
+      "wall_seconds": 133.52096
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.538419
+      },
+      "beat": 467.00390625,
+      "delta": 0.016863999888300896,
+      "native_update_frame": 7496,
+      "option_deltas": {
+        "players": [
+          0.01686600036919117,
+          0.01686600036919117
+        ],
+        "song": 0.016865000128746033
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.76798248291016,
+      "sequence": 7496,
+      "wall_seconds": 133.537662
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.555624
+      },
+      "beat": 467.0711975097656,
+      "delta": 0.01677200011909008,
+      "native_update_frame": 7497,
+      "option_deltas": {
+        "players": [
+          0.01676899939775467,
+          0.016769999638199806
+        ],
+        "song": 0.016769999638199806
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.78480529785156,
+      "sequence": 7497,
+      "wall_seconds": 133.554591
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.571982
+      },
+      "beat": 467.138427734375,
+      "delta": 0.017622999846935272,
+      "native_update_frame": 7498,
+      "option_deltas": {
+        "players": [
+          0.01764100044965744,
+          0.017642000690102577
+        ],
+        "song": 0.01764100044965744
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.8016128540039,
+      "sequence": 7498,
+      "wall_seconds": 133.571317
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.588682
+      },
+      "beat": 467.2053527832031,
+      "delta": 0.015925999730825424,
+      "native_update_frame": 7499,
+      "option_deltas": {
+        "players": [
+          0.01590299978852272,
+          0.015901999548077583
+        ],
+        "song": 0.01590299978852272
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.81834411621094,
+      "sequence": 7499,
+      "wall_seconds": 133.588004
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.605532
+      },
+      "beat": 467.27264404296875,
+      "delta": 0.016688000410795212,
+      "native_update_frame": 7500,
+      "option_deltas": {
+        "players": [
+          0.016693999990820885,
+          0.016692999750375748
+        ],
+        "song": 0.016693999990820885
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.83516693115234,
+      "sequence": 7500,
+      "wall_seconds": 133.604868
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.622443
+      },
+      "beat": 467.33978271484375,
+      "delta": 0.01683500036597252,
+      "native_update_frame": 7501,
+      "option_deltas": {
+        "players": [
+          0.016858000308275223,
+          0.016858000308275223
+        ],
+        "song": 0.016858000308275223
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.8519515991211,
+      "sequence": 7501,
+      "wall_seconds": 133.621788
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.639079
+      },
+      "beat": 467.4068908691406,
+      "delta": 0.016938000917434692,
+      "native_update_frame": 7502,
+      "option_deltas": {
+        "players": [
+          0.01691499911248684,
+          0.01691499911248684
+        ],
+        "song": 0.01691499911248684
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.86872863769531,
+      "sequence": 7502,
+      "wall_seconds": 133.638421
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.656215
+      },
+      "beat": 467.4740295410156,
+      "delta": 0.016645999625325203,
+      "native_update_frame": 7503,
+      "option_deltas": {
+        "players": [
+          0.016645999625325203,
+          0.016645999625325203
+        ],
+        "song": 0.016645999625325203
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.88551330566406,
+      "sequence": 7503,
+      "wall_seconds": 133.655415
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.673974
+      },
+      "beat": 467.5414123535156,
+      "delta": 0.017304999753832817,
+      "native_update_frame": 7504,
+      "option_deltas": {
+        "players": [
+          0.01732500083744526,
+          0.01732500083744526
+        ],
+        "song": 0.017324000597000122
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.90235900878906,
+      "sequence": 7504,
+      "wall_seconds": 133.673318
+    },
+    {
+      "arrow_clock_inputs": {
+        "players": [
+          {
+            "tipsy_seconds": 122.621267
+          },
+          []
+        ],
+        "update_seconds": 133.689564
+      },
+      "beat": 467.6084289550781,
+      "delta": 0.017653999850153923,
+      "native_update_frame": 7505,
+      "option_deltas": {
+        "players": [
+          0.017636999487876892,
+          0.017636999487876892
+        ],
+        "song": 0.017636999487876892
+      },
+      "sample_origin": "overlay-probe",
+      "scene": 1,
+      "seconds": 124.91911315917969,
+      "sequence": 7505,
+      "wall_seconds": 133.688896
+    }
+  ]
+}

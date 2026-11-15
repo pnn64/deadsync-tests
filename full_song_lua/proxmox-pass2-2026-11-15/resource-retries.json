@@ -1,0 +1,383 @@
+[
+  {
+    "vmid": 1302,
+    "worker": "02",
+    "ip": "192.168.1.23",
+    "jobs": [
+      {
+        "id": "3f7a546d6574982b-fixed60",
+        "source_simfile": "DS ULTIMATE LUA TEST/DS ULTIMATE LUA TEST.sm",
+        "title": "DS ULTIMATE LUA TEST",
+        "simfile_sha256": "5d0025fc36772e46addedab3ecce8ee2d0c26a7a14301e12021237c86a9b027e",
+        "style": "single",
+        "difficulty": "Challenge",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 6000000,
+        "capture_timeout": 1800,
+        "replay_timeout": 2400,
+        "selection_basis": "source chart discovery",
+        "available_charts": [
+          [
+            "dance-single",
+            "Challenge"
+          ],
+          [
+            "dance-single",
+            "Hard"
+          ],
+          [
+            "dance-double",
+            "Challenge"
+          ]
+        ],
+        "previous_context": null,
+        "estimated_song_seconds": 176.0,
+        "song_folder_bytes": 91125468,
+        "worker": "03",
+        "previous_status": "parity_failure",
+        "run_role": "fixed-update-control",
+        "stage_memory": "26G",
+        "fixed_update_fps": 60
+      },
+      {
+        "id": "02d24424431a0192-memory26",
+        "source_simfile": "mawaru9/mawaru9.sm",
+        "title": "MAWARU SIMULATOR 2016",
+        "simfile_sha256": "0012dd2fa9cef58ae543bd88b3ab84e25d0b390fcea2827c97c3dd1ac7d5a624",
+        "style": "single",
+        "difficulty": "Challenge",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 6000000,
+        "capture_timeout": 1800,
+        "replay_timeout": 2400,
+        "selection_basis": "source chart discovery",
+        "available_charts": [
+          [
+            "dance-single",
+            "Hard"
+          ],
+          [
+            "dance-single",
+            "Edit"
+          ],
+          [
+            "dance-single",
+            "Challenge"
+          ],
+          [
+            "dance-single",
+            "Beginner"
+          ],
+          [
+            "dance-single",
+            "Easy"
+          ],
+          [
+            "dance-single",
+            "Medium"
+          ]
+        ],
+        "previous_context": null,
+        "estimated_song_seconds": 1200,
+        "song_folder_bytes": 45239749,
+        "worker": "05",
+        "previous_status": "parity_failure",
+        "run_role": "memory-budget-retry",
+        "stage_memory": "26G"
+      },
+      {
+        "id": "82dbf1390bb50291-memory26",
+        "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
+        "title": "A Dramatic Irony",
+        "simfile_sha256": "34ac0b352f59c244678cb2151aa6d43450e384091651375ac74da68dbe28415e",
+        "style": "single",
+        "difficulty": "Challenge",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 6000000,
+        "capture_timeout": 1800,
+        "replay_timeout": 2400,
+        "selection_basis": "source chart discovery",
+        "available_charts": [
+          [
+            "dance-single",
+            "Challenge"
+          ]
+        ],
+        "previous_context": {
+          "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
+          "previous_archive": "7db9fbbe9b9aaef7a7ff728adff2e573aae7917aa2c1c45cb3bf3676783997c0.tar.zst",
+          "title": "A Dramatic Irony",
+          "previous_execution": "embedded_bundled_lua"
+        },
+        "estimated_song_seconds": 172.4,
+        "song_folder_bytes": 4695811,
+        "worker": "04",
+        "previous_status": "capture_timeout",
+        "run_role": "memory-budget-retry",
+        "stage_memory": "26G"
+      },
+      {
+        "id": "aa110bbb4b97b8a4-memory26",
+        "source_simfile": "Cloud99 (As Above Mix)/Song.ssc",
+        "title": "Cloud99",
+        "simfile_sha256": "162ebaf65a1a39818e74a10cea6f2e2a49b0af07b2dfce1224de0bd85395a9e5",
+        "style": "single",
+        "difficulty": "Difficulty_Challenge",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 6000000,
+        "capture_timeout": 1800,
+        "replay_timeout": 2400,
+        "selection_basis": "previous indexed native context",
+        "available_charts": [
+          [
+            "dance-single",
+            "Challenge"
+          ],
+          [
+            "dance-single",
+            "Hard"
+          ]
+        ],
+        "previous_context": {
+          "source_simfile": "Cloud99 (As Above Mix)/Song.ssc",
+          "previous_archive": "1bcc1a4ca0385bafaf8cfb255b5e89d8ea2741ec789f893dfc8daeb75cbea4f8.tar.zst",
+          "title": "Cloud99 (As Above Mix)",
+          "previous_execution": "native_gameplay",
+          "difficulty": "Difficulty_Challenge",
+          "style": "single",
+          "steps_type": "StepsType_Dance_Single",
+          "game_mode": "ITG"
+        },
+        "estimated_song_seconds": 196.1,
+        "song_folder_bytes": 4029725,
+        "worker": "09",
+        "previous_status": "parity_failure",
+        "run_role": "memory-budget-retry",
+        "stage_memory": "26G"
+      },
+      {
+        "id": "coverage-106fc438f82f1926-memory26",
+        "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+        "title": "Kita Saitama 2000",
+        "simfile_sha256": "c5e17e8777a3fe392638dfae654ae7c7649c4312c73e444fd7a777d599de8b60",
+        "style": "versus",
+        "difficulty": "Difficulty_Challenge",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 6000000,
+        "capture_timeout": 1800,
+        "replay_timeout": 2400,
+        "selection_basis": "Supplemental profile to exercise an authored chart/player guard",
+        "available_charts": [
+          [
+            "dance-single",
+            "Challenge"
+          ]
+        ],
+        "previous_context": {
+          "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+          "previous_archive": "b2ef051cb9f03c73c2b4631fdd96d444f06afb81cb101c73fbda3a637c936f60.tar.zst",
+          "title": "Kita Saitama 2000",
+          "previous_execution": "native_gameplay",
+          "style": "single",
+          "difficulty": "Difficulty_Challenge",
+          "steps_type": "StepsType_Dance_Single",
+          "game_mode": "ITG"
+        },
+        "estimated_song_seconds": 120.0,
+        "song_folder_bytes": 2447650,
+        "worker": "02",
+        "primary_id": "106fc438f82f1926",
+        "run_role": "memory-budget-retry",
+        "stage_memory": "26G"
+      }
+    ]
+  },
+  {
+    "vmid": 1303,
+    "worker": "03",
+    "ip": "192.168.1.34",
+    "jobs": [
+      {
+        "id": "3ed87baea8fc010d-memory26",
+        "source_simfile": "mawaru8/mawaru8.sm",
+        "title": "MAWARU! SETSUGETSUKA!",
+        "simfile_sha256": "a0e32b54c2762591bb87110e8661cdc1b9e31b6d5d9a287e8500ced93cc5d492",
+        "style": "single",
+        "difficulty": "Difficulty_Challenge",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 6000000,
+        "capture_timeout": 1800,
+        "replay_timeout": 2400,
+        "selection_basis": "previous indexed native context",
+        "available_charts": [
+          [
+            "dance-single",
+            "Beginner"
+          ],
+          [
+            "dance-single",
+            "Easy"
+          ],
+          [
+            "dance-single",
+            "Medium"
+          ],
+          [
+            "dance-single",
+            "Hard"
+          ],
+          [
+            "dance-single",
+            "Challenge"
+          ],
+          [
+            "dance-single",
+            "Edit"
+          ]
+        ],
+        "previous_context": {
+          "source_simfile": "mawaru8/mawaru8.sm",
+          "previous_archive": "ee1cd83a8822f6809cdfedef10871a04a83814aad1f667e03794539dff600942.tar.zst",
+          "title": "MAWARU! SETSUGETSUKA!",
+          "previous_execution": "native_gameplay",
+          "difficulty": "Difficulty_Challenge",
+          "style": "single",
+          "steps_type": "StepsType_Dance_Single",
+          "game_mode": "ITG"
+        },
+        "estimated_song_seconds": 363.5,
+        "song_folder_bytes": 21322756,
+        "worker": "09",
+        "previous_status": "parity_failure",
+        "run_role": "memory-budget-retry",
+        "stage_memory": "26G"
+      },
+      {
+        "id": "898f3b171ed333ed-memory26",
+        "source_simfile": "Quarantine/Quarantine.sm",
+        "title": "Quarantine",
+        "simfile_sha256": "1cc54fe975c64299283b4fadf57edffae8145bfd8688f9e2c2c7f2f02f0eb9ca",
+        "style": "single",
+        "difficulty": "Difficulty_Challenge",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 6000000,
+        "capture_timeout": 1800,
+        "replay_timeout": 2400,
+        "selection_basis": "previous indexed native context",
+        "available_charts": [
+          [
+            "dance-single",
+            "Challenge"
+          ],
+          [
+            "dance-single",
+            "Hard"
+          ],
+          [
+            "dance-single",
+            "Medium"
+          ],
+          [
+            "dance-single",
+            "Easy"
+          ],
+          [
+            "dance-single",
+            "Beginner"
+          ]
+        ],
+        "previous_context": {
+          "source_simfile": "Quarantine/Quarantine.sm",
+          "previous_archive": "020dcc2a97b078b09945a7d8ff3e4bad9a00d20c15f854806a277e46c4afab00.tar.zst",
+          "title": "Quarantine",
+          "previous_execution": "native_gameplay",
+          "difficulty": "Difficulty_Challenge",
+          "style": "single",
+          "steps_type": "StepsType_Dance_Single",
+          "game_mode": "ITG"
+        },
+        "estimated_song_seconds": 237.1,
+        "song_folder_bytes": 15400970,
+        "worker": "02",
+        "previous_status": "parity_failure",
+        "run_role": "memory-budget-retry",
+        "stage_memory": "26G"
+      },
+      {
+        "id": "ade709b3e4efeb3a-memory26",
+        "source_simfile": "Crazy Crazy/Crazy Crazy.ssc",
+        "title": "\u30af\u30ec\u30a4\u30b8\u30fc\u30af\u30ec\u30a4\u30b8\u30fc",
+        "simfile_sha256": "8d66006246b74fce0bc31918eb7fad3f01d5cacdfca03902e9354b88e563af99",
+        "style": "single",
+        "difficulty": "Difficulty_Challenge",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 6000000,
+        "capture_timeout": 1800,
+        "replay_timeout": 2400,
+        "selection_basis": "previous indexed native context",
+        "available_charts": [
+          [
+            "dance-single",
+            "Challenge"
+          ]
+        ],
+        "previous_context": {
+          "source_simfile": "Crazy Crazy/Crazy Crazy.ssc",
+          "previous_archive": "c37d64e24f0d44ebbcc3acc647beeabbefee645976e01f50d8d3622e72a8bce5.tar.zst",
+          "title": "Crazy Crazy",
+          "previous_execution": "native_gameplay",
+          "difficulty": "Difficulty_Challenge",
+          "style": "single",
+          "steps_type": "StepsType_Dance_Single",
+          "game_mode": "ITG"
+        },
+        "estimated_song_seconds": 129.2,
+        "song_folder_bytes": 5153937,
+        "worker": "11",
+        "previous_status": "parity_failure",
+        "run_role": "memory-budget-retry",
+        "stage_memory": "26G"
+      },
+      {
+        "id": "d3aa73c0f2f94a22-memory26",
+        "source_simfile": "99+ [-YOSEFU-]/99+.ssc",
+        "title": "99+",
+        "simfile_sha256": "c7148d546f5017efbf3802b04006da99caea362d13e4a68cd19131f74637d179",
+        "style": "single",
+        "difficulty": "Challenge",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 6000000,
+        "capture_timeout": 1800,
+        "replay_timeout": 2400,
+        "selection_basis": "source chart discovery",
+        "available_charts": [
+          [
+            "dance-single",
+            "Challenge"
+          ]
+        ],
+        "previous_context": {
+          "source_simfile": "99+ [-YOSEFU-]/99+.ssc",
+          "previous_archive": "00f94060905e800369ced918322fe391f65142fdf8e5e1328c9d0b3ff683a124.tar.zst",
+          "title": "99+",
+          "previous_execution": "embedded_bundled_lua"
+        },
+        "estimated_song_seconds": 112.5,
+        "song_folder_bytes": 4064885,
+        "worker": "08",
+        "previous_status": "parity_failure",
+        "run_role": "memory-budget-retry",
+        "stage_memory": "26G"
+      }
+    ]
+  }
+]

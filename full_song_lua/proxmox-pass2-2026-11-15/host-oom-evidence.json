@@ -1,0 +1,7 @@
+{
+  "incident": "VM 1314 lost after native raw trace publication, during capture postprocessing. Completed raw trace verified and resumed with song-lua-analyze; finished workers shut down before recovery.",
+  "kernel_lines": [
+    "Nov 15 21:51:13 x79d8d kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=pvestatd.service,mems_allowed=0,global_oom,task_memcg=/qemu.slice/1314.scope,task=kvm,pid=1164965,uid=0",
+    "Nov 15 21:51:13 x79d8d kernel: Out of memory: Killed process 1164965 (kvm) total-vm:60152180kB, anon-rss:54837436kB, file-rss:912kB, shmem-rss:0kB, UID:0 pgtables:108076kB oom_score_adj:0"
+  ]
+}

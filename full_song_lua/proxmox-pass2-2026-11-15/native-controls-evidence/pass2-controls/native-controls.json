@@ -1,0 +1,201 @@
+[
+  {
+    "name": "observer",
+    "exit": 1,
+    "expected_success": true,
+    "command": [
+      "/opt/song-lua-audit/bin/itgmania-harness-rs",
+      "song-lua-trace",
+      "/opt/song-lua-audit/pass2-controls/observer/song/control.sm",
+      "--itgmania-bin",
+      "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+      "--fallback-theme",
+      "Harness Simply Love",
+      "--headless",
+      "--style",
+      "single",
+      "--until-gameplay-end",
+      "--capture-fps",
+      "60",
+      "--max-events",
+      "100000",
+      "--timeout",
+      "120",
+      "--keep-run-dir",
+      "--out",
+      "/opt/song-lua-audit/pass2-controls/observer/native.json"
+    ],
+    "log": "error: ITGmania song Lua semantic trace failed: native script loading or execution failed: \"Error playing command:/Songs/Harness/Probe/default.lua:5: attempt to index a number value\\n[C]: error()\\n/Themes/itgmania-harness/Scripts/03 SongLuaTrace.lua:496: unknown(actor = (null),arg = (null),actor_id = def-0001,previous = (null),previous_depth = 0,result = (null))\"; retained run directory /opt/song-lua-audit/pass2-controls/observer/tmp/itgmania-harness-rs/song-lua-4374-1794771188366839834-0\n",
+    "script_errors": [
+      "Error playing command:/Songs/Harness/Probe/default.lua:5: attempt to index a number value\n[C]: error()\n/Themes/itgmania-harness/Scripts/03 SongLuaTrace.lua:496: unknown(actor = (null),arg = (null),actor_id = def-0001,previous = (null),previous_depth = 0,result = (null))",
+      "ActorFrameTexture: Cannot have width or height less than 1"
+    ],
+    "completion": {
+      "next_screen": "ScreenEvaluationStage",
+      "reason": "gameplay-exit",
+      "stage_committed": true,
+      "stages_played_after": 1,
+      "stages_played_before": 0
+    },
+    "preferences": {
+      "constant_update_delta_seconds": 0,
+      "default_sync_offset": "SyncOffset_ITG",
+      "display_aspect_ratio": 1.7777777910232544,
+      "global_offset_seconds": -0.00800000037997961,
+      "last_seen_video_driver": "OpenGL",
+      "visual_delay_seconds": 0
+    },
+    "events": [
+      {
+        "actor": "def-0001",
+        "args": [],
+        "beat": 0.005070209503173828,
+        "caller": {
+          "line": 1,
+          "source": "song:/default.lua",
+          "tail_call": false
+        },
+        "command": "OnCommand",
+        "definition_id": "def-0001",
+        "detail": {
+          "native_tween_time_left": 0,
+          "results": [
+            4
+          ]
+        },
+        "kind": "query",
+        "line": 1,
+        "operation": "Actor.getaux",
+        "phase": "callback",
+        "scene": 1,
+        "seconds": -0.8054648637771606,
+        "seq": 7,
+        "source": "song:/default.lua"
+      },
+      {
+        "actor": "player-state:PlayerNumber_P1/options:ModsLevel_Song",
+        "args": [
+          0.5
+        ],
+        "beat": 0.005070209503173828,
+        "caller": {
+          "line": 1,
+          "source": "song:/default.lua",
+          "tail_call": false
+        },
+        "command": "OnCommand",
+        "definition_id": "def-0001",
+        "detail": {
+          "results": [
+            0,
+            1
+          ]
+        },
+        "kind": "modifier",
+        "line": 1,
+        "operation": "PlayerOptions.Boost",
+        "phase": "callback",
+        "scene": 1,
+        "seconds": -0.8054648637771606,
+        "seq": 10,
+        "source": "song:/default.lua"
+      }
+    ]
+  },
+  {
+    "name": "syntax-error",
+    "exit": 1,
+    "expected_success": false,
+    "command": [
+      "/opt/song-lua-audit/bin/itgmania-harness-rs",
+      "song-lua-trace",
+      "/opt/song-lua-audit/pass2-controls/syntax-error/song/control.sm",
+      "--itgmania-bin",
+      "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+      "--fallback-theme",
+      "Harness Simply Love",
+      "--headless",
+      "--style",
+      "single",
+      "--until-gameplay-end",
+      "--capture-fps",
+      "60",
+      "--max-events",
+      "100000",
+      "--timeout",
+      "120",
+      "--keep-run-dir",
+      "--out",
+      "/opt/song-lua-audit/pass2-controls/syntax-error/native.json"
+    ],
+    "log": "error: ITGmania song Lua semantic trace failed: native script loading or execution failed: \"Lua runtime error: /Songs/Harness/Probe/default.lua:2: '<eof>' expected near 'local'\"; retained run directory /opt/song-lua-audit/pass2-controls/syntax-error/tmp/itgmania-harness-rs/song-lua-4376-1794771188369106761-0\n",
+    "script_errors": [
+      "Lua runtime error: /Songs/Harness/Probe/default.lua:2: '<eof>' expected near 'local'",
+      "ActorFrameTexture: Cannot have width or height less than 1"
+    ],
+    "completion": {
+      "next_screen": "ScreenEvaluationStage",
+      "reason": "gameplay-exit",
+      "stage_committed": true,
+      "stages_played_after": 1,
+      "stages_played_before": 0
+    },
+    "preferences": {
+      "constant_update_delta_seconds": 0,
+      "default_sync_offset": "SyncOffset_ITG",
+      "display_aspect_ratio": 1.7777777910232544,
+      "global_offset_seconds": -0.00800000037997961,
+      "last_seen_video_driver": "OpenGL",
+      "visual_delay_seconds": 0
+    },
+    "events": []
+  },
+  {
+    "name": "load-error",
+    "exit": 1,
+    "expected_success": false,
+    "command": [
+      "/opt/song-lua-audit/bin/itgmania-harness-rs",
+      "song-lua-trace",
+      "/opt/song-lua-audit/pass2-controls/load-error/song/control.sm",
+      "--itgmania-bin",
+      "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+      "--fallback-theme",
+      "Harness Simply Love",
+      "--headless",
+      "--style",
+      "single",
+      "--until-gameplay-end",
+      "--capture-fps",
+      "60",
+      "--max-events",
+      "100000",
+      "--timeout",
+      "120",
+      "--keep-run-dir",
+      "--out",
+      "/opt/song-lua-audit/pass2-controls/load-error/native.json"
+    ],
+    "log": "error: ITGmania song Lua semantic trace failed: native script loading or execution failed: \"Lua runtime error: /Songs/Harness/Probe/default.lua:1: pass2 deliberate top-level load error\\n[C]: error()\\n/Songs/Harness/Probe/default.lua:1: main()\"; retained run directory /opt/song-lua-audit/pass2-controls/load-error/tmp/itgmania-harness-rs/song-lua-4375-1794771188368173129-0\n",
+    "script_errors": [
+      "Lua runtime error: /Songs/Harness/Probe/default.lua:1: pass2 deliberate top-level load error\n[C]: error()\n/Songs/Harness/Probe/default.lua:1: main()",
+      "ActorFrameTexture: Cannot have width or height less than 1"
+    ],
+    "completion": {
+      "next_screen": "ScreenEvaluationStage",
+      "reason": "gameplay-exit",
+      "stage_committed": true,
+      "stages_played_after": 1,
+      "stages_played_before": 0
+    },
+    "preferences": {
+      "constant_update_delta_seconds": 0,
+      "default_sync_offset": "SyncOffset_ITG",
+      "display_aspect_ratio": 1.7777777910232544,
+      "global_offset_seconds": -0.00800000037997961,
+      "last_seen_video_driver": "OpenGL",
+      "visual_delay_seconds": 0
+    },
+    "events": []
+  }
+]

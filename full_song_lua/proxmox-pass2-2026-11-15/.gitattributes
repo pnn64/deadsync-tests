@@ -1,0 +1,5 @@
+# Retain raw diagnostic output and the exact scripts used for this audit.
+native-controls-evidence/**/valgrind.log -text -whitespace
+tooling/** -text whitespace=cr-at-eol
+# The archived worker script ends with an extra blank line.
+tooling/worker_pass2.py whitespace=cr-at-eol,-blank-at-eof

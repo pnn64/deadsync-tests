@@ -1,0 +1,10 @@
+{
+  "deadsync": {
+    "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+    "patch_sha256": "9a41d5642a4a7f24b135f28a63f7201c4268da8df74e70ff769085f12adf3c2b"
+  },
+  "harness": {
+    "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+    "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+  }
+}

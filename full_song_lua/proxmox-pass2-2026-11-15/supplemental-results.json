@@ -1,0 +1,3416 @@
+[
+  {
+    "id": "82dbf1390bb50291-fixed60",
+    "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
+    "title": "A Dramatic Irony",
+    "worker": "15",
+    "started_at": "2026-11-15T21:27:45.048176+00:00",
+    "profile": {
+      "id": "82dbf1390bb50291-fixed60",
+      "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
+      "title": "A Dramatic Irony",
+      "simfile_sha256": "34ac0b352f59c244678cb2151aa6d43450e384091651375ac74da68dbe28415e",
+      "style": "single",
+      "difficulty": "Challenge",
+      "gc_mode": "automatic",
+      "capture_fps": 60,
+      "max_events": 10000000,
+      "capture_timeout": 1800,
+      "replay_timeout": 2400,
+      "selection_basis": "source chart discovery",
+      "available_charts": [
+        [
+          "dance-single",
+          "Challenge"
+        ]
+      ],
+      "previous_context": {
+        "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
+        "previous_archive": "7db9fbbe9b9aaef7a7ff728adff2e573aae7917aa2c1c45cb3bf3676783997c0.tar.zst",
+        "title": "A Dramatic Irony",
+        "previous_execution": "embedded_bundled_lua"
+      },
+      "estimated_song_seconds": 172.4,
+      "song_folder_bytes": 4695811,
+      "worker": "15",
+      "previous_status": "capture_timeout",
+      "run_role": "fixed-update-control",
+      "stage_memory": "50G",
+      "fixed_update_fps": 60
+    },
+    "source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "855fd8486bc0d5d917c647794f2e07f68cdb0847efb5c9fd3647f0ff55925101"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "status": "native_lua_error",
+    "stages": {
+      "capture": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-rs",
+          "song-lua-trace",
+          "/opt/song-lua-audit/Songs/A Dramatic Irony/A Dramatic Irony.ssc",
+          "--itgmania-bin",
+          "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+          "--fallback-theme",
+          "Harness Simply Love",
+          "--headless",
+          "--style",
+          "single",
+          "--until-gameplay-end",
+          "--capture-fps",
+          "60",
+          "--max-events",
+          "10000000",
+          "--timeout",
+          "1800",
+          "--out",
+          "/opt/song-lua-audit/pass2-results/82dbf1390bb50291-fixed60/traces/native.json",
+          "--difficulty",
+          "Challenge",
+          "--fixed-update-fps",
+          "60"
+        ],
+        "exit": 1,
+        "elapsed_seconds": 1423.954,
+        "memory_limit": "50G",
+        "timeout_seconds": 1890,
+        "unit": "lua-pass2-82dbf1390bb50291-fixed60-capture",
+        "service_tail": "2026-11-15T21:27:45+00:00 deadsync-lua-pass2-15 systemd[1]: Started lua-pass2-82dbf1390bb50291-fixed60-capture.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-trace \"/opt/song-lua-audit/Songs/A Dramatic Irony/A Dramatic Irony.ssc\" --itgmania-bin /opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --style single --until-gameplay-end --capture-fps 60 --max-events 10000000 --timeout 1800 --out /opt/song-lua-audit/pass2-results/82dbf1390bb50291-fixed60/traces/native.json --difficulty Challenge --fixed-update-fps 60.\n2026-11-15T21:51:28+00:00 deadsync-lua-pass2-15 systemd[1]: lua-pass2-82dbf1390bb50291-fixed60-capture.service: Main process exited, code=exited, status=1/FAILURE\n2026-11-15T21:51:28+00:00 deadsync-lua-pass2-15 systemd[1]: lua-pass2-82dbf1390bb50291-fixed60-capture.service: Failed with result 'exit-code'.\n2026-11-15T21:51:28+00:00 deadsync-lua-pass2-15 systemd[1]: lua-pass2-82dbf1390bb50291-fixed60-capture.service: Consumed 23min 47.114s CPU time, 2.8M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "artifacts": [
+      {
+        "file": "82dbf1390bb50291-fixed60/native-diagnostics.tar.zst",
+        "bytes": 110758720,
+        "sha256": "a9cd6f45a76464ab8ddd741e6f96e8e55fb8748540fa2dbaa3fc7333e91f0ff7",
+        "uncompressed_sha256": "9e785f6eb1f261220a5836131549ac05c7efcb09f286e19586c945dfdedf231c"
+      }
+    ],
+    "reason": "error: ITGmania song Lua semantic trace failed: native script loading or execution failed: {\"message\":\"Tween overflow: \\\"<type 20ScreenGameplayNormal> ScreenGameplay/<type 28ActorFrameAutoDeleteChildren> Underlay/<type 10BitmapText> P1Score\\\"; infinitely recursing ActorCommand?\",\"screen\":\"ScreenGameplay\"}; retained run directory /opt/song-lua-audit/pass2-results/82dbf1390bb50291-fixed60/tmp/itgmania-harness-rs/song-lua-4390-1794778065102700706-0\n",
+    "native_failure": [
+      {
+        "summary": {
+          "capture_limits": {
+            "max_events": 10000000
+          },
+          "completion": {
+            "next_screen": "ScreenEvaluationStage",
+            "reason": "gameplay-exit",
+            "stage_committed": true,
+            "stages_played_after": 1,
+            "stages_played_before": 0
+          },
+          "difficulty": "Difficulty_Challenge",
+          "dropped_drawable_samples": 0,
+          "dropped_events": 40734021,
+          "dropped_host_clock_inputs": 0,
+          "dropped_input_events": 0,
+          "dropped_random_reseeds": 0,
+          "dropped_script_errors": 0,
+          "dropped_stage_samples": 0,
+          "dropped_update_frames": 0,
+          "end_position": {
+            "beat": 323.82135009765625,
+            "seconds": 112.99076843261719
+          },
+          "harness_version": "0.1.98",
+          "input": {
+            "autoplay": 1,
+            "catalog_preferences": {
+              "global_offset_seconds": -0.00800000037997961,
+              "initialization": "native-catalog-note-time-calculation",
+              "music_rate": 1
+            },
+            "gameplay_preferences": {
+              "column_cue_min_time": 1.5,
+              "default_modifiers": "",
+              "game_mode": "ITG",
+              "initialization": "theme-game-mode",
+              "max_input_latency_seconds": 0,
+              "mod_level": "ModsLevel_Preferred",
+              "music_rate": 1,
+              "players": [
+                {
+                  "disabled_timing_windows": [],
+                  "fail_setting": "FailType_Immediate",
+                  "min_tns_to_hide_notes": "TapNoteScore_W3",
+                  "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+                  "player": "PlayerNumber_P1",
+                  "theme_modifiers": {
+                    "ActionOnMissedTarget": "Nothing",
+                    "BackgroundFilter": "Darker",
+                    "ColumnCues": true,
+                    "ComboFont": "Wendy",
+                    "DataVisualizations": "Step Statistics",
+                    "DisplayScorebox": true,
+                    "ErrorBar": "None",
+                    "ErrorBarMultiTick": false,
+                    "ErrorBarTrim": "Off",
+                    "ErrorBarUp": false,
+                    "FlashDecent": false,
+                    "FlashExcellent": false,
+                    "FlashFantastic": false,
+                    "FlashGreat": false,
+                    "FlashMiss": false,
+                    "FlashWayOff": false,
+                    "HideCombo": false,
+                    "HideComboExplosions": false,
+                    "HideDanger": false,
+                    "HideEarlyDecentWayOffFlash": false,
+                    "HideEarlyDecentWayOffJudgments": false,
+                    "HideLifebar": false,
+                    "HideLookahead": false,
+                    "HideScore": false,
+                    "HideSongBG": false,
+                    "HideTargets": false,
+                    "HoldJudgment": "Love 1x2 (doubleres).png",
+                    "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                    "JudgmentTilt": false,
+                    "LifeMeterType": "Standard",
+                    "MeasureCounter": "None",
+                    "MeasureCounterLeft": false,
+                    "MeasureCounterUp": true,
+                    "MeasureLines": "Off",
+                    "Mini": "0%",
+                    "NPSGraphAtTop": false,
+                    "NoteFieldOffsetX": 0,
+                    "NoteFieldOffsetY": 0,
+                    "Pacemaker": false,
+                    "ShowExScore": false,
+                    "ShowFaPlusPane": true,
+                    "ShowFaPlusWindow": false,
+                    "SpeedMod": 250,
+                    "SpeedModType": "M",
+                    "SubtractiveScoring": false,
+                    "TargetScore": 11,
+                    "TiltMultiplier": 1,
+                    "TimingWindows": [
+                      true,
+                      true,
+                      true,
+                      true,
+                      true
+                    ],
+                    "VisualDelay": "0ms"
+                  }
+                }
+              ],
+              "timing_window_add": 0.001500000013038516,
+              "timing_window_scale": 1,
+              "timing_windows": {
+                "Attack": 0.13500000536441803,
+                "Checkpoint": 0.1664000004529953,
+                "Hold": 0.3199999928474426,
+                "Mine": 0.07000000029802322,
+                "Roll": 0.3499999940395355,
+                "W1": 0.0215000007301569,
+                "W2": 0.0430000014603138,
+                "W3": 0.10199999809265137,
+                "W4": 0.13500000536441803,
+                "W5": 0.18000000715255737
+              }
+            },
+            "headless_graphics": false,
+            "injected_inputs": false,
+            "lua_gc_mode": "automatic",
+            "native_source": {
+              "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+              "modified_src": false,
+              "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+              "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+            },
+            "observer_frame_period_seconds": 0.01666666666666667,
+            "preferences": {
+              "constant_update_delta_seconds": 0.01666666753590107,
+              "default_sync_offset": "SyncOffset_ITG",
+              "display_aspect_ratio": 1.7777777910232544,
+              "global_offset_seconds": -0.00800000037997961,
+              "last_seen_video_driver": "OpenGL",
+              "visual_delay_seconds": 0
+            },
+            "requested_difficulty": "Challenge",
+            "script": [],
+            "style": "single",
+            "window_visible": false
+          },
+          "schema_version": 1,
+          "script_errors": [
+            {
+              "message": "Tween overflow: \"<type 20ScreenGameplayNormal> ScreenGameplay/<type 28ActorFrameAutoDeleteChildren> Underlay/<type 10BitmapText> P1Score\"; infinitely recursing ActorCommand?",
+              "screen": "ScreenGameplay"
+            },
+            {
+              "message": "Tween overflow: \"<type 20ScreenGameplayNormal> ScreenGameplay/<type 28ActorFrameAutoDeleteChildren> Underlay/<type 10BitmapText> P1Score\"; infinitely recursing ActorCommand?",
+              "screen": "ScreenGameplay"
+            }
+          ],
+          "steps_type": "StepsType_Dance_Single",
+          "style": "single",
+          "transition_script_errors": [
+            {
+              "message": "ActorFrameTexture: Cannot have width or height less than 1",
+              "screen": "ScreenEvaluationStage"
+            }
+          ]
+        },
+        "errors": []
+      }
+    ],
+    "finished_at": "2026-11-15T21:58:04.434963+00:00",
+    "vmid": 1315,
+    "ip": "192.168.1.48"
+  },
+  {
+    "id": "bank-versus-control",
+    "source_simfile": "Bank Account/Bank Account.ssc",
+    "title": "Bank Account",
+    "worker": "03",
+    "started_at": "2026-11-15T21:27:36.778230+00:00",
+    "profile": {
+      "id": "bank-versus-control",
+      "source_simfile": "Bank Account/Bank Account.ssc",
+      "title": "Bank Account",
+      "simfile_sha256": "92b09483a60ce1e1a1f6d9c2dcb6b00d4db1382e8c5faaa2a8a087106d1ba7ed",
+      "style": "versus",
+      "difficulty": "Challenge",
+      "gc_mode": "automatic",
+      "capture_fps": 60,
+      "max_events": 2000000,
+      "capture_timeout": 900,
+      "replay_timeout": 1200,
+      "selection_basis": "Supplemental native control: unconditional PlayerP2 ActorProxy targets require two joined players.",
+      "available_charts": [
+        [
+          "dance-single",
+          "Hard"
+        ],
+        [
+          "dance-single",
+          "Challenge"
+        ]
+      ],
+      "previous_context": {
+        "source_simfile": "Bank Account/Bank Account.ssc",
+        "previous_archive": "0211e7ed4192b8c793f8ca9b308da10fd59666ac4c07769ac8e29e21fad42268.tar.zst",
+        "title": "Bank Account",
+        "previous_execution": "embedded_bundled_lua"
+      },
+      "estimated_song_seconds": 90.6,
+      "song_folder_bytes": 3704003,
+      "worker": "03",
+      "primary_id": "001abcd0e01187de",
+      "run_role": "alternate-profile-control",
+      "stage_memory": "6G"
+    },
+    "source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "c93832c509c0842837a7fba3667e797351aab570b30794f7bbb0469cfb30b8a0"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "status": "pass",
+    "stages": {
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-final-validation",
+          "--archive",
+          "/opt/song-lua-audit/pass2-final-results/bank-versus-control/7f85624449bdc78c3ba170f7b64a22dd027c6a349eefc458051c9d86340ff12e.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/bank-versus-control/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 13.674,
+        "memory_limit": "26G",
+        "timeout_seconds": 3600,
+        "unit": "lua-pass2-bank-versus-control-final-replay",
+        "service_tail": "2026-11-15T21:27:38+00:00 deadsync-lua-pass2-03 systemd[1]: Started lua-pass2-bank-versus-control-final-replay.service - /opt/song-lua-audit/bin/full_song_lua-final-validation --archive /opt/song-lua-audit/pass2-final-results/bank-versus-control/7f85624449bdc78c3ba170f7b64a22dd027c6a349eefc458051c9d86340ff12e.tar --report /opt/song-lua-audit/pass2-final-results/bank-versus-control/report.json.\n2026-11-15T21:27:51+00:00 deadsync-lua-pass2-03 systemd[1]: lua-pass2-bank-versus-control-final-replay.service: Deactivated successfully.\n2026-11-15T21:27:51+00:00 deadsync-lua-pass2-03 systemd[1]: lua-pass2-bank-versus-control-final-replay.service: Consumed 13.605s CPU time, 1.0M memory peak, 0B memory swap peak.\n"
+      },
+      "pack": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-rs",
+          "song-lua-pack",
+          "/opt/song-lua-audit/pass2-final-results/bank-versus-control/7f85624449bdc78c3ba170f7b64a22dd027c6a349eefc458051c9d86340ff12e.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/bank-versus-control/report.json",
+          "--out",
+          "/opt/song-lua-audit/pass2-final-results/bank-versus-control/accepted"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 7.147,
+        "memory_limit": "26G",
+        "timeout_seconds": 900,
+        "unit": "lua-pass2-bank-versus-control-final-pack",
+        "service_tail": "2026-11-15T21:27:52+00:00 deadsync-lua-pass2-03 systemd[1]: Started lua-pass2-bank-versus-control-final-pack.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-pack /opt/song-lua-audit/pass2-final-results/bank-versus-control/7f85624449bdc78c3ba170f7b64a22dd027c6a349eefc458051c9d86340ff12e.tar --report /opt/song-lua-audit/pass2-final-results/bank-versus-control/report.json --out /opt/song-lua-audit/pass2-final-results/bank-versus-control/accepted.\n2026-11-15T21:27:59+00:00 deadsync-lua-pass2-03 systemd[1]: lua-pass2-bank-versus-control-final-pack.service: Deactivated successfully.\n2026-11-15T21:27:59+00:00 deadsync-lua-pass2-03 systemd[1]: lua-pass2-bank-versus-control-final-pack.service: Consumed 11.515s CPU time, 6.6M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "artifacts": [
+      {
+        "file": "bank-versus-control/accepted/e089a741c376a7860e9a95df996478365238cafb1a55be6b64e9c11b49a72087.tar.zst",
+        "bytes": 112109952,
+        "sha256": "e089a741c376a7860e9a95df996478365238cafb1a55be6b64e9c11b49a72087",
+        "uncompressed_sha256": "7f85624449bdc78c3ba170f7b64a22dd027c6a349eefc458051c9d86340ff12e"
+      },
+      {
+        "file": "bank-versus-control/report.json.zst",
+        "bytes": 244934,
+        "sha256": "af3123e0592f5f92e7e4ca0d47469e2b0ada7933ef7fe9a73ba542227564fc64",
+        "uncompressed_sha256": "4795096ff1eb50777878d0433763232c43744008905f47548d2a7943df8248ff"
+      }
+    ],
+    "native": {
+      "capture_limits": {
+        "max_events": 2000000
+      },
+      "command_observer": {
+        "capture_binary_sha256": "db39e94b0a9f264b85ed8f4aca170e5c1812c74b95d9e236720e212e46e69247",
+        "dynamic_commands": true
+      },
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      },
+      "difficulty": "Difficulty_Challenge",
+      "dropped_drawable_samples": 0,
+      "dropped_events": 0,
+      "dropped_host_clock_inputs": 0,
+      "dropped_input_events": 0,
+      "dropped_random_reseeds": 0,
+      "dropped_script_errors": 0,
+      "dropped_stage_samples": 0,
+      "dropped_update_frames": 0,
+      "end_position": {
+        "beat": 159.26507568359375,
+        "seconds": 90.15805053710938
+      },
+      "harness_version": "0.1.98",
+      "input": {
+        "autoplay": 1,
+        "catalog_preferences": {
+          "global_offset_seconds": -0.00800000037997961,
+          "initialization": "native-catalog-note-time-calculation",
+          "music_rate": 1
+        },
+        "gameplay_preferences": {
+          "column_cue_min_time": 1.5,
+          "default_modifiers": "",
+          "game_mode": "ITG",
+          "initialization": "theme-game-mode",
+          "max_input_latency_seconds": 0,
+          "mod_level": "ModsLevel_Preferred",
+          "music_rate": 1,
+          "players": [
+            {
+              "disabled_timing_windows": [],
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+              "player": "PlayerNumber_P1",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            },
+            {
+              "disabled_timing_windows": [],
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+              "player": "PlayerNumber_P2",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            }
+          ],
+          "timing_window_add": 0.001500000013038516,
+          "timing_window_scale": 1,
+          "timing_windows": {
+            "Attack": 0.13500000536441803,
+            "Checkpoint": 0.1664000004529953,
+            "Hold": 0.3199999928474426,
+            "Mine": 0.07000000029802322,
+            "Roll": 0.3499999940395355,
+            "W1": 0.0215000007301569,
+            "W2": 0.0430000014603138,
+            "W3": 0.10199999809265137,
+            "W4": 0.13500000536441803,
+            "W5": 0.18000000715255737
+          }
+        },
+        "headless_graphics": false,
+        "injected_inputs": false,
+        "lua_gc_mode": "automatic",
+        "native_source": {
+          "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+          "modified_src": false,
+          "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+          "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+        },
+        "observer_frame_period_seconds": 0.01666666666666667,
+        "preferences": {
+          "constant_update_delta_seconds": 0,
+          "default_sync_offset": "SyncOffset_ITG",
+          "display_aspect_ratio": 1.7777777910232544,
+          "global_offset_seconds": -0.00800000037997961,
+          "last_seen_video_driver": "OpenGL",
+          "visual_delay_seconds": 0
+        },
+        "requested_difficulty": "Challenge",
+        "script": [],
+        "style": "versus",
+        "window_visible": false
+      },
+      "schema_version": 1,
+      "script_errors": [],
+      "steps_type": "StepsType_Dance_Single",
+      "style": "versus",
+      "transition_script_errors": [
+        {
+          "message": "ActorFrameTexture: Cannot have width or height less than 1",
+          "screen": "ScreenEvaluationStage"
+        }
+      ]
+    },
+    "candidate_sha256": "7f85624449bdc78c3ba170f7b64a22dd027c6a349eefc458051c9d86340ff12e",
+    "result_directory": "pass2-final-results",
+    "final_memory": "26G",
+    "runner_sha256": "dd967a2dfc08290363ed4073f3af983782ba3504272a528a18a2ca27db5da57a",
+    "native_capture_reused": true,
+    "capture_result_directory": "pass2-results",
+    "capture_source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "855fd8486bc0d5d917c647794f2e07f68cdb0847efb5c9fd3647f0ff55925101"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "capture_archive": {
+      "path": "/opt/song-lua-audit/pass2-results/bank-versus-control/accepted/e089a741c376a7860e9a95df996478365238cafb1a55be6b64e9c11b49a72087.tar.zst",
+      "sha256": "e089a741c376a7860e9a95df996478365238cafb1a55be6b64e9c11b49a72087",
+      "uncompressed_sha256": "7f85624449bdc78c3ba170f7b64a22dd027c6a349eefc458051c9d86340ff12e"
+    },
+    "comparison": {
+      "whole_song_parity_proven": false,
+      "archive_accepted": true,
+      "execution_path": "diagnostic-live-lua",
+      "production_preparation_exercised": false,
+      "production_parity_proven": false,
+      "native_frames": 4582,
+      "replayed_frames": 4582,
+      "compared_stage_fields": 2200,
+      "pending_coverage": [
+        "uncompared song operations: Actor.addx, Actor.addy, Actor.spring, Actor.xy, PlayerOptions.Mini",
+        "native drawable state/resources: ActorProxy",
+        "missing captured subscriber identity for ScreenGameplay/2/10/1",
+        "missing captured subscriber identity for ScreenGameplay/2/14/1",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1"
+      ],
+      "capture_completed_gameplay": true,
+      "acceptance_basis": "full replay of implemented comparisons",
+      "fixture_sha256": "7f85624449bdc78c3ba170f7b64a22dd027c6a349eefc458051c9d86340ff12e",
+      "mismatch_count": 0,
+      "mismatch_fields": {},
+      "first_mismatches": [],
+      "error_count": 0,
+      "errors": []
+    },
+    "finished_at": "2026-11-15T21:28:00.216639+00:00",
+    "ip": "192.168.1.34",
+    "vmid": 1303
+  },
+  {
+    "id": "beb47e811c5aafd3-fixed60",
+    "source_simfile": "james/james.sm",
+    "title": "james",
+    "worker": "15",
+    "started_at": "2026-11-15T21:58:04.436963+00:00",
+    "profile": {
+      "id": "beb47e811c5aafd3-fixed60",
+      "source_simfile": "james/james.sm",
+      "title": "james",
+      "simfile_sha256": "90aa95cea1b414042d77e510e78aa77392ffb72cad525a7116df2f17b7b31aaa",
+      "style": "single",
+      "difficulty": "Challenge",
+      "gc_mode": "automatic",
+      "capture_fps": 60,
+      "max_events": 10000000,
+      "capture_timeout": 1800,
+      "replay_timeout": 2400,
+      "selection_basis": "source chart discovery",
+      "available_charts": [
+        [
+          "dance-single",
+          "Challenge"
+        ]
+      ],
+      "previous_context": null,
+      "estimated_song_seconds": 171.0,
+      "song_folder_bytes": 9162590,
+      "worker": "15",
+      "previous_status": "capture_timeout",
+      "run_role": "fixed-update-control",
+      "stage_memory": "50G",
+      "fixed_update_fps": 60
+    },
+    "source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "855fd8486bc0d5d917c647794f2e07f68cdb0847efb5c9fd3647f0ff55925101"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "status": "native_capture_error",
+    "stages": {
+      "capture": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-rs",
+          "song-lua-trace",
+          "/opt/song-lua-audit/Songs/james/james.sm",
+          "--itgmania-bin",
+          "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+          "--fallback-theme",
+          "Harness Simply Love",
+          "--headless",
+          "--style",
+          "single",
+          "--until-gameplay-end",
+          "--capture-fps",
+          "60",
+          "--max-events",
+          "10000000",
+          "--timeout",
+          "1800",
+          "--out",
+          "/opt/song-lua-audit/pass2-results/beb47e811c5aafd3-fixed60/traces/native.json",
+          "--difficulty",
+          "Challenge",
+          "--fixed-update-fps",
+          "60"
+        ],
+        "exit": 1,
+        "elapsed_seconds": 1602.504,
+        "memory_limit": "50G",
+        "timeout_seconds": 1890,
+        "unit": "lua-pass2-beb47e811c5aafd3-fixed60-capture",
+        "service_tail": "2026-11-15T21:58:04+00:00 deadsync-lua-pass2-15 systemd[1]: Started lua-pass2-beb47e811c5aafd3-fixed60-capture.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-trace /opt/song-lua-audit/Songs/james/james.sm --itgmania-bin /opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --style single --until-gameplay-end --capture-fps 60 --max-events 10000000 --timeout 1800 --out /opt/song-lua-audit/pass2-results/beb47e811c5aafd3-fixed60/traces/native.json --difficulty Challenge --fixed-update-fps 60.\n2026-11-15T22:24:46+00:00 deadsync-lua-pass2-15 systemd[1]: lua-pass2-beb47e811c5aafd3-fixed60-capture.service: Main process exited, code=exited, status=1/FAILURE\n2026-11-15T22:24:46+00:00 deadsync-lua-pass2-15 systemd[1]: lua-pass2-beb47e811c5aafd3-fixed60-capture.service: Failed with result 'exit-code'.\n2026-11-15T22:24:46+00:00 deadsync-lua-pass2-15 systemd[1]: lua-pass2-beb47e811c5aafd3-fixed60-capture.service: Consumed 26min 47.790s CPU time, 1.8M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "artifacts": [
+      {
+        "file": "beb47e811c5aafd3-fixed60/native-diagnostics.tar.zst",
+        "bytes": 215080927,
+        "sha256": "ad3a3e370807f9ea77c0f5180cd383a87bdc8f89c3be8f2aba54092e1a8dc800",
+        "uncompressed_sha256": "499e254b2298123b03394b582a5135ac935e543f6074d24ca2d28c0cc384e883"
+      }
+    ],
+    "reason": "error: ITGmania song Lua semantic trace failed: native gameplay capture contains errors or dropped observations; retained run directory /opt/song-lua-audit/pass2-results/beb47e811c5aafd3-fixed60/tmp/itgmania-harness-rs/song-lua-5354-1794779884501127440-0\n",
+    "native_failure": [
+      {
+        "summary": {
+          "capture_limits": {
+            "max_events": 10000000
+          },
+          "completion": {
+            "next_screen": "ScreenEvaluationStage",
+            "reason": "gameplay-exit",
+            "stage_committed": true,
+            "stages_played_after": 1,
+            "stages_played_before": 0
+          },
+          "difficulty": "Difficulty_Challenge",
+          "dropped_drawable_samples": 0,
+          "dropped_events": 40761000,
+          "dropped_host_clock_inputs": 0,
+          "dropped_input_events": 0,
+          "dropped_random_reseeds": 0,
+          "dropped_script_errors": 0,
+          "dropped_stage_samples": 0,
+          "dropped_update_frames": 0,
+          "end_position": {
+            "beat": 436.30462646484375,
+            "seconds": 150.8836212158203
+          },
+          "harness_version": "0.1.98",
+          "input": {
+            "autoplay": 1,
+            "catalog_preferences": {
+              "global_offset_seconds": -0.00800000037997961,
+              "initialization": "native-catalog-note-time-calculation",
+              "music_rate": 1
+            },
+            "gameplay_preferences": {
+              "column_cue_min_time": 1.5,
+              "default_modifiers": "",
+              "game_mode": "ITG",
+              "initialization": "theme-game-mode",
+              "max_input_latency_seconds": 0,
+              "mod_level": "ModsLevel_Preferred",
+              "music_rate": 1,
+              "players": [
+                {
+                  "disabled_timing_windows": [],
+                  "fail_setting": "FailType_Immediate",
+                  "min_tns_to_hide_notes": "TapNoteScore_W3",
+                  "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+                  "player": "PlayerNumber_P1",
+                  "theme_modifiers": {
+                    "ActionOnMissedTarget": "Nothing",
+                    "BackgroundFilter": "Darker",
+                    "ColumnCues": true,
+                    "ComboFont": "Wendy",
+                    "DataVisualizations": "Step Statistics",
+                    "DisplayScorebox": true,
+                    "ErrorBar": "None",
+                    "ErrorBarMultiTick": false,
+                    "ErrorBarTrim": "Off",
+                    "ErrorBarUp": false,
+                    "FlashDecent": false,
+                    "FlashExcellent": false,
+                    "FlashFantastic": false,
+                    "FlashGreat": false,
+                    "FlashMiss": false,
+                    "FlashWayOff": false,
+                    "HideCombo": false,
+                    "HideComboExplosions": false,
+                    "HideDanger": false,
+                    "HideEarlyDecentWayOffFlash": false,
+                    "HideEarlyDecentWayOffJudgments": false,
+                    "HideLifebar": false,
+                    "HideLookahead": false,
+                    "HideScore": false,
+                    "HideSongBG": false,
+                    "HideTargets": false,
+                    "HoldJudgment": "Love 1x2 (doubleres).png",
+                    "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                    "JudgmentTilt": false,
+                    "LifeMeterType": "Standard",
+                    "MeasureCounter": "None",
+                    "MeasureCounterLeft": false,
+                    "MeasureCounterUp": true,
+                    "MeasureLines": "Off",
+                    "Mini": "0%",
+                    "NPSGraphAtTop": false,
+                    "NoteFieldOffsetX": 0,
+                    "NoteFieldOffsetY": 0,
+                    "Pacemaker": false,
+                    "ShowExScore": false,
+                    "ShowFaPlusPane": true,
+                    "ShowFaPlusWindow": false,
+                    "SpeedMod": 250,
+                    "SpeedModType": "M",
+                    "SubtractiveScoring": false,
+                    "TargetScore": 11,
+                    "TiltMultiplier": 1,
+                    "TimingWindows": [
+                      true,
+                      true,
+                      true,
+                      true,
+                      true
+                    ],
+                    "VisualDelay": "0ms"
+                  }
+                }
+              ],
+              "timing_window_add": 0.001500000013038516,
+              "timing_window_scale": 1,
+              "timing_windows": {
+                "Attack": 0.13500000536441803,
+                "Checkpoint": 0.1664000004529953,
+                "Hold": 0.3199999928474426,
+                "Mine": 0.07000000029802322,
+                "Roll": 0.3499999940395355,
+                "W1": 0.0215000007301569,
+                "W2": 0.0430000014603138,
+                "W3": 0.10199999809265137,
+                "W4": 0.13500000536441803,
+                "W5": 0.18000000715255737
+              }
+            },
+            "headless_graphics": false,
+            "injected_inputs": false,
+            "lua_gc_mode": "automatic",
+            "native_source": {
+              "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+              "modified_src": false,
+              "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+              "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+            },
+            "observer_frame_period_seconds": 0.01666666666666667,
+            "preferences": {
+              "constant_update_delta_seconds": 0.01666666753590107,
+              "default_sync_offset": "SyncOffset_ITG",
+              "display_aspect_ratio": 1.7777777910232544,
+              "global_offset_seconds": -0.00800000037997961,
+              "last_seen_video_driver": "OpenGL",
+              "visual_delay_seconds": 0
+            },
+            "requested_difficulty": "Challenge",
+            "script": [],
+            "style": "single",
+            "window_visible": false
+          },
+          "schema_version": 1,
+          "script_errors": [],
+          "steps_type": "StepsType_Dance_Single",
+          "style": "single",
+          "transition_script_errors": [
+            {
+              "message": "ActorFrameTexture: Cannot have width or height less than 1",
+              "screen": "ScreenEvaluationStage"
+            }
+          ]
+        },
+        "errors": []
+      }
+    ],
+    "finished_at": "2026-11-15T22:31:40.888181+00:00",
+    "vmid": 1315,
+    "ip": "192.168.1.48"
+  },
+  {
+    "id": "coverage-106fc438f82f1926-memory26",
+    "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+    "title": "Kita Saitama 2000",
+    "worker": "memory26",
+    "started_at": "2026-11-15T22:09:19.738688+00:00",
+    "profile": {
+      "id": "coverage-106fc438f82f1926-memory26",
+      "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+      "title": "Kita Saitama 2000",
+      "simfile_sha256": "c5e17e8777a3fe392638dfae654ae7c7649c4312c73e444fd7a777d599de8b60",
+      "style": "versus",
+      "difficulty": "Difficulty_Challenge",
+      "gc_mode": "automatic",
+      "capture_fps": 60,
+      "max_events": 6000000,
+      "capture_timeout": 1800,
+      "replay_timeout": 2400,
+      "selection_basis": "Supplemental profile to exercise an authored chart/player guard",
+      "available_charts": [
+        [
+          "dance-single",
+          "Challenge"
+        ]
+      ],
+      "previous_context": {
+        "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+        "previous_archive": "b2ef051cb9f03c73c2b4631fdd96d444f06afb81cb101c73fbda3a637c936f60.tar.zst",
+        "title": "Kita Saitama 2000",
+        "previous_execution": "native_gameplay",
+        "style": "single",
+        "difficulty": "Difficulty_Challenge",
+        "steps_type": "StepsType_Dance_Single",
+        "game_mode": "ITG"
+      },
+      "estimated_song_seconds": 120.0,
+      "song_folder_bytes": 2447650,
+      "worker": "02",
+      "primary_id": "106fc438f82f1926",
+      "run_role": "memory-budget-retry",
+      "stage_memory": "26G"
+    },
+    "source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "c93832c509c0842837a7fba3667e797351aab570b30794f7bbb0469cfb30b8a0"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "status": "pass",
+    "stages": {
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-final-validation",
+          "--archive",
+          "/opt/song-lua-audit/pass2-final-results/coverage-106fc438f82f1926-memory26/722b257e0292d91220535bea35373d34e2cd6e12394d09c6439276e1e620d2d9.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/coverage-106fc438f82f1926-memory26/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 97.386,
+        "memory_limit": "26G",
+        "timeout_seconds": 3600,
+        "unit": "lua-pass2-coverage-106fc438f82f1926-memory26-final-replay",
+        "service_tail": "2026-11-15T22:09:27+00:00 deadsync-lua-pass2-02 systemd[1]: Started lua-pass2-coverage-106fc438f82f1926-memory26-final-replay.service - /opt/song-lua-audit/bin/full_song_lua-final-validation --archive /opt/song-lua-audit/pass2-final-results/coverage-106fc438f82f1926-memory26/722b257e0292d91220535bea35373d34e2cd6e12394d09c6439276e1e620d2d9.tar --report /opt/song-lua-audit/pass2-final-results/coverage-106fc438f82f1926-memory26/report.json.\n2026-11-15T22:11:04+00:00 deadsync-lua-pass2-02 systemd[1]: lua-pass2-coverage-106fc438f82f1926-memory26-final-replay.service: Deactivated successfully.\n2026-11-15T22:11:04+00:00 deadsync-lua-pass2-02 systemd[1]: lua-pass2-coverage-106fc438f82f1926-memory26-final-replay.service: Consumed 1min 37.009s CPU time, 980.0K memory peak, 0B memory swap peak.\n"
+      },
+      "pack": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-rs",
+          "song-lua-pack",
+          "/opt/song-lua-audit/pass2-final-results/coverage-106fc438f82f1926-memory26/722b257e0292d91220535bea35373d34e2cd6e12394d09c6439276e1e620d2d9.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/coverage-106fc438f82f1926-memory26/report.json",
+          "--out",
+          "/opt/song-lua-audit/pass2-final-results/coverage-106fc438f82f1926-memory26/accepted"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 21.136,
+        "memory_limit": "26G",
+        "timeout_seconds": 900,
+        "unit": "lua-pass2-coverage-106fc438f82f1926-memory26-final-pack",
+        "service_tail": "2026-11-15T22:11:05+00:00 deadsync-lua-pass2-02 systemd[1]: Started lua-pass2-coverage-106fc438f82f1926-memory26-final-pack.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-pack /opt/song-lua-audit/pass2-final-results/coverage-106fc438f82f1926-memory26/722b257e0292d91220535bea35373d34e2cd6e12394d09c6439276e1e620d2d9.tar --report /opt/song-lua-audit/pass2-final-results/coverage-106fc438f82f1926-memory26/report.json --out /opt/song-lua-audit/pass2-final-results/coverage-106fc438f82f1926-memory26/accepted.\n2026-11-15T22:11:26+00:00 deadsync-lua-pass2-02 systemd[1]: lua-pass2-coverage-106fc438f82f1926-memory26-final-pack.service: Deactivated successfully.\n2026-11-15T22:11:26+00:00 deadsync-lua-pass2-02 systemd[1]: lua-pass2-coverage-106fc438f82f1926-memory26-final-pack.service: Consumed 32.985s CPU time, 7.0M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "artifacts": [
+      {
+        "file": "coverage-106fc438f82f1926-memory26/accepted/36c2fcd6bd4bb09c45daf4e56ab852b9514a7758c024bdece1b7b47ebe72f7a4.tar.zst",
+        "bytes": 115333554,
+        "sha256": "36c2fcd6bd4bb09c45daf4e56ab852b9514a7758c024bdece1b7b47ebe72f7a4",
+        "uncompressed_sha256": "722b257e0292d91220535bea35373d34e2cd6e12394d09c6439276e1e620d2d9"
+      },
+      {
+        "file": "coverage-106fc438f82f1926-memory26/report.json.zst",
+        "bytes": 718031,
+        "sha256": "ea2db649103f81ca377bc4d83809039f7ac7e55a3eca9396d476815daced9a25",
+        "uncompressed_sha256": "6b92b46b00d81518ea57771e88fa405edc3bddce82b9388f49f8c9ffcca81f40"
+      }
+    ],
+    "native": {
+      "capture_limits": {
+        "max_events": 6000000
+      },
+      "command_observer": {
+        "capture_binary_sha256": "db39e94b0a9f264b85ed8f4aca170e5c1812c74b95d9e236720e212e46e69247",
+        "dynamic_commands": true
+      },
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      },
+      "difficulty": "Difficulty_Challenge",
+      "dropped_drawable_samples": 0,
+      "dropped_events": 0,
+      "dropped_host_clock_inputs": 0,
+      "dropped_input_events": 0,
+      "dropped_random_reseeds": 0,
+      "dropped_script_errors": 0,
+      "dropped_stage_samples": 0,
+      "dropped_update_frames": 0,
+      "end_position": {
+        "beat": 447.343994140625,
+        "seconds": 120.9267807006836
+      },
+      "harness_version": "0.1.98",
+      "input": {
+        "autoplay": 1,
+        "catalog_preferences": {
+          "global_offset_seconds": -0.00800000037997961,
+          "initialization": "native-catalog-note-time-calculation",
+          "music_rate": 1
+        },
+        "gameplay_preferences": {
+          "column_cue_min_time": 1.5,
+          "default_modifiers": "",
+          "game_mode": "ITG",
+          "initialization": "theme-game-mode",
+          "max_input_latency_seconds": 0,
+          "mod_level": "ModsLevel_Preferred",
+          "music_rate": 1,
+          "players": [
+            {
+              "disabled_timing_windows": [],
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+              "player": "PlayerNumber_P1",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            },
+            {
+              "disabled_timing_windows": [],
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+              "player": "PlayerNumber_P2",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            }
+          ],
+          "timing_window_add": 0.001500000013038516,
+          "timing_window_scale": 1,
+          "timing_windows": {
+            "Attack": 0.13500000536441803,
+            "Checkpoint": 0.1664000004529953,
+            "Hold": 0.3199999928474426,
+            "Mine": 0.07000000029802322,
+            "Roll": 0.3499999940395355,
+            "W1": 0.0215000007301569,
+            "W2": 0.0430000014603138,
+            "W3": 0.10199999809265137,
+            "W4": 0.13500000536441803,
+            "W5": 0.18000000715255737
+          }
+        },
+        "headless_graphics": false,
+        "injected_inputs": false,
+        "lua_gc_mode": "automatic",
+        "native_source": {
+          "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+          "modified_src": false,
+          "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+          "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+        },
+        "observer_frame_period_seconds": 0.01666666666666667,
+        "preferences": {
+          "constant_update_delta_seconds": 0,
+          "default_sync_offset": "SyncOffset_ITG",
+          "display_aspect_ratio": 1.7777777910232544,
+          "global_offset_seconds": -0.00800000037997961,
+          "last_seen_video_driver": "OpenGL",
+          "visual_delay_seconds": 0
+        },
+        "requested_difficulty": "Challenge",
+        "script": [],
+        "style": "versus",
+        "window_visible": false
+      },
+      "schema_version": 1,
+      "script_errors": [],
+      "steps_type": "StepsType_Dance_Single",
+      "style": "versus",
+      "transition_script_errors": [
+        {
+          "message": "ActorFrameTexture: Cannot have width or height less than 1",
+          "screen": "ScreenEvaluationStage"
+        }
+      ]
+    },
+    "candidate_sha256": "722b257e0292d91220535bea35373d34e2cd6e12394d09c6439276e1e620d2d9",
+    "result_directory": "pass2-final-results",
+    "final_memory": "26G",
+    "runner_sha256": "dd967a2dfc08290363ed4073f3af983782ba3504272a528a18a2ca27db5da57a",
+    "native_capture_reused": true,
+    "capture_result_directory": "pass2-resource-results",
+    "capture_source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "855fd8486bc0d5d917c647794f2e07f68cdb0847efb5c9fd3647f0ff55925101"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "capture_archive": {
+      "path": "/opt/song-lua-audit/pass2-resource-results/coverage-106fc438f82f1926-memory26/accepted/36c2fcd6bd4bb09c45daf4e56ab852b9514a7758c024bdece1b7b47ebe72f7a4.tar.zst",
+      "sha256": "36c2fcd6bd4bb09c45daf4e56ab852b9514a7758c024bdece1b7b47ebe72f7a4",
+      "uncompressed_sha256": "722b257e0292d91220535bea35373d34e2cd6e12394d09c6439276e1e620d2d9"
+    },
+    "comparison": {
+      "whole_song_parity_proven": false,
+      "archive_accepted": true,
+      "execution_path": "diagnostic-live-lua",
+      "production_preparation_exercised": false,
+      "production_parity_proven": false,
+      "native_frames": 4783,
+      "replayed_frames": 4783,
+      "compared_stage_fields": 4180,
+      "pending_coverage": [
+        "uncompared song operations: Actor.Draw, Actor.GetX, Actor.GetY, Actor.SetHeight, Actor.SetWidth, Actor.accelerate, Actor.addx, Actor.finishtweening, Actor.rotationx, Actor.rotationy, Actor.skewx, Actor.stopeffect, Actor.zoomy, ActorFrame.GetChildren, ActorFrameTexture.Create, ActorFrameTexture.EnableAlphaBuffer, ActorFrameTexture.GetTexture, ActorFrameTexture.SetTextureName, GameState.GetCurMusicSeconds, Sprite.SetTexture",
+        "native drawable state/resources: ActorFrameTexture, ActorProxy, Quad, Sprite",
+        "missing captured subscriber identity for ScreenGameplay/2/10/1",
+        "missing captured subscriber identity for ScreenGameplay/2/14/1",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1"
+      ],
+      "capture_completed_gameplay": true,
+      "acceptance_basis": "full replay of implemented comparisons",
+      "fixture_sha256": "722b257e0292d91220535bea35373d34e2cd6e12394d09c6439276e1e620d2d9",
+      "mismatch_count": 0,
+      "mismatch_fields": {},
+      "first_mismatches": [],
+      "error_count": 0,
+      "errors": []
+    },
+    "finished_at": "2026-11-15T22:11:27.855616+00:00",
+    "ip": "192.168.1.23",
+    "vmid": 1302
+  },
+  {
+    "id": "ee72a53d84d7fc88-fixed60",
+    "source_simfile": "james/james.ssc",
+    "title": "james",
+    "worker": "02-followup-heavy",
+    "started_at": "2026-11-15T22:24:05.594278+00:00",
+    "profile": {
+      "id": "ee72a53d84d7fc88-fixed60",
+      "source_simfile": "james/james.ssc",
+      "title": "james",
+      "simfile_sha256": "9c675cd26cc1f0b2c00956c7901ef13957d68ade067469fbfc8abd58dfdecdda",
+      "style": "single",
+      "difficulty": "Challenge",
+      "gc_mode": "automatic",
+      "capture_fps": 60,
+      "max_events": 10000000,
+      "capture_timeout": 1800,
+      "replay_timeout": 2400,
+      "selection_basis": "source chart discovery",
+      "available_charts": [
+        [
+          "dance-single",
+          "Challenge"
+        ]
+      ],
+      "previous_context": null,
+      "estimated_song_seconds": 142.0,
+      "song_folder_bytes": 9162590,
+      "worker": "02-followup-heavy",
+      "previous_status": "capture_timeout",
+      "run_role": "fixed-update-control",
+      "stage_memory": "26G",
+      "fixed_update_fps": 60,
+      "original_worker": "15"
+    },
+    "source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "855fd8486bc0d5d917c647794f2e07f68cdb0847efb5c9fd3647f0ff55925101"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "status": "capture_resource_limit",
+    "stages": {
+      "capture": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-rs",
+          "song-lua-trace",
+          "/opt/song-lua-audit/Songs/james/james.ssc",
+          "--itgmania-bin",
+          "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+          "--fallback-theme",
+          "Harness Simply Love",
+          "--headless",
+          "--style",
+          "single",
+          "--until-gameplay-end",
+          "--capture-fps",
+          "60",
+          "--max-events",
+          "10000000",
+          "--timeout",
+          "1800",
+          "--out",
+          "/opt/song-lua-audit/pass2-results/ee72a53d84d7fc88-fixed60/traces/native.json",
+          "--difficulty",
+          "Challenge",
+          "--fixed-update-fps",
+          "60"
+        ],
+        "exit": 1,
+        "elapsed_seconds": 1465.194,
+        "memory_limit": "26G",
+        "timeout_seconds": 1890,
+        "unit": "lua-pass2-ee72a53d84d7fc88-fixed60-capture",
+        "service_tail": "2026-11-15T22:24:05+00:00 deadsync-lua-pass2-02 systemd[1]: Started lua-pass2-ee72a53d84d7fc88-fixed60-capture.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-trace /opt/song-lua-audit/Songs/james/james.ssc --itgmania-bin /opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --style single --until-gameplay-end --capture-fps 60 --max-events 10000000 --timeout 1800 --out /opt/song-lua-audit/pass2-results/ee72a53d84d7fc88-fixed60/traces/native.json --difficulty Challenge --fixed-update-fps 60.\n2026-11-15T22:48:29+00:00 deadsync-lua-pass2-02 systemd[1]: lua-pass2-ee72a53d84d7fc88-fixed60-capture.service: A process of this unit has been killed by the OOM killer.\n2026-11-15T22:48:29+00:00 deadsync-lua-pass2-02 systemd[1]: lua-pass2-ee72a53d84d7fc88-fixed60-capture.service: Killing process 8407 (itgmania-harnes) with signal SIGKILL.\n2026-11-15T22:48:30+00:00 deadsync-lua-pass2-02 systemd[1]: lua-pass2-ee72a53d84d7fc88-fixed60-capture.service: Main process exited, code=killed, status=9/KILL\n2026-11-15T22:48:30+00:00 deadsync-lua-pass2-02 systemd[1]: lua-pass2-ee72a53d84d7fc88-fixed60-capture.service: Failed with result 'oom-kill'.\n2026-11-15T22:48:30+00:00 deadsync-lua-pass2-02 systemd[1]: lua-pass2-ee72a53d84d7fc88-fixed60-capture.service: Consumed 24min 28.029s CPU time, 26.0G memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "artifacts": [
+      {
+        "file": "ee72a53d84d7fc88-fixed60/native-diagnostics.tar.zst",
+        "bytes": 214875715,
+        "sha256": "1674355aa65a80a83335bf55843a0bffa4b0ed58b4d2140d00e8a608864e22f0",
+        "uncompressed_sha256": "e97a6ed5c3434e97419b57ff061651c7810dd7d0b8203d0730251175dcf2cf77"
+      }
+    ],
+    "reason": "",
+    "native_failure": [
+      {
+        "summary": {
+          "capture_limits": {
+            "max_events": 10000000
+          },
+          "completion": {
+            "next_screen": "ScreenEvaluationStage",
+            "reason": "gameplay-exit",
+            "stage_committed": true,
+            "stages_played_after": 1,
+            "stages_played_before": 0
+          },
+          "difficulty": "Difficulty_Challenge",
+          "dropped_drawable_samples": 0,
+          "dropped_events": 40818375,
+          "dropped_host_clock_inputs": 0,
+          "dropped_input_events": 0,
+          "dropped_random_reseeds": 0,
+          "dropped_script_errors": 0,
+          "dropped_stage_samples": 0,
+          "dropped_update_frames": 0,
+          "end_position": {
+            "beat": 436.7929382324219,
+            "seconds": 151.04306030273438
+          },
+          "harness_version": "0.1.98",
+          "input": {
+            "autoplay": 1,
+            "catalog_preferences": {
+              "global_offset_seconds": -0.00800000037997961,
+              "initialization": "native-catalog-note-time-calculation",
+              "music_rate": 1
+            },
+            "gameplay_preferences": {
+              "column_cue_min_time": 1.5,
+              "default_modifiers": "",
+              "game_mode": "ITG",
+              "initialization": "theme-game-mode",
+              "max_input_latency_seconds": 0,
+              "mod_level": "ModsLevel_Preferred",
+              "music_rate": 1,
+              "players": [
+                {
+                  "disabled_timing_windows": [],
+                  "fail_setting": "FailType_Immediate",
+                  "min_tns_to_hide_notes": "TapNoteScore_W3",
+                  "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+                  "player": "PlayerNumber_P1",
+                  "theme_modifiers": {
+                    "ActionOnMissedTarget": "Nothing",
+                    "BackgroundFilter": "Darker",
+                    "ColumnCues": true,
+                    "ComboFont": "Wendy",
+                    "DataVisualizations": "Step Statistics",
+                    "DisplayScorebox": true,
+                    "ErrorBar": "None",
+                    "ErrorBarMultiTick": false,
+                    "ErrorBarTrim": "Off",
+                    "ErrorBarUp": false,
+                    "FlashDecent": false,
+                    "FlashExcellent": false,
+                    "FlashFantastic": false,
+                    "FlashGreat": false,
+                    "FlashMiss": false,
+                    "FlashWayOff": false,
+                    "HideCombo": false,
+                    "HideComboExplosions": false,
+                    "HideDanger": false,
+                    "HideEarlyDecentWayOffFlash": false,
+                    "HideEarlyDecentWayOffJudgments": false,
+                    "HideLifebar": false,
+                    "HideLookahead": false,
+                    "HideScore": false,
+                    "HideSongBG": false,
+                    "HideTargets": false,
+                    "HoldJudgment": "Love 1x2 (doubleres).png",
+                    "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                    "JudgmentTilt": false,
+                    "LifeMeterType": "Standard",
+                    "MeasureCounter": "None",
+                    "MeasureCounterLeft": false,
+                    "MeasureCounterUp": true,
+                    "MeasureLines": "Off",
+                    "Mini": "0%",
+                    "NPSGraphAtTop": false,
+                    "NoteFieldOffsetX": 0,
+                    "NoteFieldOffsetY": 0,
+                    "Pacemaker": false,
+                    "ShowExScore": false,
+                    "ShowFaPlusPane": true,
+                    "ShowFaPlusWindow": false,
+                    "SpeedMod": 250,
+                    "SpeedModType": "M",
+                    "SubtractiveScoring": false,
+                    "TargetScore": 11,
+                    "TiltMultiplier": 1,
+                    "TimingWindows": [
+                      true,
+                      true,
+                      true,
+                      true,
+                      true
+                    ],
+                    "VisualDelay": "0ms"
+                  }
+                }
+              ],
+              "timing_window_add": 0.001500000013038516,
+              "timing_window_scale": 1,
+              "timing_windows": {
+                "Attack": 0.13500000536441803,
+                "Checkpoint": 0.1664000004529953,
+                "Hold": 0.3199999928474426,
+                "Mine": 0.07000000029802322,
+                "Roll": 0.3499999940395355,
+                "W1": 0.0215000007301569,
+                "W2": 0.0430000014603138,
+                "W3": 0.10199999809265137,
+                "W4": 0.13500000536441803,
+                "W5": 0.18000000715255737
+              }
+            },
+            "headless_graphics": false,
+            "injected_inputs": false,
+            "lua_gc_mode": "automatic",
+            "native_source": {
+              "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+              "modified_src": false,
+              "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+              "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+            },
+            "observer_frame_period_seconds": 0.01666666666666667,
+            "preferences": {
+              "constant_update_delta_seconds": 0.01666666753590107,
+              "default_sync_offset": "SyncOffset_ITG",
+              "display_aspect_ratio": 1.7777777910232544,
+              "global_offset_seconds": -0.00800000037997961,
+              "last_seen_video_driver": "OpenGL",
+              "visual_delay_seconds": 0
+            },
+            "requested_difficulty": "Challenge",
+            "script": [],
+            "style": "single",
+            "window_visible": false
+          },
+          "schema_version": 1,
+          "script_errors": [],
+          "steps_type": "StepsType_Dance_Single",
+          "style": "single",
+          "transition_script_errors": [
+            {
+              "message": "ActorFrameTexture: Cannot have width or height less than 1",
+              "screen": "ScreenEvaluationStage"
+            }
+          ]
+        },
+        "errors": []
+      }
+    ],
+    "finished_at": "2026-11-15T22:55:27.267102+00:00",
+    "ip": "192.168.1.23",
+    "vmid": 1302,
+    "result_directory": "pass2-results"
+  },
+  {
+    "id": "velvet-stopped-control",
+    "source_simfile": "Velvet LEFTS 1/chart.ssc",
+    "title": "Turii -Panta Rhei-",
+    "worker": "04",
+    "started_at": "2026-11-15T21:17:40.559250+00:00",
+    "profile": {
+      "id": "velvet-stopped-control",
+      "source_simfile": "Velvet LEFTS 1/chart.ssc",
+      "title": "Turii -Panta Rhei-",
+      "simfile_sha256": "a38146c07ea9483591ae94748621822e163c8ad283e60fe1273048a229f94514",
+      "style": "versus",
+      "difficulty": "Difficulty_Challenge",
+      "gc_mode": "stopped",
+      "capture_fps": 60,
+      "max_events": 2000000,
+      "capture_timeout": 900,
+      "replay_timeout": 1200,
+      "selection_basis": "previous indexed native context",
+      "available_charts": [
+        [
+          "dance-single",
+          "Challenge"
+        ]
+      ],
+      "previous_context": {
+        "source_simfile": "Velvet LEFTS 1/chart.ssc",
+        "previous_archive": "ce1da310466ea79a289cb1ddf0cbf2e4994bde69967d6e128d30f8136b45b049.tar.zst",
+        "title": "Velvet LEFTS 1",
+        "previous_execution": "native_gameplay",
+        "difficulty": "Difficulty_Challenge",
+        "style": "versus",
+        "steps_type": "StepsType_Dance_Single",
+        "game_mode": "ITG",
+        "previous_gc_mode": "stopped"
+      },
+      "estimated_song_seconds": 128.1,
+      "song_folder_bytes": 3647788,
+      "worker": "04",
+      "primary_id": "8f4d4741245868cf",
+      "purpose": "Supplemental fresh GC-mode control; excluded from corpus counts.",
+      "run_role": "alternate-profile-control",
+      "stage_memory": "6G"
+    },
+    "source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "c93832c509c0842837a7fba3667e797351aab570b30794f7bbb0469cfb30b8a0"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "status": "pass",
+    "stages": {
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-final-validation",
+          "--archive",
+          "/opt/song-lua-audit/pass2-final-results/velvet-stopped-control/40c3ab578d052ebbe78ef33371d85d818ac3b1581ecad3341b465942036fa4e2.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/velvet-stopped-control/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 25.347,
+        "memory_limit": "6G",
+        "timeout_seconds": 3600,
+        "unit": "lua-pass2-velvet-stopped-control-final-replay",
+        "service_tail": "2026-11-15T21:17:42+00:00 deadsync-lua-pass2-04 systemd[1]: Started lua-pass2-velvet-stopped-control-final-replay.service - /opt/song-lua-audit/bin/full_song_lua-final-validation --archive /opt/song-lua-audit/pass2-final-results/velvet-stopped-control/40c3ab578d052ebbe78ef33371d85d818ac3b1581ecad3341b465942036fa4e2.tar --report /opt/song-lua-audit/pass2-final-results/velvet-stopped-control/report.json.\n2026-11-15T21:18:07+00:00 deadsync-lua-pass2-04 systemd[1]: lua-pass2-velvet-stopped-control-final-replay.service: Deactivated successfully.\n2026-11-15T21:18:07+00:00 deadsync-lua-pass2-04 systemd[1]: lua-pass2-velvet-stopped-control-final-replay.service: Consumed 25.257s CPU time, 1.0M memory peak, 0B memory swap peak.\n"
+      },
+      "pack": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-rs",
+          "song-lua-pack",
+          "/opt/song-lua-audit/pass2-final-results/velvet-stopped-control/40c3ab578d052ebbe78ef33371d85d818ac3b1581ecad3341b465942036fa4e2.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/velvet-stopped-control/report.json",
+          "--out",
+          "/opt/song-lua-audit/pass2-final-results/velvet-stopped-control/accepted"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 8.086,
+        "memory_limit": "6G",
+        "timeout_seconds": 900,
+        "unit": "lua-pass2-velvet-stopped-control-final-pack",
+        "service_tail": "2026-11-15T21:18:09+00:00 deadsync-lua-pass2-04 systemd[1]: Started lua-pass2-velvet-stopped-control-final-pack.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-pack /opt/song-lua-audit/pass2-final-results/velvet-stopped-control/40c3ab578d052ebbe78ef33371d85d818ac3b1581ecad3341b465942036fa4e2.tar --report /opt/song-lua-audit/pass2-final-results/velvet-stopped-control/report.json --out /opt/song-lua-audit/pass2-final-results/velvet-stopped-control/accepted.\n2026-11-15T21:18:17+00:00 deadsync-lua-pass2-04 systemd[1]: lua-pass2-velvet-stopped-control-final-pack.service: Deactivated successfully.\n2026-11-15T21:18:17+00:00 deadsync-lua-pass2-04 systemd[1]: lua-pass2-velvet-stopped-control-final-pack.service: Consumed 12.792s CPU time, 7.3M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "artifacts": [
+      {
+        "file": "velvet-stopped-control/accepted/3d672685fb7cd88fd4beb77913e13014cfa210bd2cbdc0161a8480ef2f5f1b9c.tar.zst",
+        "bytes": 114044635,
+        "sha256": "3d672685fb7cd88fd4beb77913e13014cfa210bd2cbdc0161a8480ef2f5f1b9c",
+        "uncompressed_sha256": "40c3ab578d052ebbe78ef33371d85d818ac3b1581ecad3341b465942036fa4e2"
+      },
+      {
+        "file": "velvet-stopped-control/report.json.zst",
+        "bytes": 974806,
+        "sha256": "8545c1fb0b60234198b2b506a7b8c5e3cbeec19de19a4eca661040a0ae39974a",
+        "uncompressed_sha256": "9b01bb8885ee734a2dd013b5cc7a3cc74c6a516a14cbd1d4b3ad3f93d4568998"
+      }
+    ],
+    "native": {
+      "capture_limits": {
+        "max_events": 2000000
+      },
+      "command_observer": {
+        "capture_binary_sha256": "db39e94b0a9f264b85ed8f4aca170e5c1812c74b95d9e236720e212e46e69247",
+        "dynamic_commands": true
+      },
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      },
+      "difficulty": "Difficulty_Challenge",
+      "dropped_drawable_samples": 0,
+      "dropped_events": 0,
+      "dropped_host_clock_inputs": 0,
+      "dropped_input_events": 0,
+      "dropped_random_reseeds": 0,
+      "dropped_script_errors": 0,
+      "dropped_stage_samples": 0,
+      "dropped_update_frames": 0,
+      "end_position": {
+        "beat": 319.7016906738281,
+        "seconds": 129.65179443359375
+      },
+      "harness_version": "0.1.98",
+      "input": {
+        "autoplay": 1,
+        "catalog_preferences": {
+          "global_offset_seconds": -0.00800000037997961,
+          "initialization": "native-catalog-note-time-calculation",
+          "music_rate": 1
+        },
+        "gameplay_preferences": {
+          "column_cue_min_time": 1.5,
+          "default_modifiers": "",
+          "game_mode": "ITG",
+          "initialization": "theme-game-mode",
+          "max_input_latency_seconds": 0,
+          "mod_level": "ModsLevel_Preferred",
+          "music_rate": 1,
+          "players": [
+            {
+              "disabled_timing_windows": [],
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+              "player": "PlayerNumber_P1",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            },
+            {
+              "disabled_timing_windows": [],
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+              "player": "PlayerNumber_P2",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            }
+          ],
+          "timing_window_add": 0.001500000013038516,
+          "timing_window_scale": 1,
+          "timing_windows": {
+            "Attack": 0.13500000536441803,
+            "Checkpoint": 0.1664000004529953,
+            "Hold": 0.3199999928474426,
+            "Mine": 0.07000000029802322,
+            "Roll": 0.3499999940395355,
+            "W1": 0.0215000007301569,
+            "W2": 0.0430000014603138,
+            "W3": 0.10199999809265137,
+            "W4": 0.13500000536441803,
+            "W5": 0.18000000715255737
+          }
+        },
+        "headless_graphics": false,
+        "injected_inputs": false,
+        "lua_gc_mode": "stopped",
+        "native_source": {
+          "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+          "modified_src": false,
+          "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+          "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+        },
+        "observer_frame_period_seconds": 0.01666666666666667,
+        "preferences": {
+          "constant_update_delta_seconds": 0,
+          "default_sync_offset": "SyncOffset_ITG",
+          "display_aspect_ratio": 1.7777777910232544,
+          "global_offset_seconds": -0.00800000037997961,
+          "last_seen_video_driver": "OpenGL",
+          "visual_delay_seconds": 0
+        },
+        "requested_difficulty": "Challenge",
+        "script": [],
+        "style": "versus",
+        "window_visible": false
+      },
+      "schema_version": 1,
+      "script_errors": [],
+      "steps_type": "StepsType_Dance_Single",
+      "style": "versus",
+      "transition_script_errors": [
+        {
+          "message": "ActorFrameTexture: Cannot have width or height less than 1",
+          "screen": "ScreenEvaluationStage"
+        }
+      ]
+    },
+    "candidate_sha256": "40c3ab578d052ebbe78ef33371d85d818ac3b1581ecad3341b465942036fa4e2",
+    "vmid": 1304,
+    "ip": "192.168.1.35",
+    "runner_sha256": "dd967a2dfc08290363ed4073f3af983782ba3504272a528a18a2ca27db5da57a",
+    "native_capture_reused": true,
+    "capture_result_directory": "pass2-results",
+    "capture_source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "855fd8486bc0d5d917c647794f2e07f68cdb0847efb5c9fd3647f0ff55925101"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "capture_archive": {
+      "path": "/opt/song-lua-audit/pass2-results/velvet-stopped-control/accepted/3d672685fb7cd88fd4beb77913e13014cfa210bd2cbdc0161a8480ef2f5f1b9c.tar.zst",
+      "sha256": "3d672685fb7cd88fd4beb77913e13014cfa210bd2cbdc0161a8480ef2f5f1b9c",
+      "uncompressed_sha256": "40c3ab578d052ebbe78ef33371d85d818ac3b1581ecad3341b465942036fa4e2"
+    },
+    "comparison": {
+      "whole_song_parity_proven": false,
+      "archive_accepted": true,
+      "execution_path": "diagnostic-live-lua",
+      "production_preparation_exercised": false,
+      "production_parity_proven": false,
+      "native_frames": 7712,
+      "replayed_frames": 7712,
+      "compared_stage_fields": 2970,
+      "pending_coverage": [
+        "uncompared song operations: Actor.AddWrapperState, Actor.GetNumWrapperStates, Actor.GetWrapperState, Actor.GetY, Actor.SetHeight, Actor.SetWidth, Actor.addcommand, Actor.basezoomx, Actor.basezoomy, Actor.effectclock, Actor.fadebottom, Actor.fadeleft, Actor.faderight, Actor.fadetop, Actor.playcommand, Actor.rotationx, Actor.rotationy, Actor.skewx, Actor.skewy, Actor.xy, Actor.z, Actor.zoomy, Actor.zoomz, ActorFrame.GetChildren, ActorFrameTexture.Create, ActorFrameTexture.EnableAlphaBuffer, ActorFrameTexture.EnableDepthBuffer, ActorFrameTexture.EnableFloat, ActorFrameTexture.EnablePreserveTexture, ActorFrameTexture.GetTexture, GameState.GetSongPosition, PlayerOptions.FromString, RageDisplay.GetDisplayHeight, RageDisplay.GetDisplayWidth, Song.GetTimingData, Sprite.SetTexture, Sprite.texcoordvelocity",
+        "native drawable state/resources: ActorFrameTexture, ActorProxy, Quad, Sprite",
+        "missing captured subscriber identity for ScreenGameplay/2/10/1",
+        "missing captured subscriber identity for ScreenGameplay/2/14/1",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1"
+      ],
+      "capture_completed_gameplay": true,
+      "acceptance_basis": "full replay of implemented comparisons",
+      "fixture_sha256": "40c3ab578d052ebbe78ef33371d85d818ac3b1581ecad3341b465942036fa4e2",
+      "mismatch_count": 0,
+      "mismatch_fields": {},
+      "first_mismatches": [],
+      "error_count": 0,
+      "errors": []
+    },
+    "finished_at": "2026-11-15T21:18:18.558896+00:00",
+    "result_directory": "pass2-final-results"
+  },
+  {
+    "id": "3f7a546d6574982b-fixed60",
+    "source_simfile": "DS ULTIMATE LUA TEST/DS ULTIMATE LUA TEST.sm",
+    "title": "DS ULTIMATE LUA TEST",
+    "worker": "memory26",
+    "started_at": "2026-11-15T20:26:08.509459+00:00",
+    "profile": {
+      "id": "3f7a546d6574982b-fixed60",
+      "source_simfile": "DS ULTIMATE LUA TEST/DS ULTIMATE LUA TEST.sm",
+      "title": "DS ULTIMATE LUA TEST",
+      "simfile_sha256": "5d0025fc36772e46addedab3ecce8ee2d0c26a7a14301e12021237c86a9b027e",
+      "style": "single",
+      "difficulty": "Challenge",
+      "gc_mode": "automatic",
+      "capture_fps": 60,
+      "max_events": 6000000,
+      "capture_timeout": 1800,
+      "replay_timeout": 2400,
+      "selection_basis": "source chart discovery",
+      "available_charts": [
+        [
+          "dance-single",
+          "Challenge"
+        ],
+        [
+          "dance-single",
+          "Hard"
+        ],
+        [
+          "dance-double",
+          "Challenge"
+        ]
+      ],
+      "previous_context": null,
+      "estimated_song_seconds": 176.0,
+      "song_folder_bytes": 91125468,
+      "worker": "03",
+      "previous_status": "parity_failure",
+      "run_role": "fixed-update-control",
+      "stage_memory": "26G",
+      "fixed_update_fps": 60
+    },
+    "source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "855fd8486bc0d5d917c647794f2e07f68cdb0847efb5c9fd3647f0ff55925101"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "status": "native_lua_error",
+    "stages": {
+      "capture": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-rs",
+          "song-lua-trace",
+          "/opt/song-lua-audit/Songs/DS ULTIMATE LUA TEST/DS ULTIMATE LUA TEST.sm",
+          "--itgmania-bin",
+          "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+          "--fallback-theme",
+          "Harness Simply Love",
+          "--headless",
+          "--style",
+          "single",
+          "--until-gameplay-end",
+          "--capture-fps",
+          "60",
+          "--max-events",
+          "6000000",
+          "--timeout",
+          "1800",
+          "--out",
+          "/opt/song-lua-audit/pass2-resource-results/3f7a546d6574982b-fixed60/traces/native.json",
+          "--difficulty",
+          "Challenge",
+          "--fixed-update-fps",
+          "60"
+        ],
+        "exit": 1,
+        "elapsed_seconds": 774.886,
+        "memory_limit": "26G",
+        "timeout_seconds": 1890,
+        "unit": "lua-pass2-3f7a546d6574982b-fixed60-capture",
+        "service_tail": "2026-11-15T20:26:08+00:00 deadsync-lua-pass2-02 systemd[1]: Started lua-pass2-3f7a546d6574982b-fixed60-capture.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-trace \"/opt/song-lua-audit/Songs/DS ULTIMATE LUA TEST/DS ULTIMATE LUA TEST.sm\" --itgmania-bin /opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --style single --until-gameplay-end --capture-fps 60 --max-events 6000000 --timeout 1800 --out /opt/song-lua-audit/pass2-resource-results/3f7a546d6574982b-fixed60/traces/native.json --difficulty Challenge --fixed-update-fps 60.\n2026-11-15T20:39:04+00:00 deadsync-lua-pass2-02 systemd[1]: lua-pass2-3f7a546d6574982b-fixed60-capture.service: Main process exited, code=exited, status=1/FAILURE\n2026-11-15T20:39:04+00:00 deadsync-lua-pass2-02 systemd[1]: lua-pass2-3f7a546d6574982b-fixed60-capture.service: Failed with result 'exit-code'.\n2026-11-15T20:39:04+00:00 deadsync-lua-pass2-02 systemd[1]: lua-pass2-3f7a546d6574982b-fixed60-capture.service: Consumed 12min 55.041s CPU time, 992.0K memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "artifacts": [
+      {
+        "file": "3f7a546d6574982b-fixed60/native-diagnostics.tar.zst",
+        "bytes": 13083458,
+        "sha256": "2a6a588fa6a85ba143adc81d283c748cee57e228ef0fcaeea6b6c33799b00dd7",
+        "uncompressed_sha256": "2f7af5a758d867cb3a71a5d7bd05a4a731d592258696a84d3005f020dfd16081"
+      }
+    ],
+    "reason": "error: ITGmania song Lua semantic trace failed: native script loading or execution failed: {\"message\":\"Tween overflow: \\\"<type 20ScreenGameplayNormal> ScreenGameplay/<type 10Foreground> SongForeground/<type 28ActorFrameAutoDeleteChildren> lua/overlay.lua\\\"; infinitely recursing ActorCommand?\",\"screen\":\"ScreenGameplay\"}; retained run directory /opt/song-lua-audit/pass2-resource-results/3f7a546d6574982b-fixed60/tmp/itgmania-harness-rs/song-lua-953-1794774368634867416-0\n",
+    "native_failure": [
+      {
+        "summary": {
+          "capture_limits": {
+            "max_events": 6000000
+          },
+          "completion": {
+            "next_screen": "ScreenEvaluationStage",
+            "reason": "gameplay-exit",
+            "stage_committed": true,
+            "stages_played_after": 1,
+            "stages_played_before": 0
+          },
+          "difficulty": "Difficulty_Challenge",
+          "dropped_drawable_samples": 0,
+          "dropped_events": 0,
+          "dropped_host_clock_inputs": 0,
+          "dropped_input_events": 0,
+          "dropped_random_reseeds": 0,
+          "dropped_script_errors": 0,
+          "dropped_stage_samples": 0,
+          "dropped_update_frames": 0,
+          "end_position": {
+            "beat": 195.41098022460938,
+            "seconds": 85.35746002197266
+          },
+          "harness_version": "0.1.98",
+          "input": {
+            "autoplay": 1,
+            "catalog_preferences": {
+              "global_offset_seconds": -0.00800000037997961,
+              "initialization": "native-catalog-note-time-calculation",
+              "music_rate": 1
+            },
+            "gameplay_preferences": {
+              "column_cue_min_time": 1.5,
+              "default_modifiers": "",
+              "game_mode": "ITG",
+              "initialization": "theme-game-mode",
+              "max_input_latency_seconds": 0,
+              "mod_level": "ModsLevel_Preferred",
+              "music_rate": 1,
+              "players": [
+                {
+                  "disabled_timing_windows": [],
+                  "fail_setting": "FailType_Immediate",
+                  "min_tns_to_hide_notes": "TapNoteScore_W3",
+                  "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+                  "player": "PlayerNumber_P1",
+                  "theme_modifiers": {
+                    "ActionOnMissedTarget": "Nothing",
+                    "BackgroundFilter": "Darker",
+                    "ColumnCues": true,
+                    "ComboFont": "Wendy",
+                    "DataVisualizations": "Step Statistics",
+                    "DisplayScorebox": true,
+                    "ErrorBar": "None",
+                    "ErrorBarMultiTick": false,
+                    "ErrorBarTrim": "Off",
+                    "ErrorBarUp": false,
+                    "FlashDecent": false,
+                    "FlashExcellent": false,
+                    "FlashFantastic": false,
+                    "FlashGreat": false,
+                    "FlashMiss": false,
+                    "FlashWayOff": false,
+                    "HideCombo": false,
+                    "HideComboExplosions": false,
+                    "HideDanger": false,
+                    "HideEarlyDecentWayOffFlash": false,
+                    "HideEarlyDecentWayOffJudgments": false,
+                    "HideLifebar": false,
+                    "HideLookahead": false,
+                    "HideScore": false,
+                    "HideSongBG": false,
+                    "HideTargets": false,
+                    "HoldJudgment": "Love 1x2 (doubleres).png",
+                    "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                    "JudgmentTilt": false,
+                    "LifeMeterType": "Standard",
+                    "MeasureCounter": "None",
+                    "MeasureCounterLeft": false,
+                    "MeasureCounterUp": true,
+                    "MeasureLines": "Off",
+                    "Mini": "0%",
+                    "NPSGraphAtTop": false,
+                    "NoteFieldOffsetX": 0,
+                    "NoteFieldOffsetY": 0,
+                    "Pacemaker": false,
+                    "ShowExScore": false,
+                    "ShowFaPlusPane": true,
+                    "ShowFaPlusWindow": false,
+                    "SpeedMod": 250,
+                    "SpeedModType": "M",
+                    "SubtractiveScoring": false,
+                    "TargetScore": 11,
+                    "TiltMultiplier": 1,
+                    "TimingWindows": [
+                      true,
+                      true,
+                      true,
+                      true,
+                      true
+                    ],
+                    "VisualDelay": "0ms"
+                  }
+                }
+              ],
+              "timing_window_add": 0.001500000013038516,
+              "timing_window_scale": 1,
+              "timing_windows": {
+                "Attack": 0.13500000536441803,
+                "Checkpoint": 0.1664000004529953,
+                "Hold": 0.3199999928474426,
+                "Mine": 0.07000000029802322,
+                "Roll": 0.3499999940395355,
+                "W1": 0.0215000007301569,
+                "W2": 0.0430000014603138,
+                "W3": 0.10199999809265137,
+                "W4": 0.13500000536441803,
+                "W5": 0.18000000715255737
+              }
+            },
+            "headless_graphics": false,
+            "injected_inputs": false,
+            "lua_gc_mode": "automatic",
+            "native_source": {
+              "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+              "modified_src": false,
+              "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+              "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+            },
+            "observer_frame_period_seconds": 0.01666666666666667,
+            "preferences": {
+              "constant_update_delta_seconds": 0.01666666753590107,
+              "default_sync_offset": "SyncOffset_ITG",
+              "display_aspect_ratio": 1.7777777910232544,
+              "global_offset_seconds": -0.00800000037997961,
+              "last_seen_video_driver": "OpenGL",
+              "visual_delay_seconds": 0
+            },
+            "requested_difficulty": "Challenge",
+            "script": [],
+            "style": "single",
+            "window_visible": false
+          },
+          "schema_version": 1,
+          "script_errors": [
+            {
+              "message": "Tween overflow: \"<type 20ScreenGameplayNormal> ScreenGameplay/<type 10Foreground> SongForeground/<type 28ActorFrameAutoDeleteChildren> lua/overlay.lua\"; infinitely recursing ActorCommand?",
+              "screen": "ScreenGameplay"
+            }
+          ],
+          "steps_type": "StepsType_Dance_Single",
+          "style": "single",
+          "transition_script_errors": [
+            {
+              "message": "ActorFrameTexture: Cannot have width or height less than 1",
+              "screen": "ScreenEvaluationStage"
+            }
+          ]
+        },
+        "errors": []
+      }
+    ],
+    "finished_at": "2026-11-15T20:39:22.737449+00:00",
+    "ip": "192.168.1.23",
+    "vmid": 1302,
+    "result_directory": "pass2-resource-results"
+  },
+  {
+    "id": "feedback-megalovania-v2",
+    "source_simfile": "__pass2_controls/feedback-megalovania-v2/control.sm",
+    "title": "feedback-megalovania-v2",
+    "worker": "control",
+    "started_at": "2026-11-15T21:07:32.950970+00:00",
+    "profile": {
+      "id": "feedback-megalovania-v2",
+      "source_simfile": "__pass2_controls/feedback-megalovania-v2/control.sm",
+      "title": "feedback-megalovania-v2",
+      "style": "single",
+      "difficulty": "Challenge",
+      "gc_mode": "automatic",
+      "capture_fps": 60,
+      "max_events": 1500000,
+      "capture_timeout": 600,
+      "replay_timeout": 600,
+      "simfile_sha256": "c6193feed7c4272840878332ad2161fc4252e0e71ee98a5ae933efa81acaa78f",
+      "stage_memory": "6G",
+      "run_role": "reduced-feedback-control"
+    },
+    "source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "c93832c509c0842837a7fba3667e797351aab570b30794f7bbb0469cfb30b8a0"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "status": "pass",
+    "stages": {
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-final-validation",
+          "--archive",
+          "/opt/song-lua-audit/pass2-final-results/feedback-megalovania-v2/7c443b21dd2ceeef913caa12094f7a42bac16374ed3f0994faa3b34891bd532b.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/feedback-megalovania-v2/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 9.941,
+        "memory_limit": "12G",
+        "timeout_seconds": 3600,
+        "unit": "lua-pass2-feedback-megalovania-v2-final-replay",
+        "service_tail": "2026-11-15T21:07:34+00:00 deadsync-lua-pass2-controls systemd[1]: Started lua-pass2-feedback-megalovania-v2-final-replay.service - /opt/song-lua-audit/bin/full_song_lua-final-validation --archive /opt/song-lua-audit/pass2-final-results/feedback-megalovania-v2/7c443b21dd2ceeef913caa12094f7a42bac16374ed3f0994faa3b34891bd532b.tar --report /opt/song-lua-audit/pass2-final-results/feedback-megalovania-v2/report.json.\n2026-11-15T21:07:44+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-feedback-megalovania-v2-final-replay.service: Deactivated successfully.\n2026-11-15T21:07:44+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-feedback-megalovania-v2-final-replay.service: Consumed 9.870s CPU time, 1.0M memory peak, 0B memory swap peak.\n"
+      },
+      "pack": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-rs",
+          "song-lua-pack",
+          "/opt/song-lua-audit/pass2-final-results/feedback-megalovania-v2/7c443b21dd2ceeef913caa12094f7a42bac16374ed3f0994faa3b34891bd532b.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/feedback-megalovania-v2/report.json",
+          "--out",
+          "/opt/song-lua-audit/pass2-final-results/feedback-megalovania-v2/accepted"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 4.691,
+        "memory_limit": "12G",
+        "timeout_seconds": 900,
+        "unit": "lua-pass2-feedback-megalovania-v2-final-pack",
+        "service_tail": "2026-11-15T21:07:44+00:00 deadsync-lua-pass2-controls systemd[1]: Started lua-pass2-feedback-megalovania-v2-final-pack.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-pack /opt/song-lua-audit/pass2-final-results/feedback-megalovania-v2/7c443b21dd2ceeef913caa12094f7a42bac16374ed3f0994faa3b34891bd532b.tar --report /opt/song-lua-audit/pass2-final-results/feedback-megalovania-v2/report.json --out /opt/song-lua-audit/pass2-final-results/feedback-megalovania-v2/accepted.\n2026-11-15T21:07:48+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-feedback-megalovania-v2-final-pack.service: Deactivated successfully.\n2026-11-15T21:07:48+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-feedback-megalovania-v2-final-pack.service: Consumed 11.064s CPU time, 2.1M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "artifacts": [
+      {
+        "file": "feedback-megalovania-v2/accepted/91441f58d8d6e65b010b60bf28509824dddc9f66c06022e591874e1c2b953d9b.tar.zst",
+        "bytes": 111700510,
+        "sha256": "91441f58d8d6e65b010b60bf28509824dddc9f66c06022e591874e1c2b953d9b",
+        "uncompressed_sha256": "7c443b21dd2ceeef913caa12094f7a42bac16374ed3f0994faa3b34891bd532b"
+      },
+      {
+        "file": "feedback-megalovania-v2/report.json.zst",
+        "bytes": 9080,
+        "sha256": "23778917e2ca858a681698e98694d75cbd104756b87c6630cb728c9d7d43d88e",
+        "uncompressed_sha256": "c202348248e837fc2b5c8badb4fc20924c97ad9381447b936276848db8e7bc26"
+      }
+    ],
+    "native": {
+      "capture_limits": {
+        "max_events": 1500000
+      },
+      "command_observer": {
+        "capture_binary_sha256": "db39e94b0a9f264b85ed8f4aca170e5c1812c74b95d9e236720e212e46e69247",
+        "dynamic_commands": true
+      },
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      },
+      "difficulty": "Difficulty_Challenge",
+      "dropped_drawable_samples": 0,
+      "dropped_events": 0,
+      "dropped_host_clock_inputs": 0,
+      "dropped_input_events": 0,
+      "dropped_random_reseeds": 0,
+      "dropped_script_errors": 0,
+      "dropped_stage_samples": 0,
+      "dropped_update_frames": 0,
+      "end_position": {
+        "beat": 795.6077270507812,
+        "seconds": 206.91893005371094
+      },
+      "harness_version": "0.1.98",
+      "input": {
+        "autoplay": 1,
+        "catalog_preferences": {
+          "global_offset_seconds": -0.00800000037997961,
+          "initialization": "native-catalog-note-time-calculation",
+          "music_rate": 1
+        },
+        "gameplay_preferences": {
+          "column_cue_min_time": 1.5,
+          "default_modifiers": "",
+          "game_mode": "ITG",
+          "initialization": "theme-game-mode",
+          "max_input_latency_seconds": 0,
+          "mod_level": "ModsLevel_Preferred",
+          "music_rate": 1,
+          "players": [
+            {
+              "disabled_timing_windows": [],
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+              "player": "PlayerNumber_P1",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            }
+          ],
+          "timing_window_add": 0.001500000013038516,
+          "timing_window_scale": 1,
+          "timing_windows": {
+            "Attack": 0.13500000536441803,
+            "Checkpoint": 0.1664000004529953,
+            "Hold": 0.3199999928474426,
+            "Mine": 0.07000000029802322,
+            "Roll": 0.3499999940395355,
+            "W1": 0.0215000007301569,
+            "W2": 0.0430000014603138,
+            "W3": 0.10199999809265137,
+            "W4": 0.13500000536441803,
+            "W5": 0.18000000715255737
+          }
+        },
+        "headless_graphics": false,
+        "injected_inputs": false,
+        "lua_gc_mode": "automatic",
+        "native_source": {
+          "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+          "modified_src": false,
+          "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+          "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+        },
+        "observer_frame_period_seconds": 0.01666666666666667,
+        "preferences": {
+          "constant_update_delta_seconds": 0,
+          "default_sync_offset": "SyncOffset_ITG",
+          "display_aspect_ratio": 1.7777777910232544,
+          "global_offset_seconds": -0.00800000037997961,
+          "last_seen_video_driver": "OpenGL",
+          "visual_delay_seconds": 0
+        },
+        "requested_difficulty": "Challenge",
+        "script": [],
+        "style": "single",
+        "window_visible": false
+      },
+      "schema_version": 1,
+      "script_errors": [],
+      "steps_type": "StepsType_Dance_Single",
+      "style": "single",
+      "transition_script_errors": [
+        {
+          "message": "ActorFrameTexture: Cannot have width or height less than 1",
+          "screen": "ScreenEvaluationStage"
+        }
+      ]
+    },
+    "candidate_sha256": "7c443b21dd2ceeef913caa12094f7a42bac16374ed3f0994faa3b34891bd532b",
+    "result_directory": "pass2-final-results",
+    "final_memory": "12G",
+    "runner_sha256": "dd967a2dfc08290363ed4073f3af983782ba3504272a528a18a2ca27db5da57a",
+    "native_capture_reused": true,
+    "capture_result_directory": "pass2-controls-b-results",
+    "capture_source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "ad4e5142e3728f6870c451a88acf2201599877db214cc9e54034cc1a07463f64"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "capture_archive": {
+      "path": "/opt/song-lua-audit/pass2-controls-b-results/feedback-megalovania-v2/accepted/91441f58d8d6e65b010b60bf28509824dddc9f66c06022e591874e1c2b953d9b.tar.zst",
+      "sha256": "91441f58d8d6e65b010b60bf28509824dddc9f66c06022e591874e1c2b953d9b",
+      "uncompressed_sha256": "7c443b21dd2ceeef913caa12094f7a42bac16374ed3f0994faa3b34891bd532b"
+    },
+    "comparison": {
+      "whole_song_parity_proven": false,
+      "archive_accepted": true,
+      "execution_path": "diagnostic-live-lua",
+      "production_preparation_exercised": false,
+      "production_parity_proven": false,
+      "native_frames": 12438,
+      "replayed_frames": 12438,
+      "compared_stage_fields": 2332,
+      "pending_coverage": [
+        "uncompared song operations: Actor.GetTweenTimeLeft, ActorFrame.GetChildren",
+        "missing captured subscriber identity for ScreenGameplay/18",
+        "missing captured subscriber identity for ScreenGameplay/19/1/1",
+        "missing captured subscriber identity for ScreenGameplay/19/1/3",
+        "missing captured subscriber identity for ScreenGameplay/19/1/4",
+        "missing captured subscriber identity for ScreenGameplay/19/1/6",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/11",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/7",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/9",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/9/1",
+        "missing captured subscriber identity for ScreenGameplay/3/1"
+      ],
+      "capture_completed_gameplay": true,
+      "acceptance_basis": "full replay of implemented comparisons",
+      "fixture_sha256": "7c443b21dd2ceeef913caa12094f7a42bac16374ed3f0994faa3b34891bd532b",
+      "mismatch_count": 0,
+      "mismatch_fields": {},
+      "first_mismatches": [],
+      "error_count": 0,
+      "errors": []
+    },
+    "finished_at": "2026-11-15T21:07:49.212031+00:00",
+    "ip": "192.168.1.49",
+    "vmid": 1316
+  },
+  {
+    "id": "feedback-apollo-v2",
+    "source_simfile": "__pass2_controls/feedback-apollo-v2/control.sm",
+    "title": "feedback-apollo-v2",
+    "worker": "control",
+    "started_at": "2026-11-15T21:07:49.214157+00:00",
+    "profile": {
+      "id": "feedback-apollo-v2",
+      "source_simfile": "__pass2_controls/feedback-apollo-v2/control.sm",
+      "title": "feedback-apollo-v2",
+      "style": "single",
+      "difficulty": "Challenge",
+      "gc_mode": "automatic",
+      "capture_fps": 60,
+      "max_events": 1500000,
+      "capture_timeout": 600,
+      "replay_timeout": 600,
+      "simfile_sha256": "f4b5176c2b090446265787b9237cb26e0f57e542c5fda03410f1fcce8bcddc29",
+      "stage_memory": "6G",
+      "run_role": "reduced-feedback-control"
+    },
+    "source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "c93832c509c0842837a7fba3667e797351aab570b30794f7bbb0469cfb30b8a0"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "status": "pass",
+    "stages": {
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-final-validation",
+          "--archive",
+          "/opt/song-lua-audit/pass2-final-results/feedback-apollo-v2/2a1b0f59922f07a05bd2052bd89ebe5f372719a08e63a5cda080da29962b19e3.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/feedback-apollo-v2/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 9.07,
+        "memory_limit": "12G",
+        "timeout_seconds": 3600,
+        "unit": "lua-pass2-feedback-apollo-v2-final-replay",
+        "service_tail": "2026-11-15T21:07:50+00:00 deadsync-lua-pass2-controls systemd[1]: Started lua-pass2-feedback-apollo-v2-final-replay.service - /opt/song-lua-audit/bin/full_song_lua-final-validation --archive /opt/song-lua-audit/pass2-final-results/feedback-apollo-v2/2a1b0f59922f07a05bd2052bd89ebe5f372719a08e63a5cda080da29962b19e3.tar --report /opt/song-lua-audit/pass2-final-results/feedback-apollo-v2/report.json.\n2026-11-15T21:07:59+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-feedback-apollo-v2-final-replay.service: Deactivated successfully.\n2026-11-15T21:07:59+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-feedback-apollo-v2-final-replay.service: Consumed 9.007s CPU time, 1.0M memory peak, 0B memory swap peak.\n"
+      },
+      "pack": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-rs",
+          "song-lua-pack",
+          "/opt/song-lua-audit/pass2-final-results/feedback-apollo-v2/2a1b0f59922f07a05bd2052bd89ebe5f372719a08e63a5cda080da29962b19e3.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/feedback-apollo-v2/report.json",
+          "--out",
+          "/opt/song-lua-audit/pass2-final-results/feedback-apollo-v2/accepted"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 4.338,
+        "memory_limit": "12G",
+        "timeout_seconds": 900,
+        "unit": "lua-pass2-feedback-apollo-v2-final-pack",
+        "service_tail": "2026-11-15T21:07:59+00:00 deadsync-lua-pass2-controls systemd[1]: Started lua-pass2-feedback-apollo-v2-final-pack.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-pack /opt/song-lua-audit/pass2-final-results/feedback-apollo-v2/2a1b0f59922f07a05bd2052bd89ebe5f372719a08e63a5cda080da29962b19e3.tar --report /opt/song-lua-audit/pass2-final-results/feedback-apollo-v2/report.json --out /opt/song-lua-audit/pass2-final-results/feedback-apollo-v2/accepted.\n2026-11-15T21:08:03+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-feedback-apollo-v2-final-pack.service: Deactivated successfully.\n2026-11-15T21:08:03+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-feedback-apollo-v2-final-pack.service: Consumed 10.585s CPU time, 2.1M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "artifacts": [
+      {
+        "file": "feedback-apollo-v2/accepted/ba83486aea0d7e36f446681c94d2c64c78cfaa6993e10bcc80e88739d8cefa82.tar.zst",
+        "bytes": 110888073,
+        "sha256": "ba83486aea0d7e36f446681c94d2c64c78cfaa6993e10bcc80e88739d8cefa82",
+        "uncompressed_sha256": "2a1b0f59922f07a05bd2052bd89ebe5f372719a08e63a5cda080da29962b19e3"
+      },
+      {
+        "file": "feedback-apollo-v2/report.json.zst",
+        "bytes": 7700,
+        "sha256": "7276af38e3369a69e79a0271805a5a6cd7831e33ad92079352486f5e078a2d82",
+        "uncompressed_sha256": "04447f406dfab5bf76612e23c7ee26561b8322c4eb75952f596b1728c933c0fa"
+      }
+    ],
+    "native": {
+      "capture_limits": {
+        "max_events": 1500000
+      },
+      "command_observer": {
+        "capture_binary_sha256": "db39e94b0a9f264b85ed8f4aca170e5c1812c74b95d9e236720e212e46e69247",
+        "dynamic_commands": true
+      },
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      },
+      "difficulty": "Difficulty_Challenge",
+      "dropped_drawable_samples": 0,
+      "dropped_events": 0,
+      "dropped_host_clock_inputs": 0,
+      "dropped_input_events": 0,
+      "dropped_random_reseeds": 0,
+      "dropped_script_errors": 0,
+      "dropped_stage_samples": 0,
+      "dropped_update_frames": 0,
+      "end_position": {
+        "beat": 414.1514587402344,
+        "seconds": 156.298095703125
+      },
+      "harness_version": "0.1.98",
+      "input": {
+        "autoplay": 1,
+        "catalog_preferences": {
+          "global_offset_seconds": -0.00800000037997961,
+          "initialization": "native-catalog-note-time-calculation",
+          "music_rate": 1
+        },
+        "gameplay_preferences": {
+          "column_cue_min_time": 1.5,
+          "default_modifiers": "",
+          "game_mode": "ITG",
+          "initialization": "theme-game-mode",
+          "max_input_latency_seconds": 0,
+          "mod_level": "ModsLevel_Preferred",
+          "music_rate": 1,
+          "players": [
+            {
+              "disabled_timing_windows": [],
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+              "player": "PlayerNumber_P1",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            }
+          ],
+          "timing_window_add": 0.001500000013038516,
+          "timing_window_scale": 1,
+          "timing_windows": {
+            "Attack": 0.13500000536441803,
+            "Checkpoint": 0.1664000004529953,
+            "Hold": 0.3199999928474426,
+            "Mine": 0.07000000029802322,
+            "Roll": 0.3499999940395355,
+            "W1": 0.0215000007301569,
+            "W2": 0.0430000014603138,
+            "W3": 0.10199999809265137,
+            "W4": 0.13500000536441803,
+            "W5": 0.18000000715255737
+          }
+        },
+        "headless_graphics": false,
+        "injected_inputs": false,
+        "lua_gc_mode": "automatic",
+        "native_source": {
+          "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+          "modified_src": false,
+          "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+          "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+        },
+        "observer_frame_period_seconds": 0.01666666666666667,
+        "preferences": {
+          "constant_update_delta_seconds": 0,
+          "default_sync_offset": "SyncOffset_ITG",
+          "display_aspect_ratio": 1.7777777910232544,
+          "global_offset_seconds": -0.00800000037997961,
+          "last_seen_video_driver": "OpenGL",
+          "visual_delay_seconds": 0
+        },
+        "requested_difficulty": "Challenge",
+        "script": [],
+        "style": "single",
+        "window_visible": false
+      },
+      "schema_version": 1,
+      "script_errors": [],
+      "steps_type": "StepsType_Dance_Single",
+      "style": "single",
+      "transition_script_errors": [
+        {
+          "message": "ActorFrameTexture: Cannot have width or height less than 1",
+          "screen": "ScreenEvaluationStage"
+        }
+      ]
+    },
+    "candidate_sha256": "2a1b0f59922f07a05bd2052bd89ebe5f372719a08e63a5cda080da29962b19e3",
+    "result_directory": "pass2-final-results",
+    "final_memory": "12G",
+    "runner_sha256": "dd967a2dfc08290363ed4073f3af983782ba3504272a528a18a2ca27db5da57a",
+    "native_capture_reused": true,
+    "capture_result_directory": "pass2-controls-b-results",
+    "capture_source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "ad4e5142e3728f6870c451a88acf2201599877db214cc9e54034cc1a07463f64"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "capture_archive": {
+      "path": "/opt/song-lua-audit/pass2-controls-b-results/feedback-apollo-v2/accepted/ba83486aea0d7e36f446681c94d2c64c78cfaa6993e10bcc80e88739d8cefa82.tar.zst",
+      "sha256": "ba83486aea0d7e36f446681c94d2c64c78cfaa6993e10bcc80e88739d8cefa82",
+      "uncompressed_sha256": "2a1b0f59922f07a05bd2052bd89ebe5f372719a08e63a5cda080da29962b19e3"
+    },
+    "comparison": {
+      "whole_song_parity_proven": false,
+      "archive_accepted": true,
+      "execution_path": "diagnostic-live-lua",
+      "production_preparation_exercised": false,
+      "production_parity_proven": false,
+      "native_frames": 9434,
+      "replayed_frames": 9434,
+      "compared_stage_fields": 1782,
+      "pending_coverage": [
+        "uncompared song operations: Actor.GetTweenTimeLeft, ActorFrame.GetChildren",
+        "missing captured subscriber identity for ScreenGameplay/18",
+        "missing captured subscriber identity for ScreenGameplay/19/1/1",
+        "missing captured subscriber identity for ScreenGameplay/19/1/3",
+        "missing captured subscriber identity for ScreenGameplay/19/1/4",
+        "missing captured subscriber identity for ScreenGameplay/19/1/6",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/11",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/7",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/9",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/9/1",
+        "missing captured subscriber identity for ScreenGameplay/3/1"
+      ],
+      "capture_completed_gameplay": true,
+      "acceptance_basis": "full replay of implemented comparisons",
+      "fixture_sha256": "2a1b0f59922f07a05bd2052bd89ebe5f372719a08e63a5cda080da29962b19e3",
+      "mismatch_count": 0,
+      "mismatch_fields": {},
+      "first_mismatches": [],
+      "error_count": 0,
+      "errors": []
+    },
+    "finished_at": "2026-11-15T21:08:04.232239+00:00",
+    "ip": "192.168.1.49",
+    "vmid": 1316
+  },
+  {
+    "id": "roll-long-frame",
+    "source_simfile": "__pass2_controls/roll-long-frame/control.sm",
+    "title": "roll-long-frame",
+    "worker": "control",
+    "started_at": "2026-11-15T21:08:04.234162+00:00",
+    "profile": {
+      "id": "roll-long-frame",
+      "source_simfile": "__pass2_controls/roll-long-frame/control.sm",
+      "title": "roll-long-frame",
+      "style": "single",
+      "difficulty": "Challenge",
+      "gc_mode": "automatic",
+      "capture_fps": 60,
+      "fixed_update_fps": 5,
+      "max_events": 100000,
+      "capture_timeout": 120,
+      "replay_timeout": 120,
+      "simfile_sha256": "bad806a3986d0d381b633abe2b21927ba69595a886e816b345e8bc580067540b",
+      "stage_memory": "6G",
+      "run_role": "reduced-roll-clock-control"
+    },
+    "source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "c93832c509c0842837a7fba3667e797351aab570b30794f7bbb0469cfb30b8a0"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "status": "pass",
+    "stages": {
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-final-validation",
+          "--archive",
+          "/opt/song-lua-audit/pass2-final-results/roll-long-frame/caffee71bc4749ba8a221fdb0b2f3f145a14c093fddb4f42fa224e2de63750e8.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/roll-long-frame/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 3.715,
+        "memory_limit": "12G",
+        "timeout_seconds": 3600,
+        "unit": "lua-pass2-roll-long-frame-final-replay",
+        "service_tail": "2026-11-15T21:08:05+00:00 deadsync-lua-pass2-controls systemd[1]: Started lua-pass2-roll-long-frame-final-replay.service - /opt/song-lua-audit/bin/full_song_lua-final-validation --archive /opt/song-lua-audit/pass2-final-results/roll-long-frame/caffee71bc4749ba8a221fdb0b2f3f145a14c093fddb4f42fa224e2de63750e8.tar --report /opt/song-lua-audit/pass2-final-results/roll-long-frame/report.json.\n2026-11-15T21:08:09+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-roll-long-frame-final-replay.service: Deactivated successfully.\n2026-11-15T21:08:09+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-roll-long-frame-final-replay.service: Consumed 3.650s CPU time, 1.0M memory peak, 0B memory swap peak.\n"
+      },
+      "pack": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-rs",
+          "song-lua-pack",
+          "/opt/song-lua-audit/pass2-final-results/roll-long-frame/caffee71bc4749ba8a221fdb0b2f3f145a14c093fddb4f42fa224e2de63750e8.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/roll-long-frame/report.json",
+          "--out",
+          "/opt/song-lua-audit/pass2-final-results/roll-long-frame/accepted"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 4.235,
+        "memory_limit": "12G",
+        "timeout_seconds": 900,
+        "unit": "lua-pass2-roll-long-frame-final-pack",
+        "service_tail": "2026-11-15T21:08:09+00:00 deadsync-lua-pass2-controls systemd[1]: Started lua-pass2-roll-long-frame-final-pack.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-pack /opt/song-lua-audit/pass2-final-results/roll-long-frame/caffee71bc4749ba8a221fdb0b2f3f145a14c093fddb4f42fa224e2de63750e8.tar --report /opt/song-lua-audit/pass2-final-results/roll-long-frame/report.json --out /opt/song-lua-audit/pass2-final-results/roll-long-frame/accepted.\n2026-11-15T21:08:13+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-roll-long-frame-final-pack.service: Deactivated successfully.\n2026-11-15T21:08:13+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-roll-long-frame-final-pack.service: Consumed 10.510s CPU time, 1.7M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "artifacts": [
+      {
+        "file": "roll-long-frame/accepted/1a253e2f7fcf8cdb4ee2ab3e8fdea48d69d82e4268cc843c55a7b7f4d0c9abe5.tar.zst",
+        "bytes": 107743355,
+        "sha256": "1a253e2f7fcf8cdb4ee2ab3e8fdea48d69d82e4268cc843c55a7b7f4d0c9abe5",
+        "uncompressed_sha256": "caffee71bc4749ba8a221fdb0b2f3f145a14c093fddb4f42fa224e2de63750e8"
+      },
+      {
+        "file": "roll-long-frame/report.json.zst",
+        "bytes": 2535,
+        "sha256": "8492d653ec32dccc355c10d98ed8a79dc6c6fe9712a932e25acfcb9d64a01ca6",
+        "uncompressed_sha256": "9400043c5bf0f11f1d4b50f759f102dac38cac5b67302c6db823eee27fab8e19"
+      }
+    ],
+    "native": {
+      "capture_limits": {
+        "max_events": 100000
+      },
+      "command_observer": {
+        "capture_binary_sha256": "db39e94b0a9f264b85ed8f4aca170e5c1812c74b95d9e236720e212e46e69247",
+        "dynamic_commands": true
+      },
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      },
+      "difficulty": "Difficulty_Challenge",
+      "dropped_drawable_samples": 0,
+      "dropped_events": 0,
+      "dropped_host_clock_inputs": 0,
+      "dropped_input_events": 0,
+      "dropped_random_reseeds": 0,
+      "dropped_script_errors": 0,
+      "dropped_stage_samples": 0,
+      "dropped_update_frames": 0,
+      "end_position": {
+        "beat": 8.049810409545898,
+        "seconds": 4.041904926300049
+      },
+      "harness_version": "0.1.98",
+      "input": {
+        "autoplay": 1,
+        "catalog_preferences": {
+          "global_offset_seconds": -0.00800000037997961,
+          "initialization": "native-catalog-note-time-calculation",
+          "music_rate": 1
+        },
+        "gameplay_preferences": {
+          "column_cue_min_time": 1.5,
+          "default_modifiers": "",
+          "game_mode": "ITG",
+          "initialization": "theme-game-mode",
+          "max_input_latency_seconds": 0,
+          "mod_level": "ModsLevel_Preferred",
+          "music_rate": 1,
+          "players": [
+            {
+              "disabled_timing_windows": [],
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+              "player": "PlayerNumber_P1",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            }
+          ],
+          "timing_window_add": 0.001500000013038516,
+          "timing_window_scale": 1,
+          "timing_windows": {
+            "Attack": 0.13500000536441803,
+            "Checkpoint": 0.1664000004529953,
+            "Hold": 0.3199999928474426,
+            "Mine": 0.07000000029802322,
+            "Roll": 0.3499999940395355,
+            "W1": 0.0215000007301569,
+            "W2": 0.0430000014603138,
+            "W3": 0.10199999809265137,
+            "W4": 0.13500000536441803,
+            "W5": 0.18000000715255737
+          }
+        },
+        "headless_graphics": false,
+        "injected_inputs": false,
+        "lua_gc_mode": "automatic",
+        "native_source": {
+          "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+          "modified_src": false,
+          "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+          "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+        },
+        "observer_frame_period_seconds": 0.01666666666666667,
+        "preferences": {
+          "constant_update_delta_seconds": 0.20000000298023224,
+          "default_sync_offset": "SyncOffset_ITG",
+          "display_aspect_ratio": 1.7777777910232544,
+          "global_offset_seconds": -0.00800000037997961,
+          "last_seen_video_driver": "OpenGL",
+          "visual_delay_seconds": 0
+        },
+        "requested_difficulty": "Challenge",
+        "script": [],
+        "style": "single",
+        "window_visible": false
+      },
+      "schema_version": 1,
+      "script_errors": [],
+      "steps_type": "StepsType_Dance_Single",
+      "style": "single",
+      "transition_script_errors": [
+        {
+          "message": "ActorFrameTexture: Cannot have width or height less than 1",
+          "screen": "ScreenEvaluationStage"
+        }
+      ]
+    },
+    "candidate_sha256": "caffee71bc4749ba8a221fdb0b2f3f145a14c093fddb4f42fa224e2de63750e8",
+    "result_directory": "pass2-final-results",
+    "final_memory": "12G",
+    "runner_sha256": "dd967a2dfc08290363ed4073f3af983782ba3504272a528a18a2ca27db5da57a",
+    "native_capture_reused": true,
+    "capture_result_directory": "pass2-controls-c-results",
+    "capture_source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "9a41d5642a4a7f24b135f28a63f7201c4268da8df74e70ff769085f12adf3c2b"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "capture_archive": {
+      "path": "/opt/song-lua-audit/pass2-controls-c-results/roll-long-frame/accepted/1a253e2f7fcf8cdb4ee2ab3e8fdea48d69d82e4268cc843c55a7b7f4d0c9abe5.tar.zst",
+      "sha256": "1a253e2f7fcf8cdb4ee2ab3e8fdea48d69d82e4268cc843c55a7b7f4d0c9abe5",
+      "uncompressed_sha256": "caffee71bc4749ba8a221fdb0b2f3f145a14c093fddb4f42fa224e2de63750e8"
+    },
+    "comparison": {
+      "whole_song_parity_proven": false,
+      "archive_accepted": true,
+      "execution_path": "diagnostic-live-lua",
+      "production_preparation_exercised": false,
+      "production_parity_proven": false,
+      "native_frames": 592,
+      "replayed_frames": 592,
+      "compared_stage_fields": 154,
+      "pending_coverage": [
+        "missing captured subscriber identity for ScreenGameplay/18",
+        "missing captured subscriber identity for ScreenGameplay/19/1/1",
+        "missing captured subscriber identity for ScreenGameplay/19/1/3",
+        "missing captured subscriber identity for ScreenGameplay/19/1/4",
+        "missing captured subscriber identity for ScreenGameplay/19/1/6",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/11",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/7",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/9",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/9/1",
+        "missing captured subscriber identity for ScreenGameplay/3/1"
+      ],
+      "capture_completed_gameplay": true,
+      "acceptance_basis": "full replay of implemented comparisons",
+      "fixture_sha256": "caffee71bc4749ba8a221fdb0b2f3f145a14c093fddb4f42fa224e2de63750e8",
+      "mismatch_count": 0,
+      "mismatch_fields": {},
+      "first_mismatches": [],
+      "error_count": 0,
+      "errors": []
+    },
+    "finished_at": "2026-11-15T21:08:13.728216+00:00",
+    "ip": "192.168.1.49",
+    "vmid": 1316
+  },
+  {
+    "id": "join-reload-v3",
+    "source_simfile": "__pass2_controls/join-reload/control.sm",
+    "title": "join-reload",
+    "worker": "control",
+    "started_at": "2026-11-15T21:08:13.729984+00:00",
+    "profile": {
+      "id": "join-reload-v3",
+      "source_simfile": "__pass2_controls/join-reload/control.sm",
+      "title": "join-reload",
+      "style": "single",
+      "difficulty": "Challenge",
+      "gc_mode": "automatic",
+      "capture_fps": 60,
+      "max_events": 100000,
+      "capture_timeout": 120,
+      "replay_timeout": 120,
+      "simfile_sha256": "ecef5182b14f29d4a9cd6e1789a662a63ae266c53d884eb0c541ab7446bb3ab0",
+      "stage_memory": "6G",
+      "run_role": "reduced-join-control"
+    },
+    "source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "c93832c509c0842837a7fba3667e797351aab570b30794f7bbb0469cfb30b8a0"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "status": "pass",
+    "stages": {
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-final-validation",
+          "--archive",
+          "/opt/song-lua-audit/pass2-final-results/join-reload-v3/8032f9cd547e41622c0cfd0e2ef844df9ff52ab0c8b2a4699e9a224c47857ebb.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/join-reload-v3/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 3.903,
+        "memory_limit": "12G",
+        "timeout_seconds": 3600,
+        "unit": "lua-pass2-join-reload-v3-final-replay",
+        "service_tail": "2026-11-15T21:08:14+00:00 deadsync-lua-pass2-controls systemd[1]: Started lua-pass2-join-reload-v3-final-replay.service - /opt/song-lua-audit/bin/full_song_lua-final-validation --archive /opt/song-lua-audit/pass2-final-results/join-reload-v3/8032f9cd547e41622c0cfd0e2ef844df9ff52ab0c8b2a4699e9a224c47857ebb.tar --report /opt/song-lua-audit/pass2-final-results/join-reload-v3/report.json.\n2026-11-15T21:08:18+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-join-reload-v3-final-replay.service: Deactivated successfully.\n2026-11-15T21:08:18+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-join-reload-v3-final-replay.service: Consumed 3.838s CPU time, 1.1M memory peak, 0B memory swap peak.\n"
+      },
+      "pack": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-rs",
+          "song-lua-pack",
+          "/opt/song-lua-audit/pass2-final-results/join-reload-v3/8032f9cd547e41622c0cfd0e2ef844df9ff52ab0c8b2a4699e9a224c47857ebb.tar",
+          "--report",
+          "/opt/song-lua-audit/pass2-final-results/join-reload-v3/report.json",
+          "--out",
+          "/opt/song-lua-audit/pass2-final-results/join-reload-v3/accepted"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 4.025,
+        "memory_limit": "12G",
+        "timeout_seconds": 900,
+        "unit": "lua-pass2-join-reload-v3-final-pack",
+        "service_tail": "2026-11-15T21:08:18+00:00 deadsync-lua-pass2-controls systemd[1]: Started lua-pass2-join-reload-v3-final-pack.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-pack /opt/song-lua-audit/pass2-final-results/join-reload-v3/8032f9cd547e41622c0cfd0e2ef844df9ff52ab0c8b2a4699e9a224c47857ebb.tar --report /opt/song-lua-audit/pass2-final-results/join-reload-v3/report.json --out /opt/song-lua-audit/pass2-final-results/join-reload-v3/accepted.\n2026-11-15T21:08:22+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-join-reload-v3-final-pack.service: Deactivated successfully.\n2026-11-15T21:08:22+00:00 deadsync-lua-pass2-controls systemd[1]: lua-pass2-join-reload-v3-final-pack.service: Consumed 9.068s CPU time, 1.8M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "artifacts": [
+      {
+        "file": "join-reload-v3/accepted/4660470145a7aca3ab2a7ed54f4d068ed8c929b2066d456dbc1fa9edef70933c.tar.zst",
+        "bytes": 107766438,
+        "sha256": "4660470145a7aca3ab2a7ed54f4d068ed8c929b2066d456dbc1fa9edef70933c",
+        "uncompressed_sha256": "8032f9cd547e41622c0cfd0e2ef844df9ff52ab0c8b2a4699e9a224c47857ebb"
+      },
+      {
+        "file": "join-reload-v3/report.json.zst",
+        "bytes": 3465,
+        "sha256": "802da993f0adb2128a1ff25703f0657d75dc2abace589eef284fcd9bf69cf10d",
+        "uncompressed_sha256": "c4afda23eb8e93cfe281aa1622af34f441258c7c5c5b78c85e769150f009f6f8"
+      }
+    ],
+    "native": {
+      "capture_limits": {
+        "max_events": 100000
+      },
+      "command_observer": {
+        "capture_binary_sha256": "db39e94b0a9f264b85ed8f4aca170e5c1812c74b95d9e236720e212e46e69247",
+        "dynamic_commands": true
+      },
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      },
+      "difficulty": "Difficulty_Challenge",
+      "dropped_drawable_samples": 0,
+      "dropped_events": 0,
+      "dropped_host_clock_inputs": 0,
+      "dropped_input_events": 0,
+      "dropped_random_reseeds": 0,
+      "dropped_script_errors": 0,
+      "dropped_stage_samples": 0,
+      "dropped_update_frames": 0,
+      "end_position": {
+        "beat": 6.81899356842041,
+        "seconds": 2.601496696472168
+      },
+      "harness_version": "0.1.98",
+      "input": {
+        "autoplay": 1,
+        "catalog_preferences": {
+          "global_offset_seconds": -0.00800000037997961,
+          "initialization": "native-catalog-note-time-calculation",
+          "music_rate": 1
+        },
+        "gameplay_preferences": {
+          "column_cue_min_time": 1.5,
+          "default_modifiers": "",
+          "game_mode": "ITG",
+          "initialization": "theme-game-mode",
+          "max_input_latency_seconds": 0,
+          "mod_level": "ModsLevel_Preferred",
+          "music_rate": 1,
+          "players": [
+            {
+              "disabled_timing_windows": [],
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+              "player": "PlayerNumber_P1",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            }
+          ],
+          "timing_window_add": 0.001500000013038516,
+          "timing_window_scale": 1,
+          "timing_windows": {
+            "Attack": 0.13500000536441803,
+            "Checkpoint": 0.1664000004529953,
+            "Hold": 0.3199999928474426,
+            "Mine": 0.07000000029802322,
+            "Roll": 0.3499999940395355,
+            "W1": 0.0215000007301569,
+            "W2": 0.0430000014603138,
+            "W3": 0.10199999809265137,
+            "W4": 0.13500000536441803,
+            "W5": 0.18000000715255737
+          }
+        },
+        "headless_graphics": false,
+        "injected_inputs": false,
+        "lua_gc_mode": "automatic",
+        "native_source": {
+          "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+          "modified_src": false,
+          "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+          "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+        },
+        "observer_frame_period_seconds": 0.01666666666666667,
+        "preferences": {
+          "constant_update_delta_seconds": 0,
+          "default_sync_offset": "SyncOffset_ITG",
+          "display_aspect_ratio": 1.7777777910232544,
+          "global_offset_seconds": -0.00800000037997961,
+          "last_seen_video_driver": "OpenGL",
+          "visual_delay_seconds": 0
+        },
+        "requested_difficulty": "Challenge",
+        "script": [],
+        "style": "single",
+        "window_visible": false
+      },
+      "schema_version": 1,
+      "script_errors": [],
+      "steps_type": "StepsType_Dance_Single",
+      "style": "versus",
+      "transition_script_errors": [
+        {
+          "message": "ActorFrameTexture: Cannot have width or height less than 1",
+          "screen": "ScreenEvaluationStage"
+        }
+      ]
+    },
+    "candidate_sha256": "8032f9cd547e41622c0cfd0e2ef844df9ff52ab0c8b2a4699e9a224c47857ebb",
+    "result_directory": "pass2-final-results",
+    "final_memory": "12G",
+    "runner_sha256": "dd967a2dfc08290363ed4073f3af983782ba3504272a528a18a2ca27db5da57a",
+    "native_capture_reused": true,
+    "capture_result_directory": "pass2-controls-d-results",
+    "capture_source_snapshot": {
+      "deadsync": {
+        "head": "4bafcb73b8640dcb2e1da391a079193d55caf2e1",
+        "patch_sha256": "40a22d8c82545b1ad2a0141eb48e2b7f7f631bfb030d682a9f483337e47af6c3"
+      },
+      "harness": {
+        "head": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+        "patch_sha256": "1bc644e1a1468834c3b8c7269bc0844d109a59bcc6f3bc92875121c32f93ad57"
+      }
+    },
+    "capture_archive": {
+      "path": "/opt/song-lua-audit/pass2-controls-d-results/join-reload-v3/accepted/4660470145a7aca3ab2a7ed54f4d068ed8c929b2066d456dbc1fa9edef70933c.tar.zst",
+      "sha256": "4660470145a7aca3ab2a7ed54f4d068ed8c929b2066d456dbc1fa9edef70933c",
+      "uncompressed_sha256": "8032f9cd547e41622c0cfd0e2ef844df9ff52ab0c8b2a4699e9a224c47857ebb"
+    },
+    "comparison": {
+      "whole_song_parity_proven": false,
+      "archive_accepted": true,
+      "execution_path": "diagnostic-live-lua",
+      "production_preparation_exercised": false,
+      "production_parity_proven": false,
+      "native_frames": 930,
+      "replayed_frames": 930,
+      "compared_stage_fields": 385,
+      "pending_coverage": [
+        "uncompared song operations: Actor.GetX, GameState.GetEnabledPlayers, GameState.IsSideJoined, GameState.JoinPlayer, PlayerOptions.PlayerAutoPlay",
+        "missing captured subscriber identity for ScreenGameplay/18",
+        "missing captured subscriber identity for ScreenGameplay/19/1/1",
+        "missing captured subscriber identity for ScreenGameplay/19/1/3",
+        "missing captured subscriber identity for ScreenGameplay/19/1/4",
+        "missing captured subscriber identity for ScreenGameplay/19/1/6",
+        "missing captured subscriber identity for ScreenGameplay/2/11/1",
+        "missing captured subscriber identity for ScreenGameplay/2/11/2",
+        "missing captured subscriber identity for ScreenGameplay/2/12/1",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/11",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/7",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/9",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/3/3",
+        "missing captured subscriber identity for ScreenGameplay/2/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/4",
+        "missing captured subscriber identity for ScreenGameplay/2/7/1",
+        "missing captured subscriber identity for ScreenGameplay/2/7/2",
+        "missing captured subscriber identity for ScreenGameplay/2/9/1",
+        "missing captured subscriber identity for ScreenGameplay/2/9/2",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1"
+      ],
+      "capture_completed_gameplay": true,
+      "acceptance_basis": "full replay of implemented comparisons",
+      "fixture_sha256": "8032f9cd547e41622c0cfd0e2ef844df9ff52ab0c8b2a4699e9a224c47857ebb",
+      "mismatch_count": 0,
+      "mismatch_fields": {},
+      "first_mismatches": [],
+      "error_count": 0,
+      "errors": []
+    },
+    "finished_at": "2026-11-15T21:08:23.231758+00:00",
+    "ip": "192.168.1.49",
+    "vmid": 1316
+  }
+]

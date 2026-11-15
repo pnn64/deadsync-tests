@@ -1,0 +1,8 @@
+{
+  "local_patch_sha256": "1b7901a61cb688fb9cbcdb3de55c40d16423013d21e46f6c7d2783f9729ef0e1",
+  "built_patch_sha256": "c93832c509c0842837a7fba3667e797351aab570b30794f7bbb0469cfb30b8a0",
+  "identical_except_git_index_abbreviation": true,
+  "runner_sha256": "dd967a2dfc08290363ed4073f3af983782ba3504272a528a18a2ca27db5da57a",
+  "committed_repairs": "6ea770358113696413b589402cd00d1e44e7ffbf",
+  "committed_source_matches_final_runner": true
+}

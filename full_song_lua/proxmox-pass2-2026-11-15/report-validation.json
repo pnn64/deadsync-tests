@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-11-15T23:27:06.179311+00:00",
+  "unique_primary_ledger_cases": 503,
+  "fresh_primary_cases": 62,
+  "historical_primary_cases": 441,
+  "planned_jobs_completed": 68,
+  "all_59_previous_nonpassing_cases_attempted": true,
+  "final_replays": 53,
+  "accepted_archives_matching_final_passes": 49,
+  "all_fresh_passes_replayed_with_final_runner": true,
+  "runner_sha256": "dd967a2dfc08290363ed4073f3af983782ba3504272a528a18a2ca27db5da57a"
+}

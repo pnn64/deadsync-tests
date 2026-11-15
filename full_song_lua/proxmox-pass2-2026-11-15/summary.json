@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-11-15T23:27:13.553473+00:00",
+  "status": "complete",
+  "baseline_counts": {
+    "pass": 444,
+    "native_lua_error": 5,
+    "parity_failure": 27,
+    "capture_observation_limit": 2,
+    "capture_timeout": 3,
+    "replay_error": 2,
+    "native_crash_handler_hang": 8,
+    "replay_resource_limit": 6,
+    "native_capture_error": 1,
+    "native_crash": 3,
+    "capture_resource_limit": 1,
+    "no_selectable_chart": 1
+  },
+  "latest_available_counts": {
+    "pass": 483,
+    "native_lua_error": 10,
+    "replay_resource_limit": 2,
+    "parity_failure": 4,
+    "native_capture_error": 1,
+    "capture_observation_limit": 2,
+    "no_selectable_chart": 1
+  },
+  "fresh_primary_cases": 62,
+  "historical_primary_cases_not_rerun": 441,
+  "previously_nonpassing_now_pass": 40,
+  "previously_passing_now_nonpass": 1,
+  "primary_attempts_recorded": 68,
+  "planned_primary_and_supplemental_attempts": 68,
+  "final_replays_expected": 53,
+  "final_replays_pending": [],
+  "new_passing_archives_published": 49,
+  "fresh_primary_counts": {
+    "native_lua_error": 10,
+    "pass": 42,
+    "replay_resource_limit": 2,
+    "parity_failure": 4,
+    "native_capture_error": 1,
+    "capture_observation_limit": 2,
+    "no_selectable_chart": 1
+  },
+  "baseline_nonpass_transitions": {
+    "native_lua_error -> native_lua_error": 5,
+    "parity_failure -> pass": 22,
+    "capture_observation_limit -> replay_resource_limit": 2,
+    "parity_failure -> parity_failure": 4,
+    "capture_timeout -> native_lua_error": 1,
+    "replay_error -> native_lua_error": 2,
+    "native_crash_handler_hang -> pass": 8,
+    "replay_resource_limit -> pass": 6,
+    "native_capture_error -> native_capture_error": 1,
+    "native_crash -> pass": 3,
+    "parity_failure -> native_lua_error": 1,
+    "capture_resource_limit -> pass": 1,
+    "capture_timeout -> capture_observation_limit": 2,
+    "no_selectable_chart -> no_selectable_chart": 1
+  },
+  "coverage": "One selected chart/style per simfile. Implemented diagnostic comparisons only; complete rendering/production parity is not proven."
+}

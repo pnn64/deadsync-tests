@@ -1,0 +1,29 @@
+{
+  "id": "ee72a53d84d7fc88-fixed60",
+  "source_simfile": "james/james.ssc",
+  "title": "james",
+  "simfile_sha256": "9c675cd26cc1f0b2c00956c7901ef13957d68ade067469fbfc8abd58dfdecdda",
+  "style": "single",
+  "difficulty": "Challenge",
+  "gc_mode": "automatic",
+  "capture_fps": 60,
+  "max_events": 10000000,
+  "capture_timeout": 1800,
+  "replay_timeout": 2400,
+  "selection_basis": "source chart discovery",
+  "available_charts": [
+    [
+      "dance-single",
+      "Challenge"
+    ]
+  ],
+  "previous_context": null,
+  "estimated_song_seconds": 142.0,
+  "song_folder_bytes": 9162590,
+  "worker": "02-followup-heavy",
+  "previous_status": "capture_timeout",
+  "run_role": "fixed-update-control",
+  "stage_memory": "26G",
+  "fixed_update_fps": 60,
+  "original_worker": "15"
+}

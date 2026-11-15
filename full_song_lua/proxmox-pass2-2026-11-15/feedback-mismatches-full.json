@@ -1,0 +1,431 @@
+{
+  "Apollo/Apollo.sm": [
+    {
+      "field": "command_query_event",
+      "native": {
+        "actor": "external-0020",
+        "args": [
+          0,
+          0,
+          0
+        ],
+        "beat": 209.83631896972656,
+        "caller": {
+          "line": 567,
+          "source": "song:/lua/default.lua",
+          "tail_call": false
+        },
+        "command": "LoopCommand",
+        "definition_id": "def-0004",
+        "detail": {
+          "native_tween_children": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "commands": [],
+                        "name": "HoldJudgment",
+                        "time_left": 0.800000011920929
+                      }
+                    ],
+                    "commands": [],
+                    "name": "",
+                    "time_left": 0.800000011920929
+                  }
+                ]
+              }
+            ],
+            "commands": [],
+            "name": "PlayerP1",
+            "time_left": 0.800000011920929
+          },
+          "native_tween_time_left": 0.800000011920929
+        },
+        "kind": "call",
+        "line": 567,
+        "operation": "Actor.effectmagnitude",
+        "phase": "callback",
+        "scene": 1,
+        "seconds": 76.73308563232422,
+        "seq": 110613,
+        "source": "song:/lua/default.lua",
+        "tween_time_left": 0.800000011920929
+      },
+      "deadsync": {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.effectmagnitude",
+        "source": "song:/lua/default.lua",
+        "line": 567,
+        "phase": "callback",
+        "beat": 209.83631896972656,
+        "seconds": 76.73308563232422,
+        "args": [
+          0,
+          0,
+          0
+        ],
+        "results": [
+          {
+            "actor": "0x6084126abc28",
+            "name": "PlayerP1",
+            "path": "ScreenGameplay/PlayerP1"
+          }
+        ],
+        "tween_time_left": 0
+      }
+    },
+    {
+      "field": "command_query_event",
+      "native": {
+        "actor": "external-0020",
+        "args": [
+          0,
+          0,
+          0
+        ],
+        "beat": 209.83631896972656,
+        "caller": {
+          "line": 567,
+          "source": "song:/lua/default.lua",
+          "tail_call": false
+        },
+        "command": "LoopCommand",
+        "definition_id": "def-0004",
+        "detail": {
+          "native_tween_time_left": 0.800000011920929
+        },
+        "kind": "call",
+        "line": 567,
+        "operation": "Actor.effectmagnitude",
+        "phase": "callback",
+        "scene": 1,
+        "seconds": 76.73308563232422,
+        "seq": 110635,
+        "source": "song:/lua/default.lua",
+        "tween_time_left": 0.800000011920929
+      },
+      "deadsync": {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.effectmagnitude",
+        "source": "song:/lua/default.lua",
+        "line": 567,
+        "phase": "callback",
+        "beat": 209.83631896972656,
+        "seconds": 76.73308563232422,
+        "args": [
+          0,
+          0,
+          0
+        ],
+        "results": [
+          {
+            "actor": "0x6084126abc28",
+            "name": "PlayerP1",
+            "path": "ScreenGameplay/PlayerP1"
+          }
+        ],
+        "tween_time_left": 0
+      }
+    }
+  ],
+  "Megalovania SM5 - [TaroNuke]/megalovania.sm": [
+    {
+      "field": "command_query_event",
+      "native": {
+        "actor": "external-0166",
+        "args": [
+          85.4
+        ],
+        "beat": 465.0469970703125,
+        "callback": "SetUpdateFunction",
+        "caller": {
+          "line": 2183,
+          "source": "song:/lua/default.lua",
+          "tail_call": false
+        },
+        "command": "OnCommand",
+        "definition_id": "def-0259",
+        "detail": {
+          "native_tween_children": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "commands": {
+                      "Init": {
+                        "last_line": 235,
+                        "line": 209,
+                        "source": "@/Themes/itgmania-harness/Graphics/Player judgment.lua"
+                      }
+                    },
+                    "name": "JudgmentWithOffsets",
+                    "time_left": 0.6526390314102173
+                  }
+                ],
+                "commands": {
+                  "Init": {
+                    "last_line": 69,
+                    "line": 66,
+                    "source": "@/Themes/itgmania-harness/Graphics/Player judgment.lua"
+                  }
+                },
+                "name": "Judgment",
+                "time_left": 0.6526390314102173
+              }
+            ],
+            "commands": [],
+            "name": "PlayerP1",
+            "time_left": 0.6526390314102173
+          },
+          "native_tween_time_left": 0.6526390314102173
+        },
+        "kind": "call",
+        "line": 2183,
+        "operation": "Actor.x",
+        "phase": "callback",
+        "scene": 1,
+        "seconds": 124.27875518798828,
+        "seq": 104424,
+        "source": "song:/lua/default.lua",
+        "tween_time_left": 0.6526390314102173
+      },
+      "deadsync": {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.x",
+        "source": "song:/lua/default.lua",
+        "line": 2183,
+        "phase": "callback",
+        "beat": 465.0469970703125,
+        "seconds": 124.27875518798828,
+        "args": [
+          85.4
+        ],
+        "results": [
+          {
+            "actor": "0x55c905088338",
+            "name": "PlayerP1",
+            "path": "ScreenGameplay/PlayerP1"
+          }
+        ],
+        "tween_time_left": 0.9000000357627869
+      }
+    },
+    {
+      "field": "command_query_event",
+      "native": {
+        "actor": "external-0166",
+        "args": [
+          192
+        ],
+        "beat": 465.0469970703125,
+        "callback": "SetUpdateFunction",
+        "caller": {
+          "line": 2183,
+          "source": "song:/lua/default.lua",
+          "tail_call": false
+        },
+        "command": "OnCommand",
+        "definition_id": "def-0259",
+        "detail": {
+          "native_tween_time_left": 0.6526390314102173
+        },
+        "kind": "call",
+        "line": 2183,
+        "operation": "Actor.y",
+        "phase": "callback",
+        "scene": 1,
+        "seconds": 124.27875518798828,
+        "seq": 104425,
+        "source": "song:/lua/default.lua",
+        "tween_time_left": 0.6526390314102173
+      },
+      "deadsync": {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/lua/default.lua",
+        "line": 2183,
+        "phase": "callback",
+        "beat": 465.0469970703125,
+        "seconds": 124.27875518798828,
+        "args": [
+          192
+        ],
+        "results": [
+          {
+            "actor": "0x55c905088338",
+            "name": "PlayerP1",
+            "path": "ScreenGameplay/PlayerP1"
+          }
+        ],
+        "tween_time_left": 0.9000000357627869
+      }
+    }
+  ],
+  "After Dark/After Dark.ssc": [
+    {
+      "field": "command_query_event",
+      "native": {
+        "actor": "external-0087",
+        "args": [
+          0
+        ],
+        "beat": 57.18082046508789,
+        "callback": "SetUpdateFunction",
+        "caller": {
+          "line": 489,
+          "source": "song:/lua/lib.lua",
+          "tail_call": false
+        },
+        "command": "InitCommand",
+        "definition_id": "def-0076",
+        "detail": {
+          "native_tween_children": {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "commands": [],
+                        "name": "HoldJudgment",
+                        "time_left": 0.800000011920929
+                      }
+                    ],
+                    "commands": [],
+                    "name": "",
+                    "time_left": 0.800000011920929
+                  },
+                  {
+                    "children": [
+                      {
+                        "children": [],
+                        "commands": [],
+                        "name": "HoldJudgment",
+                        "time_left": 0.226669043302536
+                      }
+                    ],
+                    "commands": [],
+                    "name": "",
+                    "time_left": 0.226669043302536
+                  }
+                ]
+              },
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "commands": {
+                      "Init": {
+                        "last_line": 235,
+                        "line": 209,
+                        "source": "@/Themes/itgmania-harness/Graphics/Player judgment.lua"
+                      }
+                    },
+                    "name": "JudgmentWithOffsets",
+                    "time_left": 0.32666903734207153
+                  }
+                ],
+                "commands": {
+                  "Init": {
+                    "last_line": 69,
+                    "line": 66,
+                    "source": "@/Themes/itgmania-harness/Graphics/Player judgment.lua"
+                  }
+                },
+                "name": "Judgment",
+                "time_left": 0.32666903734207153
+              }
+            ],
+            "commands": [],
+            "name": "PlayerP1",
+            "time_left": 0.800000011920929
+          },
+          "native_tween_time_left": 0.800000011920929
+        },
+        "kind": "call",
+        "line": 489,
+        "operation": "Actor.sleep",
+        "phase": "callback",
+        "scene": 1,
+        "seconds": 24.16891098022461,
+        "seq": 24600,
+        "source": "song:/lua/lib.lua",
+        "tween_time_left": 0.800000011920929
+      },
+      "deadsync": {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.sleep",
+        "source": "song:/lua/lib.lua",
+        "line": 489,
+        "phase": "callback",
+        "beat": 57.18082046508789,
+        "seconds": 24.16891098022461,
+        "args": [
+          0
+        ],
+        "tween_time_left": 0.32666903734207153
+      }
+    },
+    {
+      "field": "command_query_event",
+      "native": {
+        "actor": "external-0087",
+        "args": [
+          213.25
+        ],
+        "beat": 57.18082046508789,
+        "callback": "SetUpdateFunction",
+        "caller": {
+          "line": 462,
+          "source": "song:/lua/lib.lua",
+          "tail_call": false
+        },
+        "command": "InitCommand",
+        "definition_id": "def-0076",
+        "detail": {
+          "native_tween_time_left": 0.800000011920929
+        },
+        "kind": "call",
+        "line": 462,
+        "operation": "Actor.x",
+        "phase": "callback",
+        "scene": 1,
+        "seconds": 24.16891098022461,
+        "seq": 24601,
+        "source": "song:/lua/lib.lua",
+        "tween_time_left": 0.800000011920929
+      },
+      "deadsync": {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.x",
+        "source": "song:/lua/lib.lua",
+        "line": 462,
+        "phase": "callback",
+        "beat": 57.18082046508789,
+        "seconds": 24.16891098022461,
+        "args": [
+          213.25
+        ],
+        "results": [
+          {
+            "actor": "0x637852315d50",
+            "name": "PlayerP1",
+            "path": "ScreenGameplay/PlayerP1"
+          }
+        ],
+        "tween_time_left": 0.32666903734207153
+      }
+    }
+  ]
+}
