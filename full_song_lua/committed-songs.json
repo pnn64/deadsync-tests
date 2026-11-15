@@ -1062,6 +1062,12 @@
     "archive": "2a023dab1fb201fe1312a899bfa06282a75ca20b4422004c6ef378e944b65f47.tar.zst"
   },
   {
+    "title": "MAWARU! SETSUGETSUKA!",
+    "source_simfile": "mawaru8/mawaru8.sm",
+    "harness_version": "0.1.98",
+    "archive": "2a6f031b6193728d01cf5b46aadbc67725a51927838bb3873846c9cca7b35afb.tar.zst"
+  },
+  {
     "title": "Let Me Hear That",
     "source_simfile": "(R5) Let Me Hear That/let me hear that.sm",
     "harness_version": "0.1.49",
@@ -2428,6 +2434,12 @@
     "source_simfile": "Jack The Reaper/Jack The Reaper.sm",
     "harness_version": "0.1.80",
     "archive": "668b5d9e3eb1f2d5789b3e194b478936406cae05d570336c110b3d5637aeb2ad.tar.zst"
+  },
+  {
+    "title": "THE WORLD REVOLVING",
+    "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.sm",
+    "harness_version": "0.1.98",
+    "archive": "66d8f1c00329c27430fb493175a7858d3af64035e6de031f5e3a4b26d1175b9f.tar.zst"
   },
   {
     "title": "99+",
