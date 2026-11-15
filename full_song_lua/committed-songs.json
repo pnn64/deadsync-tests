@@ -4482,6 +4482,12 @@
     "archive": "be146bff0ca90ebfaaeb710d830667ca06e743e970678978b50dc3c72ea11ce7.tar.zst"
   },
   {
+    "title": "Botanic Panic",
+    "source_simfile": "Cuphead [TaroNuke]/botanic.sm",
+    "harness_version": "0.1.98",
+    "archive": "be57cf6a2ba4feaea5005992a9f3176533d8262ff3796049262675c96ea8f4c4.tar.zst"
+  },
+  {
     "title": "Gallium Phosphide",
     "source_simfile": "Gallium Phosphide/Gallium Phosphide.ssc",
     "harness_version": "0.1.0",
@@ -5190,6 +5196,12 @@
     "archive": "e2514fd1aa14aa7b969ce0c138c37228a3b78c6361ea2822926fe31a9604e02f.tar.zst"
   },
   {
+    "title": "Mr. Sandman",
+    "source_simfile": "mr sandman/mr sandman.sm",
+    "harness_version": "0.1.98",
+    "archive": "e27c4a2ec493587a553cf2809c4c32fafd5f0779ca6fc5b8660984e7dbe8e781.tar.zst"
+  },
+  {
     "title": "IT'S A GHOST!!!!! AAAAAaAAAaAAaAaAAaAaAAAA",
     "source_simfile": "ghost [Telperion]/ghost.ssc",
     "harness_version": "0.1.80",
@@ -5260,6 +5272,12 @@
     "source_simfile": "REASON for RED/reasonforgay.ssc",
     "harness_version": "0.1.80",
     "archive": "e72e37d50450553bbaeade1ad717122755d91dedb006873a46d226c22f4a3b47.tar.zst"
+  },
+  {
+    "title": "MAWARU SIMULATOR 2016",
+    "source_simfile": "mawaru9/mawaru9.sm",
+    "harness_version": "0.1.98",
+    "archive": "e765e585063f207516a472cabb6eb5d2e98bbd46dfb86e7f64a50c1d6c288c91.tar.zst"
   },
   {
     "title": "Tower Power Pokey Battle",
