@@ -864,6 +864,12 @@
     "archive": "23c86a31465111cd8d16560ef36b3158389b7963624f47e46486dfebc6525244.tar.zst"
   },
   {
+    "title": "Bad Apple!!",
+    "source_simfile": "Bad Apple!!/Bad Apple!!.sm",
+    "harness_version": "0.1.98",
+    "archive": "243bc76da25b83351020c844ca3c73239a118bed0cf338c6f3a397db9c257cc2.tar.zst"
+  },
+  {
     "title": "RUNWAY",
     "source_simfile": "RUNWAY/RUNWAY.ssc",
     "harness_version": "0.1.80",
@@ -1588,6 +1594,12 @@
     "source_simfile": "1035/1035.sm",
     "harness_version": "0.1.49",
     "archive": "4131f2a7a418e19205e0e1f3c2e23cc78334699d2db3049e949a1b65ef356054.tar.zst"
+  },
+  {
+    "title": "Brain Power",
+    "source_simfile": "Brain Power - [Cardboard Box]/Brain Power.ssc",
+    "harness_version": "0.1.98",
+    "archive": "41859995b4015e1111ccb7d72c33758b379ad99130e086b650371e494f2acb9b.tar.zst"
   },
   {
     "title": "TRIP MACHINE -Resuscitation MIX-",
@@ -2596,6 +2608,12 @@
     "source_simfile": "probe/probe.sm",
     "harness_version": "0.1.23",
     "archive": "731b70e429065ffd298ff1aea692b77fee2b2a642790f415f92e4e843f1e163f.tar.zst"
+  },
+  {
+    "title": "あんずのうた",
+    "source_simfile": "Anzu no Uta (U.P.S.)/Anzu no Uta.sm",
+    "harness_version": "0.1.98",
+    "archive": "732d68f18b4b9f420c447526d8c3a8d73a919495af0f6394e2b15c1447f1830b.tar.zst"
   },
   {
     "title": "242|MISC.|[lv.02] ChikuTaku",
@@ -4206,6 +4224,12 @@
     "archive": "b5b80f9debd5dcfd521ea77bc31f2af748b5890615d7417452b57b0c7536b3b1.tar.zst"
   },
   {
+    "title": "My Penny",
+    "source_simfile": "My Penny/My Penny.ssc",
+    "harness_version": "0.1.98",
+    "archive": "b5d2abf91e4fbf74d277dc90deef82302603df69766a4e82f60708ae579001a1.tar.zst"
+  },
+  {
     "title": "See Tinh 「Cukak Remix」 [REQUIRES 2 PLAYERS]",
     "source_simfile": "See Tinh/See Tinh.ssc",
     "harness_version": "0.1.80",
@@ -4492,6 +4516,12 @@
     "source_simfile": "Someone Special - hubert/Someone Special.ssc",
     "harness_version": "0.1.0",
     "archive": "c41e7b12a9fa27155d4244917c25db042a1e3d84b1a7a9449b71f7986b2182a8.tar.zst"
+  },
+  {
+    "title": "Spectrum",
+    "source_simfile": "Spectrum (Odyssey's Prism Mix) [Telperion]/spectrod.ssc",
+    "harness_version": "0.1.98",
+    "archive": "c51f9af5713ebf0d5858c775a07ffbfb7c050aeb28cc1b5c6bc21a19a3f4e94c.tar.zst"
   },
   {
     "title": "B.B.K.K.B.K.K.",
@@ -5200,6 +5230,12 @@
     "source_simfile": "Spectrum Sequence/spectrumsequence.ssc",
     "harness_version": "0.1.0",
     "archive": "eb5ec789e6f5cb86e47dd64d1c5b184245357e239f0f203254f5c3847c87a45d.tar.zst"
+  },
+  {
+    "title": "274|MODS|[lv.04] 最強STRONGER",
+    "source_simfile": "274-MODS-[lv.04] SAIKYOU STRONGER/REDALiCE_vs_USAO_-_STRONGER.ssc",
+    "harness_version": "0.1.98",
+    "archive": "eb8ebcc81c3591d621e7995c9724474c051752380fb5e18c8e271c7a09ef713d.tar.zst"
   },
   {
     "title": "Myths You Forgot",
