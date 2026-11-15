@@ -1,0 +1,274 @@
+[
+  {
+    "id": "05f550917c3e16a7",
+    "report_sha256": "97e72a014f72f93085d287439956fb120601a7c5c70d87586632fb6b756427e5",
+    "command_queries.compared": true,
+    "command_queries.native_count": 2,
+    "command_queries.actual_count": 2,
+    "source_simfile": "cards/sm.ssc"
+  },
+  {
+    "id": "206471d331202435",
+    "report_sha256": "1cc50dc806e4700fe312f9bc68c5170dd6a4dbb43f8d9b2fe0d46fcd11cf2f17",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "mawaru1/mawaru.sm"
+  },
+  {
+    "id": "060dd2e43146562d",
+    "report_sha256": "df90f2a0d61af66736515cc57747d5bb4e9f74cac078904578aeb92f6be5633e",
+    "command_queries.compared": true,
+    "command_queries.native_count": 6,
+    "command_queries.actual_count": 6,
+    "source_simfile": "Wobbpotato [Blue Shift Phase 1]/wobbpotato.ssc"
+  },
+  {
+    "id": "273170f92248917b",
+    "report_sha256": "6393b9fee532de5f063829d72a452fad67e12aedfbe1db00e64210535cfbfa7a",
+    "command_queries.compared": true,
+    "command_queries.native_count": 2,
+    "command_queries.actual_count": 2,
+    "source_simfile": "Cat Hack/Cat Hacks.ssc"
+  },
+  {
+    "id": "9ceaae2441fe1203",
+    "report_sha256": "f564de2d0669809daf4cb31bdd7c190e367dad1c10f0477820a04a7f253ec18a",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Oil Ocean Act 2/steps.sm"
+  },
+  {
+    "id": "c893672a26e2b70c",
+    "report_sha256": "472b3885b67f5dbaeeaeebcddabb54f72d8ce8282bfc5708c0259f9b1a8e6d41",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Sequential Dreambox - [Zaia]/Sequential Dreambox.ssc"
+  },
+  {
+    "id": "07ac78a6da76a5b5",
+    "report_sha256": "0d86466041f7ead0d6a0122d3d9567b6f7d571032dff252f302df3623bb44ec8",
+    "command_queries.compared": true,
+    "command_queries.native_count": 2,
+    "command_queries.actual_count": 2,
+    "source_simfile": "Waiting/Waiting.ssc"
+  },
+  {
+    "id": "5be5d671acef02e8",
+    "report_sha256": "a62159fd25ea38e70596499b591471349ba1d013656567e002b886085e7d27d9",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Ztar Trek/steps.sm"
+  },
+  {
+    "id": "f7a2bad131d8842f",
+    "report_sha256": "47c9dbc5ba45cf474be78664c2abb49e435aa292e88536dce650f7e5209350c9",
+    "command_queries.compared": true,
+    "command_queries.native_count": 6,
+    "command_queries.actual_count": 6,
+    "source_simfile": "Wobbpotato [Egg Carton 3]/wobbpotato.ssc"
+  },
+  {
+    "id": "106fc438f82f1926",
+    "report_sha256": "9471a2002e1b944ad2e13f32947bdbfe19f8bd723bc72bc94fc083834aa373ee",
+    "command_queries.compared": true,
+    "command_queries.native_count": 2,
+    "command_queries.actual_count": 2,
+    "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc"
+  },
+  {
+    "id": "3793287dc1cc7dd5",
+    "report_sha256": "ee4804cbb3334c5095726d9579dd8fd1a143a63ebf277d0698213309e595c163",
+    "command_queries.compared": true,
+    "command_queries.native_count": 2,
+    "command_queries.actual_count": 2,
+    "source_simfile": "Cat Hack/Cat Hacks.sm"
+  },
+  {
+    "id": "11205e6997187207",
+    "report_sha256": "fcf7e6a6e5306117b4c2f17168ba6202f48246f764d9391e1d7ead7a3389362f",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Ascendanz/Ascendanz.ssc"
+  },
+  {
+    "id": "f996111c68150ced",
+    "report_sha256": "060b759e322e098bc300a02e7ee5b1dd62382dee789f116f0285d12004cf1885",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Over the Top - [Zaia][FX]/Over the Top.sm"
+  },
+  {
+    "id": "12e625ce625e261a",
+    "report_sha256": "67606eac1619cb83c5372c529371dd4d7fc6f3ea0f7ac2a500d8de61c4fbbca3",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Loyal Divide [TaroNuke]/Loyal Divide.sm"
+  },
+  {
+    "id": "5996cb1bf517a580",
+    "report_sha256": "3078aa7a120a3d1142a921225f3630f2c1ebf026efeaae921f5bfc90f54edf2b",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Potion [Flood_]/Shisui Michiru - Potion (Cut Ver).sm"
+  },
+  {
+    "id": "5e06cad06be50156",
+    "report_sha256": "97d0b8148d836b32a30855f11cbef6247d03d7540fbfa929c199133aa306f707",
+    "command_queries.compared": true,
+    "command_queries.native_count": 2,
+    "command_queries.actual_count": 2,
+    "source_simfile": "cards/sm.sm"
+  },
+  {
+    "id": "ce08596ced8c1a82",
+    "report_sha256": "964e21411c5acf5a714df86c64ca07a32c6f91e4251735778f2cede1dc6b7d72",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Vanishing Point - [Zaia][FX]/Vanishing Point.sm"
+  },
+  {
+    "id": "18ce02683c733e00",
+    "report_sha256": "90352050f074009511ee84e519de33697194b0bce5b337f1607069d1a2cc1d51",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "I Really Like You [dbk2]/I Really Like You.sm"
+  },
+  {
+    "id": "38602f3b4c159b26",
+    "report_sha256": "6daa5b146e46b00405812ed1d2e87c676c901d2fd249c781d69e71ab1c30c03c",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "the fresh prince of bel air (razihel remix)/steps.sm"
+  },
+  {
+    "id": "8bbbbd0a227889ec",
+    "report_sha256": "20a4a5c6a974fded53c38b4bd05dce55e8bc727a51dadaa739537881f66c152a",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Lots of Spices - [tari]/spices.ssc"
+  },
+  {
+    "id": "9a17ba96ce6150bd",
+    "report_sha256": "f55eff725e6205b8248fdd365320779a082c655a3ad995a22f3d26d72e426ff7",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "assgore/goatdad.sm"
+  },
+  {
+    "id": "3bd84fe8e4f26966",
+    "report_sha256": "07964b850d45d5a3bd57e1492c5f43c04f440c5c30fbe214a566b852d91bbf50",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Fortuna Redux - [Zaia]/Fortuna Redux.sm"
+  },
+  {
+    "id": "78332255bc11a219",
+    "report_sha256": "263bb17fa6cf4a0ad61a34db5aeeeda74ca7c6b5083bd7e5b7c412bb60b521e2",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Midnight Madness/midnight.sm"
+  },
+  {
+    "id": "9e59effe9cf00022",
+    "report_sha256": "60662049158b6d42ebedf90b23a1ec5e96f7f8512a5cc83f4cadb0d614c201ac",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Crab Nicholson Extreme Sleepover/Crab Nicholson Extreme Sleepover.sm"
+  },
+  {
+    "id": "9e5cb2c801c247a3",
+    "report_sha256": "0723ed6ec2a978bac69cca471c020d06c71942e43306e3029355f7c4cb3cd6b5",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "[12] Ascendanz/Ascendanz.ssc"
+  },
+  {
+    "id": "53da0d7a82127af7",
+    "report_sha256": "494cfa709ced6940917e55166155c79021ebd9e4c9a2d23e9a1ea24f78100167",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Rayc Fire 2/Rayc Fire 2.ssc"
+  },
+  {
+    "id": "78f10d924a8b9bd9",
+    "report_sha256": "2ff0eb6813d63b6a2db2ef9298bc5a63973e49927fe0a92ea75101d75af45290",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Number 9/1556 - Number 9.sm"
+  },
+  {
+    "id": "8e2cc50f6bd76919",
+    "report_sha256": "37f7ee36bb88c43acb7f867893cb16388b8b5e9d27ef92e7a3c71f7bf299ee44",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Bank Account/Bank Account.sm"
+  },
+  {
+    "id": "a760ce2ddf9433d4",
+    "report_sha256": "f9c95395ce88e71fcdb75bea0a998e5ad4be3262aa2d132b479bce8f25f570a3",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "If You Crump Stand Up/crump.sm"
+  },
+  {
+    "id": "bd08439da170a94d",
+    "report_sha256": "615ef883c35c76c31815913cb7f482a423bbe697bfd65b49da4c988f8c6bb638",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "No Role Modelz/No Role Modelz.sm"
+  },
+  {
+    "id": "5a998294ae8b6156",
+    "report_sha256": "80205cafe7bf4c9aeaca2a30ef025d398b36b0fb5d0ca1f8933e0a64cd8da617",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Rayc Fire 2/Rayc Fire 2.sm"
+  },
+  {
+    "id": "9bb480a1fda3b13d",
+    "report_sha256": "342ba1879bff470a2875e57411f446726056a357f2a66d41ff4e82d6b82add88",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "OK/OK.ssc"
+  },
+  {
+    "id": "c470f90cddf5720c",
+    "report_sha256": "0deca8a3a4d89cdbbcb76128b5db36936223f3def06e99fc0c1c0e012278d316",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Longinus - [Zaia]/Longinus.sm"
+  },
+  {
+    "id": "f491b527eed47496",
+    "report_sha256": "af81b3627aa8578ab99efcdee19ed263cc638f982d79a7ba6b9733c2f12affb0",
+    "command_queries.compared": true,
+    "command_queries.native_count": 0,
+    "command_queries.actual_count": 0,
+    "source_simfile": "Vector Field/Vector Field.ssc"
+  }
+]

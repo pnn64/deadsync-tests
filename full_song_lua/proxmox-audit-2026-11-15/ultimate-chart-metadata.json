@@ -1,0 +1,6 @@
+{
+  "library": "/opt/song-lua-audit/deadsync/target/release/deps/libdeadsync_simfile-915a5f07d766d59b.rlib",
+  "library_sha256": "1bc8de210af1a9f1b86d95be106f017174b6979abd5d506ab1ad038ba46eb35e",
+  "source_sha256": "7454f6c9c62bd3acb58153c995c3d6743f9af0b9829ff0e5abdbb96931afb558",
+  "output": "duration=0 last=1.863 note_last=Some(1.863) first=-0.137 hint=0 offset=0.137 charts=3\nchart=\"dance-single\" difficulty=\"Challenge\" measures=1 first=-0.137 grade_points=19435\nchart=\"dance-single\" difficulty=\"Hard\" measures=1 first=-0.137 grade_points=9715\nchart=\"dance-double\" difficulty=\"Challenge\" measures=1 first=-0.137 grade_points=16585\nduration=95 last=1.863 note_last=Some(1.863) first=-0.137 hint=0 offset=0.137 charts=3\nchart=\"dance-single\" difficulty=\"Challenge\" measures=1 first=-0.137 grade_points=19435\nchart=\"dance-single\" difficulty=\"Hard\" measures=1 first=-0.137 grade_points=9715\nchart=\"dance-double\" difficulty=\"Challenge\" measures=1 first=-0.137 grade_points=16585\n"
+}

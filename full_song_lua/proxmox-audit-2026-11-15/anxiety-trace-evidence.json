@@ -1,0 +1,1152 @@
+{
+  "case": "7c462fc586e600b3",
+  "native_member": "trace/semantic.json",
+  "roots": [
+    "def-0003",
+    "def-0006"
+  ],
+  "frames_by_scene": {
+    "1": 338,
+    "2": 12245
+  },
+  "creation_counts": {
+    "1": 3,
+    "2": 3
+  },
+  "creation_inputs": [
+    {
+      "actor": "def-0003",
+      "before_seq": 5,
+      "definition_id": "def-0003",
+      "ordinal": 1,
+      "parent": "external-0005",
+      "pointer_hex": "6295e3075e30",
+      "provenance": "native-ActorUtil-before-LoadFromNode",
+      "scene": 1,
+      "parent_record": {
+        "id": "external-0005",
+        "name": "SongForeground",
+        "path": "SongForeground"
+      }
+    },
+    {
+      "actor": "def-0001",
+      "before_seq": 5,
+      "definition_id": "def-0001",
+      "ordinal": 2,
+      "parent": "def-0003",
+      "pointer_hex": "6295e3062690",
+      "provenance": "native-ActorUtil-before-LoadFromNode",
+      "scene": 1,
+      "parent_record": {
+        "definition_id": "def-0003",
+        "id": "def-0003",
+        "name": "",
+        "path": "def-0003"
+      }
+    },
+    {
+      "actor": "def-0002",
+      "before_seq": 8,
+      "definition_id": "def-0002",
+      "ordinal": 3,
+      "parent": "def-0003",
+      "pointer_hex": "6295e3059040",
+      "provenance": "native-ActorUtil-before-LoadFromNode",
+      "scene": 1,
+      "parent_record": {
+        "definition_id": "def-0003",
+        "id": "def-0003",
+        "name": "",
+        "path": "def-0003"
+      }
+    },
+    {
+      "actor": "def-0006",
+      "before_seq": 60,
+      "definition_id": "def-0006",
+      "ordinal": 4,
+      "parent": "external-0026",
+      "pointer_hex": "6295e33e7e40",
+      "provenance": "native-ActorUtil-before-LoadFromNode",
+      "scene": 2,
+      "parent_record": {
+        "id": "external-0026",
+        "name": "SongForeground",
+        "path": "SongForeground"
+      }
+    },
+    {
+      "actor": "def-0004",
+      "before_seq": 60,
+      "definition_id": "def-0004",
+      "ordinal": 5,
+      "parent": "def-0006",
+      "pointer_hex": "6295e33e8cc0",
+      "provenance": "native-ActorUtil-before-LoadFromNode",
+      "scene": 2,
+      "parent_record": {
+        "definition_id": "def-0006",
+        "id": "def-0006",
+        "name": "",
+        "path": "def-0006"
+      }
+    },
+    {
+      "actor": "def-0005",
+      "before_seq": 63,
+      "definition_id": "def-0005",
+      "ordinal": 6,
+      "parent": "def-0006",
+      "pointer_hex": "6295e3712090",
+      "provenance": "native-ActorUtil-before-LoadFromNode",
+      "scene": 2,
+      "parent_record": {
+        "definition_id": "def-0006",
+        "id": "def-0006",
+        "name": "",
+        "path": "def-0006"
+      }
+    }
+  ],
+  "events": [
+    [
+      [
+        1,
+        "query",
+        "ScreenManager.GetTopScreen"
+      ],
+      3
+    ],
+    [
+      [
+        1,
+        "call",
+        "GameState.JoinPlayer"
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        "call",
+        "ScreenManager.SystemMessage"
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        "call",
+        "ScreenManager.SetNewScreen"
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        "call",
+        "Actor.FullScreen"
+      ],
+      1
+    ],
+    [
+      [
+        2,
+        "query",
+        "ScreenManager.GetTopScreen"
+      ],
+      23826
+    ],
+    [
+      [
+        2,
+        "call",
+        "Actor.FullScreen"
+      ],
+      1
+    ],
+    [
+      [
+        2,
+        "call",
+        "ScreenManager.SystemMessage"
+      ],
+      2
+    ]
+  ],
+  "examples": [
+    {
+      "args": [],
+      "beat": 0.010135330259799957,
+      "caller": {
+        "line": 270,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0003",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0011",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 1,
+      "seconds": 0.3471655249595642,
+      "seq": 9,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.010135330259799957,
+      "caller": {
+        "line": 270,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0003",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0011",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 1,
+      "seconds": 0.3471655249595642,
+      "seq": 14,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.010135330259799957,
+      "caller": {
+        "line": 270,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0003",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0011",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 1,
+      "seconds": 0.3471655249595642,
+      "seq": 16,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [
+        "PlayerNumber_P2"
+      ],
+      "beat": 0.010135330259799957,
+      "caller": {
+        "line": 270,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0003",
+      "kind": "call",
+      "line": 270,
+      "operation": "GameState.JoinPlayer",
+      "phase": "callback",
+      "scene": 1,
+      "seconds": 0.3471655249595642,
+      "seq": 19,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [
+        "You can't avoid it forever, We won't let you walk alone."
+      ],
+      "beat": 0.010135330259799957,
+      "caller": {
+        "line": 270,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0003",
+      "kind": "call",
+      "line": 270,
+      "operation": "ScreenManager.SystemMessage",
+      "phase": "callback",
+      "scene": 1,
+      "seconds": 0.3471655249595642,
+      "seq": 23,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [
+        "ScreenGameplay"
+      ],
+      "beat": 0.010135330259799957,
+      "caller": {
+        "line": 270,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0003",
+      "kind": "call",
+      "line": 270,
+      "operation": "ScreenManager.SetNewScreen",
+      "phase": "callback",
+      "scene": 1,
+      "seconds": 0.3471655249595642,
+      "seq": 39,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "actor": "def-0002",
+      "args": [],
+      "beat": 0.010135330259799957,
+      "caller": {
+        "line": 371,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0002",
+      "detail": {
+        "native_tween_time_left": 0
+      },
+      "kind": "call",
+      "line": 371,
+      "operation": "Actor.FullScreen",
+      "phase": "callback",
+      "scene": 1,
+      "seconds": 0.3471655249595642,
+      "seq": 50,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 270,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 64,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 270,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 71,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 270,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 73,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 270,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 80,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 128,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 88,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 128,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 95,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 128,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 97,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 128,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 104,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 128,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 110,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 128,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 118,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 128,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 121,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 128,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 129,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 270,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 133,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "actor": "def-0005",
+      "args": [],
+      "beat": 0.03562663868069649,
+      "caller": {
+        "line": 371,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0005",
+      "detail": {
+        "native_tween_time_left": 0
+      },
+      "kind": "call",
+      "line": 371,
+      "operation": "Actor.FullScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 150,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 164,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.03562663868069649,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3579365015029907,
+      "seq": 170,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.07829105108976364,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3759637176990509,
+      "seq": 194,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.07829105108976364,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.3759637176990509,
+      "seq": 200,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.1180575042963028,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.39276644587516785,
+      "seq": 209,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.1180575042963028,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.39276644587516785,
+      "seq": 216,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.1180575042963028,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.39276644587516785,
+      "seq": 222,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.1577702909708023,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.40954649448394775,
+      "seq": 237,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.1577702909708023,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.40954649448394775,
+      "seq": 243,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.19748306274414062,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.42632654309272766,
+      "seq": 258,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.19748306274414062,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.42632654309272766,
+      "seq": 264,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.23719577491283417,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.4431065618991852,
+      "seq": 279,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.23719577491283417,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.4431065618991852,
+      "seq": 285,
+      "source": "song:/lua/default.lua"
+    },
+    {
+      "args": [],
+      "beat": 0.2769085466861725,
+      "callback": "SetUpdateFunction",
+      "caller": {
+        "line": 185,
+        "source": "song:/lua/default.lua",
+        "tail_call": false
+      },
+      "command": "OnCommand",
+      "definition_id": "def-0006",
+      "detail": {
+        "results": [
+          {
+            "actor": "external-0029",
+            "name": "ScreenGameplay",
+            "path": "ScreenGameplay"
+          }
+        ]
+      },
+      "kind": "query",
+      "line": 270,
+      "operation": "ScreenManager.GetTopScreen",
+      "phase": "callback",
+      "scene": 2,
+      "seconds": 0.4598866105079651,
+      "seq": 300,
+      "source": "song:/lua/default.lua"
+    }
+  ],
+  "style": "versus",
+  "input_style": "single",
+  "completion": {
+    "next_screen": "ScreenEvaluationStage",
+    "reason": "gameplay-exit",
+    "stage_committed": true,
+    "stages_played_after": 1,
+    "stages_played_before": 0
+  }
+}

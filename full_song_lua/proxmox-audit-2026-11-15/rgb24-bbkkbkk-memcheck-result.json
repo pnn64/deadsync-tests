@@ -1,0 +1,52 @@
+{
+  "id": "rgb24-bbkkbkk-memcheck",
+  "primary_id": "bd062750cefe5be7",
+  "source_simfile": "Metronogik/Song.ssc",
+  "worker": "large",
+  "started_at": "2026-11-15T16:42:21.536348+00:00",
+  "status": "native_memory_diagnostic_completed",
+  "stages": {
+    "memcheck": {
+      "command": [
+        "python3",
+        "-c",
+        "import os,sys;os.chdir(sys.argv[1]);os.execvpe(sys.argv[2],sys.argv[2:],dict(os.environ,ITGMANIA_HARNESS_HEADLESS='1'))",
+        "/opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage",
+        "valgrind",
+        "--tool=memcheck",
+        "--num-callers=30",
+        "--leak-check=no",
+        "--undef-value-errors=no",
+        "--error-exitcode=77",
+        "--exit-on-first-error=yes",
+        "--log-file=/opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/valgrind.log",
+        "/opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace",
+        "--game=dance",
+        "--theme=itgmania-harness"
+      ],
+      "exit": 77,
+      "elapsed_seconds": 55.189,
+      "memory_limit": "3G",
+      "timeout_seconds": 600,
+      "unit": "lua-audit-rgb24-bbkkbkk-memcheck-memcheck",
+      "service_tail": "2026-11-15T16:42:23+00:00 deadsync-lua-large-retry systemd[1]: Started lua-audit-rgb24-bbkkbkk-memcheck-memcheck.service - /usr/bin/python3 -c \"import os,sys;os.chdir(sys.argv[1]);os.execvpe(sys.argv[2],sys.argv[2:],dict(os.environ,ITGMANIA_HARNESS_HEADLESS='1'))\" /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage valgrind --tool=memcheck --num-callers=30 --leak-check=no --undef-value-errors=no --error-exitcode=77 --exit-on-first-error=yes --log-file=/opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/valgrind.log /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace --game=dance --theme=itgmania-harness.\n2026-11-15T16:43:18+00:00 deadsync-lua-large-retry systemd[1]: lua-audit-rgb24-bbkkbkk-memcheck-memcheck.service: Main process exited, code=exited, status=77/NOPERM\n2026-11-15T16:43:18+00:00 deadsync-lua-large-retry systemd[1]: lua-audit-rgb24-bbkkbkk-memcheck-memcheck.service: Failed with result 'exit-code'.\n2026-11-15T16:43:18+00:00 deadsync-lua-large-retry systemd[1]: lua-audit-rgb24-bbkkbkk-memcheck-memcheck.service: Consumed 51.484s CPU time, 1.0M memory peak, 0B memory swap peak.\n"
+    }
+  },
+  "artifacts": [
+    {
+      "file": "rgb24-bbkkbkk-memcheck/valgrind.log.zst",
+      "bytes": 1172,
+      "sha256": "66d5c1323f866e13a597e0c39a843b8ff1bb30dc370fe03a9ee636aedeabfb8a",
+      "uncompressed_sha256": "644243be3989b07c0bc4a02028b2b2994488d969b06017562580708349a6e329"
+    }
+  ],
+  "purpose": "Supplemental Valgrind memory diagnosis of the unchanged binary using a copied native staging directory; no parity verdict.",
+  "reduced_input": {
+    "movie": "BBKKBKK [UPS 4]/video/bbkkbkk.mp4",
+    "sha256": "1aecc17a943cd11208deb76d5d566ca316487edf98dd3e53e04effaa195ed992",
+    "description": "Replace only the movie banner in the isolated Metronogik staging copy to exercise another source movie through the same native decoder; not a whole-song comparison."
+  },
+  "native_binary_sha256": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a",
+  "debugger_output": "==25366== Memcheck, a memory error detector\n==25366== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.\n==25366== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info\n==25366== Command: /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace --game=dance --theme=itgmania-harness\n==25366== Parent PID: 1\n==25366== \n==25366== Invalid write of size 8\n==25366==    at 0x18557F6: ??? (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x11A9A83F: ???\n==25366==    by 0x11EA86FF: ???\n==25366==  Address 0x121ef97a is 1,915,194 bytes inside a block of size 1,915,200 alloc'd\n==25366==    at 0x48485C3: operator new[](unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)\n==25366==    by 0x8B0A23: CreateSurface(int, int, int, unsigned int, unsigned int, unsigned int, unsigned int) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x6301E1: RageMovieTextureDriver_FFMpeg::AVCodecCreateCompatibleSurface(int, int, bool, int&, MovieDecoderPixelFormatYCbCr&) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x63033D: MovieDecoder_FFMpeg::CreateCompatibleSurface(int, int, bool, MovieDecoderPixelFormatYCbCr&) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x633990: MovieTexture_Generic::CreateTexture() (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x6346BF: MovieTexture_Generic::Init[abi:cxx11]() (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x631037: RageMovieTextureDriver_FFMpeg::Create(RageTextureID, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x62E406: RageMovieTexture::Create(RageTextureID) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x8C6462: RageTextureManager::LoadTextureInternal(RageTextureID) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x8C6946: RageTextureManager::LoadTexture(RageTextureID) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x502B5F: Sprite::LoadFromTexture(RageTextureID) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x502E65: Sprite::Load(RageTextureID) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x5DB262: Banner::Load(RageTextureID, bool) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x5DD51F: Banner::LoadFromSong(Song*) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x5E3252: LunaBanner::LoadFromSong(Banner*, lua_State*) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0xB4FBBA: luaD_precall (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0xB610E9: luaV_execute (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0xB5023C: luaD_call (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0xB4F4B2: luaD_rawrunprotected (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0xB504BF: luaD_pcall (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0xB4872A: lua_pcall (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x41E767: LuaHelpers::RunScriptOnStack(lua_State*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int, int, bool) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0xABABAF: Actor::RunCommands(LuaReference const&, LuaReference const*) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x43556D: MessageManager::Broadcast(Message&) const (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x4357B7: MessageManager::Broadcast(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x9268FD: ScreenGameplay::LoadNextSong() (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x930B91: ScreenGameplay::Init() (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0x9399F7: CreateScreenGameplayNormal(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0xAA2F91: ScreenManager::MakeNewScreen(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366==    by 0xAA491A: ScreenManager::PrepareScreen(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /opt/song-lua-audit/results/rgb24-bbkkbkk-memcheck/stage/ITGmania-harness-trace)\n==25366== \n==25366== \n==25366== Exit program on first error (--exit-on-first-error=yes)\n",
+  "finished_at": "2026-11-15T16:43:18.677265+00:00"
+}

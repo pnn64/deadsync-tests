@@ -1,0 +1,198 @@
+[New LWP 4489]
+[New LWP 4488]
+[New LWP 4487]
+[New LWP 4479]
+[New LWP 4478]
+[New LWP 4477]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+0x00007b321091f09c in __GI_fsync (fd=7) at ../sysdeps/unix/sysv/linux/fsync.c:27
+
+warning: 27	../sysdeps/unix/sysv/linux/fsync.c: No such file or directory
+[New Thread 0x7b3207fff6c0 (LWP 4492)]
+[New Thread 0x7b32077fe6c0 (LWP 4493)]
+[New Thread 0x7b3206ffd6c0 (LWP 4494)]
+[New Thread 0x7b32067fc6c0 (LWP 4495)]
+[New Thread 0x7b3205ffb6c0 (LWP 4496)]
+[New Thread 0x7b32057fa6c0 (LWP 4497)]
+[Thread 0x7b32057fa6c0 (LWP 4497) exited]
+[New Thread 0x7b3204ff96c0 (LWP 4498)]
+[New Thread 0x7b31fffff6c0 (LWP 4499)]
+[Thread 0x7b31fffff6c0 (LWP 4499) exited]
+
+Thread 1 "ITGmania-harnes" received signal SIGABRT, Aborted.
+__pthread_kill_implementation (no_tid=0, signo=6, threadid=<optimized out>) at ./nptl/pthread_kill.c:44
+warning: 44	./nptl/pthread_kill.c: No such file or directory
+
+Thread 14 (Thread 0x7b3204ff96c0 (LWP 4498) "ITGmania-harnes"):
+#0  0x00007b32108ecb9f in __GI___clock_nanosleep (clock_id=clock_id@entry=0, flags=flags@entry=0, req=0x7b3204ff8a70, rem=0x7b3204ff8a70) at ../sysdeps/unix/sysv/linux/clock_nanosleep.c:78
+#1  0x00007b32108f9ae7 in __GI___nanosleep (req=<optimized out>, rem=<optimized out>) at ../sysdeps/unix/sysv/linux/nanosleep.c:25
+#2  0x0000640c239784e9 in MovieDecoder_FFMpeg::DecodePacketToFrame() ()
+#3  0x0000640c23979d85 in MovieDecoder_FFMpeg::DecodeMovie() ()
+#4  0x0000640c2397a52e in std::thread::_State_impl<std::thread::_Invoker<std::tuple<MovieTexture_Generic::Init[abi:cxx11]()::{lambda()#1}> > >::_M_run() ()
+#5  0x00007b3210cecdb4 in ??? () at /lib/x86_64-linux-gnu/libstdc++.so.6
+#6  0x00007b321089cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#7  0x00007b3210929e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 12 (Thread 0x7b3205ffb6c0 (LWP 4496) "Event .. thread"):
+#0  0x00007b3210926f67 in __GI___select (nfds=7, readfds=0x7b3205ffaa50, writefds=0x0, exceptfds=0x0, timeout=0x7b3205ffa9c0) at ../sysdeps/unix/sysv/linux/select.c:69
+#1  0x0000640c2395c1e0 in InputHandler_Linux_Event::InputThread() ()
+#2  0x0000640c2395cb0d in InputHandler_Linux_Event::InputThread_Start(void*) ()
+#3  0x0000640c239865cc in StartThread(void*) ()
+#4  0x00007b321089cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#5  0x00007b3210929e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 11 (Thread 0x7b32067fc6c0 (LWP 4495) "ITGmania-harnes"):
+#0  0x00007b3210898e31 in __futex_abstimed_wait_common64 (private=31538, cancel=true, abstime=0x0, op=393, expected=0, futex_word=0x640c42d05950) at ./nptl/futex-internal.c:57
+#1  __futex_abstimed_wait_common (cancel=true, private=31538, abstime=0x0, clockid=0, expected=0, futex_word=0x640c42d05950) at ./nptl/futex-internal.c:87
+#2  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x640c42d05950, expected=expected@entry=0, clockid=clockid@entry=0, abstime=abstime@entry=0x0, private=private@entry=0) at ./nptl/futex-internal.c:139
+#3  0x00007b321089b8ad in __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x640c42d05900, cond=0x640c42d05928) at ./nptl/pthread_cond_wait.c:503
+#4  ___pthread_cond_wait (cond=0x640c42d05928, mutex=0x640c42d05900) at ./nptl/pthread_cond_wait.c:627
+#5  0x0000640c237857bb in NetworkManager::RunWebSocketWorker() ()
+#6  0x00007b3210cecdb4 in ??? () at /lib/x86_64-linux-gnu/libstdc++.so.6
+#7  0x00007b321089cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#8  0x00007b3210929e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 10 (Thread 0x7b3206ffd6c0 (LWP 4494) "ITGmania-harnes"):
+#0  0x00007b3210898e31 in __futex_abstimed_wait_common64 (private=31538, cancel=true, abstime=0x0, op=393, expected=0, futex_word=0x640c42d058a0) at ./nptl/futex-internal.c:57
+#1  __futex_abstimed_wait_common (cancel=true, private=31538, abstime=0x0, clockid=0, expected=0, futex_word=0x640c42d058a0) at ./nptl/futex-internal.c:87
+#2  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x640c42d058a0, expected=expected@entry=0, clockid=clockid@entry=0, abstime=abstime@entry=0x0, private=private@entry=0) at ./nptl/futex-internal.c:139
+#3  0x00007b321089b8ad in __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x640c42d05850, cond=0x640c42d05878) at ./nptl/pthread_cond_wait.c:503
+#4  ___pthread_cond_wait (cond=0x640c42d05878, mutex=0x640c42d05850) at ./nptl/pthread_cond_wait.c:627
+#5  0x0000640c237854db in NetworkManager::RunHttpWorker() ()
+#6  0x00007b3210cecdb4 in ??? () at /lib/x86_64-linux-gnu/libstdc++.so.6
+#7  0x00007b321089cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#8  0x00007b3210929e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 9 (Thread 0x7b32077fe6c0 (LWP 4493) "ITGmania-harnes"):
+#0  0x00007b3210898e31 in __futex_abstimed_wait_common64 (private=0, cancel=true, abstime=0x0, op=393, expected=0, futex_word=0x640c42d05690) at ./nptl/futex-internal.c:57
+#1  __futex_abstimed_wait_common (cancel=true, private=0, abstime=0x0, clockid=0, expected=0, futex_word=0x640c42d05690) at ./nptl/futex-internal.c:87
+#2  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x640c42d05690, expected=expected@entry=0, clockid=clockid@entry=0, abstime=abstime@entry=0x0, private=private@entry=0) at ./nptl/futex-internal.c:139
+#3  0x00007b321089b8ad in __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x640c42d05640, cond=0x640c42d05668) at ./nptl/pthread_cond_wait.c:503
+#4  ___pthread_cond_wait (cond=0x640c42d05668, mutex=0x640c42d05640) at ./nptl/pthread_cond_wait.c:627
+#5  0x0000640c240437ad in ix::HttpClient::run() ()
+#6  0x00007b3210cecdb4 in ??? () at /lib/x86_64-linux-gnu/libstdc++.so.6
+#7  0x00007b321089cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#8  0x00007b3210929e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 8 (Thread 0x7b3207fff6c0 (LWP 4492) "ITGmania-harnes"):
+#0  0x00007b3210898e31 in __futex_abstimed_wait_common64 (private=0, cancel=true, abstime=0x0, op=393, expected=0, futex_word=0x640c42d054e8) at ./nptl/futex-internal.c:57
+#1  __futex_abstimed_wait_common (cancel=true, private=0, abstime=0x0, clockid=0, expected=0, futex_word=0x640c42d054e8) at ./nptl/futex-internal.c:87
+#2  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x640c42d054e8, expected=expected@entry=0, clockid=clockid@entry=0, abstime=abstime@entry=0x0, private=private@entry=0) at ./nptl/futex-internal.c:139
+#3  0x00007b321089b8ad in __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x640c42d05498, cond=0x640c42d054c0) at ./nptl/pthread_cond_wait.c:503
+#4  ___pthread_cond_wait (cond=0x640c42d054c0, mutex=0x640c42d05498) at ./nptl/pthread_cond_wait.c:627
+#5  0x0000640c240437ad in ix::HttpClient::run() ()
+#6  0x00007b3210cecdb4 in ??? () at /lib/x86_64-linux-gnu/libstdc++.so.6
+#7  0x00007b321089cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#8  0x00007b3210929e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 7 (Thread 0x7b320f2b56c0 (LWP 4477) "Decode thread"):
+#0  0x00007b32108ecb9f in __GI___clock_nanosleep (clock_id=clock_id@entry=0, flags=flags@entry=0, req=req@entry=0x7b320f2b4a40, rem=rem@entry=0x0) at ../sysdeps/unix/sysv/linux/clock_nanosleep.c:78
+#1  0x00007b32108f9ae7 in __GI___nanosleep (req=req@entry=0x7b320f2b4a40, rem=rem@entry=0x0) at ../sysdeps/unix/sysv/linux/nanosleep.c:25
+#2  0x00007b321092997c in usleep (useconds=<optimized out>) at ../sysdeps/posix/usleep.c:31
+#3  0x0000640c2397fbe0 in RageSoundDriver::DecodeThread() ()
+#4  0x0000640c2397fe7d in RageSoundDriver::DecodeThread_start(void*) ()
+#5  0x0000640c239865cc in StartThread(void*) ()
+#6  0x00007b321089cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#7  0x00007b3210929e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 6 (Thread 0x7b320eab46c0 (LWP 4478) "Music thread"):
+#0  0x00007b3210898e31 in __futex_abstimed_wait_common64 (private=0, cancel=true, abstime=0x0, op=393, expected=0, futex_word=0x640c42cbc778) at ./nptl/futex-internal.c:57
+#1  __futex_abstimed_wait_common (cancel=true, private=0, abstime=0x0, clockid=0, expected=0, futex_word=0x640c42cbc778) at ./nptl/futex-internal.c:87
+#2  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x640c42cbc778, expected=expected@entry=0, clockid=clockid@entry=0, abstime=abstime@entry=0x0, private=private@entry=0) at ./nptl/futex-internal.c:139
+#3  0x00007b321089b8ad in __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x640c42c849d0, cond=0x640c42cbc750) at ./nptl/pthread_cond_wait.c:503
+#4  ___pthread_cond_wait (cond=0x640c42cbc750, mutex=0x640c42c849d0) at ./nptl/pthread_cond_wait.c:627
+#5  0x0000640c239864f1 in EventImpl_Pthreads::Wait(RageTimer*) ()
+#6  0x0000640c23c2b2c8 in RageEvent::Wait(RageTimer*) ()
+#7  0x0000640c23727be1 in MusicThread_start(void*) ()
+#8  0x0000640c239865cc in StartThread(void*) ()
+#9  0x00007b321089cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#10 0x00007b3210929e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 5 (Thread 0x7b320e2b36c0 (LWP 4479) "Lights.. thread"):
+#0  0x00007b3210898e31 in __futex_abstimed_wait_common64 (private=0, cancel=true, abstime=0x0, op=393, expected=0, futex_word=0x640c42cbda4c) at ./nptl/futex-internal.c:57
+#1  __futex_abstimed_wait_common (cancel=true, private=0, abstime=0x0, clockid=0, expected=0, futex_word=0x640c42cbda4c) at ./nptl/futex-internal.c:87
+#2  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x640c42cbda4c, expected=expected@entry=0, clockid=clockid@entry=0, abstime=abstime@entry=0x0, private=private@entry=0) at ./nptl/futex-internal.c:139
+#3  0x00007b321089b8ad in __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x640c42a444d0, cond=0x640c42cbda20) at ./nptl/pthread_cond_wait.c:503
+#4  ___pthread_cond_wait (cond=0x640c42cbda20, mutex=0x640c42a444d0) at ./nptl/pthread_cond_wait.c:627
+#5  0x0000640c239864f1 in EventImpl_Pthreads::Wait(RageTimer*) ()
+#6  0x0000640c23c2b2c8 in RageEvent::Wait(RageTimer*) ()
+#7  0x0000640c2375a4e7 in LightsManager::LightsManThreadMain() ()
+#8  0x0000640c2375c9cd in LightsManager::LightsManThread_Start(void*) ()
+#9  0x0000640c239865cc in StartThread(void*) ()
+#10 0x00007b321089cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#11 0x00007b3210929e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 4 (Thread 0x7b320d2b16c0 (LWP 4487) "(MemoryCardWork"):
+#0  0x00007b3210898e31 in __futex_abstimed_wait_common64 (private=396680684, cancel=true, abstime=0x7b320d2b0a20, op=137, expected=0, futex_word=0x640c42ce0468) at ./nptl/futex-internal.c:57
+#1  __futex_abstimed_wait_common (cancel=true, private=396680684, abstime=0x7b320d2b0a20, clockid=31538, expected=0, futex_word=0x640c42ce0468) at ./nptl/futex-internal.c:87
+#2  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x640c42ce0468, expected=expected@entry=0, clockid=clockid@entry=1, abstime=abstime@entry=0x7b320d2b0a20, private=private@entry=0) at ./nptl/futex-internal.c:139
+#3  0x00007b321089bd4e in __pthread_cond_wait_common (abstime=0x7b320d2b0a20, clockid=1, mutex=0x640c42ce0370, cond=0x640c42ce0440) at ./nptl/pthread_cond_wait.c:503
+#4  ___pthread_cond_timedwait64 (cond=0x640c42ce0440, mutex=0x640c42ce0370, abstime=0x7b320d2b0a20) at ./nptl/pthread_cond_wait.c:652
+#5  0x0000640c23986451 in EventImpl_Pthreads::Wait(RageTimer*) ()
+#6  0x0000640c23c2b2c8 in RageEvent::Wait(RageTimer*) ()
+#7  0x0000640c23c6401b in RageWorkerThread::WorkerMain() ()
+#8  0x0000640c23c643ed in RageWorkerThread::StartWorkerMain(void*) ()
+#9  0x0000640c239865cc in StartThread(void*) ()
+#10 0x00007b321089cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#11 0x00007b3210929e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 3 (Thread 0x7b320dab26c0 (LWP 4488) "(/@mc1int/)"):
+#0  0x00007b3210898e31 in __futex_abstimed_wait_common64 (private=0, cancel=true, abstime=0x0, op=393, expected=0, futex_word=0x640c42d12028) at ./nptl/futex-internal.c:57
+#1  __futex_abstimed_wait_common (cancel=true, private=0, abstime=0x0, clockid=0, expected=0, futex_word=0x640c42d12028) at ./nptl/futex-internal.c:87
+#2  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x640c42d12028, expected=expected@entry=0, clockid=clockid@entry=0, abstime=abstime@entry=0x0, private=private@entry=0) at ./nptl/futex-internal.c:139
+#3  0x00007b321089b8ad in __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x640c42a23720, cond=0x640c42d12000) at ./nptl/pthread_cond_wait.c:503
+#4  ___pthread_cond_wait (cond=0x640c42d12000, mutex=0x640c42a23720) at ./nptl/pthread_cond_wait.c:627
+#5  0x0000640c239864f1 in EventImpl_Pthreads::Wait(RageTimer*) ()
+#6  0x0000640c23c2b2c8 in RageEvent::Wait(RageTimer*) ()
+#7  0x0000640c23c6401b in RageWorkerThread::WorkerMain() ()
+#8  0x0000640c23c643ed in RageWorkerThread::StartWorkerMain(void*) ()
+#9  0x0000640c239865cc in StartThread(void*) ()
+#10 0x00007b321089cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#11 0x00007b3210929e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 2 (Thread 0x7b320cab06c0 (LWP 4489) "(/@mc2int/)"):
+#0  0x00007b3210898e31 in __futex_abstimed_wait_common64 (private=0, cancel=true, abstime=0x0, op=393, expected=0, futex_word=0x640c427aefa8) at ./nptl/futex-internal.c:57
+#1  __futex_abstimed_wait_common (cancel=true, private=0, abstime=0x0, clockid=0, expected=0, futex_word=0x640c427aefa8) at ./nptl/futex-internal.c:87
+#2  __GI___futex_abstimed_wait_cancelable64 (futex_word=futex_word@entry=0x640c427aefa8, expected=expected@entry=0, clockid=clockid@entry=0, abstime=abstime@entry=0x0, private=private@entry=0) at ./nptl/futex-internal.c:139
+#3  0x00007b321089b8ad in __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x640c42ce0690, cond=0x640c427aef80) at ./nptl/pthread_cond_wait.c:503
+#4  ___pthread_cond_wait (cond=0x640c427aef80, mutex=0x640c42ce0690) at ./nptl/pthread_cond_wait.c:627
+#5  0x0000640c239864f1 in EventImpl_Pthreads::Wait(RageTimer*) ()
+#6  0x0000640c23c2b2c8 in RageEvent::Wait(RageTimer*) ()
+#7  0x0000640c23c6401b in RageWorkerThread::WorkerMain() ()
+#8  0x0000640c23c643ed in RageWorkerThread::StartWorkerMain(void*) ()
+#9  0x0000640c239865cc in StartThread(void*) ()
+#10 0x00007b321089cb64 in start_thread (arg=<optimized out>) at ./nptl/pthread_create.c:447
+#11 0x00007b3210929e8c in clone3 () at ../sysdeps/unix/sysv/linux/x86_64/clone3.S:78
+
+Thread 1 (Thread 0x7b320f313ac0 (LWP 4476) "ITGmania-harnes"):
+#0  __pthread_kill_implementation (no_tid=0, signo=6, threadid=<optimized out>) at ./nptl/pthread_kill.c:44
+#1  __pthread_kill_internal (signo=6, threadid=<optimized out>) at ./nptl/pthread_kill.c:78
+#2  __GI___pthread_kill (threadid=<optimized out>, signo=signo@entry=6) at ./nptl/pthread_kill.c:89
+#3  0x00007b321084527e in __GI_raise (sig=sig@entry=6) at ../sysdeps/posix/raise.c:26
+#4  0x00007b32108288ff in __GI_abort () at ./stdlib/abort.c:79
+#5  0x00007b32108297b6 in __libc_message_impl (fmt=fmt@entry=0x7b32109cf8f0 "%s\n") at ../sysdeps/posix/libc_fatal.c:134
+#6  0x00007b32108a90b5 in malloc_printerr (str=str@entry=0x7b32109d2540 "munmap_chunk(): invalid pointer") at ./malloc/malloc.c:5775
+#7  0x00007b32108a953c in munmap_chunk (p=<optimized out>) at ./malloc/malloc.c:3040
+#8  0x00007b32108adeda in __GI___libc_free (mem=0x640c4440c9b0) at ./malloc/malloc.c:3388
+#9  0x0000640c23c44253 in RageSoundReader_ThreadedBuffer::~RageSoundReader_ThreadedBuffer() ()
+#10 0x0000640c23c42e61 in RageSoundReader_SpeedChange::~RageSoundReader_SpeedChange() ()
+#11 0x0000640c23c3f3fe in RageSoundReader_Resample_Good::~RageSoundReader_Resample_Good() ()
+#12 0x0000640c23c3f41d in RageSoundReader_Resample_Good::~RageSoundReader_Resample_Good() ()
+#13 0x0000640c23c3e20b in RageSoundReader_PitchChange::~RageSoundReader_PitchChange() ()
+#14 0x0000640c23c3e6bb in RageSoundReader_PostBuffering::~RageSoundReader_PostBuffering() ()
+#15 0x0000640c23c3ddeb in RageSoundReader_Pan::~RageSoundReader_Pan() ()
+#16 0x0000640c23c2db25 in RageSound::Unload() ()
+#17 0x0000640c23c2dbf7 in RageSound::~RageSound() ()
+#18 0x0000640c23c747d3 in ScreenGameplay::~ScreenGameplay() ()
+#19 0x0000640c23c81eb7 in ScreenGameplayNormal::~ScreenGameplayNormal() ()
+#20 0x0000640c23debf55 in ScreenManager::PopTopScreenInternal[abi:cxx11](bool) ()
+#21 0x0000640c23dee254 in ScreenManager::LoadDelayedScreen() ()
+#22 0x0000640c23deec71 in ScreenManager::Update(float) ()
+#23 0x0000640c236fb6a7 in GameLoop::UpdateAllButDraw(bool) ()
+#24 0x0000640c236fb9d6 in GameLoop::RunGameLoop() ()
+#25 0x0000640c23707828 in sm_main(int, char**) ()
+#26 0x00007b321082a1ca in __libc_start_call_main (main=main@entry=0x640c236f4e10 <main>, argc=argc@entry=3, argv=argv@entry=0x7ffc42136198) at ../sysdeps/nptl/libc_start_call_main.h:58
+#27 0x00007b321082a28b in __libc_start_main_impl (main=0x640c236f4e10 <main>, argc=3, argv=0x7ffc42136198, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7ffc42136188) at ../csu/libc-start.c:360
+#28 0x0000640c236fa6d5 in _start ()
+[Inferior 1 (process 4476) detached]

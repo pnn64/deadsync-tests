@@ -1,0 +1,621 @@
+[
+  {
+    "song": "cards/sm.ssc",
+    "compared": 2,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000000=lua/cards.lua=1.000000=0=0=1"
+      ]
+    ],
+    "lua": [
+      "lua\\cards.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "mawaru1/mawaru.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        "4.000=TaronInstruct01.png=1.000=1=0=1===CrossFade==,\n12.000=TaronInstruct02.png=1.000=0=0=1=====,\n19.500=TaronInstruct03.png=1.000=0=0=1=====,\n27.500=BPM150 2x1.png=1.000=0=0=1=====,\n31.000=bga1.png=1.000=0=0=1=====,\n36.000=bga2.png=1.000=1=0=1===CrossFade==,\n52.000=bgb1.png=1.000=0=0=1=====,\n56.000=bgb2.png=1.000=1=0=1===CrossFade==,\n72.000=bgc1.png=1.000=0=0=1=====,\n76.000=bgc2.png=1.000=1=0=1===CrossFade==,\n92.000=BPM150 2x1.png=1.000=0=0=1=====,\n96.000=BPM160 2x1.png=1.000=1=0=1===CrossFade==,\n100.000=bgd1.png=1.000=0=0=1=====,\n104.000=bgd2.png=1.000=1=0=1===CrossFade==,\n120.000=bge1.png=1.000=0=0=1=====,\n124.000=bge2.png=1.000=1=0=1===CrossFade==,\n143.000=bge3.png=1.000=0=0=1=====,\n144.000=bgf1.png=1.000=0=0=1=====,\n148.000=bgf2.png=1.000=1=0=1===CrossFade==,\n164.000=BPM160 2x1.png=1.000=0=0=1=====,\n168.000=BPM170 2x1.png=1.000=1=0=1===CrossFade==,\n172.000=bgg1.png=1.000=0=0=1=====,\n176.000=bgg2.png=1.000=1=0=1===CrossFade==,\n192.000=bgh1.png=1.000=0=0=1=====,\n196.000=bgh2.png=1.000=1=0=1===CrossFade==,\n212.000=bgi1.png=1.000=0=0=1=====,\n216.000=bgi2.png=1.000=1=0=1===CrossFade==,\n232.000=bgl1.png=1.000=0=0=1=====,\n236.000=bgl2.png=1.000=1=0=1===CrossFade==,\n252.000=BPM170 2x1.png=1.000=0=0=1=====,\n256.000=BPM180 2x1.png=1.000=1=0=1===CrossFade==,\n260.000=bgm1.png=1.000=0=0=1=====,\n264.000=bgm2.png=1.000=1=0=1===CrossFade==,\n280.000=bgn1.png=1.000=0=0=1=====,\n284.000=bgn2.png=1.000=1=0=1===CrossFade==,\n300.000=bgp1.png=1.000=0=0=1=====,\n304.000=bgp2.png=1.000=1=0=1===CrossFade==,\n320.000=bgq1.png=1.000=0=0=1=====,\n324.000=bgq2.png=1.000=1=0=1===CrossFade==,\n332.000=BPM180 2x1.png=1.000=0=0=1=====,\n336.000=BPM200 2x1.png=1.000=1=0=1===CrossFade==,\n340.000=bgr1.png=1.000=0=0=1=====,\n344.000=bgr2.png=1.000=1=0=1===CrossFade==,\n376.000=Boss 2x1.png=1.000=1=0=1===CrossFade==,\n380.000=BPM200 2x1.png=1.000=0=0=1=====,\n382.000=BPMXXX 2x1.png=1.000=1=0=1===CrossFade==,\n384.000=bgs1.png=1.000=0=0=1=====,\n388.000=bgs2.png=1.000=1=0=1===CrossFade==,\n418.000=mawaru.png=1.000=0=0=1=====,\n99999=-nosongbg-=1.000=0=0=0 // don't automatically add -songbackground-\n"
+      ],
+      [
+        "FGCHANGES",
+        ""
+      ]
+    ],
+    "lua": [],
+    "xml": []
+  },
+  {
+    "song": "Wobbpotato [Blue Shift Phase 1]/wobbpotato.ssc",
+    "compared": 6,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=lua=1.000=0=0=1"
+      ]
+    ],
+    "lua": [
+      "lua\\default.lua",
+      "lua\\easing.lua",
+      "lua\\modhelpers.lua",
+      "lua\\mods.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Cat Hack/Cat Hacks.ssc",
+    "compared": 2,
+    "entries": [
+      [
+        "FGCHANGES",
+        " 0.000=./mods.lua=1.000=0=0=1====="
+      ],
+      [
+        "BGCHANGES",
+        ""
+      ]
+    ],
+    "lua": [
+      "mods.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Oil Ocean Act 2/steps.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000000=lua_itg=1.000000=0=0=1"
+      ]
+    ],
+    "lua": [
+      "lua\\default.lua"
+    ],
+    "xml": [
+      "lua_itg\\default.xml"
+    ]
+  },
+  {
+    "song": "Sequential Dreambox - [Zaia]/Sequential Dreambox.ssc",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000000=lua/FastEnd.lua=1.000000=0=0=1"
+      ]
+    ],
+    "lua": [
+      "lua\\FastEnd.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Waiting/Waiting.ssc",
+    "compared": 2,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=nocheating.lua=1.000=0=0=1=====,\n"
+      ]
+    ],
+    "lua": [
+      "nocheating.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Ztar Trek/steps.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        "0.000=bg.png=1.000=0=0=1,\n148.000=black.png=1.000=0=0=1,\n186.000=bg2.png=1.000=1=0=1===CrossFade==,\n99999.000=-nosongbg-=1.000=0=0=0=StretchNoLoop====\n"
+      ],
+      [
+        "FGCHANGES",
+        "0.100=lua=1.000=0=0=1"
+      ]
+    ],
+    "lua": [],
+    "xml": [
+      "lua\\default.xml"
+    ]
+  },
+  {
+    "song": "Wobbpotato [Egg Carton 3]/wobbpotato.ssc",
+    "compared": 6,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=lua=1.000=0=0=1"
+      ]
+    ],
+    "lua": [
+      "lua\\default.lua",
+      "lua\\easing.lua",
+      "lua\\modhelpers.lua",
+      "lua\\mods.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+    "compared": 2,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000000=bye=1.000000=0=0=1"
+      ]
+    ],
+    "lua": [
+      "bye\\Default.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Cat Hack/Cat Hacks.sm",
+    "compared": 2,
+    "entries": [
+      [
+        "FGCHANGES",
+        " 0.000=./mods.lua=1.000=0=0=1====="
+      ],
+      [
+        "BGCHANGES",
+        ""
+      ]
+    ],
+    "lua": [
+      "mods.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Ascendanz/Ascendanz.ssc",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=lua/default.lua=1.000=0=0=0=StretchNoLoop====,\n"
+      ]
+    ],
+    "lua": [
+      "default.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Over the Top - [Zaia][FX]/Over the Top.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=animations=1.000=0=0=1====="
+      ]
+    ],
+    "lua": [],
+    "xml": [
+      "animations\\default.xml"
+    ]
+  },
+  {
+    "song": "Loyal Divide [TaroNuke]/Loyal Divide.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        "0.000=_black.png=1.000=1=0=1===CrossFade==,\n96.000=bg.png=1.000=1=0=1===CrossFade==\n"
+      ],
+      [
+        "FGCHANGES",
+        "0.000=lua=1.000=0=0=1"
+      ]
+    ],
+    "lua": [],
+    "xml": [
+      "lua\\default.xml"
+    ]
+  },
+  {
+    "song": "Potion [Flood_]/Shisui Michiru - Potion (Cut Ver).sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        ""
+      ]
+    ],
+    "lua": [
+      "lua\\default.lua",
+      "lua\\easing.lua",
+      "lua\\modhelpers.lua",
+      "lua\\mods.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "cards/sm.sm",
+    "compared": 2,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=lua/cards.lua=1.000=0=0=1=====,\n"
+      ]
+    ],
+    "lua": [
+      "lua\\cards.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Vanishing Point - [Zaia][FX]/Vanishing Point.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=animations=1.000=0=0=1"
+      ]
+    ],
+    "lua": [],
+    "xml": [
+      "animations\\default.xml"
+    ]
+  },
+  {
+    "song": "I Really Like You [dbk2]/I Really Like You.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ]
+    ],
+    "lua": [
+      "animation\\default.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "the fresh prince of bel air (razihel remix)/steps.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        "0.000=bg=1.000=0=0=1,\n242.000=fresh-bg.png=1.000=0=0=1=Centered====,\n99999.000=-nosongbg-=1.000=0=0=0=StretchNoLoop====\n"
+      ],
+      [
+        "FGCHANGES",
+        "0.000=lua=1.000=0=0=1"
+      ]
+    ],
+    "lua": [],
+    "xml": [
+      "bg\\default.xml",
+      "lua\\default.xml",
+      "lua\\die\\default.xml"
+    ]
+  },
+  {
+    "song": "Lots of Spices - [tari]/spices.ssc",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=template/default.lua=1.000=0=0=1"
+      ]
+    ],
+    "lua": [],
+    "xml": []
+  },
+  {
+    "song": "assgore/goatdad.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "663.000=undertale_spoilers_dont_look_ITGVERSION=1.000=0=0=1=====,\n"
+      ]
+    ],
+    "lua": [
+      "undertale_spoilers_dont_look\\default.lua"
+    ],
+    "xml": [
+      "undertale_spoilers_dont_look_ITGVERSION\\default.xml"
+    ]
+  },
+  {
+    "song": "Fortuna Redux - [Zaia]/Fortuna Redux.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=animations=1.000=0=0=1=====,\n0.000=animations=1.000=0=0=1=====,\n"
+      ]
+    ],
+    "lua": [],
+    "xml": [
+      "animations\\default.xml"
+    ]
+  },
+  {
+    "song": "Midnight Madness/midnight.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        ""
+      ]
+    ],
+    "lua": [
+      "lua\\default.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Crab Nicholson Extreme Sleepover/Crab Nicholson Extreme Sleepover.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=fish_gaming_wednesday.lua=1.000=0=0=1=====,\n"
+      ]
+    ],
+    "lua": [
+      "fish_gaming_wednesday.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "[12] Ascendanz/Ascendanz.ssc",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=lua/default.lua=1.000=0=0=0=StretchNoLoop====,\n"
+      ]
+    ],
+    "lua": [
+      "default.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Rayc Fire 2/Rayc Fire 2.ssc",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=lua/LUA.lua=1.000=0=0=1=====,\n"
+      ]
+    ],
+    "lua": [],
+    "xml": []
+  },
+  {
+    "song": "Number 9/1556 - Number 9.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ]
+    ],
+    "lua": [
+      "smsc\\default.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Bank Account/Bank Account.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ]
+    ],
+    "lua": [
+      "lua\\default.lua",
+      "lua\\oldfile.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "If You Crump Stand Up/crump.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000000=lua=1.000000=0=0=1"
+      ]
+    ],
+    "lua": [],
+    "xml": [
+      "lua\\default.xml"
+    ]
+  },
+  {
+    "song": "No Role Modelz/No Role Modelz.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ]
+    ],
+    "lua": [
+      "lua\\default.lua",
+      "lua\\easing.lua",
+      "lua\\modhelpers.lua",
+      "lua\\doiqi\\a.lua",
+      "lua\\doiqi\\default.lua",
+      "lua\\exchwation\\default.lua"
+    ],
+    "xml": [
+      "lua\\doiqi\\a.xml",
+      "lua\\doiqi\\default.xml",
+      "lua\\exchwation\\default.xml"
+    ]
+  },
+  {
+    "song": "Rayc Fire 2/Rayc Fire 2.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=lua/LUA.lua=1.000=0=0=1=====,\n"
+      ]
+    ],
+    "lua": [],
+    "xml": []
+  },
+  {
+    "song": "OK/OK.ssc",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ]
+    ],
+    "lua": [
+      "lua\\default.lua",
+      "lua\\easing.lua",
+      "lua\\modhelpers.lua",
+      "lua\\mods.lua",
+      "lua\\_script.lua",
+      "lua\\_shake.lua"
+    ],
+    "xml": []
+  },
+  {
+    "song": "Longinus - [Zaia]/Longinus.sm",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=animations=1.000=0=0=1=====,\n"
+      ]
+    ],
+    "lua": [],
+    "xml": [
+      "animations\\default.xml"
+    ]
+  },
+  {
+    "song": "Vector Field/Vector Field.ssc",
+    "compared": 0,
+    "entries": [
+      [
+        "BGCHANGES",
+        ""
+      ],
+      [
+        "FGCHANGES",
+        "0.000=template/main.lua=1.000=0=0=1"
+      ]
+    ],
+    "lua": [
+      "lua\\mods.lua",
+      "template\\compat.lua",
+      "template\\ease.lua",
+      "template\\main.lua",
+      "template\\plugins.lua",
+      "template\\std.lua"
+    ],
+    "xml": []
+  }
+]

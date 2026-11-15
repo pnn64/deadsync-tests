@@ -1,0 +1,419 @@
+{
+  "complete": true,
+  "updated_at": "2026-11-15T18:59:25.467611+00:00",
+  "workers": {
+    "10": {
+      "checked_at": "2026-11-15T16:50:07.635784+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 71,
+      "artifact_bytes": 4484551362,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "10",
+      "ip": "192.168.1.43"
+    },
+    "09": {
+      "checked_at": "2026-11-15T16:52:17.713530+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 74,
+      "artifact_bytes": 4346606345,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "09",
+      "ip": "192.168.1.42"
+    },
+    "06": {
+      "checked_at": "2026-11-15T16:58:17.632830+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 74,
+      "artifact_bytes": 4369017415,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "06",
+      "ip": "192.168.1.10"
+    },
+    "14": {
+      "checked_at": "2026-11-15T17:02:03.061931+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 71,
+      "artifact_bytes": 4227662857,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "14",
+      "ip": "192.168.1.47"
+    },
+    "15": {
+      "checked_at": "2026-11-15T17:08:07.986241+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 77,
+      "artifact_bytes": 4652506997,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "15",
+      "ip": "192.168.1.48"
+    },
+    "08": {
+      "checked_at": "2026-11-15T17:14:00.248105+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 70,
+      "artifact_bytes": 4248775247,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "08",
+      "ip": "192.168.1.40"
+    },
+    "13": {
+      "checked_at": "2026-11-15T17:15:34.209955+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 69,
+      "artifact_bytes": 4296363765,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "13",
+      "ip": "192.168.1.46"
+    },
+    "07": {
+      "checked_at": "2026-11-15T17:16:19.772493+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 72,
+      "artifact_bytes": 4152179805,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "07",
+      "ip": "192.168.1.23"
+    },
+    "11": {
+      "checked_at": "2026-11-15T17:20:01.104163+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 71,
+      "artifact_bytes": 3923591642,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "11",
+      "ip": "192.168.1.44"
+    },
+    "01": {
+      "checked_at": "2026-11-15T17:20:49.122050+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 66,
+      "artifact_bytes": 4150589264,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "01",
+      "ip": "192.168.1.34"
+    },
+    "03": {
+      "checked_at": "2026-11-15T17:23:42.672011+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 64,
+      "artifact_bytes": 3716310215,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "03",
+      "ip": "192.168.1.36"
+    },
+    "02": {
+      "checked_at": "2026-11-15T17:33:29.263560+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 67,
+      "artifact_bytes": 4131830169,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "02",
+      "ip": "192.168.1.35"
+    },
+    "large": {
+      "checked_at": "2026-11-15T18:27:53.956794+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/ultimate-comma-layout/generate.py",
+        "__audit_controls/ultimate-comma-layout/DS ULTIMATE LUA TEST.sm",
+        "__audit_controls/ultimate-comma-layout/PARITY.md",
+        "__audit_controls/ultimate-comma-layout/README.md",
+        "__audit_controls/ultimate-comma-layout/silence.wav",
+        "__audit_controls/ultimate-comma-layout/verify_reference.py",
+        "__audit_controls/ultimate-comma-layout/.gitattributes",
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua",
+        "__audit_controls/initial-effect-clock/control.sm",
+        "__audit_controls/initial-effect-clock/silence.wav",
+        "__audit_controls/initial-effect-clock/default.lua",
+        "__audit_controls/ultimate-comma-layout/reference/checksums.json",
+        "__audit_controls/ultimate-comma-layout/reference/itgmania-headless-double.json.zst",
+        "__audit_controls/ultimate-comma-layout/reference/itgmania-headless-single.json.zst",
+        "__audit_controls/ultimate-comma-layout/reference/itgmania-native-preview.json.zst",
+        "__audit_controls/ultimate-comma-layout/reference/headless-double-manifest.json",
+        "__audit_controls/ultimate-comma-layout/reference/headless-manifest.json",
+        "__audit_controls/ultimate-comma-layout/lua/late.lua",
+        "__audit_controls/ultimate-comma-layout/lua/notefield-chaos.lua",
+        "__audit_controls/ultimate-comma-layout/lua/back-layer.lua",
+        "__audit_controls/ultimate-comma-layout/lua/screen-chaos.lua",
+        "__audit_controls/ultimate-comma-layout/lua/overlay.lua",
+        "__audit_controls/ultimate-comma-layout/lua/background.lua",
+        "__audit_controls/ultimate-comma-layout/lua/widget.lua",
+        "__audit_controls/ultimate-comma-layout/lua/foreground.lua",
+        "__audit_controls/ultimate-comma-layout/lua/tile 4x2.png",
+        "__audit_controls/ultimate-comma-layout/lua/overlay.png",
+        "__audit_controls/ultimate-comma-layout/lua/background-alt.lua"
+      ],
+      "artifacts_checked": 191,
+      "artifact_bytes": 9892487017,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "large",
+      "ip": "192.168.1.49"
+    },
+    "05": {
+      "checked_at": "2026-11-15T18:38:51.156559+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 88,
+      "artifact_bytes": 5517262822,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "05",
+      "ip": "192.168.1.39"
+    },
+    "12": {
+      "checked_at": "2026-11-15T18:51:36.215486+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 84,
+      "artifact_bytes": 5405913669,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "12",
+      "ip": "192.168.1.45"
+    },
+    "04": {
+      "checked_at": "2026-11-15T18:59:05.510232+00:00",
+      "corpus_files": 9261,
+      "corpus_bytes": 5894192576,
+      "extra_corpus_files": [
+        "__audit_controls/native-actor-parity/provenance.json",
+        "__audit_controls/native-actor-parity/probe.sm",
+        "__audit_controls/native-actor-parity/native.json.zst",
+        "__audit_controls/native-actor-parity/probe.lua",
+        "__audit_controls/native-actor-parity/silence.wav",
+        "__audit_controls/native-actor-parity/default.lua"
+      ],
+      "artifacts_checked": 83,
+      "artifact_bytes": 5345468465,
+      "binaries": {
+        "bin/full_song_lua": "39e804f0c18381ba03236874c903acf6f990c4082a454995dbc80bc574ad88a7",
+        "bin/itgmania-harness-rs": "7bd55b569565f1dd1de60c63c7057535bb66fae9ab02dbe0b6dac9fe2868a04d",
+        "harness/vendor/itgmania/ITGmania-harness-trace": "ecd18f426dd6f9e9cd47436798aaf93e01979ddcad8286024e5fd10ec1e9972a"
+      },
+      "unfinished_results": [],
+      "failures": [],
+      "worker": "04",
+      "ip": "192.168.1.37"
+    }
+  },
+  "failures": [],
+  "pending_workers": []
+}

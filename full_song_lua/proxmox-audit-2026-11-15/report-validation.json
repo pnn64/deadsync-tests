@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-11-15T19:04:29.464516+00:00",
+  "final": true,
+  "cases": 503,
+  "failures": 59,
+  "unique_remote_artifacts": 1196,
+  "markdown_links_checked": 85,
+  "checks_passed": true
+}

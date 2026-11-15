@@ -1,0 +1,4389 @@
+[
+  {
+    "source_simfile": "(R10) Warp Zone/warp zone.ssc",
+    "previous_archive": "ded0f7ff19513e30119e0d6f65b57a661f1683872fc9ffced27737db06c49993.tar.zst",
+    "title": "Warp Zone",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "(R5) Let Me Hear That/let me hear that.sm",
+    "previous_archive": "2a77063dd2ab8c43bbdbb9e101be7fcf73156302e21e9771c88797218317d327.tar.zst",
+    "title": "Let Me Hear That",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "(R6) Waltz Capriccio/waltz_capriccio.ssc",
+    "previous_archive": "2397fdbd00edd8679ca0a5d184b696deb32951fdfef2aa02bf9e15f17a9ac2cb.tar.zst",
+    "title": "Waltz Capriccio",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "100 Bad Days/100 Bad Days.sm",
+    "previous_archive": "8194e7406862c5d2992eb78613dba5a1afaf55656b3a50a1d4f1972da7739a5e.tar.zst",
+    "title": "Episode 16",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "100 Bad Days/100 Bad Days.ssc",
+    "previous_archive": "56a576184203e1fc7cb3585c884b3289b0026769cf4833b7735516763c260fcc.tar.zst",
+    "title": "Episode 16",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "1035/1035.sm",
+    "previous_archive": "4131f2a7a418e19205e0e1f3c2e23cc78334699d2db3049e949a1b65ef356054.tar.zst",
+    "title": "10:35",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "188-HS-Holdswitch[lv.08] the shadow/theshadow.ssc",
+    "previous_archive": "b2737bf93ef8331b18b58ef7e3732042e5d680454c7910ca62130c511b8cdc8a.tar.zst",
+    "title": "188|HS|Holdswitch[lv.08] the shadow",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "242-MISC.[lv.02] ChikuTaku/ChikuTaku.ssc",
+    "previous_archive": "733a636d41eaa4f2add786f07e40a02f94dbddd2937b777b19231594486f16c7.tar.zst",
+    "title": "242|MISC.|[lv.02] ChikuTaku",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "271-MODS-[lv.01] Spooky/1.09 - Spooky.ssc",
+    "previous_archive": "7e73aaa02c615547366bfc6300f335702d8d8885bfea9a0858e4e6ab929dcad0.tar.zst",
+    "title": "271|MODS|[lv.01] Spooky",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "272-MODS-[lv.02] Riddle/Riddle.ssc",
+    "previous_archive": "7ffacb89fd95ab788758e273ba878c30380c4622406f1bb22d8c51292ca78d83.tar.zst",
+    "title": "272|MODS|[lv.02] Riddle",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "273-MODS-[lv.03] [CRYSTAL_ACCESS]/[CRYSTAL_ACCESS].ssc",
+    "previous_archive": "51f6b4d8d5593282906d2142513344c510b5f30aae7ca17846c25b5dfa330d66.tar.zst",
+    "title": "273|MODS|[lv.03] [CRYSTAL_ACCESS]",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "274-MODS-[lv.04] SAIKYOU STRONGER/REDALiCE_vs_USAO_-_STRONGER.ssc",
+    "previous_archive": "70169ce37058f254e043ee79a3ef1a9473d2949333c5995b934e06625298fbd3.tar.zst",
+    "title": "274|MODS|[lv.04] 最強STRONGER",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "275-MODS-[lv.05] BroGamer/BroGamer.ssc",
+    "previous_archive": "c0282942dbf6fa12a94ccf8c5fa6449eb59f4db505db07c6004369346a8291c3.tar.zst",
+    "title": "275|MODS|[lv.05] BroGamer",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "276-MODS-[lv.06] Nishi-Shinjuku seisou kyoku/nssk-chart.ssc",
+    "previous_archive": "356b778edc0d1fe565b4a057112c5a4d34e512ad7cf3eba6471bf20601cd5acf.tar.zst",
+    "title": "276|MODS|[lv.06] 西新宿清掃曲",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "277-MODS-[lv.07] CO5M1C R4ILR0AD/CO5M1C R4ILR0AD-chart.ssc",
+    "previous_archive": "cb2d7e8a5d8f44ad681752c63f35ed734fef456f77ccfbbcd658b1884c3ccec3.tar.zst",
+    "title": "277|MODS|[lv.07] CO5M1C R4ILR0AD",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "278-MODS-[lv.08] And Drugs/and drugs.ssc",
+    "previous_archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+    "title": "278|MODS|[lv.08] And Drugs↑↑",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "279-MODS-[lv.09] Karachi/Jorts - Karachi.ssc",
+    "previous_archive": "e82a83f6b62338f5d8c2ea75af9caccccf4d91db371ab4b61deea0f7e0d32657.tar.zst",
+    "title": "279|MODS|[lv.09] Karachi",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "280-MODS-[MASTER] Sharkmode/Sharkmode.ssc",
+    "previous_archive": "abd922102376397cd0ffea134db835d8e4dac178380e144e631f3863a8d86510.tar.zst",
+    "title": "280|MODS|[MASTER] Sharkmode",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "303-MODS-[lv.memes] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/KABOOOOOM!!!!.ssc",
+    "previous_archive": "bb1b35239bf8665e24e2e7c5aaaf90dc0beb1df3457023a1a6958bae8a074b85.tar.zst",
+    "title": "303|MODS|[lv.memes] KABOOOOOM!!!!",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "303-MODS-[lv.memes] [Tech Spectrum Super]/KABOOOOOM!!!!.ssc",
+    "previous_archive": "585818d70433480c8732bfee7e6b3f442021ebf78f8a15ae8019d8b27f8b9f98.tar.zst",
+    "title": "303|MODS|[lv.memes] KABOOOOOM!!!!",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "307-MISC-[lv.Death] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/The Boys Are Back in Town (to kill you).ssc",
+    "previous_archive": "2c6afb87a547bc2833c9c6fbe4411fa10afe21cd9813728d6a0adc17f9da616f.tar.zst",
+    "title": "307|MISC|[lv.Death] The Boys Are Back in Town (to kill you)",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "307-MISC-[lv.Death] [Tech Spectrum Super]/The Boys Are Back in Town (to kill you).ssc",
+    "previous_archive": "f39537eb3b679a3a50f3981265e0e0b39534adf79f0671e12be7290bdbd14565.tar.zst",
+    "title": "307|MISC|[lv.Death] The Boys Are Back in Town (to kill you)",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "319-TECH SOUP-[lv.P.Clark] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/Venetian Snares - Epidermis.ssc",
+    "previous_archive": "0f2ef3f987449e6218525fba450d1db1201c9f733d4956061d3b36529b922305.tar.zst",
+    "title": "319|TECH SOUP|[lv.P.Clark] Epidermis",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "319-TECH SOUP-[lv.P.Clark] [Tech Spectrum Super]/Venetian Snares - Epidermis.ssc",
+    "previous_archive": "af2f887d212d8ab702b772cea9c953500254ce01a6b78b423276fca9cf5a8306.tar.zst",
+    "title": "319|TECH SOUP|[lv.P.Clark] Epidermis",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "321STARS/321STARS.ssc",
+    "previous_archive": "d49e4aa4116708c56babc8c460cdbb0be632b01c2257278affd9a538bf6a8373.tar.zst",
+    "title": "321STARS",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "666/666.ssc",
+    "previous_archive": "dfb22b000f2531ee587b0f8078c0b8f176a96556711df4c11644482d7d0d42f6.tar.zst",
+    "title": "666",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "7th Gear/7th Gear.ssc",
+    "previous_archive": "03deca0155f154016a35f421b08a72dc7bf7cff03bea65273ec9fdb1aa924e6d.tar.zst",
+    "title": "7th Gear",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "99+ [-YOSEFU-]/99+.ssc",
+    "previous_archive": "00f94060905e800369ced918322fe391f65142fdf8e5e1328c9d0b3ff683a124.tar.zst",
+    "title": "99+",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[07] 7th Gear - (No CMOD)/7th Gear.ssc",
+    "previous_archive": "a2b9d031dfab0c224ec7392d15eba1847a721fec59b1162b8823582f567556f1.tar.zst",
+    "title": "[07] 7th Gear",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[07] Spooky (SM) [Scrypts]/Spooky-chart.ssc",
+    "previous_archive": "f80142e41e9782af1b5034937794705e2a8e4367d51cc9a71876a2ea56010cf3.tar.zst",
+    "title": "[1115] [07] Spooky (Medium)",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[08] And Drugs - (NO CMOD)/and drugs.ssc",
+    "previous_archive": "b9ce99dda3a745779ad065f03819360a67c2712d75ab9985cccbfc03424ac19d.tar.zst",
+    "title": "[08] And Drugs↑↑",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[09] Delightful Day - (NO CMOD)/Delightful Day.ssc",
+    "previous_archive": "fb68cc6fb753f0c189c94f760e0c32673d9039e2e95c31e4ff2d2d9a9dc16ff6.tar.zst",
+    "title": "[09] Delightful Day",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[09] LALA (SH) [Exschwasion]/lala.ssc",
+    "previous_archive": "35b7f1aec8a7abfa64193d365a8f235daf9862574ab6f1c5234a8035d77f9ca0.tar.zst",
+    "title": "[3878] [09] LALA (Hard)",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[09] Spectrum Sequence (SH) [DRILLBOT vs. valgrind]/spectrumsequence.ssc",
+    "previous_archive": "b487670d43ad4d4aacd6fffa69b60b3d4ad028622f65bb5666137ec610f4a90e.tar.zst",
+    "title": "[3959] [09] Spectrum Sequence (Hard)",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[09] Who the Hell Is Edgar (SX) [Telperion]/Who the Hell Is Edgar.ssc",
+    "previous_archive": "f0279455bbad6c96a899705927f9d37fd761071f111d8b1e672f50154b43be55.tar.zst",
+    "title": "[3752] [09] Who the Hell Is Edgar?",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[10] flip69 (DX) [Telperion]/flip69.ssc",
+    "previous_archive": "97aa597691d65bb951a01a8f5d7749ec58bfce78466485f340f685615b87c390.tar.zst",
+    "title": "[5604] [10] flip69",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[10] Lake of Lost Nostalgia (SX) [Ky_Dash]/Lake of Lost Nostalgia.ssc",
+    "previous_archive": "99406157c7ad8eaac74c5d79984cc099ed219eafbbb2c0c7c0ae2116a5547663.tar.zst",
+    "title": "[5811] [10] Lake of Lost Nostalgia",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[10] media offline (SM) [Snap]/media offline.ssc",
+    "previous_archive": "dcf4650daf1319f629f1df0d482c7f990e9c04aeb3032df531b4b251f4984280.tar.zst",
+    "title": "[4252] [10] media offline (Medium)",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[10] Riddle (DX) [Brother Mojo remixes A. Astral]/Riddle.ssc",
+    "previous_archive": "60ddfa66d2cd5efce769ebc5401ecf0e42a8e0c4507cc713137c5fad182149bd.tar.zst",
+    "title": "[4914] [10] Riddle",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[10] Riddle (No CMOD) [SX]/Riddle.ssc",
+    "previous_archive": "73689b11ca90a88afd322b079cbed1e30d39222d9e1f517bc9280bb0a621fadd.tar.zst",
+    "title": "[10] Riddle",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[11] CO5M1C R4ILR0AD (SH) [TaroNuke vs. Scrypts]/CO5M1C R4ILR0AD-chart.ssc",
+    "previous_archive": "88b8c7f14ed7787714a16083bc9c08acb2abc5927cae947a7862a795f56fab4b.tar.zst",
+    "title": "[6005] [11] CO5M1C R4ILR0AD (Hard)",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[11] Gemini in Clockland/Gemini in Clockland.ssc",
+    "previous_archive": "f6b960e1fa42f107c25c2549c82af09a2dbb72a8b61ae667ecc98e5adce44619.tar.zst",
+    "title": "[11] 時計の国のジェミニ",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc",
+    "previous_archive": "0fce279451ee016948df2d5f96f9105d0be1c541ec33361b222c207c4f59ec8c.tar.zst",
+    "title": "[5800] [11] KENPO SAITO",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[11] Let Me Hear That (SX) [TaroNuke]/let me hear that.ssc",
+    "previous_archive": "ab3d68aca1fc3a3660717a794181d8d1d7f14f71aa6931dbd5d9f306e128dfcd.tar.zst",
+    "title": "[5916] [11] Let Me Hear That",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[11] Nishi-Shinjuku seisou kyoku (SX) [Scrypts]/nssk-chart.ssc",
+    "previous_archive": "faa7b7d60bf81e0558f74f68d3813d0e329407fe95a1097cbca9d9993ecd0ae8.tar.zst",
+    "title": "[5813] [11] 西新宿清掃曲",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[11] Palette Lab (SH) [Exschwasion]/palette lab.ssc",
+    "previous_archive": "326c40509387a20e6df8386e22f7262b5ba1d6afc8ae6837308a86bd1394678d.tar.zst",
+    "title": "[5408] [11] Palette Lab (Hard)",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[11] Slamurai (SX) [Zaia]/Slamurai.ssc",
+    "previous_archive": "295c36a5b3f9be3f795efe84ab5fd12c5129ad93a71ab40f906612fb6926f927.tar.zst",
+    "title": "[6210] [11] Slamurai",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[12] And Drugs (No CMOD) [SX]/and drugs.ssc",
+    "previous_archive": "f0fc0902a47fbe480747be0bb20c55788883e2bad110d825897e881bcb6f5d69.tar.zst",
+    "title": "[12] And Drugs↑↑",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[12] Blacksphere (SX) [Exschwasion]/music.ssc",
+    "previous_archive": "693d9951db33ee0769d0ca11a4c252212675b4c280bfa17b391a448b88926c2e.tar.zst",
+    "title": "[7086] [12] Blacksphere",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[12] bunny-house - (No CMOD)/steps.ssc",
+    "previous_archive": "b4c9a7f4836a0ae119074432a26711c1c61fe5ff4fa524d6be50873b862fa391.tar.zst",
+    "title": "[12] Bunny House",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[12] Godspeed (SX) [G. Rosewood]/godspeed.ssc",
+    "previous_archive": "2b8bb3ff4c7f1817b5ab451cde45c42286269c5b3e1743ef01cc201279825d53.tar.zst",
+    "title": "[6804] [12] Godspeed",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[12] Myths You Forgot (SX) [Benpai & Zaia]/Myths You Forgot.ssc",
+    "previous_archive": "54df234afd64c1b60238c765f43c27534c6306de6fe89690204315f4e73ba6a7.tar.zst",
+    "title": "[7287] [12] Myths You Forgot",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[12] Picture in My Mind (SX) [Zaia]/PICTURE IN MY MIND [NIKKO X WINK RMX].ssc",
+    "previous_archive": "4bcaccc464ec15233ec98eb4340654a6c5bf366636264b6323b67c75706cc3f5.tar.zst",
+    "title": "[7124] [12] Picture in My Mind",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[12] Tacos [DX]/Tacos.ssc",
+    "previous_archive": "bf244ebae2735db4b9fb1a1d8a0d8dedebd0806bbc9776f8073240b4b40499d4.tar.zst",
+    "title": "[12] Tacos",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[13] Flying Castle/flying castle.ssc",
+    "previous_archive": "dd8eaae09a428a87545fa7f19f9d8c51ad1c7dc8f7b697333ec8c11a8a54fe56.tar.zst",
+    "title": "Flying Castle",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[14] [CRYSTAL_ACCESS] (No CMOD) [SX]/[CRYSTAL_ACCESS].ssc",
+    "previous_archive": "999b9246bbec77e2eaeeefb0f793290135f018db303cf9e58e8b37f4261cff8e.tar.zst",
+    "title": "[14] [CRYSTAL_ACCESS]",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[14] [Zaia] I_m For You/I_m For You.ssc",
+    "previous_archive": "9a018586445bdc137a61cf898ebe569b88b9c72c5d1d60f809345e166a30b08f.tar.zst",
+    "title": "[14] I'm For You",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[CRYSTAL_ACCESS]/[CRYSTAL_ACCESS].sm",
+    "previous_archive": "e8c001502da5460ec27525b42f5bbe79a925cad47139c3c1b5c3edefbc233fe7.tar.zst",
+    "title": "[CRYSTAL_ACCESS]",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[CRYSTAL_ACCESS]/[CRYSTAL_ACCESS].ssc",
+    "previous_archive": "f3677bbee533ffae24b65dd5900a5fc701105f0b8b7fb4428e76cdfc016f7469.tar.zst",
+    "title": "[CRYSTAL_ACCESS]",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[F]FS+BR(lv.9) Bunny House/steps.sm",
+    "previous_archive": "3efb7d8fd2b0bc1e6093a446dbedf33f536b97a0d42cd2277f7c7a2db7ac602f.tar.zst",
+    "title": "[F]FS+BR(lv.9) Bunny House",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[F]FS+BR(lv.9) Bunny House/steps.ssc",
+    "previous_archive": "7553210da951acb389edf4364b1f9d339661effa41980f3db95ae3df0bd2c831.tar.zst",
+    "title": "[F]FS+BR(lv.9) Bunny House",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[FULL SONG] ChikuTaku [wrsw]/ChikuTaku.ssc",
+    "previous_archive": "894c528ecff961e8807fe90e10f0597bc1b45d3a8377401d9d7b354a56288019.tar.zst",
+    "title": "[FULL SONG] ChikuTaku",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[FULL SONG] Kagetsu no Yume [wrsw]/Kagetsu no Yume.ssc",
+    "previous_archive": "278157e3ef5bb6f370174afd1566f1eaeba4dc1b667aa9248b2aa7fff78656c5.tar.zst",
+    "title": "[FULL SONG] 花月ノ夢",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[FULL SONG] Shukusei!! Loli God's Requiem [Gpop]/Shukusei!! Loli God's Requiem.ssc",
+    "previous_archive": "c8c3dbcaaa63e16ec724b54e3320d9aec44bc90f7176ad44535ff0e1df91e592.tar.zst",
+    "title": "[FULL SONG] 粛聖!! ロリ神レクイエム☆",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[FULL SONG] Stuck in the Abyss [DDDAAA]/stuckintheabyss.ssc",
+    "previous_archive": "3bda43053994422dd86bd0b17f53da5a197c39e35c16b028dc8330292190018f.tar.zst",
+    "title": "[FULL SONG] Stuck in the Abyss",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[N]TECH SOUP(MASTER) Flying Castle/flying castle.sm",
+    "previous_archive": "183cfc30e725d8818d8498e17c0286c65827ab1548e1f5d615f8fd7b64bd2573.tar.zst",
+    "title": "[N]TECH SOUP(MASTER) Flying Castle",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[N]TECH SOUP(MASTER) Flying Castle/flying castle.ssc",
+    "previous_archive": "8f241bd3fa37125300957ef4a704016a334f0610f3ffc9bd6ed28e7eb5eaebc6.tar.zst",
+    "title": "[N]TECH SOUP(MASTER) Flying Castle",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[recognize m.] happy century/steps.ssc",
+    "previous_archive": "5b1572e88c54e50d21f139fa3f7f5e10db5b7708cdc7ba5362d5e3238f6226ab.tar.zst",
+    "title": "happy century",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[T04] Palette Lab (SH)/palette lab.ssc",
+    "previous_archive": "740abcc8be464307496a9f9fc8b5a6eea8db38c3395facce4690473479fa3e7c.tar.zst",
+    "title": "[T04] Palette Lab (Hard)",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[T08] CO5M1C R4ILR0AD (No CMOD)/CO5M1C R4ILR0AD-chart.ssc",
+    "previous_archive": "8ff00b6b4adf50dd064fabfb49505b904853557b7213d82931d51f509e601cfd.tar.zst",
+    "title": "[T08] CO5M1C R4ILR0AD (No CMOD)",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[T09] Picture in My Mind [nikko X WINK RMX] (SX)/PICTURE IN MY MIND [NIKKO X WINK RMX].ssc",
+    "previous_archive": "4eafba75ca724163c73a5d9699e6648cad086eaf5787931c4ab15c5ad167a62d.tar.zst",
+    "title": "[T09] Picture in My Mind",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[TLD] Palette Lab/palette lab.ssc",
+    "previous_archive": "7c0b4d7ea85f1de882a9ab9c5eb4951e7ea5c3560d7ef87b8ac518881a9faee0.tar.zst",
+    "title": "Palette Lab",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[TPE2] LALA/lala.ssc",
+    "previous_archive": "79579dd20ffa91782bfe9f8b40d9c66a7a3166cd894c4528898a1bd922370267.tar.zst",
+    "title": "LALA",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[Zaia] I'm For You/I'm For You.ssc",
+    "previous_archive": "75cad888c40284471677a0d88952cac127e86dc41aaa64074cb62d78f9d0f2a7.tar.zst",
+    "title": "I'm For You",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "[Zaia] Think of a happy place/Think of a happy place.sm",
+    "previous_archive": "1bf407dd5a2b7b5979e00760977e4894a68f8f8064cdfa8ac5b62fe301c40557.tar.zst",
+    "title": "Think of a happy place",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
+    "previous_archive": "7db9fbbe9b9aaef7a7ff728adff2e573aae7917aa2c1c45cb3bf3676783997c0.tar.zst",
+    "title": "A Dramatic Irony",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "A Op.01/A Op.01.ssc",
+    "previous_archive": "8eb0584e8b672f4eec0d9de495dfb18101d816b3e751b4423c6576fb29f0dd87.tar.zst",
+    "title": "A Op.01",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Abraham's OP/Abraham's OP.ssc",
+    "previous_archive": "97629f8fa0b48d623bfeb0ac18413879c3bf1d45bc726b39ae64b98c6295f9d1.tar.zst",
+    "title": "Abraham's OP",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Accelerator/Accelerator.sm",
+    "previous_archive": "155d0c712752d14f91880fccff982e569a3241c32884f96a853da312f7f8970a.tar.zst",
+    "title": "Accelerator",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Accelerator/Accelerator.ssc",
+    "previous_archive": "9b00e74bbb2ba4fc1567624c43df16e8d5432f7cdca2c445d4c3ec373747e743.tar.zst",
+    "title": "Accelerator",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "ACCENDIO/aCCENDIO.sm",
+    "previous_archive": "dbfe59eadc5d35ec4c9396c222cc7201c065c3b97964298b7e6b36e6bfb305a6.tar.zst",
+    "title": "Accendio",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "ACCENDIO/aCCENDIO.ssc",
+    "previous_archive": "30003f86e4d13bf8c4bf6543fc631157adce3c7f728b5f62de4db1f97a825314.tar.zst",
+    "title": "Accendio",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Actin Up/actinup-fakemines.sm",
+    "previous_archive": "0f3ef1883df1f8d1009c98c94ae2b89cde3c82207a510744395ab3c2ee607566.tar.zst",
+    "title": "Actin' Up",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Actin Up/actinup-fakemines.ssc",
+    "previous_archive": "5fd15ffb610dd3f04161d9e8609c02e0b5eecbbb9b989b29277cbb4315457879.tar.zst",
+    "title": "Actin' Up",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Aegleseeker/Aegleseeker.ssc",
+    "previous_archive": "ae0045afb14bddb8dfea095780934e9ee19155d2db73c8c05316be61d84b29f4.tar.zst",
+    "title": "Aegleseeker",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "After Dark/After Dark.ssc",
+    "previous_archive": "3946d566a891cca39191a517dda06b45f209fcd99db5c4ffd7785e619ced7b7f.tar.zst",
+    "title": "After Dark",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Afterburn/Afterburn.ssc",
+    "previous_archive": "d4eefbf6894bf6c346637b3c3a1e0a91c350a6187e5a768f65949d4de19d610e.tar.zst",
+    "title": "Afterburn",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Aien-Jihen [Gpop]/Aien-Jihen.ssc",
+    "previous_archive": "8f2f41131a2cfaf8495ad34ca3555b244027542bea2dafcb373391b3696a8e8a.tar.zst",
+    "title": "合縁事変",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Airman First Class - [glory limited.]/kpopmix.ssc",
+    "previous_archive": "fb3e1291a384b5c63713c1d75156ca90abc0e2868c4308dce1de76de0a7d2690.tar.zst",
+    "title": "Airman First Class",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Among Us In Real Life - Single/Official Among Us In Real Life Official Simulation File - Rebecca Zamolo Shorts.ssc",
+    "previous_archive": "c29566e1144dbd6a39278c5841d5fe6f184e1301da0d01e7de85058432d7d143.tar.zst",
+    "title": "Among Us in Real Life - Single",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "And Drugs/and drugs.sm",
+    "previous_archive": "5198fc714b9ddea03895752127040149b863786415f283b190a9f5e41a53b365.tar.zst",
+    "title": "And Drugs↑↑",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "And Drugs/and drugs.ssc",
+    "previous_archive": "94947db8029f86259602a7d0f20f38c79a8681177fdefa4d59a3185042e82c57.tar.zst",
+    "title": "And Drugs↑↑",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Answers2/Answers.sm",
+    "previous_archive": "ce21b4f91aee1748fd9a389e02647a46a91ba43e3ee6c71c8ce6d0d4617be578.tar.zst",
+    "title": "Answers",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Answers2/Answers.ssc",
+    "previous_archive": "c8ab2c34cec360caeb2d764279291618639a26447d3b30f54a1d6d6f952e65a3.tar.zst",
+    "title": "Answers",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Anxiety/Anxiety.sm",
+    "previous_archive": "3318aeb2e7fd1de204f12496812fa60f138019834bf2c5222b092403aefa2ce3.tar.zst",
+    "title": "Episode 04",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Anxiety/Anxiety.ssc",
+    "previous_archive": "00b3d2301d7140ae9132978a8a6f4f872cbf5d0ce463e1faf33f7ac0f7caf336.tar.zst",
+    "title": "Episode 04",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Anzu no Uta (U.P.S.)/Anzu no Uta.sm",
+    "previous_archive": "a8b5d091317c8e39173c1db0703dd3f2453ffce560acac89b8bd88bf12142941.tar.zst",
+    "title": "あんずのうた",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "ao no lie/ae no lie.sm",
+    "previous_archive": "b29d6101f5630bba2d7cbe68a37dc8bcf8eeae6c9d7ddc146acc01b0eb4187d5.tar.zst",
+    "title": "ao no lie",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "ao no lie/ae no lie.ssc",
+    "previous_archive": "741ff327dc3ddd19210a2959d45f1d032a583f56d6431b8a2d218e0447ee302e.tar.zst",
+    "title": "ao no lie",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Apollo/Apollo.sm",
+    "previous_archive": "830650734bc8dd390075773519b00d92d225ce12f935c22698954fb02736b063.tar.zst",
+    "title": "Apollo",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Apollo/Apollo.ssc",
+    "previous_archive": "cecb2ec63fc4f9140e774ebd938b0d81734227a96df9babf33fc2ad8e6556a27.tar.zst",
+    "title": "Apollo",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "assgore/goatdad.sm",
+    "previous_archive": "89fcdb0694fea759e6eafe141f9f5dce2306a600268b284a2b294967c6d8ae86.tar.zst",
+    "title": "ASGORE",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "assgore/goatdad.ssc",
+    "previous_archive": "8ced242ec60820f7e2fcde967401dbc95d0291b35e150a7d53583db5e93fdb19.tar.zst",
+    "title": "ASGORE",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Astrogirl [wrsw]/Astrogirl.ssc",
+    "previous_archive": "deedb50a6e8e4670da077ab55db4abbb5bd80f0c64b679c3666db8cd3283f28b.tar.zst",
+    "title": "Astrogirl",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Atmosphere/atmosphere-fakemines.sm",
+    "previous_archive": "19736fa57303bc9e75ecc423c0df5195e08ab59c69c32f583a8bae21a6c23883.tar.zst",
+    "title": "Atmosphere",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Atmosphere/atmosphere-fakemines.ssc",
+    "previous_archive": "63346fad0febe8047a413bf4129a85e890769f208059083c76d7cb9a69940bb5.tar.zst",
+    "title": "Atmosphere",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Backwards/Backwards.sm",
+    "previous_archive": "a9be1760356e9581c323d32e78f4160cdc5295a4f6202f322838102021c0e5a3.tar.zst",
+    "title": "Backwards",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Bad Apple!!/Bad Apple!!.sm",
+    "previous_archive": "fb466d41aaf6c15fff9b1e0a0908d572f20636a67af06f2bdbc9c92f42c56333.tar.zst",
+    "title": "Bad Apple!!",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Bad Intentions/Bad Intentions.ssc",
+    "previous_archive": "570b0dffb5ded94dcaccec8cef2e67e3ca299cce09f5a979b3eaa9bd3fa7ae01.tar.zst",
+    "title": "Bad Intentions",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Bad Trails/Maybe it was fated.sm",
+    "previous_archive": "91835e16471543e7f6a0ccc1844196ff7ead848826fd43e90f187ff0acbf6c5b.tar.zst",
+    "title": "Bad Trails",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Bad Trails/Maybe it was fated.ssc",
+    "previous_archive": "44585ae90fcee44eb839e0c618dd81e0a90eaf95eacf3d9ed531cb1826170375.tar.zst",
+    "title": "Bad Trails",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Badlands/Badlands.ssc",
+    "previous_archive": "6314bf1abe3c94b05ccabd5787c3ee56cd9380438258801f97ddd9dbc6bbf48c.tar.zst",
+    "title": "Badlands",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Bamboo/Take.ssc",
+    "previous_archive": "d23b4863319782e7b7ad8b8db3872f17a2db463acf379190293f0f5873b70b30.tar.zst",
+    "title": "竹",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Bank Account/Bank Account.sm",
+    "previous_archive": "89ccfcb83c3fb05f3b48b922272cc115dc5b69ebf345bd179a1e5a15af1d9edf.tar.zst",
+    "title": "Bank Account",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Bank Account/Bank Account.ssc",
+    "previous_archive": "0211e7ed4192b8c793f8ca9b308da10fd59666ac4c07769ac8e29e21fad42268.tar.zst",
+    "title": "Bank Account",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "BBKBBKK/BBKKBKK.ssc",
+    "previous_archive": "c523758b4a8df0e732831730fb9a8413c5d2ac7f95db5006dcbad26c4343e4a4.tar.zst",
+    "title": "B.B.K.K.B.K.K.",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "BBKKBKK [UPS 3]/BBKKBKK.ssc",
+    "previous_archive": "66138d611a92a6bd3653acda2df933580c82a5eed13c9c5dbfefba64a2ce4117.tar.zst",
+    "title": "B.B.K.K.B.K.K.",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "BBKKBKK [UPS 4]/BBKKBKK.ssc",
+    "previous_archive": "31b6d48d1377c91006340baac97ad428c6e89188e12ab32b2899de445b76b18c.tar.zst",
+    "title": "B.B.K.K.B.K.K.",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "BBKKBKK [UPS5 SM5]/BBKKBKK.ssc",
+    "previous_archive": "a9e6799f485f3479ce47efc20a9ac89bcd473e4052c4747340514a08ad75a865.tar.zst",
+    "title": "B.B.K.K.B.K.K.",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Beauty in chaos/Beauty in Chaos.sm",
+    "previous_archive": "edcb6fecbf2741882789d53d568d40c5a0d6736d0b6a5ca7a260c673ffc6a14a.tar.zst",
+    "title": "Beauty in Chaos",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Beauty in chaos/Beauty in Chaos.ssc",
+    "previous_archive": "99a4efa10433dd956073bfeffd3b90cb29a8140fcb634e61b93e07f62bbf6ef7.tar.zst",
+    "title": "Beauty in Chaos",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Biggie Boom Boom/biggie.sm",
+    "previous_archive": "47b009de169f46ad955585dd786c7b49b19764d4c0b9ed5168fc6e2202ae68f4.tar.zst",
+    "title": "Biggie Boom Boom",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Biggie Boom Boom/biggie.ssc",
+    "previous_archive": "b76e31c5386e666b53c9c4256effa4ac05f3ad983b595fa78d4503d2e0ee3ffd.tar.zst",
+    "title": "Biggie Boom Boom",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Black Out [Gpop]/Black Out.ssc",
+    "previous_archive": "8fb60715eadec9d906d868033018b73a87bb562975dc510de9ce45f2a39b8bf9.tar.zst",
+    "title": "Black Out",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Blacksphere/music.ssc",
+    "previous_archive": "3e5565742fd22b7b8fe0877ca1536b818215318dfb0e19ddfc86d0c5f3ac0df3.tar.zst",
+    "title": "Blacksphere",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Bodies/Bodies.ssc",
+    "previous_archive": "355eff726a18b025a030f2619bd223db790a014ba57452b87bc85cce301f53f9.tar.zst",
+    "title": "Bodies",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Boys/Boys.ssc",
+    "previous_archive": "262dcdba9884cc2d7088544d104a3fa0e4820d23467bb6a5a3491c0806f0cc7b.tar.zst",
+    "title": "Boys",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Brain Implosion Energy Drink/Brain Implosion Energy Drink.ssc",
+    "previous_archive": "d59a4f7e545dc6bc1ac3f83653c035cdecbac50e2d98d4fae4f831ec1925e70d.tar.zst",
+    "title": "Brain Implosion Energy Drink (Null)",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Brain Power (Cranky Remix)/Brain Power (Cranky Remix).ssc",
+    "previous_archive": "6596d65f5ac9532232cba995e4ce8d55451d586c1b9d624a4505e1c4edd1c664.tar.zst",
+    "title": "Brain Power",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Brain Power - [Cardboard Box]/Brain Power.sm",
+    "previous_archive": "7474f7c949e0a8a85dc83cfe432cfbffdd9a3ed240051e6e0bad6408a5767e4b.tar.zst",
+    "title": "Brain Power",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Brain Power - [Cardboard Box]/Brain Power.ssc",
+    "previous_archive": "0e9b59cd89b8971a8035aca5c55ef7fc791622c8bd888c3ccc9d3b8a875174e0.tar.zst",
+    "title": "Brain Power",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "broadcast/broadcast.ssc",
+    "previous_archive": "7f97218dbcd5600c30c2851a9f1fb7f19d5fd25b41f5f2c0a07d890fde7d3711.tar.zst",
+    "title": "放送",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "BroGamer/BroGamer.ssc",
+    "previous_archive": "dd354f14a68ae506d29f7ebd651c66444f451aa871503feeebae5c6375f21722.tar.zst",
+    "title": "BroGamer",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "bunny-house/steps.sm",
+    "previous_archive": "0d1d0e4f137de75315352b08ee1a313cc4cc6256a473c190697081faf84fb1ba.tar.zst",
+    "title": "Bunny House",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Butterfly by DDR/buttchew.ssc",
+    "previous_archive": "e3f0dfc77208659c4ba049914802f6a185cfca5287188f8ccc81a5decbbbe57e.tar.zst",
+    "title": "Butterfly",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Bzrp Music Sessions, Volume 53/bzrp53-fakemines.sm",
+    "previous_archive": "295e9b16ec07f89056d66834ed4e01f8ac19703087917e1af3082fb57a75c286.tar.zst",
+    "title": "Bzrp Music Sessions, Vol. 53",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Bzrp Music Sessions, Volume 53/bzrp53-fakemines.ssc",
+    "previous_archive": "fdff613be2470ffe5fd53e7999c60a81a2c9087802ee0e80861832024d2703c3.tar.zst",
+    "title": "Bzrp Music Sessions, Vol. 53",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "c'est business/c'est business.ssc",
+    "previous_archive": "435f2f059225269e6ffbde1a0369501ec99ae3d12f98b20b92b3e922956716cd.tar.zst",
+    "title": "c'est business",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "cards/sm.sm",
+    "previous_archive": "bc49b78df2ac37878f512689bc65ede287386ae29d08313dd1e4e6396b2b1f80.tar.zst",
+    "title": "Cardstone",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "cards/sm.ssc",
+    "previous_archive": "1bbb22ea2eada323cc7a3814b60adcedaad2474e0a7e73c9942e64467abcfd83.tar.zst",
+    "title": "Cardstone",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Cat Hack/Cat Hacks.sm",
+    "previous_archive": "a6bdb8044e7cb16503705055d209c6dcc0f61a16a0b1db1fdd6ed1913d83a42c.tar.zst",
+    "title": "Cat Hacks",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Cat Hack/Cat Hacks.ssc",
+    "previous_archive": "1d4a702b6025efa60c460f96dd7b8b4941c0cd12819fec4968dd5cfe170967c5.tar.zst",
+    "title": "Cat Hacks",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Chewingood!!!/Chewingood!!!.ssc",
+    "previous_archive": "4666a4f0d16857e698c4fb56e3c2f857a1aa86e26eaa00d9a0a7257f6a7d6b19.tar.zst",
+    "title": "Chewingood!!!",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Chipsqueak/chipsqueak.sm",
+    "previous_archive": "d7df48d40d6950f0da7d39f1732bacefab397a4beb479cddb14495e1e5e3e35e.tar.zst",
+    "title": "Chipsqueak",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Chipsqueak/chipsqueak.ssc",
+    "previous_archive": "aa9d64c40269e3f89848f6160e66659a372b2fccdb7e7c9ec3321460914ca19a.tar.zst",
+    "title": "Chipsqueak",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Choices - [Aoreo]/Choices.ssc",
+    "previous_archive": "2090d88bf827dcba96eccf40c7c4d32e9c27177cd2d350824774333714734659.tar.zst",
+    "title": "Choices",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Easy",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "chronic latecomer/chronic latecomer.ssc",
+    "previous_archive": "cbfe9d3319b3bb86aaacf56961ba890ba6fc6d245fb7e8a7b832c316a5ee9150.tar.zst",
+    "title": "遅刻魔",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single"
+  },
+  {
+    "source_simfile": "Circles/Circles.sm",
+    "previous_archive": "a596574fe1fd7aece912b0375d81db0d8b6caeb574ba1a0d5fa896abf72581f8.tar.zst",
+    "title": "Episode 15 Circles",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Circles/Circles.ssc",
+    "previous_archive": "760498c66a49c2d97874fbbaddff5458f5e914bb4df498b150199ea1fecf2569.tar.zst",
+    "title": "Episode 15 Circles",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Cloud99 (As Above Mix)/Song.ssc",
+    "previous_archive": "1bcc1a4ca0385bafaf8cfb255b5e89d8ea2741ec789f893dfc8daeb75cbea4f8.tar.zst",
+    "title": "Cloud99 (As Above Mix)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Cold/Cold.ssc",
+    "previous_archive": "9601470ab9bd1e0d7d95770e91f2227cde3e767a261c00e6d1874fec5f613979.tar.zst",
+    "title": "Cold",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "copter/copter.sm",
+    "previous_archive": "24ec4a9162f8f547f305384bd25afa823f330ad71e54e566237f124cc9bb0f99.tar.zst",
+    "title": "copter",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "copter/copter.ssc",
+    "previous_archive": "5a5d3690592fde075ac87c42a9655a5e96e717e518dfcd3df10f295ce696f1d7.tar.zst",
+    "title": "copter",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Crab Nicholson Extreme Sleepover/Crab Nicholson Extreme Sleepover.sm",
+    "previous_archive": "c2be9163f31b73e544df8ec14136647a3394f8401dcbb851e45b07c099cbd816.tar.zst",
+    "title": "Crab Nicholson Extreme Sleepover",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Crazy Crazy/Crazy Crazy.ssc",
+    "previous_archive": "c37d64e24f0d44ebbcc3acc647beeabbefee645976e01f50d8d3622e72a8bce5.tar.zst",
+    "title": "Crazy Crazy",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "crew -All Hands on the Deck-/crew.ssc",
+    "previous_archive": "5a7bb5f1894c7cc2809264abe710d548e7d85cf61543c0fc831b36f055b38e19.tar.zst",
+    "title": "crew -All Hands on the Deck-",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Edit",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Cuphead [TaroNuke]/botanic.sm",
+    "previous_archive": "a117399b12110fdd9e25667e3876644df41ee739dff619c564ad5b79b24ba983.tar.zst",
+    "title": "Botanic Panic",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Cursed 2/Cursed 2.sm",
+    "previous_archive": "38de4899009870c7c8ff93ef5ea75477cf04fdfaff21d66023efa059828a99b0.tar.zst",
+    "title": "Cursed 2",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Cursed 2/Cursed 2.ssc",
+    "previous_archive": "fcc9f5a12a337bd7584352c7bcdd77ff166efe332019000f010c811c79c61ef2.tar.zst",
+    "title": "Cursed 2",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Cursed Metamorph - [Zaia]/Cursed Metamorph.ssc",
+    "previous_archive": "25ea5cf4cfa0897e4b3da4bda0c295827045a62b984a32b8209cc5e45f16fd12.tar.zst",
+    "title": "Cursed Metamorph",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Cyberpunk 2077/Cyberpunk 2077.ssc",
+    "previous_archive": "3f0404368ddd09c3f9b9ac778d19d433100126b71b0251aab6cd353d51378abf.tar.zst",
+    "title": "Cyberpunk 2077",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Dance Robot/dancerobot-fakemines.sm",
+    "previous_archive": "a4986f037268965a7ac3765d642c50e1053bbc44f859773fd8102d6f536314b3.tar.zst",
+    "title": "Dance Robot",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Dance Robot/dancerobot-fakemines.ssc",
+    "previous_archive": "eb3c5f293f8811925e9030fd4df4fb71aab2e29b1fcac5820158594e4a525d0f.tar.zst",
+    "title": "Dance Robot",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Data Loss/Data_Loss.ssc",
+    "previous_archive": "aa65c13268e152337a2969e59e73a79eda0321d96e0773a76fc815f4ae1af621.tar.zst",
+    "title": "Data Loss",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Datamania (tpz Overheat Remix)/Datamania (tpz Overheat Remix).ssc",
+    "previous_archive": "3a897552734b96d026ee8a9d9871f871428ab02280da95498a19f95787e71eb5.tar.zst",
+    "title": "Datamania (tpz Overheat Remix)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Datura -paroxysm-/Datura -paroxysm-.ssc",
+    "previous_archive": "849330a6888e5473596428c370ba0408f0f1e519d9e758a1f79bdf9cdda63058.tar.zst",
+    "title": "Datura [paroxysm]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Daywalker/Daywalker.ssc",
+    "previous_archive": "afcf6539a97c01a1d76cefd4e4c4aea1794d52840df86540d7b4e2d834ba3ffd.tar.zst",
+    "title": "DAYWALKER!",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Deceive Your Insight [TaroNuke]/insight.ssc",
+    "previous_archive": "b8d0ef7f9411c17b3f8ffbd3ab56a4e887feb6ef344925cc46d06713b962c289.tar.zst",
+    "title": "Deceive Your Insight",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Delayed Friend Request/Delayed Friend Request.sm",
+    "previous_archive": "9496a9b91af08475c5ef20d97a9b70bb8af5c30055b3b6f00cf80660546b076b.tar.zst",
+    "title": "Delayed Friend Request",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Delayed Friend Request/Delayed Friend Request.ssc",
+    "previous_archive": "b4747281a28147c680ffe86a97a697a1df666728225813b9290d38a7c1c1b8e5.tar.zst",
+    "title": "Delayed Friend Request",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Delightful Day/Delightful Day.sm",
+    "previous_archive": "0ee7948154211080042ab77ad092b3626ca0324698063f6d6e669f71fc7a3582.tar.zst",
+    "title": "Delightful Day (w/ visual FX, BG video)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Delightful Day/Delightful Day.ssc",
+    "previous_archive": "02b9b22e9f67e55055e1a080486da4f0fce0ed7f2e6f1c5da56063941f8d0967.tar.zst",
+    "title": "Delightful Day (w/ visual FX, BG video)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Dig Dug Theme/Dig Dug Theme.ssc",
+    "previous_archive": "b5b80f9debd5dcfd521ea77bc31f2af748b5890615d7417452b57b0c7536b3b1.tar.zst",
+    "title": "Dig Dug Theme",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Dimmadome/doug dimmadome owner of the dimmsdale dimmadome.sm",
+    "previous_archive": "2c30e61d831c0a0ddbfdfc8684a15b2f0114b69d927b090314316fd5df0ee38b.tar.zst",
+    "title": "Dimmadome",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Distraction/sm.sm",
+    "previous_archive": "f382963e4969af4c983b5a6f09a4fa88a8088e940c00be1e8006ed931bdf1b6a.tar.zst",
+    "title": "Distraction",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Do the Mario/DoTheMario.ssc",
+    "previous_archive": "ca27e465c3274701e6c170ed02e8791bcd7bd785b2ad34d1793c937bc18c25d3.tar.zst",
+    "title": "Do the mario",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Edit",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Doubles-45-HALF-[MASTER] Tacos/Tacos.ssc",
+    "previous_archive": "c41449a435a0dc060afda40bf56944a40d943f1a611f4f20b6771a71d409c07e.tar.zst",
+    "title": "45|HALF|[MASTER] Tacos",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "double",
+    "steps_type": "StepsType_Dance_Double",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "DREAMING-ING!!/DREAMING-ING!!.ssc",
+    "previous_archive": "93ca146c9950796bb6a18f98c1d63cd1f0fdd6df66c0d2bc000240452ef90e6c.tar.zst",
+    "title": "DREAMING-ING!!",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Dreams Bloom After School/Dreams Bloom After School.ssc",
+    "previous_archive": "5239a79f19a8c9473f63ce1456d28a80274988579e3f2bc92fa55b25c178000d.tar.zst",
+    "title": "夢咲きAfter school",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Hard",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "E2/E.sm",
+    "previous_archive": "7f30cbfeb809c75e2819ea28574deb6970ac876e217d51c84967dc3b2666d674.tar.zst",
+    "title": "e",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "E2/E.ssc",
+    "previous_archive": "e645512a618ca10b8926b9b95948aac88a922d7c5ae3a4f3b0974a851bb8346d.tar.zst",
+    "title": "e",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "edamame (except bbno$ produced it under C&A)/edamame.sm",
+    "previous_archive": "2c8a1b1385d1bbcea905993d261e0942e241b334ab55438515235d5987e6fb5f.tar.zst",
+    "title": "edamame",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "edamame (except bbno$ produced it under C&A)/edamame.ssc",
+    "previous_archive": "ce6e8c3c2d61ccdcdc2f5229ce52a9fbe8c8d2df221ae23c4064bf34d329329f.tar.zst",
+    "title": "edamame",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Electrified/Electrified cut.ssc",
+    "previous_archive": "54575f00e6300a71c6ed475b5e721a981569d2715735208d4fc7772ba22b5617.tar.zst",
+    "title": "Electrified",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "feelyourtouch e.d.e.n/feelyourtouch eden.ssc",
+    "previous_archive": "183e11280dfa7d18d444a5cc63f16ccbbc4f4d4fb2f9b81fefefde2de778b9e0.tar.zst",
+    "title": "​#feelyourtouch e.d.e.n",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Fiji (Lange Remix)/Fiji (Lange Remix).ssc",
+    "previous_archive": "a6674298b7a42d5314fd663a8ca210dc030530595166499eb5c84e69eae082f2.tar.zst",
+    "title": "Fiji (Lange Remix)",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Final Flash Flight/Final Flash Flight.sm",
+    "previous_archive": "142bfbc0ade69fa381ecc1136b68de14d63713d1d68b50d07a08e503dea0770f.tar.zst",
+    "title": "Final Flash Flight",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Final Flash Flight/Final Flash Flight.ssc",
+    "previous_archive": "1a139b3876232241558a2db06acf943948225edd47e3bcfd036dc011eabf15b3.tar.zst",
+    "title": "Final Flash Flight",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "finite/sta - Finite.sm",
+    "previous_archive": "54a157ca189fadbbf0587f36d657929cba99eb7584a08e67e91c3ac92e11b002.tar.zst",
+    "title": "finite",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "flores sulphuris - [Zaia]/flores sulphuris.ssc",
+    "previous_archive": "d60d63584b92c0eb64200ef18fa847b75b72764c22d080504b924defbb610e0f.tar.zst",
+    "title": "✿ᵒᶠ🜍(flores sulphuris)",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Flowers [Cringle Desolation]/Flowers.ssc",
+    "previous_archive": "f6e718c465993ad5e64cdb071206e1aa727893aca5f9497a67ad9cb150e36f04.tar.zst",
+    "title": "Flowers [Cringle Desolation]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "flowers [R.I.G.H.T.S]/flowers.ssc",
+    "previous_archive": "8e9849d0cb9f793c1282fd9efda26ed737bb286ffe4fffc40dc5270ec2525e21.tar.zst",
+    "title": "flowers",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "flowers/flowers.ssc",
+    "previous_archive": "1b5408a6706785a859db150a90ad0d41ec0001231dad19725588addba9dcd589.tar.zst",
+    "title": "flowers",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Flying Castle/flying castle.sm",
+    "previous_archive": "c25c168d7593bc49f9af8254ac3a2bc1241d49a591a9fd4b5a8fbb43e903be3c.tar.zst",
+    "title": "Flying Castle",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Flying Castle/flying castle.ssc",
+    "previous_archive": "6dacfca697e7a273ff2a2b3b0170a46ee13fa0f9cc96a8ac421f7af59363e369.tar.zst",
+    "title": "Flying Castle",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "fof_guys/fof.ssc",
+    "previous_archive": "50ada90f96b306f583ae02382994d5c4497b33546c02fac6b3f826b0b00913fb.tar.zst",
+    "title": "Fof Guys",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Fortuna Redux - [Zaia]/Fortuna Redux.sm",
+    "previous_archive": "6589c2b07c731ec217c837f3cc633f6425635c371fd31702b21dff8d85a937c1.tar.zst",
+    "title": "Fortuna Redux",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Freaky Deaky/Freaky Deaky.sm",
+    "previous_archive": "4d8e1ddbd0222c253d30f53f9cdebf114d5540be446b8a86e7ff6add42d6e895.tar.zst",
+    "title": "Episode 20 Freaky Deaky",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Freaky Deaky/Freaky Deaky.ssc",
+    "previous_archive": "7877aeae9f55324f811c58d880d3353b5139773fd47af86379b8d683ca79f613.tar.zst",
+    "title": "Episode 14 Freaky Deaky",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "freg/freg.sm",
+    "previous_archive": "7272e712a5831f51bf927fa96b966950ac8beb175e43a0e2437681446caa7554.tar.zst",
+    "title": "freg.",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "FTW/FTW.sm",
+    "previous_archive": "e4554a9b96199f0b758716a15a2debcb2f2c54cc54606f41432a8d190dc8a46e.tar.zst",
+    "title": "FTW",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "FTW/FTW.ssc",
+    "previous_archive": "1fd3994e70780bbd75b687131fbf798c4c30c37f878da889040855df18f61a8d.tar.zst",
+    "title": "FTW",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Furst/furst-fakemines.sm",
+    "previous_archive": "08d928a685e0ccba2de00bfed3cc990e12689bc456a9c12907989ae97ce2e2ab.tar.zst",
+    "title": "Furst",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Furst/furst-fakemines.ssc",
+    "previous_archive": "17c1d7340761c1520082f69627e9a4a19f05a47e48a61b42710f107407fe79c6.tar.zst",
+    "title": "Furst",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Gallium Phosphide/Gallium Phosphide.ssc",
+    "previous_archive": "8bbcaf34c198122d9ec6a0ab1000a885d2a7d496a715879b789433edee561c1c.tar.zst",
+    "title": "Gallium Phosphide",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Gaming in 2018/Gaming in 2018.ssc",
+    "previous_archive": "fdcb61ee1b447ec72aae687901500ee0c26a5fdf4f564b2b98a13c3f8b1adf4b.tar.zst",
+    "title": "Gaming in 2018 If you use a screen filter on this then you’re probably taking this tournament too seriously",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Gangu Kyousou Kyoku -Shuuen-/chart.ssc",
+    "previous_archive": "0e201181db02c246f0c84333ac0c748f6b56a9ca59d836cc6dc5a505ee7cfa5e.tar.zst",
+    "title": "玩具狂奏曲 -終焉-",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Gemini in Clockland/Gemini in Clockland.ssc",
+    "previous_archive": "626410ebf541e4c2f2aaa5b61f06371f5c132b09f5812f4c9155b13bfb07ab85.tar.zst",
+    "title": "時計の国のジェミニ",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single"
+  },
+  {
+    "source_simfile": "Genshin Quiz/Megaquiz.ssc",
+    "previous_archive": "573ad6ad01df2a3958636ec215433438b9bd57ea63455dfa53b077c4e39c3dbd.tar.zst",
+    "title": "Genshin Mega Quiz",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Get Into It/GetIntoIt.sm",
+    "previous_archive": "0f930b5c92c851793a6a4ddcac966901028639f31d42079fedb8e431a2a27d7c.tar.zst",
+    "title": "Get Into It",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Get Into It/GetIntoIt.ssc",
+    "previous_archive": "7231617a36c1e3d64c03cbd164907558954e2a5a64bbe698315d24831ccf6327.tar.zst",
+    "title": "Get Into It (Yuh)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "ghost [Telperion]/ghost.ssc",
+    "previous_archive": "e2f20092230970522ee43f269037e8492099765fcfe52d7664f397595164fac3.tar.zst",
+    "title": "IT'S A GHOST!!!!! AAAAAaAAAaAAaAaAAaAaAAAA",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Girls MIA/girlsmia-fakemines.sm",
+    "previous_archive": "46d882db8903f4988ff5cae946fb6eef9a5489e3543893502c1c40bbe9ba0f80.tar.zst",
+    "title": "Girls MIA",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Girls MIA/girlsmia-fakemines.ssc",
+    "previous_archive": "8ecb9dc9d4d935f73b2a4977fbd4aadc4d4822db5919ea016ce1e03e17c76ba9.tar.zst",
+    "title": "Girls MIA",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Godspeed [TaroNuke]/godspeed.sm",
+    "previous_archive": "e0e5941b20b3b84030bfc70c16f8480f1ea510545b519c2a618e3b0d0157ca90.tar.zst",
+    "title": "Godspeed [TaroNuke]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "gone_KidFresino/song.ssc",
+    "previous_archive": "fb1696ac05718ab2de6a2884b9ee6effa9df50c66f5679feb3530c9e1cf6d1a6.tar.zst",
+    "title": "行つてしまつた",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Goodbye/Goodbye.ssc",
+    "previous_archive": "68d07738eeb186499b9b49c7549e11231074f1ad5547b5c49dd5e1ce0e08cdd0.tar.zst",
+    "title": "Goodbye",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Gossipo Perpetuo [chairodactyl] - Cameron Wiggers/gossiperpet.ssc",
+    "previous_archive": "432cad841636f318924a1d965af40ab100566e36e45c69fe66d12673db6a9b2c.tar.zst",
+    "title": "Gossipo Perpetuo",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Edit",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "GREAT GREAT/GREAT GREAT.ssc",
+    "previous_archive": "538c45fbf448d048d9b9f754463de3874777a79502e5eec55375e280d0710eb6.tar.zst",
+    "title": "GREAT GREAT",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Hallways/hallways.ssc",
+    "previous_archive": "d29c96b1c042099c079a9f492c15a534a22f1239286da0bb16ebaf3ccdc5cca3.tar.zst",
+    "title": "Hallways",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Happiness/Happiness.ssc",
+    "previous_archive": "8e48a72f9a686fd35d01d3e2497686d50a8ad30332660add585dbc758097c631.tar.zst",
+    "title": "幸せになれる隠しコマンドがあるらしい",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Happy Now Remastered/Happy Now.sm",
+    "previous_archive": "259ab04ad65a6aebe890dbd508623e2bfc2412c759cdf2acc400ece8817618b2.tar.zst",
+    "title": "Happy Now Remastered",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Edit",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Happy Now Remastered/Happy Now.ssc",
+    "previous_archive": "5f9232153aa3b8eb1b90650db260e28ab7fafb3196ff188edaa067386658bf11.tar.zst",
+    "title": "Happy Now Remastered",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Edit",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Happy Now/Happy Now.sm",
+    "previous_archive": "acb0e9e5d14752e6555d2b9da0fb9506358aa8778a45de2b079e7a11541d6423.tar.zst",
+    "title": "Happy Now",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Easy",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Happy Now/Happy Now.ssc",
+    "previous_archive": "2d593c336223218398eefd84e4e8d2d8f96e05c8aab4d277d9a172c8398e462e.tar.zst",
+    "title": "Happy Now",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Easy",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Haxo (Sharks Remix) [sorae]/haxo.ssc",
+    "previous_archive": "8a276535e1cbc6189402d1d8aed8ce0ba89df4d729e41f12f3c9d779cdab1d8c.tar.zst",
+    "title": "Haxo",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  {
+    "source_simfile": "Hello Gordon [chairodactyl] - Cameron Wiggers/Hello Gordon.ssc",
+    "previous_archive": "f3cd946337623f7d9dbb7743676e00e4ec50cd57d27913fdb17dd2109dbe4884.tar.zst",
+    "title": "Hello Gordon [chairodactyl] - Cameron Wiggers",
+    "previous_execution": "native_gameplay",
+    "style": "versus",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Hispanic Panic/sm.sm",
+    "previous_archive": "7d3d2939d23dae05ea2a057c33b0f615480bcdf5ad34377693fd19e7faede993.tar.zst",
+    "title": "Hispanic Panic",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "HOPE/HOPE.ssc",
+    "previous_archive": "38abdc5f2f5b6e0b27ee4fecdb38c9193d08c5596e7333fe51fc8ff16bf932d2.tar.zst",
+    "title": "HOPE",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "I (Ai)/I (Ai).ssc",
+    "previous_archive": "506d9089f738dafdffe08188477dc7e59583d8898e190c4dc1f07498971be228.tar.zst",
+    "title": "I",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "I Like To Move It/I Like To Move It.ssc",
+    "previous_archive": "ea9eda6ddeef4dce76618614f54c5f1577523e639edefb469f37be097dace0e4.tar.zst",
+    "title": "I Like To Move It (Wodda Remix)",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "I Really Like You [dbk2]/I Really Like You.sm",
+    "previous_archive": "1ee4a0c613cdc1a98f40785a6b0becb56a603e86656bf0deaed509549ec9312f.tar.zst",
+    "title": "I Really Like You Really, Really, Really, Really",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "I Really Like You [dbk2]/I Really Like You.ssc",
+    "previous_archive": "cb175339c45d775f16a6595ae2443b54405e7441e9ff331163d782d84032adfb.tar.zst",
+    "title": "I Really Like You [dbk2]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "I'm sorry/sm.sm",
+    "previous_archive": "cbba33052f6e21bc360acdcfc522172be305b59abfb2ca3fd2032738e865e1ec.tar.zst",
+    "title": "TETRIS",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "I'm sorry/sm.ssc",
+    "previous_archive": "d1f193494499be32d11345b8d5d4fc0922234b5789ad041e00810862789a78ad.tar.zst",
+    "title": "TETRIS",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Ibuprofen and Weed - [Freya]/Ibuprofen and Weed_LEFTS.ssc",
+    "previous_archive": "42b59df74fa8af50c75f4ddfec1aec982936457377d4c339c32701ff732bbde1.tar.zst",
+    "title": "Ibuprofen and Weed - [Freya]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "versus",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "ICON KILLER - [Zaia + StarrySergal + dimo + Brother Mojo]/ICON KILLER.ssc",
+    "previous_archive": "57f694f70fad176cb3c3bbe423bde296847f20af6b87e7377e4c9735160d455d.tar.zst",
+    "title": "ICON KILLER",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "If You Crump Stand Up/crump.sm",
+    "previous_archive": "51dc07f45646ee7ee65906490783ca6f631f2103890f09a309b18fb2f22495c4.tar.zst",
+    "title": "If You Crump Stand Up",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Igaku/Igaku.sm",
+    "previous_archive": "17450d1eb6fd1d3b23ca248e6c9c5a5a2c097ed86da9ae6a9d7ac978b016f1ab.tar.zst",
+    "title": "Igaku",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Igaku/Igaku.ssc",
+    "previous_archive": "79c9d90cdb8d850537bb02338e187b4becdc954959e4355f74f2b0f3744dcee2.tar.zst",
+    "title": "Igaku",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "iLLness LiLin/iLLness LiLin.ssc",
+    "previous_archive": "1b00bc9e88f70761ada1c12dfd37581ab79bc146b0ee774a8683a9d1de9b2669.tar.zst",
+    "title": "iLLness LiLin",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Impulse/impulse.sm",
+    "previous_archive": "282ed14b580c66d51ab533abda29e2291ff297742acb493d0fb31aeabf4c70b6.tar.zst",
+    "title": "Impulse",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Impulse/impulse.ssc",
+    "previous_archive": "3acd381df54e1a78b79a245136461482bc085b4b96743f67fa3475ddf60e5965.tar.zst",
+    "title": "Impulse",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "In the Hall of the Mountain King [dbk2]/In the Hall of the Mountain King.ssc",
+    "previous_archive": "7ff66934ddc8f51fa05b7e2b2aa714c3f2fc4c7afaf09281f4eb50f9f3502fcc.tar.zst",
+    "title": "In the Hall of the Mountain King",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Edit",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "INAZUMA (Gio)/INAZUMA.ssc",
+    "previous_archive": "bf02bf5a33a96b32b7639d4d0e5eb349a9208ce4a706e48b51d0618eb77f6f8a.tar.zst",
+    "title": "INAZUMA (Gio)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Into The Light2/Into The Light.sm",
+    "previous_archive": "a3364ac3587bf20af3139fbb81fce9a6b7381e13462778e5cadeea5e87b75ced.tar.zst",
+    "title": "Into The Light",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Into The Light2/Into The Light.ssc",
+    "previous_archive": "0e2ac617712eea4186baf59715f7889cfda5ecb87abe8a004c7d974364fbcf8f.tar.zst",
+    "title": "Into The Light",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Intro Outro/intro.ssc",
+    "previous_archive": "cb1a7556ac4de1c7a4895e3540b805b67c268c432c77ac47cf800a7afafa0ca2.tar.zst",
+    "title": "Intro Outro",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "versus",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Invert/invert.sm",
+    "previous_archive": "b88f821df058ee4e0e7824590376d8f5fb4068ee6a1577a00e8fccc327ffbf88.tar.zst",
+    "title": "Invert",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Invert/invert.ssc",
+    "previous_archive": "e3f01c5af96b14bd0ee9dbcfb93f3df6e270f2423ecba31c780694ef795f76d8.tar.zst",
+    "title": "Invert",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "It's Showtime/mettaton.ssc",
+    "previous_archive": "bcefa60e00ba411b03b72b96de54d4eb60ff958876ce9e9b0b71c5da7fa5ff9b.tar.zst",
+    "title": "It's Showtime!",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Medium",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "itg bloodrush 2005/itg bloodrush 2005.sm",
+    "previous_archive": "489d2d01bfc628d652203c19fe52d84dec283318391da05e5574a6219291e471.tar.zst",
+    "title": "bloodrush itg do not use a speedmod over 250 scroll speed unless brave",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Jack The Reaper/Jack The Reaper.sm",
+    "previous_archive": "668b5d9e3eb1f2d5789b3e194b478936406cae05d570336c110b3d5637aeb2ad.tar.zst",
+    "title": "Jack The Reaper",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Jack The Reaper/Jack The Reaper.ssc",
+    "previous_archive": "902fa9c20aac1a4d4f49952de113c4c466509caa89aa78982d558e71869a38f9.tar.zst",
+    "title": "Jack The Reaper",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "jeans/abj.sm",
+    "previous_archive": "f9f961f5835392f63e3b2a8e8c58b00aedab67b42ced6dd21aedad01e4de4f83.tar.zst",
+    "title": "Jeans",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Jerk/Jerk.ssc",
+    "previous_archive": "cedb801f2816f9abc020d1a4d2d451d11fd84aa29695c9d4e746bd133bcf22b1.tar.zst",
+    "title": "Jerk",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Jesus He Knows me/jesusheknowsme.ssc",
+    "previous_archive": "70b97027059bba1365ce1867a9abfb893c071480f2a75bd86d7897e5c4219bc4.tar.zst",
+    "title": "[08] Jesus He Knows Me (Medium)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Jokes/Write Final Round.ssc",
+    "previous_archive": "e2514fd1aa14aa7b969ce0c138c37228a3b78c6361ea2822926fe31a9604e02f.tar.zst",
+    "title": "Write Final Round",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Jumper/Jumper.sm",
+    "previous_archive": "f987c61f160c5670eec7a6d4ae46dfc4772f717efb8957bef9942d9f1be2c483.tar.zst",
+    "title": "Jumper A Daily Rhythm Game",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Jumper/Jumper.ssc",
+    "previous_archive": "fa5d1c213051d1a69c4a2307223b12629218a2f5ac3195899af5a7b2ea826abe.tar.zst",
+    "title": "Jumper From Cringle Odyssey",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Just a Friend To  You/Just a Friend To  You.sm",
+    "previous_archive": "40bea54f493972c36aa20edc391d6119c9faa77055a824d8d98d0b2f323692ea.tar.zst",
+    "title": "Episode 07 Just A Friend To You",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Just a Friend To  You/Just a Friend To  You.ssc",
+    "previous_archive": "2c628286c6b868fdc0d7381ed3dc47843c67d1f5c561160ca0d78fefcfbfc58f.tar.zst",
+    "title": "Episode 07 Just A Friend To You",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "K-Pop Foxture/K-Pop Foxture.ssc",
+    "previous_archive": "33cd1658f0e05c90641e0a67495924d0e7e65d9dae0230255e4778eaad246be4.tar.zst",
+    "title": "K-Pop Foxture",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "kaboooooom!/KABOOOOOM!!!!.sm",
+    "previous_archive": "728a2b5faf76610807bc77cf052111c70aa84f29b5a2e1cafd53da1fedb337ff.tar.zst",
+    "title": "kaboooooom!",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "kaboooooom!/KABOOOOOM!!!!.ssc",
+    "previous_archive": "ddfc899ec3e0253d797b85fe8f1c7c0d62b0eeecce508b83b456b25bba605162.tar.zst",
+    "title": "kaboooooom!",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Karachi/Jorts - Karachi.ssc",
+    "previous_archive": "05c2b66a59e1287df8fcb20f506f2458874ff4ea1160f49d54394dddec62b24a.tar.zst",
+    "title": "Karachi",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+    "previous_archive": "b2ef051cb9f03c73c2b4631fdd96d444f06afb81cb101c73fbda3a637c936f60.tar.zst",
+    "title": "Kita Saitama 2000",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Kizuato - [Zaia]/Kizuato.ssc",
+    "previous_archive": "9b37441118bd8521c7f2ba3d7e9588b84247d1cc1858c7cfac2abf09759b0823.tar.zst",
+    "title": "傷跡 Scar",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Koi [UPS2016]/koi.sm",
+    "previous_archive": "f2c478eead3aec53653931ca4298f18841b44aac5b87a03ac2a862bf3cc23854.tar.zst",
+    "title": "Koi",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Koi [UPS2016]/koi.ssc",
+    "previous_archive": "c5bc3368c5d9c73e313c179de8d30485a6e207d5c11a3a3d96194d790c2de0e4.tar.zst",
+    "title": "Koi",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Kuru Kuru kururin/Kuru Kuru kururin.ssc",
+    "previous_archive": "44ec9dda8d1d1d2f852cdecd8a467bc78bfcd3b70a9b7758728fd2fae07cc3c3.tar.zst",
+    "title": "Kuru Kuru kururin [MODS]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG",
+    "previous_gc_mode": "automatic"
+  },
+  {
+    "source_simfile": "Lake of Lost Nostalgia/Lake of Lost Nostalgia.ssc",
+    "previous_archive": "59e43b8df3f34ef787f576165c96da828e6125b84e54d1256a643be1e3adfb4e.tar.zst",
+    "title": "Lake of Lost Nostalgia",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single"
+  },
+  {
+    "source_simfile": "LALA/lala.ssc",
+    "previous_archive": "9c77701d228741d2959cb569475615ce0c0ee2690888d7154335048987fb1c49.tar.zst",
+    "title": "LALA [Tier 3]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "LeaveTheDoorOpen [Cringle Desolation]/DoorOpen.sm",
+    "previous_archive": "3d335853cef1098318e53cdf9fc8a84d531839c0af9f9a4cd7f744b52a76fa11.tar.zst",
+    "title": "Episode 06 Leave The Door Open",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "LeaveTheDoorOpen [Cringle Desolation]/DoorOpen.ssc",
+    "previous_archive": "b9cc9c15f2e22c16e779cdb78d432c9017b7a8e3c7c801bd9ef70e479b0dcc8b.tar.zst",
+    "title": "Episode 06 Leave The Door Open",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "LeaveTheDoorOpen [R.I.G.H.T.S]/DoorOpen.sm",
+    "previous_archive": "31194578b9a774cdd57f53f7f2d0a53260b0a628f83f23db6a2db4a4ee2a5279.tar.zst",
+    "title": "Episode 06 Leave The Door Open",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "LeaveTheDoorOpen [R.I.G.H.T.S]/DoorOpen.ssc",
+    "previous_archive": "6806ab1f2e21991df906cfc6199a4ed091446abab465b3a414b2d0c9fec796d4.tar.zst",
+    "title": "Leave The Door Open Episode 06",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Lesson by DJ/Lesson by DJ.ssc",
+    "previous_archive": "124f5e01dedb00f4900d1f55cb446e1e8ccbbfb381d82196a269c2a8cd6983a7.tar.zst",
+    "title": "Lesson by DJ",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "versus",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG",
+    "previous_gc_mode": "automatic"
+  },
+  {
+    "source_simfile": "Levels/levels-fakemines.ssc",
+    "previous_archive": "e9e265da30f50252453800bf851e069bddd0be61be3f62946dfb8bbc7feb9d57.tar.zst",
+    "title": "Levels (Skrillex Remix)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Life Cheating Game/lifecheatinggame.ssc",
+    "previous_archive": "ea53614c9457f9fa41248be5afcdfadffcc9f7408f74f879acdd83978a24b54b.tar.zst",
+    "title": "Life Cheating Game",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Limitless/Limitless.sm",
+    "previous_archive": "4d4850eb485f771cca3a20527099e55c1bfc3a50687e01c66032b866f72e5dd1.tar.zst",
+    "title": "Limitless",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Limitless/Limitless.ssc",
+    "previous_archive": "dec372a506f02ac0f16eff25445959998383f02fed9def6c877c98268333d715.tar.zst",
+    "title": "Limitless",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG",
+    "previous_gc_mode": "automatic"
+  },
+  {
+    "source_simfile": "Lip-Sync [Gpop]/Lip-Sync.ssc",
+    "previous_archive": "c1be008f5949bd1bd0d9648c674e587a666eab9bf954cb3c42bf15d98997531b.tar.zst",
+    "title": "リップシンク",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Lonely/Lonely.sm",
+    "previous_archive": "2a023dab1fb201fe1312a899bfa06282a75ca20b4422004c6ef378e944b65f47.tar.zst",
+    "title": "Episode 21 Lonely",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Lonely/Lonely.ssc",
+    "previous_archive": "2be8be74e06c09d191b8056b5a6e850ff910a10b148784e619dd8a8c7ca5573d.tar.zst",
+    "title": "Episode 05 Lonely",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Longinus - [Zaia]/Longinus.sm",
+    "previous_archive": "224ca750687b7b3f3c4b379c3622edadee87ba11bc7bac1ab138e6b63f03db75.tar.zst",
+    "title": "Longinus",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Loop/loop.ssc",
+    "previous_archive": "6dbb18c6e2d56bd3ba5e21604b2ecce2b45d88536780d6ff14acbe7c5d9a5505.tar.zst",
+    "title": "LOOP",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "LORELEI/LORELEI.ssc",
+    "previous_archive": "689f5ec8aa14d87ac676eaba1c4ecab23d5eadbf62400d0c859cccc2df33346f.tar.zst",
+    "title": "LORELEI",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Lower Times/Lower Times.ssc",
+    "previous_archive": "83f55612d16ffbfe4dcdc6a7688c5ea0c23e5f3ab53b47f11e81debafd6d897e.tar.zst",
+    "title": "Lower Times",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Lower/Lower.ssc",
+    "previous_archive": "b3fd3ed82ed17fb6405efb027841dfe87e904415c5cf2dc0c93286135793fde2.tar.zst",
+    "title": "ロウワー [Tier 3]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Loyal Divide [TaroNuke]/Loyal Divide.sm",
+    "previous_archive": "2535ae776cb2b2110119fa4f5aa92a1458d99122495035547dd0b306f08c04eb.tar.zst",
+    "title": "Loyal Divide (R_D Remix)",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Macarena/Macarena.ssc",
+    "previous_archive": "d154e6667bb11fc1ad9b4b68a45deecf7f07bd016160d2686afbfd0d2c1f2f1d.tar.zst",
+    "title": "Macarena",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Magic Torus/torus3.sm",
+    "previous_archive": "321534ef07de7b5527467bedf0dddfb72fa8b45466dbce0ac8e00c6c1a878f79.tar.zst",
+    "title": "Magic Torus",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Mamono/sm.sm",
+    "previous_archive": "526acd37e2a229898439d061c01044981cba6909e9d9919dbddb42ed81a0cdf9.tar.zst",
+    "title": "Mamono",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single"
+  },
+  {
+    "source_simfile": "Marshall Maximizer/marshall maximizer.ssc",
+    "previous_archive": "3c61c5dcdf2dd2444d730096674aa784a0452c6ffc22e48867d42d3173f7755a.tar.zst",
+    "title": "マーシャル・マキシマイザー",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Marvins Room/MarvinsRoom.sm",
+    "previous_archive": "b8a2ebdc37945d168dc5b234d76607356475c281d9f63321310aa486d827e52c.tar.zst",
+    "title": "Episode 11 Marvin's Room",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Marvins Room/MarvinsRoom.ssc",
+    "previous_archive": "3f99cb43ede6d04ac9f70b993669f1360a7191d0a5f220e84a7a4410eba6306c.tar.zst",
+    "title": "Episode 11 Marvin's Room",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Maware! Setsugetsuka (ric3show3r bootleg)/maware ric3show3r.ssc",
+    "previous_archive": "b2428de4259cab7685983984ffaf5b972033e7bc2bb56b09baf9f7acd4f1a4ba.tar.zst",
+    "title": "回レ！雪月花 (ric3show3r bootleg)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "mawaru1/mawaru.sm",
+    "previous_archive": "c2fd5de1c8453089dd5a5fa6066a2d6e315f540624b1b569ec70cbba483219c9.tar.zst",
+    "title": "MAWARU Made in StepMania",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG",
+    "previous_gc_mode": "automatic"
+  },
+  {
+    "source_simfile": "mawaru2/mawaru2.sm",
+    "previous_archive": "85f08574380595c2c78fd53c36c35d168578df3e69fa887b5da49577e2126382.tar.zst",
+    "title": "MAWARU 2 THE REVENGE",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG",
+    "previous_gc_mode": "automatic"
+  },
+  {
+    "source_simfile": "mawaru3/mawaru3.sm",
+    "previous_archive": "ff76c6033c8530ad1656d2d632881e981ebd9c52d72a11f8e585960cb86d5750.tar.zst",
+    "title": "MAWARU 3 ~SURViVOR~ Good Gravy",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG",
+    "previous_gc_mode": "automatic"
+  },
+  {
+    "source_simfile": "mawaru4/mawaru4.sm",
+    "previous_archive": "d367c86820bedf24a5980b1176c46527287e9c708d07c97df13b7f735f84a804.tar.zst",
+    "title": "MAWARU 4 EASY MODO!?",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "mawaru4/mawaru4.ssc",
+    "previous_archive": "3e52794f9d2cea5d684aa6a1da08bf4bb35561f1a37c0f41aa00839bf5510e64.tar.zst",
+    "title": "MAWARU 4 EASY MODO!?",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "mawaru5/mawaru5.sm",
+    "previous_archive": "bf0fd217977f5c42a8d5d8db9c768d179e2152b8f12f6aa9bf64d012707cef8d.tar.zst",
+    "title": "MAWARU FINALE",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "mawaru6/mawaru6.sm",
+    "previous_archive": "8785659616da1ad8cdd92907893ba11fe35833f1f9f5188c6a6e51f7ded35fee.tar.zst",
+    "title": "MAWARU RIDES AGAIN RANDOMLY GENERATED SUBTITLE",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "mawaru7/mawaru7.sm",
+    "previous_archive": "97e7ca47890de2ef68c3c67c4366c1db83d00d7a213eaa93e8c8fc0591d7850d.tar.zst",
+    "title": "mawaru7",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "mawaru8/mawaru8.sm",
+    "previous_archive": "ee1cd83a8822f6809cdfedef10871a04a83814aad1f667e03794539dff600942.tar.zst",
+    "title": "MAWARU! SETSUGETSUKA!",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "MAX 300 (BlaZe MIX) - [Aoreo]/wargame.ssc",
+    "previous_archive": "a9387070a544652edf75948d85b482a0a6f00381ec959f00b10110cc7c7d80ec.tar.zst",
+    "title": "MAX 300 (BlaZe MIX)",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Max 300/MAX 300.ssc",
+    "previous_archive": "a76ae37dce83b3d452896ad243d4f49a0a484934af3441ddf7fa271b387a94bf.tar.zst",
+    "title": "MAX 300",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "media offline/media offline.sm",
+    "previous_archive": "44f953605b29363142729d5a45a74a0b0352cc5bc072acbf33e91b2b2ff73887.tar.zst",
+    "title": "media offline",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "media offline/media offline.ssc",
+    "previous_archive": "b985365bfc1ca6899fe9eb2c8150c7ce740826e76589b9988c0933bb3150c70d.tar.zst",
+    "title": "media offline",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Megalovania SM5 - [TaroNuke]/megalovania.sm",
+    "previous_archive": "1c886092d9f50df26205d2c2de6c0bfaaa2f39bba8c399230f5de6998c9acf6f.tar.zst",
+    "title": "Megalovania SM5 - [TaroNuke]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Megalovania SM5 [TaroNuke]/megalovania.ssc",
+    "previous_archive": "259893ffac177a629fef8cb0c89cf8109ee4cce4cb81d5e355959269278f10e8.tar.zst",
+    "title": "Megalovania SM5 [TaroNuke]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single"
+  },
+  {
+    "source_simfile": "Midnight Madness/midnight.sm",
+    "previous_archive": "3adb8fdec8997e7ac138bbf4ce49f8cd61de1163cb79759c1de721208457ae2a.tar.zst",
+    "title": "Midnight Madness",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "minefield surfing_1/minefield.ssc",
+    "previous_archive": "11a1ea8b6d992ce379ce7ad59cd28d0e670c37ab02e4de7f7b98a2a75744bce3.tar.zst",
+    "title": "minefield surfing",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Edit",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "MISSION SPUTNIK/sputnik.ssc",
+    "previous_archive": "2c6b45c8860c78056ca088300af1efb561cd9f9549dbfd9241ce46bac204f728.tar.zst",
+    "title": "MISSION SPUTNIK",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Medium",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "MODULO/modulo.ssc",
+    "previous_archive": "6f6575169b8a8a693bd36d4f29beb1933a2911236fe17455740a42c141bad2b9.tar.zst",
+    "title": "MODULO",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Edit",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG",
+    "previous_gc_mode": "automatic"
+  },
+  {
+    "source_simfile": "Molly/Molly.sm",
+    "previous_archive": "2aece6288ddf864b9057f60c88a7fb5c4ee8cb975a7361b4193023adf012648a.tar.zst",
+    "title": "Episode 03 Molly",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Molly/Molly.ssc",
+    "previous_archive": "c30d5ed45b93df0b119e5e483f90d121cfc0980a0dde6f773fbedcf0d605bfd0.tar.zst",
+    "title": "Episode 03 Molly",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "My Exes Bestfriend/ExBestFriend.sm",
+    "previous_archive": "02b258ba4d45574ab51f7c8cd3eb6df4fa942bd18218dbd4b44a9e7473b88b09.tar.zst",
+    "title": "Episode 13 My Ex's Bestfriend",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "My Exes Bestfriend/ExBestFriend.ssc",
+    "previous_archive": "75be6841e19dfa243d7f82d22aa356290b3a8540840705a2af7f65adead9b1e7.tar.zst",
+    "title": "Episode 13 My Ex's Bestfriend",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "My Penny/My Penny.ssc",
+    "previous_archive": "311ee5ed6f5a27c0ab7b5e528fcc539efe6c4158463eba38a6de3b3f05bad2dd.tar.zst",
+    "title": "My Penny",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Myths You Forgot/Myths You Forgot.ssc",
+    "previous_archive": "6b36e2c44e4ac70868685760bd8d57274e7d4bf01af1996f53b89aff35a85022.tar.zst",
+    "title": "Myths You Forgot",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "negator/NEGATOR.sm",
+    "previous_archive": "1ead74d2eebe78087c27180486fac21cc9309ef47cad977c97e9c1b7247c714a.tar.zst",
+    "title": "negator",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Neon Nights - [Zaia]/Neon Nights.ssc",
+    "previous_archive": "c1032bff0ba2c496f85b99e52d1e41e5dc11eda1f16fcc36a7f5651f6cae4247.tar.zst",
+    "title": "[11] Neon Nights",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "new earth/new earth.ssc",
+    "previous_archive": "08c46eb2ddf3034aee917a2e4cf6bb56958054996d0e6535241d5c419d1caefc.tar.zst",
+    "title": "new earth",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "No Role Modelz/No Role Modelz.sm",
+    "previous_archive": "475a93191d05901677fac62ecb74ef9889d3dc0c082ced6cace989e2364a1b26.tar.zst",
+    "title": "Episode 18 No Role Modelz",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "No Role Modelz/No Role Modelz.ssc",
+    "previous_archive": "f2f8ba22af059394b52fd465a0e0c4bebdd2595448dddc3668a99194ef3c6b6b.tar.zst",
+    "title": "Episode 18 No Role Modelz",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "No Tears Left To Cry - [JNero]/No-Tears.sm",
+    "previous_archive": "a706c40ae1f850b05ac41baac33986f5c04a77f35677a36cd8705eb3a2ea25b0.tar.zst",
+    "title": "No Tears Left To Cry",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "no touchy/no touchy.ssc",
+    "previous_archive": "975215a773e05dce77c684ecfbfcddf0623f64b63a030e5c657970187ffec572.tar.zst",
+    "title": "no touchy !!1!",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "No.13/no13.ssc",
+    "previous_archive": "db115e05c0fabdf0a6d0ecc9a479496d66b9b4c92a35fcbdd87796a2e1ffbb20.tar.zst",
+    "title": "No.13 SOFT LANDING PARADISE",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Number 9/1556 - Number 9.sm",
+    "previous_archive": "b16bd29c6db728568d34679b0eeafc4048a5197a43af784f354d8c14bd73df72.tar.zst",
+    "title": "Number 9",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Numujika ac.10/Numujika ac.10.sm",
+    "previous_archive": "be146bff0ca90ebfaaeb710d830667ca06e743e970678978b50dc3c72ea11ce7.tar.zst",
+    "title": "ヌムジカac.10",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "OIIA OIIA - [Zaia]/OIIA OIIA.ssc",
+    "previous_archive": "8bf23fdba3be4dc8f5b12cccf4af905ce31a855c265a3bfa3c0ff235e481c51b.tar.zst",
+    "title": "OIIA OIIA",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Oil Ocean Act 2/steps.sm",
+    "previous_archive": "dbd4c1382a54e6ebe36d913d72d2c18f2509155f85fe51282dce773a02e2fc55.tar.zst",
+    "title": "Oil Ocean Zone Act 2",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "OK/OK.ssc",
+    "previous_archive": "dd0c8291ee90c09c836a94202d3f7c00bda20e25fefa1fd5dea3233ed2e810cb.tar.zst",
+    "title": "OK",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Oshama Scramble! (Cranky Remix)/Oshama Scramble! (Cranky Remix).ssc",
+    "previous_archive": "d441d4c287d27fbb6967b69910a192dcec820d04a41bda5d91b5964f73d76c90.tar.zst",
+    "title": "Oshama Scramble! (Cranky Remix)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Other Guy/Other Guy.ssc",
+    "previous_archive": "fb3cfc0ed2f8361c7c1e1612664bdfa586c0989b8afccdbe8bff1f2b4e4d7535.tar.zst",
+    "title": "Other Guy",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Over the Top - [Zaia][FX]/Over the Top.sm",
+    "previous_archive": "a7c136848c444b147dc9fc984ea6c7db228b7dc6c74290ec6bb2f1acb1c12a56.tar.zst",
+    "title": "Over the Top [Visual FX]",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Paint the Town Red/PaintTheTownRed.sm",
+    "previous_archive": "e4942b8b777e9f2b992747ad194cd073c09f60011b0778345685ea95b767e6cb.tar.zst",
+    "title": "Paint the Town Red",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single"
+  },
+  {
+    "source_simfile": "Paint the Town Red/PaintTheTownRed.ssc",
+    "previous_archive": "e8b81a5779d5234a7439926e1824649382332656ba1eedc293203454c6ba52fb.tar.zst",
+    "title": "Paint the Town Red",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single"
+  },
+  {
+    "source_simfile": "Pale/Pale.sm",
+    "previous_archive": "7b47c47dd97584509f08f5496fdb74ab2ef3436567e11ef2f731ee8d0cda7541.tar.zst",
+    "title": "Episode 17 『 Pale 』",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Pale/Pale.ssc",
+    "previous_archive": "144acc3ebdb0afaa6950b57aca4328044cfb546fdbb81432bfcff84724c06d35.tar.zst",
+    "title": "Episode 17 『 Pale 』",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "panopticon/panopticon.ssc",
+    "previous_archive": "cfc09a13e974abb9ba0a844955255cb0ffff840d0b8cc5786bc7c28dc52c0a37.tar.zst",
+    "title": "Panopticon",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Paradise [Cringle Desolation]/Paradise.sm",
+    "previous_archive": "7fe43b2f10ed975a048b0ec8f67146f210b9ac16eccea9bfb21b0d870ad003e6.tar.zst",
+    "title": "Episode 09 Paradise",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Paradise [Cringle Desolation]/Paradise.ssc",
+    "previous_archive": "7812ef559aeaa6c94c59e833563c5af23e4a421ab47221266ff169abaee8bd52.tar.zst",
+    "title": "Episode 09 Paradise",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Paradise [R.I.G.H.T.S 2]/Paradise.sm",
+    "previous_archive": "eccde06128ee0333571e475bef59d212de6d6bcb607e2c999a01749e58360b74.tar.zst",
+    "title": "Paradise Episode 09",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Paradise [R.I.G.H.T.S 2]/Paradise.ssc",
+    "previous_archive": "c7c4264c485b0ce8da780d0d4c44c8f61d187a33e5b23993c6748555ec4b6250.tar.zst",
+    "title": "Paradise Episode 09",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Paradise/Paradise.sm",
+    "previous_archive": "77f0ebd903c9c46fd7d1fd69f8fd30c963b84100a1374dca3efa5c7149566a2f.tar.zst",
+    "title": "Episode 09 Paradise",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Paradise/Paradise.ssc",
+    "previous_archive": "7b303821702d16bfa6a55c1a2f0846bfc93a14d0c37d5aeebc45cac05d01040d.tar.zst",
+    "title": "Episode 09 Paradise",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "PARTY [pArTy eDiTioN]/Party.ssc",
+    "previous_archive": "2f5366e04bc1357754dfe61cc348e1c17037e89f735332cad07cb685fee8e454.tar.zst",
+    "title": "PARTY ~~pArTy EDiTioN~~",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "paw, paw!/paw paw.ssc",
+    "previous_archive": "d294e7d6f9f3dd0db6427cdbbc45f6aa75d4390031d36eef5d546d9049feeaa6.tar.zst",
+    "title": "paw, paw!",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Picture in My Mind [nikko X WINK RMX]/PICTURE IN MY MIND [NIKKO X WINK RMX].ssc",
+    "previous_archive": "50ad4efcd3c5b0fc473029154b6a858832640b17f2c9ef9cd6b5036a1fe83c05.tar.zst",
+    "title": "Picture in My Mind [nikko X WINK RMX]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "PizzaBoy/PizzaBoy.ssc",
+    "previous_archive": "9f247004d12e6d22a97f264829bec1fcb7d45dcb7904f001374157d524c9ee39.tar.zst",
+    "title": "PizzaBoy",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Planet Calling/Planet Calling.ssc",
+    "previous_archive": "6f671caa7eff7cd5c9c49309debfa6f58ae0683cb3cf3864af444e8964e3a935.tar.zst",
+    "title": "Planet Calling",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "PO (wrashi Bootleg) [Gpop]/PO (wrashi Bootleg).ssc",
+    "previous_archive": "46ac98a250bbd2ce5cd1f60a8a0e243b865ed82de23a2da8c96e9b158f3c9b24.tar.zst",
+    "title": "ぽ (wrashi Bootleg)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "POP MY SHIT (FOXSKY REMIX)/pop my shit.ssc",
+    "previous_archive": "29fa1d5455aa196a4605c834cc74991f970113b2fcc325fc8398a0bf9e1d2b86.tar.zst",
+    "title": "POP MY SHIT (FOXSKY REMIX)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Pop/Pop.ssc",
+    "previous_archive": "16176f9da63a65b34832d8f9304891ab213389841fa02bb0181769bfc641de84.tar.zst",
+    "title": "Pop",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Popek feat. Titans Fall Harder - Downfall/Downfall.ssc",
+    "previous_archive": "40c4d2543f0ade3e283d8100e76615c9b93fd14807ad1bf8a7eb7fbd73450848.tar.zst",
+    "title": "Downfall",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Potion [Flood_]/Shisui Michiru - Potion (Cut Ver).sm",
+    "previous_archive": "c5696d5e4c207ba22e6ac4adf5ac0d27f5b4c877ef9e49d8cd4d43fe8408d39f.tar.zst",
+    "title": "Potion",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Potion [Flood_]/Shisui Michiru - Potion (Cut Ver).ssc",
+    "previous_archive": "78c4ebe2a0dfcba212d4b900bea3807fb7ec9e25b0e36b73c0bfb3e8cebad262.tar.zst",
+    "title": "Potion",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Quarantine/Quarantine.sm",
+    "previous_archive": "020dcc2a97b078b09945a7d8ff3e4bad9a00d20c15f854806a277e46c4afab00.tar.zst",
+    "title": "Quarantine",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Quarantine/Quarantine.ssc",
+    "previous_archive": "ee6893bd58985414238e4631a45fdc42871c1f8db73465636fdb2f1c4cd90fae.tar.zst",
+    "title": "Quarantine",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Rainbow Road [chairodactyl] - Cameron Wiggers/Rainbow Road.ssc",
+    "previous_archive": "5c623b5f7f46a93dffdd5819bfbc9bce0069041cbff616a16b1f2f376685f74b.tar.zst",
+    "title": "Rainbow Road",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Rapture/Rapture cut-fakemines.ssc",
+    "previous_archive": "f5e7ed7e18dbbb16c8a117999116c7f52d5e82ea0ded217242f4059ee4ca2e71.tar.zst",
+    "title": "Rapture",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Raving With Fire/Raving With Fire.sm",
+    "previous_archive": "0450dd992013c912bb35a8ba49a45708e250299f4882927fead55cb43e3c17e6.tar.zst",
+    "title": "Raving With Fire",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Raving With Fire/Raving With Fire.ssc",
+    "previous_archive": "b8770fd90d6155138b3a6e5b167ed49168a8a4723a1c18e43d99aee92b083979.tar.zst",
+    "title": "Raving With Fire",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Rayc Fire 2 (SM5)/Rayc Fire 2.sm",
+    "previous_archive": "16a290b2221a0920ef3d4ecc96be934abb892c7698ac7a816ae1a72a4fe3254e.tar.zst",
+    "title": "Rayc Fire 2",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Rayc Fire 2 (SM5)/Rayc Fire 2.ssc",
+    "previous_archive": "bac794e315a1fef88dadd40434e6a6d45aeed3d08df5096922a2a3f35fbd62a5.tar.zst",
+    "title": "Rayc Fire 2",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Reach The Light Switch, Without Asking you/Reach The Light Switch, Without Asking you.ssc",
+    "previous_archive": "8e0c8052ebcd9245f9008b6b21743a1407763503e4548588247f9928452716a5.tar.zst",
+    "title": "Reach The Light Switch, Without Asking you",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "REASON for RED/reasonforgay.sm",
+    "previous_archive": "67ed0b19f9d9e4123baf7bf84d5b4cbd46958ed17acbcfaa6e555581a5e2dbc6.tar.zst",
+    "title": "REASON for RED",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "REASON for RED/reasonforgay.ssc",
+    "previous_archive": "e72e37d50450553bbaeade1ad717122755d91dedb006873a46d226c22f4a3b47.tar.zst",
+    "title": "REASON for RED",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "redesign your logo/Redesign your logo.ssc",
+    "previous_archive": "3df709914f1980a195ba59f83e32e1f1517ce1782cf8c0110d517eb51628a791.tar.zst",
+    "title": "Redesign your logo We know what we're doing",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Remind The Souls/remindthesouls-fakemines.sm",
+    "previous_archive": "0438b91c935bbb823116ae28f4cf38518b9c4c3a42fa88dc03b2fc8c8f7c74a0.tar.zst",
+    "title": "Remind the Souls",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Remind The Souls/remindthesouls-fakemines.ssc",
+    "previous_archive": "182e6b447fbab655a37367d7efac94cb42073accba462a03c335fe3ef38724ea.tar.zst",
+    "title": "Remind the Souls",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Retrospective/Retrospective.ssc",
+    "previous_archive": "0b9d2ab4d8900d3fc9d7712806b0eda3f087a995b4bbc9bfc6137777972ab77b.tar.zst",
+    "title": "Retrospective",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Riddle/Riddle.ssc",
+    "previous_archive": "4b7b80740baf5fb7e9c7deed3a5cdd99d55d7283345b8f45a89f9b4c0457ff41.tar.zst",
+    "title": "Riddle",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "rite of spring/rite.ssc",
+    "previous_archive": "a4a49ad8c1d695b04be9c471845d2c9c92483b7a08a7a06938028c0514be7fb0.tar.zst",
+    "title": "The Rite of Spring Sacrificial Dance",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Ruin Our Friendship/RuinOurFriendship.sm",
+    "previous_archive": "c429881a3b8aef7be07dd93dcec619028599e038ca1266fa8409a62dbc65a959.tar.zst",
+    "title": "Episode 02 Jenny (I wanna Ruin Our Friendship)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Ruin Our Friendship/RuinOurFriendship.ssc",
+    "previous_archive": "28a13ed299105e7307b8546c95ba69ae40c52340b37c770637bf74e2e06950aa.tar.zst",
+    "title": "Episode 02 Jenny (I wanna Ruin Our Friendship)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single"
+  },
+  {
+    "source_simfile": "saitama2000/Saitama2000.sm",
+    "previous_archive": "b57a570f1a27af36f2c2ba5cfa9919b1b26df40dcca3a598fbf7fb4b1ce7106c.tar.zst",
+    "title": "Perfectly Normal Saitama 2000 From UKSRT1",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "saitama2000/Saitama2000.ssc",
+    "previous_archive": "4ec54a1d33f7b8b4a5ff430187da76ad3bbb8063f768c7086911753feb2264f0.tar.zst",
+    "title": "Perfectly Normal Saitama 2000 From UKSRT1",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Save Your Tears [Cringle Desolation]/SaveYourTears.sm",
+    "previous_archive": "29566108c71bda8175c1400d31027f61e94e7b84e91ce313eb16d962faeb6e58.tar.zst",
+    "title": "Episode 02 Save Your Tears",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Edit",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Save Your Tears [Cringle Desolation]/SaveYourTears.ssc",
+    "previous_archive": "e8be9c74adaf37025cde759043a82eaf154f81b34ff2c895264fea2ef323fd20.tar.zst",
+    "title": "Episode 01 Save Your Tears",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Edit",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Save Your Tears [R.I.G.H.T.S 2]/SaveYourTears.sm",
+    "previous_archive": "273f4228e454a8361f63a073e2f34019241c8f886bf69569f3b03b0abbc15f4d.tar.zst",
+    "title": "Save Your Tears Episode 01",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Edit",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Save Your Tears [R.I.G.H.T.S 2]/SaveYourTears.ssc",
+    "previous_archive": "463dd12bd86d8f69e4ed5e95d4e02ed73c7389308539061728042897980eef5a.tar.zst",
+    "title": "Save Your Tears Episode 01",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Edit",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Save Your Tears/SaveYourTears.sm",
+    "previous_archive": "2228da45dedca286c6687334c292e7171e31ef1331c1ccfe09990f175d1c1f9e.tar.zst",
+    "title": "Episode 02 Save Your Tears",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Edit",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Save Your Tears/SaveYourTears.ssc",
+    "previous_archive": "c19af3a1182a528a49ff541173645c5dfbe6a2d03dc4dbb854e871977798ca1e.tar.zst",
+    "title": "Episode 01 Save Your Tears",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Edit",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG",
+    "previous_gc_mode": "automatic"
+  },
+  {
+    "source_simfile": "Scorpion King [TaroNuke]/scorpion.sm",
+    "previous_archive": "3a063f3d4721fec5de3ebd35e6e79af41f76cbbaa8d426f87aeaf25595e0295f.tar.zst",
+    "title": "Scorpion King",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "See Tinh/See Tinh.sm",
+    "previous_archive": "391975fd164d893c11ca8306904cc5a8f33c924542670e8f3fc85aabb8c37804.tar.zst",
+    "title": "See Tinh 「Cukak Remix」",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "See Tinh/See Tinh.ssc",
+    "previous_archive": "b5f570b58947f9dee7f130910b1007177b5f35b6394cd782a0e2ccd83d78602a.tar.zst",
+    "title": "See Tinh 「Cukak Remix」 [REQUIRES 2 PLAYERS]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Selfie - [JNero]/Selfie.ssc",
+    "previous_archive": "146977c6c7ecc43ce6fd0b9c791614e4eb61a68bd44b435b1c2628f1409f8ad9.tar.zst",
+    "title": "自撮ーる",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single"
+  },
+  {
+    "source_simfile": "September/september.ssc",
+    "previous_archive": "4f2783bf3e06a1804fa3d07d5dd5089a150b26af7e99d0e5505d07a546a25a74.tar.zst",
+    "title": "September [Extras]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Shakunetsu2 [TaroNuke]/shakunetsu2.sm",
+    "previous_archive": "0dc546840178dd4c14500f8030954dc916dd511be43d4e1b5b73e2a8afa026f7.tar.zst",
+    "title": "Shakunetsu pt. II Long Train Running",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Sharkmode [Ky_Dash]/Sharkmode.ssc",
+    "previous_archive": "c0e87ceaf1b5d72eab4c21ebea3e99708582eb20a0b1a0385d076fe8820074fb.tar.zst",
+    "title": "Sharkmode",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "SharpNel/HashtagNel.ssc",
+    "previous_archive": "b55315bf1fa89a576ff67b1145ce03a4055d7e72de9fc20bbfe5b94ebc110407.tar.zst",
+    "title": "Probe",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Shine!/Shine!.ssc",
+    "previous_archive": "8fef0882043e27a300d78cf04d1ea6502a7997e040f3b7673875772b5a2c21af.tar.zst",
+    "title": "Shine! -UPSMH Edition-",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Shivers/Shivers.sm",
+    "previous_archive": "3e059b400212cbed68914157dcc8b39201b72aa743504fde25f7de185b846591.tar.zst",
+    "title": "Episode 10 Shivers",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Shivers/Shivers.ssc",
+    "previous_archive": "aa23ff3bfb375eede88c4fd0af095da2081ea8100f603316059753b45e0e79e0.tar.zst",
+    "title": "Episode 10 Shivers",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "ShockWAVE Syndrome  [-YOSEFU-]/ShockWAVE Syndrome.ssc",
+    "previous_archive": "a602f638e6e7ab3f1395b1bf19fefcb927f6cb0c3037bc3e0891cfe27e3b06c3.tar.zst",
+    "title": "* Erm, could it be a Spatiotemporal ShockWAVE Syndrome...?",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Shooting Love/Shooting Love.ssc",
+    "previous_archive": "04dedb98d93afd4eea6f313562278fecdbed326146fb7a9e4c959cbe33f0a479.tar.zst",
+    "title": "Shooting Love",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Shukusei!! Loli God's Requiem [Gpop]/Shukusei!! Loli God's Requiem.ssc",
+    "previous_archive": "cace9c244aabf2214a771ef33cab536daf86c892d6751b5cfd7d56ef482c3594.tar.zst",
+    "title": "粛聖!! ロリ神レクイエム☆",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Slamurai/Slamurai.ssc",
+    "previous_archive": "3afc561ade572a35984d87e0f54492911ce2d84b41d25c1db4cb3a1fce84b8d9.tar.zst",
+    "title": "Slamurai",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Someone Special - hubert/Someone Special.sm",
+    "previous_archive": "d2139718caf170f1468b2c27496039a621bc201633100421a3114e7b6bd7eb6b.tar.zst",
+    "title": "Ｓｏｍｅｏｎｅ Ｓｐｅｃｉａｌ",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Someone Special - hubert/Someone Special.ssc",
+    "previous_archive": "c39fefdc2202790e09a0b143171f1ff2e61d819d60154faec857a5f89d1e469a.tar.zst",
+    "title": "Ｓｏｍｅｏｎｅ Ｓｐｅｃｉａｌ",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Space Creation Theory/space creation theory.ssc",
+    "previous_archive": "db729f9c7c37537c4889dbbf3d15a52056d5d665c5c85b4f199441f8f4754090.tar.zst",
+    "title": "空間創造理論",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Spectrum (Odyssey's Prism Mix) [Telperion]/spectrod.ssc",
+    "previous_archive": "7512061d5df64d6d64302b75a82c1cbd524224d5ef1b5c95bd7bc07356df6518.tar.zst",
+    "title": "Spectrum (Odyssey's Prism Mix)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Spectrum Sequence/spectrumsequence.ssc",
+    "previous_archive": "86a513ce1d948e1de2dc18dc749689170598ca9ab5faafe96f90982b19ef7efd.tar.zst",
+    "title": "Spectrum Sequence",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "SPLAK IT DOWN - [Zaia +ruunix2]/SPLAK IT DOWN.ssc",
+    "previous_archive": "cbada3366920c1a87ae28e095511c6f66bfc434cc6d9d46f30837498bcd65501.tar.zst",
+    "title": "SPLAK IT DOWN",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "spooky (SM 12)/spooky (Tech-Stam cut).ssc",
+    "previous_archive": "e7a530794a21eb6bd4eafc2f494e0c41bae4161e456037846ed3a7ddf4c86c48.tar.zst",
+    "title": "spooky",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Medium",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "spooky (SX 14)/spooky (Tech-Stam cut).ssc",
+    "previous_archive": "b570c7aedcfb4e741e8cf66f4651766285eb3b716b18959b4686072b1668c5db.tar.zst",
+    "title": "spooky",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Spooky/1.09 - Spooky.sm",
+    "previous_archive": "0213a8705721d48d9446737d13641426df1ca49818e99d26317cfd08fd26eaac.tar.zst",
+    "title": "Spooky",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Spooky/1.09 - Spooky.ssc",
+    "previous_archive": "18ef7ff5db9acd8161644f2e5dfcf48d7f871ba235ea7228eb5b57f92d6ca2ca.tar.zst",
+    "title": "Spooky",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "STAGE 0.ac11/STAGE 0.ac11.sm",
+    "previous_archive": "1e1623f5f44c3e8d6d998b395c8adb587f07cf8b6bb989702a52fe970b3d8a92.tar.zst",
+    "title": "STAGE 0.ac11",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Stay Alive/Stay Alive.ssc",
+    "previous_archive": "64f69cd0aa552aaecd049ff06af907f8973590288d1920c93070804b9557b19e.tar.zst",
+    "title": "Stay Alive",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Stella Glow/Stella Glow.ssc",
+    "previous_archive": "8732befea87703379dae60c0cd744c7a722eae462775d30442fdcdcd2a3981df.tar.zst",
+    "title": "Stella Glow",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Edit",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Step Your Game Up (Director's Cut)/stepyourgameup.ssc",
+    "previous_archive": "e92ffe7f0f5e097b101b0f6b548d7901f59b8cd4087a05513d8d10a33361e5e9.tar.zst",
+    "title": "Step Your Game Up (Director's Cut) [Tier 5]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Stepping Music/simfile.ssc",
+    "previous_archive": "2e1f186f45b34cf844d6fab09b484684fd2e32cb7c806655896e37970a85d2a3.tar.zst",
+    "title": "Stepping Music ~Clapping Music arranged for two pad players~",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "STEVE VERY HARD/STEVE VERY HARD.sm",
+    "previous_archive": "c3f8021320b744551e77bb3249407154f4d6144f0e9cff8563934962c6a0a964.tar.zst",
+    "title": "STEVE VERY HARD",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "STEVE VERY HARD/STEVE VERY HARD.ssc",
+    "previous_archive": "53e0ac17d80a057466b357f4165658624d15afab3e5849ad344c332d67f2c491.tar.zst",
+    "title": "STEVE VERY HARD",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Stuck in the Abyss [DDDAAA]/stuckintheabyss.ssc",
+    "previous_archive": "f2dbadd55e6cf464268be9ffb28d3a0fbc98466b6f16769c8b7ab87b8a49c87d.tar.zst",
+    "title": "Stuck In The Abyss",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Subway Surfers/subwaysurfers.ssc",
+    "previous_archive": "0c86dc9497389da2992ac1c00ee37ee7749b3b88e9a791f7fee8910e88b11291.tar.zst",
+    "title": "Subway Surfers Main Theme",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Tacos/Tacos.ssc",
+    "previous_archive": "625fbf56b644ee359819b42439517240ec9079c43163df72718d6a163f466b37.tar.zst",
+    "title": "Tacos",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Talk About/talkabout.sm",
+    "previous_archive": "6c0a7478230a62025bd1da9ffe03806c030d5182c7efddb4f3ecb3d66a12fbd5.tar.zst",
+    "title": "Talk About",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Talk About/talkabout.ssc",
+    "previous_archive": "3771ee2e2d0add85e8f319a8ba15eb78e43e0e5cef84a4f7d283077b59c4f8d0.tar.zst",
+    "title": "Talk About",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Tamamo no Mae/Tamamo no Mae.ssc",
+    "previous_archive": "28c78cbb37655d659a1840358b66ea6304390ab3da2b450339ec9f6a74c5be0a.tar.zst",
+    "title": "玉藻前",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "tamashi/tamashi.sm",
+    "previous_archive": "ee7720ae718b0505a82b5f13b654563edb79c8394e9b48a64d13a9ac8299c9e3.tar.zst",
+    "title": "大輪の魂 feat. AO、司芭扶 (!FUNKOT Remix)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Tear Jerker/tearjerker.sm",
+    "previous_archive": "121042357e260c1baabb923978a335d629e4f83850472a367a4c40e7789f441e.tar.zst",
+    "title": "Tear Jerker (Soltan Remix)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Tear Jerker/tearjerker.ssc",
+    "previous_archive": "3bc81f0049b0d52d75a340d63f89bce9f1614e245e6799c23ec9dd5ffaba54d1.tar.zst",
+    "title": "Tear Jerker (Soltan Remix)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "The Boys Are Back in Town (to kill you)/The Boys Are Back in Town (to kill you).ssc",
+    "previous_archive": "d59d5288ac9f4af89a4f1c0ea1ae24efb3239db137f6ee1977d4fb93f693cea8.tar.zst",
+    "title": "The Boys Are Back in Town (to kill you)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "The Entity/The Entity.sm",
+    "previous_archive": "d01e09c869226b6fcac517cdfa0708cb4324306646b03ce0b01bf5ba872570b8.tar.zst",
+    "title": "The Entity",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "The Entity/The Entity.ssc",
+    "previous_archive": "443e2f2bc19e85342e68a9ee620c05106dd5a7391123a5d35b03953567b78998.tar.zst",
+    "title": "The Entity",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "the fresh prince of bel air (razihel remix)/steps.sm",
+    "previous_archive": "f793f42cdfd07d08d27c1bb9298f1f573aa9ab63283ff1a288307c9e8ae20f51.tar.zst",
+    "title": "The Fresh Prince Of Bel Air (Razihel Remix)",
+    "previous_execution": "native_gameplay",
+    "style": "double",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Double",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "The Great Divide - [Axis, PCBoyGames]/The_Great_Divide_Seven_Lions_Remix_-_Velvetine_141_BPM.sm",
+    "previous_archive": "2290466f7f2cd10f04b79111349e8b52822952497cc312473564f8cf73ac1640.tar.zst",
+    "title": "The Great Divide Seven Lions Remix",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "The Great Divide - [Axis, PCBoyGames]/The_Great_Divide_Seven_Lions_Remix_-_Velvetine_141_BPM.ssc",
+    "previous_archive": "997821b5da448be442d588ba754131b8a248b97a39c1df012d138159ade5c9f5.tar.zst",
+    "title": "The Great Divide Seven Lions Remix",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "previous_gc_mode": "automatic"
+  },
+  {
+    "source_simfile": "The Scale/The Scale.ssc",
+    "previous_archive": "d153bc6241e4cf132e47862bf85701360f18fa7e58daa4553873f0c8bf6db2ad.tar.zst",
+    "title": "The Scale (feat. BabyTron)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "The Video Boaboaboaboab/The Video Boab Oyedivuth.sm",
+    "previous_archive": "86e8c326902dada122d517b557a817a5785cf37bbeba5862d62fe4b3af939b61.tar.zst",
+    "title": "The Video Boaboaboaboaboaboaboab (Go to Settings after song to fix bug)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.sm",
+    "previous_archive": "094bded99b321b1461efce49b0b423811110326fe6a88d606bdc6c0b58f337bb.tar.zst",
+    "title": "THE WORLD REVOLVING",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.ssc",
+    "previous_archive": "640c48d2df81663e1a2271544a3119d4b0f6694e7476e23ce170cd68669fc8dd.tar.zst",
+    "title": "THE WORLD REVOLVING",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Think About You/Think About You.sm",
+    "previous_archive": "57e2f70e96e4ecf5c70bdc8ab02d317053cd820005c492850a52532f0b440e51.tar.zst",
+    "title": "Episode 12 Think About You",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "double",
+    "steps_type": "StepsType_Dance_Double",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Think About You/Think About You.ssc",
+    "previous_archive": "85f4f66ed0c5aa49591d057c5b384d697ac591a34fc3a7c35a85935ed0edcef9.tar.zst",
+    "title": "Episode 12 Think About You",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "double",
+    "steps_type": "StepsType_Dance_Double",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "This year, too, we will strive to aim for [Snowfall, Merry Christmas]!!/This year, too, we will strive to aim for [Snowfall, Merry Christmas]!!.ssc",
+    "previous_archive": "ee916455cc149148df2bc601b555913b829bb2131259bc5a6d8be8607421aeca.tar.zst",
+    "title": "今年も「雪降り、メリクリ」目指して顽张ります！！",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Toho Mathematics (LADIES CHECK THIS OUT)/thischartsucks.ssc",
+    "previous_archive": "0c936b75ff4e34510b739ac580295491c73633fe247edea1e5898c4f9825e5c5.tar.zst",
+    "title": "Toho Mathematics FOR LOOSERS",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Toki o Kizamu Uta (Nhato Remix)/Toki o Kizamu Uta (Nhato Remix).ssc",
+    "previous_archive": "47bb5abeb3dccaba7f23bb11e2a9dce9d8f156572143362356f914b0f19754bf.tar.zst",
+    "title": "時を刻む唄 (Nhato Remix)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Tower Power Pokey  Battle/Tower Power Pokey Battle.ssc",
+    "previous_archive": "e78ee9493b40793abb9ff8f38bde710171c9aa10e6054189db2a0d1203718394.tar.zst",
+    "title": "Tower Power Pokey Battle",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Trancing Pulse (Random)/Trancing Pulse (Random).ssc",
+    "previous_archive": "0330e534ac949b8487647f0e61bb656690b2f0f5dc94426134ae3f77767c0421.tar.zst",
+    "title": "Trancing Pulse (Random)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Trinity Field/Trinity Field.ssc",
+    "previous_archive": "5f62106f51929b4ae3362f065d71df6b7e2f0114ec42125cd4c0669201dbd8bd.tar.zst",
+    "title": "Trinity Field (RANDOM)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "TRIP MACHINE -Resuscitation MIX-/TRIP MACHINE -Resuscitation MIX-.ssc",
+    "previous_archive": "eafcd480234ac42960a427f5c800d1a73383f4214ef2be02639750c958ce4b8a.tar.zst",
+    "title": "TRIP MACHINE -Resuscitation MIX-",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Turn A - [Freya]/turn_a.ssc",
+    "previous_archive": "b27c43a22b46afe29c45fdb7c0327a9c4d4d88a63850ae5670a6695f21dfbd2d.tar.zst",
+    "title": "∀",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single"
+  },
+  {
+    "source_simfile": "U-0 - [PCBoyGames]/Srezcat - U-0.ssc",
+    "previous_archive": "b2ebdd8b26c93bcc8625726b6dcbbb9854429955494bbe878c21ff2538410730.tar.zst",
+    "title": "U-0",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "U.N. Owen Was Who [Hyperhero2]/unowenwaswho.sm",
+    "previous_archive": "7ef4e282788a8cbe9f7f6d7214e036a1c1e23f72aa84da1b913853f304ee9531.tar.zst",
+    "title": "U.N. Owen Was Who?",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "U.N. Owen Was Who [Hyperhero2]/unowenwaswho.ssc",
+    "previous_archive": "a33ae65163b0e5c6bc4f784c70d2cdd6b692db99b4bd751480d9b01cf43af83d.tar.zst",
+    "title": "U.N. Owen Was Who?",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Ultimate taste/Ultimate taste.ssc",
+    "previous_archive": "eeff4b4c46a5ec7d515815df061d309d2711c67325533ac18af16936a6f5c821.tar.zst",
+    "title": "Ultimate taste",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Ultra B+K/ultrabk.ssc",
+    "previous_archive": "657845ce93522155cbf01c97333d48fc8537834da0b644da6b4848800dd6a902.tar.zst",
+    "title": "Ultra B+K",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Ultra B.B.K.K.B.K.K/Ultra B.B.K.K.B.K.K.sm",
+    "previous_archive": "264ade0910f528488c33ce029ee5713128acb1fd46cfd06bf760c44f4125f165.tar.zst",
+    "title": "Ultra B.B.K.K.B.K.K",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Ultra B.B.K.K.B.K.K/Ultra B.B.K.K.B.K.K.ssc",
+    "previous_archive": "aa67ae2d8f3c460bf22297e829fa759d1a397e69a85459eee53780cc71908e18.tar.zst",
+    "title": "Ultra B.B.K.K.B.K.K",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Up Up Up Up/Up Up Up Up.sm",
+    "previous_archive": "25a55b8d611bd76de3821e2eee0ce79869a42cf4897fba43418b9dd01446dfbd.tar.zst",
+    "title": "Up Up Up Up",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Vanishing Point - [Zaia][FX]/Vanishing Point.sm",
+    "previous_archive": "4dc18d2326d744aa95067d8905edf5d930b5ba9f6cc1d445cddfeb4033fa892a.tar.zst",
+    "title": "Vanishing Point [Visual FX]",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Vector Field/Vector Field.ssc",
+    "previous_archive": "8b5db7036e4976eb7312a99547ceb0df494a3cf5416da3540332c38837a3e6ab.tar.zst",
+    "title": "Vector Field But Nothing Just Vector Field",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Velvet LEFTS 1/chart.ssc",
+    "previous_archive": "ce1da310466ea79a289cb1ddf0cbf2e4994bde69967d6e128d30f8136b45b049.tar.zst",
+    "title": "Velvet LEFTS 1",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "versus",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG",
+    "previous_gc_mode": "stopped"
+  },
+  {
+    "source_simfile": "Void Virus/Void_Virus.ssc",
+    "previous_archive": "3679cfc0f434ab3d26695726e90b9e73cacd3d1d8e7bb6f77feb5f8de82cbe50.tar.zst",
+    "title": "Void Virus",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Vtubers Never Die! [Gpop]/Vtubers Never Die!.ssc",
+    "previous_archive": "b6bbfc129fafe5d0ef455cf7b7cd939e48d35b709fd26235f372ae53f04add7b.tar.zst",
+    "title": "VTuber死なない",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "wah-leven [telperion (ddrillini remix)]/eleven.ssc",
+    "previous_archive": "7bc0c6066e856a164fb608fe44b41959d0f51d6d1b767f38ba27d6b3bb5f91bf.tar.zst",
+    "title": "WAH-LEVEN (DDRIllini Remix)",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "wah-propaganwah (habstrakt remix) (ddrillini remix)/Propaganda (Habstrakt Remix).ssc",
+    "previous_archive": "18879f80885a3a21c487d78071b310065af2d602d0ea8ca9d2fd3aa326b5d151.tar.zst",
+    "title": "Wah-Propaganwah (Habstrakt Remix)",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Waiting/Waiting.ssc",
+    "previous_archive": "beae401af8ed20756a416d9ccf4c12939aecfb38e97b0f42f5aa6b9f488510a3.tar.zst",
+    "title": "Waiting -Stepchart of the Year 2022 2nd Place-",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Wake Up/Wake Up.ssc",
+    "previous_archive": "84dc20777ca1534dfe694b61d3a53fa41161e78d2638ac50d75ab99998472029.tar.zst",
+    "title": "Wake Up Open The Door And Escape To The Sea",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Watching/watching-fakemines.sm",
+    "previous_archive": "034b312917c680893a63384b8a04cb3b685c305666662465648c2f47e662955c.tar.zst",
+    "title": "Watching",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Watching/watching-fakemines.ssc",
+    "previous_archive": "648d828db38c3b07e61058b2a50a757810ad734923258e5ce9a375aa0afe4ca4.tar.zst",
+    "title": "Watching",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Watermelon/Watermelon.ssc",
+    "previous_archive": "97f3faf740806904d89d02cbcd7fef19f8b318ae6789dfa2b0ad8393dc634a02.tar.zst",
+    "title": "Watermelon",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "We're Finally Landing/landing.ssc",
+    "previous_archive": "25b9aa17a3f15af0a6276f0460b6d08cce0522cb911a4ce895647dad5579348e.tar.zst",
+    "title": "We're Finally Landing",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "What A Wonderful World/WAWW.sm",
+    "previous_archive": "1ef17a67fbdc88116dbe889a4a05140c8737c0bd646d5e4ecd90a035cf4242f8.tar.zst",
+    "title": "What a Wonderful World",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "What If The Whole World Turned Their Swag On/What If The Whole World Turned Their Swag On.ssc",
+    "previous_archive": "cf9c08bd681e27edebd0cf7754106cd6bebe800295c8a184e377d7397a411c25.tar.zst",
+    "title": "What If The Whole World Turned Their Swag On",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Who The Hell Is Edgar/Who the Hell Is Edgar.ssc",
+    "previous_archive": "9a539969dba52899892fbfd70243f57352ea0fe8fc3330814acac77a26b8ccd9.tar.zst",
+    "title": "Who the Hell Is Edgar?",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "wndrwll/wndrwll.ssc",
+    "previous_archive": "d67f19d33c48cef6f4d3e93da0311238b60962c7e05b4202cad0c0a5a3132584.tar.zst",
+    "title": "wndrwll",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "versus",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Wobbpotato [Blue Shift Phase 1]/wobbpotato.ssc",
+    "previous_archive": "55cf71fcd51c4548413dd8cbe9f62d47be38b8c6d85d691d45f6191b4732fbe2.tar.zst",
+    "title": "[10] Wobbpotato",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Wobbpotato [Egg Carton 3]/wobbpotato.ssc",
+    "previous_archive": "07341d3d29285f3066284d00fcf4956eec0ae486ab01bf0b317be91edbda7c1b.tar.zst",
+    "title": "Wobbpotato",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "WOP/WOP.ssc",
+    "previous_archive": "41f228078a2190b770ff47b500c187161787d123a7e917d7b7773dac7d6acd66.tar.zst",
+    "title": "Wop",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "You are Goomba Play ITG/You are Gooma Play ITG.sm",
+    "previous_archive": "40e22dbac58c4db515f88f16a60581a8528d3618deafc0d99c72738b6f2bf41c.tar.zst",
+    "title": "You are Goomba Play ITG",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "You are Goomba Play ITG/You are Gooma Play ITG.ssc",
+    "previous_archive": "9e0bccfcf823e9a38b0a06e9263821c2c5042e4d2477174c724d99476e5ce2f4.tar.zst",
+    "title": "You are Goomba Play ITG",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Young Dumb And Broke/YDB.sm",
+    "previous_archive": "4e0a2477264b7c00a578002042169ab1903b9c6e57b175c4e80c493bdd402acc.tar.zst",
+    "title": "Young Dumb And Broke",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Young Dumb And Broke/YDB.ssc",
+    "previous_archive": "a2878b466f009d3ae3351a9d10c0814acad8b7b362c9af5a3a00a4b6435e54d9.tar.zst",
+    "title": "Young Dumb And Broke",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Zoku Shimedore 2000/Zoku Shimedore 2000.ssc",
+    "previous_archive": "598e00ef0a6b22ef8be1c3d873fbae2870d3d2d52aac6e357c0b1f70b3158b9b.tar.zst",
+    "title": "Zoku Shimedore 2000",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Ztar Trek/steps.sm",
+    "previous_archive": "54e314619e1ca14d0d32f4acd2b6670d5029aa6958093a98e686b8989bfd1405.tar.zst",
+    "title": "Ztar Trek",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "RUNWAY/RUNWAY.ssc",
+    "previous_archive": "245281f2f7a7d95a1781eb54d7dacc8034b8f2cde0c2e9b6d2b31ef4a3174709.tar.zst",
+    "title": "RUNWAY",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Pokemon Gym Battle Remix/pokes.ssc",
+    "previous_archive": "422193f15fe6f4ed277022c9f3e7b08161ef9b53bde898511aa2da91c9620416.tar.zst",
+    "title": "Pokemon Gym Battle Remix",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Edit",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Rayc Fire 2/Rayc Fire 2.ssc",
+    "previous_archive": "425142dcee67508e15a0544eb930951f1f42c8957c6b46a81be64952f72fa508.tar.zst",
+    "title": "Rayc Fire 2",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "[12] Ascendanz/Ascendanz.ssc",
+    "previous_archive": "c63d1523ae6a67d6c16795d2546d7448d7321ebdf913ae07eca8894b76d5e1e2.tar.zst",
+    "title": "[12] Ascendanz",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Collaboration with Paul J Kim/Something.sm",
+    "previous_archive": "2b5fde5e50abf1b7b754d9c5d6897ab325225dae40793a565fe303f4a888cc4d.tar.zst",
+    "title": "Miitopia Event Battle",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Lots of Spices - [tari]/spices.ssc",
+    "previous_archive": "a344bb807f975e0d9de295a7512ec7962acfc09d74671f11f0817eec4eb855a0.tar.zst",
+    "title": "Lots of Spices",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Rayc Fire 2/Rayc Fire 2.sm",
+    "previous_archive": "058f87cfad4c18d83e64383e4a607d60d994b63ac49a4f1cc368b6016be0b216.tar.zst",
+    "title": "Rayc Fire 2",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Ascendanz/Ascendanz.ssc",
+    "previous_archive": "26999f98362096a4d11ed3972278c33a1a9188ca9f907804493a1e6e1412f43e.tar.zst",
+    "title": "Ascendanz",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Sequential Dreambox - [Zaia]/Sequential Dreambox.ssc",
+    "previous_archive": "5077e6aea0055072fbe8769109d4e9ff540f404f1db36d0f14c40d65518d380d.tar.zst",
+    "title": "Sequential Dreambox",
+    "previous_execution": "native_gameplay",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "mr sandman/mr sandman.sm",
+    "previous_archive": "7817e31172693ca9bba50c4d844c0b461d18807edce464baf3977273dfee9782.tar.zst",
+    "title": "mr sandman",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single"
+  },
+  {
+    "source_simfile": "Dongo Bongo/dongobongo2.ssc",
+    "previous_archive": "9d2c9525dfc15fdaf92e750224b1717266d537af239076ca188c32042917b8cc.tar.zst",
+    "title": "Dongo Bongo",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "game_mode": "ITG",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single"
+  },
+  {
+    "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+    "previous_archive": "64727f8e25081f8a66aea85242c43958278e43bbca2e89b72a3c4577c1a4ad1d.tar.zst",
+    "title": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG"
+  },
+  {
+    "source_simfile": "Metronogik/Song.ssc",
+    "previous_archive": "aef8b4093321c103b961511a236cb5d10e5efe7c2c723b760330945bf0424c41.tar.zst",
+    "title": "Metronogik",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "single",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG",
+    "previous_gc_mode": "automatic"
+  }
+]

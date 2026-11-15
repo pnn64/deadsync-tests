@@ -1,0 +1,34 @@
+{
+  "id": "bank-versus-control",
+  "source_simfile": "Bank Account/Bank Account.ssc",
+  "title": "Bank Account",
+  "simfile_sha256": "92b09483a60ce1e1a1f6d9c2dcb6b00d4db1382e8c5faaa2a8a087106d1ba7ed",
+  "style": "versus",
+  "difficulty": "Challenge",
+  "gc_mode": "automatic",
+  "capture_fps": 60,
+  "max_events": 2000000,
+  "capture_timeout": 900,
+  "replay_timeout": 1200,
+  "selection_basis": "Supplemental native control: unconditional PlayerP2 ActorProxy targets require two joined players.",
+  "available_charts": [
+    [
+      "dance-single",
+      "Hard"
+    ],
+    [
+      "dance-single",
+      "Challenge"
+    ]
+  ],
+  "previous_context": {
+    "source_simfile": "Bank Account/Bank Account.ssc",
+    "previous_archive": "0211e7ed4192b8c793f8ca9b308da10fd59666ac4c07769ac8e29e21fad42268.tar.zst",
+    "title": "Bank Account",
+    "previous_execution": "embedded_bundled_lua"
+  },
+  "estimated_song_seconds": 90.6,
+  "song_folder_bytes": 3704003,
+  "worker": "02",
+  "primary_id": "001abcd0e01187de"
+}

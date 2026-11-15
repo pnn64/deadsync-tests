@@ -1,0 +1,36 @@
+{
+  "id": "velvet-stopped-control",
+  "source_simfile": "Velvet LEFTS 1/chart.ssc",
+  "title": "Turii -Panta Rhei-",
+  "simfile_sha256": "a38146c07ea9483591ae94748621822e163c8ad283e60fe1273048a229f94514",
+  "style": "versus",
+  "difficulty": "Difficulty_Challenge",
+  "gc_mode": "stopped",
+  "capture_fps": 60,
+  "max_events": 2000000,
+  "capture_timeout": 900,
+  "replay_timeout": 1200,
+  "selection_basis": "previous indexed native context",
+  "available_charts": [
+    [
+      "dance-single",
+      "Challenge"
+    ]
+  ],
+  "previous_context": {
+    "source_simfile": "Velvet LEFTS 1/chart.ssc",
+    "previous_archive": "ce1da310466ea79a289cb1ddf0cbf2e4994bde69967d6e128d30f8136b45b049.tar.zst",
+    "title": "Velvet LEFTS 1",
+    "previous_execution": "native_gameplay",
+    "difficulty": "Difficulty_Challenge",
+    "style": "versus",
+    "steps_type": "StepsType_Dance_Single",
+    "game_mode": "ITG",
+    "previous_gc_mode": "stopped"
+  },
+  "estimated_song_seconds": 128.1,
+  "song_folder_bytes": 3647788,
+  "worker": "15",
+  "primary_id": "8f4d4741245868cf",
+  "purpose": "Supplemental fresh GC-mode control; excluded from corpus counts."
+}

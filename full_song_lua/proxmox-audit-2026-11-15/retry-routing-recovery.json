@@ -1,0 +1,742 @@
+{
+  "at": "2026-11-15T17:32:24.171930+00:00",
+  "reason": "Automatic resource queue re-added the externally assigned ArrowQuest IDs after their observation-limit results. Pool claim moved four requests before hitting the duplicate target assertion. No duplicate captures started.",
+  "restored_unlaunched_requests": [
+    "898f3b171ed333ed-large",
+    "939315314b14098a-large",
+    "9bb0eb4860a33838-large",
+    "ade709b3e4efeb3a-large"
+  ],
+  "superseded_duplicate_requests": [
+    {
+      "job": {
+        "id": "67053c6979c0becb-large",
+        "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+        "title": "308|MISC|[lv.Quest] ArrowQuest",
+        "simfile_sha256": "fb767f349b23e62155118f76097269da54e20bf983f6bd0a71e8baba098d266e",
+        "style": "single",
+        "difficulty": "Difficulty_Challenge",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 2200000,
+        "capture_timeout": 1920,
+        "replay_timeout": 2400,
+        "selection_basis": "previous indexed native context",
+        "available_charts": [
+          [
+            "dance-single",
+            "Challenge"
+          ]
+        ],
+        "previous_context": {
+          "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+          "previous_archive": "64727f8e25081f8a66aea85242c43958278e43bbca2e89b72a3c4577c1a4ad1d.tar.zst",
+          "title": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]",
+          "previous_execution": "native_gameplay",
+          "difficulty": "Difficulty_Challenge",
+          "style": "single",
+          "steps_type": "StepsType_Dance_Single",
+          "game_mode": "ITG"
+        },
+        "estimated_song_seconds": 1200,
+        "song_folder_bytes": 22281283,
+        "worker": "large",
+        "primary_id": "67053c6979c0becb"
+      },
+      "kind": "capture",
+      "original": {
+        "id": "67053c6979c0becb",
+        "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+        "title": "308|MISC|[lv.Quest] ArrowQuest",
+        "worker": "02",
+        "started_at": "2026-11-15T14:48:19.397679+00:00",
+        "profile": {
+          "id": "67053c6979c0becb",
+          "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+          "title": "308|MISC|[lv.Quest] ArrowQuest",
+          "simfile_sha256": "fb767f349b23e62155118f76097269da54e20bf983f6bd0a71e8baba098d266e",
+          "style": "single",
+          "difficulty": "Difficulty_Challenge",
+          "gc_mode": "automatic",
+          "capture_fps": 60,
+          "max_events": 2000000,
+          "capture_timeout": 1920,
+          "replay_timeout": 1200,
+          "selection_basis": "previous indexed native context",
+          "available_charts": [
+            [
+              "dance-single",
+              "Challenge"
+            ]
+          ],
+          "previous_context": {
+            "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+            "previous_archive": "64727f8e25081f8a66aea85242c43958278e43bbca2e89b72a3c4577c1a4ad1d.tar.zst",
+            "title": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]",
+            "previous_execution": "native_gameplay",
+            "difficulty": "Difficulty_Challenge",
+            "style": "single",
+            "steps_type": "StepsType_Dance_Single",
+            "game_mode": "ITG"
+          },
+          "estimated_song_seconds": 1200,
+          "song_folder_bytes": 22281283,
+          "worker": "02"
+        },
+        "status": "capture_observation_limit",
+        "stages": {
+          "capture": {
+            "command": [
+              "/opt/song-lua-audit/bin/itgmania-harness-rs",
+              "song-lua-trace",
+              "/opt/song-lua-audit/Songs/308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+              "--itgmania-bin",
+              "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+              "--fallback-theme",
+              "Harness Simply Love",
+              "--headless",
+              "--style",
+              "single",
+              "--until-gameplay-end",
+              "--capture-fps",
+              "60",
+              "--max-events",
+              "2000000",
+              "--timeout",
+              "1920",
+              "--out",
+              "/opt/song-lua-audit/results/67053c6979c0becb/traces/native.json",
+              "--difficulty",
+              "Challenge"
+            ],
+            "exit": 1,
+            "elapsed_seconds": 1920.239,
+            "memory_limit": "6G",
+            "timeout_seconds": 2010,
+            "unit": "lua-audit-67053c6979c0becb-capture",
+            "service_tail": "2026-11-15T14:48:19+00:00 deadsync-lua-02 systemd[1]: Started lua-audit-67053c6979c0becb-capture.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-trace \"/opt/song-lua-audit/Songs/308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm\" --itgmania-bin /opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --style single --until-gameplay-end --capture-fps 60 --max-events 2000000 --timeout 1920 --out /opt/song-lua-audit/results/67053c6979c0becb/traces/native.json --difficulty Challenge.\n2026-11-15T15:20:19+00:00 deadsync-lua-02 systemd[1]: lua-audit-67053c6979c0becb-capture.service: Main process exited, code=exited, status=1/FAILURE\n2026-11-15T15:20:19+00:00 deadsync-lua-02 systemd[1]: lua-audit-67053c6979c0becb-capture.service: Failed with result 'exit-code'.\n2026-11-15T15:20:19+00:00 deadsync-lua-02 systemd[1]: lua-audit-67053c6979c0becb-capture.service: Consumed 10min 6.137s CPU time, 2.5M memory peak, 0B memory swap peak.\n"
+          }
+        },
+        "artifacts": [
+          {
+            "file": "67053c6979c0becb/native-diagnostics.tar.zst",
+            "bytes": 23963309,
+            "sha256": "b97790433776cc561121c28ac9576eff366328021bc559ae392176b23696b1e9",
+            "uncompressed_sha256": "95ca8cfee4abbf60ec6e713f7bea83b0db0f155a8e3c97275f433bda34c09f56"
+          }
+        ],
+        "reason": "error: ITGmania song Lua semantic trace failed: ITGmania did not write a semantic trace within 1920.0 seconds; inspect /opt/song-lua-audit/results/67053c6979c0becb/tmp/itgmania-harness-rs/song-lua-1640-1794754099457897413-0/Logs/log.txt; retained run directory /opt/song-lua-audit/results/67053c6979c0becb/tmp/itgmania-harness-rs/song-lua-1640-1794754099457897413-0\n",
+        "native_failure": [],
+        "finished_at": "2026-11-15T15:20:33.706957+00:00",
+        "recorded_worker_status": "capture_timeout",
+        "capture_constraints": {
+          "resource_limit": false,
+          "dropped_observations": {}
+        },
+        "classification_version": 3,
+        "before_resource_recheck_status": "capture_timeout",
+        "resource_recheck": {
+          "id": "67053c6979c0becb-large",
+          "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+          "title": "308|MISC|[lv.Quest] ArrowQuest",
+          "worker": "04",
+          "started_at": "2026-11-15T16:46:01.604336+00:00",
+          "profile": {
+            "id": "67053c6979c0becb-large",
+            "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+            "title": "308|MISC|[lv.Quest] ArrowQuest",
+            "simfile_sha256": "fb767f349b23e62155118f76097269da54e20bf983f6bd0a71e8baba098d266e",
+            "style": "single",
+            "difficulty": "Difficulty_Challenge",
+            "gc_mode": "automatic",
+            "capture_fps": 60,
+            "max_events": 6000000,
+            "capture_timeout": 3000,
+            "replay_timeout": 2400,
+            "selection_basis": "previous indexed native context",
+            "available_charts": [
+              [
+                "dance-single",
+                "Challenge"
+              ]
+            ],
+            "previous_context": {
+              "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+              "previous_archive": "64727f8e25081f8a66aea85242c43958278e43bbca2e89b72a3c4577c1a4ad1d.tar.zst",
+              "title": "308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]",
+              "previous_execution": "native_gameplay",
+              "difficulty": "Difficulty_Challenge",
+              "style": "single",
+              "steps_type": "StepsType_Dance_Single",
+              "game_mode": "ITG"
+            },
+            "estimated_song_seconds": 1200,
+            "song_folder_bytes": 22281283,
+            "worker": "04",
+            "primary_id": "67053c6979c0becb",
+            "retry_reason": "The source chart spans 504 four-beat measures at 60 BPM (about 2016 seconds), beyond the initial 1920-second capture timeout."
+          },
+          "status": "capture_observation_limit",
+          "stages": {
+            "capture": {
+              "command": [
+                "/opt/song-lua-audit/bin/itgmania-harness-rs",
+                "song-lua-trace",
+                "/opt/song-lua-audit/Songs/308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm",
+                "--itgmania-bin",
+                "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+                "--fallback-theme",
+                "Harness Simply Love",
+                "--headless",
+                "--style",
+                "single",
+                "--until-gameplay-end",
+                "--capture-fps",
+                "60",
+                "--max-events",
+                "6000000",
+                "--timeout",
+                "3000",
+                "--out",
+                "/opt/song-lua-audit/results/67053c6979c0becb-large/traces/native.json",
+                "--difficulty",
+                "Challenge"
+              ],
+              "exit": 1,
+              "elapsed_seconds": 2360.22,
+              "memory_limit": "26G",
+              "timeout_seconds": 3090,
+              "unit": "lua-audit-67053c6979c0becb-large-capture",
+              "service_tail": "2026-11-15T16:46:01+00:00 deadsync-lua-04 systemd[1]: Started lua-audit-67053c6979c0becb-large-capture.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-trace \"/opt/song-lua-audit/Songs/308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm\" --itgmania-bin /opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --style single --until-gameplay-end --capture-fps 60 --max-events 6000000 --timeout 3000 --out /opt/song-lua-audit/results/67053c6979c0becb-large/traces/native.json --difficulty Challenge.\n2026-11-15T17:25:22+00:00 deadsync-lua-04 systemd[1]: lua-audit-67053c6979c0becb-large-capture.service: Main process exited, code=exited, status=1/FAILURE\n2026-11-15T17:25:22+00:00 deadsync-lua-04 systemd[1]: lua-audit-67053c6979c0becb-large-capture.service: Failed with result 'exit-code'.\n2026-11-15T17:25:22+00:00 deadsync-lua-04 systemd[1]: lua-audit-67053c6979c0becb-large-capture.service: Consumed 17min 36.987s CPU time, 1012.0K memory peak, 0B memory swap peak.\n"
+            }
+          },
+          "artifacts": [
+            {
+              "file": "67053c6979c0becb-large/native-diagnostics.tar.zst",
+              "bytes": 157830630,
+              "sha256": "6dd27b109a5d12426810f5c63d0111d85965d9d2d198788713d122f0f4765df1",
+              "uncompressed_sha256": "f69d17fbe02250fe79aadc06f5ea1a69ef2257ddcdb36a3ac56f1431fa9e5335"
+            }
+          ],
+          "reason": "error: ITGmania song Lua semantic trace failed: native gameplay capture contains errors or dropped observations; retained run directory /opt/song-lua-audit/results/67053c6979c0becb-large/tmp/itgmania-harness-rs/song-lua-978-1794761161772367824-0\n",
+          "native_failure": [
+            {
+              "summary": {
+                "capture_limits": {
+                  "max_events": 6000000
+                },
+                "completion": {
+                  "next_screen": "ScreenEvaluationStage",
+                  "reason": "gameplay-exit",
+                  "stage_committed": true,
+                  "stages_played_after": 1,
+                  "stages_played_before": 0
+                },
+                "difficulty": "Difficulty_Challenge",
+                "dropped_drawable_samples": 0,
+                "dropped_events": 2474161,
+                "dropped_host_clock_inputs": 0,
+                "dropped_input_events": 0,
+                "dropped_random_reseeds": 0,
+                "dropped_stage_samples": 0,
+                "dropped_update_frames": 0,
+                "end_position": {
+                  "beat": 2014.8984375,
+                  "seconds": 2014.9244384765625
+                },
+                "harness_version": "0.1.97",
+                "input": {
+                  "autoplay": 1,
+                  "catalog_preferences": {
+                    "global_offset_seconds": -0.00800000037997961,
+                    "initialization": "native-catalog-note-time-calculation",
+                    "music_rate": 1
+                  },
+                  "gameplay_preferences": {
+                    "column_cue_min_time": 1.5,
+                    "default_modifiers": "",
+                    "game_mode": "ITG",
+                    "initialization": "theme-game-mode",
+                    "max_input_latency_seconds": 0,
+                    "mod_level": "ModsLevel_Preferred",
+                    "music_rate": 1,
+                    "players": [
+                      {
+                        "disabled_timing_windows": [],
+                        "fail_setting": "FailType_Immediate",
+                        "min_tns_to_hide_notes": "TapNoteScore_W3",
+                        "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+                        "player": "PlayerNumber_P1",
+                        "theme_modifiers": {
+                          "ActionOnMissedTarget": "Nothing",
+                          "BackgroundFilter": "Darker",
+                          "ColumnCues": true,
+                          "ComboFont": "Wendy",
+                          "DataVisualizations": "Step Statistics",
+                          "DisplayScorebox": true,
+                          "ErrorBar": "None",
+                          "ErrorBarMultiTick": false,
+                          "ErrorBarTrim": "Off",
+                          "ErrorBarUp": false,
+                          "FlashDecent": false,
+                          "FlashExcellent": false,
+                          "FlashFantastic": false,
+                          "FlashGreat": false,
+                          "FlashMiss": false,
+                          "FlashWayOff": false,
+                          "HideCombo": false,
+                          "HideComboExplosions": false,
+                          "HideDanger": false,
+                          "HideEarlyDecentWayOffFlash": false,
+                          "HideEarlyDecentWayOffJudgments": false,
+                          "HideLifebar": false,
+                          "HideLookahead": false,
+                          "HideScore": false,
+                          "HideSongBG": false,
+                          "HideTargets": false,
+                          "HoldJudgment": "Love 1x2 (doubleres).png",
+                          "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                          "JudgmentTilt": false,
+                          "LifeMeterType": "Standard",
+                          "MeasureCounter": "None",
+                          "MeasureCounterLeft": false,
+                          "MeasureCounterUp": true,
+                          "MeasureLines": "Off",
+                          "Mini": "0%",
+                          "NPSGraphAtTop": false,
+                          "NoteFieldOffsetX": 0,
+                          "NoteFieldOffsetY": 0,
+                          "Pacemaker": false,
+                          "ShowExScore": false,
+                          "ShowFaPlusPane": true,
+                          "ShowFaPlusWindow": false,
+                          "SpeedMod": 250,
+                          "SpeedModType": "M",
+                          "SubtractiveScoring": false,
+                          "TargetScore": 11,
+                          "TiltMultiplier": 1,
+                          "TimingWindows": [
+                            true,
+                            true,
+                            true,
+                            true,
+                            true
+                          ],
+                          "VisualDelay": "0ms"
+                        }
+                      }
+                    ],
+                    "timing_window_add": 0.001500000013038516,
+                    "timing_window_scale": 1,
+                    "timing_windows": {
+                      "Attack": 0.13500000536441803,
+                      "Checkpoint": 0.1664000004529953,
+                      "Hold": 0.3199999928474426,
+                      "Mine": 0.07000000029802322,
+                      "Roll": 0.3499999940395355,
+                      "W1": 0.0215000007301569,
+                      "W2": 0.0430000014603138,
+                      "W3": 0.10199999809265137,
+                      "W4": 0.13500000536441803,
+                      "W5": 0.18000000715255737
+                    }
+                  },
+                  "headless_graphics": false,
+                  "injected_inputs": false,
+                  "lua_gc_mode": "automatic",
+                  "native_source": {
+                    "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+                    "modified_src": false,
+                    "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+                    "revision": "5c737928d93778c2c9f68e276052b220b43a468f"
+                  },
+                  "observer_frame_period_seconds": 0.01666666666666667,
+                  "preferences": {
+                    "constant_update_delta_seconds": 0,
+                    "default_sync_offset": "SyncOffset_ITG",
+                    "display_aspect_ratio": 1.7777777910232544,
+                    "global_offset_seconds": -0.00800000037997961,
+                    "visual_delay_seconds": 0
+                  },
+                  "requested_difficulty": "Challenge",
+                  "script": [],
+                  "style": "single",
+                  "window_visible": false
+                },
+                "schema_version": 1,
+                "steps_type": "StepsType_Dance_Single",
+                "style": "single"
+              },
+              "errors": []
+            }
+          ],
+          "finished_at": "2026-11-15T17:29:21.250112+00:00",
+          "recorded_worker_status": "native_capture_error",
+          "capture_constraints": {
+            "resource_limit": false,
+            "dropped_observations": {
+              "dropped_events": 2474161
+            }
+          },
+          "classification_version": 3
+        },
+        "comparison": {},
+        "mismatch_analysis": {},
+        "final_execution_worker": "04"
+      },
+      "queued_at": "2026-11-15T17:30:27.376919+00:00"
+    },
+    {
+      "job": {
+        "id": "85aa930d114b2262-large",
+        "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm",
+        "title": "308|MISC|[lv.Quest] ArrowQuest",
+        "simfile_sha256": "fb767f349b23e62155118f76097269da54e20bf983f6bd0a71e8baba098d266e",
+        "style": "single",
+        "difficulty": "Challenge",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 2200000,
+        "capture_timeout": 1920,
+        "replay_timeout": 2400,
+        "selection_basis": "source chart discovery",
+        "available_charts": [
+          [
+            "dance-single",
+            "Challenge"
+          ]
+        ],
+        "previous_context": null,
+        "estimated_song_seconds": 1200,
+        "song_folder_bytes": 22281283,
+        "worker": "large",
+        "primary_id": "85aa930d114b2262"
+      },
+      "kind": "capture",
+      "original": {
+        "id": "85aa930d114b2262",
+        "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm",
+        "title": "308|MISC|[lv.Quest] ArrowQuest",
+        "worker": "03",
+        "started_at": "2026-11-15T14:48:19.356786+00:00",
+        "profile": {
+          "id": "85aa930d114b2262",
+          "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm",
+          "title": "308|MISC|[lv.Quest] ArrowQuest",
+          "simfile_sha256": "fb767f349b23e62155118f76097269da54e20bf983f6bd0a71e8baba098d266e",
+          "style": "single",
+          "difficulty": "Challenge",
+          "gc_mode": "automatic",
+          "capture_fps": 60,
+          "max_events": 2000000,
+          "capture_timeout": 1920,
+          "replay_timeout": 1200,
+          "selection_basis": "source chart discovery",
+          "available_charts": [
+            [
+              "dance-single",
+              "Challenge"
+            ]
+          ],
+          "previous_context": null,
+          "estimated_song_seconds": 1200,
+          "song_folder_bytes": 22281283,
+          "worker": "03"
+        },
+        "status": "capture_observation_limit",
+        "stages": {
+          "capture": {
+            "command": [
+              "/opt/song-lua-audit/bin/itgmania-harness-rs",
+              "song-lua-trace",
+              "/opt/song-lua-audit/Songs/308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm",
+              "--itgmania-bin",
+              "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+              "--fallback-theme",
+              "Harness Simply Love",
+              "--headless",
+              "--style",
+              "single",
+              "--until-gameplay-end",
+              "--capture-fps",
+              "60",
+              "--max-events",
+              "2000000",
+              "--timeout",
+              "1920",
+              "--out",
+              "/opt/song-lua-audit/results/85aa930d114b2262/traces/native.json",
+              "--difficulty",
+              "Challenge"
+            ],
+            "exit": 1,
+            "elapsed_seconds": 1920.26,
+            "memory_limit": "6G",
+            "timeout_seconds": 2010,
+            "unit": "lua-audit-85aa930d114b2262-capture",
+            "service_tail": "2026-11-15T14:48:19+00:00 deadsync-lua-03 systemd[1]: Started lua-audit-85aa930d114b2262-capture.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-trace \"/opt/song-lua-audit/Songs/308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm\" --itgmania-bin /opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --style single --until-gameplay-end --capture-fps 60 --max-events 2000000 --timeout 1920 --out /opt/song-lua-audit/results/85aa930d114b2262/traces/native.json --difficulty Challenge.\n2026-11-15T15:20:19+00:00 deadsync-lua-03 systemd[1]: lua-audit-85aa930d114b2262-capture.service: Main process exited, code=exited, status=1/FAILURE\n2026-11-15T15:20:19+00:00 deadsync-lua-03 systemd[1]: lua-audit-85aa930d114b2262-capture.service: Failed with result 'exit-code'.\n2026-11-15T15:20:19+00:00 deadsync-lua-03 systemd[1]: lua-audit-85aa930d114b2262-capture.service: Consumed 10min 11.361s CPU time, 1.4M memory peak, 0B memory swap peak.\n"
+          }
+        },
+        "artifacts": [
+          {
+            "file": "85aa930d114b2262/native-diagnostics.tar.zst",
+            "bytes": 24049910,
+            "sha256": "915afa7d238832d38f09480e97c90b5d13598cce0b33ab0512bb7adeb76201d7",
+            "uncompressed_sha256": "5486e5a41a738b050bf6eabf2bc635d916fc540615f66e4665c965951355038a"
+          }
+        ],
+        "reason": "error: ITGmania song Lua semantic trace failed: ITGmania did not write a semantic trace within 1920.0 seconds; inspect /opt/song-lua-audit/results/85aa930d114b2262/tmp/itgmania-harness-rs/song-lua-1561-1794754099419096618-0/Logs/log.txt; retained run directory /opt/song-lua-audit/results/85aa930d114b2262/tmp/itgmania-harness-rs/song-lua-1561-1794754099419096618-0\n",
+        "native_failure": [],
+        "finished_at": "2026-11-15T15:20:34.064980+00:00",
+        "recorded_worker_status": "capture_timeout",
+        "capture_constraints": {
+          "resource_limit": false,
+          "dropped_observations": {}
+        },
+        "classification_version": 3,
+        "before_resource_recheck_status": "capture_timeout",
+        "resource_recheck": {
+          "id": "85aa930d114b2262-large",
+          "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm",
+          "title": "308|MISC|[lv.Quest] ArrowQuest",
+          "worker": "12",
+          "started_at": "2026-11-15T16:46:38.567646+00:00",
+          "profile": {
+            "id": "85aa930d114b2262-large",
+            "source_simfile": "308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm",
+            "title": "308|MISC|[lv.Quest] ArrowQuest",
+            "simfile_sha256": "fb767f349b23e62155118f76097269da54e20bf983f6bd0a71e8baba098d266e",
+            "style": "single",
+            "difficulty": "Challenge",
+            "gc_mode": "automatic",
+            "capture_fps": 60,
+            "max_events": 6000000,
+            "capture_timeout": 3000,
+            "replay_timeout": 2400,
+            "selection_basis": "source chart discovery",
+            "available_charts": [
+              [
+                "dance-single",
+                "Challenge"
+              ]
+            ],
+            "previous_context": null,
+            "estimated_song_seconds": 1200,
+            "song_folder_bytes": 22281283,
+            "worker": "12",
+            "primary_id": "85aa930d114b2262",
+            "retry_reason": "The source chart spans 504 four-beat measures at 60 BPM (about 2016 seconds), beyond the initial 1920-second capture timeout."
+          },
+          "status": "capture_observation_limit",
+          "stages": {
+            "capture": {
+              "command": [
+                "/opt/song-lua-audit/bin/itgmania-harness-rs",
+                "song-lua-trace",
+                "/opt/song-lua-audit/Songs/308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm",
+                "--itgmania-bin",
+                "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+                "--fallback-theme",
+                "Harness Simply Love",
+                "--headless",
+                "--style",
+                "single",
+                "--until-gameplay-end",
+                "--capture-fps",
+                "60",
+                "--max-events",
+                "6000000",
+                "--timeout",
+                "3000",
+                "--out",
+                "/opt/song-lua-audit/results/85aa930d114b2262-large/traces/native.json",
+                "--difficulty",
+                "Challenge"
+              ],
+              "exit": 1,
+              "elapsed_seconds": 2360.784,
+              "memory_limit": "26G",
+              "timeout_seconds": 3090,
+              "unit": "lua-audit-85aa930d114b2262-large-capture",
+              "service_tail": "2026-11-15T16:46:38+00:00 deadsync-lua-12 systemd[1]: Started lua-audit-85aa930d114b2262-large-capture.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-trace \"/opt/song-lua-audit/Songs/308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm\" --itgmania-bin /opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --style single --until-gameplay-end --capture-fps 60 --max-events 6000000 --timeout 3000 --out /opt/song-lua-audit/results/85aa930d114b2262-large/traces/native.json --difficulty Challenge.\n2026-11-15T17:25:59+00:00 deadsync-lua-12 systemd[1]: lua-audit-85aa930d114b2262-large-capture.service: Main process exited, code=exited, status=1/FAILURE\n2026-11-15T17:25:59+00:00 deadsync-lua-12 systemd[1]: lua-audit-85aa930d114b2262-large-capture.service: Failed with result 'exit-code'.\n2026-11-15T17:25:59+00:00 deadsync-lua-12 systemd[1]: lua-audit-85aa930d114b2262-large-capture.service: Consumed 17min 41.408s CPU time, 1.3M memory peak, 0B memory swap peak.\n"
+            }
+          },
+          "artifacts": [
+            {
+              "file": "85aa930d114b2262-large/native-diagnostics.tar.zst",
+              "bytes": 157935401,
+              "sha256": "c0716043e15e38ee3c8946e297abc7a29c16c60c5c758ebd1c759149f429dc2c",
+              "uncompressed_sha256": "8ebfabca6137d5fa1b63f682a1a4169028759bb67e83316d6c355f76e3cf0010"
+            }
+          ],
+          "reason": "error: ITGmania song Lua semantic trace failed: native gameplay capture contains errors or dropped observations; retained run directory /opt/song-lua-audit/results/85aa930d114b2262-large/tmp/itgmania-harness-rs/song-lua-1034-1794761198678347716-0\n",
+          "native_failure": [
+            {
+              "summary": {
+                "capture_limits": {
+                  "max_events": 6000000
+                },
+                "completion": {
+                  "next_screen": "ScreenEvaluationStage",
+                  "reason": "gameplay-exit",
+                  "stage_committed": true,
+                  "stages_played_after": 1,
+                  "stages_played_before": 0
+                },
+                "difficulty": "Difficulty_Challenge",
+                "dropped_drawable_samples": 0,
+                "dropped_events": 2474400,
+                "dropped_host_clock_inputs": 0,
+                "dropped_input_events": 0,
+                "dropped_random_reseeds": 0,
+                "dropped_stage_samples": 0,
+                "dropped_update_frames": 0,
+                "end_position": {
+                  "beat": 2014.9014892578125,
+                  "seconds": 2014.927490234375
+                },
+                "harness_version": "0.1.97",
+                "input": {
+                  "autoplay": 1,
+                  "catalog_preferences": {
+                    "global_offset_seconds": -0.00800000037997961,
+                    "initialization": "native-catalog-note-time-calculation",
+                    "music_rate": 1
+                  },
+                  "gameplay_preferences": {
+                    "column_cue_min_time": 1.5,
+                    "default_modifiers": "",
+                    "game_mode": "ITG",
+                    "initialization": "theme-game-mode",
+                    "max_input_latency_seconds": 0,
+                    "mod_level": "ModsLevel_Preferred",
+                    "music_rate": 1,
+                    "players": [
+                      {
+                        "disabled_timing_windows": [],
+                        "fail_setting": "FailType_Immediate",
+                        "min_tns_to_hide_notes": "TapNoteScore_W3",
+                        "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+                        "player": "PlayerNumber_P1",
+                        "theme_modifiers": {
+                          "ActionOnMissedTarget": "Nothing",
+                          "BackgroundFilter": "Darker",
+                          "ColumnCues": true,
+                          "ComboFont": "Wendy",
+                          "DataVisualizations": "Step Statistics",
+                          "DisplayScorebox": true,
+                          "ErrorBar": "None",
+                          "ErrorBarMultiTick": false,
+                          "ErrorBarTrim": "Off",
+                          "ErrorBarUp": false,
+                          "FlashDecent": false,
+                          "FlashExcellent": false,
+                          "FlashFantastic": false,
+                          "FlashGreat": false,
+                          "FlashMiss": false,
+                          "FlashWayOff": false,
+                          "HideCombo": false,
+                          "HideComboExplosions": false,
+                          "HideDanger": false,
+                          "HideEarlyDecentWayOffFlash": false,
+                          "HideEarlyDecentWayOffJudgments": false,
+                          "HideLifebar": false,
+                          "HideLookahead": false,
+                          "HideScore": false,
+                          "HideSongBG": false,
+                          "HideTargets": false,
+                          "HoldJudgment": "Love 1x2 (doubleres).png",
+                          "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                          "JudgmentTilt": false,
+                          "LifeMeterType": "Standard",
+                          "MeasureCounter": "None",
+                          "MeasureCounterLeft": false,
+                          "MeasureCounterUp": true,
+                          "MeasureLines": "Off",
+                          "Mini": "0%",
+                          "NPSGraphAtTop": false,
+                          "NoteFieldOffsetX": 0,
+                          "NoteFieldOffsetY": 0,
+                          "Pacemaker": false,
+                          "ShowExScore": false,
+                          "ShowFaPlusPane": true,
+                          "ShowFaPlusWindow": false,
+                          "SpeedMod": 250,
+                          "SpeedModType": "M",
+                          "SubtractiveScoring": false,
+                          "TargetScore": 11,
+                          "TiltMultiplier": 1,
+                          "TimingWindows": [
+                            true,
+                            true,
+                            true,
+                            true,
+                            true
+                          ],
+                          "VisualDelay": "0ms"
+                        }
+                      }
+                    ],
+                    "timing_window_add": 0.001500000013038516,
+                    "timing_window_scale": 1,
+                    "timing_windows": {
+                      "Attack": 0.13500000536441803,
+                      "Checkpoint": 0.1664000004529953,
+                      "Hold": 0.3199999928474426,
+                      "Mine": 0.07000000029802322,
+                      "Roll": 0.3499999940395355,
+                      "W1": 0.0215000007301569,
+                      "W2": 0.0430000014603138,
+                      "W3": 0.10199999809265137,
+                      "W4": 0.13500000536441803,
+                      "W5": 0.18000000715255737
+                    }
+                  },
+                  "headless_graphics": false,
+                  "injected_inputs": false,
+                  "lua_gc_mode": "automatic",
+                  "native_source": {
+                    "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+                    "modified_src": false,
+                    "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+                    "revision": "5c737928d93778c2c9f68e276052b220b43a468f"
+                  },
+                  "observer_frame_period_seconds": 0.01666666666666667,
+                  "preferences": {
+                    "constant_update_delta_seconds": 0,
+                    "default_sync_offset": "SyncOffset_ITG",
+                    "display_aspect_ratio": 1.7777777910232544,
+                    "global_offset_seconds": -0.00800000037997961,
+                    "visual_delay_seconds": 0
+                  },
+                  "requested_difficulty": "Challenge",
+                  "script": [],
+                  "style": "single",
+                  "window_visible": false
+                },
+                "schema_version": 1,
+                "steps_type": "StepsType_Dance_Single",
+                "style": "single"
+              },
+              "errors": []
+            }
+          ],
+          "finished_at": "2026-11-15T17:30:04.087196+00:00",
+          "recorded_worker_status": "native_capture_error",
+          "capture_constraints": {
+            "resource_limit": false,
+            "dropped_observations": {
+              "dropped_events": 2474400
+            }
+          },
+          "classification_version": 3
+        },
+        "comparison": {},
+        "mismatch_analysis": {},
+        "final_execution_worker": "12"
+      },
+      "queued_at": "2026-11-15T17:30:28.131887+00:00"
+    }
+  ],
+  "current_unchanged": "49ec0d0c00dfc584-large"
+}

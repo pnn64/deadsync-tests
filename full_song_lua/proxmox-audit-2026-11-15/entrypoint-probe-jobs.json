@@ -1,0 +1,1393 @@
+[
+  {
+    "id": "11205e6997187207",
+    "source_simfile": "Ascendanz/Ascendanz.ssc",
+    "title": "Ascendanz",
+    "simfile_sha256": "c116a4fc612d43be52cf043e44995e15ba71c2b0fa3eac1e0f72af7143664ef9",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-double",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Ascendanz/Ascendanz.ssc",
+      "previous_archive": "26999f98362096a4d11ed3972278c33a1a9188ca9f907804493a1e6e1412f43e.tar.zst",
+      "title": "Ascendanz",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 120.0,
+    "song_folder_bytes": 8140166,
+    "worker": "02"
+  },
+  {
+    "id": "8e2cc50f6bd76919",
+    "source_simfile": "Bank Account/Bank Account.sm",
+    "title": "Bank Account",
+    "simfile_sha256": "cd87ad718b46afee6a95c4534b5a1ed7560d01547ca52374d109176dc8d125de",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Bank Account/Bank Account.sm",
+      "previous_archive": "89ccfcb83c3fb05f3b48b922272cc115dc5b69ebf345bd179a1e5a15af1d9edf.tar.zst",
+      "title": "Bank Account",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 138.1,
+    "song_folder_bytes": 3704003,
+    "worker": "15"
+  },
+  {
+    "id": "3793287dc1cc7dd5",
+    "source_simfile": "Cat Hack/Cat Hacks.sm",
+    "title": "Cat Hacks",
+    "simfile_sha256": "3e9cab56fdcfca001a72f3510b37a0f65909795f2f5d4bc8bb689e3722ad1a91",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Cat Hack/Cat Hacks.sm",
+      "previous_archive": "a6bdb8044e7cb16503705055d209c6dcc0f61a16a0b1db1fdd6ed1913d83a42c.tar.zst",
+      "title": "Cat Hacks",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 490.8,
+    "song_folder_bytes": 4391458,
+    "worker": "09"
+  },
+  {
+    "id": "273170f92248917b",
+    "source_simfile": "Cat Hack/Cat Hacks.ssc",
+    "title": "Cat Hacks",
+    "simfile_sha256": "e495b4783e1d6c21954bc0ae1b52c2ce50b26ed8a2b8f943a866fa5f4444c0fd",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Cat Hack/Cat Hacks.ssc",
+      "previous_archive": "1d4a702b6025efa60c460f96dd7b8b4941c0cd12819fec4968dd5cfe170967c5.tar.zst",
+      "title": "Cat Hacks",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 433.9,
+    "song_folder_bytes": 4391458,
+    "worker": "06"
+  },
+  {
+    "id": "9e59effe9cf00022",
+    "source_simfile": "Crab Nicholson Extreme Sleepover/Crab Nicholson Extreme Sleepover.sm",
+    "title": "Crab Nicholson Extreme Sleepover",
+    "simfile_sha256": "779a1edad17f928364f588986bbeca52ee452dba597728bd509ab478e2be2ea9",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-double",
+        "Challenge"
+      ],
+      [
+        "dance-double",
+        "Hard"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Crab Nicholson Extreme Sleepover/Crab Nicholson Extreme Sleepover.sm",
+      "previous_archive": "c2be9163f31b73e544df8ec14136647a3394f8401dcbb851e45b07c099cbd816.tar.zst",
+      "title": "Crab Nicholson Extreme Sleepover",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 130.3,
+    "song_folder_bytes": 4578764,
+    "worker": "12"
+  },
+  {
+    "id": "3bd84fe8e4f26966",
+    "source_simfile": "Fortuna Redux - [Zaia]/Fortuna Redux.sm",
+    "title": "Fortuna Redux",
+    "simfile_sha256": "535ed73ac6613a9c4a4f565cc8496e3c87f3a4825fd023237d7c34afbd5b6025",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Fortuna Redux - [Zaia]/Fortuna Redux.sm",
+      "previous_archive": "6589c2b07c731ec217c837f3cc633f6425635c371fd31702b21dff8d85a937c1.tar.zst",
+      "title": "Fortuna Redux",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 253.2,
+    "song_folder_bytes": 8356717,
+    "worker": "12"
+  },
+  {
+    "id": "18ce02683c733e00",
+    "source_simfile": "I Really Like You [dbk2]/I Really Like You.sm",
+    "title": "I Really Like You",
+    "simfile_sha256": "4a47bd207f8c9a72cc73dfd5ab263dd151cb26c3ed1ee713c772aa965f1f249f",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "I Really Like You [dbk2]/I Really Like You.sm",
+      "previous_archive": "1ee4a0c613cdc1a98f40785a6b0becb56a603e86656bf0deaed509549ec9312f.tar.zst",
+      "title": "I Really Like You Really, Really, Really, Really",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 303.0,
+    "song_folder_bytes": 3759487,
+    "worker": "11"
+  },
+  {
+    "id": "a760ce2ddf9433d4",
+    "source_simfile": "If You Crump Stand Up/crump.sm",
+    "title": "If You Crump Stand Up",
+    "simfile_sha256": "f4a05dc2796ca3b02322b3e889af3f6ad5e4db2f18435a63941e65c33119f3eb",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 1097,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "If You Crump Stand Up/crump.sm",
+      "previous_archive": "51dc07f45646ee7ee65906490783ca6f631f2103890f09a309b18fb2f22495c4.tar.zst",
+      "title": "If You Crump Stand Up",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 652.0,
+    "song_folder_bytes": 4981271,
+    "worker": "15"
+  },
+  {
+    "id": "106fc438f82f1926",
+    "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+    "title": "Kita Saitama 2000",
+    "simfile_sha256": "c5e17e8777a3fe392638dfae654ae7c7649c4312c73e444fd7a777d599de8b60",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+      "previous_archive": "b2ef051cb9f03c73c2b4631fdd96d444f06afb81cb101c73fbda3a637c936f60.tar.zst",
+      "title": "Kita Saitama 2000",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 120.0,
+    "song_folder_bytes": 2447650,
+    "worker": "09"
+  },
+  {
+    "id": "c470f90cddf5720c",
+    "source_simfile": "Longinus - [Zaia]/Longinus.sm",
+    "title": "Longinus",
+    "simfile_sha256": "c95e7f1e7d82078d37b387f357822305bb0233bfb4adb7c881848f6bb8bb82af",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Longinus - [Zaia]/Longinus.sm",
+      "previous_archive": "224ca750687b7b3f3c4b379c3622edadee87ba11bc7bac1ab138e6b63f03db75.tar.zst",
+      "title": "Longinus",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 285.3,
+    "song_folder_bytes": 9013701,
+    "worker": "13"
+  },
+  {
+    "id": "8bbbbd0a227889ec",
+    "source_simfile": "Lots of Spices - [tari]/spices.ssc",
+    "title": "Lots of Spices",
+    "simfile_sha256": "2fb744ee8811e3a6080df50173756ef648d02ae9aee46a52b6e514bf2d4544f9",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 1920,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Lots of Spices - [tari]/spices.ssc",
+      "previous_archive": "a344bb807f975e0d9de295a7512ec7962acfc09d74671f11f0817eec4eb855a0.tar.zst",
+      "title": "Lots of Spices",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 1200,
+    "song_folder_bytes": 3505859,
+    "worker": "07"
+  },
+  {
+    "id": "12e625ce625e261a",
+    "source_simfile": "Loyal Divide [TaroNuke]/Loyal Divide.sm",
+    "title": "Loyal Divide",
+    "simfile_sha256": "1f9fcf1a405c0ef368adde7cb67e14f0eb96b6d4885a6748f650596aa528b825",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Loyal Divide [TaroNuke]/Loyal Divide.sm",
+      "previous_archive": "2535ae776cb2b2110119fa4f5aa92a1458d99122495035547dd0b306f08c04eb.tar.zst",
+      "title": "Loyal Divide (R_D Remix)",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 268.8,
+    "song_folder_bytes": 2461524,
+    "worker": "04"
+  },
+  {
+    "id": "78332255bc11a219",
+    "source_simfile": "Midnight Madness/midnight.sm",
+    "title": "Midnight Madness",
+    "simfile_sha256": "936cc658a970b6e5d211d690465f34d93f911f96c12e8951fa15cb6024d9bcf7",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Midnight Madness/midnight.sm",
+      "previous_archive": "3adb8fdec8997e7ac138bbf4ce49f8cd61de1163cb79759c1de721208457ae2a.tar.zst",
+      "title": "Midnight Madness",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 404.4,
+    "song_folder_bytes": 1514281,
+    "worker": "12"
+  },
+  {
+    "id": "bd08439da170a94d",
+    "source_simfile": "No Role Modelz/No Role Modelz.sm",
+    "title": "Episode 18",
+    "simfile_sha256": "0d71a70a22be46c8d9b372058e91a6266e253620169b1bf72b198f47b275373e",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "No Role Modelz/No Role Modelz.sm",
+      "previous_archive": "475a93191d05901677fac62ecb74ef9889d3dc0c082ced6cace989e2364a1b26.tar.zst",
+      "title": "Episode 18 No Role Modelz",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 357.6,
+    "song_folder_bytes": 10020080,
+    "worker": "15"
+  },
+  {
+    "id": "78f10d924a8b9bd9",
+    "source_simfile": "Number 9/1556 - Number 9.sm",
+    "title": "Number 9",
+    "simfile_sha256": "523384100adf1f5591ce4dace7537e26b91377e645699270a26dc04d09f0795d",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Number 9/1556 - Number 9.sm",
+      "previous_archive": "b16bd29c6db728568d34679b0eeafc4048a5197a43af784f354d8c14bd73df72.tar.zst",
+      "title": "Number 9",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 129.3,
+    "song_folder_bytes": 2332924,
+    "worker": "15"
+  },
+  {
+    "id": "9bb480a1fda3b13d",
+    "source_simfile": "OK/OK.ssc",
+    "title": "OK",
+    "simfile_sha256": "41a0d3143166f88d9f01234b89f83499193659ecc18ef4a2d69ab4671dec78d3",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-double",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "OK/OK.ssc",
+      "previous_archive": "dd0c8291ee90c09c836a94202d3f7c00bda20e25fefa1fd5dea3233ed2e810cb.tar.zst",
+      "title": "OK",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 114.4,
+    "song_folder_bytes": 7715813,
+    "worker": "10"
+  },
+  {
+    "id": "9ceaae2441fe1203",
+    "source_simfile": "Oil Ocean Act 2/steps.sm",
+    "title": "Oil Ocean Zone Act 2",
+    "simfile_sha256": "73a35a516658cc511871ea4b2997fef3234eca60eb3e63a5c92a37bf8f5447b4",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Oil Ocean Act 2/steps.sm",
+      "previous_archive": "dbd4c1382a54e6ebe36d913d72d2c18f2509155f85fe51282dce773a02e2fc55.tar.zst",
+      "title": "Oil Ocean Zone Act 2",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 376.3,
+    "song_folder_bytes": 4223990,
+    "worker": "06"
+  },
+  {
+    "id": "f996111c68150ced",
+    "source_simfile": "Over the Top - [Zaia][FX]/Over the Top.sm",
+    "title": "Over the Top",
+    "simfile_sha256": "62736f5663b06fa48c39c43f9408c108a0e0ee366810f767326f0d94dc60b694",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Over the Top - [Zaia][FX]/Over the Top.sm",
+      "previous_archive": "a7c136848c444b147dc9fc984ea6c7db228b7dc6c74290ec6bb2f1acb1c12a56.tar.zst",
+      "title": "Over the Top [Visual FX]",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 261.4,
+    "song_folder_bytes": 8166458,
+    "worker": "02"
+  },
+  {
+    "id": "5996cb1bf517a580",
+    "source_simfile": "Potion [Flood_]/Shisui Michiru - Potion (Cut Ver).sm",
+    "title": "Potion",
+    "simfile_sha256": "b60d8f125c21bf91b6d7a4da43964427245a21d7b1f4786f401d12790bcb0c44",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Potion [Flood_]/Shisui Michiru - Potion (Cut Ver).sm",
+      "previous_archive": "c5696d5e4c207ba22e6ac4adf5ac0d27f5b4c877ef9e49d8cd4d43fe8408d39f.tar.zst",
+      "title": "Potion",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 177.2,
+    "song_folder_bytes": 22268714,
+    "worker": "04"
+  },
+  {
+    "id": "5a998294ae8b6156",
+    "source_simfile": "Rayc Fire 2/Rayc Fire 2.sm",
+    "title": "Rayc Fire 2",
+    "simfile_sha256": "d90743d240bffd1d225185769c52a692c240531382e1cc617890e278e3d5b331",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Rayc Fire 2/Rayc Fire 2.sm",
+      "previous_archive": "058f87cfad4c18d83e64383e4a607d60d994b63ac49a4f1cc368b6016be0b216.tar.zst",
+      "title": "Rayc Fire 2",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 172.2,
+    "song_folder_bytes": 2543905,
+    "worker": "10"
+  },
+  {
+    "id": "53da0d7a82127af7",
+    "source_simfile": "Rayc Fire 2/Rayc Fire 2.ssc",
+    "title": "Rayc Fire 2",
+    "simfile_sha256": "7163714252068f63b817c7eed2127d3d312941bed6f9969b6d317e6f998930e0",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Rayc Fire 2/Rayc Fire 2.ssc",
+      "previous_archive": "425142dcee67508e15a0544eb930951f1f42c8957c6b46a81be64952f72fa508.tar.zst",
+      "title": "Rayc Fire 2",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 142.6,
+    "song_folder_bytes": 2543905,
+    "worker": "15"
+  },
+  {
+    "id": "c893672a26e2b70c",
+    "source_simfile": "Sequential Dreambox - [Zaia]/Sequential Dreambox.ssc",
+    "title": "Sequential Dreambox",
+    "simfile_sha256": "698cb06f326aa77f4e016a462c3eb368b22365d1e28f8d44f870ec933e8813dc",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-double",
+        "Easy"
+      ],
+      [
+        "dance-double",
+        "Medium"
+      ],
+      [
+        "dance-double",
+        "Hard"
+      ],
+      [
+        "dance-double",
+        "Challenge"
+      ],
+      [
+        "pump-single",
+        "Easy"
+      ],
+      [
+        "pump-single",
+        "Medium"
+      ],
+      [
+        "pump-single",
+        "Hard"
+      ],
+      [
+        "pump-single",
+        "Challenge"
+      ],
+      [
+        "pump-double",
+        "Easy"
+      ],
+      [
+        "pump-double",
+        "Medium"
+      ],
+      [
+        "pump-double",
+        "Hard"
+      ],
+      [
+        "pump-double",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Sequential Dreambox - [Zaia]/Sequential Dreambox.ssc",
+      "previous_archive": "5077e6aea0055072fbe8769109d4e9ff540f404f1db36d0f14c40d65518d380d.tar.zst",
+      "title": "Sequential Dreambox",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 331.8,
+    "song_folder_bytes": 33566222,
+    "worker": "06"
+  },
+  {
+    "id": "ce08596ced8c1a82",
+    "source_simfile": "Vanishing Point - [Zaia][FX]/Vanishing Point.sm",
+    "title": "Vanishing Point",
+    "simfile_sha256": "f7ac16da8d8c62411ac7632013d534ed3601e0a122d7634a18f625933e9a7246",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Vanishing Point - [Zaia][FX]/Vanishing Point.sm",
+      "previous_archive": "4dc18d2326d744aa95067d8905edf5d930b5ba9f6cc1d445cddfeb4033fa892a.tar.zst",
+      "title": "Vanishing Point [Visual FX]",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 297.9,
+    "song_folder_bytes": 6171923,
+    "worker": "04"
+  },
+  {
+    "id": "f491b527eed47496",
+    "source_simfile": "Vector Field/Vector Field.ssc",
+    "title": "Vector Field",
+    "simfile_sha256": "940c17077877f0de5b20f0976892b372b1a95313ad772062d3d2607a8fcc0537",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Vector Field/Vector Field.ssc",
+      "previous_archive": "8b5db7036e4976eb7312a99547ceb0df494a3cf5416da3540332c38837a3e6ab.tar.zst",
+      "title": "Vector Field But Nothing Just Vector Field",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 122.5,
+    "song_folder_bytes": 7307047,
+    "worker": "14"
+  },
+  {
+    "id": "07ac78a6da76a5b5",
+    "source_simfile": "Waiting/Waiting.ssc",
+    "title": "Waiting",
+    "simfile_sha256": "41b880df985e8c91a2092c266e1f439e735d9dd82b600b4993cadb7b4a3fea4e",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Beginner"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Waiting/Waiting.ssc",
+      "previous_archive": "beae401af8ed20756a416d9ccf4c12939aecfb38e97b0f42f5aa6b9f488510a3.tar.zst",
+      "title": "Waiting -Stepchart of the Year 2022 2nd Place-",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 233.6,
+    "song_folder_bytes": 3743812,
+    "worker": "05"
+  },
+  {
+    "id": "060dd2e43146562d",
+    "source_simfile": "Wobbpotato [Blue Shift Phase 1]/wobbpotato.ssc",
+    "title": "[10] Wobbpotato",
+    "simfile_sha256": "85652fc5fe5dbdfd1bf7fba6a8e531504013a373d1835b568abd297270489888",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Wobbpotato [Blue Shift Phase 1]/wobbpotato.ssc",
+      "previous_archive": "55cf71fcd51c4548413dd8cbe9f62d47be38b8c6d85d691d45f6191b4732fbe2.tar.zst",
+      "title": "[10] Wobbpotato",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 102.9,
+    "song_folder_bytes": 3787193,
+    "worker": "06"
+  },
+  {
+    "id": "f7a2bad131d8842f",
+    "source_simfile": "Wobbpotato [Egg Carton 3]/wobbpotato.ssc",
+    "title": "Wobbpotato",
+    "simfile_sha256": "b401ffe8880d652b2da8c5347cbf8db01be52038899e6c19b80ab748e93ae5aa",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Wobbpotato [Egg Carton 3]/wobbpotato.ssc",
+      "previous_archive": "07341d3d29285f3066284d00fcf4956eec0ae486ab01bf0b317be91edbda7c1b.tar.zst",
+      "title": "Wobbpotato",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 102.9,
+    "song_folder_bytes": 3793944,
+    "worker": "05"
+  },
+  {
+    "id": "5be5d671acef02e8",
+    "source_simfile": "Ztar Trek/steps.sm",
+    "title": "Ztar Trek",
+    "simfile_sha256": "ee49242dc6636c34dcc44b25b05c4b3ab71ee90bb7416ef1f9d219280fffba6c",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Ztar Trek/steps.sm",
+      "previous_archive": "54e314619e1ca14d0d32f4acd2b6670d5029aa6958093a98e686b8989bfd1405.tar.zst",
+      "title": "Ztar Trek",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 105.3,
+    "song_folder_bytes": 3264240,
+    "worker": "05"
+  },
+  {
+    "id": "9e5cb2c801c247a3",
+    "source_simfile": "[12] Ascendanz/Ascendanz.ssc",
+    "title": "[12] Ascendanz",
+    "simfile_sha256": "cddb4aa7377dd0f3f0ce3d45ec5806bc8879cc2159c4bf643bf89b9c72b0bcd0",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "[12] Ascendanz/Ascendanz.ssc",
+      "previous_archive": "c63d1523ae6a67d6c16795d2546d7448d7321ebdf913ae07eca8894b76d5e1e2.tar.zst",
+      "title": "[12] Ascendanz",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 120.0,
+    "song_folder_bytes": 8105423,
+    "worker": "12"
+  },
+  {
+    "id": "9a17ba96ce6150bd",
+    "source_simfile": "assgore/goatdad.sm",
+    "title": "ASGORE",
+    "simfile_sha256": "c3b2017ebded6fe2c80251abb879575849bef56fa4f5244cca3345f00f161ccd",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "assgore/goatdad.sm",
+      "previous_archive": "89fcdb0694fea759e6eafe141f9f5dce2306a600268b284a2b294967c6d8ae86.tar.zst",
+      "title": "ASGORE",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 216.1,
+    "song_folder_bytes": 3711924,
+    "worker": "07"
+  },
+  {
+    "id": "5e06cad06be50156",
+    "source_simfile": "cards/sm.sm",
+    "title": "Cardstone",
+    "simfile_sha256": "93e30a19f7dddf50af257f3398fd7211895ec94d8bdb050a822c9c7afa686a6a",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "cards/sm.sm",
+      "previous_archive": "bc49b78df2ac37878f512689bc65ede287386ae29d08313dd1e4e6396b2b1f80.tar.zst",
+      "title": "Cardstone",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 247.3,
+    "song_folder_bytes": 4694078,
+    "worker": "04"
+  },
+  {
+    "id": "05f550917c3e16a7",
+    "source_simfile": "cards/sm.ssc",
+    "title": "Cardstone",
+    "simfile_sha256": "a83968520d8552264575bb991ef6b14d0eb6ee5dc11e0743b8eae521ab23fd8b",
+    "style": "single",
+    "difficulty": "Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "source chart discovery",
+    "available_charts": [
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "cards/sm.ssc",
+      "previous_archive": "1bbb22ea2eada323cc7a3814b60adcedaad2474e0a7e73c9942e64467abcfd83.tar.zst",
+      "title": "Cardstone",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 209.1,
+    "song_folder_bytes": 4694078,
+    "worker": "03"
+  },
+  {
+    "id": "206471d331202435",
+    "source_simfile": "mawaru1/mawaru.sm",
+    "title": "MAWARU",
+    "simfile_sha256": "cb10489b3cf018ea822152693fe3d682db32e0319d1169cc826e6ae110c9ae5d",
+    "style": "single",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "mawaru1/mawaru.sm",
+      "previous_archive": "c2fd5de1c8453089dd5a5fa6066a2d6e315f540624b1b569ec70cbba483219c9.tar.zst",
+      "title": "MAWARU Made in StepMania",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG",
+      "previous_gc_mode": "automatic"
+    },
+    "estimated_song_seconds": 293.3,
+    "song_folder_bytes": 5639668,
+    "worker": "03"
+  },
+  {
+    "id": "38602f3b4c159b26",
+    "source_simfile": "the fresh prince of bel air (razihel remix)/steps.sm",
+    "title": "The Fresh Prince Of Bel Air",
+    "simfile_sha256": "7fd67a74fb5e8acf49f0cc1b26ad698992eb230dc7c06f2f293acb34d3d71bdc",
+    "style": "double",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 2000000,
+    "capture_timeout": 900,
+    "replay_timeout": 1200,
+    "selection_basis": "previous indexed native context",
+    "available_charts": [
+      [
+        "dance-double",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "the fresh prince of bel air (razihel remix)/steps.sm",
+      "previous_archive": "f793f42cdfd07d08d27c1bb9298f1f573aa9ab63283ff1a288307c9e8ae20f51.tar.zst",
+      "title": "The Fresh Prince Of Bel Air (Razihel Remix)",
+      "previous_execution": "native_gameplay",
+      "style": "double",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Double",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 141.8,
+    "song_folder_bytes": 6990645,
+    "worker": "07"
+  }
+]

@@ -1,0 +1,220 @@
+{
+  "movies": [
+    {
+      "file": "Metronogik/bn-4x.mp4",
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1672,
+            "height": 656,
+            "sample_aspect_ratio": "1:1",
+            "pix_fmt": "yuv420p"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Happy Now/Darkness1.mp4",
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 408,
+            "height": 306,
+            "sample_aspect_ratio": "1:1",
+            "pix_fmt": "yuv420p"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Happy Now/sFog.mp4",
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 720,
+            "height": 406,
+            "sample_aspect_ratio": "1:1",
+            "pix_fmt": "yuv420p"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Happy Now/lua/blossoms3.avi",
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 544,
+            "height": 362,
+            "sample_aspect_ratio": "545:544",
+            "pix_fmt": "yuv420p"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Happy Now/lua/Fog.mp4",
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "sample_aspect_ratio": "1:1",
+            "pix_fmt": "yuv420p"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Happy Now Remastered/Darkness1.mp4",
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 408,
+            "height": 306,
+            "sample_aspect_ratio": "1:1",
+            "pix_fmt": "yuv420p"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Happy Now Remastered/sFog.mp4",
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 720,
+            "height": 406,
+            "sample_aspect_ratio": "1:1",
+            "pix_fmt": "yuv420p"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Happy Now Remastered/lua/blossoms3.avi",
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 544,
+            "height": 362,
+            "sample_aspect_ratio": "545:544",
+            "pix_fmt": "yuv420p"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Happy Now Remastered/lua/Fog.mp4",
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "sample_aspect_ratio": "1:1",
+            "pix_fmt": "yuv420p"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Young Dumb And Broke/lua/VHS.mp4",
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 984,
+            "height": 720,
+            "sample_aspect_ratio": "1:1",
+            "pix_fmt": "yuv420p"
+          }
+        ]
+      }
+    },
+    {
+      "file": "Young Dumb And Broke/lua/Static.mp4",
+      "metadata": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "sample_aspect_ratio": "1:1",
+            "pix_fmt": "yuv420p"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "extern/ffmpeg/libswscale/x86/yuv2rgb_template.c",
+      "sha256": "2d8f971285b94269bfe7140148078f6af3188badbb7d171f384d19f4941e99dd"
+    },
+    {
+      "file": "extern/ffmpeg/libswscale/x86/yuv_2_rgb.asm",
+      "sha256": "25f6c1fcc953d7ea71731986194d1254c5e304fd58fc8b8faf41a1188013db52"
+    },
+    {
+      "file": "src/RageSurface.cpp",
+      "sha256": "78d21f407fac9ef39cf4ca9d3ec9a99f569a577768f03ace4ce86f756b2881b0"
+    },
+    {
+      "file": "src/arch/MovieTexture/MovieTexture_FFMpeg.cpp",
+      "sha256": "f64f837964bae4b1e9b4ac7aa3542f95a9ea2b5c2855c1118d46caf377058c4d"
+    }
+  ],
+  "ffmpeg_version": [
+    {
+      "file": "extern/ffmpeg/RELEASE",
+      "value": "5.1.8"
+    }
+  ],
+  "address_resolution": {
+    "valgrind_address": "0x18557f6",
+    "pie_bias": "0x108000",
+    "link_address": "0x174d7f6",
+    "function": "ff_yuv_420_rgb24_ssse3",
+    "instruction": "movdqu %xmm1,0x10(%rsi)"
+  },
+  "allocation": {
+    "bytes": 3290496,
+    "source": "CreateSurface -> AVCodecCreateCompatibleSurface -> MovieTexture_Generic",
+    "width": 1672,
+    "height": 656,
+    "rgb24_pitch": 5016
+  },
+  "first_error": "Invalid write of size 8 at 0 bytes after the movie surface allocation.",
+  "cyberpunk_control": {
+    "movie": "Cyberpunk 2077/banner.mp4",
+    "width": 1116,
+    "height": 416,
+    "pix_fmt": "yuv420p",
+    "rgb24_pitch": 3348,
+    "allocation_bytes": 1392768,
+    "first_invalid_write": "8-byte write starting 4 bytes before the end of the allocation",
+    "valgrind_address": "0x18557fb",
+    "link_address": "0x174d7fb",
+    "log": "rgb24-cyberpunk-memcheck-valgrind.log"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "sampled_at": "2026-11-15T18:37:06.172478+00:00",
+  "case_id": "82dbf1390bb50291-large",
+  "method": "Bounded 16 MiB tail sample of the live native event stream; not an all-events histogram",
+  "stream_bytes": 3744214825,
+  "start_byte": 3727437609,
+  "sample_sha256": "e27053eed95ffdfe575966db36dce11b4eca4ee770aab85531bfe1cd6884d69c",
+  "complete_events": 44370,
+  "first": {
+    "args": [],
+    "beat": 48.916847229003906,
+    "caller": {
+      "line": 20,
+      "source": "song:/lua/rose.lua",
+      "tail_call": false
+    },
+    "command": "moveCommand",
+    "definition_id": "def-0094",
+    "detail": {
+      "results": [
+        48.916847229003906
+      ]
+    },
+    "kind": "query",
+    "line": 20,
+    "operation": "GameState.GetSongBeat",
+    "phase": "callback",
+    "scene": 1,
+    "seconds": 18.154943466186523,
+    "seq": 9864807,
+    "source": "song:/lua/rose.lua"
+  },
+  "last": {
+    "args": [],
+    "beat": 48.916847229003906,
+    "caller": {
+      "line": 101,
+      "source": "@/Themes/_fallback/Scripts/01 alias.lua",
+      "tail_call": false
+    },
+    "command": "moveCommand",
+    "definition_id": "def-0095",
+    "detail": {
+      "results": [
+        {
+          "type": "SongPosition"
+        }
+      ]
+    },
+    "kind": "query",
+    "line": 20,
+    "operation": "GameState.GetSongPosition",
+    "phase": "callback",
+    "scene": 1,
+    "seconds": 18.154943466186523,
+    "seq": 9909176,
+    "source": "song:/lua/rose.lua"
+  },
+  "operations": {
+    "GameState.GetSongBeat": 14790,
+    "GameState.GetSongPosition": 14790,
+    "Actor.GetY": 3169,
+    "Actor.GetX": 2108,
+    "Actor.sleep": 1057,
+    "Actor.queuecommand": 1057,
+    "command.end": 1057,
+    "command.begin": 1057,
+    "Actor.y": 1057,
+    "Actor.addrotationz": 1057,
+    "Actor.addrotationx": 1057,
+    "Actor.GetRotationX": 1057,
+    "Actor.x": 1057
+  },
+  "contexts": [
+    {
+      "source": "song:/lua/rose.lua",
+      "command": "moveCommand",
+      "count": 44370
+    }
+  ]
+}

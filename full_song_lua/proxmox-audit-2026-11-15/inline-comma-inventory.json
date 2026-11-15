@@ -1,0 +1,15 @@
+[
+  {
+    "id": "3f7a546d6574982b",
+    "source_simfile": "DS ULTIMATE LUA TEST/DS ULTIMATE LUA TEST.sm",
+    "inline_comma_lines": 109,
+    "first_lines": [
+      74,
+      138,
+      234,
+      426,
+      490
+    ],
+    "interpretation": "Syntax inventory only; this does not independently diagnose selected-chart parity."
+  }
+]

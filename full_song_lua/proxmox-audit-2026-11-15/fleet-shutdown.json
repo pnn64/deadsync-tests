@@ -1,0 +1,150 @@
+{
+  "checked_at": "2026-11-15T19:03:22.913764+00:00",
+  "complete": true,
+  "vms": [
+    {
+      "vmid": 1201,
+      "name": "deadsync-lua-01",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "trying to acquire lock...\n OK\n",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1202,
+      "name": "deadsync-lua-02",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "trying to acquire lock...\n OK\n",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1203,
+      "name": "deadsync-lua-03",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1204,
+      "name": "deadsync-lua-04",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "trying to acquire lock...\n OK\n",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1205,
+      "name": "deadsync-lua-05",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "trying to acquire lock...\n OK\n",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1206,
+      "name": "deadsync-lua-06",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1207,
+      "name": "deadsync-lua-07",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1208,
+      "name": "deadsync-lua-08",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1209,
+      "name": "deadsync-lua-09",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1210,
+      "name": "deadsync-lua-10",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1211,
+      "name": "deadsync-lua-11",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1212,
+      "name": "deadsync-lua-12",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1213,
+      "name": "deadsync-lua-13",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1214,
+      "name": "deadsync-lua-14",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1215,
+      "name": "deadsync-lua-15",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "",
+      "disks_preserved": true
+    },
+    {
+      "vmid": 1216,
+      "name": "deadsync-lua-large-retry",
+      "before": "status: running",
+      "after": "status: stopped",
+      "exit": 0,
+      "stderr": "",
+      "disks_preserved": true
+    }
+  ]
+}

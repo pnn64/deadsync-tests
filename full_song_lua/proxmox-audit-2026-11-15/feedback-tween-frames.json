@@ -1,0 +1,5194 @@
+[
+  {
+    "id": "898f3b171ed333ed-large",
+    "source_simfile": "Quarantine/Quarantine.sm",
+    "frame_count": 23,
+    "frames": [
+      {
+        "seconds": 172.92041015625,
+        "beat": 483.1405029296875,
+        "native": 0.7726730108261108,
+        "deadsync": 0.800000011920929,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 172.9372100830078,
+        "beat": 483.1894836425781,
+        "native": 0.7565339803695679,
+        "deadsync": 0.7838610410690308,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 172.95396423339844,
+        "beat": 483.23834228515625,
+        "native": 0.7397509813308716,
+        "deadsync": 0.7670780420303345,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 172.970703125,
+        "beat": 483.28717041015625,
+        "native": 0.7202039957046509,
+        "deadsync": 0.747530996799469,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 172.9065704345703,
+        "beat": 483.1001281738281,
+        "native": 0.6841760277748108,
+        "deadsync": 0.7115030288696289,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 172.92648315429688,
+        "beat": 483.158203125,
+        "native": 0.6626909971237183,
+        "deadsync": 0.6900179982185364,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 172.94326782226562,
+        "beat": 483.2071533203125,
+        "native": 0.6486160159111023,
+        "deadsync": 0.6759430170059204,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 172.9600067138672,
+        "beat": 483.2559814453125,
+        "native": 0.6327950358390808,
+        "deadsync": 0.6601220369338989,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 172.97677612304688,
+        "beat": 483.30487060546875,
+        "native": 0.6171300411224365,
+        "deadsync": 0.6444570422172546,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 172.9935302734375,
+        "beat": 483.3537292480469,
+        "native": 0.5961840152740479,
+        "deadsync": 0.623511016368866,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.0102996826172,
+        "beat": 483.40264892578125,
+        "native": 0.5824100375175476,
+        "deadsync": 0.6097370386123657,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.02706909179688,
+        "beat": 483.4515380859375,
+        "native": 0.5683159828186035,
+        "deadsync": 0.5956430435180664,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.04380798339844,
+        "beat": 483.5003662109375,
+        "native": 0.5530000329017639,
+        "deadsync": 0.580327033996582,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.0605926513672,
+        "beat": 483.54931640625,
+        "native": 0.5365790128707886,
+        "deadsync": 0.5639060139656067,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.07733154296875,
+        "beat": 483.5981140136719,
+        "native": 0.518733024597168,
+        "deadsync": 0.5460600256919861,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.09408569335938,
+        "beat": 483.64697265625,
+        "native": 0.5012890100479126,
+        "deadsync": 0.5286160111427307,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.11083984375,
+        "beat": 483.69586181640625,
+        "native": 0.4848010241985321,
+        "deadsync": 0.5121280550956726,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.12757873535156,
+        "beat": 483.7446594238281,
+        "native": 0.4622940123081207,
+        "deadsync": 0.48962104320526123,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.1443328857422,
+        "beat": 483.79351806640625,
+        "native": 0.4500940144062042,
+        "deadsync": 0.4774210453033447,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.16107177734375,
+        "beat": 483.84234619140625,
+        "native": 0.43410900235176086,
+        "deadsync": 0.46143603324890137,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.1792449951172,
+        "beat": 483.89532470703125,
+        "native": 0.4099220037460327,
+        "deadsync": 0.4372490346431732,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.19598388671875,
+        "beat": 483.94415283203125,
+        "native": 0.399619996547699,
+        "deadsync": 0.4269470274448395,
+        "operations": [
+          "Actor.x"
+        ]
+      },
+      {
+        "seconds": 173.2127227783203,
+        "beat": 483.99298095703125,
+        "native": 0.3776859939098358,
+        "deadsync": 0.4050130248069763,
+        "operations": [
+          "Actor.x"
+        ]
+      }
+    ],
+    "value_pair_count": 23
+  },
+  {
+    "id": "ba1dd6297cd6aae0",
+    "source_simfile": "Apollo/Apollo.sm",
+    "frame_count": 22,
+    "frames": [
+      {
+        "seconds": 76.48346710205078,
+        "beat": 208.79624938964844,
+        "native": 0.800000011920929,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.50025177001953,
+        "beat": 208.86618041992188,
+        "native": 0.7851890325546265,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.51702880859375,
+        "beat": 208.9360809326172,
+        "native": 0.7783200144767761,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.53387451171875,
+        "beat": 209.0062713623047,
+        "native": 0.7607409954071045,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.5506362915039,
+        "beat": 209.07611083984375,
+        "native": 0.7442450523376465,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.5674057006836,
+        "beat": 209.14598083496094,
+        "native": 0.7273640036582947,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.50462341308594,
+        "beat": 208.8843994140625,
+        "native": 0.6949970126152039,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.52140808105469,
+        "beat": 208.95433044433594,
+        "native": 0.676826000213623,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.5382080078125,
+        "beat": 209.02432250976562,
+        "native": 0.6602160334587097,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.55500793457031,
+        "beat": 209.09432983398438,
+        "native": 0.6435999870300293,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.57176971435547,
+        "beat": 209.16416931152344,
+        "native": 0.6266140341758728,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.58859252929688,
+        "beat": 209.23426818847656,
+        "native": 0.6102760434150696,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.60533142089844,
+        "beat": 209.30401611328125,
+        "native": 0.5914310216903687,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.62210845947266,
+        "beat": 209.37391662597656,
+        "native": 0.5764620304107666,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.63890838623047,
+        "beat": 209.44390869140625,
+        "native": 0.559777021408081,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.65571594238281,
+        "beat": 209.51394653320312,
+        "native": 0.5428299903869629,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.67247009277344,
+        "beat": 209.58375549316406,
+        "native": 0.526032030582428,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.6892318725586,
+        "beat": 209.65359497070312,
+        "native": 0.5093520283699036,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.70600891113281,
+        "beat": 209.72349548339844,
+        "native": 0.49232903122901917,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.72278594970703,
+        "beat": 209.7934112548828,
+        "native": 0.47582802176475525,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.73957061767578,
+        "beat": 209.86334228515625,
+        "native": 0.4581350088119507,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 76.75643920898438,
+        "beat": 209.93362426757812,
+        "native": 0.44210100173950195,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      }
+    ],
+    "value_pair_count": 22
+  },
+  {
+    "id": "c3e0c410f04c30dd",
+    "source_simfile": "Megalovania SM5 - [TaroNuke]/megalovania.sm",
+    "frame_count": 1,
+    "frames": [
+      {
+        "seconds": 124.27906799316406,
+        "beat": 465.0482482910156,
+        "native": 0.6483519673347473,
+        "deadsync": 0.9000000357627869,
+        "operations": [
+          "Actor.x",
+          "Actor.y",
+          "Actor.rotationz",
+          "Actor.effectperiod",
+          "Actor.effectmagnitude",
+          "Actor.sleep"
+        ]
+      }
+    ],
+    "value_pair_count": 1
+  },
+  {
+    "id": "ccab525f9b554b84",
+    "source_simfile": "Apollo/Apollo.ssc",
+    "frame_count": 47,
+    "frames": [
+      {
+        "seconds": 73.91766357421875,
+        "beat": 198.1053924560547,
+        "native": 0.800000011920929,
+        "deadsync": 0.3169090747833252,
+        "operations": [
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 73.93790435791016,
+        "beat": 198.18972778320312,
+        "native": 0.7796100378036499,
+        "deadsync": 0.29651910066604614,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 73.95470428466797,
+        "beat": 198.25973510742188,
+        "native": 0.7749689817428589,
+        "deadsync": 0.2918781042098999,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 73.9715347290039,
+        "beat": 198.32986450195312,
+        "native": 0.7571470141410828,
+        "deadsync": 0.274056077003479,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 73.98831939697266,
+        "beat": 198.39979553222656,
+        "native": 0.7402949929237366,
+        "deadsync": 0.2572040855884552,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.0051498413086,
+        "beat": 198.4699249267578,
+        "native": 0.723887026309967,
+        "deadsync": 0.24079608917236328,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 73.94324493408203,
+        "beat": 198.2119903564453,
+        "native": 0.691402018070221,
+        "deadsync": 0.20831109583377838,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 73.96009063720703,
+        "beat": 198.2821807861328,
+        "native": 0.6736509799957275,
+        "deadsync": 0.19056008756160736,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 73.97684478759766,
+        "beat": 198.35198974609375,
+        "native": 0.656699001789093,
+        "deadsync": 0.17360809445381165,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 73.9936294555664,
+        "beat": 198.4219207763672,
+        "native": 0.6397820115089417,
+        "deadsync": 0.15669108927249908,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.0104751586914,
+        "beat": 198.4921112060547,
+        "native": 0.6231729984283447,
+        "deadsync": 0.14008209109306335,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.02729797363281,
+        "beat": 198.5622100830078,
+        "native": 0.606024980545044,
+        "deadsync": 0.12293408811092377,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.04408264160156,
+        "beat": 198.63214111328125,
+        "native": 0.5897830128669739,
+        "deadsync": 0.10669209063053131,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.06085968017578,
+        "beat": 198.70204162597656,
+        "native": 0.5710079669952393,
+        "deadsync": 0.08791708946228027,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.07766723632812,
+        "beat": 198.77207946777344,
+        "native": 0.5501800179481506,
+        "deadsync": 0.06708908826112747,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.10310363769531,
+        "beat": 198.87806701660156,
+        "native": 0.5189070105552673,
+        "deadsync": 0.03581608831882477,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.12641906738281,
+        "beat": 198.97520446777344,
+        "native": 0.49560898542404175,
+        "deadsync": 0.012518087401986122,
+        "operations": [
+          "Actor.effectmagnitude",
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.143310546875,
+        "beat": 199.04559326171875,
+        "native": 0.4786969721317291,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.16022491455078,
+        "beat": 199.11607360839844,
+        "native": 0.47253698110580444,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.17698669433594,
+        "beat": 199.1859130859375,
+        "native": 0.4571619927883148,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.19376373291016,
+        "beat": 199.2558135986328,
+        "native": 0.44020000100135803,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.21060943603516,
+        "beat": 199.3260040283203,
+        "native": 0.4236139953136444,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.22746276855469,
+        "beat": 199.39622497558594,
+        "native": 0.40670400857925415,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.2442398071289,
+        "beat": 199.46612548828125,
+        "native": 0.3900090157985687,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.26103973388672,
+        "beat": 199.5361328125,
+        "native": 0.3731420040130615,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.27791595458984,
+        "beat": 199.6064453125,
+        "native": 0.3537290096282959,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.29469299316406,
+        "beat": 199.6763458251953,
+        "native": 0.3359510004520416,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.31158447265625,
+        "beat": 199.74673461914062,
+        "native": 0.31926199793815613,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.32846069335938,
+        "beat": 199.81704711914062,
+        "native": 0.30254998803138733,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.3452377319336,
+        "beat": 199.88694763183594,
+        "native": 0.2862429916858673,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.36210632324219,
+        "beat": 199.95724487304688,
+        "native": 0.2689509987831116,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.37889099121094,
+        "beat": 200.0271759033203,
+        "native": 0.2522119879722595,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.39569091796875,
+        "beat": 200.09716796875,
+        "native": 0.23572099208831787,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.41242980957031,
+        "beat": 200.1669158935547,
+        "native": 0.2187429964542389,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.42927551269531,
+        "beat": 200.2371063232422,
+        "native": 0.20224300026893616,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.44605255126953,
+        "beat": 200.30702209472656,
+        "native": 0.18514500558376312,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.46286010742188,
+        "beat": 200.37704467773438,
+        "native": 0.16840501129627228,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.47970581054688,
+        "beat": 200.44723510742188,
+        "native": 0.15183201432228088,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.4964828491211,
+        "beat": 200.5171356201172,
+        "native": 0.13474801182746887,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.51335906982422,
+        "beat": 200.58746337890625,
+        "native": 0.11797501146793365,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.53018188476562,
+        "beat": 200.65756225585938,
+        "native": 0.10108901560306549,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.54693603515625,
+        "beat": 200.72735595703125,
+        "native": 0.08472501486539841,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.56378936767578,
+        "beat": 200.79759216308594,
+        "native": 0.06997301429510117,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.5805892944336,
+        "beat": 200.86758422851562,
+        "native": 0.05320701375603676,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.597412109375,
+        "beat": 200.93768310546875,
+        "native": 0.036283016204833984,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.61419677734375,
+        "beat": 201.0076141357422,
+        "native": 0.019354015588760376,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      },
+      {
+        "seconds": 74.63101959228516,
+        "beat": 201.0777130126953,
+        "native": 0.003034016117453575,
+        "deadsync": 0,
+        "operations": [
+          "Actor.effectmagnitude"
+        ]
+      }
+    ],
+    "value_pair_count": 47
+  },
+  {
+    "id": "fbe89f6bae9565a6",
+    "source_simfile": "After Dark/After Dark.ssc",
+    "frame_count": 330,
+    "frames": [
+      {
+        "seconds": 24.19793701171875,
+        "beat": 57.249515533447266,
+        "native": 0.800000011920929,
+        "deadsync": 0.3158079981803894,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.214702606201172,
+        "beat": 57.2891960144043,
+        "native": 0.7906559705734253,
+        "deadsync": 0.3064640164375305,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.243131637573242,
+        "beat": 57.356475830078125,
+        "native": 0.7546529769897461,
+        "deadsync": 0.27046099305152893,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.259946823120117,
+        "beat": 57.39627456665039,
+        "native": 0.7522760033607483,
+        "deadsync": 0.26808398962020874,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.276721954345703,
+        "beat": 57.43597412109375,
+        "native": 0.7352440357208252,
+        "deadsync": 0.25105199217796326,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.293521881103516,
+        "beat": 57.47573471069336,
+        "native": 0.7182769775390625,
+        "deadsync": 0.23408499360084534,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.297800064086914,
+        "beat": 57.48585891723633,
+        "native": 0.6178500056266785,
+        "deadsync": 0.13365799188613892,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.3145809173584,
+        "beat": 57.52557373046875,
+        "native": 0.6004140377044678,
+        "deadsync": 0.11622199416160583,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.331382751464844,
+        "beat": 57.565338134765625,
+        "native": 0.5836510062217712,
+        "deadsync": 0.09945899248123169,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.348186492919922,
+        "beat": 57.605106353759766,
+        "native": 0.5669419765472412,
+        "deadsync": 0.08274999260902405,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.36494255065918,
+        "beat": 57.6447639465332,
+        "native": 0.5501779913902283,
+        "deadsync": 0.06598599255084991,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.38176918029785,
+        "beat": 57.68458557128906,
+        "native": 0.5335659980773926,
+        "deadsync": 0.049373991787433624,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.398571014404297,
+        "beat": 57.72434997558594,
+        "native": 0.5162929892539978,
+        "deadsync": 0.032100990414619446,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.415328979492188,
+        "beat": 57.76401138305664,
+        "native": 0.49960601329803467,
+        "deadsync": 0.015413990244269371,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.432086944580078,
+        "beat": 57.803672790527344,
+        "native": 0.4829390048980713,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.44886589050293,
+        "beat": 57.843379974365234,
+        "native": 0.46599599719047546,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.465669631958008,
+        "beat": 57.88315200805664,
+        "native": 0.4491350054740906,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.482425689697266,
+        "beat": 57.92280578613281,
+        "native": 0.43237900733947754,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.499229431152344,
+        "beat": 57.96257400512695,
+        "native": 0.41407302021980286,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.51596450805664,
+        "beat": 58.00218200683594,
+        "native": 0.39719101786613464,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.532743453979492,
+        "beat": 58.041893005371094,
+        "native": 0.38075700402259827,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.549591064453125,
+        "beat": 58.081764221191406,
+        "native": 0.365231990814209,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.56637191772461,
+        "beat": 58.12147903442383,
+        "native": 0.34867697954177856,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.583152770996094,
+        "beat": 58.16119384765625,
+        "native": 0.33198097348213196,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.59995460510254,
+        "beat": 58.200958251953125,
+        "native": 0.31510597467422485,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.616735458374023,
+        "beat": 58.24067306518555,
+        "native": 0.2983129620552063,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.633560180664062,
+        "beat": 58.28049087524414,
+        "native": 0.2815759778022766,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.6503849029541,
+        "beat": 58.320308685302734,
+        "native": 0.264756977558136,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.667142868041992,
+        "beat": 58.35997009277344,
+        "native": 0.24773697555065155,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.683944702148438,
+        "beat": 58.39973449707031,
+        "native": 0.23118197917938232,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.700748443603516,
+        "beat": 58.43950271606445,
+        "native": 0.21434298157691956,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.71755027770996,
+        "beat": 58.47926712036133,
+        "native": 0.19749997556209564,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.734376907348633,
+        "beat": 58.51908874511719,
+        "native": 0.18062497675418854,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.751224517822266,
+        "beat": 58.558963775634766,
+        "native": 0.162587970495224,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.76802635192871,
+        "beat": 58.59872817993164,
+        "native": 0.14596997201442719,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.784942626953125,
+        "beat": 58.638763427734375,
+        "native": 0.12858296930789948,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.801677703857422,
+        "beat": 58.678367614746094,
+        "native": 0.11164197325706482,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.8184814453125,
+        "beat": 58.7181396484375,
+        "native": 0.0952109694480896,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.83526039123535,
+        "beat": 58.75784683227539,
+        "native": 0.07877197116613388,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.852130889892578,
+        "beat": 58.79777526855469,
+        "native": 0.06161697208881378,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.868980407714844,
+        "beat": 58.83765411376953,
+        "native": 0.04465397447347641,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.885805130004883,
+        "beat": 58.877471923828125,
+        "native": 0.027680974453687668,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 24.902652740478516,
+        "beat": 58.91734313964844,
+        "native": 0.010958975180983543,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 25.356801986694336,
+        "beat": 59.992164611816406,
+        "native": 0,
+        "deadsync": 0.800000011920929,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.23866271972656,
+        "beat": 92.84590148925781,
+        "native": 0.800000011920929,
+        "deadsync": 0.6317460536956787,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.25575256347656,
+        "beat": 92.88634490966797,
+        "native": 0.7873640060424805,
+        "deadsync": 0.6191100478172302,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.305442810058594,
+        "beat": 93.00394439697266,
+        "native": 0.7330490350723267,
+        "deadsync": 0.5647950172424316,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.322261810302734,
+        "beat": 93.04374694824219,
+        "native": 0.7297160029411316,
+        "deadsync": 0.5614620447158813,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.328548431396484,
+        "beat": 93.05863189697266,
+        "native": 0.6297450065612793,
+        "deadsync": 0.46149104833602905,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.34539794921875,
+        "beat": 93.09850311279297,
+        "native": 0.6119769811630249,
+        "deadsync": 0.44372302293777466,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.36215591430664,
+        "beat": 93.13816833496094,
+        "native": 0.5950919985771179,
+        "deadsync": 0.4268380403518677,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.37895584106445,
+        "beat": 93.17792510986328,
+        "native": 0.5784479975700378,
+        "deadsync": 0.4101940393447876,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.39575958251953,
+        "beat": 93.21769714355469,
+        "native": 0.5612599849700928,
+        "deadsync": 0.39300602674484253,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.4125862121582,
+        "beat": 93.25751495361328,
+        "native": 0.5449219942092896,
+        "deadsync": 0.3766680359840393,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.429386138916016,
+        "beat": 93.29727935791016,
+        "native": 0.5262570381164551,
+        "deadsync": 0.35800302028656006,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.446144104003906,
+        "beat": 93.3369369506836,
+        "native": 0.5105510354042053,
+        "deadsync": 0.3422970175743103,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.46299362182617,
+        "beat": 93.37681579589844,
+        "native": 0.49451401829719543,
+        "deadsync": 0.3262600302696228,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.47975158691406,
+        "beat": 93.41647338867188,
+        "native": 0.47769400477409363,
+        "deadsync": 0.309440016746521,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.49657440185547,
+        "beat": 93.45629119873047,
+        "native": 0.4609510004520416,
+        "deadsync": 0.292697012424469,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.513423919677734,
+        "beat": 93.49617004394531,
+        "native": 0.44412100315093994,
+        "deadsync": 0.2758670449256897,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.53020477294922,
+        "beat": 93.53588104248047,
+        "native": 0.42712801694869995,
+        "deadsync": 0.2588740289211273,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.54705047607422,
+        "beat": 93.57575225830078,
+        "native": 0.41037100553512573,
+        "deadsync": 0.2421170324087143,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.56380844116211,
+        "beat": 93.61540985107422,
+        "native": 0.39134299755096436,
+        "deadsync": 0.22308902442455292,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.58063507080078,
+        "beat": 93.65523529052734,
+        "native": 0.3748129904270172,
+        "deadsync": 0.20655903220176697,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.597415924072266,
+        "beat": 93.6949462890625,
+        "native": 0.35801398754119873,
+        "deadsync": 0.1897600293159485,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.61423873901367,
+        "beat": 93.7347640991211,
+        "native": 0.34136199951171875,
+        "deadsync": 0.1731080263853073,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.63104248046875,
+        "beat": 93.77452850341797,
+        "native": 0.32428398728370667,
+        "deadsync": 0.15603002905845642,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.64780044555664,
+        "beat": 93.81419372558594,
+        "native": 0.3075829744338989,
+        "deadsync": 0.13932903110980988,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.664695739746094,
+        "beat": 93.85417938232422,
+        "native": 0.2902499735355377,
+        "deadsync": 0.12199603021144867,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.68147277832031,
+        "beat": 93.89388275146484,
+        "native": 0.2740269601345062,
+        "deadsync": 0.10577303171157837,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.69827651977539,
+        "beat": 93.93365478515625,
+        "native": 0.2573789656162262,
+        "deadsync": 0.08912502974271774,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.71514892578125,
+        "beat": 93.97357940673828,
+        "native": 0.2406669706106186,
+        "deadsync": 0.07241302728652954,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.73192596435547,
+        "beat": 94.01329040527344,
+        "native": 0.2236979752779007,
+        "deadsync": 0.05544402450323105,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.74870681762695,
+        "beat": 94.0530014038086,
+        "native": 0.20639397203922272,
+        "deadsync": 0.03814002498984337,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.765464782714844,
+        "beat": 94.09266662597656,
+        "native": 0.19003497064113617,
+        "deadsync": 0.02178102545440197,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.78231430053711,
+        "beat": 94.13253784179688,
+        "native": 0.17365896701812744,
+        "deadsync": 0.00540502555668354,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.799068450927734,
+        "beat": 94.17219543457031,
+        "native": 0.1568719744682312,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.81587219238281,
+        "beat": 94.21195983886719,
+        "native": 0.14047197997570038,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.8326530456543,
+        "beat": 94.25167846679688,
+        "native": 0.12369497865438461,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.84943389892578,
+        "beat": 94.29138946533203,
+        "native": 0.10676297545433044,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.866302490234375,
+        "beat": 94.33131408691406,
+        "native": 0.0894489735364914,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.88308334350586,
+        "beat": 94.37102508544922,
+        "native": 0.07444997131824493,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.89990997314453,
+        "beat": 94.41085052490234,
+        "native": 0.05761697143316269,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.91675567626953,
+        "beat": 94.45072174072266,
+        "native": 0.04084797203540802,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.933536529541016,
+        "beat": 94.49043273925781,
+        "native": 0.02375997230410576,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 39.950340270996094,
+        "beat": 94.53020477294922,
+        "native": 0.0057779718190431595,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.57199478149414,
+        "beat": 96.00144958496094,
+        "native": 0.6992670297622681,
+        "deadsync": 0.800000011920929,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.588775634765625,
+        "beat": 96.04116821289062,
+        "native": 0.6820980310440063,
+        "deadsync": 0.7828310132026672,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.60555648803711,
+        "beat": 96.08087921142578,
+        "native": 0.6653209924697876,
+        "deadsync": 0.7660540342330933,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.62235641479492,
+        "beat": 96.12064361572266,
+        "native": 0.6489650011062622,
+        "deadsync": 0.7496979832649231,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.63911437988281,
+        "beat": 96.1603012084961,
+        "native": 0.6312880516052246,
+        "deadsync": 0.7320209741592407,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.65591812133789,
+        "beat": 96.2000732421875,
+        "native": 0.6151390075683594,
+        "deadsync": 0.7158719897270203,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.67274475097656,
+        "beat": 96.2398910522461,
+        "native": 0.5982590317726135,
+        "deadsync": 0.6989920139312744,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.68952560424805,
+        "beat": 96.27960968017578,
+        "native": 0.5813330411911011,
+        "deadsync": 0.6820659637451172,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.70632553100586,
+        "beat": 96.31936645507812,
+        "native": 0.5647530555725098,
+        "deadsync": 0.6654859781265259,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.723106384277344,
+        "beat": 96.35908508300781,
+        "native": 0.5478970408439636,
+        "deadsync": 0.6486300230026245,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.7400016784668,
+        "beat": 96.3990707397461,
+        "native": 0.5307860374450684,
+        "deadsync": 0.6315189599990845,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.7568473815918,
+        "beat": 96.43893432617188,
+        "native": 0.5142350196838379,
+        "deadsync": 0.6149680018424988,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.77360534667969,
+        "beat": 96.47859954833984,
+        "native": 0.4973680377006531,
+        "deadsync": 0.598101019859314,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.79045486450195,
+        "beat": 96.51847076416016,
+        "native": 0.48073703050613403,
+        "deadsync": 0.5814700126647949,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.80723190307617,
+        "beat": 96.55818176269531,
+        "native": 0.463778018951416,
+        "deadsync": 0.5645110011100769,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.824058532714844,
+        "beat": 96.5979995727539,
+        "native": 0.4469420313835144,
+        "deadsync": 0.5476750135421753,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.840816497802734,
+        "beat": 96.63766479492188,
+        "native": 0.43015003204345703,
+        "deadsync": 0.5308829545974731,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.857643127441406,
+        "beat": 96.67748260498047,
+        "native": 0.413532018661499,
+        "deadsync": 0.5142650008201599,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.874488830566406,
+        "beat": 96.71735382080078,
+        "native": 0.3952520191669464,
+        "deadsync": 0.4959849715232849,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.89133834838867,
+        "beat": 96.75723266601562,
+        "native": 0.3780040144920349,
+        "deadsync": 0.4787369668483734,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.908119201660156,
+        "beat": 96.79694366455078,
+        "native": 0.36239802837371826,
+        "deadsync": 0.46313098073005676,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.92491912841797,
+        "beat": 96.83670806884766,
+        "native": 0.3445640206336975,
+        "deadsync": 0.445296972990036,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.94174575805664,
+        "beat": 96.87652587890625,
+        "native": 0.3279070258140564,
+        "deadsync": 0.4286399781703949,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.958526611328125,
+        "beat": 96.91624450683594,
+        "native": 0.31097501516342163,
+        "deadsync": 0.41170796751976013,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.975284576416016,
+        "beat": 96.95590209960938,
+        "native": 0.294048011302948,
+        "deadsync": 0.3947809636592865,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 40.99208450317383,
+        "beat": 96.99566650390625,
+        "native": 0.27896201610565186,
+        "deadsync": 0.37969496846199036,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.00886535644531,
+        "beat": 97.0353775024414,
+        "native": 0.26177603006362915,
+        "deadsync": 0.36250898241996765,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.02571487426758,
+        "beat": 97.07525634765625,
+        "native": 0.2450820356607437,
+        "deadsync": 0.345814973115921,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.04247283935547,
+        "beat": 97.11491394042969,
+        "native": 0.22790703177452087,
+        "deadsync": 0.3286399841308594,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.05931854248047,
+        "beat": 97.15478515625,
+        "native": 0.21190103888511658,
+        "deadsync": 0.3126339912414551,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.07619094848633,
+        "beat": 97.19471740722656,
+        "native": 0.1944170445203781,
+        "deadsync": 0.2951499819755554,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.092994689941406,
+        "beat": 97.23448181152344,
+        "native": 0.17756503820419312,
+        "deadsync": 0.2782979905605316,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.109840393066406,
+        "beat": 97.27435302734375,
+        "native": 0.1611650437116623,
+        "deadsync": 0.2618979811668396,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.12662124633789,
+        "beat": 97.3140640258789,
+        "native": 0.14430104196071625,
+        "deadsync": 0.24503397941589355,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.14342498779297,
+        "beat": 97.35383605957031,
+        "native": 0.12723404169082642,
+        "deadsync": 0.22796697914600372,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.16020584106445,
+        "beat": 97.39354705810547,
+        "native": 0.11096904426813126,
+        "deadsync": 0.21170197427272797,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.17702865600586,
+        "beat": 97.43336486816406,
+        "native": 0.09404804557561874,
+        "deadsync": 0.19478097558021545,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.19383239746094,
+        "beat": 97.47313690185547,
+        "native": 0.07705804705619812,
+        "deadsync": 0.17779096961021423,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.21061325073242,
+        "beat": 97.51284790039062,
+        "native": 0.06034504622220993,
+        "deadsync": 0.16107797622680664,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.22743606567383,
+        "beat": 97.55266571044922,
+        "native": 0.04320904612541199,
+        "deadsync": 0.1439419686794281,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.24419403076172,
+        "beat": 97.59232330322266,
+        "native": 0.026493046432733536,
+        "deadsync": 0.12722596526145935,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.261043548583984,
+        "beat": 97.6322021484375,
+        "native": 0.00994904711842537,
+        "deadsync": 0.11068196594715118,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.27782440185547,
+        "beat": 97.67191314697266,
+        "native": 0,
+        "deadsync": 0.0934949666261673,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.29460144042969,
+        "beat": 97.71161651611328,
+        "native": 0,
+        "deadsync": 0.07557997107505798,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.31145095825195,
+        "beat": 97.75149536132812,
+        "native": 0,
+        "deadsync": 0.06035797297954559,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.32825469970703,
+        "beat": 97.79126739501953,
+        "native": 0,
+        "deadsync": 0.043727971613407135,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.345123291015625,
+        "beat": 97.83119201660156,
+        "native": 0,
+        "deadsync": 0.026993971318006516,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 41.3619270324707,
+        "beat": 97.87095642089844,
+        "native": 0,
+        "deadsync": 0.007760971784591675,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 45.95503234863281,
+        "beat": 108.74130249023438,
+        "native": 0.800000011920929,
+        "deadsync": 0.5200790762901306,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 45.97183609008789,
+        "beat": 108.78107452392578,
+        "native": 0.7905060052871704,
+        "deadsync": 0.5105850696563721,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 45.988590240478516,
+        "beat": 108.82072448730469,
+        "native": 0.7787380218505859,
+        "deadsync": 0.4988170862197876,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 46.005367279052734,
+        "beat": 108.86043548583984,
+        "native": 0.7624160051345825,
+        "deadsync": 0.4824950695037842,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 46.02216720581055,
+        "beat": 108.90019226074219,
+        "native": 0.7452229857444763,
+        "deadsync": 0.46530210971832275,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 46.03893280029297,
+        "beat": 108.93987274169922,
+        "native": 0.7287589907646179,
+        "deadsync": 0.44883811473846436,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 46.04541778564453,
+        "beat": 108.95521545410156,
+        "native": 0.6294180154800415,
+        "deadsync": 0.34949710965156555,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 46.0622444152832,
+        "beat": 108.99504089355469,
+        "native": 0.6102499961853027,
+        "deadsync": 0.800000011920929,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.25363159179688,
+        "beat": 346.1146545410156,
+        "native": 0.800000011920929,
+        "deadsync": 0.08058910816907883,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.27040100097656,
+        "beat": 346.15435791015625,
+        "native": 0.7835749983787537,
+        "deadsync": 0.06416410952806473,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.2871856689453,
+        "beat": 346.1940612792969,
+        "native": 0.7786459922790527,
+        "deadsync": 0.0592351108789444,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.30398559570312,
+        "beat": 346.23382568359375,
+        "native": 0.7613549828529358,
+        "deadsync": 0.04194410890340805,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.32073974609375,
+        "beat": 346.2734680175781,
+        "native": 0.744327962398529,
+        "deadsync": 0.024917108938097954,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.33758544921875,
+        "beat": 346.3133544921875,
+        "native": 0.7277569770812988,
+        "deadsync": 0.008346108719706535,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.3423614501953,
+        "beat": 346.32464599609375,
+        "native": 0.6227239966392517,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.35911560058594,
+        "beat": 346.3642883300781,
+        "native": 0.6101019978523254,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.37594604492188,
+        "beat": 346.4041442871094,
+        "native": 0.5927850008010864,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.3927001953125,
+        "beat": 346.44378662109375,
+        "native": 0.5765259861946106,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.4095001220703,
+        "beat": 346.4835510253906,
+        "native": 0.5597409605979919,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.42628479003906,
+        "beat": 346.52325439453125,
+        "native": 0.5430759787559509,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.44308471679688,
+        "beat": 346.5630187988281,
+        "native": 0.5251299738883972,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.4598388671875,
+        "beat": 346.6026916503906,
+        "native": 0.5092399716377258,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.4766387939453,
+        "beat": 346.6424255371094,
+        "native": 0.49230098724365234,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.49356079101562,
+        "beat": 346.6824951171875,
+        "native": 0.47589197754859924,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.5102996826172,
+        "beat": 346.72210693359375,
+        "native": 0.45605596899986267,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.5270538330078,
+        "beat": 346.7617492675781,
+        "native": 0.43126195669174194,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.55429077148438,
+        "beat": 346.8262023925781,
+        "native": 0.4031449556350708,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.59278869628906,
+        "beat": 346.9173278808594,
+        "native": 0.3646569550037384,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.6095733642578,
+        "beat": 346.9570617675781,
+        "native": 0.3504679501056671,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.6263427734375,
+        "beat": 346.9967346191406,
+        "native": 0.3383409380912781,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.64317321777344,
+        "beat": 347.03656005859375,
+        "native": 0.32359394431114197,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.65992736816406,
+        "beat": 347.07623291015625,
+        "native": 0.30931395292282104,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.67677307128906,
+        "beat": 347.1160888671875,
+        "native": 0.29085394740104675,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.693603515625,
+        "beat": 347.1559143066406,
+        "native": 0.2748769521713257,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.71035766601562,
+        "beat": 347.1955871582031,
+        "native": 0.2593589425086975,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.72714233398438,
+        "beat": 347.23529052734375,
+        "native": 0.24029594659805298,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.74392700195312,
+        "beat": 347.2750244140625,
+        "native": 0.22407294809818268,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.76072692871094,
+        "beat": 347.3147888183594,
+        "native": 0.20876294374465942,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.77755737304688,
+        "beat": 347.3546142578125,
+        "native": 0.19064494967460632,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.7943115234375,
+        "beat": 347.3942565917969,
+        "native": 0.17525695264339447,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.81106567382812,
+        "beat": 347.4339294433594,
+        "native": 0.1584019511938095,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.82781982421875,
+        "beat": 347.47357177734375,
+        "native": 0.14117994904518127,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.84466552734375,
+        "beat": 347.513427734375,
+        "native": 0.1247769445180893,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.8614501953125,
+        "beat": 347.55316162109375,
+        "native": 0.10816194117069244,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.8782501220703,
+        "beat": 347.5929260253906,
+        "native": 0.09069694578647614,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.8950958251953,
+        "beat": 347.6327819824219,
+        "native": 0.0746159479022026,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.91188049316406,
+        "beat": 347.6725158691406,
+        "native": 0.05647994577884674,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.92868041992188,
+        "beat": 347.7122802734375,
+        "native": 0.04085494577884674,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.94546508789062,
+        "beat": 347.7519836425781,
+        "native": 0.02391594648361206,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 146.96224975585938,
+        "beat": 347.7917175292969,
+        "native": 0.00740494579076767,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 147.81517028808594,
+        "beat": 349.810302734375,
+        "native": 0.800000011920929,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 147.83203125,
+        "beat": 349.8501892089844,
+        "native": 0.7943160533905029,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 147.8488006591797,
+        "beat": 349.889892578125,
+        "native": 0.7779910564422607,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 147.86558532714844,
+        "beat": 349.92962646484375,
+        "native": 0.7613500356674194,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 147.88247680664062,
+        "beat": 349.9695739746094,
+        "native": 0.7441380023956299,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 147.8992462158203,
+        "beat": 350.00927734375,
+        "native": 0.7272060513496399,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 147.8992919921875,
+        "beat": 350.0093994140625,
+        "native": 0.6282550096511841,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 147.9160614013672,
+        "beat": 350.049072265625,
+        "native": 0.6099280118942261,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 147.93287658691406,
+        "beat": 350.0888671875,
+        "native": 0.5918740630149841,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 147.9496612548828,
+        "beat": 350.12860107421875,
+        "native": 0.5762940645217896,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 147.96646118164062,
+        "beat": 350.1683654785156,
+        "native": 0.5596030354499817,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 147.98326110839844,
+        "beat": 350.2080993652344,
+        "native": 0.5425400733947754,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.0000457763672,
+        "beat": 350.2478332519531,
+        "native": 0.5246350169181824,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.01687622070312,
+        "beat": 350.28765869140625,
+        "native": 0.5086010694503784,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.0336456298828,
+        "beat": 350.3273620605469,
+        "native": 0.4924900531768799,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.0504608154297,
+        "beat": 350.3671569824219,
+        "native": 0.4751640558242798,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.0672149658203,
+        "beat": 350.40679931640625,
+        "native": 0.45862504839897156,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.08407592773438,
+        "beat": 350.44671630859375,
+        "native": 0.44192203879356384,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.1009063720703,
+        "beat": 350.4865417480469,
+        "native": 0.42481502890586853,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.11770629882812,
+        "beat": 350.52630615234375,
+        "native": 0.4081140160560608,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.13450622558594,
+        "beat": 350.5660705566406,
+        "native": 0.3913380205631256,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.1512908935547,
+        "beat": 350.60577392578125,
+        "native": 0.37452903389930725,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.1680908203125,
+        "beat": 350.6455383300781,
+        "native": 0.35770702362060547,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.18482971191406,
+        "beat": 350.6851501464844,
+        "native": 0.34053903818130493,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.2015838623047,
+        "beat": 350.7248229980469,
+        "native": 0.32423102855682373,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.2184295654297,
+        "beat": 350.7646789550781,
+        "native": 0.3075220286846161,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.23519897460938,
+        "beat": 350.8043518066406,
+        "native": 0.29006102681159973,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.25205993652344,
+        "beat": 350.8442687988281,
+        "native": 0.2728080153465271,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.26881408691406,
+        "beat": 350.8839111328125,
+        "native": 0.25693702697753906,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.28558349609375,
+        "beat": 350.9236145019531,
+        "native": 0.23442502319812775,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.30235290527344,
+        "beat": 350.9632873535156,
+        "native": 0.21433702111244202,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.33192443847656,
+        "beat": 351.0332946777344,
+        "native": 0.18237602710723877,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.3720703125,
+        "beat": 351.1282958984375,
+        "native": 0.14224202930927277,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.3999481201172,
+        "beat": 351.19427490234375,
+        "native": 0.11433903127908707,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.4168243408203,
+        "beat": 351.2342224121094,
+        "native": 0.10331003367900848,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.43357849121094,
+        "beat": 351.27386474609375,
+        "native": 0.08685603737831116,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.45046997070312,
+        "beat": 351.3138427734375,
+        "native": 0.07613503932952881,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.46725463867188,
+        "beat": 351.35357666015625,
+        "native": 0.05827803909778595,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.48403930664062,
+        "beat": 351.3932800292969,
+        "native": 0.042217038571834564,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.5008544921875,
+        "beat": 351.4330749511719,
+        "native": 0.025727039203047752,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 148.5176239013672,
+        "beat": 351.4727783203125,
+        "native": 0.008842039853334427,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 151.91314697265625,
+        "beat": 359.50885009765625,
+        "native": 0,
+        "deadsync": 0.800000011920929,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 151.92996215820312,
+        "beat": 359.54864501953125,
+        "native": 0,
+        "deadsync": 0.7854790091514587,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 151.9467315673828,
+        "beat": 359.58831787109375,
+        "native": 0,
+        "deadsync": 0.7687430381774902,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 151.96356201171875,
+        "beat": 359.6281433105469,
+        "native": 0,
+        "deadsync": 0.7521640062332153,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 151.9803466796875,
+        "beat": 359.6678771972656,
+        "native": 0,
+        "deadsync": 0.7351800203323364,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 151.9971466064453,
+        "beat": 359.7076416015625,
+        "native": 0,
+        "deadsync": 0.7182520031929016,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.01394653320312,
+        "beat": 359.7474060058594,
+        "native": 0,
+        "deadsync": 0.7015799880027771,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.03074645996094,
+        "beat": 359.78717041015625,
+        "native": 0,
+        "deadsync": 0.6844300031661987,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.04754638671875,
+        "beat": 359.8269348144531,
+        "native": 0,
+        "deadsync": 0.6677330136299133,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.0643310546875,
+        "beat": 359.86663818359375,
+        "native": 0,
+        "deadsync": 0.6511420011520386,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.0811309814453,
+        "beat": 359.9064025878906,
+        "native": 0,
+        "deadsync": 0.6339479684829712,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.09791564941406,
+        "beat": 359.9461364746094,
+        "native": 0,
+        "deadsync": 0.617576003074646,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.11471557617188,
+        "beat": 359.98590087890625,
+        "native": 0,
+        "deadsync": 0.6006389856338501,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.13150024414062,
+        "beat": 360.0256042480469,
+        "native": 0,
+        "deadsync": 0.5837219953536987,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.1483154296875,
+        "beat": 360.0653991699219,
+        "native": 0,
+        "deadsync": 0.5670340061187744,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.16513061523438,
+        "beat": 360.1051940917969,
+        "native": 0,
+        "deadsync": 0.5493509769439697,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.18190002441406,
+        "beat": 360.1448974609375,
+        "native": 0,
+        "deadsync": 0.533473014831543,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.19869995117188,
+        "beat": 360.1846618652344,
+        "native": 0,
+        "deadsync": 0.5168219804763794,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.21546936035156,
+        "beat": 360.2243347167969,
+        "native": 0,
+        "deadsync": 0.49970898032188416,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.23226928710938,
+        "beat": 360.26409912109375,
+        "native": 0,
+        "deadsync": 0.48316797614097595,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.2491455078125,
+        "beat": 360.3040466308594,
+        "native": 0,
+        "deadsync": 0.46614497900009155,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.2659149169922,
+        "beat": 360.3437194824219,
+        "native": 0,
+        "deadsync": 0.4499319791793823,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.2827606201172,
+        "beat": 360.38360595703125,
+        "native": 0,
+        "deadsync": 0.43308597803115845,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.29954528808594,
+        "beat": 360.4233093261719,
+        "native": 0,
+        "deadsync": 0.41620898246765137,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.31634521484375,
+        "beat": 360.46307373046875,
+        "native": 0,
+        "deadsync": 0.3991619944572449,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.3331298828125,
+        "beat": 360.5028076171875,
+        "native": 0,
+        "deadsync": 0.3819670081138611,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.5113983154297,
+        "beat": 360.9247131347656,
+        "native": 0,
+        "deadsync": 0.1569490134716034,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.52972412109375,
+        "beat": 360.96807861328125,
+        "native": 0,
+        "deadsync": 0.13840600848197937,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.5465087890625,
+        "beat": 361.0078125,
+        "native": 0,
+        "deadsync": 0.13342200219631195,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.56336975097656,
+        "beat": 361.0476989746094,
+        "native": 0,
+        "deadsync": 0.11642800271511078,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.58023071289062,
+        "beat": 361.0876159667969,
+        "native": 0,
+        "deadsync": 0.09921400249004364,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 152.5970001220703,
+        "beat": 361.1272888183594,
+        "native": 0,
+        "deadsync": 0.08251800388097763,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.61000061035156,
+        "beat": 477.1247253417969,
+        "native": 0.800000011920929,
+        "deadsync": 0.4683850407600403,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.62684631347656,
+        "beat": 477.1645812988281,
+        "native": 0.7929250001907349,
+        "deadsync": 0.4613100290298462,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.64370727539062,
+        "beat": 477.2044982910156,
+        "native": 0.7757390141487122,
+        "deadsync": 0.4441240131855011,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.6605224609375,
+        "beat": 477.2442932128906,
+        "native": 0.7611920237541199,
+        "deadsync": 0.4295769929885864,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.6774139404297,
+        "beat": 477.2842712402344,
+        "native": 0.744437038898468,
+        "deadsync": 0.41282200813293457,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.69415283203125,
+        "beat": 477.3238830566406,
+        "native": 0.7276999950408936,
+        "deadsync": 0.3960850238800049,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.71095275878906,
+        "beat": 477.3636474609375,
+        "native": 0.7100560069084167,
+        "deadsync": 0.3784410059452057,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.72540283203125,
+        "beat": 477.3978271484375,
+        "native": 0.5949370265007019,
+        "deadsync": 0.26332199573516846,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.74224853515625,
+        "beat": 477.4377136230469,
+        "native": 0.5755320191383362,
+        "deadsync": 0.24391700327396393,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.75900268554688,
+        "beat": 477.47735595703125,
+        "native": 0.5582660436630249,
+        "deadsync": 0.22665099799633026,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.77584838867188,
+        "beat": 477.5172424316406,
+        "native": 0.5418500304222107,
+        "deadsync": 0.21023499965667725,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.7926025390625,
+        "beat": 477.556884765625,
+        "native": 0.5249010324478149,
+        "deadsync": 0.1932860016822815,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.80941772460938,
+        "beat": 477.5966796875,
+        "native": 0.5077069997787476,
+        "deadsync": 0.1760919988155365,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.82618713378906,
+        "beat": 477.6363525390625,
+        "native": 0.4883840084075928,
+        "deadsync": 0.15676899254322052,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.84303283691406,
+        "beat": 477.6762390136719,
+        "native": 0.4716010093688965,
+        "deadsync": 0.13998599350452423,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.85984802246094,
+        "beat": 477.7160339355469,
+        "native": 0.45372599363327026,
+        "deadsync": 0.1221109926700592,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.8766632080078,
+        "beat": 477.7558288574219,
+        "native": 0.4382379949092865,
+        "deadsync": 0.10662299394607544,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.89349365234375,
+        "beat": 477.795654296875,
+        "native": 0.4206100106239319,
+        "deadsync": 0.08899499475955963,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.9102783203125,
+        "beat": 477.83538818359375,
+        "native": 0.40459200739860535,
+        "deadsync": 0.0729769915342331,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.92713928222656,
+        "beat": 477.8752746582031,
+        "native": 0.38870102167129517,
+        "deadsync": 0.05708599090576172,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.94387817382812,
+        "beat": 477.9148864746094,
+        "native": 0.3716220259666443,
+        "deadsync": 0.04000699147582054,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.96070861816406,
+        "beat": 477.9547424316406,
+        "native": 0.35523903369903564,
+        "deadsync": 0.023623991757631302,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.97755432128906,
+        "beat": 477.9945983886719,
+        "native": 0.34054604172706604,
+        "deadsync": 0.008930991403758526,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 201.99435424804688,
+        "beat": 478.03436279296875,
+        "native": 0.3234480321407318,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.0111846923828,
+        "beat": 478.0741882324219,
+        "native": 0.3068370223045349,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.0279541015625,
+        "beat": 478.1138916015625,
+        "native": 0.28961101174354553,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.0447998046875,
+        "beat": 478.15374755859375,
+        "native": 0.2731800079345703,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.0615692138672,
+        "beat": 478.19342041015625,
+        "native": 0.2564080059528351,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.078369140625,
+        "beat": 478.2331848144531,
+        "native": 0.23967599868774414,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.0952606201172,
+        "beat": 478.2731628417969,
+        "native": 0.22283899784088135,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.1120147705078,
+        "beat": 478.3128356933594,
+        "native": 0.20576700568199158,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.12881469726562,
+        "beat": 478.3525695800781,
+        "native": 0.18905200064182281,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.1455841064453,
+        "beat": 478.39227294921875,
+        "native": 0.1722410023212433,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.16238403320312,
+        "beat": 478.4320373535156,
+        "native": 0.15560400485992432,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.17929077148438,
+        "beat": 478.4720458984375,
+        "native": 0.13883601129055023,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.19607543945312,
+        "beat": 478.51177978515625,
+        "native": 0.12170301377773285,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.21287536621094,
+        "beat": 478.551513671875,
+        "native": 0.10511201620101929,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.2296600341797,
+        "beat": 478.59124755859375,
+        "native": 0.0881740152835846,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.24649047851562,
+        "beat": 478.6310729980469,
+        "native": 0.07151301205158234,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.2633056640625,
+        "beat": 478.6708679199219,
+        "native": 0.054599009454250336,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.2801513671875,
+        "beat": 478.71075439453125,
+        "native": 0.037201009690761566,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.29698181152344,
+        "beat": 478.7505798339844,
+        "native": 0.020527008920907974,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.3137664794922,
+        "beat": 478.7903137207031,
+        "native": 0.0034850090742111206,
+        "deadsync": 0,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.56546020507812,
+        "beat": 479.385986328125,
+        "native": 0,
+        "deadsync": 0.800000011920929,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.61244201660156,
+        "beat": 479.4971618652344,
+        "native": 0,
+        "deadsync": 0.7530499696731567,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.63133239746094,
+        "beat": 479.5418701171875,
+        "native": 0,
+        "deadsync": 0.7341279983520508,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.648193359375,
+        "beat": 479.581787109375,
+        "native": 0,
+        "deadsync": 0.7219460010528564,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.66494750976562,
+        "beat": 479.6214294433594,
+        "native": 0,
+        "deadsync": 0.7058510184288025,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.68179321289062,
+        "beat": 479.6612854003906,
+        "native": 0,
+        "deadsync": 0.800000011920929,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.6986846923828,
+        "beat": 479.7012634277344,
+        "native": 0,
+        "deadsync": 0.7829300165176392,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.71546936035156,
+        "beat": 479.7409973144531,
+        "native": 0,
+        "deadsync": 0.7662540078163147,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.73223876953125,
+        "beat": 479.78070068359375,
+        "native": 0,
+        "deadsync": 0.7495779991149902,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.7490234375,
+        "beat": 479.8204040527344,
+        "native": 0,
+        "deadsync": 0.7327100038528442,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.76580810546875,
+        "beat": 479.8601379394531,
+        "native": 0,
+        "deadsync": 0.7160810232162476,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.78265380859375,
+        "beat": 479.8999938964844,
+        "native": 0,
+        "deadsync": 0.6993139982223511,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.7994384765625,
+        "beat": 479.9397277832031,
+        "native": 0,
+        "deadsync": 0.6821960210800171,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.81625366210938,
+        "beat": 479.9795227050781,
+        "native": 0,
+        "deadsync": 0.6655910015106201,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 202.83303833007812,
+        "beat": 480.0192565917969,
+        "native": 0,
+        "deadsync": 0.6485860347747803,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.00900268554688,
+        "beat": 480.4356994628906,
+        "native": 0,
+        "deadsync": 0.37000900506973267,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.02581787109375,
+        "beat": 480.4754943847656,
+        "native": 0,
+        "deadsync": 0.36438900232315063,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.04258728027344,
+        "beat": 480.5151672363281,
+        "native": 0,
+        "deadsync": 0.34835299849510193,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.05938720703125,
+        "beat": 480.554931640625,
+        "native": 0,
+        "deadsync": 0.33155399560928345,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.076171875,
+        "beat": 480.59466552734375,
+        "native": 0,
+        "deadsync": 0.3149089813232422,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.09303283691406,
+        "beat": 480.6345520019531,
+        "native": 0,
+        "deadsync": 0.298117995262146,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.09886169433594,
+        "beat": 480.6483459472656,
+        "native": 0,
+        "deadsync": 0.19893500208854675,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.11573791503906,
+        "beat": 480.68829345703125,
+        "native": 0,
+        "deadsync": 0.18036100268363953,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.1324920654297,
+        "beat": 480.72796630859375,
+        "native": 0,
+        "deadsync": 0.1636030077934265,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.1492919921875,
+        "beat": 480.7677001953125,
+        "native": 0,
+        "deadsync": 0.14687100052833557,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.16607666015625,
+        "beat": 480.80743408203125,
+        "native": 0,
+        "deadsync": 0.12988300621509552,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.18287658691406,
+        "beat": 480.8471984863281,
+        "native": 0,
+        "deadsync": 0.11320500820875168,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.1996612548828,
+        "beat": 480.8869323730469,
+        "native": 0,
+        "deadsync": 0.09603101015090942,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.2165069580078,
+        "beat": 480.9267883300781,
+        "native": 0,
+        "deadsync": 0.07919201254844666,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      },
+      {
+        "seconds": 203.23330688476562,
+        "beat": 480.966552734375,
+        "native": 0,
+        "deadsync": 0.06266701221466064,
+        "operations": [
+          "Actor.sleep",
+          "Actor.x",
+          "Actor.rotationz",
+          "Actor.y",
+          "Actor.zoom"
+        ]
+      }
+    ],
+    "value_pair_count": 327
+  }
+]

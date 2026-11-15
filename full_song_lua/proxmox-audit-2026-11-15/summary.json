@@ -1,0 +1,2311 @@
+{
+  "status": "complete",
+  "generated_at": "2026-11-15T19:04:26.668807+00:00",
+  "scope": {
+    "cases": 503,
+    "indexed_cases": 496,
+    "additional_cases": 7,
+    "song_directories": 406,
+    "lua_files": 1720,
+    "lua_directories_without_simfile": [],
+    "selection_basis": {
+      "source chart discovery": 153,
+      "previous indexed native context": 350
+    },
+    "styles": {
+      "single": 489,
+      "double": 8,
+      "versus": 6
+    },
+    "previous_gc_modes": {
+      "null": 485,
+      "automatic": 10,
+      "stopped": 1
+    },
+    "shards": [
+      {
+        "worker": "01",
+        "cases": 33,
+        "estimated_song_seconds": 7963.1
+      },
+      {
+        "worker": "02",
+        "cases": 33,
+        "estimated_song_seconds": 7961.2
+      },
+      {
+        "worker": "03",
+        "cases": 33,
+        "estimated_song_seconds": 7941.8
+      },
+      {
+        "worker": "04",
+        "cases": 33,
+        "estimated_song_seconds": 7958.7
+      },
+      {
+        "worker": "05",
+        "cases": 34,
+        "estimated_song_seconds": 7925.3
+      },
+      {
+        "worker": "06",
+        "cases": 34,
+        "estimated_song_seconds": 7926.1
+      },
+      {
+        "worker": "07",
+        "cases": 33,
+        "estimated_song_seconds": 7961.1
+      },
+      {
+        "worker": "08",
+        "cases": 33,
+        "estimated_song_seconds": 7934.8
+      },
+      {
+        "worker": "09",
+        "cases": 34,
+        "estimated_song_seconds": 7925.9
+      },
+      {
+        "worker": "10",
+        "cases": 33,
+        "estimated_song_seconds": 7966.6
+      },
+      {
+        "worker": "11",
+        "cases": 34,
+        "estimated_song_seconds": 7927.0
+      },
+      {
+        "worker": "12",
+        "cases": 34,
+        "estimated_song_seconds": 7919.9
+      },
+      {
+        "worker": "13",
+        "cases": 34,
+        "estimated_song_seconds": 7930.2
+      },
+      {
+        "worker": "14",
+        "cases": 34,
+        "estimated_song_seconds": 7962.0
+      },
+      {
+        "worker": "15",
+        "cases": 34,
+        "estimated_song_seconds": 7920.1
+      }
+    ],
+    "policy": "Fresh full native gameplay at a paced 60 FPS, automatic Lua GC, previous chart/style where recorded; unchanged diagnostic-live-lua comparator. No fixture acceptance implies production/rendering parity."
+  },
+  "counts": {
+    "pass": 444,
+    "native_lua_error": 5,
+    "parity_failure": 27,
+    "capture_observation_limit": 2,
+    "capture_timeout": 3,
+    "replay_error": 2,
+    "native_crash_handler_hang": 8,
+    "replay_resource_limit": 6,
+    "native_capture_error": 1,
+    "native_crash": 3,
+    "capture_resource_limit": 1,
+    "no_selectable_chart": 1
+  },
+  "completed": 503,
+  "total": 503,
+  "failure_cases": 59,
+  "native_frames_compared": 3995241,
+  "passes_without_actor_definitions": 34,
+  "passes_without_compared_lua_calls": 26,
+  "supplemental_guarded_profiles": [
+    {
+      "id": "coverage-05f550917c3e16a7",
+      "source_simfile": "cards/sm.ssc",
+      "status": "pass",
+      "comparison": {
+        "whole_song_parity_proven": false,
+        "archive_accepted": true,
+        "execution_path": "diagnostic-live-lua",
+        "production_preparation_exercised": false,
+        "production_parity_proven": false,
+        "native_frames": 12306,
+        "replayed_frames": 12306,
+        "compared_stage_fields": 4620,
+        "pending_coverage": [
+          "uncompared song operations: Actor.setsize, Actor.stoptweening, BitmapText.settext, GameState.IsEventMode, Screen.AddInputCallback",
+          "native drawable state/resources: BitmapText, Quad, Sound, Sprite",
+          "missing captured subscriber identity for ScreenGameplay/2/10/1",
+          "missing captured subscriber identity for ScreenGameplay/2/14/1",
+          "missing captured subscriber identity for ScreenGameplay/25",
+          "missing captured subscriber identity for ScreenGameplay/26/1/1",
+          "missing captured subscriber identity for ScreenGameplay/26/1/10",
+          "missing captured subscriber identity for ScreenGameplay/26/1/12",
+          "missing captured subscriber identity for ScreenGameplay/26/1/2",
+          "missing captured subscriber identity for ScreenGameplay/26/1/4",
+          "missing captured subscriber identity for ScreenGameplay/26/1/5",
+          "missing captured subscriber identity for ScreenGameplay/26/1/7",
+          "missing captured subscriber identity for ScreenGameplay/26/1/9",
+          "missing captured subscriber identity for ScreenGameplay/3/1"
+        ],
+        "capture_completed_gameplay": true,
+        "acceptance_basis": "full replay of implemented comparisons",
+        "fixture_sha256": "62abca22b2075b00fc6522d0be456ec4adcb2c0ce7c95a8a4909ef2f78c42aed",
+        "mismatch_count": 0,
+        "mismatch_fields": {},
+        "first_mismatches": [],
+        "error_count": 0,
+        "errors": []
+      },
+      "mismatch_analysis": null
+    },
+    {
+      "id": "coverage-106fc438f82f1926",
+      "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+      "status": "parity_failure",
+      "comparison": {
+        "whole_song_parity_proven": false,
+        "archive_accepted": false,
+        "execution_path": "diagnostic-live-lua",
+        "production_preparation_exercised": false,
+        "production_parity_proven": false,
+        "native_frames": 4803,
+        "replayed_frames": 4803,
+        "compared_stage_fields": 4158,
+        "pending_coverage": [
+          "uncompared song operations: Actor.Draw, Actor.GetX, Actor.GetY, Actor.SetHeight, Actor.SetWidth, Actor.accelerate, Actor.addx, Actor.finishtweening, Actor.rotationx, Actor.rotationy, Actor.skewx, Actor.stopeffect, Actor.zoomy, ActorFrame.GetChildren, ActorFrameTexture.Create, ActorFrameTexture.EnableAlphaBuffer, ActorFrameTexture.GetTexture, ActorFrameTexture.SetTextureName, GameState.GetCurMusicSeconds, Sprite.SetTexture",
+          "native drawable state/resources: ActorFrameTexture, ActorProxy, Quad, Sprite",
+          "missing captured subscriber identity for ScreenGameplay/2/10/1",
+          "missing captured subscriber identity for ScreenGameplay/2/14/1",
+          "missing captured subscriber identity for ScreenGameplay/25",
+          "missing captured subscriber identity for ScreenGameplay/26/1/1",
+          "missing captured subscriber identity for ScreenGameplay/26/1/10",
+          "missing captured subscriber identity for ScreenGameplay/26/1/12",
+          "missing captured subscriber identity for ScreenGameplay/26/1/2",
+          "missing captured subscriber identity for ScreenGameplay/26/1/4",
+          "missing captured subscriber identity for ScreenGameplay/26/1/5",
+          "missing captured subscriber identity for ScreenGameplay/26/1/7",
+          "missing captured subscriber identity for ScreenGameplay/26/1/9",
+          "missing captured subscriber identity for ScreenGameplay/3/1"
+        ],
+        "capture_completed_gameplay": true,
+        "acceptance_basis": "full replay of implemented comparisons",
+        "fixture_sha256": "ae6745c8a35055f52b8def6249bc5f2b7efd6993d3eda3a94fbb35b93d69b810",
+        "mismatch_count": 12434,
+        "mismatch_fields": {
+          "command_query_event": 12434
+        },
+        "first_mismatches": [
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0022",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0022",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  2
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209463,
+              "source": "song:/bye/default.lua",
+              "results": [
+                2
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                2
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0038",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0022",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209465,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0024",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0024",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  3
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209473,
+              "source": "song:/bye/default.lua",
+              "results": [
+                3
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                3
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0039",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0024",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209475,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0026",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0026",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  4
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209483,
+              "source": "song:/bye/default.lua",
+              "results": [
+                4
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                4
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0040",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0026",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209485,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0032",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0032",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  3
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209492,
+              "source": "song:/bye/default.lua",
+              "results": [
+                3
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                3
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0043",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0032",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209494,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0020",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0020",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  1
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209502,
+              "source": "song:/bye/default.lua",
+              "results": [
+                1
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                1
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0037",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0020",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209504,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0030",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0030",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  2
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209511,
+              "source": "song:/bye/default.lua",
+              "results": [
+                2
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                2
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0042",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0030",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209513,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0028",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0028",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  1
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209521,
+              "source": "song:/bye/default.lua",
+              "results": [
+                1
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                1
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0041",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0028",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209523,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0034",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0034",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  4
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209530,
+              "source": "song:/bye/default.lua",
+              "results": [
+                4
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                4
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0044",
+              "args": [],
+              "beat": 64.44634246826172,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0034",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209532,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0037",
+              "args": [],
+              "beat": 64.44634246826172,
+              "callback": "SetUpdateFunction",
+              "caller": {
+                "line": 187,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "OnCommand",
+              "definition_id": "def-0006",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 187,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209538,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 187,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0041",
+              "args": [],
+              "beat": 64.44634246826172,
+              "callback": "SetUpdateFunction",
+              "caller": {
+                "line": 187,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "OnCommand",
+              "definition_id": "def-0006",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 187,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.440929412841797,
+              "seq": 209549,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 187,
+              "phase": "callback",
+              "beat": 64.44634246826172,
+              "seconds": 17.440929412841797,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0022",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0022",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  2
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217684,
+              "source": "song:/bye/default.lua",
+              "results": [
+                2
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                2
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0038",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0022",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217686,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0024",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0024",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  3
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217695,
+              "source": "song:/bye/default.lua",
+              "results": [
+                3
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                3
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0039",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0024",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217697,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0026",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0026",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  4
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217706,
+              "source": "song:/bye/default.lua",
+              "results": [
+                4
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                4
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0040",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0026",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217708,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0032",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0032",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  3
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217715,
+              "source": "song:/bye/default.lua",
+              "results": [
+                3
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                3
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0043",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0032",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217717,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0020",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0020",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  1
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217726,
+              "source": "song:/bye/default.lua",
+              "results": [
+                1
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                1
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0037",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0020",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217728,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0030",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0030",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  2
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217735,
+              "source": "song:/bye/default.lua",
+              "results": [
+                2
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                2
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0042",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0030",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217737,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0028",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0028",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  1
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217746,
+              "source": "song:/bye/default.lua",
+              "results": [
+                1
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                1
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0041",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0028",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217748,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0034",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0034",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  4
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217755,
+              "source": "song:/bye/default.lua",
+              "results": [
+                4
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                4
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0044",
+              "args": [],
+              "beat": 66.42236328125,
+              "caller": {
+                "line": 751,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0034",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 751,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217757,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 751,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0037",
+              "args": [],
+              "beat": 66.42236328125,
+              "callback": "SetUpdateFunction",
+              "caller": {
+                "line": 187,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "OnCommand",
+              "definition_id": "def-0006",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 187,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217763,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 187,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0041",
+              "args": [],
+              "beat": 66.42236328125,
+              "callback": "SetUpdateFunction",
+              "caller": {
+                "line": 187,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "OnCommand",
+              "definition_id": "def-0006",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 187,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 17.97498893737793,
+              "seq": 217774,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 187,
+              "phase": "callback",
+              "beat": 66.42236328125,
+              "seconds": 17.97498893737793,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0022",
+              "args": [],
+              "beat": 66.52116394042969,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0022",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  2
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 18.001691818237305,
+              "seq": 218223,
+              "source": "song:/bye/default.lua",
+              "results": [
+                2
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 66.52116394042969,
+              "seconds": 18.001691818237305,
+              "args": [],
+              "results": [
+                2
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0038",
+              "args": [],
+              "beat": 66.52116394042969,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0022",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 18.001691818237305,
+              "seq": 218225,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 66.52116394042969,
+              "seconds": 18.001691818237305,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0024",
+              "args": [],
+              "beat": 66.52116394042969,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0024",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  3
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 18.001691818237305,
+              "seq": 218234,
+              "source": "song:/bye/default.lua",
+              "results": [
+                3
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 66.52116394042969,
+              "seconds": 18.001691818237305,
+              "args": [],
+              "results": [
+                3
+              ],
+              "tween_time_left": 0
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "def-0039",
+              "args": [],
+              "beat": 66.52116394042969,
+              "caller": {
+                "line": 733,
+                "source": "song:/bye/default.lua",
+                "tail_call": false
+              },
+              "command": "BounceActivateMessageCommand",
+              "definition_id": "def-0024",
+              "detail": {
+                "native_tween_time_left": 0,
+                "results": [
+                  0
+                ]
+              },
+              "kind": "query",
+              "line": 733,
+              "operation": "Actor.getaux",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 18.001691818237305,
+              "seq": 218236,
+              "source": "song:/bye/default.lua",
+              "results": [
+                0
+              ]
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.getaux",
+              "source": "song:/bye/default.lua",
+              "line": 733,
+              "phase": "callback",
+              "beat": 66.52116394042969,
+              "seconds": 18.001691818237305,
+              "args": [],
+              "results": [
+                0
+              ],
+              "tween_time_left": 0
+            }
+          }
+        ],
+        "error_count": 0,
+        "errors": []
+      },
+      "mismatch_analysis": {
+        "analysis_version": 3,
+        "comparison_profile": "native_constructor_queries=true; native_modifier_results=true",
+        "total_mismatches": 12434,
+        "groups": [
+          {
+            "field": "command_query_event",
+            "native_operation": "Actor.getaux",
+            "deadsync_operation": "Actor.getaux",
+            "different_fields": [
+              "kind"
+            ],
+            "count": 12434,
+            "first_example": {
+              "native": {
+                "scene": 1,
+                "kind": "query",
+                "operation": "Actor.getaux",
+                "source": "song:/bye/default.lua",
+                "line": 733,
+                "seconds": 17.440929412841797,
+                "beat": 64.44634246826172,
+                "phase": "callback",
+                "args": [],
+                "results": [
+                  2
+                ]
+              },
+              "deadsync": {
+                "scene": 1,
+                "kind": "call",
+                "operation": "Actor.getaux",
+                "source": "song:/bye/default.lua",
+                "line": 733,
+                "seconds": 17.440929412841797,
+                "beat": 64.44634246826172,
+                "phase": "callback",
+                "args": [],
+                "results": [
+                  2
+                ]
+              }
+            },
+            "locations": [
+              {
+                "source": "song:/bye/default.lua",
+                "line": 733
+              },
+              {
+                "source": "song:/bye/default.lua",
+                "line": 751
+              },
+              {
+                "source": "song:/bye/default.lua",
+                "line": 187
+              },
+              {
+                "source": "song:/bye/default.lua",
+                "line": 209
+              },
+              {
+                "source": "song:/bye/default.lua",
+                "line": 315
+              },
+              {
+                "source": "song:/bye/default.lua",
+                "line": 767
+              }
+            ]
+          }
+        ],
+        "report_sha256": "37f97dc4bbe987fbe429d9e720b55b17e132bc7dffe0aa21ba0783281c5eabff",
+        "report_file": "coverage-106fc438f82f1926/report.json.zst"
+      }
+    },
+    {
+      "id": "coverage-5e06cad06be50156",
+      "source_simfile": "cards/sm.sm",
+      "status": "pass",
+      "comparison": {
+        "whole_song_parity_proven": false,
+        "archive_accepted": true,
+        "execution_path": "diagnostic-live-lua",
+        "production_preparation_exercised": false,
+        "production_parity_proven": false,
+        "native_frames": 12303,
+        "replayed_frames": 12303,
+        "compared_stage_fields": 4620,
+        "pending_coverage": [
+          "uncompared song operations: Actor.setsize, Actor.stoptweening, BitmapText.settext, GameState.IsEventMode, Screen.AddInputCallback",
+          "native drawable state/resources: BitmapText, Quad, Sound, Sprite",
+          "missing captured subscriber identity for ScreenGameplay/2/10/1",
+          "missing captured subscriber identity for ScreenGameplay/2/14/1",
+          "missing captured subscriber identity for ScreenGameplay/25",
+          "missing captured subscriber identity for ScreenGameplay/26/1/1",
+          "missing captured subscriber identity for ScreenGameplay/26/1/10",
+          "missing captured subscriber identity for ScreenGameplay/26/1/12",
+          "missing captured subscriber identity for ScreenGameplay/26/1/2",
+          "missing captured subscriber identity for ScreenGameplay/26/1/4",
+          "missing captured subscriber identity for ScreenGameplay/26/1/5",
+          "missing captured subscriber identity for ScreenGameplay/26/1/7",
+          "missing captured subscriber identity for ScreenGameplay/26/1/9",
+          "missing captured subscriber identity for ScreenGameplay/3/1"
+        ],
+        "capture_completed_gameplay": true,
+        "acceptance_basis": "full replay of implemented comparisons",
+        "fixture_sha256": "76c9b1a7bd700fa03cdacd14b361c4f099f04eca398abed19325b45c3aa2fd8f",
+        "mismatch_count": 0,
+        "mismatch_fields": {},
+        "first_mismatches": [],
+        "error_count": 0,
+        "errors": []
+      },
+      "mismatch_analysis": null
+    },
+    {
+      "id": "coverage-f7a2bad131d8842f",
+      "source_simfile": "Wobbpotato [Egg Carton 3]/wobbpotato.ssc",
+      "status": "pass",
+      "comparison": {
+        "whole_song_parity_proven": false,
+        "archive_accepted": true,
+        "execution_path": "diagnostic-live-lua",
+        "production_preparation_exercised": false,
+        "production_parity_proven": false,
+        "native_frames": 5770,
+        "replayed_frames": 5770,
+        "compared_stage_fields": 1254,
+        "pending_coverage": [
+          "uncompared song operations: Actor.effectclock, Actor.effectcolor1, Actor.effectcolor2, Actor.pulse, Actor.rotationx, Actor.rotationy, Actor.skewx, Actor.stopeffect, Actor.zoomz, PlayerOptions.Beat, PlayerOptions.Brake, PlayerOptions.Dizzy, PlayerOptions.DizzyHolds, PlayerOptions.Drunk, PlayerOptions.Flip, PlayerOptions.Invert, PlayerOptions.MoveX1, PlayerOptions.MoveX2, PlayerOptions.MoveX3, PlayerOptions.MoveX4, PlayerOptions.MoveY1, PlayerOptions.MoveY2, PlayerOptions.MoveY3, PlayerOptions.MoveY4, PlayerOptions.MoveZ1, PlayerOptions.MoveZ2, PlayerOptions.MoveZ3, PlayerOptions.MoveZ4, PlayerOptions.Stealth, PlayerOptions.Tiny, PlayerOptions.Tipsy, PlayerOptions.Tornado, PlayerOptions.Wave, PlayerOptions.XMod, PlayerOptions.ZBuffer",
+          "missing captured subscriber identity for ScreenGameplay/18",
+          "missing captured subscriber identity for ScreenGameplay/19/1/1",
+          "missing captured subscriber identity for ScreenGameplay/19/1/3",
+          "missing captured subscriber identity for ScreenGameplay/19/1/4",
+          "missing captured subscriber identity for ScreenGameplay/19/1/6",
+          "missing captured subscriber identity for ScreenGameplay/2/2/2/2/1",
+          "missing captured subscriber identity for ScreenGameplay/2/2/2/2/11",
+          "missing captured subscriber identity for ScreenGameplay/2/2/2/2/3",
+          "missing captured subscriber identity for ScreenGameplay/2/2/2/2/5",
+          "missing captured subscriber identity for ScreenGameplay/2/2/2/2/7",
+          "missing captured subscriber identity for ScreenGameplay/2/2/2/2/9",
+          "missing captured subscriber identity for ScreenGameplay/2/2/2/3/2",
+          "missing captured subscriber identity for ScreenGameplay/2/2/2/3/4",
+          "missing captured subscriber identity for ScreenGameplay/2/2/2/3/6",
+          "missing captured subscriber identity for ScreenGameplay/2/9/1",
+          "missing captured subscriber identity for ScreenGameplay/3/1"
+        ],
+        "capture_completed_gameplay": true,
+        "acceptance_basis": "full replay of implemented comparisons",
+        "fixture_sha256": "4a5fb12b2f6ec2af5b3c53d82c41dbb782f6d8e78a7ff89b53f8fb6fd4c58e78",
+        "mismatch_count": 0,
+        "mismatch_fields": {},
+        "first_mismatches": [],
+        "error_count": 0,
+        "errors": []
+      },
+      "mismatch_analysis": null
+    }
+  ],
+  "replayed_frames": 3995241,
+  "interpretation": "Pass means full replay of implemented diagnostic comparisons. It does not prove complete production or rendering parity.",
+  "sources": {
+    "deadsync": {
+      "revision": "959b8b04d5078be603478e4459938ac37f9e39fd",
+      "tracked_changes": ""
+    },
+    "harness": {
+      "revision": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+      "tracked_changes": ""
+    },
+    "native": {
+      "revision": "5c737928d93778c2c9f68e276052b220b43a468f",
+      "tracked_changes": ""
+    },
+    "theme": {
+      "revision": "dd06138b15492f4136796dfe4b6708ced0f7b9eb",
+      "tracked_changes": ""
+    }
+  },
+  "supporting_sources": {
+    "deadsync_tests": {
+      "revision": "e798b5f5453b8b6fb2635da9b20094d77fa7bc1c",
+      "basis": "gitlink tests/fixtures in the pinned DeadSync commit"
+    },
+    "rssp_core": {
+      "version": "0.4.290",
+      "source": "git+https://github.com/pnn64/rssp?branch=main#da616e3aef6dada87eab30d44164e526c51deafe",
+      "basis": "Cargo.lock in the pinned DeadSync commit"
+    },
+    "cargo_lock_sha256": "2126d4d547ba05c76c93175d5ea9a8ab3cab94184db23387c8071b5ef0a8432b",
+    "actual_fixture_support_manifest_sha256": "33186e5ab65cfcadc936f8d63564613a39be05912965be32221392990bbc697c"
+  },
+  "issue_case_count_scope": "Overlapping primary failures, flagged entrypoint coverage cases, and supplemental guarded profiles; these counts do not sum to the primary failure total.",
+  "issue_case_counts": {
+    "chikutaku-missing-musicrate": 2,
+    "getaux-observer-kind": 14,
+    "arrowquest-observation-budget": 2,
+    "kenpo-same-frame-node-order": 1,
+    "dramatic-self-queued-observation-volume": 1,
+    "player-descendant-tween-state": 5,
+    "join-player-reload-state": 2,
+    "initial-effect-clock-state": 1,
+    "player-options-return-identity": 1,
+    "bank-account-player-presence": 1,
+    "native-video-heap-crash-handler-hang": 8,
+    "native-rgb24-surface-overrun": 11,
+    "background-default-source-case": 2,
+    "full-trace-memory-scaling": 7,
+    "saved-chart-missing-music": 1,
+    "ultimate-subscriber-identity": 1,
+    "ultimate-early-failed-state": 1,
+    "getintoit-subscriber-identity": 2,
+    "happiness-exhausted-break-table": 1,
+    "haxo-effectmagnitude-arity": 1,
+    "james-native-trace-timeout": 2,
+    "lesson-sm-missing-notes-colon": 1,
+    "video-driver-input": 1,
+    "velvet-automatic-gc-node-order": 1,
+    "legacy-xml-profile-disabled": 10,
+    "native-startup-error-observation": 1
+  }
+}

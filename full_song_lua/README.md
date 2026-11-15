@@ -8,6 +8,12 @@ must exist, and local-only missing-file exceptions are rejected. Regenerate the
 catalogs with `python -X utf8 scripts/catalog_committed_songs.py` (requires
 `zstandard`). Tests extract their inputs into temporary directories.
 
+New replay reports store `command_queries.native_event_indices` as zero-based
+indices into the archived trace's `events` array. They retain full normalized
+native and DeadSync values for mismatches, and all actual observations. This
+avoids holding a second complete native event array in memory; comparison fields
+and event ordering are unchanged.
+
 The [2026-11-15 targeted parity repair](parity-repair-2026-11-15.json) checks
 both Sharkmode captures, Igaku, Godspeed and Delightful Day. All implemented
 comparisons pass. Song Lua now uses Lua 5.1 table placement, preserves first-draw

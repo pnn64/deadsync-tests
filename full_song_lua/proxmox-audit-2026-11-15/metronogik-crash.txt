@@ -1,0 +1,135 @@
+ITGmania1.2.0-BETA-git-5c73792 crash report (build 5c73792, 20261115 @ 14:17:39)
+--------------------------------------
+
+Architecture:   Unix
+Crash reason:   Aborted - Unknown code 4294967290
+Crashed thread: Main thread
+
+Checkpoints:
+Unknown thread
+        SongUtil.cpp:353 Duplicate steps from Springtime removed.
+        SongUtil.cpp:356 Charts from Springtime sorted.
+        SongUtil.cpp:353 Duplicate steps from Springtime removed.
+        SongUtil.cpp:356 Charts from Springtime sorted.
+        RageFileDriverDirectHelpers.cpp:174 /opt/song-lua-audit/results/bd062750cefe5be7/tmp/itgmania-harness-rs/song-lua-1564-1794754103429982152-0/Cache/Songs/Songs_StepMania 5_Springtime
+Thread: Main thread
+        FontManager.cpp:66 FontManager::UnloadFont(/Themes/itgmania-harness/Fonts/Miso/_miso light.ini).
+        FontManager.cpp:66 FontManager::UnloadFont(/Themes/itgmania-harness/Fonts/Miso/_miso light.ini).
+        FontManager.cpp:66 FontManager::UnloadFont(/Themes/itgmania-harness/Fonts/Miso/_miso light.ini).
+        FontManager.cpp:66 FontManager::UnloadFont(/Themes/itgmania-harness/Fonts/Miso/_miso light.ini).
+        FontManager.cpp:66 FontManager::UnloadFont(/Themes/itgmania-harness/Fonts/Miso/_miso light.ini).
+Thread: Decode thread
+        RageSoundDriver_Generic_Software.cpp:221 Processing the sound while buffers are available.
+        RageSoundDriver_Generic_Software.cpp:221 Processing the sound while buffers are available.
+        RageSoundDriver_Generic_Software.cpp:221 Processing the sound while buffers are available.
+        RageSoundDriver_Generic_Software.cpp:221 Processing the sound while buffers are available.
+        RageSoundDriver_Generic_Software.cpp:221 Processing the sound while buffers are available.
+Thread: Music thread
+Thread: LightsManager thread
+Thread: Worker thread (MemoryCardWorker)
+Thread: Worker thread (/@mc1int/)
+Thread: Worker thread (/@mc2int/)
+Thread: Event input thread
+Thread: Joystick thread
+
+Thread: Main thread
+000076b41b09ebec: 
+000076b41b04527e: 
+000076b41b0288ff: 
+000076b41b0297b6: 
+000076b41b0a90b5: 
+000076b41b0a953c: 
+000076b41b0adeda: 
+000060c37d681253: 
+000060c37d67fe61: 
+000060c37d67c3fe: 
+000060c37d67c41d: 
+000060c37d67b20b: 
+000060c37d67b6bb: 
+000060c37d67adeb: 
+000060c37d66ab25: 
+000060c37d66abf7: 
+000060c37d6b17d3: 
+000076b41b0eca2d: 
+000060c37d6beeb7: 
+000060c37d828f55: 
+000060c37d668055: 
+000060c37d18643d: 
+000060c37d82bc71: 
+000060c37d1bf8b3: 
+000060c37d1386a7: 
+000076b41b0eca2d: 
+000060c37d668055: 
+000060c37d383a8e: 
+000060c37d1389d6: 
+000076b41b02a1ca: 
+000076b41b02a28b: 
+000060c37d1376d5: 
+
+Static log:
+ITGmania1.2.0-BETA-git-5c73792
+Compiled 20261115 @ 14:17:39 (build 5c73792)
+Log starting 2026-11-15 14:48:23
+Command line args (count=2): [[--game=dance]] [[--theme=itgmania-harness]]
+OS: Linux ver 060800
+Crash backtrace component: x86 custom backtrace
+Crash lookup component: dladdr
+Runtime library: glibc 2.39
+Threads library: NPTL 2.39
+libavcodec: 0x3b2564 (3876196)
+WARNING: ReadFile(Save/ThemePrefs.ini): No such file or directory
+WARNING: ReadFile(Save/ThemePrefs.ini): No such file or directory
+WARNING: ReadFile(Save/ThemePrefs.ini): No such file or directory
+WARNING: ReadFile(Save/ThemePrefs.ini): No such file or directory
+Sound driver: Null
+Lights driver: SystemMessage
+Lights driver: Export
+WARNING: Unmatched 3 in "0003"
+WARNING: Unmatched 3 in "0300"
+WARNING: Unmatched 3 in "0300"
+WARNING: Unmatched 3 in "3000"
+WARNING: Unmatched 3 in "3000"
+WARNING: Unmatched 3 in "0300"
+WARNING: Unmatched 3 in "3000"
+WARNING: Unmatched 3 in "0300"
+WARNING: Unmatched 3 in "0003"
+WARNING: Unmatched 3 in "0030"
+WARNING: Unmatched 3 in "0003"
+WARNING: Unmatched 3 in "0030"
+WARNING: Unmatched 3 in "1003"
+WARNING: Unmatched 3 in "0031"
+WARNING: Unmatched 3 in "0310"
+WARNING: Unmatched 3 in "0003"
+WARNING: Unmatched 3 in "0030"
+WARNING: Unmatched 3 in "0003"
+WARNING: Unmatched 3 in "0030"
+WARNING: Unmatched 3 in "0300"
+WARNING: Unmatched 3 in "0003"
+WARNING: Video renderer list has been changed from 'opengl' to 'null'
+Video renderers: 'null'
+Null Fullscreen 0x0 0 color 32 texture 0Hz NoVsync SmoothLines
+LinuxEvent: Couldn't open /dev/input/event0: Permission denied.
+LinuxEvent: Couldn't open /dev/input/event1: Permission denied.
+LinuxEvent: Couldn't open /dev/input/event3: Permission denied.
+LinuxEvent: Couldn't open /dev/input/event2: Permission denied.
+WARNING: Unexpected frame trying to display! display_frame_num_ = 0, packet_num = 100
+Mixing underruns: 22
+Players joined: P1
+Top Screen: ScreenGameplay
+Language: C.
+Current renderer: null
+Theme: itgmania-harness
+
+Partial log:
+02:42.448: Audio position mismatch: frame 7163993 outside buffered range (normal during start/stop)
+02:42.468: saving stats and high scores
+02:42.468: done saving stats and high scores
+02:42.468: Adding stats to machine profile...
+02:42.468: Adding stats to player profile...
+02:42.469: ScreenGameplay::~ScreenGameplay()
+02:42.469: MemoryCardManager::UnPauseMountingThread
+02:42.469: not stopping a sound because it's not playing
+02:42.469: not stopping a sound because it's not playing
+02:42.469: not stopping a sound because it's not playing
+
+-- End of report

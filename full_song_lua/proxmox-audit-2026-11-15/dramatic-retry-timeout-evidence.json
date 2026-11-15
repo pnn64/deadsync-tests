@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-11-15T18:55:40.483745+00:00",
+  "partial_file": "tmp/itgmania-harness-rs/song-lua-27741-1794767084889488676-0/Save/itgmania-harness/new.song-lua-trace.json.events.new",
+  "bytes": 7568493416,
+  "last_recorded_sequence": 19998611,
+  "last_recorded_song_seconds": 43.42433166503906,
+  "capture_log": "error: ITGmania song Lua semantic trace failed: ITGmania did not write a semantic trace within 1800.0 seconds; inspect /opt/song-lua-audit/results/82dbf1390bb50291-large/tmp/itgmania-harness-rs/song-lua-27741-1794767084889488676-0/Logs/log.txt; retained run directory /opt/song-lua-audit/results/82dbf1390bb50291-large/tmp/itgmania-harness-rs/song-lua-27741-1794767084889488676-0\n",
+  "service_log": "2026-11-15T18:24:44+00:00 deadsync-lua-04 systemd[1]: Started lua-audit-82dbf1390bb50291-large-capture.service - /opt/song-lua-audit/bin/itgmania-harness-rs song-lua-trace \"/opt/song-lua-audit/Songs/A Dramatic Irony/A Dramatic Irony.ssc\" --itgmania-bin /opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --style single --until-gameplay-end --capture-fps 60 --max-events 20000000 --timeout 1800 --out /opt/song-lua-audit/results/82dbf1390bb50291-large/traces/native.json --difficulty Challenge.\n2026-11-15T18:54:44+00:00 deadsync-lua-04 systemd[1]: lua-audit-82dbf1390bb50291-large-capture.service: Main process exited, code=exited, status=1/FAILURE\n2026-11-15T18:54:44+00:00 deadsync-lua-04 systemd[1]: lua-audit-82dbf1390bb50291-large-capture.service: Failed with result 'exit-code'.\n2026-11-15T18:54:44+00:00 deadsync-lua-04 systemd[1]: lua-audit-82dbf1390bb50291-large-capture.service: Consumed 30min 6.866s CPU time, 1.8M memory peak, 0B memory swap peak.\n",
+  "complete_trace": false
+}

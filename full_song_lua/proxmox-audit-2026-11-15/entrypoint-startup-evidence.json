@@ -1,0 +1,414 @@
+[
+  {
+    "id": "entrypoint-05f550917c3e16a7",
+    "primary_id": "05f550917c3e16a7",
+    "source_simfile": "cards/sm.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-060dd2e43146562d",
+    "primary_id": "060dd2e43146562d",
+    "source_simfile": "Wobbpotato [Blue Shift Phase 1]/wobbpotato.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-07ac78a6da76a5b5",
+    "primary_id": "07ac78a6da76a5b5",
+    "source_simfile": "Waiting/Waiting.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-106fc438f82f1926",
+    "primary_id": "106fc438f82f1926",
+    "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-11205e6997187207",
+    "primary_id": "11205e6997187207",
+    "source_simfile": "Ascendanz/Ascendanz.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-12e625ce625e261a",
+    "primary_id": "12e625ce625e261a",
+    "source_simfile": "Loyal Divide [TaroNuke]/Loyal Divide.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-18ce02683c733e00",
+    "primary_id": "18ce02683c733e00",
+    "source_simfile": "I Really Like You [dbk2]/I Really Like You.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-206471d331202435",
+    "primary_id": "206471d331202435",
+    "source_simfile": "mawaru1/mawaru.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-273170f92248917b",
+    "primary_id": "273170f92248917b",
+    "source_simfile": "Cat Hack/Cat Hacks.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-3793287dc1cc7dd5",
+    "primary_id": "3793287dc1cc7dd5",
+    "source_simfile": "Cat Hack/Cat Hacks.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-38602f3b4c159b26",
+    "primary_id": "38602f3b4c159b26",
+    "source_simfile": "the fresh prince of bel air (razihel remix)/steps.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-3bd84fe8e4f26966",
+    "primary_id": "3bd84fe8e4f26966",
+    "source_simfile": "Fortuna Redux - [Zaia]/Fortuna Redux.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-53da0d7a82127af7",
+    "primary_id": "53da0d7a82127af7",
+    "source_simfile": "Rayc Fire 2/Rayc Fire 2.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-5996cb1bf517a580",
+    "primary_id": "5996cb1bf517a580",
+    "source_simfile": "Potion [Flood_]/Shisui Michiru - Potion (Cut Ver).sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-5a998294ae8b6156",
+    "primary_id": "5a998294ae8b6156",
+    "source_simfile": "Rayc Fire 2/Rayc Fire 2.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-5be5d671acef02e8",
+    "primary_id": "5be5d671acef02e8",
+    "source_simfile": "Ztar Trek/steps.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-5e06cad06be50156",
+    "primary_id": "5e06cad06be50156",
+    "source_simfile": "cards/sm.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-78332255bc11a219",
+    "primary_id": "78332255bc11a219",
+    "source_simfile": "Midnight Madness/midnight.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-78f10d924a8b9bd9",
+    "primary_id": "78f10d924a8b9bd9",
+    "source_simfile": "Number 9/1556 - Number 9.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-8bbbbd0a227889ec",
+    "primary_id": "8bbbbd0a227889ec",
+    "source_simfile": "Lots of Spices - [tari]/spices.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-8e2cc50f6bd76919",
+    "primary_id": "8e2cc50f6bd76919",
+    "source_simfile": "Bank Account/Bank Account.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-9a17ba96ce6150bd",
+    "primary_id": "9a17ba96ce6150bd",
+    "source_simfile": "assgore/goatdad.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-9bb480a1fda3b13d",
+    "primary_id": "9bb480a1fda3b13d",
+    "source_simfile": "OK/OK.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-9ceaae2441fe1203",
+    "primary_id": "9ceaae2441fe1203",
+    "source_simfile": "Oil Ocean Act 2/steps.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-9e59effe9cf00022",
+    "primary_id": "9e59effe9cf00022",
+    "source_simfile": "Crab Nicholson Extreme Sleepover/Crab Nicholson Extreme Sleepover.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-9e5cb2c801c247a3",
+    "primary_id": "9e5cb2c801c247a3",
+    "source_simfile": "[12] Ascendanz/Ascendanz.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-a760ce2ddf9433d4",
+    "primary_id": "a760ce2ddf9433d4",
+    "source_simfile": "If You Crump Stand Up/crump.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-bd08439da170a94d",
+    "primary_id": "bd08439da170a94d",
+    "source_simfile": "No Role Modelz/No Role Modelz.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-c470f90cddf5720c",
+    "primary_id": "c470f90cddf5720c",
+    "source_simfile": "Longinus - [Zaia]/Longinus.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-c893672a26e2b70c",
+    "primary_id": "c893672a26e2b70c",
+    "source_simfile": "Sequential Dreambox - [Zaia]/Sequential Dreambox.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": [
+      "/////////////////////////////////////////",
+      "00:02.220: WARNING: Lua runtime error: /Songs/Harness/Probe/lua/FastEnd.lua:47: '<eof>' expected near 'local'",
+      "/////////////////////////////////////////"
+    ]
+  },
+  {
+    "id": "entrypoint-ce08596ced8c1a82",
+    "primary_id": "ce08596ced8c1a82",
+    "source_simfile": "Vanishing Point - [Zaia][FX]/Vanishing Point.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-f491b527eed47496",
+    "primary_id": "f491b527eed47496",
+    "source_simfile": "Vector Field/Vector Field.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-f7a2bad131d8842f",
+    "primary_id": "f7a2bad131d8842f",
+    "source_simfile": "Wobbpotato [Egg Carton 3]/wobbpotato.ssc",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  },
+  {
+    "id": "entrypoint-f996111c68150ced",
+    "primary_id": "f996111c68150ced",
+    "source_simfile": "Over the Top - [Zaia][FX]/Over the Top.sm",
+    "capture_exit": 0,
+    "preferences": {
+      "EventMode": "1",
+      "QuirksMode": "0",
+      "VideoRenderers": "null"
+    },
+    "song_diagnostics": []
+  }
+]

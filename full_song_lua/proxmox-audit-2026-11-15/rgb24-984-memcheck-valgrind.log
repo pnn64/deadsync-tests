@@ -1,0 +1,44 @@
+==14991== Memcheck, a memory error detector
+==14991== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==14991== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==14991== Command: /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace --game=dance --theme=itgmania-harness
+==14991== Parent PID: 1
+==14991== 
+==14991== Invalid write of size 8
+==14991==    at 0x18557F6: ??? (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x12CD59BF: ???
+==14991==    by 0x12D03CBF: ???
+==14991==  Address 0x1238e290 is 0 bytes after a block of size 2,125,440 alloc'd
+==14991==    at 0x48485C3: operator new[](unsigned long) (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14991==    by 0x8B0A23: CreateSurface(int, int, int, unsigned int, unsigned int, unsigned int, unsigned int) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x6301E1: RageMovieTextureDriver_FFMpeg::AVCodecCreateCompatibleSurface(int, int, bool, int&, MovieDecoderPixelFormatYCbCr&) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x63033D: MovieDecoder_FFMpeg::CreateCompatibleSurface(int, int, bool, MovieDecoderPixelFormatYCbCr&) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x633990: MovieTexture_Generic::CreateTexture() (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x6346BF: MovieTexture_Generic::Init[abi:cxx11]() (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x631037: RageMovieTextureDriver_FFMpeg::Create(RageTextureID, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x62E406: RageMovieTexture::Create(RageTextureID) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x8C6462: RageTextureManager::LoadTextureInternal(RageTextureID) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x8C6946: RageTextureManager::LoadTexture(RageTextureID) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x502B5F: Sprite::LoadFromTexture(RageTextureID) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x502E65: Sprite::Load(RageTextureID) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x5DB262: Banner::Load(RageTextureID, bool) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x5DD51F: Banner::LoadFromSong(Song*) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x5E3252: LunaBanner::LoadFromSong(Banner*, lua_State*) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0xB4FBBA: luaD_precall (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0xB610E9: luaV_execute (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0xB5023C: luaD_call (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0xB4F4B2: luaD_rawrunprotected (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0xB504BF: luaD_pcall (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0xB4872A: lua_pcall (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x41E767: LuaHelpers::RunScriptOnStack(lua_State*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int, int, bool) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0xABABAF: Actor::RunCommands(LuaReference const&, LuaReference const*) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x43556D: MessageManager::Broadcast(Message&) const (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x4357B7: MessageManager::Broadcast(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x9268FD: ScreenGameplay::LoadNextSong() (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x930B91: ScreenGameplay::Init() (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0x9399F7: CreateScreenGameplayNormal(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0xAA2F91: ScreenManager::MakeNewScreen(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991==    by 0xAA491A: ScreenManager::PrepareScreen(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /opt/song-lua-audit/results/rgb24-984-memcheck/stage/ITGmania-harness-trace)
+==14991== 
+==14991== 
+==14991== Exit program on first error (--exit-on-first-error=yes)

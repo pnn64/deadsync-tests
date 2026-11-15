@@ -1,0 +1,206 @@
+[
+  {
+    "id": "coverage-106fc438f82f1926",
+    "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+    "title": "Kita Saitama 2000",
+    "simfile_sha256": "c5e17e8777a3fe392638dfae654ae7c7649c4312c73e444fd7a777d599de8b60",
+    "style": "versus",
+    "difficulty": "Difficulty_Challenge",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1200,
+    "replay_timeout": 2400,
+    "selection_basis": "Supplemental profile to exercise an authored chart/player guard",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+      "previous_archive": "b2ef051cb9f03c73c2b4631fdd96d444f06afb81cb101c73fbda3a637c936f60.tar.zst",
+      "title": "Kita Saitama 2000",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 120.0,
+    "song_folder_bytes": 2447650,
+    "worker": "large",
+    "primary_id": "106fc438f82f1926"
+  },
+  {
+    "id": "coverage-f7a2bad131d8842f",
+    "source_simfile": "Wobbpotato [Egg Carton 3]/wobbpotato.ssc",
+    "title": "Wobbpotato",
+    "simfile_sha256": "b401ffe8880d652b2da8c5347cbf8db01be52038899e6c19b80ab748e93ae5aa",
+    "style": "single",
+    "difficulty": "Difficulty_Edit",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1200,
+    "replay_timeout": 2400,
+    "selection_basis": "Supplemental profile to exercise an authored chart/player guard",
+    "available_charts": [
+      [
+        "dance-single",
+        "Beginner"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "Wobbpotato [Egg Carton 3]/wobbpotato.ssc",
+      "previous_archive": "07341d3d29285f3066284d00fcf4956eec0ae486ab01bf0b317be91edbda7c1b.tar.zst",
+      "title": "Wobbpotato",
+      "previous_execution": "native_gameplay",
+      "style": "single",
+      "difficulty": "Difficulty_Challenge",
+      "steps_type": "StepsType_Dance_Single",
+      "game_mode": "ITG"
+    },
+    "estimated_song_seconds": 102.9,
+    "song_folder_bytes": 3793944,
+    "worker": "large",
+    "primary_id": "f7a2bad131d8842f"
+  },
+  {
+    "id": "coverage-5e06cad06be50156",
+    "source_simfile": "cards/sm.sm",
+    "title": "Cardstone",
+    "simfile_sha256": "93e30a19f7dddf50af257f3398fd7211895ec94d8bdb050a822c9c7afa686a6a",
+    "style": "versus",
+    "difficulty": "Difficulty_Hard",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1200,
+    "replay_timeout": 2400,
+    "selection_basis": "Supplemental profile to exercise an authored chart/player guard",
+    "available_charts": [
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "cards/sm.sm",
+      "previous_archive": "bc49b78df2ac37878f512689bc65ede287386ae29d08313dd1e4e6396b2b1f80.tar.zst",
+      "title": "Cardstone",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 247.3,
+    "song_folder_bytes": 4694078,
+    "worker": "large",
+    "primary_id": "5e06cad06be50156"
+  },
+  {
+    "id": "coverage-05f550917c3e16a7",
+    "source_simfile": "cards/sm.ssc",
+    "title": "Cardstone",
+    "simfile_sha256": "a83968520d8552264575bb991ef6b14d0eb6ee5dc11e0743b8eae521ab23fd8b",
+    "style": "versus",
+    "difficulty": "Difficulty_Hard",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 6000000,
+    "capture_timeout": 1200,
+    "replay_timeout": 2400,
+    "selection_basis": "Supplemental profile to exercise an authored chart/player guard",
+    "available_charts": [
+      [
+        "dance-single",
+        "Easy"
+      ],
+      [
+        "dance-single",
+        "Medium"
+      ],
+      [
+        "dance-single",
+        "Hard"
+      ],
+      [
+        "dance-single",
+        "Challenge"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ],
+      [
+        "dance-single",
+        "Edit"
+      ]
+    ],
+    "previous_context": {
+      "source_simfile": "cards/sm.ssc",
+      "previous_archive": "1bbb22ea2eada323cc7a3814b60adcedaad2474e0a7e73c9942e64467abcfd83.tar.zst",
+      "title": "Cardstone",
+      "previous_execution": "embedded_bundled_lua"
+    },
+    "estimated_song_seconds": 209.1,
+    "song_folder_bytes": 4694078,
+    "worker": "large",
+    "primary_id": "05f550917c3e16a7"
+  }
+]

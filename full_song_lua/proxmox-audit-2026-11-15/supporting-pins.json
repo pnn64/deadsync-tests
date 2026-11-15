@@ -1,0 +1,13 @@
+{
+  "deadsync_tests": {
+    "revision": "e798b5f5453b8b6fb2635da9b20094d77fa7bc1c",
+    "basis": "gitlink tests/fixtures in the pinned DeadSync commit"
+  },
+  "rssp_core": {
+    "version": "0.4.290",
+    "source": "git+https://github.com/pnn64/rssp?branch=main#da616e3aef6dada87eab30d44164e526c51deafe",
+    "basis": "Cargo.lock in the pinned DeadSync commit"
+  },
+  "cargo_lock_sha256": "2126d4d547ba05c76c93175d5ea9a8ab3cab94184db23387c8071b5ef0a8432b",
+  "actual_fixture_support_manifest_sha256": "33186e5ab65cfcadc936f8d63564613a39be05912965be32221392990bbc697c"
+}

@@ -1,0 +1,325 @@
+# Song Lua parity audit
+
+Complete audit. 503 of 503 simfiles have terminal results. 444 pass the implemented comparisons; 59 currently fail or lack a complete comparison.
+
+Tested baseline: DeadSync `959b8b04d5078be603478e4459938ac37f9e39fd`, harness `00f50340b5edda2a54dcdf78e38d4f9079a561da`, native ITGmania `5c737928d93778c2c9f68e276052b220b43a468f`. Later local commits and worktree edits are outside this audit. Test-repository and RSSP dependency pins are in [supporting-pins.json](supporting-pins.json).
+
+Every case attempts a fresh native gameplay capture from the pinned harness and ITGmania source. Captures become comparison fixtures only after passing the harness completion and recorded-error checks; the missed native load error documented below demonstrates a limit in those checks. The scope is 503 simfiles in 406 song directories containing 1,720 Lua files. One selected chart and style is tested per simfile, preserving the previous native profile where recorded; this does not enumerate every chart or interactive branch. Supplemental controls use separately recorded profiles and do not change the 503-case totals.
+
+The 15 main VMs start with two CPUs and 8 GiB each. A temporary two-CPU, 32 GiB VM retries oversized traces; workers 04 and 12 are promoted to 32 GiB after their primary shards to recapture the two long ArrowQuest cases, and worker 05 shares the remaining large recaptures. Native updates are paced at a maximum of 60 FPS with automatic Lua GC and run until gameplay exit. Failed attempts and resource/dependency retries remain in the evidence. No product-source patches are included.
+
+Audit adjustments: external ffprobe/ffmpeg were initially missing from the guest image. Every replay started before their installation was repeated, including initial passes. My Penny received a fresh infrastructure retry after installing the debugger unexpectedly restarted its worker; the original attempt and restart evidence are retained. Subsequent debugger installs suppress service restarts. Native processes were ended early only after a symbolized stack confirmed an allocator abort followed by a deadlocked crash handler, with the stack and termination receipt preserved. These adjustments do not change the pinned product binaries.
+
+A pass means full replay of implemented diagnostic comparisons. Production preparation and complete rendering parity remain unproven. **34 primary passes have no captured actor definitions, including 26 with zero compared Lua calls.** Missing entrypoints, legacy XML, chart/player/calendar guards and construction-only scripts are detailed in [entrypoint coverage](entrypoint-coverage.md), with fresh startup logs and supplemental guarded-profile results. [Comparison coverage](coverage-summary.md) lists observed operations and drawable state still lacking direct comparisons, with per-case details in [coverage-gaps.json](coverage-gaps.json).
+
+| Result | Cases |
+| --- | ---: |
+| capture_observation_limit | 2 |
+| capture_resource_limit | 1 |
+| capture_timeout | 3 |
+| native_capture_error | 1 |
+| native_crash | 3 |
+| native_crash_handler_hang | 8 |
+| native_lua_error | 5 |
+| no_selectable_chart | 1 |
+| parity_failure | 27 |
+| pass | 444 |
+| replay_error | 2 |
+| replay_resource_limit | 6 |
+
+## Supplemental guarded profiles
+
+Fresh full-song runs activate mods skipped by the inherited primary profile. These results are additional to the 503-case totals; failures remain actionable even when the primary profile passed. Full evidence is in [supplemental-diagnostics.json](supplemental-diagnostics.json).
+
+| Song | Profile | Result | Mismatches | Missing behavior or evidence |
+| --- | --- | --- | ---: | --- |
+| cards/sm.ssc | versus, Difficulty_Hard | pass | 0 |  |
+| Kita Saitama 2000/Kita Saitama 2000.ssc | versus, Difficulty_Challenge | parity_failure | 12434 | [getaux observer kind](#getaux-observer-kind) |
+| cards/sm.sm | versus, Difficulty_Hard | pass | 0 |  |
+| Wobbpotato [Egg Carton 3]/wobbpotato.ssc | single, Difficulty_Edit | pass | 0 |  |
+
+## Current failures
+
+Each row identifies the simfile, its final comparison status, and the behavior or evidence still missing. Complete observed values, source locations, limits and retry histories are in [failure-details.json](failure-details.json).
+
+| Case | Song simfile | Status | Mismatches | Missing behavior or evidence |
+| --- | --- | --- | ---: | --- |
+| `d007bb219d9d393a` | 242-MISC.[lv.02] ChikuTaku/ChikuTaku.ssc | native_lua_error | - | [chikutaku missing musicrate](#chikutaku-missing-musicrate) |
+| `935b7152e8f43749` | 274-MODS-[lv.04] SAIKYOU STRONGER/REDALiCE_vs_USAO_-_STRONGER.ssc | parity_failure | 7960 | [getaux observer kind](#getaux-observer-kind) |
+| `67053c6979c0becb` | 308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm | capture_observation_limit | - | [arrowquest observation budget](#arrowquest-observation-budget) |
+| `85aa930d114b2262` | 308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm | capture_observation_limit | - | [arrowquest observation budget](#arrowquest-observation-budget) |
+| `d3aa73c0f2f94a22` | 99+ [-YOSEFU-]/99+.ssc | parity_failure | 34885 | [getaux observer kind](#getaux-observer-kind) |
+| `a170dd312f720cd4` | [11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc | parity_failure | 7 | [kenpo same frame node order](#kenpo-same-frame-node-order) |
+| `2bb9c0a9995617ac` | [FULL SONG] ChikuTaku [wrsw]/ChikuTaku.ssc | native_lua_error | - | [chikutaku missing musicrate](#chikutaku-missing-musicrate) |
+| `82dbf1390bb50291` | A Dramatic Irony/A Dramatic Irony.ssc | capture_timeout | - | [dramatic self queued observation volume](#dramatic-self-queued-observation-volume) |
+| `fbe89f6bae9565a6` | After Dark/After Dark.ssc | parity_failure | 1650 | [player descendant tween state](#player-descendant-tween-state) |
+| `7c462fc586e600b3` | Anxiety/Anxiety.sm | replay_error | - | [join player reload state](#join-player-reload-state) |
+| `3effbc28e93b70bc` | Anxiety/Anxiety.ssc | replay_error | - | [join player reload state](#join-player-reload-state) |
+| `a5df4e3b38df280f` | Anzu no Uta (U.P.S.)/Anzu no Uta.sm | parity_failure | 195409 | [initial effect clock state](#initial-effect-clock-state) |
+| `ba1dd6297cd6aae0` | Apollo/Apollo.sm | parity_failure | 31 | [player descendant tween state](#player-descendant-tween-state) |
+| `ccab525f9b554b84` | Apollo/Apollo.ssc | parity_failure | 58 | [player descendant tween state](#player-descendant-tween-state) |
+| `94e45bc78c33fb2c` | Bad Apple!!/Bad Apple!!.sm | parity_failure | 4 | [player options return identity](#player-options-return-identity) |
+| `001abcd0e01187de` | Bank Account/Bank Account.ssc | native_lua_error | - | [bank account player presence](#bank-account-player-presence) |
+| `4295240e49b7f6c2` | BBKKBKK [UPS 4]/BBKKBKK.ssc | native_crash_handler_hang | - | [native video heap crash handler hang](#native-video-heap-crash-handler-hang); [native rgb24 surface overrun](#native-rgb24-surface-overrun) |
+| `91cfdcfe801f2621` | Brain Power - [Cardboard Box]/Brain Power.sm | parity_failure | 6 | [background default source case](#background-default-source-case) |
+| `83441ecafa3cfba6` | Brain Power - [Cardboard Box]/Brain Power.ssc | parity_failure | 6 | [background default source case](#background-default-source-case) |
+| `aa110bbb4b97b8a4` | Cloud99 (As Above Mix)/Song.ssc | parity_failure | 71286 | [getaux observer kind](#getaux-observer-kind) |
+| `ade709b3e4efeb3a` | Crazy Crazy/Crazy Crazy.ssc | parity_failure | 261930 | [getaux observer kind](#getaux-observer-kind) |
+| `10fe9862c1cf88c3` | Cuphead [TaroNuke]/botanic.sm | replay_resource_limit | - | [full trace memory scaling](#full-trace-memory-scaling); Completing replay still exceeds its 26G memory / observation budget. A larger budget or streaming trace processing is needed before a parity verdict; see retained attempt limits and logs. |
+| `cf1c3df5d6e9f28b` | Cursed Metamorph - [Zaia]/saved/Cursed Metamorph.ssc | native_capture_error | - | [saved chart missing music](#saved-chart-missing-music) |
+| `5a130a6b5626f565` | Cyberpunk 2077/Cyberpunk 2077.ssc | native_crash | - | [native rgb24 surface overrun](#native-rgb24-surface-overrun) |
+| `7666d9897cac1286` | DREAMING-ING!!/DREAMING-ING!!.ssc | parity_failure | 381280 | [getaux observer kind](#getaux-observer-kind) |
+| `798ceb1db0a936b4` | Dreams Bloom After School/Dreams Bloom After School.ssc | parity_failure | 2247 | [getaux observer kind](#getaux-observer-kind) |
+| `3f7a546d6574982b` | DS ULTIMATE LUA TEST/DS ULTIMATE LUA TEST.sm | parity_failure | 1163 | [ultimate subscriber identity](#ultimate-subscriber-identity); [ultimate early failed state](#ultimate-early-failed-state) |
+| `e115c0f3019c18b4` | fof_guys/fof.ssc | capture_resource_limit | - | [full trace memory scaling](#full-trace-memory-scaling); Completing capture still exceeds its 26G memory / observation budget. A larger budget or streaming trace processing is needed before a parity verdict; see retained attempt limits and logs. |
+| `bbd73a8be292d1aa` | Get Into It/GetIntoIt.sm | parity_failure | 8 | [getintoit subscriber identity](#getintoit-subscriber-identity) |
+| `5e922ad5ae24e720` | Get Into It/GetIntoIt.ssc | parity_failure | 8 | [getintoit subscriber identity](#getintoit-subscriber-identity) |
+| `715ba44e314f2f6e` | Happiness/Happiness.ssc | native_lua_error | - | [happiness exhausted break table](#happiness-exhausted-break-table) |
+| `e870bbfb00099d8e` | Happy Now Remastered/Happy Now.sm | native_crash_handler_hang | - | [native video heap crash handler hang](#native-video-heap-crash-handler-hang); [native rgb24 surface overrun](#native-rgb24-surface-overrun) |
+| `c3aff14ffb37944f` | Happy Now Remastered/Happy Now.ssc | native_crash_handler_hang | - | [native video heap crash handler hang](#native-video-heap-crash-handler-hang); [native rgb24 surface overrun](#native-rgb24-surface-overrun) |
+| `e42e22ef486a712f` | Happy Now/Happy Now.sm | native_crash_handler_hang | - | [native video heap crash handler hang](#native-video-heap-crash-handler-hang); [native rgb24 surface overrun](#native-rgb24-surface-overrun) |
+| `648cae001699309d` | Happy Now/Happy Now.ssc | native_crash_handler_hang | - | [native video heap crash handler hang](#native-video-heap-crash-handler-hang); [native rgb24 surface overrun](#native-rgb24-surface-overrun) |
+| `00b8031e64c3cf41` | Haxo (Sharks Remix) [sorae]/haxo.ssc | native_lua_error | - | [haxo effectmagnitude arity](#haxo-effectmagnitude-arity) |
+| `131298138770f9dd` | INAZUMA (Gio)/INAZUMA.ssc | native_crash_handler_hang | - | [native video heap crash handler hang](#native-video-heap-crash-handler-hang); [native rgb24 surface overrun](#native-rgb24-surface-overrun) |
+| `beb47e811c5aafd3` | james/james.sm | capture_timeout | - | [james native trace timeout](#james-native-trace-timeout) |
+| `ee72a53d84d7fc88` | james/james.ssc | capture_timeout | - | [james native trace timeout](#james-native-trace-timeout) |
+| `c5080f1c121d14e5` | Lesson by DJ/Lesson by DJ.sm | no_selectable_chart | - | [lesson sm missing notes colon](#lesson-sm-missing-notes-colon) |
+| `7a0708216dd461ad` | mawaru7/mawaru7.sm | replay_resource_limit | - | [full trace memory scaling](#full-trace-memory-scaling); Completing replay still exceeds its 26G memory / observation budget. A larger budget or streaming trace processing is needed before a parity verdict; see retained attempt limits and logs. |
+| `3ed87baea8fc010d` | mawaru8/mawaru8.sm | parity_failure | 179 | [getaux observer kind](#getaux-observer-kind) |
+| `02d24424431a0192` | mawaru9/mawaru9.sm | parity_failure | 213819 | [getaux observer kind](#getaux-observer-kind) |
+| `b8627b23d498bfe5` | Max 300/MAX 300.ssc | parity_failure | 32 | [getaux observer kind](#getaux-observer-kind) |
+| `c3e0c410f04c30dd` | Megalovania SM5 - [TaroNuke]/megalovania.sm | parity_failure | 6 | [player descendant tween state](#player-descendant-tween-state) |
+| `bd062750cefe5be7` | Metronogik/Song.ssc | native_crash | - | [native rgb24 surface overrun](#native-rgb24-surface-overrun) |
+| `9a7dc9dd696c05ad` | mr sandman/mr sandman.sm | replay_resource_limit | - | [full trace memory scaling](#full-trace-memory-scaling); Completing replay still exceeds its 26G memory / observation budget. A larger budget or streaming trace processing is needed before a parity verdict; see retained attempt limits and logs. |
+| `939315314b14098a` | My Penny/My Penny.ssc | native_crash_handler_hang | - | [native video heap crash handler hang](#native-video-heap-crash-handler-hang); [native rgb24 surface overrun](#native-rgb24-surface-overrun) |
+| `272cbdbb21a302b2` | Paint the Town Red/PaintTheTownRed.sm | replay_resource_limit | - | [full trace memory scaling](#full-trace-memory-scaling); Completing replay still exceeds its 26G memory / observation budget. A larger budget or streaming trace processing is needed before a parity verdict; see retained attempt limits and logs. |
+| `6a3e1a6f93bdc9fc` | Paint the Town Red/PaintTheTownRed.ssc | replay_resource_limit | - | [full trace memory scaling](#full-trace-memory-scaling); Completing replay still exceeds its 26G memory / observation budget. A larger budget or streaming trace processing is needed before a parity verdict; see retained attempt limits and logs. |
+| `898f3b171ed333ed` | Quarantine/Quarantine.sm | parity_failure | 23 | [player descendant tween state](#player-descendant-tween-state) |
+| `74d97529575b9032` | Spectrum (Odyssey's Prism Mix) [Telperion]/spectrod.ssc | parity_failure | 1202 | [getaux observer kind](#getaux-observer-kind) |
+| `cdb3faa216e1adfc` | THE WORLD REVOLVING [TaroNuke]/steps.sm | parity_failure | 22306 | [getaux observer kind](#getaux-observer-kind) |
+| `2ac31dad727e6303` | THE WORLD REVOLVING [TaroNuke]/steps.ssc | parity_failure | 22566 | [getaux observer kind](#getaux-observer-kind) |
+| `becedc74eda050de` | Turn A - [Freya]/turn_a.ssc | parity_failure | 17262 | [getaux observer kind](#getaux-observer-kind); [video driver input](#video-driver-input) |
+| `8f4d4741245868cf` | Velvet LEFTS 1/chart.ssc | parity_failure | 16828 | [velvet automatic gc node order](#velvet-automatic-gc-node-order) |
+| `7fa17005f2a1fbae` | What A Wonderful World/WAWW.sm | replay_resource_limit | - | [full trace memory scaling](#full-trace-memory-scaling); Completing replay still exceeds its 26G memory / observation budget. A larger budget or streaming trace processing is needed before a parity verdict; see retained attempt limits and logs. |
+| `ad5a7b90e1897ac2` | Young Dumb And Broke/YDB.sm | native_crash | - | [native rgb24 surface overrun](#native-rgb24-surface-overrun) |
+| `cd3de8f3c03c51bc` | Young Dumb And Broke/YDB.ssc | native_crash_handler_hang | - | [native video heap crash handler hang](#native-video-heap-crash-handler-hang); [native rgb24 surface overrun](#native-rgb24-surface-overrun) |
+
+## Source backed findings
+
+### join player reload state
+
+Owner: deadsync GameState session mutation and gameplay reload. Evidence: missing mutation confirmed in binding; native join and reload confirmed in fresh trace.
+
+Implement JoinPlayer/UnjoinPlayer session state and carry the resulting roster and compatible style into gameplay reload. Anxiety starts single, calls JoinPlayer(P2), then SetNewScreen(ScreenGameplay); native records two scenes with three instantiated actors each and ends in versus style. DeadSync's JoinPlayer binding only records a side effect and returns true, leaving enabled-player metadata unchanged. Replay aborts with 'native scene has no instantiated actor root'; the native trace does contain roots for both recorded scenes.
+
+Source locations: `crates/deadsync-song-lua/src/managers/game_state.rs:472`, `itgmania-harness/vendor/itgmania/src/GameState.cpp:378`, `itgmania-harness/vendor/itgmania/src/GameState.cpp:3076`, `tests/song_lua_itgmania_semantic_parity/native_gameplay.rs:4532`, `corpus:Anxiety/lua/default.lua:282`.
+
+### native video heap crash handler hang
+
+Owner: native ITGmania Unix crash reporting / harness diagnostics. Evidence: symbolized live stacks from multiple native captures.
+
+Prevent the Unix crash handler from hanging after an allocator abort. Happy Now, Happy Now Remastered and Young Dumb And Broke block in RunCrashHandler -> fork -> __malloc_fork_lock_parent after video-related heap corruption. Their eventual timeout conceals the native crash. Also retain /tmp/crashinfo.txt when HOME is absent (or $HOME/crashinfo.txt otherwise). See native-rgb24-surface-overrun for the independently reproduced corrupting write; these are native capture blockers, not DeadSync parity mismatches.
+
+Source locations: `itgmania-harness/vendor/itgmania/src/archutils/Unix/CrashHandler.cpp:292`, `itgmania-harness/vendor/itgmania/src/archutils/Unix/CrashHandlerChild.cpp:189`, `itgmania-harness/src/song_lua_runtime.rs:256`, `audit:happy-now-gdb.log`, `audit:happy-now-remastered-gdb.log`.
+
+### background default source case
+
+Owner: deadsync background Lua source identity. Evidence: all six Brain Power mismatches are source-name casing; source resolution confirms the difference.
+
+Preserve the logical source spelling used by native directory loading for background entries. Brain Power's native events identify song:/bg/default.lua, while DeadSync identifies the same file as song:/bg/Default.lua. Native ActorUtil appends lowercase /default.lua; SongLayerPlan synthesizes that logical source for named foreground entries but uses the resolved physical path for background entries. The observed command arguments, clocks and tween values match; command begin/end argument-array representation is not compared by this comparator.
+
+Source locations: `itgmania-harness/vendor/itgmania/src/ActorUtil.cpp:113`, `crates/deadsync-song-lua/src/song_layers.rs:65`, `tests/song_lua_itgmania_semantic_parity/native_gameplay.rs:305`, `tests/song_lua_itgmania_semantic_parity/native_gameplay.rs:327`.
+
+### getaux observer kind
+
+Owner: deadsync diagnostic observer. Evidence: confirmed by capture and source.
+
+Classify lowercase getter names consistently with the native observer. Actor.getaux returns the same numbers but is recorded as a call instead of a query.
+
+Source locations: `crates/deadsync-song-lua/src/actors/live_trace.rs:272`, `itgmania-harness/probe_theme/SongLuaTrace.lua:700`, `itgmania-harness/vendor/itgmania/src/Actor.cpp:1884`.
+
+### video driver input
+
+Owner: itgmania-harness capture input snapshot / replay context. Evidence: confirmed missing input.
+
+Capture LastSeenVideoDriver as an initial preference. Native Linux capture uses OpenGL; the replay context defaults to an empty string because the trace lacks last_seen_video_driver. The expectation must not be copied from a later query observation.
+
+Source locations: `itgmania-harness/src/song_lua_runtime.rs:493`, `itgmania-harness/probe_theme/SongLuaTrace.lua:1236`, `tests/song_lua_itgmania_semantic_parity/native_gameplay.rs:4386`, `crates/deadsync-song-lua/src/managers/preferences.rs:173`.
+
+### chikutaku missing musicrate
+
+Owner: authored song input / required theme context. Evidence: confirmed native Lua error; no assignment found in song Lua.
+
+The song passes the undefined global musicrate to Sprite:rate(). Native _fallback/Scripts/02 Sprite.lua rejects nil; a valid authored value or documented theme-provided input is required before a full parity comparison can run.
+
+Source locations: `corpus:242-MISC.[lv.02] ChikuTaku/lua/default.lua:723`, `itgmania-harness/vendor/itgmania/Themes/_fallback/Scripts/02 Sprite.lua:59`.
+
+### player descendant tween state
+
+Owner: deadsync gameplay feedback / actor timing; exact trigger unresolved. Evidence: full mismatch scans identify descendant feedback timers; exact triggering state/timing difference remains unresolved.
+
+Keep native descendant tween state at the authored callback boundary. Megalovania's PlayerP1 calls report native Judgment subtree time 0.6483519673 versus DeadSync 0.9000000358 at 124.279067993 seconds. Apollo SM has 31 differing calls over 22 callback timestamps; its first native PlayerP1 tween time is 0.8 versus 0.0. Apollo SSC has 58 calls over 47 timestamps. After Dark has 1,650 calls over 330 timestamps: native HoldJudgment time is 0.8 while DeadSync's maximum is the ordinary judgment's 0.3158079982. Quarantine SM adds 23 PlayerP1 x calls with matching positions but different remaining tween time, first native 0.7726730108 versus replay 0.8000000119 at 172.9204101563 seconds. Native ActorFrame::GetTweenTimeLeft includes descendant timers, so identical authored call arguments can still expose different HUD state. DeadSync already implements hold-feedback and judgment tweens; the missing/late feedback update or aging trigger still needs a reduced reproduction. Quarantine SSC passes its separately captured clock sequence, so do not infer a guaranteed failure under every native schedule.
+
+Source locations: `itgmania-harness/vendor/itgmania/src/ActorFrame.cpp:500`, `crates/deadsync-song-lua/src/actors/live_feedback.rs:91`, `crates/deadsync-song-lua/src/actors/live_feedback.rs:190`, `crates/deadsync-song-lua/src/actors/live_feedback.rs:257`, `audit:feedback-tween-frames.json`.
+
+### player options return identity
+
+Owner: itgmania-harness observation identity / comparator contract. Evidence: native binding and trace evidence support missing returned-userdata identity.
+
+Retain player and modifier-level identity for PlayerOptions returned by chained native setters. Bad Apple's Boost/Reverse chained results contain only type=PlayerOptions in native, while DeadSync also retains the player/options path. Native PushSelf allocates a new userdata wrapper and assign_result_path currently assigns paths for GetPlayerOptions, not modifier return values.
+
+Source locations: `itgmania-harness/vendor/itgmania/src/LuaBinding.h:151`, `itgmania-harness/vendor/itgmania/src/LuaBinding.h:191`, `itgmania-harness/probe_theme/SongLuaTrace.lua:735`, `itgmania-harness/probe_theme/SongLuaTrace.lua:771`.
+
+### native rgb24 surface overrun
+
+Owner: native ITGmania RageSurface / bundled FFmpeg 5.1.8 output buffer contract. Evidence: first invalid write confirmed with unchanged binary under Valgrind; multiple source movie inputs reproduce.
+
+Provide a correctly padded/aligned destination for native movie RGB24 conversion, or correct the converter's width handling. Valgrind catches ff_yuv_420_rgb24_ssse3 writing immediately past a 3,290,496-byte RageSurface for Metronogik's 1672x656 banner. The FFmpeg wrapper rounds width to 8 pixels (backing off if stride is too small), while this SSSE3 loop writes 16 pixels per iteration; widths congruent to 8 modulo 16 overrun the final tightly allocated row by 24 bytes. Isolated decoder controls using Happy Now's 408x306 Darkness1.mp4 and Young Dumb And Broke's 984x720 VHS.mp4 reproduce the same instruction beyond allocations of 374,544 and 2,125,440 bytes. Cyberpunk 2077's 1116x416 banner also overruns its 1,392,768-byte surface in the next SSSE3 store (12 extra bytes from the final 16-pixel group). BBKKBKK [UPS 4]'s 1050x608 video also overruns its 1,915,200-byte surface (18 bytes from the final group). My Penny's 360x640 bn.avi reproduces the same instruction immediately after its 691,200-byte surface (24 extra bytes). INAZUMA's 360x360 thunder.mp4 independently reproduces the same instruction immediately after its 388,800-byte surface (24 extra bytes). These controls replace only the banner in a staging copy and are not whole-song verdicts. Later audio/video frees expose the corrupted heap. A future fix still needs full native recaptures to prove these original crash cases resolved.
+
+Source locations: `itgmania-harness/vendor/itgmania/src/RageSurface.cpp:234`, `itgmania-harness/vendor/itgmania/src/arch/MovieTexture/MovieTexture_FFMpeg.cpp:473`, `native-build:extern/ffmpeg/libswscale/x86/yuv2rgb_template.c:29`, `native-build:extern/ffmpeg/libswscale/x86/yuv_2_rgb.asm`, `audit:video-overrun-evidence.json`, `audit:bd062750cefe5be7-memcheck1-valgrind.log`, `audit:rgb24-408-memcheck-valgrind.log`, `audit:rgb24-984-memcheck-valgrind.log`, `audit:rgb24-cyberpunk-memcheck-valgrind.log`, `audit:rgb24-bbkkbkk-memcheck-valgrind.log`, `audit:rgb24-my-penny-memcheck-valgrind.log`, `audit:rgb24-inazuma-memcheck-valgrind.log`.
+
+### ultimate subscriber identity
+
+Owner: harness / replay subscriber identity mapping. Evidence: fresh trace and missing-identity diagnostics; mapping defect not yet isolated.
+
+Capture and resolve stable subscriber identities across the song's multiple background and foreground trees. DS ULTIMATE LUA TEST first diverges at 0.0682993233 seconds: native CurtainMessage starts in notefield-chaos.lua:262, while replay starts in background.lua:66. Replay reports many missing captured subscriber paths. Native MessageManager iterates subscribers by pointer identity; the diagnostic replay imports native ranks for known paths and otherwise falls back to VM identities. Therefore the subsequent positional command mismatches cannot all be treated as independent Lua semantic bugs. Isolate the missing root/child path mapping before interpreting the cascaded tween and operation differences.
+
+Source locations: `itgmania-harness/vendor/itgmania/src/MessageManager.cpp:96`, `itgmania-harness/vendor/itgmania/src/MessageManager.cpp:206`, `crates/deadsync-song-lua/src/actors/messages.rs:185`, `crates/deadsync-song-lua/src/actors/live_visuals.rs:309`, `audit:ultimate-first-mismatches.json`.
+
+### ultimate early failed state
+
+Owner: RSSP note-row parsing / DeadSync chart duration. Evidence: frozen parser binary and isolated delimiter-layout control confirm collapsed measures.
+
+Recognize measure commas following a note row, as native does, instead of only commas at the start of a line. RSSP's row minimizer copies the first lane-count bytes and discards the trailing comma. DS ULTIMATE LUA TEST therefore parses all three charts as one measure, with last note at 1.863 seconds. A separate copy moving only 109 inline commas onto their own lines produces 48/24/40 measures and last note at 83.14668 seconds, with identical possible grade points. Both results are independent of supplied music duration. This explains the owned scene's navigation at 2.8663039207 seconds and curtailed callbacks: 20 source broadcasts versus 420 native, and 17,220 compared command/query events versus 319,940 native. Replay subsequently reports 81 failed-state mismatches while native remains active. All 1,292 native frames are replayed, including 902 after owned navigation. The earlier subscriber-identity divergence is an independent issue. No original chart or product source was changed; a future parser fix still needs a full fresh comparison.
+
+Source locations: `dependency:rssp@da616e3/crates/rssp-core/src/stats.rs:855`, `dependency:rssp@da616e3/crates/rssp-core/src/stats.rs:1181`, `itgmania-harness/vendor/itgmania/src/NoteDataUtil.cpp:92`, `crates/deadsync-simfile/src/song.rs:843`, `corpus:DS ULTIMATE LUA TEST/DS ULTIMATE LUA TEST.sm:74`, `audit:ultimate-chart-metadata.json`, `audit:ultimate-comma-layout-proof.json`, `audit:chart-metadata.rs`, `audit:ultimate-clock-evidence.json`.
+
+### saved chart missing music
+
+Owner: corpus asset layout / harness song staging validation. Evidence: native log rejects the song for missing music; source saved directory contains only its simfile.
+
+Restore a valid music path and its assets for the saved Cursed Metamorph chart. saved/Cursed Metamorph.ssc declares MUSIC:Sot-C - Cursed Metamorph.ogg, but that file exists only in the parent directory. The saved directory contains only the SSC. Native logs 'Song /Songs/Harness/Probe/ has no music; ignored', then the harness cannot find the staged song. Its ../ banner/background references also leave the staged song directory. Correct or explicitly resolve this backup-chart asset layout before requesting a native fixture; do not count it as a DeadSync mismatch.
+
+Source locations: `corpus:Cursed Metamorph - [Zaia]/saved/Cursed Metamorph.ssc:19`, `audit:cursed-saved-native-log.json`.
+
+### initial effect clock state
+
+Owner: deadsync Actor effect clock initialization. Evidence: native source plus independent fresh reduced control confirms the mismatch.
+
+Preserve Actor's initial effect-clock accumulator until its first update. Native initializes m_fSecsIntoEffect to zero and GetSecsIntoEffect returns that stored value; DeadSync's uninitialized Motion falls back to the current runtime clock. In a new one-actor control, effectclock('music'); x(GetSecsIntoEffect()) in OnCommand produces native x=0 versus replay x=-0.7917687297, with all 684 frames replayed and exactly one mismatch. In Anzu no Uta, BitmapText SetTime reads native zero at -0.8037188053 seconds, allowing the first modifiers and StoreCommons broadcast; replay delays StoreCommons until +0.0120408162. This eight-event omission shifts most subsequent positional comparisons (195,409 total mismatches); those should not be treated as separate modifier bugs.
+
+Source locations: `itgmania-harness/vendor/itgmania/src/Actor.cpp:114`, `itgmania-harness/vendor/itgmania/src/Actor.h:597`, `crates/deadsync-song-lua/src/actors/effects.rs:38`, `crates/deadsync-song-lua/src/actors/effects.rs:261`, `corpus:Anzu no Uta (U.P.S.)/lua/default.lua:274`, `audit:anzu-clock-evidence.json`, `audit:initial-effect-clock-control-result.json`.
+
+### happiness exhausted break table
+
+Owner: native Foreground visibility lifecycle / authored Lua reinitialization. Evidence: complete retained command sequence and native Foreground source identify the restart.
+
+Avoid treating an already-started foreground that hides itself as newly activated, or make the authored On sequence reset/guard its shared cur_break state. Happiness exhausts its three FAST_BREAKS normally, then the root DoneCommand hides the overlay at 145.790741 seconds. On the next frame (145.849274), native Foreground::Update sees the invisible root, calls On again and updates by the entire elapsed time since its starting beat. The retained trace shows that frame running On -> Do -> Hide -> Show -> HideAgain -> ShowAgain -> Loop1; the already-exhausted FAST_BREAKS index is nil at diva.lua:1092. Later restarts repeat the error. This confirms the restart trigger; why the first Done occurs ahead of its nominal music time still needs a separate timing investigation. No complete error-free native fixture exists yet, and this is not a DeadSync parity verdict.
+
+Source locations: `corpus:Happiness/diva/diva.lua:1014`, `corpus:Happiness/diva/diva.lua:1059`, `corpus:Happiness/diva/diva.lua:1091`, `itgmania-harness/vendor/itgmania/src/Foreground.cpp:104`, `audit:happiness-lifecycle-evidence.json`.
+
+### getintoit subscriber identity
+
+Owner: harness / replay subscriber identity mapping. Evidence: first mismatches are BeginMessage subscriber order; replay explicitly reports a missing song subscriber path.
+
+Resolve the captured identity for background subscriber 1/1/3 and preserve native BeginMessage delivery order across the foreground proxies and background Note sprite. Get Into It first diverges at 2.335034132 seconds (beat 7.04423809): native invokes lua/default.lua:700, while replay invokes lua/bg.lua:20. The eight positional mismatches are confined to that broadcast. Native iterates subscriber pointers; replay sorts known captured paths and falls back to VM identity for unknown paths. Isolate the missing path before treating Actor.animate/SetTarget differences as separate semantic failures.
+
+Source locations: `crates/deadsync-song-lua/src/actors/messages.rs:185`, `tests/song_lua_itgmania_semantic_parity/native_gameplay.rs:3909`, `corpus:Get Into It/lua/bg.lua:20`, `audit:getintoit-first-mismatches.json`.
+
+### james native trace timeout
+
+Owner: native/harness callback performance or nonterminating command progression; unresolved. Evidence: both 900-second captures time out; live SSC stack remains in Lua/Actor tween execution rather than the crash handler.
+
+Obtain a complete native exit trace within a justified time budget and determine whether the traced callback queue makes progress. Both James variants exceed 900 seconds. A live SSC stack at about 14 minutes is in Lua allocation/trace_delegate -> Actor::RunCommands -> Actor::UpdateTweening -> Foreground::Update, with an active main thread. The authored timer requeues every 0.01 seconds and updates a 16x30 board, making trace overhead/catch-up behavior a candidate; the stack does not prove an infinite loop. This is not evidence of a DeadSync mismatch. The existing harness --fixed-update-fps option can provide a separately labeled control for observer-induced catch-up; that alternative profile was not tested in this audit.
+
+Source locations: `corpus:james/james/default.lua:44`, `itgmania-harness/vendor/itgmania/src/Actor.cpp`, `audit:ee72a53d84d7fc88 native-hang-gdb.log (retained with result)`, `itgmania-harness/vendor/itgmania/src/Actor.cpp:795`, `itgmania-harness/vendor/itgmania/src/GameLoop.cpp:257`, `itgmania-harness/src/song_lua_runtime.rs:424`.
+
+### kenpo same frame node order
+
+Owner: deadlib-lua table placement / Mirin node execution order; exact cause unresolved. Evidence: all seven mismatched positions are a verified permutation of the same compared events.
+
+Match native ordering of Mirin's same-frame custom modifier callbacks. KENPO SAITO has seven positional mismatches at beat 1.0100967884 (0.8010884523 seconds): fadealpha and vibbyha run before fadelays natively, but fadelays runs first in replay. Reordering those seven records makes every compared operation, argument, returned query value, clock and tween time match. template.lua run_nodes enumerates pairs(mods[pn]) before propagating and executing nodes. DeadSync already requests Lua 5.1 table ordering, so this needs a reduced table-mutation/node-order reproduction; it is not evidence that diffusealpha or vibrate values are wrong. Keep the strict sequence failure until its cause and effects are established.
+
+Source locations: `corpus:[11] KENPO SAITO (DX) [Scrypts]/lua/mods.lua:147`, `corpus:[11] KENPO SAITO (DX) [Scrypts]/template/template.lua:1044`, `crates/deadsync-song-lua/src/lib.rs:281`, `crates/deadlib-lua/tests/lua51_table_order.rs:4`, `audit:kenpo-permutation-proof.json`.
+
+### velvet automatic gc node order
+
+Owner: deadlib-lua automatic GC / Lua 5.1 table traversal and Mirin callback order. Evidence: all 16,828 mismatches are verified permutations within 1,807 update frames; fresh stopped-GC control passes all 7,712 frames.
+
+Match Mirin callback order with automatic garbage collection enabled. Velvet first diverges at 8.159070 seconds: two diffuse calls from mods.lua lines 125 and 113 exchange positions. Across the complete report, all 16,828 mismatched observations match after reordering within their native frame, including compared arguments and tween values. Mirin enumerates pairs(mods[pn]) to populate active_nodes and clears/repopulates that table each frame. The historical accepted fixture deliberately stopped GC; the main audit uses automatic GC and retains the strict failure. A separate fresh stopped-GC control using the same frozen code passes all 7,712 native frames with zero mismatches and errors, confirming sensitivity to GC mode. The exact GC/table mutation trigger still needs a reduced reproduction; matching event multisets does not establish that overlapping writes or rendering are order-independent.
+
+Source locations: `corpus:Velvet LEFTS 1/template/template.lua:1042`, `corpus:Velvet LEFTS 1/template/template.lua:1053`, `corpus:Velvet LEFTS 1/template/template.lua:1082`, `crates/deadlib-lua/src/vm.rs:1135`, `tests/fixtures/full_song_lua/README.md:34`, `audit:velvet-permutation-proof.json`, `audit:velvet-stopped-control (supplemental-diagnostics.json)`.
+
+### lesson sm missing notes colon
+
+Owner: corpus simfile syntax. Evidence: source header is malformed and native rejects all selectable charts.
+
+Restore the colon after #NOTES on line 28 of Lesson by DJ.sm. The file contains note rows, but its tag is '#NOTES' followed by a newline and 'dance-single:' instead of '#NOTES:'. Native NotesLoaderSM therefore does not recognize a NOTES section, and the harness reports that no dance-single chart matched. The paired SSC is a separate, tested input; silently substituting it would hide this malformed SM. No native Lua parity verdict is possible for this file until the authored header is corrected.
+
+Source locations: `corpus:Lesson by DJ/Lesson by DJ.sm:28`, `itgmania-harness/vendor/itgmania/src/NotesLoaderSM.cpp:1100`, `itgmania-harness/src/song_lua_runtime.rs:1230`.
+
+### haxo effectmagnitude arity
+
+Owner: authored song Lua / native method arguments. Evidence: six recorded native OnCommand errors match six one-argument calls and the native three-argument binding.
+
+Supply three numeric components to effectmagnitude in Haxo's six sprite OnCommands. Each calls effectmagnitude(0.9), while native Actor.cpp constructs RageVector3(FArg(1), FArg(2), FArg(3)) with all three required. The native trace records six errors, one for each callback at default.lua lines 859, 871, 883, 895, 907 and 919. SongLuaTrace.lua:943 is the forwarding wrapper where the native exception surfaces; it preserves the packed argument count and does not supply defaults. Native reaches gameplay exit without dropped observations, but the errors prevent an error-free reference fixture. Choose the intended x/y/z magnitudes in the authored Lua before assessing DeadSync parity.
+
+Source locations: `corpus:Haxo (Sharks Remix) [sorae]/lua/default.lua:867`, `itgmania-harness/vendor/itgmania/src/Actor.cpp:2098`, `itgmania-harness/probe_theme/SongLuaTrace.lua:943`.
+
+### full trace memory scaling
+
+Owner: harness trace ingestion / DeadSync diagnostic replay memory use. Evidence: retained cgroup OOM outcomes after bounded larger-memory retries; allocation attribution remains unprofiled.
+
+Process large native traces within a bounded memory budget. The first pass uses 6 GiB per stage; oversized cases are retried with 26 GiB on 32 GiB guests, retaining both attempts. A replay OOM means a fresh native fixture can exist while its DeadSync comparison remains incomplete; it is not a semantic mismatch. The harness reads the complete trace bytes and parses a serde_json Value, and the full-song replay likewise reads and parses the whole trace before comparison. Streaming or more compact representations are concrete investigation targets, but an allocation profile is still needed to identify each failing stage's peak owners. Per-case stage, actual limit, timeout, event cap and systemd OOM evidence are retained in failure-details.json. This audit stops at its documented retry budget rather than claiming a parity verdict for unfinished comparisons.
+
+Source locations: `itgmania-harness/src/song_lua_runtime.rs:179`, `itgmania-harness/src/song_lua_runtime.rs:186`, `tests/song_lua_itgmania_semantic_parity/whole_song_archives.rs:1526`, `tests/song_lua_itgmania_semantic_parity/native_gameplay.rs:264`, `audit:failure-details.json`.
+
+### bank account player presence
+
+Owner: authored song Lua / selected player profile. Evidence: source unconditionally targets PlayerP2; separate fresh versus control passes all 4,609 native frames.
+
+Guard proxy targets when the second player is absent, or explicitly require a versus profile. make_arrows builds proxies for pn=1,2 at default.lua:91-94, called 66 times; the selected single-player capture has no PlayerP2, so ActorProxy:SetTarget receives nil and native rejects it. Thirty errors are retained in the bounded preview; that preview is not a total error count. A separate fresh versus capture with the same song and pinned binaries passes all 4,609 native frames with zero mismatches and callback errors. The 503-case ledger retains the original single-player failure and records the successful alternate profile as a supplemental control. This is a player-presence/precondition issue, not evidence of a DeadSync semantic mismatch.
+
+Source locations: `corpus:Bank Account/lua/default.lua:50`, `corpus:Bank Account/lua/default.lua:91`, `corpus:Bank Account/lua/default.lua:263`, `itgmania-harness/vendor/itgmania/src/ActorProxy.cpp:34`, `audit:bank-versus-control (supplemental-diagnostics.json)`.
+
+### arrowquest observation budget
+
+Owner: audit capture profile / harness observation capacity. Evidence: both larger captures reach gameplay exit with explicit dropped-event counts.
+
+Retain the complete ArrowQuest trace before comparing DeadSync. The initial 1,920-second captures timed out; fresh captures with a 3,000-second limit and 26 GiB stage budget both reach ScreenEvaluationStage, but their six-million-event cap drops 2,474,161 events for extra-charts and 2,474,400 for the normal variant. Other recorded observation-drop counters are zero. The observed runs therefore need at least 8,474,400 event slots plus headroom, with sufficient serialization time and memory; a 9.4-million-event capture would be an informed next profile, not a result already tested. The retained capped traces are rejected as reference fixtures. No DeadSync parity verdict is available for either case.
+
+Source locations: `itgmania-harness/probe_theme/SongLuaTrace.lua:426`, `itgmania-harness/probe_theme/SongLuaTrace.lua:1243`, `itgmania-harness/probe_theme/SongLuaTrace.lua:1317`, `audit:failure-details.json`.
+
+### native startup error observation
+
+Owner: itgmania-harness native load-error capture and acceptance. Evidence: fresh startup log confirms a syntax error; original full-song fixture was nevertheless accepted with zero compared Lua calls.
+
+Record native script compilation and top-level actor-loading errors in the trace and reject such fixtures. Sequential Dreambox's FastEnd.lua returns at line 45, then starts another local declaration at line 47. A fresh unchanged native startup reports "'<eof>' expected near 'local'", but the inherited full-song run was accepted with no actor definitions and zero compared Lua calls. ActorUtil reports the load error and substitutes a dummy Actor; LuaHelpers::ReportScriptError writes the warning. SongLuaTrace wraps callback/command errors, while harness whole-song acceptance only checks its document error and error events, so this load failure escapes the acceptance check. Retain startup diagnostics even for accepted captures. This proves a missed load error for this case, not that every other accepted capture has a load error.
+
+Source locations: `itgmania-harness/vendor/itgmania/src/ActorUtil.cpp:258`, `itgmania-harness/vendor/itgmania/src/ActorUtil.cpp:310`, `itgmania-harness/vendor/itgmania/src/LuaManager.cpp:817`, `itgmania-harness/probe_theme/SongLuaTrace.lua:454`, `itgmania-harness/probe_theme/SongLuaTrace.lua:469`, `itgmania-harness/src/song_lua_runtime.rs:193`, `corpus:Sequential Dreambox - [Zaia]/lua/FastEnd.lua:45`, `audit:entrypoint-startup-evidence.json`.
+
+### legacy xml profile disabled
+
+Owner: corpus entrypoint selection / harness legacy compatibility profile. Evidence: retained startup Preferences.ini records QuirksMode=0; native ActorUtil explicitly skips XML in that mode.
+
+Exercise the selected legacy XML entrypoints before claiming song Lua coverage. Native ActorUtil returns a dummy Actor for XML when QuirksMode is false, and the fresh startup probes confirm that setting. Ten corpus simfiles select legacy XML, produce no captured actor definitions and compare zero Lua calls. Their Lua alternatives, where present, are not selected by the simfile. Establish an explicit supported legacy profile or the intended Lua entrypoint, then obtain a complete fresh native fixture. This is an input/profile coverage gap rather than an observed DeadSync semantic mismatch.
+
+Source locations: `itgmania-harness/vendor/itgmania/src/ActorUtil.cpp:323`, `itgmania-harness/vendor/itgmania/src/PrefsManager.cpp:324`, `audit:entrypoint-coverage.json`, `audit:entrypoint-startup-evidence.json`.
+
+### dramatic self queued observation volume
+
+Owner: harness observation throughput and update-clock profile / authored callback cadence. Evidence: first full native exit trace records 49,586,659 dropped events; a bounded live sample and source identify the hot callback.
+
+Capture the entire high-cadence rose animation within a justified time, observation and memory budget. A Dramatic Irony's first run retained 2,000,000 events and dropped 49,586,659 more, even though native reached gameplay exit. The bounded retry permits 20,000,000 events, still below that first observed total. The source creates 100 rose sprites, each requeuing moveCommand after sleep(.007). A 16 MiB live tail sample contains 44,370 consecutive events, all from rose.lua moveCommand at the same sampled song time; 14,790 are GetSongBeat and 14,790 are its GetSongPosition calls. Native Actor::UpdateTweening drains queued callbacks against the update delta, and GameLoop normally measures wall time, so observer overhead can amplify catch-up work. The harness already offers --fixed-update-fps (runtime.rs explicitly documents this problem); a separately labeled fixed-update control is a possible next experiment, not a result of this audit and not a replacement for the ordinary-clock failure. Full-document JSON ingestion also needs sufficient capacity or streaming. No complete DeadSync parity verdict is available for this profile. The expanded retry timed out after 1,800 seconds. It retained a 7,568,493,416-byte partial event stream, with the last visible sequence 19,998,611 at song time 43.424331665 seconds. This is incomplete diagnostic evidence, not a replayable song fixture.
+
+Source locations: `corpus:A Dramatic Irony/lua/rose.lua:6`, `corpus:A Dramatic Irony/lua/rose.lua:20`, `corpus:A Dramatic Irony/lua/rose.lua:92`, `itgmania-harness/vendor/itgmania/src/Actor.cpp:795`, `itgmania-harness/vendor/itgmania/src/GameLoop.cpp:257`, `itgmania-harness/src/song_lua_runtime.rs:424`, `audit:dramatic-event-volume-sample.json`, `audit:dramatic-retry-timeout-evidence.json`.
+
+## Reproduction and evidence
+
+The tested commits and binary hashes are in [provenance.json](provenance.json). The full [case ledger](case-ledger.json) includes passes and failures. [artifacts.json](artifacts.json) maps every capture, comparison report and candidate to its VM, path and SHA256. All artifacts remain under `/opt/song-lua-audit/results` on Proxmox guests. The final audit also retains all primary result records, including passing-run commands and native input metadata, in all-results.json.
+
+To replay a retained candidate, copy its `.tar.zst` from the listed guest, verify its compressed SHA256, and decompress it to `<uncompressed_sha256>.tar`. Verify that SHA256, then run the pinned `bin/full_song_lua --archive <uncompressed_sha256>.tar --report report.json` with ffprobe/ffmpeg available. Only candidate/accepted song archives are replayable; native-diagnostics archives preserve failed-run evidence. Some failed candidates retain the raw archive hash in their compressed filename; decompression to the recorded raw hash avoids the CLI filename check. The original exact capture/replay commands are retained in each failure record.
+
+The audit remains pinned to the committed baseline even if the local worktree changes concurrently. Passing candidates have been validated and packed on the guests; this diagnosis pass does not replace the committed fixture catalog.
+
+The audit VMs were gracefully shut down after verification to release RAM; their disks and results are retained. VM IDs are 1201–1215 for the main workers and 1216 for the retry helper. Start the required VM on Proxmox (`ssh root@192.168.1.79 qm start <vmid>`) before copying or replaying its artifacts. The stopped base template 1200 and unrelated VMs were left unchanged. See [fleet-shutdown.json](fleet-shutdown.json) for the receipt.

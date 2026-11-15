@@ -1,0 +1,140 @@
+{
+  "checked_at": "2026-11-15T19:03:38.795603+00:00",
+  "vms": [
+    {
+      "vmid": 1201,
+      "name": "deadsync-lua-01",
+      "cpus": 2,
+      "memory_mib": 2048,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1201/vm-1201-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1202,
+      "name": "deadsync-lua-02",
+      "cpus": 2,
+      "memory_mib": 2048,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1202/vm-1202-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1203,
+      "name": "deadsync-lua-03",
+      "cpus": 2,
+      "memory_mib": 2048,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1203/vm-1203-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1204,
+      "name": "deadsync-lua-04",
+      "cpus": 2,
+      "memory_mib": 32768,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1204/vm-1204-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1205,
+      "name": "deadsync-lua-05",
+      "cpus": 2,
+      "memory_mib": 32768,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1205/vm-1205-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1206,
+      "name": "deadsync-lua-06",
+      "cpus": 2,
+      "memory_mib": 2048,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1206/vm-1206-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1207,
+      "name": "deadsync-lua-07",
+      "cpus": 2,
+      "memory_mib": 2048,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1207/vm-1207-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1208,
+      "name": "deadsync-lua-08",
+      "cpus": 2,
+      "memory_mib": 2048,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1208/vm-1208-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1209,
+      "name": "deadsync-lua-09",
+      "cpus": 2,
+      "memory_mib": 2048,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1209/vm-1209-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1210,
+      "name": "deadsync-lua-10",
+      "cpus": 2,
+      "memory_mib": 2048,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1210/vm-1210-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1211,
+      "name": "deadsync-lua-11",
+      "cpus": 2,
+      "memory_mib": 2048,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1211/vm-1211-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1212,
+      "name": "deadsync-lua-12",
+      "cpus": 2,
+      "memory_mib": 32768,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1212/vm-1212-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1213,
+      "name": "deadsync-lua-13",
+      "cpus": 2,
+      "memory_mib": 2048,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1213/vm-1213-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1214,
+      "name": "deadsync-lua-14",
+      "cpus": 2,
+      "memory_mib": 2048,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1214/vm-1214-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1215,
+      "name": "deadsync-lua-15",
+      "cpus": 2,
+      "memory_mib": 2048,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1215/vm-1215-disk-0.qcow2,size=96G"
+    },
+    {
+      "vmid": 1216,
+      "name": "deadsync-lua-large-retry",
+      "cpus": 2,
+      "memory_mib": 32768,
+      "status": "status: stopped",
+      "disk": "deadsync-lua-audit:1200/base-1200-disk-0.qcow2/1216/vm-1216-disk-0.qcow2,size=96G"
+    }
+  ],
+  "host_memory": {
+    "MemTotal": "263845732 kB",
+    "MemAvailable": "212698936 kB",
+    "SwapTotal": "8388604 kB",
+    "SwapFree": "7990640 kB"
+  },
+  "storage": "Name                      Type     Status     Total (KiB)      Used (KiB) Available (KiB)        %\ndeadsync-lua-audit         dir     active       854456192       466083712       388372480   54.55%"
+}
