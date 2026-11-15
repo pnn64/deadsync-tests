@@ -4944,6 +4944,12 @@
     "archive": "d4489b565e4307f1426cea08dcbe180cc2af95b6f8eb3b2145623c3a02f54563.tar.zst"
   },
   {
+    "title": "Fof Guys",
+    "source_simfile": "fof_guys/fof.ssc",
+    "harness_version": "0.1.98",
+    "archive": "d469915c8b636e77a4b749003c1018a69e28a5d857d214ec8ac116fa32028651.tar.zst"
+  },
+  {
     "title": "321STARS",
     "source_simfile": "321STARS/321STARS.ssc",
     "harness_version": "0.1.51",
