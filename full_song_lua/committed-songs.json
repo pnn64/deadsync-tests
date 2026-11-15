@@ -5736,6 +5736,12 @@
     "archive": "fbe09097e3af4f4ccb773d4ea28201210433ae0d1b34d1610cd8df558dd9719b.tar.zst"
   },
   {
+    "title": "Quarantine",
+    "source_simfile": "Quarantine/Quarantine.sm",
+    "harness_version": "0.1.98",
+    "archive": "fc73c0fdc65b622708dc9e8754c764491130cca0c40dd8c5834ebc5e5a767cf3.tar.zst"
+  },
+  {
     "title": "Cursed 2",
     "source_simfile": "Cursed 2/Cursed 2.ssc",
     "harness_version": "0.1.80",
