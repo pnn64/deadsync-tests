@@ -19,9 +19,19 @@ That capture uses this checkout's `assets/noteskins` through
 references are replaced by validated native captures. Native replay coverage
 gaps remain explicit; acceptance does not establish complete rendering parity.
 
-The [latest fixture batch](ninth-ten-2026-10-18-summary.json) adds **10 accepted fixtures**, bringing the total to **490 passed, 10 pending, and one ignored chart** (Mawaru9). Every new fixture passed its complete uncompressed replay before official packing, decoded hash verification, and commit. [Concrete failures](ninth-ten-2026-10-18-pending.json) and [missing coverage](ninth-ten-2026-10-18-coverage.json) are recorded separately. Files over 100,000,000 bytes remain gitignored.
+The [second 2026-11-15 parity pass](parity-batch2-2026-11-15.json) refreshes
+Kuru, MODULO, Limitless, Mawaru 1–3, Save Your Tears, and The Great Divide,
+and publishes passing Lesson SSC and Metronogik captures. Harness 0.1.97 records
+the native executable's source revision; this batch uses the pinned
+`5c737928d93778c2c9f68e276052b220b43a468f` reference. Duplicate-child method
+forwarding, Combo's native ActorFrame type, and initial chart-description text
+now match that engine. The [native control](../regression-expectations/song-lua/native-actor-parity/provenance.json)
+records independent assertions for all three fixes. Replay coverage gaps remain
+explicit; acceptance does not establish complete production or rendering parity.
 
-Velvet's fixture declares an initially stopped Lua collector in both VMs. Its default automatic-collector replay still has command-order differences, recorded as separate missing coverage. A [readable pending ledger](ninth-ten-2026-10-18-pending.md) lists all ten remaining charts and their concrete failures.
+The [October fixture batch](ninth-ten-2026-10-18-summary.json) recorded **490 passed, 10 pending, and one ignored chart** (Mawaru9). Its [concrete failures](ninth-ten-2026-10-18-pending.json) and [missing coverage](ninth-ten-2026-10-18-coverage.json) are historical observations. Lesson SSC and Metronogik pass in the later batch above. Archives of 50,000,000 bytes or more are now published as verified parts; their restored originals remain gitignored.
+
+Velvet's fixture declares an initially stopped Lua collector in both VMs. Its default automatic-collector replay still has command-order differences, recorded as separate missing coverage. A [readable historical ledger](ninth-ten-2026-10-18-pending.md) lists the ten charts pending at that time and their concrete failures.
 
 The [preceding fixture batch](eighth-ten-2026-10-18-summary.json) added **10 accepted fixtures**, bringing the total to **480 passed, 20 pending, and one ignored chart** (Mawaru9). Every new fixture passed its complete uncompressed replay before official packing, decoded hash verification, and commit. [Concrete failures](eighth-ten-2026-10-18-pending.json) and [missing coverage](eighth-ten-2026-10-18-coverage.json) are recorded separately. Files over 100,000,000 bytes remain gitignored.
 

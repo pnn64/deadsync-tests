@@ -1,5 +1,9 @@
 # Remaining song Lua charts
 
+Historical ledger: Lesson SSC and Metronogik subsequently pass the complete
+native replays in the [2026-11-15 parity pass](parity-batch2-2026-11-15.json).
+The counts and failures below describe the original October sweep.
+
 **490 passed fixtures, 10 pending charts, 1 ignored chart (Mawaru9).** This batch adds ten complete, accepted fixtures. Every accepted replay was compared uncompressed, then packed and verified by its decoded hash. Oversized fixtures remain local and gitignored.
 
 Attempts below count this sweep only. Rows with zero attempts retain their concrete prior failure. Lesson SSC and Metronogik reached the two-attempt limit; neither received a third full replay.

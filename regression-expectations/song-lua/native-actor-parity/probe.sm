@@ -1,0 +1,15 @@
+#TITLE:Screen children probe;
+#MUSIC:silence.wav;
+#BPMS:0=120;
+#FGCHANGES:0=default.lua=1=0=0=1;
+#NOTES:dance-single:Native chart description:Challenge:1:0,0,0,0,0:
+1000
+0000
+0100
+0000
+,
+0010
+0000
+0001
+0000
+;

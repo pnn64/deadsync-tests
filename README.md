@@ -24,7 +24,7 @@ maintenance. Commands and repository-relative paths in fixture guides refer to
 the DeadSync checkout. A standalone fixture checkout does not contain the test
 runners or maintenance scripts.
 
-Seventeen archives of 50 MB or more are stored as binary parts of at most
+Archives of 50 MB or more are stored as binary parts of at most
 48,000,000 bytes. `prepare_test_fixtures.py` verifies each part's SHA-256 and the
 complete archive before restoring its original filename locally. Restored
 archives are ignored by Git. Every file in this repository's branch history is

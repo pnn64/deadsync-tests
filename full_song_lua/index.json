@@ -284,7 +284,7 @@
       ]
     },
     {
-      "title": "274|MODS|[lv.04] \u6700\u5f37STRONGER",
+      "title": "274|MODS|[lv.04] 最強STRONGER",
       "source_simfile": "274-MODS-[lv.04] SAIKYOU STRONGER/REDALiCE_vs_USAO_-_STRONGER.ssc",
       "harness_version": "0.1.31",
       "archive": "70169ce37058f254e043ee79a3ef1a9473d2949333c5995b934e06625298fbd3.tar.zst",
@@ -331,7 +331,7 @@
       ]
     },
     {
-      "title": "276|MODS|[lv.06] \u897f\u65b0\u5bbf\u6e05\u6383\u66f2",
+      "title": "276|MODS|[lv.06] 西新宿清掃曲",
       "source_simfile": "276-MODS-[lv.06] Nishi-Shinjuku seisou kyoku/nssk-chart.ssc",
       "harness_version": "0.1.31",
       "archive": "356b778edc0d1fe565b4a057112c5a4d34e512ad7cf3eba6471bf20601cd5acf.tar.zst",
@@ -373,7 +373,7 @@
       ]
     },
     {
-      "title": "278|MODS|[lv.08] And Drugs\u2191\u2191",
+      "title": "278|MODS|[lv.08] And Drugs↑↑",
       "source_simfile": "278-MODS-[lv.08] And Drugs/and drugs.ssc",
       "harness_version": "0.1.31",
       "archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
@@ -613,7 +613,7 @@
       ]
     },
     {
-      "title": "[08] And Drugs\u2191\u2191",
+      "title": "[08] And Drugs↑↑",
       "source_simfile": "[08] And Drugs - (NO CMOD)/and drugs.ssc",
       "harness_version": "0.1.51",
       "archive": "b9ce99dda3a745779ad065f03819360a67c2712d75ab9985cccbfc03424ac19d.tar.zst",
@@ -734,7 +734,7 @@
       ]
     },
     {
-      "title": "[11] \u6642\u8a08\u306e\u56fd\u306e\u30b8\u30a7\u30df\u30cb",
+      "title": "[11] 時計の国のジェミニ",
       "source_simfile": "[11] Gemini in Clockland/Gemini in Clockland.ssc",
       "harness_version": "0.1.52",
       "archive": "f6b960e1fa42f107c25c2549c82af09a2dbb72a8b61ae667ecc98e5adce44619.tar.zst",
@@ -767,7 +767,7 @@
       ]
     },
     {
-      "title": "[5813] [11] \u897f\u65b0\u5bbf\u6e05\u6383\u66f2",
+      "title": "[5813] [11] 西新宿清掃曲",
       "source_simfile": "[11] Nishi-Shinjuku seisou kyoku (SX) [Scrypts]/nssk-chart.ssc",
       "harness_version": "0.1.52",
       "archive": "faa7b7d60bf81e0558f74f68d3813d0e329407fe95a1097cbca9d9993ecd0ae8.tar.zst",
@@ -800,7 +800,7 @@
       ]
     },
     {
-      "title": "[12] And Drugs\u2191\u2191",
+      "title": "[12] And Drugs↑↑",
       "source_simfile": "[12] And Drugs (No CMOD) [SX]/and drugs.ssc",
       "harness_version": "0.1.52",
       "archive": "f0fc0902a47fbe480747be0bb20c55788883e2bad110d825897e881bcb6f5d69.tar.zst",
@@ -965,7 +965,7 @@
       ]
     },
     {
-      "title": "[FULL SONG] \u82b1\u6708\u30ce\u5922",
+      "title": "[FULL SONG] 花月ノ夢",
       "source_simfile": "[FULL SONG] Kagetsu no Yume [wrsw]/Kagetsu no Yume.ssc",
       "harness_version": "0.1.54",
       "archive": "278157e3ef5bb6f370174afd1566f1eaeba4dc1b667aa9248b2aa7fff78656c5.tar.zst",
@@ -976,7 +976,7 @@
       ]
     },
     {
-      "title": "[FULL SONG] \u7c9b\u8056!! \u30ed\u30ea\u795e\u30ec\u30af\u30a4\u30a8\u30e0\u2606",
+      "title": "[FULL SONG] 粛聖!! ロリ神レクイエム☆",
       "source_simfile": "[FULL SONG] Shukusei!! Loli God's Requiem [Gpop]/Shukusei!! Loli God's Requiem.ssc",
       "harness_version": "0.1.54",
       "archive": "c8c3dbcaaa63e16ec724b54e3320d9aec44bc90f7176ad44535ff0e1df91e592.tar.zst",
@@ -1240,7 +1240,7 @@
       ]
     },
     {
-      "title": "\u5408\u7e01\u4e8b\u5909",
+      "title": "合縁事変",
       "source_simfile": "Aien-Jihen [Gpop]/Aien-Jihen.ssc",
       "harness_version": "0.1.58",
       "archive": "8f2f41131a2cfaf8495ad34ca3555b244027542bea2dafcb373391b3696a8e8a.tar.zst",
@@ -1273,7 +1273,7 @@
       ]
     },
     {
-      "title": "And Drugs\u2191\u2191",
+      "title": "And Drugs↑↑",
       "source_simfile": "And Drugs/and drugs.sm",
       "harness_version": "0.1.61",
       "archive": "5198fc714b9ddea03895752127040149b863786415f283b190a9f5e41a53b365.tar.zst",
@@ -1284,7 +1284,7 @@
       ]
     },
     {
-      "title": "And Drugs\u2191\u2191",
+      "title": "And Drugs↑↑",
       "source_simfile": "And Drugs/and drugs.ssc",
       "harness_version": "0.1.61",
       "archive": "94947db8029f86259602a7d0f20f38c79a8681177fdefa4d59a3185042e82c57.tar.zst",
@@ -1339,7 +1339,7 @@
       ]
     },
     {
-      "title": "\u3042\u3093\u305a\u306e\u3046\u305f",
+      "title": "あんずのうた",
       "source_simfile": "Anzu no Uta (U.P.S.)/Anzu no Uta.sm",
       "harness_version": "0.1.61",
       "archive": "a8b5d091317c8e39173c1db0703dd3f2453ffce560acac89b8bd88bf12142941.tar.zst",
@@ -1517,7 +1517,7 @@
       ]
     },
     {
-      "title": "\u7af9",
+      "title": "竹",
       "source_simfile": "Bamboo/Take.ssc",
       "harness_version": "0.1.64",
       "archive": "d23b4863319782e7b7ad8b8db3872f17a2db463acf379190293f0f5873b70b30.tar.zst",
@@ -1731,7 +1731,7 @@
       ]
     },
     {
-      "title": "\u653e\u9001",
+      "title": "放送",
       "source_simfile": "broadcast/broadcast.ssc",
       "harness_version": "0.1.64",
       "archive": "7f97218dbcd5600c30c2851a9f1fb7f19d5fd25b41f5f2c0a07d890fde7d3711.tar.zst",
@@ -1896,7 +1896,7 @@
       ]
     },
     {
-      "title": "\u9045\u523b\u9b54",
+      "title": "遅刻魔",
       "source_simfile": "chronic latecomer/chronic latecomer.ssc",
       "harness_version": "0.1.80",
       "archive": "cbfe9d3319b3bb86aaacf56961ba890ba6fc6d245fb7e8a7b832c316a5ee9150.tar.zst",
@@ -2220,7 +2220,7 @@
       "aliases": []
     },
     {
-      "title": "\u5922\u54b2\u304dAfter school",
+      "title": "夢咲きAfter school",
       "source_simfile": "Dreams Bloom After School/Dreams Bloom After School.ssc",
       "harness_version": "0.1.80",
       "archive": "5239a79f19a8c9473f63ce1456d28a80274988579e3f2bc92fa55b25c178000d.tar.zst",
@@ -2280,7 +2280,7 @@
       "aliases": []
     },
     {
-      "title": "\u200b#feelyourtouch e.d.e.n",
+      "title": "​#feelyourtouch e.d.e.n",
       "source_simfile": "feelyourtouch e.d.e.n/feelyourtouch eden.ssc",
       "harness_version": "0.1.80",
       "archive": "183e11280dfa7d18d444a5cc63f16ccbbc4f4d4fb2f9b81fefefde2de778b9e0.tar.zst",
@@ -2330,7 +2330,7 @@
       "aliases": []
     },
     {
-      "title": "\u273f\u1d52\u1da0\ud83d\udf0d(flores sulphuris)",
+      "title": "✿ᵒᶠ🜍(flores sulphuris)",
       "source_simfile": "flores sulphuris - [Zaia]/flores sulphuris.ssc",
       "harness_version": "0.1.80",
       "archive": "d60d63584b92c0eb64200ef18fa847b75b72764c22d080504b924defbb610e0f.tar.zst",
@@ -2495,7 +2495,7 @@
       "aliases": []
     },
     {
-      "title": "Gaming in 2018 If you use a screen filter on this then you\u2019re probably taking this tournament too seriously",
+      "title": "Gaming in 2018 If you use a screen filter on this then you’re probably taking this tournament too seriously",
       "source_simfile": "Gaming in 2018/Gaming in 2018.ssc",
       "harness_version": "0.1.80",
       "archive": "fdcb61ee1b447ec72aae687901500ee0c26a5fdf4f564b2b98a13c3f8b1adf4b.tar.zst",
@@ -2505,7 +2505,7 @@
       "aliases": []
     },
     {
-      "title": "\u73a9\u5177\u72c2\u594f\u66f2 -\u7d42\u7109-",
+      "title": "玩具狂奏曲 -終焉-",
       "source_simfile": "Gangu Kyousou Kyoku -Shuuen-/chart.ssc",
       "harness_version": "0.1.80",
       "archive": "0e201181db02c246f0c84333ac0c748f6b56a9ca59d836cc6dc5a505ee7cfa5e.tar.zst",
@@ -2515,7 +2515,7 @@
       "aliases": []
     },
     {
-      "title": "\u6642\u8a08\u306e\u56fd\u306e\u30b8\u30a7\u30df\u30cb",
+      "title": "時計の国のジェミニ",
       "source_simfile": "Gemini in Clockland/Gemini in Clockland.ssc",
       "harness_version": "0.1.80",
       "archive": "626410ebf541e4c2f2aaa5b61f06371f5c132b09f5812f4c9155b13bfb07ab85.tar.zst",
@@ -2598,7 +2598,7 @@
       ]
     },
     {
-      "title": "\u884c\u3064\u3066\u3057\u307e\u3064\u305f",
+      "title": "行つてしまつた",
       "source_simfile": "gone_KidFresino/song.ssc",
       "harness_version": "0.1.80",
       "archive": "fb1696ac05718ab2de6a2884b9ee6effa9df50c66f5679feb3530c9e1cf6d1a6.tar.zst",
@@ -2649,7 +2649,7 @@
       "local_only": true
     },
     {
-      "title": "\u5e78\u305b\u306b\u306a\u308c\u308b\u96a0\u3057\u30b3\u30de\u30f3\u30c9\u304c\u3042\u308b\u3089\u3057\u3044",
+      "title": "幸せになれる隠しコマンドがあるらしい",
       "source_simfile": "Happiness/Happiness.ssc",
       "harness_version": "0.1.0",
       "archive": "8e48a72f9a686fd35d01d3e2497686d50a8ad30332660add585dbc758097c631.tar.zst",
@@ -3136,7 +3136,7 @@
       "aliases": []
     },
     {
-      "title": "\u50b7\u8de1 Scar",
+      "title": "傷跡 Scar",
       "source_simfile": "Kizuato - [Zaia]/Kizuato.ssc",
       "harness_version": "0.1.80",
       "archive": "9b37441118bd8521c7f2ba3d7e9588b84247d1cc1858c7cfac2abf09759b0823.tar.zst",
@@ -3168,12 +3168,14 @@
     {
       "title": "Kuru Kuru kururin [MODS]",
       "source_simfile": "Kuru Kuru kururin/Kuru Kuru kururin.ssc",
-      "harness_version": "0.1.80",
-      "archive": "6577dfb6182e8590c79d8f57bdb2ef6a9970106c80f30196eeac614ed64ec89f.tar.zst",
-      "sha256": "6577dfb6182e8590c79d8f57bdb2ef6a9970106c80f30196eeac614ed64ec89f",
-      "compressed_bytes": 3424636,
-      "uncompressed_sha256": "ae9f77ebf292815e61f589ae1599e9306241907962e53bf4272cebcff57eaa5b",
-      "aliases": []
+      "harness_version": "0.1.97",
+      "archive": "44ec9dda8d1d1d2f852cdecd8a467bc78bfcd3b70a9b7758728fd2fae07cc3c3.tar.zst",
+      "sha256": "44ec9dda8d1d1d2f852cdecd8a467bc78bfcd3b70a9b7758728fd2fae07cc3c3",
+      "compressed_bytes": 113428296,
+      "uncompressed_sha256": "f463ad9578c5d972f8b240808b7003602d66a47ea91b6b3cd34bc036f509a3d9",
+      "aliases": [
+        "6577dfb6182e8590c79d8f57bdb2ef6a9970106c80f30196eeac614ed64ec89f.tar.zst"
+      ]
     },
     {
       "title": "Lake of Lost Nostalgia",
@@ -3239,13 +3241,14 @@
     {
       "title": "Lesson by DJ",
       "source_simfile": "Lesson by DJ/Lesson by DJ.ssc",
-      "harness_version": "0.1.86",
-      "archive": "7aa17e101f7ccd476d60cb9b1ed462ab68444d878fc1d8ed466d8fb4347316c0.tar.zst",
-      "compressed_bytes": 110951228,
-      "sha256": "7aa17e101f7ccd476d60cb9b1ed462ab68444d878fc1d8ed466d8fb4347316c0",
-      "uncompressed_sha256": "fc7810ad8883d6db70b72cd24b6c79215d038324b4811f1f54cd77c8a0fdf1cb",
-      "aliases": [],
-      "local_only": true
+      "harness_version": "0.1.97",
+      "archive": "124f5e01dedb00f4900d1f55cb446e1e8ccbbfb381d82196a269c2a8cd6983a7.tar.zst",
+      "sha256": "124f5e01dedb00f4900d1f55cb446e1e8ccbbfb381d82196a269c2a8cd6983a7",
+      "compressed_bytes": 112219636,
+      "uncompressed_sha256": "c30a4c55bff067c20b39eba243773d27095009f5947cd26ba103fb4151251b96",
+      "aliases": [
+        "7aa17e101f7ccd476d60cb9b1ed462ab68444d878fc1d8ed466d8fb4347316c0.tar.zst"
+      ]
     },
     {
       "title": "Levels (Skrillex Remix)",
@@ -3280,15 +3283,17 @@
     {
       "title": "Limitless",
       "source_simfile": "Limitless/Limitless.ssc",
-      "harness_version": "0.1.80",
-      "archive": "97a451e724bf932ea6f2575ae3dc23d6392ae3fe5999fd5173991cd81f024a80.tar.zst",
-      "sha256": "97a451e724bf932ea6f2575ae3dc23d6392ae3fe5999fd5173991cd81f024a80",
-      "compressed_bytes": 12005699,
-      "uncompressed_sha256": "517573404863db0c1d6334de1b2cf04b3062ea031d15cb5fcee8af04013d535d",
-      "aliases": []
+      "harness_version": "0.1.97",
+      "archive": "dec372a506f02ac0f16eff25445959998383f02fed9def6c877c98268333d715.tar.zst",
+      "sha256": "dec372a506f02ac0f16eff25445959998383f02fed9def6c877c98268333d715",
+      "compressed_bytes": 121790718,
+      "uncompressed_sha256": "9db66d9b87fd88ed04b4c2785aa6c8a93ebee28792b562335412482cf11a7091",
+      "aliases": [
+        "97a451e724bf932ea6f2575ae3dc23d6392ae3fe5999fd5173991cd81f024a80.tar.zst"
+      ]
     },
     {
-      "title": "\u30ea\u30c3\u30d7\u30b7\u30f3\u30af",
+      "title": "リップシンク",
       "source_simfile": "Lip-Sync [Gpop]/Lip-Sync.ssc",
       "harness_version": "0.1.80",
       "archive": "c1be008f5949bd1bd0d9648c674e587a666eab9bf954cb3c42bf15d98997531b.tar.zst",
@@ -3358,7 +3363,7 @@
       "aliases": []
     },
     {
-      "title": "\u30ed\u30a6\u30ef\u30fc [Tier 3]",
+      "title": "ロウワー [Tier 3]",
       "source_simfile": "Lower/Lower.ssc",
       "harness_version": "0.1.80",
       "archive": "b3fd3ed82ed17fb6405efb027841dfe87e904415c5cf2dc0c93286135793fde2.tar.zst",
@@ -3409,7 +3414,7 @@
       "local_only": true
     },
     {
-      "title": "\u30de\u30fc\u30b7\u30e3\u30eb\u30fb\u30de\u30ad\u30b7\u30de\u30a4\u30b6\u30fc",
+      "title": "マーシャル・マキシマイザー",
       "source_simfile": "Marshall Maximizer/marshall maximizer.ssc",
       "harness_version": "0.1.80",
       "archive": "3c61c5dcdf2dd2444d730096674aa784a0452c6ffc22e48867d42d3173f7755a.tar.zst",
@@ -3439,7 +3444,7 @@
       "aliases": []
     },
     {
-      "title": "\u56de\u30ec\uff01\u96ea\u6708\u82b1 (ric3show3r bootleg)",
+      "title": "回レ！雪月花 (ric3show3r bootleg)",
       "source_simfile": "Maware! Setsugetsuka (ric3show3r bootleg)/maware ric3show3r.ssc",
       "harness_version": "0.1.80",
       "archive": "b2428de4259cab7685983984ffaf5b972033e7bc2bb56b09baf9f7acd4f1a4ba.tar.zst",
@@ -3451,32 +3456,38 @@
     {
       "title": "MAWARU Made in StepMania",
       "source_simfile": "mawaru1/mawaru.sm",
-      "harness_version": "0.1.80",
-      "archive": "937aa2f11cc7a6f57482c215cd7a4674624da99a23ec1d05cad1e8142e2b5650.tar.zst",
-      "sha256": "937aa2f11cc7a6f57482c215cd7a4674624da99a23ec1d05cad1e8142e2b5650",
-      "compressed_bytes": 5801646,
-      "uncompressed_sha256": "1677900151e89aa5127edd6ce01e0b9dad75098beb5015ccf59e3839a8fca9db",
-      "aliases": []
+      "harness_version": "0.1.97",
+      "archive": "c2fd5de1c8453089dd5a5fa6066a2d6e315f540624b1b569ec70cbba483219c9.tar.zst",
+      "sha256": "c2fd5de1c8453089dd5a5fa6066a2d6e315f540624b1b569ec70cbba483219c9",
+      "compressed_bytes": 117152705,
+      "uncompressed_sha256": "05d9b40d348b3578f7d04f617a70c4b0aa77a40e17989626e432df56f827b6c4",
+      "aliases": [
+        "937aa2f11cc7a6f57482c215cd7a4674624da99a23ec1d05cad1e8142e2b5650.tar.zst"
+      ]
     },
     {
       "title": "MAWARU 2 THE REVENGE",
       "source_simfile": "mawaru2/mawaru2.sm",
-      "harness_version": "0.1.80",
-      "archive": "35819d6ac6271b00f66bf76bfbd23de6d3453f529255c98259b142439ce6af39.tar.zst",
-      "sha256": "35819d6ac6271b00f66bf76bfbd23de6d3453f529255c98259b142439ce6af39",
-      "compressed_bytes": 5350206,
-      "uncompressed_sha256": "a997f99959ab10c870fd27a72bc001aea4e698dedeb2e232d680ac505214fe6b",
-      "aliases": []
+      "harness_version": "0.1.97",
+      "archive": "85f08574380595c2c78fd53c36c35d168578df3e69fa887b5da49577e2126382.tar.zst",
+      "sha256": "85f08574380595c2c78fd53c36c35d168578df3e69fa887b5da49577e2126382",
+      "compressed_bytes": 123155247,
+      "uncompressed_sha256": "fe83cc345b3f6627bd3fdfac86a56fbafdcf1acb20529b42b46a83d2772d3a36",
+      "aliases": [
+        "35819d6ac6271b00f66bf76bfbd23de6d3453f529255c98259b142439ce6af39.tar.zst"
+      ]
     },
     {
       "title": "MAWARU 3 ~SURViVOR~ Good Gravy",
       "source_simfile": "mawaru3/mawaru3.sm",
-      "harness_version": "0.1.80",
-      "archive": "93c3db054588763a70e4adb4cd74f66a00b72e1cfabff61bee52ea63d59fb868.tar.zst",
-      "sha256": "93c3db054588763a70e4adb4cd74f66a00b72e1cfabff61bee52ea63d59fb868",
-      "compressed_bytes": 15951732,
-      "uncompressed_sha256": "ca79a1990d87c6c35f81044be1a5448fdd947a9ee761a5ebe30ce912ccbd3318",
-      "aliases": []
+      "harness_version": "0.1.97",
+      "archive": "ff76c6033c8530ad1656d2d632881e981ebd9c52d72a11f8e585960cb86d5750.tar.zst",
+      "sha256": "ff76c6033c8530ad1656d2d632881e981ebd9c52d72a11f8e585960cb86d5750",
+      "compressed_bytes": 132521545,
+      "uncompressed_sha256": "757559482432b84add3c14987abec92e1ebe0894a57ef48b0cffe536485b18a5",
+      "aliases": [
+        "93c3db054588763a70e4adb4cd74f66a00b72e1cfabff61bee52ea63d59fb868.tar.zst"
+      ]
     },
     {
       "title": "MAWARU 4 EASY MODO!?",
@@ -3634,12 +3645,14 @@
     {
       "title": "MODULO",
       "source_simfile": "MODULO/modulo.ssc",
-      "harness_version": "0.1.80",
-      "archive": "dd8c07e6b1af04f2b6d133384f10c44b470e133c85c5b025f7ef26f33f2d0e4b.tar.zst",
-      "sha256": "dd8c07e6b1af04f2b6d133384f10c44b470e133c85c5b025f7ef26f33f2d0e4b",
-      "compressed_bytes": 23894356,
-      "uncompressed_sha256": "1656e72fc18dcd4daf1fc5c2316e242df3ec0703d5a65d54e2cc4cf942c3f006",
-      "aliases": []
+      "harness_version": "0.1.97",
+      "archive": "6f6575169b8a8a693bd36d4f29beb1933a2911236fe17455740a42c141bad2b9.tar.zst",
+      "sha256": "6f6575169b8a8a693bd36d4f29beb1933a2911236fe17455740a42c141bad2b9",
+      "compressed_bytes": 136779622,
+      "uncompressed_sha256": "3a25e5f79e2c32d9e9c91e59dee7f92f3acc442c0fe3707af63c6cf923245007",
+      "aliases": [
+        "dd8c07e6b1af04f2b6d133384f10c44b470e133c85c5b025f7ef26f33f2d0e4b.tar.zst"
+      ]
     },
     {
       "title": "Episode 03 Molly",
@@ -3793,7 +3806,7 @@
       "aliases": []
     },
     {
-      "title": "\u30cc\u30e0\u30b8\u30abac.10",
+      "title": "ヌムジカac.10",
       "source_simfile": "Numujika ac.10/Numujika ac.10.sm",
       "harness_version": "0.1.80",
       "archive": "be146bff0ca90ebfaaeb710d830667ca06e743e970678978b50dc3c72ea11ce7.tar.zst",
@@ -3885,7 +3898,7 @@
       "local_only": true
     },
     {
-      "title": "Episode 17 \u300e Pale \u300f",
+      "title": "Episode 17 『 Pale 』",
       "source_simfile": "Pale/Pale.sm",
       "harness_version": "0.1.80",
       "archive": "7b47c47dd97584509f08f5496fdb74ab2ef3436567e11ef2f731ee8d0cda7541.tar.zst",
@@ -3895,7 +3908,7 @@
       "aliases": []
     },
     {
-      "title": "Episode 17 \u300e Pale \u300f",
+      "title": "Episode 17 『 Pale 』",
       "source_simfile": "Pale/Pale.ssc",
       "harness_version": "0.1.80",
       "archive": "144acc3ebdb0afaa6950b57aca4328044cfb546fdbb81432bfcff84724c06d35.tar.zst",
@@ -4026,7 +4039,7 @@
       "aliases": []
     },
     {
-      "title": "\u307d (wrashi Bootleg)",
+      "title": "ぽ (wrashi Bootleg)",
       "source_simfile": "PO (wrashi Bootleg) [Gpop]/PO (wrashi Bootleg).ssc",
       "harness_version": "0.1.80",
       "archive": "46ac98a250bbd2ce5cd1f60a8a0e243b865ed82de23a2da8c96e9b158f3c9b24.tar.zst",
@@ -4351,12 +4364,14 @@
     {
       "title": "Episode 01 Save Your Tears",
       "source_simfile": "Save Your Tears/SaveYourTears.ssc",
-      "harness_version": "0.1.80",
-      "archive": "bd0195591367ef356e084148cb31ffa386da50e64c2ebdf4272185f22abebf5f.tar.zst",
-      "sha256": "bd0195591367ef356e084148cb31ffa386da50e64c2ebdf4272185f22abebf5f",
-      "compressed_bytes": 22796641,
-      "uncompressed_sha256": "f4ed2576123dc0763d8927bfee21813699f701685e08c9b67c152beb10639494",
-      "aliases": []
+      "harness_version": "0.1.97",
+      "archive": "c19af3a1182a528a49ff541173645c5dfbe6a2d03dc4dbb854e871977798ca1e.tar.zst",
+      "sha256": "c19af3a1182a528a49ff541173645c5dfbe6a2d03dc4dbb854e871977798ca1e",
+      "compressed_bytes": 132295898,
+      "uncompressed_sha256": "fa4aecb93d49d3da3e20e8e10dd7eba78d3e32707b3d748bd3db7f249cf7e265",
+      "aliases": [
+        "bd0195591367ef356e084148cb31ffa386da50e64c2ebdf4272185f22abebf5f.tar.zst"
+      ]
     },
     {
       "title": "Scorpion King",
@@ -4369,7 +4384,7 @@
       "aliases": []
     },
     {
-      "title": "See Tinh \u300cCukak Remix\u300d",
+      "title": "See Tinh 「Cukak Remix」",
       "source_simfile": "See Tinh/See Tinh.sm",
       "harness_version": "0.1.80",
       "archive": "391975fd164d893c11ca8306904cc5a8f33c924542670e8f3fc85aabb8c37804.tar.zst",
@@ -4379,7 +4394,7 @@
       "aliases": []
     },
     {
-      "title": "See Tinh \u300cCukak Remix\u300d [REQUIRES 2 PLAYERS]",
+      "title": "See Tinh 「Cukak Remix」 [REQUIRES 2 PLAYERS]",
       "source_simfile": "See Tinh/See Tinh.ssc",
       "harness_version": "0.1.80",
       "archive": "b5f570b58947f9dee7f130910b1007177b5f35b6394cd782a0e2ccd83d78602a.tar.zst",
@@ -4389,7 +4404,7 @@
       "aliases": []
     },
     {
-      "title": "\u81ea\u64ae\u30fc\u308b",
+      "title": "自撮ーる",
       "source_simfile": "Selfie - [JNero]/Selfie.ssc",
       "harness_version": "0.1.80",
       "archive": "146977c6c7ecc43ce6fd0b9c791614e4eb61a68bd44b435b1c2628f1409f8ad9.tar.zst",
@@ -4489,7 +4504,7 @@
       "aliases": []
     },
     {
-      "title": "\u7c9b\u8056!! \u30ed\u30ea\u795e\u30ec\u30af\u30a4\u30a8\u30e0\u2606",
+      "title": "粛聖!! ロリ神レクイエム☆",
       "source_simfile": "Shukusei!! Loli God's Requiem [Gpop]/Shukusei!! Loli God's Requiem.ssc",
       "harness_version": "0.1.80",
       "archive": "cace9c244aabf2214a771ef33cab536daf86c892d6751b5cfd7d56ef482c3594.tar.zst",
@@ -4509,7 +4524,7 @@
       "aliases": []
     },
     {
-      "title": "\uff33\uff4f\uff4d\uff45\uff4f\uff4e\uff45 \uff33\uff50\uff45\uff43\uff49\uff41\uff4c",
+      "title": "Ｓｏｍｅｏｎｅ Ｓｐｅｃｉａｌ",
       "source_simfile": "Someone Special - hubert/Someone Special.sm",
       "harness_version": "0.1.80",
       "archive": "d2139718caf170f1468b2c27496039a621bc201633100421a3114e7b6bd7eb6b.tar.zst",
@@ -4519,7 +4534,7 @@
       "aliases": []
     },
     {
-      "title": "\uff33\uff4f\uff4d\uff45\uff4f\uff4e\uff45 \uff33\uff50\uff45\uff43\uff49\uff41\uff4c",
+      "title": "Ｓｏｍｅｏｎｅ Ｓｐｅｃｉａｌ",
       "source_simfile": "Someone Special - hubert/Someone Special.ssc",
       "harness_version": "0.1.80",
       "archive": "c39fefdc2202790e09a0b143171f1ff2e61d819d60154faec857a5f89d1e469a.tar.zst",
@@ -4529,7 +4544,7 @@
       "aliases": []
     },
     {
-      "title": "\u7a7a\u9593\u5275\u9020\u7406\u8ad6",
+      "title": "空間創造理論",
       "source_simfile": "Space Creation Theory/space creation theory.ssc",
       "harness_version": "0.1.80",
       "archive": "db729f9c7c37537c4889dbbf3d15a52056d5d665c5c85b4f199441f8f4754090.tar.zst",
@@ -4730,7 +4745,7 @@
       "aliases": []
     },
     {
-      "title": "\u7389\u85fb\u524d",
+      "title": "玉藻前",
       "source_simfile": "Tamamo no Mae/Tamamo no Mae.ssc",
       "harness_version": "0.1.80",
       "archive": "28c78cbb37655d659a1840358b66ea6304390ab3da2b450339ec9f6a74c5be0a.tar.zst",
@@ -4740,7 +4755,7 @@
       "aliases": []
     },
     {
-      "title": "\u5927\u8f2a\u306e\u9b42 feat. AO\u3001\u53f8\u82ad\u6276 (!FUNKOT Remix)",
+      "title": "大輪の魂 feat. AO、司芭扶 (!FUNKOT Remix)",
       "source_simfile": "tamashi/tamashi.sm",
       "harness_version": "0.1.80",
       "archive": "ee7720ae718b0505a82b5f13b654563edb79c8394e9b48a64d13a9ac8299c9e3.tar.zst",
@@ -4822,12 +4837,14 @@
     {
       "title": "The Great Divide Seven Lions Remix",
       "source_simfile": "The Great Divide - [Axis, PCBoyGames]/The_Great_Divide_Seven_Lions_Remix_-_Velvetine_141_BPM.ssc",
-      "harness_version": "0.1.80",
-      "archive": "040c1d0c743a3a116aaeb996ebb028dc6e1ffda0f3411ccc627092b694f3ca7e.tar.zst",
-      "sha256": "040c1d0c743a3a116aaeb996ebb028dc6e1ffda0f3411ccc627092b694f3ca7e",
-      "compressed_bytes": 17835623,
-      "uncompressed_sha256": "8f3bd201a949cc830c4d3c38e4acda64e1d043cb846068b26a3ae928e1e193a5",
-      "aliases": []
+      "harness_version": "0.1.97",
+      "archive": "997821b5da448be442d588ba754131b8a248b97a39c1df012d138159ade5c9f5.tar.zst",
+      "sha256": "997821b5da448be442d588ba754131b8a248b97a39c1df012d138159ade5c9f5",
+      "compressed_bytes": 128398498,
+      "uncompressed_sha256": "4dbac45bb3095d45b65187de614b5ca992c81901510f22cd85c8f718935c7984",
+      "aliases": [
+        "040c1d0c743a3a116aaeb996ebb028dc6e1ffda0f3411ccc627092b694f3ca7e.tar.zst"
+      ]
     },
     {
       "title": "The Scale (feat. BabyTron)",
@@ -4890,7 +4907,7 @@
       "aliases": []
     },
     {
-      "title": "\u4eca\u5e74\u3082\u300c\u96ea\u964d\u308a\u3001\u30e1\u30ea\u30af\u30ea\u300d\u76ee\u6307\u3057\u3066\u987d\u5f20\u308a\u307e\u3059\uff01\uff01",
+      "title": "今年も「雪降り、メリクリ」目指して顽张ります！！",
       "source_simfile": "This year, too, we will strive to aim for [Snowfall, Merry Christmas]!!/This year, too, we will strive to aim for [Snowfall, Merry Christmas]!!.ssc",
       "harness_version": "0.1.80",
       "archive": "ee916455cc149148df2bc601b555913b829bb2131259bc5a6d8be8607421aeca.tar.zst",
@@ -4910,7 +4927,7 @@
       "aliases": []
     },
     {
-      "title": "\u6642\u3092\u523b\u3080\u5504 (Nhato Remix)",
+      "title": "時を刻む唄 (Nhato Remix)",
       "source_simfile": "Toki o Kizamu Uta (Nhato Remix)/Toki o Kizamu Uta (Nhato Remix).ssc",
       "harness_version": "0.1.80",
       "archive": "47bb5abeb3dccaba7f23bb11e2a9dce9d8f156572143362356f914b0f19754bf.tar.zst",
@@ -4960,7 +4977,7 @@
       "aliases": []
     },
     {
-      "title": "\u2200",
+      "title": "∀",
       "source_simfile": "Turn A - [Freya]/turn_a.ssc",
       "harness_version": "0.1.80",
       "archive": "b27c43a22b46afe29c45fdb7c0327a9c4d4d88a63850ae5670a6695f21dfbd2d.tar.zst",
@@ -5091,7 +5108,7 @@
       "aliases": []
     },
     {
-      "title": "VTuber\u6b7b\u306a\u306a\u3044",
+      "title": "VTuber死なない",
       "source_simfile": "Vtubers Never Die! [Gpop]/Vtubers Never Die!.ssc",
       "harness_version": "0.1.80",
       "archive": "b6bbfc129fafe5d0ef455cf7b7cd939e48d35b709fd26235f372ae53f04add7b.tar.zst",
@@ -5437,6 +5454,16 @@
       "uncompressed_sha256": "e57872b1454c2967d5e9e64e93262c5d3ec18fa9efac5bfaae9ee97898608f18",
       "aliases": [],
       "local_only": true
+    },
+    {
+      "title": "Metronogik",
+      "source_simfile": "Metronogik/Song.ssc",
+      "harness_version": "0.1.97",
+      "archive": "aef8b4093321c103b961511a236cb5d10e5efe7c2c723b760330945bf0424c41.tar.zst",
+      "sha256": "aef8b4093321c103b961511a236cb5d10e5efe7c2c723b760330945bf0424c41",
+      "compressed_bytes": 124412544,
+      "uncompressed_sha256": "e6107b2159282dfcfea9839d9c3ec71548444e75dfd8acdd70903d029f2de148",
+      "aliases": []
     }
   ],
   "compression_level": 22

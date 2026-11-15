@@ -78,12 +78,6 @@
     "archive": "03deca0155f154016a35f421b08a72dc7bf7cff03bea65273ec9fdb1aa924e6d.tar.zst"
   },
   {
-    "title": "The Great Divide Seven Lions Remix",
-    "source_simfile": "The Great Divide - [Axis, PCBoyGames]/The_Great_Divide_Seven_Lions_Remix_-_Velvetine_141_BPM.ssc",
-    "harness_version": "0.1.80",
-    "archive": "040c1d0c743a3a116aaeb996ebb028dc6e1ffda0f3411ccc627092b694f3ca7e.tar.zst"
-  },
-  {
     "title": "Remind the Souls",
     "source_simfile": "Remind The Souls/remindthesouls-fakemines.sm",
     "harness_version": "0.1.80",
@@ -418,6 +412,12 @@
     "source_simfile": "Happy Now Remastered/Happy Now.sm",
     "harness_version": "0.1.0",
     "archive": "1247a360a459ff78cde41474fdbd6636f386b3e5628984373aaf206aa2a9b78f.tar.zst"
+  },
+  {
+    "title": "Lesson by DJ",
+    "source_simfile": "Lesson by DJ/Lesson by DJ.ssc",
+    "harness_version": "0.1.97",
+    "archive": "124f5e01dedb00f4900d1f55cb446e1e8ccbbfb381d82196a269c2a8cd6983a7.tar.zst"
   },
   {
     "title": "MODULO",
@@ -1266,12 +1266,6 @@
     "archive": "356b778edc0d1fe565b4a057112c5a4d34e512ad7cf3eba6471bf20601cd5acf.tar.zst"
   },
   {
-    "title": "MAWARU 2 THE REVENGE",
-    "source_simfile": "mawaru2/mawaru2.sm",
-    "harness_version": "0.1.80",
-    "archive": "35819d6ac6271b00f66bf76bfbd23de6d3453f529255c98259b142439ce6af39.tar.zst"
-  },
-  {
     "title": "The Scale",
     "source_simfile": "The Scale/The Scale.ssc",
     "harness_version": "0.1.0",
@@ -1696,6 +1690,12 @@
     "source_simfile": "You are Goomba Play ITG/You are Gooma Play ITG.ssc",
     "harness_version": "0.1.0",
     "archive": "44bd4c5f7b30e0fcd578e04ac0d98ea09516062f11ff19a405d721ae2a01daec.tar.zst"
+  },
+  {
+    "title": "Kuru Kuru kururin [MODS]",
+    "source_simfile": "Kuru Kuru kururin/Kuru Kuru kururin.ssc",
+    "harness_version": "0.1.97",
+    "archive": "44ec9dda8d1d1d2f852cdecd8a467bc78bfcd3b70a9b7758728fd2fae07cc3c3.tar.zst"
   },
   {
     "title": "media offline",
@@ -2322,12 +2322,6 @@
     "archive": "64f69cd0aa552aaecd049ff06af907f8973590288d1920c93070804b9557b19e.tar.zst"
   },
   {
-    "title": "Kuru Kuru kururin [MODS]",
-    "source_simfile": "Kuru Kuru kururin/Kuru Kuru kururin.ssc",
-    "harness_version": "0.1.80",
-    "archive": "6577dfb6182e8590c79d8f57bdb2ef6a9970106c80f30196eeac614ed64ec89f.tar.zst"
-  },
-  {
     "title": "Ultra B+K",
     "source_simfile": "Ultra B+K/ultrabk.ssc",
     "harness_version": "0.1.80",
@@ -2500,6 +2494,12 @@
     "source_simfile": "Maware! Setsugetsuka (ric3show3r bootleg)/maware ric3show3r.ssc",
     "harness_version": "0.1.0",
     "archive": "6f079cd61544f4ae39e7cb4cb2a51cf065f340b0ad973ffdb9568031110f82a3.tar.zst"
+  },
+  {
+    "title": "MODULO",
+    "source_simfile": "MODULO/modulo.ssc",
+    "harness_version": "0.1.97",
+    "archive": "6f6575169b8a8a693bd36d4f29beb1933a2911236fe17455740a42c141bad2b9.tar.zst"
   },
   {
     "title": "Planet Calling",
@@ -2988,6 +2988,12 @@
     "archive": "852cbbb1b4826effd45cf24173c9b134ad944dc3ecfb47f7c48b5f186a598437.tar.zst"
   },
   {
+    "title": "MAWARU 2 THE REVENGE",
+    "source_simfile": "mawaru2/mawaru2.sm",
+    "harness_version": "0.1.97",
+    "archive": "85f08574380595c2c78fd53c36c35d168578df3e69fa887b5da49577e2126382.tar.zst"
+  },
+  {
     "title": "Episode 12 Think About You",
     "source_simfile": "Think About You/Think About You.ssc",
     "harness_version": "0.1.80",
@@ -3360,18 +3366,6 @@
     "archive": "928a881a590f97ff4ebf7f8f67662b389bae367619042ab67dfebcfa7f7f3bdc.tar.zst"
   },
   {
-    "title": "MAWARU Made in StepMania",
-    "source_simfile": "mawaru1/mawaru.sm",
-    "harness_version": "0.1.80",
-    "archive": "937aa2f11cc7a6f57482c215cd7a4674624da99a23ec1d05cad1e8142e2b5650.tar.zst"
-  },
-  {
-    "title": "MAWARU 3 ~SURViVOR~ Good Gravy",
-    "source_simfile": "mawaru3/mawaru3.sm",
-    "harness_version": "0.1.80",
-    "archive": "93c3db054588763a70e4adb4cd74f66a00b72e1cfabff61bee52ea63d59fb868.tar.zst"
-  },
-  {
     "title": "DREAMING-ING!!",
     "source_simfile": "DREAMING-ING!!/DREAMING-ING!!.ssc",
     "harness_version": "0.1.80",
@@ -3424,12 +3418,6 @@
     "source_simfile": "Abraham's OP/Abraham's OP.ssc",
     "harness_version": "0.1.58",
     "archive": "97629f8fa0b48d623bfeb0ac18413879c3bf1d45bc726b39ae64b98c6295f9d1.tar.zst"
-  },
-  {
-    "title": "Limitless",
-    "source_simfile": "Limitless/Limitless.ssc",
-    "harness_version": "0.1.80",
-    "archive": "97a451e724bf932ea6f2575ae3dc23d6392ae3fe5999fd5173991cd81f024a80.tar.zst"
   },
   {
     "title": "[5604] [10] flip69",
@@ -3490,6 +3478,12 @@
     "source_simfile": "[10] Lake of Lost Nostalgia (SX) [Ky_Dash]/Lake of Lost Nostalgia.ssc",
     "harness_version": "0.1.52",
     "archive": "99406157c7ad8eaac74c5d79984cc099ed219eafbbb2c0c7c0ae2116a5547663.tar.zst"
+  },
+  {
+    "title": "The Great Divide Seven Lions Remix",
+    "source_simfile": "The Great Divide - [Axis, PCBoyGames]/The_Great_Divide_Seven_Lions_Remix_-_Velvetine_141_BPM.ssc",
+    "harness_version": "0.1.97",
+    "archive": "997821b5da448be442d588ba754131b8a248b97a39c1df012d138159ade5c9f5.tar.zst"
   },
   {
     "title": "[14] [CRYSTAL_ACCESS]",
@@ -3990,6 +3984,12 @@
     "archive": "aea3ad5d5ed71889b690a118d9f393d4118f38adf030b378511657fd86da0982.tar.zst"
   },
   {
+    "title": "Metronogik",
+    "source_simfile": "Metronogik/Song.ssc",
+    "harness_version": "0.1.97",
+    "archive": "aef8b4093321c103b961511a236cb5d10e5efe7c2c723b760330945bf0424c41.tar.zst"
+  },
+  {
     "title": "319|TECH SOUP|[lv.P.Clark] Epidermis",
     "source_simfile": "319-TECH SOUP-[lv.P.Clark] [Tech Spectrum Super]/Venetian Snares - Epidermis.ssc",
     "harness_version": "0.1.31",
@@ -4290,12 +4290,6 @@
     "archive": "bcf3e7f0e00b0eac4974127394505aac8facfd8402cd6b3f4b917d738de458ea.tar.zst"
   },
   {
-    "title": "Episode 01 Save Your Tears",
-    "source_simfile": "Save Your Tears/SaveYourTears.ssc",
-    "harness_version": "0.1.80",
-    "archive": "bd0195591367ef356e084148cb31ffa386da50e64c2ebdf4272185f22abebf5f.tar.zst"
-  },
-  {
     "title": "Stepping Music",
     "source_simfile": "Stepping Music/simfile.ssc",
     "harness_version": "0.1.0",
@@ -4398,6 +4392,12 @@
     "archive": "c1032bff0ba2c496f85b99e52d1e41e5dc11eda1f16fcc36a7f5651f6cae4247.tar.zst"
   },
   {
+    "title": "Episode 01 Save Your Tears",
+    "source_simfile": "Save Your Tears/SaveYourTears.ssc",
+    "harness_version": "0.1.97",
+    "archive": "c19af3a1182a528a49ff541173645c5dfbe6a2d03dc4dbb854e871977798ca1e.tar.zst"
+  },
+  {
     "title": "リップシンク",
     "source_simfile": "Lip-Sync [Gpop]/Lip-Sync.ssc",
     "harness_version": "0.1.80",
@@ -4432,6 +4432,12 @@
     "source_simfile": "[12] Myths You Forgot (SX) [Benpai & Zaia]/Myths You Forgot.ssc",
     "harness_version": "0.1.0",
     "archive": "c2fced0ab658ce25f0a1a54d722162af378df050d61bcb8e7eade94dd0619e61.tar.zst"
+  },
+  {
+    "title": "MAWARU Made in StepMania",
+    "source_simfile": "mawaru1/mawaru.sm",
+    "harness_version": "0.1.97",
+    "archive": "c2fd5de1c8453089dd5a5fa6066a2d6e315f540624b1b569ec70cbba483219c9.tar.zst"
   },
   {
     "title": "Ｓｏｍｅｏｎｅ Ｓｐｅｃｉａｌ",
@@ -4908,16 +4914,16 @@
     "archive": "dd354f14a68ae506d29f7ebd651c66444f451aa871503feeebae5c6375f21722.tar.zst"
   },
   {
-    "title": "MODULO",
-    "source_simfile": "MODULO/modulo.ssc",
-    "harness_version": "0.1.80",
-    "archive": "dd8c07e6b1af04f2b6d133384f10c44b470e133c85c5b025f7ef26f33f2d0e4b.tar.zst"
-  },
-  {
     "title": "Flying Castle",
     "source_simfile": "[13] Flying Castle/flying castle.ssc",
     "harness_version": "0.1.54",
     "archive": "dd8eaae09a428a87545fa7f19f9d8c51ad1c7dc8f7b697333ec8c11a8a54fe56.tar.zst"
+  },
+  {
+    "title": "Limitless",
+    "source_simfile": "Limitless/Limitless.ssc",
+    "harness_version": "0.1.97",
+    "archive": "dec372a506f02ac0f16eff25445959998383f02fed9def6c877c98268333d715.tar.zst"
   },
   {
     "title": "Warp Zone",
@@ -5584,6 +5590,12 @@
     "source_simfile": "Blacksphere/music.ssc",
     "harness_version": "0.1.0",
     "archive": "ff63ea99da9a8ecf68671e3805934bfbac83ff446af63bdc0a624dc0c50d74a3.tar.zst"
+  },
+  {
+    "title": "MAWARU 3 ~SURViVOR~ Good Gravy",
+    "source_simfile": "mawaru3/mawaru3.sm",
+    "harness_version": "0.1.97",
+    "archive": "ff76c6033c8530ad1656d2d632881e981ebd9c52d72a11f8e585960cb86d5750.tar.zst"
   },
   {
     "title": "e",

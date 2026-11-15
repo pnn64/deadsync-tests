@@ -1,0 +1,278 @@
+{
+  "date": "2026-11-15",
+  "scope": "Ten fresh complete native gameplay captures. Every implemented diagnostic Lua comparison passes; this does not establish complete production or rendering parity.",
+  "harness_version": "0.1.97",
+  "harness_commit": "00f50340b5edda2a54dcdf78e38d4f9079a561da",
+  "itgmania_source_revision": "5c737928d93778c2c9f68e276052b220b43a468f",
+  "itgmania_source_modified": false,
+  "harness_binary_sha256": "814bcc05eedc2754c7821f382157451ee339db78b40d732ab6977834bffb4f2a",
+  "native_binary_sha256": "0d73cca1331499e57003c273957abe08e6fa4e9a9a1b66648e4f814b59223f7d",
+  "replay_binary_sha256": "6af2977f9c025f967c23eb5387c3a950c07b472ca1243e84b9b2367c72fd3fad",
+  "execution_path": "diagnostic-live-lua",
+  "whole_song_parity_proven": false,
+  "fixes": [
+    "Duplicate-name child groups capture the class method at lookup, bypass instance overrides, and forward through a native closure to the last member at invocation. This preserves the authored trace caller and fixes Lesson.",
+    "Populated Simply Love combo actors retain their native ActorFrame Lua type. Metronogik can now recurse into the combo children.",
+    "ScreenGameplay initializes hidden StepsDescription text from each selected chart before authored On, preserving native hibernation and fixing Metronogik late fades.",
+    "Semantic native captures record and validate their executable source; archive manifests use that stamp instead of the embedded-harness revision from a template.",
+    "The Windows trace adapter supplies the map filename expected by the native post-build symbol generator."
+  ],
+  "capture_revision_audit": {
+    "rejected_initial_revision": "704cdd5624155f743b59b8b64fedeb0588dae067",
+    "reason": "The external executable had a later TimingData rewrite than the pinned embedded oracle. Kuru and Mawaru 3 showed float differences. All ten captures were regenerated with the pinned source; comparison tolerances were unchanged."
+  },
+  "native_control": "../regression-expectations/song-lua/native-actor-parity/provenance.json",
+  "replay_validation": {
+    "command": "full_song_lua --archive <candidate.tar> --report <report.json>",
+    "comparison_tolerances_changed": false,
+    "historical_pending_resolved": [
+      "Lesson by DJ/Lesson by DJ.ssc",
+      "Metronogik/Song.ssc"
+    ]
+  },
+  "tests": {
+    "deadsync_actors_passed": 27,
+    "deadsync_player_parts_passed": 7,
+    "deadsync_actor_runtime_passed": 12,
+    "deadsync_live_passed": 151,
+    "harness_headless_passed": 117,
+    "harness_headless_ignored": 2,
+    "harness_runtime_passed": 16,
+    "harness_runtime_ignored": 1,
+    "harness_archives_passed": 13
+  },
+  "total_replayed_frames": 753362,
+  "total_compared_stage_fields": 19030,
+  "native_replays": [
+    {
+      "song": "metronogik",
+      "title": "Metronogik",
+      "source_simfile": "Metronogik/Song.ssc",
+      "archive": "aef8b4093321c103b961511a236cb5d10e5efe7c2c723b760330945bf0424c41.tar.zst",
+      "candidate_sha256": "e6107b2159282dfcfea9839d9c3ec71548444e75dfd8acdd70903d029f2de148",
+      "native_frames": 43009,
+      "replayed_frames": 43009,
+      "compared_stage_fields": 2156,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "pending_coverage_count": 18,
+      "style": "single",
+      "difficulty": "Challenge",
+      "capture_fps": null,
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      }
+    },
+    {
+      "song": "lesson",
+      "title": "Lesson by DJ",
+      "source_simfile": "Lesson by DJ/Lesson by DJ.ssc",
+      "archive": "124f5e01dedb00f4900d1f55cb446e1e8ccbbfb381d82196a269c2a8cd6983a7.tar.zst",
+      "candidate_sha256": "c30a4c55bff067c20b39eba243773d27095009f5947cd26ba103fb4151251b96",
+      "native_frames": 4773,
+      "replayed_frames": 4773,
+      "compared_stage_fields": 2310,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "pending_coverage_count": 14,
+      "style": "versus",
+      "difficulty": "Challenge",
+      "capture_fps": 60,
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      }
+    },
+    {
+      "song": "kuru",
+      "title": "Kuru Kuru kururin [MODS]",
+      "source_simfile": "Kuru Kuru kururin/Kuru Kuru kururin.ssc",
+      "archive": "44ec9dda8d1d1d2f852cdecd8a467bc78bfcd3b70a9b7758728fd2fae07cc3c3.tar.zst",
+      "candidate_sha256": "f463ad9578c5d972f8b240808b7003602d66a47ea91b6b3cd34bc036f509a3d9",
+      "native_frames": 28438,
+      "replayed_frames": 28438,
+      "compared_stage_fields": 528,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "pending_coverage_count": 18,
+      "style": "single",
+      "difficulty": "Challenge",
+      "capture_fps": null,
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      }
+    },
+    {
+      "song": "modulo",
+      "title": "MODULO",
+      "source_simfile": "MODULO/modulo.ssc",
+      "archive": "6f6575169b8a8a693bd36d4f29beb1933a2911236fe17455740a42c141bad2b9.tar.zst",
+      "candidate_sha256": "3a25e5f79e2c32d9e9c91e59dee7f92f3acc442c0fe3707af63c6cf923245007",
+      "native_frames": 124900,
+      "replayed_frames": 124900,
+      "compared_stage_fields": 1408,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "pending_coverage_count": 16,
+      "style": "single",
+      "difficulty": "Edit",
+      "capture_fps": null,
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      }
+    },
+    {
+      "song": "limitless",
+      "title": "Limitless",
+      "source_simfile": "Limitless/Limitless.ssc",
+      "archive": "dec372a506f02ac0f16eff25445959998383f02fed9def6c877c98268333d715.tar.zst",
+      "candidate_sha256": "9db66d9b87fd88ed04b4c2785aa6c8a93ebee28792b562335412482cf11a7091",
+      "native_frames": 41213,
+      "replayed_frames": 41213,
+      "compared_stage_fields": 1419,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "pending_coverage_count": 17,
+      "style": "single",
+      "difficulty": "Challenge",
+      "capture_fps": null,
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      }
+    },
+    {
+      "song": "mawaru1",
+      "title": "MAWARU Made in StepMania",
+      "source_simfile": "mawaru1/mawaru.sm",
+      "archive": "c2fd5de1c8453089dd5a5fa6066a2d6e315f540624b1b569ec70cbba483219c9.tar.zst",
+      "candidate_sha256": "05d9b40d348b3578f7d04f617a70c4b0aa77a40e17989626e432df56f827b6c4",
+      "native_frames": 90292,
+      "replayed_frames": 90292,
+      "compared_stage_fields": 1705,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "pending_coverage_count": 1,
+      "style": "single",
+      "difficulty": "Challenge",
+      "capture_fps": null,
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      }
+    },
+    {
+      "song": "mawaru2",
+      "title": "MAWARU 2 THE REVENGE",
+      "source_simfile": "mawaru2/mawaru2.sm",
+      "archive": "85f08574380595c2c78fd53c36c35d168578df3e69fa887b5da49577e2126382.tar.zst",
+      "candidate_sha256": "fe83cc345b3f6627bd3fdfac86a56fbafdcf1acb20529b42b46a83d2772d3a36",
+      "native_frames": 97880,
+      "replayed_frames": 97880,
+      "compared_stage_fields": 1925,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "pending_coverage_count": 18,
+      "style": "single",
+      "difficulty": "Challenge",
+      "capture_fps": null,
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      }
+    },
+    {
+      "song": "mawaru3",
+      "title": "MAWARU 3 ~SURViVOR~ Good Gravy",
+      "source_simfile": "mawaru3/mawaru3.sm",
+      "archive": "ff76c6033c8530ad1656d2d632881e981ebd9c52d72a11f8e585960cb86d5750.tar.zst",
+      "candidate_sha256": "757559482432b84add3c14987abec92e1ebe0894a57ef48b0cffe536485b18a5",
+      "native_frames": 164651,
+      "replayed_frames": 164651,
+      "compared_stage_fields": 2783,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "pending_coverage_count": 18,
+      "style": "single",
+      "difficulty": "Challenge",
+      "capture_fps": null,
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      }
+    },
+    {
+      "song": "tears",
+      "title": "Episode 01 Save Your Tears",
+      "source_simfile": "Save Your Tears/SaveYourTears.ssc",
+      "archive": "c19af3a1182a528a49ff541173645c5dfbe6a2d03dc4dbb854e871977798ca1e.tar.zst",
+      "candidate_sha256": "fa4aecb93d49d3da3e20e8e10dd7eba78d3e32707b3d748bd3db7f249cf7e265",
+      "native_frames": 69112,
+      "replayed_frames": 69112,
+      "compared_stage_fields": 2178,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "pending_coverage_count": 18,
+      "style": "single",
+      "difficulty": "Edit",
+      "capture_fps": null,
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      }
+    },
+    {
+      "song": "divide",
+      "title": "The Great Divide Seven Lions Remix",
+      "source_simfile": "The Great Divide - [Axis, PCBoyGames]/The_Great_Divide_Seven_Lions_Remix_-_Velvetine_141_BPM.ssc",
+      "archive": "997821b5da448be442d588ba754131b8a248b97a39c1df012d138159ade5c9f5.tar.zst",
+      "candidate_sha256": "4dbac45bb3095d45b65187de614b5ca992c81901510f22cd85c8f718935c7984",
+      "native_frames": 89094,
+      "replayed_frames": 89094,
+      "compared_stage_fields": 2618,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "pending_coverage_count": 17,
+      "style": "single",
+      "difficulty": "Challenge",
+      "capture_fps": null,
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      }
+    }
+  ]
+}

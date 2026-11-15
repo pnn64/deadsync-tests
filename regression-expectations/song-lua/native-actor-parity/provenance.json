@@ -1,0 +1,30 @@
+{
+  "harness_version": "0.1.97",
+  "harness_commit": "00f5034",
+  "native_source": {
+    "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+    "modified_src": false,
+    "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+    "revision": "5c737928d93778c2c9f68e276052b220b43a468f"
+  },
+  "native_trace_sha256": "5d6613f6c5bef9ca3cb63623c002d4a4e7612a4b59656b6626df7ca9024124e7",
+  "completed": {
+    "next_screen": "ScreenEvaluationStage",
+    "reason": "gameplay-exit",
+    "stage_committed": true,
+    "stages_played_after": 1,
+    "stages_played_before": 0
+  },
+  "assertions": [
+    "DuplicateGroupsChecked",
+    "ComboClassChecked",
+    "StepsDescriptionChecked"
+  ],
+  "note": "Native gameplay control with real ActorFrame duplicate groups, populated Simply Love combo frame, and chart description initialized before authored On. Probe assertions were executed by the pinned engine.",
+  "inputs_sha256": {
+    "default.lua": "705330af565b818ee438ca983248c2c9f095e09b4c27098479efb252b5b82ce7",
+    "probe.lua": "25e195622faa7484ff6ad1b6dfd059ada12a171f72c337b42cc4a2e729968bc1",
+    "probe.sm": "c06f0c9c56594ffc26242e24b052a0d272a609284355e0a6cf3cf8ca7fa9479f",
+    "silence.wav": "f863d98220a9f1aa76e43170f4948f0888b2028fcf6b0aae497fde768efca380"
+  }
+}
