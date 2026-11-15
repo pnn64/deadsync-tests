@@ -1320,6 +1320,12 @@
     "archive": "36dba1040aa04ac6edc04d62e8839394103411a24f572e3e166101abb5d1e5fd.tar.zst"
   },
   {
+    "title": "Apollo",
+    "source_simfile": "Apollo/Apollo.ssc",
+    "harness_version": "0.1.98",
+    "archive": "37564f13ca0bb9a45a46f49e3374a289ed645e66ae91670c5ead2779a6876e6e.tar.zst"
+  },
+  {
     "title": "Kuru Kuru kururin [MODS]",
     "source_simfile": "Kuru Kuru kururin/Kuru Kuru kururin.ssc",
     "harness_version": "0.1.0",
@@ -2424,6 +2430,12 @@
     "archive": "668b5d9e3eb1f2d5789b3e194b478936406cae05d570336c110b3d5637aeb2ad.tar.zst"
   },
   {
+    "title": "99+",
+    "source_simfile": "99+ [-YOSEFU-]/99+.ssc",
+    "harness_version": "0.1.98",
+    "archive": "674a335c8ab5cbed75c1cd98f390649f4a8be0ea6a4b8fe522cea70964a3759a.tar.zst"
+  },
+  {
     "title": "[6005] [11] CO5M1C R4ILR0AD (Hard)",
     "source_simfile": "[11] CO5M1C R4ILR0AD (SH) [TaroNuke vs. Scrypts]/CO5M1C R4ILR0AD-chart.ssc",
     "harness_version": "0.1.0",
@@ -3016,6 +3028,12 @@
     "source_simfile": "Vector Field/Vector Field.ssc",
     "harness_version": "0.1.0",
     "archive": "8152f73a818a4931c802e7d4f4d192e6671e28c69481838c1c964fb29452636b.tar.zst"
+  },
+  {
+    "title": "Sharkmode",
+    "source_simfile": "Sharkmode [Ky_Dash]/Sharkmode.ssc",
+    "harness_version": "0.1.98",
+    "archive": "81a02f3ebadfdd0edf0cf8e3134e714ee8596f88270df9cf0ad817f45dcc8dc5.tar.zst"
   },
   {
     "title": "Apollo",
@@ -4716,6 +4734,12 @@
     "archive": "cbfe9d3319b3bb86aaacf56961ba890ba6fc6d245fb7e8a7b832c316a5ee9150.tar.zst"
   },
   {
+    "title": "夢咲きAfter school",
+    "source_simfile": "Dreams Bloom After School/Dreams Bloom After School.ssc",
+    "harness_version": "0.1.98",
+    "archive": "cd14649c13404a0ad14645432ff60911182f8163be1194feaa62dcbb711f342b.tar.zst"
+  },
+  {
     "title": "Answers",
     "source_simfile": "Answers2/Answers.sm",
     "harness_version": "0.1.61",
@@ -4914,6 +4938,12 @@
     "archive": "d6107bb073549b87484b63a849b3d043140c04a69017dd1ca27b343cc30bce8b.tar.zst"
   },
   {
+    "title": "Metronogik",
+    "source_simfile": "Metronogik/Song.ssc",
+    "harness_version": "0.1.98",
+    "archive": "d68efaf1b6a76f3dbf31ba77996284bb38bd65c07c1d19fa68f21c2b31795f46.tar.zst"
+  },
+  {
     "title": "行つてしまつた",
     "source_simfile": "gone_KidFresino/song.ssc",
     "harness_version": "0.1.0",
@@ -5088,6 +5118,12 @@
     "archive": "dfb22b000f2531ee587b0f8078c0b8f176a96556711df4c11644482d7d0d42f6.tar.zst"
   },
   {
+    "title": "Bank Account",
+    "source_simfile": "Bank Account/Bank Account.ssc",
+    "harness_version": "0.1.98",
+    "archive": "e089a741c376a7860e9a95df996478365238cafb1a55be6b64e9c11b49a72087.tar.zst"
+  },
+  {
     "title": "Shine!",
     "source_simfile": "Shine!/Shine!.ssc",
     "harness_version": "0.1.0",
@@ -5224,6 +5260,12 @@
     "source_simfile": "[CRYSTAL_ACCESS]/[CRYSTAL_ACCESS].sm",
     "harness_version": "0.1.54",
     "archive": "e8c001502da5460ec27525b42f5bbe79a925cad47139c3c1b5c3edefbc233fe7.tar.zst"
+  },
+  {
+    "title": "クレイジークレイジー",
+    "source_simfile": "Crazy Crazy/Crazy Crazy.ssc",
+    "harness_version": "0.1.98",
+    "archive": "e8c7a784875a250f25aed1c73b2d70dc43fe3ea7e5e75dc7f5ab26d5090f0987.tar.zst"
   },
   {
     "title": "Step Your Game Up (Director's Cut) [Tier 5]",
