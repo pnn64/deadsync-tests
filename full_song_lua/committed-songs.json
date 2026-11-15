@@ -1272,6 +1272,12 @@
     "archive": "33cd1658f0e05c90641e0a67495924d0e7e65d9dae0230255e4778eaad246be4.tar.zst"
   },
   {
+    "title": "Cloud99",
+    "source_simfile": "Cloud99 (As Above Mix)/Song.ssc",
+    "harness_version": "0.1.98",
+    "archive": "345852af5c259d8ae4b82693eae6719e5fd70a743a6d83fd17145a5efb964558.tar.zst"
+  },
+  {
     "title": "Shakunetsu pt. II",
     "source_simfile": "Shakunetsu2 [TaroNuke]/shakunetsu2.sm",
     "harness_version": "0.1.0",

@@ -224,6 +224,28 @@
       ]
     },
     {
+      "archive": "345852af5c259d8ae4b82693eae6719e5fd70a743a6d83fd17145a5efb964558.tar.zst",
+      "bytes": 139804610,
+      "sha256": "345852af5c259d8ae4b82693eae6719e5fd70a743a6d83fd17145a5efb964558",
+      "parts": [
+        {
+          "file": "archive-parts/345852af5c259d8ae4b82693eae6719e5fd70a743a6d83fd17145a5efb964558/000.part",
+          "bytes": 48000000,
+          "sha256": "bf3fe9fd887efaa4ea41450e5b9b6cda7c0b14cd09bda20c303f9600b2dafb66"
+        },
+        {
+          "file": "archive-parts/345852af5c259d8ae4b82693eae6719e5fd70a743a6d83fd17145a5efb964558/001.part",
+          "bytes": 48000000,
+          "sha256": "5f93950d22593d4e26183c21d82776c83c5ae6adaf2e7982ce38801583c1e804"
+        },
+        {
+          "file": "archive-parts/345852af5c259d8ae4b82693eae6719e5fd70a743a6d83fd17145a5efb964558/002.part",
+          "bytes": 43804610,
+          "sha256": "5494db86f11d884ea307c9cd3d7744376870ba9953e585a52a425f43c9ff0550"
+        }
+      ]
+    },
+    {
       "archive": "366cd294e9eb01da2576118ab365451bd8b7beec08d81b02d02f9b74c8176742.tar.zst",
       "bytes": 111586571,
       "sha256": "366cd294e9eb01da2576118ab365451bd8b7beec08d81b02d02f9b74c8176742",
