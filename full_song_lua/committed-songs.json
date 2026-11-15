@@ -1494,6 +1494,12 @@
     "archive": "3d335853cef1098318e53cdf9fc8a84d531839c0af9f9a4cd7f744b52a76fa11.tar.zst"
   },
   {
+    "title": "Turii -Panta Rhei-",
+    "source_simfile": "Velvet LEFTS 1/chart.ssc",
+    "harness_version": "0.1.98",
+    "archive": "3d672685fb7cd88fd4beb77913e13014cfa210bd2cbdc0161a8480ef2f5f1b9c.tar.zst"
+  },
+  {
     "title": "Episode 03",
     "source_simfile": "Molly/Molly.ssc",
     "harness_version": "0.1.0",
@@ -3390,6 +3396,12 @@
     "archive": "911e8c02c3e02f713b94d4ff04b04647eaa69bf34f359a3a9d48a158b3295ed1.tar.zst"
   },
   {
+    "title": "feedback-megalovania-v2",
+    "source_simfile": "__pass2_controls/feedback-megalovania-v2/control.sm",
+    "harness_version": "0.1.98",
+    "archive": "91441f58d8d6e65b010b60bf28509824dddc9f66c06022e591874e1c2b953d9b.tar.zst"
+  },
+  {
     "title": "Get Into It",
     "source_simfile": "Get Into It/GetIntoIt.sm",
     "harness_version": "0.1.0",
@@ -3640,6 +3652,12 @@
     "source_simfile": "LALA/lala.ssc",
     "harness_version": "0.1.80",
     "archive": "9c77701d228741d2959cb569475615ce0c0ee2690888d7154335048987fb1c49.tar.zst"
+  },
+  {
+    "title": "Episode 20",
+    "source_simfile": "Happy Now Remastered/Happy Now.sm",
+    "harness_version": "0.1.98",
+    "archive": "9d6a810f38acb1792d6e5164ccd25d92c31740cf62fb8cbf2c5147b85a758c15.tar.zst"
   },
   {
     "title": "Chewingood!!!",
@@ -4584,6 +4602,12 @@
     "archive": "c86e848232f0272bb5589cca64a27546b0031a28d4744c1e5ffc52f02115d456.tar.zst"
   },
   {
+    "title": "Happy Now",
+    "source_simfile": "Happy Now/Happy Now.sm",
+    "harness_version": "0.1.98",
+    "archive": "c88b1568236edb07017d037b6525d1acc4d45e2b0748591a29ab24a5396471dd.tar.zst"
+  },
+  {
     "title": "Answers",
     "source_simfile": "Answers2/Answers.ssc",
     "harness_version": "0.1.61",
@@ -5080,6 +5104,12 @@
     "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
     "harness_version": "0.1.0",
     "archive": "e30f7a23efb6897e17bd55a014026f58303d23bc566f29708bf4b6c9b0c35a2b.tar.zst"
+  },
+  {
+    "title": "Episode 19",
+    "source_simfile": "Young Dumb And Broke/YDB.ssc",
+    "harness_version": "0.1.98",
+    "archive": "e3d8c7ea1186840190b841627cd2081667521ec65f9697a3d4e1a87f4a991345.tar.zst"
   },
   {
     "title": "Invert",
