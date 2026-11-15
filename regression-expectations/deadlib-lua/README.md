@@ -29,3 +29,8 @@ mismatch fails instead of loading an old image for a changed program.
 The reader rejects missing cases and duplicate identities. There is no automatic
 update mode. Changes to input programs or observations require reviewing the
 corresponding expectations.
+
+`lua51_table_order.lua` and its `.txt` output record native Lua 5.1 table
+iteration, length, constructor sizing, deletion and resize behavior. The
+reference uses ITGmania revision `5c737928d93778c2c9f68e276052b220b43a468f`;
+the regression also exercises dumped chunk reloads and weak-table collection.

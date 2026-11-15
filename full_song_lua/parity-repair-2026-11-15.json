@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-15",
+  "scope": "Five selected captures; all implemented comparisons pass. Native diagnostic replay does not establish complete production/rendering parity.",
+  "itgmania_source_revision": "5c737928d93778c2c9f68e276052b220b43a468f",
+  "fixes": [
+    "Opt-in Lua 5.1 table node placement and constructor size hints for the song runtime.",
+    "First-draw mutations retained on frame zero instead of deferred as queued startup changes.",
+    "Complete native screen child table in embedded harness 0.1.96; Simply Love Footer draw order 90 in both implementations.",
+    "Replaced obsolete continuous-BPM Igaku/Godspeed references with complete native captures; refreshed embedded Sharkmode with checkout noteskin assets."
+  ],
+  "native_replays": [
+    {
+      "song": "sharkmode",
+      "archive": "c0e87ceaf1b5d72eab4c21ebea3e99708582eb20a0b1a0385d076fe8820074fb.tar.zst",
+      "replayed_frames": 44354,
+      "compared_stage_fields": 1628,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "execution_path": "diagnostic-live-lua",
+      "whole_song_parity_proven": false,
+      "pending_coverage_count": 18
+    },
+    {
+      "song": "igaku",
+      "archive": "17450d1eb6fd1d3b23ca248e6c9c5a5a2c097ed86da9ae6a9d7ac978b016f1ab.tar.zst",
+      "replayed_frames": 3931,
+      "compared_stage_fields": 1386,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "execution_path": "diagnostic-live-lua",
+      "whole_song_parity_proven": false,
+      "pending_coverage_count": 18
+    },
+    {
+      "song": "godspeed",
+      "archive": "e0e5941b20b3b84030bfc70c16f8480f1ea510545b519c2a618e3b0d0157ca90.tar.zst",
+      "replayed_frames": 6162,
+      "compared_stage_fields": 1276,
+      "mismatches": 0,
+      "callback_errors": 0,
+      "execution_path": "diagnostic-live-lua",
+      "whole_song_parity_proven": false,
+      "pending_coverage_count": 18
+    }
+  ],
+  "prepared_comparisons": [
+    {
+      "song": "280|MODS|[MASTER] Sharkmode",
+      "archive": "abd922102376397cd0ffea134db835d8e4dac178380e144e631f3863a8d86510.tar.zst",
+      "harness_version": "0.1.96",
+      "comparisons": 331566,
+      "custom_draw_frames": 8293,
+      "mismatches": 0
+    },
+    {
+      "song": "[09] Delightful Day",
+      "archive": "fb68cc6fb753f0c189c94f760e0c32673d9039e2e95c31e4ff2d2d9a9dc16ff6.tar.zst",
+      "comparisons": 282328,
+      "mismatches": 0
+    }
+  ],
+  "tests": {
+    "deadlib_lua_passed": 1056,
+    "song_compiler_passed": 384,
+    "draw_passed": 12,
+    "song_activation_passed": 213,
+    "song_compiler_integration_passed": 30,
+    "harness_headless_passed": 117,
+    "harness_headless_ignored": 2,
+    "native_reloaded_chunk_outputs_verified": 128
+  },
+  "capture_environment": {
+    "ITGMANIA_SONG_LUA_NOTESKIN_ROOT": "<deadsync checkout>/assets/noteskins",
+    "ITGMANIA_SONG_LUA_NOTESKIN": "cyber"
+  }
+}

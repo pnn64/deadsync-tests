@@ -3,6 +3,8 @@
 *.part -text
 # Regression snapshots must retain the exact bytes captured by the test runner.
 /regression-expectations/**/*.snap -text
+# Native print output includes an empty tab-separated field.
+/regression-expectations/deadlib-lua/lua51_table_order.txt -whitespace
 # This pinned upstream source is covered by a provenance checksum.
 /itgmania-song-lua-micro/actor-definition-source/*.lua -text
 *.gz -text

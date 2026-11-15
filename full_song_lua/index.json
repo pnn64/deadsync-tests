@@ -417,20 +417,20 @@
     {
       "title": "280|MODS|[MASTER] Sharkmode",
       "source_simfile": "280-MODS-[MASTER] Sharkmode/Sharkmode.ssc",
-      "harness_version": "0.1.31",
-      "archive": "b05379b7d12bfb02149e03f166be5d496dc3e7687dcc042f0bf525cc46aa918b.tar.zst",
-      "sha256": "b05379b7d12bfb02149e03f166be5d496dc3e7687dcc042f0bf525cc46aa918b",
-      "compressed_bytes": 3145465,
-      "uncompressed_sha256": "c02f6b044de4e24d2193e59179514fca8d42f10985b6ca1db0c9a598f806523a",
-      "compression_level": 12,
+      "harness_version": "0.1.96",
+      "archive": "abd922102376397cd0ffea134db835d8e4dac178380e144e631f3863a8d86510.tar.zst",
+      "sha256": "abd922102376397cd0ffea134db835d8e4dac178380e144e631f3863a8d86510",
+      "compressed_bytes": 3085497,
+      "uncompressed_sha256": "ea41294fde00ac52c15c294051fbf738fa24e6a7a642df7e3583a98365b692d6",
       "aliases": [
+        "2f43fed7122972e6b7d272a1c239ea38058c5e845d49b58ffbe41c0158bcafa9.tar.zst",
+        "32be2d612493e6e58b314257c775bb066e3b51384475a0cf095aaadeff070057.tar.zst",
+        "4b662265ea28526ff3f7bcd09ce1b8a28316d583d9849e2ef25b109da75fbbd7.tar.zst",
+        "b05379b7d12bfb02149e03f166be5d496dc3e7687dcc042f0bf525cc46aa918b.tar.zst",
         "c0a1741ca9d19cd8b8baf1292402b010423732e0eebad4d371fadb8d6430e85a.tar.zst",
-        "f7a2d5e8aa6a48c8709ab3e189b1e54cf282029b6109fbc13ca8794bd3125249.tar.zst",
         "db60b3a89af8957a5e4fb1be2ec3157d09c436a564938536ec91b8ab064afa45.tar.zst",
         "e657c3259372c4b2925fcdc49177e99fcd0ce6db2ec78b30d6532eabfa10d119.tar.zst",
-        "4b662265ea28526ff3f7bcd09ce1b8a28316d583d9849e2ef25b109da75fbbd7.tar.zst",
-        "2f43fed7122972e6b7d272a1c239ea38058c5e845d49b58ffbe41c0158bcafa9.tar.zst",
-        "32be2d612493e6e58b314257c775bb066e3b51384475a0cf095aaadeff070057.tar.zst"
+        "f7a2d5e8aa6a48c8709ab3e189b1e54cf282029b6109fbc13ca8794bd3125249.tar.zst"
       ]
     },
     {
@@ -2592,8 +2592,10 @@
       "compressed_bytes": 119854140,
       "sha256": "e0e5941b20b3b84030bfc70c16f8480f1ea510545b519c2a618e3b0d0157ca90",
       "uncompressed_sha256": "ed47d6932f274728919d972b0fe4ed385495ea91416a4371be26f543e3a93f9c",
-      "aliases": [],
-      "local_only": true
+      "aliases": [
+        "49f2d6eb3e562c8b7e0888a00514aa7c06260564a0f18f78f21c5ff77be528e5.tar.zst",
+        "d8967f658b584814be6dd33ef998afb58c2893ef48f5ba5d10d3b720a604771b.tar.zst"
+      ]
     },
     {
       "title": "\u884c\u3064\u3066\u3057\u307e\u3064\u305f",
@@ -2844,8 +2846,10 @@
       "compressed_bytes": 123738222,
       "sha256": "17450d1eb6fd1d3b23ca248e6c9c5a5a2c097ed86da9ae6a9d7ac978b016f1ab",
       "uncompressed_sha256": "ceb919fdeb219df56ccc4a84f52a4a055ebe5383145e9a8f0dafa63f18c1be72",
-      "aliases": [],
-      "local_only": true
+      "aliases": [
+        "30cc26242a36e124c0d12b97a40d33fe4e72273b40eb73617e19db338477e440.tar.zst",
+        "9e43102ba43ae63247587005a24a064559f4f5b78d243522aa3dc160436c3617.tar.zst"
+      ]
     },
     {
       "title": "Igaku",

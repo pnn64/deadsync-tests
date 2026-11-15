@@ -8,6 +8,17 @@ must exist, and local-only missing-file exceptions are rejected. Regenerate the
 catalogs with `python -X utf8 scripts/catalog_committed_songs.py` (requires
 `zstandard`). Tests extract their inputs into temporary directories.
 
+The [2026-11-15 targeted parity repair](parity-repair-2026-11-15.json) checks
+both Sharkmode captures, Igaku, Godspeed and Delightful Day. All implemented
+comparisons pass. Song Lua now uses Lua 5.1 table placement, preserves first-draw
+mutations at frame zero, and retains Simply Love's hidden footer draw order.
+Harness 0.1.96 models the complete gameplay child table; its refreshed Sharkmode
+capture passes 331,566 comparisons, including all 8,293 custom-draw frames.
+That capture uses this checkout's `assets/noteskins` through
+`ITGMANIA_SONG_LUA_NOTESKIN_ROOT`. Igaku and Godspeed's obsolete continuous-BPM
+references are replaced by validated native captures. Native replay coverage
+gaps remain explicit; acceptance does not establish complete rendering parity.
+
 The [latest fixture batch](ninth-ten-2026-10-18-summary.json) adds **10 accepted fixtures**, bringing the total to **490 passed, 10 pending, and one ignored chart** (Mawaru9). Every new fixture passed its complete uncompressed replay before official packing, decoded hash verification, and commit. [Concrete failures](ninth-ten-2026-10-18-pending.json) and [missing coverage](ninth-ten-2026-10-18-coverage.json) are recorded separately. Files over 100,000,000 bytes remain gitignored.
 
 Velvet's fixture declares an initially stopped Lua collector in both VMs. Its default automatic-collector replay still has command-order differences, recorded as separate missing coverage. A [readable pending ledger](ninth-ten-2026-10-18-pending.md) lists all ten remaining charts and their concrete failures.
