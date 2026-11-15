@@ -2346,6 +2346,12 @@
     "archive": "61f5f4a0ff7fde7e802dda787495150e1537c7195c8a095aff519f8d459e4082.tar.zst"
   },
   {
+    "title": "Paint the Town Red",
+    "source_simfile": "Paint the Town Red/PaintTheTownRed.sm",
+    "harness_version": "0.1.98",
+    "archive": "6248f21463f457be48010e635c2ba952ff1bfd39d6bff18f3a33c65f4827322f.tar.zst"
+  },
+  {
     "title": "Tacos",
     "source_simfile": "Tacos/Tacos.ssc",
     "harness_version": "0.1.80",
@@ -4792,6 +4798,12 @@
     "source_simfile": "Dreams Bloom After School/Dreams Bloom After School.ssc",
     "harness_version": "0.1.98",
     "archive": "cd14649c13404a0ad14645432ff60911182f8163be1194feaa62dcbb711f342b.tar.zst"
+  },
+  {
+    "title": "Paint the Town Red",
+    "source_simfile": "Paint the Town Red/PaintTheTownRed.ssc",
+    "harness_version": "0.1.98",
+    "archive": "cd6d992eda9d28e62fd1f51275e70c60db24ea2e7e620cdc7bf621d90f16e520.tar.zst"
   },
   {
     "title": "Answers",
