@@ -1,5 +1,10 @@
 # Full song Lua fixtures
 
+See the [fixture runtime guide](fixture-runtimes.md) for recorded replay and
+native capture costs, suggested quick regression sets, memory budgets, and
+known expensive or blocked cases. It covers all 503 primary simfiles from the
+November 15 audits and uses stored timings without rerunning fixtures.
+
 Checkout tests use `committed-archives.txt` and `committed-songs.json` to select
 only tracked archives, including retained versions needed by older regressions.
 Optional local captures in `index.json` never become test inputs. Historical
