@@ -1296,6 +1296,12 @@
     "archive": "35b7f1aec8a7abfa64193d365a8f235daf9862574ab6f1c5234a8035d77f9ca0.tar.zst"
   },
   {
+    "title": "MAX 300",
+    "source_simfile": "Max 300/MAX 300.ssc",
+    "harness_version": "0.1.98",
+    "archive": "366cd294e9eb01da2576118ab365451bd8b7beec08d81b02d02f9b74c8176742.tar.zst"
+  },
+  {
     "title": "Void Virus",
     "source_simfile": "Void Virus/Void_Virus.ssc",
     "harness_version": "0.1.80",
@@ -1384,6 +1390,12 @@
     "source_simfile": "278-MODS-[lv.08] And Drugs/and drugs.ssc",
     "harness_version": "0.1.31",
     "archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst"
+  },
+  {
+    "title": "Episode 19",
+    "source_simfile": "Young Dumb And Broke/YDB.sm",
+    "harness_version": "0.1.98",
+    "archive": "39cf733ea3dd664957ee6fb546b18ddc8aca0e92b7d00b17b442a22032a65fab.tar.zst"
   },
   {
     "title": "Scorpion King",
@@ -5010,6 +5022,12 @@
     "archive": "deedb50a6e8e4670da077ab55db4abbb5bd80f0c64b679c3666db8cd3283f28b.tar.zst"
   },
   {
+    "title": "∀",
+    "source_simfile": "Turn A - [Freya]/turn_a.ssc",
+    "harness_version": "0.1.98",
+    "archive": "df0c1aed5d67658714e148fbad2aca68515f7445b18a4f570860628851254076.tar.zst"
+  },
+  {
     "title": "Hustle Beach",
     "source_simfile": "Mamono/sm.sm",
     "harness_version": "0.1.0",
@@ -5212,6 +5230,12 @@
     "source_simfile": "TRIP MACHINE -Resuscitation MIX-/TRIP MACHINE -Resuscitation MIX-.ssc",
     "harness_version": "0.1.80",
     "archive": "eafcd480234ac42960a427f5c800d1a73383f4214ef2be02639750c958ce4b8a.tar.zst"
+  },
+  {
+    "title": "Get Into It",
+    "source_simfile": "Get Into It/GetIntoIt.sm",
+    "harness_version": "0.1.98",
+    "archive": "eb0a426dfb3140785dc63337e823f7dcf55fbc8aaf11298edf8420c123e91f2f.tar.zst"
   },
   {
     "title": "Happy Now",
