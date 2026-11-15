@@ -1320,6 +1320,12 @@
     "archive": "3679cfc0f434ab3d26695726e90b9e73cacd3d1d8e7bb6f77feb5f8de82cbe50.tar.zst"
   },
   {
+    "title": "Kita Saitama 2000",
+    "source_simfile": "Kita Saitama 2000/Kita Saitama 2000.ssc",
+    "harness_version": "0.1.98",
+    "archive": "36c2fcd6bd4bb09c45daf4e56ab852b9514a7758c024bdece1b7b47ebe72f7a4.tar.zst"
+  },
+  {
     "title": "[10] Wobbpotato",
     "source_simfile": "Wobbpotato [Blue Shift Phase 1]/wobbpotato.ssc",
     "harness_version": "0.1.0",
@@ -2584,6 +2590,12 @@
     "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
     "harness_version": "0.1.0",
     "archive": "6dd2dc541fb78654743572555b3e3e8cd6f8b5a7c00f8b7cf54df0cd2733e91c.tar.zst"
+  },
+  {
+    "title": "Episode 00",
+    "source_simfile": "Happy Now Remastered/Happy Now.ssc",
+    "harness_version": "0.1.98",
+    "archive": "6df49451491334695b632a7a4682f75c208b06666c1120d0fdc10c987df3d0ee.tar.zst"
   },
   {
     "title": "回レ！雪月花",
@@ -4636,6 +4648,12 @@
     "source_simfile": "[12] Ascendanz/Ascendanz.ssc",
     "harness_version": "0.1.80",
     "archive": "c63d1523ae6a67d6c16795d2546d7448d7321ebdf913ae07eca8894b76d5e1e2.tar.zst"
+  },
+  {
+    "title": "DREAMING-ING!!",
+    "source_simfile": "DREAMING-ING!!/DREAMING-ING!!.ssc",
+    "harness_version": "0.1.98",
+    "archive": "c73455c4feb728d0987f9bbee86165848acd711eb6abe5385f808d0e928a9af7.tar.zst"
   },
   {
     "title": "STEVE VERY HARD",
