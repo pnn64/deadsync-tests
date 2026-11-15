@@ -612,6 +612,12 @@
     "archive": "1a04009c0d983b115c690a260f8b2a7a627cf2fb0429ae78cd1d30656a434ab1.tar.zst"
   },
   {
+    "title": "280|MODS|[MASTER] Sharkmode",
+    "source_simfile": "280-MODS-[MASTER] Sharkmode/Sharkmode.ssc",
+    "harness_version": "0.1.98",
+    "archive": "1a071285899f14c6bcfa2918f0a63f31868ca185eb9bec3465a566081946dbff.tar.zst"
+  },
+  {
     "title": "Final Flash Flight",
     "source_simfile": "Final Flash Flight/Final Flash Flight.ssc",
     "harness_version": "0.1.80",
@@ -862,6 +868,12 @@
     "source_simfile": "RUNWAY/RUNWAY.ssc",
     "harness_version": "0.1.80",
     "archive": "245281f2f7a7d95a1781eb54d7dacc8034b8f2cde0c2e9b6d2b31ef4a3174709.tar.zst"
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "source_simfile": "Cyberpunk 2077/Cyberpunk 2077.ssc",
+    "harness_version": "0.1.98",
+    "archive": "2484061314ac0d359cf181bf88bd1569104f5d446693f9cb16e8e6d853fb54e9.tar.zst"
   },
   {
     "title": "copter",
@@ -1522,6 +1534,12 @@
     "source_simfile": "Cyberpunk 2077/Cyberpunk 2077.ssc",
     "harness_version": "0.1.80",
     "archive": "3f0404368ddd09c3f9b9ac778d19d433100126b71b0251aab6cd353d51378abf.tar.zst"
+  },
+  {
+    "title": "Get Into It (Yuh)",
+    "source_simfile": "Get Into It/GetIntoIt.ssc",
+    "harness_version": "0.1.98",
+    "archive": "3f3bb0c4004055b025332ed5995f094ed60040ce9097e53a111a529488cf0c83.tar.zst"
   },
   {
     "title": "Episode 11 Marvin's Room",
@@ -2460,6 +2478,12 @@
     "archive": "6c0a7478230a62025bd1da9ffe03806c030d5182c7efddb4f3ecb3d66a12fbd5.tar.zst"
   },
   {
+    "title": "B.B.K.K.B.K.K.",
+    "source_simfile": "BBKKBKK [UPS 4]/BBKKBKK.ssc",
+    "harness_version": "0.1.98",
+    "archive": "6cb0e9b5a1092f898f9dc9fec17b6e96928f8a7c3eeeefba39ebbaf5e15dfc18.tar.zst"
+  },
+  {
     "title": "Answers",
     "source_simfile": "Answers2/Answers.ssc",
     "harness_version": "0.1.0",
@@ -2554,6 +2578,12 @@
     "source_simfile": "freg/freg.sm",
     "harness_version": "0.1.80",
     "archive": "7272e712a5831f51bf927fa96b966950ac8beb175e43a0e2437681446caa7554.tar.zst"
+  },
+  {
+    "title": "INAZUMA",
+    "source_simfile": "INAZUMA (Gio)/INAZUMA.ssc",
+    "harness_version": "0.1.98",
+    "archive": "7281ac32ad92b3157e55563c342d5c48e78b66473fc82ddc6b0f4795cb832886.tar.zst"
   },
   {
     "title": "Girls MIA",
@@ -3424,6 +3454,12 @@
     "source_simfile": "[10] flip69 (DX) [Telperion]/flip69.ssc",
     "harness_version": "0.1.51",
     "archive": "97aa597691d65bb951a01a8f5d7749ec58bfce78466485f340f685615b87c390.tar.zst"
+  },
+  {
+    "title": "THE WORLD REVOLVING",
+    "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.ssc",
+    "harness_version": "0.1.98",
+    "archive": "97bb64692779bcfbe7b1debd522982e3ec6dd2e5d235bf2224b90f9e41ac321f.tar.zst"
   },
   {
     "title": "Turii -Panta Rhei-",
@@ -5146,6 +5182,12 @@
     "source_simfile": "TRIP MACHINE -Resuscitation MIX-/TRIP MACHINE -Resuscitation MIX-.ssc",
     "harness_version": "0.1.80",
     "archive": "eafcd480234ac42960a427f5c800d1a73383f4214ef2be02639750c958ce4b8a.tar.zst"
+  },
+  {
+    "title": "Happy Now",
+    "source_simfile": "Happy Now/Happy Now.ssc",
+    "harness_version": "0.1.98",
+    "archive": "eb289ff442e08528ea7187a87d6d2d697a1a9b66ca3d6a91a317dda1e32a38a3.tar.zst"
   },
   {
     "title": "Dance Robot",
