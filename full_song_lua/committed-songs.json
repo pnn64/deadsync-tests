@@ -624,6 +624,12 @@
     "archive": "1a139b3876232241558a2db06acf943948225edd47e3bcfd036dc011eabf15b3.tar.zst"
   },
   {
+    "title": "roll-long-frame",
+    "source_simfile": "__pass2_controls/roll-long-frame/control.sm",
+    "harness_version": "0.1.98",
+    "archive": "1a253e2f7fcf8cdb4ee2ab3e8fdea48d69d82e4268cc843c55a7b7f4d0c9abe5.tar.zst"
+  },
+  {
     "title": "Panopticon",
     "source_simfile": "panopticon/panopticon.ssc",
     "harness_version": "0.1.0",
@@ -1762,6 +1768,12 @@
     "source_simfile": "Save Your Tears [R.I.G.H.T.S 2]/SaveYourTears.ssc",
     "harness_version": "0.1.80",
     "archive": "463dd12bd86d8f69e4ed5e95d4e02ed73c7389308539061728042897980eef5a.tar.zst"
+  },
+  {
+    "title": "join-reload",
+    "source_simfile": "__pass2_controls/join-reload/control.sm",
+    "harness_version": "0.1.98",
+    "archive": "4660470145a7aca3ab2a7ed54f4d068ed8c929b2066d456dbc1fa9edef70933c.tar.zst"
   },
   {
     "title": "Chewingood!!!",
@@ -3354,6 +3366,12 @@
     "archive": "8ff418d0678800ce2842370a2a5ee572a07454cbf086523567e52aa026169c85.tar.zst"
   },
   {
+    "title": "Apollo",
+    "source_simfile": "Apollo/Apollo.sm",
+    "harness_version": "0.1.98",
+    "archive": "902af9cf05568211d3112f755704f16968751d73a1374705b47ce8c23b1c1fb5.tar.zst"
+  },
+  {
     "title": "Jack The Reaper",
     "source_simfile": "Jack The Reaper/Jack The Reaper.ssc",
     "harness_version": "0.1.80",
@@ -4348,6 +4366,12 @@
     "source_simfile": "Apollo/Apollo.ssc",
     "harness_version": "0.1.0",
     "archive": "b9f24536e87b75f62a882317c002f3e0cd24a00e78751155b0340f764581831d.tar.zst"
+  },
+  {
+    "title": "feedback-apollo-v2",
+    "source_simfile": "__pass2_controls/feedback-apollo-v2/control.sm",
+    "harness_version": "0.1.98",
+    "archive": "ba83486aea0d7e36f446681c94d2c64c78cfaa6993e10bcc80e88739d8cefa82.tar.zst"
   },
   {
     "title": "Rayc Fire 2",
