@@ -3828,6 +3828,12 @@
     "archive": "a1cc4e84aa2f2b64dabd5fec32a816f5dfa0c39ea96787f8fb494a3e2b69cab5.tar.zst"
   },
   {
+    "title": "What a Wonderful World",
+    "source_simfile": "What A Wonderful World/WAWW.sm",
+    "harness_version": "0.1.98",
+    "archive": "a2acb590e2648433adb8c6715a2ac50de6df4184622241516a97622fab130898.tar.zst"
+  },
+  {
     "title": "[07] 7th Gear",
     "source_simfile": "[07] 7th Gear - (No CMOD)/7th Gear.ssc",
     "harness_version": "0.1.32",
