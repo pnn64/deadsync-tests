@@ -64,7 +64,7 @@ The stored replay timers used already-built Linux runners and **uncompressed `.t
 - **Fresh stages** sums capture + archive creation + the selected replay + packing for a pass. For a parity failure it stops after replay. When the final runner reused a capture, this is a sum across those recorded stages, not a separately measured end-to-end run. Missing stages stay unknown (—).
 - The stage sum excludes VM provisioning, builds, queue waits, transfers, extra hashing/compression outside the named stages, and failed earlier retries. It is a lower planning baseline, not an elapsed fleet duration.
 - **Replay cap** is the configured per-process cgroup memory limit in GiB (`6G` means 6 GiB), **not measured peak use or a proven minimum**. A small runtime with a large cap is still flagged for scheduling. The main workers had two vCPUs; the control helper had four. Concurrent workers shared the Proxmox host.
-- Prefer serial execution for 26–50 GiB jobs unless total RAM headroom has been checked. Paint SM failed at 42 GiB and passed at 50 GiB; both ArrowQuest replays still failed at 50 GiB.
+- Prefer serial execution for large-memory jobs unless total RAM headroom has been checked. Paint SM failed at 42 GiB and passed at 50 GiB. Both ArrowQuest replays failed at 50 GiB in the November 15 runs, then completed under an 84 GiB cap in the November 16 updates above.
 - P1 timings are historical, including successful nested resource/dependency retries. P2 uses the final runner where available and its matching capture archive; superseded failures are not counted as fast successes.
 - One selected chart/profile per simfile is timed. Historical zero-actor/zero-Lua-call and entrypoint guards still limit coverage; see the [coverage report](proxmox-audit-2026-11-15/coverage-summary.md). The four reduced controls and stopped-GC/versus profiles do not replace their primary song cases.
 
@@ -78,7 +78,7 @@ The stored replay timers used already-built Linux runners and **uncompressed `.t
 | 3–10 minutes | 8 | 4 | 12 |
 | 10 minutes or more | 1 | 0 | 1 |
 
-These counts exclude all 20 current nonpassing primary cases. The complete lookup below is grouped by successful replay cost and sorted fastest first.
+These counts describe the November 15 snapshot and exclude its 20 nonpassing primary cases. The complete lookup below is grouped by successful replay cost and sorted fastest first; subsequent successful timings appear in the November 16 updates above.
 
 ## Expensive passing fixtures to schedule deliberately
 
@@ -96,9 +96,9 @@ These counts exclude all 20 current nonpassing primary cases. The complete looku
 
 ## Known failures: run when working on the named gap
 
-These are diagnostic targets, not part of the passing quick sets. A native script error, timeout, truncated capture, or OOM can finish quickly without providing useful parity coverage.
+This table preserves the November 15 failed-attempt timings and diagnoses. Anxiety SM/SSC, After Dark and both ArrowQuest variants subsequently passed; use their November 16 timings above and the [pass-three ledger](proxmox-pass3-2026-11-16/README.md) for the latest published status. The remaining failures are diagnostic targets, not part of the passing quick sets. A native script error, timeout, truncated capture, or OOM can finish quickly without providing useful parity coverage.
 
-| Song simfile | Capture | Replay | Capture / replay cap | Current result / reason | Case ID |
+| Song simfile | Capture | Replay | Capture / replay cap | November 15 result / reason | Case ID |
 | --- | --- | --- | --- | --- | --- |
 | [11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc | 2m 41s | 10s | 6G / 6G | parity_failure: 7 same-frame traversal-order mismatches. | a170dd312f720cd4 |
 | After Dark/After Dark.ssc | 5m 25s | 1m 12s | 6G / 6G | parity_failure: 175 remaining hold-tail/feedback timing mismatches. | fbe89f6bae9565a6 |
@@ -121,7 +121,7 @@ These are diagnostic targets, not part of the passing quick sets. A native scrip
 | Lesson by DJ/Lesson by DJ.sm | 2s (failed attempt) | — | 6G / — | no_selectable_chart: The source SM has no selectable chart (malformed NOTES header). Repair the corpus simfile before a full native run. | c5080f1c121d14e5 |
 | Sequential Dreambox - [Zaia]/Sequential Dreambox.ssc | 5m 39s (failed attempt) | — | 6G / — | native_lua_error: New native script-error observation exposes FastEnd.lua:47: '&lt;eof&gt;' expected near 'local'. The original zero-Lua-call pass was invalid; the authored script needs correction before parity can be assessed. | c893672a26e2b70c |
 
-The EXTRA CHARTS ArrowQuest capture timing is **recovery/postprocessing only** after a host OOM; its original native gameplay time is not included. Neither ArrowQuest replay has a successful completion estimate. James loses roughly 42 million events at the normal cap; repeating unchanged settings is not a parity test.
+The EXTRA CHARTS ArrowQuest capture timing is **recovery/postprocessing only** after a host OOM; its original native gameplay time is not included. The failed ArrowQuest replay durations above are superseded for planning by the successful 17–18 minute replays in the November 16 updates. James loses roughly 42 million events at the normal cap; repeating unchanged settings is not a parity test.
 
 ## Supplemental profiles and controls
 
@@ -657,7 +657,8 @@ Profile IDs matter: Bank Account versus and Velvet stopped-GC pass while their p
 
 - [First-audit measurements](proxmox-audit-2026-11-15/all-results.json), including nested `resource_recheck` and `dependency_recheck` records.
 - [Repair-pass captures](proxmox-pass2-2026-11-15/primary-attempts.json), [additional attempts](proxmox-pass2-2026-11-15/extra-attempts.json), and [final replays](proxmox-pass2-2026-11-15/final-replays.json).
-- [Current primary ledger](proxmox-pass2-2026-11-15/case-ledger.json), [failure explanations](proxmox-pass2-2026-11-15/README.md), [source revisions](proxmox-pass2-2026-11-15/repository-pins.json), and [accepted archive hashes](proxmox-pass2-2026-11-15/published-archives.json).
+- [November 15 primary ledger](proxmox-pass2-2026-11-15/case-ledger.json), [failure explanations](proxmox-pass2-2026-11-15/README.md), [source revisions](proxmox-pass2-2026-11-15/repository-pins.json), and [accepted archive hashes](proxmox-pass2-2026-11-15/published-archives.json).
+- [November 16 captures](proxmox-pass3-2026-11-16/native-attempts.json), [replays](proxmox-pass3-2026-11-16/replays.json), [ArrowQuest resource replays](proxmox-pass3-2026-11-16/arrow-resource-replays.json), and [latest published primary ledger](proxmox-pass3-2026-11-16/case-ledger.json).
 
 Timings come from `stages.<stage>.elapsed_seconds`, rounded to the nearest second. Do not use `estimated_song_seconds` as replay cost, timeout limits as measured durations, or aggregate `started_at`/`finished_at` across unrelated retries. P2 replay/capture pairs are matched by decoded archive SHA-256. Historical successful replay stages include nested rechecks; missing complete capture/pack timings remain unknown. Retry IDs ending in `-memory26` are grouped under their original case/profile ID. This document does not average different revisions or profiles together.
 
