@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-11-16T01:01:13.616998+00:00",
+  "deadsync_gc_commit": "880af4a898e17e00ac8ece5b1c14718599134ea3",
+  "native_gc_reduced_probe": {
+    "baseline": "failed with retained deleted-key placement",
+    "patched": "matches ITGmania bundled Lua output",
+    "existing_order_golden": "independently reproduced unchanged",
+    "revived_object_cursor_check": "passes in native Lua and DeadSync"
+  },
+  "local_lua_validation": {
+    "command": "cargo test --locked -p deadlib-lua --lib --test lua51_table_order --test gc --test native_gc --test table_allocation_failures --test native_tables -j 2",
+    "passed": 249,
+    "failed": 0,
+    "groups": {
+      "lib": 194,
+      "gc": 25,
+      "lua51_table_order": 2,
+      "native_gc": 6,
+      "native_tables": 16,
+      "table_allocation_failures": 6
+    }
+  },
+  "later_extended_probe": {
+    "command": "cargo test --locked -p deadlib-lua --test lua51_table_order -j 2",
+    "passed": 2,
+    "failed": 0
+  },
+  "roll_validation": {
+    "focused_tests_passed": 6,
+    "retained_after_dark_mismatches": 0,
+    "previous_mismatches": 175,
+    "callback_errors": 0
+  },
+  "inactive_player_validation": {
+    "fresh_cases": [
+      "Anxiety/Anxiety.sm",
+      "Anxiety/Anxiety.ssc",
+      "__pass3_controls/join-inactive/control.sm"
+    ],
+    "mismatches": 0,
+    "callback_errors": 0,
+    "production_parity_proven": false
+  }
+}

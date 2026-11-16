@@ -6,6 +6,25 @@ The inventory covers **503 primary simfiles** plus **11 supplemental profiles/co
 
 Jump to [quick sets](#fast-regression-sets), [expensive fixtures](#expensive-passing-fixtures-to-schedule-deliberately), [known failures](#known-failures-run-when-working-on-the-named-gap), or [the complete lookup](#complete-passing-primary-lookup).
 
+<!-- pass3-runtimes:start -->
+## November 16 updates
+
+These completed runs add to the November 15 snapshot below. Use the [pass-three ledger](proxmox-pass3-2026-11-16/README.md) for current results; the older lookup and failure tables retain their original measurement context.
+
+| Fixture | Successful replay | Native capture | Replay cap | Reference |
+| --- | --- | --- | --- | --- |
+| __pass3_controls/join-inactive/control.sm | 4s | 20s | 6G | Fresh harness 0.1.99 |
+| Anxiety/Anxiety.ssc | 36s | 3m 59s | 6G | Fresh harness 0.1.99 |
+| Anxiety/Anxiety.sm | 36s | 3m 59s | 6G | Fresh harness 0.1.99 |
+| After Dark/After Dark.ssc | 1m 14s | 5m 29s | 6G | Fresh harness 0.1.99 |
+| 308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm | 18m 08s | Retained capture | 84G | Retained native input |
+| 308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm | 17m 50s | Retained capture | 84G | Retained native input |
+
+These runners use release builds with debug information, frame pointers, LTO disabled and 16 codegen units on two-vCPU VMs. This is a correctness-pass timing update, not a controlled performance comparison. Both ArrowQuest variants completed under an 84 GiB process cap; that cap is not a measured memory peak or a proven minimum.
+
+Repeated heavy-fixture sampling is recorded separately in the [CPU profile report](proxmox-pass3-2026-11-16/profiles/README.md). Those times include profiler overhead and use the pre-fix baseline runner.
+<!-- pass3-runtimes:end -->
+
 ## Choosing what to run
 
 1. For a DeadSync-only change, replay existing accepted archives first. Native recapture is needed when changing the harness, native engine, capture profile, or the behavior the existing trace observes.

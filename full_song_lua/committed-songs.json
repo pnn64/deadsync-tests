@@ -372,6 +372,12 @@
     "archive": "1048d7c8760b6944303f6c3b938563dadcf614e3d7a6e1fd979bf83bba01584b.tar.zst"
   },
   {
+    "title": "Episode 04",
+    "source_simfile": "Anxiety/Anxiety.ssc",
+    "harness_version": "0.1.99",
+    "archive": "104cc8d3f5ee814078146dd94b9abeeceb28629e70d5607fa9bd962a05a1d920.tar.zst"
+  },
+  {
     "title": "Tacos",
     "source_simfile": "Tacos/Tacos.ssc",
     "harness_version": "0.1.0",
@@ -598,6 +604,12 @@
     "source_simfile": "Atmosphere/atmosphere-fakemines.sm",
     "harness_version": "0.1.62",
     "archive": "19736fa57303bc9e75ecc423c0df5195e08ab59c69c32f583a8bae21a6c23883.tar.zst"
+  },
+  {
+    "title": "After Dark",
+    "source_simfile": "After Dark/After Dark.ssc",
+    "harness_version": "0.1.99",
+    "archive": "19e8c74585121989002b1f8c0c7436482a07ecece3a2041423b738b2ef998e80.tar.zst"
   },
   {
     "title": "Brain Power",
@@ -1552,6 +1564,12 @@
     "source_simfile": "Shivers/Shivers.sm",
     "harness_version": "0.1.80",
     "archive": "3e059b400212cbed68914157dcc8b39201b72aa743504fde25f7de185b846591.tar.zst"
+  },
+  {
+    "title": "Episode 04",
+    "source_simfile": "Anxiety/Anxiety.sm",
+    "harness_version": "0.1.99",
+    "archive": "3e1841b3eb6afb36dcc4e28f36d8ad4ee4eaf8a5e1b76b322f1af7ea159ddbde.tar.zst"
   },
   {
     "title": "MAWARU 4 EASY MODO!?",
@@ -5104,6 +5122,12 @@
     "source_simfile": "Jumper/Jumper.sm",
     "harness_version": "0.1.0",
     "archive": "dc08f968f85c9013c9b7f04831519cc15300a89a7c4296469234deaf136737fb.tar.zst"
+  },
+  {
+    "title": "Inactive player input control",
+    "source_simfile": "__pass3_controls/join-inactive/control.sm",
+    "harness_version": "0.1.99",
+    "archive": "dc0e3ee91d249468f0b2bb92769ebbf3036cf89f06e204c59070ff083c1837a8.tar.zst"
   },
   {
     "title": "Jeans",

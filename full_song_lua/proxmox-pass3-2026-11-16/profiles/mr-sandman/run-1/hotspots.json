@@ -1,0 +1,309 @@
+{
+  "sampled_stacks": 78864,
+  "unresolved_leaf_samples": 10,
+  "exclusive": [
+    {
+      "function": "<deadlib_lua::vm::Vm>::run",
+      "samples": 7584,
+      "percent": 9.617
+    },
+    {
+      "function": "deadsync_song_lua::actors::initial_state::read_fields",
+      "samples": 6260,
+      "percent": 7.938
+    },
+    {
+      "function": "_memmove_sse2_unaligned_erms",
+      "samples": 6107,
+      "percent": 7.744
+    },
+    {
+      "function": "<indexmap::map::IndexMap<alloc::string::String, serde_json::value::Value>>::get_index_of::<str>",
+      "samples": 4022,
+      "percent": 5.1
+    },
+    {
+      "function": "<deadlib_lua::table::Table>::get_key",
+      "samples": 4005,
+      "percent": 5.078
+    },
+    {
+      "function": "<deadlib_lua::vm::host::HostCall>::raw_table_get_static",
+      "samples": 3571,
+      "percent": 4.528
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::is_live_value",
+      "samples": 3107,
+      "percent": 3.94
+    },
+    {
+      "function": "int_malloc",
+      "samples": 2927,
+      "percent": 3.711
+    },
+    {
+      "function": "_GI___libc_malloc",
+      "samples": 2427,
+      "percent": 3.077
+    },
+    {
+      "function": "deadsync_song_lua::actors::effects::advance",
+      "samples": 2249,
+      "percent": 2.852
+    },
+    {
+      "function": "sha2::sha256::soft::unroll::compress",
+      "samples": 2125,
+      "percent": 2.695
+    },
+    {
+      "function": "<deadsync_song_lua::actors::fields::Reader>::new",
+      "samples": 1695,
+      "percent": 2.149
+    },
+    {
+      "function": "deadsync_song_lua::actors::song_multitap::hibernate",
+      "samples": 1534,
+      "percent": 1.945
+    },
+    {
+      "function": "<alloc::vec::Vec<(alloc::string::String, usize)> as core::clone::Clone>::clone",
+      "samples": 1504,
+      "percent": 1.907
+    },
+    {
+      "function": "int_free",
+      "samples": 1447,
+      "percent": 1.835
+    },
+    {
+      "function": "<deadsync_song_lua::live_scene::SongLiveScene>::write_visuals::<deadsync_assets::noteskin::texture::SpriteSlot, deadlib_render_core::TexturedMeshVertex>",
+      "samples": 1280,
+      "percent": 1.623
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::try_fast_native",
+      "samples": 1185,
+      "percent": 1.503
+    },
+    {
+      "function": "deadsync_song_lua::actors::fields::get_all::<4>",
+      "samples": 1160,
+      "percent": 1.471
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::start_lua_call",
+      "samples": 1098,
+      "percent": 1.392
+    },
+    {
+      "function": "<deadlib_lua::vm::host::HostCall>::with_roots::<(), deadsync_song_lua::actors::song_multitap::advance::{closure#1}>",
+      "samples": 1090,
+      "percent": 1.382
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::shared_handler",
+      "samples": 908,
+      "percent": 1.151
+    },
+    {
+      "function": "_memcmp_sse2",
+      "samples": 881,
+      "percent": 1.117
+    },
+    {
+      "function": "malloc_consolidate",
+      "samples": 810,
+      "percent": 1.027
+    },
+    {
+      "function": "<deadlib_lua::vm::host::HostCall>::run_action_with_call",
+      "samples": 803,
+      "percent": 1.018
+    },
+    {
+      "function": "<deadlib_lua::vm::host::HostCall>::raw_table_get",
+      "samples": 754,
+      "percent": 0.956
+    },
+    {
+      "function": "<core::hash::sip::Hasher<core::hash::sip::Sip13Rounds> as core::hash::Hasher>::write",
+      "samples": 648,
+      "percent": 0.822
+    },
+    {
+      "function": "<deadlib_lua::table::Table>::get",
+      "samples": 627,
+      "percent": 0.795
+    },
+    {
+      "function": "deadsync_song_lua::actors::lifecycle::advance_queue",
+      "samples": 572,
+      "percent": 0.725
+    },
+    {
+      "function": "unlink_chunk.isra.0",
+      "samples": 494,
+      "percent": 0.626
+    },
+    {
+      "function": "deadsync_song_lua::actors::live_observation::record",
+      "samples": 460,
+      "percent": 0.583
+    }
+  ],
+  "inclusive": [
+    {
+      "function": "<deadlib_lua::vm::Vm>::call",
+      "samples": 60802,
+      "percent": 77.097
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::call_root",
+      "samples": 60797,
+      "percent": 77.091
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::start_lua_call",
+      "samples": 60794,
+      "percent": 77.087
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::host_native",
+      "samples": 60779,
+      "percent": 77.068
+    },
+    {
+      "function": "full_song_lua::semantics::native_gameplay::replay_mode::<full_song_lua::semantics::whole_song_archives::replay_native_archive::{closure#2}>",
+      "samples": 60312,
+      "percent": 76.476
+    },
+    {
+      "function": "deadsync_theme_simply_love::screens::gameplay::update_with_input::<full_song_lua::semantics::native_gameplay::replay_mode<full_song_lua::semantics::whole_song_archives::replay_native_archive::{closure#2}>::{closure#23}, full_song_lua::semantics::native_gameplay::replay_mode<full_song_lua::semantics::whole_song_archives::replay_native_archive::{closure#2}>::{closure#24}>",
+      "samples": 53169,
+      "percent": 67.419
+    },
+    {
+      "function": "<deadsync_theme_simply_love::screens::gameplay::State>::advance_song_lua",
+      "samples": 50094,
+      "percent": 63.519
+    },
+    {
+      "function": "<deadsync_song_lua::live_scene::SongLiveScene>::update",
+      "samples": 42462,
+      "percent": 53.842
+    },
+    {
+      "function": "<deadlib_lua::vm::host::HostCall>::run_action_with_call",
+      "samples": 24683,
+      "percent": 31.298
+    },
+    {
+      "function": "<deadsync_song_lua::actors::Actors>::live_phase",
+      "samples": 23403,
+      "percent": 29.675
+    },
+    {
+      "function": "deadsync_song_lua::actors::live_scene::run",
+      "samples": 23383,
+      "percent": 29.65
+    },
+    {
+      "function": "<deadlib_lua::vm::host::HostCall>::call",
+      "samples": 22523,
+      "percent": 28.559
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::drive_host",
+      "samples": 19124,
+      "percent": 24.249
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::run",
+      "samples": 18943,
+      "percent": 24.02
+    },
+    {
+      "function": "<deadsync_song_lua::live_layers::SongLiveLayers>::advance",
+      "samples": 18940,
+      "percent": 24.016
+    },
+    {
+      "function": "<deadsync_song_lua::actors::Actors>::advance_live",
+      "samples": 18933,
+      "percent": 24.007
+    },
+    {
+      "function": "deadsync_song_lua::actors::song_multitap::advance",
+      "samples": 18926,
+      "percent": 23.998
+    },
+    {
+      "function": "<deadsync_song_lua::live_scene::SongLiveScene>::read_states",
+      "samples": 18802,
+      "percent": 23.841
+    },
+    {
+      "function": "<deadlib_lua::vm::host::HostCall>::with_roots::<(), deadsync_song_lua::actors::song_multitap::advance::{closure#1}>",
+      "samples": 18720,
+      "percent": 23.737
+    },
+    {
+      "function": "deadsync_song_lua::actors::initial_state::read_live",
+      "samples": 14258,
+      "percent": 18.079
+    },
+    {
+      "function": "deadsync_song_lua::actors::initial_state::read_with_metadata",
+      "samples": 10865,
+      "percent": 13.777
+    },
+    {
+      "function": "deadsync_song_lua::compiler::live::compile_live::<deadsync_assets::noteskin::texture::SpriteSlot, deadlib_render_core::TexturedMeshVertex>",
+      "samples": 8099,
+      "percent": 10.27
+    },
+    {
+      "function": "deadsync_song_lua::actors::initial_state::read_fields",
+      "samples": 7980,
+      "percent": 10.119
+    },
+    {
+      "function": "<deadsync_song_lua::song_tree::Build<deadsync_assets::noteskin::texture::SpriteSlot, deadlib_render_core::TexturedMeshVertex, for<'a, 'b, 'c> fn(&'a std::path::Path, &'b std::path::Path, &'c std::path::Path) -> core::result::Result<alloc::sync::Arc<[deadsync_assets::noteskin::texture::SpriteSlot]>, alloc::string::String>, for<'a> fn(&'a deadsync_assets::noteskin::texture::SpriteSlot) -> core::option::Option<deadsync_song_lua::SongLuaOverlayModelLayer<deadlib_render_core::TexturedMeshVertex>>, deadsync_song_lua::compiler::live::compile_live<deadsync_assets::noteskin::texture::SpriteSlot, deadlib_render_core::TexturedMeshVertex>::{closure#12}>>::visit",
+      "samples": 7387,
+      "percent": 9.367
+    },
+    {
+      "function": "<deadsync_song_lua::song_tree::Build<deadsync_assets::noteskin::texture::SpriteSlot, deadlib_render_core::TexturedMeshVertex, for<'a, 'b, 'c> fn(&'a std::path::Path, &'b std::path::Path, &'c std::path::Path) -> core::result::Result<alloc::sync::Arc<[deadsync_assets::noteskin::texture::SpriteSlot]>, alloc::string::String>, for<'a> fn(&'a deadsync_assets::noteskin::texture::SpriteSlot) -> core::option::Option<deadsync_song_lua::SongLuaOverlayModelLayer<deadlib_render_core::TexturedMeshVertex>>, deadsync_song_lua::compiler::live::compile_live<deadsync_assets::noteskin::texture::SpriteSlot, deadlib_render_core::TexturedMeshVertex>::{closure#12}>>::row",
+      "samples": 7347,
+      "percent": 9.316
+    },
+    {
+      "function": "<deadsync_song_lua::SongRuntime>::read_song_overlay_kind::<deadsync_assets::noteskin::texture::SpriteSlot, deadlib_render_core::TexturedMeshVertex, &for<'a, 'b, 'c> fn(&'a std::path::Path, &'b std::path::Path, &'c std::path::Path) -> core::result::Result<alloc::sync::Arc<[deadsync_assets::noteskin::texture::SpriteSlot]>, alloc::string::String>, &for<'a> fn(&'a deadsync_assets::noteskin::texture::SpriteSlot) -> core::option::Option<deadsync_song_lua::SongLuaOverlayModelLayer<deadlib_render_core::TexturedMeshVertex>>>",
+      "samples": 7317,
+      "percent": 9.278
+    },
+    {
+      "function": "<deadsync_song_lua::actors::Actors>::read_song_overlay_kind",
+      "samples": 7312,
+      "percent": 9.272
+    },
+    {
+      "function": "<deadsync_song_lua::SongLuaCompileContext as core::clone::Clone>::clone",
+      "samples": 6184,
+      "percent": 7.841
+    },
+    {
+      "function": "<alloc::vec::Vec<(alloc::string::String, usize)> as core::clone::Clone>::clone",
+      "samples": 6126,
+      "percent": 7.768
+    },
+    {
+      "function": "_memmove_sse2_unaligned_erms",
+      "samples": 6107,
+      "percent": 7.744
+    }
+  ],
+  "method": "Weighted CPU stack samples; physical symbols resolved from exact samply known_addresses. Recursive inclusive frames counted once per sample. No inline expansion."
+}

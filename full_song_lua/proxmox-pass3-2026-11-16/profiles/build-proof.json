@@ -1,0 +1,20 @@
+{
+  "source": {
+    "deadsync": {
+      "revision": "bdacd7d389a76c10b95df81a8f6b93cde9556ec5",
+      "directory": "/opt/song-lua-audit/deadsync-pass3"
+    },
+    "harness": {
+      "revision": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+      "directory": "/opt/song-lua-audit/harness-pass3"
+    },
+    "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+  },
+  "runner": "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+  "sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+  "symbols": true,
+  "frame_pointers": true,
+  "profile": "release; debug=1; strip=none; lto=false; codegen-units=16",
+  "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+  "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
+}

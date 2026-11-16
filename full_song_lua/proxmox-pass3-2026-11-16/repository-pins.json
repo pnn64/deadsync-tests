@@ -1,0 +1,10 @@
+{
+  "deadsync_inactive_input_commit": "f792a7012457213ea3a25c01162ebd5ec8b4931b",
+  "harness": "a3fe560f8bc062a1156ec7821330351fbac79ca4",
+  "harness_version": "0.1.99",
+  "deadsync_roll_clock_commit": "998998dd1d28e2b31ff4c771aead7d6c70ff64d5",
+  "deadsync_gc_commit": "880af4a898e17e00ac8ece5b1c14718599134ea3",
+  "native": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+  "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0",
+  "note": "Each build/replay record retains the exact base revision, patch and executable hashes used. The seven pre-existing actor-capture edits were preserved and excluded from repair commits. Additional fixes may still be under validation."
+}

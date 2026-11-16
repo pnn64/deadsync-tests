@@ -1,0 +1,602 @@
+{
+  "hostkey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII5GdZxdAQAqfPQl9XNT/utfq1iUCppKjcpG6ibDUmoS root@deadsync-lua-pass3-builder",
+  "retention.json": {
+    "backup": "/waves/deadsync-lua-retained-20261116",
+    "files": [
+      {
+        "source": "/waves/deadsync-lua-audit/images/1200/vm-1200-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1200/vm-1200-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 133
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1200/base-1200-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1200/base-1200-disk-0.qcow2",
+        "bytes": 103095140352,
+        "device": 44,
+        "inode": 902
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1201/vm-1201-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1201/vm-1201-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 1287
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1201/vm-1201-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1201/vm-1201-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 1161
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1202/vm-1202-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1202/vm-1202-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 259
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1202/vm-1202-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1202/vm-1202-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 1536
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1203/vm-1203-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1203/vm-1203-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 1806
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1203/vm-1203-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1203/vm-1203-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 1924
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1204/vm-1204-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1204/vm-1204-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 2304
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1204/vm-1204-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1204/vm-1204-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 2176
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1205/vm-1205-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1205/vm-1205-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 134
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1205/vm-1205-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1205/vm-1205-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 1162
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1206/vm-1206-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1206/vm-1206-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 2560
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1206/vm-1206-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1206/vm-1206-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 2432
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1207/vm-1207-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1207/vm-1207-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 260
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1207/vm-1207-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1207/vm-1207-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 2305
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1208/vm-1208-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1208/vm-1208-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 2827
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1208/vm-1208-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1208/vm-1208-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 2821
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1209/vm-1209-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1209/vm-1209-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 3083
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1209/vm-1209-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1209/vm-1209-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 3078
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1210/vm-1210-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1210/vm-1210-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 261
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1210/vm-1210-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1210/vm-1210-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 1288
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1211/vm-1211-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1211/vm-1211-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 3338
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1211/vm-1211-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1211/vm-1211-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 3337
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1212/vm-1212-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1212/vm-1212-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 3586
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1212/vm-1212-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1212/vm-1212-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 1809
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1213/vm-1213-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1213/vm-1213-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 388
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1213/vm-1213-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1213/vm-1213-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 1289
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1214/vm-1214-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1214/vm-1214-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 3208
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1214/vm-1214-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1214/vm-1214-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 3464
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1215/vm-1215-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1215/vm-1215-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 3842
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1215/vm-1215-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1215/vm-1215-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 2187
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1216/vm-1216-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1216/vm-1216-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 2188
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1216/vm-1216-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1216/vm-1216-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 4104
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1300/vm-1300-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1300/vm-1300-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 4357
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1300/base-1300-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1300/base-1300-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 4487
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1301/vm-1301-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1301/vm-1301-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 1542
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1301/vm-1301-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1301/vm-1301-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 2306
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1302/vm-1302-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1302/vm-1302-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 2052
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1302/vm-1302-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1302/vm-1302-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 4359
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1303/vm-1303-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1303/vm-1303-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 3465
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1303/vm-1303-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1303/vm-1303-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 3975
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1304/vm-1304-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1304/vm-1304-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 521
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1304/vm-1304-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1304/vm-1304-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 522
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1305/vm-1305-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1305/vm-1305-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 645
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1305/vm-1305-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1305/vm-1305-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 4747
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1306/vm-1306-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1306/vm-1306-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 4867
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1306/vm-1306-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1306/vm-1306-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 3466
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1307/vm-1307-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1307/vm-1307-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 3209
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1307/vm-1307-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1307/vm-1307-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 3467
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1308/vm-1308-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1308/vm-1308-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 3588
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1308/vm-1308-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1308/vm-1308-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 9
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1309/vm-1309-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1309/vm-1309-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 769
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1309/vm-1309-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1309/vm-1309-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 3210
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1310/vm-1310-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1310/vm-1310-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 4748
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1310/vm-1310-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1310/vm-1310-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 5121
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1311/vm-1311-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1311/vm-1311-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 2692
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1311/vm-1311-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1311/vm-1311-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 5258
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1312/vm-1312-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1312/vm-1312-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 3977
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1312/vm-1312-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1312/vm-1312-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 3339
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1313/vm-1313-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1313/vm-1313-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 647
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1313/vm-1313-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1313/vm-1313-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 646
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1314/vm-1314-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1314/vm-1314-disk-0.qcow2",
+        "bytes": 206187266048,
+        "device": 44,
+        "inode": 1417
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1314/vm-1314-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1314/vm-1314-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 3721
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1315/vm-1315-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1315/vm-1315-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 3211
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1315/vm-1315-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1315/vm-1315-disk-0.qcow2",
+        "bytes": 206187266048,
+        "device": 44,
+        "inode": 4613
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1316/vm-1316-cloudinit.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1316/vm-1316-cloudinit.qcow2",
+        "bytes": 4521984,
+        "device": 44,
+        "inode": 2693
+      },
+      {
+        "source": "/waves/deadsync-lua-audit/images/1316/vm-1316-disk-0.qcow2",
+        "retained": "/waves/deadsync-lua-retained-20261116/images/1316/vm-1316-disk-0.qcow2",
+        "bytes": 103093895168,
+        "device": 44,
+        "inode": 4360
+      }
+    ],
+    "verified": true
+  },
+  "deleted-vms.json": [
+    1316,
+    1315,
+    1314,
+    1313,
+    1312,
+    1311,
+    1310,
+    1309,
+    1308,
+    1307,
+    1306,
+    1305,
+    1304,
+    1303,
+    1302,
+    1301,
+    1216,
+    1215,
+    1214,
+    1213,
+    1212,
+    1211,
+    1210,
+    1209,
+    1208,
+    1207,
+    1206,
+    1205,
+    1204,
+    1203,
+    1202,
+    1201,
+    1300,
+    1200
+  ],
+  "builder-independent.json": {
+    "vmid": 1400,
+    "disk": "/waves/deadsync-lua-audit/images/1400/vm-1400-disk-0.qcow2",
+    "info": {
+      "children": [
+        {
+          "name": "file",
+          "info": {
+            "children": [],
+            "virtual-size": 103095205888,
+            "filename": "/waves/deadsync-lua-audit/images/1400/vm-1400-disk-0.qcow2",
+            "format": "file",
+            "actual-size": 19942711808,
+            "format-specific": {
+              "type": "file",
+              "data": {}
+            },
+            "dirty-flag": false
+          }
+        }
+      ],
+      "virtual-size": 103079215104,
+      "filename": "/waves/deadsync-lua-audit/images/1400/vm-1400-disk-0.qcow2",
+      "cluster-size": 65536,
+      "format": "qcow2",
+      "actual-size": 19942711808,
+      "format-specific": {
+        "type": "qcow2",
+        "data": {
+          "compat": "1.1",
+          "compression-type": "zlib",
+          "lazy-refcounts": false,
+          "refcount-bits": 16,
+          "corrupt": false,
+          "extended-l2": false
+        }
+      },
+      "dirty-flag": false
+    }
+  },
+  "rebuild-stage.json": {
+    "status": "builder-running",
+    "old_vms_deleted": [
+      1316,
+      1315,
+      1314,
+      1313,
+      1312,
+      1311,
+      1310,
+      1309,
+      1308,
+      1307,
+      1306,
+      1305,
+      1304,
+      1303,
+      1302,
+      1301,
+      1216,
+      1215,
+      1214,
+      1213,
+      1212,
+      1211,
+      1210,
+      1209,
+      1208,
+      1207,
+      1206,
+      1205,
+      1204,
+      1203,
+      1202,
+      1201,
+      1300,
+      1200
+    ],
+    "builder": 1400,
+    "retained_evidence": "/waves/deadsync-lua-retained-20261116"
+  }
+}

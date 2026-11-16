@@ -1,0 +1,41 @@
+# Song Lua parity pass 3
+
+Status: **in progress**. This report records completed evidence from the replacement fleet; it does not claim a fresh full-corpus pass.
+
+## Completed repairs and checks
+
+- Inactive-player startup input: harness 0.1.99 configures and captures both sides before authored Lua joins P2. DeadSync consumes the declared input and checks theme initialization only for initially enabled sides.
+- Fresh Anxiety SM and SSC captures plus the inactive-player join/reload control replay with zero implemented comparison mismatches and no callback errors.
+- ArrowQuest rechecks use the retained, hash-verified native captures in a 96 GiB VM with an 84 GiB process cap. Their individual records distinguish completed replays from work still running.
+- After Dark roll-clock handling tracks previously active roll heads and uses the current rounded song row across clock rewinds. The retained full capture passes with zero mismatches, down from 175; fresh recapture results are recorded separately.
+- A reduced probe against ITGmania’s bundled Lua confirms that GC retires deleted collectable keys, even when their objects remain alive elsewhere. The DeadSync fix passes the native order/cursor probe and 249 selected library, GC, table and allocation checks; full-song ordering replays are still underway.
+- KENPO native repetitions retain the exact ordering comparison; events are not sorted to obtain a pass.
+
+## Latest available primary ledger
+
+| Result | Cases |
+| --- | ---: |
+| capture_observation_limit | 2 |
+| native_capture_error | 1 |
+| native_lua_error | 8 |
+| no_selectable_chart | 1 |
+| parity_failure | 3 |
+| pass | 488 |
+
+The [case ledger](case-ledger.json) carries historical results forward explicitly. [Current failures](current-failures.json) retain the missing behavior or evidence for every nonpassing primary case.
+
+## Fleet and profiling
+
+All 34 old task VMs (1200–1216 and 1300–1316) were removed from Proxmox after retaining their disks and configuration evidence. The replacement template is 1400; workers 1401–1415 have two vCPUs each and are started only within the host memory budget. Retained disk chains are independent of the deleted VM registrations.
+
+Heavy-fixture profiling runs on VM 1415 using samply at 99 Hz, two repeated replays each of Mr Sandman, Paint SSC and fof. The baseline runner includes debug information and frame pointers. Completed profiles and symbol sidecars are retained before analysis; no performance optimization is part of this pass.
+
+## Scope and reproducibility
+
+A pass means a full replay of the implemented diagnostic comparisons. Reports explicitly leave production preparation, unsupported operations, subscriber identity and complete rendering parity unproven. No corpus Lua source or authored simfile was edited to obtain these results.
+
+The all-chart gate is still open: the source-header inventory contains **1,461 chart headers across 503 simfiles**, including **84 duplicate type/difficulty selections**. It has not yet been validated against the native loader. The prior primary sweeps selected one chart/profile per simfile and do not satisfy all-chart coverage.
+
+See [native attempts](native-attempts.json), [replays](replays.json), [ArrowQuest resource replays](arrow-resource-replays.json), [published archives](published-archives.json), and [source revisions](repository-pins.json). Completed reports and full profiling artifacts are also retained under the local pass-three work directory and on the named workers.
+
+Completed profiling artifacts and comparisons: [CPU profile report](profiles/README.md).
