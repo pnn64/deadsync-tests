@@ -4,6 +4,8 @@ Status: **in progress**. This report records completed evidence from the replace
 
 ## Completed repairs and checks
 
+- Harness 0.1.103 retains the original native input judgment clock reads, which the later Lua event timestamp cannot recover. All 216 Windows and 215 Linux harness tests pass, along with the native press/release regression. Two fresh [routine input-clock captures](routine-manual-input-clocks/README.md) preserve both players' clocks and unchanged native scores. These are native-only controls; DeadSync input routing and routine statistics repairs remain under validation. See [validation and hashes](input-clock-validation.json).
+
 - Inactive-player startup input: harness 0.1.99 configures and captures both sides before authored Lua joins P2. DeadSync consumes the declared input and checks theme initialization only for initially enabled sides.
 - Fresh Anxiety SM and SSC captures plus the inactive-player join/reload control replay with zero implemented comparison mismatches and no callback errors.
 - ArrowQuest rechecks use the retained, hash-verified native captures in a 96 GiB VM with an 84 GiB process cap. Their individual records distinguish completed replays from work still running.

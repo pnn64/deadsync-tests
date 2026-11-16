@@ -1,0 +1,193 @@
+{
+  "harness_commit": "a551ad550fa6311ffdf215a31fa28e9489db04a2",
+  "harness_version": "0.1.103",
+  "windows": {
+    "command": "cargo test --locked --bin itgmania-harness-rs",
+    "passed": 216,
+    "ignored": 5,
+    "seconds": 149.17
+  },
+  "linux": {
+    "passed": 215,
+    "ignored": 5,
+    "seconds": 51.05
+  },
+  "native_input_regression": {
+    "passed": 1,
+    "seconds": 20.33,
+    "baseline_rejected_missing_step_clocks": true
+  },
+  "records": [
+    {
+      "source": "/opt/song-lua-audit/pass3-input-clocks/native-build.log",
+      "target": "native-validation/pass3-input-clocks/native-build.log",
+      "sha256": "76488c2d6fe633cf887145994eb97f8a9f5b21a899d4e2b5c42d9f7f31a301e9",
+      "bytes": 2066
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-input-clocks/source-proof.json",
+      "target": "native-validation/pass3-input-clocks/source-proof.json",
+      "sha256": "cd5611715ded51de210c0a5928a83bd9e1912352af8b52a960778e4ecc45dac4",
+      "bytes": 4792
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-input-clocks/unit-tests.log",
+      "target": "native-validation/pass3-input-clocks/unit-tests.log",
+      "sha256": "1ae3ec36997401667d422e991d1583155e387dca3973dace00dd5392ef435a17",
+      "bytes": 17510
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-input-clocks/harness-build.log",
+      "target": "native-validation/pass3-input-clocks/harness-build.log",
+      "sha256": "950276598edcc65fa8005333e83d712c0f61669d52328e56aab3d21b22da4ae2",
+      "bytes": 143
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-input-clocks/configure.log",
+      "target": "native-validation/pass3-input-clocks/configure.log",
+      "sha256": "65171515d96846b55265dedd471013a4af9fc1e4edeea1edbf2aca9a1f580622",
+      "bytes": 3551
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-input-clocks/baseline-test.log",
+      "target": "native-validation/pass3-input-clocks/baseline-test.log",
+      "sha256": "034c16874ceb20f9a499d671558bb353cf216ef7df68e43e3edc1df1e6a2c4fd",
+      "bytes": 1107
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-input-clocks/native-input-test.log",
+      "target": "native-validation/pass3-input-clocks/native-input-test.log",
+      "sha256": "3a4949676caf33326140ba3f830b4d204e1fe6e042250898c385fd8826ae70ef",
+      "bytes": 398
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-input-clocks/build-proof.json",
+      "target": "native-validation/pass3-input-clocks/build-proof.json",
+      "sha256": "d0f7fbdada02b4a2282636e92d330087ec6859dae64cf7b4eeb162af674c1c32",
+      "bytes": 4792
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-native-routine-manual-input-clocks/routine-manual-dance/native.json.zst",
+      "target": "routine-manual-input-clocks/dance/native.json.zst",
+      "sha256": "631a1051fb5b23213d65025376497365961913be173a45fb941369503ee5b3fd",
+      "bytes": 53471
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-native-routine-manual-input-clocks/routine-manual-dance/result.json",
+      "target": "routine-manual-input-clocks/dance/result.json",
+      "sha256": "1f6f00e6aeb5d390d02413955c1f93588cc8aa6c24e878effe7f13331ce813b7",
+      "bytes": 22294
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-native-routine-manual-input-clocks/routine-manual-dance/manual-input-validation.json",
+      "target": "routine-manual-input-clocks/dance/manual-input-validation.json",
+      "sha256": "45d97c4c5ca5063f50852e286a8db5a493a824331f3c64afaee5b2fef0ce198a",
+      "bytes": 711
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-native-routine-manual-input-clocks/routine-manual-dance/capture.log",
+      "target": "routine-manual-input-clocks/dance/capture.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-native-routine-manual-input-clocks/routine-manual-pump/native.json.zst",
+      "target": "routine-manual-input-clocks/pump/native.json.zst",
+      "sha256": "3c681d81622960e9902446c52e701c010ad7822e92e56975829aa519136bc414",
+      "bytes": 53290
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-native-routine-manual-input-clocks/routine-manual-pump/result.json",
+      "target": "routine-manual-input-clocks/pump/result.json",
+      "sha256": "fef65b32554b9523842a41c80530def9c54912510caaa0782f705dd55f7bfcc1",
+      "bytes": 22448
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-native-routine-manual-input-clocks/routine-manual-pump/manual-input-validation.json",
+      "target": "routine-manual-input-clocks/pump/manual-input-validation.json",
+      "sha256": "45d97c4c5ca5063f50852e286a8db5a493a824331f3c64afaee5b2fef0ce198a",
+      "bytes": 711
+    },
+    {
+      "source": "/opt/song-lua-audit/pass3-native-routine-manual-input-clocks/routine-manual-pump/capture.log",
+      "target": "routine-manual-input-clocks/pump/capture.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "acceptance": "Native-only evidence; no DeadSync parity pass is inferred.",
+  "dance": {
+    "input_events": 8,
+    "step_clock_observations": 16,
+    "native_trace_sha256": "c303422ad1cd713c393329f327c36852fb0e51dbf50ad305d73517110599333c",
+    "capture_seconds": 14.832,
+    "source_control": "routine-manual-controls/dance",
+    "final_statistics": {
+      "p1": {
+        "actual": 10,
+        "combo": 2,
+        "maximum": 2,
+        "miss": 0,
+        "percent": 1,
+        "possible": 10,
+        "w1": 2
+      },
+      "p2": {
+        "actual": -2,
+        "combo": 1,
+        "maximum": 1,
+        "miss": 1,
+        "percent": 0,
+        "possible": 15,
+        "w1": 2
+      },
+      "phase": "finished",
+      "team": {
+        "actual": 8,
+        "combo": 2,
+        "maximum": 0,
+        "miss": 1,
+        "percent": 0.320000022649765,
+        "possible": 25,
+        "w1": 4
+      }
+    }
+  },
+  "pump": {
+    "input_events": 8,
+    "step_clock_observations": 16,
+    "native_trace_sha256": "fb620ec871ca45cbce9a1f317c1250510caddd08cab590310935c186eb0bcb78",
+    "capture_seconds": 14.424,
+    "source_control": "routine-manual-controls/pump",
+    "final_statistics": {
+      "p1": {
+        "actual": 10,
+        "combo": 2,
+        "maximum": 2,
+        "miss": 0,
+        "percent": 1,
+        "possible": 10,
+        "w1": 2
+      },
+      "p2": {
+        "actual": -2,
+        "combo": 1,
+        "maximum": 1,
+        "miss": 1,
+        "percent": 0,
+        "possible": 15,
+        "w1": 2
+      },
+      "phase": "finished",
+      "team": {
+        "actual": 8,
+        "combo": 2,
+        "maximum": 0,
+        "miss": 1,
+        "percent": 0.320000022649765,
+        "possible": 25,
+        "w1": 4
+      }
+    }
+  }
+}

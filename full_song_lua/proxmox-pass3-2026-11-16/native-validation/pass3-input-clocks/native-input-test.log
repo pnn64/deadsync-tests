@@ -1,0 +1,8 @@
+    Finished `release` profile [optimized] target(s) in 0.06s
+     Running unittests src/main.rs (/opt/song-lua-audit/harness/target/release/deps/itgmania_harness_rs-edc0685a4ab0a66f)
+
+running 1 test
+test song_lua_runtime::tests::native_inputs_are_observed_once_with_or_without_lua_callbacks ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 219 filtered out; finished in 20.33s
+
