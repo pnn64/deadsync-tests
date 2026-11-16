@@ -219,9 +219,274 @@
       }
     ]
   },
-  "native_control_replay": "pending",
+  "native_control_replay": {
+    "status": "pass",
+    "evidence_path": "1401/pass3-pause-fix-results/pause-runtime-control-v2/result.json",
+    "comparison": {
+      "whole_song_parity_proven": false,
+      "archive_accepted": true,
+      "execution_path": "diagnostic-live-lua",
+      "production_preparation_exercised": false,
+      "production_parity_proven": false,
+      "native_frames": 1106,
+      "replayed_frames": 1106,
+      "compared_stage_fields": 231,
+      "pending_coverage": [
+        "uncompared song operations: Actor.GetTweenTimeLeft, Actor.GetX, Actor.GetY, Actor.addcommand, Actor.rotationx, Actor.z, GameState.GetCurMusicSeconds, ScreenGameplay.IsPaused, ScreenGameplay.PauseGame, StageStats.GetGameplaySeconds",
+        "missing captured subscriber identity for ScreenGameplay/18",
+        "missing captured subscriber identity for ScreenGameplay/19/1/1",
+        "missing captured subscriber identity for ScreenGameplay/19/1/3",
+        "missing captured subscriber identity for ScreenGameplay/19/1/4",
+        "missing captured subscriber identity for ScreenGameplay/19/1/6",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/11",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/7",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/9",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/9/1",
+        "missing captured subscriber identity for ScreenGameplay/3/1"
+      ],
+      "capture_completed_gameplay": true,
+      "acceptance_basis": "full replay of implemented comparisons",
+      "fixture_sha256": "62ff9cb5fc27150b9d405a291eb9c242e00f59f3d1376e991908926976626d56",
+      "mismatch_count": 0,
+      "mismatch_fields": {},
+      "first_mismatches": [],
+      "error_count": 0,
+      "errors": []
+    },
+    "replay": {
+      "command": [
+        "/opt/song-lua-audit/bin/full_song_lua-pass3-pause",
+        "--archive",
+        "/opt/song-lua-audit/pass3-pause-fix-results/pause-runtime-control-v2/62ff9cb5fc27150b9d405a291eb9c242e00f59f3d1376e991908926976626d56.tar",
+        "--report",
+        "/opt/song-lua-audit/pass3-pause-fix-results/pause-runtime-control-v2/report.json"
+      ],
+      "exit": 0,
+      "elapsed_seconds": 4.688,
+      "memory_limit": "6G",
+      "timeout_seconds": 1200,
+      "unit": "lua-pass2-pause-runtime-control-v2-pause-replay",
+      "service_tail": "2026-11-16T02:21:01+00:00 deadsync-lua-pass3-01 systemd[1]: Started lua-pass2-pause-runtime-control-v2-pause-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-pause --archive /opt/song-lua-audit/pass3-pause-fix-results/pause-runtime-control-v2/62ff9cb5fc27150b9d405a291eb9c242e00f59f3d1376e991908926976626d56.tar --report /opt/song-lua-audit/pass3-pause-fix-results/pause-runtime-control-v2/report.json.\n2026-11-16T02:21:06+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-pause-runtime-control-v2-pause-replay.service: Deactivated successfully.\n2026-11-16T02:21:06+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-pause-runtime-control-v2-pause-replay.service: Consumed 4.590s CPU time, 1.2M memory peak, 0B memory swap peak.\n"
+    },
+    "source_snapshot": {
+      "baseline": {
+        "baseline": {
+          "source": {
+            "deadsync": {
+              "revision": "bdacd7d389a76c10b95df81a8f6b93cde9556ec5",
+              "directory": "/opt/song-lua-audit/deadsync-pass3"
+            },
+            "harness": {
+              "revision": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+              "directory": "/opt/song-lua-audit/harness-pass3"
+            },
+            "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+          },
+          "runner": "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+          "sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+          "symbols": true,
+          "frame_pointers": true,
+          "profile": "release; debug=1; strip=none; lto=false; codegen-units=16",
+          "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+          "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
+        },
+        "runner_sha256": "618e1c30d531236299863a71e0362e29d41e1c032eec13220f27c3142abd3c2b",
+        "patches": {
+          "deadsync-roll-clock.patch": "73b55090053455a882b64fc7533b23aeb4de8d15429e2a0bfde2843b817b489c",
+          "deadsync-gc-dead-keys.patch": "a1733b86ef58f3a73910d77ce13be851ea9c9de3d8fc60ae229f58a07a35b204",
+          "deadsync-r1b.patch": "49e984bb0c211724f7c14ba0f5f182fd1859766d111e697e464de311289f5d6e"
+        }
+      },
+      "pause_patch_sha256": "56c3862be95f2822ee4842db7b8b4f0b1685dbd120d99abac4b486ed5e9fb2b3",
+      "runner_sha256": "813683fbc34524c3afd97902f2b17cc89390d63ed74e9a2e7809c28e68d76984",
+      "checks": [
+        [
+          "-p",
+          "deadlib-audio-core",
+          "-p",
+          "deadsync-audio-stream"
+        ],
+        [
+          "-p",
+          "deadsync-gameplay",
+          "--lib"
+        ],
+        [
+          "-p",
+          "deadsync-song-lua",
+          "--features",
+          "test-support",
+          "--test",
+          "top_screen"
+        ],
+        [
+          "-p",
+          "deadsync-song-lua",
+          "--features",
+          "test-support",
+          "--test",
+          "unit_live",
+          "pause"
+        ],
+        [
+          "-p",
+          "deadsync-song-lua",
+          "--features",
+          "test-support",
+          "--test",
+          "live_gameplay"
+        ]
+      ]
+    }
+  },
   "windows_screen_controls": {
     "passed": 11,
     "failed": 0
-  }
+  },
+  "native_regression_replays": [
+    {
+      "id": "3effbc28e93b70bc",
+      "status": "pass",
+      "mismatches": 0,
+      "errors": 0,
+      "replayed_frames": 12650,
+      "fixture_sha256": "f0bf6489b61116d6d665572d731e876ae6c497b18580d8ceee8b9f7291f1ee51",
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-pass3-pause",
+          "--archive",
+          "/opt/song-lua-audit/pass3-pause-fix-results/3effbc28e93b70bc/f0bf6489b61116d6d665572d731e876ae6c497b18580d8ceee8b9f7291f1ee51.tar",
+          "--report",
+          "/opt/song-lua-audit/pass3-pause-fix-results/3effbc28e93b70bc/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 41.759,
+        "memory_limit": "6G",
+        "timeout_seconds": 1200,
+        "unit": "lua-pass2-3effbc28e93b70bc-pause-replay",
+        "service_tail": "2026-11-16T02:22:06+00:00 deadsync-lua-pass3-01 systemd[1]: Started lua-pass2-3effbc28e93b70bc-pause-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-pause --archive /opt/song-lua-audit/pass3-pause-fix-results/3effbc28e93b70bc/f0bf6489b61116d6d665572d731e876ae6c497b18580d8ceee8b9f7291f1ee51.tar --report /opt/song-lua-audit/pass3-pause-fix-results/3effbc28e93b70bc/report.json.\n2026-11-16T02:22:48+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-3effbc28e93b70bc-pause-replay.service: Deactivated successfully.\n2026-11-16T02:22:48+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-3effbc28e93b70bc-pause-replay.service: Consumed 41.436s CPU time, 1.1M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    {
+      "id": "7c462fc586e600b3",
+      "status": "pass",
+      "mismatches": 0,
+      "errors": 0,
+      "replayed_frames": 12666,
+      "fixture_sha256": "e10741a366a7f00c24dff3dd136b0ea8a9d17d2a4f15b3754e206cd24e39480f",
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-pass3-pause",
+          "--archive",
+          "/opt/song-lua-audit/pass3-pause-fix-results/7c462fc586e600b3/e10741a366a7f00c24dff3dd136b0ea8a9d17d2a4f15b3754e206cd24e39480f.tar",
+          "--report",
+          "/opt/song-lua-audit/pass3-pause-fix-results/7c462fc586e600b3/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 40.702,
+        "memory_limit": "6G",
+        "timeout_seconds": 1200,
+        "unit": "lua-pass2-7c462fc586e600b3-pause-replay",
+        "service_tail": "2026-11-16T02:23:07+00:00 deadsync-lua-pass3-01 systemd[1]: Started lua-pass2-7c462fc586e600b3-pause-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-pause --archive /opt/song-lua-audit/pass3-pause-fix-results/7c462fc586e600b3/e10741a366a7f00c24dff3dd136b0ea8a9d17d2a4f15b3754e206cd24e39480f.tar --report /opt/song-lua-audit/pass3-pause-fix-results/7c462fc586e600b3/report.json.\n2026-11-16T02:23:47+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-7c462fc586e600b3-pause-replay.service: Deactivated successfully.\n2026-11-16T02:23:47+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-7c462fc586e600b3-pause-replay.service: Consumed 40.528s CPU time, 1.3M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    {
+      "id": "c3e0c410f04c30dd-pause-replay",
+      "status": "pass",
+      "mismatches": 0,
+      "errors": 0,
+      "replayed_frames": 12326,
+      "fixture_sha256": "3c18453336f84c96441720881bb9e71cf4fbc2dceba33f37ce250085952aa7e4",
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-pass3-pause",
+          "--archive",
+          "/opt/song-lua-audit/pass3-pause-fix-results/c3e0c410f04c30dd-pause-replay/3c18453336f84c96441720881bb9e71cf4fbc2dceba33f37ce250085952aa7e4.tar",
+          "--report",
+          "/opt/song-lua-audit/pass3-pause-fix-results/c3e0c410f04c30dd-pause-replay/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 37.264,
+        "memory_limit": "6G",
+        "timeout_seconds": 1200,
+        "unit": "lua-pass2-c3e0c410f04c30dd-pause-replay-pause-replay",
+        "service_tail": "2026-11-16T02:21:15+00:00 deadsync-lua-pass3-01 systemd[1]: Started lua-pass2-c3e0c410f04c30dd-pause-replay-pause-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-pause --archive /opt/song-lua-audit/pass3-pause-fix-results/c3e0c410f04c30dd-pause-replay/3c18453336f84c96441720881bb9e71cf4fbc2dceba33f37ce250085952aa7e4.tar --report /opt/song-lua-audit/pass3-pause-fix-results/c3e0c410f04c30dd-pause-replay/report.json.\n2026-11-16T02:21:52+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-c3e0c410f04c30dd-pause-replay-pause-replay.service: Deactivated successfully.\n2026-11-16T02:21:52+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-c3e0c410f04c30dd-pause-replay-pause-replay.service: Consumed 37.059s CPU time, 1.1M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    {
+      "id": "fbe89f6bae9565a6",
+      "status": "pass",
+      "mismatches": 0,
+      "errors": 0,
+      "replayed_frames": 15846,
+      "fixture_sha256": "a4292d25ca64152efea431c7b6d25a9fe58df599780894f3a812af96e5647e93",
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-pass3-pause",
+          "--archive",
+          "/opt/song-lua-audit/pass3-pause-fix-results/fbe89f6bae9565a6/a4292d25ca64152efea431c7b6d25a9fe58df599780894f3a812af96e5647e93.tar",
+          "--report",
+          "/opt/song-lua-audit/pass3-pause-fix-results/fbe89f6bae9565a6/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 81.781,
+        "memory_limit": "6G",
+        "timeout_seconds": 1200,
+        "unit": "lua-pass2-fbe89f6bae9565a6-pause-replay",
+        "service_tail": "2026-11-16T02:24:18+00:00 deadsync-lua-pass3-01 systemd[1]: Started lua-pass2-fbe89f6bae9565a6-pause-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-pause --archive /opt/song-lua-audit/pass3-pause-fix-results/fbe89f6bae9565a6/a4292d25ca64152efea431c7b6d25a9fe58df599780894f3a812af96e5647e93.tar --report /opt/song-lua-audit/pass3-pause-fix-results/fbe89f6bae9565a6/report.json.\n2026-11-16T02:25:40+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-fbe89f6bae9565a6-pause-replay.service: Deactivated successfully.\n2026-11-16T02:25:40+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-fbe89f6bae9565a6-pause-replay.service: Consumed 1min 20.950s CPU time, 1.1M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    {
+      "id": "join-inactive-r1",
+      "status": "pass",
+      "mismatches": 0,
+      "errors": 0,
+      "replayed_frames": 930,
+      "fixture_sha256": "96a037dd6bca7f5f96ab262eae5217817cb8688f01453217a0f8f68b6d59399d",
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-pass3-pause",
+          "--archive",
+          "/opt/song-lua-audit/pass3-pause-fix-results/join-inactive-r1/96a037dd6bca7f5f96ab262eae5217817cb8688f01453217a0f8f68b6d59399d.tar",
+          "--report",
+          "/opt/song-lua-audit/pass3-pause-fix-results/join-inactive-r1/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 3.817,
+        "memory_limit": "6G",
+        "timeout_seconds": 1200,
+        "unit": "lua-pass2-join-inactive-r1-pause-replay",
+        "service_tail": "2026-11-16T02:24:05+00:00 deadsync-lua-pass3-01 systemd[1]: Started lua-pass2-join-inactive-r1-pause-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-pause --archive /opt/song-lua-audit/pass3-pause-fix-results/join-inactive-r1/96a037dd6bca7f5f96ab262eae5217817cb8688f01453217a0f8f68b6d59399d.tar --report /opt/song-lua-audit/pass3-pause-fix-results/join-inactive-r1/report.json.\n2026-11-16T02:24:08+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-join-inactive-r1-pause-replay.service: Deactivated successfully.\n2026-11-16T02:24:08+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-join-inactive-r1-pause-replay.service: Consumed 3.746s CPU time, 1.3M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    {
+      "id": "pause-runtime-control-v2",
+      "status": "pass",
+      "mismatches": 0,
+      "errors": 0,
+      "replayed_frames": 1106,
+      "fixture_sha256": "62ff9cb5fc27150b9d405a291eb9c242e00f59f3d1376e991908926976626d56",
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-pass3-pause",
+          "--archive",
+          "/opt/song-lua-audit/pass3-pause-fix-results/pause-runtime-control-v2/62ff9cb5fc27150b9d405a291eb9c242e00f59f3d1376e991908926976626d56.tar",
+          "--report",
+          "/opt/song-lua-audit/pass3-pause-fix-results/pause-runtime-control-v2/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 4.688,
+        "memory_limit": "6G",
+        "timeout_seconds": 1200,
+        "unit": "lua-pass2-pause-runtime-control-v2-pause-replay",
+        "service_tail": "2026-11-16T02:21:01+00:00 deadsync-lua-pass3-01 systemd[1]: Started lua-pass2-pause-runtime-control-v2-pause-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-pause --archive /opt/song-lua-audit/pass3-pause-fix-results/pause-runtime-control-v2/62ff9cb5fc27150b9d405a291eb9c242e00f59f3d1376e991908926976626d56.tar --report /opt/song-lua-audit/pass3-pause-fix-results/pause-runtime-control-v2/report.json.\n2026-11-16T02:21:06+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-pause-runtime-control-v2-pause-replay.service: Deactivated successfully.\n2026-11-16T02:21:06+00:00 deadsync-lua-pass3-01 systemd[1]: lua-pass2-pause-runtime-control-v2-pause-replay.service: Consumed 4.590s CPU time, 1.2M memory peak, 0B memory swap peak.\n"
+      }
+    }
+  ]
 }

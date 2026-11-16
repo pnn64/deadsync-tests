@@ -3624,6 +3624,12 @@
     "archive": "988731d0d8989b4ed9d13fa487132cc259dd4ad2ffedb247f815955b2228144f.tar.zst"
   },
   {
+    "title": "Pause runtime control",
+    "source_simfile": "__pass3_controls/pause-v2/control.sm",
+    "harness_version": "0.1.99",
+    "archive": "98a73104dd109b454d499a30b47d3be03ba24ffd1fc3cdd00f142406de0ca217.tar.zst"
+  },
+  {
     "title": "271|MODS|[lv.01] Spooky",
     "source_simfile": "271-MODS-[lv.01] Spooky/1.09 - Spooky.ssc",
     "harness_version": "0.1.31",

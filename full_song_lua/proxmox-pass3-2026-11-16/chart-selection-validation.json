@@ -1,0 +1,170 @@
+{
+  "recorded_at": "2026-11-16T02:25:25.291513+00:00",
+  "harness_revision": "11a316a2c734bc65ff609a7c85146003f9607a93",
+  "harness_version": "0.1.100",
+  "native_test": {
+    "name": "song_lua_runtime::tests::native_chart_index_selects_duplicate_difficulties_and_rejects_mismatches",
+    "passed": true,
+    "seconds": 44.8,
+    "checks": [
+      "SM second Edit selected and observed by authored Lua",
+      "SSC second Edit selected and observed by authored Lua",
+      "out-of-range index rejected",
+      "wrong native Steps type rejected",
+      "wrong difficulty rejected",
+      "pump game selects pump-single chart"
+    ]
+  },
+  "harness_unit_suite": {
+    "passed": 216,
+    "failed": 0,
+    "ignored": 4,
+    "seconds": 81.97
+  },
+  "deadsync_selection_test": "pending",
+  "full_native_replay_with_new_selector": "not yet run",
+  "native_inputs": {
+    "sm": {
+      "trace_sha256": "9e6c6964b82d16244d1e4f5be5fa6a8a60abee0df3dff246a905902ad33b5cd3",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "5e62afa89932da9d999d69b0e8facccebed05370756dfabcdd8882fdbfb88d2a",
+        "revision": "704cdd5624155f743b59b8b64fedeb0588dae067"
+      },
+      "source_simfile": "C:/Users/PERFEC~1/AppData/Local/Temp/itgmania-chart-selector-42308/control.sm",
+      "input": {
+        "game": "dance",
+        "style": "single",
+        "requested_difficulty": "Edit",
+        "requested_chart_index": 2,
+        "starting_chart": {
+          "chart_name": "Second",
+          "description": "Second",
+          "difficulty": "Difficulty_Edit",
+          "hash": 0,
+          "index": 2,
+          "is_autogen": false,
+          "meter": 1,
+          "steps_type": "StepsType_Dance_Single"
+        },
+        "chart_catalog": [
+          {
+            "chart_name": "First",
+            "description": "First",
+            "difficulty": "Difficulty_Edit",
+            "hash": 0,
+            "index": 1,
+            "is_autogen": false,
+            "meter": 1,
+            "steps_type": "StepsType_Dance_Single"
+          },
+          {
+            "chart_name": "Second",
+            "description": "Second",
+            "difficulty": "Difficulty_Edit",
+            "hash": 0,
+            "index": 2,
+            "is_autogen": false,
+            "meter": 1,
+            "steps_type": "StepsType_Dance_Single"
+          },
+          {
+            "chart_name": "Pump",
+            "description": "Pump",
+            "difficulty": "Difficulty_Edit",
+            "hash": 0,
+            "index": 3,
+            "is_autogen": false,
+            "meter": 1,
+            "steps_type": "StepsType_Pump_Single"
+          }
+        ]
+      }
+    },
+    "ssc": {
+      "trace_sha256": "a16e9e6aaf84f559a3e83071b124558ef0957254acd56e4859d9a9faa195b520",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "5e62afa89932da9d999d69b0e8facccebed05370756dfabcdd8882fdbfb88d2a",
+        "revision": "704cdd5624155f743b59b8b64fedeb0588dae067"
+      },
+      "source_simfile": "C:/Users/PERFEC~1/AppData/Local/Temp/itgmania-chart-selector-42308/control.ssc",
+      "input": {
+        "game": "dance",
+        "style": "single",
+        "requested_difficulty": "Edit",
+        "requested_chart_index": 2,
+        "starting_chart": {
+          "chart_name": "Second",
+          "description": "Second",
+          "difficulty": "Difficulty_Edit",
+          "hash": 0,
+          "index": 2,
+          "is_autogen": false,
+          "meter": 1,
+          "steps_type": "StepsType_Dance_Single"
+        },
+        "chart_catalog": [
+          {
+            "chart_name": "First",
+            "description": "First",
+            "difficulty": "Difficulty_Edit",
+            "hash": 0,
+            "index": 1,
+            "is_autogen": false,
+            "meter": 1,
+            "steps_type": "StepsType_Dance_Single"
+          },
+          {
+            "chart_name": "Second",
+            "description": "Second",
+            "difficulty": "Difficulty_Edit",
+            "hash": 0,
+            "index": 2,
+            "is_autogen": false,
+            "meter": 1,
+            "steps_type": "StepsType_Dance_Single"
+          },
+          {
+            "chart_name": "Pump",
+            "description": "Pump",
+            "difficulty": "Difficulty_Edit",
+            "hash": 0,
+            "index": 3,
+            "is_autogen": false,
+            "meter": 1,
+            "steps_type": "StepsType_Pump_Single"
+          }
+        ]
+      }
+    }
+  },
+  "source_files": [
+    {
+      "name": "control.sm",
+      "sha256": "8936709f6183a270d86d0e80efb503c74fb623873b452c22baca4e03356428da"
+    },
+    {
+      "name": "control.ssc",
+      "sha256": "3d247023aac88489302b06f6275c7552cbe90ce4f15f317a95d6cccac0bd48e4"
+    },
+    {
+      "name": "default.lua",
+      "sha256": "5f5389bf59247f7cf4678d605416ccfe09eb46cf1d7053ec920370be07a3301d"
+    },
+    {
+      "name": "silence.wav",
+      "sha256": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d"
+    }
+  ],
+  "harness_test_executable": {
+    "path": "C:/GitHub/itgmania-harness/target/release/deps/itgmania_harness_rs-0333c760801a80fe.exe",
+    "sha256": "74e64686ff4eff4e8b8a2fe61e2d2db67e393a504f84245ca11f6e7be900a75d"
+  },
+  "native_executable": {
+    "path": "C:/GitHub/itgmania-harness/target/native-engine-source/Program/ITGmania-harness-trace.exe",
+    "sha256": "b2ccd9e02df706bbfaf23d54011cb1905590c593a47093de0160f59e667ce09e"
+  }
+}

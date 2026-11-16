@@ -10,5 +10,7 @@
 # Native song Lua controls include checksums of their exact source bytes.
 /regression-expectations/song-lua/**/*.lua -text
 /regression-expectations/song-lua/native-actor-parity/*.sm -text
+# Chart-selection controls have recorded SHA-256 source identities.
+/full_song_lua/proxmox-pass3-2026-11-16/chart-selector-control/* -text
 *.gz -text
 .githooks/* text eol=lf
