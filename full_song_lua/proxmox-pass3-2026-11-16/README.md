@@ -29,7 +29,8 @@ Status: **in progress**. This report records completed evidence from the replace
 
 | Result | Cases |
 | --- | ---: |
-| capture_observation_limit | 2 |
+| capture_observation_limit | 1 |
+| capture_resource_limit | 1 |
 | native_capture_error | 1 |
 | native_lua_error | 8 |
 | no_selectable_chart | 1 |
@@ -44,7 +45,7 @@ All 34 old task VMs (1200–1216 and 1300–1316) were removed from Proxmox afte
 
 All six heavy-fixture profiles completed on VM 1415 using samply at 99 Hz: two repeated replays each of Mr Sandman, Paint SSC and fof, all with passing diagnostic comparisons. The baseline runner includes debug information and frame pointers. Completed profiles and symbol sidecars are retained before analysis; no performance optimization is part of this pass.
 
-Worker 1415 is stopped after profiling. Worker 1402 was restarted and temporarily assigned eight vCPUs and 16 GiB for the isolated native build and controls. Worker 1414 has a [recorded 160 GiB allocation](james-resource-setup.json) and a 148 GiB capture cap. The James SM capture child was OOM-killed; its parent is still preserving diagnostics. The [raw native metadata](james-65m-native-metadata.json) reaches gameplay exit but records 12,264,875 dropped events beyond the 65-million-event budget, four P1Score tween overflows and a transition AFT error. It cannot be accepted as a clean reference. Its disk was [expanded to 256 GiB](james-diagnostics-disk-growth.json) to retain the large diagnostics; no unchanged recapture was started.
+Worker 1415 is stopped after profiling. Worker 1402 was restarted and temporarily assigned eight vCPUs and 16 GiB for the isolated native build and controls. Worker 1414 has a [recorded 160 GiB allocation](james-resource-setup.json) and a 148 GiB capture cap. The James SM capture child was OOM-killed after about 1h 40m. Diagnostic preservation is complete, and the [1.40 GB compressed archive](james-terminal-retention.json) has been SHA-256 verified locally and on the guest. The [raw native metadata](james-65m-native-metadata.json) reaches gameplay exit but records 12,264,875 dropped events beyond the 65-million-event budget, four P1Score tween overflows and a transition AFT error. It cannot be accepted as a clean reference. Its disk was [expanded to 256 GiB](james-diagnostics-disk-growth.json) to retain the large diagnostics. [Worker 1414 is now stopped](james-worker-shutdown.json); no unchanged recapture was started.
 
 ## Scope and reproducibility
 

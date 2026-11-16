@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-11-16T04:35:16.404801+00:00",
+  "unit": "ExecMainStatus=0\nActiveState=inactive\n",
+  "source_vm": 1414,
+  "status": "capture_resource_limit",
+  "artifact": {
+    "file": "beb47e811c5aafd3-budget65m/native-diagnostics.tar.zst",
+    "bytes": 1395801725,
+    "sha256": "3930a2088cfc82adf3a39c8c0fded369716ea6f522ec3930c4144ccaa0d162df",
+    "uncompressed_sha256": "e7f6d052f4ed9864064fe8d3f61372435d8f3b4e512b1f94c5aded03c701109a"
+  },
+  "local_copy": "C:\\GitHub\\deadsync\\target\\proxmox-song-lua-pass3-20261116\\retained-james-native-diagnostics.tar.zst",
+  "remote_file": "/opt/song-lua-audit/pass3-james-budget-results/beb47e811c5aafd3-budget65m/native-diagnostics.tar.zst",
+  "remote_and_local_sha256_verified": true
+}

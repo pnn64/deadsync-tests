@@ -1,9 +1,10 @@
 {
-  "updated_at": "2026-11-16T04:29:34.439139+00:00",
+  "updated_at": "2026-11-16T04:36:48.192731+00:00",
   "status": "in_progress",
   "primary_cases": 503,
   "latest_available_results": {
-    "capture_observation_limit": 2,
+    "capture_observation_limit": 1,
+    "capture_resource_limit": 1,
     "native_capture_error": 1,
     "native_lua_error": 8,
     "no_selectable_chart": 1,

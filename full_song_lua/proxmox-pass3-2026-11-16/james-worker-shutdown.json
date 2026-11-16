@@ -1,0 +1,10 @@
+{
+  "vmid": 1414,
+  "status": "status: stopped",
+  "reason": "All task units terminal; James diagnostic archive verified locally and on guest before shutdown.",
+  "recorded_at": "2026-11-16T04:36:11.600509+00:00",
+  "prior_task_state": {
+    "unit": "ExecMainStatus=0\nActiveState=inactive\n",
+    "active_tasks": ""
+  }
+}

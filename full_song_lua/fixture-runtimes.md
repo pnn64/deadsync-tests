@@ -49,7 +49,9 @@ These completed runs add to the November 15 snapshot below. Use the [pass-three 
 | __pass3_controls/styles/pump/control.ssc | 4s | 10s | 6G | Harness 0.1.100 capture; pump game/style fix replay; pump-double control |
 | __pass3_controls/styles/pump/control.ssc | 4s | 10s | 6G | Fresh harness 0.1.102; pump-couple control |
 
-These runners use release builds with debug information, frame pointers, LTO disabled and 16 codegen units on two-vCPU VMs. This is a correctness-pass timing update, not a controlled performance comparison. Both ArrowQuest variants completed under an 84 GiB process cap; that cap is not a measured memory peak or a proven minimum.
+The latest **James SM failed capture** took **99m 55s** under a 148 GiB cap (harness 0.1.99). It was OOM-killed; retained native metadata also has dropped events and Lua errors. This is a failed-attempt cost, not a successful runtime estimate. Diagnostic preservation took additional time. See the [terminal evidence](proxmox-pass3-2026-11-16/james-terminal-retention.json).
+
+These runners use release builds with debug information, frame pointers, LTO disabled and 16 codegen units. Most measurements used two-vCPU VMs; the 0.1.102 pump-couple control used the eight-vCPU native-build worker. This is a correctness-pass timing update, not a controlled performance comparison. Both ArrowQuest variants completed under an 84 GiB process cap; that cap is not a measured memory peak or a proven minimum.
 
 Repeated heavy-fixture sampling is recorded separately in the [CPU profile report](proxmox-pass3-2026-11-16/profiles/README.md). Those times include profiler overhead and use the pre-fix baseline runner.
 <!-- pass3-runtimes:end -->
