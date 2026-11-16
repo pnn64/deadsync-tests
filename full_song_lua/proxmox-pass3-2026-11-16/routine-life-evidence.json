@@ -1,0 +1,312 @@
+[
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-fix/build-proof.json",
+    "local": "pass3-routine-life-fix/build-proof.json",
+    "target": "native-validation/pass3-routine-life-fix/build-proof.json",
+    "sha256": "fbd47bc6794b31c2f56fb7c18f3760f96a5fa446c3c5dac8a2045dfbc83bfd15",
+    "bytes": 3710
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-fix/source-proof.json",
+    "local": "pass3-routine-life-fix/source-proof.json",
+    "target": "native-validation/pass3-routine-life-fix/source-proof.json",
+    "sha256": "43be4f7ed35b25f7f4aed224a8c692ea1110c59f9bf4271b489701ea3f99cf72",
+    "bytes": 3162
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-fix/gameplay-tests.log",
+    "local": "pass3-routine-life-fix/gameplay-tests.log",
+    "target": "native-validation/pass3-routine-life-fix/gameplay-tests.log",
+    "sha256": "463a6990bb2afaaccd8f50474ee3747719a4ae22eb5c857128cc26302008aeee",
+    "bytes": 63306
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-fix/semantic-tests.log",
+    "local": "pass3-routine-life-fix/semantic-tests.log",
+    "target": "native-validation/pass3-routine-life-fix/semantic-tests.log",
+    "sha256": "6a029f6b870ba01e8c2914bce6b2181aff7a0edb1fae0e508a2fc0aae9d0ab3c",
+    "bytes": 38562
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/result.json",
+    "local": "pass3-routine-life-results/routine-life-dance/result.json",
+    "target": "routine-life-replays/routine-life-dance/result.json",
+    "sha256": "52683e75dd687a1796888400983920810614266e5634010c6b2fecbf1944ad35",
+    "bytes": 26588
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/report.json.zst",
+    "local": "pass3-routine-life-results/routine-life-dance/report.json.zst",
+    "target": "routine-life-replays/routine-life-dance/report.json.zst",
+    "sha256": "6f48a2d3c5fdb1c911a8c92abed5bc91120c6aaf167f3e6defdbe095c5b0476d",
+    "bytes": 3563
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/replay.log",
+    "local": "pass3-routine-life-results/routine-life-dance/replay.log",
+    "target": "routine-life-replays/routine-life-dance/replay.log",
+    "sha256": "4c472d8ddd3af33462fb02af825fde0740c671321144d3a175f81f9a0425b458",
+    "bytes": 1652
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/replay-service.log",
+    "local": "pass3-routine-life-results/routine-life-dance/replay-service.log",
+    "target": "routine-life-replays/routine-life-dance/replay-service.log",
+    "sha256": "17b227b6c96ced94bc338d2ba098e0206c9f8d448bbc42f0710b1fe9a4a69592",
+    "bytes": 1595
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/pack.log",
+    "local": "pass3-routine-life-results/routine-life-dance/pack.log",
+    "target": "routine-life-replays/routine-life-dance/pack.log",
+    "sha256": "031dbb25d93af11cdaebf0453896396ff0c398e7792b33f86d7748d28bf6185f",
+    "bytes": 177
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/pack-service.log",
+    "local": "pass3-routine-life-results/routine-life-dance/pack-service.log",
+    "target": "routine-life-replays/routine-life-dance/pack-service.log",
+    "sha256": "44a532a5c2dc6862d409610c63e477c06363175864b697dac63458336abafd91",
+    "bytes": 787
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/accepted/074b7d148c9e569777580ed79c9703879c6e4af173f2bc47988e3db0e3e36c2e.tar.zst",
+    "local": "pass3-routine-life-results/routine-life-dance/accepted/074b7d148c9e569777580ed79c9703879c6e4af173f2bc47988e3db0e3e36c2e.tar.zst",
+    "target": null,
+    "sha256": "074b7d148c9e569777580ed79c9703879c6e4af173f2bc47988e3db0e3e36c2e",
+    "bytes": 107752032
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-pump/result.json",
+    "local": "pass3-routine-life-results/routine-life-pump/result.json",
+    "target": "routine-life-replays/routine-life-pump/result.json",
+    "sha256": "0c9ce7107c0d8f3e504fbfc3a42927397ae76212c451cd242f77725503ffa853",
+    "bytes": 26600
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-pump/report.json.zst",
+    "local": "pass3-routine-life-results/routine-life-pump/report.json.zst",
+    "target": "routine-life-replays/routine-life-pump/report.json.zst",
+    "sha256": "710b2087dd1b2b4c16e680ec7ed76682cd3bc7e0f92b4c4b36f5dbeafbe412c7",
+    "bytes": 3541
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-pump/replay.log",
+    "local": "pass3-routine-life-results/routine-life-pump/replay.log",
+    "target": "routine-life-replays/routine-life-pump/replay.log",
+    "sha256": "80ac3a3b03ad4d8fe85bc243ad9e5a412d096b88338f3101f72f80f469892508",
+    "bytes": 1651
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-pump/replay-service.log",
+    "local": "pass3-routine-life-results/routine-life-pump/replay-service.log",
+    "target": "routine-life-replays/routine-life-pump/replay-service.log",
+    "sha256": "c19355667574e9ef621a0f5473eaa8ebb66d7a2f1590a7bd004c21f5f6815d4f",
+    "bytes": 1584
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-pump/pack.log",
+    "local": "pass3-routine-life-results/routine-life-pump/pack.log",
+    "target": "routine-life-replays/routine-life-pump/pack.log",
+    "sha256": "4a1dc2f182257cdf0d341fe4be07311ce10c5c70c9c9dae58bfd8c47e260c5a2",
+    "bytes": 176
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-pump/pack-service.log",
+    "local": "pass3-routine-life-results/routine-life-pump/pack-service.log",
+    "target": "routine-life-replays/routine-life-pump/pack-service.log",
+    "sha256": "4dc1af651a3f55862ec57aa0cd512cbf32cb4b1c140893bc253cf0bac2a3f991",
+    "bytes": 781
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-life-pump/accepted/0542ab8faa6529d1a1fdb8d205863edbced98883594aaacfff34933899690bab.tar.zst",
+    "local": "pass3-routine-life-results/routine-life-pump/accepted/0542ab8faa6529d1a1fdb8d205863edbced98883594aaacfff34933899690bab.tar.zst",
+    "target": null,
+    "sha256": "0542ab8faa6529d1a1fdb8d205863edbced98883594aaacfff34933899690bab",
+    "bytes": 107754804
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-manual-dance/result.json",
+    "local": "pass3-routine-life-results/routine-manual-dance/result.json",
+    "target": "routine-life-replays/routine-manual-dance/result.json",
+    "sha256": "5d3ba669f964df01d237b123f46388a71fa779b5c9072a20f6337ed600907ec6",
+    "bytes": 47457
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-manual-dance/report.json.zst",
+    "local": "pass3-routine-life-results/routine-manual-dance/report.json.zst",
+    "target": "routine-life-replays/routine-manual-dance/report.json.zst",
+    "sha256": "17e227fafa224a141ddf26e3ba699d89a98fb9680812bb4f8624c39f639db7b3",
+    "bytes": 4770
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-manual-dance/replay.log",
+    "local": "pass3-routine-life-results/routine-manual-dance/replay.log",
+    "target": "routine-life-replays/routine-manual-dance/replay.log",
+    "sha256": "b503be27e779b5cd107d456184ff76dd0d1b0de4c6c07faf2db585053108cb28",
+    "bytes": 12540
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-manual-dance/replay-service.log",
+    "local": "pass3-routine-life-results/routine-manual-dance/replay-service.log",
+    "target": "routine-life-replays/routine-manual-dance/replay-service.log",
+    "sha256": "f1a805db87f008219ccdb4849e9a3946b66702fbe677348396e727a9b3efd167",
+    "bytes": 2691
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-manual-pump/result.json",
+    "local": "pass3-routine-life-results/routine-manual-pump/result.json",
+    "target": "routine-life-replays/routine-manual-pump/result.json",
+    "sha256": "29297ac7e2e6264efae1d8de596627993c19ce4c9f51cf1849dcfe9c87982a01",
+    "bytes": 47478
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-manual-pump/report.json.zst",
+    "local": "pass3-routine-life-results/routine-manual-pump/report.json.zst",
+    "target": "routine-life-replays/routine-manual-pump/report.json.zst",
+    "sha256": "a613a5cd18cb4573f3c0e564174bc981a83afeb8714b0f65c2858a5529684ff5",
+    "bytes": 4714
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-manual-pump/replay.log",
+    "local": "pass3-routine-life-results/routine-manual-pump/replay.log",
+    "target": "routine-life-replays/routine-manual-pump/replay.log",
+    "sha256": "d078e594b7d3e57b4ac4213134653ba647715cc5776230cdbf202d3afb9df1ea",
+    "bytes": 12542
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/routine-manual-pump/replay-service.log",
+    "local": "pass3-routine-life-results/routine-manual-pump/replay-service.log",
+    "target": "routine-life-replays/routine-manual-pump/replay-service.log",
+    "sha256": "f8eb2e2f2999794a950605971fd071043efeb786c5c626a4a6be250dd3a27e93",
+    "bytes": 2675
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-dance-routine/result.json",
+    "local": "pass3-routine-life-results/style-dance-routine/result.json",
+    "target": "routine-life-replays/style-dance-routine/result.json",
+    "sha256": "5cb93d5105c622df459ed8337fd85801818889ea7bf086dd21efd9f99dd0d808",
+    "bytes": 31961
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-dance-routine/report.json.zst",
+    "local": "pass3-routine-life-results/style-dance-routine/report.json.zst",
+    "target": "routine-life-replays/style-dance-routine/report.json.zst",
+    "sha256": "030f92fdc6ac4d41e7863bbc80828635e4efa27239f9859809e43a2877f7a61b",
+    "bytes": 3063
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-dance-routine/replay.log",
+    "local": "pass3-routine-life-results/style-dance-routine/replay.log",
+    "target": "routine-life-replays/style-dance-routine/replay.log",
+    "sha256": "c09f21eb9fc0ab09cd327b2e705a10fdab6c1850f8ce65eba8cecc0c8f2d2b09",
+    "bytes": 1371
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-dance-routine/replay-service.log",
+    "local": "pass3-routine-life-results/style-dance-routine/replay-service.log",
+    "target": "routine-life-replays/style-dance-routine/replay-service.log",
+    "sha256": "d052da959c491d0c65cbac091e9be06d96848345534c381efb6192cbe2749d05",
+    "bytes": 1608
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-dance-routine/pack.log",
+    "local": "pass3-routine-life-results/style-dance-routine/pack.log",
+    "target": "routine-life-replays/style-dance-routine/pack.log",
+    "sha256": "f6bc3ff774fa324962acde71ac121e8a7090292d9d77bb521097f51e3bd4164f",
+    "bytes": 178
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-dance-routine/pack-service.log",
+    "local": "pass3-routine-life-results/style-dance-routine/pack-service.log",
+    "target": "routine-life-replays/style-dance-routine/pack-service.log",
+    "sha256": "494bb87efb33f4804ea96924d2e941b34029ffa762a2e22193387ee7b3a586f5",
+    "bytes": 793
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-dance-routine/accepted/40789b891f44b2b6b79a8d6d4a0d80f0788826ac9a216c64094b80096022bf87.tar.zst",
+    "local": "pass3-routine-life-results/style-dance-routine/accepted/40789b891f44b2b6b79a8d6d4a0d80f0788826ac9a216c64094b80096022bf87.tar.zst",
+    "target": null,
+    "sha256": "40789b891f44b2b6b79a8d6d4a0d80f0788826ac9a216c64094b80096022bf87",
+    "bytes": 107737199
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-pump-routine/result.json",
+    "local": "pass3-routine-life-results/style-pump-routine/result.json",
+    "target": "routine-life-replays/style-pump-routine/result.json",
+    "sha256": "abcb69a1276f124a610853b38e591c6174805e5b4024b0a3da3710699e21fb20",
+    "bytes": 31943
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-pump-routine/report.json.zst",
+    "local": "pass3-routine-life-results/style-pump-routine/report.json.zst",
+    "target": "routine-life-replays/style-pump-routine/report.json.zst",
+    "sha256": "09041016aca8579f0b5705453583c5c8c2b19836ac6b4731980ff504a34bf888",
+    "bytes": 3068
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-pump-routine/replay.log",
+    "local": "pass3-routine-life-results/style-pump-routine/replay.log",
+    "target": "routine-life-replays/style-pump-routine/replay.log",
+    "sha256": "10d6d0116b880a05025e867be39a8ac2d8ebfd5807a42702749896598cf5a127",
+    "bytes": 1370
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-pump-routine/replay-service.log",
+    "local": "pass3-routine-life-results/style-pump-routine/replay-service.log",
+    "target": "routine-life-replays/style-pump-routine/replay-service.log",
+    "sha256": "bb163deb5d6eb26c89e1f7869b79cd4ba9f2d28dee048320209ff59120878d65",
+    "bytes": 1597
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-pump-routine/pack.log",
+    "local": "pass3-routine-life-results/style-pump-routine/pack.log",
+    "target": "routine-life-replays/style-pump-routine/pack.log",
+    "sha256": "142bd807c691b6bd358b1b7822ac49dd8115655526e5940fcc1b87a28e524655",
+    "bytes": 177
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-pump-routine/pack-service.log",
+    "local": "pass3-routine-life-results/style-pump-routine/pack-service.log",
+    "target": "routine-life-replays/style-pump-routine/pack-service.log",
+    "sha256": "714b169a60430a89bd16a868c671c28e8fcfd6ecbdcbbfc510a51761c629946c",
+    "bytes": 787
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-results/style-pump-routine/accepted/d7893e6a64776d03cf29b6644bb7d114261e7b4689b1c7f957903c7bab88a8b2.tar.zst",
+    "local": "pass3-routine-life-results/style-pump-routine/accepted/d7893e6a64776d03cf29b6644bb7d114261e7b4689b1c7f957903c7bab88a8b2.tar.zst",
+    "target": null,
+    "sha256": "d7893e6a64776d03cf29b6644bb7d114261e7b4689b1c7f957903c7bab88a8b2",
+    "bytes": 107738364
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-fix/glow-candidate.log",
+    "target": "native-validation/pass3-routine-life-fix/glow-candidate.log",
+    "sha256": "abf544e638d195e320e894fcb4a34e213bf28a390ffca0b03ec0fa5b8b370c0d",
+    "bytes": 1539
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-fix/glow-baseline.log",
+    "target": "native-validation/pass3-routine-life-fix/glow-baseline.log",
+    "sha256": "76b4d238f9e169931895190330c82e712901b3e7ea1eef653652a8c0092860a6",
+    "bytes": 3110
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-fix/glow-baseline-validation.json",
+    "target": "native-validation/pass3-routine-life-fix/glow-baseline-validation.json",
+    "sha256": "b3e62cd7dc7add8b201c953dc967bdc3d787c4d0827d2095568bf50006601d9e",
+    "bytes": 4305
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-fix/fixture-availability.json",
+    "target": "native-validation/pass3-routine-life-fix/fixture-availability.json",
+    "sha256": "1da95fd2f12bd074d9edbfd6821aa0ea20fb9f5702b58e9690e2b33540402eb6",
+    "bytes": 75848
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-fix/terminal-validation.json",
+    "target": "native-validation/pass3-routine-life-fix/terminal-validation.json",
+    "sha256": "ddeb8795c2a2d3cf4c38841875e194d5584068d1d86a49df6b5bc114cc6ff33a",
+    "bytes": 793
+  }
+]

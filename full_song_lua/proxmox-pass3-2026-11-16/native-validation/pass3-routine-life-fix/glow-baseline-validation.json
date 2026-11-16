@@ -1,0 +1,71 @@
+{
+  "started_at": "2026-11-16T06:08:32.991352+00:00",
+  "candidate_runner_sha256": "a11f2cebc58c7d07df727f2eed6e8887da6c63cc819909a961343e05747c4063",
+  "baseline_commit": "ea8f44d9b88e8094afadebe4ab2a6c22af34882c",
+  "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0",
+  "baseline_source_sha256": {
+    "crates/deadsync-gameplay/src/life.rs": "18ff69beeb585cd70158bd43ff63563fbed873853f7ecead123cb8313cac1400",
+    "crates/deadsync-gameplay/src/player.rs": "66e0ea9a8e3081eec2fa2bbfda29d5e9903cfc711a6c8468fda6a7c71e66f5a3",
+    "crates/deadsync-gameplay/src/runtime_init.rs": "731b60491c37818670099e5bb64ae72b5c6d42634b203cc989aa0c2113d71dd0",
+    "crates/deadsync-gameplay/src/runtime_methods.rs": "ab4232240ebf3f2f75b1770abd9e79dd6b8973ec0ae23c2eb1231166db2c032e",
+    "crates/deadsync-gameplay/src/runtime_regression_tests.rs": "52366b2e6403ce0e0d3309c53da80ffada5165949ca026ade51e9705d966cf45",
+    "crates/deadsync-song-lua/src/actors/generated_players.rs": "36bc8dec1d31c843d1887488489ff9d3ef9f655b3da05a161ae98be3393f2b63",
+    "crates/deadsync-song-lua/src/actors/live_frames.rs": "a9f217a0ef014915d27445e044d1d5e26c8b34693908901dd98d5e6863af0a54",
+    "crates/deadsync-song-lua/src/actors/screen_assembly.rs": "21427511829a1d3f8b90011a20a4acbb8d21f54f085f17c171b363f1b3088fe7",
+    "crates/deadsync-song-lua/src/actors/top_screen.rs": "42cf5ba278bbea2d71a637534ed1f0481c087de574e301013e62fc9e53989c05",
+    "crates/deadsync-song-lua/src/live.rs": "727dd52af680eeba2e3b3180e30c5b6f52a301da2689184efdb9a96ac7c7e679",
+    "crates/deadsync-song-lua/src/managers/statistics.rs": "8e41340208998ed36dbb46267eb1b215862921b22883c7866ae2c7ea7ee07054"
+  },
+  "candidate_source_sha256": {
+    "crates/deadsync-gameplay/src/life.rs": "3ffc3aaa996d133acb60bff8408c77af30a5224edc66171ce51c020cd551d94e",
+    "crates/deadsync-gameplay/src/player.rs": "eb0c99eb7ca2f66413bbe77a893a8198b2ab14fc08b8dcee5b08c1ffd281e805",
+    "crates/deadsync-gameplay/src/runtime_init.rs": "172b587f14670e82363d57e880be2b8531ce866cc6dec8e3a624a5963e8b33fd",
+    "crates/deadsync-gameplay/src/runtime_methods.rs": "113af677a3144c5457ca684d75b349f3b8cf245a717c437b1a1b8706376f8a87",
+    "crates/deadsync-gameplay/src/runtime_regression_tests.rs": "4b229bba60c3e35e51890ef819ca2d6a93223e25fdf6b45d67e20849d71e7433",
+    "crates/deadsync-song-lua/src/actors/generated_players.rs": "81f7daa4ae5d1aa131443cd5ae45161d9542dd6f96f5fe33b7ab497483779657",
+    "crates/deadsync-song-lua/src/actors/live_frames.rs": "f28571578c945d510bda0d69a3416eaba1c11fd1ca9b764f401033a3922d0dce",
+    "crates/deadsync-song-lua/src/actors/screen_assembly.rs": "01efc30df47cc79250c1977d48b1c95d301777f539bfb7c121b27401335c3ed5",
+    "crates/deadsync-song-lua/src/actors/top_screen.rs": "03bf625de1a44ac1d9544f00bb29bdcfc3f2d18e58fc3de6f5f9d88ba6264b77",
+    "crates/deadsync-song-lua/src/live.rs": "4447af28c92c3b605573ba122c5d9d0f910c27cca1d7e926f05536e663edde75",
+    "crates/deadsync-song-lua/src/managers/statistics.rs": "ee3a43f11b53196a4490973a7951367e5fbc6ad47987acf4e9a9d1fdb41171c3"
+  },
+  "command": [
+    "cargo",
+    "test",
+    "--locked",
+    "--release",
+    "-j",
+    "6",
+    "--test",
+    "song_lua_itgmania_semantic_parity",
+    "short_glow_matches_native",
+    "--",
+    "--exact",
+    "--nocapture"
+  ],
+  "glow-candidate": {
+    "exit": 101,
+    "mismatches": [
+      "Monitor at 0.8333333 glow[0]: 8.500006 vs 8.500005",
+      "Monitor at 1.6333333 glow[0]: 8.500006 vs 8.500005",
+      "Monitor at 3.0666666 glow[0]: 3.5000143 vs 3.5000145",
+      "Monitor at 3.2333333 glow[0]: 8.500006 vs 8.500005",
+      "Monitor at 4.733333 glow[0]: 3.4999597 vs 3.4999602",
+      "Monitor at 6.4333334 glow[0]: 8.500006 vs 8.500005"
+    ]
+  },
+  "glow-baseline": {
+    "exit": 101,
+    "mismatches": [
+      "Monitor at 0.8333333 glow[0]: 8.500006 vs 8.500005",
+      "Monitor at 1.6333333 glow[0]: 8.500006 vs 8.500005",
+      "Monitor at 3.0666666 glow[0]: 3.5000143 vs 3.5000145",
+      "Monitor at 3.2333333 glow[0]: 8.500006 vs 8.500005",
+      "Monitor at 4.733333 glow[0]: 3.4999597 vs 3.4999602",
+      "Monitor at 6.4333334 glow[0]: 8.500006 vs 8.500005"
+    ]
+  },
+  "identical_failures": true,
+  "candidate_sources_restored": true,
+  "finished_at": "2026-11-16T06:16:08.658644+00:00"
+}

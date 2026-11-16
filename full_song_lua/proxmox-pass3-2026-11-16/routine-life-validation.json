@@ -1,0 +1,86 @@
+{
+  "recorded_at": "2026-11-16T06:18:06.539976+00:00",
+  "deadsync_life_commit": "06e8347e72536daabe4420fc7cab249c4f8ba9f2",
+  "runner_sha256": "a11f2cebc58c7d07df727f2eed6e8887da6c63cc819909a961343e05747c4063",
+  "gameplay_tests": {
+    "passed": 844,
+    "failed": 0
+  },
+  "semantic_tests": {
+    "passed": 302,
+    "failed": 9,
+    "ignored": 94
+  },
+  "glow_failure_reproduces_before_patch": true,
+  "semantic_fixture_setup": "934 catalog archives are absent on the isolated worker; original failures and exact catalog hashes retained.",
+  "primary_ledger_changed": false,
+  "all_charts_gate_satisfied": false,
+  "results": [
+    {
+      "id": "routine-life-dance",
+      "status": "pass",
+      "native_harness_version": "0.1.103",
+      "baseline_mismatches": 32,
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 625,
+      "replay_seconds": 3.606,
+      "result": "routine-life-replays/routine-life-dance/result.json"
+    },
+    {
+      "id": "routine-life-pump",
+      "status": "pass",
+      "native_harness_version": "0.1.103",
+      "baseline_mismatches": 32,
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 623,
+      "replay_seconds": 3.72,
+      "result": "routine-life-replays/routine-life-pump/result.json"
+    },
+    {
+      "id": "routine-manual-dance",
+      "status": "parity_failure",
+      "native_harness_version": "0.1.103",
+      "baseline_mismatches": 46,
+      "mismatches": 18,
+      "errors": 2,
+      "frames": 616,
+      "replay_seconds": 3.522,
+      "result": "routine-life-replays/routine-manual-dance/result.json"
+    },
+    {
+      "id": "routine-manual-pump",
+      "status": "parity_failure",
+      "native_harness_version": "0.1.103",
+      "baseline_mismatches": 46,
+      "mismatches": 18,
+      "errors": 2,
+      "frames": 611,
+      "replay_seconds": 3.473,
+      "result": "routine-life-replays/routine-manual-pump/result.json"
+    },
+    {
+      "id": "style-dance-routine",
+      "status": "pass",
+      "native_harness_version": "0.1.102",
+      "baseline_mismatches": 20,
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 417,
+      "replay_seconds": 3.43,
+      "result": "routine-life-replays/style-dance-routine/result.json"
+    },
+    {
+      "id": "style-pump-routine",
+      "status": "pass",
+      "native_harness_version": "0.1.102",
+      "baseline_mismatches": 20,
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 405,
+      "replay_seconds": 3.47,
+      "result": "routine-life-replays/style-pump-routine/result.json"
+    }
+  ]
+}

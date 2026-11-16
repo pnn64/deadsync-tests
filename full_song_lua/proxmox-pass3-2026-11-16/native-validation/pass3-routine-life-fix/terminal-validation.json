@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-11-16T06:17:53.906240+00:00",
+  "units": {
+    "song-lua-pass3-routine-life-fix": {
+      "MainPID": "0",
+      "ExecMainStatus": "1",
+      "ActiveState": "failed",
+      "SubState": "failed",
+      "InvocationID": "e23720bc8ef3406c9d2be55b5fb9dec1"
+    },
+    "song-lua-pass3-routine-life-replays": {
+      "MainPID": "0",
+      "ExecMainStatus": "0",
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "InvocationID": ""
+    },
+    "song-lua-pass3-routine-life-glow-baseline": {
+      "MainPID": "0",
+      "ExecMainStatus": "0",
+      "ActiveState": "inactive",
+      "SubState": "dead",
+      "InvocationID": ""
+    }
+  },
+  "runner_sha256": "a11f2cebc58c7d07df727f2eed6e8887da6c63cc819909a961343e05747c4063",
+  "candidate_sources_restored": true
+}

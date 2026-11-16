@@ -108,6 +108,12 @@
     "archive": "04ec281a4c93dacfe84756dab5a3df423f1ab623017f8f51aa99d66bce57b95c.tar.zst"
   },
   {
+    "title": "Routine life pump",
+    "source_simfile": "__pass3_controls/routine-life/pump/control.ssc",
+    "harness_version": "0.1.103",
+    "archive": "0542ab8faa6529d1a1fdb8d205863edbced98883594aaacfff34933899690bab.tar.zst"
+  },
+  {
     "title": "Rayc Fire 2",
     "source_simfile": "Rayc Fire 2/Rayc Fire 2.sm",
     "harness_version": "0.1.80",
@@ -124,6 +130,12 @@
     "source_simfile": "Wobbpotato [Egg Carton 3]/wobbpotato.ssc",
     "harness_version": "0.1.80",
     "archive": "07341d3d29285f3066284d00fcf4956eec0ae486ab01bf0b317be91edbda7c1b.tar.zst"
+  },
+  {
+    "title": "Routine life dance",
+    "source_simfile": "__pass3_controls/routine-life/dance/control.ssc",
+    "harness_version": "0.1.103",
+    "archive": "074b7d148c9e569777580ed79c9703879c6e4af173f2bc47988e3db0e3e36c2e.tar.zst"
   },
   {
     "title": "STEVE VERY HARD",
@@ -1660,6 +1672,12 @@
     "source_simfile": "Macarena/Macarena.ssc",
     "harness_version": "0.1.0",
     "archive": "40772b13724c906ebf7b42e305577a4bb4572fd6273bfd4a5de7cde2389da317.tar.zst"
+  },
+  {
+    "title": "dance routine gameplay control",
+    "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+    "harness_version": "0.1.102",
+    "archive": "40789b891f44b2b6b79a8d6d4a0d80f0788826ac9a216c64094b80096022bf87.tar.zst"
   },
   {
     "title": "Cardstone",
@@ -5110,6 +5128,12 @@
     "source_simfile": "gone_KidFresino/song.ssc",
     "harness_version": "0.1.0",
     "archive": "d6dcba2555850935818756d42ccc9f1e6f3cb17b2a00b68f951f60382d6ab244.tar.zst"
+  },
+  {
+    "title": "pump routine gameplay control",
+    "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+    "harness_version": "0.1.102",
+    "archive": "d7893e6a64776d03cf29b6644bb7d114261e7b4689b1c7f957903c7bab88a8b2.tar.zst"
   },
   {
     "title": "Chipsqueak",

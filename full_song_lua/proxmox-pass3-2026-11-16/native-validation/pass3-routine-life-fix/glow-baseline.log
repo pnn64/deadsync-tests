@@ -1,0 +1,50 @@
+   Compiling deadsync-gameplay v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-gameplay)
+   Compiling deadsync-smx v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-smx)
+   Compiling deadsync-lights v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-lights)
+   Compiling deadsync-notefield v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-notefield)
+   Compiling deadsync-config v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-config)
+warning: function `set_windows_gamepad_backend` is never used
+   --> crates/deadsync-config/src/app_update.rs:551:8
+    |
+551 | pub fn set_windows_gamepad_backend(cfg: &mut Config, backend: WindowsPadBackend) -> bool {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+   Compiling deadsync-song-lua v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-song-lua)
+warning: `deadsync-config` (lib) generated 1 warning
+   Compiling deadsync-profile v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-profile)
+warning: `deadsync-config` (lib) generated 1 warning (1 duplicate)
+   Compiling deadsync-simfile v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-simfile)
+   Compiling deadsync-profile-gameplay v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-profile-gameplay)
+   Compiling deadsync-online v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-online)
+   Compiling deadsync-assets v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-assets)
+   Compiling deadsync-theme-simply-love v0.5.2494 (/opt/song-lua-audit/input-deadsync/crates/deadsync-theme-simply-love)
+   Compiling deadsync-import v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-import)
+   Compiling deadsync-input-fsr v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-input-fsr)
+   Compiling deadsync-shell v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-shell)
+   Compiling deadsync v0.5.2494 (/opt/song-lua-audit/input-deadsync)
+    Finished `release` profile [optimized + debuginfo] target(s) in 7m 31s
+     Running tests/song_lua_itgmania_semantic_parity.rs (/opt/song-lua-audit/deadsync/target/release/deps/song_lua_itgmania_semantic_parity-1e26f988d2faae1c)
+
+running 1 test
+short-glow: 3848 native RGBA channels, 481 draw-count checks
+
+thread 'short_glow_matches_native' (64320) panicked at tests/song_lua_itgmania_semantic_parity.rs:10878:5:
+Monitor at 0.8333333 glow[0]: 8.500006 vs 8.500005
+Monitor at 1.6333333 glow[0]: 8.500006 vs 8.500005
+Monitor at 3.0666666 glow[0]: 3.5000143 vs 3.5000145
+Monitor at 3.2333333 glow[0]: 8.500006 vs 8.500005
+Monitor at 4.733333 glow[0]: 3.4999597 vs 3.4999602
+Monitor at 6.4333334 glow[0]: 8.500006 vs 8.500005
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test short_glow_matches_native ... FAILED
+
+failures:
+
+failures:
+    short_glow_matches_native
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 404 filtered out; finished in 1.56s
+
+error: test failed, to rerun pass `--test song_lua_itgmania_semantic_parity`

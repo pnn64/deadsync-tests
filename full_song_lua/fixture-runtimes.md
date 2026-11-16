@@ -56,6 +56,25 @@ These runners use release builds with debug information, frame pointers, LTO dis
 Repeated heavy-fixture sampling is recorded separately in the [CPU profile report](proxmox-pass3-2026-11-16/profiles/README.md). Those times include profiler overhead and use the pre-fix baseline runner.
 <!-- pass3-runtimes:end -->
 
+<!-- routine-life-runtimes:start -->
+## Routine-life timing update
+
+The new [routine-life replays](proxmox-pass3-2026-11-16/routine-life-replays/README.md) add four passing, targeted controls. These are recorded release-runner replay costs on the eight-vCPU builder, before setup/decompression; no native captures were rerun for this update.
+
+| Control | Replay | Replay cap | Accepted archive selector |
+| --- | ---: | --- | --- |
+| routine-life-dance | 3.6s | 6G | 074b7d148c9e5697 |
+| routine-life-pump | 3.7s | 6G | 0542ab8faa6529d1 |
+| style-dance-routine | 3.4s | 6G | 40789b891f44b2b6 |
+| style-pump-routine | 3.5s | 6G | d7893e6a64776d03 |
+
+Together these four controls took **14.2s** of serial replay. Use them for changes to routine shared life, history and Lua meter identity. The two manual routine controls still fail on the team-statistics API; their roughly 3.5s attempts are diagnostic costs, not passing estimates.
+
+```powershell
+cargo test --release --test full_song_lua -- --jobs 1 074b7d148c9e5697 0542ab8faa6529d1 40789b891f44b2b6 d7893e6a64776d03
+```
+<!-- routine-life-runtimes:end -->
+
 ## Choosing what to run
 
 1. For a DeadSync-only change, replay existing accepted archives first. Native recapture is needed when changing the harness, native engine, capture profile, or the behavior the existing trace observes.

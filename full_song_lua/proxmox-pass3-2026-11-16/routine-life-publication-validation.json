@@ -1,0 +1,13 @@
+{
+  "verified_at": "2026-11-16T06:18:59.308511+00:00",
+  "evidence_blobs_verified": 45,
+  "new_archives": 4,
+  "new_parts": 12,
+  "new_archive_bytes": 430982399,
+  "catalog_entries": 1004,
+  "committed_candidate_sources_verified": 11,
+  "primary_cases": 503,
+  "primary_passes": 489,
+  "primary_nonpasses": 14,
+  "markdown_links_valid": true
+}

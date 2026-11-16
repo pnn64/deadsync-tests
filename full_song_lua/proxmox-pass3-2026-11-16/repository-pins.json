@@ -17,5 +17,6 @@
   "harness_current": "1f4888b8574be4a1d59257261a3a6d776a2932d9",
   "harness_current_version": "0.1.102",
   "native_previous_pin": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
-  "theme": "e2157b744051e1873bac5389246afac22e2cf05f"
+  "theme": "e2157b744051e1873bac5389246afac22e2cf05f",
+  "deadsync_routine_life_commit": "06e8347e72536daabe4420fc7cab249c4f8ba9f2"
 }

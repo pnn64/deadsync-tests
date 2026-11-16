@@ -1,0 +1,486 @@
+{
+  "id": "routine-life-dance",
+  "source_simfile": "__pass3_controls/routine-life/dance/control.ssc",
+  "profile": {
+    "id": "routine-life-dance",
+    "game": "dance",
+    "style": "routine",
+    "difficulty": "Edit",
+    "chart_index": 1,
+    "title": "Routine life dance",
+    "source_simfile": "__pass3_controls/routine-life/dance/control.ssc",
+    "autoplay": true
+  },
+  "source_snapshot": {
+    "deadsync": {
+      "base_input_runner": {
+        "base": "6d60b2d286391c2f1b5885d8cb5e6a77e36b9299",
+        "text_bundle_sha256": "af84b9e1d03b11e4bbcb645ffe6e1db7a56fe5aa585ff4a1a4dc8bd3129c9e98",
+        "source_normalized_sha256": {
+          "crates/deadsync-song-lua/src/live_scene/gameplay.rs": "008048b82a341eff0bad18c543d42a560c291527efa5969273a6e0da7589b1fe",
+          "crates/deadsync-theme-simply-love/src/screens/gameplay.rs": "5becae929d36aae1ebfc845ebb7e631e649d60044e37feb6aec1f840d6e342fe",
+          "tests/song_lua_itgmania_semantic_parity/interactive.rs": "73abe3a2c249c550be8a86fee281b821752ef486c50bdcfeeb5fdedc7e8e9484",
+          "tests/song_lua_itgmania_semantic_parity/native_gameplay.rs": "35678b68ed6dc41c1ada1290c9d325c0429c386318c8df6b275ecfe0ec101fd7"
+        },
+        "corrected_expectation": "Player::Step records a note result before callbacks; Player::UpdateJudgedRows publishes row statistics next frame. The initial same-input score expectation was wrong, not a core runtime defect.",
+        "started_at": "2026-11-16T05:17:57.228962+00:00",
+        "test_helper_correction": "Search both root overlays and foreground layers, matching the hardware-input test.",
+        "resume_started_at": "2026-11-16T05:26:15.444998+00:00",
+        "callback_only_baseline_reproduced": true,
+        "grade_check_started_at": "2026-11-16T05:34:26.769050+00:00",
+        "calibrated_test_started_at": "2026-11-16T05:37:24.657897+00:00",
+        "calibration_correction": "Use the helper chart note clock (24.999999ms), not zero, to test a W1 input.",
+        "finished_at": "2026-11-16T05:39:20.397085+00:00",
+        "runner_sha256": "5136402444c64182e59c72304ba807393673286a86d33e1ec1a7956229f26e24"
+      },
+      "deadsync_committed_base": "ea8f44d9b88e8094afadebe4ab2a6c22af34882c",
+      "source_normalized_sha256": {
+        "crates/deadsync-gameplay/src/life.rs": "3ffc3aaa996d133acb60bff8408c77af30a5224edc66171ce51c020cd551d94e",
+        "crates/deadsync-gameplay/src/player.rs": "eb0c99eb7ca2f66413bbe77a893a8198b2ab14fc08b8dcee5b08c1ffd281e805",
+        "crates/deadsync-gameplay/src/runtime_init.rs": "172b587f14670e82363d57e880be2b8531ce866cc6dec8e3a624a5963e8b33fd",
+        "crates/deadsync-gameplay/src/runtime_methods.rs": "113af677a3144c5457ca684d75b349f3b8cf245a717c437b1a1b8706376f8a87",
+        "crates/deadsync-gameplay/src/runtime_regression_tests.rs": "4b229bba60c3e35e51890ef819ca2d6a93223e25fdf6b45d67e20849d71e7433",
+        "crates/deadsync-song-lua/src/actors/generated_players.rs": "81f7daa4ae5d1aa131443cd5ae45161d9542dd6f96f5fe33b7ab497483779657",
+        "crates/deadsync-song-lua/src/actors/live_frames.rs": "f28571578c945d510bda0d69a3416eaba1c11fd1ca9b764f401033a3922d0dce",
+        "crates/deadsync-song-lua/src/actors/screen_assembly.rs": "01efc30df47cc79250c1977d48b1c95d301777f539bfb7c121b27401335c3ed5",
+        "crates/deadsync-song-lua/src/actors/top_screen.rs": "03bf625de1a44ac1d9544f00bb29bdcfc3f2d18e58fc3de6f5f9d88ba6264b77",
+        "crates/deadsync-song-lua/src/live.rs": "4447af28c92c3b605573ba122c5d9d0f910c27cca1d7e926f05536e663edde75",
+        "crates/deadsync-song-lua/src/managers/statistics.rs": "ee3a43f11b53196a4490973a7951367e5fbc6ad47987acf4e9a9d1fdb41171c3"
+      },
+      "started_at": "2026-11-16T05:55:15.289004+00:00",
+      "validation": {
+        "gameplay": {
+          "passed": 844,
+          "failed": 0
+        },
+        "semantic": {
+          "passed": 302,
+          "failed": 9,
+          "ignored": 94
+        },
+        "semantic_limitation": "Eight failures need unavailable committed archive fixtures (including poisoned fixture cache); short_glow_matches_native has six small numeric mismatches. Baseline comparison pending; original log retained."
+      },
+      "finished_at": "2026-11-16T06:07:12.653429+00:00",
+      "runner_sha256": "a11f2cebc58c7d07df727f2eed6e8887da6c63cc819909a961343e05747c4063"
+    },
+    "native": {
+      "native": {
+        "started_at": "2026-11-16T04:48:30.654951+00:00",
+        "source": {
+          "upstream_pr": "https://github.com/itgmania/itgmania/pull/1216",
+          "upstream_base": "e473b59a8caa914cf382904fad6eb88ef9f1c106",
+          "upstream_head": "ad2ae8a8d416d9eb71eb91abbb4012937c09171b",
+          "upstream_merge": "093ba099d2a15f924f1260558dedd2f9a0287fad",
+          "target_base": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+          "patch_sha256": "251b0703cd46d6d7d93fab84934ec0fdbf6fdd8d5d17ae78ac7cba8e2b756575",
+          "patch_bytes": 886624,
+          "apply_check_exit": 1,
+          "apply_check_errors": "error: patch failed: Docs/Luadoc/LuaDocumentation.xml:5047\nerror: Docs/Luadoc/LuaDocumentation.xml: patch does not apply\n",
+          "worktree": "C:\\GitHub\\deadsync\\target\\proxmox-song-lua-pass3-20261116\\native-routine-backport",
+          "status": "local candidate committed; native build and behavioral validation pending",
+          "candidate_commit": "663525dcb86eb570d0ef6a2e209678436660ae26",
+          "prepared_at": "2026-11-16T03:41:12.292132+00:00",
+          "pump_routine_pr": "https://github.com/itgmania/itgmania/pull/1445",
+          "pump_routine_patch_sha256": "4ac50f3949aa993b96b1891c0f4e15d832d9a4a5a7048b3ac49f5ae6a332c1d7",
+          "bundle_sha256": "25dd5e9399ab0ce35f1c15136f68931a73cef71e3f9a0d5fab89c3ea20ac1e3f",
+          "bundle_bytes": 595372,
+          "documentation_resolution": "Keep target RageFile docs, apply all routine API docs",
+          "whitespace_check": "22 upstream noteskin whitespace warnings preserved for source fidelity; no new C++ whitespace errors"
+        },
+        "harness_revision": "9dc325fbcbb22db179bc5d3a4627c736d28f449d",
+        "submodules": "927d13396772073f552cf595dcec112f33bb80b6 Themes/Simply Love (927d133)\n 9884c325dd0fa64b2b885b332e98118f60313208 extern/IXWebSocket (9884c32)\n 9bc0bcce7a03701025d7002271ddc2ce4f351908 extern/ffmpeg (9bc0bcc)\n 0ab6c14264ec76e9328a8eedb3b72b5d27dffd47 extern/hidapi (0ab6c14)\n 20ade4dea9589515a69793e447a6c6220b464535 extern/libjpeg-turbo (20ade4d)\n ea127968204cc5d10f3fc9250c306b9e8cbd9b80 extern/libpng (ea12796)\n 7e7eb695d581782f04b24dc444cbfde86af59853 extern/libtomcrypt (7e7eb69)\n 6ca6898bf37f583c4cc9943441cd60dd69f4b8f2 extern/libtommath (6ca6898)\n cec1e49eec481a6333c218726ecaba8e4f447a07 extern/libusb (cec1e49)\n daca7a3979c22da155ec9dce49ab1abf3b65d3a9 extern/mbedtls (daca7a3)\n e1774cd77f471443541596e09078e78fdc342e4f extern/ogg (e1774cd)\n 0657aee69dec8508a0011f47f3b69d7538e9d262 extern/vorbis (0657aee)\n 51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf extern/zlib (51b7f2a)",
+        "source_status": "",
+        "finished_at": "2026-11-16T04:52:15.063172+00:00",
+        "native_binary_sha256": "cb4e405139e9a1087d88f1a560f2719d24f0cc98eb7f2e6e9f1e6b4162154f6e",
+        "harness_binary_sha256": "371fe48d71b5dfa529d014b9fbcbd38a3d3f7ca4be75bf60f38642c93e04d0a5",
+        "theme": {
+          "base": "dd06138b15492f4136796dfe4b6708ced0f7b9eb",
+          "candidate_commit": "e2157b744051e1873bac5389246afac22e2cf05f",
+          "bundle_sha256": "31e20111675768792dce874be637a9f10dc4aabfa23262b48c6659a9c7779e48",
+          "status": "candidate; native gameplay validation pending",
+          "source": "Scripts/SL-Helpers.lua",
+          "change": "pump couple returns the same 250 width as single/versus; both participants have the identical five-column geometry",
+          "upstream_current_source": "https://github.com/Simply-Love/Simply-Love-SM5/blob/itgmania-release/Scripts/SL-Helpers.lua",
+          "publication_target": "https://github.com/pnn64/Simply-Love-SM5.git",
+          "baseline_failure": "style-pump-couple, StepStatistics/default.lua:19 compares missing GetNotefieldWidth against a number"
+        },
+        "harness_patch_sha256": "e7903afdea69d448e4871dbd9b976e3b103fb7f58f4c2a8094d13ba0294ca49b",
+        "previous_native_binary_sha256": "ada09ec0ee8d0d671288e066e19c9fbe9ee54be991df0613d62252e2607dcaf3",
+        "baseline_test_reproduced": true,
+        "pin_text_bundle_sha256": "2d68c92712cc13f01af9131df54155506769237f2366a2ba018fbe369860af62",
+        "harness_version": "0.1.103",
+        "source_normalized_sha256": {
+          "Cargo.lock": "1404fbbbe02a8b2abc3d41b5c8d676c6913f5df8a036bdf131983e882c9a088c",
+          "Cargo.toml": "c9f62e0f263a63bf3f95b408934a88d7ecb32e7e60b79e6f932f44efff120e98",
+          "native/interactive_trace.cpp": "9180033521237c7540a91973fee97513e281f14d2fb5076a58c0ee690c0a17bb",
+          "native/interactive_trace.h": "27fcdc212df809fa430e07589b0fb99ae2934e55d567c74f651f61b196dd2769",
+          "native/trace_adapter.cmake": "72e411fdefb8369a5269148623cb0292c55c308e75dec74629b626c26a84c508",
+          "probe_theme/SongLuaTrace.lua": "b1f328290f4c738ef05bcb0daddd3cbd8dedef3c9b9b31aac5e51babecea4a25",
+          "src/song_lua_runtime.rs": "b2267ec289f440128f9ce68aaeefd9042c8428d514fbc5a5a4219da189f9ffe4"
+        },
+        "harness_base": "1f4888b8574be4a1d59257261a3a6d776a2932d9",
+        "text_bundle_sha256": "b0976aff071dd27f2c68b4710954b23a668eb5cd34254ac2a141cf20201a037a"
+      },
+      "deadsync": {
+        "base": "6d60b2d286391c2f1b5885d8cb5e6a77e36b9299",
+        "text_bundle_sha256": "af84b9e1d03b11e4bbcb645ffe6e1db7a56fe5aa585ff4a1a4dc8bd3129c9e98",
+        "source_normalized_sha256": {
+          "crates/deadsync-song-lua/src/live_scene/gameplay.rs": "008048b82a341eff0bad18c543d42a560c291527efa5969273a6e0da7589b1fe",
+          "crates/deadsync-theme-simply-love/src/screens/gameplay.rs": "5becae929d36aae1ebfc845ebb7e631e649d60044e37feb6aec1f840d6e342fe",
+          "tests/song_lua_itgmania_semantic_parity/interactive.rs": "73abe3a2c249c550be8a86fee281b821752ef486c50bdcfeeb5fdedc7e8e9484",
+          "tests/song_lua_itgmania_semantic_parity/native_gameplay.rs": "35678b68ed6dc41c1ada1290c9d325c0429c386318c8df6b275ecfe0ec101fd7"
+        },
+        "corrected_expectation": "Player::Step records a note result before callbacks; Player::UpdateJudgedRows publishes row statistics next frame. The initial same-input score expectation was wrong, not a core runtime defect.",
+        "started_at": "2026-11-16T05:17:57.228962+00:00",
+        "test_helper_correction": "Search both root overlays and foreground layers, matching the hardware-input test.",
+        "resume_started_at": "2026-11-16T05:26:15.444998+00:00",
+        "callback_only_baseline_reproduced": true,
+        "grade_check_started_at": "2026-11-16T05:34:26.769050+00:00",
+        "calibrated_test_started_at": "2026-11-16T05:37:24.657897+00:00",
+        "calibration_correction": "Use the helper chart note clock (24.999999ms), not zero, to test a W1 input.",
+        "finished_at": "2026-11-16T05:39:20.397085+00:00",
+        "runner_sha256": "5136402444c64182e59c72304ba807393673286a86d33e1ec1a7956229f26e24"
+      }
+    }
+  },
+  "native": {
+    "capture_limits": {
+      "max_events": 250000
+    },
+    "command_observer": {
+      "capture_binary_sha256": "371fe48d71b5dfa529d014b9fbcbd38a3d3f7ca4be75bf60f38642c93e04d0a5",
+      "dynamic_commands": true
+    },
+    "completion": {
+      "next_screen": "ScreenEvaluationStage",
+      "reason": "gameplay-exit",
+      "stage_committed": true,
+      "stages_played_after": 1,
+      "stages_played_before": 0
+    },
+    "difficulty": "Difficulty_Edit",
+    "dropped_drawable_samples": 0,
+    "dropped_events": 0,
+    "dropped_host_clock_inputs": 0,
+    "dropped_input_events": 0,
+    "dropped_random_reseeds": 0,
+    "dropped_script_errors": 0,
+    "dropped_stage_samples": 0,
+    "dropped_update_frames": 0,
+    "end_position": {
+      "beat": 9.818336486816406,
+      "seconds": 4.926167964935303
+    },
+    "harness_version": "0.1.103",
+    "input": {
+      "autoplay": 1,
+      "catalog_preferences": {
+        "global_offset_seconds": -0.00800000037997961,
+        "initialization": "native-catalog-note-time-calculation",
+        "music_rate": 1
+      },
+      "chart_catalog": [
+        {
+          "chart_name": "",
+          "description": "Asymmetric owners",
+          "difficulty": "Difficulty_Edit",
+          "hash": 0,
+          "index": 1,
+          "is_autogen": false,
+          "meter": 1,
+          "steps_type": "StepsType_Dance_Routine"
+        }
+      ],
+      "game": "dance",
+      "gameplay_preferences": {
+        "column_cue_min_time": 1.5,
+        "default_modifiers": "",
+        "game_mode": "ITG",
+        "initialization": "theme-game-mode",
+        "max_input_latency_seconds": 0,
+        "mod_level": "ModsLevel_Preferred",
+        "music_rate": 1,
+        "players": [
+          {
+            "disabled_timing_windows": [],
+            "enabled": true,
+            "fail_setting": "FailType_Immediate",
+            "min_tns_to_hide_notes": "TapNoteScore_W3",
+            "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+            "player": "PlayerNumber_P1",
+            "theme_modifiers": {
+              "ActionOnMissedTarget": "Nothing",
+              "BackgroundFilter": "Darker",
+              "ColumnCues": true,
+              "ComboFont": "Wendy",
+              "DataVisualizations": "Step Statistics",
+              "DisplayScorebox": true,
+              "ErrorBar": "None",
+              "ErrorBarMultiTick": false,
+              "ErrorBarTrim": "Off",
+              "ErrorBarUp": false,
+              "FlashDecent": false,
+              "FlashExcellent": false,
+              "FlashFantastic": false,
+              "FlashGreat": false,
+              "FlashMiss": false,
+              "FlashWayOff": false,
+              "HideCombo": false,
+              "HideComboExplosions": false,
+              "HideDanger": false,
+              "HideEarlyDecentWayOffFlash": false,
+              "HideEarlyDecentWayOffJudgments": false,
+              "HideLifebar": false,
+              "HideLookahead": false,
+              "HideScore": false,
+              "HideSongBG": false,
+              "HideTargets": false,
+              "HoldJudgment": "Love 1x2 (doubleres).png",
+              "JudgmentGraphic": "Love 2x6 (doubleres).png",
+              "JudgmentTilt": false,
+              "LifeMeterType": "Standard",
+              "MeasureCounter": "None",
+              "MeasureCounterLeft": false,
+              "MeasureCounterUp": true,
+              "MeasureLines": "Off",
+              "Mini": "0%",
+              "NPSGraphAtTop": false,
+              "NoteFieldOffsetX": 0,
+              "NoteFieldOffsetY": 0,
+              "Pacemaker": false,
+              "ShowExScore": false,
+              "ShowFaPlusPane": true,
+              "ShowFaPlusWindow": false,
+              "SpeedMod": 250,
+              "SpeedModType": "M",
+              "SubtractiveScoring": false,
+              "TargetScore": 11,
+              "TiltMultiplier": 1,
+              "TimingWindows": [
+                true,
+                true,
+                true,
+                true,
+                true
+              ],
+              "VisualDelay": "0ms"
+            }
+          },
+          {
+            "disabled_timing_windows": [],
+            "enabled": true,
+            "fail_setting": "FailType_Immediate",
+            "min_tns_to_hide_notes": "TapNoteScore_W3",
+            "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+            "player": "PlayerNumber_P2",
+            "theme_modifiers": {
+              "ActionOnMissedTarget": "Nothing",
+              "BackgroundFilter": "Darker",
+              "ColumnCues": true,
+              "ComboFont": "Wendy",
+              "DataVisualizations": "Step Statistics",
+              "DisplayScorebox": true,
+              "ErrorBar": "None",
+              "ErrorBarMultiTick": false,
+              "ErrorBarTrim": "Off",
+              "ErrorBarUp": false,
+              "FlashDecent": false,
+              "FlashExcellent": false,
+              "FlashFantastic": false,
+              "FlashGreat": false,
+              "FlashMiss": false,
+              "FlashWayOff": false,
+              "HideCombo": false,
+              "HideComboExplosions": false,
+              "HideDanger": false,
+              "HideEarlyDecentWayOffFlash": false,
+              "HideEarlyDecentWayOffJudgments": false,
+              "HideLifebar": false,
+              "HideLookahead": false,
+              "HideScore": false,
+              "HideSongBG": false,
+              "HideTargets": false,
+              "HoldJudgment": "Love 1x2 (doubleres).png",
+              "JudgmentGraphic": "Love 2x6 (doubleres).png",
+              "JudgmentTilt": false,
+              "LifeMeterType": "Standard",
+              "MeasureCounter": "None",
+              "MeasureCounterLeft": false,
+              "MeasureCounterUp": true,
+              "MeasureLines": "Off",
+              "Mini": "0%",
+              "NPSGraphAtTop": false,
+              "NoteFieldOffsetX": 0,
+              "NoteFieldOffsetY": 0,
+              "Pacemaker": false,
+              "ShowExScore": false,
+              "ShowFaPlusPane": true,
+              "ShowFaPlusWindow": false,
+              "SpeedMod": 250,
+              "SpeedModType": "M",
+              "SubtractiveScoring": false,
+              "TargetScore": 11,
+              "TiltMultiplier": 1,
+              "TimingWindows": [
+                true,
+                true,
+                true,
+                true,
+                true
+              ],
+              "VisualDelay": "0ms"
+            }
+          }
+        ],
+        "timing_window_add": 0.001500000013038516,
+        "timing_window_scale": 1,
+        "timing_windows": {
+          "Attack": 0.13500000536441803,
+          "Checkpoint": 0.1664000004529953,
+          "Hold": 0.3199999928474426,
+          "Mine": 0.07000000029802322,
+          "Roll": 0.3499999940395355,
+          "W1": 0.0215000007301569,
+          "W2": 0.0430000014603138,
+          "W3": 0.10199999809265137,
+          "W4": 0.13500000536441803,
+          "W5": 0.18000000715255737
+        }
+      },
+      "headless_graphics": false,
+      "injected_inputs": false,
+      "lua_gc_mode": "automatic",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "663525dcb86eb570d0ef6a2e209678436660ae26"
+      },
+      "observer_frame_period_seconds": 0.01666666666666667,
+      "preferences": {
+        "constant_update_delta_seconds": 0,
+        "default_sync_offset": "SyncOffset_ITG",
+        "display_aspect_ratio": 1.7777777910232544,
+        "global_offset_seconds": -0.00800000037997961,
+        "last_seen_video_driver": "OpenGL",
+        "visual_delay_seconds": 0
+      },
+      "requested_chart_index": 1,
+      "requested_difficulty": "Edit",
+      "script": [],
+      "starting_chart": {
+        "chart_name": "",
+        "description": "Asymmetric owners",
+        "difficulty": "Difficulty_Edit",
+        "hash": 0,
+        "index": 1,
+        "is_autogen": false,
+        "meter": 1,
+        "steps_type": "StepsType_Dance_Routine"
+      },
+      "style": "routine",
+      "window_visible": false
+    },
+    "schema_version": 1,
+    "script_errors": [],
+    "steps_type": "StepsType_Dance_Routine",
+    "style": "routine",
+    "transition_script_errors": [
+      {
+        "message": "ActorFrameTexture: Cannot have width or height less than 1",
+        "screen": "ScreenEvaluationStage"
+      }
+    ]
+  },
+  "capture_reused": true,
+  "candidate_reused": "/opt/song-lua-audit/pass3-routine-life-baselines/routine-life-dance/candidate/5534a49516fcc6e0fa7a62a08a4b23624b8adeae2395f0a16e53259a772a30d4.tar.zst",
+  "baseline_result": "/opt/song-lua-audit/pass3-routine-life-baselines/routine-life-dance/result.json",
+  "candidate_sha256": "5534a49516fcc6e0fa7a62a08a4b23624b8adeae2395f0a16e53259a772a30d4",
+  "baseline_mismatches": 32,
+  "status": "pass",
+  "started_at": "2026-11-16T06:07:17.579825+00:00",
+  "stages": {
+    "replay": {
+      "command": [
+        "/opt/song-lua-audit/bin/full_song_lua-pass3-routine-life",
+        "--archive",
+        "/opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/5534a49516fcc6e0fa7a62a08a4b23624b8adeae2395f0a16e53259a772a30d4.tar",
+        "--report",
+        "/opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/report.json"
+      ],
+      "exit": 0,
+      "elapsed_seconds": 3.606,
+      "memory_limit": "6G",
+      "timeout_seconds": 240,
+      "unit": "lua-pass2-routine-life-dance-replay",
+      "service_tail": "2026-11-16T05:40:45+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-routine-life-dance-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-input-routing --archive /opt/song-lua-audit/pass3-routine-life-baselines/routine-life-dance/candidate/5534a49516fcc6e0fa7a62a08a4b23624b8adeae2395f0a16e53259a772a30d4.tar --report /opt/song-lua-audit/pass3-routine-life-baselines/routine-life-dance/report.json.\n2026-11-16T05:40:49+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-life-dance-replay.service: Main process exited, code=exited, status=2/INVALIDARGUMENT\n2026-11-16T05:40:49+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-life-dance-replay.service: Failed with result 'exit-code'.\n2026-11-16T05:40:49+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-life-dance-replay.service: Consumed 3.557s CPU time, 1.0M memory peak, 0B memory swap peak.\n2026-11-16T06:07:17+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-routine-life-dance-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-routine-life --archive /opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/5534a49516fcc6e0fa7a62a08a4b23624b8adeae2395f0a16e53259a772a30d4.tar --report /opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/report.json.\n2026-11-16T06:07:21+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-life-dance-replay.service: Deactivated successfully.\n2026-11-16T06:07:21+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-life-dance-replay.service: Consumed 3.538s CPU time, 1.0M memory peak, 0B memory swap peak.\n"
+    },
+    "pack": {
+      "command": [
+        "/opt/song-lua-audit/bin/itgmania-harness-pass3-input-clocks",
+        "song-lua-pack",
+        "/opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/5534a49516fcc6e0fa7a62a08a4b23624b8adeae2395f0a16e53259a772a30d4.tar",
+        "--report",
+        "/opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/report.json",
+        "--out",
+        "/opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/accepted"
+      ],
+      "exit": 0,
+      "elapsed_seconds": 3.609,
+      "memory_limit": "6G",
+      "timeout_seconds": 180,
+      "unit": "lua-pass2-routine-life-dance-pack",
+      "service_tail": "2026-11-16T06:07:21+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-routine-life-dance-pack.service - /opt/song-lua-audit/bin/itgmania-harness-pass3-input-clocks song-lua-pack /opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/5534a49516fcc6e0fa7a62a08a4b23624b8adeae2395f0a16e53259a772a30d4.tar --report /opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/report.json --out /opt/song-lua-audit/pass3-routine-life-results/routine-life-dance/accepted.\n2026-11-16T06:07:24+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-life-dance-pack.service: Deactivated successfully.\n2026-11-16T06:07:24+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-life-dance-pack.service: Consumed 9.475s CPU time, 1.9M memory peak, 0B memory swap peak.\n"
+    }
+  },
+  "comparison": {
+    "whole_song_parity_proven": false,
+    "archive_accepted": true,
+    "execution_path": "diagnostic-live-lua",
+    "production_preparation_exercised": false,
+    "production_parity_proven": false,
+    "native_frames": 625,
+    "replayed_frames": 625,
+    "compared_stage_fields": 308,
+    "pending_coverage": [
+      "uncompared song operations: GameState.GetCurMusicSeconds, Player.SetLife, PlayerStageStats.GetCurrentLife, ScreenGameplay.GetLifeMeter",
+      "missing captured subscriber identity for ScreenGameplay/2/12/3",
+      "missing captured subscriber identity for ScreenGameplay/2/12/4",
+      "missing captured subscriber identity for ScreenGameplay/2/13/1",
+      "missing captured subscriber identity for ScreenGameplay/2/8/3",
+      "missing captured subscriber identity for ScreenGameplay/2/8/4",
+      "missing captured subscriber identity for ScreenGameplay/2/9/1",
+      "missing captured subscriber identity for ScreenGameplay/24",
+      "missing captured subscriber identity for ScreenGameplay/25/1/1",
+      "missing captured subscriber identity for ScreenGameplay/25/1/10",
+      "missing captured subscriber identity for ScreenGameplay/25/1/12",
+      "missing captured subscriber identity for ScreenGameplay/25/1/2",
+      "missing captured subscriber identity for ScreenGameplay/25/1/4",
+      "missing captured subscriber identity for ScreenGameplay/25/1/5",
+      "missing captured subscriber identity for ScreenGameplay/25/1/7",
+      "missing captured subscriber identity for ScreenGameplay/25/1/9",
+      "missing captured subscriber identity for ScreenGameplay/3/1"
+    ],
+    "capture_completed_gameplay": true,
+    "acceptance_basis": "full replay of implemented comparisons",
+    "fixture_sha256": "5534a49516fcc6e0fa7a62a08a4b23624b8adeae2395f0a16e53259a772a30d4",
+    "mismatch_count": 0,
+    "mismatch_fields": {},
+    "first_mismatches": [],
+    "error_count": 0,
+    "errors": []
+  },
+  "accepted_artifact": {
+    "file": "routine-life-dance/accepted/074b7d148c9e569777580ed79c9703879c6e4af173f2bc47988e3db0e3e36c2e.tar.zst",
+    "bytes": 107752032,
+    "sha256": "074b7d148c9e569777580ed79c9703879c6e4af173f2bc47988e3db0e3e36c2e",
+    "uncompressed_sha256": "5534a49516fcc6e0fa7a62a08a4b23624b8adeae2395f0a16e53259a772a30d4"
+  },
+  "report": {
+    "file": "routine-life-dance/report.json.zst",
+    "bytes": 3563,
+    "sha256": "6f48a2d3c5fdb1c911a8c92abed5bc91120c6aaf167f3e6defdbe095c5b0476d",
+    "uncompressed_sha256": "f5220d68e21f74f0faa0ddf75e30ec00b879f4905a19aaebad6e0c1e2c89c404"
+  },
+  "finished_at": "2026-11-16T06:07:25.204337+00:00"
+}

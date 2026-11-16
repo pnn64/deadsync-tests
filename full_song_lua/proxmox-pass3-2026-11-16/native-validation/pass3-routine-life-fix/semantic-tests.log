@@ -1,0 +1,516 @@
+   Compiling deadsync-gameplay v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-gameplay)
+   Compiling deadsync-smx v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-smx)
+   Compiling deadsync-lights v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-lights)
+   Compiling deadsync-notefield v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-notefield)
+   Compiling deadsync-config v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-config)
+warning: function `set_windows_gamepad_backend` is never used
+   --> crates/deadsync-config/src/app_update.rs:551:8
+    |
+551 | pub fn set_windows_gamepad_backend(cfg: &mut Config, backend: WindowsPadBackend) -> bool {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+   Compiling deadsync-profile v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-profile)
+   Compiling deadsync-song-lua v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-song-lua)
+warning: `deadsync-config` (lib) generated 1 warning
+   Compiling deadsync-simfile v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-simfile)
+warning: `deadsync-config` (lib) generated 1 warning (1 duplicate)
+   Compiling deadsync-profile-gameplay v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-profile-gameplay)
+   Compiling deadsync-online v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-online)
+   Compiling deadsync-assets v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-assets)
+   Compiling deadsync-theme-simply-love v0.5.2494 (/opt/song-lua-audit/input-deadsync/crates/deadsync-theme-simply-love)
+   Compiling deadsync-import v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-import)
+   Compiling deadsync-input-fsr v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-input-fsr)
+   Compiling deadsync-shell v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-shell)
+   Compiling deadsync v0.5.2494 (/opt/song-lua-audit/input-deadsync)
+    Finished `release` profile [optimized + debuginfo] target(s) in 7m 27s
+     Running tests/song_lua_itgmania_semantic_parity.rs (/opt/song-lua-audit/deadsync/target/release/deps/song_lua_itgmania_semantic_parity-1e26f988d2faae1c)
+
+running 405 tests
+test affine_skew_matches_native_drawing ... ok
+test additive_update_matches_native ... ok
+test aggregated_failures_fail_even_without_gap_descriptions - should panic ... ok
+test aft_boundaries_match_native_geometry_and_visibility ... ok
+test all_steps_keep_native_timing ... ok
+test and_drugs_whole_song_matches_native ... ignored, long whole-song semantic and render replay; run explicitly with --ignored
+test bad_apple_whole_song_matches_native ... ignored, long whole-song semantic and render replay; run explicitly with --ignored
+test bank_account_complete_semantics_match_itgmania ... ignored, replays a complete authored song; run explicitly with --ignored
+test ancestor_scale_matches_native_drawing ... ok
+test base_rotation_keeps_getters_and_draw_pose ... ok
+test bpm_fade_matches_native_clock ... ok
+test brogamer_dizzy_and_confusion_do_not_leak_between_authored_windows ... FAILED
+test brogamer_fixture_hides_and_scales_target_until_its_effect ... ok
+test collapsed_transform_matches_native ... ok
+test callback_wag_matches_native ... ok
+test collapsed_transform_matches_native_drawing ... ok
+test column_splines_match_native_clock_offsets ... ok
+test column_xy_offsets_match_native_spline ... ok
+test compile_song_lua_stoptweening_preserves_startup_current_state ... ok
+test compiled_fuzz::batched_diffuse_glow_requires_disjoint_paired_cells_and_matching_state ... ok
+test compiled_fuzz::batched_quads_require_every_native_vertex_once ... ok
+test compiled_fuzz::foreground_clock_uses_float_start_and_rejects_rewound_samples ... ok
+test compiled_fuzz::native_color_quantization_does_not_hide_geometry_or_color_changes ... ok
+test compiled_song_lua_basezoom_bypasses_queued_tweens ... ok
+test compiled_song_lua_beatnooffset_keeps_global_clock_after_startup_bounce ... ok
+test compiled_song_lua_beatnooffset_preserves_rainbow_color_bytes_after_stop ... ok
+test compiled_song_lua_child_commands_follow_stable_draw_order ... ok
+test compiled_song_lua_child_shears_preserve_alignment_under_parent_rotation ... ok
+test compiled_song_lua_finish_then_tween_restarts_from_destination ... ok
+test compiled_song_lua_heading_accumulates_and_tweens_quaternions ... ok
+test compiled_song_lua_immediate_properties_survive_queued_stop ... ok
+test compiled_song_lua_named_alignment_bypasses_queued_tweens ... ok
+test compiled_song_lua_parent_callback_overrides_spin_in_same_frame ... ok
+test compiled_song_lua_quaternion_parent_and_child_rotate_about_world_origin ... ok
+test compiled_song_lua_queued_motion_resets_after_timer_advance ... ok
+test compiled_song_lua_queued_rotations_do_not_leak_into_spin_snapshot ... ok
+test compiled_song_lua_relative_rotation_reads_wrapped_current_after_tween ... ok
+test color_inheritance_native_draws ... ok
+test compiled_song_lua_startup_music_spin_preserves_current_and_tween_destination ... ok
+test compiled_song_lua_startup_motion_keeps_first_timer_delta ... ok
+test compiled_song_lua_uses_external_clock_inputs ... ok
+test corpora::allowed::cosmic_railroad ... ignored, compiles one song and reports every semantic check
+test corpora::allowed::fixtures_cover_corpus_and_tests ... ok
+test corpora::allowed::flip69 ... ignored, compiles one song and reports every semantic check
+test corpora::allowed::gemini_in_clockland ... ignored, compiles one song and reports every semantic check
+test corpora::allowed::godspeed ... ignored, compiles one song and reports every semantic check
+test corpora::allowed::kenpo_saito ... ignored, compiles one song and reports every semantic check
+test corpora::allowed::media_offline ... ignored, compiles one song and reports every semantic check
+test corpora::allowed::riddle ... ignored, compiles one song and reports every semantic check
+test corpora::allowed::spooky ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::and_drugs ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::apollo ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::bad_apple ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::bank_account ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::botanic_panic ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::brain_power ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::broadcast ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::brogamer ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::bunny_house ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::chikutaku ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::circles ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::crystal_access ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::cursed_metamorph ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::delightful_day ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::do_the_mario ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::feelyourtouch ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::feelyourtouch_double ... ignored, compiles feelyourtouch's double chart and reports every semantic check
+test corpora::lua_songs::finite_edit ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::fixtures_cover_corpus_and_tests ... FAILED
+test corpora::lua_songs::flowers ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::flying_castle ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::fof_guys ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::goodbye ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::i_ai ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::igaku ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::jumper ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::kagetsu_no_yume ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::karachi ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::lake_of_lost_nostalgia ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::lala ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::let_me_hear_that ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::levels ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::macarena ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::mawaru2 ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::mawaru3 ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::mawaru4 ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::mawaru5 ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::mawaru6 ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::mawaru7 ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::mawaru8 ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::mawaru9 ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::megalovania ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::my_exes_bestfriend ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::oshama_scramble ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::pale ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::panopticon ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::rainbow_road ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::save_your_tears ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::seventh_gear ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::sharkmode ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::slamurai ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::someone_special ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::song_666 ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::song_666_other_difficulties ... ignored, compiles every other 666 difficulty and reports all semantic checks
+test corpora::lua_songs::spectrum_sequence ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::step_your_game_up ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::ultimate_taste ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::ultimate_taste_medium ... ignored, compiles Ultimate taste's reduced-mod difficulty and reports every semantic check
+test corpora::lua_songs::waltz_capriccio ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::waltz_capriccio_medium ... ignored, compiles Waltz's non-Challenge branch and reports every semantic check
+test corpora::lua_songs::warp_zone ... ignored, compiles one song and reports every semantic check
+test corpora::lua_songs::who_the_hell_is_edgar ... ignored, compiles one song and reports every semantic check
+test consumed_message_checks_runtime_timeline ... ok
+test cuphead_fixture_captures_impact_rotation_and_cannon_vibration ... ok
+test cuphead_stateful_fire_message_matches_itgmania ... ignored, compiles the complete Cuphead song-Lua runtime at 60 Hz
+test cuphead_fixture_captures_queued_boss_spawns ... ok
+test delayed_actor_pool_is_ready_for_queued_updates ... ok
+test delightful_day_movie_and_hidden_layers_match_itgmania ... ignored, replays a complete authored song; run explicitly with --ignored
+test deferred_effects_match_native ... ok
+test effect_switch_native_draws ... ok
+test fade_clock_matches_native ... ok
+test fallback_tweens_match_native_drawing ... ok
+test final_visibility_preserves_native_integer_boolean_setters ... ok
+test final_render_samples_unfinished_native_fade ... ok
+test foreground_comments_keep_native_layers ... ok
+test foreground_delay_matches_native_visibility ... ok
+test frame_updates_keep_track_precedence ... ok
+test generated_song_lua_compiled_matches_itgmania ... ignored, requires a generated trace, simfile and report from scripts/fuzz_song_lua.py
+test goodbye_whole_song_matches_native ... ignored, long whole-song semantic and render replay; run explicitly with --ignored
+test hidden_cache_keeps_membership_and_visible_order ... ok
+test i_ai_whole_native ... ignored, long whole-song native geometry and semantic replay; run explicitly with --ignored
+test igaku_whole_song_matches_native ... ignored, long whole-song semantic and render replay; run explicitly with --ignored
+test finite_queue_controls_match_native ... ok
+test image_texture_aliases_match_native_draws ... ok
+test judgment_sheet_changes_match_native ... ok
+test karachi_whole_native ... ignored, long whole-song native geometry and semantic replay; run explicitly with --ignored
+test last_parent_write_waits_for_child_update ... ok
+test itl_unlock_fixture_contexts ... ok
+test late_pulse_native_draws ... ok
+test late_wrapper_matches_native ... ok
+test late_wrapper_vibration_matches_native ... ok
+[0.0s] comparing compile info
+[0.0s] comparing layer order
+[0.0s] comparing final render
+[0.0s] comparing player proxy sources
+[0.0s] comparing judgment textures
+[0.0s] comparing render persistence
+[0.0s] comparing update values
+[0.0s] comparing player ranges
+[0.0s] comparing column splines
+[0.0s] comparing projected geometry
+[0.0s] comparing timeline
+[0.0s] comparing message commands
+test live_progress_includes_nested_native_color_comparisons ... ok
+test looping_position_spline_curves_match_native_cpp ... ok
+test manual_draw_clock_matches_native ... ok
+test mawaru5_local_draw_colors_match_native ... ignored, replays a complete authored song; run explicitly with --ignored
+test mawaru6_whole_song_matches_native ... ignored, long whole-song semantic and render replay; run explicitly with --ignored
+test mawaru7_idle_holds_match_native ... ignored, replays a complete authored song; run explicitly with --ignored
+test mawaru7_whole_song_matches_native ... ignored, long whole-song semantic and render replay; run explicitly with --ignored
+test mawaru8_local_messages_match_native ... ignored, replays a complete authored song; run explicitly with --ignored
+test message_match_reassigns ... ok
+test message_queue_backlog_matches_native ... ok
+test models::model_alpha_cutoff ... ok
+test models::native_model_columns_preserve_nulls ... ok
+test models::native_model_columns_reject_incomplete_observations ... ok
+test models::native_model_cull_modes_match ... ok
+test late_colors_native_draws ... ok
+test models::native_model_elapsed_clock_ignores_simfile_offset ... ok
+test models::native_model_initial_frames_match_selected_trace ... ok
+test models::native_model_texture_paths_require_reference_inventory ... ok
+test models::native_model_trace_columns_cover_every_update ... ok
+test models::native_model_meshes_match_selected_trace ... ok
+test multitap::edgar_countdown_onsets_and_hit_commands ... ignored, replays all 9197 frames of the authored Edgar song; run explicitly with --ignored
+test multitap::edgar_native_hits_match ... ignored, replays all 9197 frames of the authored Edgar song; run explicitly with --ignored
+test motion_native_draws ... ok
+test multitap::multitap_boundaries_and_noteskin_commands_match ... ok
+test multitap::multitap_layer_writes ... ok
+test multitap::multitap_fixtures_pin_noteskin ... ok
+test multitap::multitap_strict_taps ... ok
+test multitap::sparse_zoom_knots_keep_native_extent ... ok
+test multitap::perspective_geometry_survives_noteskin_kind_change ... ok
+test music_effect_clock_matches_native ... ok
+test native_assignment_snapshots ... ok
+test native_alpha_loop ... ok
+test native_gameplay::interactive::native_depth_comparison_keeps_bias_and_homogeneous_w ... ok
+test native_gameplay::tests::actor_and_query_trace_keep_lua_callers ... ok
+test native_current_options ... ok
+test native_gameplay::tests::arrow_effects_reads_owned_style_without_extra_lua_queries ... ok
+test native_gameplay::tests::autonomous_theme_queries_stay_outside_song_trace_but_nested_calls_remain ... ok
+test native_gameplay::tests::call_arguments_compare_native_numbers_without_losing_value_checks ... ok
+test native_gameplay::tests::call_comparison_uses_the_same_method_domain_without_losing_value_checks ... ok
+test native_gameplay::tests::call_source_normalization_preserves_original_path_rules ... ok
+test native_gameplay::tests::call_trace_capacity_keeps_overflow_visible ... ok
+test native_gameplay::tests::concurrent_call_logs_remain_separate ... ok
+test native_gameplay::tests::coverage_tracks_observed_apis_and_constructor_evidence ... ok
+test native_gameplay::tests::creation_identities_keep_foreground_when_background_factory_is_unobserved ... ok
+test native_gameplay::tests::creation_identities_use_allocations_and_validate_ownership ... ok
+test native_gameplay::tests::background_cache_reuses_owners_and_replays_focus_schedule ... ok
+test native_gameplay::tests::dynamically_added_commands_keep_native_observer_provenance ... ok
+test native_gameplay::tests::ending_stage_observers_follow_final_frame_after_music_rewind ... ok
+test native_gameplay::tests::external_clock_input_bridge_keeps_call_sites_and_legacy_capture_support ... ok
+test native_gameplay::tests::dynamically_added_commands_observe_enabled_capture_profile ... ok
+test native_gameplay::tests::gameplay_attack_start_now_uses_prior_player_position ... ok
+test native_gameplay::tests::gameplay_autoplay_judges_at_native_float_row_boundary ... ok
+test native_gameplay::tests::gameplay_autoplay_overlay_off_keeps_successful_exit_clock ... ok
+test native_gameplay::tests::gameplay_avoided_mines_dispatch_each_owned_judgment_next_update ... ok
+test native_gameplay::tests::gameplay_chart_attack_rebuilds_song_options ... ok
+test native_gameplay::tests::gameplay_empty_declared_layers_retains_owned_theme_scene ... ok
+test native_gameplay::tests::gameplay_hardware_input_drives_live_text_and_releases ... ok
+test native_gameplay::tests::gameplay_immediate_draw_allows_unset_actor_proxy ... ok
+test native_gameplay::tests::gameplay_immediate_draw_freezes_before_child_on_and_preserves_automatic_pass ... ok
+test native_gameplay::tests::gameplay_immediate_failure_draws_until_native_blank_transition_finishes ... ok
+test native_gameplay::tests::gameplay_live_song_fail_setting_controls_real_navigation ... ok
+test native_gameplay::tests::gameplay_music_end_uses_the_whole_song_before_the_resolution_window ... ok
+test native_gameplay::tests::gameplay_music_fade_finishes_before_the_native_transition ... ok
+test native_gameplay::tests::gameplay_natural_navigation_ends_owned_song_actors_once ... ok
+test native_gameplay::tests::gameplay_note_field_tap_runs_owned_lua_before_actor_update ... ok
+test native_gameplay::tests::gameplay_last_mine_judgment_survives_natural_outro ... ok
+test native_gameplay::tests::gameplay_out_transition_resolves_latest_explicit_next_screen ... ok
+test native_gameplay::tests::gameplay_tween_overflow_finishes_native_queue_and_discards_commands ... ok
+test native_gameplay::tests::instantiated_background_effect_keeps_wrapper_in_subscriber_paths ... ok
+test native_gameplay::tests::modifier_comparison_keeps_values_speeds_returns_and_clocks ... ok
+test native_gameplay::tests::named_query_handles_keep_actor_identity ... ok
+test native_gameplay::tests::gameplay_reload_rebuilds_a_single_session_as_double ... ok
+test native_gameplay::tests::native_background_filter_uses_initial_theme_options_only ... ok
+test native_gameplay::tests::native_all_failed_delays_notes_ended_by_the_theme_song_second ... ok
+test native_gameplay::tests::native_bpm_layout_uses_initial_upper_nps_option ... ok
+test native_gameplay::tests::native_capture_rejects_incomplete_or_failed_traces ... ok
+test native_gameplay::tests::native_controller_inputs_reject_cpu_and_partial_autoplay ... ok
+test native_gameplay::tests::native_background_retains_borders_and_duplicate_brightness_quads ... ok
+test native_gameplay::tests::native_danger_visibility_uses_initial_profile_input ... ok
+test native_gameplay::tests::native_default_profile_uses_fresh_bootstrap_inputs ... ok
+test native_gameplay::tests::native_current_background_helper_keeps_its_theme_query_caller ... ok
+test native_gameplay::tests::native_double_session_selects_double_steps_and_runs_eight_column_scene ... ok
+test native_gameplay::tests::native_event_mode_reads_the_owned_preference_without_nested_api_calls ... ok
+test native_gameplay::tests::native_finish_tweening_propagates_and_source_broadcasts_keep_callback_scope ... ok
+test native_gameplay::tests::native_failed_exit_records_history_without_emptying_the_meter ... ok
+test native_gameplay::tests::native_gameplay_decorations_retain_children_while_hibernating ... ok
+test native_gameplay::tests::native_life_meter_uses_initial_theme_options_only ... ok
+test native_gameplay::tests::native_gameplay_transitions_retain_their_loaded_auto_actors ... ok
+test native_gameplay::tests::native_live_draw_payload_can_exceed_the_baked_operation_count ... ok
+test native_gameplay::tests::native_multivertex_texture_getter_preserves_runtime_and_observation_scope ... ok
+test native_gameplay::tests::native_overlay_preserves_theme_tree_and_capture_probe_input ... ok
+test native_gameplay::tests::native_reload_starts_with_the_requested_style ... ok
+test native_gameplay::tests::native_plain_actor_draws_do_not_consume_geometry_budget ... ok
+test native_gameplay::tests::native_starting_chart_checks_identity_and_maps_catalog_to_payload ... ok
+test native_gameplay::tests::native_starting_chart_respects_game_and_partner_styles ... ok
+test native_gameplay::tests::native_step_statistics_uses_initial_selection_only ... ok
+test native_gameplay::tests::native_sound_length_exposes_whole_milliseconds ... ok
+test native_gameplay::tests::native_theme_timing_windows_use_initial_inputs_without_query_calibration ... ok
+test native_gameplay::tests::native_tap_score_ranks_drive_scripted_judgment_life_changes ... ok
+test native_gameplay::tests::partial_frames_and_drawable_resources_remain_pending ... ok
+test native_gameplay::tests::passing_archives_advance_with_recorded_coverage_gaps ... ok
+test native_gameplay::tests::player_number_paths_keep_players_and_option_levels_distinct ... ok
+test native_gameplay::tests::player_stage_stats_paths_preserve_player_stage_and_literal_identity ... ok
+test native_gameplay::tests::progress_observers_follow_frame_order_when_music_rewinds ... ok
+test native_gameplay::tests::query_handle_numbering_remains_global_across_scene_epochs ... ok
+test native_gameplay::tests::option_trace_keeps_native_returns_and_strings ... ok
+test native_gameplay::tests::recorded_input_clocks_check_routing_without_choosing_a_lane ... ok
+test native_gameplay::tests::recorded_gameplay_input_preserves_native_scoring_phases ... ok
+test native_gameplay::tests::source_broadcast_numbers_use_native_json_integer_ranges ... ok
+test native_load_order ... ok
+test native_render_alpha_keeps_nonfinite_kind ... ok
+test native_song_lua_semantics_match_deadsync ... ignored, long full-song semantic replay against the committed Delightful Day capture
+test native_option_assignment ... ok
+test near_camera_native ... ok
+test oshama_whole_native ... ignored, long whole-song native geometry and semantic replay; run explicitly with --ignored
+test parent_rotation_matches_native_drawing ... ok
+test nested_global_probes_match_native ... ok
+test paused_updates_match_native ... ok
+test perspective_fields_match_native_drawing ... ok
+test player_tail_native ... ok
+test position_spline_curves_match_native_cpp ... ok
+test perspective_float_matches_native_drawing ... ok
+test projected_colors_keep_nonfinite_kind ... ok
+test projected_corners_keep_negative_w ... ok
+test projected_quad_uses_unit_geometry ... ok
+test projected_spin_matches_native_draws ... ok
+test position_spline_tracks_keep_native_clock_and_modifier_state ... ok
+test pulse_driver_native_draws ... ok
+test public_music_seconds_matches_native ... ok
+test queued_blink_matches_native_clock ... ok
+test queued_bounce_matches_native ... ok
+test pulse_native_draws ... ok
+test queued_broadcasts_match_native_frames ... ok
+test queued_child_cycles_match_native ... ok
+test queued_lua_state_matches_native_dispatch ... ok
+test queued_message_states_match_native ... ok
+test queued_messages_match_native ... ok
+test queued_commands_match_native ... ok
+test queued_startup_preserves_initial_overlay_state ... ok
+test queued_reset_matches_native_clock ... ok
+test queued_tail_native ... ok
+test queued_visibility_matches_native_actor_updates ... ok
+test queued_update_matches_native_order ... ok
+test random_probe_matches_native ... ok
+test recurring_ease_tables_match_native_shared_state ... ok
+test recurring_initial_delay_matches_native ... ok
+test recurring_follow_matches_native ... ok
+test recurring_stop_matches_native ... ok
+test recurring_tail_keeps_boundary_frame ... ok
+test recurring_visibility_matches_native ... ok
+test recurring_road_loop_matches_native ... ok
+test replayed_alpha_messages_keep_queue_delay ... ok
+test retarget_update_matches_native ... ok
+test runtime_cycle_start_and_screen_camera_match_native ... ok
+test runtime_modifiers::attack_flags_current_matches_native_frames ... ok
+test runtime_modifiers::attack_flags_matches_native_targets ... ok
+test runtime_modifiers::attenuation_current_matches_native_frames ... ok
+test runtime_modifiers::attenuation_matches_native_targets ... ok
+test runtime_modifiers::beat_family_current_matches_native_frames ... ok
+test runtime_modifiers::beat_family_matches_native_targets ... ok
+test runtime_modifiers::boolean_audit_keeps_repeated_writes ... ok
+test runtime_modifiers::boolean_option_queries_are_not_modifier_targets ... ok
+test runtime_modifiers::boolean_options_survive_methods_strings_and_fresh_options ... ok
+test runtime_modifiers::bounce_tornado_match_native_targets ... ok
+test runtime_modifiers::bumpy_variants_survive_lua_methods_strings_approach_and_fresh_options ... ok
+test runtime_modifiers::clearall_audit_checks_reset_and_later_writes ... ok
+test runtime_modifiers::cmd_callback_preserves_initial_player_pose ... ok
+test runtime_modifiers::confusion_spin_current_matches_native_frames ... ok
+test runtime_modifiers::confusion_spin_matches_native_targets ... ok
+test runtime_modifiers::confusion_x_matches_native_targets ... ok
+test runtime_modifiers::confusion_y_matches_native_targets ... ok
+test runtime_modifiers::dizzy_holds_survives_lua_boolean_methods_strings_and_fresh_options ... ok
+test runtime_modifiers::draw_size_survives_lua_methods_strings_and_fresh_options ... ok
+test runtime_modifiers::drunk_variants_survive_lua_methods_strings_approach_and_fresh_options ... ok
+test runtime_modifiers::expand_family_current_matches_native_frames ... ok
+test replay_keeps_final_callback ... ok
+test runtime_modifiers::expand_family_matches_native_targets ... ok
+test runtime_modifiers::fail_options_runtime ... ok
+test runtime_modifiers::hidden_actor_tweens_drive_modifiers_without_probe_state ... ok
+test runtime_modifiers::lane_stealth_survives_lua_writes_and_fresh_options ... ok
+test runtime_modifiers::mod_timer_survives_lua_selectors_approach_and_fresh_options ... ok
+test runtime_modifiers::long_player_tweens_match_native_frames ... ok
+test runtime_modifiers::motion_suboptions_survive_lua_writes_and_reset ... ok
+test runtime_modifiers::native_modifier_values_match_deadsync ... ignored, long full-song runtime modifier audit against the committed CO5M1C capture
+test runtime_modifiers::move_z_lane_options ... ok
+test runtime_modifiers::noteskin_audit_rejects_missing_and_altered_writes ... ok
+test runtime_modifiers::opening_warp_keeps_zero_delta_options ... ok
+test runtime_modifiers::native_speed_fields_drive_playback ... ok
+test runtime_modifiers::parabola_survives_lua_methods_strings_and_fresh_options ... ok
+test runtime_modifiers::perspective_aliases_compile_into_shared_gameplay_targets ... ok
+test runtime_modifiers::parabola_y_matches_native_targets ... ok
+test runtime_modifiers::prefix_reader_writes_override_raw_ease_endpoints ... ok
+test runtime_modifiers::roll_survives_lua_methods_strings_and_fresh_options ... ok
+test runtime_modifiers::rejected_strings_preserve_native_runtime_fields ... ok
+test runtime_modifiers::runtime_reader_preserves_order_and_easing_body ... ok
+test runtime_modifiers::sampled_dark_columns_keep_method_and_string_values ... ok
+test runtime_modifiers::sampled_mini_and_xmod_pulse_preserves_note_spacing ... ok
+test runtime_modifiers::sampled_modifiers_keep_final_partial_frame ... ok
+test runtime_modifiers::sampled_modifiers_keep_stops_and_split_chart_timing ... ok
+test runtime_modifiers::sampled_speed_modes_reactivate_previous_values ... ok
+test runtime_modifiers::seventh_gear_opening_pulse_keeps_size_and_speed_synchronized ... FAILED
+test runtime_modifiers::shrink_family_current_matches_native_frames ... ok
+test runtime_modifiers::shrink_family_matches_native_targets ... ok
+test runtime_modifiers::song_clock_retains_native_float_rounding ... ok
+test runtime_modifiers::song_clock_uses_global_pauses ... ok
+test runtime_modifiers::speed_field_audit_keeps_failed_and_startup_writes ... ok
+test runtime_modifiers::square_family_survives_lua_strings_approach_and_fresh_options ... ok
+test runtime_modifiers::square_fresh_options_start_on_native_frame ... ok
+test runtime_modifiers::startup_boolean_writes_match_native ... ok
+test runtime_modifiers::startup_speeds_keep_native_default_approaches ... ok
+test runtime_modifiers::state_option_strings_drive_sampled_targets ... ok
+test runtime_modifiers::table_iteration_preserves_shared_speed_updates ... ok
+test runtime_modifiers::twirl_survives_lua_methods_strings_and_fresh_options ... ok
+test runtime_modifiers::wave_period_matches_native_targets ... ok
+test runtime_modifiers::xmode_survives_lua_methods_strings_and_fresh_options ... ok
+test runtime_modifiers::z_wave_family_current_matches_native_frames ... ok
+test runtime_modifiers::sampled_modifiers_change_on_the_recorded_frame ... ok
+test runtime_modifiers::z_wave_family_matches_native_targets ... ok
+test runtime_modifiers::zero_approach_keeps_current_and_audits_song_target ... ok
+test runtime_size_zoom_matches_native_drawing ... ok
+test save_tears_whole_native ... ignored, long whole-song native geometry and semantic replay; run explicitly with --ignored
+test runtime_text_uses_native_song_clock ... ok
+test screen_parent_depth_native_draws ... ok
+test screen_parent_transform_native_draws ... ok
+test scheduled_fade_matches_native ... ok
+test shadow_setters_bypass_child_tweens ... ok
+test shared_actor_instances_match_native_rendering ... ok
+test shared_screen_translation_matches_native ... ok
+test sharkmode_whole_song_matches_native ... ignored, long whole-song semantic and render replay; run explicitly with --ignored
+test short_glow_matches_native ... FAILED
+test simply_love_receptor_metrics_match_native ... ok
+test song_position_keeps_strict_beat_boundaries ... ok
+test sparse_wrapped_spin_rotation_does_not_invent_a_tween ... ok
+test spin_tweens_match_native_rotation ... ok
+test sprite_fade_inner_edges_preserve_native_color_bytes ... ok
+test sprite_load_cycle_matches_native ... ok
+test startup_delay_matches_native_dispatch ... ok
+test step_your_game_up_critical_render_states_match_itgmania ... FAILED
+test stopped_position_matches_native ... ok
+test semantic_fixture_manifest_is_complete_and_headless ... ok
+test subscriber_order_matches_native ... ok
+test update_intrinsics_match_native ... ok
+test update_matching_keeps_retained_actor_variables ... ok
+test unnamed_message_child_matches_native ... ok
+test vibrate_restart_native ... ok
+test warp_zone_whole_song_matches_native ... ignored, long whole-song semantic and render replay; run explicitly with --ignored
+test whole_song_archives::archive_reference_rejects_missing_model_meshes ... FAILED
+test whole_song_archives::archive_reference_rejects_obsolete_replays ... FAILED
+test whole_song_archives::composition_checks_nonfinite_alpha_per_frame ... ok
+test whole_song_archives::consolidated_song_lua_references_resolve_and_are_compressed ... FAILED
+test whole_song_archives::empty_song_layers_match_current_native_control ... ok
+test whole_song_archives::full_song_selector_rejects_missing_and_ambiguous_matches_and_preserves_aliases ... ok
+test whole_song_archives::native_song_endpoint_rejects_incomplete_replays ... ok
+test whole_song_archives::native_song_endpoint_uses_native_float_clock ... ok
+test whole_song_archives::uncompressed_candidates_retain_member_validation ... FAILED
+test whole_song_archives::whole_song_archive_index_and_streamed_members_are_valid ... ignored, long song-fixture audit: streams and validates all 932 committed full-song archives
+test whole_song_archives::whole_song_archives_compile_compose_and_match_native_trace ... ignored, explicit full-corpus compile, composition, and exact semantic/render audit
+test waltz_runtime_matches_native ... ok
+test wrapper_fade_matches_native ... ok
+test wrapper_transform_matches_native ... ok
+test wrapper_transform_matches_native_drawing ... ok
+test zero_fov_matches_native_parent_camera ... ok
+test zoom_axis_fit_matches_native ... ok
+test zero_queue_keeps_current_position ... ok
+
+failures:
+
+---- brogamer_dizzy_and_confusion_do_not_leak_between_authored_windows stdout ----
+
+thread 'brogamer_dizzy_and_confusion_do_not_leak_between_authored_windows' (59427) panicked at tests/support/song_fixture.rs:87:61:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+
+---- corpora::lua_songs::fixtures_cover_corpus_and_tests stdout ----
+
+thread 'corpora::lua_songs::fixtures_cover_corpus_and_tests' (59460) panicked at tests/support/song_fixture.rs:87:61:
+called `Result::unwrap()` on an `Err` value: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+
+---- runtime_modifiers::seventh_gear_opening_pulse_keeps_size_and_speed_synchronized stdout ----
+
+thread 'runtime_modifiers::seventh_gear_opening_pulse_keeps_size_and_speed_synchronized' (59755) panicked at tests/support/song_fixture.rs:116:64:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+---- short_glow_matches_native stdout ----
+short-glow: 3848 native RGBA channels, 481 draw-count checks
+
+thread 'short_glow_matches_native' (59790) panicked at tests/song_lua_itgmania_semantic_parity.rs:10878:5:
+Monitor at 0.8333333 glow[0]: 8.500006 vs 8.500005
+Monitor at 1.6333333 glow[0]: 8.500006 vs 8.500005
+Monitor at 3.0666666 glow[0]: 3.5000143 vs 3.5000145
+Monitor at 3.2333333 glow[0]: 8.500006 vs 8.500005
+Monitor at 4.733333 glow[0]: 3.4999597 vs 3.4999602
+Monitor at 6.4333334 glow[0]: 8.500006 vs 8.500005
+
+---- step_your_game_up_critical_render_states_match_itgmania stdout ----
+
+thread 'step_your_game_up_critical_render_states_match_itgmania' (59798) panicked at tests/support/song_fixture.rs:116:64:
+called `Result::unwrap()` on an `Err` value: PoisonError { .. }
+
+---- whole_song_archives::archive_reference_rejects_missing_model_meshes stdout ----
+
+thread 'whole_song_archives::archive_reference_rejects_missing_model_meshes' (59806) panicked at tests/song_lua_itgmania_semantic_parity/whole_song_archives.rs:209:9:
+missing committed song archive: ded0f7ff19513e30119e0d6f65b57a661f1683872fc9ffced27737db06c49993.tar.zst
+
+---- whole_song_archives::archive_reference_rejects_obsolete_replays stdout ----
+
+thread 'whole_song_archives::archive_reference_rejects_obsolete_replays' (59807) panicked at tests/song_lua_itgmania_semantic_parity/whole_song_archives.rs:209:9:
+missing committed song archive: ded0f7ff19513e30119e0d6f65b57a661f1683872fc9ffced27737db06c49993.tar.zst
+
+---- whole_song_archives::consolidated_song_lua_references_resolve_and_are_compressed stdout ----
+
+thread 'whole_song_archives::consolidated_song_lua_references_resolve_and_are_compressed' (59809) panicked at tests/song_lua_itgmania_semantic_parity/whole_song_archives.rs:1658:9:
+missing committed reference fixture: bdc1f910efc602d0759169348edcb0927c4b7d6f916ac60a0dc273f6212dc3f8.tar.zst
+
+---- whole_song_archives::uncompressed_candidates_retain_member_validation stdout ----
+
+thread 'whole_song_archives::uncompressed_candidates_retain_member_validation' (59814) panicked at tests/song_lua_itgmania_semantic_parity/whole_song_archives.rs:335:34:
+open whole-song fixture: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+
+
+failures:
+    brogamer_dizzy_and_confusion_do_not_leak_between_authored_windows
+    corpora::lua_songs::fixtures_cover_corpus_and_tests
+    runtime_modifiers::seventh_gear_opening_pulse_keeps_size_and_speed_synchronized
+    short_glow_matches_native
+    step_your_game_up_critical_render_states_match_itgmania
+    whole_song_archives::archive_reference_rejects_missing_model_meshes
+    whole_song_archives::archive_reference_rejects_obsolete_replays
+    whole_song_archives::consolidated_song_lua_references_resolve_and_are_compressed
+    whole_song_archives::uncompressed_candidates_retain_member_validation
+
+test result: FAILED. 302 passed; 9 failed; 94 ignored; 0 measured; 0 filtered out; finished in 64.78s
+
+error: test failed, to rerun pass `--test song_lua_itgmania_semantic_parity`
