@@ -1,0 +1,89 @@
+{
+  "deadsync_commit": "18b017dd6b52fd1cb61d1f5bed7a22413e45da37",
+  "harness_commit": "a551ad550fa6311ffdf215a31fa28e9489db04a2",
+  "harness_version": "0.1.103",
+  "native_phase_test_commit": "9052412e056853ce94e0aa6e2c8e6e5fb89fea3e",
+  "runner_sha256": "5136402444c64182e59c72304ba807393673286a86d33e1ec1a7956229f26e24",
+  "linux_tests": {
+    "focused": {
+      "passed": 2,
+      "seconds": 0.11
+    },
+    "native_gameplay_module": {
+      "passed": 75,
+      "seconds": 2.56,
+      "includes_focused_tests": true
+    }
+  },
+  "callback_only_baseline_reproduced": true,
+  "native_scoring_phase": "Press callback observes zero points; Player::Update finalizes the row before the later release callback observes five points.",
+  "scope": "Four targeted replays only; primary ledger and accepted archive catalog are unchanged. Routine cases remain failing.",
+  "manual_routine": [
+    {
+      "game": "dance",
+      "status": "parity_failure",
+      "mismatches": 46,
+      "mismatch_fields": {
+        "command_query_event": 16,
+        "life_latest": 28,
+        "source_broadcast_count": 1,
+        "command_query_count": 1
+      },
+      "errors": 2,
+      "native_frames": 616,
+      "replayed_frames": 616,
+      "replay_seconds": 3.756,
+      "result": "input-routing-replays/dance/result.json",
+      "historical_harness_0_1_102_mismatches": 82,
+      "recorded_inputs_replayed": 8
+    },
+    {
+      "game": "pump",
+      "status": "parity_failure",
+      "mismatches": 46,
+      "mismatch_fields": {
+        "command_query_event": 16,
+        "life_latest": 28,
+        "source_broadcast_count": 1,
+        "command_query_count": 1
+      },
+      "errors": 2,
+      "native_frames": 611,
+      "replayed_frames": 611,
+      "replay_seconds": 3.715,
+      "result": "input-routing-replays/pump/result.json",
+      "historical_harness_0_1_102_mismatches": 82,
+      "recorded_inputs_replayed": 8
+    }
+  ],
+  "routine_life": [
+    {
+      "game": "dance",
+      "status": "parity_failure",
+      "mismatches": 32,
+      "mismatch_fields": {
+        "life_latest": 28,
+        "source_broadcast": 4
+      },
+      "errors": 0,
+      "native_frames": 625,
+      "replayed_frames": 625,
+      "replay_seconds": 3.626,
+      "result": "routine-life-baselines/dance/result.json"
+    },
+    {
+      "game": "pump",
+      "status": "parity_failure",
+      "mismatches": 32,
+      "mismatch_fields": {
+        "life_latest": 28,
+        "source_broadcast": 4
+      },
+      "errors": 0,
+      "native_frames": 623,
+      "replayed_frames": 623,
+      "replay_seconds": 3.721,
+      "result": "routine-life-baselines/pump/result.json"
+    }
+  ]
+}

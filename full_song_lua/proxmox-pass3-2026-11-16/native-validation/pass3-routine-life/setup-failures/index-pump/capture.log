@@ -1,0 +1,1 @@
+error: chart index must be a positive integer (Song:GetAllSteps is one-based); run with --help for usage

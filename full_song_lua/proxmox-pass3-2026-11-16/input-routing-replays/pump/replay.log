@@ -1,0 +1,37 @@
+[0.0s] replaying every native gameplay frame
+replayed 611 actual frames; 14 stage samples; 46 mismatches; 2 callback errors
+611 native frames replayed; 308 stage fields compared; 46 mismatches; 2 callback errors
+  {"phase":"screen-active","seconds":-5.482970714569092,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"screen-active","seconds":-5.482970714569092,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-5.384104251861572,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-5.384104251861572,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-4.98614501953125,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-4.98614501953125,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-3.9978232383728027,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-3.9978232383728027,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-2.9997732639312744,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-2.9997732639312744,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-1.9896371364593506,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-1.9896371364593506,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-0.9924489855766296,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-0.9924489855766296,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":0.015895690768957138,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":0.015895690768957138,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":1.0127664804458618,"player_index":0,"field":"life_latest","native":0.5,"deadsync":0.5160000324249268}
+  {"phase":"progress","seconds":1.0127664804458618,"player_index":1,"field":"life_latest","native":0.5,"deadsync":0.5160000324249268}
+  {"phase":"progress","seconds":2.004852533340454,"player_index":0,"field":"life_latest","native":0.5,"deadsync":0.41600003838539124}
+  {"phase":"progress","seconds":2.004852533340454,"player_index":1,"field":"life_latest","native":0.5,"deadsync":0.41600003838539124}
+  pending: "uncompared song operations: GameState.GetCurMusicSeconds, PlayerStageStats.GetActualDancePoints, PlayerStageStats.GetCurrentCombo, PlayerStageStats.GetPercentDancePoints, PlayerStageStats.GetTapNoteScores, PlayerStageStats.MaxCombo, StageStats.GetRoutineStageStats"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/13/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/9/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/25"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/10"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/12"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/2"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/5"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/7"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/9"
+  pending: "missing captured subscriber identity for ScreenGameplay/3/1"
+report: /opt/song-lua-audit/pass3-input-routing-replays/routine-manual-pump/report.json

@@ -1,0 +1,38 @@
+warning: function `set_windows_gamepad_backend` is never used
+   --> crates/deadsync-config/src/app_update.rs:551:8
+    |
+551 | pub fn set_windows_gamepad_backend(cfg: &mut Config, backend: WindowsPadBackend) -> bool {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `deadsync-config` (lib) generated 1 warning
+warning: `deadsync-config` (lib) generated 1 warning (1 duplicate)
+   Compiling deadsync v0.5.2494 (/opt/song-lua-audit/input-deadsync)
+warning: unused variable: `snapshot`
+   --> tests/song_lua_itgmania_semantic_parity/interactive.rs:267:5
+    |
+267 |     snapshot: deadsync_gameplay::GameplayAudioSnapshot,
+    |     ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_snapshot`
+    |
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: `deadsync` (test "song_lua_itgmania_semantic_parity") generated 1 warning (run `cargo fix --test "song_lua_itgmania_semantic_parity" -p deadsync` to apply 1 suggestion)
+    Finished `release` profile [optimized + debuginfo] target(s) in 1m 18s
+     Running tests/song_lua_itgmania_semantic_parity.rs (/opt/song-lua-audit/deadsync/target/release/deps/song_lua_itgmania_semantic_parity-1e26f988d2faae1c)
+
+running 1 test
+
+thread 'native_gameplay::tests::recorded_gameplay_input_preserves_native_scoring_phases' (50773) panicked at tests/song_lua_itgmania_semantic_parity/native_gameplay.rs:1995:9:
+the physical press judges its note in the input phase
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test native_gameplay::tests::recorded_gameplay_input_preserves_native_scoring_phases ... FAILED
+
+failures:
+
+failures:
+    native_gameplay::tests::recorded_gameplay_input_preserves_native_scoring_phases
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 404 filtered out; finished in 0.14s
+
+error: test failed, to rerun pass `--test song_lua_itgmania_semantic_parity`

@@ -1,0 +1,38 @@
+warning: function `set_windows_gamepad_backend` is never used
+   --> crates/deadsync-config/src/app_update.rs:551:8
+    |
+551 | pub fn set_windows_gamepad_backend(cfg: &mut Config, backend: WindowsPadBackend) -> bool {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `deadsync-config` (lib) generated 1 warning
+warning: `deadsync-config` (lib) generated 1 warning (1 duplicate)
+   Compiling deadsync-song-lua v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-song-lua)
+   Compiling deadsync-profile-gameplay v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-profile-gameplay)
+   Compiling deadsync-assets v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-assets)
+   Compiling deadsync-online v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-online)
+   Compiling deadsync-theme-simply-love v0.5.2494 (/opt/song-lua-audit/input-deadsync/crates/deadsync-theme-simply-love)
+   Compiling deadsync-shell v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-shell)
+   Compiling deadsync v0.5.2494 (/opt/song-lua-audit/input-deadsync)
+    Finished `release` profile [optimized + debuginfo] target(s) in 6m 37s
+     Running tests/song_lua_itgmania_semantic_parity.rs (/opt/song-lua-audit/deadsync/target/release/deps/song_lua_itgmania_semantic_parity-1e26f988d2faae1c)
+
+running 2 tests
+test native_gameplay::tests::recorded_input_clocks_check_routing_without_choosing_a_lane ... ok
+
+thread 'native_gameplay::tests::recorded_gameplay_input_preserves_native_scoring_phases' (52592) panicked at tests/song_lua_itgmania_semantic_parity/native_gameplay.rs:2002:9:
+assertion `left == right` failed
+  left: "2:0"
+ right: "2:1"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test native_gameplay::tests::recorded_gameplay_input_preserves_native_scoring_phases ... FAILED
+
+failures:
+
+failures:
+    native_gameplay::tests::recorded_gameplay_input_preserves_native_scoring_phases
+
+test result: FAILED. 1 passed; 1 failed; 0 ignored; 0 measured; 403 filtered out; finished in 0.12s
+
+error: test failed, to rerun pass `--test song_lua_itgmania_semantic_parity`

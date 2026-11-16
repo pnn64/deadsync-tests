@@ -1,0 +1,35 @@
+{
+  "base_harness_commit": "a551ad550fa6311ffdf215a31fa28e9489db04a2",
+  "test_source_sha256": "acb99783ce1012afba857b3615ca9c5133918a69fc71cee9bc501199f18aabb9",
+  "native_binary_sha256": "cb4e405139e9a1087d88f1a560f2719d24f0cc98eb7f2e6e9f1e6b4162154f6e",
+  "records": [
+    {
+      "callback": "false",
+      "trace_sha256": "812082dd858ae011c0451525b7b69fcb6dbee25441df77c272c6a60a757c4db4",
+      "compressed_sha256": "bd5c397d34fb8c890c262f9d6295609b0dc357c051fd64012af21437622eea1f",
+      "path": "callback-false.json.zst",
+      "input_callback_values": []
+    },
+    {
+      "callback": "true",
+      "trace_sha256": "a8d90ce3bb993f76887efec21c881ef46a7d6e3abb9bf4e43645a7b3d4b4e14a",
+      "compressed_sha256": "785b11b038297f9fe6862fb2a1edf2bc03af6c13d7cf2968f528eb35ca27e461",
+      "path": "callback-true.json.zst",
+      "input_callback_values": [
+        {
+          "actual": 0,
+          "button": "Left",
+          "kind": "InputEventType_FirstPress",
+          "w1": 0
+        },
+        {
+          "actual": 5,
+          "button": "Left",
+          "kind": "InputEventType_Release",
+          "w1": 1
+        }
+      ]
+    }
+  ],
+  "finished_at": "2026-11-16T05:18:52.972538+00:00"
+}

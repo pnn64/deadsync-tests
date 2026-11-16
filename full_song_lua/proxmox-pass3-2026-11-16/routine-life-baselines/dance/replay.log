@@ -1,0 +1,41 @@
+[0.0s] replaying every native gameplay frame
+replayed 625 actual frames; 14 stage samples; 32 mismatches; 0 callback errors
+625 native frames replayed; 308 stage fields compared; 32 mismatches; 0 callback errors
+  {"phase":"screen-active","seconds":-5.482970714569092,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"screen-active","seconds":-5.482970714569092,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-5.482970714569092,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-5.482970714569092,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-4.989092826843262,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-4.989092826843262,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-3.997619152069092,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-3.997619152069092,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-2.9889795780181885,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-2.9889795780181885,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-1.997165560722351,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-1.997165560722351,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-0.9886621236801147,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-0.9886621236801147,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":0.0028571428265422583,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":0.0028571428265422583,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":1.0115419626235962,"player_index":0,"field":"life_latest","native":0.5,"deadsync":0.800000011920929}
+  {"phase":"progress","seconds":1.0115419626235962,"player_index":1,"field":"life_latest","native":0,"deadsync":0.800000011920929}
+  {"phase":"progress","seconds":2.0026304721832275,"player_index":0,"field":"life_latest","native":0.5,"deadsync":0.20000000298023224}
+  {"phase":"progress","seconds":2.0026304721832275,"player_index":1,"field":"life_latest","native":0.5,"deadsync":0.20000000298023224}
+  pending: "uncompared song operations: GameState.GetCurMusicSeconds, Player.SetLife, PlayerStageStats.GetCurrentLife, ScreenGameplay.GetLifeMeter"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/12/3"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/12/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/13/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/8/3"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/8/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/9/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/25"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/10"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/12"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/2"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/5"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/7"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/9"
+  pending: "missing captured subscriber identity for ScreenGameplay/3/1"
+report: /opt/song-lua-audit/pass3-routine-life-baselines/routine-life-dance/report.json

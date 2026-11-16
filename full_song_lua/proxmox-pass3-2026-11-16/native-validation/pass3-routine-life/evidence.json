@@ -1,0 +1,110 @@
+[
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-life-v2/routine-life-dance/native.json.zst",
+    "target": "dance/native.json.zst",
+    "sha256": "cd218be6ef704cbc6718db1171b14a9af67b68223718c2f530104898a30be79a",
+    "bytes": 56455
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-life-v2/routine-life-dance/result.json",
+    "target": "dance/result.json",
+    "sha256": "948d57cee42b1d4f13e5031bf5751bf46a32e717cb055d7fae7ced4b5352ef29",
+    "bytes": 18201
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-life-v2/routine-life-dance/capture.log",
+    "target": "dance/capture.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-life/dance/control.ssc",
+    "target": "dance/source/control.ssc",
+    "sha256": "8d72b7192c5dcb5efe211b8135ffb8fc122d080152f9e4e713b06bba695a3f2c",
+    "bytes": 356
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-life/dance/default.lua",
+    "target": "dance/source/default.lua",
+    "sha256": "d13c592244ed28088b4a7fd94e9e36c7bf633b0b78937d04feecf564dd9a4cf3",
+    "bytes": 1004
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-life/dance/silence.wav",
+    "target": "dance/source/silence.wav",
+    "sha256": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d",
+    "bytes": 64044
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-life-pump/routine-life-pump/native.json.zst",
+    "target": "pump/native.json.zst",
+    "sha256": "a314e248ea98c970b5d0a99ab9f67f8050660e7d175719dc6c69ba0faf9b7cae",
+    "bytes": 59418
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-life-pump/routine-life-pump/result.json",
+    "target": "pump/result.json",
+    "sha256": "2874f8410ef2bb1e5fcf26e0ac7ab23d1ef45ac6aecc1e6b1eb52fda228707b2",
+    "bytes": 19374
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-life-pump/routine-life-pump/capture.log",
+    "target": "pump/capture.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-life/pump/control.ssc",
+    "target": "pump/source/control.ssc",
+    "sha256": "3d2db4e964d2843e164565f27e07fe154e3f3719b0e9b2e8f0a4faeaf1aa33b7",
+    "bytes": 386
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-life/pump/default.lua",
+    "target": "pump/source/default.lua",
+    "sha256": "d13c592244ed28088b4a7fd94e9e36c7bf633b0b78937d04feecf564dd9a4cf3",
+    "bytes": 1004
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-life/pump/silence.wav",
+    "target": "pump/source/silence.wav",
+    "sha256": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d",
+    "bytes": 64044
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-life/routine-life-dance/result.json",
+    "target": "setup-failures/index-dance/result.json",
+    "sha256": "277e66f62910846f0a77053f0fe26ce457e5580284a816c908b06fc0b630ff90",
+    "bytes": 7796
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-life/routine-life-dance/capture.log",
+    "target": "setup-failures/index-dance/capture.log",
+    "sha256": "a2cefae706739d4aff1f65acbfa2c8c5c594177145c5fc178b79687135ed602e",
+    "bytes": 105
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-life/routine-life-pump/result.json",
+    "target": "setup-failures/index-pump/result.json",
+    "sha256": "994c311cc611d5d3bea74b632862cb49fc403d2f6abb5455ce18c648e23c4c95",
+    "bytes": 7777
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-life/routine-life-pump/capture.log",
+    "target": "setup-failures/index-pump/capture.log",
+    "sha256": "a2cefae706739d4aff1f65acbfa2c8c5c594177145c5fc178b79687135ed602e",
+    "bytes": 105
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-life-v2/routine-life-pump/result.json",
+    "target": "setup-failures/noteskin-pump/result.json",
+    "sha256": "b5ff4098256a6c3dae1c1b8ffaca01dbafefe4050f8172311f25bf2910175be4",
+    "bytes": 9085
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-life-v2/routine-life-pump/capture.log",
+    "target": "setup-failures/noteskin-pump/capture.log",
+    "sha256": "5fdfb4b63ea337c30b612a9b2104bbd856df7b2b9ac514632a7a8a0753c70717",
+    "bytes": 337
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "base": "6d60b2d286391c2f1b5885d8cb5e6a77e36b9299",
+  "text_bundle_sha256": "af84b9e1d03b11e4bbcb645ffe6e1db7a56fe5aa585ff4a1a4dc8bd3129c9e98",
+  "source_normalized_sha256": {
+    "crates/deadsync-song-lua/src/live_scene/gameplay.rs": "008048b82a341eff0bad18c543d42a560c291527efa5969273a6e0da7589b1fe",
+    "crates/deadsync-theme-simply-love/src/screens/gameplay.rs": "5becae929d36aae1ebfc845ebb7e631e649d60044e37feb6aec1f840d6e342fe",
+    "tests/song_lua_itgmania_semantic_parity/interactive.rs": "73abe3a2c249c550be8a86fee281b821752ef486c50bdcfeeb5fdedc7e8e9484",
+    "tests/song_lua_itgmania_semantic_parity/native_gameplay.rs": "688b1fc577ab8d7c2768be3ea73c395f5abb0d99e947fbf9b49bebba71aed663"
+  },
+  "corrected_expectation": "Player::Step records a note result before callbacks; Player::UpdateJudgedRows publishes row statistics next frame. The initial same-input score expectation was wrong, not a core runtime defect.",
+  "started_at": "2026-11-16T05:17:57.228962+00:00",
+  "test_helper_correction": "Search both root overlays and foreground layers, matching the hardware-input test.",
+  "resume_started_at": "2026-11-16T05:26:15.444998+00:00",
+  "callback_only_baseline_reproduced": true
+}

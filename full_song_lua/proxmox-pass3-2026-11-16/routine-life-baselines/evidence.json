@@ -1,0 +1,50 @@
+[
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-baselines/routine-life-dance/result.json",
+    "target": "dance/result.json",
+    "bytes": 31267,
+    "sha256": "0c0a3743a82fbfca9cb33158ed03949c0247063f4b959d4a36b26bb068050dbb"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-baselines/routine-life-dance/report.json.zst",
+    "target": "dance/report.json.zst",
+    "bytes": 4114,
+    "sha256": "42b58720d79b654a2ead58c7c7297a4f263c2f5c4d5664c5602c9e2246316eda"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-baselines/routine-life-dance/replay.log",
+    "target": "dance/replay.log",
+    "bytes": 4082,
+    "sha256": "784613475678a2a0b68fb3a27d210feb0f5ee24d16c7a0f4c2acb06ddc7b2f02"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-baselines/routine-life-dance/archive.log",
+    "target": "dance/archive.log",
+    "bytes": 188,
+    "sha256": "bf101b67abcc20a0a76ad49bd4bd1b5030eb5ee4e5cde1c3a2c1dbc3f9e4051c"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-baselines/routine-life-pump/result.json",
+    "target": "pump/result.json",
+    "bytes": 31288,
+    "sha256": "f76611e2732ec1a1282f5e2eb3c93eb22c79e36e8bf684ac2ec314b7c1f60f3e"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-baselines/routine-life-pump/report.json.zst",
+    "target": "pump/report.json.zst",
+    "bytes": 4098,
+    "sha256": "9036fdd5b80f94cdaccd58575a2e3e81b29e0fd81bb66a50ef36b9b1d58d8a6e"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-baselines/routine-life-pump/replay.log",
+    "target": "pump/replay.log",
+    "bytes": 4081,
+    "sha256": "8a176e303331abb20b52b0d0ddf1a0a36fa8354278711dc2becce56b19139386"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-life-baselines/routine-life-pump/archive.log",
+    "target": "pump/archive.log",
+    "bytes": 187,
+    "sha256": "fd18dd2b5bea37a2a2c33da2bc6441c653eb278a8ab0ab28a5006f4d0b71d434"
+  }
+]

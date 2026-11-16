@@ -1,0 +1,41 @@
+[0.0s] replaying every native gameplay frame
+replayed 623 actual frames; 14 stage samples; 32 mismatches; 0 callback errors
+623 native frames replayed; 308 stage fields compared; 32 mismatches; 0 callback errors
+  {"phase":"screen-active","seconds":-5.482970714569092,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"screen-active","seconds":-5.482970714569092,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-5.482970714569092,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-5.482970714569092,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-4.986417293548584,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-4.986417293548584,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-3.9948298931121826,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-3.9948298931121826,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-2.9871654510498047,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-2.9871654510498047,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-1.9963265657424927,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-1.9963265657424927,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-0.9853287935256958,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":-0.9853287935256958,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":0.006235827691853046,"player_index":0,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":0.006235827691853046,"player_index":1,"field":"life_latest","native":0,"deadsync":0.5}
+  {"phase":"progress","seconds":1.0156689882278442,"player_index":0,"field":"life_latest","native":0.5,"deadsync":0.800000011920929}
+  {"phase":"progress","seconds":1.0156689882278442,"player_index":1,"field":"life_latest","native":0,"deadsync":0.800000011920929}
+  {"phase":"progress","seconds":2.009251594543457,"player_index":0,"field":"life_latest","native":0.5,"deadsync":0.20000000298023224}
+  {"phase":"progress","seconds":2.009251594543457,"player_index":1,"field":"life_latest","native":0.5,"deadsync":0.20000000298023224}
+  pending: "uncompared song operations: GameState.GetCurMusicSeconds, Player.SetLife, PlayerStageStats.GetCurrentLife, ScreenGameplay.GetLifeMeter"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/12/3"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/12/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/13/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/8/3"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/8/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/9/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/25"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/10"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/12"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/2"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/5"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/7"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/9"
+  pending: "missing captured subscriber identity for ScreenGameplay/3/1"
+report: /opt/song-lua-audit/pass3-routine-life-baselines/routine-life-pump/report.json

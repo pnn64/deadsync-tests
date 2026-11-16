@@ -21,3 +21,7 @@
 /full_song_lua/proxmox-pass3-2026-11-16/routine-stats-controls/**/* -text
 /full_song_lua/proxmox-pass3-2026-11-16/native-validation/**/* -text -whitespace
 /full_song_lua/proxmox-pass3-2026-11-16/routine-manual-input-clocks/**/* -text
+
+/full_song_lua/proxmox-pass3-2026-11-16/input-routing-replays/**/* -text -whitespace
+
+/full_song_lua/proxmox-pass3-2026-11-16/routine-life-baselines/**/* -text -whitespace
