@@ -18,6 +18,7 @@ These completed runs add to the November 15 snapshot below. Use the [pass-three 
 | Anxiety/Anxiety.sm | 38s | 3m 59s | 6G | Fresh harness 0.1.99 |
 | After Dark/After Dark.ssc | 1m 13s | 5m 29s | 6G | Fresh harness 0.1.99 |
 | Megalovania SM5 - [TaroNuke]/megalovania.sm | 29s | 3m 43s | 6G | Fresh harness 0.1.99 |
+| [11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc | 10s | 2m 41s | 6G | Fresh harness 0.1.99; stopped-GC control only, primary still fails |
 | 308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm | 18m 08s | Retained capture | 84G | Retained native input |
 | 308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm | 17m 50s | Retained capture | 84G | Retained native input |
 

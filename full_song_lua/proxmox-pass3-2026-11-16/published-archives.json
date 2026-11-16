@@ -242,5 +242,48 @@
     "local_evidence": "collected/1401/pass3-pause-results/c3e0c410f04c30dd-pause-baseline/result.json",
     "acceptance_basis": "full replay of implemented comparisons",
     "production_parity_proven": false
+  },
+  {
+    "id": "kenpo-stopped-control",
+    "archive": "220999715eb40c43c4180145016d7999383acafa0c43a261c7c4b40622ea55de.tar.zst",
+    "bytes": 111560510,
+    "sha256": "220999715eb40c43c4180145016d7999383acafa0c43a261c7c4b40622ea55de",
+    "uncompressed_sha256": "80dbbb228cf6b858f5272b97b3886f5f37b9002c4ab98e77d11de470f9721de3",
+    "source_simfile": "[11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc",
+    "source_snapshot": {
+      "combined_r2b_build": {
+        "baseline": {
+          "source": {
+            "deadsync": {
+              "revision": "bdacd7d389a76c10b95df81a8f6b93cde9556ec5",
+              "directory": "/opt/song-lua-audit/deadsync-pass3"
+            },
+            "harness": {
+              "revision": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+              "directory": "/opt/song-lua-audit/harness-pass3"
+            },
+            "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+          },
+          "runner": "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+          "sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+          "symbols": true,
+          "frame_pointers": true,
+          "profile": "release; debug=1; strip=none; lto=false; codegen-units=16",
+          "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+          "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
+        },
+        "runner_sha256": "5b79c17320c86dc91f872083bb6dfba8346f3b69979b6ff20b4cbdbedf655ee8",
+        "harness_sha256": "7b26e8402a14639e3954f66e1eb4bc29d52c37055d6650adcc0dcaee2884039b",
+        "roll_patch_sha256": "73b55090053455a882b64fc7533b23aeb4de8d15429e2a0bfde2843b817b489c",
+        "initial_roster_patch_sha256": "e5a09383cb3bede200c47fcb168fdb46269e242ec42c650c1d10749475139cce",
+        "inactive_seed_patch_sha256": "38d22675d64fe3ed1686c9f156e59eb71c8185238dfb89981d67a8edaebaed79"
+      },
+      "runner_sha256": "5b79c17320c86dc91f872083bb6dfba8346f3b69979b6ff20b4cbdbedf655ee8",
+      "harness_sha256": "7b26e8402a14639e3954f66e1eb4bc29d52c37055d6650adcc0dcaee2884039b",
+      "purpose": "GC-stopped diagnostic only; does not replace the automatic-GC primary case"
+    },
+    "local_evidence": "collected/1402/pass3-kenpo-control-results/kenpo-stopped-control/result.json",
+    "acceptance_basis": "full replay of implemented comparisons",
+    "production_parity_proven": false
   }
 ]

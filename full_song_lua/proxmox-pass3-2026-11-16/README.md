@@ -10,7 +10,8 @@ Status: **in progress**. This report records completed evidence from the replace
 - After Dark roll-clock handling tracks previously active roll heads and uses the current rounded song row across clock rewinds. The retained full capture passes with zero mismatches, down from 175; fresh recapture results are recorded separately.
 - A reduced probe against ITGmania’s bundled Lua confirms that GC retires deleted collectable keys, even when their objects remain alive elsewhere. The DeadSync fix passes the native order/cursor probe and 249 selected library, GC, table and allocation checks; both fresh KENPO references still have seven mismatches, and fresh automatic-GC Velvet repetitions still have 17,872 and 20,688 mismatches.
 - Fresh Megalovania passes with the existing roll/input/GC runner before the new pause patch. This does not establish the cause of its previous six mismatches. The longer-lived pause control independently fails with missing Pause/Unpause commands and incorrect return values.
-- KENPO native repetitions retain the exact ordering comparison; events are not sorted to obtain a pass.
+- KENPO native repetitions retain the exact ordering comparison; events are not sorted to obtain a pass. The fresh stopped-GC control passes with zero mismatches, narrowing the remaining gap to GC-sensitive table ordering. This supplemental profile does not replace the automatic-GC primary case.
+- Pause integration now connects Lua transitions to audio consumption and gameplay judgments, preserves actor/sound-effect updates, and dispatches native Pause/Unpause commands with no return values. The [unit validation](pause-unit-validation.json) passes; the rebuilt full runner and native-control replay are still pending in this publication. The original setup-only failure is retained: nine pinned expectation files were restored before resuming the checks.
 
 ## Latest available primary ledger
 
@@ -30,6 +31,8 @@ The [case ledger](case-ledger.json) carries historical results forward explicitl
 All 34 old task VMs (1200–1216 and 1300–1316) were removed from Proxmox after retaining their disks and configuration evidence. The replacement template is 1400; workers 1401–1415 have two vCPUs each and are started only within the host memory budget. Retained disk chains are independent of the deleted VM registrations.
 
 All six heavy-fixture profiles completed on VM 1415 using samply at 99 Hz: two repeated replays each of Mr Sandman, Paint SSC and fof, all with passing diagnostic comparisons. The baseline runner includes debug information and frame pointers. Completed profiles and symbol sidecars are retained before analysis; no performance optimization is part of this pass.
+
+After retaining the completed results, workers 1402 and 1415 were stopped. Worker 1414 has a [recorded 160 GiB allocation](james-resource-setup.json), a 148 GiB process cap and a 160 GiB disk for one James SM recapture with a 65-million-event budget. This attempt is pending and is not counted as a pass. The harness already spools native events; this recheck tests whether the configured observation budget and postprocessing resources are sufficient without relaxing dropped-event rejection.
 
 ## Scope and reproducibility
 

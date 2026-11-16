@@ -816,6 +816,12 @@
     "archive": "21f955a0c00d8175ba1ab2948455ed7bc60846fcfd26f5aeb27bcdafa53fe880.tar.zst"
   },
   {
+    "title": "[5800] [11] KENPO SAITO",
+    "source_simfile": "[11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc",
+    "harness_version": "0.1.99",
+    "archive": "220999715eb40c43c4180145016d7999383acafa0c43a261c7c4b40622ea55de.tar.zst"
+  },
+  {
     "title": "Atmosphere",
     "source_simfile": "Atmosphere/atmosphere-fakemines.sm",
     "harness_version": "0.1.0",

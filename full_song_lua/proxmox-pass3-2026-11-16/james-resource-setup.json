@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-11-16T02:01:14.122374+00:00",
+  "purpose": "James event-budget recheck",
+  "before": {
+    "1402": {
+      "name": "deadsync-lua-pass3-02",
+      "cores": "2",
+      "memory": "8192",
+      "scsi0": "deadsync-lua-audit:1400/base-1400-disk-0.qcow2/1402/vm-1402-disk-0.qcow2,size=96G",
+      "tags": "deadsync-lua-pass3"
+    },
+    "1414": {
+      "name": "deadsync-lua-pass3-14",
+      "cores": "2",
+      "memory": "98304",
+      "scsi0": "deadsync-lua-audit:1400/base-1400-disk-0.qcow2/1414/vm-1414-disk-0.qcow2,size=96G",
+      "tags": "deadsync-lua-pass3"
+    },
+    "1415": {
+      "name": "deadsync-lua-pass3-15",
+      "cores": "2",
+      "memory": "65536",
+      "scsi0": "deadsync-lua-audit:1400/base-1400-disk-0.qcow2/1415/vm-1415-disk-0.qcow2,size=96G",
+      "tags": "deadsync-lua-pass3"
+    }
+  },
+  "worker": 1414,
+  "cpus": 2,
+  "memory_gib": 160,
+  "stage_cap_gib": 148,
+  "disk_gib": 160,
+  "stopped_completed_workers": [
+    1402,
+    1415
+  ],
+  "host_mem_available_before_start_kib": 201489644,
+  "setup_note": "Original 184 GiB proposal was not applied because the post-shutdown host memory guard required more headroom. All three idle workers were already verified stopped before applying this 160 GiB budget."
+}

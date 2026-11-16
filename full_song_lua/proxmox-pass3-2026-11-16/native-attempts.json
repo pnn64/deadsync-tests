@@ -4307,6 +4307,444 @@
     "evidence_path": "1401/pass3-r1-results/join-inactive-r1/result.json"
   },
   {
+    "id": "kenpo-stopped-control",
+    "source_simfile": "[11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc",
+    "title": "[5800] [11] KENPO SAITO",
+    "worker": "1402",
+    "started_at": "2026-11-16T01:51:36.208268+00:00",
+    "profile": {
+      "id": "kenpo-stopped-control",
+      "source_simfile": "[11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc",
+      "title": "[5800] [11] KENPO SAITO",
+      "simfile_sha256": "5f7cb652fa4362cf45f2000a2224db187c355097377c08d91ea40f3178edcc5d",
+      "style": "double",
+      "difficulty": "Challenge",
+      "gc_mode": "stopped",
+      "capture_fps": 60,
+      "max_events": 2000000,
+      "capture_timeout": 900,
+      "replay_timeout": 1200,
+      "selection_basis": "source chart discovery",
+      "available_charts": [
+        [
+          "dance-double",
+          "Challenge"
+        ]
+      ],
+      "previous_context": {
+        "source_simfile": "[11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc",
+        "previous_archive": "0fce279451ee016948df2d5f96f9105d0be1c541ec33361b222c207c4f59ec8c.tar.zst",
+        "title": "[5800] [11] KENPO SAITO",
+        "previous_execution": "embedded_bundled_lua"
+      },
+      "estimated_song_seconds": 155.8,
+      "song_folder_bytes": 3376024,
+      "worker": "08",
+      "previous_status": "parity_failure",
+      "run_role": "gc-order-control",
+      "stage_memory": "6G"
+    },
+    "source_snapshot": {
+      "combined_r2b_build": {
+        "baseline": {
+          "source": {
+            "deadsync": {
+              "revision": "bdacd7d389a76c10b95df81a8f6b93cde9556ec5",
+              "directory": "/opt/song-lua-audit/deadsync-pass3"
+            },
+            "harness": {
+              "revision": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+              "directory": "/opt/song-lua-audit/harness-pass3"
+            },
+            "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+          },
+          "runner": "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+          "sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+          "symbols": true,
+          "frame_pointers": true,
+          "profile": "release; debug=1; strip=none; lto=false; codegen-units=16",
+          "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+          "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
+        },
+        "runner_sha256": "5b79c17320c86dc91f872083bb6dfba8346f3b69979b6ff20b4cbdbedf655ee8",
+        "harness_sha256": "7b26e8402a14639e3954f66e1eb4bc29d52c37055d6650adcc0dcaee2884039b",
+        "roll_patch_sha256": "73b55090053455a882b64fc7533b23aeb4de8d15429e2a0bfde2843b817b489c",
+        "initial_roster_patch_sha256": "e5a09383cb3bede200c47fcb168fdb46269e242ec42c650c1d10749475139cce",
+        "inactive_seed_patch_sha256": "38d22675d64fe3ed1686c9f156e59eb71c8185238dfb89981d67a8edaebaed79"
+      },
+      "runner_sha256": "5b79c17320c86dc91f872083bb6dfba8346f3b69979b6ff20b4cbdbedf655ee8",
+      "harness_sha256": "7b26e8402a14639e3954f66e1eb4bc29d52c37055d6650adcc0dcaee2884039b",
+      "purpose": "GC-stopped diagnostic only; does not replace the automatic-GC primary case"
+    },
+    "status": "pass",
+    "stages": {
+      "capture": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-pass3-r1",
+          "song-lua-trace",
+          "/opt/song-lua-audit/Songs/[11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc",
+          "--itgmania-bin",
+          "/opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace",
+          "--fallback-theme",
+          "Harness Simply Love",
+          "--headless",
+          "--style",
+          "double",
+          "--until-gameplay-end",
+          "--capture-fps",
+          "60",
+          "--max-events",
+          "2000000",
+          "--timeout",
+          "900",
+          "--out",
+          "/opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/traces/native.json",
+          "--difficulty",
+          "Challenge",
+          "--stop-lua-gc"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 160.983,
+        "memory_limit": "6G",
+        "timeout_seconds": 990,
+        "unit": "lua-pass2-kenpo-stopped-control-capture",
+        "service_tail": "2026-11-16T01:51:36+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-kenpo-stopped-control-capture.service - /opt/song-lua-audit/bin/itgmania-harness-pass3-r1 song-lua-trace \"/opt/song-lua-audit/Songs/[11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc\" --itgmania-bin /opt/song-lua-audit/harness/vendor/itgmania/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --style double --until-gameplay-end --capture-fps 60 --max-events 2000000 --timeout 900 --out /opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/traces/native.json --difficulty Challenge --stop-lua-gc.\n2026-11-16T01:54:17+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-kenpo-stopped-control-capture.service: Deactivated successfully.\n2026-11-16T01:54:17+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-kenpo-stopped-control-capture.service: Consumed 30.051s CPU time, 1.8M memory peak, 0B memory swap peak.\n"
+      },
+      "archive": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-pass3-r1",
+          "song-lua-archive",
+          "/opt/song-lua-audit/Songs",
+          "--traces",
+          "/opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/traces",
+          "--out",
+          "/opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/candidate",
+          "--uncompressed",
+          "--theme-assets",
+          "/opt/song-lua-audit/harness/vendor/itgmania/Themes/Harness Simply Love"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 2.187,
+        "memory_limit": "6G",
+        "timeout_seconds": 600,
+        "unit": "lua-pass2-kenpo-stopped-control-archive",
+        "service_tail": "2026-11-16T01:54:17+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-kenpo-stopped-control-archive.service - /opt/song-lua-audit/bin/itgmania-harness-pass3-r1 song-lua-archive /opt/song-lua-audit/Songs --traces /opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/traces --out /opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/candidate --uncompressed --theme-assets \"/opt/song-lua-audit/harness/vendor/itgmania/Themes/Harness Simply Love\".\n2026-11-16T01:54:19+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-kenpo-stopped-control-archive.service: Deactivated successfully.\n2026-11-16T01:54:19+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-kenpo-stopped-control-archive.service: Consumed 2.116s CPU time, 3.0M memory peak, 0B memory swap peak.\n"
+      },
+      "replay": {
+        "command": [
+          "/opt/song-lua-audit/bin/full_song_lua-pass3-r2b",
+          "--archive",
+          "/opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/candidate/80dbbb228cf6b858f5272b97b3886f5f37b9002c4ab98e77d11de470f9721de3.tar",
+          "--report",
+          "/opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/report.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 10.284,
+        "memory_limit": "6G",
+        "timeout_seconds": 1200,
+        "unit": "lua-pass2-kenpo-stopped-control-replay",
+        "service_tail": "2026-11-16T01:54:20+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-kenpo-stopped-control-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-r2b --archive /opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/candidate/80dbbb228cf6b858f5272b97b3886f5f37b9002c4ab98e77d11de470f9721de3.tar --report /opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/report.json.\n2026-11-16T01:54:30+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-kenpo-stopped-control-replay.service: Deactivated successfully.\n2026-11-16T01:54:30+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-kenpo-stopped-control-replay.service: Consumed 10.222s CPU time, 904.0K memory peak, 0B memory swap peak.\n"
+      },
+      "pack": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-pass3-r1",
+          "song-lua-pack",
+          "/opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/candidate/80dbbb228cf6b858f5272b97b3886f5f37b9002c4ab98e77d11de470f9721de3.tar",
+          "--report",
+          "/opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/report.json",
+          "--out",
+          "/opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/accepted"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 5.529,
+        "memory_limit": "6G",
+        "timeout_seconds": 600,
+        "unit": "lua-pass2-kenpo-stopped-control-pack",
+        "service_tail": "2026-11-16T01:54:30+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-kenpo-stopped-control-pack.service - /opt/song-lua-audit/bin/itgmania-harness-pass3-r1 song-lua-pack /opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/candidate/80dbbb228cf6b858f5272b97b3886f5f37b9002c4ab98e77d11de470f9721de3.tar --report /opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/report.json --out /opt/song-lua-audit/pass3-kenpo-control-results/kenpo-stopped-control/accepted.\n2026-11-16T01:54:36+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-kenpo-stopped-control-pack.service: Deactivated successfully.\n2026-11-16T01:54:36+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-kenpo-stopped-control-pack.service: Consumed 9.333s CPU time, 6.5M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "artifacts": [
+      {
+        "file": "kenpo-stopped-control/accepted/220999715eb40c43c4180145016d7999383acafa0c43a261c7c4b40622ea55de.tar.zst",
+        "bytes": 111560510,
+        "sha256": "220999715eb40c43c4180145016d7999383acafa0c43a261c7c4b40622ea55de",
+        "uncompressed_sha256": "80dbbb228cf6b858f5272b97b3886f5f37b9002c4ab98e77d11de470f9721de3"
+      },
+      {
+        "file": "kenpo-stopped-control/report.json.zst",
+        "bytes": 54877,
+        "sha256": "1372e8c62b3c278abe5fca0998dc529b67ad4dc04a056cbf1f9ab23a49848d60",
+        "uncompressed_sha256": "c4b04b7a924541da8a1e830ee287dcb4f1319747e23cddf6c0d36eb3704c9f14"
+      }
+    ],
+    "native": {
+      "capture_limits": {
+        "max_events": 2000000
+      },
+      "command_observer": {
+        "capture_binary_sha256": "7b26e8402a14639e3954f66e1eb4bc29d52c37055d6650adcc0dcaee2884039b",
+        "dynamic_commands": true
+      },
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      },
+      "difficulty": "Difficulty_Challenge",
+      "dropped_drawable_samples": 0,
+      "dropped_events": 0,
+      "dropped_host_clock_inputs": 0,
+      "dropped_input_events": 0,
+      "dropped_random_reseeds": 0,
+      "dropped_script_errors": 0,
+      "dropped_stage_samples": 0,
+      "dropped_update_frames": 0,
+      "end_position": {
+        "beat": 198.4456787109375,
+        "seconds": 154.64698791503906
+      },
+      "harness_version": "0.1.99",
+      "input": {
+        "autoplay": 1,
+        "catalog_preferences": {
+          "global_offset_seconds": -0.00800000037997961,
+          "initialization": "native-catalog-note-time-calculation",
+          "music_rate": 1
+        },
+        "gameplay_preferences": {
+          "column_cue_min_time": 1.5,
+          "default_modifiers": "",
+          "game_mode": "ITG",
+          "initialization": "theme-game-mode",
+          "max_input_latency_seconds": 0,
+          "mod_level": "ModsLevel_Preferred",
+          "music_rate": 1,
+          "players": [
+            {
+              "disabled_timing_windows": [],
+              "enabled": true,
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+              "player": "PlayerNumber_P1",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            },
+            {
+              "disabled_timing_windows": [],
+              "enabled": false,
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+              "player": "PlayerNumber_P2",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            }
+          ],
+          "timing_window_add": 0.001500000013038516,
+          "timing_window_scale": 1,
+          "timing_windows": {
+            "Attack": 0.13500000536441803,
+            "Checkpoint": 0.1664000004529953,
+            "Hold": 0.3199999928474426,
+            "Mine": 0.07000000029802322,
+            "Roll": 0.3499999940395355,
+            "W1": 0.0215000007301569,
+            "W2": 0.0430000014603138,
+            "W3": 0.10199999809265137,
+            "W4": 0.13500000536441803,
+            "W5": 0.18000000715255737
+          }
+        },
+        "headless_graphics": false,
+        "injected_inputs": false,
+        "lua_gc_mode": "stopped",
+        "native_source": {
+          "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+          "modified_src": false,
+          "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+          "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+        },
+        "observer_frame_period_seconds": 0.01666666666666667,
+        "preferences": {
+          "constant_update_delta_seconds": 0,
+          "default_sync_offset": "SyncOffset_ITG",
+          "display_aspect_ratio": 1.7777777910232544,
+          "global_offset_seconds": -0.00800000037997961,
+          "last_seen_video_driver": "OpenGL",
+          "visual_delay_seconds": 0
+        },
+        "requested_difficulty": "Challenge",
+        "script": [],
+        "style": "double",
+        "window_visible": false
+      },
+      "schema_version": 1,
+      "script_errors": [],
+      "steps_type": "StepsType_Dance_Double",
+      "style": "double",
+      "transition_script_errors": [
+        {
+          "message": "ActorFrameTexture: Cannot have width or height less than 1",
+          "screen": "ScreenEvaluationStage"
+        }
+      ]
+    },
+    "candidate_sha256": "80dbbb228cf6b858f5272b97b3886f5f37b9002c4ab98e77d11de470f9721de3",
+    "comparison": {
+      "whole_song_parity_proven": false,
+      "archive_accepted": true,
+      "execution_path": "diagnostic-live-lua",
+      "production_preparation_exercised": false,
+      "production_parity_proven": false,
+      "native_frames": 9330,
+      "replayed_frames": 9330,
+      "compared_stage_fields": 1760,
+      "pending_coverage": [
+        "uncompared song operations: Actor.AddWrapperState, Actor.GetNumWrapperStates, Actor.GetWrapperState, Actor.GetX, Actor.GetY, Actor.SetHeight, Actor.SetWidth, Actor.addcommand, Actor.addy, Actor.blend, Actor.clearzbuffer, Actor.effectclock, Actor.playcommand, Actor.rotationx, Actor.rotationy, Actor.skewx, Actor.skewy, Actor.wag, Actor.xy, Actor.z, Actor.zoomz, ActorFrame.GetChildren, ActorFrameTexture.Create, ActorFrameTexture.EnableAlphaBuffer, ActorFrameTexture.EnableDepthBuffer, ActorFrameTexture.EnableFloat, ActorFrameTexture.EnablePreserveTexture, ActorFrameTexture.GetTexture, GameState.GetSongPosition, PlayerOptions.Dark, PlayerOptions.Drunk, PlayerOptions.Flip, PlayerOptions.Tiny, Song.GetTimingData, Sprite.SetTexture",
+        "native drawable state/resources: ActorFrameTexture, ActorProxy, Quad, Sprite",
+        "missing captured subscriber identity for ScreenGameplay/18",
+        "missing captured subscriber identity for ScreenGameplay/19/1/1",
+        "missing captured subscriber identity for ScreenGameplay/19/1/3",
+        "missing captured subscriber identity for ScreenGameplay/19/1/4",
+        "missing captured subscriber identity for ScreenGameplay/19/1/6",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/11",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/7",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/2/9",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/2/2/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/9/1",
+        "missing captured subscriber identity for ScreenGameplay/3/1"
+      ],
+      "capture_completed_gameplay": true,
+      "acceptance_basis": "full replay of implemented comparisons",
+      "fixture_sha256": "80dbbb228cf6b858f5272b97b3886f5f37b9002c4ab98e77d11de470f9721de3",
+      "mismatch_count": 0,
+      "mismatch_fields": {},
+      "first_mismatches": [],
+      "error_count": 0,
+      "errors": []
+    },
+    "finished_at": "2026-11-16T01:54:36.523389+00:00",
+    "evidence_path": "1402/pass3-kenpo-control-results/kenpo-stopped-control/result.json"
+  },
+  {
     "id": "pause-runtime-control-v2",
     "source_simfile": "__pass3_controls/pause-v2/control.sm",
     "title": "Pause runtime control",
