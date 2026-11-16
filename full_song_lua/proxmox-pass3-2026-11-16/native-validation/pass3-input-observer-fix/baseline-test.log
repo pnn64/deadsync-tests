@@ -1,0 +1,19 @@
+   Compiling itgmania-harness-rs v0.1.101 (/opt/song-lua-audit/routine-harness)
+    Finished `release` profile [optimized] target(s) in 1m 43s
+     Running unittests src/main.rs (/opt/song-lua-audit/harness/target/release/deps/itgmania_harness_rs-0b619c56175a24fc)
+
+running 1 test
+
+thread 'song_lua_runtime::tests::native_inputs_are_observed_once_with_or_without_lua_callbacks' (30353) panicked at src/song_lua_runtime.rs:1476:43:
+called `Result::unwrap()` on an `Err` value: Error { message: "scripted input did not reach native screen input dispatch", run_dir: Some("/tmp/itgmania-harness-rs/song-lua-30352-1794802304269462731-0") }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test song_lua_runtime::tests::native_inputs_are_observed_once_with_or_without_lua_callbacks ... FAILED
+
+failures:
+
+failures:
+    song_lua_runtime::tests::native_inputs_are_observed_once_with_or_without_lua_callbacks
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 219 filtered out; finished in 10.13s
+
+error: test failed, to rerun pass `--bin itgmania-harness-rs`

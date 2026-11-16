@@ -5016,6 +5016,12 @@
     "archive": "d3bf325b6bbc9fc71c6ef35a53d1d52219fd2c32962da8be72c5a7d50c1da741.tar.zst"
   },
   {
+    "title": "pump couple gameplay control",
+    "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+    "harness_version": "0.1.102",
+    "archive": "d3f6146c325b4837fa7843f3cc464cfea6472ee841d550b5cbeef2f1eba082e4.tar.zst"
+  },
+  {
     "title": "Oshama Scramble! (Cranky Remix)",
     "source_simfile": "Oshama Scramble! (Cranky Remix)/Oshama Scramble! (Cranky Remix).ssc",
     "harness_version": "0.1.80",

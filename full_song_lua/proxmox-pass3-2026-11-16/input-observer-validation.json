@@ -1,0 +1,43 @@
+{
+  "harness_commit": "ec15d82639b5d2e419484813218c31fcd8d9d1c5",
+  "version": "0.1.101",
+  "windows": {
+    "passed": 216,
+    "failed": 0,
+    "ignored": 5,
+    "seconds": 138.58,
+    "command": "cargo test --locked --bin itgmania-harness-rs"
+  },
+  "linux": {
+    "passed": 215,
+    "failed": 0,
+    "ignored": 5,
+    "seconds": 49.26
+  },
+  "native_regression": {
+    "baseline_failed_as_expected": true,
+    "baseline_seconds": 10.13,
+    "fixed_passed": true,
+    "fixed_seconds": 20.68,
+    "cases": [
+      "no Lua input callback",
+      "registered Lua input callback"
+    ],
+    "assertions": [
+      "two native inputs, no duplicates",
+      "physical press scores W1 with autoplay disabled",
+      "authored callback runs only when registered"
+    ]
+  },
+  "sources": {
+    "Cargo.toml": "65b44c0adfc917cc86c2cee804f398a1997c799dcdf868e0b0af49bcd869986a",
+    "Cargo.lock": "88ed9b442f129b07d91b0c07bdb8c8355defb7f18aa4b6275a4e2a95378a1985",
+    "native/interactive_trace.h": "27d6d08792687f314dba95edcb8f666367f99abf40bd345abcfdbd4a6d1807f4",
+    "native/trace_adapter.cmake": "104d1f957c7547fda189d2fefe2ee9bea2a624e2165ebd8de540184e05c0a60f",
+    "src/song_lua_runtime.rs": "746e2f633b143ef17214ac833f878610f69fc7b1c31225b76381ed2be0792e17"
+  },
+  "native_source": "663525dcb86eb570d0ef6a2e209678436660ae26",
+  "pinned_native_at_commit": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+  "scope": "Native regression used the validated routine candidate. Screen.cpp, ScreenManager.cpp and InputEventPlus.h are unchanged from the older pinned source. Native/theme pins are updated separately.",
+  "recorded_at": "2026-11-16T04:18:45.910293+00:00"
+}

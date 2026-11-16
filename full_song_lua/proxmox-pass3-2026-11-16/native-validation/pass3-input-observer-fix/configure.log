@@ -1,0 +1,63 @@
+CMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (GTK3).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  CMake/Modules/FindGTK3.cmake:8 (include)
+  StepmaniaCore.cmake:259 (find_package)
+  CMakeLists.txt:5 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (XRANDR)
+  does not match the name of the calling package (Xrandr).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  CMake/Modules/FindXrandr.cmake:40 (find_package_handle_standard_args)
+  StepmaniaCore.cmake:279 (find_package)
+  CMakeLists.txt:5 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (LIBXTST)
+  does not match the name of the calling package (Xtst).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  CMake/Modules/FindXtst.cmake:14 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  StepmaniaCore.cmake:285 (find_package)
+  CMakeLists.txt:5 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (PulseAudio).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  CMake/Modules/FindPulseAudio.cmake:24 (include)
+  StepmaniaCore.cmake:297 (find_package)
+  CMakeLists.txt:5 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PULSEAUDIO)
+  does not match the name of the calling package (PulseAudio).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  CMake/Modules/FindPulseAudio.cmake:45 (find_package_handle_standard_args)
+  StepmaniaCore.cmake:297 (find_package)
+  CMakeLists.txt:5 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- -- At least one sound library was found. Do not worry if any were not found at this stage.
+Host processor is x86_64
+Host processor is 64bit X86
+-- Configuring done (0.8s)
+-- Generating done (0.6s)
+-- Build files have been written to: /opt/song-lua-audit/routine-native-build

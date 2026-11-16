@@ -15,3 +15,8 @@
 /full_song_lua/proxmox-pass3-2026-11-16/style-controls/**/* -text
 *.gz -text
 .githooks/* text eol=lf
+
+# Routine controls retain exact captured source bytes.
+/full_song_lua/proxmox-pass3-2026-11-16/routine-manual-controls/**/* -text
+/full_song_lua/proxmox-pass3-2026-11-16/routine-stats-controls/**/* -text
+/full_song_lua/proxmox-pass3-2026-11-16/native-validation/**/* -text

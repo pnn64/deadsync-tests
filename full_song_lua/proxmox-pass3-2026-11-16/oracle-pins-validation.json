@@ -1,0 +1,601 @@
+{
+  "recorded_at": "2026-11-16T04:27:18.676633+00:00",
+  "harness_commit": "1f4888b8574be4a1d59257261a3a6d776a2932d9",
+  "version": "0.1.102",
+  "native_commit": "663525dcb86eb570d0ef6a2e209678436660ae26",
+  "theme_commit": "e2157b744051e1873bac5389246afac22e2cf05f",
+  "native_published_branch": "https://github.com/pnn64/itgmania/tree/parity/routine-backport-20261116",
+  "theme_published_branch": "https://github.com/pnn64/Simply-Love-SM5/tree/parity/pump-couple-width-20261116",
+  "windows": {
+    "passed": 216,
+    "failed": 0,
+    "ignored": 5,
+    "seconds": 160.42
+  },
+  "linux": {
+    "passed": 215,
+    "failed": 0,
+    "ignored": 5,
+    "seconds": 53.69
+  },
+  "native_input_regression": {
+    "passed": 1,
+    "failed": 0,
+    "seconds": 20.33
+  },
+  "native_exact_chart_selector": {
+    "passed": 1,
+    "failed": 0,
+    "seconds": 30.39
+  },
+  "build_proof": {
+    "started_at": "2026-11-16T04:18:01.422260+00:00",
+    "source": {
+      "upstream_pr": "https://github.com/itgmania/itgmania/pull/1216",
+      "upstream_base": "e473b59a8caa914cf382904fad6eb88ef9f1c106",
+      "upstream_head": "ad2ae8a8d416d9eb71eb91abbb4012937c09171b",
+      "upstream_merge": "093ba099d2a15f924f1260558dedd2f9a0287fad",
+      "target_base": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+      "patch_sha256": "251b0703cd46d6d7d93fab84934ec0fdbf6fdd8d5d17ae78ac7cba8e2b756575",
+      "patch_bytes": 886624,
+      "apply_check_exit": 1,
+      "apply_check_errors": "error: patch failed: Docs/Luadoc/LuaDocumentation.xml:5047\nerror: Docs/Luadoc/LuaDocumentation.xml: patch does not apply\n",
+      "worktree": "C:\\GitHub\\deadsync\\target\\proxmox-song-lua-pass3-20261116\\native-routine-backport",
+      "status": "local candidate committed; native build and behavioral validation pending",
+      "candidate_commit": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "prepared_at": "2026-11-16T03:41:12.292132+00:00",
+      "pump_routine_pr": "https://github.com/itgmania/itgmania/pull/1445",
+      "pump_routine_patch_sha256": "4ac50f3949aa993b96b1891c0f4e15d832d9a4a5a7048b3ac49f5ae6a332c1d7",
+      "bundle_sha256": "25dd5e9399ab0ce35f1c15136f68931a73cef71e3f9a0d5fab89c3ea20ac1e3f",
+      "bundle_bytes": 595372,
+      "documentation_resolution": "Keep target RageFile docs, apply all routine API docs",
+      "whitespace_check": "22 upstream noteskin whitespace warnings preserved for source fidelity; no new C++ whitespace errors"
+    },
+    "harness_revision": "9dc325fbcbb22db179bc5d3a4627c736d28f449d",
+    "submodules": "927d13396772073f552cf595dcec112f33bb80b6 Themes/Simply Love (927d133)\n 9884c325dd0fa64b2b885b332e98118f60313208 extern/IXWebSocket (9884c32)\n 9bc0bcce7a03701025d7002271ddc2ce4f351908 extern/ffmpeg (9bc0bcc)\n 0ab6c14264ec76e9328a8eedb3b72b5d27dffd47 extern/hidapi (0ab6c14)\n 20ade4dea9589515a69793e447a6c6220b464535 extern/libjpeg-turbo (20ade4d)\n ea127968204cc5d10f3fc9250c306b9e8cbd9b80 extern/libpng (ea12796)\n 7e7eb695d581782f04b24dc444cbfde86af59853 extern/libtomcrypt (7e7eb69)\n 6ca6898bf37f583c4cc9943441cd60dd69f4b8f2 extern/libtommath (6ca6898)\n cec1e49eec481a6333c218726ecaba8e4f447a07 extern/libusb (cec1e49)\n daca7a3979c22da155ec9dce49ab1abf3b65d3a9 extern/mbedtls (daca7a3)\n e1774cd77f471443541596e09078e78fdc342e4f extern/ogg (e1774cd)\n 0657aee69dec8508a0011f47f3b69d7538e9d262 extern/vorbis (0657aee)\n 51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf extern/zlib (51b7f2a)",
+    "source_status": "",
+    "finished_at": "2026-11-16T04:22:56.655636+00:00",
+    "native_binary_sha256": "ef3f303fe268f8c8e344b15afb2d33f8a43bc18e55a7c531529ea4c10dfd1716",
+    "harness_binary_sha256": "41b2f932395c5536d30714b67e50792152e42c68eb9b4dfee3f0095bd798f920",
+    "theme": {
+      "base": "dd06138b15492f4136796dfe4b6708ced0f7b9eb",
+      "candidate_commit": "e2157b744051e1873bac5389246afac22e2cf05f",
+      "bundle_sha256": "31e20111675768792dce874be637a9f10dc4aabfa23262b48c6659a9c7779e48",
+      "status": "candidate; native gameplay validation pending",
+      "source": "Scripts/SL-Helpers.lua",
+      "change": "pump couple returns the same 250 width as single/versus; both participants have the identical five-column geometry",
+      "upstream_current_source": "https://github.com/Simply-Love/Simply-Love-SM5/blob/itgmania-release/Scripts/SL-Helpers.lua",
+      "publication_target": "https://github.com/pnn64/Simply-Love-SM5.git",
+      "baseline_failure": "style-pump-couple, StepStatistics/default.lua:19 compares missing GetNotefieldWidth against a number"
+    },
+    "harness_patch_sha256": "e7903afdea69d448e4871dbd9b976e3b103fb7f58f4c2a8094d13ba0294ca49b",
+    "previous_native_binary_sha256": "ada09ec0ee8d0d671288e066e19c9fbe9ee54be991df0613d62252e2607dcaf3",
+    "baseline_test_reproduced": true,
+    "pin_text_bundle_sha256": "2d68c92712cc13f01af9131df54155506769237f2366a2ba018fbe369860af62",
+    "harness_version": "0.1.102",
+    "source_normalized_sha256": {
+      "Cargo.toml": "53e0c48d2e8b242275aaf757b5973d0dded5b1b158c58340d67b400bd99e5f7b",
+      "Cargo.lock": "fe58737a4c59e631c4f98f10053da5a0b7705e4402da82f76c08bc31c4c77ea4",
+      "README.md": "d1e18813f2dc6d0ba3c32d0d57ace2843c0c5f6648915549a045aa708e09114a",
+      ".gitmodules": "eba2ec8689dbc36424ce3b9984dc81e16952a465abfe3504c4bcb5a7292eb07e",
+      "native/interactive_trace.h": "27d6d08792687f314dba95edcb8f666367f99abf40bd345abcfdbd4a6d1807f4",
+      "native/trace_adapter.cmake": "104d1f957c7547fda189d2fefe2ee9bea2a624e2165ebd8de540184e05c0a60f",
+      "src/song_lua_runtime.rs": "746e2f633b143ef17214ac833f878610f69fc7b1c31225b76381ed2be0792e17"
+    }
+  },
+  "manual_controls": [
+    {
+      "id": "routine-manual-dance",
+      "trace_sha256": "fe3ab5094a45fbe7dc232fa4f8228595a2cad3435f5d6c159ed83f251610a16c",
+      "compressed_sha256": "c7868e3dc6e1eeb3dcdf0815263afeb08ac9e5077811bd5b5deb95c54c667320",
+      "validation": {
+        "native_input_events": 8,
+        "final_statistics": {
+          "p1": {
+            "actual": 10,
+            "combo": 2,
+            "maximum": 2,
+            "miss": 0,
+            "percent": 1,
+            "possible": 10,
+            "w1": 2
+          },
+          "p2": {
+            "actual": -2,
+            "combo": 1,
+            "maximum": 1,
+            "miss": 1,
+            "percent": 0,
+            "possible": 15,
+            "w1": 2
+          },
+          "phase": "finished",
+          "team": {
+            "actual": 8,
+            "combo": 2,
+            "maximum": 0,
+            "miss": 1,
+            "percent": 0.320000022649765,
+            "possible": 25,
+            "w1": 4
+          }
+        },
+        "assertions": "Four scored presses and four releases; P2 miss resets shared combo before subsequent P1/P2 hits; team stats distinct from participant stats."
+      },
+      "ordered_observations": [
+        {
+          "p1": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 10,
+            "w1": 0
+          },
+          "p2": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 15,
+            "w1": 0
+          },
+          "phase": "start",
+          "team": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 25,
+            "w1": 0
+          }
+        },
+        {
+          "p1": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 10,
+            "w1": 0
+          },
+          "p2": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 15,
+            "w1": 0
+          },
+          "phase": "judgment",
+          "player": "PlayerNumber_P1",
+          "team": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 25,
+            "w1": 0
+          }
+        },
+        {
+          "p1": {
+            "actual": 5,
+            "combo": 1,
+            "maximum": 1,
+            "miss": 0,
+            "percent": 0.5,
+            "possible": 10,
+            "w1": 1
+          },
+          "p2": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 15,
+            "w1": 0
+          },
+          "phase": "judgment",
+          "player": "PlayerNumber_P2",
+          "team": {
+            "actual": 5,
+            "combo": 1,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0.20000000298023224,
+            "possible": 25,
+            "w1": 1
+          }
+        },
+        {
+          "p1": {
+            "actual": 5,
+            "combo": 1,
+            "maximum": 1,
+            "miss": 0,
+            "percent": 0.5,
+            "possible": 10,
+            "w1": 1
+          },
+          "p2": {
+            "actual": 5,
+            "combo": 1,
+            "maximum": 1,
+            "miss": 0,
+            "percent": 0.33330002427101135,
+            "possible": 15,
+            "w1": 1
+          },
+          "phase": "judgment",
+          "player": "PlayerNumber_P2",
+          "team": {
+            "actual": 10,
+            "combo": 2,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0.4000000059604645,
+            "possible": 25,
+            "w1": 2
+          }
+        },
+        {
+          "p1": {
+            "actual": 5,
+            "combo": 1,
+            "maximum": 1,
+            "miss": 0,
+            "percent": 0.5,
+            "possible": 10,
+            "w1": 1
+          },
+          "p2": {
+            "actual": -7,
+            "combo": 0,
+            "maximum": 1,
+            "miss": 1,
+            "percent": 0,
+            "possible": 15,
+            "w1": 1
+          },
+          "phase": "judgment",
+          "player": "PlayerNumber_P1",
+          "team": {
+            "actual": -2,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 1,
+            "percent": 0,
+            "possible": 25,
+            "w1": 2
+          }
+        },
+        {
+          "p1": {
+            "actual": 10,
+            "combo": 2,
+            "maximum": 2,
+            "miss": 0,
+            "percent": 1,
+            "possible": 10,
+            "w1": 2
+          },
+          "p2": {
+            "actual": -7,
+            "combo": 0,
+            "maximum": 1,
+            "miss": 1,
+            "percent": 0,
+            "possible": 15,
+            "w1": 1
+          },
+          "phase": "judgment",
+          "player": "PlayerNumber_P2",
+          "team": {
+            "actual": 3,
+            "combo": 1,
+            "maximum": 0,
+            "miss": 1,
+            "percent": 0.12000000476837158,
+            "possible": 25,
+            "w1": 3
+          }
+        },
+        {
+          "p1": {
+            "actual": 10,
+            "combo": 2,
+            "maximum": 2,
+            "miss": 0,
+            "percent": 1,
+            "possible": 10,
+            "w1": 2
+          },
+          "p2": {
+            "actual": -2,
+            "combo": 1,
+            "maximum": 1,
+            "miss": 1,
+            "percent": 0,
+            "possible": 15,
+            "w1": 2
+          },
+          "phase": "finished",
+          "team": {
+            "actual": 8,
+            "combo": 2,
+            "maximum": 0,
+            "miss": 1,
+            "percent": 0.320000022649765,
+            "possible": 25,
+            "w1": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "routine-manual-pump",
+      "trace_sha256": "f601fc7410d1b2f9cbb909082bc4754d024f17e604383af6ff55109022503845",
+      "compressed_sha256": "ed46f8190c708c99ea7b61760d6f7065aed3bb7c024c08efcb6e1275f905e000",
+      "validation": {
+        "native_input_events": 8,
+        "final_statistics": {
+          "p1": {
+            "actual": 10,
+            "combo": 2,
+            "maximum": 2,
+            "miss": 0,
+            "percent": 1,
+            "possible": 10,
+            "w1": 2
+          },
+          "p2": {
+            "actual": -2,
+            "combo": 1,
+            "maximum": 1,
+            "miss": 1,
+            "percent": 0,
+            "possible": 15,
+            "w1": 2
+          },
+          "phase": "finished",
+          "team": {
+            "actual": 8,
+            "combo": 2,
+            "maximum": 0,
+            "miss": 1,
+            "percent": 0.320000022649765,
+            "possible": 25,
+            "w1": 4
+          }
+        },
+        "assertions": "Four scored presses and four releases; P2 miss resets shared combo before subsequent P1/P2 hits; team stats distinct from participant stats."
+      },
+      "ordered_observations": [
+        {
+          "p1": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 10,
+            "w1": 0
+          },
+          "p2": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 15,
+            "w1": 0
+          },
+          "phase": "start",
+          "team": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 25,
+            "w1": 0
+          }
+        },
+        {
+          "p1": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 10,
+            "w1": 0
+          },
+          "p2": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 15,
+            "w1": 0
+          },
+          "phase": "judgment",
+          "player": "PlayerNumber_P1",
+          "team": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 25,
+            "w1": 0
+          }
+        },
+        {
+          "p1": {
+            "actual": 5,
+            "combo": 1,
+            "maximum": 1,
+            "miss": 0,
+            "percent": 0.5,
+            "possible": 10,
+            "w1": 1
+          },
+          "p2": {
+            "actual": 0,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0,
+            "possible": 15,
+            "w1": 0
+          },
+          "phase": "judgment",
+          "player": "PlayerNumber_P2",
+          "team": {
+            "actual": 5,
+            "combo": 1,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0.20000000298023224,
+            "possible": 25,
+            "w1": 1
+          }
+        },
+        {
+          "p1": {
+            "actual": 5,
+            "combo": 1,
+            "maximum": 1,
+            "miss": 0,
+            "percent": 0.5,
+            "possible": 10,
+            "w1": 1
+          },
+          "p2": {
+            "actual": 5,
+            "combo": 1,
+            "maximum": 1,
+            "miss": 0,
+            "percent": 0.33330002427101135,
+            "possible": 15,
+            "w1": 1
+          },
+          "phase": "judgment",
+          "player": "PlayerNumber_P2",
+          "team": {
+            "actual": 10,
+            "combo": 2,
+            "maximum": 0,
+            "miss": 0,
+            "percent": 0.4000000059604645,
+            "possible": 25,
+            "w1": 2
+          }
+        },
+        {
+          "p1": {
+            "actual": 5,
+            "combo": 1,
+            "maximum": 1,
+            "miss": 0,
+            "percent": 0.5,
+            "possible": 10,
+            "w1": 1
+          },
+          "p2": {
+            "actual": -7,
+            "combo": 0,
+            "maximum": 1,
+            "miss": 1,
+            "percent": 0,
+            "possible": 15,
+            "w1": 1
+          },
+          "phase": "judgment",
+          "player": "PlayerNumber_P1",
+          "team": {
+            "actual": -2,
+            "combo": 0,
+            "maximum": 0,
+            "miss": 1,
+            "percent": 0,
+            "possible": 25,
+            "w1": 2
+          }
+        },
+        {
+          "p1": {
+            "actual": 10,
+            "combo": 2,
+            "maximum": 2,
+            "miss": 0,
+            "percent": 1,
+            "possible": 10,
+            "w1": 2
+          },
+          "p2": {
+            "actual": -7,
+            "combo": 0,
+            "maximum": 1,
+            "miss": 1,
+            "percent": 0,
+            "possible": 15,
+            "w1": 1
+          },
+          "phase": "judgment",
+          "player": "PlayerNumber_P2",
+          "team": {
+            "actual": 3,
+            "combo": 1,
+            "maximum": 0,
+            "miss": 1,
+            "percent": 0.12000000476837158,
+            "possible": 25,
+            "w1": 3
+          }
+        },
+        {
+          "p1": {
+            "actual": 10,
+            "combo": 2,
+            "maximum": 2,
+            "miss": 0,
+            "percent": 1,
+            "possible": 10,
+            "w1": 2
+          },
+          "p2": {
+            "actual": -2,
+            "combo": 1,
+            "maximum": 1,
+            "miss": 1,
+            "percent": 0,
+            "possible": 15,
+            "w1": 2
+          },
+          "phase": "finished",
+          "team": {
+            "actual": 8,
+            "combo": 2,
+            "maximum": 0,
+            "miss": 1,
+            "percent": 0.320000022649765,
+            "possible": 25,
+            "w1": 4
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Native-only scoring controls; DeadSync routine parity is still failing."
+}

@@ -47,6 +47,7 @@ These completed runs add to the November 15 snapshot below. Use the [pass-three 
 | __pass3_controls/styles/pump/control.ssc | 4s | 10s | 6G | Harness 0.1.100 capture; pump game/style fix replay; pump-single control |
 | __pass3_controls/styles/pump/control.ssc | 4s | 10s | 6G | Harness 0.1.100 capture; pump game/style fix replay; pump-versus control |
 | __pass3_controls/styles/pump/control.ssc | 4s | 10s | 6G | Harness 0.1.100 capture; pump game/style fix replay; pump-double control |
+| __pass3_controls/styles/pump/control.ssc | 4s | 10s | 6G | Fresh harness 0.1.102; pump-couple control |
 
 These runners use release builds with debug information, frame pointers, LTO disabled and 16 codegen units on two-vCPU VMs. This is a correctness-pass timing update, not a controlled performance comparison. Both ArrowQuest variants completed under an 84 GiB process cap; that cap is not a measured memory peak or a proven minimum.
 

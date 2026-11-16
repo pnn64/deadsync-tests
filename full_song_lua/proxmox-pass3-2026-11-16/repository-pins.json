@@ -11,7 +11,11 @@
   "deadsync_game_style_selector_commit": "209e1729c17c8fbe02948e0dcf283e9113e23f99",
   "deadsync_pump_game_commit": "d10b5796933ff9f208de6c4c18cf376e8290d35c",
   "deadsync_pump_handoff_commit": "9a3246dde2310064cb2b85ecf2bd3c9ab446a81b",
-  "native": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+  "native": "663525dcb86eb570d0ef6a2e209678436660ae26",
   "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0",
-  "note": "Each build/replay record retains the exact base revision, patch and executable hashes used. The seven pre-existing actor-capture edits were preserved and excluded from repair commits. Additional fixes may still be under validation."
+  "note": "Each build/replay record retains the exact base revision, patch and executable hashes used. The seven pre-existing actor-capture edits were preserved and excluded from repair commits. Additional fixes may still be under validation.",
+  "harness_current": "1f4888b8574be4a1d59257261a3a6d776a2932d9",
+  "harness_current_version": "0.1.102",
+  "native_previous_pin": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+  "theme": "e2157b744051e1873bac5389246afac22e2cf05f"
 }

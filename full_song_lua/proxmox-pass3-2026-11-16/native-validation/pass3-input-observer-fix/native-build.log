@@ -1,0 +1,38 @@
+[  0%] Built target hidapi
+[  0%] Built target ffmpeg
+[  1%] Built target mad
+[  1%] Built target jsoncpp
+[  1%] Built target glew
+[  3%] Built target zlib
+[  5%] Built target lua-5.1
+[  5%] Built target libjpeg_turbo_project
+[  5%] Built target ogg
+[  5%] Built target LoadingWindowGtk
+[  8%] Built target pcre
+[  9%] Built target png
+[  9%] Built target p256m
+[ 10%] Built target everest
+[ 10%] Built target miniz
+[ 10%] Built target vorbisfile
+[ 11%] Built target vorbis
+[ 24%] Built target tommath
+[ 30%] Built target mbedcrypto
+[ 30%] Built target mbedx509
+[ 31%] Built target mbedtls
+[ 34%] Built target ixwebsocket
+[ 65%] Built target tomcrypt
+[ 65%] Building CXX object src/CMakeFiles/ITGmania.dir/__/generated/src/verstub.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/ITGmania.dir/__/itgmania-harness/Actor.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/ITGmania.dir/__/itgmania-harness/ScreenManager.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/ITGmania.dir/opt/song-lua-audit/routine-harness/native/interactive_trace.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/ITGmania.dir/__/itgmania-harness/RageDisplay.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/ITGmania.dir/__/itgmania-harness/Screen.cpp.o
+[ 65%] Building CXX object src/CMakeFiles/ITGmania.dir/__/itgmania-harness/Model.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/ITGmania.dir/__/itgmania-harness/NoteDisplay.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/ITGmania.dir/__/itgmania-harness/PlayerOptions.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/ITGmania.dir/__/itgmania-harness/SongOptions.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/ITGmania.dir/__/itgmania-harness/Song.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/ITGmania.dir/__/itgmania-harness/ArrowEffects.cpp.o
+[ 67%] Building CXX object src/CMakeFiles/ITGmania.dir/__/itgmania-harness/LuaManager.cpp.o
+[ 67%] Linking CXX executable /opt/song-lua-audit/routine-native/ITGmania-harness-trace
+[100%] Built target ITGmania

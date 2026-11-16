@@ -1,10 +1,11 @@
 {
-  "checked_at": "2026-11-16T04:09:41.501878+00:00",
-  "catalog_entries": 999,
+  "checked_at": "2026-11-16T04:29:49.141992+00:00",
+  "catalog_entries": 1000,
   "previous_catalog_and_split_entries_preserved": true,
-  "new_archives_verified": 16,
-  "new_parts_verified": 48,
-  "new_compressed_bytes_verified": 1787572399,
+  "new_archives_verified": 17,
+  "new_parts_verified": 51,
+  "new_compressed_bytes_verified": 1895310508,
   "completed_profiles_and_symbols_verified": 6,
-  "markdown_local_links_valid": true
+  "markdown_local_links_valid": true,
+  "native_only_manual_controls_verified": 2
 }

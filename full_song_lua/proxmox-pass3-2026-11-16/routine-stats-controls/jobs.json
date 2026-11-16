@@ -1,0 +1,38 @@
+[
+  {
+    "id": "routine-stats-dance",
+    "source_simfile": "__pass3_controls/routine-stats/dance/control.ssc",
+    "title": "dance routine team and player statistics",
+    "game": "dance",
+    "style": "routine",
+    "difficulty": "Edit",
+    "chart_index": 1,
+    "simfile_sha256": "a400ed66750a49b0b7470119769723763c5fb0b9ad036dd700d8699f46951d58",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 250000,
+    "capture_timeout": 180,
+    "replay_timeout": 180,
+    "stage_memory": "6G",
+    "player_options": null,
+    "run_role": "native-routine-statistics-control"
+  },
+  {
+    "id": "routine-stats-pump",
+    "source_simfile": "__pass3_controls/routine-stats/pump/control.ssc",
+    "title": "pump routine team and player statistics",
+    "game": "pump",
+    "style": "routine",
+    "difficulty": "Edit",
+    "chart_index": 1,
+    "simfile_sha256": "1a63b9df509cc745df154333f4f734f0dc9073728858124fc08531fbdc6a36d6",
+    "gc_mode": "automatic",
+    "capture_fps": 60,
+    "max_events": 250000,
+    "capture_timeout": 180,
+    "replay_timeout": 180,
+    "stage_memory": "6G",
+    "player_options": "default",
+    "run_role": "native-routine-statistics-control"
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "routine-manual-dance",
+    "status": "parity_failure",
+    "harness_version": "0.1.102",
+    "mismatches": 82,
+    "errors": 2,
+    "mismatch_fields": {
+      "actual": 12,
+      "misses": 12,
+      "w1": 12,
+      "life_latest": 28,
+      "source_broadcast_count": 1,
+      "command_query_count": 1,
+      "command_query_event": 16
+    },
+    "callback_errors": [
+      "[string \"/opt/song-lua-audit/pass3-routine-baseline-...\"]:3: attempt to call method 'GetRoutineStageStats' (a nil value)",
+      "JudgmentMessage for TopScreen 'ScreenGameplay' at beat 1.764: line 3: [string \"/opt/song-lua-audit/pass3-routine-baseline-...\"]:3: attempt to call method 'GetRoutineStageStats' (a nil value)"
+    ],
+    "first_mismatches": [
+      {
+        "phase": "screen-active",
+        "seconds": -5.482970714569092,
+        "player_index": 0,
+        "field": "life_latest",
+        "native": 0,
+        "deadsync": 0.5
+      },
+      {
+        "phase": "screen-active",
+        "seconds": -5.482970714569092,
+        "player_index": 1,
+        "field": "life_latest",
+        "native": 0,
+        "deadsync": 0.5
+      },
+      {
+        "phase": "progress",
+        "seconds": -5.384104251861572,
+        "player_index": 0,
+        "field": "life_latest",
+        "native": 0,
+        "deadsync": 0.5
+      }
+    ],
+    "source_simfile": "__pass3_controls/routine-manual/dance/control.ssc",
+    "evidence_path": "1402/pass3-routine-baseline-results/routine-manual-dance/result.json"
+  },
+  {
+    "id": "routine-manual-pump",
+    "status": "parity_failure",
+    "harness_version": "0.1.102",
+    "mismatches": 82,
+    "errors": 2,
+    "mismatch_fields": {
+      "actual": 12,
+      "misses": 12,
+      "w1": 12,
+      "life_latest": 28,
+      "source_broadcast_count": 1,
+      "command_query_count": 1,
+      "command_query_event": 16
+    },
+    "callback_errors": [
+      "[string \"/opt/song-lua-audit/pass3-routine-baseline-...\"]:3: attempt to call method 'GetRoutineStageStats' (a nil value)",
+      "JudgmentMessage for TopScreen 'ScreenGameplay' at beat 1.750: line 3: [string \"/opt/song-lua-audit/pass3-routine-baseline-...\"]:3: attempt to call method 'GetRoutineStageStats' (a nil value)"
+    ],
+    "first_mismatches": [
+      {
+        "phase": "screen-active",
+        "seconds": -5.482970714569092,
+        "player_index": 0,
+        "field": "life_latest",
+        "native": 0,
+        "deadsync": 0.5
+      },
+      {
+        "phase": "screen-active",
+        "seconds": -5.482970714569092,
+        "player_index": 1,
+        "field": "life_latest",
+        "native": 0,
+        "deadsync": 0.5
+      },
+      {
+        "phase": "progress",
+        "seconds": -5.482970714569092,
+        "player_index": 0,
+        "field": "life_latest",
+        "native": 0,
+        "deadsync": 0.5
+      }
+    ],
+    "source_simfile": "__pass3_controls/routine-manual/pump/control.ssc",
+    "evidence_path": "1402/pass3-routine-baseline-results/routine-manual-pump/result.json"
+  },
+  {
+    "id": "style-dance-routine",
+    "status": "parity_failure",
+    "harness_version": "0.1.102",
+    "mismatches": 20,
+    "errors": 0,
+    "mismatch_fields": {
+      "life_latest": 20
+    },
+    "callback_errors": [],
+    "first_mismatches": [
+      {
+        "phase": "screen-active",
+        "seconds": -5.999977111816406,
+        "player_index": 0,
+        "field": "life_latest",
+        "native": 0,
+        "deadsync": 0.5
+      },
+      {
+        "phase": "screen-active",
+        "seconds": -5.999977111816406,
+        "player_index": 1,
+        "field": "life_latest",
+        "native": 0,
+        "deadsync": 0.5
+      },
+      {
+        "phase": "progress",
+        "seconds": -5.999977111816406,
+        "player_index": 0,
+        "field": "life_latest",
+        "native": 0,
+        "deadsync": 0.5
+      }
+    ],
+    "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+    "evidence_path": "1402/pass3-routine-baseline-results/style-dance-routine/result.json"
+  },
+  {
+    "id": "style-pump-couple",
+    "status": "pass",
+    "harness_version": "0.1.102",
+    "mismatches": 0,
+    "errors": 0,
+    "mismatch_fields": {},
+    "callback_errors": [],
+    "first_mismatches": [],
+    "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+    "evidence_path": "1402/pass3-routine-baseline-results/style-pump-couple/result.json"
+  },
+  {
+    "id": "style-pump-routine",
+    "status": "parity_failure",
+    "harness_version": "0.1.102",
+    "mismatches": 20,
+    "errors": 0,
+    "mismatch_fields": {
+      "life_latest": 20
+    },
+    "callback_errors": [],
+    "first_mismatches": [
+      {
+        "phase": "screen-active",
+        "seconds": -5.999977111816406,
+        "player_index": 0,
+        "field": "life_latest",
+        "native": 0,
+        "deadsync": 0.5
+      },
+      {
+        "phase": "screen-active",
+        "seconds": -5.999977111816406,
+        "player_index": 1,
+        "field": "life_latest",
+        "native": 0,
+        "deadsync": 0.5
+      },
+      {
+        "phase": "progress",
+        "seconds": -5.999977111816406,
+        "player_index": 0,
+        "field": "life_latest",
+        "native": 0,
+        "deadsync": 0.5
+      }
+    ],
+    "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+    "evidence_path": "1402/pass3-routine-baseline-results/style-pump-routine/result.json"
+  }
+]
