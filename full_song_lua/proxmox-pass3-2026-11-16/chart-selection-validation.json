@@ -21,8 +21,28 @@
     "ignored": 4,
     "seconds": 81.97
   },
-  "deadsync_selection_test": "pending",
-  "full_native_replay_with_new_selector": "not yet run",
+  "deadsync_selection_test": {
+    "commit": "a9d2c7207",
+    "passed": 3,
+    "failed": 0,
+    "seconds": 0.53,
+    "test_binary_sha256": "82714aef8251fa7787179535a079695bc4558fbd633ee9fc2a19bff736f756d0",
+    "tests": [
+      "native_starting_chart_checks_identity_and_maps_catalog_to_payload",
+      "native_double_session_selects_double_steps_and_runs_eight_column_scene",
+      "native_reload_starts_with_the_requested_style"
+    ],
+    "cargo_command_completed": true,
+    "cargo_build_seconds": 1318,
+    "note": "Three targeted tests passed via the completed integration binary; original cargo test then completed naturally with the selector test also passing. No process was stopped."
+  },
+  "full_native_replay_with_new_selector": {
+    "sm_second_edit": "pass",
+    "ssc_second_edit": "pass",
+    "mismatches": 0,
+    "errors": 0,
+    "evidence": "native-style-validation.json"
+  },
   "native_inputs": {
     "sm": {
       "trace_sha256": "9e6c6964b82d16244d1e4f5be5fa6a8a60abee0df3dff246a905902ad33b5cd3",
@@ -166,5 +186,42 @@
   "native_executable": {
     "path": "C:/GitHub/itgmania-harness/target/native-engine-source/Program/ITGmania-harness-trace.exe",
     "sha256": "b2ccd9e02df706bbfaf23d54011cb1905590c593a47093de0160f59e667ce09e"
+  },
+  "harness_profile_followup": {
+    "commit": "01a7fea557f6db3b31369a602d843d1eba8f5a34",
+    "version": "0.1.100",
+    "windows_native_retest": {
+      "passed": true,
+      "seconds": 43.33
+    },
+    "linux_native_test": {
+      "passed": true,
+      "seconds": 30.83,
+      "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+      "evidence": "style-selector-linux-validation.json",
+      "original_missing_noteskin_failure_retained": true
+    },
+    "normal_cases_before_failure": [
+      "SM second Edit",
+      "SSC second Edit",
+      "absent index rejection",
+      "wrong type rejection",
+      "wrong difficulty rejection"
+    ]
+  },
+  "deadsync_game_style_selection_tests": {
+    "commit": "209e1729c17c8fbe02948e0dcf283e9113e23f99",
+    "windows": {
+      "passed": 2,
+      "failed": 0,
+      "seconds": 0.03,
+      "executable_sha256": "ad710ae1839c26f9fe040e151af435ecb7b24688754948daec538e14d1b25408"
+    },
+    "linux": {
+      "passed": 2,
+      "failed": 0,
+      "seconds": 0.01,
+      "evidence": "style-selector-linux-validation.json"
+    }
   }
 }

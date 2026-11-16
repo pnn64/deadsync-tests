@@ -1,0 +1,575 @@
+{
+  "recorded_at": "2026-11-16T03:16:40.270040+00:00",
+  "unit": "song-lua-pass3-chart-selector-resume",
+  "terminal_state": "inactive/dead; ExecMainStatus=0; all twelve declared jobs completed",
+  "counts": {
+    "pass": 6,
+    "native_lua_error": 3,
+    "replay_error": 3
+  },
+  "build": {
+    "baseline": {
+      "baseline": {
+        "baseline": {
+          "source": {
+            "deadsync": {
+              "revision": "bdacd7d389a76c10b95df81a8f6b93cde9556ec5",
+              "directory": "/opt/song-lua-audit/deadsync-pass3"
+            },
+            "harness": {
+              "revision": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+              "directory": "/opt/song-lua-audit/harness-pass3"
+            },
+            "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+          },
+          "runner": "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+          "sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+          "symbols": true,
+          "frame_pointers": true,
+          "profile": "release; debug=1; strip=none; lto=false; codegen-units=16",
+          "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+          "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
+        },
+        "runner_sha256": "618e1c30d531236299863a71e0362e29d41e1c032eec13220f27c3142abd3c2b",
+        "patches": {
+          "deadsync-roll-clock.patch": "73b55090053455a882b64fc7533b23aeb4de8d15429e2a0bfde2843b817b489c",
+          "deadsync-gc-dead-keys.patch": "a1733b86ef58f3a73910d77ce13be851ea9c9de3d8fc60ae229f58a07a35b204",
+          "deadsync-r1b.patch": "49e984bb0c211724f7c14ba0f5f182fd1859766d111e697e464de311289f5d6e"
+        }
+      },
+      "pause_patch_sha256": "56c3862be95f2822ee4842db7b8b4f0b1685dbd120d99abac4b486ed5e9fb2b3",
+      "runner_sha256": "813683fbc34524c3afd97902f2b17cc89390d63ed74e9a2e7809c28e68d76984",
+      "checks": [
+        [
+          "-p",
+          "deadlib-audio-core",
+          "-p",
+          "deadsync-audio-stream"
+        ],
+        [
+          "-p",
+          "deadsync-gameplay",
+          "--lib"
+        ],
+        [
+          "-p",
+          "deadsync-song-lua",
+          "--features",
+          "test-support",
+          "--test",
+          "top_screen"
+        ],
+        [
+          "-p",
+          "deadsync-song-lua",
+          "--features",
+          "test-support",
+          "--test",
+          "unit_live",
+          "pause"
+        ],
+        [
+          "-p",
+          "deadsync-song-lua",
+          "--features",
+          "test-support",
+          "--test",
+          "live_gameplay"
+        ]
+      ]
+    },
+    "selection_source": {
+      "harness_commit": "11a316a2c734bc65ff609a7c85146003f9607a93",
+      "deadsync_base": "abd23a1b93ecf12b24e84e26aff47ae57d23edf0",
+      "deadsync_selector_commit": "pending validation",
+      "patch_sha256": {
+        "deadsync.patch": "d1e46e991eb8d90f3cda662f6f772b477dfabb759340a9a7debd407c91c47f72",
+        "harness.patch": "a455f6adc4a37236f9ce102e08196d6058a71e5cf276df9bd5a2d0d5234b1041"
+      }
+    },
+    "selection_followup_source": {
+      "recorded_at": "2026-11-16T02:47:29.673612+00:00",
+      "harness_commit": "01a7fea557f6db3b31369a602d843d1eba8f5a34",
+      "harness_version": "0.1.100",
+      "deadsync_base_commit": "a9d2c72071510ca9fba91bdd2621bae8208c34aa",
+      "deadsync_styles_commit": "pending validation",
+      "patches": {
+        "harness-followup.patch": "c0136d78ed1143b94d27103e7628132c85bfb9e0387f66a512fb18f9ac1cd948",
+        "deadsync-styles.patch": "0e6300ac7f290b0ee5beb7c340d87b43a34b92d56e946ebca3a136e030847fdd"
+      }
+    },
+    "patches": {
+      "harness-followup.patch": "c0136d78ed1143b94d27103e7628132c85bfb9e0387f66a512fb18f9ac1cd948",
+      "deadsync-styles.patch": "0e6300ac7f290b0ee5beb7c340d87b43a34b92d56e946ebca3a136e030847fdd"
+    },
+    "harness_sha256": "e454ac24ac7b18b4a717fe500ee264ac3290b3d7fe7ace79e694241de085bb8e",
+    "runner_sha256": "c1e719ab0f4604f70133378a799d4e3aeab86b5a68a784a8f0a80272fe14a182"
+  },
+  "cases": [
+    {
+      "id": "chart-selector-sm",
+      "status": "pass",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+      },
+      "source_simfile": "__pass3_controls/chart-selector/control.sm",
+      "profile": {
+        "id": "chart-selector-sm",
+        "source_simfile": "__pass3_controls/chart-selector/control.sm",
+        "title": "Second Edit chart selector control",
+        "style": "single",
+        "difficulty": "Edit",
+        "game": "dance",
+        "chart_index": 2,
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 250000,
+        "capture_timeout": 180,
+        "replay_timeout": 180,
+        "simfile_sha256": "8936709f6183a270d86d0e80efb503c74fb623873b452c22baca4e03356428da",
+        "stage_memory": "6G",
+        "run_role": "exact-native-chart-control"
+      },
+      "mismatches": 0,
+      "errors": 0,
+      "stage_seconds": {
+        "capture": 9.961,
+        "archive": 2.398,
+        "replay": 3.652,
+        "pack": 5.622
+      },
+      "missing": null,
+      "result_sha256": "60aec61f3495770357b7a687881dc4cbea56925fe74166adb17e6fd6a407c913"
+    },
+    {
+      "id": "chart-selector-ssc",
+      "status": "pass",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+      },
+      "source_simfile": "__pass3_controls/chart-selector/control.ssc",
+      "profile": {
+        "id": "chart-selector-ssc",
+        "source_simfile": "__pass3_controls/chart-selector/control.ssc",
+        "title": "Second Edit chart selector control",
+        "style": "single",
+        "difficulty": "Edit",
+        "game": "dance",
+        "chart_index": 2,
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 250000,
+        "capture_timeout": 180,
+        "replay_timeout": 180,
+        "simfile_sha256": "3d247023aac88489302b06f6275c7552cbe90ce4f15f317a95d6cccac0bd48e4",
+        "stage_memory": "6G",
+        "run_role": "exact-native-chart-control"
+      },
+      "mismatches": 0,
+      "errors": 0,
+      "stage_seconds": {
+        "capture": 10.031,
+        "archive": 1.665,
+        "replay": 3.586,
+        "pack": 5.191
+      },
+      "missing": null,
+      "result_sha256": "76cfd01026a1e6ab6e7b6ac7ea0803d97c1239c418ca7c80cad7f0a26f73b619"
+    },
+    {
+      "id": "style-dance-couple",
+      "status": "pass",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+      },
+      "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+      "profile": {
+        "id": "style-dance-couple",
+        "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+        "title": "dance couple gameplay control",
+        "game": "dance",
+        "style": "couple",
+        "difficulty": "Edit",
+        "chart_index": 3,
+        "simfile_sha256": "f21e5413b38ebfe2bb10b4edbc1d04ed2505e16ef4dfbbea973f1c99c11617b9",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 250000,
+        "capture_timeout": 180,
+        "replay_timeout": 180,
+        "player_options": null,
+        "stage_memory": "6G",
+        "run_role": "native-style-control"
+      },
+      "mismatches": 0,
+      "errors": 0,
+      "stage_seconds": {
+        "capture": 10.679,
+        "archive": 1.783,
+        "replay": 3.814,
+        "pack": 5.97
+      },
+      "missing": null,
+      "result_sha256": "648e9791cb94bdb7adee97a3a98b1c40c5c5d50ba836bfdc5229525a6eb282ca"
+    },
+    {
+      "id": "style-dance-double",
+      "status": "pass",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+      },
+      "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+      "profile": {
+        "id": "style-dance-double",
+        "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+        "title": "dance double gameplay control",
+        "game": "dance",
+        "style": "double",
+        "difficulty": "Edit",
+        "chart_index": 2,
+        "simfile_sha256": "f21e5413b38ebfe2bb10b4edbc1d04ed2505e16ef4dfbbea973f1c99c11617b9",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 250000,
+        "capture_timeout": 180,
+        "replay_timeout": 180,
+        "player_options": null,
+        "stage_memory": "6G",
+        "run_role": "native-style-control"
+      },
+      "mismatches": 0,
+      "errors": 0,
+      "stage_seconds": {
+        "capture": 10.564,
+        "archive": 1.841,
+        "replay": 3.645,
+        "pack": 9.869
+      },
+      "missing": null,
+      "result_sha256": "4211caab15a57d91579bc2b64e8e8251c0741e5ba449bd0bde0990202c2708cc"
+    },
+    {
+      "id": "style-dance-routine",
+      "status": "native_lua_error",
+      "native_source": null,
+      "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+      "profile": {
+        "id": "style-dance-routine",
+        "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+        "title": "dance routine gameplay control",
+        "game": "dance",
+        "style": "routine",
+        "difficulty": "Edit",
+        "chart_index": 4,
+        "simfile_sha256": "f21e5413b38ebfe2bb10b4edbc1d04ed2505e16ef4dfbbea973f1c99c11617b9",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 250000,
+        "capture_timeout": 180,
+        "replay_timeout": 180,
+        "player_options": null,
+        "stage_memory": "6G",
+        "run_role": "native-style-control"
+      },
+      "mismatches": null,
+      "errors": null,
+      "stage_seconds": {
+        "capture": 10.738
+      },
+      "missing": "Pinned Simply Love calls StageStats:GetRoutineStageStats, absent from native revision 008bfcf. The pinned ScoreKeeperShared scores through the master player; compatibility must preserve that ownership.",
+      "result_sha256": "b5e4d914208f0073b6a4dde7ab9c0e465e6310f80fe44cb919cadcb0cbb5371c"
+    },
+    {
+      "id": "style-dance-single",
+      "status": "pass",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+      },
+      "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+      "profile": {
+        "id": "style-dance-single",
+        "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+        "title": "dance single gameplay control",
+        "game": "dance",
+        "style": "single",
+        "difficulty": "Edit",
+        "chart_index": 1,
+        "simfile_sha256": "f21e5413b38ebfe2bb10b4edbc1d04ed2505e16ef4dfbbea973f1c99c11617b9",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 250000,
+        "capture_timeout": 180,
+        "replay_timeout": 180,
+        "player_options": null,
+        "stage_memory": "6G",
+        "run_role": "native-style-control"
+      },
+      "mismatches": 0,
+      "errors": 0,
+      "stage_seconds": {
+        "capture": 10.329,
+        "archive": 1.695,
+        "replay": 3.576,
+        "pack": 5.922
+      },
+      "missing": null,
+      "result_sha256": "c21aac998c5dc23c562d6f37922e0eeb67099fad7d2343eda55757a6a1d4f7d8"
+    },
+    {
+      "id": "style-dance-versus",
+      "status": "pass",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+      },
+      "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+      "profile": {
+        "id": "style-dance-versus",
+        "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+        "title": "dance versus gameplay control",
+        "game": "dance",
+        "style": "versus",
+        "difficulty": "Edit",
+        "chart_index": 1,
+        "simfile_sha256": "f21e5413b38ebfe2bb10b4edbc1d04ed2505e16ef4dfbbea973f1c99c11617b9",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 250000,
+        "capture_timeout": 180,
+        "replay_timeout": 180,
+        "player_options": null,
+        "stage_memory": "6G",
+        "run_role": "native-style-control"
+      },
+      "mismatches": 0,
+      "errors": 0,
+      "stage_seconds": {
+        "capture": 10.482,
+        "archive": 1.731,
+        "replay": 3.586,
+        "pack": 6.061
+      },
+      "missing": null,
+      "result_sha256": "b221241cab04f29b73fc66cf15c7c58ed893ed053da917a968232332691c3d4a"
+    },
+    {
+      "id": "style-pump-couple",
+      "status": "native_lua_error",
+      "native_source": null,
+      "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+      "profile": {
+        "id": "style-pump-couple",
+        "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+        "title": "pump couple gameplay control",
+        "game": "pump",
+        "style": "couple",
+        "difficulty": "Edit",
+        "chart_index": 3,
+        "simfile_sha256": "5f3bbfe8003f0017c6ed742cf92dc3db96a5d1f35c39e8b23b241124302ef372",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 250000,
+        "capture_timeout": 180,
+        "replay_timeout": 180,
+        "player_options": "default",
+        "stage_memory": "6G",
+        "run_role": "native-style-control"
+      },
+      "mismatches": null,
+      "errors": null,
+      "stage_seconds": {
+        "capture": 10.488
+      },
+      "missing": "Simply Love NoteFieldWidth.pump lacks couple; GetNotefieldWidth returns nil and StepStatistics/default.lua:19 compares it with a number.",
+      "result_sha256": "6baf2ebc251b697ac034f16bff75cd56b8edbfad151826bfc575e33450ae21f2"
+    },
+    {
+      "id": "style-pump-double",
+      "status": "replay_error",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+      },
+      "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+      "profile": {
+        "id": "style-pump-double",
+        "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+        "title": "pump double gameplay control",
+        "game": "pump",
+        "style": "double",
+        "difficulty": "Edit",
+        "chart_index": 2,
+        "simfile_sha256": "5f3bbfe8003f0017c6ed742cf92dc3db96a5d1f35c39e8b23b241124302ef372",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 250000,
+        "capture_timeout": 180,
+        "replay_timeout": 180,
+        "player_options": "default",
+        "stage_memory": "6G",
+        "run_role": "native-style-control"
+      },
+      "mismatches": null,
+      "errors": null,
+      "stage_seconds": {
+        "capture": 10.258,
+        "archive": 1.665,
+        "replay": 2.706
+      },
+      "missing": "Production gameplay handoff rejects the retained pump-qualified style key; native capture is clean. A targeted replay with the handoff fix is in progress.",
+      "result_sha256": "44a110ac21bca49c35dc23e74cd4a2bae85286b45d6c6df928f23f5fdd9d4de8"
+    },
+    {
+      "id": "style-pump-routine",
+      "status": "native_lua_error",
+      "native_source": null,
+      "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+      "profile": {
+        "id": "style-pump-routine",
+        "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+        "title": "pump routine gameplay control",
+        "game": "pump",
+        "style": "routine",
+        "difficulty": "Edit",
+        "chart_index": 4,
+        "simfile_sha256": "5f3bbfe8003f0017c6ed742cf92dc3db96a5d1f35c39e8b23b241124302ef372",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 250000,
+        "capture_timeout": 180,
+        "replay_timeout": 180,
+        "player_options": "default",
+        "stage_memory": "6G",
+        "run_role": "native-style-control"
+      },
+      "mismatches": null,
+      "errors": null,
+      "stage_seconds": {
+        "capture": 11.82
+      },
+      "missing": "Pinned Simply Love calls StageStats:GetRoutineStageStats, absent from native revision 008bfcf. The pinned ScoreKeeperShared scores through the master player; compatibility must preserve that ownership.",
+      "result_sha256": "a6e464a74a45ebfc35d597a77be53e5b9f12323d12ef59cb21005d0f19e863d2"
+    },
+    {
+      "id": "style-pump-single",
+      "status": "replay_error",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+      },
+      "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+      "profile": {
+        "id": "style-pump-single",
+        "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+        "title": "pump single gameplay control",
+        "game": "pump",
+        "style": "single",
+        "difficulty": "Edit",
+        "chart_index": 1,
+        "simfile_sha256": "5f3bbfe8003f0017c6ed742cf92dc3db96a5d1f35c39e8b23b241124302ef372",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 250000,
+        "capture_timeout": 180,
+        "replay_timeout": 180,
+        "player_options": "default",
+        "stage_memory": "6G",
+        "run_role": "native-style-control"
+      },
+      "mismatches": null,
+      "errors": null,
+      "stage_seconds": {
+        "capture": 9.939,
+        "archive": 1.773,
+        "replay": 2.765
+      },
+      "missing": "Production gameplay handoff rejects the retained pump-qualified style key; native capture is clean. A targeted replay with the handoff fix is in progress.",
+      "result_sha256": "b6dacd610b523689a5030189b6ff785da20e5717eae68c81d016762a486cee30"
+    },
+    {
+      "id": "style-pump-versus",
+      "status": "replay_error",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f"
+      },
+      "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+      "profile": {
+        "id": "style-pump-versus",
+        "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+        "title": "pump versus gameplay control",
+        "game": "pump",
+        "style": "versus",
+        "difficulty": "Edit",
+        "chart_index": 1,
+        "simfile_sha256": "5f3bbfe8003f0017c6ed742cf92dc3db96a5d1f35c39e8b23b241124302ef372",
+        "gc_mode": "automatic",
+        "capture_fps": 60,
+        "max_events": 250000,
+        "capture_timeout": 180,
+        "replay_timeout": 180,
+        "player_options": "default",
+        "stage_memory": "6G",
+        "run_role": "native-style-control"
+      },
+      "mismatches": null,
+      "errors": null,
+      "stage_seconds": {
+        "capture": 10.203,
+        "archive": 1.696,
+        "replay": 2.671
+      },
+      "missing": "Production gameplay handoff rejects the retained pump-qualified style key; native capture is clean. A targeted replay with the handoff fix is in progress.",
+      "result_sha256": "670f5f21670d626eece5a38b9e5735d0c4b9d88833e48dedc4d42f0b90fc8534"
+    }
+  ],
+  "source_files": [
+    {
+      "file": "style-controls/dance/control.ssc",
+      "sha256": "f21e5413b38ebfe2bb10b4edbc1d04ed2505e16ef4dfbbea973f1c99c11617b9"
+    },
+    {
+      "file": "style-controls/dance/default.lua",
+      "sha256": "8c68359e4f0e99837863dacaa3e3a39c5c394e1027b09597debc323c2d26efdd"
+    },
+    {
+      "file": "style-controls/dance/silence.wav",
+      "sha256": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d"
+    },
+    {
+      "file": "style-controls/pump/control.ssc",
+      "sha256": "5f3bbfe8003f0017c6ed742cf92dc3db96a5d1f35c39e8b23b241124302ef372"
+    },
+    {
+      "file": "style-controls/pump/default.lua",
+      "sha256": "8c68359e4f0e99837863dacaa3e3a39c5c394e1027b09597debc323c2d26efdd"
+    },
+    {
+      "file": "style-controls/pump/silence.wav",
+      "sha256": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d"
+    }
+  ]
+}

@@ -12,5 +12,6 @@
 /regression-expectations/song-lua/native-actor-parity/*.sm -text
 # Chart-selection controls have recorded SHA-256 source identities.
 /full_song_lua/proxmox-pass3-2026-11-16/chart-selector-control/* -text
+/full_song_lua/proxmox-pass3-2026-11-16/style-controls/**/* -text
 *.gz -text
 .githooks/* text eol=lf

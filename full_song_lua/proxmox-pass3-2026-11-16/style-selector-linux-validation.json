@@ -1,0 +1,18 @@
+{
+  "normalized_source_sha256": "e57e498efc28cab81334f7078db7b862ae15a5d06aa146c6aecf3232805b4dc5",
+  "logs": {
+    "native-selector.log": {
+      "sha256": "f85acb2a8e8a08d7105477e5e90da91751eec64172722226658978062a3f7415",
+      "tail": "   Compiling itgmania-harness-rs v0.1.100 (/opt/song-lua-audit/harness-pass3)\n    Finished `release` profile [optimized] target(s) in 36.54s\n     Running unittests src/main.rs (/opt/song-lua-audit/harness/target/release/deps/itgmania_harness_rs-59da9abdb5429081)\n\nrunning 1 test\ntest song_lua_runtime::tests::native_chart_index_selects_duplicate_difficulties_and_rejects_mismatches ... ok\n\ntest result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 218 filtered out; finished in 30.83s\n\n"
+    },
+    "native_starting_chart.log": {
+      "sha256": "53deb90f211b23a94d5fbc21728a32285bf3dada3d5111a55c81ee38d42410a2",
+      "tail": "warning: function `set_windows_gamepad_backend` is never used\n   --> crates/deadsync-config/src/app_update.rs:551:8\n    |\n551 | pub fn set_windows_gamepad_backend(cfg: &mut Config, backend: WindowsPadBackend) -> bool {\n    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    |\n    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default\n\nwarning: `deadsync-config` (lib) generated 1 warning\nwarning: `deadsync-config` (lib) generated 1 warning (1 duplicate)\n   Compiling deadsync v0.5.2494 (/opt/song-lua-audit/deadsync-pass3)\n    Finished `release` profile [optimized + debuginfo] target(s) in 3m 04s\n     Running tests/song_lua_itgmania_semantic_parity.rs (/opt/song-lua-audit/deadsync/target/release/deps/song_lua_itgmania_semantic_parity-1e26f988d2faae1c)\n\nrunning 2 tests\ntest native_gameplay::tests::native_starting_chart_checks_identity_and_maps_catalog_to_payload ... ok\ntest native_gameplay::tests::native_starting_chart_respects_game_and_partner_styles ... ok\n\ntest result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 401 filtered out; finished in 0.01s\n\n"
+    },
+    "harness-build.log": {
+      "sha256": "966cbe29a7f2db8a2646122fe482fe2e70e5de99c999617ab82d359ace6c7afc",
+      "tail": "   Compiling itgmania-harness-rs v0.1.100 (/opt/song-lua-audit/harness-pass3)\n    Finished `release` profile [optimized] target(s) in 28.44s\n"
+    }
+  },
+  "unit": "ExecMainStatus=0\nActiveState=inactive\nSubState=dead\n"
+}

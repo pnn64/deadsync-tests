@@ -390,6 +390,12 @@
     "archive": "10dde04d2feaa32ee04264ce88f9ac63eb01ff2ecb0969acfd05227229005af8.tar.zst"
   },
   {
+    "title": "dance double gameplay control",
+    "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+    "harness_version": "0.1.100",
+    "archive": "119899abd263f086e2a7bd98ccb2086ddb5cc2b799aef0b7b27a9d6c0cb044c2.tar.zst"
+  },
+  {
     "title": "minefield surfing",
     "source_simfile": "minefield surfing_1/minefield.ssc",
     "harness_version": "0.1.80",
@@ -1164,6 +1170,12 @@
     "archive": "2d593c336223218398eefd84e4e8d2d8f96e05c8aab4d277d9a172c8398e462e.tar.zst"
   },
   {
+    "title": "dance single gameplay control",
+    "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+    "harness_version": "0.1.100",
+    "archive": "2d78f6802881916b499eed6e757b69f87c75f50aa590f46ae1f3182af74e59dc.tar.zst"
+  },
+  {
     "title": "Stepping Music ~Clapping Music arranged for two pad players~",
     "source_simfile": "Stepping Music/simfile.ssc",
     "harness_version": "0.1.80",
@@ -1534,6 +1546,12 @@
     "source_simfile": "INAZUMA (Gio)/INAZUMA.ssc",
     "harness_version": "0.1.0",
     "archive": "3ccb5707122f1a284c4c2caa010dd0cea897588e3919c265ef7d473f68754f91.tar.zst"
+  },
+  {
+    "title": "dance versus gameplay control",
+    "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+    "harness_version": "0.1.100",
+    "archive": "3d1e3d1a7ed75dbd9ac2c8969583c731a35feec349e0179eb4257ed7b3430b73.tar.zst"
   },
   {
     "title": "Episode 06 Leave The Door Open",
@@ -2640,6 +2658,12 @@
     "archive": "6f079cd61544f4ae39e7cb4cb2a51cf065f340b0ad973ffdb9568031110f82a3.tar.zst"
   },
   {
+    "title": "dance couple gameplay control",
+    "source_simfile": "__pass3_controls/styles/dance/control.ssc",
+    "harness_version": "0.1.100",
+    "archive": "6f18fd849701d9761ea2ef450a34be4ad4be801a23fcafd759d42d994f6b077d.tar.zst"
+  },
+  {
     "title": "MODULO",
     "source_simfile": "MODULO/modulo.ssc",
     "harness_version": "0.1.97",
@@ -3082,6 +3106,12 @@
     "source_simfile": "Young Dumb And Broke/YDB.ssc",
     "harness_version": "0.1.0",
     "archive": "8022849c5f08e058cf3f8d79201fe4b86bec82b04f3ffa51ce7ed7bf5e83ba40.tar.zst"
+  },
+  {
+    "title": "Second Edit chart selector control",
+    "source_simfile": "__pass3_controls/chart-selector/control.ssc",
+    "harness_version": "0.1.100",
+    "archive": "80b46775a1f531a1db4900a4f35865169926bbae9f60abed334a4a57654b3d23.tar.zst"
   },
   {
     "title": "IT'S A GHOST!!!!! AAAAAaAAAaAAaAaAAaAaAAAA",
@@ -5302,6 +5332,12 @@
     "source_simfile": "Butterfly by DDR/buttchew.ssc",
     "harness_version": "0.1.67",
     "archive": "e3f0dfc77208659c4ba049914802f6a185cfca5287188f8ccc81a5decbbbe57e.tar.zst"
+  },
+  {
+    "title": "Second Edit chart selector control",
+    "source_simfile": "__pass3_controls/chart-selector/control.sm",
+    "harness_version": "0.1.100",
+    "archive": "e4261608924a62ba7b405343c2f6c289701ab0238db9e729e54a95b807d1772b.tar.zst"
   },
   {
     "title": "リップシンク",

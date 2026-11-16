@@ -1,10 +1,26 @@
 # Song Lua fixture runtime guide
 
-Prepared **2026-11-16** from the stored November 15 Proxmox audit and repair-pass logs. **No fixtures were rerun to create this guide.** Times below are rough planning measurements, not benchmark guarantees.
+Updated **2026-11-16** from the stored November 15–16 Proxmox audit, repair-pass, and profiling logs. **No fixtures were rerun to create or refresh this guide.** Times below are rough planning measurements, not benchmark guarantees.
 
-The inventory covers **503 primary simfiles** plus **11 supplemental profiles/controls**. Of the primary cases, **62** have repair-pass measurements (**P2**); **441** retain first-audit measurements (**P1**). Different charts, profiles, archive versions, hardware, and build settings can change both cost and coverage.
+The November 15 inventory covers **503 primary simfiles** plus **11 supplemental profiles/controls**. Of the primary cases, **62** have repair-pass measurements (**P2**); **441** retain first-audit measurements (**P1**). November 16 updates are listed separately below. Different charts, profiles, archive versions, hardware, and build settings can change both cost and coverage.
 
 Jump to [quick sets](#fast-regression-sets), [expensive fixtures](#expensive-passing-fixtures-to-schedule-deliberately), [known failures](#known-failures-run-when-working-on-the-named-gap), or [the complete lookup](#complete-passing-primary-lookup).
+
+## At a glance
+
+These are **replay-only** costs on the recorded Proxmox workers. Choose relevant coverage first, then use the timings to size the run.
+
+| Testing need | Suggested selection | Recorded replay cost | Scheduling note |
+| --- | --- | --- | --- |
+| Small runtime regression checks | Four reduced controls below, plus pause and inactive-player join | About 35s total | Allow about a minute, plus setup; the old controls used a four-vCPU helper |
+| Small real-song checks | My Penny, Get Into It SM, Apollo SM, both Sharkmode variants | About 2m 02s total | About 2m 37s together with all six controls; allow 4–6 minutes plus setup |
+| Sharkmode-specific work | Either Sharkmode SSC, or both variants | About 29s each | Fresh capture alone adds about 3 minutes per variant |
+| Join/reload or pause work | Relevant reduced control, then Anxiety SM/SSC or Megalovania | Controls 4–5s; songs 37–42s each | Use the November 16 passing results below |
+| Hold/roll clock work | Roll-long-frame, Apollo SM, After Dark | About 4s, 31s, and 1m 22s | Add only the songs needed for the changed behavior |
+| Large-trace work | Paint, fof, Mr Sandman, ArrowQuest | Roughly 6–18 minutes each | Recorded replay caps range from 42 to 84 GiB; schedule deliberately |
+| A known unresolved failure | The matching diagnostic case/profile | Failed-attempt times only | A quick error is not a successful replay estimate |
+
+The latest published primary ledger records **489 passes and 14 nonpasses**, combining historical and newer evidence. It is not a fresh pass of every chart. The complete lookup preserves the original November 15 timings; the updates immediately below supersede those entries where available.
 
 <!-- pass3-runtimes:start -->
 ## November 16 updates
@@ -22,6 +38,12 @@ These completed runs add to the November 15 snapshot below. Use the [pass-three 
 | [11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc | 10s | 2m 41s | 6G | Fresh harness 0.1.99; stopped-GC control only, primary still fails |
 | 308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm | 18m 08s | Retained capture | 84G | Retained native input |
 | 308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm | 17m 50s | Retained capture | 84G | Retained native input |
+| __pass3_controls/chart-selector/control.sm | 4s | 10s | 6G | Fresh harness 0.1.100; second Edit chart selected explicitly |
+| __pass3_controls/chart-selector/control.ssc | 4s | 10s | 6G | Fresh harness 0.1.100; second Edit chart selected explicitly |
+| __pass3_controls/styles/dance/control.ssc | 4s | 10s | 6G | Fresh harness 0.1.100; dance-single control |
+| __pass3_controls/styles/dance/control.ssc | 4s | 10s | 6G | Fresh harness 0.1.100; dance-versus control |
+| __pass3_controls/styles/dance/control.ssc | 4s | 11s | 6G | Fresh harness 0.1.100; dance-double control |
+| __pass3_controls/styles/dance/control.ssc | 4s | 11s | 6G | Fresh harness 0.1.100; dance-couple control |
 
 These runners use release builds with debug information, frame pointers, LTO disabled and 16 codegen units on two-vCPU VMs. This is a correctness-pass timing update, not a controlled performance comparison. Both ArrowQuest variants completed under an 84 GiB process cap; that cap is not a measured memory peak or a proven minimum.
 
@@ -44,7 +66,7 @@ The four reduced controls total about **27s** of serial replay. The five small r
 | __pass2_controls/roll-long-frame/control.sm (roll-long-frame) | 4s | 23s | 12G | Roll decay under long update deltas | 1a253e2f7fcf8cdb |
 | __pass2_controls/join-reload/control.sm (join-reload-v3) | 4s | 30s | 12G | P1-to-versus join/reload, player positions and style | 4660470145a7aca3 |
 | __pass2_controls/feedback-apollo-v2/control.sm (feedback-apollo-v2) | 9s | 2m 58s | 12G | Reduced feedback-clock regression | ba83486aea0d7e36 |
-| __pass2_controls/feedback-megalovania-v2/control.sm (feedback-megalovania-v2) | 10s | 3m 49s | 12G | Reduced feedback-clock regression; does not cover the unresolved pause gap | 91441f58d8d6e65b |
+| __pass2_controls/feedback-megalovania-v2/control.sm (feedback-megalovania-v2) | 10s | 3m 49s | 12G | Reduced feedback-clock regression; use the separate pause control for pause coverage | 91441f58d8d6e65b |
 | My Penny/My Penny.ssc | 6s | 41s | 6G | Former native movie crash; recapture to test the video fix itself | b5d2abf91e4fbf74 |
 | Get Into It/GetIntoIt.sm | 28s | 3m 01s | 6G | BackgroundEffect subscriber wrapper regression (SM) | eb0a426dfb314078 |
 | Apollo/Apollo.sm | 31s | 3m 49s | 6G | Real-song feedback/roll timing (SM) | 902af9cf05568211 |
@@ -56,6 +78,17 @@ These selectors are unique prefixes of the exact accepted archive filenames, **n
 ```powershell
 cargo test --release --test full_song_lua -- --jobs 1 1a253e2f7fcf8cdb 4660470145a7aca3 ba83486aea0d7e36 91441f58d8d6e65b
 cargo test --release --test full_song_lua -- --jobs 1 b5d2abf91e4fbf74 eb0a426dfb314078 902af9cf05568211 1a071285899f14c6 81a02f3ebadfdd0e
+```
+
+Two newer controls add about **9s** of serial replay. Both passed the pause-fix runner with zero implemented comparison mismatches or callback errors; see the [saved replay records](proxmox-pass3-2026-11-16/replays.json).
+
+| Fixture / profile | Replay | Native capture | Replay cap | Why include it | Archive selector |
+| --- | --- | --- | --- | --- | --- | --- |
+| __pass3_controls/pause-v2/control.sm | 5s | 23s | 6G | Pause/Unpause commands and gameplay/audio integration | 98a73104dd109b454 |
+| __pass3_controls/join-inactive/control.sm | 4s | 20s | 6G | Initially inactive P2 joining and reloading gameplay | dc0e3ee91d249468 |
+
+```powershell
+cargo test --release --test full_song_lua -- --jobs 1 98a73104dd109b454 dc0e3ee91d249468
 ```
 
 The stored replay timers used already-built Linux runners and **uncompressed `.tar` inputs**. These commands use published `.tar.zst` fixtures, so compilation and decompression add time. A replay does not re-execute the native movie decoder; use a fresh native capture when testing a native video change.
@@ -99,7 +132,7 @@ These counts describe the November 15 snapshot and exclude its 20 nonpassing pri
 
 ## Known failures: run when working on the named gap
 
-This table preserves the November 15 failed-attempt timings and diagnoses. Anxiety SM/SSC, After Dark, Megalovania and both ArrowQuest variants subsequently passed; use their November 16 timings above and the [pass-three ledger](proxmox-pass3-2026-11-16/README.md) for the latest published status. Megalovania's fresh pass does not establish the cause of its earlier mismatches; the separate pause control still exposes a runtime gap. The remaining failures are diagnostic targets, not part of the passing quick sets. A native script error, timeout, truncated capture, or OOM can finish quickly without providing useful parity coverage.
+This table preserves the November 15 failed-attempt timings and diagnoses. Anxiety SM/SSC, After Dark, Megalovania and both ArrowQuest variants subsequently passed; use their November 16 timings above and the [pass-three ledger](proxmox-pass3-2026-11-16/README.md) for the latest published status. Megalovania's fresh pass does not establish the cause of its earlier mismatches. The separate pause control reproduced a runtime gap that has since been fixed and now passes. The remaining failures are diagnostic targets, not part of the passing quick sets. A native script error, timeout, truncated capture, or OOM can finish quickly without providing useful parity coverage.
 
 | Song simfile | Capture | Replay | Capture / replay cap | November 15 result / reason | Case ID |
 | --- | --- | --- | --- | --- | --- |
@@ -662,6 +695,7 @@ Profile IDs matter: Bank Account versus and Velvet stopped-GC pass while their p
 - [Repair-pass captures](proxmox-pass2-2026-11-15/primary-attempts.json), [additional attempts](proxmox-pass2-2026-11-15/extra-attempts.json), and [final replays](proxmox-pass2-2026-11-15/final-replays.json).
 - [November 15 primary ledger](proxmox-pass2-2026-11-15/case-ledger.json), [failure explanations](proxmox-pass2-2026-11-15/README.md), [source revisions](proxmox-pass2-2026-11-15/repository-pins.json), and [accepted archive hashes](proxmox-pass2-2026-11-15/published-archives.json).
 - [November 16 captures](proxmox-pass3-2026-11-16/native-attempts.json), [replays](proxmox-pass3-2026-11-16/replays.json), [ArrowQuest resource replays](proxmox-pass3-2026-11-16/arrow-resource-replays.json), and [latest published primary ledger](proxmox-pass3-2026-11-16/case-ledger.json).
+- [Repeated heavy-fixture profiles](proxmox-pass3-2026-11-16/profiles/README.md): Mr Sandman 13m 23s–13m 29s, Paint SSC 6m 20s–6m 21s, and fof 8m 05s–8m 14s. These include profiler overhead and stay separate from the correctness-run measurements.
 
 Timings come from `stages.<stage>.elapsed_seconds`, rounded to the nearest second. Do not use `estimated_song_seconds` as replay cost, timeout limits as measured durations, or aggregate `started_at`/`finished_at` across unrelated retries. P2 replay/capture pairs are matched by decoded archive SHA-256. Historical successful replay stages include nested rechecks; missing complete capture/pack timings remain unknown. Retry IDs ending in `-memory26` are grouped under their original case/profile ID. This document does not average different revisions or profiles together.
 
