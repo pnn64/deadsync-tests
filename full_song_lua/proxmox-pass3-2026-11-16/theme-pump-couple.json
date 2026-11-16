@@ -1,0 +1,11 @@
+{
+  "base": "dd06138b15492f4136796dfe4b6708ced0f7b9eb",
+  "candidate_commit": "e2157b744051e1873bac5389246afac22e2cf05f",
+  "bundle_sha256": "31e20111675768792dce874be637a9f10dc4aabfa23262b48c6659a9c7779e48",
+  "status": "candidate; native gameplay validation pending",
+  "source": "Scripts/SL-Helpers.lua",
+  "change": "pump couple returns the same 250 width as single/versus; both participants have the identical five-column geometry",
+  "upstream_current_source": "https://github.com/Simply-Love/Simply-Love-SM5/blob/itgmania-release/Scripts/SL-Helpers.lua",
+  "publication_target": "https://github.com/pnn64/Simply-Love-SM5.git",
+  "baseline_failure": "style-pump-couple, StepStatistics/default.lua:19 compares missing GetNotefieldWidth against a number"
+}

@@ -29,12 +29,12 @@ These completed runs add to the November 15 snapshot below. Use the [pass-three 
 
 | Fixture | Successful replay | Native capture | Replay cap | Reference |
 | --- | --- | --- | --- | --- |
-| __pass3_controls/pause-v2/control.sm | 5s | 23s | 6G | Harness 0.1.99 capture; pause-fix replay |
-| __pass3_controls/join-inactive/control.sm | 4s | 20s | 6G | Harness 0.1.99 capture; pause-fix replay |
-| Anxiety/Anxiety.ssc | 42s | 3m 59s | 6G | Harness 0.1.99 capture; pause-fix replay |
-| Anxiety/Anxiety.sm | 41s | 3m 59s | 6G | Harness 0.1.99 capture; pause-fix replay |
-| After Dark/After Dark.ssc | 1m 22s | 5m 29s | 6G | Harness 0.1.99 capture; pause-fix replay |
-| Megalovania SM5 - [TaroNuke]/megalovania.sm | 37s | 3m 43s | 6G | Harness 0.1.99 capture; pause-fix replay |
+| __pass3_controls/pause-v2/control.sm | 5s | 23s | 6G | Harness 0.1.99 capture; pause fix replay |
+| __pass3_controls/join-inactive/control.sm | 4s | 20s | 6G | Harness 0.1.99 capture; pause fix replay |
+| Anxiety/Anxiety.ssc | 42s | 3m 59s | 6G | Harness 0.1.99 capture; pause fix replay |
+| Anxiety/Anxiety.sm | 41s | 3m 59s | 6G | Harness 0.1.99 capture; pause fix replay |
+| After Dark/After Dark.ssc | 1m 22s | 5m 29s | 6G | Harness 0.1.99 capture; pause fix replay |
+| Megalovania SM5 - [TaroNuke]/megalovania.sm | 37s | 3m 43s | 6G | Harness 0.1.99 capture; pause fix replay |
 | [11] KENPO SAITO (DX) [Scrypts]/KENPO SAITO-chart.ssc | 10s | 2m 41s | 6G | Fresh harness 0.1.99; stopped-GC control only, primary still fails |
 | 308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm | 18m 08s | Retained capture | 84G | Retained native input |
 | 308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm | 17m 50s | Retained capture | 84G | Retained native input |
@@ -44,6 +44,9 @@ These completed runs add to the November 15 snapshot below. Use the [pass-three 
 | __pass3_controls/styles/dance/control.ssc | 4s | 10s | 6G | Fresh harness 0.1.100; dance-versus control |
 | __pass3_controls/styles/dance/control.ssc | 4s | 11s | 6G | Fresh harness 0.1.100; dance-double control |
 | __pass3_controls/styles/dance/control.ssc | 4s | 11s | 6G | Fresh harness 0.1.100; dance-couple control |
+| __pass3_controls/styles/pump/control.ssc | 4s | 10s | 6G | Harness 0.1.100 capture; pump game/style fix replay; pump-single control |
+| __pass3_controls/styles/pump/control.ssc | 4s | 10s | 6G | Harness 0.1.100 capture; pump game/style fix replay; pump-versus control |
+| __pass3_controls/styles/pump/control.ssc | 4s | 10s | 6G | Harness 0.1.100 capture; pump game/style fix replay; pump-double control |
 
 These runners use release builds with debug information, frame pointers, LTO disabled and 16 codegen units on two-vCPU VMs. This is a correctness-pass timing update, not a controlled performance comparison. Both ArrowQuest variants completed under an 84 GiB process cap; that cap is not a measured memory peak or a proven minimum.
 

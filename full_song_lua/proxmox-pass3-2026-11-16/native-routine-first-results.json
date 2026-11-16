@@ -1,0 +1,78 @@
+{
+  "state": "ExecMainStatus=0\nActiveState=inactive\nInvocationID=\n",
+  "results": [
+    {
+      "id": "style-dance-routine",
+      "status": "native_capture_pass",
+      "reason": null,
+      "native_failure": null
+    },
+    {
+      "id": "style-pump-versus",
+      "status": "native_capture_pass",
+      "reason": null,
+      "native_failure": null
+    },
+    {
+      "id": "style-dance-versus",
+      "status": "native_capture_pass",
+      "reason": null,
+      "native_failure": null
+    },
+    {
+      "id": "routine-stats-dance",
+      "status": "native_capture_pass",
+      "reason": null,
+      "native_failure": null
+    },
+    {
+      "id": "style-pump-couple",
+      "status": "native_capture_pass",
+      "reason": null,
+      "native_failure": null
+    },
+    {
+      "id": "style-dance-single",
+      "status": "native_capture_pass",
+      "reason": null,
+      "native_failure": null
+    },
+    {
+      "id": "style-dance-couple",
+      "status": "native_capture_pass",
+      "reason": null,
+      "native_failure": null
+    },
+    {
+      "id": "style-pump-single",
+      "status": "native_capture_pass",
+      "reason": null,
+      "native_failure": null
+    },
+    {
+      "id": "routine-stats-pump",
+      "status": "native_capture_pass",
+      "reason": null,
+      "native_failure": null
+    },
+    {
+      "id": "style-dance-double",
+      "status": "native_capture_pass",
+      "reason": null,
+      "native_failure": null
+    },
+    {
+      "id": "style-pump-routine",
+      "status": "native_capture_pass",
+      "reason": null,
+      "native_failure": null
+    },
+    {
+      "id": "style-pump-double",
+      "status": "native_capture_pass",
+      "reason": null,
+      "native_failure": null
+    }
+  ],
+  "log": "From /opt/song-lua-audit/theme-pump-couple.bundle\n * branch            HEAD       -> FETCH_HEAD\nPreparing worktree (detached HEAD e2157b7)\n{\"id\": \"style-dance-single\", \"status\": \"native_capture_pass\"}\n{\"id\": \"style-dance-versus\", \"status\": \"native_capture_pass\"}\n{\"id\": \"style-dance-double\", \"status\": \"native_capture_pass\"}\n{\"id\": \"style-dance-couple\", \"status\": \"native_capture_pass\"}\n{\"id\": \"style-dance-routine\", \"status\": \"native_capture_pass\"}\n{\"id\": \"style-pump-single\", \"status\": \"native_capture_pass\"}\n{\"id\": \"style-pump-versus\", \"status\": \"native_capture_pass\"}\n{\"id\": \"style-pump-double\", \"status\": \"native_capture_pass\"}\n{\"id\": \"style-pump-couple\", \"status\": \"native_capture_pass\"}\n{\"id\": \"style-pump-routine\", \"status\": \"native_capture_pass\"}\n{\"id\": \"routine-stats-dance\", \"status\": \"native_capture_pass\"}\n{\"id\": \"routine-stats-pump\", \"status\": \"native_capture_pass\"}\n"
+}

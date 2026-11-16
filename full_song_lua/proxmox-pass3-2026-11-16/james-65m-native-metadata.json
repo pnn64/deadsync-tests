@@ -1,0 +1,99 @@
+{
+  "metadata_bytes": 729549,
+  "fields": [
+    "actor_creation_inputs",
+    "actor_definitions",
+    "actor_identity_inputs",
+    "capabilities",
+    "capture_limits",
+    "completion",
+    "description",
+    "difficulty",
+    "display",
+    "drawable_frames",
+    "drawable_samples",
+    "dropped_drawable_samples",
+    "dropped_events",
+    "dropped_host_clock_inputs",
+    "dropped_input_events",
+    "dropped_random_reseeds",
+    "dropped_script_errors",
+    "dropped_stage_samples",
+    "dropped_update_frames",
+    "end_position",
+    "game",
+    "game_mode",
+    "harness_version",
+    "host_clock_inputs",
+    "injected_commands",
+    "input",
+    "input_events",
+    "itgmania_version",
+    "oracle",
+    "random_reseeds",
+    "random_seed",
+    "roots",
+    "runtime_actors",
+    "schema_version",
+    "scoring_weights",
+    "script_errors",
+    "simfile",
+    "stage_samples",
+    "steps_type",
+    "style",
+    "theme",
+    "title",
+    "trace_until_beat",
+    "transition_script_errors",
+    "update_frame_phase",
+    "update_frames"
+  ],
+  "details": {
+    "capture_limits": {
+      "max_events": 65000000
+    },
+    "completion": {
+      "next_screen": "ScreenEvaluationStage",
+      "reason": "gameplay-exit",
+      "stage_committed": true,
+      "stages_played_after": 1,
+      "stages_played_before": 0
+    },
+    "dropped_drawable_samples": 0,
+    "dropped_events": 12264875,
+    "dropped_host_clock_inputs": 0,
+    "dropped_input_events": 0,
+    "dropped_random_reseeds": 0,
+    "dropped_script_errors": 0,
+    "dropped_stage_samples": 0,
+    "dropped_update_frames": 0,
+    "end_position": {
+      "beat": 664.1004028320312,
+      "seconds": 229.40771484375
+    },
+    "script_errors": [
+      {
+        "message": "Tween overflow: \"<type 20ScreenGameplayNormal> ScreenGameplay/<type 28ActorFrameAutoDeleteChildren> Underlay/<type 10BitmapText> P1Score\"; infinitely recursing ActorCommand?",
+        "screen": "ScreenGameplay"
+      },
+      {
+        "message": "Tween overflow: \"<type 20ScreenGameplayNormal> ScreenGameplay/<type 28ActorFrameAutoDeleteChildren> Underlay/<type 10BitmapText> P1Score\"; infinitely recursing ActorCommand?",
+        "screen": "ScreenGameplay"
+      },
+      {
+        "message": "Tween overflow: \"<type 20ScreenGameplayNormal> ScreenGameplay/<type 28ActorFrameAutoDeleteChildren> Underlay/<type 10BitmapText> P1Score\"; infinitely recursing ActorCommand?",
+        "screen": "ScreenGameplay"
+      },
+      {
+        "message": "Tween overflow: \"<type 20ScreenGameplayNormal> ScreenGameplay/<type 28ActorFrameAutoDeleteChildren> Underlay/<type 10BitmapText> P1Score\"; infinitely recursing ActorCommand?",
+        "screen": "ScreenGameplay"
+      }
+    ],
+    "transition_script_errors": [
+      {
+        "message": "ActorFrameTexture: Cannot have width or height less than 1",
+        "screen": "ScreenEvaluationStage"
+      }
+    ]
+  }
+}

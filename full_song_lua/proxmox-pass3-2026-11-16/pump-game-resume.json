@@ -1,0 +1,8 @@
+{
+  "tests_revision": "d7cfc75b4a38c2c993c2385fd180e587be6ad4b0",
+  "path": "regression-expectations/deadsync-song-lua/a21e50006934c942.snap",
+  "sha256": "e927ad20f9c46227b1450f45bf7ee6b7b00a8d1ec91c09da7acff1ea50dfbe07",
+  "previous_normalized_sha256": "7976c286d9fb035c7bb86b76158a6c0d42bedbba1b2f71a0d4d6ba267432b2fe",
+  "reason": "Guest retained the old UnjoinPlayer(false) expectation; restore the already published snapshot, without regenerating expectations.",
+  "launch": "Running as unit: song-lua-pass3-pump-game-resume.service; invocation ID: e5fd86b7ffa44eeebf20a8581c1a85de"
+}

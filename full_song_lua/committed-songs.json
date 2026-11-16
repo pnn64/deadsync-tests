@@ -744,6 +744,12 @@
     "archive": "1e6aba284389988b5402aa3ec718613f88cc8343c33718b65095ce55c56c9f52.tar.zst"
   },
   {
+    "title": "pump single gameplay control",
+    "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+    "harness_version": "0.1.100",
+    "archive": "1ed96311a5a132a8fd50d6697c8c8dc6091b08489b54a4dd3671a580c5b5d119.tar.zst"
+  },
+  {
     "title": "I Really Like You Really, Really, Really, Really",
     "source_simfile": "I Really Like You [dbk2]/I Really Like You.sm",
     "harness_version": "0.1.80",
@@ -1596,6 +1602,12 @@
     "archive": "3e1841b3eb6afb36dcc4e28f36d8ad4ee4eaf8a5e1b76b322f1af7ea159ddbde.tar.zst"
   },
   {
+    "title": "pump versus gameplay control",
+    "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+    "harness_version": "0.1.100",
+    "archive": "3e4bf63811d213e3d9ee9d4b8f97d5249660df63332fef0e7f5ddb9a8bfceb0f.tar.zst"
+  },
+  {
     "title": "MAWARU 4 EASY MODO!?",
     "source_simfile": "mawaru4/mawaru4.ssc",
     "harness_version": "0.1.80",
@@ -1906,6 +1918,12 @@
     "source_simfile": "flores sulphuris - [Zaia]/flores sulphuris.ssc",
     "harness_version": "0.1.0",
     "archive": "47e951bb8e319e2cb93133f3abf44dc9f72e072b2cce5be79efeff5c6335ca5e.tar.zst"
+  },
+  {
+    "title": "pump double gameplay control",
+    "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+    "harness_version": "0.1.100",
+    "archive": "481f3d0ba7a0574fb3fb85f92c793e8572ddf181a1b24e884b372daca704fe65.tar.zst"
   },
   {
     "title": "bloodrush itg do not use a speedmod over 250 scroll speed unless brave",

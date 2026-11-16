@@ -17,6 +17,10 @@ Status: **in progress**. This report records completed evidence from the replace
 
 - The twelve fresh selector/style controls completed: six pass (SM/SSC second Edit selection and dance single/versus/double/couple). Three clean pump references exposed the production style handoff failure; pump couple and both routine styles exposed native theme errors. See the [style validation record](native-style-validation.json). Subsequent targeted replays are recorded separately below and do not erase the original failures.
 
+- Pump single, versus and double now complete full replays with zero mismatches or callback errors. DeadSync preserves the pump game while resolving bare styles, and gameplay handoff accepts the retained pump-qualified style. The handoff-only intermediate replay had one game metadata mismatch in each case. [Game metadata validation](pump-game-validation.json) and [handoff validation](pump-style-validation.json) retain both steps. Linux GameState tests pass 15/15 after restoring the exact published snapshot; the stale expectation failure is retained separately.
+
+- An isolated native candidate backports upstream routine ownership/scoring and routine noteskins; a separate theme candidate adds the missing pump couple width. All [twelve native controls](native-routine-first-results.json) capture cleanly against these candidates. This is native capture evidence only: the candidates are not yet pinned by the harness, and these results are not accepted DeadSync parity fixtures. Manual routine inputs subsequently exposed a harness observer gap when no Lua input callback is registered; its repair is under validation.
+
 ## Latest available primary ledger
 
 | Result | Cases |
@@ -36,7 +40,7 @@ All 34 old task VMs (1200–1216 and 1300–1316) were removed from Proxmox afte
 
 All six heavy-fixture profiles completed on VM 1415 using samply at 99 Hz: two repeated replays each of Mr Sandman, Paint SSC and fof, all with passing diagnostic comparisons. The baseline runner includes debug information and frame pointers. Completed profiles and symbol sidecars are retained before analysis; no performance optimization is part of this pass.
 
-After retaining the completed results, workers 1402 and 1415 were stopped. Worker 1414 has a [recorded 160 GiB allocation](james-resource-setup.json), a 148 GiB process cap and a 160 GiB disk for one James SM recapture with a 65-million-event budget. This attempt is pending and is not counted as a pass. The harness already spools native events; this recheck tests whether the configured observation budget and postprocessing resources are sufficient without relaxing dropped-event rejection.
+Worker 1415 is stopped after profiling. Worker 1402 was restarted and temporarily assigned eight vCPUs and 16 GiB for the isolated native build and controls. Worker 1414 has a [recorded 160 GiB allocation](james-resource-setup.json) and a 148 GiB capture cap. The James SM capture child was OOM-killed; its parent is still preserving diagnostics. The [raw native metadata](james-65m-native-metadata.json) reaches gameplay exit but records 12,264,875 dropped events beyond the 65-million-event budget, four P1Score tween overflows and a transition AFT error. It cannot be accepted as a clean reference. Its disk was [expanded to 256 GiB](james-diagnostics-disk-growth.json) to retain the large diagnostics; no unchanged recapture was started.
 
 ## Scope and reproducibility
 

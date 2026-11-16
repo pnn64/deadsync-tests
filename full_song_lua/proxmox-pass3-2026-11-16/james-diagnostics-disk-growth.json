@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-11-16T03:51:26.366879+00:00",
+  "vmid": 1414,
+  "previous_disk_gib": 160,
+  "disk_gib": 256,
+  "host_storage_available_bytes": 288685162496,
+  "reason": "Preserve active James diagnostics: duplicated raw files plus temporary tar exceed the previous disk size.",
+  "guest_resize": "CHANGED: partition=1 start=2099200 old: size=333445087 end=335544286 new: size=534771679 end=536870878\nFilesystem at /dev/sda1 is mounted on /; on-line resizing required\nold_desc_blocks = 20, new_desc_blocks = 32\nThe filesystem on /dev/sda1 is now 66846459 (4k) blocks long.\n\nFilesystem      Size  Used Avail Use% Mounted on\n/dev/sda1       247G  132G  116G  54% /\n\n"
+}

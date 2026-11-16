@@ -1,0 +1,21 @@
+{
+  "upstream_pr": "https://github.com/itgmania/itgmania/pull/1216",
+  "upstream_base": "e473b59a8caa914cf382904fad6eb88ef9f1c106",
+  "upstream_head": "ad2ae8a8d416d9eb71eb91abbb4012937c09171b",
+  "upstream_merge": "093ba099d2a15f924f1260558dedd2f9a0287fad",
+  "target_base": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+  "patch_sha256": "251b0703cd46d6d7d93fab84934ec0fdbf6fdd8d5d17ae78ac7cba8e2b756575",
+  "patch_bytes": 886624,
+  "apply_check_exit": 1,
+  "apply_check_errors": "error: patch failed: Docs/Luadoc/LuaDocumentation.xml:5047\nerror: Docs/Luadoc/LuaDocumentation.xml: patch does not apply\n",
+  "worktree": "C:\\GitHub\\deadsync\\target\\proxmox-song-lua-pass3-20261116\\native-routine-backport",
+  "status": "local candidate committed; native build and behavioral validation pending",
+  "candidate_commit": "663525dcb86eb570d0ef6a2e209678436660ae26",
+  "prepared_at": "2026-11-16T03:41:12.292132+00:00",
+  "pump_routine_pr": "https://github.com/itgmania/itgmania/pull/1445",
+  "pump_routine_patch_sha256": "4ac50f3949aa993b96b1891c0f4e15d832d9a4a5a7048b3ac49f5ae6a332c1d7",
+  "bundle_sha256": "25dd5e9399ab0ce35f1c15136f68931a73cef71e3f9a0d5fab89c3ea20ac1e3f",
+  "bundle_bytes": 595372,
+  "documentation_resolution": "Keep target RageFile docs, apply all routine API docs",
+  "whitespace_check": "22 upstream noteskin whitespace warnings preserved for source fidelity; no new C++ whitespace errors"
+}

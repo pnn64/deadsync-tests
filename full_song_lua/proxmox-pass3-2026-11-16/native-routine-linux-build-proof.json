@@ -1,0 +1,30 @@
+{
+  "started_at": "2026-11-16T03:43:10.494426+00:00",
+  "source": {
+    "upstream_pr": "https://github.com/itgmania/itgmania/pull/1216",
+    "upstream_base": "e473b59a8caa914cf382904fad6eb88ef9f1c106",
+    "upstream_head": "ad2ae8a8d416d9eb71eb91abbb4012937c09171b",
+    "upstream_merge": "093ba099d2a15f924f1260558dedd2f9a0287fad",
+    "target_base": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+    "patch_sha256": "251b0703cd46d6d7d93fab84934ec0fdbf6fdd8d5d17ae78ac7cba8e2b756575",
+    "patch_bytes": 886624,
+    "apply_check_exit": 1,
+    "apply_check_errors": "error: patch failed: Docs/Luadoc/LuaDocumentation.xml:5047\nerror: Docs/Luadoc/LuaDocumentation.xml: patch does not apply\n",
+    "worktree": "C:\\GitHub\\deadsync\\target\\proxmox-song-lua-pass3-20261116\\native-routine-backport",
+    "status": "local candidate committed; native build and behavioral validation pending",
+    "candidate_commit": "663525dcb86eb570d0ef6a2e209678436660ae26",
+    "prepared_at": "2026-11-16T03:41:12.292132+00:00",
+    "pump_routine_pr": "https://github.com/itgmania/itgmania/pull/1445",
+    "pump_routine_patch_sha256": "4ac50f3949aa993b96b1891c0f4e15d832d9a4a5a7048b3ac49f5ae6a332c1d7",
+    "bundle_sha256": "25dd5e9399ab0ce35f1c15136f68931a73cef71e3f9a0d5fab89c3ea20ac1e3f",
+    "bundle_bytes": 595372,
+    "documentation_resolution": "Keep target RageFile docs, apply all routine API docs",
+    "whitespace_check": "22 upstream noteskin whitespace warnings preserved for source fidelity; no new C++ whitespace errors"
+  },
+  "harness_revision": "9dc325fbcbb22db179bc5d3a4627c736d28f449d",
+  "submodules": "927d13396772073f552cf595dcec112f33bb80b6 Themes/Simply Love (927d133)\n 9884c325dd0fa64b2b885b332e98118f60313208 extern/IXWebSocket (9884c32)\n 9bc0bcce7a03701025d7002271ddc2ce4f351908 extern/ffmpeg (9bc0bcc)\n 0ab6c14264ec76e9328a8eedb3b72b5d27dffd47 extern/hidapi (0ab6c14)\n 20ade4dea9589515a69793e447a6c6220b464535 extern/libjpeg-turbo (20ade4d)\n ea127968204cc5d10f3fc9250c306b9e8cbd9b80 extern/libpng (ea12796)\n 7e7eb695d581782f04b24dc444cbfde86af59853 extern/libtomcrypt (7e7eb69)\n 6ca6898bf37f583c4cc9943441cd60dd69f4b8f2 extern/libtommath (6ca6898)\n cec1e49eec481a6333c218726ecaba8e4f447a07 extern/libusb (cec1e49)\n daca7a3979c22da155ec9dce49ab1abf3b65d3a9 extern/mbedtls (daca7a3)\n e1774cd77f471443541596e09078e78fdc342e4f extern/ogg (e1774cd)\n 0657aee69dec8508a0011f47f3b69d7538e9d262 extern/vorbis (0657aee)\n 51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf extern/zlib (51b7f2a)",
+  "source_status": "",
+  "finished_at": "2026-11-16T03:54:43.930104+00:00",
+  "native_binary_sha256": "ada09ec0ee8d0d671288e066e19c9fbe9ee54be991df0613d62252e2607dcaf3",
+  "harness_binary_sha256": "692ef0349ee7bfdf2b147ad216931db9625153a35b901c18565acd0cd794c83a"
+}

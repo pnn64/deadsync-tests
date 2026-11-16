@@ -1026,5 +1026,428 @@
     "local_evidence": "collected/1401/pass3-chart-selector-results/style-dance-double/result.json",
     "acceptance_basis": "full replay of implemented comparisons",
     "production_parity_proven": false
+  },
+  {
+    "id": "style-pump-double-game",
+    "harness_version": "0.1.100",
+    "archive": "481f3d0ba7a0574fb3fb85f92c793e8572ddf181a1b24e884b372daca704fe65.tar.zst",
+    "bytes": 107738117,
+    "sha256": "481f3d0ba7a0574fb3fb85f92c793e8572ddf181a1b24e884b372daca704fe65",
+    "uncompressed_sha256": "d99f67eb0f1ab8acc9027e89ee1ca98bae8b6a115fc924d0d4066c5630cd8dcf",
+    "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+    "source_snapshot": {
+      "baseline": {
+        "baseline": {
+          "baseline": {
+            "baseline": {
+              "baseline": {
+                "source": {
+                  "deadsync": {
+                    "revision": "bdacd7d389a76c10b95df81a8f6b93cde9556ec5",
+                    "directory": "/opt/song-lua-audit/deadsync-pass3"
+                  },
+                  "harness": {
+                    "revision": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+                    "directory": "/opt/song-lua-audit/harness-pass3"
+                  },
+                  "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+                },
+                "runner": "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+                "sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+                "symbols": true,
+                "frame_pointers": true,
+                "profile": "release; debug=1; strip=none; lto=false; codegen-units=16",
+                "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+                "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
+              },
+              "runner_sha256": "618e1c30d531236299863a71e0362e29d41e1c032eec13220f27c3142abd3c2b",
+              "patches": {
+                "deadsync-roll-clock.patch": "73b55090053455a882b64fc7533b23aeb4de8d15429e2a0bfde2843b817b489c",
+                "deadsync-gc-dead-keys.patch": "a1733b86ef58f3a73910d77ce13be851ea9c9de3d8fc60ae229f58a07a35b204",
+                "deadsync-r1b.patch": "49e984bb0c211724f7c14ba0f5f182fd1859766d111e697e464de311289f5d6e"
+              }
+            },
+            "pause_patch_sha256": "56c3862be95f2822ee4842db7b8b4f0b1685dbd120d99abac4b486ed5e9fb2b3",
+            "runner_sha256": "813683fbc34524c3afd97902f2b17cc89390d63ed74e9a2e7809c28e68d76984",
+            "checks": [
+              [
+                "-p",
+                "deadlib-audio-core",
+                "-p",
+                "deadsync-audio-stream"
+              ],
+              [
+                "-p",
+                "deadsync-gameplay",
+                "--lib"
+              ],
+              [
+                "-p",
+                "deadsync-song-lua",
+                "--features",
+                "test-support",
+                "--test",
+                "top_screen"
+              ],
+              [
+                "-p",
+                "deadsync-song-lua",
+                "--features",
+                "test-support",
+                "--test",
+                "unit_live",
+                "pause"
+              ],
+              [
+                "-p",
+                "deadsync-song-lua",
+                "--features",
+                "test-support",
+                "--test",
+                "live_gameplay"
+              ]
+            ]
+          },
+          "selection_source": {
+            "harness_commit": "11a316a2c734bc65ff609a7c85146003f9607a93",
+            "deadsync_base": "abd23a1b93ecf12b24e84e26aff47ae57d23edf0",
+            "deadsync_selector_commit": "pending validation",
+            "patch_sha256": {
+              "deadsync.patch": "d1e46e991eb8d90f3cda662f6f772b477dfabb759340a9a7debd407c91c47f72",
+              "harness.patch": "a455f6adc4a37236f9ce102e08196d6058a71e5cf276df9bd5a2d0d5234b1041"
+            }
+          },
+          "selection_followup_source": {
+            "recorded_at": "2026-11-16T02:47:29.673612+00:00",
+            "harness_commit": "01a7fea557f6db3b31369a602d843d1eba8f5a34",
+            "harness_version": "0.1.100",
+            "deadsync_base_commit": "a9d2c72071510ca9fba91bdd2621bae8208c34aa",
+            "deadsync_styles_commit": "pending validation",
+            "patches": {
+              "harness-followup.patch": "c0136d78ed1143b94d27103e7628132c85bfb9e0387f66a512fb18f9ac1cd948",
+              "deadsync-styles.patch": "0e6300ac7f290b0ee5beb7c340d87b43a34b92d56e946ebca3a136e030847fdd"
+            }
+          },
+          "patches": {
+            "harness-followup.patch": "c0136d78ed1143b94d27103e7628132c85bfb9e0387f66a512fb18f9ac1cd948",
+            "deadsync-styles.patch": "0e6300ac7f290b0ee5beb7c340d87b43a34b92d56e946ebca3a136e030847fdd"
+          },
+          "harness_sha256": "e454ac24ac7b18b4a717fe500ee264ac3290b3d7fe7ace79e694241de085bb8e",
+          "runner_sha256": "c1e719ab0f4604f70133378a799d4e3aeab86b5a68a784a8f0a80272fe14a182"
+        },
+        "source": {
+          "deadsync_base": "209e1729c17c8fbe02948e0dcf283e9113e23f99",
+          "patch_sha256": "9f5ee4fb4cfa49a81e633e52d94e87ba09472295caeba4a3b96085f5eaae19fe",
+          "change": "Accept the retained game-qualified pump style at the production gameplay handoff; test all five pump styles."
+        },
+        "patch_sha256": "9f5ee4fb4cfa49a81e633e52d94e87ba09472295caeba4a3b96085f5eaae19fe",
+        "runner_sha256": "613bd0c39419bed5ba906f44fd383017b918fd874994021d23ca6ebc7b04a0a3"
+      },
+      "source": {
+        "recorded_at": "2026-11-16T03:19:56.016408+00:00",
+        "base": "209e1729c17c8fbe02948e0dcf283e9113e23f99",
+        "patch_sha256": "625fb8598fae5755e18177b082cc50171509bfaa4aab44446df7a2beefa73766",
+        "command": "cargo test --locked --release -p deadsync-song-lua --features test-support --test game_state",
+        "platform": "Windows",
+        "passed": 15,
+        "failed": 0,
+        "seconds": 0.52,
+        "build_seconds": 268,
+        "binary_sha256": "c050b245cad1769db5de520cd59d9b5fa1517b8459382c02ec32a0331b1623f5",
+        "sources": {
+          "crates/deadsync-song-lua/src/managers/game_state.rs": "e4e271e9ff3522c03ba1becb08f26836489b41dc643613b7ca4f09d86abfd958",
+          "crates/deadsync-song-lua/tests/game_state.rs": "d5609a632b8ab251cc541608a62c3adf29ea49f65c105f20b857a43f94a4e273"
+        },
+        "native_replay": "pending",
+        "commit": "d10b5796933ff9f208de6c4c18cf376e8290d35c"
+      },
+      "patch_sha256": "625fb8598fae5755e18177b082cc50171509bfaa4aab44446df7a2beefa73766",
+      "runner_sha256": "4bd87a05f51ef60ac48f83b66bf0c47d175e30790adfbb738ff11a983a467d4f"
+    },
+    "local_evidence": "collected/1401/pass3-pump-game-results/style-pump-double-game/result.json",
+    "acceptance_basis": "full replay of implemented comparisons",
+    "production_parity_proven": false
+  },
+  {
+    "id": "style-pump-single-game",
+    "harness_version": "0.1.100",
+    "archive": "1ed96311a5a132a8fd50d6697c8c8dc6091b08489b54a4dd3671a580c5b5d119.tar.zst",
+    "bytes": 107737659,
+    "sha256": "1ed96311a5a132a8fd50d6697c8c8dc6091b08489b54a4dd3671a580c5b5d119",
+    "uncompressed_sha256": "38ee6cd193a27aeeef8c8598cbb256e972aaf2e67d1159c935d75be770905244",
+    "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+    "source_snapshot": {
+      "baseline": {
+        "baseline": {
+          "baseline": {
+            "baseline": {
+              "baseline": {
+                "source": {
+                  "deadsync": {
+                    "revision": "bdacd7d389a76c10b95df81a8f6b93cde9556ec5",
+                    "directory": "/opt/song-lua-audit/deadsync-pass3"
+                  },
+                  "harness": {
+                    "revision": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+                    "directory": "/opt/song-lua-audit/harness-pass3"
+                  },
+                  "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+                },
+                "runner": "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+                "sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+                "symbols": true,
+                "frame_pointers": true,
+                "profile": "release; debug=1; strip=none; lto=false; codegen-units=16",
+                "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+                "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
+              },
+              "runner_sha256": "618e1c30d531236299863a71e0362e29d41e1c032eec13220f27c3142abd3c2b",
+              "patches": {
+                "deadsync-roll-clock.patch": "73b55090053455a882b64fc7533b23aeb4de8d15429e2a0bfde2843b817b489c",
+                "deadsync-gc-dead-keys.patch": "a1733b86ef58f3a73910d77ce13be851ea9c9de3d8fc60ae229f58a07a35b204",
+                "deadsync-r1b.patch": "49e984bb0c211724f7c14ba0f5f182fd1859766d111e697e464de311289f5d6e"
+              }
+            },
+            "pause_patch_sha256": "56c3862be95f2822ee4842db7b8b4f0b1685dbd120d99abac4b486ed5e9fb2b3",
+            "runner_sha256": "813683fbc34524c3afd97902f2b17cc89390d63ed74e9a2e7809c28e68d76984",
+            "checks": [
+              [
+                "-p",
+                "deadlib-audio-core",
+                "-p",
+                "deadsync-audio-stream"
+              ],
+              [
+                "-p",
+                "deadsync-gameplay",
+                "--lib"
+              ],
+              [
+                "-p",
+                "deadsync-song-lua",
+                "--features",
+                "test-support",
+                "--test",
+                "top_screen"
+              ],
+              [
+                "-p",
+                "deadsync-song-lua",
+                "--features",
+                "test-support",
+                "--test",
+                "unit_live",
+                "pause"
+              ],
+              [
+                "-p",
+                "deadsync-song-lua",
+                "--features",
+                "test-support",
+                "--test",
+                "live_gameplay"
+              ]
+            ]
+          },
+          "selection_source": {
+            "harness_commit": "11a316a2c734bc65ff609a7c85146003f9607a93",
+            "deadsync_base": "abd23a1b93ecf12b24e84e26aff47ae57d23edf0",
+            "deadsync_selector_commit": "pending validation",
+            "patch_sha256": {
+              "deadsync.patch": "d1e46e991eb8d90f3cda662f6f772b477dfabb759340a9a7debd407c91c47f72",
+              "harness.patch": "a455f6adc4a37236f9ce102e08196d6058a71e5cf276df9bd5a2d0d5234b1041"
+            }
+          },
+          "selection_followup_source": {
+            "recorded_at": "2026-11-16T02:47:29.673612+00:00",
+            "harness_commit": "01a7fea557f6db3b31369a602d843d1eba8f5a34",
+            "harness_version": "0.1.100",
+            "deadsync_base_commit": "a9d2c72071510ca9fba91bdd2621bae8208c34aa",
+            "deadsync_styles_commit": "pending validation",
+            "patches": {
+              "harness-followup.patch": "c0136d78ed1143b94d27103e7628132c85bfb9e0387f66a512fb18f9ac1cd948",
+              "deadsync-styles.patch": "0e6300ac7f290b0ee5beb7c340d87b43a34b92d56e946ebca3a136e030847fdd"
+            }
+          },
+          "patches": {
+            "harness-followup.patch": "c0136d78ed1143b94d27103e7628132c85bfb9e0387f66a512fb18f9ac1cd948",
+            "deadsync-styles.patch": "0e6300ac7f290b0ee5beb7c340d87b43a34b92d56e946ebca3a136e030847fdd"
+          },
+          "harness_sha256": "e454ac24ac7b18b4a717fe500ee264ac3290b3d7fe7ace79e694241de085bb8e",
+          "runner_sha256": "c1e719ab0f4604f70133378a799d4e3aeab86b5a68a784a8f0a80272fe14a182"
+        },
+        "source": {
+          "deadsync_base": "209e1729c17c8fbe02948e0dcf283e9113e23f99",
+          "patch_sha256": "9f5ee4fb4cfa49a81e633e52d94e87ba09472295caeba4a3b96085f5eaae19fe",
+          "change": "Accept the retained game-qualified pump style at the production gameplay handoff; test all five pump styles."
+        },
+        "patch_sha256": "9f5ee4fb4cfa49a81e633e52d94e87ba09472295caeba4a3b96085f5eaae19fe",
+        "runner_sha256": "613bd0c39419bed5ba906f44fd383017b918fd874994021d23ca6ebc7b04a0a3"
+      },
+      "source": {
+        "recorded_at": "2026-11-16T03:19:56.016408+00:00",
+        "base": "209e1729c17c8fbe02948e0dcf283e9113e23f99",
+        "patch_sha256": "625fb8598fae5755e18177b082cc50171509bfaa4aab44446df7a2beefa73766",
+        "command": "cargo test --locked --release -p deadsync-song-lua --features test-support --test game_state",
+        "platform": "Windows",
+        "passed": 15,
+        "failed": 0,
+        "seconds": 0.52,
+        "build_seconds": 268,
+        "binary_sha256": "c050b245cad1769db5de520cd59d9b5fa1517b8459382c02ec32a0331b1623f5",
+        "sources": {
+          "crates/deadsync-song-lua/src/managers/game_state.rs": "e4e271e9ff3522c03ba1becb08f26836489b41dc643613b7ca4f09d86abfd958",
+          "crates/deadsync-song-lua/tests/game_state.rs": "d5609a632b8ab251cc541608a62c3adf29ea49f65c105f20b857a43f94a4e273"
+        },
+        "native_replay": "pending",
+        "commit": "d10b5796933ff9f208de6c4c18cf376e8290d35c"
+      },
+      "patch_sha256": "625fb8598fae5755e18177b082cc50171509bfaa4aab44446df7a2beefa73766",
+      "runner_sha256": "4bd87a05f51ef60ac48f83b66bf0c47d175e30790adfbb738ff11a983a467d4f"
+    },
+    "local_evidence": "collected/1401/pass3-pump-game-results/style-pump-single-game/result.json",
+    "acceptance_basis": "full replay of implemented comparisons",
+    "production_parity_proven": false
+  },
+  {
+    "id": "style-pump-versus-game",
+    "harness_version": "0.1.100",
+    "archive": "3e4bf63811d213e3d9ee9d4b8f97d5249660df63332fef0e7f5ddb9a8bfceb0f.tar.zst",
+    "bytes": 107738102,
+    "sha256": "3e4bf63811d213e3d9ee9d4b8f97d5249660df63332fef0e7f5ddb9a8bfceb0f",
+    "uncompressed_sha256": "45f9baaee8d49f2fd148b7074e218a4804a37beed1d6b72f949835ded2eada7b",
+    "source_simfile": "__pass3_controls/styles/pump/control.ssc",
+    "source_snapshot": {
+      "baseline": {
+        "baseline": {
+          "baseline": {
+            "baseline": {
+              "baseline": {
+                "source": {
+                  "deadsync": {
+                    "revision": "bdacd7d389a76c10b95df81a8f6b93cde9556ec5",
+                    "directory": "/opt/song-lua-audit/deadsync-pass3"
+                  },
+                  "harness": {
+                    "revision": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+                    "directory": "/opt/song-lua-audit/harness-pass3"
+                  },
+                  "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+                },
+                "runner": "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+                "sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+                "symbols": true,
+                "frame_pointers": true,
+                "profile": "release; debug=1; strip=none; lto=false; codegen-units=16",
+                "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+                "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
+              },
+              "runner_sha256": "618e1c30d531236299863a71e0362e29d41e1c032eec13220f27c3142abd3c2b",
+              "patches": {
+                "deadsync-roll-clock.patch": "73b55090053455a882b64fc7533b23aeb4de8d15429e2a0bfde2843b817b489c",
+                "deadsync-gc-dead-keys.patch": "a1733b86ef58f3a73910d77ce13be851ea9c9de3d8fc60ae229f58a07a35b204",
+                "deadsync-r1b.patch": "49e984bb0c211724f7c14ba0f5f182fd1859766d111e697e464de311289f5d6e"
+              }
+            },
+            "pause_patch_sha256": "56c3862be95f2822ee4842db7b8b4f0b1685dbd120d99abac4b486ed5e9fb2b3",
+            "runner_sha256": "813683fbc34524c3afd97902f2b17cc89390d63ed74e9a2e7809c28e68d76984",
+            "checks": [
+              [
+                "-p",
+                "deadlib-audio-core",
+                "-p",
+                "deadsync-audio-stream"
+              ],
+              [
+                "-p",
+                "deadsync-gameplay",
+                "--lib"
+              ],
+              [
+                "-p",
+                "deadsync-song-lua",
+                "--features",
+                "test-support",
+                "--test",
+                "top_screen"
+              ],
+              [
+                "-p",
+                "deadsync-song-lua",
+                "--features",
+                "test-support",
+                "--test",
+                "unit_live",
+                "pause"
+              ],
+              [
+                "-p",
+                "deadsync-song-lua",
+                "--features",
+                "test-support",
+                "--test",
+                "live_gameplay"
+              ]
+            ]
+          },
+          "selection_source": {
+            "harness_commit": "11a316a2c734bc65ff609a7c85146003f9607a93",
+            "deadsync_base": "abd23a1b93ecf12b24e84e26aff47ae57d23edf0",
+            "deadsync_selector_commit": "pending validation",
+            "patch_sha256": {
+              "deadsync.patch": "d1e46e991eb8d90f3cda662f6f772b477dfabb759340a9a7debd407c91c47f72",
+              "harness.patch": "a455f6adc4a37236f9ce102e08196d6058a71e5cf276df9bd5a2d0d5234b1041"
+            }
+          },
+          "selection_followup_source": {
+            "recorded_at": "2026-11-16T02:47:29.673612+00:00",
+            "harness_commit": "01a7fea557f6db3b31369a602d843d1eba8f5a34",
+            "harness_version": "0.1.100",
+            "deadsync_base_commit": "a9d2c72071510ca9fba91bdd2621bae8208c34aa",
+            "deadsync_styles_commit": "pending validation",
+            "patches": {
+              "harness-followup.patch": "c0136d78ed1143b94d27103e7628132c85bfb9e0387f66a512fb18f9ac1cd948",
+              "deadsync-styles.patch": "0e6300ac7f290b0ee5beb7c340d87b43a34b92d56e946ebca3a136e030847fdd"
+            }
+          },
+          "patches": {
+            "harness-followup.patch": "c0136d78ed1143b94d27103e7628132c85bfb9e0387f66a512fb18f9ac1cd948",
+            "deadsync-styles.patch": "0e6300ac7f290b0ee5beb7c340d87b43a34b92d56e946ebca3a136e030847fdd"
+          },
+          "harness_sha256": "e454ac24ac7b18b4a717fe500ee264ac3290b3d7fe7ace79e694241de085bb8e",
+          "runner_sha256": "c1e719ab0f4604f70133378a799d4e3aeab86b5a68a784a8f0a80272fe14a182"
+        },
+        "source": {
+          "deadsync_base": "209e1729c17c8fbe02948e0dcf283e9113e23f99",
+          "patch_sha256": "9f5ee4fb4cfa49a81e633e52d94e87ba09472295caeba4a3b96085f5eaae19fe",
+          "change": "Accept the retained game-qualified pump style at the production gameplay handoff; test all five pump styles."
+        },
+        "patch_sha256": "9f5ee4fb4cfa49a81e633e52d94e87ba09472295caeba4a3b96085f5eaae19fe",
+        "runner_sha256": "613bd0c39419bed5ba906f44fd383017b918fd874994021d23ca6ebc7b04a0a3"
+      },
+      "source": {
+        "recorded_at": "2026-11-16T03:19:56.016408+00:00",
+        "base": "209e1729c17c8fbe02948e0dcf283e9113e23f99",
+        "patch_sha256": "625fb8598fae5755e18177b082cc50171509bfaa4aab44446df7a2beefa73766",
+        "command": "cargo test --locked --release -p deadsync-song-lua --features test-support --test game_state",
+        "platform": "Windows",
+        "passed": 15,
+        "failed": 0,
+        "seconds": 0.52,
+        "build_seconds": 268,
+        "binary_sha256": "c050b245cad1769db5de520cd59d9b5fa1517b8459382c02ec32a0331b1623f5",
+        "sources": {
+          "crates/deadsync-song-lua/src/managers/game_state.rs": "e4e271e9ff3522c03ba1becb08f26836489b41dc643613b7ca4f09d86abfd958",
+          "crates/deadsync-song-lua/tests/game_state.rs": "d5609a632b8ab251cc541608a62c3adf29ea49f65c105f20b857a43f94a4e273"
+        },
+        "native_replay": "pending",
+        "commit": "d10b5796933ff9f208de6c4c18cf376e8290d35c"
+      },
+      "patch_sha256": "625fb8598fae5755e18177b082cc50171509bfaa4aab44446df7a2beefa73766",
+      "runner_sha256": "4bd87a05f51ef60ac48f83b66bf0c47d175e30790adfbb738ff11a983a467d4f"
+    },
+    "local_evidence": "collected/1401/pass3-pump-game-results/style-pump-versus-game/result.json",
+    "acceptance_basis": "full replay of implemented comparisons",
+    "production_parity_proven": false
   }
 ]
