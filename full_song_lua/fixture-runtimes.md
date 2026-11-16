@@ -100,6 +100,24 @@ cargo test --release --test full_song_lua -- --jobs 1 d09cd14d313b9cb6 301452e34
 ```
 <!-- routine-stats-runtimes:end -->
 
+<!-- score-redraw-runtimes:start -->
+## Score redraw and formatting controls
+
+These are saved measurements from the score parity validation, not new runs made for this guide. The three fresh 0.1.104 controls passed on the eight-vCPU worker. Replay excludes builds and decompression; the configured replay cap was 6 GiB.
+
+| Control | Replay | Native capture | Accepted archive selector |
+| --- | ---: | ---: | --- |
+| score-format | 3.6s | 11.2s | 3ffb9f893a7f16c8 |
+| score-queue-v2 | 3.5s | 11.6s | d1590685c939b0c4 |
+| score-redraw-manual | 3.5s | 13.0s | 6bd09448fb3818c4 |
+
+Use `score-redraw-manual` for score text, deferred updates and authored tween interactions; `score-queue-v2` for judgment bursts; and `score-format` for numeric conversion and formatting. See the [full evidence and coverage limits](proxmox-pass3-2026-11-16/score-redraw/README.md).
+
+```powershell
+cargo test --release --test full_song_lua -- --jobs 1 3ffb9f893a7f16c8 d1590685c939b0c4 6bd09448fb3818c4
+```
+<!-- score-redraw-runtimes:end -->
+
 ## Choosing what to run
 
 1. For a DeadSync-only change, replay existing accepted archives first. Native recapture is needed when changing the harness, native engine, capture profile, or the behavior the existing trace observes.

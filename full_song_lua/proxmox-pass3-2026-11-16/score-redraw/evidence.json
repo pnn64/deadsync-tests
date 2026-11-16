@@ -1,0 +1,1022 @@
+[
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-queue-baseline/score-queue/result.json",
+    "local": "pass3-native-score-queue-baseline/score-queue/result.json",
+    "bytes": 16374,
+    "sha256": "9a781ae9889b6fcb0cdc332c54bf9df02fbef8f628e1e08b130b0605b3b0d1f7"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-queue-baseline/score-queue/native.json.zst",
+    "local": "pass3-native-score-queue-baseline/score-queue/native.json.zst",
+    "bytes": 42897,
+    "sha256": "4440cccefd18fbbc346124d2baa3a8f9e3814861ca875737a04f15792d59936c"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-queue-baseline/score-queue/capture.log",
+    "local": "pass3-native-score-queue-baseline/score-queue/capture.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-queue-baseline/score-queue/capture-service.log",
+    "local": "pass3-native-score-queue-baseline/score-queue/capture-service.log",
+    "bytes": 880,
+    "sha256": "289dcefeb34565eaf19d7348ea40d11f9f15e7939cacedcd38c9944dca90d5f3"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-queue-v2-baseline/score-queue-v2/result.json",
+    "local": "pass3-native-score-queue-v2-baseline/score-queue-v2/result.json",
+    "bytes": 18243,
+    "sha256": "2bbe075d9248350d43144d124b0b26835b9966f28947c8dab803a5fe6225e319"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-queue-v2-baseline/score-queue-v2/native-diagnostics.tar.zst",
+    "local": "pass3-native-score-queue-v2-baseline/score-queue-v2/native-diagnostics.tar.zst",
+    "bytes": 53248,
+    "sha256": "c8a435e12fcf8699d4ec69575e0be827a761f107f5b2f9c5fba9c41fbc369927"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-queue-v2-baseline/score-queue-v2/capture.log",
+    "local": "pass3-native-score-queue-v2-baseline/score-queue-v2/capture.log",
+    "bytes": 464,
+    "sha256": "bf8e5b5d4ce47cedea386247d5cbd8679f8c596e0b0253f82f3d543f1181bc48"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-queue-v2-baseline/score-queue-v2/capture-service.log",
+    "local": "pass3-native-score-queue-v2-baseline/score-queue-v2/capture-service.log",
+    "bytes": 1057,
+    "sha256": "0dccf43fa6ec4cb9c62e09bd3293d62a13938a77d4686cd099786a51ff336070"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-candidate/source-proof.json",
+    "local": "pass3-native-score-redraw-candidate/source-proof.json",
+    "bytes": 16675,
+    "sha256": "69f698c84df48ab75431d3346938ef0323b9f9da52226b691e324a51646f457a"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-candidate/score-queue-v2/result.json",
+    "local": "pass3-native-score-redraw-candidate/score-queue-v2/result.json",
+    "bytes": 29188,
+    "sha256": "b1ef74370b56dd5f6def35765c5d15e71887c13b6c4e678d991dbbba619c8573"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-candidate/score-queue-v2/native.json.zst",
+    "local": "pass3-native-score-redraw-candidate/score-queue-v2/native.json.zst",
+    "bytes": 41911,
+    "sha256": "28cade93d008ab84497487c89fee754fe1ea003fe2773465398b7333186086fb"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-candidate/score-queue-v2/capture.log",
+    "local": "pass3-native-score-redraw-candidate/score-queue-v2/capture.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-candidate/score-queue-v2/capture-service.log",
+    "local": "pass3-native-score-redraw-candidate/score-queue-v2/capture-service.log",
+    "bytes": 1954,
+    "sha256": "0dee37905ac7a93b6c00efb5a660c35fcb134eba8306bc2d2702a164d792b68e"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-candidate/score-redraw/result.json",
+    "local": "pass3-native-score-redraw-candidate/score-redraw/result.json",
+    "bytes": 93579,
+    "sha256": "d4139448ae54a7f7cd68f82c47e68cc4a48ef8a2c08c15887c9b80355e1b33c7"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-candidate/score-redraw/native-diagnostics.tar.zst",
+    "local": "pass3-native-score-redraw-candidate/score-redraw/native-diagnostics.tar.zst",
+    "bytes": 69262,
+    "sha256": "d7dcc5fcdda050d0321a3ef57f127a4c054c9d960fa6157ba3c012560d32893f"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-candidate/score-redraw/capture.log",
+    "local": "pass3-native-score-redraw-candidate/score-redraw/capture.log",
+    "bytes": 250,
+    "sha256": "37764d030820f928b95d5897c82502a78e51d63b8d9e6e8936e083db5b59ced0"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-candidate/score-redraw/capture-service.log",
+    "local": "pass3-native-score-redraw-candidate/score-redraw/capture-service.log",
+    "bytes": 1044,
+    "sha256": "f9e986bdab4ea772be1c040e8d100ed89521b44cfe357504d95a817adc37d99b"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-manual/score-redraw-manual/result.json",
+    "local": "pass3-native-score-redraw-manual/score-redraw-manual/result.json",
+    "bytes": 29609,
+    "sha256": "eabeab3cdc997fd4757b7086045274015c2cad4028ccd1edb4f9dd2d5c61e121"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-manual/score-redraw-manual/native.json.zst",
+    "local": "pass3-native-score-redraw-manual/score-redraw-manual/native.json.zst",
+    "bytes": 55576,
+    "sha256": "4253aedf98b422ef56df8e06c2094eb6aa9ee8a873cb66556c4f4bac08775165"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-manual/score-redraw-manual/capture.log",
+    "local": "pass3-native-score-redraw-manual/score-redraw-manual/capture.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-manual/score-redraw-manual/capture-service.log",
+    "local": "pass3-native-score-redraw-manual/score-redraw-manual/capture-service.log",
+    "bytes": 1047,
+    "sha256": "c746f10dbde099a80115c10ba659ae203eb4a823229d63d36ce3b887876d3e22"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-theme-v2/source-proof.json",
+    "local": "pass3-native-score-redraw-theme-v2/source-proof.json",
+    "bytes": 16960,
+    "sha256": "85d933395478e4477f548a8a52ac6ebffccd0cc037d3cd7600e41aacae547440"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-theme-v2/score-queue-v2/result.json",
+    "local": "pass3-native-score-redraw-theme-v2/score-queue-v2/result.json",
+    "bytes": 30495,
+    "sha256": "62a21cabe2f4f2d5989e8ba1550e662ccf118ab89434889701baa98671ff671b"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-theme-v2/score-queue-v2/native.json.zst",
+    "local": "pass3-native-score-redraw-theme-v2/score-queue-v2/native.json.zst",
+    "bytes": 42107,
+    "sha256": "5423f4a98fb47c828759c31259c9618c9913661393ffeb54600837e54f94faa3"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-theme-v2/score-queue-v2/capture.log",
+    "local": "pass3-native-score-redraw-theme-v2/score-queue-v2/capture.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-theme-v2/score-queue-v2/capture-service.log",
+    "local": "pass3-native-score-redraw-theme-v2/score-queue-v2/capture-service.log",
+    "bytes": 2850,
+    "sha256": "2a900b2aefb8508577fad4d093719e4cae569fd5cebfcb0c6d20c82c7ba823e3"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-theme-v2/score-redraw-manual/result.json",
+    "local": "pass3-native-score-redraw-theme-v2/score-redraw-manual/result.json",
+    "bytes": 30960,
+    "sha256": "4667914fb1a9d4cbe704d549c7c83ad0d20fd37939449a474945dedd32703687"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-theme-v2/score-redraw-manual/native.json.zst",
+    "local": "pass3-native-score-redraw-theme-v2/score-redraw-manual/native.json.zst",
+    "bytes": 55897,
+    "sha256": "9f07fc272ae99d89fc66acbc9738247e73227d55e10715ada43d79893c441544"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-theme-v2/score-redraw-manual/capture.log",
+    "local": "pass3-native-score-redraw-theme-v2/score-redraw-manual/capture.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-theme-v2/score-redraw-manual/capture-service.log",
+    "local": "pass3-native-score-redraw-theme-v2/score-redraw-manual/capture-service.log",
+    "bytes": 2096,
+    "sha256": "8176d3f1bdd489d5f05ef1899322df20acc51540f0a26ce7d07ce4658e93c203"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-format/score-format/result.json",
+    "local": "pass3-native-score-format/score-format/result.json",
+    "bytes": 29605,
+    "sha256": "13659f211beddedc6638ec471ad5176c771a0a3242211b58e2e172bed2835ed6"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-format/score-format/native.json.zst",
+    "local": "pass3-native-score-format/score-format/native.json.zst",
+    "bytes": 41264,
+    "sha256": "abb07dc1e192f41b57d06d672a476fd81bf06f6d53b9b7f50e449496ac7517a9"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-format/score-format/capture.log",
+    "local": "pass3-native-score-format/score-format/capture.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-format/score-format/capture-service.log",
+    "local": "pass3-native-score-format/score-format/capture-service.log",
+    "bytes": 877,
+    "sha256": "1a694ca970ff210bae30b0b74195e9da384c784580f233709039d9a165f727ca"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-baseline-results/score-redraw-manual/result.json",
+    "local": "pass3-score-redraw-baseline-results/score-redraw-manual/result.json",
+    "bytes": 45959,
+    "sha256": "e1762be76ce5b6391151d1132cec74cac3d9b77ce6723c95226294a53b6bd61d"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-baseline-results/score-redraw-manual/report.json.zst",
+    "local": "pass3-score-redraw-baseline-results/score-redraw-manual/report.json.zst",
+    "bytes": 3341,
+    "sha256": "79bdb8d269e2470e9c4636e85579b36d7cd544518ec2cb93831a349c29efd2b5"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-baseline-results/score-redraw-manual/archive.log",
+    "local": "pass3-score-redraw-baseline-results/score-redraw-manual/archive.log",
+    "bytes": 196,
+    "sha256": "b2cf022e1d1715be5967882b2f558d27c377795c0ff8ab86f4a8024f6b37b741"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-baseline-results/score-redraw-manual/archive-service.log",
+    "local": "pass3-score-redraw-baseline-results/score-redraw-manual/archive-service.log",
+    "bytes": 772,
+    "sha256": "2ed9e750c9a98a58f1ffc86dad155d2fddd48b27f7382bf0320f0fcbeee4e809"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-baseline-results/score-redraw-manual/replay.log",
+    "local": "pass3-score-redraw-baseline-results/score-redraw-manual/replay.log",
+    "bytes": 2206,
+    "sha256": "1f113b3101fb7c121f3e9e1c8ff706c46f9d6d11c194e9a06c0b41d0de1b18bc"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-baseline-results/score-redraw-manual/replay-service.log",
+    "local": "pass3-score-redraw-baseline-results/score-redraw-manual/replay-service.log",
+    "bytes": 923,
+    "sha256": "9ba01258051ca2bb83cde897da52f18fdb9973204f41c041f7196e8c465bf942"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build/source-proof.json",
+    "local": "pass3-score-redraw-build/source-proof.json",
+    "bytes": 15243,
+    "sha256": "0f4f7fdfea422f74b018943142de29ce58bf17f83e4e4db8f2cd2289543e0edd"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build/score-tests.log",
+    "local": "pass3-score-redraw-build/score-tests.log",
+    "bytes": 1122,
+    "sha256": "a48aeffdc0bee9034162d432060343a930a4ca201ccc430cb9684a370ef38d0a"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-resume/source-proof.json",
+    "local": "pass3-score-redraw-build-resume/source-proof.json",
+    "bytes": 18286,
+    "sha256": "24dad019cb896fb522302ee2f2b598286b16d9ec59e86cde8fa0494b2b08df89"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-resume/score-tests.log",
+    "local": "pass3-score-redraw-build-resume/score-tests.log",
+    "bytes": 1787,
+    "sha256": "3c1e7b4a3f969830457f07c219df51004541e33136cb083fa64341bbe27673a0"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-feature/source-proof.json",
+    "local": "pass3-score-redraw-build-feature/source-proof.json",
+    "bytes": 21492,
+    "sha256": "eb438b42ffceaea336a98c26a1b588f92fe70cb679b5cc81628358ebba460488"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-feature/build-proof.json",
+    "local": "pass3-score-redraw-build-feature/build-proof.json",
+    "bytes": 21632,
+    "sha256": "08ddcb009129fe57f391ddc03eb42c03b8b801e6e14bdc71ec9d845f27cae57f"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-feature/score-tests.log",
+    "local": "pass3-score-redraw-build-feature/score-tests.log",
+    "bytes": 1097,
+    "sha256": "d68dc0747a05cb14edb8e0b64825ea3f2b04783de14334d5d53e341d1777bafb"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-feature/native-gameplay-tests.log",
+    "local": "pass3-score-redraw-build-feature/native-gameplay-tests.log",
+    "bytes": 8790,
+    "sha256": "c932b6a57b4cffffb66460d5f07908affcd8154168a799af3783c43e74c8b131"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-format/source-proof.json",
+    "local": "pass3-score-redraw-build-format/source-proof.json",
+    "bytes": 25149,
+    "sha256": "e69d382c27b518f0fe0aafcf248c1713840be49f2f9e1eed598a6e23cfad05db"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-format/score-tests.log",
+    "local": "pass3-score-redraw-build-format/score-tests.log",
+    "bytes": 3760,
+    "sha256": "4a77167b94b2777dbb5e05985901dab214fe3ce1456d3db2904670569172d823"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-compat-audit/before-score-fix.log",
+    "local": "pass3-score-redraw-compat-audit/before-score-fix.log",
+    "bytes": 1942,
+    "sha256": "d3f904ebc069d3bf1619acd566b4d6b66ab94bc0d0bb9fc6e088efacbd5277fb"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-compat-audit/candidate-compat.log",
+    "local": "pass3-score-redraw-compat-audit/candidate-compat.log",
+    "bytes": 3191,
+    "sha256": "f894da83db9263faa8007f215c128ab621ef4819041a1e4fa9f01b17c66ba99e"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-compat-audit/audit.json",
+    "local": "pass3-score-redraw-compat-audit/audit.json",
+    "bytes": 2297,
+    "sha256": "836903037d70d676463ab2ba70ec51aeae89ef5aa399e753871c049ae6aa35b0"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-final/source-proof.json",
+    "local": "pass3-score-redraw-build-final/source-proof.json",
+    "bytes": 31139,
+    "sha256": "393d566143643bb0db79006a155e2f898e975eb30a5c3a263dce3a45932b96e7"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-final/build-proof.json",
+    "local": "pass3-score-redraw-build-final/build-proof.json",
+    "bytes": 32763,
+    "sha256": "db34caa3bac3e47672518048367477de19a102a9c0802c6d48af35dd37a0f6f0"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-final/score-tests.log",
+    "local": "pass3-score-redraw-build-final/score-tests.log",
+    "bytes": 884,
+    "sha256": "301bab13afa480a87ce2e39718c0d7acc88bfb7b35271438d088e84bfca513a9"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-final/native-gameplay-tests.log",
+    "local": "pass3-score-redraw-build-final/native-gameplay-tests.log",
+    "bytes": 8790,
+    "sha256": "d1aaa4e9dd00ed439275b97f8279b4e4af0e496b6cf11f9c9e4c91a5ea60c98e"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-final/compat-tests.log",
+    "local": "pass3-score-redraw-build-final/compat-tests.log",
+    "bytes": 2878,
+    "sha256": "9a127a36125f6ae75201a8bc884c15d5ec117e6df4ef8c86d75f897dfc43dd60"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-redraw-build-final/validation.json",
+    "local": "pass3-score-redraw-build-final/validation.json",
+    "bytes": 32623,
+    "sha256": "c93e7a2769de783d726a5a18421527b23713db41d0e323d9ec0b01d74b0dcda9"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-harness-final/source-proof.json",
+    "local": "pass3-score-harness-final/source-proof.json",
+    "bytes": 54045,
+    "sha256": "01a1c2ceded88dcd8ee038c9fd7fcf374962dc51c89ef5727f712d89ec8f6f37"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-harness-final/build-proof.json",
+    "local": "pass3-score-harness-final/build-proof.json",
+    "bytes": 54193,
+    "sha256": "e96f2636598b6d9cfc495d23569db9388a688eaa93ba828d891ab170a42e4a00"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-harness-final/unit-tests.log",
+    "local": "pass3-score-harness-final/unit-tests.log",
+    "bytes": 17591,
+    "sha256": "7bee7b13607490344bb6f4be953ae3d45fd8fd9c593562536b2826f8b842f3df"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-harness-final/harness-build.log",
+    "local": "pass3-score-harness-final/harness-build.log",
+    "bytes": 143,
+    "sha256": "b0d920c3533e762458d261204d5dd5597552af8280817bc4af57a0ff8dd1f55c"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/source-proof.json",
+    "local": "pass3-score-final-controls/source-proof.json",
+    "bytes": 88757,
+    "sha256": "1cd23c3ee9609074166a2316ab37ccdaebe466293e6de40047d2cc59f8499792"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/result.json",
+    "local": "pass3-score-final-controls/score-queue-v2/result.json",
+    "bytes": 111585,
+    "sha256": "ca99792f5c64fcd7502339cb2d7afe8b28a56f5cda4fa8927ff8801eca2539df"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/report.json.zst",
+    "local": "pass3-score-final-controls/score-queue-v2/report.json.zst",
+    "bytes": 2501,
+    "sha256": "16a824cb0e36333f75460b7fba8440e8a1a5b4e4c07ced18df54263f819b7e9f"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/capture.log",
+    "local": "pass3-score-final-controls/score-queue-v2/capture.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/capture-service.log",
+    "local": "pass3-score-final-controls/score-queue-v2/capture-service.log",
+    "bytes": 3744,
+    "sha256": "975b003fc7383e5ad6979ec0db9b3a95a55d7787f3866787ad1e9bbf8e599ba2"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/archive.log",
+    "local": "pass3-score-final-controls/score-queue-v2/archive.log",
+    "bytes": 182,
+    "sha256": "0841551dda041c784c9d4e066561c823754c5470ce55d6c0657268b082476c99"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/archive-service.log",
+    "local": "pass3-score-final-controls/score-queue-v2/archive-service.log",
+    "bytes": 729,
+    "sha256": "d1df3c034dfc62beead494565b247f20104327568087b070353847e84216710c"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/replay.log",
+    "local": "pass3-score-final-controls/score-queue-v2/replay.log",
+    "bytes": 1660,
+    "sha256": "48917aeb1bc6e71124a27e7034ce8962c804a0a9424b6c364734fb6b554f0090"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/replay-service.log",
+    "local": "pass3-score-final-controls/score-queue-v2/replay-service.log",
+    "bytes": 701,
+    "sha256": "be2c38962671a12748f7d832e586c2bb1bd00e647e02602ec63ed0b67759f99e"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/pack.log",
+    "local": "pass3-score-final-controls/score-queue-v2/pack.log",
+    "bytes": 173,
+    "sha256": "2b00ecf52787669441843bae50af7ec982ee777e30b5f1035502f9d175acf8ed"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/pack-service.log",
+    "local": "pass3-score-final-controls/score-queue-v2/pack-service.log",
+    "bytes": 773,
+    "sha256": "f9abb11c3b4e694baf0177bb7746c13d2c5b5204d437f480b13edd23f521c787"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/trace/native.json.zst",
+    "local": "pass3-score-final-controls/score-queue-v2/trace/native.json.zst",
+    "bytes": 42717,
+    "sha256": "bf4d721239295e34e45a36fa8c473c7ae9e8a556aba49c389fa1b5b7dcdef6de"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-format/result.json",
+    "local": "pass3-score-final-controls/score-format/result.json",
+    "bytes": 111548,
+    "sha256": "a4c93c6f7e89f6519d6dc215aa58b1a035d407aca983a421449f195842c09f88"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-format/report.json.zst",
+    "local": "pass3-score-final-controls/score-format/report.json.zst",
+    "bytes": 2623,
+    "sha256": "65987f3d8336d768f745d4d9d2b04d5ca6671bbd1586a19df0721999cdd51f86"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-format/capture.log",
+    "local": "pass3-score-final-controls/score-format/capture.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-format/capture-service.log",
+    "local": "pass3-score-final-controls/score-format/capture-service.log",
+    "bytes": 1761,
+    "sha256": "cac67cb75893377085ae92ec60bf1291f3433d6725e20379ee0503bf49f83ac5"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-format/archive.log",
+    "local": "pass3-score-final-controls/score-format/archive.log",
+    "bytes": 180,
+    "sha256": "993159d96d2cf6daf96216c427f38e39ae1eb921b1dc525dc3391f44fd1f467b"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-format/archive-service.log",
+    "local": "pass3-score-final-controls/score-format/archive-service.log",
+    "bytes": 719,
+    "sha256": "011043c7e2248974425495f13a7ab88ff70492872e12a8805f8e75a025e7e99e"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-format/replay.log",
+    "local": "pass3-score-final-controls/score-format/replay.log",
+    "bytes": 1599,
+    "sha256": "c0329f6c8d49a4c091c9068039103ba50212788b67cf0ef520b8eb66e5c6e984"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-format/replay-service.log",
+    "local": "pass3-score-final-controls/score-format/replay-service.log",
+    "bytes": 691,
+    "sha256": "4c3deb8db827668b82e4027fe3720370caef6631166ac546a1d1993e79bacc01"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-format/pack.log",
+    "local": "pass3-score-final-controls/score-format/pack.log",
+    "bytes": 171,
+    "sha256": "17b74d17f147cf16446bda8d1f34ea89c9cce4221a6fc7f87e5fd22d585e8493"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-format/pack-service.log",
+    "local": "pass3-score-final-controls/score-format/pack-service.log",
+    "bytes": 761,
+    "sha256": "0f33c3e9667bb0c788e0c5af0f1c27b2bbe0a26a50d6b87b25c95b3bb0654b4b"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-format/trace/native.json.zst",
+    "local": "pass3-score-final-controls/score-format/trace/native.json.zst",
+    "bytes": 40879,
+    "sha256": "fd6da9fc13d6842bef2549ffb124fa94305810b244f96c89c41286e3283ba93b"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-redraw-manual/result.json",
+    "local": "pass3-score-final-controls/score-redraw-manual/result.json",
+    "bytes": 114192,
+    "sha256": "bdd8cce09192065b4cc499d101bedc1b0a5d07f23752d49327c68936b43e3ec6"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-redraw-manual/report.json.zst",
+    "local": "pass3-score-final-controls/score-redraw-manual/report.json.zst",
+    "bytes": 3322,
+    "sha256": "d6bdfcb7634deec646acd89d48d024893f679a1de7e6e126226f800053bd3070"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-redraw-manual/capture.log",
+    "local": "pass3-score-final-controls/score-redraw-manual/capture.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-redraw-manual/capture-service.log",
+    "local": "pass3-score-final-controls/score-redraw-manual/capture-service.log",
+    "bytes": 3143,
+    "sha256": "84d10d9bc2ce2237d06ca1a5890d2c16084128dc9fc515ef300ee7ba7ac693f2"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-redraw-manual/archive.log",
+    "local": "pass3-score-final-controls/score-redraw-manual/archive.log",
+    "bytes": 187,
+    "sha256": "cd2d34204da72eeeede82d8088d8a6e8d9780d40254a6d65992942cfb357ec1e"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-redraw-manual/archive-service.log",
+    "local": "pass3-score-final-controls/score-redraw-manual/archive-service.log",
+    "bytes": 1526,
+    "sha256": "e4a3ebf1bdddb3e24231b53a74d5f41a62e67eb889b4d49a94de279dec65b56a"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-redraw-manual/replay.log",
+    "local": "pass3-score-final-controls/score-redraw-manual/replay.log",
+    "bytes": 1810,
+    "sha256": "f21fce78d7a6acd286a22f44caac64bd68279a079a1790c158fdb754d395e3f5"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-redraw-manual/replay-service.log",
+    "local": "pass3-score-final-controls/score-redraw-manual/replay-service.log",
+    "bytes": 1649,
+    "sha256": "665a40bf3466f7c21b94f683454aa87d84e25381392d95008a53015a514fe870"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-redraw-manual/pack.log",
+    "local": "pass3-score-final-controls/score-redraw-manual/pack.log",
+    "bytes": 178,
+    "sha256": "b176e56d89284062b1dd06f62d3707c942f99b63f05dabcdc363508dbe66920a"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-redraw-manual/pack-service.log",
+    "local": "pass3-score-final-controls/score-redraw-manual/pack-service.log",
+    "bytes": 803,
+    "sha256": "4d2f009860a37067c9d840500fb923473d544dab4913a4539f6c632fc6d6204b"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-final-controls/score-redraw-manual/trace/native.json.zst",
+    "local": "pass3-score-final-controls/score-redraw-manual/trace/native.json.zst",
+    "bytes": 55572,
+    "sha256": "a15d4aa23540ab5e103e96469422fc039c812a40d6305ed5ef56174100108311"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/source-proof.json",
+    "local": "pass3-score-regressions/source-proof.json",
+    "bytes": 32763,
+    "sha256": "db34caa3bac3e47672518048367477de19a102a9c0802c6d48af35dd37a0f6f0"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/730650ffb42269d8/result.json",
+    "local": "pass3-score-regressions/730650ffb42269d8/result.json",
+    "bytes": 55506,
+    "sha256": "21d9faf4dad11b79baba809bbde33ce3ea9e017fb2c4ff3b82350d289b8c9124"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/730650ffb42269d8/report.json.zst",
+    "local": "pass3-score-regressions/730650ffb42269d8/report.json.zst",
+    "bytes": 802082,
+    "sha256": "db0b42ba534bf83967cc7b87e4afb1d0cfa846babf9d599da716cb78938c842a"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/730650ffb42269d8/replay.log",
+    "local": "pass3-score-regressions/730650ffb42269d8/replay.log",
+    "bytes": 3631,
+    "sha256": "de983b2ed31200889473ebaa6192d9c7ee54f37232a4038e87c32aa41ac907df"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/730650ffb42269d8/replay-service.log",
+    "local": "pass3-score-regressions/730650ffb42269d8/replay-service.log",
+    "bytes": 1420,
+    "sha256": "ff74d1a0f2f552f80ec1a37afb43cd108e78257b52a64fa3dd1983a69f370fb3"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/style-dance-routine/result.json",
+    "local": "pass3-score-regressions/style-dance-routine/result.json",
+    "bytes": 89860,
+    "sha256": "1e0890345e64495951101cf02d6ad7c698dd9e0a5ffe82974a638eb11a10e60e"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/style-dance-routine/report.json.zst",
+    "local": "pass3-score-regressions/style-dance-routine/report.json.zst",
+    "bytes": 3093,
+    "sha256": "ca52ebcd97e6f8435ab7beedf85842a0e66a0b012f33a0c00480160f307419bf"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/style-dance-routine/replay.log",
+    "local": "pass3-score-regressions/style-dance-routine/replay.log",
+    "bytes": 1515,
+    "sha256": "8f9713718eec81e2aebb53cfc24b0833b52ff2fa924cc01a8d34b40b3daa4aea"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/style-dance-routine/replay-service.log",
+    "local": "pass3-score-regressions/style-dance-routine/replay-service.log",
+    "bytes": 3772,
+    "sha256": "be8487aa0fc433fd0ef71c3c5de37f57d74bc140f5658a84cc0e7c5f8d7f8584"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-life-dance/result.json",
+    "local": "pass3-score-regressions/routine-life-dance/result.json",
+    "bytes": 83848,
+    "sha256": "5aebd093b481fa86c0144b2e4f5fcf56897f7c162978401aecc77cac283165d3"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-life-dance/report.json.zst",
+    "local": "pass3-score-regressions/routine-life-dance/report.json.zst",
+    "bytes": 3584,
+    "sha256": "e292427b5ad6b29b035f2455ed8307df4151f9d005a637da3ca1e802b0cd4b35"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-life-dance/replay.log",
+    "local": "pass3-score-regressions/routine-life-dance/replay.log",
+    "bytes": 1796,
+    "sha256": "eef263d2bc1f7d1400f881e0002b490f78125ddf522eda8ae7d8d800dfb58681"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-life-dance/replay-service.log",
+    "local": "pass3-score-regressions/routine-life-dance/replay-service.log",
+    "bytes": 3747,
+    "sha256": "63a8c1cac8fb5111ca8953733de5de4fdf31a354b0f83b7f13e1202b517cda95"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-life-pump/result.json",
+    "local": "pass3-score-regressions/routine-life-pump/result.json",
+    "bytes": 83855,
+    "sha256": "9a02701be6c7fe8d8b63a581b7899e069aebaef319bf9948fef29b089eaa9fe6"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-life-pump/report.json.zst",
+    "local": "pass3-score-regressions/routine-life-pump/report.json.zst",
+    "bytes": 3565,
+    "sha256": "1a7449b1ecb01fe50da8fa999e794f2703035970c663a38e39d5c2816b08b495"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-life-pump/replay.log",
+    "local": "pass3-score-regressions/routine-life-pump/replay.log",
+    "bytes": 1795,
+    "sha256": "3843c83e601c1bc95a7f5bc1264b8fe4a5415eeb51c349831713bda4183e9526"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-life-pump/replay-service.log",
+    "local": "pass3-score-regressions/routine-life-pump/replay-service.log",
+    "bytes": 3720,
+    "sha256": "e9d52d948d284ff9f20e5f4e28bfdc9e027488feb07bfdfb79f27f7056e36107"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-manual-pump/result.json",
+    "local": "pass3-score-regressions/routine-manual-pump/result.json",
+    "bytes": 86864,
+    "sha256": "ea1d3b65fdb6330a6db88d15968bf8c2f76907bb7dc47bc333957ec4f2a190b4"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-manual-pump/report.json.zst",
+    "local": "pass3-score-regressions/routine-manual-pump/report.json.zst",
+    "bytes": 4336,
+    "sha256": "62d23e4aa883fdbfea5a9d430ca4c2a66886043c0c713a0d2764fa42158b9fc5"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-manual-pump/replay.log",
+    "local": "pass3-score-regressions/routine-manual-pump/replay.log",
+    "bytes": 1625,
+    "sha256": "800c7816c1dffc45d97f1c4e501fd2ce8e8574acb01f59c5f804ca346ac9e020"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-manual-pump/replay-service.log",
+    "local": "pass3-score-regressions/routine-manual-pump/replay-service.log",
+    "bytes": 5012,
+    "sha256": "6cb509a4b0e85aa39396cde16bc5eb94dfd91e37d418ee6a4612c266f0a28d55"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-fail-pump/result.json",
+    "local": "pass3-score-regressions/routine-fail-pump/result.json",
+    "bytes": 77414,
+    "sha256": "c1ec6ccc1883530a26c92cbebf6945a5a930f655406c039a29fdafa16d299fcd"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-fail-pump/report.json.zst",
+    "local": "pass3-score-regressions/routine-fail-pump/report.json.zst",
+    "bytes": 5044,
+    "sha256": "82d72970270a921bdfd4ca9b41fe318935f08ae0e245bb75897499bdd7645bdb"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-fail-pump/replay.log",
+    "local": "pass3-score-regressions/routine-fail-pump/replay.log",
+    "bytes": 1680,
+    "sha256": "8395549cf32b8ce7228400f3505be123c6c798e44c6e46e904be0f551b7b8cea"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-fail-pump/replay-service.log",
+    "local": "pass3-score-regressions/routine-fail-pump/replay-service.log",
+    "bytes": 2313,
+    "sha256": "728cd9a00bf5c73831e67e4d7fd8353b29b426f6aab327a9de5652a003443160"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-fail-dance/result.json",
+    "local": "pass3-score-regressions/routine-fail-dance/result.json",
+    "bytes": 77421,
+    "sha256": "48263781bd673b5e57ad28a3114f985c7ee7f0311659539c1f10143a284b58b0"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-fail-dance/report.json.zst",
+    "local": "pass3-score-regressions/routine-fail-dance/report.json.zst",
+    "bytes": 5079,
+    "sha256": "d5eac587eab4253b8e45b51df6a24d64aeb61b62e42e66e0de9e92fe0eb4b6d5"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-fail-dance/replay.log",
+    "local": "pass3-score-regressions/routine-fail-dance/replay.log",
+    "bytes": 1681,
+    "sha256": "b428fe1becd74258da7164643115afa5f5ca26537f0437ed113580b3c005d8c6"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-fail-dance/replay-service.log",
+    "local": "pass3-score-regressions/routine-fail-dance/replay-service.log",
+    "bytes": 2331,
+    "sha256": "ee11dc88a9925d28daf66a521b6563466b9b228aac790145890f797fa986934d"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-manual-dance/result.json",
+    "local": "pass3-score-regressions/routine-manual-dance/result.json",
+    "bytes": 86830,
+    "sha256": "451ff16d6c7cda4f108d0701b402d7f7a61f80c0da2ea2395862347427df5945"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-manual-dance/report.json.zst",
+    "local": "pass3-score-regressions/routine-manual-dance/report.json.zst",
+    "bytes": 4368,
+    "sha256": "0e32aa00bdc35269818019a6e046dcc8ee7d43b5e9031533ee2daac4079948ec"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-manual-dance/replay.log",
+    "local": "pass3-score-regressions/routine-manual-dance/replay.log",
+    "bytes": 1626,
+    "sha256": "cd7e14dd68b394652da83469bc7a587a896c588fda5fe7da4b4c438f6a395da4"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/routine-manual-dance/replay-service.log",
+    "local": "pass3-score-regressions/routine-manual-dance/replay-service.log",
+    "bytes": 5044,
+    "sha256": "1d066e83296000853e528bf671f6bd512bc2ba4721be4091b599b9e261b10001"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/68eda87bf02562c3/result.json",
+    "local": "pass3-score-regressions/68eda87bf02562c3/result.json",
+    "bytes": 55124,
+    "sha256": "4ee7162a091dc8c70c0a30836159b5280027b82ff0af04d6abebf79960c823c1"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/68eda87bf02562c3/report.json.zst",
+    "local": "pass3-score-regressions/68eda87bf02562c3/report.json.zst",
+    "bytes": 785832,
+    "sha256": "0ff50f7e50bb74dd7d9e004a838e7245192355a472ba516f50cc9f9d65614444"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/68eda87bf02562c3/replay.log",
+    "local": "pass3-score-regressions/68eda87bf02562c3/replay.log",
+    "bytes": 3631,
+    "sha256": "cd4f11bfff460dc17f4b49a3c64623742d9d358c6f674d01dce30296b91ffd60"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/68eda87bf02562c3/replay-service.log",
+    "local": "pass3-score-regressions/68eda87bf02562c3/replay-service.log",
+    "bytes": 1420,
+    "sha256": "d292c8003384dc033fc1eff6e62c8fa21668b151b7f7c831acb10e7e5b259866"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/style-pump-routine/result.json",
+    "local": "pass3-score-regressions/style-pump-routine/result.json",
+    "bytes": 89841,
+    "sha256": "125d0e87d89ccbcfeae76d32d771495f82b5ccd3f0e8ed6605ce0ec7c414afee"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/style-pump-routine/report.json.zst",
+    "local": "pass3-score-regressions/style-pump-routine/report.json.zst",
+    "bytes": 3098,
+    "sha256": "18ddd38059e10a92afebe77926da58e5b68f051d74206cb3c0a77975c914bd77"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/style-pump-routine/replay.log",
+    "local": "pass3-score-regressions/style-pump-routine/replay.log",
+    "bytes": 1514,
+    "sha256": "92fbabf00086fde8f6418c67f35c1150882e7469203b938e8e7f1228ca4671be"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-regressions/style-pump-routine/replay-service.log",
+    "local": "pass3-score-regressions/style-pump-routine/replay-service.log",
+    "bytes": 3748,
+    "sha256": "a2ee80ec4ce1d9ea7d0529304a7f5d37a77951ac69bef16fcc91bb644a76e156"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-queue/control.sm",
+    "local": "Songs/__pass3_controls/score-queue/control.sm",
+    "bytes": 156,
+    "sha256": "d0fbb8e691c431cadca4e10af39ea749f6d7964de8c496ddb6688c53a0a6a54d"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-queue/silence.wav",
+    "local": "Songs/__pass3_controls/score-queue/silence.wav",
+    "bytes": 64044,
+    "sha256": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-queue/default.lua",
+    "local": "Songs/__pass3_controls/score-queue/default.lua",
+    "bytes": 311,
+    "sha256": "cb8bed6beb674e78d16c8f69b8063f841df55f0c64302f24625e0526ebd0acaa"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-queue-v2/control.sm",
+    "local": "Songs/__pass3_controls/score-queue-v2/control.sm",
+    "bytes": 156,
+    "sha256": "d0fbb8e691c431cadca4e10af39ea749f6d7964de8c496ddb6688c53a0a6a54d"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-queue-v2/silence.wav",
+    "local": "Songs/__pass3_controls/score-queue-v2/silence.wav",
+    "bytes": 64044,
+    "sha256": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-queue-v2/default.lua",
+    "local": "Songs/__pass3_controls/score-queue-v2/default.lua",
+    "bytes": 304,
+    "sha256": "24c95f4cfff92b876c1b7019026a65ea33fb24f2eff8a1b8c02031593c0c6d74"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-redraw/control.sm",
+    "local": "Songs/__pass3_controls/score-redraw/control.sm",
+    "bytes": 187,
+    "sha256": "55c03b7168d630ef3e1522b1909b05ebb80ff3a93fc7e6304dcc63e4b098b22d"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-redraw/silence.wav",
+    "local": "Songs/__pass3_controls/score-redraw/silence.wav",
+    "bytes": 64044,
+    "sha256": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-redraw/default.lua",
+    "local": "Songs/__pass3_controls/score-redraw/default.lua",
+    "bytes": 1218,
+    "sha256": "81a27322a1ec89329431a3b8c74d08272b35225f953bc45b1f2d5f8b1a8bc2b8"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-redraw-manual/control.sm",
+    "local": "Songs/__pass3_controls/score-redraw-manual/control.sm",
+    "bytes": 187,
+    "sha256": "55c03b7168d630ef3e1522b1909b05ebb80ff3a93fc7e6304dcc63e4b098b22d"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-redraw-manual/inputs.json",
+    "local": "Songs/__pass3_controls/score-redraw-manual/inputs.json",
+    "bytes": 487,
+    "sha256": "b4d5b39a5f488668a0eff3d73637ac4f18052a9add4a9fc85abfd35f5103ed25"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-redraw-manual/silence.wav",
+    "local": "Songs/__pass3_controls/score-redraw-manual/silence.wav",
+    "bytes": 64044,
+    "sha256": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-redraw-manual/default.lua",
+    "local": "Songs/__pass3_controls/score-redraw-manual/default.lua",
+    "bytes": 1330,
+    "sha256": "6adb176c6a7460449e6bd7824976f8920cc803a7b2f33ae1720e4f332b3b1772"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-format/control.sm",
+    "local": "Songs/__pass3_controls/score-format/control.sm",
+    "bytes": 156,
+    "sha256": "d0fbb8e691c431cadca4e10af39ea749f6d7964de8c496ddb6688c53a0a6a54d"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-format/silence.wav",
+    "local": "Songs/__pass3_controls/score-format/silence.wav",
+    "bytes": 64044,
+    "sha256": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d"
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/score-format/default.lua",
+    "local": "Songs/__pass3_controls/score-format/default.lua",
+    "bytes": 779,
+    "sha256": "88804bc79e27939e34a07702e2930957bd91661df6f7caac878d72faee7cb140"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-candidate/baseline-theme/BGAnimations/ScreenGameplay underlay/default.lua",
+    "local": "pass3-native-score-redraw-candidate/baseline-theme/BGAnimations/ScreenGameplay underlay/default.lua",
+    "bytes": 3788,
+    "sha256": "e14778bee5358671b510fb15b9c1d4ea1642a799766a231cc8e4a5a764346bc5"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-score-redraw-candidate/baseline-theme/BGAnimations/ScreenGameplay underlay/PerPlayer/Score.lua",
+    "local": "pass3-native-score-redraw-candidate/baseline-theme/BGAnimations/ScreenGameplay underlay/PerPlayer/Score.lua",
+    "bytes": 5883,
+    "sha256": "17016eac3560e7430b04ea9d1667fc5c7215785b27abf4e4cbcda39023b1b66a"
+  },
+  {
+    "source": "/opt/song-lua-audit/audit_score_compat.py",
+    "local": "audit_score_compat.py",
+    "bytes": 2842,
+    "sha256": "eee7ac79310d02aa0aad4a1b61ef3098881bc88d3a3518d0b78ffb7858930bbf"
+  },
+  {
+    "source": "/opt/song-lua-audit/build_score_redraw_final.py",
+    "local": "build_score_redraw_final.py",
+    "bytes": 4587,
+    "sha256": "379d56bf6aecf5f4efe20ce999fd09539641faba0032cb93d47b656311df3c32"
+  },
+  {
+    "source": "/opt/song-lua-audit/build_score_harness_final.py",
+    "local": "build_score_harness_final.py",
+    "bytes": 4087,
+    "sha256": "f6de5771ed017243a58233c08617f4f8bec4ddbb28815da8a9df7794cdd90de7"
+  },
+  {
+    "source": "/opt/song-lua-audit/run_score_final_controls.py",
+    "local": "run_score_final_controls.py",
+    "bytes": 5602,
+    "sha256": "7d4fe4251004905791c26f45712f24067dcdecc3622b85f21f0eb0429efc74c7"
+  },
+  {
+    "source": "/opt/song-lua-audit/run_score_regressions.py",
+    "local": "run_score_regressions.py",
+    "bytes": 2747,
+    "sha256": "5a6a09945dc2c1712a12c9b67a69e6d894bbf9f932488a0c0274574db631f9ce"
+  },
+  {
+    "source": "/opt/song-lua-audit/run_score_validation_sequence.py",
+    "local": "run_score_validation_sequence.py",
+    "bytes": 1504,
+    "sha256": "db945dc716d974697470c55740bc39e4bd044f6b3db4907074f1f4decfde94bc"
+  },
+  {
+    "source": "/opt/song-lua-audit/run_score_validation_sequence_v2.py",
+    "local": "run_score_validation_sequence_v2.py",
+    "bytes": 1596,
+    "sha256": "ef3d59d0b6ea1db2f11ed70dc328cfc3ed311ff916e05c7d208adeb92fd084d9"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-validation-sequence.json",
+    "local": "pass3-score-validation-sequence.json",
+    "bytes": 104,
+    "sha256": "dc088b20cdd4b22dc752e0dd163d26d41b22da5df0da61c35a03d07c91eec886"
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-score-validation-sequence-v2.json",
+    "local": "pass3-score-validation-sequence-v2.json",
+    "bytes": 282,
+    "sha256": "da64553cae9090ad65a36c4d7dbfe6b306b63d5c6610cf8262af0f9f09cd2ca7"
+  },
+  {
+    "source": "/opt/song-lua-audit/logs/pass3-score-compat-audit.log",
+    "local": "logs/pass3-score-compat-audit.log",
+    "bytes": 42,
+    "sha256": "52e4527e10f888ff14b47d4086b3d1c14e6af3cd440bcd4303f6eb3544ab0f7a"
+  },
+  {
+    "source": "/opt/song-lua-audit/logs/pass3-score-redraw-build-final.log",
+    "local": "logs/pass3-score-redraw-build-final.log",
+    "bytes": 739,
+    "sha256": "ee86c8f8a80ba305939a4fe73b65e866e1cd1602e26ca7f05d3c8a559b419281"
+  },
+  {
+    "source": "/opt/song-lua-audit/logs/pass3-score-harness-final.log",
+    "local": "logs/pass3-score-harness-final.log",
+    "bytes": 423,
+    "sha256": "8811ee3b3bc7db1a9f0dce829cb7131cdb0dc68abef57eaa9386c060e0d785ee"
+  },
+  {
+    "source": "/opt/song-lua-audit/logs/pass3-score-validation-sequence.log",
+    "local": "logs/pass3-score-validation-sequence.log",
+    "bytes": 298,
+    "sha256": "5ea33eef655aee3f91f33c9e05c2bea12a852ed15b75eca14d5a636ab9114f10"
+  },
+  {
+    "source": "/opt/song-lua-audit/logs/pass3-score-validation-sequence-v2.log",
+    "local": "logs/pass3-score-validation-sequence-v2.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "scene": 1,
+    "seconds": 0.5,
+    "player": 1,
+    "button": "Left",
+    "key": "left",
+    "down": true
+  },
+  {
+    "scene": 1,
+    "seconds": 0.55,
+    "player": 1,
+    "button": "Left",
+    "key": "left",
+    "down": false
+  },
+  {
+    "scene": 1,
+    "seconds": 2.5,
+    "player": 1,
+    "button": "Down",
+    "key": "down",
+    "down": true
+  },
+  {
+    "scene": 1,
+    "seconds": 2.55,
+    "player": 1,
+    "button": "Down",
+    "key": "down",
+    "down": false
+  }
+]

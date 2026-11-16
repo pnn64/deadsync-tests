@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/opt/song-lua-audit/run_score_validation_sequence.py", line 11, in <module>
+    assert props['LoadState']=='loaded',props
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'ExecMainStatus': '0', 'LoadState': 'not-found', 'ActiveState': 'inactive'}

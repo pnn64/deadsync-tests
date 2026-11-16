@@ -8,3 +8,7 @@
 /routine-stats-baseline-replays/**/* -text -whitespace
 /routine-stats-replays/**/* -text -whitespace
 /routine-fail-controls/**/* -text -whitespace
+
+# Preserve the raw score-control evidence and its recorded hashes.
+/score-redraw/**/* -text -whitespace
+/score-redraw/README.md text eol=lf

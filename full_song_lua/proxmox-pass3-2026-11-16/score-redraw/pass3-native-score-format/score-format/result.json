@@ -1,0 +1,459 @@
+{
+  "id": "score-format",
+  "source_simfile": "__pass3_controls/score-format/control.sm",
+  "source_snapshot": {
+    "started_at": "2026-11-16T04:48:30.654951+00:00",
+    "source": {
+      "upstream_pr": "https://github.com/itgmania/itgmania/pull/1216",
+      "upstream_base": "e473b59a8caa914cf382904fad6eb88ef9f1c106",
+      "upstream_head": "ad2ae8a8d416d9eb71eb91abbb4012937c09171b",
+      "upstream_merge": "093ba099d2a15f924f1260558dedd2f9a0287fad",
+      "target_base": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+      "patch_sha256": "251b0703cd46d6d7d93fab84934ec0fdbf6fdd8d5d17ae78ac7cba8e2b756575",
+      "patch_bytes": 886624,
+      "apply_check_exit": 1,
+      "apply_check_errors": "error: patch failed: Docs/Luadoc/LuaDocumentation.xml:5047\nerror: Docs/Luadoc/LuaDocumentation.xml: patch does not apply\n",
+      "worktree": "C:\\GitHub\\deadsync\\target\\proxmox-song-lua-pass3-20261116\\native-routine-backport",
+      "status": "local candidate committed; native build and behavioral validation pending",
+      "candidate_commit": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "prepared_at": "2026-11-16T03:41:12.292132+00:00",
+      "pump_routine_pr": "https://github.com/itgmania/itgmania/pull/1445",
+      "pump_routine_patch_sha256": "4ac50f3949aa993b96b1891c0f4e15d832d9a4a5a7048b3ac49f5ae6a332c1d7",
+      "bundle_sha256": "25dd5e9399ab0ce35f1c15136f68931a73cef71e3f9a0d5fab89c3ea20ac1e3f",
+      "bundle_bytes": 595372,
+      "documentation_resolution": "Keep target RageFile docs, apply all routine API docs",
+      "whitespace_check": "22 upstream noteskin whitespace warnings preserved for source fidelity; no new C++ whitespace errors"
+    },
+    "harness_revision": "9dc325fbcbb22db179bc5d3a4627c736d28f449d",
+    "submodules": "927d13396772073f552cf595dcec112f33bb80b6 Themes/Simply Love (927d133)\n 9884c325dd0fa64b2b885b332e98118f60313208 extern/IXWebSocket (9884c32)\n 9bc0bcce7a03701025d7002271ddc2ce4f351908 extern/ffmpeg (9bc0bcc)\n 0ab6c14264ec76e9328a8eedb3b72b5d27dffd47 extern/hidapi (0ab6c14)\n 20ade4dea9589515a69793e447a6c6220b464535 extern/libjpeg-turbo (20ade4d)\n ea127968204cc5d10f3fc9250c306b9e8cbd9b80 extern/libpng (ea12796)\n 7e7eb695d581782f04b24dc444cbfde86af59853 extern/libtomcrypt (7e7eb69)\n 6ca6898bf37f583c4cc9943441cd60dd69f4b8f2 extern/libtommath (6ca6898)\n cec1e49eec481a6333c218726ecaba8e4f447a07 extern/libusb (cec1e49)\n daca7a3979c22da155ec9dce49ab1abf3b65d3a9 extern/mbedtls (daca7a3)\n e1774cd77f471443541596e09078e78fdc342e4f extern/ogg (e1774cd)\n 0657aee69dec8508a0011f47f3b69d7538e9d262 extern/vorbis (0657aee)\n 51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf extern/zlib (51b7f2a)",
+    "source_status": "",
+    "finished_at": "2026-11-16T04:52:15.063172+00:00",
+    "native_binary_sha256": "cb4e405139e9a1087d88f1a560f2719d24f0cc98eb7f2e6e9f1e6b4162154f6e",
+    "harness_binary_sha256": "371fe48d71b5dfa529d014b9fbcbd38a3d3f7ca4be75bf60f38642c93e04d0a5",
+    "theme": {
+      "base": "dd06138b15492f4136796dfe4b6708ced0f7b9eb",
+      "candidate_commit": "e2157b744051e1873bac5389246afac22e2cf05f",
+      "bundle_sha256": "31e20111675768792dce874be637a9f10dc4aabfa23262b48c6659a9c7779e48",
+      "status": "candidate; native gameplay validation pending",
+      "source": "Scripts/SL-Helpers.lua",
+      "change": "pump couple returns the same 250 width as single/versus; both participants have the identical five-column geometry",
+      "upstream_current_source": "https://github.com/Simply-Love/Simply-Love-SM5/blob/itgmania-release/Scripts/SL-Helpers.lua",
+      "publication_target": "https://github.com/pnn64/Simply-Love-SM5.git",
+      "baseline_failure": "style-pump-couple, StepStatistics/default.lua:19 compares missing GetNotefieldWidth against a number"
+    },
+    "harness_patch_sha256": "e7903afdea69d448e4871dbd9b976e3b103fb7f58f4c2a8094d13ba0294ca49b",
+    "previous_native_binary_sha256": "ada09ec0ee8d0d671288e066e19c9fbe9ee54be991df0613d62252e2607dcaf3",
+    "baseline_test_reproduced": true,
+    "pin_text_bundle_sha256": "2d68c92712cc13f01af9131df54155506769237f2366a2ba018fbe369860af62",
+    "harness_version": "0.1.103",
+    "source_normalized_sha256": {
+      "Cargo.lock": "1404fbbbe02a8b2abc3d41b5c8d676c6913f5df8a036bdf131983e882c9a088c",
+      "Cargo.toml": "c9f62e0f263a63bf3f95b408934a88d7ecb32e7e60b79e6f932f44efff120e98",
+      "native/interactive_trace.cpp": "9180033521237c7540a91973fee97513e281f14d2fb5076a58c0ee690c0a17bb",
+      "native/interactive_trace.h": "27fcdc212df809fa430e07589b0fb99ae2934e55d567c74f651f61b196dd2769",
+      "native/trace_adapter.cmake": "72e411fdefb8369a5269148623cb0292c55c308e75dec74629b626c26a84c508",
+      "probe_theme/SongLuaTrace.lua": "b1f328290f4c738ef05bcb0daddd3cbd8dedef3c9b9b31aac5e51babecea4a25",
+      "src/song_lua_runtime.rs": "b2267ec289f440128f9ce68aaeefd9042c8428d514fbc5a5a4219da189f9ffe4"
+    },
+    "harness_base": "1f4888b8574be4a1d59257261a3a6d776a2932d9",
+    "text_bundle_sha256": "b0976aff071dd27f2c68b4710954b23a668eb5cd34254ac2a141cf20201a037a",
+    "theme_candidate": {
+      "base": "e2157b744051e1873bac5389246afac22e2cf05f",
+      "files": {
+        "BGAnimations/ScreenGameplay underlay/default.lua": {
+          "before_sha256": "48649fa025b58a29f629b3d61958e2484fa7ef34af974dfa5169c9ad766f8a68",
+          "after_sha256": "67968b97aeadab6bfaec26b95532f05f5b185c840df7c21a1f6a3b497ea113d8",
+          "text": "-- if the MenuTimer is enabled, we should reset SSM's MenuTimer now that we've reached Gameplay\nif PREFSMAN:GetPreference(\"MenuTimer\") then\n\tSL.Global.MenuTimer.ScreenSelectMusic = ThemePrefs.Get(\"ScreenSelectMusicMenuTimer\")\nend\n\nlocal Players = GAMESTATE:GetHumanPlayers()\nlocal holdingCtrl = false\nlocal RequestScoreRedraw, RedrawScores = CreateScoreRedrawQueue(Players)\n\nlocal RestartHandler = function(event)\n\tif not event then return end\n\n\tif event.type == \"InputEventType_FirstPress\" then\n\t\tif event.DeviceInput.button == \"DeviceButton_left ctrl\" then\n\t\t\tholdingCtrl = true\n\t\telseif event.DeviceInput.button == \"DeviceButton_r\" then\n\t\t\tif holdingCtrl then\n\t\t\t\tSCREENMAN:GetTopScreen():SetPrevScreenName(Branch.GameplayScreen()):SetNextScreenName(Branch.GameplayScreen()):begin_backing_out()\n\t\t\tend\n\t\tend\n\telseif event.type == \"InputEventType_Release\" then\n\t\tif event.DeviceInput.button == \"DeviceButton_left ctrl\" then\n\t\t\tholdingCtrl = false\n\t\tend\n\tend\nend\n\nlocal po = {}\nfor player in ivalues(GAMESTATE:GetHumanPlayers()) do\n\tpo[player] = GAMESTATE:GetPlayerState(player):GetPlayerOptions('ModsLevel_Song')\nend\n-- If the style is TwoPlayersSharedSides, we need to set the speed mod for the routine as well\nif GAMESTATE:GetCurrentStyle():GetStyleType() == \"StyleType_TwoPlayersSharedSides\" then\n\tlocal xmod = po[GAMESTATE:GetMasterPlayerNumber()]:XMod()\n\tlocal mmod = po[GAMESTATE:GetMasterPlayerNumber()]:MMod()\n\tlocal cmod = po[GAMESTATE:GetMasterPlayerNumber()]:CMod()\n\n\tlocal mini = tonumber(SL[ToEnumShortString(GAMESTATE:GetMasterPlayerNumber())].ActiveModifiers.Mini:sub(1, -2)) / 100\n\n\tlocal speedmod = SL[ToEnumShortString(GAMESTATE:GetMasterPlayerNumber())].ActiveModifiers.SpeedMod\n\tlocal speedmod_str = (cmod ~= nil and \"CMod\") or (mmod ~= nil and \"MMod\") or (xmod ~= nil and \"XMod\")\n\n\tlocal fmt = {\n\t\tXMod = \"mod,%.2fx\",\n\t\tMMod = \"mod,m%d\",\n\t\tCMod = \"mod,c%d\",\n\t}\n\tlocal gcString = fmt[speedmod_str]:format(speedmod)\n\tgcString = gcString ..\"\"\n\tGAMESTATE:ApplyGameCommand(gcString..\"mod,\"..SL[ToEnumShortString(GAMESTATE:GetMasterPlayerNumber())].ActiveModifiers.Mini..\" mini\", PLAYER_2)\n\tGAMESTATE:ApplyGameCommand(gcString..\"mod,\"..SL[ToEnumShortString(GAMESTATE:GetMasterPlayerNumber())].ActiveModifiers.Mini..\" mini\", PLAYER_1)\n\nend\n\nlocal t = Def.ActorFrame{\n\tName=\"GameplayUnderlay\",\n\tOnCommand=function(self)\n\t\tself:SetUpdateFunction(RedrawScores)\n\t\tif ThemePrefs.Get(\"KeyboardFeatures\") and PREFSMAN:GetPreference(\"EventMode\") and not GAMESTATE:IsCourseMode() then\n\t\t\tSCREENMAN:GetTopScreen():AddInputCallback(RestartHandler)\n\t\tend\n\tend\n}\n\nfor player in ivalues(Players) do\n\tt[#t+1] = LoadActor(\"./PerPlayer/Danger.lua\", player)\n\tt[#t+1] = LoadActor(\"./PerPlayer/StepStatistics/default.lua\", player)\n\tt[#t+1] = LoadActor(\"./PerPlayer/BackgroundFilter.lua\", player)\n\tt[#t+1] = LoadActor(\"./PerPlayer/nice.lua\", player)\nend\n\n-- UI elements shared by both players\nt[#t+1] = LoadActor(\"./Shared/VersusStepStatistics.lua\")\nt[#t+1] = LoadActor(\"./Shared/Header.lua\")\nt[#t+1] = LoadActor(\"./Shared/SongInfoBar.lua\") -- song title and progress bar\n\n-- per-player UI elements\nfor player in ivalues(Players) do\n\t-- Tournament Mode modifications. Put this before everything as it sets\n\t-- player mods and other actors below might depend on it.\n\tt[#t+1] = LoadActor(\"./PerPlayer/TournamentMode.lua\", player)\n\n\tt[#t+1] = LoadActor(\"./PerPlayer/UpperNPSGraph.lua\", player)\n\tt[#t+1] = LoadActor(\"./PerPlayer/Score.lua\", player, RequestScoreRedraw)\n\tt[#t+1] = LoadActor(\"./PerPlayer/DifficultyMeter.lua\", player)\n\tt[#t+1] = LoadActor(\"./PerPlayer/LifeMeter/default.lua\", player)\n\tt[#t+1] = LoadActor(\"./PerPlayer/TargetScore/default.lua\", player)\n\n\t-- All NoteField specific actors are contained in this file.\n\tt[#t+1] = LoadActor(\"./PerPlayer/NoteField/default.lua\", player)\n\nend\n\n-- add to the ActorFrame last; overlapped by StepStatistics otherwise\nt[#t+1] = LoadActor(\"./Shared/BPMDisplay.lua\")\n\nreturn t\n"
+        },
+        "BGAnimations/ScreenGameplay underlay/PerPlayer/Score.lua": {
+          "before_sha256": "74bcc7cae175d34dbb44bd7f5037596faec3ce701f8673d7796e7cdd1b31b6a8",
+          "after_sha256": "74bcc7cae175d34dbb44bd7f5037596faec3ce701f8673d7796e7cdd1b31b6a8",
+          "text": "local player, RequestScoreRedraw = ...\nlocal pn = ToEnumShortString(player)\n\nlocal mods = SL[pn].ActiveModifiers\nlocal IsUltraWide = (GetScreenAspectRatio() > 21/9)\nlocal NumPlayers = #GAMESTATE:GetHumanPlayers()\nlocal IsEX = SL[pn].ActiveModifiers.ShowExScore\n\n-- -----------------------------------------------------------------------\n-- first, check for conditions where we might not draw the score actor at all\n\nif mods.HideScore then return end\n\nif NumPlayers > 1\nand mods.NPSGraphAtTop\nand not IsUltraWide\nthen\n\treturn\nend\n\n-- -----------------------------------------------------------------------\n-- set up some preliminary variables and calculations for positioning and zooming\n\nlocal styletype = ToEnumShortString(GAMESTATE:GetCurrentStyle():GetStyleType())\n\n-- scores are not aligned symmetrically around screen.cx for aesthetic reasons\n-- and this is the cause of many code-induced headaches\nlocal pos = {\n\t[PLAYER_1] = { x=(_screen.cx - clamp(_screen.w, 640, 854)/4.3),  y=56 },\n\t[PLAYER_2] = { x=(_screen.cx + clamp(_screen.w, 640, 854)/2.75), y=56 },\n}\n\nlocal pss = STATSMAN:GetCurStageStats():GetPlayerStageStats(player)\n\nif styletype == \"TwoPlayersSharedSides\" then\n\tpss = STATSMAN:GetCurStageStats():GetRoutineStageStats()\nend\n\nlocal StepsOrTrail = (GAMESTATE:IsCourseMode() and GAMESTATE:GetCurrentTrail(player)) or GAMESTATE:GetCurrentSteps(player)\nlocal total_tapnotes = StepsOrTrail:GetRadarValues(player):GetValue( \"RadarCategory_Notes\" )\n\n-- determine how many digits are needed to express the number of notes in base-10\nlocal digits = (math.floor(math.log10(total_tapnotes)) + 1)\n-- subtract 4 from the digit count; we're only really interested in how many digits past 4\n-- this stepcount is so we can use it to align the score actor in the StepStats pane if needed\n-- aligned-with-4-digits is the default\ndigits = clamp(math.max(4, digits) - 4, 0, 3)\n\nlocal NoteFieldIsCentered = (GetNotefieldX(player) == _screen.cx)\n\nlocal ar_scale = {\n\tsixteen_ten  = 0.825,\n\tsixteen_nine = 1\n}\nlocal zoom_factor = clamp(scale(GetScreenAspectRatio(), 16/10, 16/9, ar_scale.sixteen_ten, ar_scale.sixteen_nine), 0, 1.125)\n\n-- -----------------------------------------------------------------------\nlocal function MakePercentScore(actual, possible)\n    if possible == 0 then\n        return 0 -- avoid division by zero\n    end\n\n    if actual == possible then\n        return 1 -- correct for rounding error\n    end\n\n    local percent = actual / possible\n\n    -- Ensure percent is not negative\n    percent = math.max(0.0, percent)\n\n    -- Number of decimal places for percent score\n    local percentTotalDigits = 3 + 2\n    local truncInterval = math.pow(0.1, percentTotalDigits - 1)\n\n    -- Small adjustment to avoid rounding issues\n    percent = percent + 0.000001\n\n    -- Truncate to the desired precision\n    percent = math.floor(percent / truncInterval) * truncInterval\n\n    return percent\nend\n\nreturn LoadFont(\"Wendy/_wendy monospace numbers\")..{\n\tText=\"0.00\",\n\tName=pn..\"Score\",\n\tInitCommand=function(self)\n\t\tself:valign(1):horizalign(right)\n\t\tself:zoom(0.5)\n\t\tif IsEX then\n\t\t\t-- If EX Score, let's diffuse it to be the same as the ITG top window.\n\t\t\t-- This will make it consistent with the EX Score Pane.\n\t\t\tself:diffuse(SL.JudgmentColors[\"ITG\"][1])\n\t\tend\n\tend,\n\n\tBeginCommand=function(self)\n\t\t-----------------------------------------------------------------\n\t\t-- ultrawide with both players joined is really its own layout\n\t\t-- hardcode some numbers for now, return early, and call it a day\n\t\t-- until 21:9 displays become more popular\n\t\tif IsUltraWide and #GAMESTATE:GetHumanPlayers() > 1 then\n\t\t\tif player==PLAYER_1 then\n\t\t\t\tself:x(134)\n\t\t\telse\n\t\t\t\tself:x(_screen.w - 4)\n\t\t\tend\n\n\t\t\tself:y( 238 )\n\t\t\treturn\n\t\tend\n\t\t-----------------------------------------------------------------\n\n\t\t-- assume \"normal\" score positioning first, but there are many reasons it will need to be moved\n\t\tself:xy( pos[player].x, pos[player].y )\n\n\t\tif mods.NPSGraphAtTop and styletype ~= \"OnePlayerTwoSides\" then\n\t\t\t-- if NPSGraphAtTop and Step Statistics and not double,\n\t\t\t-- move the score down into the stepstats pane under\n\t\t\t-- the judgment breakdown\n\t\t\tif mods.DataVisualizations==\"Step Statistics\" then\n\t\t\t\tlocal step_stats = self:GetParent():GetChild(\"StepStatsPane\"..pn)\n\n\t\t\t\t-- Step Statistics might be true in the SL table from a previous game session\n\t\t\t\t-- but current conditions might be such that it won't actually appear.\n\t\t\t\t-- Ensure the StepStats ActorFrame is present before trying to traverse it.\n\t\t\t\tif step_stats then\n\t\t\t\t\tif player==PLAYER_1 then\n\t\t\t\t\t\tif NoteFieldIsCentered then\n\t\t\t\t\t\t\tself:x( pos[ OtherPlayer[player] ].x + SL_WideScale( 94, 112.5) )\n\t\t\t\t\t\telse\n\t\t\t\t\t\t\tself:x( pos[ OtherPlayer[player] ].x - SL_WideScale(-84, -60) )\n\t\t\t\t\t\tend\n\n\t\t\t\t\t-- PLAYER_2\n\t\t\t\t\telse\n\t\t\t\t\t\tif NoteFieldIsCentered then\n\t\t\t\t\t\t\tself:x( pos[ OtherPlayer[player] ].x - 65.5 )\n\t\t\t\t\t\telse\n\t\t\t\t\t\t\tself:x( pos[ OtherPlayer[player] ].x - SL_WideScale(-6, -2))\n\t\t\t\t\t\tend\n\t\t\t\t\tend\n\n\t\t\t\t\tself:y( 282 )\n\t\t\t\tend\n\n\t\t\t-- if NPSGraphAtTop but not Step Statistics\n\t\t\telse\n\t\t\t\t-- if not Center1Player, move the score right or left\n\t\t\t\t-- within the normal gameplay header to where the\n\t\t\t\t-- other player's score would be if this were versus\n\t\t\t\tif not NoteFieldIsCentered then\n\t\t\t\t\tself:x( pos[ OtherPlayer[player] ].x )\n\t\t\t\t\tself:y( pos[ OtherPlayer[player] ].y )\n\t\t\t\tend\n\t\t\t\t-- if NoteFieldIsCentered, no need to move the score\n\t\t\tend\n\t\tend\n\tend,\n\tJudgmentMessageCommand=function(self)\n\t\tif RequestScoreRedraw then\n\t\t\tRequestScoreRedraw(player, self)\n\t\telse\n\t\t\t-- Keep standalone loads working outside the gameplay underlay.\n\t\t\tself:queuecommand(\"RedrawScore\")\n\t\tend\n\tend,\n\tRedrawScoreCommand=function(self)\n\t\tif not IsEX then\n\t\t\tlocal dance_points = pss:GetPercentDancePoints()\n\t\t\tlocal percent = FormatPercentScore( dance_points ):sub(1,-2)\n\t\t\tself:settext(percent)\n\t\tend\n\tend,\n\tExCountsChangedMessageCommand=function(self, params)\n\t\tif params.Player ~= player then return end\n\n\t\tif IsEX then\n\t\t\tself:settext((\"%.02f\"):format(params.ExScore))\n\t\tend\n\tend,\n}\n"
+        },
+        "Scripts/SL-ScoreRedraw.lua": {
+          "before_sha256": null,
+          "after_sha256": "ed8002de88cf2299f490bb639e817cbe5377cdf7c0f8ea85eb729bd851ff465d",
+          "text": "-- Keep score refreshes separate from authored BitmapText tweens. Multiple\n-- judgments before the next underlay update need only one refresh per player.\nfunction CreateScoreRedrawQueue(players)\n\tlocal pending = {}\n\tlocal function request(player, actor)\n\t\tpending[player] = actor\n\tend\n\tlocal function redraw()\n\t\tfor player in ivalues(players) do\n\t\t\tlocal score = pending[player]\n\t\t\tpending[player] = nil\n\t\t\tif score then score:playcommand(\"RedrawScore\") end\n\t\tend\n\tend\n\treturn request, redraw\nend\n"
+        }
+      },
+      "status": "uncommitted helper extraction; native revalidation pending"
+    }
+  },
+  "control_sha256": {
+    "control.sm": "d0fbb8e691c431cadca4e10af39ea749f6d7964de8c496ddb6688c53a0a6a54d",
+    "silence.wav": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d",
+    "default.lua": "88804bc79e27939e34a07702e2930957bd91661df6f7caac878d72faee7cb140"
+  },
+  "status": "native_capture_pass",
+  "started_at": "2026-11-16T08:04:46.909773+00:00",
+  "stages": {
+    "capture": {
+      "command": [
+        "/opt/song-lua-audit/bin/itgmania-harness-pass3-input-clocks",
+        "song-lua-trace",
+        "/opt/song-lua-audit/Songs/__pass3_controls/score-format/control.sm",
+        "--itgmania-bin",
+        "/opt/song-lua-audit/routine-native/ITGmania-harness-trace",
+        "--fallback-theme",
+        "Harness Simply Love",
+        "--headless",
+        "--game",
+        "dance",
+        "--style",
+        "single",
+        "--difficulty",
+        "Hard",
+        "--chart-index",
+        "1",
+        "--until-gameplay-end",
+        "--capture-fps",
+        "60",
+        "--max-events",
+        "250000",
+        "--timeout",
+        "180",
+        "--out",
+        "/opt/song-lua-audit/pass3-native-score-format/score-format/native.json"
+      ],
+      "exit": 0,
+      "elapsed_seconds": 11.481,
+      "memory_limit": "3G",
+      "timeout_seconds": 270,
+      "unit": "lua-pass2-score-format-capture",
+      "service_tail": "2026-11-16T08:04:46+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-score-format-capture.service - /opt/song-lua-audit/bin/itgmania-harness-pass3-input-clocks song-lua-trace /opt/song-lua-audit/Songs/__pass3_controls/score-format/control.sm --itgmania-bin /opt/song-lua-audit/routine-native/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --game dance --style single --difficulty Hard --chart-index 1 --until-gameplay-end --capture-fps 60 --max-events 250000 --timeout 180 --out /opt/song-lua-audit/pass3-native-score-format/score-format/native.json.\n2026-11-16T08:04:58+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-score-format-capture.service: Deactivated successfully.\n2026-11-16T08:04:58+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-score-format-capture.service: Consumed 3.662s CPU time, 2.2M memory peak, 0B memory swap peak.\n"
+    }
+  },
+  "native": {
+    "capture_limits": {
+      "max_events": 250000
+    },
+    "command_observer": {
+      "capture_binary_sha256": "371fe48d71b5dfa529d014b9fbcbd38a3d3f7ca4be75bf60f38642c93e04d0a5",
+      "dynamic_commands": true
+    },
+    "completion": {
+      "next_screen": "ScreenEvaluationStage",
+      "reason": "gameplay-exit",
+      "stage_committed": true,
+      "stages_played_after": 1,
+      "stages_played_before": 0
+    },
+    "difficulty": "Difficulty_Hard",
+    "dropped_drawable_samples": 0,
+    "dropped_events": 0,
+    "dropped_host_clock_inputs": 0,
+    "dropped_input_events": 0,
+    "dropped_random_reseeds": 0,
+    "dropped_script_errors": 0,
+    "dropped_stage_samples": 0,
+    "dropped_update_frames": 0,
+    "end_position": {
+      "beat": 4.806363105773926,
+      "seconds": 2.4201815128326416
+    },
+    "harness_version": "0.1.103",
+    "input": {
+      "autoplay": 1,
+      "catalog_preferences": {
+        "global_offset_seconds": -0.00800000037997961,
+        "initialization": "native-catalog-note-time-calculation",
+        "music_rate": 1
+      },
+      "chart_catalog": [
+        {
+          "chart_name": "Burst",
+          "description": "Burst",
+          "difficulty": "Difficulty_Hard",
+          "hash": 0,
+          "index": 1,
+          "is_autogen": false,
+          "meter": 1,
+          "steps_type": "StepsType_Dance_Single"
+        }
+      ],
+      "game": "dance",
+      "gameplay_preferences": {
+        "column_cue_min_time": 1.5,
+        "default_modifiers": "",
+        "game_mode": "ITG",
+        "initialization": "theme-game-mode",
+        "max_input_latency_seconds": 0,
+        "mod_level": "ModsLevel_Preferred",
+        "music_rate": 1,
+        "players": [
+          {
+            "disabled_timing_windows": [],
+            "enabled": true,
+            "fail_setting": "FailType_Immediate",
+            "min_tns_to_hide_notes": "TapNoteScore_W3",
+            "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+            "player": "PlayerNumber_P1",
+            "theme_modifiers": {
+              "ActionOnMissedTarget": "Nothing",
+              "BackgroundFilter": "Darker",
+              "ColumnCues": true,
+              "ComboFont": "Wendy",
+              "DataVisualizations": "Step Statistics",
+              "DisplayScorebox": true,
+              "ErrorBar": "None",
+              "ErrorBarMultiTick": false,
+              "ErrorBarTrim": "Off",
+              "ErrorBarUp": false,
+              "FlashDecent": false,
+              "FlashExcellent": false,
+              "FlashFantastic": false,
+              "FlashGreat": false,
+              "FlashMiss": false,
+              "FlashWayOff": false,
+              "HideCombo": false,
+              "HideComboExplosions": false,
+              "HideDanger": false,
+              "HideEarlyDecentWayOffFlash": false,
+              "HideEarlyDecentWayOffJudgments": false,
+              "HideLifebar": false,
+              "HideLookahead": false,
+              "HideScore": false,
+              "HideSongBG": false,
+              "HideTargets": false,
+              "HoldJudgment": "Love 1x2 (doubleres).png",
+              "JudgmentGraphic": "Love 2x6 (doubleres).png",
+              "JudgmentTilt": false,
+              "LifeMeterType": "Standard",
+              "MeasureCounter": "None",
+              "MeasureCounterLeft": false,
+              "MeasureCounterUp": true,
+              "MeasureLines": "Off",
+              "Mini": "0%",
+              "NPSGraphAtTop": false,
+              "NoteFieldOffsetX": 0,
+              "NoteFieldOffsetY": 0,
+              "Pacemaker": false,
+              "ShowExScore": false,
+              "ShowFaPlusPane": true,
+              "ShowFaPlusWindow": false,
+              "SpeedMod": 250,
+              "SpeedModType": "M",
+              "SubtractiveScoring": false,
+              "TargetScore": 11,
+              "TiltMultiplier": 1,
+              "TimingWindows": [
+                true,
+                true,
+                true,
+                true,
+                true
+              ],
+              "VisualDelay": "0ms"
+            }
+          },
+          {
+            "disabled_timing_windows": [],
+            "enabled": false,
+            "fail_setting": "FailType_Immediate",
+            "min_tns_to_hide_notes": "TapNoteScore_W3",
+            "options_string": "NoHideLights, PlayerAutoPlay, Overhead",
+            "player": "PlayerNumber_P2",
+            "theme_modifiers": {
+              "ActionOnMissedTarget": "Nothing",
+              "BackgroundFilter": "Darker",
+              "ColumnCues": true,
+              "ComboFont": "Wendy",
+              "DataVisualizations": "Step Statistics",
+              "DisplayScorebox": true,
+              "ErrorBar": "None",
+              "ErrorBarMultiTick": false,
+              "ErrorBarTrim": "Off",
+              "ErrorBarUp": false,
+              "FlashDecent": false,
+              "FlashExcellent": false,
+              "FlashFantastic": false,
+              "FlashGreat": false,
+              "FlashMiss": false,
+              "FlashWayOff": false,
+              "HideCombo": false,
+              "HideComboExplosions": false,
+              "HideDanger": false,
+              "HideEarlyDecentWayOffFlash": false,
+              "HideEarlyDecentWayOffJudgments": false,
+              "HideLifebar": false,
+              "HideLookahead": false,
+              "HideScore": false,
+              "HideSongBG": false,
+              "HideTargets": false,
+              "HoldJudgment": "Love 1x2 (doubleres).png",
+              "JudgmentGraphic": "Love 2x6 (doubleres).png",
+              "JudgmentTilt": false,
+              "LifeMeterType": "Standard",
+              "MeasureCounter": "None",
+              "MeasureCounterLeft": false,
+              "MeasureCounterUp": true,
+              "MeasureLines": "Off",
+              "Mini": "0%",
+              "NPSGraphAtTop": false,
+              "NoteFieldOffsetX": 0,
+              "NoteFieldOffsetY": 0,
+              "Pacemaker": false,
+              "ShowExScore": false,
+              "ShowFaPlusPane": true,
+              "ShowFaPlusWindow": false,
+              "SpeedMod": 250,
+              "SpeedModType": "M",
+              "SubtractiveScoring": false,
+              "TargetScore": 11,
+              "TiltMultiplier": 1,
+              "TimingWindows": [
+                true,
+                true,
+                true,
+                true,
+                true
+              ],
+              "VisualDelay": "0ms"
+            }
+          }
+        ],
+        "timing_window_add": 0.001500000013038516,
+        "timing_window_scale": 1,
+        "timing_windows": {
+          "Attack": 0.13500000536441803,
+          "Checkpoint": 0.1664000004529953,
+          "Hold": 0.3199999928474426,
+          "Mine": 0.07000000029802322,
+          "Roll": 0.3499999940395355,
+          "W1": 0.0215000007301569,
+          "W2": 0.0430000014603138,
+          "W3": 0.10199999809265137,
+          "W4": 0.13500000536441803,
+          "W5": 0.18000000715255737
+        }
+      },
+      "headless_graphics": false,
+      "injected_inputs": false,
+      "lua_gc_mode": "automatic",
+      "native_source": {
+        "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+        "modified_src": false,
+        "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+        "revision": "663525dcb86eb570d0ef6a2e209678436660ae26"
+      },
+      "observer_frame_period_seconds": 0.01666666666666667,
+      "preferences": {
+        "constant_update_delta_seconds": 0,
+        "default_sync_offset": "SyncOffset_ITG",
+        "display_aspect_ratio": 1.7777777910232544,
+        "global_offset_seconds": -0.00800000037997961,
+        "last_seen_video_driver": "OpenGL",
+        "visual_delay_seconds": 0
+      },
+      "requested_chart_index": 1,
+      "requested_difficulty": "Hard",
+      "script": [],
+      "starting_chart": {
+        "chart_name": "Burst",
+        "description": "Burst",
+        "difficulty": "Difficulty_Hard",
+        "hash": 0,
+        "index": 1,
+        "is_autogen": false,
+        "meter": 1,
+        "steps_type": "StepsType_Dance_Single"
+      },
+      "style": "single",
+      "window_visible": false
+    },
+    "schema_version": 1,
+    "script_errors": [],
+    "steps_type": "StepsType_Dance_Single",
+    "style": "single",
+    "transition_script_errors": [
+      {
+        "message": "ActorFrameTexture: Cannot have width or height less than 1",
+        "screen": "ScreenEvaluationStage"
+      }
+    ]
+  },
+  "samples": [
+    {
+      "label": "missing",
+      "ok": false
+    },
+    {
+      "label": "nil",
+      "ok": false
+    },
+    {
+      "label": "boolean",
+      "ok": false
+    },
+    {
+      "label": "table",
+      "ok": false
+    },
+    {
+      "label": "zero",
+      "ok": true,
+      "value": " 0.00%"
+    },
+    {
+      "label": "negative-zero",
+      "ok": true,
+      "value": " 0.00%"
+    },
+    {
+      "label": "positive",
+      "ok": true,
+      "value": "125.00%"
+    },
+    {
+      "label": "negative",
+      "ok": true,
+      "value": "-225.00%"
+    },
+    {
+      "label": "third",
+      "ok": true,
+      "value": "33.33%"
+    },
+    {
+      "label": "numeric-string",
+      "ok": true,
+      "value": "125.00%"
+    },
+    {
+      "label": "nan-string",
+      "ok": true,
+      "value": "  nan%"
+    },
+    {
+      "label": "inf-string",
+      "ok": true,
+      "value": "  inf%"
+    },
+    {
+      "label": "nan-number",
+      "ok": true,
+      "value": " -nan%"
+    },
+    {
+      "label": "inf-number",
+      "ok": true,
+      "value": "  inf%"
+    },
+    {
+      "label": "hex-string",
+      "ok": true,
+      "value": "1600.00%"
+    },
+    {
+      "label": "invalid-string",
+      "ok": false
+    }
+  ],
+  "native_artifact": {
+    "file": "score-format/native.json.zst",
+    "bytes": 41264,
+    "sha256": "abb07dc1e192f41b57d06d672a476fd81bf06f6d53b9b7f50e449496ac7517a9",
+    "uncompressed_sha256": "f2ba000a598d700eb6da6d1310e87f0d5c4b15e20ffb43768154f04d43dce040"
+  },
+  "finished_at": "2026-11-16T08:04:58.423794+00:00"
+}

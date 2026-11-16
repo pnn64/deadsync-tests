@@ -1,0 +1,101 @@
+warning: function `set_windows_gamepad_backend` is never used
+   --> crates/deadsync-config/src/app_update.rs:551:8
+    |
+551 | pub fn set_windows_gamepad_backend(cfg: &mut Config, backend: WindowsPadBackend) -> bool {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `deadsync-config` (lib) generated 1 warning
+warning: `deadsync-config` (lib) generated 1 warning (1 duplicate)
+   Compiling deadsync-song-lua v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-song-lua)
+   Compiling deadsync-profile-gameplay v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-profile-gameplay)
+   Compiling deadsync-assets v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-assets)
+   Compiling deadsync-online v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-online)
+   Compiling deadsync-theme-simply-love v0.5.2494 (/opt/song-lua-audit/input-deadsync/crates/deadsync-theme-simply-love)
+   Compiling deadsync-shell v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-shell)
+   Compiling deadsync v0.5.2494 (/opt/song-lua-audit/input-deadsync)
+    Finished `release` profile [optimized + debuginfo] target(s) in 6m 40s
+     Running tests/song_lua_itgmania_semantic_parity.rs (/opt/song-lua-audit/deadsync/target/release/deps/song_lua_itgmania_semantic_parity-1e26f988d2faae1c)
+
+running 77 tests
+test native_gameplay::interactive::native_depth_comparison_keeps_bias_and_homogeneous_w ... ok
+test native_gameplay::tests::arrow_effects_reads_owned_style_without_extra_lua_queries ... ok
+test native_gameplay::tests::actor_and_query_trace_keep_lua_callers ... ok
+test native_gameplay::tests::autonomous_theme_queries_stay_outside_song_trace_but_nested_calls_remain ... ok
+test native_gameplay::tests::call_arguments_compare_native_numbers_without_losing_value_checks ... ok
+test native_gameplay::tests::call_comparison_uses_the_same_method_domain_without_losing_value_checks ... ok
+test native_gameplay::tests::call_source_normalization_preserves_original_path_rules ... ok
+test native_gameplay::tests::call_trace_capacity_keeps_overflow_visible ... ok
+test native_gameplay::tests::concurrent_call_logs_remain_separate ... ok
+test native_gameplay::tests::coverage_tracks_observed_apis_and_constructor_evidence ... ok
+test native_gameplay::tests::creation_identities_keep_foreground_when_background_factory_is_unobserved ... ok
+test native_gameplay::tests::creation_identities_use_allocations_and_validate_ownership ... ok
+test native_gameplay::tests::dynamically_added_commands_keep_native_observer_provenance ... ok
+test native_gameplay::tests::background_cache_reuses_owners_and_replays_focus_schedule ... ok
+test native_gameplay::tests::ending_stage_observers_follow_final_frame_after_music_rewind ... ok
+test native_gameplay::tests::external_clock_input_bridge_keeps_call_sites_and_legacy_capture_support ... ok
+test native_gameplay::tests::dynamically_added_commands_observe_enabled_capture_profile ... ok
+test native_gameplay::tests::gameplay_attack_start_now_uses_prior_player_position ... ok
+test native_gameplay::tests::gameplay_autoplay_judges_at_native_float_row_boundary ... ok
+test native_gameplay::tests::gameplay_autoplay_overlay_off_keeps_successful_exit_clock ... ok
+test native_gameplay::tests::gameplay_avoided_mines_dispatch_each_owned_judgment_next_update ... ok
+test native_gameplay::tests::gameplay_chart_attack_rebuilds_song_options ... ok
+test native_gameplay::tests::gameplay_empty_declared_layers_retains_owned_theme_scene ... ok
+test native_gameplay::tests::gameplay_hardware_input_drives_live_text_and_releases ... ok
+test native_gameplay::tests::gameplay_immediate_draw_allows_unset_actor_proxy ... ok
+test native_gameplay::tests::gameplay_immediate_draw_freezes_before_child_on_and_preserves_automatic_pass ... ok
+test native_gameplay::tests::gameplay_immediate_failure_draws_until_native_blank_transition_finishes ... ok
+test native_gameplay::tests::gameplay_live_song_fail_setting_controls_real_navigation ... ok
+test native_gameplay::tests::gameplay_music_end_uses_the_whole_song_before_the_resolution_window ... ok
+test native_gameplay::tests::gameplay_music_fade_finishes_before_the_native_transition ... ok
+test native_gameplay::tests::gameplay_natural_navigation_ends_owned_song_actors_once ... ok
+test native_gameplay::tests::gameplay_note_field_tap_runs_owned_lua_before_actor_update ... ok
+test native_gameplay::tests::gameplay_last_mine_judgment_survives_natural_outro ... ok
+test native_gameplay::tests::gameplay_out_transition_resolves_latest_explicit_next_screen ... ok
+test native_gameplay::tests::gameplay_tween_overflow_finishes_native_queue_and_discards_commands ... ok
+test native_gameplay::tests::instantiated_background_effect_keeps_wrapper_in_subscriber_paths ... ok
+test native_gameplay::tests::modifier_comparison_keeps_values_speeds_returns_and_clocks ... ok
+test native_gameplay::tests::named_query_handles_keep_actor_identity ... ok
+test native_gameplay::tests::gameplay_reload_rebuilds_a_single_session_as_double ... ok
+test native_gameplay::tests::native_background_filter_uses_initial_theme_options_only ... ok
+test native_gameplay::tests::native_background_retains_borders_and_duplicate_brightness_quads ... ok
+test native_gameplay::tests::native_bpm_layout_uses_initial_upper_nps_option ... ok
+test native_gameplay::tests::native_capture_rejects_incomplete_or_failed_traces ... ok
+test native_gameplay::tests::native_controller_inputs_reject_cpu_and_partial_autoplay ... ok
+test native_gameplay::tests::native_all_failed_delays_notes_ended_by_the_theme_song_second ... ok
+test native_gameplay::tests::native_danger_visibility_uses_initial_profile_input ... ok
+test native_gameplay::tests::native_default_profile_uses_fresh_bootstrap_inputs ... ok
+test native_gameplay::tests::native_current_background_helper_keeps_its_theme_query_caller ... ok
+test native_gameplay::tests::native_double_session_selects_double_steps_and_runs_eight_column_scene ... ok
+test native_gameplay::tests::native_event_mode_reads_the_owned_preference_without_nested_api_calls ... ok
+test native_gameplay::tests::native_finish_tweening_propagates_and_source_broadcasts_keep_callback_scope ... ok
+test native_gameplay::tests::native_failed_exit_records_history_without_emptying_the_meter ... ok
+test native_gameplay::tests::native_gameplay_decorations_retain_children_while_hibernating ... ok
+test native_gameplay::tests::native_life_meter_uses_initial_theme_options_only ... ok
+test native_gameplay::tests::native_gameplay_transitions_retain_their_loaded_auto_actors ... ok
+test native_gameplay::tests::native_multivertex_texture_getter_preserves_runtime_and_observation_scope ... ok
+test native_gameplay::tests::native_live_draw_payload_can_exceed_the_baked_operation_count ... ok
+test native_gameplay::tests::native_overlay_preserves_theme_tree_and_capture_probe_input ... ok
+test native_gameplay::tests::native_reload_starts_with_the_requested_style ... ok
+test native_gameplay::tests::native_plain_actor_draws_do_not_consume_geometry_budget ... ok
+test native_gameplay::tests::native_starting_chart_checks_identity_and_maps_catalog_to_payload ... ok
+test native_gameplay::tests::native_starting_chart_respects_game_and_partner_styles ... ok
+test native_gameplay::tests::native_step_statistics_uses_initial_selection_only ... ok
+test native_gameplay::tests::native_sound_length_exposes_whole_milliseconds ... ok
+test native_gameplay::tests::native_theme_timing_windows_use_initial_inputs_without_query_calibration ... ok
+test native_gameplay::tests::native_tap_score_ranks_drive_scripted_judgment_life_changes ... ok
+test native_gameplay::tests::partial_frames_and_drawable_resources_remain_pending ... ok
+test native_gameplay::tests::passing_archives_advance_with_recorded_coverage_gaps ... ok
+test native_gameplay::tests::player_number_paths_keep_players_and_option_levels_distinct ... ok
+test native_gameplay::tests::player_stage_stats_paths_preserve_player_stage_and_literal_identity ... ok
+test native_gameplay::tests::progress_observers_follow_frame_order_when_music_rewinds ... ok
+test native_gameplay::tests::query_handle_numbering_remains_global_across_scene_epochs ... ok
+test native_gameplay::tests::option_trace_keeps_native_returns_and_strings ... ok
+test native_gameplay::tests::recorded_input_clocks_check_routing_without_choosing_a_lane ... ok
+test native_gameplay::tests::recorded_gameplay_input_preserves_native_scoring_phases ... ok
+test native_gameplay::tests::routine_point_queries_observe_the_distinct_live_statistics_owner ... ok
+test native_gameplay::tests::source_broadcast_numbers_use_native_json_integer_ranges ... ok
+
+test result: ok. 77 passed; 0 failed; 0 ignored; 0 measured; 329 filtered out; finished in 2.63s
+

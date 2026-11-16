@@ -1,0 +1,7 @@
+From /opt/song-lua-audit/pass3-score-harness-final/score-redraw-theme.bundle
+ * branch            HEAD       -> FETCH_HEAD
+Previous HEAD position was e2157b7 fix(pump): define the couple notefield width
+HEAD is now at 1feda1f fix(gameplay): defer score redraws outside tween queues
+unit-tests
+harness-build
+{"harness_binary_sha256": "0a3799c22258dad7cf14ad431e9d8be00c40273c81b5165bd70e04ee71183af2", "version": "0.1.104"}

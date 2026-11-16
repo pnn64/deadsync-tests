@@ -1,0 +1,32 @@
+warning: function `set_windows_gamepad_backend` is never used
+   --> crates/deadsync-config/src/app_update.rs:551:8
+    |
+551 | pub fn set_windows_gamepad_backend(cfg: &mut Config, backend: WindowsPadBackend) -> bool {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `deadsync-config` (lib) generated 1 warning
+   Compiling deadsync-song-lua v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-song-lua)
+   Compiling deadsync-profile-gameplay v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-profile-gameplay)
+   Compiling deadsync-assets v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-assets)
+    Finished `release` profile [optimized + debuginfo] target(s) in 1m 28s
+     Running tests/compat_globals.rs (/opt/song-lua-audit/deadsync/target/release/deps/compat_globals-6c845a63ab661fda)
+
+running 1 test
+
+thread 'formatting_and_numeric_helpers_match_existing_argument_conversion' (110952) panicked at crates/deadsync-song-lua/tests/../../deadlib-lua/src/reference_test.rs:166:9:
+regression expectation song/tests/rust_compat_globals.rs::observations: formatting_and_numeric_helpers_match_existing_argument_conversion case 71, byte 11
+actual: "Some([123, 49, 61, 116, 114, 117, 101, 59, 50, 61, 115, 50, 53, 58, 57, 50, 50, 51, 51, 55, 50, 48, 51, 54, 56, 53, 52, 55, 55, 53, 56, 48, 55, 58, 48, 48, 46, 57, 57, 59,"
+expected: "Some([123, 115, 50, 58, 111, 107, 61, 102, 97, 108, 115, 101, 125])"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test formatting_and_numeric_helpers_match_existing_argument_conversion ... FAILED
+
+failures:
+
+failures:
+    formatting_and_numeric_helpers_match_existing_argument_conversion
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 15 filtered out; finished in 0.07s
+
+error: test failed, to rerun pass `-p deadsync-song-lua --test compat_globals`

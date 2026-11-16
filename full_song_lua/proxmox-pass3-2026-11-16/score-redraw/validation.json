@@ -1,0 +1,104 @@
+{
+  "recorded_at": "2026-11-16T08:47:56.633853+00:00",
+  "deadsync_commit": "077e16fb6cee8726af643160050af3b92c87f212",
+  "harness_commit": "0a9a76a3b92ba13f93146ee94aa7515ca0bd601d",
+  "harness_version": "0.1.104",
+  "theme_commit": "1feda1fd43d96baca951351bb28a35d5e690ebc7",
+  "runner_sha256": "3ae926b12a9d8a67dd10af5441715d33af7d7baca0660b2b05a434e1fda54405",
+  "harness_binary_sha256": "0a3799c22258dad7cf14ad431e9d8be00c40273c81b5165bd70e04ee71183af2",
+  "native_binary_sha256": "cb4e405139e9a1087d88f1a560f2719d24f0cc98eb7f2e6e9f1e6b4162154f6e",
+  "fresh_controls": 3,
+  "retained_archive_regressions": 10,
+  "tests": {
+    "score": 1,
+    "native_gameplay": 77,
+    "harness_linux": 215,
+    "harness_ignored": 5,
+    "compatibility_passed": 16,
+    "compatibility_failed": 1
+  },
+  "compatibility_failure": "SecondsToMSSMsMs(infinity): identical before/after release result, frozen expectation differs",
+  "primary_passes": 489,
+  "primary_nonpasses": 14,
+  "all_chart_gate_satisfied": false,
+  "results": [
+    {
+      "id": "score-format",
+      "status": "pass",
+      "frames": 507,
+      "replay_seconds": 3.577
+    },
+    {
+      "id": "score-queue-v2",
+      "status": "pass",
+      "frames": 507,
+      "replay_seconds": 3.509
+    },
+    {
+      "id": "score-redraw-manual",
+      "status": "pass",
+      "frames": 595,
+      "replay_seconds": 3.464
+    },
+    {
+      "id": "68eda87bf02562c3",
+      "status": "pass",
+      "frames": 8236,
+      "replay_seconds": 28.915
+    },
+    {
+      "id": "730650ffb42269d8",
+      "status": "pass",
+      "frames": 8338,
+      "replay_seconds": 29.302
+    },
+    {
+      "id": "routine-fail-dance",
+      "status": "pass",
+      "frames": 624,
+      "replay_seconds": 3.801
+    },
+    {
+      "id": "routine-fail-pump",
+      "status": "pass",
+      "frames": 612,
+      "replay_seconds": 3.659
+    },
+    {
+      "id": "routine-life-dance",
+      "status": "pass",
+      "frames": 625,
+      "replay_seconds": 3.657
+    },
+    {
+      "id": "routine-life-pump",
+      "status": "pass",
+      "frames": 623,
+      "replay_seconds": 3.69
+    },
+    {
+      "id": "routine-manual-dance",
+      "status": "pass",
+      "frames": 616,
+      "replay_seconds": 3.766
+    },
+    {
+      "id": "routine-manual-pump",
+      "status": "pass",
+      "frames": 611,
+      "replay_seconds": 3.722
+    },
+    {
+      "id": "style-dance-routine",
+      "status": "pass",
+      "frames": 417,
+      "replay_seconds": 3.48
+    },
+    {
+      "id": "style-pump-routine",
+      "status": "pass",
+      "frames": 405,
+      "replay_seconds": 3.558
+    }
+  ]
+}

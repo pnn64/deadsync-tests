@@ -1,0 +1,3 @@
+2026-11-16T08:43:01+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-score-queue-v2-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-score-redraw-final --archive /opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/candidate/b8a88c101b99450491c75164f8c9f21849c1d07ed479e4c293efee3493368df4.tar --report /opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/report.json.
+2026-11-16T08:43:04+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-score-queue-v2-replay.service: Deactivated successfully.
+2026-11-16T08:43:04+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-score-queue-v2-replay.service: Consumed 3.428s CPU time, 1.0M memory peak, 0B memory swap peak.

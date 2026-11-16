@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-11-16T08:41:39.549560+00:00",
+  "status": "complete",
+  "steps": [
+    {
+      "script": "run_score_final_controls.py",
+      "exit": 0,
+      "finished_at": "2026-11-16T08:43:51.525233+00:00"
+    }
+  ],
+  "finished_at": "2026-11-16T08:43:51.525686+00:00"
+}

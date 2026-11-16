@@ -1,0 +1,25 @@
+{
+  "path": "tests\\fixtures\\regression-expectations\\deadsync-song-lua\\506d3279b33b4ad7.snap",
+  "before_sha256": "dda81623c962a65bb6c54b76070b89f1b2ec401aabca7b1044cb43c94873597d",
+  "after_sha256": "5bc564f4baab3b77d2827b6fceb6f7adeb8bfcb9f454ea4bb6d498ba7318063a",
+  "removed_frozen_percent_observations": [
+    "{1=true;2=s5:0.00%;s1:n=2}",
+    "{1=true;2=s5:0.00%;s1:n=2}",
+    "{1=true;2=s5:0.00%;s1:n=2}",
+    "{1=true;2=s5:0.00%;s1:n=2}",
+    "{1=true;2=s5:0.00%;s1:n=2}",
+    "{1=true;2=s6:-0.00%;s1:n=2}",
+    "{1=true;2=s7:125.00%;s1:n=2}",
+    "{1=true;2=s8:-225.00%;s1:n=2}",
+    "{1=true;2=s6:33.33%;s1:n=2}",
+    "{1=true;2=s7:125.00%;s1:n=2}",
+    "{1=true;2=s4:NaN%;s1:n=2}",
+    "{1=true;2=s4:inf%;s1:n=2}",
+    "{1=true;2=s5:0.00%;s1:n=2}",
+    "{1=true;2=s5:0.00%;s1:n=2}",
+    "{1=true;2=s5:0.00%;s1:n=2}",
+    "{1=true;2=s5:0.00%;s1:n=2}"
+  ],
+  "replacement": "compat_globals::percent_score_matches_native_argument_conversion_and_printf_formatting; explicit assertions from native score-format capture and PlayerStageStats.cpp printf contract",
+  "other_observations_changed": false
+}

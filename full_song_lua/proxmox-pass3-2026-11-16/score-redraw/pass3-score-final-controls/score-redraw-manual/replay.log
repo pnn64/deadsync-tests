@@ -1,0 +1,22 @@
+[0.0s] replaying every native gameplay frame
+replayed 595 actual frames; 14 stage samples; 0 mismatches; 0 callback errors
+595 native frames replayed; 154 stage fields compared; 0 mismatches; 0 callback errors
+  pending: "uncompared song operations: Actor.GetTweenTimeLeft, Actor.GetX, Actor.playcommand, Actor.stoptweening, BitmapText.GetText, GameState.GetCurMusicSeconds, PlayerStageStats.GetActualDancePoints"
+  pending: "missing captured subscriber identity for ScreenGameplay/18"
+  pending: "missing captured subscriber identity for ScreenGameplay/19/1/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/19/1/3"
+  pending: "missing captured subscriber identity for ScreenGameplay/19/1/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/19/1/6"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/2/2/2/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/2/2/2/11"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/2/2/2/3"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/2/2/2/5"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/2/2/2/7"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/2/2/2/9"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/2/2/3/2"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/2/2/3/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/2/2/3/6"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/6"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/9/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/3/1"
+report: /opt/song-lua-audit/pass3-score-final-controls/score-redraw-manual/report.json

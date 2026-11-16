@@ -1674,6 +1674,12 @@
     "archive": "3f99cb43ede6d04ac9f70b993669f1360a7191d0a5f220e84a7a4410eba6306c.tar.zst"
   },
   {
+    "title": "score-format",
+    "source_simfile": "__pass3_controls/score-format/control.sm",
+    "harness_version": "0.1.104",
+    "archive": "3ffb9f893a7f16c8841d0e150042b8b85094958071d0c229dd54b5e8e36a735a.tar.zst"
+  },
+  {
     "title": "Macarena",
     "source_simfile": "Macarena/Macarena.ssc",
     "harness_version": "0.1.0",
@@ -2638,6 +2644,12 @@
     "source_simfile": "BBKBBKK/BBKKBKK.ssc",
     "harness_version": "0.1.0",
     "archive": "6b6d748837ab1854de17f43ac475e52d3cd52506bb9fb02265e432a2a70ab95b.tar.zst"
+  },
+  {
+    "title": "score-redraw-manual",
+    "source_simfile": "__pass3_controls/score-redraw-manual/control.sm",
+    "harness_version": "0.1.104",
+    "archive": "6bd09448fb3818c4607291697887d063e1f67adc76f50ff2bb76954fc012b46d.tar.zst"
   },
   {
     "title": "あんずのうた",
@@ -5008,6 +5020,12 @@
     "source_simfile": "Macarena/Macarena.ssc",
     "harness_version": "0.1.80",
     "archive": "d154e6667bb11fc1ad9b4b68a45deecf7f07bd016160d2686afbfd0d2c1f2f1d.tar.zst"
+  },
+  {
+    "title": "score-queue-v2",
+    "source_simfile": "__pass3_controls/score-queue-v2/control.sm",
+    "harness_version": "0.1.104",
+    "archive": "d1590685c939b0c4a47eab47d15a8a729101624b1d9a5291f5ba44466cbeff88.tar.zst"
   },
   {
     "title": "TETRIS",

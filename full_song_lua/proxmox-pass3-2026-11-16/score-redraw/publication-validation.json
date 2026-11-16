@@ -1,0 +1,98 @@
+{
+  "recorded_at": "2026-11-16T08:51:37.659234+00:00",
+  "deadsync_commit": "077e16fb6cee8726af643160050af3b92c87f212",
+  "source_files_verified": 23,
+  "harness_files_verified": 402,
+  "retained_artifacts_verified": 170,
+  "new_archives": [
+    {
+      "archive": "3ffb9f893a7f16c8841d0e150042b8b85094958071d0c229dd54b5e8e36a735a.tar.zst",
+      "bytes": 107739029,
+      "parts": 3
+    },
+    {
+      "archive": "6bd09448fb3818c4607291697887d063e1f67adc76f50ff2bb76954fc012b46d.tar.zst",
+      "bytes": 107752825,
+      "parts": 3
+    },
+    {
+      "archive": "d1590685c939b0c4a47eab47d15a8a729101624b1d9a5291f5ba44466cbeff88.tar.zst",
+      "bytes": 107742079,
+      "parts": 3
+    }
+  ],
+  "complete_catalog_archives": 1011,
+  "full_replays": [
+    {
+      "id": "score-format",
+      "frames": 507,
+      "queries": 3
+    },
+    {
+      "id": "score-queue-v2",
+      "frames": 507,
+      "queries": 7
+    },
+    {
+      "id": "score-redraw-manual",
+      "frames": 595,
+      "queries": 15
+    },
+    {
+      "id": "68eda87bf02562c3",
+      "frames": 8236,
+      "queries": 73039
+    },
+    {
+      "id": "730650ffb42269d8",
+      "frames": 8338,
+      "queries": 75457
+    },
+    {
+      "id": "routine-fail-dance",
+      "frames": 624,
+      "queries": 99
+    },
+    {
+      "id": "routine-fail-pump",
+      "frames": 612,
+      "queries": 99
+    },
+    {
+      "id": "routine-life-dance",
+      "frames": 625,
+      "queries": 25
+    },
+    {
+      "id": "routine-life-pump",
+      "frames": 623,
+      "queries": 25
+    },
+    {
+      "id": "routine-manual-dance",
+      "frames": 616,
+      "queries": 57
+    },
+    {
+      "id": "routine-manual-pump",
+      "frames": 611,
+      "queries": 57
+    },
+    {
+      "id": "style-dance-routine",
+      "frames": 417,
+      "queries": 17
+    },
+    {
+      "id": "style-pump-routine",
+      "frames": 405,
+      "queries": 17
+    }
+  ],
+  "primary_passes": 489,
+  "primary_nonpasses": 14,
+  "all_chart_gate_satisfied": false,
+  "local_markdown_links_verified": 74,
+  "runtime_guide_primary_ids": 503,
+  "protected_user_diff_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+}

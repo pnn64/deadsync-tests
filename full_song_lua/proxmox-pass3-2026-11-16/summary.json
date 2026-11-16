@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T07:29:12.766093+00:00",
+  "updated_at": "2026-11-16T08:49:21.985395+00:00",
   "status": "in_progress",
   "primary_cases": 503,
   "latest_available_results": {
@@ -18,5 +18,11 @@
     "controls_passed": 8,
     "real_song_regressions_passed": 2,
     "manual_routine_failures_remaining": 0
+  },
+  "score_redraw": {
+    "fresh_controls_passed": 3,
+    "retained_archive_regressions_passed": 10,
+    "primary_outcomes_changed": false,
+    "report": "score-redraw/README.md"
   }
 }

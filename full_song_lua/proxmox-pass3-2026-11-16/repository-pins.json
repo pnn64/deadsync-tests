@@ -14,10 +14,15 @@
   "native": "663525dcb86eb570d0ef6a2e209678436660ae26",
   "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0",
   "note": "Each build/replay record retains the exact base revision, patch and executable hashes used. The seven pre-existing actor-capture edits were preserved and excluded from repair commits. Additional fixes may still be under validation.",
-  "harness_current": "1f4888b8574be4a1d59257261a3a6d776a2932d9",
-  "harness_current_version": "0.1.102",
+  "harness_current": "0a9a76a3b92ba13f93146ee94aa7515ca0bd601d",
+  "harness_current_version": "0.1.104",
   "native_previous_pin": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
-  "theme": "e2157b744051e1873bac5389246afac22e2cf05f",
+  "theme": "1feda1fd43d96baca951351bb28a35d5e690ebc7",
   "deadsync_routine_life_commit": "06e8347e72536daabe4420fc7cab249c4f8ba9f2",
-  "deadsync_routine_statistics_commit": "9ab5cdc0e1d9e4f1af83b78a7099be910d7a57e9"
+  "deadsync_routine_statistics_commit": "9ab5cdc0e1d9e4f1af83b78a7099be910d7a57e9",
+  "deadsync_score_redraw_commit": "077e16fb6cee8726af643160050af3b92c87f212",
+  "harness_input_clocks_commit": "a551ad550fa6311ffdf215a31fa28e9489db04a2",
+  "harness_input_clocks_validation_commit": "9052412e056853ce94e0aa6e2c8e6e5fb89fea3e",
+  "harness_input_clocks_version": "0.1.103",
+  "theme_previous_pin": "e2157b744051e1873bac5389246afac22e2cf05f"
 }

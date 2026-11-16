@@ -1,0 +1,3 @@
+2026-11-16T08:43:04+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-score-queue-v2-pack.service - /opt/song-lua-audit/bin/itgmania-harness-pass3-score-redraw song-lua-pack /opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/candidate/b8a88c101b99450491c75164f8c9f21849c1d07ed479e4c293efee3493368df4.tar --report /opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/report.json --out /opt/song-lua-audit/pass3-score-final-controls/score-queue-v2/accepted.
+2026-11-16T08:43:07+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-score-queue-v2-pack.service: Deactivated successfully.
+2026-11-16T08:43:07+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-score-queue-v2-pack.service: Consumed 7.515s CPU time, 1.8M memory peak, 0B memory swap peak.

@@ -1,0 +1,18 @@
+warning: function `set_windows_gamepad_backend` is never used
+   --> crates/deadsync-config/src/app_update.rs:551:8
+    |
+551 | pub fn set_windows_gamepad_backend(cfg: &mut Config, backend: WindowsPadBackend) -> bool {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `deadsync-config` (lib) generated 1 warning
+   Compiling deadsync-song-lua v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-song-lua)
+    Finished `release` profile [optimized + debuginfo] target(s) in 2.35s
+     Running tests/gameplay_score.rs (/opt/song-lua-audit/deadsync/target/release/deps/gameplay_score-0be2ea0fd22f2d8a)
+
+running 1 test
+test score_redraws_follow_fed_statistics_without_cancelling_authored_tweens ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.38s
+

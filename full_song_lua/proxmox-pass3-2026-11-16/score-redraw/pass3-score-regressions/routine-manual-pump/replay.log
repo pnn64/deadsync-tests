@@ -1,0 +1,19 @@
+[0.0s] replaying every native gameplay frame
+replayed 611 actual frames; 14 stage samples; 0 mismatches; 0 callback errors
+611 native frames replayed; 308 stage fields compared; 0 mismatches; 0 callback errors
+  pending: "uncompared song operations: GameState.GetCurMusicSeconds, PlayerStageStats.GetActualDancePoints, PlayerStageStats.GetCurrentCombo, PlayerStageStats.GetPercentDancePoints, PlayerStageStats.GetTapNoteScores, PlayerStageStats.MaxCombo, StageStats.GetRoutineStageStats"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/10"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/13/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/6"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/9/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/24"
+  pending: "missing captured subscriber identity for ScreenGameplay/25/1/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/25/1/10"
+  pending: "missing captured subscriber identity for ScreenGameplay/25/1/12"
+  pending: "missing captured subscriber identity for ScreenGameplay/25/1/2"
+  pending: "missing captured subscriber identity for ScreenGameplay/25/1/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/25/1/5"
+  pending: "missing captured subscriber identity for ScreenGameplay/25/1/7"
+  pending: "missing captured subscriber identity for ScreenGameplay/25/1/9"
+  pending: "missing captured subscriber identity for ScreenGameplay/3/1"
+report: /opt/song-lua-audit/pass3-score-regressions/routine-manual-pump/report.json

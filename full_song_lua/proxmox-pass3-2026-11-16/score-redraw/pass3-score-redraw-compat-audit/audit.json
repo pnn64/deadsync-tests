@@ -1,0 +1,71 @@
+{
+  "started_at": "2026-11-16T08:26:14.391029+00:00",
+  "baseline_revisions": {
+    "deadsync": "95bf3f8a393c80ff74c7c9afffb38099a06553a2",
+    "tests": "f89bb0f0088c3b0cdc31accff2d0c6e05b561e8f"
+  },
+  "files": {
+    "crates/deadsync-song-lua/src/managers/compat/basic.rs": {
+      "candidate_sha256": "b152e67c79417c32648d34c5ef7686a0b76ea399c213544622531acfca01b8c1",
+      "baseline_sha256": "de3eee9a5f0ed959d6062a12043a21adef0753846b64ca0640483c80ce3e7ac1"
+    },
+    "crates/deadsync-song-lua/tests/compat_globals.rs": {
+      "candidate_sha256": "be59d0663d416b2f518ebd39ddd3d4c34704dd3d101569ba8058ba0bfa174c44",
+      "baseline_sha256": "9eb54ac2f2e9352dd9eec4a8556c2702e32d0e7fcf1fc0b13fe0f5acc646b676"
+    },
+    "tests/fixtures/regression-expectations/deadsync-song-lua/506d3279b33b4ad7.snap": {
+      "candidate_sha256": "5bc564f4baab3b77d2827b6fceb6f7adeb8bfcb9f454ea4bb6d498ba7318063a",
+      "baseline_sha256": "dda81623c962a65bb6c54b76070b89f1b2ec401aabca7b1044cb43c94873597d"
+    }
+  },
+  "checks": {
+    "before-score-fix": {
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "--release",
+        "-j",
+        "6",
+        "-p",
+        "deadsync-song-lua",
+        "--features",
+        "test-support",
+        "--test",
+        "compat_globals",
+        "formatting_and_numeric_helpers_match_existing_argument_conversion",
+        "--",
+        "--nocapture"
+      ],
+      "exit": 101,
+      "started_at": "2026-11-16T08:26:14.403636+00:00",
+      "finished_at": "2026-11-16T08:27:42.652626+00:00"
+    },
+    "candidate-compat": {
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "--release",
+        "-j",
+        "6",
+        "-p",
+        "deadsync-song-lua",
+        "--features",
+        "test-support",
+        "--test",
+        "compat_globals",
+        "--",
+        "--nocapture"
+      ],
+      "exit": 101,
+      "started_at": "2026-11-16T08:27:42.656093+00:00",
+      "finished_at": "2026-11-16T08:29:11.925624+00:00"
+    }
+  },
+  "restored_missing": {
+    "tests/fixtures/regression-expectations/deadsync-song-lua/be710b4f3cee6329.snap": "5c5fccd058e2c995ff3056fb909e75ddcb8fafed9c278477a50eddedb1b6c812"
+  },
+  "candidate_files_restored": true,
+  "finished_at": "2026-11-16T08:29:11.926457+00:00"
+}
