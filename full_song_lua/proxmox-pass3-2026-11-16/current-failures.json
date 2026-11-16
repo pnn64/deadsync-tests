@@ -12,6 +12,7 @@
     "ip": "192.168.1.39",
     "mismatches": null,
     "missing": "Authored native movie setup passes a nil musicrate to Sprite.rate. Supply/resolve the song dependency before accepting a native oracle.",
+    "previous_diagnosis": "Authored native movie setup passes a nil musicrate to Sprite.rate. Supply/resolve the song dependency before accepting a native oracle.",
     "replayed_this_pass": false
   },
   {
@@ -27,8 +28,9 @@
     "ip": "192.168.1.40",
     "mismatches": 7,
     "missing": "Current replay has 7 comparison mismatches and 0 callback errors; see the retained detailed comparison.",
+    "previous_diagnosis": "Seven same-frame node-order differences remain. Preserve native traversal/table allocation order; see the first-audit permutation proof. No comparator sorting was added.",
     "replayed_this_pass": true,
-    "evidence_path": "1401/pass3-order-results/a170dd312f720cd4-native-repeat-2/result.json",
+    "evidence_path": "1401/pass3-gc-results/a170dd312f720cd4-native-repeat-2/result.json",
     "source_snapshot": {
       "baseline": {
         "source": {
@@ -50,13 +52,11 @@
         "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
         "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
       },
+      "runner_sha256": "618e1c30d531236299863a71e0362e29d41e1c032eec13220f27c3142abd3c2b",
       "patches": {
-        "harness-r1.patch": "a0491c3c1f7f6fde05e575995146648c7d2d98ab22d16acefce4ae170326ef54",
-        "deadsync-r1.patch": "e5a09383cb3bede200c47fcb168fdb46269e242ec42c650c1d10749475139cce"
-      },
-      "binaries": {
-        "itgmania-harness-pass3-r1": "7b26e8402a14639e3954f66e1eb4bc29d52c37055d6650adcc0dcaee2884039b",
-        "full_song_lua-pass3-r1": "b215f71d4d863e41940fb39618d16f17459d4c611e81d506a94110fdaadaac3d"
+        "deadsync-roll-clock.patch": "73b55090053455a882b64fc7533b23aeb4de8d15429e2a0bfde2843b817b489c",
+        "deadsync-gc-dead-keys.patch": "a1733b86ef58f3a73910d77ce13be851ea9c9de3d8fc60ae229f58a07a35b204",
+        "deadsync-r1b.patch": "49e984bb0c211724f7c14ba0f5f182fd1859766d111e697e464de311289f5d6e"
       }
     }
   },
@@ -73,6 +73,7 @@
     "ip": "192.168.1.40",
     "mismatches": null,
     "missing": "Authored native movie setup passes a nil musicrate to Sprite.rate. Supply/resolve the song dependency before accepting a native oracle.",
+    "previous_diagnosis": "Authored native movie setup passes a nil musicrate to Sprite.rate. Supply/resolve the song dependency before accepting a native oracle.",
     "replayed_this_pass": false
   },
   {
@@ -88,6 +89,7 @@
     "ip": "192.168.1.23",
     "mismatches": null,
     "missing": "Native reports Tween overflow: \"<type 20ScreenGameplayNormal> ScreenGameplay/<type 28ActorFrameAutoDeleteChildren> Underlay/<type 10BitmapText> P1Score\"; infinitely recursing ActorCommand?. A clean native run is required before accepting a fixture.",
+    "previous_diagnosis": "Native reports Tween overflow: \"<type 20ScreenGameplayNormal> ScreenGameplay/<type 28ActorFrameAutoDeleteChildren> Underlay/<type 10BitmapText> P1Score\"; infinitely recursing ActorCommand?. A clean native run is required before accepting a fixture.",
     "replayed_this_pass": false
   },
   {
@@ -103,6 +105,7 @@
     "ip": "192.168.1.34",
     "mismatches": null,
     "missing": "The single-player profile accesses an absent PlayerP2. A separate versus capture passes; it does not replace this primary profile.",
+    "previous_diagnosis": "The single-player profile accesses an absent PlayerP2. A separate versus capture passes; it does not replace this primary profile.",
     "replayed_this_pass": false
   },
   {
@@ -118,6 +121,7 @@
     "ip": "192.168.1.37",
     "mismatches": null,
     "missing": "The saved chart is missing its music dependency; the native capture never yields a valid completed reference.",
+    "previous_diagnosis": "The saved chart is missing its music dependency; the native capture never yields a valid completed reference.",
     "replayed_this_pass": false
   },
   {
@@ -133,6 +137,7 @@
     "ip": "192.168.1.34",
     "mismatches": null,
     "missing": "Inline-comma parsing is fixed in RSSP, and BackgroundEffect subscriber paths are fixed. Native now reports an overlay.lua tween overflow, including with a fixed 1/60-second update delta; this prevents accepting a complete clean oracle.",
+    "previous_diagnosis": "Inline-comma parsing is fixed in RSSP, and BackgroundEffect subscriber paths are fixed. Native now reports an overlay.lua tween overflow, including with a fixed 1/60-second update delta; this prevents accepting a complete clean oracle.",
     "replayed_this_pass": false
   },
   {
@@ -148,6 +153,7 @@
     "ip": "192.168.1.46",
     "mismatches": null,
     "missing": "Native diva.lua:1092 reads an exhausted break-length table after foreground restart. Resolve the authored lifecycle error before accepting a native oracle.",
+    "previous_diagnosis": "Native diva.lua:1092 reads an exhausted break-length table after foreground restart. Resolve the authored lifecycle error before accepting a native oracle.",
     "replayed_this_pass": false
   },
   {
@@ -163,6 +169,7 @@
     "ip": "192.168.1.35",
     "mismatches": null,
     "missing": "Authored native effectmagnitude call has too few numeric arguments; the song needs a valid native execution before comparison.",
+    "previous_diagnosis": "Authored native effectmagnitude call has too few numeric arguments; the song needs a valid native execution before comparison.",
     "replayed_this_pass": false
   },
   {
@@ -178,6 +185,7 @@
     "ip": "192.168.1.23",
     "mismatches": null,
     "missing": "Native reaches gameplay exit but the bounded trace loses observations: [{\"dropped_events\": 41824750}]. A streaming capture/replay path and a sufficient observation budget are needed; the truncated trace is rejected.",
+    "previous_diagnosis": "Native reaches gameplay exit but the bounded trace loses observations: [{\"dropped_events\": 41824750}]. A streaming capture/replay path and a sufficient observation budget are needed; the truncated trace is rejected.",
     "replayed_this_pass": false
   },
   {
@@ -193,6 +201,7 @@
     "ip": "192.168.1.34",
     "mismatches": null,
     "missing": "Native reaches gameplay exit but the bounded trace loses observations: [{\"dropped_events\": 41801125}]. A streaming capture/replay path and a sufficient observation budget are needed; the truncated trace is rejected.",
+    "previous_diagnosis": "Native reaches gameplay exit but the bounded trace loses observations: [{\"dropped_events\": 41801125}]. A streaming capture/replay path and a sufficient observation budget are needed; the truncated trace is rejected.",
     "replayed_this_pass": false
   },
   {
@@ -208,21 +217,7 @@
     "ip": "192.168.1.34",
     "mismatches": null,
     "missing": "The source SM has no selectable chart (malformed NOTES header). Repair the corpus simfile before a full native run.",
-    "replayed_this_pass": false
-  },
-  {
-    "id": "c3e0c410f04c30dd",
-    "source_simfile": "Megalovania SM5 - [TaroNuke]/megalovania.sm",
-    "previous_status": "parity_failure",
-    "previous_mismatches": 6,
-    "fresh_capture_this_pass": false,
-    "status": "parity_failure",
-    "raw_attempt_status": "parity_failure",
-    "attempt_id": "c3e0c410f04c30dd",
-    "result_directory": "pass2-final-results",
-    "ip": "192.168.1.44",
-    "mismatches": 6,
-    "missing": "ScreenGameplay:PauseGame currently records a Lua flag but does not pause the gameplay/audio runtime. Native Player::Update advances actor children and then skips judgments while paused; descendant Judgment timing diverges around the authored pause.",
+    "previous_diagnosis": "The source SM has no selectable chart (malformed NOTES header). Repair the corpus simfile before a full native run.",
     "replayed_this_pass": false
   },
   {
@@ -238,6 +233,7 @@
     "ip": "192.168.1.10",
     "mismatches": null,
     "missing": "New native script-error observation exposes FastEnd.lua:47: '<eof>' expected near 'local'. The original zero-Lua-call pass was invalid; the authored script needs correction before parity can be assessed.",
+    "previous_diagnosis": "New native script-error observation exposes FastEnd.lua:47: '<eof>' expected near 'local'. The original zero-Lua-call pass was invalid; the authored script needs correction before parity can be assessed.",
     "replayed_this_pass": false
   },
   {
@@ -245,14 +241,76 @@
     "source_simfile": "Velvet LEFTS 1/chart.ssc",
     "previous_status": "parity_failure",
     "previous_mismatches": 16828,
-    "fresh_capture_this_pass": false,
+    "fresh_capture_this_pass": true,
     "status": "parity_failure",
     "raw_attempt_status": "parity_failure",
     "attempt_id": "8f4d4741245868cf",
     "result_directory": "pass2-final-results",
     "ip": "192.168.1.36",
-    "mismatches": 21184,
-    "missing": "Automatic Lua GC changes allocation/table iteration order. The separately captured stopped-GC profile passes; it does not establish parity for automatic GC.",
-    "replayed_this_pass": false
+    "mismatches": 20688,
+    "missing": "Current replay has 20688 comparison mismatches and 0 callback errors; see the retained detailed comparison.",
+    "previous_diagnosis": "Automatic Lua GC changes allocation/table iteration order. The separately captured stopped-GC profile passes; it does not establish parity for automatic GC.",
+    "replayed_this_pass": true,
+    "evidence_path": "1414/pass3-velvet-gc-results/8f4d4741245868cf-gc-2/result.json",
+    "source_snapshot": {
+      "deadsync": {
+        "baseline": {
+          "source": {
+            "deadsync": {
+              "revision": "bdacd7d389a76c10b95df81a8f6b93cde9556ec5",
+              "directory": "/opt/song-lua-audit/deadsync-pass3"
+            },
+            "harness": {
+              "revision": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+              "directory": "/opt/song-lua-audit/harness-pass3"
+            },
+            "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+          },
+          "runner": "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+          "sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+          "symbols": true,
+          "frame_pointers": true,
+          "profile": "release; debug=1; strip=none; lto=false; codegen-units=16",
+          "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+          "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
+        },
+        "runner_sha256": "618e1c30d531236299863a71e0362e29d41e1c032eec13220f27c3142abd3c2b",
+        "patches": {
+          "deadsync-roll-clock.patch": "73b55090053455a882b64fc7533b23aeb4de8d15429e2a0bfde2843b817b489c",
+          "deadsync-gc-dead-keys.patch": "a1733b86ef58f3a73910d77ce13be851ea9c9de3d8fc60ae229f58a07a35b204",
+          "deadsync-r1b.patch": "49e984bb0c211724f7c14ba0f5f182fd1859766d111e697e464de311289f5d6e"
+        }
+      },
+      "harness": {
+        "baseline": {
+          "source": {
+            "deadsync": {
+              "revision": "bdacd7d389a76c10b95df81a8f6b93cde9556ec5",
+              "directory": "/opt/song-lua-audit/deadsync-pass3"
+            },
+            "harness": {
+              "revision": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+              "directory": "/opt/song-lua-audit/harness-pass3"
+            },
+            "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+          },
+          "runner": "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+          "sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+          "symbols": true,
+          "frame_pointers": true,
+          "profile": "release; debug=1; strip=none; lto=false; codegen-units=16",
+          "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+          "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
+        },
+        "patches": {
+          "harness-r1.patch": "a0491c3c1f7f6fde05e575995146648c7d2d98ab22d16acefce4ae170326ef54",
+          "deadsync-r1.patch": "e5a09383cb3bede200c47fcb168fdb46269e242ec42c650c1d10749475139cce"
+        },
+        "binaries": {
+          "itgmania-harness-pass3-r1": "7b26e8402a14639e3954f66e1eb4bc29d52c37055d6650adcc0dcaee2884039b",
+          "full_song_lua-pass3-r1": "b215f71d4d863e41940fb39618d16f17459d4c611e81d506a94110fdaadaac3d"
+        }
+      }
+    }
   }
 ]

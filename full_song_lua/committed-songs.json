@@ -4650,6 +4650,12 @@
     "archive": "c39fefdc2202790e09a0b143171f1ff2e61d819d60154faec857a5f89d1e469a.tar.zst"
   },
   {
+    "title": "Megalovania",
+    "source_simfile": "Megalovania SM5 - [TaroNuke]/megalovania.sm",
+    "harness_version": "0.1.99",
+    "archive": "c410e5b2c6f31d4462e0d941a83bbee992a1f74c55124646cf667a424ad96f8d.tar.zst"
+  },
+  {
     "title": "45|HALF|[MASTER] Tacos",
     "source_simfile": "Doubles-45-HALF-[MASTER] Tacos/Tacos.ssc",
     "harness_version": "0.1.80",

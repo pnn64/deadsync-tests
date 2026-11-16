@@ -6,12 +6,52 @@ The release runner retains debug information and frame pointers, with LTO disabl
 
 | Fixture | Run | Replay + profiler seconds | CPU samples | Replay passed | Unresolved leaf samples |
 | --- | --- | ---: | ---: | --- | ---: |
+| fof_guys/fof.ssc | 1 | 494.388 | 48244 | True | 44 |
+| fof_guys/fof.ssc | 2 | 485.466 | 47494 | True | 35 |
 | mr sandman/mr sandman.sm | 1 | 802.554 | 78864 | True | 10 |
 | mr sandman/mr sandman.sm | 2 | 809.226 | 79514 | True | 13 |
 | Paint the Town Red/PaintTheTownRed.ssc | 1 | 379.737 | 36903 | True | 14 |
 | Paint the Town Red/PaintTheTownRed.ssc | 2 | 380.873 | 37179 | True | 14 |
 
 Percentages below are shares of sampled CPU stacks, not wall-clock shares. Exclusive samples identify the currently executing physical function; inclusive samples include descendants and overlap. Full inclusive/exclusive top-30 tables are in each hotspots.json. Portable .syms.json files accompany every saved profile.
+
+## fof_guys/fof.ssc — run 1
+
+[Profile](fof/run-1/profile.json.gz) · [Symbols](fof/run-1/profile.json.syms.json) · [Hotspot data](fof/run-1/hotspots.json) · [Run provenance](fof/run-1/result.json)
+
+| Exclusive CPU samples | Function |
+| ---: | --- |
+| 47.23% | `sha2::sha256::soft::unroll::compress` |
+| 9.51% | `int_malloc` |
+| 6.58% | `<serde_json::value::Value as serde_core::de::Deserialize>::deserialize::<&mut serde_json::de::Deserializer<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>>>>` |
+| 4.03% | `_libc_read` |
+| 3.48% | `<deadlib_lua::vm::Vm>::run` |
+| 2.46% | `_GI___write` |
+| 2.43% | `<serde_json::iter::LineColIterator<alloc::io::util::Bytes<alloc::io::buffered::bufreader::BufReader<std::fs::File>>> as core::iter::traits::iterator::Iterator>::next` |
+| 1.19% | `<serde_json::de::Deserializer<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>>>>::parse_number` |
+| 1.17% | `<indexmap::map::IndexMap<alloc::string::String, serde_json::value::Value>>::get_index_of::<str>` |
+| 1.14% | `core::ptr::drop_glue::<serde_json::value::Value>` |
+| 1.13% | `_GI___libc_malloc` |
+| 0.92% | `_memcmp_sse2` |
+
+## fof_guys/fof.ssc — run 2
+
+[Profile](fof/run-2/profile.json.gz) · [Symbols](fof/run-2/profile.json.syms.json) · [Hotspot data](fof/run-2/hotspots.json) · [Run provenance](fof/run-2/result.json)
+
+| Exclusive CPU samples | Function |
+| ---: | --- |
+| 48.62% | `sha2::sha256::soft::unroll::compress` |
+| 8.80% | `int_malloc` |
+| 6.16% | `<serde_json::value::Value as serde_core::de::Deserialize>::deserialize::<&mut serde_json::de::Deserializer<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>>>>` |
+| 4.50% | `_libc_read` |
+| 3.42% | `<deadlib_lua::vm::Vm>::run` |
+| 2.54% | `<serde_json::iter::LineColIterator<alloc::io::util::Bytes<alloc::io::buffered::bufreader::BufReader<std::fs::File>>> as core::iter::traits::iterator::Iterator>::next` |
+| 2.47% | `_GI___write` |
+| 1.14% | `<indexmap::map::IndexMap<alloc::string::String, serde_json::value::Value>>::get_index_of::<str>` |
+| 1.11% | `<serde_json::de::Deserializer<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>>>>::parse_number` |
+| 1.09% | `core::ptr::drop_glue::<serde_json::value::Value>` |
+| 1.01% | `_GI___libc_malloc` |
+| 0.96% | `_memcmp_sse2` |
 
 ## mr sandman/mr sandman.sm — run 1
 

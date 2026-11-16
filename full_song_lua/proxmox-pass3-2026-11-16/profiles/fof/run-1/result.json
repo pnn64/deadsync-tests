@@ -1,0 +1,107 @@
+{
+  "id": "e115c0f3019c18b4",
+  "song": "fof_guys/fof.ssc",
+  "iteration": 1,
+  "started_at": "2026-11-16T00:59:18.261218+00:00",
+  "runner_sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+  "capture": {
+    "id": "e115c0f3019c18b4",
+    "source_simfile": "fof_guys/fof.ssc",
+    "path": "/waves/deadsync-lua-retained-20261116/selected-archives/d469915c8b636e77a4b749003c1018a69e28a5d857d214ec8ac116fa32028651.tar.zst",
+    "sha256": "d469915c8b636e77a4b749003c1018a69e28a5d857d214ec8ac116fa32028651",
+    "uncompressed_sha256": "5b9372c9fd7850a93218c0a6f31f8dbe89403daaef4071f8d64b74e9b9e49f0b",
+    "source_vmid": 1315,
+    "bytes": 198781739
+  },
+  "sample_rate_hz": 99,
+  "cache_policy": "OS caches uncontrolled; sequential repeated runs",
+  "vm_cpus": 2,
+  "vm_memory_mib": 65536,
+  "status": "complete",
+  "execution": {
+    "command": [
+      "/opt/song-lua-audit/profiler/samply",
+      "record",
+      "--save-only",
+      "--unstable-presymbolicate",
+      "--rate",
+      "99",
+      "--profile-name",
+      "fof baseline pass3 run 1",
+      "--output",
+      "/opt/song-lua-audit/pass3-profiles/fof/run-1/profile.json.gz",
+      "--",
+      "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+      "--archive",
+      "/opt/song-lua-audit/pass3-profiles/fof/5b9372c9fd7850a93218c0a6f31f8dbe89403daaef4071f8d64b74e9b9e49f0b.tar",
+      "--report",
+      "/opt/song-lua-audit/pass3-profiles/fof/run-1/report.json"
+    ],
+    "exit": 0,
+    "elapsed_seconds": 494.388,
+    "memory_limit": "58G",
+    "timeout_seconds": 7200,
+    "unit": "lua-pass2-run-1-profile",
+    "service_tail": "2026-11-16T00:17:03+00:00 deadsync-lua-pass3-15 systemd[1]: Started lua-pass2-run-1-profile.service - /opt/song-lua-audit/profiler/samply record --save-only --unstable-presymbolicate --rate 99 --profile-name \"mr-sandman baseline pass3 run 1\" --output /opt/song-lua-audit/pass3-profiles/mr-sandman/run-1/profile.json.gz -- /opt/song-lua-audit/bin/full_song_lua-pass3-profile --archive /opt/song-lua-audit/pass3-profiles/mr-sandman/cda3f6069cb2da5b4fc79da0886fc07305f6071c65c887524fa556d846a8be17.tar --report /opt/song-lua-audit/pass3-profiles/mr-sandman/run-1/report.json.\n2026-11-16T00:30:26+00:00 deadsync-lua-pass3-15 systemd[1]: lua-pass2-run-1-profile.service: Deactivated successfully.\n2026-11-16T00:30:26+00:00 deadsync-lua-pass3-15 systemd[1]: lua-pass2-run-1-profile.service: Consumed 13min 24.087s CPU time, 2.8M memory peak, 0B memory swap peak.\n2026-11-16T00:44:58+00:00 deadsync-lua-pass3-15 systemd[1]: Started lua-pass2-run-1-profile.service - /opt/song-lua-audit/profiler/samply record --save-only --unstable-presymbolicate --rate 99 --profile-name \"paint-ssc baseline pass3 run 1\" --output /opt/song-lua-audit/pass3-profiles/paint-ssc/run-1/profile.json.gz -- /opt/song-lua-audit/bin/full_song_lua-pass3-profile --archive /opt/song-lua-audit/pass3-profiles/paint-ssc/e6e3beb85ee7761ad9ea8066d56d67adf13afa5a26b68e24b21ea5d5d38336a3.tar --report /opt/song-lua-audit/pass3-profiles/paint-ssc/run-1/report.json.\n2026-11-16T00:51:18+00:00 deadsync-lua-pass3-15 systemd[1]: lua-pass2-run-1-profile.service: Deactivated successfully.\n2026-11-16T00:51:18+00:00 deadsync-lua-pass3-15 systemd[1]: lua-pass2-run-1-profile.service: Consumed 6min 20.604s CPU time, 2.4M memory peak, 0B memory swap peak.\n2026-11-16T00:59:18+00:00 deadsync-lua-pass3-15 systemd[1]: Started lua-pass2-run-1-profile.service - /opt/song-lua-audit/profiler/samply record --save-only --unstable-presymbolicate --rate 99 --profile-name \"fof baseline pass3 run 1\" --output /opt/song-lua-audit/pass3-profiles/fof/run-1/profile.json.gz -- /opt/song-lua-audit/bin/full_song_lua-pass3-profile --archive /opt/song-lua-audit/pass3-profiles/fof/5b9372c9fd7850a93218c0a6f31f8dbe89403daaef4071f8d64b74e9b9e49f0b.tar --report /opt/song-lua-audit/pass3-profiles/fof/run-1/report.json.\n2026-11-16T01:07:32+00:00 deadsync-lua-pass3-15 systemd[1]: lua-pass2-run-1-profile.service: Deactivated successfully.\n2026-11-16T01:07:32+00:00 deadsync-lua-pass3-15 systemd[1]: lua-pass2-run-1-profile.service: Consumed 8min 14.923s CPU time, 1.8M memory peak, 0B memory swap peak.\n"
+  },
+  "comparison": {
+    "whole_song_parity_proven": false,
+    "archive_accepted": true,
+    "execution_path": "diagnostic-live-lua",
+    "production_preparation_exercised": false,
+    "production_parity_proven": false,
+    "native_frames": 1573,
+    "replayed_frames": 1573,
+    "compared_stage_fields": 1419,
+    "pending_coverage": [
+      "uncompared song operations: Actor.GetZoomY, Actor.texturetranslate, Actor.texturewrapping, Actor.xy, Actor.z, Actor.zoomtoheight, Actor.zoomtowidth, Actor.ztest, Actor.zwrite, ActorMultiVertex.LoadTexture, ActorMultiVertex.SetDrawState, ActorMultiVertex.SetNumVertices, ActorMultiVertex.SetVertices, ActorSound.play, BitmapText.settext, GameState.GetHumanPlayers, GameState.IsHumanPlayer, Screen.AddInputCallback",
+      "native drawable state/resources: ActorMultiVertex, BitmapText, Quad, Sound, Sprite",
+      "missing captured subscriber identity for ScreenGameplay/18",
+      "missing captured subscriber identity for ScreenGameplay/3/1"
+    ],
+    "capture_completed_gameplay": true,
+    "acceptance_basis": "full replay of implemented comparisons",
+    "fixture_sha256": "5b9372c9fd7850a93218c0a6f31f8dbe89403daaef4071f8d64b74e9b9e49f0b",
+    "mismatch_count": 0,
+    "mismatch_fields": {},
+    "first_mismatches": [],
+    "error_count": 0,
+    "errors": []
+  },
+  "report": {
+    "file": "fof/run-1/report.json.zst",
+    "bytes": 1741144,
+    "sha256": "0f55d630c15a89581bb01498a6c2001a2076d00a8a5877cb20f8161bf16186ff",
+    "uncompressed_sha256": "26c2beea6ef66d1c488417bb5b9c313e01134eee70c285b13c90e53ed107fe76"
+  },
+  "samples": 48244,
+  "threads": [
+    {
+      "name": "samply",
+      "samples": 0
+    },
+    {
+      "name": "full_song_lua-pass3-profile",
+      "samples": 48242
+    },
+    {
+      "name": "full_song_lua-pass3-profile",
+      "samples": 2
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fof/run-1/profile.json.gz",
+      "bytes": 2452656,
+      "sha256": "e3f8084431c5a59ad526a1a9aaf5a28ded37809d732779fb2b361cb6df8d0491"
+    },
+    {
+      "path": "fof/run-1/profile.json.syms.json",
+      "bytes": 458020,
+      "sha256": "d2a7e546c141dcc7b406104304e06b96069985383506a7c470d382b7a4f9caa6"
+    }
+  ],
+  "symbols_saved": true,
+  "parity_pass": true,
+  "finished_at": "2026-11-16T01:07:44.301131+00:00"
+}

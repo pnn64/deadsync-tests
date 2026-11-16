@@ -171,5 +171,76 @@
     "local_evidence": "collected/1402/pass3-r2b-results/fbe89f6bae9565a6/result.json",
     "acceptance_basis": "full replay of implemented comparisons",
     "production_parity_proven": false
+  },
+  {
+    "id": "c3e0c410f04c30dd-pause-baseline",
+    "archive": "c410e5b2c6f31d4462e0d941a83bbee992a1f74c55124646cf667a424ad96f8d.tar.zst",
+    "bytes": 113617840,
+    "sha256": "c410e5b2c6f31d4462e0d941a83bbee992a1f74c55124646cf667a424ad96f8d",
+    "uncompressed_sha256": "3c18453336f84c96441720881bb9e71cf4fbc2dceba33f37ce250085952aa7e4",
+    "source_simfile": "Megalovania SM5 - [TaroNuke]/megalovania.sm",
+    "source_snapshot": {
+      "deadsync": {
+        "baseline": {
+          "source": {
+            "deadsync": {
+              "revision": "bdacd7d389a76c10b95df81a8f6b93cde9556ec5",
+              "directory": "/opt/song-lua-audit/deadsync-pass3"
+            },
+            "harness": {
+              "revision": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+              "directory": "/opt/song-lua-audit/harness-pass3"
+            },
+            "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+          },
+          "runner": "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+          "sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+          "symbols": true,
+          "frame_pointers": true,
+          "profile": "release; debug=1; strip=none; lto=false; codegen-units=16",
+          "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+          "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
+        },
+        "runner_sha256": "618e1c30d531236299863a71e0362e29d41e1c032eec13220f27c3142abd3c2b",
+        "patches": {
+          "deadsync-roll-clock.patch": "73b55090053455a882b64fc7533b23aeb4de8d15429e2a0bfde2843b817b489c",
+          "deadsync-gc-dead-keys.patch": "a1733b86ef58f3a73910d77ce13be851ea9c9de3d8fc60ae229f58a07a35b204",
+          "deadsync-r1b.patch": "49e984bb0c211724f7c14ba0f5f182fd1859766d111e697e464de311289f5d6e"
+        }
+      },
+      "harness": {
+        "baseline": {
+          "source": {
+            "deadsync": {
+              "revision": "bdacd7d389a76c10b95df81a8f6b93cde9556ec5",
+              "directory": "/opt/song-lua-audit/deadsync-pass3"
+            },
+            "harness": {
+              "revision": "06d0eb438313f8b24ba3e9d6fe0fd014e1cdb440",
+              "directory": "/opt/song-lua-audit/harness-pass3"
+            },
+            "preserved_user_patch_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+          },
+          "runner": "/opt/song-lua-audit/bin/full_song_lua-pass3-profile",
+          "sha256": "5717bbda18e1c1e9ef208904736f83520e8b67eca44acff40878e88a634d66f8",
+          "symbols": true,
+          "frame_pointers": true,
+          "profile": "release; debug=1; strip=none; lto=false; codegen-units=16",
+          "native_revision": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+          "harness_sha256": "36796f528a3aed0fe9bf47f550252af5e57e7a37bc3caa661153e22aa0fc5c06"
+        },
+        "patches": {
+          "harness-r1.patch": "a0491c3c1f7f6fde05e575995146648c7d2d98ab22d16acefce4ae170326ef54",
+          "deadsync-r1.patch": "e5a09383cb3bede200c47fcb168fdb46269e242ec42c650c1d10749475139cce"
+        },
+        "binaries": {
+          "itgmania-harness-pass3-r1": "7b26e8402a14639e3954f66e1eb4bc29d52c37055d6650adcc0dcaee2884039b",
+          "full_song_lua-pass3-r1": "b215f71d4d863e41940fb39618d16f17459d4c611e81d506a94110fdaadaac3d"
+        }
+      }
+    },
+    "local_evidence": "collected/1401/pass3-pause-results/c3e0c410f04c30dd-pause-baseline/result.json",
+    "acceptance_basis": "full replay of implemented comparisons",
+    "production_parity_proven": false
   }
 ]

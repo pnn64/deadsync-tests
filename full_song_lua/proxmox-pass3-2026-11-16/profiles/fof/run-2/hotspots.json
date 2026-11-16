@@ -1,0 +1,309 @@
+{
+  "sampled_stacks": 47494,
+  "unresolved_leaf_samples": 35,
+  "exclusive": [
+    {
+      "function": "sha2::sha256::soft::unroll::compress",
+      "samples": 23093,
+      "percent": 48.623
+    },
+    {
+      "function": "int_malloc",
+      "samples": 4181,
+      "percent": 8.803
+    },
+    {
+      "function": "<serde_json::value::Value as serde_core::de::Deserialize>::deserialize::<&mut serde_json::de::Deserializer<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>>>>",
+      "samples": 2926,
+      "percent": 6.161
+    },
+    {
+      "function": "_libc_read",
+      "samples": 2139,
+      "percent": 4.504
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::run",
+      "samples": 1624,
+      "percent": 3.419
+    },
+    {
+      "function": "<serde_json::iter::LineColIterator<alloc::io::util::Bytes<alloc::io::buffered::bufreader::BufReader<std::fs::File>>> as core::iter::traits::iterator::Iterator>::next",
+      "samples": 1205,
+      "percent": 2.537
+    },
+    {
+      "function": "_GI___write",
+      "samples": 1173,
+      "percent": 2.47
+    },
+    {
+      "function": "<indexmap::map::IndexMap<alloc::string::String, serde_json::value::Value>>::get_index_of::<str>",
+      "samples": 542,
+      "percent": 1.141
+    },
+    {
+      "function": "<serde_json::de::Deserializer<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>>>>::parse_number",
+      "samples": 527,
+      "percent": 1.11
+    },
+    {
+      "function": "core::ptr::drop_glue::<serde_json::value::Value>",
+      "samples": 520,
+      "percent": 1.095
+    },
+    {
+      "function": "_GI___libc_malloc",
+      "samples": 481,
+      "percent": 1.013
+    },
+    {
+      "function": "_memcmp_sse2",
+      "samples": 454,
+      "percent": 0.956
+    },
+    {
+      "function": "int_free_merge_chunk",
+      "samples": 439,
+      "percent": 0.924
+    },
+    {
+      "function": "<indexmap::map::IndexMap<alloc::string::String, serde_json::value::Value>>::get_mut::<alloc::string::String>",
+      "samples": 439,
+      "percent": 0.924
+    },
+    {
+      "function": "int_free",
+      "samples": 411,
+      "percent": 0.865
+    },
+    {
+      "function": "<deadlib_lua::vm::host::HostCall>::raw_table_get",
+      "samples": 386,
+      "percent": 0.813
+    },
+    {
+      "function": "<serde_json::de::Deserializer<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>>>>::parse_integer",
+      "samples": 383,
+      "percent": 0.806
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::is_live_value",
+      "samples": 241,
+      "percent": 0.507
+    },
+    {
+      "function": "_memmove_sse2_unaligned_erms",
+      "samples": 221,
+      "percent": 0.465
+    },
+    {
+      "function": "_brk",
+      "samples": 213,
+      "percent": 0.448
+    },
+    {
+      "function": "_free",
+      "samples": 191,
+      "percent": 0.402
+    },
+    {
+      "function": "<deadlib_lua::vm::host::HostCall>::with_roots::<alloc::vec::Vec<deadsync_song_lua::SongLuaActorMultiVertexPoint>, deadsync_song_lua::actors::meshes::points::{closure#0}>",
+      "samples": 187,
+      "percent": 0.394
+    },
+    {
+      "function": "<deadlib_lua::table::Table>::get_key",
+      "samples": 183,
+      "percent": 0.385
+    },
+    {
+      "function": "<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>> as serde_json::read::Read>::parse_str",
+      "samples": 171,
+      "percent": 0.36
+    },
+    {
+      "function": "_GI_unlinkat",
+      "samples": 164,
+      "percent": 0.345
+    },
+    {
+      "function": "<deadlib_lua::vm::userdata::Bytes>::new",
+      "samples": 154,
+      "percent": 0.324
+    },
+    {
+      "function": "int_realloc",
+      "samples": 140,
+      "percent": 0.295
+    },
+    {
+      "function": "unlink_chunk.isra.0",
+      "samples": 130,
+      "percent": 0.274
+    },
+    {
+      "function": "<serde_json::de::MapAccess<_> as serde_core::de::MapAccess>::next_key_seed::has_next_key::<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>>>",
+      "samples": 125,
+      "percent": 0.263
+    },
+    {
+      "function": "serde_json::lexical::parse::parse_concise_float::<f64>",
+      "samples": 123,
+      "percent": 0.259
+    }
+  ],
+  "inclusive": [
+    {
+      "function": "full_song_lua::semantics::whole_song_archives::hash_file",
+      "samples": 24304,
+      "percent": 51.173
+    },
+    {
+      "function": "sha2::sha256::soft::unroll::compress",
+      "samples": 23093,
+      "percent": 48.623
+    },
+    {
+      "function": "_libc_start_call_main",
+      "samples": 14725,
+      "percent": 31.004
+    },
+    {
+      "function": "full_song_lua::semantics::whole_song_archives::run_cli",
+      "samples": 14725,
+      "percent": 31.004
+    },
+    {
+      "function": "std::sys::backtrace::__rust_begin_short_backtrace::<fn() -> std::process::ExitCode, std::process::ExitCode>",
+      "samples": 14725,
+      "percent": 31.004
+    },
+    {
+      "function": "std::panicking::catch_unwind::do_call::<full_song_lua::semantics::whole_song_archives::run_cli::{closure#6}, bool>",
+      "samples": 14725,
+      "percent": 31.004
+    },
+    {
+      "function": "_libc_start_main_alias_2",
+      "samples": 14725,
+      "percent": 31.004
+    },
+    {
+      "function": "std::rt::lang_start_internal",
+      "samples": 14725,
+      "percent": 31.004
+    },
+    {
+      "function": "full_song_lua::main",
+      "samples": 14725,
+      "percent": 31.004
+    },
+    {
+      "function": "std::rt::lang_start::<std::process::ExitCode>::{closure#0}",
+      "samples": 14725,
+      "percent": 31.004
+    },
+    {
+      "function": "start",
+      "samples": 14725,
+      "percent": 31.004
+    },
+    {
+      "function": "main",
+      "samples": 14725,
+      "percent": 31.004
+    },
+    {
+      "function": "full_song_lua::semantics::whole_song_archives::replay_native_archive",
+      "samples": 12996,
+      "percent": 27.363
+    },
+    {
+      "function": "<serde_json::value::Value as serde_core::de::Deserialize>::deserialize::<&mut serde_json::de::Deserializer<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>>>>",
+      "samples": 11342,
+      "percent": 23.881
+    },
+    {
+      "function": "<<serde_json::value::Value as serde_core::de::Deserialize>::deserialize::ValueVisitor as serde_core::de::Visitor>::visit_map::<serde_json::de::MapAccess<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>>>>",
+      "samples": 11335,
+      "percent": 23.866
+    },
+    {
+      "function": "<serde_json::de::MapAccess<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>>> as serde_core::de::MapAccess>::next_value_seed::<core::marker::PhantomData<serde_json::value::Value>>",
+      "samples": 11334,
+      "percent": 23.864
+    },
+    {
+      "function": "serde_json::de::from_trait::<serde_json::read::IoRead<alloc::io::buffered::bufreader::BufReader<std::fs::File>>, serde_json::value::Value>",
+      "samples": 11334,
+      "percent": 23.864
+    },
+    {
+      "function": "full_song_lua::semantics::native_gameplay::replay_mode::<full_song_lua::semantics::whole_song_archives::replay_native_archive::{closure#2}>",
+      "samples": 8133,
+      "percent": 17.124
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::host_native",
+      "samples": 6064,
+      "percent": 12.768
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::start_lua_call",
+      "samples": 6062,
+      "percent": 12.764
+    },
+    {
+      "function": "deadsync_theme_simply_love::screens::gameplay::update_with_input::<full_song_lua::semantics::native_gameplay::replay_mode<full_song_lua::semantics::whole_song_archives::replay_native_archive::{closure#2}>::{closure#23}, full_song_lua::semantics::native_gameplay::replay_mode<full_song_lua::semantics::whole_song_archives::replay_native_archive::{closure#2}>::{closure#24}>",
+      "samples": 6045,
+      "percent": 12.728
+    },
+    {
+      "function": "<deadsync_theme_simply_love::screens::gameplay::State>::advance_song_lua",
+      "samples": 6026,
+      "percent": 12.688
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::call",
+      "samples": 6015,
+      "percent": 12.665
+    },
+    {
+      "function": "<deadlib_lua::vm::Vm>::call_root",
+      "samples": 6015,
+      "percent": 12.665
+    },
+    {
+      "function": "<deadsync_song_lua::live_scene::SongLiveScene>::update",
+      "samples": 5957,
+      "percent": 12.543
+    },
+    {
+      "function": "<deadsync_song_lua::live_layers::SongLiveLayers>::advance",
+      "samples": 5916,
+      "percent": 12.456
+    },
+    {
+      "function": "<deadsync_song_lua::actors::Actors>::advance_live",
+      "samples": 5914,
+      "percent": 12.452
+    },
+    {
+      "function": "deadsync_song_lua::actors::song_multitap::advance",
+      "samples": 5912,
+      "percent": 12.448
+    },
+    {
+      "function": "<deadlib_lua::vm::host::HostCall>::with_roots::<(), deadsync_song_lua::actors::song_multitap::advance::{closure#1}>",
+      "samples": 5911,
+      "percent": 12.446
+    },
+    {
+      "function": "<deadlib_lua::vm::host::HostCall>::run_action_with_call",
+      "samples": 5861,
+      "percent": 12.341
+    }
+  ],
+  "method": "Weighted CPU stack samples; physical symbols resolved from exact samply known_addresses. Recursive inclusive frames counted once per sample. No inline expansion."
+}

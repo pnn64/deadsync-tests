@@ -14,9 +14,10 @@ These completed runs add to the November 15 snapshot below. Use the [pass-three 
 | Fixture | Successful replay | Native capture | Replay cap | Reference |
 | --- | --- | --- | --- | --- |
 | __pass3_controls/join-inactive/control.sm | 4s | 20s | 6G | Fresh harness 0.1.99 |
-| Anxiety/Anxiety.ssc | 36s | 3m 59s | 6G | Fresh harness 0.1.99 |
-| Anxiety/Anxiety.sm | 36s | 3m 59s | 6G | Fresh harness 0.1.99 |
-| After Dark/After Dark.ssc | 1m 14s | 5m 29s | 6G | Fresh harness 0.1.99 |
+| Anxiety/Anxiety.ssc | 40s | 3m 59s | 6G | Fresh harness 0.1.99 |
+| Anxiety/Anxiety.sm | 38s | 3m 59s | 6G | Fresh harness 0.1.99 |
+| After Dark/After Dark.ssc | 1m 13s | 5m 29s | 6G | Fresh harness 0.1.99 |
+| Megalovania SM5 - [TaroNuke]/megalovania.sm | 29s | 3m 43s | 6G | Fresh harness 0.1.99 |
 | 308-MISC-[lv.Quest] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/ArrowQuest.sm | 18m 08s | Retained capture | 84G | Retained native input |
 | 308-MISC-[lv.Quest] [Tech Spectrum Super]/ArrowQuest.sm | 17m 50s | Retained capture | 84G | Retained native input |
 
@@ -96,7 +97,7 @@ These counts describe the November 15 snapshot and exclude its 20 nonpassing pri
 
 ## Known failures: run when working on the named gap
 
-This table preserves the November 15 failed-attempt timings and diagnoses. Anxiety SM/SSC, After Dark and both ArrowQuest variants subsequently passed; use their November 16 timings above and the [pass-three ledger](proxmox-pass3-2026-11-16/README.md) for the latest published status. The remaining failures are diagnostic targets, not part of the passing quick sets. A native script error, timeout, truncated capture, or OOM can finish quickly without providing useful parity coverage.
+This table preserves the November 15 failed-attempt timings and diagnoses. Anxiety SM/SSC, After Dark, Megalovania and both ArrowQuest variants subsequently passed; use their November 16 timings above and the [pass-three ledger](proxmox-pass3-2026-11-16/README.md) for the latest published status. Megalovania's fresh pass does not establish the cause of its earlier mismatches; the separate pause control still exposes a runtime gap. The remaining failures are diagnostic targets, not part of the passing quick sets. A native script error, timeout, truncated capture, or OOM can finish quickly without providing useful parity coverage.
 
 | Song simfile | Capture | Replay | Capture / replay cap | November 15 result / reason | Case ID |
 | --- | --- | --- | --- | --- | --- |

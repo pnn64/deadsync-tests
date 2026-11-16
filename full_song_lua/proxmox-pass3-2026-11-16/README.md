@@ -8,7 +8,8 @@ Status: **in progress**. This report records completed evidence from the replace
 - Fresh Anxiety SM and SSC captures plus the inactive-player join/reload control replay with zero implemented comparison mismatches and no callback errors.
 - ArrowQuest rechecks use the retained, hash-verified native captures in a 96 GiB VM with an 84 GiB process cap. Their individual records distinguish completed replays from work still running.
 - After Dark roll-clock handling tracks previously active roll heads and uses the current rounded song row across clock rewinds. The retained full capture passes with zero mismatches, down from 175; fresh recapture results are recorded separately.
-- A reduced probe against ITGmania’s bundled Lua confirms that GC retires deleted collectable keys, even when their objects remain alive elsewhere. The DeadSync fix passes the native order/cursor probe and 249 selected library, GC, table and allocation checks; full-song ordering replays are still underway.
+- A reduced probe against ITGmania’s bundled Lua confirms that GC retires deleted collectable keys, even when their objects remain alive elsewhere. The DeadSync fix passes the native order/cursor probe and 249 selected library, GC, table and allocation checks; both fresh KENPO references still have seven mismatches, and fresh automatic-GC Velvet repetitions still have 17,872 and 20,688 mismatches.
+- Fresh Megalovania passes with the existing roll/input/GC runner before the new pause patch. This does not establish the cause of its previous six mismatches. The longer-lived pause control independently fails with missing Pause/Unpause commands and incorrect return values.
 - KENPO native repetitions retain the exact ordering comparison; events are not sorted to obtain a pass.
 
 ## Latest available primary ledger
@@ -19,8 +20,8 @@ Status: **in progress**. This report records completed evidence from the replace
 | native_capture_error | 1 |
 | native_lua_error | 8 |
 | no_selectable_chart | 1 |
-| parity_failure | 3 |
-| pass | 488 |
+| parity_failure | 2 |
+| pass | 489 |
 
 The [case ledger](case-ledger.json) carries historical results forward explicitly. [Current failures](current-failures.json) retain the missing behavior or evidence for every nonpassing primary case.
 
@@ -28,7 +29,7 @@ The [case ledger](case-ledger.json) carries historical results forward explicitl
 
 All 34 old task VMs (1200–1216 and 1300–1316) were removed from Proxmox after retaining their disks and configuration evidence. The replacement template is 1400; workers 1401–1415 have two vCPUs each and are started only within the host memory budget. Retained disk chains are independent of the deleted VM registrations.
 
-Heavy-fixture profiling runs on VM 1415 using samply at 99 Hz, two repeated replays each of Mr Sandman, Paint SSC and fof. The baseline runner includes debug information and frame pointers. Completed profiles and symbol sidecars are retained before analysis; no performance optimization is part of this pass.
+All six heavy-fixture profiles completed on VM 1415 using samply at 99 Hz: two repeated replays each of Mr Sandman, Paint SSC and fof, all with passing diagnostic comparisons. The baseline runner includes debug information and frame pointers. Completed profiles and symbol sidecars are retained before analysis; no performance optimization is part of this pass.
 
 ## Scope and reproducibility
 

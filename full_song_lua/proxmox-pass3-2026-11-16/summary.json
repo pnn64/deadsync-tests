@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T01:07:42.958620+00:00",
+  "updated_at": "2026-11-16T01:37:51.294091+00:00",
   "status": "in_progress",
   "primary_cases": 503,
   "latest_available_results": {
@@ -7,10 +7,10 @@
     "native_capture_error": 1,
     "native_lua_error": 8,
     "no_selectable_chart": 1,
-    "parity_failure": 3,
-    "pass": 488
+    "parity_failure": 2,
+    "pass": 489
   },
-  "fresh_passing_primary_cases_this_pass": 3,
+  "fresh_passing_primary_cases_this_pass": 4,
   "all_charts_gate_satisfied": false,
   "native_validated_all_chart_inventory": false
 }
