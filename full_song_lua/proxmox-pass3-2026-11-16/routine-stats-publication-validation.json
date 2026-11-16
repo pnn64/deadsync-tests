@@ -1,0 +1,88 @@
+{
+  "recorded_at": "2026-11-16T07:31:42.297037+00:00",
+  "deadsync_commit": "9ab5cdc0e1d9e4f1af83b78a7099be910d7a57e9",
+  "source_files_verified": 15,
+  "runner_sha256": "28dfbaeb68836f33d32876b2572e12e3c3aec4833322b6c693a432531d8fc779",
+  "retained_artifacts_verified": 142,
+  "new_archives": [
+    {
+      "archive": "301452e340229cae48c7291a4a493e26ef2af5451684102d2f1b99f1d178b378.tar.zst",
+      "bytes": 107760099,
+      "parts": 3
+    },
+    {
+      "archive": "7a09a08ad50bac6f856366b206d669474d2338ce2d6eed713782e699add23519.tar.zst",
+      "bytes": 107757899,
+      "parts": 3
+    },
+    {
+      "archive": "c5821a08db402f2f1b8f84e2dfa090e1764df619b1de09d94d2ae83d8f39870b.tar.zst",
+      "bytes": 107757707,
+      "parts": 3
+    },
+    {
+      "archive": "d09cd14d313b9cb67dd6807773780d7bb7da165e31e3b57b4a48717f3458e05f.tar.zst",
+      "bytes": 107758474,
+      "parts": 3
+    }
+  ],
+  "complete_catalog_archives": 1008,
+  "full_replays": [
+    {
+      "id": "68eda87bf02562c3",
+      "frames": 8236,
+      "queries": 73039
+    },
+    {
+      "id": "730650ffb42269d8",
+      "frames": 8338,
+      "queries": 75457
+    },
+    {
+      "id": "routine-fail-dance",
+      "frames": 624,
+      "queries": 99
+    },
+    {
+      "id": "routine-fail-pump",
+      "frames": 612,
+      "queries": 99
+    },
+    {
+      "id": "routine-life-dance",
+      "frames": 625,
+      "queries": 25
+    },
+    {
+      "id": "routine-life-pump",
+      "frames": 623,
+      "queries": 25
+    },
+    {
+      "id": "routine-manual-dance",
+      "frames": 616,
+      "queries": 57
+    },
+    {
+      "id": "routine-manual-pump",
+      "frames": 611,
+      "queries": 57
+    },
+    {
+      "id": "style-dance-routine",
+      "frames": 417,
+      "queries": 17
+    },
+    {
+      "id": "style-pump-routine",
+      "frames": 405,
+      "queries": 17
+    }
+  ],
+  "primary_passes": 489,
+  "primary_nonpasses": 14,
+  "all_chart_gate_satisfied": false,
+  "local_markdown_links_verified": 71,
+  "runtime_guide_primary_ids": 503,
+  "protected_user_diff_sha256": "f362069247b6129a8a3a035c439fcbf77fd89c878feae29ee22c02d5475166c0"
+}

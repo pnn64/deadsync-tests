@@ -68,12 +68,37 @@ The new [routine-life replays](proxmox-pass3-2026-11-16/routine-life-replays/REA
 | style-dance-routine | 3.4s | 6G | 40789b891f44b2b6 |
 | style-pump-routine | 3.5s | 6G | d7893e6a64776d03 |
 
-Together these four controls took **14.2s** of serial replay. Use them for changes to routine shared life, history and Lua meter identity. The two manual routine controls still fail on the team-statistics API; their roughly 3.5s attempts are diagnostic costs, not passing estimates.
+Together these four controls took **14.2s** of serial replay. Use them for changes to routine shared life, history and Lua meter identity. At that baseline, the two manual routine controls failed on the team-statistics API. They now pass; use the newer routine-statistics timings below.
 
 ```powershell
 cargo test --release --test full_song_lua -- --jobs 1 074b7d148c9e5697 0542ab8faa6529d1 40789b891f44b2b6 d7893e6a64776d03
 ```
 <!-- routine-life-runtimes:end -->
+
+<!-- routine-stats-runtimes:start -->
+## Routine-statistics timing update
+
+These measurements come from the completed correctness pass on the eight-vCPU builder, using an already-built release runner and uncompressed inputs. Updating this guide did not trigger captures or replays. All ten cases passed; fresh native capture for the two failure controls took about 16s and 15s respectively.
+
+| Fixture | Replay | Replay cap | Accepted archive selector |
+| --- | ---: | --- | --- |
+| 280-MODS-[MASTER] Sharkmode/Sharkmode.ssc | 28.3s | 6G | 1a071285899f14c6 |
+| Sharkmode [Ky_Dash]/Sharkmode.ssc | 28.7s | 6G | 81a02f3ebadfdd0e |
+| __pass3_controls/routine-fail/dance/control.ssc | 3.3s | 6G | d09cd14d313b9cb6 |
+| __pass3_controls/routine-fail/pump/control.ssc | 3.5s | 6G | 301452e340229cae |
+| __pass3_controls/routine-life/dance/control.ssc | 3.5s | 6G | 074b7d148c9e5697 |
+| __pass3_controls/routine-life/pump/control.ssc | 3.7s | 6G | 0542ab8faa6529d1 |
+| __pass3_controls/routine-manual/dance/control.ssc | 3.6s | 6G | 7a09a08ad50bac6f |
+| __pass3_controls/routine-manual/pump/control.ssc | 3.5s | 6G | c5821a08db402f2f |
+| __pass3_controls/styles/dance/control.ssc | 3.6s | 6G | 40789b891f44b2b6 |
+| __pass3_controls/styles/pump/control.ssc | 3.6s | 6G | d7893e6a64776d03 |
+
+The eight routine controls total **28.2s** of serial replay. Use the four manual/failure controls for ordered team scoring, independent failure and statistics-query changes. Both Sharkmode regressions total **57.0s**. Allow additional time for builds, downloads and decompression.
+
+```powershell
+cargo test --release --test full_song_lua -- --jobs 1 d09cd14d313b9cb6 301452e340229cae 7a09a08ad50bac6f c5821a08db402f2f
+```
+<!-- routine-stats-runtimes:end -->
 
 ## Choosing what to run
 

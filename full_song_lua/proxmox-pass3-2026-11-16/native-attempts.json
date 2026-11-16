@@ -31127,5 +31127,1561 @@
     },
     "finished_at": "2026-11-16T01:25:47.225867+00:00",
     "evidence_path": "1414/pass3-velvet-gc-results/8f4d4741245868cf-gc-2/result.json"
+  },
+  {
+    "id": "routine-fail-dance",
+    "profile": {
+      "id": "routine-fail-dance",
+      "game": "dance",
+      "style": "routine",
+      "difficulty": "Edit",
+      "chart_index": 1,
+      "source_simfile": "__pass3_controls/routine-fail/dance/control.ssc",
+      "autoplay": false,
+      "player_options": "default",
+      "input_script": "__pass3_controls/routine-fail/dance/inputs.json",
+      "title": "Routine failure dance"
+    },
+    "source_simfile": "__pass3_controls/routine-fail/dance/control.ssc",
+    "source_snapshot": {
+      "started_at": "2026-11-16T04:48:30.654951+00:00",
+      "source": {
+        "upstream_pr": "https://github.com/itgmania/itgmania/pull/1216",
+        "upstream_base": "e473b59a8caa914cf382904fad6eb88ef9f1c106",
+        "upstream_head": "ad2ae8a8d416d9eb71eb91abbb4012937c09171b",
+        "upstream_merge": "093ba099d2a15f924f1260558dedd2f9a0287fad",
+        "target_base": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+        "patch_sha256": "251b0703cd46d6d7d93fab84934ec0fdbf6fdd8d5d17ae78ac7cba8e2b756575",
+        "patch_bytes": 886624,
+        "apply_check_exit": 1,
+        "apply_check_errors": "error: patch failed: Docs/Luadoc/LuaDocumentation.xml:5047\nerror: Docs/Luadoc/LuaDocumentation.xml: patch does not apply\n",
+        "worktree": "C:\\GitHub\\deadsync\\target\\proxmox-song-lua-pass3-20261116\\native-routine-backport",
+        "status": "local candidate committed; native build and behavioral validation pending",
+        "candidate_commit": "663525dcb86eb570d0ef6a2e209678436660ae26",
+        "prepared_at": "2026-11-16T03:41:12.292132+00:00",
+        "pump_routine_pr": "https://github.com/itgmania/itgmania/pull/1445",
+        "pump_routine_patch_sha256": "4ac50f3949aa993b96b1891c0f4e15d832d9a4a5a7048b3ac49f5ae6a332c1d7",
+        "bundle_sha256": "25dd5e9399ab0ce35f1c15136f68931a73cef71e3f9a0d5fab89c3ea20ac1e3f",
+        "bundle_bytes": 595372,
+        "documentation_resolution": "Keep target RageFile docs, apply all routine API docs",
+        "whitespace_check": "22 upstream noteskin whitespace warnings preserved for source fidelity; no new C++ whitespace errors"
+      },
+      "harness_revision": "9dc325fbcbb22db179bc5d3a4627c736d28f449d",
+      "submodules": "927d13396772073f552cf595dcec112f33bb80b6 Themes/Simply Love (927d133)\n 9884c325dd0fa64b2b885b332e98118f60313208 extern/IXWebSocket (9884c32)\n 9bc0bcce7a03701025d7002271ddc2ce4f351908 extern/ffmpeg (9bc0bcc)\n 0ab6c14264ec76e9328a8eedb3b72b5d27dffd47 extern/hidapi (0ab6c14)\n 20ade4dea9589515a69793e447a6c6220b464535 extern/libjpeg-turbo (20ade4d)\n ea127968204cc5d10f3fc9250c306b9e8cbd9b80 extern/libpng (ea12796)\n 7e7eb695d581782f04b24dc444cbfde86af59853 extern/libtomcrypt (7e7eb69)\n 6ca6898bf37f583c4cc9943441cd60dd69f4b8f2 extern/libtommath (6ca6898)\n cec1e49eec481a6333c218726ecaba8e4f447a07 extern/libusb (cec1e49)\n daca7a3979c22da155ec9dce49ab1abf3b65d3a9 extern/mbedtls (daca7a3)\n e1774cd77f471443541596e09078e78fdc342e4f extern/ogg (e1774cd)\n 0657aee69dec8508a0011f47f3b69d7538e9d262 extern/vorbis (0657aee)\n 51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf extern/zlib (51b7f2a)",
+      "source_status": "",
+      "finished_at": "2026-11-16T04:52:15.063172+00:00",
+      "native_binary_sha256": "cb4e405139e9a1087d88f1a560f2719d24f0cc98eb7f2e6e9f1e6b4162154f6e",
+      "harness_binary_sha256": "371fe48d71b5dfa529d014b9fbcbd38a3d3f7ca4be75bf60f38642c93e04d0a5",
+      "theme": {
+        "base": "dd06138b15492f4136796dfe4b6708ced0f7b9eb",
+        "candidate_commit": "e2157b744051e1873bac5389246afac22e2cf05f",
+        "bundle_sha256": "31e20111675768792dce874be637a9f10dc4aabfa23262b48c6659a9c7779e48",
+        "status": "candidate; native gameplay validation pending",
+        "source": "Scripts/SL-Helpers.lua",
+        "change": "pump couple returns the same 250 width as single/versus; both participants have the identical five-column geometry",
+        "upstream_current_source": "https://github.com/Simply-Love/Simply-Love-SM5/blob/itgmania-release/Scripts/SL-Helpers.lua",
+        "publication_target": "https://github.com/pnn64/Simply-Love-SM5.git",
+        "baseline_failure": "style-pump-couple, StepStatistics/default.lua:19 compares missing GetNotefieldWidth against a number"
+      },
+      "harness_patch_sha256": "e7903afdea69d448e4871dbd9b976e3b103fb7f58f4c2a8094d13ba0294ca49b",
+      "previous_native_binary_sha256": "ada09ec0ee8d0d671288e066e19c9fbe9ee54be991df0613d62252e2607dcaf3",
+      "baseline_test_reproduced": true,
+      "pin_text_bundle_sha256": "2d68c92712cc13f01af9131df54155506769237f2366a2ba018fbe369860af62",
+      "harness_version": "0.1.103",
+      "source_normalized_sha256": {
+        "Cargo.lock": "1404fbbbe02a8b2abc3d41b5c8d676c6913f5df8a036bdf131983e882c9a088c",
+        "Cargo.toml": "c9f62e0f263a63bf3f95b408934a88d7ecb32e7e60b79e6f932f44efff120e98",
+        "native/interactive_trace.cpp": "9180033521237c7540a91973fee97513e281f14d2fb5076a58c0ee690c0a17bb",
+        "native/interactive_trace.h": "27fcdc212df809fa430e07589b0fb99ae2934e55d567c74f651f61b196dd2769",
+        "native/trace_adapter.cmake": "72e411fdefb8369a5269148623cb0292c55c308e75dec74629b626c26a84c508",
+        "probe_theme/SongLuaTrace.lua": "b1f328290f4c738ef05bcb0daddd3cbd8dedef3c9b9b31aac5e51babecea4a25",
+        "src/song_lua_runtime.rs": "b2267ec289f440128f9ce68aaeefd9042c8428d514fbc5a5a4219da189f9ffe4"
+      },
+      "harness_base": "1f4888b8574be4a1d59257261a3a6d776a2932d9",
+      "text_bundle_sha256": "b0976aff071dd27f2c68b4710954b23a668eb5cd34254ac2a141cf20201a037a"
+    },
+    "control_sha256": {
+      "control.ssc": "02799a0c133a81cdf6b957b0a6f0da9fbbbd04128e5d0a48dc468debda91b3b3",
+      "inputs.json": "ca5226ec788296842079d9171ff1291eb83fb32e36941074e319affeb408de15",
+      "silence.wav": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d",
+      "default.lua": "7fe97e8cea37b435bcd8fb0f76c4af67c4ef5e1a54867207ba9d33d89388a73c"
+    },
+    "status": "native_capture_pass",
+    "started_at": "2026-11-16T06:44:30.661668+00:00",
+    "stages": {
+      "capture": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-pass3-input-clocks",
+          "song-lua-trace",
+          "/opt/song-lua-audit/Songs/__pass3_controls/routine-fail/dance/control.ssc",
+          "--itgmania-bin",
+          "/opt/song-lua-audit/routine-native/ITGmania-harness-trace",
+          "--fallback-theme",
+          "Harness Simply Love",
+          "--headless",
+          "--game",
+          "dance",
+          "--style",
+          "routine",
+          "--difficulty",
+          "Edit",
+          "--chart-index",
+          "1",
+          "--until-gameplay-end",
+          "--capture-fps",
+          "60",
+          "--max-events",
+          "250000",
+          "--player-options",
+          "default",
+          "--autoplay",
+          "0",
+          "--input-script",
+          "/opt/song-lua-audit/Songs/__pass3_controls/routine-fail/dance/inputs.json",
+          "--timeout",
+          "180",
+          "--out",
+          "/opt/song-lua-audit/pass3-native-routine-fail/routine-fail-dance/native.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 15.984,
+        "memory_limit": "3G",
+        "timeout_seconds": 270,
+        "unit": "lua-pass2-routine-fail-dance-capture",
+        "service_tail": "2026-11-16T06:44:30+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-routine-fail-dance-capture.service - /opt/song-lua-audit/bin/itgmania-harness-pass3-input-clocks song-lua-trace /opt/song-lua-audit/Songs/__pass3_controls/routine-fail/dance/control.ssc --itgmania-bin /opt/song-lua-audit/routine-native/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --game dance --style routine --difficulty Edit --chart-index 1 --until-gameplay-end --capture-fps 60 --max-events 250000 --player-options default --autoplay 0 --input-script /opt/song-lua-audit/Songs/__pass3_controls/routine-fail/dance/inputs.json --timeout 180 --out /opt/song-lua-audit/pass3-native-routine-fail/routine-fail-dance/native.json.\n2026-11-16T06:44:46+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-fail-dance-capture.service: Deactivated successfully.\n2026-11-16T06:44:46+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-fail-dance-capture.service: Consumed 9.015s CPU time, 1.8M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "native": {
+      "capture_limits": {
+        "max_events": 250000
+      },
+      "command_observer": {
+        "capture_binary_sha256": "371fe48d71b5dfa529d014b9fbcbd38a3d3f7ca4be75bf60f38642c93e04d0a5",
+        "dynamic_commands": true
+      },
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      },
+      "difficulty": "Difficulty_Edit",
+      "dropped_drawable_samples": 0,
+      "dropped_events": 0,
+      "dropped_host_clock_inputs": 0,
+      "dropped_input_events": 0,
+      "dropped_random_reseeds": 0,
+      "dropped_script_errors": 0,
+      "dropped_stage_samples": 0,
+      "dropped_update_frames": 0,
+      "end_position": {
+        "beat": 9.801782608032227,
+        "seconds": 4.917891025543213
+      },
+      "harness_version": "0.1.103",
+      "input": {
+        "autoplay": 0,
+        "catalog_preferences": {
+          "global_offset_seconds": -0.00800000037997961,
+          "initialization": "native-catalog-note-time-calculation",
+          "music_rate": 1
+        },
+        "chart_catalog": [
+          {
+            "chart_name": "",
+            "description": "Asymmetric owners",
+            "difficulty": "Difficulty_Edit",
+            "hash": 0,
+            "index": 1,
+            "is_autogen": false,
+            "meter": 1,
+            "steps_type": "StepsType_Dance_Routine"
+          }
+        ],
+        "game": "dance",
+        "gameplay_preferences": {
+          "column_cue_min_time": 1.5,
+          "default_modifiers": "",
+          "game_mode": "ITG",
+          "initialization": "theme-game-mode",
+          "max_input_latency_seconds": 0,
+          "mod_level": "ModsLevel_Preferred",
+          "music_rate": 1,
+          "players": [
+            {
+              "disabled_timing_windows": [],
+              "enabled": true,
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, Overhead, Default",
+              "player": "PlayerNumber_P1",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            },
+            {
+              "disabled_timing_windows": [],
+              "enabled": true,
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, Overhead, Default",
+              "player": "PlayerNumber_P2",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            }
+          ],
+          "timing_window_add": 0.001500000013038516,
+          "timing_window_scale": 1,
+          "timing_windows": {
+            "Attack": 0.13500000536441803,
+            "Checkpoint": 0.1664000004529953,
+            "Hold": 0.3199999928474426,
+            "Mine": 0.07000000029802322,
+            "Roll": 0.3499999940395355,
+            "W1": 0.0215000007301569,
+            "W2": 0.0430000014603138,
+            "W3": 0.10199999809265137,
+            "W4": 0.13500000536441803,
+            "W5": 0.18000000715255737
+          }
+        },
+        "headless_graphics": false,
+        "injected_inputs": true,
+        "lua_gc_mode": "automatic",
+        "native_source": {
+          "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+          "modified_src": false,
+          "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+          "revision": "663525dcb86eb570d0ef6a2e209678436660ae26"
+        },
+        "observer_frame_period_seconds": 0.01666666666666667,
+        "preferences": {
+          "constant_update_delta_seconds": 0,
+          "default_sync_offset": "SyncOffset_ITG",
+          "display_aspect_ratio": 1.7777777910232544,
+          "global_offset_seconds": -0.00800000037997961,
+          "last_seen_video_driver": "OpenGL",
+          "visual_delay_seconds": 0
+        },
+        "requested_chart_index": 1,
+        "requested_difficulty": "Edit",
+        "script": [
+          {
+            "button": "Left",
+            "down": true,
+            "key": "left",
+            "player": 1,
+            "scene": 1,
+            "seconds": 0.5
+          },
+          {
+            "button": "Right",
+            "down": true,
+            "key": "right",
+            "player": 2,
+            "scene": 1,
+            "seconds": 0.5
+          },
+          {
+            "button": "Left",
+            "down": false,
+            "key": "left",
+            "player": 1,
+            "scene": 1,
+            "seconds": 0.55
+          },
+          {
+            "button": "Right",
+            "down": false,
+            "key": "right",
+            "player": 2,
+            "scene": 1,
+            "seconds": 0.55
+          },
+          {
+            "button": "Down",
+            "down": true,
+            "key": "down",
+            "player": 1,
+            "scene": 1,
+            "seconds": 2
+          },
+          {
+            "button": "Down",
+            "down": false,
+            "key": "down",
+            "player": 1,
+            "scene": 1,
+            "seconds": 2.05
+          },
+          {
+            "button": "Right",
+            "down": true,
+            "key": "right",
+            "player": 2,
+            "scene": 1,
+            "seconds": 3
+          },
+          {
+            "button": "Right",
+            "down": false,
+            "key": "right",
+            "player": 2,
+            "scene": 1,
+            "seconds": 3.05
+          }
+        ],
+        "starting_chart": {
+          "chart_name": "",
+          "description": "Asymmetric owners",
+          "difficulty": "Difficulty_Edit",
+          "hash": 0,
+          "index": 1,
+          "is_autogen": false,
+          "meter": 1,
+          "steps_type": "StepsType_Dance_Routine"
+        },
+        "style": "routine",
+        "window_visible": false
+      },
+      "schema_version": 1,
+      "script_errors": [],
+      "steps_type": "StepsType_Dance_Routine",
+      "style": "routine",
+      "transition_script_errors": [
+        {
+          "message": "ActorFrameTexture: Cannot have width or height less than 1",
+          "screen": "ScreenEvaluationStage"
+        }
+      ]
+    },
+    "samples": [
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 0
+        },
+        "p2": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 15,
+          "w1": 0
+        },
+        "phase": "start",
+        "team": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 25,
+          "w1": 0
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": true,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 0
+        },
+        "p2": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 15,
+          "w1": 0
+        },
+        "phase": "p1-failed",
+        "team": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 25,
+          "w1": 0
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": true,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 0
+        },
+        "p2": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 15,
+          "w1": 0
+        },
+        "phase": "judgment",
+        "player": "PlayerNumber_P1",
+        "team": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 25,
+          "w1": 0
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": true,
+          "maximum": 1,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 1
+        },
+        "p2": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 15,
+          "w1": 0
+        },
+        "phase": "judgment",
+        "player": "PlayerNumber_P2",
+        "team": {
+          "actual": 5,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0.20000000298023224,
+          "possible": 25,
+          "w1": 1
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": true,
+          "maximum": 1,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 1
+        },
+        "p2": {
+          "actual": 5,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": false,
+          "maximum": 1,
+          "miss": 0,
+          "percent": 0.33330002427101135,
+          "possible": 15,
+          "w1": 1
+        },
+        "phase": "team-failed",
+        "team": {
+          "actual": 10,
+          "combo": 2,
+          "current_possible": 10,
+          "failed": true,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0.4000000059604645,
+          "possible": 25,
+          "w1": 2
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": true,
+          "maximum": 1,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 1
+        },
+        "p2": {
+          "actual": 5,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": false,
+          "maximum": 1,
+          "miss": 0,
+          "percent": 0.33330002427101135,
+          "possible": 15,
+          "w1": 1
+        },
+        "phase": "judgment",
+        "player": "PlayerNumber_P2",
+        "team": {
+          "actual": 10,
+          "combo": 2,
+          "current_possible": 10,
+          "failed": true,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0.4000000059604645,
+          "possible": 25,
+          "w1": 2
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": true,
+          "maximum": 1,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 1
+        },
+        "p2": {
+          "actual": -7,
+          "combo": 0,
+          "current_possible": 10,
+          "failed": false,
+          "maximum": 1,
+          "miss": 1,
+          "percent": 0,
+          "possible": 15,
+          "w1": 1
+        },
+        "phase": "judgment",
+        "player": "PlayerNumber_P1",
+        "team": {
+          "actual": 10,
+          "combo": 0,
+          "current_possible": 15,
+          "failed": true,
+          "maximum": 0,
+          "miss": 1,
+          "percent": 0.4000000059604645,
+          "possible": 25,
+          "w1": 2
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 2,
+          "current_possible": 10,
+          "failed": true,
+          "maximum": 2,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 2
+        },
+        "p2": {
+          "actual": -7,
+          "combo": 0,
+          "current_possible": 10,
+          "failed": false,
+          "maximum": 1,
+          "miss": 1,
+          "percent": 0,
+          "possible": 15,
+          "w1": 1
+        },
+        "phase": "judgment",
+        "player": "PlayerNumber_P2",
+        "team": {
+          "actual": 10,
+          "combo": 1,
+          "current_possible": 20,
+          "failed": true,
+          "maximum": 0,
+          "miss": 1,
+          "percent": 0.4000000059604645,
+          "possible": 25,
+          "w1": 3
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 2,
+          "current_possible": 10,
+          "failed": true,
+          "maximum": 2,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 2
+        },
+        "p2": {
+          "actual": -2,
+          "combo": 1,
+          "current_possible": 15,
+          "failed": false,
+          "maximum": 1,
+          "miss": 1,
+          "percent": 0,
+          "possible": 15,
+          "w1": 2
+        },
+        "phase": "finished",
+        "team": {
+          "actual": 10,
+          "combo": 2,
+          "current_possible": 25,
+          "failed": true,
+          "maximum": 0,
+          "miss": 1,
+          "percent": 0.4000000059604645,
+          "possible": 25,
+          "w1": 4
+        }
+      }
+    ],
+    "trace_sha256": "846395bfffd2672820fddfed70ad509f87180c4f26c8600be4184ca5c7eca1ea",
+    "native_artifact": {
+      "file": "routine-fail-dance/native.json.zst",
+      "bytes": 64114,
+      "sha256": "5ad7fc024324f5121eda99c5fbc48f786b1fc830bb8b1c6fbdc39758c7ca3a39",
+      "uncompressed_sha256": "846395bfffd2672820fddfed70ad509f87180c4f26c8600be4184ca5c7eca1ea"
+    },
+    "finished_at": "2026-11-16T06:44:46.699827+00:00",
+    "evidence_path": "1402/pass3-native-routine-fail/routine-fail-dance/result.json"
+  },
+  {
+    "id": "routine-fail-pump",
+    "profile": {
+      "id": "routine-fail-pump",
+      "game": "pump",
+      "style": "routine",
+      "difficulty": "Edit",
+      "chart_index": 1,
+      "source_simfile": "__pass3_controls/routine-fail/pump/control.ssc",
+      "autoplay": false,
+      "player_options": "default",
+      "input_script": "__pass3_controls/routine-fail/pump/inputs.json",
+      "title": "Routine failure pump"
+    },
+    "source_simfile": "__pass3_controls/routine-fail/pump/control.ssc",
+    "source_snapshot": {
+      "started_at": "2026-11-16T04:48:30.654951+00:00",
+      "source": {
+        "upstream_pr": "https://github.com/itgmania/itgmania/pull/1216",
+        "upstream_base": "e473b59a8caa914cf382904fad6eb88ef9f1c106",
+        "upstream_head": "ad2ae8a8d416d9eb71eb91abbb4012937c09171b",
+        "upstream_merge": "093ba099d2a15f924f1260558dedd2f9a0287fad",
+        "target_base": "008bfcfef57a107eaafe08b4de7d9d42c6dd1e2f",
+        "patch_sha256": "251b0703cd46d6d7d93fab84934ec0fdbf6fdd8d5d17ae78ac7cba8e2b756575",
+        "patch_bytes": 886624,
+        "apply_check_exit": 1,
+        "apply_check_errors": "error: patch failed: Docs/Luadoc/LuaDocumentation.xml:5047\nerror: Docs/Luadoc/LuaDocumentation.xml: patch does not apply\n",
+        "worktree": "C:\\GitHub\\deadsync\\target\\proxmox-song-lua-pass3-20261116\\native-routine-backport",
+        "status": "local candidate committed; native build and behavioral validation pending",
+        "candidate_commit": "663525dcb86eb570d0ef6a2e209678436660ae26",
+        "prepared_at": "2026-11-16T03:41:12.292132+00:00",
+        "pump_routine_pr": "https://github.com/itgmania/itgmania/pull/1445",
+        "pump_routine_patch_sha256": "4ac50f3949aa993b96b1891c0f4e15d832d9a4a5a7048b3ac49f5ae6a332c1d7",
+        "bundle_sha256": "25dd5e9399ab0ce35f1c15136f68931a73cef71e3f9a0d5fab89c3ea20ac1e3f",
+        "bundle_bytes": 595372,
+        "documentation_resolution": "Keep target RageFile docs, apply all routine API docs",
+        "whitespace_check": "22 upstream noteskin whitespace warnings preserved for source fidelity; no new C++ whitespace errors"
+      },
+      "harness_revision": "9dc325fbcbb22db179bc5d3a4627c736d28f449d",
+      "submodules": "927d13396772073f552cf595dcec112f33bb80b6 Themes/Simply Love (927d133)\n 9884c325dd0fa64b2b885b332e98118f60313208 extern/IXWebSocket (9884c32)\n 9bc0bcce7a03701025d7002271ddc2ce4f351908 extern/ffmpeg (9bc0bcc)\n 0ab6c14264ec76e9328a8eedb3b72b5d27dffd47 extern/hidapi (0ab6c14)\n 20ade4dea9589515a69793e447a6c6220b464535 extern/libjpeg-turbo (20ade4d)\n ea127968204cc5d10f3fc9250c306b9e8cbd9b80 extern/libpng (ea12796)\n 7e7eb695d581782f04b24dc444cbfde86af59853 extern/libtomcrypt (7e7eb69)\n 6ca6898bf37f583c4cc9943441cd60dd69f4b8f2 extern/libtommath (6ca6898)\n cec1e49eec481a6333c218726ecaba8e4f447a07 extern/libusb (cec1e49)\n daca7a3979c22da155ec9dce49ab1abf3b65d3a9 extern/mbedtls (daca7a3)\n e1774cd77f471443541596e09078e78fdc342e4f extern/ogg (e1774cd)\n 0657aee69dec8508a0011f47f3b69d7538e9d262 extern/vorbis (0657aee)\n 51b7f2abdade71cd9bb0e7a373ef2610ec6f9daf extern/zlib (51b7f2a)",
+      "source_status": "",
+      "finished_at": "2026-11-16T04:52:15.063172+00:00",
+      "native_binary_sha256": "cb4e405139e9a1087d88f1a560f2719d24f0cc98eb7f2e6e9f1e6b4162154f6e",
+      "harness_binary_sha256": "371fe48d71b5dfa529d014b9fbcbd38a3d3f7ca4be75bf60f38642c93e04d0a5",
+      "theme": {
+        "base": "dd06138b15492f4136796dfe4b6708ced0f7b9eb",
+        "candidate_commit": "e2157b744051e1873bac5389246afac22e2cf05f",
+        "bundle_sha256": "31e20111675768792dce874be637a9f10dc4aabfa23262b48c6659a9c7779e48",
+        "status": "candidate; native gameplay validation pending",
+        "source": "Scripts/SL-Helpers.lua",
+        "change": "pump couple returns the same 250 width as single/versus; both participants have the identical five-column geometry",
+        "upstream_current_source": "https://github.com/Simply-Love/Simply-Love-SM5/blob/itgmania-release/Scripts/SL-Helpers.lua",
+        "publication_target": "https://github.com/pnn64/Simply-Love-SM5.git",
+        "baseline_failure": "style-pump-couple, StepStatistics/default.lua:19 compares missing GetNotefieldWidth against a number"
+      },
+      "harness_patch_sha256": "e7903afdea69d448e4871dbd9b976e3b103fb7f58f4c2a8094d13ba0294ca49b",
+      "previous_native_binary_sha256": "ada09ec0ee8d0d671288e066e19c9fbe9ee54be991df0613d62252e2607dcaf3",
+      "baseline_test_reproduced": true,
+      "pin_text_bundle_sha256": "2d68c92712cc13f01af9131df54155506769237f2366a2ba018fbe369860af62",
+      "harness_version": "0.1.103",
+      "source_normalized_sha256": {
+        "Cargo.lock": "1404fbbbe02a8b2abc3d41b5c8d676c6913f5df8a036bdf131983e882c9a088c",
+        "Cargo.toml": "c9f62e0f263a63bf3f95b408934a88d7ecb32e7e60b79e6f932f44efff120e98",
+        "native/interactive_trace.cpp": "9180033521237c7540a91973fee97513e281f14d2fb5076a58c0ee690c0a17bb",
+        "native/interactive_trace.h": "27fcdc212df809fa430e07589b0fb99ae2934e55d567c74f651f61b196dd2769",
+        "native/trace_adapter.cmake": "72e411fdefb8369a5269148623cb0292c55c308e75dec74629b626c26a84c508",
+        "probe_theme/SongLuaTrace.lua": "b1f328290f4c738ef05bcb0daddd3cbd8dedef3c9b9b31aac5e51babecea4a25",
+        "src/song_lua_runtime.rs": "b2267ec289f440128f9ce68aaeefd9042c8428d514fbc5a5a4219da189f9ffe4"
+      },
+      "harness_base": "1f4888b8574be4a1d59257261a3a6d776a2932d9",
+      "text_bundle_sha256": "b0976aff071dd27f2c68b4710954b23a668eb5cd34254ac2a141cf20201a037a"
+    },
+    "control_sha256": {
+      "control.ssc": "5137b0bf45101fb63a6fe5e22bfcfe50a100ec2628ca3a28040e30a5fc1ecee1",
+      "inputs.json": "258d19099ac368f6b137dd84e7a6e309ccdf226ecad0544fed77162566babe23",
+      "silence.wav": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d",
+      "default.lua": "7fe97e8cea37b435bcd8fb0f76c4af67c4ef5e1a54867207ba9d33d89388a73c"
+    },
+    "status": "native_capture_pass",
+    "started_at": "2026-11-16T06:44:46.704071+00:00",
+    "stages": {
+      "capture": {
+        "command": [
+          "/opt/song-lua-audit/bin/itgmania-harness-pass3-input-clocks",
+          "song-lua-trace",
+          "/opt/song-lua-audit/Songs/__pass3_controls/routine-fail/pump/control.ssc",
+          "--itgmania-bin",
+          "/opt/song-lua-audit/routine-native/ITGmania-harness-trace",
+          "--fallback-theme",
+          "Harness Simply Love",
+          "--headless",
+          "--game",
+          "pump",
+          "--style",
+          "routine",
+          "--difficulty",
+          "Edit",
+          "--chart-index",
+          "1",
+          "--until-gameplay-end",
+          "--capture-fps",
+          "60",
+          "--max-events",
+          "250000",
+          "--player-options",
+          "default",
+          "--autoplay",
+          "0",
+          "--input-script",
+          "/opt/song-lua-audit/Songs/__pass3_controls/routine-fail/pump/inputs.json",
+          "--timeout",
+          "180",
+          "--out",
+          "/opt/song-lua-audit/pass3-native-routine-fail/routine-fail-pump/native.json"
+        ],
+        "exit": 0,
+        "elapsed_seconds": 14.525,
+        "memory_limit": "3G",
+        "timeout_seconds": 270,
+        "unit": "lua-pass2-routine-fail-pump-capture",
+        "service_tail": "2026-11-16T06:44:46+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-routine-fail-pump-capture.service - /opt/song-lua-audit/bin/itgmania-harness-pass3-input-clocks song-lua-trace /opt/song-lua-audit/Songs/__pass3_controls/routine-fail/pump/control.ssc --itgmania-bin /opt/song-lua-audit/routine-native/ITGmania-harness-trace --fallback-theme \"Harness Simply Love\" --headless --game pump --style routine --difficulty Edit --chart-index 1 --until-gameplay-end --capture-fps 60 --max-events 250000 --player-options default --autoplay 0 --input-script /opt/song-lua-audit/Songs/__pass3_controls/routine-fail/pump/inputs.json --timeout 180 --out /opt/song-lua-audit/pass3-native-routine-fail/routine-fail-pump/native.json.\n2026-11-16T06:45:01+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-fail-pump-capture.service: Deactivated successfully.\n2026-11-16T06:45:01+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-fail-pump-capture.service: Consumed 8.987s CPU time, 1.8M memory peak, 0B memory swap peak.\n"
+      }
+    },
+    "native": {
+      "capture_limits": {
+        "max_events": 250000
+      },
+      "command_observer": {
+        "capture_binary_sha256": "371fe48d71b5dfa529d014b9fbcbd38a3d3f7ca4be75bf60f38642c93e04d0a5",
+        "dynamic_commands": true
+      },
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      },
+      "difficulty": "Difficulty_Edit",
+      "dropped_drawable_samples": 0,
+      "dropped_events": 0,
+      "dropped_host_clock_inputs": 0,
+      "dropped_input_events": 0,
+      "dropped_random_reseeds": 0,
+      "dropped_script_errors": 0,
+      "dropped_stage_samples": 0,
+      "dropped_update_frames": 0,
+      "end_position": {
+        "beat": 9.786725997924805,
+        "seconds": 4.910362720489502
+      },
+      "harness_version": "0.1.103",
+      "input": {
+        "autoplay": 0,
+        "catalog_preferences": {
+          "global_offset_seconds": -0.00800000037997961,
+          "initialization": "native-catalog-note-time-calculation",
+          "music_rate": 1
+        },
+        "chart_catalog": [
+          {
+            "chart_name": "",
+            "description": "Asymmetric owners",
+            "difficulty": "Difficulty_Edit",
+            "hash": 0,
+            "index": 1,
+            "is_autogen": false,
+            "meter": 1,
+            "steps_type": "StepsType_Pump_Routine"
+          }
+        ],
+        "game": "pump",
+        "gameplay_preferences": {
+          "column_cue_min_time": 1.5,
+          "default_modifiers": "",
+          "game_mode": "ITG",
+          "initialization": "theme-game-mode",
+          "max_input_latency_seconds": 0,
+          "mod_level": "ModsLevel_Preferred",
+          "music_rate": 1,
+          "players": [
+            {
+              "disabled_timing_windows": [],
+              "enabled": true,
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, Overhead, Default",
+              "player": "PlayerNumber_P1",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            },
+            {
+              "disabled_timing_windows": [],
+              "enabled": true,
+              "fail_setting": "FailType_Immediate",
+              "min_tns_to_hide_notes": "TapNoteScore_W3",
+              "options_string": "NoHideLights, Overhead, Default",
+              "player": "PlayerNumber_P2",
+              "theme_modifiers": {
+                "ActionOnMissedTarget": "Nothing",
+                "BackgroundFilter": "Darker",
+                "ColumnCues": true,
+                "ComboFont": "Wendy",
+                "DataVisualizations": "Step Statistics",
+                "DisplayScorebox": true,
+                "ErrorBar": "None",
+                "ErrorBarMultiTick": false,
+                "ErrorBarTrim": "Off",
+                "ErrorBarUp": false,
+                "FlashDecent": false,
+                "FlashExcellent": false,
+                "FlashFantastic": false,
+                "FlashGreat": false,
+                "FlashMiss": false,
+                "FlashWayOff": false,
+                "HideCombo": false,
+                "HideComboExplosions": false,
+                "HideDanger": false,
+                "HideEarlyDecentWayOffFlash": false,
+                "HideEarlyDecentWayOffJudgments": false,
+                "HideLifebar": false,
+                "HideLookahead": false,
+                "HideScore": false,
+                "HideSongBG": false,
+                "HideTargets": false,
+                "HoldJudgment": "Love 1x2 (doubleres).png",
+                "JudgmentGraphic": "Love 2x6 (doubleres).png",
+                "JudgmentTilt": false,
+                "LifeMeterType": "Standard",
+                "MeasureCounter": "None",
+                "MeasureCounterLeft": false,
+                "MeasureCounterUp": true,
+                "MeasureLines": "Off",
+                "Mini": "0%",
+                "NPSGraphAtTop": false,
+                "NoteFieldOffsetX": 0,
+                "NoteFieldOffsetY": 0,
+                "Pacemaker": false,
+                "ShowExScore": false,
+                "ShowFaPlusPane": true,
+                "ShowFaPlusWindow": false,
+                "SpeedMod": 250,
+                "SpeedModType": "M",
+                "SubtractiveScoring": false,
+                "TargetScore": 11,
+                "TiltMultiplier": 1,
+                "TimingWindows": [
+                  true,
+                  true,
+                  true,
+                  true,
+                  true
+                ],
+                "VisualDelay": "0ms"
+              }
+            }
+          ],
+          "timing_window_add": 0.001500000013038516,
+          "timing_window_scale": 1,
+          "timing_windows": {
+            "Attack": 0.13500000536441803,
+            "Checkpoint": 0.1664000004529953,
+            "Hold": 0.3199999928474426,
+            "Mine": 0.07000000029802322,
+            "Roll": 0.3499999940395355,
+            "W1": 0.0215000007301569,
+            "W2": 0.0430000014603138,
+            "W3": 0.10199999809265137,
+            "W4": 0.13500000536441803,
+            "W5": 0.18000000715255737
+          }
+        },
+        "headless_graphics": false,
+        "injected_inputs": true,
+        "lua_gc_mode": "automatic",
+        "native_source": {
+          "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+          "modified_src": false,
+          "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+          "revision": "663525dcb86eb570d0ef6a2e209678436660ae26"
+        },
+        "observer_frame_period_seconds": 0.01666666666666667,
+        "preferences": {
+          "constant_update_delta_seconds": 0,
+          "default_sync_offset": "SyncOffset_ITG",
+          "display_aspect_ratio": 1.7777777910232544,
+          "global_offset_seconds": -0.00800000037997961,
+          "last_seen_video_driver": "OpenGL",
+          "visual_delay_seconds": 0
+        },
+        "requested_chart_index": 1,
+        "requested_difficulty": "Edit",
+        "script": [
+          {
+            "button": "DownLeft",
+            "down": true,
+            "key": "left",
+            "player": 1,
+            "scene": 1,
+            "seconds": 0.5
+          },
+          {
+            "button": "DownRight",
+            "down": true,
+            "key": "right",
+            "player": 2,
+            "scene": 1,
+            "seconds": 0.5
+          },
+          {
+            "button": "DownLeft",
+            "down": false,
+            "key": "left",
+            "player": 1,
+            "scene": 1,
+            "seconds": 0.55
+          },
+          {
+            "button": "DownRight",
+            "down": false,
+            "key": "right",
+            "player": 2,
+            "scene": 1,
+            "seconds": 0.55
+          },
+          {
+            "button": "UpLeft",
+            "down": true,
+            "key": "down",
+            "player": 1,
+            "scene": 1,
+            "seconds": 2
+          },
+          {
+            "button": "UpLeft",
+            "down": false,
+            "key": "down",
+            "player": 1,
+            "scene": 1,
+            "seconds": 2.05
+          },
+          {
+            "button": "DownRight",
+            "down": true,
+            "key": "right",
+            "player": 2,
+            "scene": 1,
+            "seconds": 3
+          },
+          {
+            "button": "DownRight",
+            "down": false,
+            "key": "right",
+            "player": 2,
+            "scene": 1,
+            "seconds": 3.05
+          }
+        ],
+        "starting_chart": {
+          "chart_name": "",
+          "description": "Asymmetric owners",
+          "difficulty": "Difficulty_Edit",
+          "hash": 0,
+          "index": 1,
+          "is_autogen": false,
+          "meter": 1,
+          "steps_type": "StepsType_Pump_Routine"
+        },
+        "style": "routine",
+        "window_visible": false
+      },
+      "schema_version": 1,
+      "script_errors": [],
+      "steps_type": "StepsType_Pump_Routine",
+      "style": "routine",
+      "transition_script_errors": [
+        {
+          "message": "ActorFrameTexture: Cannot have width or height less than 1",
+          "screen": "ScreenEvaluationStage"
+        }
+      ]
+    },
+    "samples": [
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 0
+        },
+        "p2": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 15,
+          "w1": 0
+        },
+        "phase": "start",
+        "team": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 25,
+          "w1": 0
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": true,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 0
+        },
+        "p2": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 15,
+          "w1": 0
+        },
+        "phase": "p1-failed",
+        "team": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 25,
+          "w1": 0
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": true,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 0
+        },
+        "p2": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 15,
+          "w1": 0
+        },
+        "phase": "judgment",
+        "player": "PlayerNumber_P1",
+        "team": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 25,
+          "w1": 0
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": true,
+          "maximum": 1,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 1
+        },
+        "p2": {
+          "actual": 0,
+          "combo": 0,
+          "current_possible": 0,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0,
+          "possible": 15,
+          "w1": 0
+        },
+        "phase": "judgment",
+        "player": "PlayerNumber_P2",
+        "team": {
+          "actual": 5,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": false,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0.20000000298023224,
+          "possible": 25,
+          "w1": 1
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": true,
+          "maximum": 1,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 1
+        },
+        "p2": {
+          "actual": 5,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": false,
+          "maximum": 1,
+          "miss": 0,
+          "percent": 0.33330002427101135,
+          "possible": 15,
+          "w1": 1
+        },
+        "phase": "team-failed",
+        "team": {
+          "actual": 10,
+          "combo": 2,
+          "current_possible": 10,
+          "failed": true,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0.4000000059604645,
+          "possible": 25,
+          "w1": 2
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": true,
+          "maximum": 1,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 1
+        },
+        "p2": {
+          "actual": 5,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": false,
+          "maximum": 1,
+          "miss": 0,
+          "percent": 0.33330002427101135,
+          "possible": 15,
+          "w1": 1
+        },
+        "phase": "judgment",
+        "player": "PlayerNumber_P2",
+        "team": {
+          "actual": 10,
+          "combo": 2,
+          "current_possible": 10,
+          "failed": true,
+          "maximum": 0,
+          "miss": 0,
+          "percent": 0.4000000059604645,
+          "possible": 25,
+          "w1": 2
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 1,
+          "current_possible": 5,
+          "failed": true,
+          "maximum": 1,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 1
+        },
+        "p2": {
+          "actual": -7,
+          "combo": 0,
+          "current_possible": 10,
+          "failed": false,
+          "maximum": 1,
+          "miss": 1,
+          "percent": 0,
+          "possible": 15,
+          "w1": 1
+        },
+        "phase": "judgment",
+        "player": "PlayerNumber_P1",
+        "team": {
+          "actual": 10,
+          "combo": 0,
+          "current_possible": 15,
+          "failed": true,
+          "maximum": 0,
+          "miss": 1,
+          "percent": 0.4000000059604645,
+          "possible": 25,
+          "w1": 2
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 2,
+          "current_possible": 10,
+          "failed": true,
+          "maximum": 2,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 2
+        },
+        "p2": {
+          "actual": -7,
+          "combo": 0,
+          "current_possible": 10,
+          "failed": false,
+          "maximum": 1,
+          "miss": 1,
+          "percent": 0,
+          "possible": 15,
+          "w1": 1
+        },
+        "phase": "judgment",
+        "player": "PlayerNumber_P2",
+        "team": {
+          "actual": 10,
+          "combo": 1,
+          "current_possible": 20,
+          "failed": true,
+          "maximum": 0,
+          "miss": 1,
+          "percent": 0.4000000059604645,
+          "possible": 25,
+          "w1": 3
+        }
+      },
+      {
+        "p1": {
+          "actual": 0,
+          "combo": 2,
+          "current_possible": 10,
+          "failed": true,
+          "maximum": 2,
+          "miss": 0,
+          "percent": 0,
+          "possible": 10,
+          "w1": 2
+        },
+        "p2": {
+          "actual": -2,
+          "combo": 1,
+          "current_possible": 15,
+          "failed": false,
+          "maximum": 1,
+          "miss": 1,
+          "percent": 0,
+          "possible": 15,
+          "w1": 2
+        },
+        "phase": "finished",
+        "team": {
+          "actual": 10,
+          "combo": 2,
+          "current_possible": 25,
+          "failed": true,
+          "maximum": 0,
+          "miss": 1,
+          "percent": 0.4000000059604645,
+          "possible": 25,
+          "w1": 4
+        }
+      }
+    ],
+    "trace_sha256": "109831333b330eab9c6fcccd2e4a46e4cc24fadcdd4e16e4db47012ac0e6072f",
+    "native_artifact": {
+      "file": "routine-fail-pump/native.json.zst",
+      "bytes": 66046,
+      "sha256": "264370e22c679ff8a930f9fa1b4a74b1c90bf98b8bc082f2848717bd5dbdbac3",
+      "uncompressed_sha256": "109831333b330eab9c6fcccd2e4a46e4cc24fadcdd4e16e4db47012ac0e6072f"
+    },
+    "finished_at": "2026-11-16T06:45:01.282108+00:00",
+    "evidence_path": "1402/pass3-native-routine-fail/routine-fail-pump/result.json"
   }
 ]

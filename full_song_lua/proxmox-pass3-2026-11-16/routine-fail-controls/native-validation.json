@@ -1,0 +1,88 @@
+[
+  {
+    "id": "routine-fail-dance",
+    "result_sha256": "fbf0512063114266aad2b16896820b05ecfa02958296010467b22fc1fb3c3ec6",
+    "native_trace_sha256": "846395bfffd2672820fddfed70ad509f87180c4f26c8600be4184ca5c7eca1ea",
+    "final_statistics": {
+      "p1": {
+        "actual": 0,
+        "combo": 2,
+        "current_possible": 10,
+        "failed": true,
+        "maximum": 2,
+        "miss": 0,
+        "percent": 0,
+        "possible": 10,
+        "w1": 2
+      },
+      "p2": {
+        "actual": -2,
+        "combo": 1,
+        "current_possible": 15,
+        "failed": false,
+        "maximum": 1,
+        "miss": 1,
+        "percent": 0,
+        "possible": 15,
+        "w1": 2
+      },
+      "phase": "finished",
+      "team": {
+        "actual": 10,
+        "combo": 2,
+        "current_possible": 25,
+        "failed": true,
+        "maximum": 0,
+        "miss": 1,
+        "percent": 0.4000000059604645,
+        "possible": 25,
+        "w1": 4
+      }
+    },
+    "judgment_callbacks": 5,
+    "native_capture_seconds": 15.984
+  },
+  {
+    "id": "routine-fail-pump",
+    "result_sha256": "563d363f60dca9cf9ac638bb99c15858215c3f1c0bc654ee23778f135b6fbc53",
+    "native_trace_sha256": "109831333b330eab9c6fcccd2e4a46e4cc24fadcdd4e16e4db47012ac0e6072f",
+    "final_statistics": {
+      "p1": {
+        "actual": 0,
+        "combo": 2,
+        "current_possible": 10,
+        "failed": true,
+        "maximum": 2,
+        "miss": 0,
+        "percent": 0,
+        "possible": 10,
+        "w1": 2
+      },
+      "p2": {
+        "actual": -2,
+        "combo": 1,
+        "current_possible": 15,
+        "failed": false,
+        "maximum": 1,
+        "miss": 1,
+        "percent": 0,
+        "possible": 15,
+        "w1": 2
+      },
+      "phase": "finished",
+      "team": {
+        "actual": 10,
+        "combo": 2,
+        "current_possible": 25,
+        "failed": true,
+        "maximum": 0,
+        "miss": 1,
+        "percent": 0.4000000059604645,
+        "possible": 25,
+        "w1": 4
+      }
+    },
+    "judgment_callbacks": 5,
+    "native_capture_seconds": 14.525
+  }
+]

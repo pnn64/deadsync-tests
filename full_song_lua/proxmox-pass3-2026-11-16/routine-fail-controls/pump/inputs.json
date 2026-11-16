@@ -1,0 +1,66 @@
+[
+  {
+    "scene": 1,
+    "seconds": 0.5,
+    "player": 1,
+    "button": "DownLeft",
+    "key": "left",
+    "down": true
+  },
+  {
+    "scene": 1,
+    "seconds": 0.5,
+    "player": 2,
+    "button": "DownRight",
+    "key": "right",
+    "down": true
+  },
+  {
+    "scene": 1,
+    "seconds": 0.55,
+    "player": 1,
+    "button": "DownLeft",
+    "key": "left",
+    "down": false
+  },
+  {
+    "scene": 1,
+    "seconds": 0.55,
+    "player": 2,
+    "button": "DownRight",
+    "key": "right",
+    "down": false
+  },
+  {
+    "scene": 1,
+    "seconds": 2,
+    "player": 1,
+    "button": "UpLeft",
+    "key": "down",
+    "down": true
+  },
+  {
+    "scene": 1,
+    "seconds": 2.05,
+    "player": 1,
+    "button": "UpLeft",
+    "key": "down",
+    "down": false
+  },
+  {
+    "scene": 1,
+    "seconds": 3,
+    "player": 2,
+    "button": "DownRight",
+    "key": "right",
+    "down": true
+  },
+  {
+    "scene": 1,
+    "seconds": 3.05,
+    "player": 2,
+    "button": "DownRight",
+    "key": "right",
+    "down": false
+  }
+]

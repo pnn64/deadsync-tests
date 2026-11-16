@@ -1,0 +1,4 @@
+2026-11-16T07:02:53+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-routine-fail-dance-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-routine-stats --archive /opt/song-lua-audit/pass3-routine-fail-results/routine-fail-dance/candidate/299818755ffc9826d8d52c69f7408a9324b4d3093ecad1e747b45b7963c85134.tar --report /opt/song-lua-audit/pass3-routine-fail-results/routine-fail-dance/report.json.
+2026-11-16T07:02:56+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-fail-dance-replay.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+2026-11-16T07:02:56+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-fail-dance-replay.service: Failed with result 'exit-code'.
+2026-11-16T07:02:56+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-fail-dance-replay.service: Consumed 3.564s CPU time, 1.0M memory peak, 0B memory swap peak.

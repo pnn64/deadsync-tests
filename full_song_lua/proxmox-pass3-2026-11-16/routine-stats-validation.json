@@ -1,0 +1,150 @@
+{
+  "recorded_at": "2026-11-16T07:29:12.766093+00:00",
+  "deadsync_routine_statistics_commit": "9ab5cdc0e1d9e4f1af83b78a7099be910d7a57e9",
+  "runner_sha256": "28dfbaeb68836f33d32876b2572e12e3c3aec4833322b6c693a432531d8fc779",
+  "source_normalized_sha256": {
+    "crates/deadsync-gameplay/src/lib.rs": "01d1c15bcffc2b8e5c43bc3ced907347a1ebb1e88f757296382d562445afe76f",
+    "crates/deadsync-gameplay/src/player.rs": "20886e2510b7456495f530511b84ec90c3c6e3a0a90cd76be24e32b8a75aaf72",
+    "crates/deadsync-gameplay/src/runtime_init.rs": "3f3fc8a14be64bce120698a74284653039cc9f742fa8b1c9f50798c0ce766691",
+    "crates/deadsync-gameplay/src/runtime_methods.rs": "565f3ada9b67be3a82c8889d547e5d1398f4fab3e1ca32c11936e62475131c20",
+    "crates/deadsync-gameplay/src/runtime_regression_tests.rs": "29d343a9c700c4611a013d4972e6753e6c7d39faf49c452739cc626b610c4c39",
+    "crates/deadsync-gameplay/src/runtime_update.rs": "c9daeaa8bb3fec8a6afb5dfbb9a59ad4a37cc4c6c07bdfe251c0dd5bc28952cc",
+    "crates/deadsync-song-lua/src/actors/live_frames.rs": "c6fb39950fee654d5b20d431533e45c51c976b51f6fd5d0d1651a2679f23a45a",
+    "crates/deadsync-song-lua/src/live.rs": "62d60317375bf4f41064089fc55691debfd82e2160e67d8a0e9651b296405709",
+    "crates/deadsync-song-lua/src/live_frames.rs": "174933b716e628244368f0c3bf6ea8d21db3a77c4387a3ff00c3d8159968b6fa",
+    "crates/deadsync-song-lua/src/managers/statistics.rs": "6d2f284afad5fde7254b1e3e95a3ae883abdf74e5e520755967d42efffa869ab",
+    "crates/deadsync-song-lua/src/statistics.rs": "54422fd0885d239761c0946a659b7897eef570b88f1e8eb429120de15596298c",
+    "crates/deadsync-song-lua/tests/statistics.rs": "dad98f249a0d1f14f628f699296909510c8c54a79a06846d07b44fe8bf96cee6",
+    "crates/deadsync-gameplay/src/routine.rs": "8d6c1af3cc9a5bc945dbe66626f4b2b9bbfa726e02cd584b030d5c77898d3736",
+    "tests/song_lua_itgmania_semantic_parity/native_gameplay.rs": "5f77108293554d00326c51931fb02e90ec5ab2989edf3d2a51c39cd7a820bbd3",
+    "crates/deadsync-song-lua/src/actors/live_trace.lua": "0b2b85cb99398c4a290285a58939ed91e145d66c143af07de2ee7116631d4363"
+  },
+  "tests": {
+    "gameplay": {
+      "passed": 846,
+      "failed": 0,
+      "ignored": 0,
+      "log": "native-validation/pass3-routine-stats-resume/gameplay-tests.log"
+    },
+    "statistics": {
+      "passed": 11,
+      "failed": 0,
+      "ignored": 0,
+      "log": "native-validation/pass3-routine-stats-resume/routine-statistics-tests.log"
+    },
+    "native_gameplay": {
+      "passed": 77,
+      "failed": 0,
+      "ignored": 0,
+      "log": "native-validation/pass3-routine-stats-observers-resume/native-gameplay-tests.log"
+    }
+  },
+  "primary_outcomes_changed": false,
+  "primary_passes": 489,
+  "primary_nonpasses": 14,
+  "manual_routine_failures_remaining": 0,
+  "all_charts_gate_satisfied": false,
+  "complete_semantic_suite_rerun": false,
+  "results": [
+    {
+      "id": "68eda87bf02562c3",
+      "status": "pass",
+      "native_harness_version": "0.1.98",
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 8236,
+      "replay_seconds": 28.308,
+      "result": "routine-stats-replays/68eda87bf02562c3/result.json"
+    },
+    {
+      "id": "730650ffb42269d8",
+      "status": "pass",
+      "native_harness_version": "0.1.98",
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 8338,
+      "replay_seconds": 28.716,
+      "result": "routine-stats-replays/730650ffb42269d8/result.json"
+    },
+    {
+      "id": "routine-fail-dance",
+      "status": "pass",
+      "native_harness_version": "0.1.103",
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 624,
+      "replay_seconds": 3.34,
+      "result": "routine-stats-replays/routine-fail-dance/result.json"
+    },
+    {
+      "id": "routine-fail-pump",
+      "status": "pass",
+      "native_harness_version": "0.1.103",
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 612,
+      "replay_seconds": 3.454,
+      "result": "routine-stats-replays/routine-fail-pump/result.json"
+    },
+    {
+      "id": "routine-life-dance",
+      "status": "pass",
+      "native_harness_version": "0.1.103",
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 625,
+      "replay_seconds": 3.476,
+      "result": "routine-stats-replays/routine-life-dance/result.json"
+    },
+    {
+      "id": "routine-life-pump",
+      "status": "pass",
+      "native_harness_version": "0.1.103",
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 623,
+      "replay_seconds": 3.659,
+      "result": "routine-stats-replays/routine-life-pump/result.json"
+    },
+    {
+      "id": "routine-manual-dance",
+      "status": "pass",
+      "native_harness_version": "0.1.103",
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 616,
+      "replay_seconds": 3.574,
+      "result": "routine-stats-replays/routine-manual-dance/result.json"
+    },
+    {
+      "id": "routine-manual-pump",
+      "status": "pass",
+      "native_harness_version": "0.1.103",
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 611,
+      "replay_seconds": 3.512,
+      "result": "routine-stats-replays/routine-manual-pump/result.json"
+    },
+    {
+      "id": "style-dance-routine",
+      "status": "pass",
+      "native_harness_version": "0.1.102",
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 417,
+      "replay_seconds": 3.56,
+      "result": "routine-stats-replays/style-dance-routine/result.json"
+    },
+    {
+      "id": "style-pump-routine",
+      "status": "pass",
+      "native_harness_version": "0.1.102",
+      "mismatches": 0,
+      "errors": 0,
+      "frames": 405,
+      "replay_seconds": 3.588,
+      "result": "routine-stats-replays/style-pump-routine/result.json"
+    }
+  ]
+}

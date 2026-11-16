@@ -1,0 +1,996 @@
+[
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-fix/gameplay-tests.log",
+    "local": "pass3-routine-stats-fix/gameplay-tests.log",
+    "target": "native-validation/pass3-routine-stats-fix/gameplay-tests.log",
+    "sha256": "209df14a43afab609c4e12b8909b292c1270740d5d3fb5030932809ca27b4199",
+    "bytes": 63213
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-fix/native-gameplay-tests.log",
+    "local": "pass3-routine-stats-fix/native-gameplay-tests.log",
+    "target": "native-validation/pass3-routine-stats-fix/native-gameplay-tests.log",
+    "sha256": "2f7faffefcc2cac1b9da6997aba18abf09c40acf3d497e9e9c00399251a423f1",
+    "bytes": 2991
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-fix/routine-statistics-tests.log",
+    "local": "pass3-routine-stats-fix/routine-statistics-tests.log",
+    "target": "native-validation/pass3-routine-stats-fix/routine-statistics-tests.log",
+    "sha256": "efc3d6df0fab937cbd53cb0e1893e600d6ea97c8e2b9ea4789e2c6411a7c207d",
+    "bytes": 7271
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-fix/source-proof.json",
+    "local": "pass3-routine-stats-fix/source-proof.json",
+    "target": "native-validation/pass3-routine-stats-fix/source-proof.json",
+    "sha256": "45cf4b1c6701ce974c706f5621a319d76a129444dcf258ec5ce396d15517a490",
+    "bytes": 5551
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-fix/statistics-all-tests.log",
+    "local": "pass3-routine-stats-fix/statistics-all-tests.log",
+    "target": "native-validation/pass3-routine-stats-fix/statistics-all-tests.log",
+    "sha256": "75e28c58c256ab7e73673f56c2338314c69ab380faac5bd80749f23bfcc58035",
+    "bytes": 6667
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-fix/statistics-all-validation.json",
+    "local": "pass3-routine-stats-fix/statistics-all-validation.json",
+    "target": "native-validation/pass3-routine-stats-fix/statistics-all-validation.json",
+    "sha256": "58c091dc253d7082651078d07f2a4453afb74e1afaf52e20e50b24264d9637d8",
+    "bytes": 49
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-fix/statistics-fixture-restore.json",
+    "local": "pass3-routine-stats-fix/statistics-fixture-restore.json",
+    "target": "native-validation/pass3-routine-stats-fix/statistics-fixture-restore.json",
+    "sha256": "85f01d7a7b885e621655ef4bf1d02cfcf8ba96f2cf4708fa7debd22a58a29e88",
+    "bytes": 271
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-fix/statistics-restored-tests.log",
+    "local": "pass3-routine-stats-fix/statistics-restored-tests.log",
+    "target": "native-validation/pass3-routine-stats-fix/statistics-restored-tests.log",
+    "sha256": "aa8b8be2f48cee91d1014edb0cd16424ba28bcca69869ce98758968d5b4b343d",
+    "bytes": 2101
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-fix/statistics-restored-validation.json",
+    "local": "pass3-routine-stats-fix/statistics-restored-validation.json",
+    "target": "native-validation/pass3-routine-stats-fix/statistics-restored-validation.json",
+    "sha256": "d4b7eb1c75f193b3cba6fa524a7cc2aefcb50036ff78041b93f621f245c24287",
+    "bytes": 54
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-fix/statistics-snapshot-update.json",
+    "local": "pass3-routine-stats-fix/statistics-snapshot-update.json",
+    "target": "native-validation/pass3-routine-stats-fix/statistics-snapshot-update.json",
+    "sha256": "5ee459cdaff5eceeaabfccbd5065a424b0dc1a12fdee9b5636d2ad573460ec14",
+    "bytes": 7699
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-fix/statistics-updated-tests.log",
+    "local": "pass3-routine-stats-fix/statistics-updated-tests.log",
+    "target": "native-validation/pass3-routine-stats-fix/statistics-updated-tests.log",
+    "sha256": "3ff3dd3c434f443cbdde1d93ac7016f8e496d69d10e74854c9f6885ee8368f2f",
+    "bytes": 1003
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-fix/statistics-updated-validation.json",
+    "local": "pass3-routine-stats-fix/statistics-updated-validation.json",
+    "target": "native-validation/pass3-routine-stats-fix/statistics-updated-validation.json",
+    "sha256": "a64cceed691e131c9058dbec84b51a285fa098790d7edec17e0554be984b91a4",
+    "bytes": 51
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-resume/build-proof.json",
+    "local": "pass3-routine-stats-resume/build-proof.json",
+    "target": "native-validation/pass3-routine-stats-resume/build-proof.json",
+    "sha256": "d0165d9ac50307bdebc0ca456b26615834bc48250ca35897e56d3bce832d9c48",
+    "bytes": 7704
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-resume/gameplay-tests.log",
+    "local": "pass3-routine-stats-resume/gameplay-tests.log",
+    "target": "native-validation/pass3-routine-stats-resume/gameplay-tests.log",
+    "sha256": "9378b2dbc027df2bc14944ffbf72216a0867a8b2714f9bb5d5ddd042ce369f0b",
+    "bytes": 63213
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-resume/native-gameplay-tests.log",
+    "local": "pass3-routine-stats-resume/native-gameplay-tests.log",
+    "target": "native-validation/pass3-routine-stats-resume/native-gameplay-tests.log",
+    "sha256": "554d2111159f63d2dd8ed920e0ea4ed60ae668588d1ce66a9a8dc258a027f738",
+    "bytes": 9567
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-resume/routine-statistics-tests.log",
+    "local": "pass3-routine-stats-resume/routine-statistics-tests.log",
+    "target": "native-validation/pass3-routine-stats-resume/routine-statistics-tests.log",
+    "sha256": "b8a6329e5ba5fca2f0980066dad1a578bc8870631585c084b6b1e83b18581e3c",
+    "bytes": 2577
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-resume/source-proof.json",
+    "local": "pass3-routine-stats-resume/source-proof.json",
+    "target": "native-validation/pass3-routine-stats-resume/source-proof.json",
+    "sha256": "a4495bc2fecf5099605fc5b66f63c4da02954309e2046a64ffe8c99b580c16c5",
+    "bytes": 7564
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observers/native-gameplay-tests.log",
+    "local": "pass3-routine-stats-observers/native-gameplay-tests.log",
+    "target": "native-validation/pass3-routine-stats-observers/native-gameplay-tests.log",
+    "sha256": "f15dbe0545a0ef1ebd93781b0d843a1a305de80f417e17e2c516929db2a5b4c8",
+    "bytes": 9625
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observers/source-proof.json",
+    "local": "pass3-routine-stats-observers/source-proof.json",
+    "target": "native-validation/pass3-routine-stats-observers/source-proof.json",
+    "sha256": "f2fe24533e8669d89bd5adfb2d99b95ae70b80e4cbf719a051043318f191b4d6",
+    "bytes": 9887
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observers-resume/build-proof.json",
+    "local": "pass3-routine-stats-observers-resume/build-proof.json",
+    "target": "native-validation/pass3-routine-stats-observers-resume/build-proof.json",
+    "sha256": "4de4204331071a4aa52a045ceb3e56924666c2c79fdeec0c9b96779076b0bde0",
+    "bytes": 12252
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observers-resume/native-gameplay-tests.log",
+    "local": "pass3-routine-stats-observers-resume/native-gameplay-tests.log",
+    "target": "native-validation/pass3-routine-stats-observers-resume/native-gameplay-tests.log",
+    "sha256": "4fc5159863f4c86360b721f74ef562d6a47e0c4e703cec6e1c7955734e1f6fcb",
+    "bytes": 8167
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observers-resume/source-proof.json",
+    "local": "pass3-routine-stats-observers-resume/source-proof.json",
+    "target": "native-validation/pass3-routine-stats-observers-resume/source-proof.json",
+    "sha256": "2e1e78ca914dd771fd0c62e748b4fb29c64de8692ab5f01a31371daa40180fcf",
+    "bytes": 12112
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-life-dance/result.json",
+    "local": "pass3-routine-stats-results/routine-life-dance/result.json",
+    "target": "routine-stats-baseline-replays/routine-life-dance/result.json",
+    "sha256": "9571ae925f22df41f1daf65c4a87e9369e06851941ffbe687080818d6741dcc9",
+    "bytes": 36449
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-life-dance/report.json.zst",
+    "local": "pass3-routine-stats-results/routine-life-dance/report.json.zst",
+    "target": "routine-stats-baseline-replays/routine-life-dance/report.json.zst",
+    "sha256": "3010f193130804825276311b89f4afccb569cc38547923d1c58c878459fabc90",
+    "bytes": 3558
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-life-dance/replay.log",
+    "local": "pass3-routine-stats-results/routine-life-dance/replay.log",
+    "target": "routine-stats-baseline-replays/routine-life-dance/replay.log",
+    "sha256": "9874418c1ca7f7cc35516ba93db6138bc4b8fbef1da902006d0681e5201f1c85",
+    "bytes": 1653
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-life-dance/replay-service.log",
+    "local": "pass3-routine-stats-results/routine-life-dance/replay-service.log",
+    "target": "routine-stats-baseline-replays/routine-life-dance/replay-service.log",
+    "sha256": "a99de0dc862516d2a195853cb133ba791ce46c26129b4ef6b36a75bf7a29ce0b",
+    "bytes": 2306
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-life-dance/pack.log",
+    "local": "pass3-routine-stats-results/routine-life-dance/pack.log",
+    "target": "routine-stats-baseline-replays/routine-life-dance/pack.log",
+    "sha256": "b911d0470e80e8e1c41cea48495f80ab2316ef8baf118426faec8d0590bb864c",
+    "bytes": 178
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-life-dance/pack-service.log",
+    "local": "pass3-routine-stats-results/routine-life-dance/pack-service.log",
+    "target": "routine-stats-baseline-replays/routine-life-dance/pack-service.log",
+    "sha256": "e496581e0d053e3b025313bca5fdd10243dfeb30a862cbfa8f12be584a53c66e",
+    "bytes": 1577
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-life-pump/result.json",
+    "local": "pass3-routine-stats-results/routine-life-pump/result.json",
+    "target": "routine-stats-baseline-replays/routine-life-pump/result.json",
+    "sha256": "0cf775d503376bcbd863a58461da47bc1d43ad947abaa5b87bc7a3dbb4b451f4",
+    "bytes": 36450
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-life-pump/report.json.zst",
+    "local": "pass3-routine-stats-results/routine-life-pump/report.json.zst",
+    "target": "routine-stats-baseline-replays/routine-life-pump/report.json.zst",
+    "sha256": "91ab35ca62b509fb373f47584fa3925ea1f4f1b89931ca41bdce0e67883f657a",
+    "bytes": 3552
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-life-pump/replay.log",
+    "local": "pass3-routine-stats-results/routine-life-pump/replay.log",
+    "target": "routine-stats-baseline-replays/routine-life-pump/replay.log",
+    "sha256": "01e6f03b032d296d10e8c4b3ba454a475d0efbe53a01d1e95303ed1ed2c355e4",
+    "bytes": 1652
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-life-pump/replay-service.log",
+    "local": "pass3-routine-stats-results/routine-life-pump/replay-service.log",
+    "target": "routine-stats-baseline-replays/routine-life-pump/replay-service.log",
+    "sha256": "3060de293fdefccb01a604ad6ef79d1cc6fc83870b9cfde232cb53c313210bf2",
+    "bytes": 2289
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-life-pump/pack.log",
+    "local": "pass3-routine-stats-results/routine-life-pump/pack.log",
+    "target": "routine-stats-baseline-replays/routine-life-pump/pack.log",
+    "sha256": "77c50b7a64ec0985f4a02b4bd1261dadf7be0ad715edec18e1cfd1289b2b1d50",
+    "bytes": 177
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-life-pump/pack-service.log",
+    "local": "pass3-routine-stats-results/routine-life-pump/pack-service.log",
+    "target": "routine-stats-baseline-replays/routine-life-pump/pack-service.log",
+    "sha256": "41f1924b9ad05b94c80275685fd13875144ae9e6eca3d8a6a28a3b0ac14d932a",
+    "bytes": 1565
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-manual-dance/result.json",
+    "local": "pass3-routine-stats-results/routine-manual-dance/result.json",
+    "target": "routine-stats-baseline-replays/routine-manual-dance/result.json",
+    "sha256": "5f86899187af6e9cd4a57d298c9ee1f832b3c779010eba7e67b44f0d24548643",
+    "bytes": 85706
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-manual-dance/report.json.zst",
+    "local": "pass3-routine-stats-results/routine-manual-dance/report.json.zst",
+    "target": "routine-stats-baseline-replays/routine-manual-dance/report.json.zst",
+    "sha256": "ae98061d256784406ec6406b869c6a6a2e262a5b8011353e7d1f7c9451b16c7e",
+    "bytes": 6604
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-manual-dance/replay.log",
+    "local": "pass3-routine-stats-results/routine-manual-dance/replay.log",
+    "target": "routine-stats-baseline-replays/routine-manual-dance/replay.log",
+    "sha256": "726b6314a36f11c7bc2f23a8dce85815f8df0b043d94cf18249a1f90a5b296ad",
+    "bytes": 15058
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-manual-dance/replay-service.log",
+    "local": "pass3-routine-stats-results/routine-manual-dance/replay-service.log",
+    "target": "routine-stats-baseline-replays/routine-manual-dance/replay-service.log",
+    "sha256": "cce67d915865427a2be10dec82b974eafc900f2824c051bdc5dbccc335e24190",
+    "bytes": 3583
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-manual-pump/result.json",
+    "local": "pass3-routine-stats-results/routine-manual-pump/result.json",
+    "target": "routine-stats-baseline-replays/routine-manual-pump/result.json",
+    "sha256": "a25ec7674a56ef86e8f952d91bddaa1126a862b5824e5acd77082a674eaaa498",
+    "bytes": 85739
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-manual-pump/report.json.zst",
+    "local": "pass3-routine-stats-results/routine-manual-pump/report.json.zst",
+    "target": "routine-stats-baseline-replays/routine-manual-pump/report.json.zst",
+    "sha256": "cf9e606d4cb49b13f4f38c2adef368202ba1b519ba1ce1f6bb798e20a30ee395",
+    "bytes": 6710
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-manual-pump/replay.log",
+    "local": "pass3-routine-stats-results/routine-manual-pump/replay.log",
+    "target": "routine-stats-baseline-replays/routine-manual-pump/replay.log",
+    "sha256": "df797e78a70c2fca45dcb48b200efaf109a46c42d72e55c6cf0fabf7afb5eeb2",
+    "bytes": 15059
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/routine-manual-pump/replay-service.log",
+    "local": "pass3-routine-stats-results/routine-manual-pump/replay-service.log",
+    "target": "routine-stats-baseline-replays/routine-manual-pump/replay-service.log",
+    "sha256": "1abe4034e0d40a06da104184ef7a91b44d3b3df5808f12b2d7542c8635ee23fe",
+    "bytes": 3561
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/style-dance-routine/result.json",
+    "local": "pass3-routine-stats-results/style-dance-routine/result.json",
+    "target": "routine-stats-baseline-replays/style-dance-routine/result.json",
+    "sha256": "075b94bb14893946b9c164eff361a610f4f2b8a3f5c68e18e311f8d467afa7f5",
+    "bytes": 42041
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/style-dance-routine/report.json.zst",
+    "local": "pass3-routine-stats-results/style-dance-routine/report.json.zst",
+    "target": "routine-stats-baseline-replays/style-dance-routine/report.json.zst",
+    "sha256": "175613cf55300150ec701643a12e1b332d2b1e229e63821829aa7dddac748e54",
+    "bytes": 3069
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/style-dance-routine/replay.log",
+    "local": "pass3-routine-stats-results/style-dance-routine/replay.log",
+    "target": "routine-stats-baseline-replays/style-dance-routine/replay.log",
+    "sha256": "af4d4ceea01bd7aa44972768177c85b01a022b9775496f72090f44b49ce0ed63",
+    "bytes": 1372
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/style-dance-routine/replay-service.log",
+    "local": "pass3-routine-stats-results/style-dance-routine/replay-service.log",
+    "target": "routine-stats-baseline-replays/style-dance-routine/replay-service.log",
+    "sha256": "c75a3d4444197ec71aab7270b7b1e6861aa31aa88227247418ffffcd355aa1d5",
+    "bytes": 2321
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/style-dance-routine/pack.log",
+    "local": "pass3-routine-stats-results/style-dance-routine/pack.log",
+    "target": "routine-stats-baseline-replays/style-dance-routine/pack.log",
+    "sha256": "58a8b08d70b653fc05143786a13d70e5016969b8fc63733a245b069af86d3616",
+    "bytes": 179
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/style-dance-routine/pack-service.log",
+    "local": "pass3-routine-stats-results/style-dance-routine/pack-service.log",
+    "target": "routine-stats-baseline-replays/style-dance-routine/pack-service.log",
+    "sha256": "3654a9c47472861ced9dd77aeadcb66a8c505a6dd6fe818ef389cf2aa9cafeaf",
+    "bytes": 1589
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/style-pump-routine/result.json",
+    "local": "pass3-routine-stats-results/style-pump-routine/result.json",
+    "target": "routine-stats-baseline-replays/style-pump-routine/result.json",
+    "sha256": "e9195554e869890e610a2512f734e2c41a1a929beb6c7d8568059db8fd55e1f9",
+    "bytes": 42012
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/style-pump-routine/report.json.zst",
+    "local": "pass3-routine-stats-results/style-pump-routine/report.json.zst",
+    "target": "routine-stats-baseline-replays/style-pump-routine/report.json.zst",
+    "sha256": "a6135b15ec6c45001caa191a491d66591a5b85e7925bbcba1ffe25329446024b",
+    "bytes": 3065
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/style-pump-routine/replay.log",
+    "local": "pass3-routine-stats-results/style-pump-routine/replay.log",
+    "target": "routine-stats-baseline-replays/style-pump-routine/replay.log",
+    "sha256": "8bd42b55701995c5bd1e21a4d6c6bf828cd298b1246dd0e7125c4e95e1524126",
+    "bytes": 1371
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/style-pump-routine/replay-service.log",
+    "local": "pass3-routine-stats-results/style-pump-routine/replay-service.log",
+    "target": "routine-stats-baseline-replays/style-pump-routine/replay-service.log",
+    "sha256": "874828a6626c1944f397afa7123d8207fe34df7f5d8b233eeee25f7e2858dd13",
+    "bytes": 2305
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/style-pump-routine/pack.log",
+    "local": "pass3-routine-stats-results/style-pump-routine/pack.log",
+    "target": "routine-stats-baseline-replays/style-pump-routine/pack.log",
+    "sha256": "f5fc69b0e09b4994b7a40461211acef1798eaeff69836cbe925fafcef96490ac",
+    "bytes": 178
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-results/style-pump-routine/pack-service.log",
+    "local": "pass3-routine-stats-results/style-pump-routine/pack-service.log",
+    "target": "routine-stats-baseline-replays/style-pump-routine/pack-service.log",
+    "sha256": "2e140485e2f0e168b50b8dab21c7d2ea519946aea46ccbafdd75e568203ffade",
+    "bytes": 1577
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-fail-results/routine-fail-dance/result.json",
+    "local": "pass3-routine-fail-results/routine-fail-dance/result.json",
+    "target": "routine-stats-baseline-replays/routine-fail-dance/result.json",
+    "sha256": "e9b3d01aeed19c5909f432458d7c54cc392eae92cbee40466c1d0e5a3a4e133d",
+    "bytes": 80242
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-fail-results/routine-fail-dance/report.json.zst",
+    "local": "pass3-routine-fail-results/routine-fail-dance/report.json.zst",
+    "target": "routine-stats-baseline-replays/routine-fail-dance/report.json.zst",
+    "sha256": "d9b8c3e89d9624e1bbbe8fec708ce8d49be6ecc11801727562e1ecdab2993974",
+    "bytes": 8622
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-fail-results/routine-fail-dance/replay.log",
+    "local": "pass3-routine-fail-results/routine-fail-dance/replay.log",
+    "target": "routine-stats-baseline-replays/routine-fail-dance/replay.log",
+    "sha256": "4b88b4fcb40aa7cecda1f2f6a1db3213f2f4fe23019e46fc8483737ca1346d02",
+    "bytes": 15865
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-fail-results/routine-fail-dance/replay-service.log",
+    "local": "pass3-routine-fail-results/routine-fail-dance/replay-service.log",
+    "target": "routine-stats-baseline-replays/routine-fail-dance/replay-service.log",
+    "sha256": "180d80a651554fa8149bef30d89a713171ae0fa18bd00f2169f75001b0b23cb3",
+    "bytes": 886
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-fail-results/routine-fail-dance/archive.log",
+    "local": "pass3-routine-fail-results/routine-fail-dance/archive.log",
+    "target": "routine-stats-baseline-replays/routine-fail-dance/archive.log",
+    "sha256": "e5c00ab22d7b0ffd08a0c8448b2d49f3428b6b010bcaa5c2757024c9821b1377",
+    "bytes": 186
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-fail-results/routine-fail-dance/archive-service.log",
+    "local": "pass3-routine-fail-results/routine-fail-dance/archive-service.log",
+    "target": "routine-stats-baseline-replays/routine-fail-dance/archive-service.log",
+    "sha256": "369740eb509a8f3b595198ff1ef3ab48f9062785caf7a6f1de09a5dee08c19ee",
+    "bytes": 749
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-fail-results/routine-fail-pump/result.json",
+    "local": "pass3-routine-fail-results/routine-fail-pump/result.json",
+    "target": "routine-stats-baseline-replays/routine-fail-pump/result.json",
+    "sha256": "0fc3dc584503dc0bd17047d900d102728d1d9e30f8ebb593197c7029925bd8a9",
+    "bytes": 80250
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-fail-results/routine-fail-pump/report.json.zst",
+    "local": "pass3-routine-fail-results/routine-fail-pump/report.json.zst",
+    "target": "routine-stats-baseline-replays/routine-fail-pump/report.json.zst",
+    "sha256": "4dd9cf6da196ca87a695cab7214b453a7735d77b19d150bd83e9dae468937d76",
+    "bytes": 8691
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-fail-results/routine-fail-pump/replay.log",
+    "local": "pass3-routine-fail-results/routine-fail-pump/replay.log",
+    "target": "routine-stats-baseline-replays/routine-fail-pump/replay.log",
+    "sha256": "81d282d80b3a12a6e953e5303b0b699611afe983e5fbb2535e2f101ed635167c",
+    "bytes": 15864
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-fail-results/routine-fail-pump/replay-service.log",
+    "local": "pass3-routine-fail-results/routine-fail-pump/replay-service.log",
+    "target": "routine-stats-baseline-replays/routine-fail-pump/replay-service.log",
+    "sha256": "98f9e6181089ec364e68646089551fdc004e63a74ba7a79de7b32e551a1918ab",
+    "bytes": 882
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-fail-results/routine-fail-pump/archive.log",
+    "local": "pass3-routine-fail-results/routine-fail-pump/archive.log",
+    "target": "routine-stats-baseline-replays/routine-fail-pump/archive.log",
+    "sha256": "58240316a61404f79aa75ccd96158d18b60785dc683a0c0d1b1552b56e60e191",
+    "bytes": 185
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-fail-results/routine-fail-pump/archive-service.log",
+    "local": "pass3-routine-fail-results/routine-fail-pump/archive-service.log",
+    "target": "routine-stats-baseline-replays/routine-fail-pump/archive-service.log",
+    "sha256": "e07bbe8d08079bc9e6dbe368899312111cabe25cc10cf68809e40676223da1d7",
+    "bytes": 744
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-dance/result.json",
+    "local": "pass3-routine-stats-observed-results/routine-fail-dance/result.json",
+    "target": "routine-stats-replays/routine-fail-dance/result.json",
+    "sha256": "282e39183be5c3eb3488a563182dec4995c45b9692549c540ed13d381619a1da",
+    "bytes": 43489
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-dance/report.json.zst",
+    "local": "pass3-routine-stats-observed-results/routine-fail-dance/report.json.zst",
+    "target": "routine-stats-replays/routine-fail-dance/report.json.zst",
+    "sha256": "9c1efdd0e5701d59546f93c59df8550cf2a2e05b92d2938a914e991dbbaf493e",
+    "bytes": 5056
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-dance/replay.log",
+    "local": "pass3-routine-stats-observed-results/routine-fail-dance/replay.log",
+    "target": "routine-stats-replays/routine-fail-dance/replay.log",
+    "sha256": "2fa0cc7560abf50d1b127cf229332e6604a1b73dad089a116b4bbc8159a909e0",
+    "bytes": 1547
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-dance/replay-service.log",
+    "local": "pass3-routine-stats-observed-results/routine-fail-dance/replay-service.log",
+    "target": "routine-stats-replays/routine-fail-dance/replay-service.log",
+    "sha256": "9d4d9a4494fb75f23cc9738401f05ebb9c82cbf48f439748ce28836ef43b337a",
+    "bytes": 1624
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-dance/pack.log",
+    "local": "pass3-routine-stats-observed-results/routine-fail-dance/pack.log",
+    "target": "routine-stats-replays/routine-fail-dance/pack.log",
+    "sha256": "8cea3041798e245f335b43c579ded52a4c288e94dd0ce1920ca7da6cfa1c04bd",
+    "bytes": 187
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-dance/pack-service.log",
+    "local": "pass3-routine-stats-observed-results/routine-fail-dance/pack-service.log",
+    "target": "routine-stats-replays/routine-fail-dance/pack-service.log",
+    "sha256": "661f0f34e34bec8409f057018383ce39f5a2617e24b8f8570c654546f7e41ff0",
+    "bytes": 817
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-dance/accepted/d09cd14d313b9cb67dd6807773780d7bb7da165e31e3b57b4a48717f3458e05f.tar.zst",
+    "local": "pass3-routine-stats-observed-results/routine-fail-dance/accepted/d09cd14d313b9cb67dd6807773780d7bb7da165e31e3b57b4a48717f3458e05f.tar.zst",
+    "target": null,
+    "sha256": "d09cd14d313b9cb67dd6807773780d7bb7da165e31e3b57b4a48717f3458e05f",
+    "bytes": 107758474
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-pump/result.json",
+    "local": "pass3-routine-stats-observed-results/routine-fail-pump/result.json",
+    "target": "routine-stats-replays/routine-fail-pump/result.json",
+    "sha256": "7298903d78492d0ef307941be982df678f678f10420f7c905291c71fb0299557",
+    "bytes": 43480
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-pump/report.json.zst",
+    "local": "pass3-routine-stats-observed-results/routine-fail-pump/report.json.zst",
+    "target": "routine-stats-replays/routine-fail-pump/report.json.zst",
+    "sha256": "3a986348a2f8654cc558a8e10df6cca1447de8b5cc08632148484aa4374f4f74",
+    "bytes": 5026
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-pump/replay.log",
+    "local": "pass3-routine-stats-observed-results/routine-fail-pump/replay.log",
+    "target": "routine-stats-replays/routine-fail-pump/replay.log",
+    "sha256": "dee1b650717ae90137c15cda39b2583f8e6c9add88dca196f94fce53dce10831",
+    "bytes": 1546
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-pump/replay-service.log",
+    "local": "pass3-routine-stats-observed-results/routine-fail-pump/replay-service.log",
+    "target": "routine-stats-replays/routine-fail-pump/replay-service.log",
+    "sha256": "2fc06449f60bd6d9768573433bbb713a540a2ae0cc4c19d42b1538b11ed601d3",
+    "bytes": 1613
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-pump/pack.log",
+    "local": "pass3-routine-stats-observed-results/routine-fail-pump/pack.log",
+    "target": "routine-stats-replays/routine-fail-pump/pack.log",
+    "sha256": "66b465dc0929d52cef4536f99f4936e59629a34cdcbac319a4082e4a9a542c1c",
+    "bytes": 186
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-pump/pack-service.log",
+    "local": "pass3-routine-stats-observed-results/routine-fail-pump/pack-service.log",
+    "target": "routine-stats-replays/routine-fail-pump/pack-service.log",
+    "sha256": "0611e8e2da700b1d3f9cb2e30936babd21931b99df7cb22d4f064c51854c7366",
+    "bytes": 811
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-fail-pump/accepted/301452e340229cae48c7291a4a493e26ef2af5451684102d2f1b99f1d178b378.tar.zst",
+    "local": "pass3-routine-stats-observed-results/routine-fail-pump/accepted/301452e340229cae48c7291a4a493e26ef2af5451684102d2f1b99f1d178b378.tar.zst",
+    "target": null,
+    "sha256": "301452e340229cae48c7291a4a493e26ef2af5451684102d2f1b99f1d178b378",
+    "bytes": 107760099
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-life-dance/result.json",
+    "local": "pass3-routine-stats-observed-results/routine-life-dance/result.json",
+    "target": "routine-stats-replays/routine-life-dance/result.json",
+    "sha256": "3927dfb78d21c2867e3f9309f338543d42c6185509acf202c6891fc33038f30e",
+    "bytes": 51344
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-life-dance/report.json.zst",
+    "local": "pass3-routine-stats-observed-results/routine-life-dance/report.json.zst",
+    "target": "routine-stats-replays/routine-life-dance/report.json.zst",
+    "sha256": "686838d07bf6b67ccfb5569f5d3ff5e298c319434523fa7ca1a9f6739b71c9b6",
+    "bytes": 3558
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-life-dance/replay.log",
+    "local": "pass3-routine-stats-observed-results/routine-life-dance/replay.log",
+    "target": "routine-stats-replays/routine-life-dance/replay.log",
+    "sha256": "72f1692a7bed941e03b52a2449b3cea3b1fd5685735cddc975f370f0ba234b04",
+    "bytes": 1662
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-life-dance/replay-service.log",
+    "local": "pass3-routine-stats-observed-results/routine-life-dance/replay-service.log",
+    "target": "routine-stats-replays/routine-life-dance/replay-service.log",
+    "sha256": "fd8ef61be5fc886ed71bd9d9e67f39888572f33d36c2c308c10b17130ef43e18",
+    "bytes": 3042
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-life-dance/pack.log",
+    "local": "pass3-routine-stats-observed-results/routine-life-dance/pack.log",
+    "target": "routine-stats-replays/routine-life-dance/pack.log",
+    "sha256": "c8b102cdccf4b500c30a3adf016b51f31f04a455c90b99b63a807e08a2483ffd",
+    "bytes": 187
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-life-dance/pack-service.log",
+    "local": "pass3-routine-stats-observed-results/routine-life-dance/pack-service.log",
+    "target": "routine-stats-replays/routine-life-dance/pack-service.log",
+    "sha256": "1c0ce463d732b1179224732fe5e27b4fc09793a271f47da5ca2ffb7a60a868fc",
+    "bytes": 2394
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-life-pump/result.json",
+    "local": "pass3-routine-stats-observed-results/routine-life-pump/result.json",
+    "target": "routine-stats-replays/routine-life-pump/result.json",
+    "sha256": "8c665835c528036bc19b9f138e5ff4a6cfcbcd901021b2ebd151105e371d3f81",
+    "bytes": 51334
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-life-pump/report.json.zst",
+    "local": "pass3-routine-stats-observed-results/routine-life-pump/report.json.zst",
+    "target": "routine-stats-replays/routine-life-pump/report.json.zst",
+    "sha256": "79437c035b9f3a3aced6115b9d2e80e1743f43505aa3c3d9be4b15c4b7dab926",
+    "bytes": 3555
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-life-pump/replay.log",
+    "local": "pass3-routine-stats-observed-results/routine-life-pump/replay.log",
+    "target": "routine-stats-replays/routine-life-pump/replay.log",
+    "sha256": "345a869c98e40f7552837c8b2efd7c82d04c7dc5b4143c8316d70c4197e31155",
+    "bytes": 1661
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-life-pump/replay-service.log",
+    "local": "pass3-routine-stats-observed-results/routine-life-pump/replay-service.log",
+    "target": "routine-stats-replays/routine-life-pump/replay-service.log",
+    "sha256": "dcc908c4cef72c8fd797e2212529e4ddb82375656ed9f8cf96fd4d28aae00057",
+    "bytes": 3020
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-life-pump/pack.log",
+    "local": "pass3-routine-stats-observed-results/routine-life-pump/pack.log",
+    "target": "routine-stats-replays/routine-life-pump/pack.log",
+    "sha256": "c773347588f8edc8e6ab78c78b639d19e19a0c248d560bbd5978ed6100c8e4eb",
+    "bytes": 186
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-life-pump/pack-service.log",
+    "local": "pass3-routine-stats-observed-results/routine-life-pump/pack-service.log",
+    "target": "routine-stats-replays/routine-life-pump/pack-service.log",
+    "sha256": "c8e9f51c357f29f4186af9debb0aa8fd24cc8911ec0db56bd59f383816e733c3",
+    "bytes": 2376
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-dance/result.json",
+    "local": "pass3-routine-stats-observed-results/routine-manual-dance/result.json",
+    "target": "routine-stats-replays/routine-manual-dance/result.json",
+    "sha256": "440ae39e4081654ee22f51c092d4ff2c7e1a02361ebf45cdb21ccc4d4513ccf9",
+    "bytes": 52800
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-dance/report.json.zst",
+    "local": "pass3-routine-stats-observed-results/routine-manual-dance/report.json.zst",
+    "target": "routine-stats-replays/routine-manual-dance/report.json.zst",
+    "sha256": "34f0966180c45dd49bd0288e3a0f5c2f1f2656ff70be0aff4266ec217a0eef1f",
+    "bytes": 4347
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-dance/replay.log",
+    "local": "pass3-routine-stats-observed-results/routine-manual-dance/replay.log",
+    "target": "routine-stats-replays/routine-manual-dance/replay.log",
+    "sha256": "b28b9f818612b45a03ee4075255e721bd7b26689527dd1212202631d68f073f9",
+    "bytes": 1492
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-dance/replay-service.log",
+    "local": "pass3-routine-stats-observed-results/routine-manual-dance/replay-service.log",
+    "target": "routine-stats-replays/routine-manual-dance/replay-service.log",
+    "sha256": "d84c159d6b6ec14e16a7d244fb5f6eeba126d4cf3cdcd1645049ccc31bcdab49",
+    "bytes": 4329
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-dance/pack.log",
+    "local": "pass3-routine-stats-observed-results/routine-manual-dance/pack.log",
+    "target": "routine-stats-replays/routine-manual-dance/pack.log",
+    "sha256": "a9ade0e68e6d05add82065b5e0dd90d2d44023df2885a6b6bb2d56984ad77bf6",
+    "bytes": 189
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-dance/pack-service.log",
+    "local": "pass3-routine-stats-observed-results/routine-manual-dance/pack-service.log",
+    "target": "routine-stats-replays/routine-manual-dance/pack-service.log",
+    "sha256": "d2d0fd056396475b6cf282a6ee295ada8dc498e5f89dc53a85054ee8105879b0",
+    "bytes": 829
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-dance/accepted/7a09a08ad50bac6f856366b206d669474d2338ce2d6eed713782e699add23519.tar.zst",
+    "local": "pass3-routine-stats-observed-results/routine-manual-dance/accepted/7a09a08ad50bac6f856366b206d669474d2338ce2d6eed713782e699add23519.tar.zst",
+    "target": null,
+    "sha256": "7a09a08ad50bac6f856366b206d669474d2338ce2d6eed713782e699add23519",
+    "bytes": 107757899
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-pump/result.json",
+    "local": "pass3-routine-stats-observed-results/routine-manual-pump/result.json",
+    "target": "routine-stats-replays/routine-manual-pump/result.json",
+    "sha256": "c5835175a869b7df100556261048f5895fd8fb59597a22fd09ba4dd58ffdf253",
+    "bytes": 52796
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-pump/report.json.zst",
+    "local": "pass3-routine-stats-observed-results/routine-manual-pump/report.json.zst",
+    "target": "routine-stats-replays/routine-manual-pump/report.json.zst",
+    "sha256": "48568bc7fb825b9da182977e6a8f4412b9f6ece38b7fc237af704b2ddf47af02",
+    "bytes": 4323
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-pump/replay.log",
+    "local": "pass3-routine-stats-observed-results/routine-manual-pump/replay.log",
+    "target": "routine-stats-replays/routine-manual-pump/replay.log",
+    "sha256": "f7e9b745dff13006ec64d6df60d416c91bef5ee874abed507ba6891e51144def",
+    "bytes": 1491
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-pump/replay-service.log",
+    "local": "pass3-routine-stats-observed-results/routine-manual-pump/replay-service.log",
+    "target": "routine-stats-replays/routine-manual-pump/replay-service.log",
+    "sha256": "954f5bc128382b21b52c218c5a9dffa85a7e34cc4e72c551b10e274a2d315993",
+    "bytes": 4302
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-pump/pack.log",
+    "local": "pass3-routine-stats-observed-results/routine-manual-pump/pack.log",
+    "target": "routine-stats-replays/routine-manual-pump/pack.log",
+    "sha256": "bd05f7a4fec6f3bfef66a89bdba48f440c4ac876def36d5e8c785f20f7cf4940",
+    "bytes": 188
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-pump/pack-service.log",
+    "local": "pass3-routine-stats-observed-results/routine-manual-pump/pack-service.log",
+    "target": "routine-stats-replays/routine-manual-pump/pack-service.log",
+    "sha256": "07465ffbe1c52bbaeccb3bcd7652936e7af6f50e4acd29953588722cf25ca319",
+    "bytes": 823
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/routine-manual-pump/accepted/c5821a08db402f2f1b8f84e2dfa090e1764df619b1de09d94d2ae83d8f39870b.tar.zst",
+    "local": "pass3-routine-stats-observed-results/routine-manual-pump/accepted/c5821a08db402f2f1b8f84e2dfa090e1764df619b1de09d94d2ae83d8f39870b.tar.zst",
+    "target": null,
+    "sha256": "c5821a08db402f2f1b8f84e2dfa090e1764df619b1de09d94d2ae83d8f39870b",
+    "bytes": 107757707
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/style-dance-routine/result.json",
+    "local": "pass3-routine-stats-observed-results/style-dance-routine/result.json",
+    "target": "routine-stats-replays/style-dance-routine/result.json",
+    "sha256": "c8e761d334fd7ca44bdce908345b1c9f21fb606b1895bbe9e5efca5655cbe023",
+    "bytes": 57160
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/style-dance-routine/report.json.zst",
+    "local": "pass3-routine-stats-observed-results/style-dance-routine/report.json.zst",
+    "target": "routine-stats-replays/style-dance-routine/report.json.zst",
+    "sha256": "1e062e215f54ea3cf37c54f165d6d849083ccf0880e89dd652cc93b6abe02f96",
+    "bytes": 3070
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/style-dance-routine/replay.log",
+    "local": "pass3-routine-stats-observed-results/style-dance-routine/replay.log",
+    "target": "routine-stats-replays/style-dance-routine/replay.log",
+    "sha256": "08ce188560b2a8cb2a49e403885f2eff88c52aeea80abd231edc23935d294949",
+    "bytes": 1381
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/style-dance-routine/replay-service.log",
+    "local": "pass3-routine-stats-observed-results/style-dance-routine/replay-service.log",
+    "target": "routine-stats-replays/style-dance-routine/replay-service.log",
+    "sha256": "942c0e130bf98ac94386cb69851494a59f1d34bd7a220ddea22bfcc888134dbe",
+    "bytes": 3062
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/style-dance-routine/pack.log",
+    "local": "pass3-routine-stats-observed-results/style-dance-routine/pack.log",
+    "target": "routine-stats-replays/style-dance-routine/pack.log",
+    "sha256": "6190deeed358839a4e32419416153ed8caae68c76906408311ebbee96225e4d7",
+    "bytes": 188
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/style-dance-routine/pack-service.log",
+    "local": "pass3-routine-stats-observed-results/style-dance-routine/pack-service.log",
+    "target": "routine-stats-replays/style-dance-routine/pack-service.log",
+    "sha256": "380ee42cf10375c97e6f2bca9e3a5a279fdbed7d36d917a7a27e23b41b4a8522",
+    "bytes": 2412
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/style-pump-routine/result.json",
+    "local": "pass3-routine-stats-observed-results/style-pump-routine/result.json",
+    "target": "routine-stats-replays/style-pump-routine/result.json",
+    "sha256": "1821914a6bed87875a24b7d58e47eb14bd0ae503a4ab361d7bd68a41ff396cac",
+    "bytes": 57123
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/style-pump-routine/report.json.zst",
+    "local": "pass3-routine-stats-observed-results/style-pump-routine/report.json.zst",
+    "target": "routine-stats-replays/style-pump-routine/report.json.zst",
+    "sha256": "fbf17cbb64690115afff2d62527dc736025fa440e09535093e7f9b7b84764a94",
+    "bytes": 3069
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/style-pump-routine/replay.log",
+    "local": "pass3-routine-stats-observed-results/style-pump-routine/replay.log",
+    "target": "routine-stats-replays/style-pump-routine/replay.log",
+    "sha256": "3e4f215075db93f77d5afb9ca82c93884ea4d22c8317708fdaa637fac9724556",
+    "bytes": 1380
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/style-pump-routine/replay-service.log",
+    "local": "pass3-routine-stats-observed-results/style-pump-routine/replay-service.log",
+    "target": "routine-stats-replays/style-pump-routine/replay-service.log",
+    "sha256": "93a284b002977edbf0fd8cd120fd4290f2f86384045f7763a2928f59ee660f94",
+    "bytes": 3043
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/style-pump-routine/pack.log",
+    "local": "pass3-routine-stats-observed-results/style-pump-routine/pack.log",
+    "target": "routine-stats-replays/style-pump-routine/pack.log",
+    "sha256": "da4c71378cd8d7c850817a8d01b28044e8b2bc1fede303dda4a75ae445b7ae4b",
+    "bytes": 187
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-observed-results/style-pump-routine/pack-service.log",
+    "local": "pass3-routine-stats-observed-results/style-pump-routine/pack-service.log",
+    "target": "routine-stats-replays/style-pump-routine/pack-service.log",
+    "sha256": "db1eb5a8acf8fd208fa0754ba83071ce8168b8555026e97c20c7e3588f7f8109",
+    "bytes": 2394
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-shark-results/68eda87bf02562c3/result.json",
+    "local": "pass3-routine-stats-shark-results/68eda87bf02562c3/result.json",
+    "target": "routine-stats-replays/68eda87bf02562c3/result.json",
+    "sha256": "57971cf155fd8660dfec42c43d0cb04d8bee7e9b860632b8f136e8e8956f102c",
+    "bytes": 19478
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-shark-results/68eda87bf02562c3/report.json.zst",
+    "local": "pass3-routine-stats-shark-results/68eda87bf02562c3/report.json.zst",
+    "target": "routine-stats-replays/68eda87bf02562c3/report.json.zst",
+    "sha256": "f0f221bbacc72a4be4939cf8f6a87623d451982663ed924674d6d9a3654b62b3",
+    "bytes": 787385
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-shark-results/68eda87bf02562c3/replay.log",
+    "local": "pass3-routine-stats-shark-results/68eda87bf02562c3/replay.log",
+    "target": "routine-stats-replays/68eda87bf02562c3/replay.log",
+    "sha256": "3f1096b803e7272bdb007d6d90aebb105f53380246f6c11b48030f07577b82d3",
+    "bytes": 3573
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-shark-results/68eda87bf02562c3/replay-service.log",
+    "local": "pass3-routine-stats-shark-results/68eda87bf02562c3/replay-service.log",
+    "target": "routine-stats-replays/68eda87bf02562c3/replay-service.log",
+    "sha256": "4aa2f98b1f98b5cd1223f638327bb282bfae0bfa1758ff0edbc35521d85ae4d3",
+    "bytes": 724
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-shark-results/730650ffb42269d8/result.json",
+    "local": "pass3-routine-stats-shark-results/730650ffb42269d8/result.json",
+    "target": "routine-stats-replays/730650ffb42269d8/result.json",
+    "sha256": "3c5227dc41780a19f2053b7c53b7c6e37f4008f737ddaa414e1f0851f8d790b0",
+    "bytes": 19860
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-shark-results/730650ffb42269d8/report.json.zst",
+    "local": "pass3-routine-stats-shark-results/730650ffb42269d8/report.json.zst",
+    "target": "routine-stats-replays/730650ffb42269d8/report.json.zst",
+    "sha256": "8879940e4090fec2b78649e04dc1462143824a6821e3512087bd7cc62dc5d7ef",
+    "bytes": 802974
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-shark-results/730650ffb42269d8/replay.log",
+    "local": "pass3-routine-stats-shark-results/730650ffb42269d8/replay.log",
+    "target": "routine-stats-replays/730650ffb42269d8/replay.log",
+    "sha256": "280c359b5d107dd2c97147234b949d3daa133a12fe452186da04d5c40f770690",
+    "bytes": 3568
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-routine-stats-shark-results/730650ffb42269d8/replay-service.log",
+    "local": "pass3-routine-stats-shark-results/730650ffb42269d8/replay-service.log",
+    "target": "routine-stats-replays/730650ffb42269d8/replay-service.log",
+    "sha256": "a64685878348019e57ef432c10c4d7fc981fa78b98987cc38a8da4a50b0c4a7e",
+    "bytes": 724
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-fail/routine-fail-dance/result.json",
+    "local": "pass3-native-routine-fail/routine-fail-dance/result.json",
+    "target": "routine-fail-controls/dance/result.json",
+    "sha256": "fbf0512063114266aad2b16896820b05ecfa02958296010467b22fc1fb3c3ec6",
+    "bytes": 25208
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-fail/routine-fail-dance/native.json.zst",
+    "local": "pass3-native-routine-fail/routine-fail-dance/native.json.zst",
+    "target": "routine-fail-controls/dance/native.json.zst",
+    "sha256": "5ad7fc024324f5121eda99c5fbc48f786b1fc830bb8b1c6fbdc39758c7ca3a39",
+    "bytes": 64114
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-fail/routine-fail-dance/capture.log",
+    "local": "pass3-native-routine-fail/routine-fail-dance/capture.log",
+    "target": "routine-fail-controls/dance/capture.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-fail/routine-fail-dance/capture-service.log",
+    "local": "pass3-native-routine-fail/routine-fail-dance/capture-service.log",
+    "target": "routine-fail-controls/dance/capture-service.log",
+    "sha256": "ecbd73cde7d344b5357ad3a0b7d38ae51ebe9c73825692a696eb6ab6560d9304",
+    "bytes": 1036
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-fail/dance/control.ssc",
+    "local": "routine-fail-controls/dance/control.ssc",
+    "target": "routine-fail-controls/dance/control.ssc",
+    "sha256": "02799a0c133a81cdf6b957b0a6f0da9fbbbd04128e5d0a48dc468debda91b3b3",
+    "bytes": 359
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-fail/dance/default.lua",
+    "local": "routine-fail-controls/dance/default.lua",
+    "target": "routine-fail-controls/dance/default.lua",
+    "sha256": "7fe97e8cea37b435bcd8fb0f76c4af67c4ef5e1a54867207ba9d33d89388a73c",
+    "bytes": 1504
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-fail/dance/silence.wav",
+    "local": "routine-fail-controls/dance/silence.wav",
+    "target": "routine-fail-controls/dance/silence.wav",
+    "sha256": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d",
+    "bytes": 64044
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-fail/dance/inputs.json",
+    "local": "routine-fail-controls/dance/inputs.json",
+    "target": "routine-fail-controls/dance/inputs.json",
+    "sha256": "ca5226ec788296842079d9171ff1291eb83fb32e36941074e319affeb408de15",
+    "bytes": 1041
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-fail/routine-fail-pump/result.json",
+    "local": "pass3-native-routine-fail/routine-fail-pump/result.json",
+    "target": "routine-fail-controls/pump/result.json",
+    "sha256": "563d363f60dca9cf9ac638bb99c15858215c3f1c0bc654ee23778f135b6fbc53",
+    "bytes": 25212
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-fail/routine-fail-pump/native.json.zst",
+    "local": "pass3-native-routine-fail/routine-fail-pump/native.json.zst",
+    "target": "routine-fail-controls/pump/native.json.zst",
+    "sha256": "264370e22c679ff8a930f9fa1b4a74b1c90bf98b8bc082f2848717bd5dbdbac3",
+    "bytes": 66046
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-fail/routine-fail-pump/capture.log",
+    "local": "pass3-native-routine-fail/routine-fail-pump/capture.log",
+    "target": "routine-fail-controls/pump/capture.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source": "/opt/song-lua-audit/pass3-native-routine-fail/routine-fail-pump/capture-service.log",
+    "local": "pass3-native-routine-fail/routine-fail-pump/capture-service.log",
+    "target": "routine-fail-controls/pump/capture-service.log",
+    "sha256": "47ccbdc205b2bc2891ccaa4bafb48bb8885d59d726d241131caca0cfd3384300",
+    "bytes": 1029
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-fail/pump/control.ssc",
+    "local": "routine-fail-controls/pump/control.ssc",
+    "target": "routine-fail-controls/pump/control.ssc",
+    "sha256": "5137b0bf45101fb63a6fe5e22bfcfe50a100ec2628ca3a28040e30a5fc1ecee1",
+    "bytes": 389
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-fail/pump/default.lua",
+    "local": "routine-fail-controls/pump/default.lua",
+    "target": "routine-fail-controls/pump/default.lua",
+    "sha256": "7fe97e8cea37b435bcd8fb0f76c4af67c4ef5e1a54867207ba9d33d89388a73c",
+    "bytes": 1504
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-fail/pump/silence.wav",
+    "local": "routine-fail-controls/pump/silence.wav",
+    "target": "routine-fail-controls/pump/silence.wav",
+    "sha256": "5ce4fadfcfc56bf80acfb90f946a331317b9faf31ca1e41a94602ad66c2c5c4d",
+    "bytes": 64044
+  },
+  {
+    "source": "/opt/song-lua-audit/Songs/__pass3_controls/routine-fail/pump/inputs.json",
+    "local": "routine-fail-controls/pump/inputs.json",
+    "target": "routine-fail-controls/pump/inputs.json",
+    "sha256": "258d19099ac368f6b137dd84e7a6e309ccdf226ecad0544fed77162566babe23",
+    "bytes": 1069
+  }
+]

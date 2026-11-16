@@ -1,0 +1,44 @@
+   Compiling deadsync-gameplay v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-gameplay)
+   Compiling deadsync-smx v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-smx)
+   Compiling deadsync-lights v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-lights)
+   Compiling deadsync-notefield v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-notefield)
+   Compiling deadsync-config v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-config)
+warning: function `set_windows_gamepad_backend` is never used
+   --> crates/deadsync-config/src/app_update.rs:551:8
+    |
+551 | pub fn set_windows_gamepad_backend(cfg: &mut Config, backend: WindowsPadBackend) -> bool {
+    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+   Compiling deadsync-song-lua v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-song-lua)
+warning: unused import: `SongLuaLivePlayer`
+ --> crates/deadsync-song-lua/src/live_frames.rs:3:31
+  |
+3 | use crate::{SongLuaLiveFrame, SongLuaLivePlayer};
+  |                               ^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: `deadsync-config` (lib) generated 1 warning
+   Compiling deadsync-profile v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-profile)
+warning: `deadsync-config` (lib) generated 1 warning (1 duplicate)
+   Compiling deadsync-simfile v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-simfile)
+   Compiling deadsync-profile-gameplay v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-profile-gameplay)
+   Compiling deadsync-online v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-online)
+   Compiling deadsync-assets v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-assets)
+   Compiling deadsync-theme-simply-love v0.5.2494 (/opt/song-lua-audit/input-deadsync/crates/deadsync-theme-simply-love)
+   Compiling deadsync-import v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-import)
+   Compiling deadsync-input-fsr v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-input-fsr)
+   Compiling deadsync-shell v0.1.0 (/opt/song-lua-audit/input-deadsync/crates/deadsync-shell)
+warning: `deadsync-song-lua` (lib) generated 1 warning (1 duplicate)
+warning: `deadsync-song-lua` (lib) generated 1 warning (run `cargo fix --lib -p deadsync-song-lua` to apply 1 suggestion)
+   Compiling deadsync v0.5.2494 (/opt/song-lua-audit/input-deadsync)
+error[E0063]: missing field `routine` in initializer of `SongLuaLiveFrame`
+    --> tests/song_lua_itgmania_semantic_parity/native_gameplay.rs:3367:22
+     |
+3367 |             .advance(deadsync_song_lua::SongLuaLiveFrame {
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ missing `routine`
+
+For more information about this error, try `rustc --explain E0063`.
+error: could not compile `deadsync` (test "song_lua_itgmania_semantic_parity") due to 1 previous error

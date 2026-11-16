@@ -1,0 +1,3 @@
+2026-11-16T07:19:11+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-68eda87bf02562c3-replay.service - /opt/song-lua-audit/bin/full_song_lua-pass3-routine-stats-observers --archive /opt/song-lua-audit/pass3-routine-stats-shark-results/68eda87bf02562c3/5ef07e6438ca0dffe0550f57dcffd57f1edc5b0faeb93789c85e4cdee5d9f51f.tar --report /opt/song-lua-audit/pass3-routine-stats-shark-results/68eda87bf02562c3/report.json.
+2026-11-16T07:19:39+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-68eda87bf02562c3-replay.service: Deactivated successfully.
+2026-11-16T07:19:39+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-68eda87bf02562c3-replay.service: Consumed 28.232s CPU time, 1012.0K memory peak, 0B memory swap peak.

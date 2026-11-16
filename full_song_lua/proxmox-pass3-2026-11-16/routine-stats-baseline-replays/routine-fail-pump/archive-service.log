@@ -1,0 +1,3 @@
+2026-11-16T07:02:59+00:00 deadsync-lua-pass3-02 systemd[1]: Started lua-pass2-routine-fail-pump-archive.service - /opt/song-lua-audit/bin/itgmania-harness-pass3-input-clocks song-lua-archive /opt/song-lua-audit/Songs --traces /opt/song-lua-audit/pass3-routine-fail-results/routine-fail-pump/trace --out /opt/song-lua-audit/pass3-routine-fail-results/routine-fail-pump/candidate --uncompressed --theme-assets /opt/song-lua-audit/routine-theme.
+2026-11-16T07:03:00+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-fail-pump-archive.service: Deactivated successfully.
+2026-11-16T07:03:00+00:00 deadsync-lua-pass3-02 systemd[1]: lua-pass2-routine-fail-pump-archive.service: Consumed 1.566s CPU time, 5.4M memory peak, 0B memory swap peak.

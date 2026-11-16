@@ -1248,6 +1248,12 @@
     "archive": "3002a9f06919773b53a229d53e85ef2b2017b14124e26bffd41ec72cc2dda05d.tar.zst"
   },
   {
+    "title": "Routine failure pump",
+    "source_simfile": "__pass3_controls/routine-fail/pump/control.ssc",
+    "harness_version": "0.1.103",
+    "archive": "301452e340229cae48c7291a4a493e26ef2af5451684102d2f1b99f1d178b378.tar.zst"
+  },
+  {
     "title": "Gaming in 2018",
     "source_simfile": "Gaming in 2018/Gaming in 2018.ssc",
     "harness_version": "0.1.0",
@@ -2980,6 +2986,12 @@
     "source_simfile": "Bamboo/Take.ssc",
     "harness_version": "0.1.0",
     "archive": "79d2a2c238331bd8c4fd4a00f96301cdc081165673b459758181af953961c37e.tar.zst"
+  },
+  {
+    "title": "dance routine team and player statistics",
+    "source_simfile": "__pass3_controls/routine-manual/dance/control.ssc",
+    "harness_version": "0.1.103",
+    "archive": "7a09a08ad50bac6f856366b206d669474d2338ce2d6eed713782e699add23519.tar.zst"
   },
   {
     "title": "Up Up Up Up",
@@ -4764,6 +4776,12 @@
     "archive": "c5696d5e4c207ba22e6ac4adf5ac0d27f5b4c877ef9e49d8cd4d43fe8408d39f.tar.zst"
   },
   {
+    "title": "pump routine team and player statistics",
+    "source_simfile": "__pass3_controls/routine-manual/pump/control.ssc",
+    "harness_version": "0.1.103",
+    "archive": "c5821a08db402f2f1b8f84e2dfa090e1764df619b1de09d94d2ae83d8f39870b.tar.zst"
+  },
+  {
     "title": "Koi",
     "source_simfile": "Koi [UPS2016]/koi.ssc",
     "harness_version": "0.1.80",
@@ -4972,6 +4990,12 @@
     "source_simfile": "The Entity/The Entity.sm",
     "harness_version": "0.1.80",
     "archive": "d01e09c869226b6fcac517cdfa0708cb4324306646b03ce0b01bf5ba872570b8.tar.zst"
+  },
+  {
+    "title": "Routine failure dance",
+    "source_simfile": "__pass3_controls/routine-fail/dance/control.ssc",
+    "harness_version": "0.1.103",
+    "archive": "d09cd14d313b9cb67dd6807773780d7bb7da165e31e3b57b4a48717f3458e05f.tar.zst"
   },
   {
     "title": "The Scale (feat. BabyTron)",

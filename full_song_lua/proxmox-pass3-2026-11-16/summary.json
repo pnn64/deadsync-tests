@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T04:36:48.192731+00:00",
+  "updated_at": "2026-11-16T07:29:12.766093+00:00",
   "status": "in_progress",
   "primary_cases": 503,
   "latest_available_results": {
@@ -13,5 +13,10 @@
   },
   "fresh_passing_primary_cases_this_pass": 4,
   "all_charts_gate_satisfied": false,
-  "native_validated_all_chart_inventory": false
+  "native_validated_all_chart_inventory": false,
+  "routine_statistics": {
+    "controls_passed": 8,
+    "real_song_regressions_passed": 2,
+    "manual_routine_failures_remaining": 0
+  }
 }

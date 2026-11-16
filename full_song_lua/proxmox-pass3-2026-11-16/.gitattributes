@@ -3,3 +3,8 @@
 *.py text eol=lf
 *.gz -text
 *.zst -text
+
+# Preserve the captured bytes covered by routine-stats-evidence.json.
+/routine-stats-baseline-replays/**/* -text -whitespace
+/routine-stats-replays/**/* -text -whitespace
+/routine-fail-controls/**/* -text -whitespace
