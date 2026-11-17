@@ -5464,6 +5464,86 @@
       "compressed_bytes": 124412544,
       "uncompressed_sha256": "e6107b2159282dfcfea9839d9c3ec71548444e75dfd8acdd70903d029f2de148",
       "aliases": []
+    },
+    {
+      "title": "Destroy",
+      "source_simfile": "Destroy/steps.sm",
+      "harness_version": "0.1.104",
+      "archive": "aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439.tar.zst",
+      "sha256": "aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439",
+      "compressed_bytes": 119750083,
+      "uncompressed_sha256": "c5bfe91bb2bc9b978f6384b62eccfb99c7fe021cc89b65d66efbf6dd63036a5f",
+      "aliases": []
+    },
+    {
+      "title": "Dyscontrolled Galaxy",
+      "source_simfile": "Dyscontrolled Galaxy/steps.sm",
+      "harness_version": "0.1.104",
+      "archive": "127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415.tar.zst",
+      "sha256": "127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415",
+      "compressed_bytes": 123482511,
+      "uncompressed_sha256": "548ca903a74a85e97eafd25d2be9f6a436bb9e609f3ad6673f77f1692f5649fb",
+      "aliases": []
+    },
+    {
+      "title": "Dyscontrolled Galaxy",
+      "source_simfile": "Dyscontrolled Galaxy/steps.ssc",
+      "harness_version": "0.1.104",
+      "archive": "2e337d9f0973eda22adee89bba49362f8600642359b7afcf1fcfde9c4c82ba63.tar.zst",
+      "sha256": "2e337d9f0973eda22adee89bba49362f8600642359b7afcf1fcfde9c4c82ba63",
+      "compressed_bytes": 123475971,
+      "uncompressed_sha256": "0b075f1f731063d5aed5209c91553497c0ed2596b089b4709c3470ed21d70c50",
+      "aliases": []
+    },
+    {
+      "title": "GOODBOUNCE",
+      "source_simfile": "GOODBOUNCE/GOODBOUNCE.sm",
+      "harness_version": "0.1.104",
+      "archive": "4a6de8279b04466c73b67d38d27f4477c4c2ea8855a74d02dcf459c32058cf39.tar.zst",
+      "sha256": "4a6de8279b04466c73b67d38d27f4477c4c2ea8855a74d02dcf459c32058cf39",
+      "compressed_bytes": 117202250,
+      "uncompressed_sha256": "45f2b426b6dad0ff6948b08c729c3f0802a4c9c5e6f00e9153be7c7ef7b79be4",
+      "aliases": []
+    },
+    {
+      "title": "ReDoin",
+      "source_simfile": "ReDoin [Pull]/redoin.sm",
+      "harness_version": "0.1.104",
+      "archive": "5870eb8b834b38eda30a0ba59655c600848a95459bcea56b68628b6ab273a977.tar.zst",
+      "sha256": "5870eb8b834b38eda30a0ba59655c600848a95459bcea56b68628b6ab273a977",
+      "compressed_bytes": 116934635,
+      "uncompressed_sha256": "c33d90474b89077e6b373e11b0ef0319f4daccee1ff92434f117db3d5fee0747",
+      "aliases": []
+    },
+    {
+      "title": "Super*Super*Light*Speed*Delivery!!!Speed*Star*Kanade",
+      "source_simfile": "Super Super Light Speed Delivery Speed Star Kanade/steps.sm",
+      "harness_version": "0.1.104",
+      "archive": "8c80bffb46b95f4cc814e230472348178a66fabcde8270e8add9f39b52336a35.tar.zst",
+      "sha256": "8c80bffb46b95f4cc814e230472348178a66fabcde8270e8add9f39b52336a35",
+      "compressed_bytes": 119063111,
+      "uncompressed_sha256": "d0883a95e9fc70f2c69e5c8cc3195c46301be316cb394f927f3f4b695c5b9cfb",
+      "aliases": []
+    },
+    {
+      "title": "TRICKL4SH 220",
+      "source_simfile": "TRICKL4SH 220/trick.sm",
+      "harness_version": "0.1.104",
+      "archive": "f4fe9a38863136841c10db9013858ce091cb9a2460f9ec89456647bb29c3e29f.tar.zst",
+      "sha256": "f4fe9a38863136841c10db9013858ce091cb9a2460f9ec89456647bb29c3e29f",
+      "compressed_bytes": 116248027,
+      "uncompressed_sha256": "bc7acc437be174b2a0bb9f52f4981e9834900c7fb3f89f42acd2ed4e2af0d2c0",
+      "aliases": []
+    },
+    {
+      "title": "SRT7 - Pernicious Deed",
+      "source_simfile": "5. deed/deed.sm",
+      "harness_version": "0.1.104",
+      "archive": "e346af39b0894f9e5a92713e42d7dc55cddeb3c39b907e4275b17606eb289a67.tar.zst",
+      "sha256": "e346af39b0894f9e5a92713e42d7dc55cddeb3c39b907e4275b17606eb289a67",
+      "compressed_bytes": 136877359,
+      "uncompressed_sha256": "1f11e6d95d4e44895481cb6da1d4592927b6ce986a515fa372678c5aae9adfd2",
+      "aliases": []
     }
   ],
   "compression_level": 22

@@ -450,6 +450,12 @@
     "archive": "126d933b07f244a14a538d6055f6165031879300e45f69014c28b1008cd8e3ba.tar.zst"
   },
   {
+    "title": "Dyscontrolled Galaxy",
+    "source_simfile": "Dyscontrolled Galaxy/steps.sm",
+    "harness_version": "0.1.104",
+    "archive": "127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415.tar.zst"
+  },
+  {
     "title": "Native BitmapText class lookup",
     "source_simfile": "probe/probe.sm",
     "harness_version": "0.1.23",
@@ -1204,6 +1210,12 @@
     "source_simfile": "The Great Divide - [Axis, PCBoyGames]/The_Great_Divide_Seven_Lions_Remix_-_Velvetine_141_BPM.ssc",
     "harness_version": "0.1.0",
     "archive": "2e2d6d045606f42dba6a5cd24a8f137b9856b85702eea7503d0d338f49ae3125.tar.zst"
+  },
+  {
+    "title": "Dyscontrolled Galaxy",
+    "source_simfile": "Dyscontrolled Galaxy/steps.ssc",
+    "harness_version": "0.1.104",
+    "archive": "2e337d9f0973eda22adee89bba49362f8600642359b7afcf1fcfde9c4c82ba63.tar.zst"
   },
   {
     "title": "REASON for RED",
@@ -1992,6 +2004,12 @@
     "archive": "4a5da65d0da95cc9b429b0d0a9a46065d8e676ca7b614221e9291aa9f884ccde.tar.zst"
   },
   {
+    "title": "GOODBOUNCE",
+    "source_simfile": "GOODBOUNCE/GOODBOUNCE.sm",
+    "harness_version": "0.1.104",
+    "archive": "4a6de8279b04466c73b67d38d27f4477c4c2ea8855a74d02dcf459c32058cf39.tar.zst"
+  },
+  {
     "title": "Delayed Friend Request",
     "source_simfile": "Delayed Friend Request/Delayed Friend Request.sm",
     "harness_version": "0.1.0",
@@ -2314,6 +2332,12 @@
     "source_simfile": "303-MODS-[lv.memes] [Tech Spectrum Super]/KABOOOOOM!!!!.ssc",
     "harness_version": "0.1.51",
     "archive": "585818d70433480c8732bfee7e6b3f442021ebf78f8a15ae8019d8b27f8b9f98.tar.zst"
+  },
+  {
+    "title": "ReDoin",
+    "source_simfile": "ReDoin [Pull]/redoin.sm",
+    "harness_version": "0.1.104",
+    "archive": "5870eb8b834b38eda30a0ba59655c600848a95459bcea56b68628b6ab273a977.tar.zst"
   },
   {
     "title": "copter",
@@ -3408,6 +3432,12 @@
     "archive": "8c7122bf839dbe1a2788c27c873a83631ab155e7223e36f79b18eba0f9985a6a.tar.zst"
   },
   {
+    "title": "Super*Super*Light*Speed*Delivery!!!Speed*Star*Kanade",
+    "source_simfile": "Super Super Light Speed Delivery Speed Star Kanade/steps.sm",
+    "harness_version": "0.1.104",
+    "archive": "8c80bffb46b95f4cc814e230472348178a66fabcde8270e8add9f39b52336a35.tar.zst"
+  },
+  {
     "title": "Episode 17",
     "source_simfile": "Pale/Pale.sm",
     "harness_version": "0.1.0",
@@ -4270,6 +4300,12 @@
     "source_simfile": "Popek feat. Titans Fall Harder - Downfall/Downfall.ssc",
     "harness_version": "0.1.0",
     "archive": "aea3ad5d5ed71889b690a118d9f393d4118f38adf030b378511657fd86da0982.tar.zst"
+  },
+  {
+    "title": "Destroy",
+    "source_simfile": "Destroy/steps.sm",
+    "harness_version": "0.1.104",
+    "archive": "aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439.tar.zst"
   },
   {
     "title": "Metronogik",
@@ -5406,6 +5442,12 @@
     "archive": "e30f7a23efb6897e17bd55a014026f58303d23bc566f29708bf4b6c9b0c35a2b.tar.zst"
   },
   {
+    "title": "SRT7 - Pernicious Deed",
+    "source_simfile": "5. deed/deed.sm",
+    "harness_version": "0.1.104",
+    "archive": "e346af39b0894f9e5a92713e42d7dc55cddeb3c39b907e4275b17606eb289a67.tar.zst"
+  },
+  {
     "title": "Episode 19",
     "source_simfile": "Young Dumb And Broke/YDB.ssc",
     "harness_version": "0.1.98",
@@ -5824,6 +5866,12 @@
     "source_simfile": "Wobbpotato [Egg Carton 3]/wobbpotato.ssc",
     "harness_version": "0.1.0",
     "archive": "f4249fbbe615707be08caf70a3937635a22a24800cf7c29e7968fa62cc7f7b9d.tar.zst"
+  },
+  {
+    "title": "TRICKL4SH 220",
+    "source_simfile": "TRICKL4SH 220/trick.sm",
+    "harness_version": "0.1.104",
+    "archive": "f4fe9a38863136841c10db9013858ce091cb9a2460f9ec89456647bb29c3e29f.tar.zst"
   },
   {
     "title": "bloodrush itg",

@@ -41,6 +41,17 @@ now match that engine. The [native control](../regression-expectations/song-lua/
 records independent assertions for all three fixes. Replay coverage gaps remain
 explicit; acceptance does not establish complete production or rendering parity.
 
+The [2026-11-17 new-song captures](new-songs-2026-11-17.json) add eight
+simfiles newly added to `lua-songs`: 5. deed, Destroy, Dyscontrolled Galaxy
+(SM and SSC), GOODBOUNCE, ReDoin [Pull], Super Super Light Speed Delivery Speed
+Star Kanade, and TRICKL4SH 220. Harness 0.1.104 captured them against the
+pinned `663525dcb86eb570d0ef6a2e209678436660ae26` engine in versus style, with
+zero native runtime errors. All except 5. deed include drawable samples; its
+338-second trace could not be published with them. Unlike earlier batches,
+these were published **before** a passing DeadSync replay so their parity gaps
+can be investigated; Destroy and Dyscontrolled Galaxy SM currently report
+mismatches.
+
 The [October fixture batch](ninth-ten-2026-10-18-summary.json) recorded **490 passed, 10 pending, and one ignored chart** (Mawaru9). Its [concrete failures](ninth-ten-2026-10-18-pending.json) and [missing coverage](ninth-ten-2026-10-18-coverage.json) are historical observations. Lesson SSC and Metronogik pass in the later batch above. Archives of 50,000,000 bytes or more are now published as verified parts; their restored originals remain gitignored.
 
 Velvet's fixture declares an initially stopped Lua collector in both VMs. Its default automatic-collector replay still has command-order differences, recorded as separate missing coverage. A [readable historical ledger](ninth-ten-2026-10-18-pending.md) lists the ten charts pending at that time and their concrete failures.

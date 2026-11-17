@@ -1,0 +1,173 @@
+{
+  "date": "2026-11-17",
+  "summary": "Native captures of songs newly added to lua-songs. Published without a passing DeadSync replay so the remaining parity gaps can be investigated; they are not acceptance evidence.",
+  "harness": {
+    "version": "0.1.104",
+    "revision": "0a9a76a3b92ba13f93146ee94aa7515ca0bd601d",
+    "executable_sha256": "57cf6c997892cea2b879dddca07fabb69f3f7b9ed00bd3c846a04e61a2058038"
+  },
+  "native": {
+    "revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+    "executable_sha256": "94ff0eca7fcdaf669fa5b276465b4ddec2521971c2d82722222e3bb91dbcdc3b",
+    "source": {
+      "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+      "modified_src": false,
+      "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+      "revision": "663525dcb86eb570d0ef6a2e209678436660ae26"
+    }
+  },
+  "theme": {
+    "path": "vendor/simply-love",
+    "revision": "1feda1fd43d96baca951351bb28a35d5e690ebc7",
+    "installed_as": "Harness Simply Love"
+  },
+  "deadsync_revision": "2bc8264d625e6ee3caf91e430bb30d307e2e8528",
+  "capture": {
+    "command": "itgmania-harness-rs song-lua-trace SIMFILE --itgmania-bin ITGmania-harness-trace.exe --headless --drawable-samples --style versus --difficulty Challenge --fallback-theme \"Harness Simply Love\" --player-options \"m600, cel\" --until-gameplay-end --capture-fps 60 --max-events 5000000 --timeout SECONDS --out native.json",
+    "environment": {
+      "ITGMANIA_SONG_LUA_NOTESKIN_ROOT": "deadsync assets/noteskins"
+    },
+    "archive": "itgmania-harness-rs song-lua-archive lua-songs --traces CASE --out DIR --theme-assets vendor/simply-love (zstd level 12, the same encoder as song-lua-pack)",
+    "timeout_seconds": {
+      "Destroy, Dyscontrolled Galaxy (.sm, .ssc)": 900,
+      "5. deed": 3000,
+      "others": 1200
+    }
+  },
+  "fixtures": [
+    {
+      "source_simfile": "5. deed/deed.sm",
+      "title": "SRT7 - Pernicious Deed",
+      "simfile_sha256": "7c3531b9ec716a84c57aa279d65e52972f7062ca9ec9b5633aab21f4ea606c9c",
+      "archive": "e346af39b0894f9e5a92713e42d7dc55cddeb3c39b907e4275b17606eb289a67.tar.zst",
+      "compressed_bytes": 136877359,
+      "uncompressed_sha256": "1f11e6d95d4e44895481cb6da1d4592927b6ce986a515fa372678c5aae9adfd2",
+      "native_trace_sha256": "f45e9aaa7507d3e7872a97fb4d1023da1670d2c0cae7d2cc2b8d52563cfe3bbd",
+      "native_frames": 14639,
+      "native_events": 1231737,
+      "completion": "gameplay-exit",
+      "runtime_errors": [],
+      "capture_seconds": 424.757,
+      "drawable_samples": false,
+      "deadsync_replay": "not run"
+    },
+    {
+      "source_simfile": "Destroy/steps.sm",
+      "title": "Destroy",
+      "simfile_sha256": "2e8e3b139db72adaf4061b0443e513d508bc571dddab106202b1885dbc3aba3e",
+      "archive": "aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439.tar.zst",
+      "compressed_bytes": 119750083,
+      "uncompressed_sha256": "c5bfe91bb2bc9b978f6384b62eccfb99c7fe021cc89b65d66efbf6dd63036a5f",
+      "native_trace_sha256": "3642c3006bec5728279986304d18983d52a45d7f876be337d6198f29b225339c",
+      "native_frames": 6436,
+      "native_events": 212295,
+      "completion": "gameplay-exit",
+      "runtime_errors": [],
+      "capture_seconds": 157.163,
+      "deadsync_replay": {
+        "archive_accepted": false,
+        "mismatches": 59066,
+        "errors": 0
+      }
+    },
+    {
+      "source_simfile": "Dyscontrolled Galaxy/steps.sm",
+      "title": "Dyscontrolled Galaxy",
+      "simfile_sha256": "124827effe483710bc2f8965b002155d12c414d27bcb0e38fb34f02332945e9f",
+      "archive": "127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415.tar.zst",
+      "compressed_bytes": 123482511,
+      "uncompressed_sha256": "548ca903a74a85e97eafd25d2be9f6a436bb9e609f3ad6673f77f1692f5649fb",
+      "native_trace_sha256": "912ee6ef1a8bee982265ad558721ad4e8916b8d8f22bacda7bfb372ed49d7760",
+      "native_frames": 7117,
+      "native_events": 382578,
+      "completion": "gameplay-exit",
+      "runtime_errors": [],
+      "capture_seconds": 167.393,
+      "deadsync_replay": {
+        "archive_accepted": false,
+        "mismatches": 219,
+        "errors": 0
+      }
+    },
+    {
+      "source_simfile": "Dyscontrolled Galaxy/steps.ssc",
+      "title": "Dyscontrolled Galaxy",
+      "simfile_sha256": "05a7c6810a906e1f1f3213500f1790031ba0afdf87d1cf5e728e6e7b745ddc08",
+      "archive": "2e337d9f0973eda22adee89bba49362f8600642359b7afcf1fcfde9c4c82ba63.tar.zst",
+      "compressed_bytes": 123475971,
+      "uncompressed_sha256": "0b075f1f731063d5aed5209c91553497c0ed2596b089b4709c3470ed21d70c50",
+      "native_trace_sha256": "f11df925f835d8a6643e9b5d11e4f71e32ca2e95af5b30b19460913a2a111d59",
+      "native_frames": 7135,
+      "native_events": 380456,
+      "completion": "gameplay-exit",
+      "runtime_errors": [],
+      "capture_seconds": 166.618,
+      "deadsync_replay": "not run"
+    },
+    {
+      "source_simfile": "GOODBOUNCE/GOODBOUNCE.sm",
+      "title": "GOODBOUNCE",
+      "simfile_sha256": "11396849e507fda347eeb4661956467d51a0739b9cb691f1cdb500f1197b9546",
+      "archive": "4a6de8279b04466c73b67d38d27f4477c4c2ea8855a74d02dcf459c32058cf39.tar.zst",
+      "compressed_bytes": 117202250,
+      "uncompressed_sha256": "45f2b426b6dad0ff6948b08c729c3f0802a4c9c5e6f00e9153be7c7ef7b79be4",
+      "native_trace_sha256": "7cf08c86b157b14a83d5953918502e8bd2f967564758e6387726e6015c01327a",
+      "native_frames": 4274,
+      "native_events": 717754,
+      "completion": "gameplay-exit",
+      "runtime_errors": [],
+      "capture_seconds": 188.31,
+      "deadsync_replay": "not run"
+    },
+    {
+      "source_simfile": "ReDoin [Pull]/redoin.sm",
+      "title": "ReDoin",
+      "simfile_sha256": "a9098478a2c5abc69ce12c5561bbad71de2f495bdc03ce5970d7c2997a0c7662",
+      "archive": "5870eb8b834b38eda30a0ba59655c600848a95459bcea56b68628b6ab273a977.tar.zst",
+      "compressed_bytes": 116934635,
+      "uncompressed_sha256": "c33d90474b89077e6b373e11b0ef0319f4daccee1ff92434f117db3d5fee0747",
+      "native_trace_sha256": "95865a5e6168882204cc39a2610bc0a212f40ee029e1102eda17e95e871b64b4",
+      "native_frames": 4813,
+      "native_events": 169573,
+      "completion": "gameplay-exit",
+      "runtime_errors": [],
+      "capture_seconds": 175.297,
+      "deadsync_replay": "not run"
+    },
+    {
+      "source_simfile": "Super Super Light Speed Delivery Speed Star Kanade/steps.sm",
+      "title": "Super*Super*Light*Speed*Delivery!!!Speed*Star*Kanade",
+      "simfile_sha256": "a07a465f8f9e912abfc57705f6cc0eca6964a98ae9a03e9ff3f9bd32a92f09d2",
+      "archive": "8c80bffb46b95f4cc814e230472348178a66fabcde8270e8add9f39b52336a35.tar.zst",
+      "compressed_bytes": 119063111,
+      "uncompressed_sha256": "d0883a95e9fc70f2c69e5c8cc3195c46301be316cb394f927f3f4b695c5b9cfb",
+      "native_trace_sha256": "24ddf6daec7bc44ff9820eb6cf88b6a065dac28d6e30b06e856704c1de983ab1",
+      "native_frames": 4219,
+      "native_events": 173457,
+      "completion": "gameplay-exit",
+      "runtime_errors": [],
+      "capture_seconds": 141.253,
+      "deadsync_replay": "not run"
+    },
+    {
+      "source_simfile": "TRICKL4SH 220/trick.sm",
+      "title": "TRICKL4SH 220",
+      "simfile_sha256": "1770f2e1e748f147a309bae66be9769cc0bf4f01371d84843edfe0b16a219d8f",
+      "archive": "f4fe9a38863136841c10db9013858ce091cb9a2460f9ec89456647bb29c3e29f.tar.zst",
+      "compressed_bytes": 116248027,
+      "uncompressed_sha256": "bc7acc437be174b2a0bb9f52f4981e9834900c7fb3f89f42acd2ed4e2af0d2c0",
+      "native_trace_sha256": "1864d79d8af3ae796de9a3b1733b44ea287fea6de5defce273329d25a9134d27",
+      "native_frames": 3501,
+      "native_events": 1104432,
+      "completion": "gameplay-exit",
+      "runtime_errors": [],
+      "capture_seconds": 193.452,
+      "deadsync_replay": "not run"
+    }
+  ],
+  "notes": [
+    "5. deed (338 s song) was captured without --drawable-samples: with them, gameplay completed but the native trace publish ran for over 27 minutes without writing a trace before the process was stopped. Its fixture therefore has no drawable-sample comparisons.",
+    "GOODBOUNCE: the first capture attempt stopped on a native command error with no message (actor def-0011, SongLuaTrace.lua:497); the retry completed with zero runtime errors.",
+    "Dyscontrolled Galaxy/steps.ssc: the first replay attempt ran out of memory while other jobs were running; it has not been replayed since."
+  ]
+}
