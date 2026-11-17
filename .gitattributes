@@ -12,6 +12,8 @@
 # Native song Lua controls include checksums of their exact source bytes.
 /regression-expectations/song-lua/**/*.lua -text
 /regression-expectations/song-lua/native-actor-parity/*.sm -text
+# Native chart provenance includes the original trailing blank line.
+/itgmania-song-lua-micro/looping-rooms.ssc -text whitespace=-blank-at-eof
 # Chart-selection controls have recorded SHA-256 source identities.
 /full_song_lua/proxmox-pass3-2026-11-16/chart-selector-control/* -text
 /full_song_lua/proxmox-pass3-2026-11-16/style-controls/**/* -text
