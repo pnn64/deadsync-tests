@@ -450,12 +450,6 @@
     "archive": "126d933b07f244a14a538d6055f6165031879300e45f69014c28b1008cd8e3ba.tar.zst"
   },
   {
-    "title": "Dyscontrolled Galaxy",
-    "source_simfile": "Dyscontrolled Galaxy/steps.sm",
-    "harness_version": "0.1.104",
-    "archive": "127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415.tar.zst"
-  },
-  {
     "title": "Native BitmapText class lookup",
     "source_simfile": "probe/probe.sm",
     "harness_version": "0.1.23",
@@ -4302,12 +4296,6 @@
     "archive": "aea3ad5d5ed71889b690a118d9f393d4118f38adf030b378511657fd86da0982.tar.zst"
   },
   {
-    "title": "Destroy",
-    "source_simfile": "Destroy/steps.sm",
-    "harness_version": "0.1.104",
-    "archive": "aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439.tar.zst"
-  },
-  {
     "title": "Metronogik",
     "source_simfile": "Metronogik/Song.ssc",
     "harness_version": "0.1.97",
@@ -4942,6 +4930,12 @@
     "source_simfile": "[N]TECH SOUP(MASTER) Flying Castle/flying castle.sm",
     "harness_version": "0.1.0",
     "archive": "cb6422f5f30e65931d09bd34da4ce770604c3eceacb17cfa4b2ca2316d85628d.tar.zst"
+  },
+  {
+    "title": "Dyscontrolled Galaxy [Tier 4] Taro channels visions of the past",
+    "source_simfile": "Dyscontrolled Galaxy/steps.sm",
+    "harness_version": "0.1.105",
+    "archive": "cb9d9d463721dcde307d06edef687027b10d20e998fcc6c6418698e83acc1dd0.tar.zst"
   },
   {
     "title": "SPLAK IT DOWN",
@@ -5908,6 +5902,12 @@
     "source_simfile": "[CRYSTAL_ACCESS]/[CRYSTAL_ACCESS].sm",
     "harness_version": "0.1.0",
     "archive": "f657ae12b7c7f7e63701a1e6f2af48f16526ee682720c38ca915fae9705aa9cd.tar.zst"
+  },
+  {
+    "title": "Destroy [Tier 2] Hal discovers the Heavenly Richter Scale(TM)",
+    "source_simfile": "Destroy/steps.sm",
+    "harness_version": "0.1.105",
+    "archive": "f6768b62c9dd561904029c828d1543b77c53c2a7fef667964850c1f7c7553c90.tar.zst"
   },
   {
     "title": "[11] 時計の国のジェミニ",

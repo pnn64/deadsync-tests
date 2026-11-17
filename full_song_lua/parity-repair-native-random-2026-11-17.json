@@ -1,0 +1,209 @@
+{
+  "date": "2026-11-17",
+  "scope": "Destroy and Dyscontrolled Galaxy SM; full replay of implemented comparisons",
+  "itgmania_source_revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+  "harness_version": "0.1.105",
+  "fixture_parent": "9eeba93a33dc76eee001f54748d51c9f97e9871d",
+  "historical_ledger": {
+    "path": "full_song_lua/new-songs-2026-11-17.json",
+    "sha256": "affa6a66a34608f4c07cc5ce607110686b62c422eeb2bae543bd0016b128fcce",
+    "modified": false
+  },
+  "replacement_policy": "Replace primary rows; retain old names as aliases and exact original archives in saved captures.",
+  "packer_sha256": "c57f45770b38b0b68170295763688b368591b1e7ee4d9dfb22a707bfce3c7f71",
+  "helper_sha256": "f9442daba8c8c3d3a5ef71869284d7f2da584471acfb6b97065c23bef9deee38",
+  "cases": [
+    {
+      "source_simfile": "Destroy/steps.sm",
+      "replacement": {
+        "title": "Destroy [Tier 2] Hal discovers the Heavenly Richter Scale(TM)",
+        "source_simfile": "Destroy/steps.sm",
+        "harness_version": "0.1.105",
+        "archive": "f6768b62c9dd561904029c828d1543b77c53c2a7fef667964850c1f7c7553c90.tar.zst",
+        "sha256": "f6768b62c9dd561904029c828d1543b77c53c2a7fef667964850c1f7c7553c90",
+        "compressed_bytes": 118678517,
+        "uncompressed_sha256": "48faf8436181f99f2a531349d4c8d716be3b80d0a5f31747fa4f04dd0dd5e2b2",
+        "aliases": [
+          "aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439.tar.zst"
+        ],
+        "compression_level": 12
+      },
+      "original": {
+        "archive": "aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439.tar.zst",
+        "sha256": "aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439",
+        "uncompressed_sha256": "c5bfe91bb2bc9b978f6384b62eccfb99c7fe021cc89b65d66efbf6dd63036a5f",
+        "retained_archive": "C:\\GitHub\\deadsync\\save\\new-songs-2026-11-17\\destroy-sm\\archive\\aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439.tar.zst",
+        "retained_native_trace": "C:\\GitHub\\deadsync\\save\\new-songs-2026-11-17\\destroy-sm\\native.json",
+        "native_sha256": "3642c3006bec5728279986304d18983d52a45d7f876be337d6198f29b225339c"
+      },
+      "capture": {
+        "native_sha256": "44f7c8ea017d839729763df84ec5b85e2d876d376f5514dd7d3a3475a909c5ff",
+        "native_frames": 4218,
+        "drawable_samples": 48292,
+        "render_random_inputs": 3077,
+        "provenance_sha256": "8b9b3e0c7361682b9ae82218a49e2bba4c8f1f434a2b8384bb9f2eb7799b8336"
+      },
+      "unchanged_content": {
+        "files": 569,
+        "bytes": 117815224,
+        "simfile_sha256": "2e8e3b139db72adaf4061b0443e513d508bc571dddab106202b1885dbc3aba3e"
+      },
+      "replay": {
+        "report_path": "C:\\GitHub\\deadsync\\save\\parity-20261117-native-random-destroy\\report-fourth-pass.json",
+        "report_sha256": "ece4e52618782f518946515ee47f746973e3c87441933a1204610ef261280ed6",
+        "accepted_candidate_sha256": "48faf8436181f99f2a531349d4c8d716be3b80d0a5f31747fa4f04dd0dd5e2b2",
+        "archive_accepted": true,
+        "execution_path": "diagnostic-live-lua",
+        "replayed_frames": 4218,
+        "compared_stage_fields": 2794,
+        "mismatches": 0,
+        "callback_errors": 0,
+        "command_queries": {
+          "compared": true,
+          "native_count": 82858,
+          "actual_count": 82858
+        },
+        "interactive": {
+          "input_events_replayed": 0,
+          "draw_samples_compared": 48292,
+          "submitted_vertices_compared": 260196,
+          "live_text_samples_compared": 0,
+          "draw_mismatches": 0,
+          "equivalent_offscreen_culls": 0,
+          "batched_native_draw_samples": 14712,
+          "draw_mismatch_counts": {},
+          "draw_mismatch_examples": [],
+          "equivalent_degenerate_culls": 4926,
+          "uncompared_owned_immediate_draws": 0,
+          "render_random_inputs_replayed": 3077,
+          "render_random_inputs_captured": 3077,
+          "unreplayed_render_random_inputs": 0,
+          "draw_vibration_scopes_without_native_inputs": 0,
+          "last_draw_mismatch": null,
+          "pixel_parity_proven": false
+        },
+        "source_identity": {
+          "status": "not-recorded",
+          "simfile": "C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmpee2d7c\\song\\steps.sm",
+          "simfile_sha256": "2e8e3b139db72adaf4061b0443e513d508bc571dddab106202b1885dbc3aba3e"
+        },
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pending_coverage": [
+          "uncompared song operations: Actor.AddWrapperState, Actor.GetNumWrapperStates, Actor.GetWrapperState, Actor.GetX, Actor.addy, Actor.basezoomx, Actor.basezoomy, Actor.blend, Actor.bob, Actor.bouncebegin, Actor.bounceend, Actor.cullmode, Actor.diffuseshift, Actor.draworder, Actor.effectcolor1, Actor.effectcolor2, Actor.effectoffset, Actor.fadeleft, Actor.faderight, Actor.finishtweening, Actor.playcommand, Actor.rotationx, Actor.rotationy, Actor.skewx, Actor.stoptweening, Actor.z, Actor.zoomy, Actor.zoomz, ActorFrame.fov, ActorFrame.propagate, GameState.GetSongPosition, PlayerOptions.Brake, PlayerOptions.Bumpy, PlayerOptions.Centered, PlayerOptions.Dark, PlayerOptions.Distant, PlayerOptions.Dizzy, PlayerOptions.Drunk, PlayerOptions.Flip, PlayerOptions.FromString, PlayerOptions.Hallway, PlayerOptions.Invert, PlayerOptions.Mini, PlayerOptions.Space, PlayerOptions.Stealth, PlayerOptions.Tipsy, PlayerOptions.Tornado, PlayerOptions.Wave, PlayerOptions.XMod, Sprite.customtexturerect, Sprite.setstate, Sprite.texcoordvelocity",
+          "native drawable state/resources: Model, Quad, Sprite",
+          "missing captured subscriber identity for ScreenGameplay/2/10/1",
+          "missing captured subscriber identity for ScreenGameplay/2/11",
+          "missing captured subscriber identity for ScreenGameplay/2/14/1",
+          "missing captured subscriber identity for ScreenGameplay/2/7",
+          "missing captured subscriber identity for ScreenGameplay/25",
+          "missing captured subscriber identity for ScreenGameplay/26/1/1",
+          "missing captured subscriber identity for ScreenGameplay/26/1/10",
+          "missing captured subscriber identity for ScreenGameplay/26/1/12",
+          "missing captured subscriber identity for ScreenGameplay/26/1/2",
+          "missing captured subscriber identity for ScreenGameplay/26/1/4",
+          "missing captured subscriber identity for ScreenGameplay/26/1/5",
+          "missing captured subscriber identity for ScreenGameplay/26/1/7",
+          "missing captured subscriber identity for ScreenGameplay/26/1/9",
+          "missing captured subscriber identity for ScreenGameplay/3/1"
+        ]
+      }
+    },
+    {
+      "source_simfile": "Dyscontrolled Galaxy/steps.sm",
+      "replacement": {
+        "title": "Dyscontrolled Galaxy [Tier 4] Taro channels visions of the past",
+        "source_simfile": "Dyscontrolled Galaxy/steps.sm",
+        "harness_version": "0.1.105",
+        "archive": "cb9d9d463721dcde307d06edef687027b10d20e998fcc6c6418698e83acc1dd0.tar.zst",
+        "sha256": "cb9d9d463721dcde307d06edef687027b10d20e998fcc6c6418698e83acc1dd0",
+        "compressed_bytes": 122822177,
+        "uncompressed_sha256": "56bef73170ec840fa69747fbf73dfc6f11e963ec14a9b301541eb20d1b56e750",
+        "aliases": [
+          "127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415.tar.zst"
+        ],
+        "compression_level": 12
+      },
+      "original": {
+        "archive": "127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415.tar.zst",
+        "sha256": "127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415",
+        "uncompressed_sha256": "548ca903a74a85e97eafd25d2be9f6a436bb9e609f3ad6673f77f1692f5649fb",
+        "retained_archive": "C:\\GitHub\\deadsync\\save\\new-songs-2026-11-17\\dyscontrolled-galaxy-sm\\archive\\127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415.tar.zst",
+        "retained_native_trace": "C:\\GitHub\\deadsync\\save\\new-songs-2026-11-17\\dyscontrolled-galaxy-sm\\native.json",
+        "native_sha256": "912ee6ef1a8bee982265ad558721ad4e8916b8d8f22bacda7bfb372ed49d7760"
+      },
+      "capture": {
+        "native_sha256": "08eb94b3eecc691673d266f4d8aa583bd66936c2a973bee86b0d9ec1b0cd5376",
+        "native_frames": 4804,
+        "drawable_samples": 28745,
+        "render_random_inputs": 4735,
+        "provenance_sha256": "80f26792871c80724ff0c90fd7b4d324c19249dee277f4ff319719be2cc23833"
+      },
+      "unchanged_content": {
+        "files": 598,
+        "bytes": 122186792,
+        "simfile_sha256": "124827effe483710bc2f8965b002155d12c414d27bcb0e38fb34f02332945e9f"
+      },
+      "replay": {
+        "report_path": "C:\\GitHub\\deadsync\\save\\parity-20261117-native-random-dyscontrolled-sm\\report-fourth-pass.json",
+        "report_sha256": "d35c4cafd79669903c3eea6d7f50c5bea6ceb81850fff39f5a1fcd3c8e98057f",
+        "accepted_candidate_sha256": "56bef73170ec840fa69747fbf73dfc6f11e963ec14a9b301541eb20d1b56e750",
+        "archive_accepted": true,
+        "execution_path": "diagnostic-live-lua",
+        "replayed_frames": 4804,
+        "compared_stage_fields": 3212,
+        "mismatches": 0,
+        "callback_errors": 0,
+        "command_queries": {
+          "compared": true,
+          "native_count": 115198,
+          "actual_count": 115198
+        },
+        "interactive": {
+          "input_events_replayed": 0,
+          "draw_samples_compared": 28745,
+          "submitted_vertices_compared": 146106,
+          "live_text_samples_compared": 64,
+          "draw_mismatches": 0,
+          "equivalent_offscreen_culls": 833,
+          "batched_native_draw_samples": 2174,
+          "draw_mismatch_counts": {},
+          "draw_mismatch_examples": [],
+          "equivalent_degenerate_culls": 3497,
+          "uncompared_owned_immediate_draws": 0,
+          "render_random_inputs_replayed": 4735,
+          "render_random_inputs_captured": 4735,
+          "unreplayed_render_random_inputs": 0,
+          "draw_vibration_scopes_without_native_inputs": 0,
+          "last_draw_mismatch": null,
+          "pixel_parity_proven": false
+        },
+        "source_identity": {
+          "status": "not-recorded",
+          "simfile": "C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmpFDJSjo\\song\\steps.sm",
+          "simfile_sha256": "124827effe483710bc2f8965b002155d12c414d27bcb0e38fb34f02332945e9f"
+        },
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pending_coverage": [
+          "uncompared song operations: Actor.AddWrapperState, Actor.GetDestY, Actor.GetNumWrapperStates, Actor.GetWrapperState, Actor.GetX, Actor.GetY, Actor.GetZ, Actor.GetZoom, Actor.accelerate, Actor.addx, Actor.addy, Actor.basezoom, Actor.basezoomx, Actor.basezoomy, Actor.blend, Actor.bob, Actor.bouncebegin, Actor.bounceend, Actor.cropbottom, Actor.cropleft, Actor.cropright, Actor.croptop, Actor.diffuseshift, Actor.draworder, Actor.effectclock, Actor.effectcolor1, Actor.effectcolor2, Actor.effectoffset, Actor.fadebottom, Actor.fadetop, Actor.finishtweening, Actor.getrotation, Actor.horizalign, Actor.playcommand, Actor.rotationx, Actor.rotationy, Actor.scaletofit, Actor.skewx, Actor.spring, Actor.stoptweening, Actor.stretchto, Actor.vertalign, Actor.wag, Actor.z, Actor.zoomtoheight, Actor.zoomtowidth, Actor.zoomy, Actor.zoomz, ActorFrame.fov, BitmapText.settext, GameState.GetSongPosition, PlayerOptions.Alternate, PlayerOptions.Brake, PlayerOptions.Bumpy, PlayerOptions.Centered, PlayerOptions.Dark, PlayerOptions.Dizzy, PlayerOptions.Drunk, PlayerOptions.Flip, PlayerOptions.FromString, PlayerOptions.Hallway, PlayerOptions.HiddenOffset, PlayerOptions.Invert, PlayerOptions.Mini, PlayerOptions.Space, PlayerOptions.Split, PlayerOptions.Stealth, PlayerOptions.Sudden, PlayerOptions.SuddenOffset, PlayerOptions.Tipsy, PlayerOptions.Tornado, PlayerOptions.XMod, Sprite.customtexturerect, Sprite.setstate, Sprite.texcoordvelocity",
+          "native drawable state/resources: BitmapText, Model, Quad, Sprite",
+          "missing captured subscriber identity for ScreenGameplay/2/10/1",
+          "missing captured subscriber identity for ScreenGameplay/2/11",
+          "missing captured subscriber identity for ScreenGameplay/2/14/1",
+          "missing captured subscriber identity for ScreenGameplay/2/7",
+          "missing captured subscriber identity for ScreenGameplay/25",
+          "missing captured subscriber identity for ScreenGameplay/26/1/1",
+          "missing captured subscriber identity for ScreenGameplay/26/1/10",
+          "missing captured subscriber identity for ScreenGameplay/26/1/12",
+          "missing captured subscriber identity for ScreenGameplay/26/1/2",
+          "missing captured subscriber identity for ScreenGameplay/26/1/4",
+          "missing captured subscriber identity for ScreenGameplay/26/1/5",
+          "missing captured subscriber identity for ScreenGameplay/26/1/7",
+          "missing captured subscriber identity for ScreenGameplay/26/1/9",
+          "missing captured subscriber identity for ScreenGameplay/3/1"
+        ]
+      }
+    }
+  ]
+}

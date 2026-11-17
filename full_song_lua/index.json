@@ -5466,24 +5466,30 @@
       "aliases": []
     },
     {
-      "title": "Destroy",
+      "title": "Destroy [Tier 2] Hal discovers the Heavenly Richter Scale(TM)",
       "source_simfile": "Destroy/steps.sm",
-      "harness_version": "0.1.104",
-      "archive": "aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439.tar.zst",
-      "sha256": "aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439",
-      "compressed_bytes": 119750083,
-      "uncompressed_sha256": "c5bfe91bb2bc9b978f6384b62eccfb99c7fe021cc89b65d66efbf6dd63036a5f",
-      "aliases": []
+      "harness_version": "0.1.105",
+      "archive": "f6768b62c9dd561904029c828d1543b77c53c2a7fef667964850c1f7c7553c90.tar.zst",
+      "sha256": "f6768b62c9dd561904029c828d1543b77c53c2a7fef667964850c1f7c7553c90",
+      "compressed_bytes": 118678517,
+      "uncompressed_sha256": "48faf8436181f99f2a531349d4c8d716be3b80d0a5f31747fa4f04dd0dd5e2b2",
+      "aliases": [
+        "aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439.tar.zst"
+      ],
+      "compression_level": 12
     },
     {
-      "title": "Dyscontrolled Galaxy",
+      "title": "Dyscontrolled Galaxy [Tier 4] Taro channels visions of the past",
       "source_simfile": "Dyscontrolled Galaxy/steps.sm",
-      "harness_version": "0.1.104",
-      "archive": "127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415.tar.zst",
-      "sha256": "127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415",
-      "compressed_bytes": 123482511,
-      "uncompressed_sha256": "548ca903a74a85e97eafd25d2be9f6a436bb9e609f3ad6673f77f1692f5649fb",
-      "aliases": []
+      "harness_version": "0.1.105",
+      "archive": "cb9d9d463721dcde307d06edef687027b10d20e998fcc6c6418698e83acc1dd0.tar.zst",
+      "sha256": "cb9d9d463721dcde307d06edef687027b10d20e998fcc6c6418698e83acc1dd0",
+      "compressed_bytes": 122822177,
+      "uncompressed_sha256": "56bef73170ec840fa69747fbf73dfc6f11e963ec14a9b301541eb20d1b56e750",
+      "aliases": [
+        "127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415.tar.zst"
+      ],
+      "compression_level": 12
     },
     {
       "title": "Dyscontrolled Galaxy",
