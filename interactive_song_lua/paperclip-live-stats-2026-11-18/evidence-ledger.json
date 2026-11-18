@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "prepared_utc": "2026-11-18T08:58:53.959903+00:00",
+  "scope": "Paperclip bounded human input, changing gameplay statistics, and authored failure draw comparison",
+  "native_validation_passed": true,
+  "source_archive_verified": true,
+  "verified_original_song_files": 23,
+  "verified_archive_song_files": 560,
+  "final_validation": {
+    "status": "passed",
+    "report": "final-production-report.json",
+    "report_sha256": "556af48ac13dad5b3901a136ebe95b3a23f1ac2c3e6baaad0d1a5bbb0bede2b7",
+    "command": "final-production-command.json",
+    "runner_sha256": "87b53892dfc3748ebd3eda8b1d9c0d5d7326e30e9ac73644f6640fc13be5563c",
+    "execution_path": "production-live-lua",
+    "production_gameplay_checks_passed": true,
+    "source_identity_status": "verified",
+    "verified_archive_song_files": 560,
+    "native_frames": 1455,
+    "replayed_frames": 1455,
+    "input_events_replayed": 146,
+    "checked_stage_samples": 46,
+    "compared_stage_fields": 1012,
+    "draw_samples_compared": 8826,
+    "submitted_vertices_compared": 31962,
+    "live_text_samples_compared": 3492,
+    "mismatches": 0,
+    "errors": 0,
+    "pending_coverage": [
+      "application build without test-support (run song_lua_execution)",
+      "full-song completion",
+      "sampled framebuffer pixels",
+      "production command/query instrumentation"
+    ]
+  },
+  "whole_song_parity_proven": false,
+  "pixel_parity_proven": false,
+  "archive_accepted": false,
+  "files": {
+    ".gitattributes": {
+      "bytes": 69,
+      "sha256": "9ed5aab69882d4eeae5eb6758c7499cd9fd35c86e857dd8b72de2ebc45828479"
+    },
+    "final-production-command.json": {
+      "bytes": 1763,
+      "sha256": "c582697d460fd344500e974f15a5dc9eb91681e94304d577297e80111533d4d4"
+    },
+    "final-production-report.json": {
+      "bytes": 2235,
+      "sha256": "556af48ac13dad5b3901a136ebe95b3a23f1ac2c3e6baaad0d1a5bbb0bede2b7"
+    },
+    "manifest.json": {
+      "bytes": 4778,
+      "sha256": "9a866dc9d0fd9c496500926a491398207a4526d2ff8008ff4b71059a86f11036"
+    },
+    "native-human-pulses.json.zst": {
+      "bytes": 584017,
+      "sha256": "bc46dee38659de0bc5e7e4930d09bebed94ef13fe5cf116589772509773b35a7"
+    },
+    "observations-summary.json": {
+      "bytes": 9404,
+      "sha256": "7837fbbeffc24088413f1fff74e6b8caee7cd7d75d10ab795404388b9b85e426"
+    },
+    "pulse-capture-command.json": {
+      "bytes": 1152,
+      "sha256": "a03400d614784aa17c7fcfd7f4ba9057acb9c9bc6e03abb7b7b390a194913a29"
+    },
+    "pulse-capture-summary.json": {
+      "bytes": 830,
+      "sha256": "a202b35e805b768d4022927e936a34503e0ffb3ed879fe02de69c417f18e0c81"
+    },
+    "pulse-inputs.json": {
+      "bytes": 18492,
+      "sha256": "52a7ed2e20a0b56fd3ad902292bd914527273ea493aca9bc3279783e44b45d57"
+    },
+    "README.md": {
+      "bytes": 4480,
+      "sha256": "c2166a4c65d94ba98b4d4099e581fdc7a9f25df5767c813901eecf35452fefc5"
+    },
+    "source-provenance.json": {
+      "bytes": 4486,
+      "sha256": "d82be474d02d34d07f6df15464666697266b4787ebc49f08a0fe2818c9f578dc"
+    }
+  },
+  "finalized_utc": "2026-11-18T09:01:47.763398+00:00",
+  "production_parity_proven": false
+}

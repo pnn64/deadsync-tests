@@ -1,0 +1,28 @@
+{
+  "path": "C:\\GitHub\\deadsync\\save\\paperclip-live-stats-2026-11-18\\native-human-pulses.json",
+  "sha256": "629f888cf147dcfe007d029dcdad3a710632280dbb2b86fd372a90d3eda0b69a",
+  "bytes": 48759177,
+  "completion": {
+    "reason": "beat-limit"
+  },
+  "update_frames": 1455,
+  "semantic_events": 19854,
+  "drawable_samples": 8826,
+  "input_events": 146,
+  "injected_commands": 146,
+  "script_errors": [],
+  "transition_script_errors": [],
+  "dropped": {
+    "dropped_drawable_samples": 0,
+    "dropped_events": 0,
+    "dropped_host_clock_inputs": 0,
+    "dropped_input_events": 0,
+    "dropped_random_reseeds": 0,
+    "dropped_render_random_inputs": 0,
+    "dropped_script_errors": 0,
+    "dropped_stage_samples": 0,
+    "dropped_update_frames": 0
+  },
+  "source_files_unchanged": true,
+  "elapsed_seconds": 60.13283269999374
+}

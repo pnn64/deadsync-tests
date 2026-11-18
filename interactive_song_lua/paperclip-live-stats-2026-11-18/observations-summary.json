@@ -1,0 +1,406 @@
+{
+  "trace_sha256": "629f888cf147dcfe007d029dcdad3a710632280dbb2b86fd372a90d3eda0b69a",
+  "players": {
+    "P1": {
+      "first_positive_percent": {
+        "seconds": 16.903446197509766,
+        "beat": 51.22221755981445,
+        "sequence": 7235,
+        "value": 0.0009000000427477062
+      },
+      "maximum_percent": {
+        "seconds": 19.244285583496094,
+        "beat": 58.3227653503418,
+        "sequence": 8430,
+        "value": 0.008100000210106373
+      },
+      "first_life_zero": {
+        "seconds": 21.532108306884766,
+        "beat": 65.26249694824219,
+        "sequence": 9559,
+        "value": 0
+      },
+      "first_life_full": null,
+      "maximum_life": {
+        "seconds": 19.244285583496094,
+        "beat": 58.3227653503418,
+        "sequence": 8419,
+        "value": 0.564000129699707
+      },
+      "rainbow_changes": [
+        {
+          "seconds": 0.0278684813529253,
+          "beat": 0.03296772763133049,
+          "sequence": 228,
+          "value": false
+        }
+      ]
+    },
+    "P2": {
+      "first_positive_percent": {
+        "seconds": 16.903446197509766,
+        "beat": 51.22221755981445,
+        "sequence": 7253,
+        "value": 0.0009000000427477062
+      },
+      "maximum_percent": {
+        "seconds": 32.39160919189453,
+        "beat": 98.20298767089844,
+        "sequence": 15089,
+        "value": 0.06450000405311584
+      },
+      "first_life_zero": {
+        "seconds": 34.40702819824219,
+        "beat": 104.31642150878906,
+        "sequence": 16084,
+        "value": 0
+      },
+      "first_life_full": {
+        "seconds": 32.298912048339844,
+        "beat": 97.92180633544922,
+        "sequence": 15009,
+        "value": 1
+      },
+      "maximum_life": {
+        "seconds": 32.298912048339844,
+        "beat": 97.92180633544922,
+        "sequence": 15009,
+        "value": 1
+      },
+      "rainbow_changes": [
+        {
+          "seconds": 0.0278684813529253,
+          "beat": 0.03296772763133049,
+          "sequence": 247,
+          "value": false
+        },
+        {
+          "seconds": 32.298912048339844,
+          "beat": 97.92180633544922,
+          "sequence": 15010,
+          "value": true
+        },
+        {
+          "seconds": 32.89113235473633,
+          "beat": 99.71820831298828,
+          "sequence": 15324,
+          "value": false
+        }
+      ]
+    }
+  },
+  "failure_seconds": 34.40702819824219,
+  "trigger_queries": [
+    {
+      "seq": 16047,
+      "seconds": 34.40702819824219,
+      "beat": 104.31642150878906,
+      "operation": "PlayerStageStats.GetCurrentLife",
+      "actor": "stage:current/player:0",
+      "definition_id": "def-0010",
+      "command": "LoopCommand",
+      "args": [],
+      "detail": {
+        "results": [
+          0
+        ]
+      }
+    },
+    {
+      "seq": 16050,
+      "seconds": 34.40702819824219,
+      "beat": 104.31642150878906,
+      "operation": "PlayerStageStats.GetCurrentLife",
+      "actor": "stage:current/player:1",
+      "definition_id": "def-0010",
+      "command": "LoopCommand",
+      "args": [],
+      "detail": {
+        "results": [
+          0
+        ]
+      }
+    }
+  ],
+  "first_bsod_draw": {
+    "actor": "def-0006",
+    "update_sequence": 1187,
+    "seconds": 34.40702819824219,
+    "beat": 104.31642150878906
+  },
+  "last_word_draw": {
+    "actor": "def-0023",
+    "update_sequence": 1186,
+    "seconds": 34.37854766845703,
+    "beat": 104.23003387451172
+  },
+  "probes": [
+    {
+      "requested_seconds": 14.5,
+      "update_sequence": 541,
+      "word_draw_count": 10,
+      "bsod_draw_count": 0,
+      "text": [
+        {
+          "actor": "def-0018",
+          "name": "1P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0019",
+          "name": "1P meter",
+          "text": "111111111"
+        },
+        {
+          "actor": "def-0020",
+          "name": "1P score",
+          "text": "00.00"
+        },
+        {
+          "actor": "def-0021",
+          "name": "2P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0022",
+          "name": "2P meter",
+          "text": "111111111"
+        },
+        {
+          "actor": "def-0023",
+          "name": "2P score",
+          "text": "00.00"
+        }
+      ]
+    },
+    {
+      "requested_seconds": 17.2,
+      "update_sequence": 628,
+      "word_draw_count": 11,
+      "bsod_draw_count": 0,
+      "text": [
+        {
+          "actor": "def-0018",
+          "name": "1P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0019",
+          "name": "1P meter",
+          "text": "111111111"
+        },
+        {
+          "actor": "def-0020",
+          "name": "1P score",
+          "text": "00.09"
+        },
+        {
+          "actor": "def-0021",
+          "name": "2P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0022",
+          "name": "2P meter",
+          "text": "111111111"
+        },
+        {
+          "actor": "def-0023",
+          "name": "2P score",
+          "text": "00.09"
+        }
+      ]
+    },
+    {
+      "requested_seconds": 19.3,
+      "update_sequence": 696,
+      "word_draw_count": 11,
+      "bsod_draw_count": 0,
+      "text": [
+        {
+          "actor": "def-0018",
+          "name": "1P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0019",
+          "name": "1P meter",
+          "text": "1111111111"
+        },
+        {
+          "actor": "def-0020",
+          "name": "1P score",
+          "text": "00.81"
+        },
+        {
+          "actor": "def-0021",
+          "name": "2P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0022",
+          "name": "2P meter",
+          "text": "1111111111"
+        },
+        {
+          "actor": "def-0023",
+          "name": "2P score",
+          "text": "00.81"
+        }
+      ]
+    },
+    {
+      "requested_seconds": 22.0,
+      "update_sequence": 782,
+      "word_draw_count": 10,
+      "bsod_draw_count": 0,
+      "text": [
+        {
+          "actor": "def-0018",
+          "name": "1P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0020",
+          "name": "1P score",
+          "text": "00.00"
+        },
+        {
+          "actor": "def-0021",
+          "name": "2P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0022",
+          "name": "2P meter",
+          "text": "11111111111"
+        },
+        {
+          "actor": "def-0023",
+          "name": "2P score",
+          "text": "01.67"
+        }
+      ]
+    },
+    {
+      "requested_seconds": 28.0,
+      "update_sequence": 976,
+      "word_draw_count": 10,
+      "bsod_draw_count": 0,
+      "text": [
+        {
+          "actor": "def-0018",
+          "name": "1P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0020",
+          "name": "1P score",
+          "text": "00.00"
+        },
+        {
+          "actor": "def-0021",
+          "name": "2P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0022",
+          "name": "2P meter",
+          "text": "11111111111111"
+        },
+        {
+          "actor": "def-0023",
+          "name": "2P score",
+          "text": "03.75"
+        }
+      ]
+    },
+    {
+      "requested_seconds": 32.4,
+      "update_sequence": 1118,
+      "word_draw_count": 10,
+      "bsod_draw_count": 0,
+      "text": [
+        {
+          "actor": "def-0018",
+          "name": "1P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0020",
+          "name": "1P score",
+          "text": "00.00"
+        },
+        {
+          "actor": "def-0021",
+          "name": "2P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0022",
+          "name": "2P meter",
+          "text": "111111111111111111"
+        },
+        {
+          "actor": "def-0023",
+          "name": "2P score",
+          "text": "06.45"
+        }
+      ]
+    },
+    {
+      "requested_seconds": 34.307028198242186,
+      "update_sequence": 1184,
+      "word_draw_count": 10,
+      "bsod_draw_count": 0,
+      "text": [
+        {
+          "actor": "def-0018",
+          "name": "1P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0020",
+          "name": "1P score",
+          "text": "00.00"
+        },
+        {
+          "actor": "def-0021",
+          "name": "2P difficulty",
+          "text": "9"
+        },
+        {
+          "actor": "def-0022",
+          "name": "2P meter",
+          "text": "1"
+        },
+        {
+          "actor": "def-0023",
+          "name": "2P score",
+          "text": "03.87"
+        }
+      ]
+    },
+    {
+      "requested_seconds": 34.50702819824219,
+      "update_sequence": 1190,
+      "word_draw_count": 0,
+      "bsod_draw_count": 1,
+      "text": []
+    },
+    {
+      "requested_seconds": 40.0,
+      "update_sequence": 1377,
+      "word_draw_count": 0,
+      "bsod_draw_count": 1,
+      "text": []
+    }
+  ],
+  "compressed_trace": {
+    "path": "C:\\GitHub\\deadsync\\save\\paperclip-live-stats-2026-11-18\\native-human-pulses.json.zst",
+    "bytes": 584017,
+    "sha256": "bc46dee38659de0bc5e7e4930d09bebed94ef13fe5cf116589772509773b35a7",
+    "uncompressed_sha256": "629f888cf147dcfe007d029dcdad3a710632280dbb2b86fd372a90d3eda0b69a"
+  },
+  "source_trace": "native-human-pulses.json.zst"
+}

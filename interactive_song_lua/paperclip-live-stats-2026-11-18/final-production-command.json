@@ -1,0 +1,33 @@
+{
+  "purpose": "Final rebuilt production Runtime replay of the validated bounded human-input native control.",
+  "command": [
+    "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync\\b2c53c7e2770b038\\out\\live_song_lua-b2c53c7e2770b038.exe",
+    "C:\\GitHub\\deadsync\\tests\\fixtures\\interactive_song_lua\\paperclip-live-stats-2026-11-18\\native-human-pulses.json.zst",
+    "C:\\GitHub\\deadsync\\save\\paperclip-live-stats-2026-11-18\\replay-source\\Paperclip\\Paperclip.ssc",
+    "C:\\GitHub\\deadsync\\tests\\fixtures\\interactive_song_lua\\paperclip-live-stats-2026-11-18\\final-production-report.json",
+    "--production"
+  ],
+  "cwd": "C:\\GitHub\\deadsync",
+  "root_build_session": 65074,
+  "runner_sha256": "87b53892dfc3748ebd3eda8b1d9c0d5d7326e30e9ac73644f6640fc13be5563c",
+  "runner_modified_utc": "2026-11-18T08:58:48.751427+00:00",
+  "runner_differs_from_preliminary": true,
+  "trace_sha256": "bc46dee38659de0bc5e7e4930d09bebed94ef13fe5cf116589772509773b35a7",
+  "uncompressed_trace_sha256": "629f888cf147dcfe007d029dcdad3a710632280dbb2b86fd372a90d3eda0b69a",
+  "source_archive_sha256": "8bdce73f9d80bf8ce70b5b3060f701aefbb687930dc0e6086a7c719850279c0b",
+  "verified_original_song_files_before_replay": 23,
+  "started_utc": "2026-11-18T09:00:30.235924+00:00",
+  "timeout_seconds": 300,
+  "status": "complete",
+  "exit_code": 0,
+  "elapsed_seconds": 10.489454299997305,
+  "original_song_files_unchanged": true,
+  "extracted_original_files_unchanged": true,
+  "trace_unchanged": true,
+  "runner_unchanged": true,
+  "report_bytes": 2235,
+  "report_sha256": "556af48ac13dad5b3901a136ebe95b3a23f1ac2c3e6baaad0d1a5bbb0bede2b7",
+  "source_identity_status": "verified",
+  "verified_archive_song_files": 560,
+  "production_gameplay_checks_passed": true
+}
