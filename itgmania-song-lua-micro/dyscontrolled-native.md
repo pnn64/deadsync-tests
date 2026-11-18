@@ -9,6 +9,7 @@ regressions in `crates/deadsync-shell/src/gameplay_regression_tests.rs`.
 | `dyscontrolled-pad-native.json.zst` | P1, Cel, M690, -10% Mini | Beats 33-44, including the platform |
 | `dyscontrolled-post-pad-native.json.zst` | Versus, both players, Cel, M690, -10% Mini | Beats 43-104, including the transition and stars |
 | `dyscontrolled-post-pad-single-native.json.zst` | P1, Cel, M690, -10% Mini | Beats 43-104, including the single-player stars |
+| `dyscontrolled-ending-native.json.zst` | Versus, both players, Cel, M690, -10% Mini | Beats 284-345, including the orbit, outward split, and outro |
 
 The capture uses harness version 0.1.110 and the clean ITGmania source revision
 `663525dcb86eb570d0ef6a2e209678436660ae26`. The simfile SHA-256 is
@@ -125,6 +126,83 @@ interpolating toward an unexecuted flip. Timed tweens and setters that retarget
 a pending tween retain continuous motion. This does not remove the different
 callback-cadence limitation described above.
 
+The ending reference retains all 13,885 native updates from preroll through
+beat 345.020782, with geometry recording starting at beat 284. It contains
+2,405 drawn frames, 67,988 Model submissions, and 19,240 receptor visits, with
+both players observed and no script errors or dropped records. The full JSON
+SHA-256 is `d43b19be4cc5260e62785130e1d561b1a5b555ffda2b19286953c464ebacf433`;
+the compressed reference SHA-256 is
+`3eebb9f491333b48124b2005909ddf3bccc8713a7e93b844641415baa213e8dd`.
+The capture uses the same pinned native source and unchanged committed chart,
+with `--style versus --drawable-from-beat 284 --until-beat 345 --capture-fps 120
+--timeout 240`, and no fixed update delta. Geometry recording starts late;
+native playback and the retained independent clocks still begin at preroll.
+
+The ending observer also records native ArrowEffects cache clocks for 13,884
+updates, including every active-song update, and current Player X/Y/Z for both
+players on all 2,405 drawn frames. Cache observations attach to their exact
+native update frame. The raw double-precision Tipsy timer is supplied only to
+the corresponding player's Tipsy computation; the general arrow-effect clock
+remains independent. These are cache inputs, not per-query draw timer reads.
+The recorded Tipsy clocks remain at their last earlier use during this ending;
+no TanTipsy clock was observed. Current Player positions are expected outputs
+only and are never injected into DeadSync. Native GetZoom reads the destination
+tween state, so it is deliberately excluded from the current-position record.
+
+Those same drawn frames retain 4,810 Player Current-option observations: native
+Tilt, Skew, Mini, Brake, Drunk, and Tipsy, plus their raw getter approach-speed
+members and the nullable Hallway/Distant/Incoming/Space getters. These Current
+values are expected outputs, never replay inputs. Current's getter speed is
+not the destination layer's approach setting. Canonical Tilt and Skew are read
+directly, without inferring them from a possibly absent perspective alias.
+
+The ending's `dys_rotamp` upvalue refers to an unnamed `Def.Actor`, which
+starts a two-beat tween from X=0 to X=180 at beat 286. Native `Actor::GetX`
+reads the current tweened position, and `ActorFrame::UpdateInternal` updates
+this sibling before the chart's recurring callback reads it. A control actor
+omitted from baked render rows must therefore retain native queue/getter
+ownership when its late tween starts. It must not keep stale preparation
+getters that require a sampled render row to advance.
+
+Native `Actor::UpdateTweening` removes completed tweens before later setters
+write the current pose. Sampled Player preparation retains physical queue
+entries after their scheduled motion ends, so those entries cannot decide
+whether a later X/Y setter is immediate. The active sampled schedule preserves
+continuous retargeting while a tween is pending; after completion, the ending's
+alternating positions must remain steps instead of blending toward each other.
+
+An immediate reset to the preparation baseline must also publish a constant
+window after holding the previous step. Omitting that reset would extend the
+old value indefinitely in gameplay. The controls exercise position and zoom
+resets, helper-driven zoom pulses, and a reset on the last sampled update;
+untouched baseline transforms still publish no windows.
+
+Native PlayerOptions approaches PerspectiveTilt and Skew independently at their
+authored speeds. Hallway, Distant, Space, Incoming, and Overhead set both targets
+and both speeds. The ending's short Hallway pulse therefore retains nonzero
+Current tilt after its reset starts. The gameplay controls cover finite and
+zero speeds, alias targets, independent players, profile baselines, direct Lua
+samples, and the idle update path. This retained Current tilt also controls
+the native note visibility range and Brake's effect height.
+
+Native Player positioning also extrapolates Tilt beyond 100% and applies its
+zoom correction uniformly to X/Y/Z. The ending reaches almost 200% Tilt and
+later Space above 100%; clamping the camera loses those authored angles.
+Omitting the tilt zoom on Z changes both Bumpy displacement and model depth.
+The camera controls cover both signs of 200% Tilt, both Reverse states, and
+all three basis vectors with fixed native numeric expectations.
+
+The ordinary Baked ending test checks consumed gameplay Player X at beats
+294, 302, and 315, accepting the chart's two flicker phases and bounded 60 Hz
+callback quantization. It also checks the explicit left/right split after
+beat 320. The native ending test uses the recorded clock schedule and the same
+full geometry/material comparison as the post-pad tests. At its 21 selected
+frames it also compares consumed Player X/Y/Z with the native current position
+within 0.01 pixels and the six Current-option values within 0.0001. Its post-320 probes
+avoid active gunfire shake, so no additional random-translation tolerance is
+used. The chart deliberately crosses the fields during parts of the orbit and
+converges them again for the outro; those authored overlaps remain valid.
+
 `captured_hud_transforms.rs` checks the ordered Judgment/Combo wrappers and
 resolved child pose. Native `Player::Update` replaces the child's destination
 after its subtree advances and before the song callback, while preserving
@@ -150,4 +228,6 @@ currently compiled only on Windows.
 cargo test --locked -p deadsync-shell --lib dyscontrolled_pad_matches_native_geometry_and_draw_order -- --nocapture --test-threads=1
 cargo test --locked -p deadsync-shell --lib dyscontrolled_post_pad_matches_native_two_player_taps -- --nocapture --test-threads=1
 cargo test --locked -p deadsync-shell --lib dyscontrolled_post_pad_matches_native_single_player_taps -- --nocapture --test-threads=1
+cargo test --locked -j 1 -p deadsync-shell --lib dyscontrolled_ending -- --nocapture --test-threads=1
+cargo test --locked -j 1 -p deadsync-song-lua --features test-support --test captured_player_steps -- --test-threads=1
 ```
