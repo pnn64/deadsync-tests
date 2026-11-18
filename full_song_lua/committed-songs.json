@@ -3396,6 +3396,12 @@
     "archive": "8bbcaf34c198122d9ec6a0ab1000a885d2a7d496a715879b789433edee561c1c.tar.zst"
   },
   {
+    "title": "Paperclip",
+    "source_simfile": "Paperclip/Paperclip.ssc",
+    "harness_version": "0.1.110",
+    "archive": "8bdce73f9d80bf8ce70b5b3060f701aefbb687930dc0e6086a7c719850279c0b.tar.zst"
+  },
+  {
     "title": "B.B.K.K.B.K.K.",
     "source_simfile": "BBKKBKK [UPS 3]/BBKKBKK.ssc",
     "harness_version": "0.1.0",

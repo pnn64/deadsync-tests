@@ -1,0 +1,4782 @@
+{
+  "source": "C:\\GitHub\\deadsync\\save\\paperclip-2026-11-18\\notefield.json",
+  "source_sha256": "2ab9cf1a56681b3a81eaae22dc8a7e25eb007a3089c050a216d5af7df462ed0f",
+  "counts": {
+    "update_frames": 1234,
+    "drawable_frames": 373,
+    "drawable_samples": 11012,
+    "model_geometry_frames": 373,
+    "model_geometry_samples": 2868,
+    "model_geometry_meshes": 2,
+    "receptor_frames": 373,
+    "receptor_visits": 2464
+  },
+  "dropped": {
+    "dropped_drawable_samples": 0,
+    "dropped_model_geometry_samples": 0,
+    "dropped_receptor_visits": 0,
+    "dropped_script_errors": 0
+  },
+  "script_errors": [],
+  "input": {
+    "autoplay": 1,
+    "catalog_preferences": {
+      "global_offset_seconds": -0.00800000037997961,
+      "initialization": "native-catalog-note-time-calculation",
+      "music_rate": 1
+    },
+    "constant_update_delta_seconds": 0,
+    "drawable_from_beat": 40,
+    "fast_note_rendering": false,
+    "fast_note_rendering_at_end": false,
+    "headless_graphics": true,
+    "lua_gc_mode": "automatic",
+    "native_source": {
+      "actor_sha256": "c5991992c937e7be25147697a4116397743fae547a1046ba96bb28c83482c150",
+      "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+      "modified_src": false,
+      "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+      "random_numbers_header_sha256": "776cb7c63bca1b731a6dcebf37055a828d0ac1dc937ce7e5d5ef7e9624d86b13",
+      "random_numbers_sha256": "7ff37771f9209cc3e16a65a6d374015265f0b7afc8cd180dbb2f55d977d33edf",
+      "receptor_arrow_row_sha256": "b70ec8a2fd965669ce93d775ba9bf0350ade0df4c70cb8c2dc6ec94591e9f8cb",
+      "revision": "663525dcb86eb570d0ef6a2e209678436660ae26"
+    },
+    "notefield_samples": true,
+    "observer_frame_period_seconds": 0.01666666666666667,
+    "player_options": "m600, cel",
+    "players": [
+      {
+        "mini": 0,
+        "noteskin": "cel",
+        "options_string": "NoHideLights, m600, Overhead",
+        "player": "PlayerNumber_P1",
+        "preferred_visual_delay_seconds": 0
+      },
+      {
+        "mini": 0,
+        "noteskin": "cel",
+        "options_string": "NoHideLights, m600, Overhead",
+        "player": "PlayerNumber_P2",
+        "preferred_visual_delay_seconds": 0
+      }
+    ],
+    "preferences": {
+      "default_sync_offset": "SyncOffset_ITG",
+      "global_offset_seconds": -0.00800000037997961,
+      "music_rate": 1,
+      "visual_delay_seconds": 0
+    },
+    "scene_draws": true,
+    "window_visible": false
+  },
+  "provenance": {
+    "capture_binary_sha256": "4f61b5d7437e4ea797e369473dd5816268b4c53f6f98bf19441966766ced099d",
+    "native_executable_sha256": "aaec7b77fdb505b595572e2365c01e54a37e53a5998b1d4e1de1cc406ce986d4",
+    "observer_sha256": "2ce68a40c1e280b30a218f7d3c63444a28bd4f962d24993a9bf361873d7ca69a",
+    "raw_trace_sha256": "74792e14047d12712e9fdd71ed0983a2be4a92613b895f862c40a1f313fbc269",
+    "simfile_sha256": "5d6a871de5aaa2d2becb64e784261b210c090f215e047d59afd57e1da828a721"
+  },
+  "draw_kinds": {
+    "scene": 8536,
+    "receptor": 2476,
+    "actor": 2868
+  },
+  "first_receptor_visit": {
+    "actor": "native-10",
+    "clock": {
+      "beat": 43.498844146728516,
+      "delta": 0.017612000927329063,
+      "native_update_frame": 928,
+      "option_deltas": {
+        "players": [
+          0.017612000927329063,
+          0.017611000686883926
+        ],
+        "song": 0.017612000927329063
+      },
+      "scene": 1,
+      "seconds": 14.357278823852539,
+      "sequence": 927,
+      "song_beat": 43.498844146728516,
+      "visible_beat": 43.498844146728516,
+      "visible_seconds": 14.357278823852539,
+      "wall_seconds": 21.288676
+    },
+    "note_context": {
+      "column": 0,
+      "draw_beat": 43.498844146728516,
+      "held": false,
+      "kind": "receptor",
+      "note_beat": 43.498844146728516,
+      "part": -1,
+      "player": 0,
+      "receptor_visit_sequence": 921
+    },
+    "render_target": 0,
+    "native_draw_sequence": null,
+    "actor_draw_sequence": null,
+    "texture": null,
+    "texture_path": null,
+    "base_alpha": 0,
+    "visible": true
+  },
+  "last_receptor_visit": {
+    "actor": "native-17",
+    "clock": {
+      "beat": 60.0396614074707,
+      "delta": 0.01780400052666664,
+      "native_update_frame": 1235,
+      "option_deltas": {
+        "players": [
+          0.017813000828027725,
+          0.017829999327659607
+        ],
+        "song": 0.017813000828027725
+      },
+      "scene": 1,
+      "seconds": 19.81029510498047,
+      "sequence": 1234,
+      "song_beat": 60.0396614074707,
+      "visible_beat": 60.0396614074707,
+      "visible_seconds": 19.81029510498047,
+      "wall_seconds": 26.742394
+    },
+    "note_context": {
+      "column": 3,
+      "draw_beat": 60.0396614074707,
+      "held": false,
+      "kind": "receptor",
+      "note_beat": 60.0396614074707,
+      "part": -1,
+      "player": 1,
+      "receptor_visit_sequence": 3384
+    },
+    "render_target": 0,
+    "native_draw_sequence": null,
+    "actor_draw_sequence": null,
+    "texture": null,
+    "texture_path": null,
+    "base_alpha": 1,
+    "visible": true
+  },
+  "receptor_base_alpha": [
+    0,
+    1
+  ],
+  "receptor_visible": [
+    true
+  ],
+  "note_parts": {
+    "-1": 2476,
+    "0": 2868
+  },
+  "first_note_draw": {
+    "actor": "native-42",
+    "clock": {
+      "beat": 47.6016845703125,
+      "delta": 0.017510000616312027,
+      "native_update_frame": 1004,
+      "option_deltas": {
+        "players": [
+          0.017510000616312027,
+          0.017510000616312027
+        ],
+        "song": 0.017510000616312027
+      },
+      "scene": 1,
+      "seconds": 15.709863662719727,
+      "sequence": 1003,
+      "song_beat": 47.6016845703125,
+      "visible_beat": 47.6016845703125,
+      "visible_seconds": 15.709863662719727,
+      "wall_seconds": 22.641429
+    },
+    "note_context": {
+      "column": 0,
+      "draw_beat": 47.6016845703125,
+      "held": false,
+      "kind": "actor",
+      "note_beat": 51,
+      "part": 0,
+      "player": 0
+    },
+    "render_target": 0,
+    "native_draw_sequence": 2924,
+    "actor_draw_sequence": 139906,
+    "texture": null,
+    "texture_path": null,
+    "base_alpha": null,
+    "visible": null
+  },
+  "probes": [
+    {
+      "requested_seconds": 13.3,
+      "clock": {
+        "beat": 40.299468994140625,
+        "delta": 0.021794000640511513,
+        "native_update_frame": 868,
+        "option_deltas": {
+          "players": [
+            0.021818000823259354,
+            0.02181899920105934
+          ],
+          "song": 0.021818000823259354
+        },
+        "scene": 1,
+        "seconds": 13.302539825439453,
+        "sequence": 867,
+        "song_beat": 40.299468994140625,
+        "visible_beat": 40.299468994140625,
+        "visible_seconds": 13.302539825439453,
+        "wall_seconds": 20.234025
+      },
+      "receptors": [],
+      "draws": [
+        {
+          "actor": "native-2",
+          "clock": {
+            "beat": 40.299468994140625,
+            "delta": 0.021794000640511513,
+            "native_update_frame": 868,
+            "option_deltas": {
+              "players": [
+                0.021818000823259354,
+                0.02181899920105934
+              ],
+              "song": 0.021818000823259354
+            },
+            "scene": 1,
+            "seconds": 13.302539825439453,
+            "sequence": 867,
+            "song_beat": 40.299468994140625,
+            "visible_beat": 40.299468994140625,
+            "visible_seconds": 13.302539825439453,
+            "wall_seconds": 20.234025
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 44,
+          "actor_draw_sequence": 109869,
+          "texture": "/Songs/Harness/Probe/lua/Startup.mp4",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-3",
+          "clock": {
+            "beat": 40.299468994140625,
+            "delta": 0.021794000640511513,
+            "native_update_frame": 868,
+            "option_deltas": {
+              "players": [
+                0.021818000823259354,
+                0.02181899920105934
+              ],
+              "song": 0.021818000823259354
+            },
+            "scene": 1,
+            "seconds": 13.302539825439453,
+            "sequence": 867,
+            "song_beat": 40.299468994140625,
+            "visible_beat": 40.299468994140625,
+            "visible_seconds": 13.302539825439453,
+            "wall_seconds": 20.234025
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 45,
+          "actor_draw_sequence": 109873,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-4",
+          "clock": {
+            "beat": 40.299468994140625,
+            "delta": 0.021794000640511513,
+            "native_update_frame": 868,
+            "option_deltas": {
+              "players": [
+                0.021818000823259354,
+                0.02181899920105934
+              ],
+              "song": 0.021818000823259354
+            },
+            "scene": 1,
+            "seconds": 13.302539825439453,
+            "sequence": 867,
+            "song_beat": 40.299468994140625,
+            "visible_beat": 40.299468994140625,
+            "visible_seconds": 13.302539825439453,
+            "wall_seconds": 20.234025
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 46,
+          "actor_draw_sequence": 109874,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-5",
+          "clock": {
+            "beat": 40.299468994140625,
+            "delta": 0.021794000640511513,
+            "native_update_frame": 868,
+            "option_deltas": {
+              "players": [
+                0.021818000823259354,
+                0.02181899920105934
+              ],
+              "song": 0.021818000823259354
+            },
+            "scene": 1,
+            "seconds": 13.302539825439453,
+            "sequence": 867,
+            "song_beat": 40.299468994140625,
+            "visible_beat": 40.299468994140625,
+            "visible_seconds": 13.302539825439453,
+            "wall_seconds": 20.234025
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 47,
+          "actor_draw_sequence": 109875,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-6",
+          "clock": {
+            "beat": 40.299468994140625,
+            "delta": 0.021794000640511513,
+            "native_update_frame": 868,
+            "option_deltas": {
+              "players": [
+                0.021818000823259354,
+                0.02181899920105934
+              ],
+              "song": 0.021818000823259354
+            },
+            "scene": 1,
+            "seconds": 13.302539825439453,
+            "sequence": 867,
+            "song_beat": 40.299468994140625,
+            "visible_beat": 40.299468994140625,
+            "visible_seconds": 13.302539825439453,
+            "wall_seconds": 20.234025
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 48,
+          "actor_draw_sequence": 109876,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-7",
+          "clock": {
+            "beat": 40.299468994140625,
+            "delta": 0.021794000640511513,
+            "native_update_frame": 868,
+            "option_deltas": {
+              "players": [
+                0.021818000823259354,
+                0.02181899920105934
+              ],
+              "song": 0.021818000823259354
+            },
+            "scene": 1,
+            "seconds": 13.302539825439453,
+            "sequence": 867,
+            "song_beat": 40.299468994140625,
+            "visible_beat": 40.299468994140625,
+            "visible_seconds": 13.302539825439453,
+            "wall_seconds": 20.234025
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 49,
+          "actor_draw_sequence": 109878,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-8",
+          "clock": {
+            "beat": 40.299468994140625,
+            "delta": 0.021794000640511513,
+            "native_update_frame": 868,
+            "option_deltas": {
+              "players": [
+                0.021818000823259354,
+                0.02181899920105934
+              ],
+              "song": 0.021818000823259354
+            },
+            "scene": 1,
+            "seconds": 13.302539825439453,
+            "sequence": 867,
+            "song_beat": 40.299468994140625,
+            "visible_beat": 40.299468994140625,
+            "visible_seconds": 13.302539825439453,
+            "wall_seconds": 20.234025
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 50,
+          "actor_draw_sequence": 109879,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-9",
+          "clock": {
+            "beat": 40.299468994140625,
+            "delta": 0.021794000640511513,
+            "native_update_frame": 868,
+            "option_deltas": {
+              "players": [
+                0.021818000823259354,
+                0.02181899920105934
+              ],
+              "song": 0.021818000823259354
+            },
+            "scene": 1,
+            "seconds": 13.302539825439453,
+            "sequence": 867,
+            "song_beat": 40.299468994140625,
+            "visible_beat": 40.299468994140625,
+            "visible_seconds": 13.302539825439453,
+            "wall_seconds": 20.234025
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 51,
+          "actor_draw_sequence": 109880,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        }
+      ]
+    },
+    {
+      "requested_seconds": 14.0,
+      "clock": {
+        "beat": 42.43972396850586,
+        "delta": 0.022766999900341034,
+        "native_update_frame": 908,
+        "option_deltas": {
+          "players": [
+            0.022763000801205635,
+            0.022763000801205635
+          ],
+          "song": 0.022763000801205635
+        },
+        "scene": 1,
+        "seconds": 14.00811767578125,
+        "sequence": 907,
+        "song_beat": 42.43972396850586,
+        "visible_beat": 42.43972396850586,
+        "visible_seconds": 14.00811767578125,
+        "wall_seconds": 20.939724
+      },
+      "receptors": [],
+      "draws": [
+        {
+          "actor": "native-2",
+          "clock": {
+            "beat": 42.43972396850586,
+            "delta": 0.022766999900341034,
+            "native_update_frame": 908,
+            "option_deltas": {
+              "players": [
+                0.022763000801205635,
+                0.022763000801205635
+              ],
+              "song": 0.022763000801205635
+            },
+            "scene": 1,
+            "seconds": 14.00811767578125,
+            "sequence": 907,
+            "song_beat": 42.43972396850586,
+            "visible_beat": 42.43972396850586,
+            "visible_seconds": 14.00811767578125,
+            "wall_seconds": 20.939724
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 385,
+          "actor_draw_sequence": 113170,
+          "texture": "/Songs/Harness/Probe/lua/Startup.mp4",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-3",
+          "clock": {
+            "beat": 42.43972396850586,
+            "delta": 0.022766999900341034,
+            "native_update_frame": 908,
+            "option_deltas": {
+              "players": [
+                0.022763000801205635,
+                0.022763000801205635
+              ],
+              "song": 0.022763000801205635
+            },
+            "scene": 1,
+            "seconds": 14.00811767578125,
+            "sequence": 907,
+            "song_beat": 42.43972396850586,
+            "visible_beat": 42.43972396850586,
+            "visible_seconds": 14.00811767578125,
+            "wall_seconds": 20.939724
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 386,
+          "actor_draw_sequence": 113174,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-4",
+          "clock": {
+            "beat": 42.43972396850586,
+            "delta": 0.022766999900341034,
+            "native_update_frame": 908,
+            "option_deltas": {
+              "players": [
+                0.022763000801205635,
+                0.022763000801205635
+              ],
+              "song": 0.022763000801205635
+            },
+            "scene": 1,
+            "seconds": 14.00811767578125,
+            "sequence": 907,
+            "song_beat": 42.43972396850586,
+            "visible_beat": 42.43972396850586,
+            "visible_seconds": 14.00811767578125,
+            "wall_seconds": 20.939724
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 387,
+          "actor_draw_sequence": 113175,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-5",
+          "clock": {
+            "beat": 42.43972396850586,
+            "delta": 0.022766999900341034,
+            "native_update_frame": 908,
+            "option_deltas": {
+              "players": [
+                0.022763000801205635,
+                0.022763000801205635
+              ],
+              "song": 0.022763000801205635
+            },
+            "scene": 1,
+            "seconds": 14.00811767578125,
+            "sequence": 907,
+            "song_beat": 42.43972396850586,
+            "visible_beat": 42.43972396850586,
+            "visible_seconds": 14.00811767578125,
+            "wall_seconds": 20.939724
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 388,
+          "actor_draw_sequence": 113176,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-6",
+          "clock": {
+            "beat": 42.43972396850586,
+            "delta": 0.022766999900341034,
+            "native_update_frame": 908,
+            "option_deltas": {
+              "players": [
+                0.022763000801205635,
+                0.022763000801205635
+              ],
+              "song": 0.022763000801205635
+            },
+            "scene": 1,
+            "seconds": 14.00811767578125,
+            "sequence": 907,
+            "song_beat": 42.43972396850586,
+            "visible_beat": 42.43972396850586,
+            "visible_seconds": 14.00811767578125,
+            "wall_seconds": 20.939724
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 389,
+          "actor_draw_sequence": 113177,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-7",
+          "clock": {
+            "beat": 42.43972396850586,
+            "delta": 0.022766999900341034,
+            "native_update_frame": 908,
+            "option_deltas": {
+              "players": [
+                0.022763000801205635,
+                0.022763000801205635
+              ],
+              "song": 0.022763000801205635
+            },
+            "scene": 1,
+            "seconds": 14.00811767578125,
+            "sequence": 907,
+            "song_beat": 42.43972396850586,
+            "visible_beat": 42.43972396850586,
+            "visible_seconds": 14.00811767578125,
+            "wall_seconds": 20.939724
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 390,
+          "actor_draw_sequence": 113179,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-8",
+          "clock": {
+            "beat": 42.43972396850586,
+            "delta": 0.022766999900341034,
+            "native_update_frame": 908,
+            "option_deltas": {
+              "players": [
+                0.022763000801205635,
+                0.022763000801205635
+              ],
+              "song": 0.022763000801205635
+            },
+            "scene": 1,
+            "seconds": 14.00811767578125,
+            "sequence": 907,
+            "song_beat": 42.43972396850586,
+            "visible_beat": 42.43972396850586,
+            "visible_seconds": 14.00811767578125,
+            "wall_seconds": 20.939724
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 391,
+          "actor_draw_sequence": 113180,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-9",
+          "clock": {
+            "beat": 42.43972396850586,
+            "delta": 0.022766999900341034,
+            "native_update_frame": 908,
+            "option_deltas": {
+              "players": [
+                0.022763000801205635,
+                0.022763000801205635
+              ],
+              "song": 0.022763000801205635
+            },
+            "scene": 1,
+            "seconds": 14.00811767578125,
+            "sequence": 907,
+            "song_beat": 42.43972396850586,
+            "visible_beat": 42.43972396850586,
+            "visible_seconds": 14.00811767578125,
+            "wall_seconds": 20.939724
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 392,
+          "actor_draw_sequence": 113181,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        }
+      ]
+    },
+    {
+      "requested_seconds": 14.34,
+      "clock": {
+        "beat": 43.44718933105469,
+        "delta": 0.017663000151515007,
+        "native_update_frame": 927,
+        "option_deltas": {
+          "players": [
+            0.017636999487876892,
+            0.01763799972832203
+          ],
+          "song": 0.01763799972832203
+        },
+        "scene": 1,
+        "seconds": 14.340249061584473,
+        "sequence": 926,
+        "song_beat": 43.44718933105469,
+        "visible_beat": 43.44718933105469,
+        "visible_seconds": 14.340249061584473,
+        "wall_seconds": 21.271621
+      },
+      "receptors": [],
+      "draws": [
+        {
+          "actor": "native-2",
+          "clock": {
+            "beat": 43.44718933105469,
+            "delta": 0.017663000151515007,
+            "native_update_frame": 927,
+            "option_deltas": {
+              "players": [
+                0.017636999487876892,
+                0.01763799972832203
+              ],
+              "song": 0.01763799972832203
+            },
+            "scene": 1,
+            "seconds": 14.340249061584473,
+            "sequence": 926,
+            "song_beat": 43.44718933105469,
+            "visible_beat": 43.44718933105469,
+            "visible_seconds": 14.340249061584473,
+            "wall_seconds": 21.271621
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 537,
+          "actor_draw_sequence": 114728,
+          "texture": "/Songs/Harness/Probe/lua/Startup.mp4",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-3",
+          "clock": {
+            "beat": 43.44718933105469,
+            "delta": 0.017663000151515007,
+            "native_update_frame": 927,
+            "option_deltas": {
+              "players": [
+                0.017636999487876892,
+                0.01763799972832203
+              ],
+              "song": 0.01763799972832203
+            },
+            "scene": 1,
+            "seconds": 14.340249061584473,
+            "sequence": 926,
+            "song_beat": 43.44718933105469,
+            "visible_beat": 43.44718933105469,
+            "visible_seconds": 14.340249061584473,
+            "wall_seconds": 21.271621
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 538,
+          "actor_draw_sequence": 114732,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-4",
+          "clock": {
+            "beat": 43.44718933105469,
+            "delta": 0.017663000151515007,
+            "native_update_frame": 927,
+            "option_deltas": {
+              "players": [
+                0.017636999487876892,
+                0.01763799972832203
+              ],
+              "song": 0.01763799972832203
+            },
+            "scene": 1,
+            "seconds": 14.340249061584473,
+            "sequence": 926,
+            "song_beat": 43.44718933105469,
+            "visible_beat": 43.44718933105469,
+            "visible_seconds": 14.340249061584473,
+            "wall_seconds": 21.271621
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 539,
+          "actor_draw_sequence": 114733,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-5",
+          "clock": {
+            "beat": 43.44718933105469,
+            "delta": 0.017663000151515007,
+            "native_update_frame": 927,
+            "option_deltas": {
+              "players": [
+                0.017636999487876892,
+                0.01763799972832203
+              ],
+              "song": 0.01763799972832203
+            },
+            "scene": 1,
+            "seconds": 14.340249061584473,
+            "sequence": 926,
+            "song_beat": 43.44718933105469,
+            "visible_beat": 43.44718933105469,
+            "visible_seconds": 14.340249061584473,
+            "wall_seconds": 21.271621
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 540,
+          "actor_draw_sequence": 114734,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-6",
+          "clock": {
+            "beat": 43.44718933105469,
+            "delta": 0.017663000151515007,
+            "native_update_frame": 927,
+            "option_deltas": {
+              "players": [
+                0.017636999487876892,
+                0.01763799972832203
+              ],
+              "song": 0.01763799972832203
+            },
+            "scene": 1,
+            "seconds": 14.340249061584473,
+            "sequence": 926,
+            "song_beat": 43.44718933105469,
+            "visible_beat": 43.44718933105469,
+            "visible_seconds": 14.340249061584473,
+            "wall_seconds": 21.271621
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 541,
+          "actor_draw_sequence": 114735,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-7",
+          "clock": {
+            "beat": 43.44718933105469,
+            "delta": 0.017663000151515007,
+            "native_update_frame": 927,
+            "option_deltas": {
+              "players": [
+                0.017636999487876892,
+                0.01763799972832203
+              ],
+              "song": 0.01763799972832203
+            },
+            "scene": 1,
+            "seconds": 14.340249061584473,
+            "sequence": 926,
+            "song_beat": 43.44718933105469,
+            "visible_beat": 43.44718933105469,
+            "visible_seconds": 14.340249061584473,
+            "wall_seconds": 21.271621
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 542,
+          "actor_draw_sequence": 114737,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-8",
+          "clock": {
+            "beat": 43.44718933105469,
+            "delta": 0.017663000151515007,
+            "native_update_frame": 927,
+            "option_deltas": {
+              "players": [
+                0.017636999487876892,
+                0.01763799972832203
+              ],
+              "song": 0.01763799972832203
+            },
+            "scene": 1,
+            "seconds": 14.340249061584473,
+            "sequence": 926,
+            "song_beat": 43.44718933105469,
+            "visible_beat": 43.44718933105469,
+            "visible_seconds": 14.340249061584473,
+            "wall_seconds": 21.271621
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 543,
+          "actor_draw_sequence": 114738,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-9",
+          "clock": {
+            "beat": 43.44718933105469,
+            "delta": 0.017663000151515007,
+            "native_update_frame": 927,
+            "option_deltas": {
+              "players": [
+                0.017636999487876892,
+                0.01763799972832203
+              ],
+              "song": 0.01763799972832203
+            },
+            "scene": 1,
+            "seconds": 14.340249061584473,
+            "sequence": 926,
+            "song_beat": 43.44718933105469,
+            "visible_beat": 43.44718933105469,
+            "visible_seconds": 14.340249061584473,
+            "wall_seconds": 21.271621
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 544,
+          "actor_draw_sequence": 114739,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        }
+      ]
+    },
+    {
+      "requested_seconds": 14.5,
+      "clock": {
+        "beat": 43.92839431762695,
+        "delta": 0.01762400008738041,
+        "native_update_frame": 936,
+        "option_deltas": {
+          "players": [
+            0.017619000747799873,
+            0.017618000507354736
+          ],
+          "song": 0.017618000507354736
+        },
+        "scene": 1,
+        "seconds": 14.498888969421387,
+        "sequence": 935,
+        "song_beat": 43.92839431762695,
+        "visible_beat": 43.92839431762695,
+        "visible_seconds": 14.498888969421387,
+        "wall_seconds": 21.430999
+      },
+      "receptors": [
+        {
+          "player": 0,
+          "column": 0,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 0,
+          "column": 1,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 0,
+          "column": 2,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 0,
+          "column": 3,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 1,
+          "column": 0,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 1,
+          "column": 1,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 1,
+          "column": 2,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 1,
+          "column": 3,
+          "alpha": 1,
+          "visible": true
+        }
+      ],
+      "draws": [
+        {
+          "actor": "native-31",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 784,
+          "actor_draw_sequence": 117424,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-32",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 785,
+          "actor_draw_sequence": 117425,
+          "texture": "/Songs/Harness/Probe/lua/2p_bg.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-3",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 786,
+          "actor_draw_sequence": 117430,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-4",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 787,
+          "actor_draw_sequence": 117431,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-5",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 788,
+          "actor_draw_sequence": 117432,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-6",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 789,
+          "actor_draw_sequence": 117433,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-7",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 790,
+          "actor_draw_sequence": 117435,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-8",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 791,
+          "actor_draw_sequence": 117436,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-9",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 792,
+          "actor_draw_sequence": 117437,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-33",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 43.92839431762695,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 43.92839431762695,
+            "part": -1,
+            "player": 0,
+            "receptor_visit_sequence": 985
+          },
+          "render_target": 0,
+          "native_draw_sequence": 793,
+          "actor_draw_sequence": 117451,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-34",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": {
+            "column": 1,
+            "draw_beat": 43.92839431762695,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 43.92839431762695,
+            "part": -1,
+            "player": 0,
+            "receptor_visit_sequence": 986
+          },
+          "render_target": 0,
+          "native_draw_sequence": 794,
+          "actor_draw_sequence": 117455,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-35",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": {
+            "column": 2,
+            "draw_beat": 43.92839431762695,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 43.92839431762695,
+            "part": -1,
+            "player": 0,
+            "receptor_visit_sequence": 987
+          },
+          "render_target": 0,
+          "native_draw_sequence": 795,
+          "actor_draw_sequence": 117459,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-36",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": {
+            "column": 3,
+            "draw_beat": 43.92839431762695,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 43.92839431762695,
+            "part": -1,
+            "player": 0,
+            "receptor_visit_sequence": 988
+          },
+          "render_target": 0,
+          "native_draw_sequence": 796,
+          "actor_draw_sequence": 117463,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-37",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 43.92839431762695,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 43.92839431762695,
+            "part": -1,
+            "player": 1,
+            "receptor_visit_sequence": 989
+          },
+          "render_target": 0,
+          "native_draw_sequence": 797,
+          "actor_draw_sequence": 117563,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-38",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": {
+            "column": 1,
+            "draw_beat": 43.92839431762695,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 43.92839431762695,
+            "part": -1,
+            "player": 1,
+            "receptor_visit_sequence": 990
+          },
+          "render_target": 0,
+          "native_draw_sequence": 798,
+          "actor_draw_sequence": 117567,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-39",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": {
+            "column": 2,
+            "draw_beat": 43.92839431762695,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 43.92839431762695,
+            "part": -1,
+            "player": 1,
+            "receptor_visit_sequence": 991
+          },
+          "render_target": 0,
+          "native_draw_sequence": 799,
+          "actor_draw_sequence": 117571,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-40",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": {
+            "column": 3,
+            "draw_beat": 43.92839431762695,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 43.92839431762695,
+            "part": -1,
+            "player": 1,
+            "receptor_visit_sequence": 992
+          },
+          "render_target": 0,
+          "native_draw_sequence": 800,
+          "actor_draw_sequence": 117575,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-18",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 801,
+          "actor_draw_sequence": 117668,
+          "texture": "/Themes/itgmania-harness/Graphics/_blank.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-19",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 802,
+          "actor_draw_sequence": 117669,
+          "texture": "/Themes/itgmania-harness/Graphics/_blank.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-20",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 803,
+          "actor_draw_sequence": 117699,
+          "texture": "/Songs/Harness/Probe/lua/2p_head.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-21",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 804,
+          "actor_draw_sequence": 117700,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-22",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 805,
+          "actor_draw_sequence": 117702,
+          "texture": "/Songs/Harness/Probe/lua/hourglass_trans.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-23",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 806,
+          "actor_draw_sequence": 117703,
+          "texture": "/Songs/Harness/Probe/lua/2p_foot.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-24",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 807,
+          "actor_draw_sequence": 117704,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-25",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 808,
+          "actor_draw_sequence": 117705,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-26",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 809,
+          "actor_draw_sequence": 117706,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-27",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 810,
+          "actor_draw_sequence": 117707,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-28",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 811,
+          "actor_draw_sequence": 117708,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-29",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 812,
+          "actor_draw_sequence": 117709,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-30",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 813,
+          "actor_draw_sequence": 117717,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-30",
+          "clock": {
+            "beat": 43.92839431762695,
+            "delta": 0.01762400008738041,
+            "native_update_frame": 936,
+            "option_deltas": {
+              "players": [
+                0.017619000747799873,
+                0.017618000507354736
+              ],
+              "song": 0.017618000507354736
+            },
+            "scene": 1,
+            "seconds": 14.498888969421387,
+            "sequence": 935,
+            "song_beat": 43.92839431762695,
+            "visible_beat": 43.92839431762695,
+            "visible_seconds": 14.498888969421387,
+            "wall_seconds": 21.430999
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 814,
+          "actor_draw_sequence": 117717,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        }
+      ]
+    },
+    {
+      "requested_seconds": 15.0,
+      "clock": {
+        "beat": 45.42119216918945,
+        "delta": 0.018118999898433685,
+        "native_update_frame": 964,
+        "option_deltas": {
+          "players": [
+            0.018100999295711517,
+            0.018100999295711517
+          ],
+          "song": 0.018100999295711517
+        },
+        "scene": 1,
+        "seconds": 14.991020202636719,
+        "sequence": 963,
+        "song_beat": 45.42119216918945,
+        "visible_beat": 45.42119216918945,
+        "visible_seconds": 14.991020202636719,
+        "wall_seconds": 21.922564
+      },
+      "receptors": [
+        {
+          "player": 0,
+          "column": 0,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 0,
+          "column": 1,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 0,
+          "column": 2,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 0,
+          "column": 3,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 1,
+          "column": 0,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 1,
+          "column": 1,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 1,
+          "column": 2,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 1,
+          "column": 3,
+          "alpha": 1,
+          "visible": true
+        }
+      ],
+      "draws": [
+        {
+          "actor": "native-31",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1652,
+          "actor_draw_sequence": 126664,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-32",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1653,
+          "actor_draw_sequence": 126665,
+          "texture": "/Songs/Harness/Probe/lua/2p_bg.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-3",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1654,
+          "actor_draw_sequence": 126670,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-4",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1655,
+          "actor_draw_sequence": 126671,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-5",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1656,
+          "actor_draw_sequence": 126672,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-6",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1657,
+          "actor_draw_sequence": 126673,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-7",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1658,
+          "actor_draw_sequence": 126675,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-8",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1659,
+          "actor_draw_sequence": 126676,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-9",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1660,
+          "actor_draw_sequence": 126677,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-33",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 45.42119216918945,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 45.42119216918945,
+            "part": -1,
+            "player": 0,
+            "receptor_visit_sequence": 1209
+          },
+          "render_target": 0,
+          "native_draw_sequence": 1661,
+          "actor_draw_sequence": 126691,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-34",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": {
+            "column": 1,
+            "draw_beat": 45.42119216918945,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 45.42119216918945,
+            "part": -1,
+            "player": 0,
+            "receptor_visit_sequence": 1210
+          },
+          "render_target": 0,
+          "native_draw_sequence": 1662,
+          "actor_draw_sequence": 126695,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-35",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": {
+            "column": 2,
+            "draw_beat": 45.42119216918945,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 45.42119216918945,
+            "part": -1,
+            "player": 0,
+            "receptor_visit_sequence": 1211
+          },
+          "render_target": 0,
+          "native_draw_sequence": 1663,
+          "actor_draw_sequence": 126699,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-36",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": {
+            "column": 3,
+            "draw_beat": 45.42119216918945,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 45.42119216918945,
+            "part": -1,
+            "player": 0,
+            "receptor_visit_sequence": 1212
+          },
+          "render_target": 0,
+          "native_draw_sequence": 1664,
+          "actor_draw_sequence": 126703,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-37",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 45.42119216918945,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 45.42119216918945,
+            "part": -1,
+            "player": 1,
+            "receptor_visit_sequence": 1213
+          },
+          "render_target": 0,
+          "native_draw_sequence": 1665,
+          "actor_draw_sequence": 126803,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-38",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": {
+            "column": 1,
+            "draw_beat": 45.42119216918945,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 45.42119216918945,
+            "part": -1,
+            "player": 1,
+            "receptor_visit_sequence": 1214
+          },
+          "render_target": 0,
+          "native_draw_sequence": 1666,
+          "actor_draw_sequence": 126807,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-39",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": {
+            "column": 2,
+            "draw_beat": 45.42119216918945,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 45.42119216918945,
+            "part": -1,
+            "player": 1,
+            "receptor_visit_sequence": 1215
+          },
+          "render_target": 0,
+          "native_draw_sequence": 1667,
+          "actor_draw_sequence": 126811,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-40",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": {
+            "column": 3,
+            "draw_beat": 45.42119216918945,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 45.42119216918945,
+            "part": -1,
+            "player": 1,
+            "receptor_visit_sequence": 1216
+          },
+          "render_target": 0,
+          "native_draw_sequence": 1668,
+          "actor_draw_sequence": 126815,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-18",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1669,
+          "actor_draw_sequence": 126908,
+          "texture": "/Themes/itgmania-harness/Graphics/_blank.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-19",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1670,
+          "actor_draw_sequence": 126909,
+          "texture": "/Themes/itgmania-harness/Graphics/_blank.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-20",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1671,
+          "actor_draw_sequence": 126939,
+          "texture": "/Songs/Harness/Probe/lua/2p_head.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-21",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1672,
+          "actor_draw_sequence": 126940,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-22",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1673,
+          "actor_draw_sequence": 126942,
+          "texture": "/Songs/Harness/Probe/lua/hourglass_trans.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-23",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1674,
+          "actor_draw_sequence": 126943,
+          "texture": "/Songs/Harness/Probe/lua/2p_foot.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-24",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1675,
+          "actor_draw_sequence": 126944,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-25",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1676,
+          "actor_draw_sequence": 126945,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-26",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1677,
+          "actor_draw_sequence": 126946,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-27",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1678,
+          "actor_draw_sequence": 126947,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-28",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1679,
+          "actor_draw_sequence": 126948,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-29",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1680,
+          "actor_draw_sequence": 126949,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-30",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1681,
+          "actor_draw_sequence": 126957,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-30",
+          "clock": {
+            "beat": 45.42119216918945,
+            "delta": 0.018118999898433685,
+            "native_update_frame": 964,
+            "option_deltas": {
+              "players": [
+                0.018100999295711517,
+                0.018100999295711517
+              ],
+              "song": 0.018100999295711517
+            },
+            "scene": 1,
+            "seconds": 14.991020202636719,
+            "sequence": 963,
+            "song_beat": 45.42119216918945,
+            "visible_beat": 45.42119216918945,
+            "visible_seconds": 14.991020202636719,
+            "wall_seconds": 21.922564
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 1682,
+          "actor_draw_sequence": 126957,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        }
+      ]
+    },
+    {
+      "requested_seconds": 18.0,
+      "clock": {
+        "beat": 54.540794372558594,
+        "delta": 0.01723499968647957,
+        "native_update_frame": 1133,
+        "option_deltas": {
+          "players": [
+            0.01723499968647957,
+            0.01723499968647957
+          ],
+          "song": 0.01723499968647957
+        },
+        "scene": 1,
+        "seconds": 17.997482299804688,
+        "sequence": 1132,
+        "song_beat": 54.540794372558594,
+        "visible_beat": 54.540794372558594,
+        "visible_seconds": 17.997482299804688,
+        "wall_seconds": 24.929243
+      },
+      "receptors": [
+        {
+          "player": 0,
+          "column": 0,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 0,
+          "column": 1,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 0,
+          "column": 2,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 0,
+          "column": 3,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 1,
+          "column": 0,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 1,
+          "column": 1,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 1,
+          "column": 2,
+          "alpha": 1,
+          "visible": true
+        },
+        {
+          "player": 1,
+          "column": 3,
+          "alpha": 1,
+          "visible": true
+        }
+      ],
+      "draws": [
+        {
+          "actor": "native-31",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8761,
+          "actor_draw_sequence": 183156,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-32",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8762,
+          "actor_draw_sequence": 183157,
+          "texture": "/Songs/Harness/Probe/lua/2p_bg.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-3",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8763,
+          "actor_draw_sequence": 183162,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-4",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8764,
+          "actor_draw_sequence": 183163,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-5",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8765,
+          "actor_draw_sequence": 183164,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-6",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8766,
+          "actor_draw_sequence": 183165,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-7",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8767,
+          "actor_draw_sequence": 183167,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-8",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8768,
+          "actor_draw_sequence": 183168,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-9",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8769,
+          "actor_draw_sequence": 183169,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-33",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 54.540794372558594,
+            "part": -1,
+            "player": 0,
+            "receptor_visit_sequence": 2561
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8770,
+          "actor_draw_sequence": 183183,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-34",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 1,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 54.540794372558594,
+            "part": -1,
+            "player": 0,
+            "receptor_visit_sequence": 2562
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8771,
+          "actor_draw_sequence": 183187,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-35",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 2,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 54.540794372558594,
+            "part": -1,
+            "player": 0,
+            "receptor_visit_sequence": 2563
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8772,
+          "actor_draw_sequence": 183191,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-36",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 3,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 54.540794372558594,
+            "part": -1,
+            "player": 0,
+            "receptor_visit_sequence": 2564
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8773,
+          "actor_draw_sequence": 183195,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-42",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "actor",
+            "note_beat": 55,
+            "part": 0,
+            "player": 0
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8774,
+          "actor_draw_sequence": 183198,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-42",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "actor",
+            "note_beat": 55,
+            "part": 0,
+            "player": 0
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8775,
+          "actor_draw_sequence": 183198,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-42",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "actor",
+            "note_beat": 57,
+            "part": 0,
+            "player": 0
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8776,
+          "actor_draw_sequence": 183199,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-42",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "actor",
+            "note_beat": 57,
+            "part": 0,
+            "player": 0
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8777,
+          "actor_draw_sequence": 183199,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-44",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 3,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "actor",
+            "note_beat": 56,
+            "part": 0,
+            "player": 0
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8778,
+          "actor_draw_sequence": 183203,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-44",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 3,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "actor",
+            "note_beat": 56,
+            "part": 0,
+            "player": 0
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8779,
+          "actor_draw_sequence": 183203,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-48",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8780,
+          "actor_draw_sequence": 183282,
+          "texture": "/Themes/itgmania-harness/Graphics/_judgments/Love 2x7 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-37",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 54.540794372558594,
+            "part": -1,
+            "player": 1,
+            "receptor_visit_sequence": 2565
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8781,
+          "actor_draw_sequence": 183298,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-38",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 1,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 54.540794372558594,
+            "part": -1,
+            "player": 1,
+            "receptor_visit_sequence": 2566
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8782,
+          "actor_draw_sequence": 183302,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-39",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 2,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 54.540794372558594,
+            "part": -1,
+            "player": 1,
+            "receptor_visit_sequence": 2567
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8783,
+          "actor_draw_sequence": 183306,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-40",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 3,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "receptor",
+            "note_beat": 54.540794372558594,
+            "part": -1,
+            "player": 1,
+            "receptor_visit_sequence": 2568
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8784,
+          "actor_draw_sequence": 183310,
+          "texture": "/NoteSkins/dance/cel/_Down Receptor Go 4x1 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-43",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "actor",
+            "note_beat": 55,
+            "part": 0,
+            "player": 1
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8785,
+          "actor_draw_sequence": 183313,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-43",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "actor",
+            "note_beat": 55,
+            "part": 0,
+            "player": 1
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8786,
+          "actor_draw_sequence": 183313,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-43",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "actor",
+            "note_beat": 57,
+            "part": 0,
+            "player": 1
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8787,
+          "actor_draw_sequence": 183314,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-43",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 0,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "actor",
+            "note_beat": 57,
+            "part": 0,
+            "player": 1
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8788,
+          "actor_draw_sequence": 183314,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-45",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 3,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "actor",
+            "note_beat": 56,
+            "part": 0,
+            "player": 1
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8789,
+          "actor_draw_sequence": 183318,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-45",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": {
+            "column": 3,
+            "draw_beat": 54.540794372558594,
+            "held": false,
+            "kind": "actor",
+            "note_beat": 56,
+            "part": 0,
+            "player": 1
+          },
+          "render_target": 0,
+          "native_draw_sequence": 8790,
+          "actor_draw_sequence": 183318,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-51",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8791,
+          "actor_draw_sequence": 183397,
+          "texture": "/Themes/itgmania-harness/Graphics/_judgments/Love 2x7 (doubleres).png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-18",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8792,
+          "actor_draw_sequence": 183406,
+          "texture": "/Themes/itgmania-harness/Graphics/_blank.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-19",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8793,
+          "actor_draw_sequence": 183407,
+          "texture": "/Themes/itgmania-harness/Graphics/_blank.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-41",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8794,
+          "actor_draw_sequence": 183436,
+          "texture": "/Songs/Harness/Probe/lua/_clippy 27x34 padding.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-20",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8795,
+          "actor_draw_sequence": 183437,
+          "texture": "/Songs/Harness/Probe/lua/2p_head.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-21",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8796,
+          "actor_draw_sequence": 183438,
+          "texture": "",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-22",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8797,
+          "actor_draw_sequence": 183440,
+          "texture": "/Songs/Harness/Probe/lua/hourglass_trans.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-23",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8798,
+          "actor_draw_sequence": 183441,
+          "texture": "/Songs/Harness/Probe/lua/2p_foot.png",
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-24",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8799,
+          "actor_draw_sequence": 183442,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-25",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8800,
+          "actor_draw_sequence": 183443,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-26",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8801,
+          "actor_draw_sequence": 183444,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-27",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8802,
+          "actor_draw_sequence": 183445,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-28",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8803,
+          "actor_draw_sequence": 183446,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-29",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8804,
+          "actor_draw_sequence": 183447,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-30",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8805,
+          "actor_draw_sequence": 183455,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        },
+        {
+          "actor": "native-30",
+          "clock": {
+            "beat": 54.540794372558594,
+            "delta": 0.01723499968647957,
+            "native_update_frame": 1133,
+            "option_deltas": {
+              "players": [
+                0.01723499968647957,
+                0.01723499968647957
+              ],
+              "song": 0.01723499968647957
+            },
+            "scene": 1,
+            "seconds": 17.997482299804688,
+            "sequence": 1132,
+            "song_beat": 54.540794372558594,
+            "visible_beat": 54.540794372558594,
+            "visible_seconds": 17.997482299804688,
+            "wall_seconds": 24.929243
+          },
+          "note_context": null,
+          "render_target": 0,
+          "native_draw_sequence": 8806,
+          "actor_draw_sequence": 183455,
+          "texture": null,
+          "texture_path": null,
+          "base_alpha": null,
+          "visible": null
+        }
+      ]
+    }
+  ]
+}

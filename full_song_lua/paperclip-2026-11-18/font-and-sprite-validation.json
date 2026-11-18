@@ -1,0 +1,148 @@
+{
+  "task": "Paperclip font and late Sprite publication parity",
+  "base_revision": "ca4e375c0d404709c134dedfd3370838d8aeffeb",
+  "native_revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+  "harness_revision": "40f88b9d6a3c469bd3252933b18831d75dced1a9",
+  "owned_source_files": [
+    "crates/deadsync-song-lua/src/bitmap_font.rs",
+    "crates/deadsync-song-lua/src/actors/text.rs",
+    "crates/deadsync-song-lua/src/actors/live_visuals.rs"
+  ],
+  "owned_test_files": [
+    "crates/deadsync-song-lua/tests/bitmap_text.rs",
+    "crates/deadsync-song-lua/tests/live_visuals.rs"
+  ],
+  "font": {
+    "cause": "All recognized theme font names previously fell back to Miso. Paperclip's six BitmapText actors request Common header, whose pinned Simply Love redirect selects Wendy/_wendy small.",
+    "fix": "Resolve the Common Header alias case-insensitively, including THEME:GetPathF virtual paths, to the existing Wendy font; retain explicit local-font precedence and previous fallback for other theme names.",
+    "native_probe": "save/paperclip-header-native.json",
+    "native_command": "target/debug/itgmania-harness-rs.exe font 'vendor/simply-love/Fonts/Common Header.redir' --text '111111111'",
+    "native_metrics": {
+      "text": "111111111",
+      "height": 37,
+      "line_spacing": 100,
+      "line_width": 162,
+      "glyph_advance": 18,
+      "glyph_size": [
+        21,
+        100
+      ],
+      "glyph_offset": [
+        -2,
+        -69
+      ],
+      "diagnostics": []
+    },
+    "pre_fix_result": "The new Common Header regression failed with actual font_name miso, expected wendy.",
+    "focused_command": "cargo test --locked -p deadsync-song-lua --features test-support --test bitmap_text common_header -- --nocapture",
+    "focused_result": {
+      "exit_code": 0,
+      "passed": 2,
+      "failed": 0,
+      "session": 80140
+    },
+    "full_target_result": {
+      "exit_code": 101,
+      "passed": 9,
+      "failed": 1,
+      "session": 26904
+    },
+    "preexisting_failure": {
+      "test": "retained_text_updates_during_live_tweens_and_draw_callbacks",
+      "expectation": "song/tests/rust_bitmap_text.rs::draw_frames",
+      "case": 0,
+      "byte": 806,
+      "actual": "zoom: 1.0, zoom_x: 1.25, zoom_y: 1.25, zoom_z: 1.25",
+      "expected": "zoom: 1.25, zoom_x: 1.25, zoom_y: 1.25, zoom_z: 1.25",
+      "exact_head_baseline_verified": true,
+      "baseline_worktree": "target/paperclip-font-baseline",
+      "baseline_command": "cargo test --locked --target-dir C:/GitHub/deadsync/target -p deadsync-song-lua --features test-support --test bitmap_text retained_text_updates_during_live_tweens_and_draw_callbacks -- --exact --nocapture",
+      "baseline_result": {
+        "exit_code": 101,
+        "passed": 0,
+        "failed": 1,
+        "session": 80736,
+        "note": "Identical discrepancy on detached exact HEAD with original test source. No snapshot updates made."
+      }
+    }
+  },
+  "late_sprite": {
+    "cause": "Scheduled foreground OnCommand runs after compile_live finalizes overlay kinds. An initially textureless Sprite compiles as Kind::Actor. Header's later On.Load sets correct texture, dimensions and visibility, but publication previously ignored Kind::Actor forever.",
+    "native_sources": [
+      "vendor/itgmania/src/Foreground.cpp:70-110",
+      "vendor/itgmania/src/Sprite.cpp:330-370"
+    ],
+    "deadsync_sources": [
+      "crates/deadsync-song-lua/src/actors/song_layers.rs:200-208",
+      "crates/deadsync-song-lua/src/actors/song_activation.rs:375-379",
+      "crates/deadsync-song-lua/src/actors/live_layers.rs:399-449",
+      "crates/deadsync-song-lua/src/actors/song_kinds.rs:99-121"
+    ],
+    "fix": "During live publication, an existing Kind::Actor slot whose owned native class is Sprite uses the existing Late(0) resolver. An ordinary texture binding promotes that slot to Kind::Sprite, without rerunning commands or changing AFT kinds.",
+    "command": "cargo test --locked -p deadsync-song-lua --features test-support --test live_visuals scheduled_foreground_on_load_publishes_initially_textureless_sprite -- --exact --nocapture",
+    "pre_fix_result": {
+      "exit_code": 101,
+      "passed": 0,
+      "failed": 1,
+      "session": 12909,
+      "observed": {
+        "kind": "Actor",
+        "visible": true,
+        "sprite_texture": true,
+        "size": [
+          854,
+          85
+        ],
+        "position": [
+          427,
+          42
+        ]
+      }
+    },
+    "first_post_fix_result": {
+      "exit_code": 0,
+      "passed": 1,
+      "failed": 0,
+      "session": 70001
+    },
+    "final_post_fix_result": {
+      "exit_code": 0,
+      "passed": 1,
+      "failed": 0,
+      "session": 52283,
+      "assertions": [
+        "The composer is warmed before scheduled On, when Header has no texture and Kind::Actor.",
+        "Crossing the foreground start beat publishes the loaded texture resource and 854x85 geometry.",
+        "The warmed composer emits exactly one 854x85 Sprite and its texture handle resolves to header.png.",
+        "Repeated publication does not rerun On; LOAD_COUNT remains 1."
+      ],
+      "includes_root_composer_change": "crates/deadsync-song-lua/src/playback/actor_conformance.rs: render_screen_overlay queues the current published Sprite texture before rendering."
+    }
+  },
+  "additional_preexisting_failure": {
+    "test": "complete_driver_bakes_player_options_and_column_rotation",
+    "expectation": "song/tests/rust_song_updates.rs::tracked",
+    "case": 0,
+    "byte": 6218,
+    "actual": "manual_hud_draw: false, note_field_frames: [], player_wrapper_frames: []",
+    "expected": "manual_hud_draw: false, note_field_frames: []",
+    "exact_head_baseline_verified": true,
+    "baseline_worktree": "target/paperclip-font-baseline",
+    "baseline_command": "cargo test --locked --target-dir C:/GitHub/deadsync/target -p deadsync-song-lua --features test-support --test song_updates complete_driver_bakes_player_options_and_column_rotation -- --nocapture",
+    "baseline_result": {
+      "exit_code": 101,
+      "passed": 0,
+      "failed": 1,
+      "session": 33054,
+      "build_seconds": 15.33,
+      "test_seconds": 0.21,
+      "note": "Identical discrepancy on detached exact HEAD with original test source. No snapshot updates made."
+    }
+  },
+  "exclusions": [
+    "No source song edits.",
+    "No snapshot expectation changes.",
+    "No commits or publishing by this worker.",
+    "GPU asset upload integration and full Paperclip replay remain owned by the root and visibility worker."
+  ]
+}

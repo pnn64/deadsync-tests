@@ -1,0 +1,687 @@
+{
+  "date": "2026-11-18",
+  "scope": "Paperclip; full replay of implemented comparisons",
+  "fixture_parent": "d9aae946a990e84b1d730831d30ae4af1018edeb",
+  "source_simfile": "Paperclip/Paperclip.ssc",
+  "fixture": {
+    "title": "Paperclip",
+    "source_simfile": "Paperclip/Paperclip.ssc",
+    "harness_version": "0.1.110",
+    "archive": "8bdce73f9d80bf8ce70b5b3060f701aefbb687930dc0e6086a7c719850279c0b.tar.zst",
+    "sha256": "8bdce73f9d80bf8ce70b5b3060f701aefbb687930dc0e6086a7c719850279c0b",
+    "compressed_bytes": 130867193,
+    "uncompressed_sha256": "ae97756d6ec2533ee189506db1809b79d54ec64609cab661b29ce8498d7769e2",
+    "compression_level": 12,
+    "aliases": []
+  },
+  "provenance": {
+    "created_utc": "2026-11-17T23:56:02Z",
+    "deadsync_revision": "ca4e375c0d404709c134dedfd3370838d8aeffeb",
+    "source_simfile": "Paperclip/Paperclip.ssc",
+    "harness": {
+      "version": "0.1.110",
+      "revision": "40f88b9d6a3c469bd3252933b18831d75dced1a9",
+      "sha256": "4f61b5d7437e4ea797e369473dd5816268b4c53f6f98bf19441966766ced099d"
+    },
+    "native": {
+      "revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "sha256": "aaec7b77fdb505b595572e2365c01e54a37e53a5998b1d4e1de1cc406ce986d4",
+      "required_markers": [
+        "ITGMANIA_HARNESS_MODEL_GEOMETRY_PROTOCOL_V2",
+        "ITGMANIA_HARNESS_NATIVE_SOURCE",
+        "ITGMANIA_HARNESS_RECEPTOR_GEOMETRY_PROTOCOL_V1",
+        "ITGMANIA_HARNESS_MODEL_RENDER_STATE_PROTOCOL_V1",
+        "ITGMANIA_HARNESS_HEADLESS_GRAPHICS"
+      ]
+    },
+    "theme": {
+      "revision": "1feda1fd43d96baca951351bb28a35d5e690ebc7",
+      "verified_installed_files": 1043
+    },
+    "song_files": {
+      "lua/1p_center_head.png": "86e27fe681944be99c9204194d5bc820d25b877d8abf57c7044dea3c55050c3a",
+      "lua/1p_foot.png": "d120aac6a8fe80d420d9cc53a472be261eb91cd0ad8f909aa0d389792bd16a81",
+      "lua/1p_left_bg.png": "c81d75ac1679a84dc841d1b025cadc3f88915666124816d14fb7798a0670734b",
+      "lua/1p_left_head.png": "634d2158ff1a080b999b18c32138fe8c144bdf9a5433a717186e78313546ffff",
+      "lua/1p_right_bg.png": "d7b0bc39f15fac21db34afdb5b9d4f9e043a61682614b8a340d80c6341601fae",
+      "lua/1p_right_head.png": "6fd0d79cc35cf0957522efec1f0f1f2924dca020f8de7361f7acf06f9edce22b",
+      "lua/2p_bg.png": "784f1aad049e2850b13db0acf2903d307343da3fbe30420dcd4308ce1abb920e",
+      "lua/2p_foot.png": "783c3a72ee27de4926e8329f312fb5336967847a26c49d9b5531604a536c5ae2",
+      "lua/2p_head.png": "35568148b6e736b6b98c8ea84629dd5b90744e319f5f4a586833993267d05647",
+      "lua/_clippy 27x34 padding.png": "df0dccbadd11db0d1562c13da3d1f9567ac403e46652ada0b35740ef3734b76d",
+      "lua/bg_switch.lua": "75ee691bc734db5eae8adb04df4ed676fe770f6526194f566a768bc282c147e5",
+      "lua/Black.png": "1a28893b530d7f2260498effcdd01f66be3bd49bcc077710b8d9916352ffded5",
+      "lua/BSOD.png": "e1e9cbe9d71e323224271f3dd0c0fcff337c25b80a838dada1e2202cf62b21bb",
+      "lua/center_bg.png": "9ef3937c6f957b12176098c76ba6b13657ceda91089bc79fee60c1836386a39a",
+      "lua/default.lua": "7c72522fbabaf6249002ebe7384cccd906c2dc0400b9aaa8b8ed8dd2df743af2",
+      "lua/hourglass_trans.png": "6776d7aba79e48ec3d64020e2c5711ad8c0632a98f7f8aca9d6adb27db7087c0",
+      "lua/paperclip_frames.lua": "bf54c24c80c14733daa42983849a3888e4b4995bfcb21fe223d1bd548c6f8806",
+      "lua/Shutdown.png": "f35dc2e37e021b4460b7ea4d5b4e5c33e62ded677a5d87780c30aa94050799f1",
+      "lua/Startup.mp4": "ee42bf56306141a33752e2d3b66b326d3c4b4d5ae97f3fc3dbd0a6c0e7735808",
+      "Paperclip - bg.png": "9ef3937c6f957b12176098c76ba6b13657ceda91089bc79fee60c1836386a39a",
+      "Paperclip - bn.png": "916f818a02260e05fa15904e4540dff8dc865c1a4f01db386181c9dc52d771dd",
+      "Paperclip.ogg": "df2493ed388b35b807052a81f76039b3ed3f0d794db41bd411c77bb2ef9de48f",
+      "Paperclip.ssc": "5d6a871de5aaa2d2becb64e784261b210c090f215e047d59afd57e1da828a721"
+    },
+    "environment": {
+      "ITGMANIA_SONG_LUA_NOTESKIN_ROOT": "C:\\GitHub\\deadsync\\assets\\noteskins"
+    }
+  },
+  "native_capture": {
+    "native_trace_sha256": "9f1344856b9867ff80bc00a4d1a9c7c1bfe643f7d7ba4fad0c49048a79179ef9",
+    "native_trace_bytes": 526981793,
+    "update_frames": 9788,
+    "semantic_events": 84218,
+    "completion": {
+      "next_screen": "ScreenEvaluationStage",
+      "reason": "gameplay-exit",
+      "stage_committed": true,
+      "stages_played_after": 1,
+      "stages_played_before": 0
+    },
+    "chart": {
+      "chart_name": "Would you like help?",
+      "description": "Looks like you're trying to play ITG!",
+      "difficulty": "Difficulty_Challenge",
+      "hash": 0,
+      "index": 5,
+      "is_autogen": false,
+      "meter": 9,
+      "steps_type": "StepsType_Dance_Single"
+    },
+    "style": "versus",
+    "player_options": "m600, cel",
+    "capture_fps": 60,
+    "diagnostics": {
+      "script_errors": [],
+      "transition_script_errors": [],
+      "dropped_drawable_samples": 0,
+      "dropped_events": 0,
+      "dropped_host_clock_inputs": 0,
+      "dropped_input_events": 0,
+      "dropped_random_reseeds": 0,
+      "dropped_render_random_inputs": 0,
+      "dropped_script_errors": 0,
+      "dropped_stage_samples": 0,
+      "dropped_update_frames": 0,
+      "evidence": "Exact diagnostic fields verified in completed native.json using rg; native CLI also validates capture."
+    },
+    "source_inputs_unchanged": true,
+    "archived_files": 561,
+    "all_song_images_included": 17,
+    "single_player_branch_images_included": true
+  },
+  "accepted_replay": {
+    "report": {
+      "path": "full_song_lua/paperclip-2026-11-18/final-report.json.zst",
+      "sha256": "290c192a355e943812067e2b98ca7c072bebb807af44bb5cd5d3924f1dfa87ee",
+      "bytes": 406310,
+      "source_sha256": "ddfc645f1cea965f39d73509da259cca5f49a7066046ffb0308a80f6579a6fee",
+      "source_bytes": 24199452
+    },
+    "accepted_candidate_sha256": "ae97756d6ec2533ee189506db1809b79d54ec64609cab661b29ce8498d7769e2",
+    "diagnostic_only": false,
+    "archive_accepted": true,
+    "acceptance_basis": "full replay of implemented comparisons",
+    "execution_path": "diagnostic-live-lua",
+    "production_preparation_exercised": false,
+    "native_frames": 9788,
+    "replayed_frames": 9788,
+    "replayed_scenes": 1,
+    "checked_stage_samples": 179,
+    "compared_stage_fields": 3938,
+    "capture_completed_gameplay": true,
+    "source_identity": {
+      "status": "not-recorded",
+      "simfile": "C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmpwLawbY\\song\\Paperclip.ssc",
+      "simfile_sha256": "5d6a871de5aaa2d2becb64e784261b210c090f215e047d59afd57e1da828a721"
+    },
+    "whole_song_parity_proven": false,
+    "production_parity_proven": false,
+    "interactive_checks_passed": false,
+    "interactive": {
+      "input_events_replayed": 0,
+      "draw_samples_compared": 116883,
+      "submitted_vertices_compared": 386874,
+      "live_text_samples_compared": 52380,
+      "draw_mismatches": 0,
+      "equivalent_offscreen_culls": 0,
+      "batched_native_draw_samples": 0,
+      "draw_mismatch_counts": {},
+      "draw_mismatch_examples": [],
+      "equivalent_degenerate_culls": 24,
+      "uncompared_owned_immediate_draws": 0,
+      "render_random_inputs_replayed": 0,
+      "render_random_inputs_captured": 0,
+      "unreplayed_render_random_inputs": 0,
+      "draw_vibration_scopes_without_native_inputs": 0,
+      "last_draw_mismatch": null,
+      "pixel_parity_proven": false
+    },
+    "pending_coverage": [
+      "uncompared song operations: Actor.GetX, Actor.SetSize, Actor.SetWidth, Actor.addx, ActorFrame.GetChildren, BitmapText.rainbowscroll, BitmapText.settext, GameState.ApplyGameCommand, GameState.GetNumPlayersEnabled, GameState.GetSongPosition, PlayerStageStats.GetCurrentLife, PlayerStageStats.GetPercentDancePoints, Sprite.LinearFrames, Sprite.Load, Sprite.SetStateProperties, Sprite.setstate, Steps.GetMeter",
+      "native drawable state/resources: BitmapText, Quad, Sprite",
+      "missing captured subscriber identity for ScreenGameplay/2/10/1",
+      "missing captured subscriber identity for ScreenGameplay/2/11",
+      "missing captured subscriber identity for ScreenGameplay/2/14/1",
+      "missing captured subscriber identity for ScreenGameplay/2/7",
+      "missing captured subscriber identity for ScreenGameplay/25",
+      "missing captured subscriber identity for ScreenGameplay/26/1/1",
+      "missing captured subscriber identity for ScreenGameplay/26/1/10",
+      "missing captured subscriber identity for ScreenGameplay/26/1/12",
+      "missing captured subscriber identity for ScreenGameplay/26/1/2",
+      "missing captured subscriber identity for ScreenGameplay/26/1/4",
+      "missing captured subscriber identity for ScreenGameplay/26/1/5",
+      "missing captured subscriber identity for ScreenGameplay/26/1/7",
+      "missing captured subscriber identity for ScreenGameplay/26/1/9",
+      "missing captured subscriber identity for ScreenGameplay/3/1"
+    ],
+    "coverage": {
+      "scope": "captured-song-lua-context",
+      "observed_song_operations": [
+        "Actor.FullScreen",
+        "Actor.GetParent",
+        "Actor.GetX",
+        "Actor.SetSize",
+        "Actor.SetWidth",
+        "Actor.addx",
+        "Actor.animate",
+        "Actor.diffuse",
+        "Actor.queuecommand",
+        "Actor.sleep",
+        "Actor.visible",
+        "Actor.x",
+        "Actor.y",
+        "Actor.zoom",
+        "ActorFrame.GetChild",
+        "ActorFrame.GetChildren",
+        "BitmapText.rainbowscroll",
+        "BitmapText.settext",
+        "GameState.ApplyGameCommand",
+        "GameState.GetCurrentSong",
+        "GameState.GetCurrentSteps",
+        "GameState.GetNumPlayersEnabled",
+        "GameState.GetSongPosition",
+        "GameState.IsPlayerEnabled",
+        "PlayerStageStats.GetCurrentLife",
+        "PlayerStageStats.GetPercentDancePoints",
+        "PrefsManager.GetPreference",
+        "ScreenManager.GetTopScreen",
+        "Song.GetSongDir",
+        "Sprite.LinearFrames",
+        "Sprite.Load",
+        "Sprite.SetStateProperties",
+        "Sprite.setstate",
+        "StageStats.GetPlayerStageStats",
+        "StatsManager.GetCurStageStats",
+        "Steps.GetMeter",
+        "command.begin",
+        "command.end"
+      ],
+      "uncompared_song_operations": [
+        "Actor.GetX",
+        "Actor.SetSize",
+        "Actor.SetWidth",
+        "Actor.addx",
+        "ActorFrame.GetChildren",
+        "BitmapText.rainbowscroll",
+        "BitmapText.settext",
+        "GameState.ApplyGameCommand",
+        "GameState.GetNumPlayersEnabled",
+        "GameState.GetSongPosition",
+        "PlayerStageStats.GetCurrentLife",
+        "PlayerStageStats.GetPercentDancePoints",
+        "Sprite.LinearFrames",
+        "Sprite.Load",
+        "Sprite.SetStateProperties",
+        "Sprite.setstate",
+        "Steps.GetMeter"
+      ],
+      "nested_theme_operations": [
+        "Actor.setsize",
+        "Actor.stretchto"
+      ],
+      "pending": [
+        "uncompared song operations: Actor.GetX, Actor.SetSize, Actor.SetWidth, Actor.addx, ActorFrame.GetChildren, BitmapText.rainbowscroll, BitmapText.settext, GameState.ApplyGameCommand, GameState.GetNumPlayersEnabled, GameState.GetSongPosition, PlayerStageStats.GetCurrentLife, PlayerStageStats.GetPercentDancePoints, Sprite.LinearFrames, Sprite.Load, Sprite.SetStateProperties, Sprite.setstate, Steps.GetMeter",
+        "native drawable state/resources: BitmapText, Quad, Sprite",
+        "missing captured subscriber identity for ScreenGameplay/2/10/1",
+        "missing captured subscriber identity for ScreenGameplay/2/11",
+        "missing captured subscriber identity for ScreenGameplay/2/14/1",
+        "missing captured subscriber identity for ScreenGameplay/2/7",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1"
+      ],
+      "global_pending": [
+        "full theme stage commitment and history",
+        "unqueried score/alive-time observer fields",
+        "additional game/style/input/course contexts",
+        "production live mode activation"
+      ]
+    },
+    "mismatches": 0,
+    "errors": 0,
+    "command_queries": {
+      "compared": true,
+      "native_count": 61261,
+      "actual_count": 61261
+    }
+  },
+  "production_live_replay": {
+    "report": {
+      "path": "full_song_lua/paperclip-2026-11-18/production-report.json.zst",
+      "sha256": "331212f6f8372f88826e0fbe1b6e8e0de6b1c874186cf9d9c04c552dd12359c2",
+      "bytes": 762,
+      "source_sha256": "0a7012d92042b28d637c0052498f88a00e900b863a6ffd92c7ed4d650c27c907",
+      "source_bytes": 1666
+    },
+    "preparation_mode": "Runtime",
+    "archive_accepted": false,
+    "execution_path": "production-live-lua",
+    "production_preparation_exercised": true,
+    "production_gameplay_checks_passed": true,
+    "application_build_exercised": false,
+    "test_support_enabled": true,
+    "retained_lua_vm": true,
+    "native_frames": 9788,
+    "replayed_frames": 9788,
+    "replayed_scenes": 1,
+    "checked_stage_samples": 179,
+    "compared_stage_fields": 3938,
+    "source_identity": {
+      "status": "not-recorded",
+      "simfile": "C:\\GitHub\\deadsync\\target\\debug\\Songs\\lua-songs\\Paperclip\\Paperclip.ssc",
+      "simfile_sha256": "5d6a871de5aaa2d2becb64e784261b210c090f215e047d59afd57e1da828a721"
+    },
+    "whole_song_parity_proven": false,
+    "production_parity_proven": false,
+    "pixel_parity_proven": false,
+    "interactive": {
+      "input_events_replayed": 0,
+      "draw_samples_compared": 116883,
+      "submitted_vertices_compared": 386874,
+      "live_text_samples_compared": 52380,
+      "draw_mismatches": 0,
+      "equivalent_offscreen_culls": 0,
+      "batched_native_draw_samples": 0,
+      "draw_mismatch_counts": {},
+      "draw_mismatch_examples": [],
+      "equivalent_degenerate_culls": 24,
+      "uncompared_owned_immediate_draws": 0,
+      "render_random_inputs_replayed": 0,
+      "render_random_inputs_captured": 0,
+      "unreplayed_render_random_inputs": 0,
+      "draw_vibration_scopes_without_native_inputs": 0,
+      "last_draw_mismatch": null,
+      "pixel_parity_proven": false
+    },
+    "pending_coverage": [
+      "application build without test-support (run song_lua_execution)",
+      "full-song completion",
+      "sampled framebuffer pixels",
+      "production command/query instrumentation"
+    ],
+    "mismatches": 0,
+    "errors": 0
+  },
+  "initial_failed_replay": {
+    "report": {
+      "path": "full_song_lua/paperclip-2026-11-18/baseline-report.json.zst",
+      "sha256": "14c830c1b5458d999bec24fc24abddf135d336d14a1b5d0020bb1da147c11a03",
+      "bytes": 407109,
+      "source_sha256": "9c0e19fdc402762b477e1c43976132cf2d646a74811ffe516a58bfa03b1fd610",
+      "source_bytes": 24250140
+    },
+    "diagnostic_only": true,
+    "archive_accepted": false,
+    "acceptance_basis": "full replay of implemented comparisons",
+    "execution_path": "diagnostic-live-lua",
+    "production_preparation_exercised": false,
+    "native_frames": 9788,
+    "replayed_frames": 9788,
+    "replayed_scenes": 1,
+    "checked_stage_samples": 179,
+    "compared_stage_fields": 3938,
+    "capture_completed_gameplay": true,
+    "source_identity": {
+      "status": "not-recorded",
+      "simfile": "C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmpU90BHg\\song\\Paperclip.ssc",
+      "simfile_sha256": "5d6a871de5aaa2d2becb64e784261b210c090f215e047d59afd57e1da828a721"
+    },
+    "whole_song_parity_proven": false,
+    "production_parity_proven": false,
+    "interactive_checks_passed": false,
+    "interactive": {
+      "input_events_replayed": 0,
+      "draw_samples_compared": 116883,
+      "submitted_vertices_compared": 334494,
+      "live_text_samples_compared": 52380,
+      "draw_mismatches": 8730,
+      "equivalent_offscreen_culls": 0,
+      "batched_native_draw_samples": 0,
+      "draw_mismatch_counts": {
+        "draw_shape_resource_or_depth": 8730
+      },
+      "draw_mismatch_examples": [
+        {
+          "field": "draw_shape_resource_or_depth",
+          "actor": "def-0013",
+          "frame": 914,
+          "deadsync": {
+            "vertices": 0,
+            "expected_vertices": 6,
+            "texture_ok": false,
+            "expected_texture": "C:/Users/PERFEC~1/AppData/Local/Temp/.tmpU90BHg/song/lua/2p_head.png",
+            "actual_texture": null,
+            "depth_ok": true,
+            "sampler_ok": true,
+            "native_submissions": 1,
+            "extra_ordinary_draw": false,
+            "ops": "[]"
+          }
+        }
+      ],
+      "equivalent_degenerate_culls": 24,
+      "uncompared_owned_immediate_draws": 0,
+      "render_random_inputs_replayed": 0,
+      "render_random_inputs_captured": 0,
+      "unreplayed_render_random_inputs": 0,
+      "draw_vibration_scopes_without_native_inputs": 0,
+      "last_draw_mismatch": {
+        "field": "draw_shape_resource_or_depth",
+        "actor": "def-0013",
+        "frame": 9643,
+        "deadsync": {
+          "vertices": 0,
+          "expected_vertices": 6,
+          "texture_ok": false,
+          "expected_texture": "C:/Users/PERFEC~1/AppData/Local/Temp/.tmpU90BHg/song/lua/2p_head.png",
+          "actual_texture": null,
+          "depth_ok": true,
+          "sampler_ok": true,
+          "native_submissions": 1,
+          "extra_ordinary_draw": false,
+          "ops": "[]"
+        }
+      },
+      "pixel_parity_proven": false
+    },
+    "pending_coverage": [
+      "uncompared song operations: Actor.GetX, Actor.SetSize, Actor.SetWidth, Actor.addx, ActorFrame.GetChildren, BitmapText.rainbowscroll, BitmapText.settext, GameState.ApplyGameCommand, GameState.GetNumPlayersEnabled, GameState.GetSongPosition, PlayerStageStats.GetCurrentLife, PlayerStageStats.GetPercentDancePoints, Sprite.LinearFrames, Sprite.Load, Sprite.SetStateProperties, Sprite.setstate, Steps.GetMeter",
+      "native drawable state/resources: BitmapText, Quad, Sprite",
+      "missing captured subscriber identity for ScreenGameplay/2/10/1",
+      "missing captured subscriber identity for ScreenGameplay/2/11",
+      "missing captured subscriber identity for ScreenGameplay/2/14/1",
+      "missing captured subscriber identity for ScreenGameplay/2/7",
+      "missing captured subscriber identity for ScreenGameplay/25",
+      "missing captured subscriber identity for ScreenGameplay/26/1/1",
+      "missing captured subscriber identity for ScreenGameplay/26/1/10",
+      "missing captured subscriber identity for ScreenGameplay/26/1/12",
+      "missing captured subscriber identity for ScreenGameplay/26/1/2",
+      "missing captured subscriber identity for ScreenGameplay/26/1/4",
+      "missing captured subscriber identity for ScreenGameplay/26/1/5",
+      "missing captured subscriber identity for ScreenGameplay/26/1/7",
+      "missing captured subscriber identity for ScreenGameplay/26/1/9",
+      "missing captured subscriber identity for ScreenGameplay/3/1"
+    ],
+    "coverage": {
+      "scope": "captured-song-lua-context",
+      "observed_song_operations": [
+        "Actor.FullScreen",
+        "Actor.GetParent",
+        "Actor.GetX",
+        "Actor.SetSize",
+        "Actor.SetWidth",
+        "Actor.addx",
+        "Actor.animate",
+        "Actor.diffuse",
+        "Actor.queuecommand",
+        "Actor.sleep",
+        "Actor.visible",
+        "Actor.x",
+        "Actor.y",
+        "Actor.zoom",
+        "ActorFrame.GetChild",
+        "ActorFrame.GetChildren",
+        "BitmapText.rainbowscroll",
+        "BitmapText.settext",
+        "GameState.ApplyGameCommand",
+        "GameState.GetCurrentSong",
+        "GameState.GetCurrentSteps",
+        "GameState.GetNumPlayersEnabled",
+        "GameState.GetSongPosition",
+        "GameState.IsPlayerEnabled",
+        "PlayerStageStats.GetCurrentLife",
+        "PlayerStageStats.GetPercentDancePoints",
+        "PrefsManager.GetPreference",
+        "ScreenManager.GetTopScreen",
+        "Song.GetSongDir",
+        "Sprite.LinearFrames",
+        "Sprite.Load",
+        "Sprite.SetStateProperties",
+        "Sprite.setstate",
+        "StageStats.GetPlayerStageStats",
+        "StatsManager.GetCurStageStats",
+        "Steps.GetMeter",
+        "command.begin",
+        "command.end"
+      ],
+      "uncompared_song_operations": [
+        "Actor.GetX",
+        "Actor.SetSize",
+        "Actor.SetWidth",
+        "Actor.addx",
+        "ActorFrame.GetChildren",
+        "BitmapText.rainbowscroll",
+        "BitmapText.settext",
+        "GameState.ApplyGameCommand",
+        "GameState.GetNumPlayersEnabled",
+        "GameState.GetSongPosition",
+        "PlayerStageStats.GetCurrentLife",
+        "PlayerStageStats.GetPercentDancePoints",
+        "Sprite.LinearFrames",
+        "Sprite.Load",
+        "Sprite.SetStateProperties",
+        "Sprite.setstate",
+        "Steps.GetMeter"
+      ],
+      "nested_theme_operations": [
+        "Actor.setsize",
+        "Actor.stretchto"
+      ],
+      "pending": [
+        "uncompared song operations: Actor.GetX, Actor.SetSize, Actor.SetWidth, Actor.addx, ActorFrame.GetChildren, BitmapText.rainbowscroll, BitmapText.settext, GameState.ApplyGameCommand, GameState.GetNumPlayersEnabled, GameState.GetSongPosition, PlayerStageStats.GetCurrentLife, PlayerStageStats.GetPercentDancePoints, Sprite.LinearFrames, Sprite.Load, Sprite.SetStateProperties, Sprite.setstate, Steps.GetMeter",
+        "native drawable state/resources: BitmapText, Quad, Sprite",
+        "missing captured subscriber identity for ScreenGameplay/2/10/1",
+        "missing captured subscriber identity for ScreenGameplay/2/11",
+        "missing captured subscriber identity for ScreenGameplay/2/14/1",
+        "missing captured subscriber identity for ScreenGameplay/2/7",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1"
+      ],
+      "global_pending": [
+        "full theme stage commitment and history",
+        "unqueried score/alive-time observer fields",
+        "additional game/style/input/course contexts",
+        "production live mode activation"
+      ]
+    },
+    "mismatches": 100,
+    "errors": 0,
+    "command_queries": {
+      "compared": true,
+      "native_count": 61261,
+      "actual_count": 61261
+    }
+  },
+  "native_geometry": {
+    "trace": {
+      "path": "full_song_lua/paperclip-2026-11-18/notefield.json.zst",
+      "sha256": "f708c5b5ae6d28e3212e05f1890acb9d8e1de95c3cfd9004f1071391e348d77e",
+      "bytes": 379280,
+      "source_sha256": "2ab9cf1a56681b3a81eaae22dc8a7e25eb007a3089c050a216d5af7df462ed0f",
+      "source_bytes": 43221387
+    },
+    "source_sha256": "2ab9cf1a56681b3a81eaae22dc8a7e25eb007a3089c050a216d5af7df462ed0f",
+    "counts": {
+      "update_frames": 1234,
+      "drawable_frames": 373,
+      "drawable_samples": 11012,
+      "model_geometry_frames": 373,
+      "model_geometry_samples": 2868,
+      "model_geometry_meshes": 2,
+      "receptor_frames": 373,
+      "receptor_visits": 2464
+    },
+    "dropped": {
+      "dropped_drawable_samples": 0,
+      "dropped_model_geometry_samples": 0,
+      "dropped_receptor_visits": 0,
+      "dropped_script_errors": 0
+    },
+    "script_errors": [],
+    "window": {
+      "drawable_from_beat": 40,
+      "until_beat": 60
+    },
+    "first_receptor_visit_seconds": 14.357279,
+    "all_eight_receptors_visible_seconds": 14.498889,
+    "first_note_model_seconds": 15.709864,
+    "first_note_model_beat": 51,
+    "semantic_event_replay": false,
+    "raster_output": false,
+    "analysis": {
+      "path": "full_song_lua/paperclip-2026-11-18/notefield-analysis.json",
+      "sha256": "89b98af59a9186cb2c5cf3a6a41b2aff9cd79ff88784eab1dc4d56fe18108f4e",
+      "bytes": 154481,
+      "source_sha256": "89b98af59a9186cb2c5cf3a6a41b2aff9cd79ff88784eab1dc4d56fe18108f4e",
+      "source_bytes": 154481
+    }
+  },
+  "evidence": [
+    {
+      "path": "full_song_lua/paperclip-2026-11-18/notefield.json.zst",
+      "sha256": "f708c5b5ae6d28e3212e05f1890acb9d8e1de95c3cfd9004f1071391e348d77e",
+      "bytes": 379280,
+      "source_sha256": "2ab9cf1a56681b3a81eaae22dc8a7e25eb007a3089c050a216d5af7df462ed0f",
+      "source_bytes": 43221387
+    },
+    {
+      "path": "full_song_lua/paperclip-2026-11-18/final-report.json.zst",
+      "sha256": "290c192a355e943812067e2b98ca7c072bebb807af44bb5cd5d3924f1dfa87ee",
+      "bytes": 406310,
+      "source_sha256": "ddfc645f1cea965f39d73509da259cca5f49a7066046ffb0308a80f6579a6fee",
+      "source_bytes": 24199452
+    },
+    {
+      "path": "full_song_lua/paperclip-2026-11-18/production-report.json.zst",
+      "sha256": "331212f6f8372f88826e0fbe1b6e8e0de6b1c874186cf9d9c04c552dd12359c2",
+      "bytes": 762,
+      "source_sha256": "0a7012d92042b28d637c0052498f88a00e900b863a6ffd92c7ed4d650c27c907",
+      "source_bytes": 1666
+    },
+    {
+      "path": "full_song_lua/paperclip-2026-11-18/baseline-report.json.zst",
+      "sha256": "14c830c1b5458d999bec24fc24abddf135d336d14a1b5d0020bb1da147c11a03",
+      "bytes": 407109,
+      "source_sha256": "9c0e19fdc402762b477e1c43976132cf2d646a74811ffe516a58bfa03b1fd610",
+      "source_bytes": 24250140
+    },
+    {
+      "path": "full_song_lua/paperclip-2026-11-18/notefield-analysis.json",
+      "sha256": "89b98af59a9186cb2c5cf3a6a41b2aff9cd79ff88784eab1dc4d56fe18108f4e",
+      "bytes": 154481,
+      "source_sha256": "89b98af59a9186cb2c5cf3a6a41b2aff9cd79ff88784eab1dc4d56fe18108f4e",
+      "source_bytes": 154481
+    },
+    {
+      "path": "full_song_lua/paperclip-2026-11-18/provenance.json",
+      "sha256": "2614ff0775829ed6d722e7d0ff2d2c31dad4b0eee620de109b98bffbd2c9e92b",
+      "bytes": 3231,
+      "source_sha256": "2614ff0775829ed6d722e7d0ff2d2c31dad4b0eee620de109b98bffbd2c9e92b",
+      "source_bytes": 3231
+    },
+    {
+      "path": "full_song_lua/paperclip-2026-11-18/font-and-sprite-validation.json",
+      "sha256": "57e1aa2d74ffbf3b32a65606d392a9eae6ee3819c0d4c247346da6230ecaea40",
+      "bytes": 6531,
+      "source_sha256": "57e1aa2d74ffbf3b32a65606d392a9eae6ee3819c0d4c247346da6230ecaea40",
+      "source_bytes": 6531
+    },
+    {
+      "path": "full_song_lua/paperclip-2026-11-18/theme-file-hashes.json",
+      "sha256": "5fe6cf3039e1014e724d621b2069e45a57714bf97c9ba1d7d2e0acd4f0ad12b6",
+      "bytes": 127834,
+      "source_sha256": "5fe6cf3039e1014e724d621b2069e45a57714bf97c9ba1d7d2e0acd4f0ad12b6",
+      "source_bytes": 127834
+    },
+    {
+      "path": "full_song_lua/paperclip-2026-11-18/capture-command.json",
+      "sha256": "384b785a39453aaaa30d4f616adf1af132fa4fe29b6de13fd2139d3a368a7aaa",
+      "bytes": 809,
+      "source_sha256": "384b785a39453aaaa30d4f616adf1af132fa4fe29b6de13fd2139d3a368a7aaa",
+      "source_bytes": 809
+    },
+    {
+      "path": "full_song_lua/paperclip-2026-11-18/notefield-capture-command.json",
+      "sha256": "25c5be1fe89f7dbaeb56401378018d8d3ace95fb51555ac3cf10de79a4d65e3b",
+      "bytes": 876,
+      "source_sha256": "25c5be1fe89f7dbaeb56401378018d8d3ace95fb51555ac3cf10de79a4d65e3b",
+      "source_bytes": 876
+    }
+  ],
+  "archive_parts": [
+    {
+      "archive": "8bdce73f9d80bf8ce70b5b3060f701aefbb687930dc0e6086a7c719850279c0b.tar.zst",
+      "bytes": 130867193,
+      "sha256": "8bdce73f9d80bf8ce70b5b3060f701aefbb687930dc0e6086a7c719850279c0b",
+      "parts": [
+        {
+          "file": "archive-parts/8bdce73f9d80bf8ce70b5b3060f701aefbb687930dc0e6086a7c719850279c0b/000.part",
+          "bytes": 48000000,
+          "sha256": "5e1d11787108389d99bf9a3cfba6308e2689d8e9f665fdce84a87785983426ff"
+        },
+        {
+          "file": "archive-parts/8bdce73f9d80bf8ce70b5b3060f701aefbb687930dc0e6086a7c719850279c0b/001.part",
+          "bytes": 48000000,
+          "sha256": "dd5474146595c7f75f7ffd28210665f4b5fcd43850ce52f21cc910c560eeea67"
+        },
+        {
+          "file": "archive-parts/8bdce73f9d80bf8ce70b5b3060f701aefbb687930dc0e6086a7c719850279c0b/002.part",
+          "bytes": 34867193,
+          "sha256": "4da1214ca9324d84c23e2cae881f739ac15fd9aa0bbfac00604e915b797c60dd"
+        }
+      ]
+    }
+  ],
+  "publication": {
+    "archive_hash_verified": true,
+    "decoded_candidate_hash_verified": true,
+    "every_part_hash_verified": true,
+    "existing_catalog_rows_preserved": true,
+    "catalog_method": "Add the manifest-derived Paperclip row after verifying the tracked archive set; preserve every existing row.",
+    "input_extraction": "song_fixture::from_source(\"Paperclip/Paperclip.ssc\")"
+  },
+  "limitations": [
+    "Acceptance covers the implemented comparisons over the completed native capture.",
+    "Pending coverage in all replay reports is retained verbatim.",
+    "Whole-song parity, full production parity, and framebuffer pixel parity remain unproven.",
+    "The native semantic capture uses versus style; all original single-player assets are included.",
+    "The separate native notefield capture records submitted geometry and scene order, without raster pixels."
+  ]
+}

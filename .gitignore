@@ -72,6 +72,7 @@ AGENTS.md
 /full_song_lua/64727f8e25081f8a66aea85242c43958278e43bbca2e89b72a3c4577c1a4ad1d.tar.zst
 
 # Restored split archives (managed by prepare_test_fixtures.py)
+/full_song_lua/8bdce73f9d80bf8ce70b5b3060f701aefbb687930dc0e6086a7c719850279c0b.tar.zst
 /full_song_lua/cb9d9d463721dcde307d06edef687027b10d20e998fcc6c6418698e83acc1dd0.tar.zst
 /full_song_lua/f6768b62c9dd561904029c828d1543b77c53c2a7fef667964850c1f7c7553c90.tar.zst
 /full_song_lua/.fixture-*

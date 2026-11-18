@@ -14,6 +14,15 @@ must exist, and local-only missing-file exceptions are rejected. Regenerate the
 catalogs with `python -X utf8 scripts/catalog_committed_songs.py` (requires
 `zstandard`). Tests extract their inputs into temporary directories.
 
+The [2026-11-18 Paperclip fixture](paperclip-2026-11-18.json) captures the
+complete Challenge chart in versus style at 60 frames per second. Its accepted
+replay compares all 9,788 native frames, 116,883 drawable samples, and 52,380
+live text samples without mismatches. A separate production live replay also
+passes its implemented checks. The ledger retains pinned source and asset
+provenance, font and sprite regression evidence, a native notefield capture,
+and every pending coverage entry. Acceptance does not establish complete
+production rendering or framebuffer parity.
+
 New replay reports store `command_queries.native_event_indices` as zero-based
 indices into the archived trace's `events` array. They retain full normalized
 native and DeadSync values for mismatches, and all actual observations. This

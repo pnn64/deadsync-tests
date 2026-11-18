@@ -1,0 +1,30 @@
+{
+  "command": [
+    "C:\\GitHub\\itgmania-harness\\target\\debug\\itgmania-harness-rs.exe",
+    "song-lua-trace",
+    "C:\\GitHub\\deadsync\\target\\debug\\Songs\\lua-songs\\Paperclip\\Paperclip.ssc",
+    "--itgmania-bin",
+    "C:\\GitHub\\itgmania-harness\\target\\native-pinned-source\\Program\\ITGmania-harness-trace.exe",
+    "--headless",
+    "--style",
+    "versus",
+    "--difficulty",
+    "Challenge",
+    "--fallback-theme",
+    "Harness Simply Love",
+    "--player-options",
+    "m600, cel",
+    "--capture-fps",
+    "60",
+    "--max-events",
+    "5000000",
+    "--timeout",
+    "1200",
+    "--drawable-samples",
+    "--until-gameplay-end",
+    "--out",
+    "C:\\GitHub\\deadsync\\save\\paperclip-2026-11-18\\native.json"
+  ],
+  "exit_code": 0,
+  "seconds": 321.526
+}

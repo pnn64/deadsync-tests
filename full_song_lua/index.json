@@ -5550,6 +5550,17 @@
       "compressed_bytes": 136877359,
       "uncompressed_sha256": "1f11e6d95d4e44895481cb6da1d4592927b6ce986a515fa372678c5aae9adfd2",
       "aliases": []
+    },
+    {
+      "title": "Paperclip",
+      "source_simfile": "Paperclip/Paperclip.ssc",
+      "harness_version": "0.1.110",
+      "archive": "8bdce73f9d80bf8ce70b5b3060f701aefbb687930dc0e6086a7c719850279c0b.tar.zst",
+      "sha256": "8bdce73f9d80bf8ce70b5b3060f701aefbb687930dc0e6086a7c719850279c0b",
+      "compressed_bytes": 130867193,
+      "uncompressed_sha256": "ae97756d6ec2533ee189506db1809b79d54ec64609cab661b29ce8498d7769e2",
+      "compression_level": 12,
+      "aliases": []
     }
   ],
   "compression_level": 22
