@@ -58,8 +58,10 @@ independently of song position. The recorded timestamp precedes native drawing;
 it is not an observation of each individual ArrowEffects timer read.
 
 Native `ModsGroup::Update` samples a separate timer before approaching current
-options. The test supplies each recorded player option delta through a one-shot
-test-support input; it does not replace the screen, audio, or gameplay clock.
+options. The compiler receives the recorded SongOptions/P1/P2 timer deltas when
+sampling Current speeds. The gameplay test also supplies each recorded player
+option delta through a one-shot test-support input for its other approached
+modifiers; these inputs do not replace the screen, audio, or gameplay clock.
 Missing option-clock observations are rejected rather than replaced with the
 screen delta. This distinguishes small material-color differences caused by
 clock inputs from rendering arithmetic.
@@ -92,6 +94,51 @@ background video, so its stars-section screenshots use the static background.
 Native single-player stars
 also contain sparse or empty intervals; the fuller stream requires the
 authored second-player contribution.
+
+## Targeted speed and movie controls
+
+The adjacent `speed-mode-approach-input.json` is executed by the harness's
+native `option_control` oracle. Its result in `speed-mode-approach-native.json`
+retains the pinned source provenance. The native assertions show that parsing
+`clearall` followed by `*2 2x` leaves Current's MaxScrollBPM approaching zero at
+one BPM per second: M690 remains M680 after ten seconds, although ScrollSpeed
+has already reached 2. `ArrowEffects.cpp` gives the nonzero maximum BPM
+precedence. A direct `XMod(value, approach)` setter changes the approach rate
+of all four speed fields instead. `captured_speed_modes.rs` checks that the
+ordinary compiler carries those Current values into gameplay windows.
+
+`sprite-movie-clock-native.json` records calls made by the pinned native
+`Sprite::Update` to a recording movie texture. It covers pause/resume, the
+first-update skip, decode control, visibility, effect-clock deltas, seek,
+playback rate, looping, parent update rate, parent and Sprite hibernation,
+and queued animation commands. The texture recorder does not decode a movie
+or infer frame timestamps. DeadSync's movie tests use those native calls to
+check its retained clock, then separately check baked media sampling. This
+controls the `dg.mpg` text sequence, which the chart pauses until `ShowDG`
+at beat 67, independently of whole-song elapsed time.
+
+The Player discontinuity regression in `captured_player_steps.rs` covers the
+post-pad alternating rotation and the later DYSCONTROLLED depth/zoom flips.
+Native setters change the current pose immediately when no tween is queued;
+baked playback must hold that pose until the next callback instead of
+interpolating toward an unexecuted flip. Timed tweens and setters that retarget
+a pending tween retain continuous motion. This does not remove the different
+callback-cadence limitation described above.
+
+`captured_hud_transforms.rs` checks the ordered Judgment/Combo wrappers and
+resolved child pose. Native `Player::Update` replaces the child's destination
+after its subtree advances and before the song callback, while preserving
+wrappers and base scale. Rendering applies that complete chain once, including
+the native Mini/Tiny scale. Untouched HUD actors keep the theme's profile-based
+placement; a wrapper or authored transform setter opts the actor into captured
+placement. The live control also checks that publishing the pose does not
+restore stale compiler-preparation state.
+
+The shell's system-overlay regression covers the Autoplay indicator. Native
+`ScreenManager` draws `ScreenSyncOverlay` separately from the gameplay screen.
+Song-controlled gameplay overlay visibility and tint therefore do not suppress
+or recolor the system indicator; the user's gameplay HUD visibility still
+applies.
 
 From the DeadSync root, run the pad and post-pad tests in separate processes
 when requesting GPU captures, because the window backend permits one event

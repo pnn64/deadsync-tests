@@ -1,0 +1,11 @@
+{
+  "allocations": [],
+  "diagnostics": [],
+  "provenance": {
+    "execution": "embedded_native_sources",
+    "git_dirty": "false",
+    "git_revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+    "source_root": "C:\\GitHub\\itgmania-harness\\vendor/itgmania"
+  },
+  "script_errors": []
+}
