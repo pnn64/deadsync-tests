@@ -1,0 +1,1716 @@
+{
+  "diagnostic_only": false,
+  "whole_song_parity_proven": false,
+  "archive_accepted": true,
+  "execution_path": "production-and-diagnostic-live-lua",
+  "production_preparation_exercised": true,
+  "production_parity_proven": false,
+  "source_simfile": "C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmp29QGyy\\song\\control.ssc",
+  "source_identity": {
+    "status": "not-recorded",
+    "simfile": "C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmp29QGyy\\song\\control.ssc",
+    "simfile_sha256": "23f4e724f7b5f56d298f27ed828ca108aa8e3aaac5b319f7e54eedde109161f0"
+  },
+  "native_trace": "C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmp29QGyy\\trace/semantic.json",
+  "native_frames": 239,
+  "replayed_frames": 239,
+  "startup_scenes": 1,
+  "replayed_scenes": 1,
+  "selected_description": "Fleet pipeline pilot",
+  "checked_stage_samples": 15,
+  "compared_stage_fields": 2364,
+  "mismatches": [],
+  "errors": [],
+  "lua_requests": [],
+  "native_transition_requests": [],
+  "lua_broadcasts": [],
+  "native_broadcasts": [],
+  "first_domain_navigation_seconds": 5.971405982971191,
+  "continued_after_domain_navigation": false,
+  "frames_after_domain_navigation": 0,
+  "stage_observations": [
+    {
+      "phase": "screen-active",
+      "scene": 1,
+      "seconds": -5.982970714569092,
+      "beat": -11.9999418258667,
+      "gameplay_seconds": 0.0,
+      "steps_seconds": 0.0,
+      "screen_seconds": 0.0,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 0.0,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "screen-active",
+      "scene": 1,
+      "seconds": -5.982970714569092,
+      "beat": -11.9999418258667,
+      "gameplay_seconds": 0.0,
+      "steps_seconds": 0.0,
+      "screen_seconds": 0.0,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 0.0,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": -5.884104251861572,
+      "beat": -11.80220890045166,
+      "gameplay_seconds": 0.0,
+      "steps_seconds": 0.0,
+      "screen_seconds": 0.0,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 0.0,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": -5.884104251861572,
+      "beat": -11.80220890045166,
+      "gameplay_seconds": 0.0,
+      "steps_seconds": 0.0,
+      "screen_seconds": 0.0,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 0.0,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": -4.987755298614502,
+      "beat": -10.00951099395752,
+      "gameplay_seconds": 0.0,
+      "steps_seconds": 0.0,
+      "screen_seconds": 1.4705770015716553,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 0.0,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": -4.987755298614502,
+      "beat": -10.00951099395752,
+      "gameplay_seconds": 0.0,
+      "steps_seconds": 0.0,
+      "screen_seconds": 1.4705770015716553,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 0.0,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": -3.987006902694702,
+      "beat": -8.008013725280762,
+      "gameplay_seconds": 3.4209251403808594,
+      "steps_seconds": 0.0,
+      "screen_seconds": 2.4712021350860596,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 3.4209251403808594,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": -3.987006902694702,
+      "beat": -8.008013725280762,
+      "gameplay_seconds": 3.4209251403808594,
+      "steps_seconds": 0.0,
+      "screen_seconds": 2.4712021350860596,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 3.4209251403808594,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": -2.9968481063842773,
+      "beat": -6.027696132659912,
+      "gameplay_seconds": 4.398921966552734,
+      "steps_seconds": 0.0,
+      "screen_seconds": 3.4613096714019775,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 4.398921966552734,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": -2.9968481063842773,
+      "beat": -6.027696132659912,
+      "gameplay_seconds": 4.398921966552734,
+      "steps_seconds": 0.0,
+      "screen_seconds": 3.4613096714019775,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 4.398921966552734,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": -1.982947826385498,
+      "beat": -3.9998955726623535,
+      "gameplay_seconds": 5.423147201538086,
+      "steps_seconds": 0.0,
+      "screen_seconds": 4.475257396697998,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 5.423147201538086,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": -1.982947826385498,
+      "beat": -3.9998955726623535,
+      "gameplay_seconds": 5.423147201538086,
+      "steps_seconds": 0.0,
+      "screen_seconds": 4.475257396697998,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 5.423147201538086,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": -0.9677324295043945,
+      "beat": -1.969464898109436,
+      "gameplay_seconds": 6.435975551605225,
+      "steps_seconds": 0.0,
+      "screen_seconds": 5.4905853271484375,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 6.435975551605225,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": -0.9677324295043945,
+      "beat": -1.969464898109436,
+      "gameplay_seconds": 6.435975551605225,
+      "steps_seconds": 0.0,
+      "screen_seconds": 5.4905853271484375,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 6.435975551605225,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": 0.03868480771780014,
+      "beat": 0.04336961731314659,
+      "gameplay_seconds": 7.452361583709717,
+      "steps_seconds": 0.0,
+      "screen_seconds": 6.497023582458496,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 7.452361583709717,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": 0.03868480771780014,
+      "beat": 0.04336961731314659,
+      "gameplay_seconds": 7.452361583709717,
+      "steps_seconds": 0.0,
+      "screen_seconds": 6.497023582458496,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 7.452361583709717,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": 1.001269817352295,
+      "beat": 1.9685395956039429,
+      "gameplay_seconds": 8.457001686096191,
+      "steps_seconds": 1.004639983177185,
+      "screen_seconds": 7.500239372253418,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 8.457001686096191,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": 1.001269817352295,
+      "beat": 1.9685395956039429,
+      "gameplay_seconds": 8.457001686096191,
+      "steps_seconds": 1.004639983177185,
+      "screen_seconds": 7.500239372253418,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 8.457001686096191,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": 2.0199999809265137,
+      "beat": 4.00600004196167,
+      "gameplay_seconds": 9.470687866210938,
+      "steps_seconds": 2.018326997756958,
+      "screen_seconds": 8.518755912780762,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 9.470687866210938,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": 2.0199999809265137,
+      "beat": 4.00600004196167,
+      "gameplay_seconds": 9.470687866210938,
+      "steps_seconds": 2.018326997756958,
+      "screen_seconds": 8.518755912780762,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 9.470687866210938,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": 3.026689291000366,
+      "beat": 6.019378662109375,
+      "gameplay_seconds": 10.483837127685547,
+      "steps_seconds": 3.031477212905884,
+      "screen_seconds": 9.525588035583496,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 10.483837127685547,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": 3.026689291000366,
+      "beat": 6.019378662109375,
+      "gameplay_seconds": 10.483837127685547,
+      "steps_seconds": 3.031477212905884,
+      "screen_seconds": 9.525588035583496,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 10.483837127685547,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": 4.01439905166626,
+      "beat": 7.994798183441162,
+      "gameplay_seconds": 11.47114086151123,
+      "steps_seconds": 4.018779277801514,
+      "screen_seconds": 10.513348579406738,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 11.47114086151123,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": 4.01439905166626,
+      "beat": 7.994798183441162,
+      "gameplay_seconds": 11.47114086151123,
+      "steps_seconds": 4.018779277801514,
+      "screen_seconds": 10.513348579406738,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": false,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 11.47114086151123,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": 5.030090808868408,
+      "beat": 10.0261812210083,
+      "gameplay_seconds": 11.853531837463379,
+      "steps_seconds": 4.018779277801514,
+      "screen_seconds": 11.528985977172852,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": true,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 11.853531837463379,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "progress",
+      "scene": 1,
+      "seconds": 5.030090808868408,
+      "beat": 10.0261812210083,
+      "gameplay_seconds": 11.853531837463379,
+      "steps_seconds": 4.018779277801514,
+      "screen_seconds": 11.528985977172852,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": true,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 11.853531837463379,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "screen-end",
+      "scene": 1,
+      "seconds": 5.971405982971191,
+      "beat": 11.908811569213867,
+      "gameplay_seconds": 11.853531837463379,
+      "steps_seconds": 4.018779277801514,
+      "screen_seconds": 12.470470428466797,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": true,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 11.853531837463379,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "screen-end",
+      "scene": 1,
+      "seconds": 5.971405982971191,
+      "beat": 11.908811569213867,
+      "gameplay_seconds": 11.853531837463379,
+      "steps_seconds": 4.018779277801514,
+      "screen_seconds": 12.470470428466797,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": true,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 11.853531837463379,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "gameplay-exit",
+      "scene": 1,
+      "seconds": 5.971405982971191,
+      "beat": 11.908811569213867,
+      "gameplay_seconds": 11.853531837463379,
+      "steps_seconds": 4.018779277801514,
+      "screen_seconds": 12.470470428466797,
+      "player_index": 0,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": true,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P1",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 11.853531837463379,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    },
+    {
+      "phase": "gameplay-exit",
+      "scene": 1,
+      "seconds": 5.971405982971191,
+      "beat": 11.908811569213867,
+      "gameplay_seconds": 11.853531837463379,
+      "steps_seconds": 4.018779277801514,
+      "screen_seconds": 12.470470428466797,
+      "player_index": 1,
+      "player": {
+        "possible": 20,
+        "current_possible": 0,
+        "actual": 0,
+        "misses": 0,
+        "w1": 0,
+        "w2": 0,
+        "failed": true,
+        "life_latest": 0.5,
+        "difficulty": "Difficulty_Challenge",
+        "description": "Fleet pipeline pilot",
+        "meter": 1,
+        "player": "PlayerNumber_P2",
+        "score": 0.0,
+        "current_max_score": 0.0,
+        "alive_seconds": 11.853531837463379,
+        "life_begin": 0.5,
+        "life_latest_getter": 0.5,
+        "autoplay": 1.0
+      }
+    }
+  ],
+  "broadcast_params_compared": true,
+  "command_queries": {
+    "compared": true,
+    "native_count": 30,
+    "actual_count": 30,
+    "actual": [
+      {
+        "scene": 1,
+        "kind": "command",
+        "operation": "command.begin",
+        "command": "InitCommand",
+        "source": "song:/tween.lua",
+        "line": 5,
+        "beat": 0.0,
+        "seconds": 0.0,
+        "args": null
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 5,
+        "phase": "callback",
+        "beat": 0.0,
+        "seconds": 0.0,
+        "args": [
+          0
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245060",
+            "name": "helper",
+            "path": "ScreenGameplay/SongForeground/helper"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.linear",
+        "source": "song:/tween.lua",
+        "line": 5,
+        "phase": "callback",
+        "beat": 0.0,
+        "seconds": 0.0,
+        "args": [
+          1
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245060",
+            "name": "helper",
+            "path": "ScreenGameplay/SongForeground/helper"
+          }
+        ],
+        "tween_time_left": 1
+      },
+      {
+        "scene": 1,
+        "kind": "command",
+        "operation": "command.end",
+        "command": "InitCommand",
+        "source": "song:/tween.lua",
+        "line": 5,
+        "beat": 0.0,
+        "seconds": 0.0,
+        "args": null
+      },
+      {
+        "scene": 1,
+        "kind": "command",
+        "operation": "command.begin",
+        "command": "OnCommand",
+        "source": "song:/tween.lua",
+        "line": 12,
+        "beat": 0.04336961358785629,
+        "seconds": 0.03868480771780014,
+        "args": null
+      },
+      {
+        "scene": 1,
+        "kind": "query",
+        "operation": "ActorFrame.GetChild",
+        "source": "song:/tween.lua",
+        "line": 12,
+        "phase": "callback",
+        "beat": 0.04336961358785629,
+        "seconds": 0.03868480771780014,
+        "args": [
+          "helper"
+        ],
+        "results": [
+          {
+            "actor": 1,
+            "name": "helper",
+            "path": "ScreenGameplay/SongForeground/tween.lua/helper"
+          }
+        ]
+      },
+      {
+        "scene": 1,
+        "kind": "query",
+        "operation": "ActorFrame.GetChild",
+        "source": "song:/tween.lua",
+        "line": 12,
+        "phase": "callback",
+        "beat": 0.04336961358785629,
+        "seconds": 0.03868480771780014,
+        "args": [
+          "result"
+        ],
+        "results": [
+          {
+            "actor": 2,
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ]
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "ActorFrame.SetUpdateFunction",
+        "source": "song:/tween.lua",
+        "line": 12,
+        "phase": "callback",
+        "beat": 0.04336961358785629,
+        "seconds": 0.03868480771780014,
+        "args": [
+          {
+            "type": "function",
+            "source": "song:/tween.lua",
+            "line": 15,
+            "last_line": 17
+          }
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245048",
+            "name": "tween.lua",
+            "path": "ScreenGameplay/SongForeground/tween.lua"
+          }
+        ],
+        "tween_time_left": 1
+      },
+      {
+        "scene": 1,
+        "kind": "command",
+        "operation": "command.end",
+        "command": "OnCommand",
+        "source": "song:/tween.lua",
+        "line": 12,
+        "beat": 0.04336961358785629,
+        "seconds": 0.03868480771780014,
+        "args": null
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 0.04336961358785629,
+        "seconds": 0.03868480771780014,
+        "args": [
+          2.168482542037964
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 0.27457141876220703,
+        "seconds": 0.1542857140302658,
+        "args": [
+          13.728570938110352
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 0.46450337767601013,
+        "seconds": 0.24925169348716736,
+        "args": [
+          23.225170135498047
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 0.5711700916290283,
+        "seconds": 0.30258503556251526,
+        "args": [
+          28.558504104614258
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 0.6366122364997864,
+        "seconds": 0.3353061079978943,
+        "args": [
+          31.830608367919922
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 0.7390158772468567,
+        "seconds": 0.38650792837142944,
+        "args": [
+          36.95079040527344
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 0.8385170102119446,
+        "seconds": 0.4362584948539734,
+        "args": [
+          41.925846099853516
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 0.926226794719696,
+        "seconds": 0.4801133871078491,
+        "args": [
+          46.311336517333984
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 1.012712001800537,
+        "seconds": 0.523356020450592,
+        "args": [
+          50.63560104370117
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 1.1095373630523682,
+        "seconds": 0.5717687010765076,
+        "args": [
+          55.47686767578125
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 1.198290228843689,
+        "seconds": 0.616145133972168,
+        "args": [
+          59.914512634277344
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 1.286634922027588,
+        "seconds": 0.6603174805641174,
+        "args": [
+          64.33174896240234
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 1.3742539882659912,
+        "seconds": 0.7041270136833191,
+        "args": [
+          68.71269989013672
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 1.4586076736450195,
+        "seconds": 0.7463038563728333,
+        "args": [
+          72.93038177490234
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 1.5441858768463135,
+        "seconds": 0.7890929579734802,
+        "args": [
+          77.20929718017578
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 1.625999927520752,
+        "seconds": 0.8299999833106995,
+        "args": [
+          81.29999542236328
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 1.710308313369751,
+        "seconds": 0.872154176235199,
+        "args": [
+          85.51541900634766
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 1.7952063083648682,
+        "seconds": 0.9146031737327576,
+        "args": [
+          89.76031494140625
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 1.8801043033599854,
+        "seconds": 0.9570521712303162,
+        "args": [
+          94.00521850585938
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 1.9685395956039429,
+        "seconds": 1.001269817352295,
+        "args": [
+          98.4269790649414
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      },
+      {
+        "scene": 1,
+        "kind": "call",
+        "operation": "Actor.y",
+        "source": "song:/tween.lua",
+        "line": 15,
+        "phase": "callback",
+        "beat": 2.056340217590332,
+        "seconds": 1.0451700687408447,
+        "args": [
+          100
+        ],
+        "results": [
+          {
+            "actor": "0x1d84e245078",
+            "name": "result",
+            "path": "ScreenGameplay/SongForeground/tween.lua/result"
+          }
+        ],
+        "tween_time_left": 0
+      }
+    ],
+    "native_event_indices": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      47,
+      49,
+      51
+    ],
+    "uncompared_actual": []
+  },
+  "pending_coverage": [
+    "uncompared song operations: Actor.GetY, Actor.addy",
+    "native drawable state/resources: Quad",
+    "missing captured subscriber identity for ScreenGameplay/2/10/1",
+    "missing captured subscriber identity for ScreenGameplay/2/11",
+    "missing captured subscriber identity for ScreenGameplay/2/14/1",
+    "missing captured subscriber identity for ScreenGameplay/2/7",
+    "missing captured subscriber identity for ScreenGameplay/25",
+    "missing captured subscriber identity for ScreenGameplay/26/1/1",
+    "missing captured subscriber identity for ScreenGameplay/26/1/10",
+    "missing captured subscriber identity for ScreenGameplay/26/1/12",
+    "missing captured subscriber identity for ScreenGameplay/26/1/2",
+    "missing captured subscriber identity for ScreenGameplay/26/1/4",
+    "missing captured subscriber identity for ScreenGameplay/26/1/5",
+    "missing captured subscriber identity for ScreenGameplay/26/1/7",
+    "missing captured subscriber identity for ScreenGameplay/26/1/9",
+    "missing captured subscriber identity for ScreenGameplay/3/1",
+    "production replay: application build without test-support (run song_lua_execution)",
+    "production replay: full-song completion",
+    "production replay: sampled framebuffer pixels",
+    "production replay: production command/query instrumentation",
+    "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+  ],
+  "coverage": {
+    "scope": "captured-song-lua-context",
+    "observed_song_operations": [
+      "Actor.GetY",
+      "Actor.addy",
+      "Actor.linear",
+      "Actor.y",
+      "ActorFrame.GetChild",
+      "ActorFrame.SetUpdateFunction",
+      "command.begin",
+      "command.end"
+    ],
+    "uncompared_song_operations": [
+      "Actor.GetY",
+      "Actor.addy"
+    ],
+    "nested_theme_operations": [],
+    "pending": [
+      "uncompared song operations: Actor.GetY, Actor.addy",
+      "native drawable state/resources: Quad",
+      "missing captured subscriber identity for ScreenGameplay/2/10/1",
+      "missing captured subscriber identity for ScreenGameplay/2/11",
+      "missing captured subscriber identity for ScreenGameplay/2/14/1",
+      "missing captured subscriber identity for ScreenGameplay/2/7",
+      "missing captured subscriber identity for ScreenGameplay/25",
+      "missing captured subscriber identity for ScreenGameplay/26/1/1",
+      "missing captured subscriber identity for ScreenGameplay/26/1/10",
+      "missing captured subscriber identity for ScreenGameplay/26/1/12",
+      "missing captured subscriber identity for ScreenGameplay/26/1/2",
+      "missing captured subscriber identity for ScreenGameplay/26/1/4",
+      "missing captured subscriber identity for ScreenGameplay/26/1/5",
+      "missing captured subscriber identity for ScreenGameplay/26/1/7",
+      "missing captured subscriber identity for ScreenGameplay/26/1/9",
+      "missing captured subscriber identity for ScreenGameplay/3/1"
+    ],
+    "global_pending": [
+      "full theme stage commitment and history",
+      "stage statistics outside captured observation phases",
+      "additional game/style/input/course contexts",
+      "production live mode activation"
+    ]
+  },
+  "interactive": {
+    "input_events_replayed": 0,
+    "draw_samples_compared": 40,
+    "submitted_vertices_compared": 240,
+    "live_text_samples_compared": 0,
+    "live_text_comparison": "content only; submitted glyph geometry, textures and RGBA are not compared",
+    "draw_mismatches": 0,
+    "equivalent_offscreen_culls": 0,
+    "batched_native_draw_samples": 0,
+    "draw_mismatch_counts": {},
+    "draw_mismatch_examples": [],
+    "equivalent_degenerate_culls": 0,
+    "uncompared_owned_immediate_draws": 0,
+    "render_random_inputs_replayed": 0,
+    "render_random_inputs_captured": 0,
+    "unreplayed_render_random_inputs": 0,
+    "draw_vibration_scopes_without_native_inputs": 0,
+    "last_draw_mismatch": null,
+    "pixel_parity_proven": false
+  },
+  "capture_completed_gameplay": true,
+  "interactive_checks_passed": false,
+  "acceptance_basis": "full diagnostic comparisons and production gameplay checks",
+  "diagnostic_replay_checks_passed": true,
+  "production_gameplay_checks_passed": true,
+  "diagnostic_compared_stage_fields": 1182,
+  "production_replay": {
+    "execution_path": "production-live-lua",
+    "production_preparation_exercised": true,
+    "source_identity": {
+      "status": "not-recorded",
+      "simfile": "C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmp29QGyy\\song\\control.ssc",
+      "simfile_sha256": "23f4e724f7b5f56d298f27ed828ca108aa8e3aaac5b319f7e54eedde109161f0"
+    },
+    "application_build_exercised": false,
+    "test_support_enabled": true,
+    "retained_lua_vm": true,
+    "production_gameplay_checks_passed": true,
+    "production_parity_proven": false,
+    "whole_song_parity_proven": false,
+    "pixel_parity_proven": false,
+    "archive_accepted": false,
+    "native_frames": 239,
+    "replayed_frames": 239,
+    "replayed_scenes": 1,
+    "checked_stage_samples": 15,
+    "compared_stage_fields": 1182,
+    "interactive": {
+      "input_events_replayed": 0,
+      "draw_samples_compared": 40,
+      "submitted_vertices_compared": 240,
+      "live_text_samples_compared": 0,
+      "live_text_comparison": "content only; submitted glyph geometry, textures and RGBA are not compared",
+      "draw_mismatches": 0,
+      "equivalent_offscreen_culls": 0,
+      "batched_native_draw_samples": 0,
+      "draw_mismatch_counts": {},
+      "draw_mismatch_examples": [],
+      "equivalent_degenerate_culls": 0,
+      "uncompared_owned_immediate_draws": 0,
+      "render_random_inputs_replayed": 0,
+      "render_random_inputs_captured": 0,
+      "unreplayed_render_random_inputs": 0,
+      "draw_vibration_scopes_without_native_inputs": 0,
+      "last_draw_mismatch": null,
+      "pixel_parity_proven": false
+    },
+    "mismatches": [],
+    "errors": [],
+    "pending_coverage": [
+      "application build without test-support (run song_lua_execution)",
+      "full-song completion",
+      "sampled framebuffer pixels",
+      "production command/query instrumentation",
+      "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+    ]
+  },
+  "pixel_parity_proven": false,
+  "command_observer": {
+    "dynamic_commands": true,
+    "capture_binary_sha256": "4868fd245547b55ea554632b2a0dcf61dbaa022c9a6e9f2515c9259983bdec7f"
+  },
+  "fixture_sha256": "e3a62d58bc5b729fceddc30d59271d6380cbbb18db8900cff86dee1996dab6e9",
+  "fixture_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\production-controls-20261119T011425Z\\archives\\e3a62d58bc5b729fceddc30d59271d6380cbbb18db8900cff86dee1996dab6e9.tar.zst"
+}

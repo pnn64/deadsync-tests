@@ -1,0 +1,68 @@
+[
+  {
+    "name": "production-acceptance-gate",
+    "command": [
+      "cargo",
+      "test",
+      "--locked",
+      "--test",
+      "song_lua_itgmania_semantic_parity",
+      "full_song_production_archive_requires_both_execution_paths",
+      "--",
+      "--nocapture"
+    ],
+    "cwd": "C:\\GitHub\\deadsync-lua-fleet-20261119",
+    "exit_code": 0,
+    "elapsed_seconds": 239.72,
+    "source_patch_sha256": "c26446897ea274aa3d146c7b2bdc60582ec8dd4ccb5ece7ab7ee26cbfa4b6933",
+    "source_changed_during_check": false,
+    "log_sha256": "654cf767699eacf73c737219a18ac4bc5f3c8c33d53fc1a73332d7ccb0774ca1",
+    "exploratory_check": true
+  },
+  {
+    "name": "pilot",
+    "command": [
+      "cargo",
+      "test",
+      "--locked",
+      "--test",
+      "full_song_lua",
+      "--",
+      "--archive",
+      "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\production-controls-20261119T011425Z\\archives\\e3a62d58bc5b729fceddc30d59271d6380cbbb18db8900cff86dee1996dab6e9.tar.zst",
+      "--report",
+      "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\production-controls-20261119T011425Z\\pilot-report.json",
+      "--production"
+    ],
+    "cwd": "C:\\GitHub\\deadsync-lua-fleet-20261119",
+    "exit_code": 0,
+    "elapsed_seconds": 47.968,
+    "source_patch_sha256": "c26446897ea274aa3d146c7b2bdc60582ec8dd4ccb5ece7ab7ee26cbfa4b6933",
+    "source_changed_during_check": false,
+    "log_sha256": "4e1f892d78a3db9abb2771fc4029ae889747ab371c1ebf222856ab62ac9b280d",
+    "exploratory_check": true
+  },
+  {
+    "name": "life",
+    "command": [
+      "cargo",
+      "test",
+      "--locked",
+      "--test",
+      "full_song_lua",
+      "--",
+      "--archive",
+      "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\production-controls-20261119T011425Z\\archives\\3a01fcf274d6077cd897b59d6fbe64f62376d8247148b5620de9020f3d4b0194.tar.zst",
+      "--report",
+      "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\production-controls-20261119T011425Z\\life-report.json",
+      "--production"
+    ],
+    "cwd": "C:\\GitHub\\deadsync-lua-fleet-20261119",
+    "exit_code": 0,
+    "elapsed_seconds": 11.288,
+    "source_patch_sha256": "c26446897ea274aa3d146c7b2bdc60582ec8dd4ccb5ece7ab7ee26cbfa4b6933",
+    "source_changed_during_check": false,
+    "log_sha256": "dd75caf78d2094cd3a1b649c1f1dc747023fd6ca79cdbf3481e9902ffe7bfe67",
+    "exploratory_check": true
+  }
+]

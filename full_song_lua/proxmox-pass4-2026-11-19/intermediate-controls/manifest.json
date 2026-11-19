@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "purpose": "Intermediate production archive checks before natural LifeChanged and final failure-boundary fixes",
+  "final_candidate_validation": false,
+  "tested_source": {
+    "base_revision": "2da5562bb050d155a90498fd075279a0249ae479",
+    "patch": "source.patch",
+    "patch_sha256": "c26446897ea274aa3d146c7b2bdc60582ec8dd4ccb5ece7ab7ee26cbfa4b6933",
+    "source_unchanged_during_each_check": true
+  },
+  "controls": {
+    "pilot": {
+      "execution_path": "production-and-diagnostic-live-lua",
+      "archive_accepted": true,
+      "native_frames": 239,
+      "replayed_frames": 239,
+      "compared_stage_fields": 2364,
+      "fixture_sha256": "e3a62d58bc5b729fceddc30d59271d6380cbbb18db8900cff86dee1996dab6e9",
+      "production_preparation_exercised": true,
+      "production_gameplay_checks_passed": true,
+      "diagnostic_replay_checks_passed": true,
+      "whole_song_parity_proven": false,
+      "pending_coverage": [
+        "uncompared song operations: Actor.GetY, Actor.addy",
+        "native drawable state/resources: Quad",
+        "missing captured subscriber identity for ScreenGameplay/2/10/1",
+        "missing captured subscriber identity for ScreenGameplay/2/11",
+        "missing captured subscriber identity for ScreenGameplay/2/14/1",
+        "missing captured subscriber identity for ScreenGameplay/2/7",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1",
+        "production replay: application build without test-support (run song_lua_execution)",
+        "production replay: full-song completion",
+        "production replay: sampled framebuffer pixels",
+        "production replay: production command/query instrumentation",
+        "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+      ]
+    },
+    "life": {
+      "execution_path": "production-and-diagnostic-live-lua",
+      "archive_accepted": true,
+      "native_frames": 184,
+      "replayed_frames": 184,
+      "compared_stage_fields": 2094,
+      "fixture_sha256": "3a01fcf274d6077cd897b59d6fbe64f62376d8247148b5620de9020f3d4b0194",
+      "production_preparation_exercised": true,
+      "production_gameplay_checks_passed": true,
+      "diagnostic_replay_checks_passed": true,
+      "whole_song_parity_proven": false,
+      "pending_coverage": [
+        "uncompared song operations: Actor.halign, Actor.valign, Actor.xy, BitmapText.settext, GameState.GetCurMusicSeconds, Player.SetLife, PlayerStageStats.GetLifeRecord",
+        "native drawable state/resources: BitmapText",
+        "missing captured subscriber identity for ScreenGameplay/2/10/1",
+        "missing captured subscriber identity for ScreenGameplay/2/11",
+        "missing captured subscriber identity for ScreenGameplay/2/13/3",
+        "missing captured subscriber identity for ScreenGameplay/2/13/4",
+        "missing captured subscriber identity for ScreenGameplay/2/14/1",
+        "missing captured subscriber identity for ScreenGameplay/2/7",
+        "missing captured subscriber identity for ScreenGameplay/2/9/3",
+        "missing captured subscriber identity for ScreenGameplay/2/9/4",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1",
+        "production replay: application build without test-support (run song_lua_execution)",
+        "production replay: full-song completion",
+        "production replay: sampled framebuffer pixels",
+        "production replay: production command/query instrumentation",
+        "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+      ]
+    }
+  },
+  "acceptance_gate_unit_tests": 1,
+  "files": {
+    "source.patch": {
+      "bytes": 122295,
+      "sha256": "c26446897ea274aa3d146c7b2bdc60582ec8dd4ccb5ece7ab7ee26cbfa4b6933"
+    },
+    "production-acceptance-gate.log": {
+      "bytes": 565,
+      "sha256": "654cf767699eacf73c737219a18ac4bc5f3c8c33d53fc1a73332d7ccb0774ca1"
+    },
+    "pilot.log": {
+      "bytes": 2240,
+      "sha256": "4e1f892d78a3db9abb2771fc4029ae889747ab371c1ebf222856ab62ac9b280d"
+    },
+    "life.log": {
+      "bytes": 2700,
+      "sha256": "dd75caf78d2094cd3a1b649c1f1dc747023fd6ca79cdbf3481e9902ffe7bfe67"
+    },
+    "receipts.json": {
+      "bytes": 2538,
+      "sha256": "affb68afcac43a30429100d687eb4f93e803825013a5469fd79975e514d0c077"
+    },
+    "pilot-report.json": {
+      "bytes": 47856,
+      "sha256": "c616abd1695988260f2a2c653181e43689396566bcf010181cf5f669c24cfce4"
+    },
+    "life-report.json": {
+      "bytes": 259795,
+      "sha256": "783934f373994551d62a9e41f32d815bb056c55e6a6c8936e7d0e19d39294522"
+    }
+  }
+}

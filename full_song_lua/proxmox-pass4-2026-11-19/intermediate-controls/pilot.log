@@ -1,0 +1,29 @@
+   Compiling deadsync v0.6.0 (C:\GitHub\deadsync-lua-fleet-20261119)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 40.96s
+     Running tests\full_song_lua.rs (target\debug\build\deadsync/e75a49946a63844a\out\full_song_lua-e75a49946a63844a.exe)
+[0.0s] replaying every native gameplay frame
+replayed 239 actual frames; 15 stage samples; 0 mismatches; 0 callback errors
+[0.8s] replaying production preparation and gameplay
+239 native frames replayed; 2364 stage fields compared; 0 mismatches; 0 callback errors
+  pending: "uncompared song operations: Actor.GetY, Actor.addy"
+  pending: "native drawable state/resources: Quad"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/10/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/11"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/14/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/7"
+  pending: "missing captured subscriber identity for ScreenGameplay/25"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/10"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/12"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/2"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/5"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/7"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/9"
+  pending: "missing captured subscriber identity for ScreenGameplay/3/1"
+  pending: "production replay: application build without test-support (run song_lua_execution)"
+  pending: "production replay: full-song completion"
+  pending: "production replay: sampled framebuffer pixels"
+  pending: "production replay: production command/query instrumentation"
+  pending: "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+report: C:\GitHub\deadsync-lua-fleet-20261119\target\proxmox-song-lua-20261119\production-controls-20261119T011425Z\pilot-report.json

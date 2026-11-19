@@ -1,0 +1,34 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.65s
+     Running tests\full_song_lua.rs (target\debug\build\deadsync/e75a49946a63844a\out\full_song_lua-e75a49946a63844a.exe)
+[2.0s] : 0 checks completed, 0 failed
+[2.7s] replaying every native gameplay frame
+replayed 184 actual frames; 15 stage samples; 0 mismatches; 0 callback errors
+[3.7s] replaying production preparation and gameplay
+[4.0s] replaying production preparation and gameplay: frame 0/184 (0.0%)
+184 native frames replayed; 2094 stage fields compared; 0 mismatches; 0 callback errors
+  pending: "uncompared song operations: Actor.halign, Actor.valign, Actor.xy, BitmapText.settext, GameState.GetCurMusicSeconds, Player.SetLife, PlayerStageStats.GetLifeRecord"
+  pending: "native drawable state/resources: BitmapText"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/10/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/11"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/13/3"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/13/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/14/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/7"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/9/3"
+  pending: "missing captured subscriber identity for ScreenGameplay/2/9/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/25"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/1"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/10"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/12"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/2"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/4"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/5"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/7"
+  pending: "missing captured subscriber identity for ScreenGameplay/26/1/9"
+  pending: "missing captured subscriber identity for ScreenGameplay/3/1"
+  pending: "production replay: application build without test-support (run song_lua_execution)"
+  pending: "production replay: full-song completion"
+  pending: "production replay: sampled framebuffer pixels"
+  pending: "production replay: production command/query instrumentation"
+  pending: "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+report: C:\GitHub\deadsync-lua-fleet-20261119\target\proxmox-song-lua-20261119\production-controls-20261119T011425Z\life-report.json

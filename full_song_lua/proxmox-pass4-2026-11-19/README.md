@@ -58,6 +58,24 @@ The baseline DeadSync runner SHA-256 is
   initial native discovery ledger, and the exact compressed fleet snapshot
   underlying that ledger. `evidence-files.json` binds the accompanying evidence.
 
+## Intermediate repaired controls
+
+`intermediate-controls/` retains a tested source patch against DeadSync
+`2da5562bb050d155a90498fd075279a0249ae479`, exact command receipts and logs,
+and both complete reports from the new combined production/diagnostic archive
+mode. The source patch was unchanged throughout each check. The acceptance
+gate regression passed, and the ordinary pipeline control passed 239/239
+frames with 2,364 stage comparisons. The life-history control passed 184/184
+frames with 2,094 stage comparisons, zero mismatches, and zero callback errors;
+its baseline had 100 retained text mismatch examples.
+
+Both controls exercised production preparation as well as the diagnostic
+command/query comparisons. Their reports retain each execution path and
+explicit pending coverage. This intermediate source precedes the subsequent
+natural LifeChanged and failed-song boundary corrections, so it does not
+certify a later candidate or the full fleet. The source patch is retained to
+make that distinction reproducible.
+
 The two large original pipeline fixture archives are identified in
 `pipeline-baselines/download-receipt.json`; they are retained separately and
 are not included in this compact checkpoint. The ZIP includes the original

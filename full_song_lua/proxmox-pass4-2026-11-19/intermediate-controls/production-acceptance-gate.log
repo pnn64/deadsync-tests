@@ -1,0 +1,10 @@
+    Blocking waiting for file lock on build directory
+   Compiling deadsync v0.6.0 (C:\GitHub\deadsync-lua-fleet-20261119)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3m 57s
+     Running tests\song_lua_itgmania_semantic_parity.rs (target\debug\build\deadsync/53e782d5af61d6e4\out\song_lua_itgmania_semantic_parity-53e782d5af61d6e4.exe)
+
+running 1 test
+test whole_song_archives::full_song_production_archive_requires_both_execution_paths ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 426 filtered out; finished in 0.00s
+

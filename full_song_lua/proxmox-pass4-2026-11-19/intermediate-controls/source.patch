@@ -1,0 +1,2411 @@
+diff --git a/crates/deadsync-gameplay/src/cues.rs b/crates/deadsync-gameplay/src/cues.rs
+index fe421daf6..7974a4a8b 100644
+--- a/crates/deadsync-gameplay/src/cues.rs
++++ b/crates/deadsync-gameplay/src/cues.rs
+@@ -2,6 +2,10 @@
+ pub struct GameplayBoundaryRuntimeState {
+     pub commands: GameplayCommandQueue,
+     pub total_elapsed_in_screen: f32,
++    /// ScreenGameplay's independent unscaled stage clocks, accumulated as f32.
++    pub gameplay_seconds: f32,
++    pub steps_seconds: f32,
++    pub(crate) stage_clock_last_read: Instant,
+ }
+ 
+ impl GameplayBoundaryRuntimeState {
+@@ -14,6 +18,9 @@ impl GameplayBoundaryRuntimeState {
+                 session_command_capacity,
+             ),
+             total_elapsed_in_screen: 0.0,
++            gameplay_seconds: 0.0,
++            steps_seconds: 0.0,
++            stage_clock_last_read: Instant::now(),
+         }
+     }
+ }
+diff --git a/crates/deadsync-gameplay/src/lib.rs b/crates/deadsync-gameplay/src/lib.rs
+index e3025c2fa..20e3a90d2 100644
+--- a/crates/deadsync-gameplay/src/lib.rs
++++ b/crates/deadsync-gameplay/src/lib.rs
+@@ -133,6 +133,8 @@ include!("autosync.rs");
+ include!("display_clock.rs");
+ include!("scroll_clock.rs");
+ include!("controls.rs");
++include!("stage_life.rs");
++include!("stage_score.rs");
+ include!("life.rs");
+ include!("viewport.rs");
+ include!("density_graph.rs");
+diff --git a/crates/deadsync-gameplay/src/life.rs b/crates/deadsync-gameplay/src/life.rs
+index a3b197fc8..a1b89a923 100644
+--- a/crates/deadsync-gameplay/src/life.rs
++++ b/crates/deadsync-gameplay/src/life.rs
+@@ -143,6 +143,7 @@ const fn survival_seconds_change(event: CourseLifeEvent) -> f32 {
+ }
+ 
+ fn record_player_life_change(player: &mut PlayerRuntime, current_music_time: f32, old_life: f32) {
++    player.stage_life_record.record(player.life_record_source.value(player.life));
+     if player.life_record_source == LifeRecordSource::Meter
+         && (player.life - old_life).abs() <= 0.000_001_f32 {
+         return;
+@@ -385,6 +386,7 @@ pub fn apply_player_runtime_life_delta(
+         player.life_record_source,
+     );
+     write_player_runtime_life_meter(player, meter);
++    player.stage_life_record.record(player.life_record_source.value(player.life));
+     update
+ }
+ 
+diff --git a/crates/deadsync-gameplay/src/player.rs b/crates/deadsync-gameplay/src/player.rs
+index 9d35e2f93..07ff94b04 100644
+--- a/crates/deadsync-gameplay/src/player.rs
++++ b/crates/deadsync-gameplay/src/player.rs
+@@ -115,6 +115,7 @@ pub struct PlayerRuntime {
+     /// ScoreKeeperNormal advances this once per scored row/hold after failure,
+     /// independently of combo-weighted judgments and frozen earned points.
+     pub current_possible_points: i32,
++    pub stage_score: StageScore,
+ 
+     pub combo_milestones: Vec<ActiveComboMilestone>,
+     pub hands_achieved: u32,
+@@ -139,6 +140,8 @@ pub struct PlayerRuntime {
+     pub course_submit_life: Option<deadsync_rules::life::LifeMeter>,
+ 
+     pub life_history: Vec<(f32, f32)>,
++    pub stage_life_record: StageLifeRecord,
++    pub alive_seconds: f32,
+     pub life_record_source: LifeRecordSource,
+ 
+     pub error_bar_mono_ticks: [Option<ErrorBarTick>; 15],
+@@ -280,6 +283,7 @@ pub fn init_player_runtime_with_caps(caps: PlayerBufferCaps) -> PlayerRuntime {
+         ghost: GameplayGhostState::default(),
+         earned_grade_points: 0,
+         current_possible_points: 0,
++        stage_score: StageScore::default(),
+         combo_milestones: Vec::with_capacity(caps.combo_milestones),
+         hands_achieved: 0,
+         holds_held: 0,
+@@ -302,6 +306,8 @@ pub fn init_player_runtime_with_caps(caps: PlayerBufferCaps) -> PlayerRuntime {
+         failed_ex_score_inputs: None,
+         course_submit_life: None,
+         life_history: Vec::with_capacity(caps.life_history),
++        stage_life_record: StageLifeRecord::with_capacity(caps.life_history),
++        alive_seconds: 0.0,
+         life_record_source: LifeRecordSource::Meter,
+         error_bar_mono_ticks: [None; 15],
+         error_bar_mono_next: 0,
+@@ -338,6 +344,7 @@ pub fn init_player_runtime_for_practice_with_caps(
+     player
+         .life_history
+         .push((judge_start_music_time, player.life));
++    player.stage_life_record.record(player.life);
+     player
+ }
+ 
+@@ -416,27 +423,34 @@ pub fn init_player_runtime_for_song_with_course_life(
+         course_carry,
+     );
+     player.life_history.push((init_music_time, player.life));
++    player.stage_life_record.record(player.life);
+     player
+ }
+ 
+ pub fn reset_player_runtime_for_practice(player: &mut PlayerRuntime, judge_start_music_time: f32) {
+     let mut combo_milestones = std::mem::take(&mut player.combo_milestones);
+     let mut life_history = std::mem::take(&mut player.life_history);
++    let mut stage_life_record = std::mem::take(&mut player.stage_life_record);
+     let mut error_bar_avg_samples = std::mem::take(&mut player.error_bar_avg_samples);
+     let mut error_bar_long_avg_samples = std::mem::take(&mut player.error_bar_long_avg_samples);
+     combo_milestones.clear();
+     life_history.clear();
++    stage_life_record.clear();
+     error_bar_avg_samples.clear();
+     error_bar_long_avg_samples.clear();
+ 
+     let mut reset = init_player_runtime_with_caps(PlayerBufferCaps::EMPTY);
+     reset.life_record_source = player.life_record_source;
++    reset.stage_score = player.stage_score;
++    reset.stage_score.reset();
+     reset.combo_milestones = combo_milestones;
+     reset.life_history = life_history;
++    reset.stage_life_record = stage_life_record;
+     reset.error_bar_avg_samples = error_bar_avg_samples;
+     reset.error_bar_long_avg_samples = error_bar_long_avg_samples;
+     if reset.life_record_source == LifeRecordSource::Meter {
+         reset.life_history.push((judge_start_music_time, reset.life));
++        reset.stage_life_record.record(reset.life);
+     }
+     *player = reset;
+ }
+diff --git a/crates/deadsync-gameplay/src/routine.rs b/crates/deadsync-gameplay/src/routine.rs
+index d02093334..93ae6dcee 100644
+--- a/crates/deadsync-gameplay/src/routine.rs
++++ b/crates/deadsync-gameplay/src/routine.rs
+@@ -42,6 +42,7 @@ impl RoutineStageStats {
+             miss_combo_multiplier,
+         );
+         set_row_finalization_player_state(&mut self.stats, row);
++        self.stats.stage_score.tap(judgment.grade, self.stats.stage_failed);
+         if update.update_grade_totals {
+             self.refresh_points();
+         }
+@@ -61,6 +62,7 @@ impl RoutineStageStats {
+         let mut stats = hold_result_stats_state(&self.stats);
+         apply_hold_result_stats_update(&mut stats, update);
+         set_hold_result_stats_state(&mut self.stats, stats);
++        self.stats.stage_score.hold(result, self.stats.stage_failed);
+         if update.update_grade_totals {
+             self.refresh_points();
+         }
+diff --git a/crates/deadsync-gameplay/src/runtime_init.rs b/crates/deadsync-gameplay/src/runtime_init.rs
+index d021ff39d..72324105b 100644
+--- a/crates/deadsync-gameplay/src/runtime_init.rs
++++ b/crates/deadsync-gameplay/src/runtime_init.rs
+@@ -1074,6 +1074,7 @@ where
+             // Player::ChangeLifeRecord still reads GameState's initial tug life.
+             player.life_record_source = LifeRecordSource::Combined(0.5);
+             player.life_history.clear();
++            player.stage_life_record.clear();
+         }
+         let target = std::mem::take(&mut mini_indicator_data.ghost_targets[p]);
+         let possible = target.score_type.possible_points(
+@@ -1100,6 +1101,10 @@ where
+             &charts[p].difficulty,
+             in_course_stage,
+         );
++        player.stage_score = StageScore::for_song(
++            row_count + holds_total[p] as usize + rolls_total[p] as usize,
++            song.music_length_seconds,
++        );
+         player
+     });
+     let assist_clap_rows =
+@@ -1121,6 +1126,13 @@ where
+         }
+     });
+     let tick_mode = session.tick_mode;
++    let routine = play_style.is_routine().then(|| {
++        let mut routine = RoutineStageStats::default();
++        // ScreenGameplay initializes the shared secondary keeper once using
++        // the first Player's transformed note data, then sends it both parts.
++        routine.stats.stage_score = players[0].stage_score;
++        routine
++    });
+ 
+     let mut state = GameplayRuntimeState {
+         note_field_tap_callback: None,
+@@ -1143,7 +1155,10 @@ where
+             config,
+             include_post_fail_passes,
+         },
+-        boundary: GameplayBoundaryRuntimeState::new(8, 2),
++        boundary: GameplayBoundaryRuntimeState {
++            stage_clock_last_read: init_started,
++            ..GameplayBoundaryRuntimeState::new(8, 2)
++        },
+         timing_runtime: GameplayTimingRuntimeState {
+             timing,
+             timing_players,
+@@ -1219,7 +1234,7 @@ where
+         ),
+         players_runtime: GameplayPlayersRuntimeState {
+             players,
+-            routine: play_style.is_routine().then(RoutineStageStats::default),
++            routine,
+             column_judgments_active: [true; MAX_PLAYERS],
+         },
+         display: GameplayDisplayRuntimeState {
+diff --git a/crates/deadsync-gameplay/src/runtime_methods.rs b/crates/deadsync-gameplay/src/runtime_methods.rs
+index 728097af6..d201fee77 100644
+--- a/crates/deadsync-gameplay/src/runtime_methods.rs
++++ b/crates/deadsync-gameplay/src/runtime_methods.rs
+@@ -10,7 +10,9 @@ where
+         let seconds = self.current_music_time_seconds();
+         let runtime = &mut self.players_runtime.players[player];
+         let old = runtime.life;
++        runtime.stage_life_record.record(runtime.life_record_source.value(old));
+         runtime.life = life.clamp(0.0, 1.0);
++        runtime.stage_life_record.record(runtime.life_record_source.value(runtime.life));
+         deadsync_rules::life::record_life_change(
+             &mut runtime.life_history, seconds,
+             runtime.life_record_source.value(old), runtime.life_record_source.value(runtime.life));
+@@ -38,6 +40,7 @@ where
+         let runtime = &mut self.players_runtime.players[player];
+         let before = runtime.life_history.last().map_or(runtime.life, |&(_, life)| life);
+         deadsync_rules::life::record_life_change(&mut runtime.life_history, seconds, before, life);
++        runtime.stage_life_record.record(life);
+         self.display.density_graph.life_dirty[player] = true;
+     }
+ 
+@@ -622,6 +625,10 @@ where
+         let player_update =
+             apply_hold_let_go_player_state(&mut player_state, update.stats_update, scoring_blocked);
+         apply_hold_resolution_player_state(&mut self.players_runtime.players[player], player_state);
++        if !scoring_blocked {
++            let failed = self.players_runtime.players[player].stage_failed;
++            self.players_runtime.players[player].stage_score.hold(update.result, failed);
++        }
+         if !scoring_blocked && let Some(routine) = self.players_runtime.routine.as_mut() {
+             routine.hold(note_type, update.result);
+         }
+@@ -693,6 +700,10 @@ where
+             scoring_blocked,
+         );
+         apply_hold_resolution_player_state(&mut self.players_runtime.players[player], player_state);
++        if !scoring_blocked {
++            let failed = self.players_runtime.players[player].stage_failed;
++            self.players_runtime.players[player].stage_score.hold(update.result, failed);
++        }
+         if !scoring_blocked && let Some(routine) = self.players_runtime.routine.as_mut() {
+             routine.hold(note_type, update.result);
+         }
+@@ -1902,6 +1913,9 @@ where
+                 miss_combo_multiplier,
+             );
+             set_row_finalization_player_state(p, row_state);
++            // Native integer scoring tests committed stage failure, which is
++            // later than reaching zero life during this judgment callback.
++            p.stage_score.tap(final_judgment.grade, p.stage_failed);
+             if update.update_grade_totals {
+                 update_itg_grade_totals(p);
+             }
+diff --git a/crates/deadsync-gameplay/src/runtime_update.rs b/crates/deadsync-gameplay/src/runtime_update.rs
+index 827e6c0cf..01678e654 100644
+--- a/crates/deadsync-gameplay/src/runtime_update.rs
++++ b/crates/deadsync-gameplay/src/runtime_update.rs
+@@ -351,6 +351,38 @@ where
+         GameplayAction::None
+     }
+ 
++    /// Adopt the owning screen's timer, constructed before theme/song loading.
++    pub fn set_stage_clock_origin(&mut self, origin: Instant) {
++        self.boundary.stage_clock_last_read = origin;
++    }
++
++    /// Called once in ScreenGameplay's dancing branch, after actors and failure
++    /// resolution. A supplied delta is an independent timer read for replay;
++    /// normal gameplay samples its own monotonic timer at this same boundary.
++    /// Skipped intro/paused/outro frames do not reset the timer.
++    pub fn advance_stage_clock(
++        &mut self,
++        raw_delta_seconds: Option<f32>,
++        music_rate: f32,
++        steps_time_active: bool,
++    ) -> f32 {
++        let now = Instant::now();
++        let delta = raw_delta_seconds.unwrap_or_else(||
++            now.duration_since(self.boundary.stage_clock_last_read).as_secs_f64() as f32);
++        self.boundary.stage_clock_last_read = now;
++        assert!(delta.is_finite() && delta >= 0.0, "stage timer delta must be finite and nonnegative");
++        assert!(music_rate.is_finite(), "stage music rate must be finite");
++        self.boundary.gameplay_seconds += delta;
++        if steps_time_active { self.boundary.steps_seconds += delta; }
++        for player in self.players_runtime.players.iter_mut().take(self.setup.num_players) {
++            if !player.stage_failed && player.fail_time.is_none() {
++                player.alive_seconds += delta * music_rate;
++            }
++            player.stage_life_record.steps_seconds = self.boundary.steps_seconds;
++        }
++        delta
++    }
++
+     pub fn set_gameplay_paused(&mut self, paused: bool) {
+         if self.control.paused == paused || (paused && self.mods.attacks.cleared_for_outro) {
+             return;
+diff --git a/crates/deadsync-gameplay/src/stage_life.rs b/crates/deadsync-gameplay/src/stage_life.rs
+new file mode 100644
+index 000000000..d2b2f3ab5
+--- /dev/null
++++ b/crates/deadsync-gameplay/src/stage_life.rs
+@@ -0,0 +1,80 @@
++/// PlayerStageStats history uses accumulated steps time, independently of the
++/// music-time history used by the gameplay graph.
++#[derive(Clone, Debug, Default)]
++pub struct StageLifeRecord {
++    pub steps_seconds: f32,
++    pub samples: Vec<(f32, f32)>,
++}
++
++impl StageLifeRecord {
++    pub fn with_capacity(capacity: usize) -> Self {
++        Self {
++            steps_seconds: 0.0,
++            samples: Vec::with_capacity(capacity),
++        }
++    }
++
++    pub fn copy_from(&mut self, source: &Self) {
++        self.steps_seconds = source.steps_seconds;
++        self.samples.clone_from(&source.samples);
++    }
++
++    pub fn clear(&mut self) {
++        self.steps_seconds = 0.0;
++        self.samples.clear();
++    }
++
++    /// Player::ChangeLife(TapNoteScore/HoldNoteScore) records the resulting life
++    /// once. Its float ChangeLife/SetLife overloads record before and after.
++    pub fn record(&mut self, life: f32) {
++        let seconds = self.steps_seconds;
++        if seconds < 0.0 {
++            return;
++        }
++        let index = self.samples.partition_point(|&(time, _)| time < seconds);
++        if let Some(&(time, previous)) = self.samples.get(index)
++            && time == seconds
++            && previous != life
++        {
++            self.set_sample(seconds - 0.00390625, previous);
++        }
++        self.set_sample(seconds, life);
++        let len = self.samples.len();
++        if len >= 3
++            && self.samples[len - 3].1 == self.samples[len - 2].1
++            && self.samples[len - 2].1 == self.samples[len - 1].1
++        {
++            self.samples.remove(len - 2);
++        }
++    }
++
++    fn set_sample(&mut self, seconds: f32, life: f32) {
++        let index = self.samples.partition_point(|&(time, _)| time < seconds);
++        if self
++            .samples
++            .get(index)
++            .is_some_and(|&(time, _)| time == seconds)
++        {
++            self.samples[index].1 = life;
++        } else {
++            self.samples.insert(index, (seconds, life));
++        }
++    }
++
++    /// PlayerStageStats::GetLifeRecordLerpAt and RageUtil's float SCALE order.
++    pub fn sample(&self, seconds: f32) -> f32 {
++        if self.samples.is_empty() {
++            return 0.0;
++        }
++        let later = self.samples.partition_point(|&(time, _)| !(seconds < time));
++        let earlier = later.saturating_sub(1);
++        let (from, before) = self.samples[earlier];
++        let Some(&(to, after)) = self.samples.get(later) else {
++            return before;
++        };
++        if from == to {
++            return before;
++        }
++        (seconds - from) * (after - before) / (to - from) + before
++    }
++}
+diff --git a/crates/deadsync-gameplay/src/stage_score.rs b/crates/deadsync-gameplay/src/stage_score.rs
+new file mode 100644
+index 000000000..50799c02b
+--- /dev/null
++++ b/crates/deadsync-gameplay/src/stage_score.rs
+@@ -0,0 +1,84 @@
++/// ScoreKeeperNormal's integer counter, separate from percentage dance points.
++/// Simply Love enables internal scoring, W1, no combo bonus, and unit rounding.
++#[derive(Clone, Copy, Debug, Default)]
++pub struct StageScore {
++    pub score: u32,
++    pub current_max_score: u32,
++    pub configured: bool,
++    total: u64,
++    judged: u64,
++    maximum: i64,
++    bonus: i64,
++}
++
++impl StageScore {
++    pub fn for_song(total: usize, music_seconds: f32) -> Self {
++        // Song::IsLong/IsMarathon use the actual audio length and inclusive
++        // native default thresholds; marathon excludes the long-song branch.
++        let stages = if music_seconds >= 300.0 {
++            3
++        } else if music_seconds >= 150.0 {
++            2
++        } else {
++            1
++        };
++        let maximum = 100_000_000 * stages;
++        Self {
++            configured: true,
++            total: total as u64,
++            maximum,
++            bonus: maximum,
++            ..Self::default()
++        }
++    }
++
++    pub fn reset(&mut self) {
++        self.score = 0;
++        self.current_max_score = 0;
++        self.judged = 0;
++        self.bonus = self.maximum;
++    }
++
++    pub fn tap(&mut self, grade: JudgeGrade, failed: bool) {
++        if !self.configured || self.total == 0 {
++            return;
++        }
++        let weight = match grade {
++            JudgeGrade::Fantastic => 10,
++            JudgeGrade::Excellent => 9,
++            JudgeGrade::Great => 5,
++            _ => 0,
++        };
++        self.judged += 1;
++        let denominator = self.total * (self.total + 1) / 2;
++        let points =
++            |weight: u64| (weight * self.judged * (self.maximum / 10) as u64 / denominator) as u32;
++        if failed {
++            self.score = self.score.wrapping_add(weight as u32);
++            if weight > 0 {
++                self.score = (self.score.wrapping_add(2) / 5).wrapping_mul(5);
++            }
++        } else {
++            self.score = self.score.wrapping_add(points(weight));
++        }
++        let possible = points(10);
++        self.bonus -= i64::from(possible);
++        self.current_max_score = self.current_max_score.wrapping_add(possible);
++        if self.judged == self.total
++            && matches!(grade, JudgeGrade::Fantastic | JudgeGrade::Excellent)
++        {
++            if !failed {
++                self.score = self.score.wrapping_add(self.bonus as u32);
++            }
++            self.current_max_score = self.current_max_score.wrapping_add(self.bonus as u32);
++        }
++    }
++
++    pub fn hold(&mut self, result: HoldResult, failed: bool) {
++        match result {
++            HoldResult::Held => self.tap(JudgeGrade::Fantastic, failed),
++            HoldResult::LetGo => self.tap(JudgeGrade::Decent, failed),
++            HoldResult::Missed => {}
++        }
++    }
++}
+diff --git a/crates/deadsync-song-lua/src/actors/generated_players.rs b/crates/deadsync-song-lua/src/actors/generated_players.rs
+index 7701099db..1a7eac0d1 100644
+--- a/crates/deadsync-song-lua/src/actors/generated_players.rs
++++ b/crates/deadsync-song-lua/src/actors/generated_players.rs
+@@ -435,16 +435,23 @@ fn change_life(
+     // player is attached to a combined meter. SetLife still changes the shared
+     // inner meter immediately, before LifeChanged listeners run.
+     let recorded = if data.combined_life { 0.5 } else { life };
+-    {
++    let before = {
+         let mut state = data.statistics.lock().unwrap();
++        let before = if data.combined_life { 0.5 } else {
++            state.players.as_ref().map_or_else(
++                || state.life_records[data.index].samples.last().map_or(crate::SONG_LUA_INITIAL_LIFE, |&(_, life)| life),
++                |players| players[data.index].life)
++        };
++        state.life_records[data.index].record(before);
+         if let Some(players) = state.players.as_mut() {
+             if data.combined_life {
+                 for player in players.iter_mut() { player.life = life; }
+             }
+             players[data.index].life = life;
+-            players[data.index].life_record_latest = Some(recorded);
++            players[data.index].life_record_latest = Some(before);
+         }
+-    }
++        before
++    };
+     let catalog = table(call, call.captures()[2])?;
+     let key = call.intern_static(b"live_statistics")?;
+     let selected = call.raw_table_get(catalog, key)?;
+@@ -464,7 +471,7 @@ fn change_life(
+             )?,
+         )?
+     };
+-    raw_set(call, stats, b"__songlua_life", Value::Number(recorded as f64))?;
++    raw_set(call, stats, b"__songlua_life", Value::Number(before as f64))?;
+     if call
+         .store()
+         .clock
+@@ -484,11 +491,23 @@ fn change_life(
+     let meter = table(call, call.raw_table_get(actor, key)?)?;
+     raw_set(call, meter, b"__songlua_life", Value::Number(life as f64))?;
+     let params = call.try_new_table()?;
+-    call.with_roots(&[Value::Table(params)], |call| {
++    let result = call.with_roots(&[Value::Table(params)], |call| {
+         let meter_owner = if data.combined_life { 0 } else { data.index };
+         let player = call.try_intern(format!("PlayerNumber_P{}", meter_owner + 1).as_bytes())?;
+         raw_set(call, params, b"Player", player)?;
+         raw_set(call, params, b"LifeMeter", Value::Table(meter))?;
+         messages::dispatch(call, b"LifeChanged", Some(Value::Table(params)), true)
+-    })
++    });
++    // LifeMeterBar broadcasts synchronously inside Player::SetLife. Its
++    // listeners see the new meter and the preceding history entry; the final
++    // ChangeLifeRecord runs after the broadcast returns.
++    {
++        let mut state = data.statistics.lock().unwrap();
++        state.life_records[data.index].record(recorded);
++        if let Some(players) = state.players.as_mut() {
++            players[data.index].life_record_latest = Some(recorded);
++        }
++    }
++    raw_set(call, stats, b"__songlua_life", Value::Number(recorded as f64))?;
++    result
+ }
+diff --git a/crates/deadsync-song-lua/src/actors/lifecycle.rs b/crates/deadsync-song-lua/src/actors/lifecycle.rs
+index 9e1e7fe44..0e3cb0fe9 100644
+--- a/crates/deadsync-song-lua/src/actors/lifecycle.rs
++++ b/crates/deadsync-song-lua/src/actors/lifecycle.rs
+@@ -865,7 +865,7 @@ fn advance_node(
+             if let Some(child) = transitions::child(call, actor)?
+                 && time_left(call, child)? == 0.
+             {
+-                sprites::set(call, actor, "__songlua_transition_state", Value::Number(2.))?;
++                transitions::finish(call, actor)?;
+             }
+             true
+         }
+diff --git a/crates/deadsync-song-lua/src/actors/live_observation.rs b/crates/deadsync-song-lua/src/actors/live_observation.rs
+index b73df011a..9a59d6375 100644
+--- a/crates/deadsync-song-lua/src/actors/live_observation.rs
++++ b/crates/deadsync-song-lua/src/actors/live_observation.rs
+@@ -3,7 +3,118 @@ use super::*;
+ use crate::statistics;
+ 
+ const OBSERVER: &[u8] = b"__songlua_overlay_stage_observer";
++const OBSERVE_GETTERS: &[u8] = b"__songlua_observe_stage_getters";
+ type Output = Arc<Mutex<Option<crate::SongLuaOverlayStageObservation>>>;
++type StatisticsOutput = Arc<Mutex<Option<crate::live::SongLuaStageStatisticsObservation>>>;
++
++impl crate::SongRuntime {
++    /// Only invoke Lua getters when the native probe sampled this update.
++    /// Authored overrides may have side effects, so intervening frames retain
++    /// the cheap host snapshot without introducing additional Lua queries.
++    pub fn set_stage_getter_observation(&mut self, enabled: bool) -> Result<(), Error> {
++        let key = self.vm.try_intern(OBSERVE_GETTERS)?;
++        self.vm.raw_table_set(self.actors.helpers, key, Value::Boolean(enabled))
++    }
++
++    /// Observe the public Lua getters without advancing gameplay or publishing
++    /// replacement statistics. Lifecycle probes use this same reader as the
++    /// pre-foreground overlay probe below.
++    pub fn observe_stage_statistics(
++        &mut self,
++    ) -> Result<crate::live::SongLuaStageStatisticsObservation, Error> {
++        let output: StatisticsOutput = Default::default();
++        let globals = self.vm.get_global(b"_G")?;
++        let callback = self.vm.new_host_function_with_data(
++            |call| {
++                let output = call.function_data::<StatisticsOutput>().unwrap().clone();
++                let globals = table(call, call.captures()[0])?;
++                *output.lock().unwrap() = Some(read_statistics(call, globals)?);
++                Ok(())
++            },
++            &[globals],
++            output.clone(),
++        )?;
++        self.vm.call(callback, &[])?;
++        let observed = output.lock().unwrap().take().expect("stage observer ran");
++        Ok(observed)
++    }
++}
++
++fn query(
++    call: &mut HostCall<'_>,
++    owner: Value,
++    name: &[u8],
++    args: &[Value],
++) -> Result<Value, Error> {
++    let mut values = Vec::with_capacity(args.len() + 1);
++    values.push(owner);
++    values.extend_from_slice(args);
++    call.with_roots(&values, |call| {
++        let key = call.try_intern(name)?;
++        let function = call.table_get(owner, key)?;
++        Ok(call.call(function, &values)?.first().copied().unwrap_or(Value::Nil))
++    })
++}
++
++fn numeric_query(call: &mut HostCall<'_>, owner: Value, name: &[u8]) -> Result<f64, Error> {
++    let value = query(call, owner, name, &[])?;
++    sprites::number(call, value)
++}
++
++fn read_statistics(
++    call: &mut HostCall<'_>,
++    globals: TableId,
++) -> Result<crate::live::SongLuaStageStatisticsObservation, Error> {
++    let game = get_static(call, globals, b"GAMESTATE")?;
++    let manager = get_static(call, globals, b"STATSMAN")?;
++    let stage = query(call, manager, b"GetCurStageStats", &[])?;
++    call.with_roots(&[game, stage], |call| {
++        let gameplay_seconds = numeric_query(call, stage, b"GetGameplaySeconds")?;
++        let steps_seconds = numeric_query(call, stage, b"GetStepsSeconds")?;
++        let enabled = query(call, game, b"GetEnabledPlayers", &[])?;
++        call.with_roots(&[enabled], |call| {
++            let enabled = table(call, enabled)?;
++            let mut players = Vec::new();
++            for index in 1..=crate::LUA_PLAYERS + 1 {
++                let player = call.raw_table_get(enabled, Value::Number(index as f64))?;
++                if player == Value::Nil { break; }
++                if index > crate::LUA_PLAYERS {
++                    return Err(call.error(b"stage observer found too many enabled players"));
++                }
++                let stringify = get_static(call, globals, b"tostring")?;
++                let identity = call.call(stringify, &[player])?.first().copied().unwrap_or(Value::Nil);
++                let identity = assets::text(call, identity)?;
++                let stats = query(call, stage, b"GetPlayerStageStats", &[player])?;
++                let observed = call.with_roots(&[stats], |call| {
++                    let life = query(call, stats, b"GetLifeRecord", &[
++                        Value::Number(gameplay_seconds), Value::Number(2.0),
++                    ])?;
++                    let [life_begin, life_latest] = call.with_roots(&[life], |call| {
++                        let life = table(call, life)?;
++                        let first = call.raw_table_get(life, Value::Number(1.0))?;
++                        let last = call.raw_table_get(life, Value::Number(2.0))?;
++                        Ok([sprites::number(call, first)?, sprites::number(call, last)?])
++                    })?;
++                    let state = query(call, game, b"GetPlayerState", &[player])?;
++                    let autoplay = call.with_roots(&[state], |call| {
++                        let current = call.try_intern(b"ModsLevel_Current")?;
++                        let options = query(call, state, b"GetPlayerOptions", &[current])?;
++                        numeric_query(call, options, b"PlayerAutoPlay")
++                    })?;
++                    let score = numeric_query(call, stats, b"GetScore")?;
++                    let current_max_score = numeric_query(call, stats, b"GetCurMaxScore")?;
++                    let alive_seconds = numeric_query(call, stats, b"GetAliveSeconds")?;
++                    Ok(crate::live::SongLuaStagePlayerObservation {
++                        player: identity, score, current_max_score, alive_seconds,
++                        life_begin, life_latest, autoplay,
++                    })
++                })?;
++                players.push(observed);
++            }
++            Ok(crate::live::SongLuaStageStatisticsObservation { gameplay_seconds, steps_seconds, players })
++        })
++    })
++}
+ 
+ #[derive(Clone)]
+ struct Observer {
+@@ -91,10 +202,12 @@ fn install(call: &mut HostCall<'_>) -> Result<(), Error> {
+     // compared, like the native probe pointer, and does not retain a dead scene.
+     let callback = call.new_host_function_with_data(
+         record,
+-        &[call.captures()[2], Value::Table(globals)],
++        &[call.captures()[2], Value::Table(globals), call.captures()[1]],
+         data,
+     )?;
+     let helpers = table(call, call.captures()[1])?;
++    let capture_key = call.try_intern(OBSERVE_GETTERS)?;
++    call.raw_table_set(helpers, capture_key, Value::Boolean(false))?;
+     let key = call.try_intern(OBSERVER)?;
+     call.raw_table_set(helpers, key, callback)
+ }
+@@ -134,11 +247,18 @@ fn record(call: &mut HostCall<'_>) -> Result<(), Error> {
+     let key = call.try_intern(crate::SECONDS.as_bytes())?;
+     let seconds = call.table_get(Value::Table(runtime), key)?;
+     let music_seconds = sprites::number(call, seconds)? as f32;
++    let helpers = table(call, call.captures()[2])?;
++    let statistics = if get_static(call, helpers, OBSERVE_GETTERS)? == Value::Boolean(true) {
++        Some(read_statistics(call, globals)?)
++    } else {
++        None
++    };
+     *data.output.lock().unwrap() = Some(crate::SongLuaOverlayStageObservation {
+         beat,
+         music_seconds,
+         players,
+         player_step_indices,
++        statistics,
+     });
+     Ok(())
+ }
+diff --git a/crates/deadsync-song-lua/src/actors/song_multitap.rs b/crates/deadsync-song-lua/src/actors/song_multitap.rs
+index efce9f58a..ac22bfd8e 100644
+--- a/crates/deadsync-song-lua/src/actors/song_multitap.rs
++++ b/crates/deadsync-song-lua/src/actors/song_multitap.rs
+@@ -286,8 +286,7 @@ fn advance(call: &mut HostCall<'_>) -> Result<(), Error> {
+                         } else if let Some(child) = transitions::child(call, actor)?
+                             && lifecycle::time_left(call, child)? == 0.
+                         {
+-                            let key = call.intern_static(b"__songlua_transition_state")?;
+-                            call.raw_table_set(actor, key, Value::Number(2.))?;
++                            transitions::finish(call, actor)?;
+                         }
+                     }
+                 }
+diff --git a/crates/deadsync-song-lua/src/actors/top_screen.rs b/crates/deadsync-song-lua/src/actors/top_screen.rs
+index f5980b5c9..ede23bf91 100644
+--- a/crates/deadsync-song-lua/src/actors/top_screen.rs
++++ b/crates/deadsync-song-lua/src/actors/top_screen.rs
+@@ -116,6 +116,7 @@ fn install(call: &mut HostCall<'_>) -> Result<(), Error> {
+     let catalog = table(call, call.captures()[2])?;
+     let slots = get_static(call, catalog, b"game_state_slots")?;
+     let screen = table(call, call.captures()[3])?;
++    transitions::bind_screen_completion(call, screen, data.requests.clone())?;
+     let mut captures = call.captures().to_vec();
+     captures[2] = slots;
+     let wheel = call.try_new_table()?;
+diff --git a/crates/deadsync-song-lua/src/actors/transitions.rs b/crates/deadsync-song-lua/src/actors/transitions.rs
+index 8c3742581..23a330f02 100644
+--- a/crates/deadsync-song-lua/src/actors/transitions.rs
++++ b/crates/deadsync-song-lua/src/actors/transitions.rs
+@@ -168,6 +168,66 @@ pub(super) fn start(call: &mut HostCall<'_>, actor: TableId) -> Result<(), Error
+     Ok(())
+ }
+ 
++pub(super) fn bind_screen_completion(
++    call: &mut HostCall<'_>,
++    screen: TableId,
++    requests: Arc<Mutex<crate::managers::screen::Requests>>,
++) -> Result<(), Error> {
++    let function = call.new_host_function_with_data(
++        complete_screen_transition,
++        &[call.captures()[0], call.captures()[1], Value::Table(screen)],
++        requests.clone(),
++    )?;
++    set(call, table(call, call.captures()[1])?, "gameplay_transition_complete", function)?;
++    let class = global_table(call, "GameState")?;
++    if get_static(call, class, b"GetGameplayLeadIn")? == Value::Nil {
++        let getter = call.new_host_function_with_data(|call| {
++            let state = call.function_data::<Arc<Mutex<crate::managers::screen::Requests>>>().unwrap();
++            let lead_in = state.lock().unwrap().gameplay_lead_in;
++            call.push(Value::Boolean(lead_in))
++        }, &[], requests)?;
++        set(call, class, "GetGameplayLeadIn", getter)?;
++    }
++    Ok(())
++}
++
++/// Transition sends its completion synchronously before updating its child.
++/// Use the actual retained transition owners, including authored tween writes.
++pub(super) fn finish(call: &mut HostCall<'_>, actor: TableId) -> Result<(), Error> {
++    set(call, actor, "__songlua_transition_state", Value::Number(2.))?;
++    let callback = get_static(call, table(call, call.captures()[1])?, b"gameplay_transition_complete")?;
++    if callback != Value::Nil {
++        call.call(callback, &[Value::Table(actor)])?;
++    }
++    Ok(())
++}
++
++fn complete_screen_transition(call: &mut HostCall<'_>) -> Result<(), Error> {
++    let requests = call.function_data::<Arc<Mutex<crate::managers::screen::Requests>>>().unwrap().clone();
++    let screen = table(call, call.captures()[2])?;
++    let actor = table(call, arg(call, 0))?;
++    let role = get_static(call, actor, b"__songlua_transition_role")?;
++    let role = if role == Value::Nil {
++        get_static(call, actor, b"__songlua_screen_actor_role")?
++    } else { role };
++    let role = if role == Value::Nil { String::new() } else { assets::text(call, role)? };
++    let is_in = role == "In";
++    let is_ready = role == "Ready";
++    let target = if is_in { "Ready" } else if is_ready { "Go" } else { return Ok(()); };
++    native_children::with_children(call, screen, |call, candidate| {
++        let role = get_static(call, candidate, b"__songlua_screen_actor_role")?;
++        if role != Value::Nil && assets::text(call, role)? == target {
++            start(call, candidate)?;
++        }
++        Ok(())
++    })?;
++    if is_ready {
++        requests.lock().unwrap().gameplay_lead_in = false;
++        messages::dispatch(call, b"GameplayLeadInChanged", None, false)?;
++    }
++    Ok(())
++}
++
+ #[cfg(feature = "test-support")]
+ fn start_callback(call: &mut HostCall<'_>) -> Result<(), Error> {
+     start(call, table(call, arg(call, 0))?)
+@@ -246,6 +306,10 @@ fn commands(
+ 
+ pub(super) fn create(call: &mut HostCall<'_>, scene: u64, name: &str) -> Result<TableId, Error> {
+     let actor = dummy(call, scene, "ActorFrame", name, None)?;
++    let role = call.try_intern(name.as_bytes())?;
++    // Named transitions already have a dedicated pass in the live traversal;
++    // screen_actor_role identifies the separate unnamed transition owners.
++    set(call, actor, "__songlua_transition_role", role)?;
+     set(call, actor, "__songlua_transition_state", Value::Number(0.))?;
+     if name.eq_ignore_ascii_case("In") {
+         create_in(call, scene, actor)?;
+diff --git a/crates/deadsync-song-lua/src/live.rs b/crates/deadsync-song-lua/src/live.rs
+index 108d75a43..a8776d5c9 100644
+--- a/crates/deadsync-song-lua/src/live.rs
++++ b/crates/deadsync-song-lua/src/live.rs
+@@ -19,9 +19,13 @@ pub struct SongLuaLivePlayer {
+     pub possible_points: i32,
+     pub actual_points: i32,
+     pub current_possible_points: i32,
++    /// None leaves a standalone or inactive statistics owner's setter intact.
++    pub score: Option<u32>,
++    pub current_max_score: Option<u32>,
+     pub life: f32,
+     /// PlayerStageStats history is separate from the current LifeMeter value.
+     pub life_record_latest: Option<f32>,
++    pub alive_seconds: f32,
+     pub failed: bool,
+     pub combo: u32,
+     pub recorded_max_combo: u32,
+@@ -38,6 +42,34 @@ pub struct SongLuaLivePlayer {
+     pub fail_enabled: bool,
+ }
+ 
++#[cfg(feature = "test-support")]
++#[derive(Clone, Debug)]
++pub struct SongLuaStagePlayerObservation {
++    pub player: String,
++    pub score: f64,
++    pub current_max_score: f64,
++    pub alive_seconds: f64,
++    pub life_begin: f64,
++    pub life_latest: f64,
++    pub autoplay: f64,
++}
++
++#[cfg(feature = "test-support")]
++#[derive(Clone, Debug)]
++pub struct SongLuaStageStatisticsObservation {
++    pub gameplay_seconds: f64,
++    pub steps_seconds: f64,
++    pub players: Vec<SongLuaStagePlayerObservation>,
++}
++
++#[cfg(feature = "test-support")]
++#[derive(Clone, Copy, Debug)]
++pub struct SongLuaGameplayClockObservation {
++    pub delta_seconds: f32,
++    pub music_rate: f32,
++    pub steps_time_active: bool,
++}
++
+ #[cfg(feature = "test-support")]
+ #[derive(Clone, Debug)]
+ pub struct SongLuaOverlayStageObservation {
+@@ -45,6 +77,8 @@ pub struct SongLuaOverlayStageObservation {
+     pub music_seconds: f32,
+     pub players: [SongLuaLivePlayer; LUA_PLAYERS],
+     pub player_step_indices: [Option<usize>; LUA_PLAYERS],
++    /// Actual Lua getter results at the overlay boundary, before foregrounds.
++    pub statistics: Option<SongLuaStageStatisticsObservation>,
+ }
+ 
+ #[derive(Clone, Copy, Debug, PartialEq)]
+@@ -53,6 +87,8 @@ pub enum SongLuaLivePlayerWrite {
+     RecordLife { player: usize, life: f32 },
+     Fail { player: usize },
+     FailRoutine,
++    SetScore { player: usize, score: u32, maximum: bool },
++    SetRoutineScore { score: u32, maximum: bool },
+ }
+ 
+ pub(crate) fn apply_player_writes<P: deadsync_gameplay::GameplayProfileData, O, C, D>(
+@@ -71,6 +107,18 @@ pub(crate) fn apply_player_writes<P: deadsync_gameplay::GameplayProfileData, O,
+                 game.mark_player_stage_failed_from_script(player)
+             }
+             SongLuaLivePlayerWrite::FailRoutine => game.mark_routine_stage_failed_from_script(),
++            SongLuaLivePlayerWrite::SetScore { player, score, maximum } => {
++                if let Some(player) = game.players_runtime.players.get_mut(player) {
++                    if maximum { player.stage_score.current_max_score = score; }
++                    else { player.stage_score.score = score; }
++                }
++            }
++            SongLuaLivePlayerWrite::SetRoutineScore { score, maximum } => {
++                if let Some(routine) = &mut game.players_runtime.routine {
++                    if maximum { routine.stats.stage_score.current_max_score = score; }
++                    else { routine.stats.stage_score.score = score; }
++                }
++            }
+         }
+     }
+ }
+@@ -92,6 +140,8 @@ pub struct SongLuaLiveFrame {
+     pub beat: f64,
+     pub music_seconds: f64,
+     pub screen_seconds: f64,
++    pub gameplay_seconds: f64,
++    pub steps_seconds: f64,
+     pub delta_seconds: f64,
+     /// Independent process clock; music can remain frozen while this advances.
+     pub uptime_seconds: Option<f64>,
+@@ -112,10 +162,13 @@ impl SongLuaLivePlayer {
+             possible_points,
+             actual_points: player.earned_grade_points,
+             current_possible_points: player.current_possible_points,
++            score: player.stage_score.configured.then_some(player.stage_score.score),
++            current_max_score: player.stage_score.configured.then_some(player.stage_score.current_max_score),
+             life: player.life,
+-            life_record_latest: player.life_history.last().map(|&(_, life)| life).or_else(||
++            life_record_latest: player.stage_life_record.samples.last().map(|&(_, life)| life).or_else(||
+                 matches!(player.life_record_source, deadsync_gameplay::LifeRecordSource::Combined(_)).then_some(0.)),
+             failed: player.stage_failed || player.fail_time.is_some(),
++            alive_seconds: player.alive_seconds,
+             fail_enabled: player.fail_type != deadsync_gameplay::GameplayFailType::Off,
+             combo: player.combo,
+             recorded_max_combo: player.recorded_max_combo,
+@@ -152,6 +205,8 @@ impl SongLuaLiveFrame {
+             beat: f64::from(game.clock.song_position.current_beat),
+             music_seconds: game.clock.song_position.current_music_time_ns as f64 / 1_000_000_000.0,
+             screen_seconds: f64::from(game.boundary.total_elapsed_in_screen),
++            gameplay_seconds: f64::from(game.boundary.gameplay_seconds),
++            steps_seconds: f64::from(game.boundary.steps_seconds),
+             delta_seconds: f64::from(delta_seconds),
+             uptime_seconds: None,
+             gameplay_outro: game.mods.attacks.cleared_for_outro,
+diff --git a/crates/deadsync-song-lua/src/live_frames.rs b/crates/deadsync-song-lua/src/live_frames.rs
+index 65b5f578a..8d4ffdc4c 100644
+--- a/crates/deadsync-song-lua/src/live_frames.rs
++++ b/crates/deadsync-song-lua/src/live_frames.rs
+@@ -213,8 +213,12 @@ impl SongLiveFrames {
+         life: f32,
+     ) -> Result<(), Error> {
+         let owners = self.owners(runtime)?;
+-        if let Some(p) = runtime.statistics.lock().unwrap().players.as_mut() {
+-            p[player].life_record_latest = Some(life);
++        {
++            let mut state = runtime.statistics.lock().unwrap();
++            state.life_records[player].record(life);
++            if let Some(p) = state.players.as_mut() {
++                p[player].life_record_latest = Some(life);
++            }
+         }
+         runtime.vm.with_native_stack(|s| {
+             let base = s.top();
+@@ -497,6 +501,28 @@ impl SongLiveFrames {
+         Ok(beat)
+     }
+ 
++    pub(super) fn current_music_rate(&self, runtime: &mut SongRuntime) -> Result<f32, Error> {
++        let owners = self.owners(runtime)?;
++        runtime.vm.with_native_stack(|stack| {
++            let base = stack.top();
++            stack.push(owners)?;
++            index(stack, stack.top(), 4)?;
++            read(stack, stack.top(), "__songlua_music_rate", true)?;
++            let rate = stack.number(-1)? as f32;
++            stack.set_top(base)?;
++            Ok(rate)
++        })
++    }
++
++    pub(super) fn stage_clock_state(&self, runtime: &mut SongRuntime, beat: f32, song_bounds: [f32; 2]) -> Result<(f32, bool), Error> {
++        let rate = self.current_music_rate(runtime)?;
++        let seconds = self.context.song_note_bounds.unwrap_or(song_bounds);
++        let bounds = seconds.map(|seconds| self.context.song_timing.as_ref().map_or_else(
++            || seconds * self.context.song_display_bpms[1] / 60.0,
++            |timing| timing.get_song_position_with_rate(seconds, rate).beat));
++        Ok((rate, beat >= bounds[0] && beat < bounds[1]))
++    }
++
+     /// ScreenGameplay's post-actor health phase. Publish each new status before
+     /// notifying its listeners, so nested writes affect the following player.
+     /// The scene coordinator owns the existing report-once error policy.
+@@ -708,22 +734,14 @@ fn runtime_table(stack: &mut NativeStack<'_, '_>, globals: usize) -> Result<(),
+     require_table(stack, stack.top())
+ }
+ fn feed(runtime: &mut SongRuntime, owners: Value, frame: &SongLuaLiveFrame) -> Result<(), Error> {
+-    let paused = runtime.screen.state.lock().unwrap().gameplay_paused;
+     runtime.vm.with_native_stack(|stack| {
+         let base = stack.top();
+         stack.push(owners)?;
+         let batch = stack.top();
+         index(stack, batch, 1)?;
+         let stage = stack.top();
+-        if !paused {
+-            write(
+-                stack,
+-                stage,
+-                "__songlua_gameplay_seconds",
+-                Value::Number(frame.screen_seconds),
+-                true,
+-            )?;
+-        }
++        write(stack, stage, "__songlua_gameplay_seconds", Value::Number(frame.gameplay_seconds), true)?;
++        write(stack, stage, "__songlua_steps_seconds", Value::Number(frame.steps_seconds), true)?;
+         stack.set_top(stack.top() - 1)?;
+         let routine = frame.routine.unwrap_or_default();
+         for (i, player) in frame
+@@ -734,12 +752,16 @@ fn feed(runtime: &mut SongRuntime, owners: Value, frame: &SongLuaLiveFrame) -> R
+         {
+             index(stack, batch, if i == LUA_PLAYERS { 7 } else { i + 2 })?;
+             let stats = stack.top();
++            for (key, value) in [("__songlua_score", player.score), ("__songlua_cur_max_score", player.current_max_score)] {
++                if let Some(value) = value { write(stack, stats, key, Value::Number(f64::from(value)), true)?; }
++            }
+             for (key, value) in [
+                 (
+                     "__songlua_possible_dance_points",
+                     player.possible_points as f64,
+                 ),
+                 ("__songlua_actual_dance_points", player.actual_points as f64),
++                ("__songlua_alive_seconds", f64::from(player.alive_seconds)),
+                 ("__songlua_max_combo", player.recorded_max_combo as f64),
+                 (
+                     "__songlua_current_possible_dance_points",
+diff --git a/crates/deadsync-song-lua/src/live_scene.rs b/crates/deadsync-song-lua/src/live_scene.rs
+index 10d0466c9..00969362d 100644
+--- a/crates/deadsync-song-lua/src/live_scene.rs
++++ b/crates/deadsync-song-lua/src/live_scene.rs
+@@ -18,6 +18,14 @@ type ReloadParts = (
+     SongLuaLiveOutput,
+ );
+ 
++#[derive(Default)]
++struct SongRateSync {
++    lua: Option<f32>,
++    core: Option<f32>,
++    audio: Option<f32>,
++    pending_audio: Option<f32>,
++}
++
+ /// Actor bindings collected by the live compiler before transferring its VM.
+ /// Values remain rooted by the active screen until the constructor retains them.
+ pub struct SongLiveSceneBindings {
+@@ -34,6 +42,7 @@ pub struct SongLiveScene {
+     screen: ActorScene,
+     retained: Root,
+     frames: SongLiveFrames,
++    song_rate: Mutex<SongRateSync>,
+     layers: SongLiveLayers,
+     context: SongLuaCompileContext,
+     actors: Vec<Value>,
+@@ -60,6 +69,10 @@ pub struct SongLiveScene {
+     #[cfg(feature = "test-support")]
+     option_clock_deltas: Option<[f32; LUA_PLAYERS + 1]>,
+     #[cfg(feature = "test-support")]
++    gameplay_clock_input: Option<Option<f32>>,
++    #[cfg(feature = "test-support")]
++    gameplay_clock_observation: Option<crate::live::SongLuaGameplayClockObservation>,
++    #[cfg(feature = "test-support")]
+     overlay_observation: Arc<Mutex<Option<crate::SongLuaOverlayStageObservation>>>,
+ }
+ impl std::fmt::Debug for SongLiveScene {
+@@ -74,6 +87,7 @@ impl SongRuntime {
+     /// Begin a new live load before theme or authored Init callbacks. Retained
+     /// selected statistics survive until the new scene selects its own owners.
+     pub fn begin_live_song_load(&mut self) {
++        self.screen.state.lock().unwrap().gameplay_clock_origin = Some(std::time::Instant::now());
+         self.statistics.lock().unwrap().players = None;
+         self.actors.begin_live_load(&mut self.vm);
+         self.begin_screen_request_capture();
+@@ -149,6 +163,7 @@ impl SongLiveScene {
+             screen: b.screen,
+             retained,
+             frames,
++            song_rate: Mutex::new(SongRateSync::default()),
+             layers,
+             context: context.clone(),
+             actors: b.actors,
+@@ -175,6 +190,10 @@ impl SongLiveScene {
+             #[cfg(feature = "test-support")]
+             option_clock_deltas: None,
+             #[cfg(feature = "test-support")]
++            gameplay_clock_input: None,
++            #[cfg(feature = "test-support")]
++            gameplay_clock_observation: None,
++            #[cfg(feature = "test-support")]
+             overlay_observation: Default::default(),
+         };
+         let owner = scene.runtime.clone();
+@@ -350,6 +369,76 @@ impl SongLiveScene {
+         self.updated = true;
+         self.take_output(runtime)
+     }
++    /// Preserve the clock created before this screen's theme and song loading.
++    pub fn initialize_gameplay_clock<P: deadsync_gameplay::GameplayProfileData, O, C, D>(
++        &self,
++        game: &mut deadsync_gameplay::GameplayRuntimeState<P, O, C, D>,
++    ) {
++        if let Some(origin) = self.runtime.access().screen.state.lock().unwrap().gameplay_clock_origin {
++            game.set_stage_clock_origin(origin);
++        }
++    }
++
++    /// The actual retained In/Ready/Go transitions own the intro boundary.
++    /// Pausing and an already-entered outro suppress the native timer read.
++    pub fn gameplay_clock_active(&self) -> bool {
++        let runtime = self.runtime.access();
++        let state = runtime.screen.state.lock().unwrap();
++        // NotesEnded is queued on the last dancing update. Its timer read still
++        // runs; the next update handles LeaveGameplay after the actor tree.
++        !state.gameplay_lead_in && !state.gameplay_paused && !self.outro_reset
++    }
++
++    /// Finish the dancing branch after actors and failure resolution, before
++    /// physical input and Draw. Overlay observers in this frame see the prior
++    /// counters; subsequent input and drawing see these newly published values.
++    pub fn finish_gameplay_clock<P: deadsync_gameplay::GameplayProfileData, O, C, D>(
++        &mut self,
++        game: &mut deadsync_gameplay::GameplayRuntimeState<P, O, C, D>,
++        active: bool,
++    ) -> Result<(), Error> {
++        let owner = self.runtime.clone();
++        let mut runtime = owner.access();
++        // ScreenGameplay updates the sound speed after actors, before its
++        // dancing branch. Paused updates leave the pending rate for resume.
++        if !runtime.screen.state.lock().unwrap().gameplay_paused {
++            let mut rate = self.song_rate.lock().unwrap();
++            if let Some(pending) = rate.pending_audio.take()
++                && (pending - rate.audio.unwrap_or(pending)).abs() > 0.01
++            {
++                game.push_audio_command(deadsync_gameplay::GameplayAudioCommand::SetMusicRate(pending));
++                rate.audio = Some(pending);
++            }
++        }
++        #[cfg(feature = "test-support")]
++        let raw_delta = {
++            self.gameplay_clock_observation = None;
++            let input = self.gameplay_clock_input.take();
++            if input.is_some_and(|input| input.is_some() != active) {
++                return Err(error(&mut runtime, b"native gameplay timer call differs from owned intro/pause/outro lifecycle"));
++            }
++            input.flatten()
++        };
++        #[cfg(not(feature = "test-support"))]
++        let raw_delta = None;
++        if active {
++            let (music_rate, steps_time_active) = self.frames.stage_clock_state(&mut runtime, self.last_beat,
++                [game.source.song.first_second, game.source.song.precise_last_second()])?;
++            let delta_seconds = game.advance_stage_clock(raw_delta, music_rate, steps_time_active);
++            #[cfg(feature = "test-support")]
++            { self.gameplay_clock_observation = Some(crate::live::SongLuaGameplayClockObservation {
++                delta_seconds, music_rate, steps_time_active,
++            }); }
++            #[cfg(not(feature = "test-support"))]
++            let _ = delta_seconds;
++        }
++        runtime.publish_gameplay_life_records(game);
++        let frame = SongLuaLiveFrame::from_gameplay(game, 0.0);
++        runtime.feed_stage_statistics(&frame)?;
++        runtime.publish_live_players(frame.players);
++        Ok(())
++    }
++
+     pub fn input(
+         &mut self,
+         event: &crate::SongLuaInputEvent<'_>,
+diff --git a/crates/deadsync-song-lua/src/live_scene/gameplay.rs b/crates/deadsync-song-lua/src/live_scene/gameplay.rs
+index 1fa55a3ec..4c4b1713d 100644
+--- a/crates/deadsync-song-lua/src/live_scene/gameplay.rs
++++ b/crates/deadsync-song-lua/src/live_scene/gameplay.rs
+@@ -16,6 +16,7 @@ impl Callbacks {
+         runtime: &mut SongRuntime,
+         game: &GameplayRuntimeState<P, O, C, D>,
+     ) -> Result<SongLuaLiveFrame, Error> {
++        runtime.publish_gameplay_life_records(game);
+         let frame = SongLuaLiveFrame::from_gameplay(game, 0.);
+         let owners = runtime.vm.rooted(self.statistics.root)?;
+         runtime.feed_gameplay_callback(owners, &frame, self.timing.as_ref())?;
+@@ -54,6 +55,7 @@ impl SongLiveScene {
+         game: &GameplayRuntimeState<P, O, C, D>,
+     ) -> Result<(), Error> {
+         let mut runtime = self.runtime.access();
++        runtime.publish_gameplay_life_records(game);
+         let owners = self.frames.owners(&mut runtime)?;
+         runtime.feed_gameplay_callback(owners, &SongLuaLiveFrame::from_gameplay(game, 0.), self.context.song_timing.as_ref())
+     }
+@@ -254,8 +256,27 @@ impl SongLiveScene {
+         game: &mut GameplayRuntimeState<P, O, C, D>,
+     ) -> Result<(), Error> {
+         let mut runtime = self.runtime.access();
++        runtime.publish_gameplay_life_records(game);
+         let pauses = std::mem::take(&mut runtime.screen.state.lock().unwrap().gameplay_pauses);
+         for paused in pauses { game.set_gameplay_paused(paused); }
++        let current_rate = self.frames.current_music_rate(&mut runtime)?;
++        {
++            let mut rate = self.song_rate.lock().unwrap();
++            let core_rate = game.music_rate();
++            if rate.core != Some(core_rate) {
++                // Practice and other application controls can change the core
++                // directly. An unchanged Lua option must not undo that write.
++                rate.audio = Some(core_rate);
++                rate.pending_audio = None;
++            }
++            if rate.lua != Some(current_rate) {
++                rate.lua = Some(current_rate);
++                if game.set_music_rate(current_rate) {
++                    rate.pending_audio = Some(game.music_rate());
++                }
++            }
++            rate.core = Some(game.music_rate());
++        }
+         runtime.refresh_gameplay_options(std::array::from_fn(|player| {
+             deadsync_gameplay::base_appearance_effects(&game.profiles_runtime.profiles[player])
+         }))?;
+diff --git a/crates/deadsync-song-lua/src/live_scene/replay.rs b/crates/deadsync-song-lua/src/live_scene/replay.rs
+index 9494d2506..af661de6d 100644
+--- a/crates/deadsync-song-lua/src/live_scene/replay.rs
++++ b/crates/deadsync-song-lua/src/live_scene/replay.rs
+@@ -2,6 +2,17 @@
+ use super::*;
+ 
+ impl SongLiveScene {
++    /// One independent raw timer read, or an explicit no-call observation.
++    /// The scene validates this against its own transition and pause state.
++    pub fn set_gameplay_clock_input(&mut self, delta_seconds: Option<f32>) {
++        assert!(delta_seconds.is_none_or(|delta| delta.is_finite() && delta >= 0.0));
++        self.gameplay_clock_input = Some(delta_seconds);
++    }
++
++    pub fn gameplay_clock_observation(&self) -> Option<crate::live::SongLuaGameplayClockObservation> {
++        self.gameplay_clock_observation
++    }
++
+     /// Independent ModsGroup deltas consumed by the next unprepared frame.
+     pub fn set_option_clock_deltas(&mut self, deltas: [f32; LUA_PLAYERS + 1]) {
+         self.option_clock_deltas = Some(deltas);
+diff --git a/crates/deadsync-song-lua/src/managers/screen.rs b/crates/deadsync-song-lua/src/managers/screen.rs
+index 5661211ec..5f2a0d04f 100644
+--- a/crates/deadsync-song-lua/src/managers/screen.rs
++++ b/crates/deadsync-song-lua/src/managers/screen.rs
+@@ -15,6 +15,8 @@ type Shared = Arc<Mutex<Requests>>;
+ pub(crate) struct Requests {
+     pub gameplay_paused: bool,
+     pub gameplay_pauses: Vec<bool>,
++    pub gameplay_lead_in: bool,
++    pub gameplay_clock_origin: Option<std::time::Instant>,
+     pub gameplay_outro: bool,
+     pub next: Option<String>,
+     pub actor_names: Option<super::super::actors::ActorNames>,
+@@ -55,6 +57,7 @@ impl SongRuntime {
+             let mut state = self.screen.state.lock().unwrap();
+             state.gameplay_paused = false;
+             state.gameplay_pauses.clear();
++            state.gameplay_lead_in = true;
+             state.gameplay_outro = false;
+         }
+         let globals = self.vm.rooted(self.screen.globals)?;
+diff --git a/crates/deadsync-song-lua/src/managers/statistics.rs b/crates/deadsync-song-lua/src/managers/statistics.rs
+index 348f58665..904add72e 100644
+--- a/crates/deadsync-song-lua/src/managers/statistics.rs
++++ b/crates/deadsync-song-lua/src/managers/statistics.rs
+@@ -30,7 +30,7 @@ enum Op {
+     Taps,
+     Record,
+     Radar(f32),
+-    GameplaySeconds,
++    Number(&'static str),
+     Host,
+ }
+ impl Op {
+@@ -38,6 +38,7 @@ impl Op {
+         match self {
+             Self::Integer("__songlua_possible_dance_points") => false,
+             Self::Integer(_)
++            | Self::Number(_)
+             | Self::Grade
+             | Self::Failed
+             | Self::Percent
+@@ -130,11 +131,10 @@ fn initialize(call: &mut HostCall<'_>) -> Result<(), Error> {
+             stage,
+             "GetGameplaySeconds",
+             &binding,
+-            Op::GameplaySeconds,
++            Op::Number("__songlua_gameplay_seconds"),
+         )?;
+-        for name in ["GetTotalPossibleStepsSeconds", "GetStepsSeconds"] {
+-            method(call, stage, name, context.music_length_seconds.max(0.))?;
+-        }
++        bound(call, stage, "GetStepsSeconds", &binding, Op::Number("__songlua_steps_seconds"))?;
++        method(call, stage, "GetTotalPossibleStepsSeconds", context.music_length_seconds.max(0.))?;
+         method(call, stage, "GetStageIndex", 0_i32)?;
+         method(call, stage, "GetStage", "Stage_1st")?;
+         for name in [
+@@ -258,6 +258,7 @@ fn player(
+         for key in [
+             "__songlua_score",
+             "__songlua_cur_max_score",
++            "__songlua_alive_seconds",
+             "__songlua_actual_dance_points",
+             "__songlua_possible_dance_points",
+             "__songlua_current_possible_dance_points",
+@@ -312,6 +313,7 @@ fn player(
+             ("GetCurrentMissCombo", Op::Combo("__songlua_miss_combo")),
+             ("GetTapNoteScores", Op::Taps),
+             ("GetLifeRecord", Op::Record),
++            ("GetAliveSeconds", Op::Number("__songlua_alive_seconds")),
+             ("GetRadarActual", Op::Radar(0.)),
+             ("GetRadarPossible", Op::Radar(1.)),
+             ("GetRadarValues", Op::Radar(0.)),
+@@ -323,7 +325,6 @@ fn player(
+             "GetNumControllerSteps",
+             "GetSurvivalSeconds",
+             "GetLifeRemainingSeconds",
+-            "GetAliveSeconds",
+             "GetHoldNoteScores",
+             "GetLessonScoreActual",
+             "GetLessonScoreNeeded",
+@@ -426,12 +427,16 @@ fn callback(call: &mut HostCall<'_>) -> Result<(), Error> {
+     if matches!(binding.op, Op::Host) {
+         let phase = binding.state.lock().unwrap().pending.take();
+         return match phase {
+-            Some(Phase::Reset(context)) => reset(call, &context),
++            Some(Phase::Reset(context)) => {
++                binding.state.lock().unwrap().reset_life_records(&context);
++                reset(call, &context)
++            },
+             Some(Phase::Feed {
+                 seconds,
++                steps_seconds,
+                 players,
+                 routine,
+-            }) => feed(call, seconds, players, routine),
++            }) => feed(call, seconds, steps_seconds, players, routine),
+             None => Err(call.error(b"missing statistics phase")),
+         };
+     }
+@@ -486,6 +491,28 @@ fn callback(call: &mut HostCall<'_>) -> Result<(), Error> {
+                 && score >= 0
+             {
+                 write(call, owner, key, Value::Number(score as f64))?;
++                let maximum = key == "__songlua_cur_max_score";
++                let owner = table(call, owner)?;
++                let routine = raw(call, owner, "__songlua_routine_stats")? == Value::Boolean(true);
++                let index = raw(call, owner, "__songlua_player_index")?;
++                let index = if let Value::Number(index) = index {
++                    (index >= 0.0 && index < crate::LUA_PLAYERS as f64).then_some(index as usize)
++                } else { None };
++                let mut state = binding.state.lock().unwrap();
++                let target = if routine { state.routine.as_mut() }
++                    else { state.players.as_mut().and_then(|players| index.map(|i| &mut players[i])) };
++                if let Some(target) = target {
++                    if maximum { target.current_max_score = Some(score as u32); }
++                    else { target.score = Some(score as u32); }
++                }
++                if binding.clock.live.load(Ordering::Relaxed) {
++                    let write = if routine {
++                        Some(crate::SongLuaLivePlayerWrite::SetRoutineScore { score: score as u32, maximum })
++                    } else {
++                        index.map(|player| crate::SongLuaLivePlayerWrite::SetScore { player, score: score as u32, maximum })
++                    };
++                    if let Some(write) = write { state.writes.push(write); }
++                }
+             }
+             super::side_effect(call, call.captures()[1], call.captures()[2])?;
+             owner
+@@ -548,20 +575,36 @@ fn callback(call: &mut HostCall<'_>) -> Result<(), Error> {
+             })
+         }
+         Op::Record => {
+-            let samples = integer(call, arg(call, 1))
+-                .unwrap_or(crate::GRAPH_DISPLAY_VALUE_RESOLUTION as i32)
+-                .max(1) as usize;
++            let receiver = table(call, call.arguments().first().copied().unwrap_or(Value::Nil))?;
++            let last_second = number(call, arg(call, 0))? as f32;
++            let requested = arg(call, 1);
++            let requested = if requested == Value::Nil { 100 } else { number(call, requested)? as i32 };
++            let samples = if requested <= 0 { 100 } else { requested as usize };
++            let routine = raw(call, receiver, "__songlua_routine_stats")? == Value::Boolean(true);
++            let player = match raw(call, receiver, "__songlua_player_index")? {
++                Value::Number(index) if index >= 0.0 && index < crate::LUA_PLAYERS as f64 => Some(index as usize),
++                _ => None,
++            };
++            let values: Vec<f32> = {
++                let state = binding.state.lock().unwrap();
++                let history = if routine { Some(&state.routine_life_record) }
++                    else { player.map(|index| &state.life_records[index]) };
++                (0..samples).map(|i| {
++                    let seconds = (i as f32) * last_second / (samples as f32 - 1.0);
++                    history.map_or(0.0, |record| record.sample(seconds))
++                }).collect()
++            };
+             let record = object(call, |call, record| {
+-                for i in 1..=samples {
+-                    set(record, i, crate::SONG_LUA_INITIAL_LIFE.clamp(0., 1.), call)?;
++                for (i, value) in values.iter().enumerate() {
++                    set(record, i + 1, *value, call)?;
+                 }
+                 Ok(())
+             })?;
+             Value::Table(record)
+         }
+         Op::Radar(fallback) => Value::Table(super::scores::radar(call, fallback)?),
+-        Op::GameplaySeconds => {
+-            let value = raw(call, table(call, owner)?, "__songlua_gameplay_seconds")?;
++        Op::Number(key) => {
++            let value = raw(call, table(call, owner)?, key)?;
+             Value::Number(number(call, value)?)
+         }
+         Op::Host => unreachable!(),
+@@ -572,6 +615,7 @@ fn callback(call: &mut HostCall<'_>) -> Result<(), Error> {
+ fn reset(call: &mut HostCall<'_>, context: &crate::SongLuaCompileContext) -> Result<(), Error> {
+     let stage = table(call, call.captures()[0])?;
+     set(stage, "__songlua_gameplay_seconds", 0_f64, call)?;
++    set(stage, "__songlua_steps_seconds", 0_f64, call)?;
+     let players = raw_table(call, stage, "__songlua_player_stats")?;
+     let selected = table(call, call.captures()[5])?;
+     call.with_roots(&[Value::Table(players)], |call| {
+@@ -603,6 +647,7 @@ fn reset(call: &mut HostCall<'_>, context: &crate::SongLuaCompileContext) -> Res
+                     "__songlua_current_possible_dance_points",
+                     "__songlua_score",
+                     "__songlua_cur_max_score",
++                    "__songlua_alive_seconds",
+                 ] {
+                     set(stats, key, 0_i32, call)?;
+                 }
+@@ -647,6 +692,7 @@ fn reset(call: &mut HostCall<'_>, context: &crate::SongLuaCompileContext) -> Res
+ fn feed(
+     call: &mut HostCall<'_>,
+     seconds: f64,
++    steps_seconds: f64,
+     values: [crate::SongLuaLivePlayer; crate::LUA_PLAYERS],
+     routine: Option<crate::SongLuaLivePlayer>,
+ ) -> Result<(), Error> {
+@@ -656,6 +702,7 @@ fn feed(
+         seconds,
+         call,
+     )?;
++    set(table(call, call.captures()[0])?, "__songlua_steps_seconds", steps_seconds, call)?;
+     for (index, value) in values
+         .into_iter()
+         .chain([routine.unwrap_or_default()])
+@@ -667,6 +714,9 @@ fn feed(
+             index + 3
+         };
+         let stats = table(call, call.captures()[slot])?;
++        set(stats, "__songlua_alive_seconds", value.alive_seconds, call)?;
++        if let Some(score) = value.score { set(stats, "__songlua_score", f64::from(score), call)?; }
++        if let Some(score) = value.current_max_score { set(stats, "__songlua_cur_max_score", f64::from(score), call)?; }
+         set(
+             stats,
+             "__songlua_possible_dance_points",
+diff --git a/crates/deadsync-song-lua/src/statistics.rs b/crates/deadsync-song-lua/src/statistics.rs
+index 655317234..b6cbd951b 100644
+--- a/crates/deadsync-song-lua/src/statistics.rs
++++ b/crates/deadsync-song-lua/src/statistics.rs
+@@ -7,6 +7,7 @@ pub(super) enum Phase {
+     Reset(Box<SongLuaCompileContext>),
+     Feed {
+         seconds: f64,
++        steps_seconds: f64,
+         players: [crate::SongLuaLivePlayer; LUA_PLAYERS],
+         routine: Option<crate::SongLuaLivePlayer>,
+     },
+@@ -16,12 +17,44 @@ pub(super) struct State {
+     pub pending: Option<Phase>,
+     pub players: Option<[crate::SongLuaLivePlayer; LUA_PLAYERS]>,
+     pub routine: Option<crate::SongLuaLivePlayer>,
++    pub life_records: [deadsync_gameplay::StageLifeRecord; LUA_PLAYERS],
++    pub routine_life_record: deadsync_gameplay::StageLifeRecord,
+     pub writes: Vec<SongLuaLivePlayerWrite>,
+     /// Sticky across preparation phases: these values depend on actual play.
+     pub requires_live: bool,
+ }
+ 
++impl State {
++    pub fn reset_life_records(&mut self, context: &SongLuaCompileContext) {
++        let combined = crate::song_lua_style_info(&context.style_name).style_type
++            == "StyleType_TwoPlayersSharedSides";
++        for (record, player) in self.life_records.iter_mut().zip(&context.players) {
++            record.clear();
++            if player.enabled && !combined { record.record(crate::SONG_LUA_INITIAL_LIFE); }
++        }
++        self.routine_life_record.clear();
++    }
++}
++
+ impl SongRuntime {
++    /// Publish actual PlayerStageStats histories while reusing their retained
++    /// buffers. Keep variable-length history out of the inline frame payload.
++    pub fn publish_gameplay_life_records<P: deadsync_gameplay::GameplayProfileData, O, C, D>(
++        &mut self,
++        game: &deadsync_gameplay::GameplayRuntimeState<P, O, C, D>,
++    ) {
++        let mut state = self.statistics.lock().unwrap();
++        for (index, (record, player)) in state.life_records.iter_mut().zip(&game.players_runtime.players).enumerate() {
++            if index < game.num_players() { record.copy_from(&player.stage_life_record); }
++            else { record.clear(); }
++        }
++        if let Some(routine) = &game.players_runtime.routine {
++            state.routine_life_record.copy_from(&routine.stats.stage_life_record);
++        } else {
++            state.routine_life_record.clear();
++        }
++    }
++
+     pub(crate) fn require_statistics_offline_compatible(&self) -> Result<(), String> {
+         if self.statistics.lock().unwrap().requires_live {
+             Err(crate::runtime_fallback::STATISTICS_REQUIRED.into())
+@@ -39,7 +72,8 @@ impl SongRuntime {
+     /// It does not advance clocks, options, live players, health or messages.
+     pub fn feed_stage_statistics(&mut self, frame: &crate::SongLuaLiveFrame) -> Result<(), Error> {
+         self.statistics_phase(Phase::Feed {
+-            seconds: frame.screen_seconds,
++            seconds: frame.gameplay_seconds,
++            steps_seconds: frame.steps_seconds,
+             players: frame.players,
+             routine: frame.routine,
+         })
+diff --git a/crates/deadsync-theme-simply-love/src/screens/gameplay.rs b/crates/deadsync-theme-simply-love/src/screens/gameplay.rs
+index f039232b8..140ac5bbd 100644
+--- a/crates/deadsync-theme-simply-love/src/screens/gameplay.rs
++++ b/crates/deadsync-theme-simply-love/src/screens/gameplay.rs
+@@ -985,6 +985,7 @@ impl GameplayPresentationSkeleton {
+ impl State {
+     /// Transfer authored callbacks from the loading worker to the gameplay screen.
+     pub fn attach_song_lua(&mut self, mut scene: deadsync_song_lua::SongLuaLiveScene) -> Result<(), String> {
++        scene.initialize_gameplay_clock(&mut self.gameplay);
+         scene.write_visuals(&mut self.gameplay.mods.song_lua_visuals)?;
+         scene.prepare_gameplay_player_options(&mut self.gameplay)
+             .map_err(|error| error.to_string())?;
+@@ -1061,6 +1062,7 @@ impl State {
+     fn advance_song_lua(&mut self, delta: f32, uptime_seconds: Option<f64>, effects: &mut Vec<ThemeEffect>) -> Result<(), String> {
+         let Some(scene) = &mut self.song_lua else { return Ok(()); };
+         scene.apply_pending_player_writes(&mut self.gameplay);
++        scene.runtime_mut().publish_gameplay_life_records(&self.gameplay);
+         let mut frame = deadsync_song_lua::SongLuaLiveFrame::from_gameplay(&self.gameplay, delta);
+         frame.uptime_seconds = uptime_seconds;
+         let outro_before_actors = frame.gameplay_outro;
+@@ -1068,11 +1070,14 @@ impl State {
+         scene.apply_output_player_writes(&output, &mut self.gameplay);
+         scene.prepare_gameplay_player_options(&mut self.gameplay)
+             .map_err(|error| error.to_string())?;
++        let gameplay_clock_active = scene.gameplay_clock_active();
+         // Native ScreenGameplay checks failure after updating its actor tree.
+         // Lua can drain life during this update, after the core's earlier check.
+         if !outro_before_actors && self.gameplay.finish_gameplay_if_ready(false).is_some() {
+             scene.note_gameplay_outro_after_actors();
+         }
++        scene.finish_gameplay_clock(&mut self.gameplay, gameplay_clock_active)
++            .map_err(|error| error.to_string())?;
+         let request = output.request.as_ref().or(self.song_lua_output.request.as_ref());
+         if matches!(request, Some(deadsync_song_lua::SongLuaLiveRequest::Transition(message)) if message == "SM_DoNextScreen")
+             && self.song_lua_out.is_none()
+diff --git a/tests/full_song_lua.rs b/tests/full_song_lua.rs
+index 3a9e8d465..7e460949d 100644
+--- a/tests/full_song_lua.rs
++++ b/tests/full_song_lua.rs
+@@ -10,5 +10,13 @@ mod paths;
+ mod semantics;
+ 
+ fn main() -> std::process::ExitCode {
+-    semantics::whole_song_archives::run_cli(std::env::args().skip(1).collect())
++    // Production preparation nests gameplay init and Lua composition. Match
++    // live_song_lua's worker stack on Windows as well as Linux.
++    std::thread::Builder::new()
++        .name("full-song-lua-replay".into())
++        .stack_size(8 * 1024 * 1024)
++        .spawn(|| semantics::whole_song_archives::run_cli(std::env::args().skip(1).collect()))
++        .expect("spawn archive replay worker")
++        .join()
++        .expect("archive replay worker panicked")
+ }
+diff --git a/tests/song_lua_itgmania_semantic_parity/native_gameplay.rs b/tests/song_lua_itgmania_semantic_parity/native_gameplay.rs
+index dd9b0c355..cf4419b70 100644
+--- a/tests/song_lua_itgmania_semantic_parity/native_gameplay.rs
++++ b/tests/song_lua_itgmania_semantic_parity/native_gameplay.rs
+@@ -502,6 +502,25 @@ fn coverage(trace: &Value, scope: Scope, calls: &Value, replayed: usize, total:
+     if trace["capabilities"]["native_constructor_queries"] != true {
+         pending.push("native constructor query results are not captured".to_owned());
+     }
++    if trace["capabilities"]["native_gameplay_clock_inputs"] != true {
++        pending.push("gameplay/alive/steps clock comparisons require independent native gameplay timer inputs".to_owned());
++    }
++    let mut missing_stage_getters = BTreeSet::new();
++    for sample in trace["stage_samples"].as_array().into_iter().flatten().filter(|sample|
++        matches!(sample["phase"].as_str(), Some("screen-active" | "progress" | "screen-end" | "gameplay-exit")))
++    {
++        if sample.get("gameplay_seconds").is_none() { missing_stage_getters.insert("gameplay_seconds"); }
++        if sample.get("steps_seconds").is_none() { missing_stage_getters.insert("steps_seconds"); }
++        for player in sample["players"].as_array().into_iter().flatten() {
++            for field in ["player", "score", "current_max_score", "alive_seconds", "life_begin", "life_latest", "autoplay"] {
++                if player.get(field).is_none() { missing_stage_getters.insert(field); }
++            }
++        }
++    }
++    if !missing_stage_getters.is_empty() {
++        pending.push(format!("native stage getter observations missing: {}",
++            missing_stage_getters.into_iter().collect::<Vec<_>>().join(", ")));
++    }
+     let uncovered: Vec<_> = observed
+         .iter()
+         .filter(|operation| !compared.contains(*operation))
+@@ -533,7 +552,7 @@ fn coverage(trace: &Value, scope: Scope, calls: &Value, replayed: usize, total:
+     }
+     json!({"scope":"captured-song-lua-context", "observed_song_operations":observed,
+         "uncompared_song_operations":uncovered, "nested_theme_operations":theme, "pending":pending,
+-        "global_pending":["full theme stage commitment and history", "unqueried score/alive-time observer fields",
++        "global_pending":["full theme stage commitment and history", "stage statistics outside captured observation phases",
+             "additional game/style/input/course contexts", "production live mode activation"]})
+ }
+ 
+@@ -1089,6 +1108,265 @@ return Def.ActorFrame {
+             "observer provenance must not suppress actual message delivery");
+     }
+ 
++    #[test]
++    fn stage_getter_comparison_rejects_unobserved_scores_clocks_and_player_rosters() {
++        use serde_json::json;
++        let native = json!({"phase":"progress","gameplay_seconds":12.5,"steps_seconds":8.0,"players":[{
++            "player":"PlayerNumber_P1","score":123,"current_max_score":456,
++            "alive_seconds":10.25,"life_begin":0.5,"life_latest":0.375,"autoplay":0.25,
++        }]});
++        let actual = json!({"gameplay_seconds":12.5,"steps_seconds":8.0,"players":[{
++            "player":"PlayerNumber_P1","score":123.0,"current_max_score":456.0,
++            "alive_seconds":10.25,"life_begin":0.5,"life_latest_getter":0.375,"autoplay":0.25,
++        }]});
++        let mut mismatches = Vec::new();
++        assert_eq!(super::compare_stage_getter_fields(&native, &actual, 8.0, 1, true, &mut mismatches), 10);
++        assert!(mismatches.is_empty());
++        for (path, replacement, field) in [
++            ("/gameplay_seconds", json!(12.0), "gameplay_seconds"),
++            ("/steps_seconds", json!(7.5), "steps_seconds"),
++            ("/players/0/player", json!("PlayerNumber_P2"), "player"),
++            ("/players/0/score", json!(0), "score"),
++            ("/players/0/current_max_score", json!(0), "current_max_score"),
++            ("/players/0/alive_seconds", json!(0), "alive_seconds"),
++            ("/players/0/life_begin", json!(0.0), "life_begin"),
++            ("/players/0/life_latest_getter", json!(0.5), "life_latest_getter"),
++            ("/players/0/autoplay", json!(1.0), "autoplay"),
++            ("/players", json!([]), "enabled_player_count"),
++        ] {
++            let mut changed = actual.clone();
++            *changed.pointer_mut(path).unwrap() = replacement;
++            let mut mismatches = Vec::new();
++            super::compare_stage_getter_fields(&native, &changed, 8.0, 1, true, &mut mismatches);
++            assert!(mismatches.iter().any(|mismatch| mismatch["field"] == field), "accepted {path}");
++        }
++        let legacy = json!({"phase":"progress","players":[{}]});
++        let mut mismatches = Vec::new();
++        assert_eq!(super::compare_stage_getter_fields(&legacy, &actual, 8.0, 1, false, &mut mismatches), 1);
++        assert!(mismatches.is_empty(), "absent legacy fields remain outside comparison");
++        let mut independent_clock_missing = actual.clone();
++        independent_clock_missing["gameplay_seconds"] = json!(999.0);
++        independent_clock_missing["steps_seconds"] = json!(999.0);
++        independent_clock_missing["players"][0]["alive_seconds"] = json!(999.0);
++        assert_eq!(super::compare_stage_getter_fields(&native, &independent_clock_missing,
++            8.0, 1, false, &mut mismatches), 7);
++        assert!(mismatches.is_empty(), "legacy timer results cannot supply missing independent inputs");
++    }
++
++    #[test]
++    fn stage_getter_observer_retains_public_results_before_foreground_updates() {
++        let mut state = owned_judgment_control("stage-getter-phase", "1000\n0000\n0000\n0000", r#"
++local stage = STATSMAN:GetCurStageStats()
++local stats = stage:GetPlayerStageStats(PLAYER_1)
++stats:SetScore(7)
++stats:SetCurMaxScore(11)
++stage.GetGameplaySeconds = function() return 7.25 end
++stats.GetAliveSeconds = function() return 2.5 end
++stats.GetLifeRecord = function(self, seconds, count)
++    assert(seconds == 7.25 and count == 2)
++    return {0.125, 0.375}
++end
++GAMESTATE:GetPlayerState(PLAYER_1):GetPlayerOptions('ModsLevel_Current').PlayerAutoPlay = function() return 0.25 end
++return Def.ActorFrame { OnCommand=function(self)
++    self:SetUpdateFunction(function()
++        stats:SetScore(stats:GetScore() + 1)
++        stats:SetCurMaxScore(stats:GetCurMaxScore() + 2)
++    end)
++end }
++"#, 0.0);
++        let scene = state.song_lua.as_ref().unwrap();
++        scene.enable_overlay_stage_observer().unwrap();
++        scene.runtime().set_stage_getter_observation(true).unwrap();
++        let before = scene.runtime().observe_stage_statistics().unwrap();
++        update_judgment_control(&mut state, 1_000_000_000, 2_000_000_000);
++        let scene = state.song_lua.as_ref().unwrap();
++        let overlay = scene.take_overlay_stage_observation().expect("overlay probe ran");
++        let after = scene.runtime().observe_stage_statistics().unwrap();
++        let statistics = overlay.statistics.expect("getter probe was requested");
++        assert_eq!(statistics.gameplay_seconds, 7.25);
++        assert_eq!(statistics.players.len(), 1);
++        let observed = &statistics.players[0];
++        assert_eq!(observed.player, "PlayerNumber_P1");
++        assert_eq!(observed.score, before.players[0].score);
++        assert_eq!(observed.current_max_score, before.players[0].current_max_score);
++        assert!(after.players[0].score > observed.score, "foreground getter writes follow the probe");
++        assert!(after.players[0].current_max_score > observed.current_max_score);
++        assert_eq!(observed.alive_seconds, 2.5);
++        assert_eq!([observed.life_begin, observed.life_latest], [0.125, 0.375]);
++        assert_eq!(observed.autoplay, 0.25, "retain the actual getter, not the controller bool");
++    }
++
++    #[test]
++    fn stage_clock_uses_owned_transitions_pause_rate_failure_and_observation_phase() {
++        let notes = std::iter::repeat_n("1000\n0000\n0000\n0000\n", 32).collect::<Vec<_>>().join(",\n");
++        let mut state = owned_judgment_control("stage-clock-phases", &notes, r#"
++local screen = SCREENMAN:GetTopScreen()
++local stats = STATSMAN:GetCurStageStats():GetPlayerStageStats(PLAYER_1)
++local updates = 0
++return Def.ActorFrame { OnCommand=function(self)
++    screen:GetChild('In'):finishtweening()
++    self:sleep(30)
++    GAMESTATE:GetPlayerState(PLAYER_1):GetPlayerOptions('ModsLevel_Song'):FailSetting('FailType_Off')
++    GAMESTATE:GetPlayerState(PLAYER_1):GetPlayerOptions('ModsLevel_Current'):FailSetting('FailType_Off')
++    self:SetUpdateFunction(function()
++        updates = updates + 1
++        if updates == 3 then
++            GAMESTATE:GetSongOptionsObject('ModsLevel_Song'):MusicRate(2)
++            GAMESTATE:GetSongOptionsObject('ModsLevel_Current'):MusicRate(2)
++        end
++        if updates == 4 then screen:PauseGame(true) end
++        if updates == 6 then screen:PauseGame(false) end
++        if updates == 7 then stats:FailPlayer() end
++    end)
++end }
++"#, 0.0);
++        let scene = state.song_lua.as_ref().unwrap();
++        scene.enable_overlay_stage_observer().unwrap();
++        scene.runtime().set_stage_getter_observation(true).unwrap();
++        let rows = [
++            (None, 0.0, 0.0),
++            (Some(1.25), 1.25, 1.25),
++            (Some(0.25), 1.5, 1.75),
++            (None, 1.5, 1.75),
++            (None, 1.5, 1.75),
++            (Some(0.75), 2.25, 3.25),
++            (Some(0.125), 2.375, 3.25),
++            (Some(0.125), 2.5, 3.25),
++        ];
++        let mut previous_gameplay = 0.0;
++        for (index, (delta, expected_gameplay, expected_alive)) in rows.into_iter().enumerate() {
++            state.song_lua.as_mut().unwrap().set_gameplay_clock_input(delta);
++            update_judgment_control(&mut state, 1_000_000_000 + index as i64 * 2_000_000,
++                2_000_000_000 + index as u64 * 2_000_000);
++            let scene = state.song_lua.as_ref().unwrap();
++            let overlay = scene.take_overlay_stage_observation().unwrap().statistics.unwrap();
++            assert_eq!(overlay.gameplay_seconds, previous_gameplay, "frame {index}: overlay precedes the timer read");
++            let actual = scene.runtime().observe_stage_statistics().unwrap();
++            assert_eq!(actual.gameplay_seconds, expected_gameplay, "frame {index}: gameplay clock");
++            assert_eq!(actual.steps_seconds, expected_gameplay, "frame {index}: active steps clock");
++            assert_eq!(actual.players[0].alive_seconds, expected_alive, "frame {index}: alive clock");
++            assert_eq!(state.gameplay.players()[0].stage_life_record.steps_seconds,
++                expected_gameplay as f32, "life records use the same steps clock");
++            previous_gameplay = expected_gameplay;
++        }
++    }
++
++    #[test]
++    fn stage_rate_bridge_preserves_external_changes_and_defers_paused_audio() {
++        use deadsync_gameplay::GameplayAudioCommand;
++        let notes = std::iter::repeat_n("1000\n0000\n0000\n0000\n", 32).collect::<Vec<_>>().join(",\n");
++        let mut state = owned_judgment_control("stage-rate-bridge", &notes, r#"
++local updates = 0
++local screen = SCREENMAN:GetTopScreen()
++local function rate(value)
++    GAMESTATE:GetSongOptionsObject('ModsLevel_Song'):MusicRate(value)
++    GAMESTATE:GetSongOptionsObject('ModsLevel_Current'):MusicRate(value)
++end
++return Def.ActorFrame { OnCommand=function(self)
++    screen:GetChild('In'):finishtweening()
++    self:sleep(30)
++    self:SetUpdateFunction(function()
++        updates = updates + 1
++        if updates == 2 then rate(1.5) end
++        if updates == 3 then rate(1.505) end
++        if updates == 4 then rate(2); screen:PauseGame(true) end
++        if updates == 5 then screen:PauseGame(false) end
++    end)
++end }
++"#, 0.0);
++        // Practice hotkeys update the core and audio directly. Preparing an
++        // unchanged Lua option must preserve this externally requested rate.
++        assert!(state.gameplay.set_music_rate(1.75));
++        state.gameplay.drain_audio_commands().for_each(drop);
++        for (index, (rate, audio)) in [
++            (1.75, None), (1.5, Some(1.5)), (1.505, None), (2.0, None), (2.0, Some(2.0)),
++        ].into_iter().enumerate() {
++            update_judgment_control(&mut state, 1_000_000_000 + index as i64 * 2_000_000,
++                2_000_000_000 + index as u64 * 2_000_000);
++            assert_eq!(state.gameplay.music_rate(), rate, "frame {index}: owned core rate");
++            let rates = state.gameplay.drain_audio_commands().filter_map(|command| match command {
++                GameplayAudioCommand::SetMusicRate(rate) => Some(rate), _ => None,
++            }).collect::<Vec<_>>();
++            assert_eq!(rates, audio.into_iter().collect::<Vec<_>>(), "frame {index}: native audio phase/threshold");
++        }
++    }
++
++    #[test]
++    fn stage_clock_waits_for_the_complete_native_intro() {
++        let mut state = owned_judgment_control("stage-clock-intro", "1000\n0000\n0000\n1000\n",
++            "return Def.ActorFrame { OnCommand=function(self) self:sleep(30) end }", 0.0);
++        // Native control: 30 Hz actor updates, first update zeroed, two-second
++        // In tween, then its completion and the Ready transition. Dancing first
++        // reads the independent timer on native update 64.
++        for index in 0..65 {
++            state.song_lua.as_mut().unwrap().set_gameplay_clock_input((index >= 63).then_some(0.25));
++            let host = 2_000_000_000 + index as u64 * 16_666_667;
++            gameplay::update(&mut state, if index == 0 { 0.0 } else { 1.0 / 30.0 },
++                GameplayAudioSnapshot { stream_clock: GameplayStreamClockSnapshot {
++                    music_nanos: -6_000_000_000 + index as i64 * 16_666_667,
++                    has_music_mapping: true, valid_at_host_nanos: host, ..Default::default()
++                }, ..Default::default() }, || host, &mut Vec::new());
++            let output = state.take_song_lua_output();
++            assert!(output.errors.is_empty(), "native update {}: {:?}", index + 1, output.errors);
++        }
++        let actual = state.song_lua.as_ref().unwrap().runtime().observe_stage_statistics().unwrap();
++        assert_eq!(actual.gameplay_seconds, 0.5);
++        assert_eq!(actual.players[0].alive_seconds, 0.5);
++    }
++
++    #[test]
++    fn stage_clock_counts_the_update_that_queues_notes_ended() {
++        let mut state = owned_judgment_control("stage-clock-outro", "1000\n0000\n0000\n0000\n,\n0100\n0000\n0000\n0000\n", r#"
++return Def.ActorFrame { OnCommand=function(self)
++    SCREENMAN:GetTopScreen():GetChild('In'):finishtweening()
++    self:sleep(30)
++end }
++"#, 0.0);
++        let end = state.gameplay.music_end_time_ns();
++        // Native ScreenGameplay reads its timer on the update that queues
++        // SM_NotesEnded; the following update handles LeaveGameplay and stops it.
++        for (index, (music, delta, seconds)) in [
++            (1_000_000_000, None, 0.0),
++            (1_002_000_000, Some(0.25), 0.25),
++            (end, Some(0.125), 0.375),
++            (end + 2_000_000, None, 0.375),
++        ].into_iter().enumerate() {
++            state.song_lua.as_mut().unwrap().set_gameplay_clock_input(delta);
++            update_judgment_control(&mut state, music, 2_000_000_000 + index as u64 * 2_000_000);
++            let actual = state.song_lua.as_ref().unwrap().runtime().observe_stage_statistics().unwrap();
++            assert_eq!(actual.gameplay_seconds, seconds, "frame {index}: gameplay clock");
++            assert_eq!(actual.players[0].alive_seconds, seconds, "frame {index}: alive clock");
++        }
++    }
++
++    #[test]
++    fn stage_clock_input_validation_requires_explicit_complete_frame_associations() {
++        let valid = serde_json::json!({"capabilities":{"native_gameplay_clock_inputs":true},
++            "update_frames":[
++                {"scene":1,"native_update_frame":1,"native_update_sequence":31,"gameplay_clock_inputs":null},
++                {"scene":1,"native_update_frame":2,"native_update_sequence":32,
++                    "gameplay_clock_inputs":{"phase":"after-gameplay-actors","scene":1,
++                        "native_update_frame":2,"native_update_sequence":32,"delta_seconds":0.125,
++                        "music_rate":2.0,"steps_time_active":true}}
++            ]});
++        super::validate_gameplay_clock_inputs(&valid).unwrap();
++        for (path, value) in [
++            ("/update_frames/0/gameplay_clock_inputs", serde_json::json!(false)),
++            ("/update_frames/1/native_update_sequence", serde_json::json!(31)),
++            ("/update_frames/1/gameplay_clock_inputs/scene", serde_json::json!(2)),
++            ("/update_frames/1/gameplay_clock_inputs/phase", serde_json::json!("before-actors")),
++            ("/update_frames/1/gameplay_clock_inputs/delta_seconds", serde_json::json!(-0.1)),
++            ("/update_frames/1/gameplay_clock_inputs/steps_time_active", serde_json::json!(null)),
++        ] {
++            let mut invalid = valid.clone();
++            *invalid.pointer_mut(path).unwrap() = value;
++            assert!(super::validate_gameplay_clock_inputs(&invalid).is_err(), "accepted {path}");
++        }
++        let mut missing = valid;
++        missing["update_frames"][0].as_object_mut().unwrap().remove("gameplay_clock_inputs");
++        assert!(super::validate_gameplay_clock_inputs(&missing).is_err());
++    }
++
+     #[test]
+     fn native_failed_exit_records_history_without_emptying_the_meter() {
+         use deadsync_song_lua::{SongLuaCompileContext, SongLuaLiveFrame, SongLuaNoteskinResolver, compile_song_lua};
+@@ -3412,6 +3690,8 @@ end}
+                 beat: 0.25,
+                 music_seconds: 0.25,
+                 screen_seconds: 0.25,
++                gameplay_seconds: 0.0,
++                steps_seconds: 0.0,
+                 delta_seconds: 0.01,
+                 uptime_seconds: None,
+                 gameplay_outro: false,
+@@ -4117,6 +4397,49 @@ pub(crate) fn validate_capture(trace: &Value) -> Result<(), String> {
+         return Err("native stage observations are empty".into());
+     }
+     interactive::validate(trace)?;
++    validate_gameplay_clock_inputs(trace)?;
++    if trace["capabilities"]["native_gameplay_clock_inputs"] == true {
++        for sample in trace["stage_samples"].as_array().unwrap().iter().filter(|sample|
++            matches!(sample["phase"].as_str(), Some("screen-active" | "progress" | "screen-end" | "gameplay-exit"))) {
++            number(sample, "gameplay_seconds")?;
++            number(sample, "steps_seconds")?;
++            for player in sample["players"].as_array().ok_or("native stage players are missing")? {
++                number(player, "alive_seconds")?;
++            }
++        }
++    }
++    Ok(())
++}
++
++fn validate_gameplay_clock_inputs(trace: &Value) -> Result<(), String> {
++    if trace["capabilities"]["native_gameplay_clock_inputs"] != true { return Ok(()); }
++    let frames = trace["update_frames"].as_array().ok_or("missing native gameplay clock frames")?;
++    let mut previous_sequence = None;
++    for frame in frames {
++        let sequence = frame["native_update_sequence"].as_u64().ok_or("missing native gameplay update identity")?;
++        if previous_sequence.is_some_and(|previous| sequence <= previous) {
++            return Err("native gameplay update identities are not increasing".into());
++        }
++        previous_sequence = Some(sequence);
++        if frame["scene"].as_u64().is_none() || frame["native_update_frame"].as_u64().is_none() {
++            return Err("missing native gameplay scene/frame identity".into());
++        }
++        let clock = frame.get("gameplay_clock_inputs").ok_or("declared native gameplay clock row is missing")?;
++        if clock.is_null() { continue; }
++        if !clock.is_object() || clock["phase"] != "after-gameplay-actors"
++            || ["scene", "native_update_frame", "native_update_sequence"].into_iter()
++                .any(|key| clock[key] != frame[key])
++            || !clock["steps_time_active"].is_boolean()
++        {
++            return Err("native gameplay clock has invalid phase or frame association".into());
++        }
++        for field in ["delta_seconds", "music_rate"] {
++            let value = number(clock, field)?;
++            if value < 0.0 || value > f64::from(f32::MAX) {
++                return Err(format!("native gameplay clock {field} is outside f32 range"));
++            }
++        }
++    }
+     Ok(())
+ }
+ 
+@@ -4312,11 +4635,27 @@ fn native_creation_order_with_coverage_for_entries(trace: &Value, scene: u64, ba
+ // overshoot. Observer clock inputs select the phase; scores remain independent.
+ fn native_progress_observer_frames(samples: &[Value], frames: &[Value]) -> Result<BTreeMap<usize, usize>, String> {
+     let mut result = BTreeMap::new();
+-    let mut cursor = 0;
++    let mut cursor = 0_usize;
+     for (sample_index, sample) in samples.iter().enumerate().filter(|(_, sample)|
+         matches!(sample["phase"].as_str(), Some("progress" | "screen-end" | "gameplay-exit"))) {
+-        let seconds = number(sample, "seconds")?;
+         let ending = sample["phase"] != "progress";
++        if let Some(sequence) = sample.get("update_sequence") {
++            let index = sequence.as_u64().and_then(|sequence| sequence.checked_sub(1))
++                .and_then(|index| usize::try_from(index).ok())
++                .filter(|&index| index >= cursor.saturating_sub(usize::from(ending)) && index < frames.len())
++                .ok_or("native stage observer has invalid update association")?;
++            let frame = &frames[index];
++            if frame["scene"] != sample["scene"]
++                || ["native_update_frame", "native_update_sequence"].into_iter()
++                    .any(|key| sample.get(key).is_some_and(|value| value != &frame[key]))
++            {
++                return Err("native stage observer has mismatched scene/frame association".into());
++            }
++            result.insert(sample_index, index);
++            cursor = index + usize::from(!ending);
++            continue;
++        }
++        let seconds = number(sample, "seconds")?;
+         let matches_clock = |frame: &Value| frame["scene"] == sample["scene"]
+             && frame["seconds"].as_f64().is_some_and(|time| (time - seconds).abs() <= 1e-6);
+         // Ending observers run after the scene's final update. Both ending
+@@ -4426,6 +4765,56 @@ fn native_profile_inputs(trace: &Value) -> Result<[deadsync_profile::Profile; 2]
+     Ok(profiles)
+ }
+ 
++fn compare_stage_getter_fields(
++    native: &Value,
++    actual: &Value,
++    seconds: f64,
++    scene: u64,
++    compare_clocks: bool,
++    mismatches: &mut Vec<Value>,
++) -> usize {
++    let mut compared = 0;
++    if compare_clocks {
++        for key in ["gameplay_seconds", "steps_seconds"] {
++            if let Some(expected) = native.get(key) {
++                compared += 1;
++                if !same_value(expected, &actual[key]) {
++                    mismatches.push(json!({"phase":native["phase"],"scene":scene,"seconds":seconds,
++                        "field":key,"native":expected,"deadsync":actual[key]}));
++                }
++            }
++        }
++    }
++    if let Some(players) = native["players"].as_array() {
++        let actual_count = actual["players"].as_array().map_or(0, Vec::len);
++        compared += 1;
++        if players.len() != actual_count {
++            mismatches.push(json!({"phase":native["phase"],"scene":scene,"seconds":seconds,
++                "field":"enabled_player_count","native":players.len(),"deadsync":actual_count}));
++        }
++        for (player, expected) in players.iter().enumerate() {
++            for (source, field) in [
++                ("player", "player"), ("score", "score"),
++                ("current_max_score", "current_max_score"), ("alive_seconds", "alive_seconds"),
++                ("life_begin", "life_begin"), ("autoplay", "autoplay"),
++                ("life_latest", "life_latest_getter"),
++            ] {
++                if source == "alive_seconds" && !compare_clocks { continue; }
++                // Legacy captures omit some getter observations. An explicit
++                // recorded null is still an observation, not an absent field.
++                let Some(expected) = expected.get(source) else { continue; };
++                compared += 1;
++                let observed = &actual["players"][player][field];
++                if !same_value(expected, observed) {
++                    mismatches.push(json!({"phase":native["phase"],"scene":scene,"seconds":seconds,
++                        "player_index":player,"field":field,"native":expected,"deadsync":observed}));
++                }
++            }
++        }
++    }
++    compared
++}
++
+ fn compare_stage_sample(
+     state: &gameplay::State,
+     song: &deadsync_chart::song::SongData,
+@@ -4433,10 +4822,25 @@ fn compare_stage_sample(
+     overlay_observation: Option<&deadsync_song_lua::SongLuaOverlayStageObservation>,
+     seconds: f64,
+     scene: u64,
++    compare_clocks: bool,
+     mismatches: &mut Vec<Value>,
+     observations: &mut Vec<Value>,
+ ) -> Result<usize, String> {
+-    let mut compared=0;
++    let lifecycle_statistics;
++    let statistics = if let Some(observation) = overlay_observation {
++        observation.statistics.as_ref().ok_or("missing stage getters at the owned overlay observation phase")?
++    } else {
++        lifecycle_statistics = state.song_lua.as_ref().ok_or("missing Lua metadata")?
++            .runtime().observe_stage_statistics().map_err(|error| error.to_string())?;
++        &lifecycle_statistics
++    };
++    let getters = json!({"gameplay_seconds":statistics.gameplay_seconds,"steps_seconds":statistics.steps_seconds,
++        "players":statistics.players.iter().map(|player| json!({
++            "player":player.player,"score":player.score,"current_max_score":player.current_max_score,
++            "alive_seconds":player.alive_seconds,"life_begin":player.life_begin,
++            "life_latest_getter":player.life_latest,"autoplay":player.autoplay,
++        })).collect::<Vec<_>>()});
++    let mut compared = compare_stage_getter_fields(sample, &getters, seconds, scene, compare_clocks, mismatches);
+     for p in 0..state.gameplay.num_players() {
+     let player = &state.players_runtime.players[p];
+     let score = state.stage_itg_score_inputs(p).ok_or("missing active player score inputs")?;
+@@ -4451,7 +4855,7 @@ fn compare_stage_sample(
+         else { context.song_step_chart_indices.get(selected).copied().flatten() }
+         .ok_or("GAMESTATE selected an unplayable chart")?;
+     let metadata = song.charts.get(chart_index).ok_or("GAMESTATE selected an absent chart")?;
+-    let actual = if let Some(observation) = overlay_observation {
++    let mut actual = if let Some(observation) = overlay_observation {
+         let observed = &observation.players[p];
+         json!({"possible":observed.possible_points, "current_possible":observed.current_possible_points,
+             "actual":observed.actual_points, "misses":observed.tap_scores[4],
+@@ -4482,8 +4886,13 @@ fn compare_stage_sample(
+                 "player_index":p,"field":key,"native":native[key],"deadsync":actual[key]}));
+         }
+     }
++    if let Some(getters) = getters["players"][p].as_object() {
++        actual.as_object_mut().unwrap().extend(getters.clone());
++    }
+     observations.push(json!({"phase":sample["phase"],"scene":scene,"seconds":seconds,
+         "beat":state.clock.song_position.current_beat,
++        "gameplay_seconds":statistics.gameplay_seconds,
++        "steps_seconds":statistics.steps_seconds,
+         "screen_seconds":state.boundary.total_elapsed_in_screen,"player_index":p,"player":actual}));
+     compared += fields.len();
+     }
+@@ -4716,6 +5125,9 @@ fn replay_mode(
+         .as_array()
+         .ok_or("missing native stage observations")?;
+     let progress_observer_frames = native_progress_observer_frames(samples, frames)?;
++    let stage_getter_frames: BTreeSet<_> = progress_observer_frames.iter()
++        .filter(|(sample, _)| samples[**sample]["phase"] == "progress")
++        .map(|(_, frame)| *frame).collect();
+     let preferences = &trace["input"]["preferences"];
+     let sync = match preferences["default_sync_offset"].as_str() {
+         Some("SyncOffset_NULL") => deadsync_chart::SyncPref::Null,
+@@ -5029,7 +5441,7 @@ fn replay_mode(
+                 }
+                 state.set_current_music_time_ns((at * 1e9).round() as i64);
+                 compared_fields += compare_stage_sample(&state, &song, sample, None, at,
+-                    scene_count, &mut mismatches, &mut observations)?;
++                    scene_count, trace["capabilities"]["native_gameplay_clock_inputs"] == true, &mut mismatches, &mut observations)?;
+                 checked_samples += 1;
+                 sample_cursor += 1;
+             }
+@@ -5061,6 +5473,16 @@ fn replay_mode(
+             let tan_tipsy = std::array::from_fn(|player| clocks["players"][player]["tan_tipsy_seconds"].as_f64());
+             if let Some(scene) = state.song_lua.as_mut() { scene.set_arrow_clock_inputs(tipsy, tan_tipsy); }
+         }
++        if trace["capabilities"]["native_gameplay_clock_inputs"] == true {
++            let clock = &frame["gameplay_clock_inputs"];
++            let delta = if clock.is_null() { None } else { Some(number(clock, "delta_seconds")? as f32) };
++            state.song_lua.as_mut().ok_or("native gameplay clock has no owned scene")?
++                .set_gameplay_clock_input(delta);
++        }
++        if observe_overlay && let Some(scene) = state.song_lua.as_ref() {
++            scene.runtime().set_stage_getter_observation(stage_getter_frames.contains(&index))
++                .map_err(|error| error.to_string())?;
++        }
+         gameplay::update_with_input(&mut state, delta as f32, snapshot, || host, &mut effects, |state| {
+         while let Some(event) = input_events.get(input_cursor) {
+             if event["before_update_sequence"].as_u64() != Some(index as u64+2) { break; }
+@@ -5069,6 +5491,25 @@ fn replay_mode(
+         }
+         });
+         if let Some(error)=input_error { return Err(error); }
++        if trace["capabilities"]["native_gameplay_clock_inputs"] == true {
++            let actual = state.song_lua.as_ref().and_then(|scene| scene.gameplay_clock_observation());
++            let native = &frame["gameplay_clock_inputs"];
++            compared_fields += 1;
++            if actual.is_some() != !native.is_null() {
++                mismatches.push(json!({"field":"gameplay_clock_call","scene":scene_count,
++                    "update_sequence":index+1,"native":!native.is_null(),"deadsync":actual.is_some()}));
++            }
++            if let Some(actual) = actual && !native.is_null() {
++                for (key, value) in [("music_rate", json!(actual.music_rate)),
++                    ("steps_time_active", json!(actual.steps_time_active))] {
++                    compared_fields += 1;
++                    if !same_value(&native[key], &value) {
++                        mismatches.push(json!({"field":format!("gameplay_clock_{key}"),"scene":scene_count,
++                            "update_sequence":index+1,"native":native[key],"deadsync":value}));
++                    }
++                }
++            }
++        }
+         let draw_start = draw_cursor;
+         while draw_samples.get(draw_cursor).is_some_and(|sample|
+             sample["update_sequence"].as_u64() == Some(index as u64+1)) { draw_cursor += 1; }
+@@ -5119,7 +5560,8 @@ fn replay_mode(
+                 .iter()
+                 .map(|event| broadcast_event(event, simfile)),
+         );
+-        errors.extend(output.errors);
++        errors.extend(output.errors.into_iter().map(|error|
++            format!("scene {scene_count}, update {}: {error}", index + 1)));
+         runtime_coverage.extend(output.coverage_gaps);
+         // Production coalesces screen loads, while the source trace records
+         // every authored invocation. Validate the queued effect independently.
+@@ -5176,7 +5618,7 @@ fn replay_mode(
+             checked_samples += 1;
+             compared_fields += compare_stage_sample(&state, &song, sample,
+                 (sample["phase"] == "progress").then_some(overlay_observation.as_ref()).flatten(), seconds,
+-                scene_count, &mut mismatches, &mut observations)?;
++                scene_count, trace["capabilities"]["native_gameplay_clock_inputs"] == true, &mut mismatches, &mut observations)?;
+         }
+     }
+     if production_path {
+@@ -5202,6 +5644,12 @@ fn replay_mode(
+             && interactive["draw_mismatches"] == 0
+             && interactive["draw_vibration_scopes_without_native_inputs"] == 0
+             && interactive["unreplayed_render_random_inputs"] == 0;
++        let mut pending_coverage = vec!["application build without test-support (run song_lua_execution)",
++            "full-song completion", "sampled framebuffer pixels", "production command/query instrumentation",
++            "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"];
++        if trace["capabilities"]["native_gameplay_clock_inputs"] != true {
++            pending_coverage.push("gameplay/alive/steps clock comparisons require independent native gameplay timer inputs");
++        }
+         return Ok(
+             json!({"execution_path":"production-live-lua","production_preparation_exercised":true,
+             "source_identity":source_identity,
+@@ -5211,9 +5659,7 @@ fn replay_mode(
+             "archive_accepted":false,"native_frames":frames.len(),"replayed_frames":used_frames,
+             "replayed_scenes":scene_count,"checked_stage_samples":checked_samples,"compared_stage_fields":compared_fields,
+             "interactive":interactive,"mismatches":mismatches,"errors":errors,
+-            "pending_coverage":["application build without test-support (run song_lua_execution)",
+-                "full-song completion","sampled framebuffer pixels","production command/query instrumentation",
+-                "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"]}),
++            "pending_coverage":pending_coverage}),
+         );
+     }
+     if scope != Scope::Full {
+diff --git a/tests/song_lua_itgmania_semantic_parity/whole_song_archives.rs b/tests/song_lua_itgmania_semantic_parity/whole_song_archives.rs
+index 631ab1f97..1bc944a68 100644
+--- a/tests/song_lua_itgmania_semantic_parity/whole_song_archives.rs
++++ b/tests/song_lua_itgmania_semantic_parity/whole_song_archives.rs
+@@ -1171,7 +1171,7 @@ fn archive_reference_rejects_obsolete_replays() {
+     assert!(std::panic::catch_unwind(|| validate_native_trace(&trace, &archive.manifest)).is_err());
+ }
+ 
+-const USAGE: &str = "Run one complete fixture:\n  cargo test --test full_song_lua <archive.tar.zst>\n\nCheck a native capture candidate before compression:\n  cargo test --test full_song_lua -- --archive <path.tar> --report <report.json> [--entry|--first-query|--through-second SECONDS]\n\nDiagnostic cutoffs preserve all preceding frames and cannot accept an archive.\n\nCompressed candidates also accept .tar.zst.\n\nList fixtures:\n  cargo test --test full_song_lua -- --list\n\nRun the complete corpus:\n  cargo test --test full_song_lua -- --all\n\nUse --jobs N with --all or multiple positional selectors to replay independent fixtures on multiple cores. Each fixture preserves chronological Lua execution.\n\nThe positional selector accepts a filename, SHA-256 prefix, or song title.\nNo selector prints this help; normal cargo test does not run the expensive corpus.";
++const USAGE: &str = "Run one complete fixture:\n  cargo test --test full_song_lua <archive.tar.zst>\n\nCheck a native capture candidate before compression:\n  cargo test --test full_song_lua -- --archive <path.tar> --report <report.json> [--production] [--entry|--first-query|--through-second SECONDS]\n\n--production additionally exercises normal gameplay preparation and requires both the diagnostic comparisons and production gameplay checks to pass. Its report preserves both execution paths and their pending coverage. It requires native gameplay archives.\n\nDiagnostic cutoffs preserve all preceding frames and cannot accept an archive.\n\nCompressed candidates also accept .tar.zst.\n\nList fixtures:\n  cargo test --test full_song_lua -- --list\n\nRun the complete corpus:\n  cargo test --test full_song_lua -- --all\n\nUse --jobs N with --all or multiple positional selectors to replay independent fixtures on multiple cores. Each fixture preserves chronological Lua execution. --production is propagated to every selected worker.\n\nThe positional selector accepts a filename, SHA-256 prefix, or song title.\nNo selector prints this help; normal cargo test does not run the expensive corpus.";
+ 
+ fn select_archive<'a>(
+     index: &'a ArchiveIndex,
+@@ -1248,6 +1248,11 @@ pub(crate) fn run_cli(mut args: Vec<String>) -> std::process::ExitCode {
+         args.drain(index..=index + 1);
+         jobs
+     } else { 1 };
++    let production_path = args.iter().position(|arg| arg == "--production")
++        .is_some_and(|index| {
++            args.remove(index);
++            true
++        });
+     if args.is_empty() || args == ["--help"] || args == ["-h"] {
+         println!("{USAGE}");
+         return ExitCode::SUCCESS;
+@@ -1256,7 +1261,7 @@ pub(crate) fn run_cli(mut args: Vec<String>) -> std::process::ExitCode {
+     if args.first().is_some_and(|arg| arg == "--archive") {
+         if !(args.len() == 4 || args.len() == 5 && matches!(args[4].as_str(), "--entry" | "--first-query")
+             || args.len() == 6 && args[4] == "--through-second") || args[2] != "--report" {
+-            eprintln!("expected --archive <path.tar|path.tar.zst> --report <report.json> [--entry|--first-query|--through-second SECONDS]");
++            eprintln!("expected --archive <path.tar|path.tar.zst> --report <report.json> [--production] [--entry|--first-query|--through-second SECONDS]");
+             return ExitCode::FAILURE;
+         }
+         let path = Path::new(&args[1]);
+@@ -1302,7 +1307,7 @@ pub(crate) fn run_cli(mut args: Vec<String>) -> std::process::ExitCode {
+             crate::paths::init();
+             let reporter = progress::Reporter::start();
+             let passed = replay_native_archive(&archive, scope, Path::new(&args[3]),
+-                &reporter.progress, (path, &fixture_hash));
++                &reporter.progress, (path, &fixture_hash), production_path);
+             assert_eq!(hash_file(path), fixture_hash, "candidate changed during replay");
+             passed
+         });
+@@ -1364,7 +1369,7 @@ pub(crate) fn run_cli(mut args: Vec<String>) -> std::process::ExitCode {
+         return ExitCode::FAILURE;
+     };
+     if jobs > 1 && selected.len() > 1 {
+-        return run_parallel_archives(&selected, jobs);
++        return run_parallel_archives(&selected, jobs, production_path);
+     }
+     crate::paths::init();
+     let started = std::time::Instant::now();
+@@ -1391,8 +1396,9 @@ pub(crate) fn run_cli(mut args: Vec<String>) -> std::process::ExitCode {
+             validate_archive(entry, &archive);
+             if archive.manifest.itgmania.execution == "native_gameplay" {
+                 return replay_native_archive(&archive, native_gameplay::Scope::Full,
+-                    &archive.root.join("native-report.json"), progress, (&fixture_path, &entry.sha256));
++                    &archive.root.join("native-report.json"), progress, (&fixture_path, &entry.sha256), production_path);
+             }
++            assert!(!production_path, "--production requires a native gameplay archive");
+             progress.stage("reading native trace");
+             let trace = read_trace_file(&archive.root.join(&archive.manifest.chart.trace));
+             validate_native_trace(&trace, &archive.manifest);
+@@ -1479,7 +1485,7 @@ pub(crate) fn run_cli(mut args: Vec<String>) -> std::process::ExitCode {
+     }
+ }
+ 
+-fn run_parallel_archives(entries: &[&ArchiveEntry], jobs: usize) -> std::process::ExitCode {
++fn run_parallel_archives(entries: &[&ArchiveEntry], jobs: usize, production_path: bool) -> std::process::ExitCode {
+     use std::sync::atomic::{AtomicUsize, Ordering::Relaxed};
+     let executable = std::env::current_exe().expect("fixture runner executable");
+     let next = AtomicUsize::new(0);
+@@ -1497,6 +1503,7 @@ fn run_parallel_archives(entries: &[&ArchiveEntry], jobs: usize) -> std::process
+                 command.arg(&entry.archive)
+                     .env_remove("DEADSYNC_PERF_CONTROL")
+                     .env_remove("DEADSYNC_PERF_ACK");
++                if production_path { command.arg("--production"); }
+                 if let Some(mut metrics) = std::env::var_os("DEADSYNC_SONG_LUA_METRICS") {
+                     metrics.push(format!(".worker-{index}.json"));
+                     command.env("DEADSYNC_SONG_LUA_METRICS", metrics);
+@@ -1522,6 +1529,7 @@ fn replay_native_archive(
+     report_path: &Path,
+     progress: &progress::Progress,
+     fixture: (&Path, &str),
++    production_path: bool,
+ ) -> bool {
+     use std::io::Write as _;
+     use std::sync::atomic::Ordering;
+@@ -1553,6 +1561,17 @@ fn replay_native_archive(
+             progress.frame.store(frame, Ordering::Relaxed);
+             progress.frames.store(frames, Ordering::Relaxed);
+         }).unwrap_or_else(|error| panic!("native gameplay replay failed: {error}"));
++    if production_path {
++        progress.stage("replaying production preparation and gameplay");
++        let production = native_gameplay::replay_production(
++            &trace, &trace_path, &archive.root.join(&archive.manifest.chart.simfile), scope,
++            |frame, frames| {
++                progress.frame.store(frame, Ordering::Relaxed);
++                progress.frames.store(frames, Ordering::Relaxed);
++            },
++        ).unwrap_or_else(|error| panic!("production gameplay replay failed: {error}"));
++        append_production_report(&mut report, production, scope);
++    }
+     if let Some(observer) = &archive.manifest.runtime.command_observer {
+         report["command_observer"] = serde_json::json!({
+             "dynamic_commands": observer.dynamic_commands,
+@@ -1567,7 +1586,10 @@ fn replay_native_archive(
+     progress.checks.fetch_add(report["compared_stage_fields"].as_u64().expect("stage field count") as usize, Ordering::Relaxed);
+     progress.failed.fetch_add(mismatches.iter().filter(|item|
+         matches!(item["field"].as_str(), Some("possible" | "current_possible" | "actual" | "misses" |
+-            "w1" | "w2" | "failed" | "life_latest" | "difficulty" | "description" | "meter"))).count(), Ordering::Relaxed);
++            "w1" | "w2" | "failed" | "life_latest" | "difficulty" | "description" | "meter" |
++            "gameplay_seconds" | "steps_seconds" | "enabled_player_count" | "player" | "score" |
++            "current_max_score" | "alive_seconds" | "life_begin" | "autoplay" | "life_latest_getter" |
++            "gameplay_clock_call" | "gameplay_clock_music_rate" | "gameplay_clock_steps_time_active"))).count(), Ordering::Relaxed);
+     // Keep the full observations, but bind metadata before streaming once.
+     // Reopening a large report to add two fields doubled serialization and I/O.
+     let mut output = std::io::BufWriter::with_capacity(64 * 1024,
+@@ -1579,7 +1601,91 @@ fn replay_native_archive(
+     for mismatch in mismatches.iter().take(20) { eprintln!("  {mismatch}"); }
+     for pending in coverage { eprintln!("  pending: {pending}"); }
+     eprintln!("report: {}", report_path.display());
+-    native_gameplay::archive_passes(scope, &report)
++    native_archive_report_passes(scope, &report)
++}
++
++fn native_archive_report_passes(scope: native_gameplay::Scope, report: &Value) -> bool {
++    native_gameplay::archive_passes(scope, report)
++        && (report.get("production_replay").is_none()
++            || (report["production_preparation_exercised"] == true
++                && report["production_gameplay_checks_passed"] == true
++                && report["diagnostic_replay_checks_passed"] == true))
++}
++
++fn append_production_report(report: &mut Value, production: Value, scope: native_gameplay::Scope) {
++    let diagnostic_passed = native_gameplay::archive_passes(scope, report);
++    report["diagnostic_replay_checks_passed"] = Value::Bool(diagnostic_passed);
++    report["production_preparation_exercised"] = production["production_preparation_exercised"].clone();
++    report["production_gameplay_checks_passed"] = production["production_gameplay_checks_passed"].clone();
++    report["execution_path"] = Value::String("production-and-diagnostic-live-lua".into());
++    report["diagnostic_compared_stage_fields"] = report["compared_stage_fields"].clone();
++    report["compared_stage_fields"] = serde_json::json!(
++        report["compared_stage_fields"].as_u64().expect("diagnostic comparison count")
++        + production["compared_stage_fields"].as_u64().expect("production comparison count"));
++    for mismatch in production["mismatches"].as_array().expect("production mismatches") {
++        let mut mismatch = mismatch.clone();
++        mismatch["execution_path"] = Value::String("production-live-lua".into());
++        report["mismatches"].as_array_mut().expect("diagnostic mismatches").push(mismatch);
++    }
++    for error in production["errors"].as_array().expect("production errors") {
++        report["errors"].as_array_mut().expect("diagnostic errors")
++            .push(Value::String(format!("production replay: {error}")));
++    }
++    for pending in production["pending_coverage"].as_array().expect("production pending coverage") {
++        report["pending_coverage"].as_array_mut().expect("diagnostic pending coverage")
++            .push(Value::String(format!("production replay: {}", pending.as_str().expect("coverage description"))));
++    }
++    report["production_replay"] = production;
++    let accepted = native_archive_report_passes(scope, report);
++    report["archive_accepted"] = Value::Bool(accepted);
++    report["diagnostic_only"] = Value::Bool(!accepted);
++    // Both paths retain explicit limits. A successful archive check cannot
++    // certify the application build, unobserved commands, or framebuffer pixels.
++    report["production_parity_proven"] = Value::Bool(false);
++    report["whole_song_parity_proven"] = Value::Bool(false);
++    report["pixel_parity_proven"] = Value::Bool(false);
++    report["acceptance_basis"] = Value::String("full diagnostic comparisons and production gameplay checks".into());
++}
++
++#[test]
++fn full_song_production_archive_requires_both_execution_paths() {
++    use native_gameplay::Scope;
++    let diagnostic = serde_json::json!({
++        "capture_completed_gameplay":true,"native_frames":3,"replayed_frames":3,
++        "compared_stage_fields":7,"mismatches":[],"errors":[],"pending_coverage":["diagnostic gap"],
++    });
++    let production = serde_json::json!({
++        "production_preparation_exercised":true,"production_gameplay_checks_passed":true,
++        "compared_stage_fields":5,"mismatches":[],"errors":[],"pending_coverage":["production gap"],
++    });
++    let combine = |diagnostic: Value, production: Value, scope| {
++        let mut report = diagnostic;
++        append_production_report(&mut report, production, scope);
++        report
++    };
++    let passed = combine(diagnostic.clone(), production.clone(), Scope::Full);
++    assert!(native_archive_report_passes(Scope::Full, &passed));
++    assert_eq!(passed["compared_stage_fields"], 12);
++    assert_eq!(passed["whole_song_parity_proven"], false);
++    assert_eq!(passed["pending_coverage"], serde_json::json!(["diagnostic gap", "production replay: production gap"]));
++    for field in ["production_preparation_exercised", "production_gameplay_checks_passed"] {
++        let mut failed = production.clone();
++        failed[field] = Value::Bool(false);
++        let report = combine(diagnostic.clone(), failed, Scope::Full);
++        assert!(!native_archive_report_passes(Scope::Full, &report), "accepted {field}");
++        assert_eq!(report["archive_accepted"], false);
++    }
++    let mut failed_diagnostic = diagnostic.clone();
++    failed_diagnostic["mismatches"] = serde_json::json!([{"field":"score"}]);
++    assert!(!native_archive_report_passes(Scope::Full, &combine(failed_diagnostic, production.clone(), Scope::Full)));
++    let mut failed_production = production.clone();
++    failed_production["mismatches"] = serde_json::json!([{"field":"life_latest"}]);
++    let failed = combine(diagnostic.clone(), failed_production, Scope::Full);
++    assert!(!native_archive_report_passes(Scope::Full, &failed));
++    assert_eq!(failed["mismatches"][0]["execution_path"], "production-live-lua");
++    let partial = combine(diagnostic, production, Scope::Entry);
++    assert!(!native_archive_report_passes(Scope::Entry, &partial));
++    assert_eq!(partial["archive_accepted"], false);
+ }
+ 
+ fn read_extracted_native_trace(archive: &ExtractedArchive) -> Value {
