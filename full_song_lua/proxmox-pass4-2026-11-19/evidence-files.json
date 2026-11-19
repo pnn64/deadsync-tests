@@ -48,5 +48,15 @@
     "path": "full_song_lua/proxmox-pass4-2026-11-19/corpus/authored-inventory.json",
     "bytes": 595312,
     "sha256": "501da0d6f31b58bee7096161fff8998fc68d3e5589aa2d25fe8af3ab525395e1"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/corpus/discovery-ledger.json",
+    "bytes": 1997722,
+    "sha256": "f2d5634ceb43dba2b3e3e8965af7fa0153f1cdfbfe0505ecdbfd7f832fc6ef43"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/corpus/initial-discovery-snapshot.json.gz",
+    "bytes": 981587,
+    "sha256": "554ba198ad7ce6c866f268356ee1d08130f3bf5ed21d61e375c3040351888826"
   }
 ]

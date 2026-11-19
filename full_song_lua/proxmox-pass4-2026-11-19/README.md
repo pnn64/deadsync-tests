@@ -54,8 +54,9 @@ The baseline DeadSync runner SHA-256 is
   `parity_proven: false`. These initial pipeline replays used diagnostic live Lua
   and did not exercise production preparation. Their acceptance must not be
   promoted to production or whole-song parity.
-- `corpus/` preserves the canonical file hashes and the authored header
-  inventory. `evidence-files.json` binds the ten accompanying evidence files.
+- `corpus/` preserves the canonical file hashes, authored header inventory,
+  initial native discovery ledger, and the exact compressed fleet snapshot
+  underlying that ledger. `evidence-files.json` binds the accompanying evidence.
 
 The two large original pipeline fixture archives are identified in
 `pipeline-baselines/download-receipt.json`; they are retained separately and
@@ -77,9 +78,15 @@ double, couple, routine, solo, and pump single/double profiles. One native
 lighting chart has no supported playback profile. Two simfiles did not produce
 a selectable catalog: Lesson by DJ.sm and a nested saved Cursed Metamorph.ssc.
 Fifteen probes produced usable native catalogs before a later probe error;
-their supported chart jobs remain included. The full discovery ledger and any
-recovery attempts belong in later evidence updates, without rewriting this
-initial inventory.
+their supported chart jobs remain included. `corpus/discovery-ledger.json`
+records all 582 sources, their native catalog identities, selected jobs, and
+exclusions. It also retains diagnostics for both unselectable sources: Lesson
+by DJ has a `#NOTES` line missing its colon, and the nested Cursed Metamorph
+directory contains only its SSC, without the music referenced by that file.
+Both original source hashes were rechecked; neither source was changed.
+The initial snapshot includes early running captures and eight baseline
+diagnostic passes, not completed fleet coverage. Preserve this inventory when
+adding any later recovery attempts.
 
 Fifteen workers receive 106-109 jobs each. Captures use real offscreen OpenGL
 through Xvfb, native timing, drawable capture, and raw gameplay timer inputs.
