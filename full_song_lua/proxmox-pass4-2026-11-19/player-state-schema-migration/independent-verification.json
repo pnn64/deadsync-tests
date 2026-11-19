@@ -1,0 +1,18 @@
+{
+  "snapshot_path": "regression-expectations/deadsync-song-lua/72c431600eddf935.snap",
+  "before_sha256": "049b758d3c6e6c8f2b0e4a99027f036377b6336a591d6a7b1a9dff2593411caa",
+  "after_sha256": "839a8061762cfe6796af0ac5da077ad27a42354ef9b7ff763fc9fb54a628315b",
+  "old_rows_verified": 130,
+  "existing_value_changes": 0,
+  "new_fields_only": [
+    "alive_seconds",
+    "life_record_source",
+    "recorded_max_combo",
+    "stage_life_record",
+    "stage_score"
+  ],
+  "temporary_collector_restored_byte_for_byte": true,
+  "unmodified_live_gameplay_tests": 16,
+  "native_observations_replaced": false,
+  "retained_files": 30
+}

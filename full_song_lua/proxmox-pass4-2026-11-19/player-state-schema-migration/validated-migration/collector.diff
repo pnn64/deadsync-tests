@@ -1,0 +1,93 @@
+--- C:\GitHub\deadsync-lua-fleet-20261119\crates\deadlib-lua\src\reference_test.rs
++++ C:\GitHub\deadsync-lua-fleet-20261119\crates\deadlib-lua\src\reference_test.rs.temporary-collector
+@@ -145,7 +145,8 @@
+             position.0, position.1
+         )
+     });
+-    let actual = normalize(format!("{actual:?}"));
++    let actual = normalize(format!("{actual:?}"));
++    if migration_collect_player_state(id, &position, &actual, expected) { return; }
+     if actual != *expected {
+         let offset = actual
+             .bytes()
+@@ -277,3 +278,80 @@
+     }
+     blocks
+ }
++
++// Temporary, strict schema migration. Never retained in production/test support.
++fn migration_strip_player_fields(actual: &str) -> String {
++    const MARKER: &str = "PlayerRuntime { ";
++    const ADDED: [&str; 5] = ["recorded_max_combo", "stage_score", "stage_life_record", "alive_seconds", "life_record_source"];
++    assert_eq!(actual.matches(MARKER).count(), 1, "one PlayerRuntime per observation");
++    let begin = actual.find(MARKER).unwrap() + MARKER.len();
++    let bytes = actual.as_bytes();
++    let mut depth: i32 = 0;
++    let mut quoted = false;
++    let mut escaped = false;
++    let mut field_begin = begin;
++    let mut fields: Vec<&str> = Vec::new();
++    let mut end = None;
++    for index in begin..bytes.len() {
++        let byte = bytes[index];
++        if quoted {
++            if escaped { escaped = false; }
++            else if byte == b'\\' { escaped = true; }
++            else if byte == b'"' { quoted = false; }
++            continue;
++        }
++        match byte {
++            b'"' => quoted = true,
++            b'{' | b'[' | b'(' => depth += 1,
++            b'}' if depth == 0 => {
++                assert_eq!(bytes[index - 1], b' ');
++                fields.push(&actual[field_begin..index - 1]);
++                end = Some(index - 1);
++                break;
++            }
++            b'}' | b']' | b')' => { depth -= 1; assert!(depth >= 0); }
++            b',' if depth == 0 => {
++                fields.push(&actual[field_begin..index]);
++                assert_eq!(bytes[index + 1], b' ');
++                field_begin = index + 2;
++            }
++            _ => {}
++        }
++    }
++    let end = end.expect("complete PlayerRuntime Debug tree");
++    assert!(!quoted);
++    let mut seen = [0usize; 5];
++    let retained: Vec<&str> = fields.into_iter().filter(|field| {
++        let (name, _) = field.split_once(": ").expect("named top-level field");
++        if let Some(index) = ADDED.iter().position(|added| *added == name) {
++            seen[index] += 1;
++            false
++        } else { true }
++    }).collect();
++    assert_eq!(seen, [1; 5], "each allowed new field exactly once");
++    format!("{}{}{}", &actual[..begin], retained.join(", "), &actual[end..])
++}
++
++fn migration_collect_player_state(id: &str, position: &(String, usize), actual: &str, expected: &str) -> bool {
++    if id != "song/tests/rust_live_gameplay.rs::player_state" { return false; }
++    let Some(path) = std::env::var_os("DEADSYNC_PLAYER_SNAPSHOT_MIGRATION_FILE") else { return false; };
++    let stripped = migration_strip_player_fields(actual);
++    assert!(!expected.contains("recorded_max_combo:"));
++    assert!(!expected.contains("stage_score:"));
++    assert!(!expected.contains("stage_life_record:"));
++    assert!(!expected.contains("alive_seconds:"));
++    assert!(!expected.contains("life_record_source:"));
++    assert!(!position.0.contains(['\t', '\n', '\r']));
++    assert!(!actual.contains(['\t', '\n', '\r']));
++    {
++        use std::io::Write;
++        let mut output = std::fs::OpenOptions::new().create(true).append(true).open(path).unwrap();
++        writeln!(output, "{}\t{}\t{}", position.0, position.1, actual).unwrap();
++    }
++    if stripped != expected {
++        let offset = stripped.bytes().zip(expected.bytes()).position(|(a, b)| a != b)
++            .unwrap_or(stripped.len().min(expected.len()));
++        panic!("strict PlayerRuntime migration rejected existing value: {} case {} byte {}; complete actual retained", position.0, position.1, offset);
++    }
++    true
++}

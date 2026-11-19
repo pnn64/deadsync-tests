@@ -1,0 +1,138 @@
+#!/usr/bin/env python3
+"""One-snapshot migration with exact preservation of every pre-existing field."""
+import argparse
+import difflib
+import hashlib
+import json
+import pathlib
+import shutil
+import subprocess
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parent.parent
+SUPPORT = ROOT / 'crates/deadlib-lua/src/reference_test.rs'
+SNAPSHOT = ROOT / 'tests/fixtures/regression-expectations/deadsync-song-lua/72c431600eddf935.snap'
+EVIDENCE = HERE / 'player-state-schema-migration-v2'
+COLLECTOR = HERE / 'player_snapshot_collector.rs'
+ADDED = {'recorded_max_combo', 'stage_score', 'stage_life_record', 'alive_seconds', 'life_record_source'}
+MARKER = 'PlayerRuntime { '
+
+
+def sha(data): return hashlib.sha256(data).hexdigest()
+def write_json(path, value): path.write_text(json.dumps(value, indent=2) + '\n', encoding='utf-8')
+
+
+def rows(text):
+    lines = text.splitlines()
+    assert lines[0] == 'song/tests/rust_live_gameplay.rs::player_state'
+    result = {}; current = None; index = 0
+    for line in lines[1:]:
+        if line.startswith('test: '): current = line[6:]; index = 0; continue
+        assert current is not None
+        key = (current, index); assert key not in result
+        result[key] = line; index += 1
+    return result
+
+
+def strip_fields(actual):
+    assert actual.count(MARKER) == 1
+    begin = actual.index(MARKER) + len(MARKER)
+    depth = 0; quoted = False; escaped = False; field_begin = begin; fields = []; end = None
+    for index in range(begin, len(actual)):
+        ch = actual[index]
+        if quoted:
+            if escaped: escaped = False
+            elif ch == '\\': escaped = True
+            elif ch == '"': quoted = False
+            continue
+        if ch == '"': quoted = True
+        elif ch in '{[(': depth += 1
+        elif ch == '}' and depth == 0:
+            assert actual[index - 1] == ' '
+            fields.append(actual[field_begin:index - 1]); end = index - 1; break
+        elif ch in '}])': depth -= 1; assert depth >= 0
+        elif ch == ',' and depth == 0:
+            fields.append(actual[field_begin:index]); assert actual[index + 1] == ' '; field_begin = index + 2
+    assert end is not None and not quoted
+    kept = []; removed = {}
+    for field in fields:
+        name, value = field.split(': ', 1)
+        if name in ADDED:
+            assert name not in removed; removed[name] = value
+        else: kept.append(field)
+    assert set(removed) == ADDED
+    return actual[:begin] + ', '.join(kept) + actual[end:], removed
+
+
+def prepare():
+    EVIDENCE.mkdir(exist_ok=True)
+    original = SUPPORT.read_bytes(); snap = SNAPSHOT.read_bytes()
+    destination = EVIDENCE / 'reference_test.rs.before'
+    assert not destination.exists(), 'do not replay a successful prepare'
+    (EVIDENCE / 'snapshot.before').write_bytes(snap)
+    destination.write_bytes(original)
+    payload = COLLECTOR.read_text(encoding='utf-8')
+    text = original.decode('utf-8')
+    marker = '    let actual = normalize(format!("{actual:?}"));'
+    assert text.count(marker) == 1
+    updated = text.replace(marker, marker + '\n    if migration_collect_player_state(id, &position, &actual, expected) { return; }', 1)
+    updated += '\n' + payload
+    encoded = updated.encode('utf-8')
+    (EVIDENCE / 'collector.diff').write_text(''.join(difflib.unified_diff(text.splitlines(True), updated.splitlines(True), fromfile=str(SUPPORT), tofile=str(SUPPORT) + '.temporary-collector')), encoding='utf-8')
+    write_json(EVIDENCE / 'before.json', {'snapshot': str(SNAPSHOT), 'snapshot_sha256': sha(snap), 'snapshot_bytes': len(snap), 'snapshot_crlf': snap.count(b'\r\n'), 'rows': len(rows(snap.decode())), 'support_sha256': sha(original), 'temporary_support_sha256': sha(encoded), 'collector_sha256': sha(COLLECTOR.read_bytes()), 'allowed_top_level_additions': sorted(ADDED), 'product_head': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(), 'fixture_head': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT / 'tests/fixtures', text=True).strip(), 'observations_snapshot_mutation': False})
+    SUPPORT.write_bytes(encoded)
+    print(json.dumps({'prepared': True, 'rows': len(rows(snap.decode())), 'capture': str(EVIDENCE / 'captured.tsv'), 'snapshot_before_sha256': sha(snap)}))
+
+
+def inspect():
+    before = (EVIDENCE / 'snapshot.before').read_bytes(); expected = rows(before.decode('utf-8'))
+    actual = {}; removed_by_row = {}; rejected = []
+    for line in (EVIDENCE / 'captured.tsv').read_text(encoding='utf-8').splitlines():
+        test, raw_index, value = line.split('\t', 2); key = (test, int(raw_index)); assert key not in actual
+        actual[key] = value
+        stripped, removed = strip_fields(value); removed_by_row[key] = removed
+        assert key in expected
+        if stripped != expected[key]:
+            offset = next((i for i, pair in enumerate(zip(stripped, expected[key])) if pair[0] != pair[1]), min(len(stripped), len(expected[key])))
+            rejected.append({'test': test, 'case': int(raw_index), 'first_offset': offset, 'expected_excerpt': expected[key][max(0, offset - 120):offset + 400], 'actual_excerpt': stripped[max(0, offset - 120):offset + 400], 'expected_sha256': sha(expected[key].encode()), 'stripped_actual_sha256': sha(stripped.encode())})
+    missing = sorted(set(expected) - set(actual))
+    receipt = {'expected_rows': len(expected), 'captured_rows': len(actual), 'missing_rows': [{'test': k[0], 'case': k[1]} for k in missing], 'rejected_existing_values': rejected, 'all_existing_values_unchanged': not missing and not rejected, 'captured_sha256': sha((EVIDENCE / 'captured.tsv').read_bytes()), 'allowed_top_level_additions': sorted(ADDED), 'row_checks': [{'test': key[0], 'case': key[1], 'old_sha256': sha(expected[key].encode()), 'stripped_new_sha256': sha(strip_fields(value)[0].encode()), 'new_sha256': sha(value.encode()), 'new_fields': removed_by_row[key]} for key, value in actual.items()]}
+    write_json(EVIDENCE / 'equality-receipt.json', receipt)
+    print(json.dumps({k: v for k, v in receipt.items() if k != 'row_checks'}))
+    return receipt, actual
+
+
+def restore():
+    info = json.loads((EVIDENCE / 'before.json').read_text())
+    assert sha(SUPPORT.read_bytes()) == info['temporary_support_sha256'], 'collector changed: do not overwrite'
+    original = (EVIDENCE / 'reference_test.rs.before').read_bytes()
+    assert sha(original) == info['support_sha256']
+    SUPPORT.write_bytes(original)
+    assert SUPPORT.read_bytes() == original
+    write_json(EVIDENCE / 'restoration.json', {'restored_byte_for_byte': True, 'support_sha256': sha(SUPPORT.read_bytes()), 'original_sha256': sha(original)})
+    print(json.dumps({'restored_byte_for_byte': True, 'support_sha256': sha(original)}))
+
+
+def apply():
+    receipt, actual = inspect()
+    assert receipt['all_existing_values_unchanged'], 'reject any incomplete capture or existing scalar difference'
+    original = (EVIDENCE / 'snapshot.before').read_bytes()
+    assert SNAPSHOT.read_bytes() == original, 'snapshot changed since prepare'
+    assert SUPPORT.read_bytes() == (EVIDENCE / 'reference_test.rs.before').read_bytes(), 'restore collector before updating expectations'
+    result = []; test = None; index = 0
+    for line in original.decode('utf-8').splitlines():
+        if line.startswith('test: '): test = line[6:]; index = 0; result.append(line)
+        elif line.startswith('song/tests/'): result.append(line)
+        else: result.append(actual[(test, index)]); index += 1
+    encoded = ('\n'.join(result) + '\n').encode('utf-8')
+    assert rows(encoded.decode()) == actual
+    for key, value in actual.items(): assert strip_fields(value)[0] == rows(original.decode())[key]
+    SNAPSHOT.write_bytes(encoded)
+    write_json(EVIDENCE / 'after.json', {'snapshot': str(SNAPSHOT), 'before_sha256': sha(original), 'after_sha256': sha(encoded), 'before_bytes': len(original), 'after_bytes': len(encoded), 'rows': len(actual), 'all_preexisting_fields_exact': True, 'new_fields_only': sorted(ADDED), 'line_ending': 'LF', 'before_crlf': original.count(b'\r\n'), 'collector_restored_byte_for_byte': True, 'observations_snapshot_mutation': False, 'equality_receipt_sha256': sha((EVIDENCE / 'equality-receipt.json').read_bytes())})
+    print(json.dumps({'applied': True, 'rows': len(actual), 'before_sha256': sha(original), 'after_sha256': sha(encoded)}))
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(); parser.add_argument('action', choices=['prepare', 'inspect', 'restore', 'apply']); args = parser.parse_args()
+    globals()[args.action]()

@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+import argparse
+import datetime
+import hashlib
+import json
+import os
+import pathlib
+import subprocess
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parent.parent
+EVIDENCE = HERE / 'player-state-schema-migration-v2'
+
+
+def main():
+    parser = argparse.ArgumentParser(); parser.add_argument('phase', choices=['strict-collect', 'final-unmodified']); args = parser.parse_args()
+    log = EVIDENCE / (args.phase + '.log'); receipt = EVIDENCE / (args.phase + '.json')
+    assert not log.exists() and not receipt.exists(), 'never rerun an existing gate under the same identity'
+    environment = dict(os.environ)
+    if args.phase == 'strict-collect':
+        capture = EVIDENCE / 'captured.tsv'; assert not capture.exists()
+        environment['DEADSYNC_PLAYER_SNAPSHOT_MIGRATION_FILE'] = str(capture)
+    else:
+        environment.pop('DEADSYNC_PLAYER_SNAPSHOT_MIGRATION_FILE', None)
+        assert (ROOT / 'crates/deadlib-lua/src/reference_test.rs').read_bytes() == (EVIDENCE / 'reference_test.rs.before').read_bytes()
+    command = ['cargo', 'test', '-p', 'deadsync-song-lua', '--features', 'test-support', '--test', 'live_gameplay', '--', '--test-threads=1']
+    started = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    head = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
+    proof_files = ['crates/deadlib-lua/src/reference_test.rs', 'crates/deadsync-song-lua/tests/live_gameplay.rs', 'crates/deadsync-gameplay/src/player.rs', 'tests/fixtures/regression-expectations/deadsync-song-lua/72c431600eddf935.snap']
+    identities = {path: hashlib.sha256((ROOT / path).read_bytes()).hexdigest() for path in proof_files}
+    with log.open('wb') as output: result = subprocess.run(command, cwd=ROOT, env=environment, stdout=output, stderr=subprocess.STDOUT)
+    assert identities == {path: hashlib.sha256((ROOT / path).read_bytes()).hexdigest() for path in proof_files}, 'gate input changed during run'
+    record = {'phase': args.phase, 'command': command, 'started_utc': started, 'finished_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'exit_code': result.returncode, 'passed': result.returncode == 0, 'product_head': head, 'input_sha256': identities, 'log': str(log), 'log_sha256': hashlib.sha256(log.read_bytes()).hexdigest(), 'temporary_collector': args.phase == 'strict-collect'}
+    receipt.write_text(json.dumps(record, indent=2) + '\n', encoding='utf-8')
+    print(json.dumps(record))
+    print(log.read_text(encoding='utf-8', errors='replace')[-6000:])
+    sys.exit(0 if result.returncode == 0 else 1)
+
+
+if __name__ == '__main__': main()

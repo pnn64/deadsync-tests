@@ -93,6 +93,17 @@ are not included in this compact checkpoint. The ZIP includes the original
 trace and authored control inputs needed to inspect the reported differences.
 Machine-local paths in receipts are historical provenance, not portable paths.
 
+`player-state-schema-migration/` records a strict migration of the existing
+`player_state` regression snapshot after five runtime metadata fields were
+added. All 130 previously recorded rows retain every existing value exactly;
+only `recorded_max_combo`, `stage_score`, `stage_life_record`, `alive_seconds`,
+and `life_record_source` were added. The original snapshot bytes, rejected
+first attempt, per-row equality proofs, and temporary collector source are
+retained. The original assertion helper was restored byte for byte before
+the unmodified `live_gameplay` target passed all 16 tests. No native observation
+expectations were replaced. `independent-verification.json` identifies the
+before/after hashes and the separate review of every row.
+
 ## Corpus and capture scope
 
 The frozen corpus combines the current installed Lua songs, distinct older

@@ -1,0 +1,20 @@
+{
+  "snapshot": "C:\\GitHub\\deadsync-lua-fleet-20261119\\tests\\fixtures\\regression-expectations\\deadsync-song-lua\\72c431600eddf935.snap",
+  "snapshot_sha256": "049b758d3c6e6c8f2b0e4a99027f036377b6336a591d6a7b1a9dff2593411caa",
+  "snapshot_bytes": 346527,
+  "snapshot_crlf": 141,
+  "rows": 130,
+  "support_sha256": "64002ab8a09416d74d13a2c19679f6efb9acf452edc10ef90cfab8e7af1e41e9",
+  "temporary_support_sha256": "ef9b8926c03091f9c894de6b459bb3f422ec5d5c2780b5e259b8a37f3afa6686",
+  "collector_sha256": "7188e045d1f24d863318dda1c309960fee94b99c994f36b07f8802c3a620975b",
+  "allowed_top_level_additions": [
+    "alive_seconds",
+    "life_record_source",
+    "recorded_max_combo",
+    "stage_life_record",
+    "stage_score"
+  ],
+  "product_head": "b6665cd32924c85673106390072502e943f82400",
+  "fixture_head": "60e81621607f56077db5333277469814fe45e2da",
+  "observations_snapshot_mutation": false
+}

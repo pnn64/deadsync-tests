@@ -1,0 +1,29 @@
+{
+  "phase": "final-unmodified",
+  "command": [
+    "cargo",
+    "test",
+    "-p",
+    "deadsync-song-lua",
+    "--features",
+    "test-support",
+    "--test",
+    "live_gameplay",
+    "--",
+    "--test-threads=1"
+  ],
+  "started_utc": "2026-11-19T02:14:48.820990+00:00",
+  "finished_utc": "2026-11-19T02:15:28.568248+00:00",
+  "exit_code": 0,
+  "passed": true,
+  "product_head": "b6665cd32924c85673106390072502e943f82400",
+  "input_sha256": {
+    "crates/deadlib-lua/src/reference_test.rs": "64002ab8a09416d74d13a2c19679f6efb9acf452edc10ef90cfab8e7af1e41e9",
+    "crates/deadsync-song-lua/tests/live_gameplay.rs": "b89cf741b95c01692897ef2bda61b286e7408dfcf6d9216e361158c854f4e783",
+    "crates/deadsync-gameplay/src/player.rs": "e0c8c111ff67d023256e5134067d9df7018a5707a77f3da5adc785d982db7f64",
+    "tests/fixtures/regression-expectations/deadsync-song-lua/72c431600eddf935.snap": "839a8061762cfe6796af0ac5da077ad27a42354ef9b7ff763fc9fb54a628315b"
+  },
+  "log": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\player-state-schema-migration-v2\\final-unmodified.log",
+  "log_sha256": "0b570f86f75f9728b2074fae1a55ba94238ec8bf4027fa4ad001e1d7b7fa6216",
+  "temporary_collector": false
+}
