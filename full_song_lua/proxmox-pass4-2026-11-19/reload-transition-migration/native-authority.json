@@ -1,0 +1,78 @@
+{
+  "native_trace": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\random-boundary-evidence\\de0ce4430a303dfb-c0001\\native.json",
+    "bytes": 27935702,
+    "sha256": "f5ff511c437e52952a208aae670458845562d978b522d81cae6454720d477cd7"
+  },
+  "native_source_commit": "663525dcb86eb570d0ef6a2e209678436660ae26",
+  "theme_source_commit": "1feda1fd43d96baca951351bb28a35d5e690ebc7",
+  "sources": [
+    {
+      "path": "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\Transition.cpp",
+      "bytes": 2902,
+      "sha256": "b8262c86c0656fa5c9c31ecbc95db81c0232d60cbb55add41d297a4e3d5e41f9"
+    },
+    {
+      "path": "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\ScreenGameplay.cpp",
+      "bytes": 120464,
+      "sha256": "d6d976f7aa6fb1586f4d7bfa499750adc17b8eef472e3bc824bdca151725c4a0"
+    },
+    {
+      "path": "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\StatsManager.cpp",
+      "bytes": 23386,
+      "sha256": "660a65bb98e15395509deee81a47e8ff03175099235e798e544035554b5fc62a"
+    },
+    {
+      "path": "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\LuaManager.h",
+      "bytes": 11675,
+      "sha256": "e20b23acfb112e6b68506d1f7bb158cf01d6bc1655392c5d44ef7dd41542b2c7"
+    },
+    {
+      "path": "C:\\GitHub\\itgmania-harness\\vendor\\simply-love\\BGAnimations\\ScreenGameplay in\\default.lua",
+      "bytes": 3986,
+      "sha256": "7ef0a8b27f088636af616a3c59cd6e66989a4c924147acad19caf2e371c6feca"
+    }
+  ],
+  "reload_authority": "Simply Love intro constructs all children unconditionally; its parent Hide branch does not remove their 2-second maximum tween. Transition checks child tween completion before each Update.",
+  "commit_authority": "SM_DoNextScreen calls StageFinished, which copies current StageStats into played history. The current ScreenGameplay update may subsequently advance its independent timer.",
+  "played_index_authority": "StatsManager.cpp529-537 indexes size-iAgo; 1 is newest, 2 previous, absent/out-of-range returns nil. GetStagesPlayed is vector size. IArg is luaL_checkint.",
+  "native_final_current_and_played_samples": [
+    {
+      "phase": "screen-end",
+      "scene": 2,
+      "seconds": 85.41199493408203,
+      "update_sequence": 1557,
+      "native_update_sequence": 1559,
+      "native_update_frame": 1330,
+      "gameplay_seconds": 94.49759674072266,
+      "steps_seconds": 87.23177337646484
+    },
+    {
+      "phase": "gameplay-exit",
+      "scene": 2,
+      "seconds": 85.41199493408203,
+      "update_sequence": 1557,
+      "native_update_sequence": 1559,
+      "native_update_frame": 1330,
+      "gameplay_seconds": 94.45843505859375,
+      "steps_seconds": 87.19261169433594
+    }
+  ],
+  "native_final_timer_input": {
+    "delta_seconds": 0.039163000881671906,
+    "music_rate": 1,
+    "native_update_frame": 1330,
+    "native_update_sequence": 1559,
+    "phase": "after-gameplay-actors",
+    "scene": 2,
+    "steps_time_active": true
+  },
+  "completion": {
+    "next_screen": "ScreenEvaluationStage",
+    "reason": "gameplay-exit",
+    "stage_committed": true,
+    "stages_played_after": 1,
+    "stages_played_before": 0
+  },
+  "interpretation": "Final native current counters equal the owned current counters. Played-stage counters differ by the last independently recorded timer delta because history was committed earlier. No expected counter or delta-derived correction is used as a replay input."
+}

@@ -130,6 +130,14 @@ the unmodified `live_gameplay` target passed all 16 tests. No native observation
 expectations were replaced. `independent-verification.json` identifies the
 before/after hashes and the separate review of every row.
 
+`reload-transition-migration/` preserves a one-row correction to the existing
+intro-transition snapshot. The pinned theme creates four visual children and a
+stage label even when its reload intro hides the parent. The corrected case 5
+retains that child tree; every other snapshot line is byte-for-byte unchanged.
+The original snapshot, exact failed gate, independent comparison, and native
+source files with their hashes are retained. This checkpoint precedes the final
+transition gate and does not change any native recording or stage counter value.
+
 ## Corpus and capture scope
 
 The frozen corpus combines the current installed Lua songs, distinct older

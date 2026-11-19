@@ -328,5 +328,65 @@
     "path": "full_song_lua/proxmox-pass4-2026-11-19/repaired-native-controls/scope.json",
     "bytes": 1681,
     "sha256": "fd64d532120d8a36a090bbcef4fc6be52ae1c99478fbae71eeee973f648944ff"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/before.snap",
+    "bytes": 58316,
+    "sha256": "75e9ed26f40047728cc510fff626b8825976bf4aa9311470ac8111c0b92acd7e"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/after.snap",
+    "bytes": 59494,
+    "sha256": "ad252682d9d03ff0f219f124fffa4dc4dd4f2f41d444404611998ce75bfcc357"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/failed-gate.log",
+    "bytes": 3384,
+    "sha256": "f96d6e2c9847f2c0a104f66000e0b01894de38e0f8061e8622426d0ee883420d"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/receipt.json",
+    "bytes": 1545,
+    "sha256": "3e000d4abafc9bb335f1d2b2319e78888b13ef725a57824d3f34adf16a3e310c"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/native-authority.json",
+    "bytes": 3509,
+    "sha256": "e84add9292b24e3f071de2244adf4d32ef916b6978f061acd4f3d2e523529212"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/native-source/Transition.cpp",
+    "bytes": 2902,
+    "sha256": "b8262c86c0656fa5c9c31ecbc95db81c0232d60cbb55add41d297a4e3d5e41f9"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/native-source/ScreenGameplay.cpp",
+    "bytes": 120464,
+    "sha256": "d6d976f7aa6fb1586f4d7bfa499750adc17b8eef472e3bc824bdca151725c4a0"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/native-source/StatsManager.cpp",
+    "bytes": 23386,
+    "sha256": "660a65bb98e15395509deee81a47e8ff03175099235e798e544035554b5fc62a"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/native-source/LuaManager.h",
+    "bytes": 11675,
+    "sha256": "e20b23acfb112e6b68506d1f7bb158cf01d6bc1655392c5d44ef7dd41542b2c7"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/native-source/ScreenGameplay-in-default.lua",
+    "bytes": 3986,
+    "sha256": "7ef0a8b27f088636af616a3c59cd6e66989a4c924147acad19caf2e371c6feca"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/independent-verification.json",
+    "bytes": 1009,
+    "sha256": "7d7beedc45566a9d3a510c1e89588321554945a3b5692eebfea7a7247fe7fa88"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/retain_reload_transition_migration.py",
+    "bytes": 4330,
+    "sha256": "d47a72d253b27e85190b79e53a48be3668c1d7c48cf60980872b05474f1854e4"
   }
 ]

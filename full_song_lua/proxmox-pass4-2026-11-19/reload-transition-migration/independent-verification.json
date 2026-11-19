@@ -1,0 +1,16 @@
+{
+  "fixture_base": "137a6ff3c5d70a9a98221c6d59a3639db3766f86",
+  "snapshot": "regression-expectations/deadsync-song-lua/c9dc1ea2bbc62e20.snap",
+  "before_sha256": "75e9ed26f40047728cc510fff626b8825976bf4aa9311470ac8111c0b92acd7e",
+  "after_sha256": "ad252682d9d03ff0f219f124fffa4dc4dd4f2f41d444404611998ce75bfcc357",
+  "changed_lines_one_based": [
+    97
+  ],
+  "all_other_lines_byte_equal": true,
+  "source_hashes_verified": true,
+  "expected_child_resources_copied_from_existing_default_arrows_case": true,
+  "old_decoded": "1,0,false,true",
+  "new_decoded": "2,4,false,true|Event|,1|__songlua_theme_path/G/_VisualStyles/Arrows/GameplayIn splode (doubleres).png,1|__songlua_theme_path/G/_VisualStyles/Arrows/GameplayIn splode (doubleres).png,1|__songlua_theme_path/G/_VisualStyles/Arrows/GameplayIn minisplode (doubleres).png,1",
+  "final_transition_gate_pending": true,
+  "scope": "Only the retained child tree of the hidden reload intro changes; no native trace or statistics expectation is modified."
+}

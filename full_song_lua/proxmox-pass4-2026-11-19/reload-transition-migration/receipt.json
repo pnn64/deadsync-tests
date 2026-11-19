@@ -1,0 +1,19 @@
+{
+  "fixture_head": "137a6ff3c5d70a9a98221c6d59a3639db3766f86",
+  "snapshot": "C:\\GitHub\\deadsync-fixtures-lua-fleet-20261119\\regression-expectations\\deadsync-song-lua\\c9dc1ea2bbc62e20.snap",
+  "before_sha256": "75e9ed26f40047728cc510fff626b8825976bf4aa9311470ac8111c0b92acd7e",
+  "after_sha256": "ad252682d9d03ff0f219f124fffa4dc4dd4f2f41d444404611998ce75bfcc357",
+  "failure_log_sha256": "f96d6e2c9847f2c0a104f66000e0b01894de38e0f8061e8622426d0ee883420d",
+  "test": "incoming_style_spooky_reload_and_stage_variants_match",
+  "observation_case": 5,
+  "changed_lines_one_based": [
+    97
+  ],
+  "all_other_lines_byte_equal": true,
+  "line_count_unchanged": true,
+  "old_decoded": "1,0,false,true",
+  "new_decoded": "2,4,false,true|Event|,1|__songlua_theme_path/G/_VisualStyles/Arrows/GameplayIn splode (doubleres).png,1|__songlua_theme_path/G/_VisualStyles/Arrows/GameplayIn splode (doubleres).png,1|__songlua_theme_path/G/_VisualStyles/Arrows/GameplayIn minisplode (doubleres).png,1",
+  "authority": "Pinned Simply Love ScreenGameplay in/default.lua creates the four visual children and stage label even when its parent hides on reload; native transition timing still includes those child tweens.",
+  "construction": "Copied the independently retained default Arrows/text/resource row, changing only parent visible=true/reload=false to visible=false/reload=true.",
+  "validation": "Expected row is source-derived. The final unmodified transition target must verify the complete row after coordinated fixture checkout."
+}
