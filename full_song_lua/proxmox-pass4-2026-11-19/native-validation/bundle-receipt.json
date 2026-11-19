@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "validated": {
+    "path": "/opt/song-lua-audit/pass4/evidence/validated-capture-evidence.zip",
+    "bytes": 4249991,
+    "sha256": "c3d893b4da1a87a258bfd330768d16a045f99be103ca4e8fb01f3ca31efececf",
+    "manifest_sha256": "390d6f83258a3235b7261e71a9e93053d5152f1a8fe982c91b91998e591a1d0f",
+    "files": 65,
+    "local": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\capture-evidence\\validated-capture-evidence.zip"
+  },
+  "failed_exercise": {
+    "path": "/opt/song-lua-audit/pass4/evidence/clock-control-failed-exercise.zip",
+    "bytes": 808000,
+    "sha256": "8a0c0246a2cc6038ad8f9abf51e0f66b645aff1b6fc79b3879c37ec436af1d1c",
+    "manifest_sha256": "bb1dae7a3ee0f5454b4d583cbf900fdc95f3d358828185ba857909ffebc1128b",
+    "files": 63,
+    "local": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\capture-evidence\\clock-control-failed-exercise.zip"
+  },
+  "pins": {
+    "deadsync": "2da5562bb050d155a90498fd075279a0249ae479",
+    "harness": "9eb6619c0eaf9c3aceabf7348efbb06a7fd37273",
+    "native": "663525dcb86eb570d0ef6a2e209678436660ae26",
+    "theme": "1feda1fd43d96baca951351bb28a35d5e690ebc7",
+    "fixtures": "fdf26ec30d7c3edcd624b82aae24eea4fe3765c7"
+  },
+  "source_proof_sha256": "a01d65ab3cbf5a78f24903ca47805a9af28928c4a574ac880fd04bbf0da84ed8"
+}

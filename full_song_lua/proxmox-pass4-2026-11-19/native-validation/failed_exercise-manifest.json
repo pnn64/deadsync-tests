@@ -1,0 +1,389 @@
+{
+  "format_version": 1,
+  "passed": false,
+  "purpose": "Original timer control fixture omitted a tween lifetime; pause and rate branches were not exercised.",
+  "notes": [
+    "Native observations remain independent evidence; this attempt was not accepted as a passed control.",
+    "The final fixture adds self:sleep(30) so the Foreground ActorFrame remains live."
+  ],
+  "files": {
+    "capture-revision.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/capture-revision.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 404,
+      "sha256": "687ae4eec076850c287541a6ac45f2d1c211b136dca22025ba6657932e284d36"
+    },
+    "fixture/control.sm": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/fixture/control.sm",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 225,
+      "sha256": "7f49021d2d343f597089c17fca91ef13baaaa326eb9e6eb983b58f6aa677d65c"
+    },
+    "fixture/default.lua": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/fixture/default.lua",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 883,
+      "sha256": "e40bbd5c7d7363548ff9ef0127a6dd6b37d25b2cf8576eaf10b8e6d635c9d534"
+    },
+    "fixture/silence.wav": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/fixture/silence.wav",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 48044,
+      "sha256": "c445f452f82fe49f42255d38b2535a5eddafa9355464e2d4a6f2fa41f4579a0d"
+    },
+    "gameplay-clock-control-native.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/gameplay-clock-control-native.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 470307,
+      "sha256": "35dd5ac5fbde38c302bb38b7df344cd0d98caca4f42bdd5951a5e6405b4a2e81"
+    },
+    "gameplay-clock.patch": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/gameplay-clock.patch",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 36097,
+      "sha256": "ad8268cdb9f45c5f86351de8a4e84de0b8111264fa080ca135e04a2e14e9082e"
+    },
+    "logs/apt-update.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/apt-update.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 1023,
+      "sha256": "ccac4f01e209fd78b6a792d06c765196b8a7499f1bf034a99a38e8e1d0b42d19"
+    },
+    "logs/build-launch.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/build-launch.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 10876,
+      "sha256": "95658c14cde44a9404cd6d8aa2508be9d70eef96e0ea83fe1811118b5bd5a143"
+    },
+    "logs/capture-dependencies.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/capture-dependencies.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 10997,
+      "sha256": "c23385456d09f17406f3a04342600b5c502d60ed69629da31139db7a9de21961"
+    },
+    "logs/clock-harness-build.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/clock-harness-build.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 141,
+      "sha256": "ef8cb672a0996bee6cb8b7bda378fb56988a12e655e012fe0f623606756dc871"
+    },
+    "logs/clock-harness-unit-tests.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/clock-harness-unit-tests.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 19419,
+      "sha256": "fbcb4eacf9153ff5f1a3c9a7d7f13f22a7a33510971775d397517056a75cd24d"
+    },
+    "logs/clock-launch.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/clock-launch.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 1353,
+      "sha256": "a9f16e499d435dad36655cfc8bb8635ac434070bd7bc2b57be71ba5ea9cf9e97"
+    },
+    "logs/clock-native-build.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/clock-native-build.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 2485,
+      "sha256": "7f6e9db3f33f121cd3cc1ec5675e4a8f13c13f06f8029dd58d5bb866e853cdc6"
+    },
+    "logs/clock-native-configure.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/clock-native-configure.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 3549,
+      "sha256": "0859724a1f6941aca7d670f917a9dd1696d3e16bc509bae3b62e36f21e10096a"
+    },
+    "logs/clock-native_gameplay_clock_inputs_reproduce_stage_observations.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/clock-native_gameplay_clock_inputs_reproduce_stage_observations.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 911,
+      "sha256": "2180c9e02ef3175f9222d18a2c108ddfe233ce8c3dd17ec98506b7a7d1f8ec17"
+    },
+    "logs/deadsync-build.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/deadsync-build.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 859562,
+      "sha256": "337e26eb77888823d69ca6e56d676205cefbddbcd907ce560edec02b29e01438"
+    },
+    "logs/deadsync-launch.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/deadsync-launch.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 48,
+      "sha256": "955f3217bc4fd141b27eb53755382a674abb11d3519963f0a98ef37f17fad7b2"
+    },
+    "logs/extract.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/extract.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 1647,
+      "sha256": "512f28f4d991eab6fbc754448d33440e2998db626f04f061a0ab6fa3aaa2c155"
+    },
+    "logs/harness-build.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/harness-build.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 62,
+      "sha256": "0b5fe2277fd2b29cc111b76604c482f8ec516047dbc0954657203c5614f4e4db"
+    },
+    "logs/harness-unit-tests.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/harness-unit-tests.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 19062,
+      "sha256": "514cec74ed390352a9063ac3383f816b641c350bc684724978df5141b98be10b"
+    },
+    "logs/native-build.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/native-build.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 869,
+      "sha256": "1a1725b307c90b6eb1eee06b1b4d4b549c41f78eaf3cbd6058edea15ca50a147"
+    },
+    "logs/native-configure.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/native-configure.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 3549,
+      "sha256": "775096ce87027036d56660e1772a05a604d8df582344813bb438a063c267bdc4"
+    },
+    "logs/native-libusb.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/native-libusb.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 27,
+      "sha256": "6935a65ed1ec0224a754386abd49e9654bb47a16324a92b98ee1c74c751bc9e5"
+    },
+    "logs/native_notefield_capture_includes_models_and_position_caps.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/native_notefield_capture_includes_models_and_position_caps.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 437,
+      "sha256": "7f3253dff357105a2efc20661fdbb31cf2eac75256aa6669e68a868bdfe4fd9c"
+    },
+    "logs/native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 455,
+      "sha256": "751b13c54984e609438dea4dbe01f3d61e83ea79b3ec14b07d8977b33e1883cb"
+    },
+    "logs/python-dependencies.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/python-dependencies.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "logs/rustup.log": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/logs/rustup.log",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 318,
+      "sha256": "8b17a3ae1996420bed2ed187449f8b8c017dc28c924b1ed2e68e645cad971f84"
+    },
+    "proof/apt-update.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/apt-update.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 272,
+      "sha256": "4437636407859270461928c420594c46cdea34e5f3329c6aaeb3719244268a09"
+    },
+    "proof/before-clock-build-proof.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/before-clock-build-proof.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 2371,
+      "sha256": "356d4c32987b2b747cb9ef7cadd59ff8482b0ffa8322b2c3e2b5078587bf55e3"
+    },
+    "proof/before-clock-build.exit": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/before-clock-build.exit",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "proof/before-clock-capture-binaries.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/before-clock-capture-binaries.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 1010,
+      "sha256": "df028f5ca32b7aaa14c980b34aa13c01c86637650308ee958735d64a874fd9ef"
+    },
+    "proof/build-error.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/build-error.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 702,
+      "sha256": "55ec10ec4395abe4d372e195a8c825b7d6624c82e4f72908c9c4a5d3cc5adec5"
+    },
+    "proof/build-state.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/build-state.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 505,
+      "sha256": "7da2b6f066f6f617022bf3ca613af4680e5d63efaf9c5ba449314038ac292dec"
+    },
+    "proof/build.exit": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/build.exit",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    "proof/capture-dependencies.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/capture-dependencies.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 463,
+      "sha256": "4f44f1b9b3535da63e4d4962f13d043241b402ae5cb529a06d2732c2f28956e2"
+    },
+    "proof/capture-refresh-input.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/capture-refresh-input.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 404,
+      "sha256": "687ae4eec076850c287541a6ac45f2d1c211b136dca22025ba6657932e284d36"
+    },
+    "proof/capture-refresh.exit": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/capture-refresh.exit",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    "proof/clock-harness-build.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/clock-harness-build.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 332,
+      "sha256": "357de6f38595413e89cbb4dd4af137faed4f414b37b259ef559b4ffd66fc4979"
+    },
+    "proof/clock-harness-unit-tests.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/clock-harness-unit-tests.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 376,
+      "sha256": "63631548b8085fba2fc0ba75a35439a693c71a44e01889445806563218fd3cce"
+    },
+    "proof/clock-native-build.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/clock-native-build.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 372,
+      "sha256": "d7ed9baf58a16c3490c83c51b4bb2cf7ae1971744eaf3fb28e2b86bc9074415e"
+    },
+    "proof/clock-native-configure.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/clock-native-configure.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 618,
+      "sha256": "64b1cf04453381a510326c7849212a98bd302d28276be952c18efca1cba45aa8"
+    },
+    "proof/clock-native_gameplay_clock_inputs_reproduce_stage_observations.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/clock-native_gameplay_clock_inputs_reproduce_stage_observations.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 607,
+      "sha256": "e671eb34feab1ce101f51a399270cef46e5a2b335cf1767c5bcd17dfc1f926cb"
+    },
+    "proof/control-output-directory.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/control-output-directory.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 236,
+      "sha256": "b04e2ef8ba99ef256bd71a3aaa9ea9712d945c2e0aff666456d29914ef32b80d"
+    },
+    "proof/deadsync-build.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/deadsync-build.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 426,
+      "sha256": "7e804823bc98f1a270b21ecc4d9c576a73211e28aaa1ee78804061147bd816e3"
+    },
+    "proof/deadsync-launch.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/deadsync-launch.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 148,
+      "sha256": "71373319526c217a8abf00d427e669462ea751466ccf7ba6e769854fd9ecff83"
+    },
+    "proof/fixture-support.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/fixture-support.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 471,
+      "sha256": "b730fd575d15f968f22830edd4da8bf032b6ee50f654db1e0f65e13844b7c455"
+    },
+    "proof/harness-build.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/harness-build.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 325,
+      "sha256": "1a10c4f63ff8359f3b3f4710f452778d8921d1d7ce8eddefa2ba6b3ace2aaf34"
+    },
+    "proof/harness-unit-tests.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/harness-unit-tests.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 370,
+      "sha256": "b8483fabe2e9e4c5e459abbfdbd709ca412565aa977422567de910e7efec6b60"
+    },
+    "proof/native-build.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/native-build.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 365,
+      "sha256": "f0eeef5da7c91d83f1b6a6cf76e3d951440bc85437acba0d08b26d6764576332"
+    },
+    "proof/native-configure.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/native-configure.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 612,
+      "sha256": "af0a2f62668cf5444636232728408df43eb48f20f8f313373c177a525aba381e"
+    },
+    "proof/native-libusb.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/native-libusb.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 364,
+      "sha256": "2d9146ba0835a28e4d0cf4148e4b4a542b823f2c76bfc13db56dd5fd7e3920a3"
+    },
+    "proof/native_notefield_capture_includes_models_and_position_caps.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/native_notefield_capture_includes_models_and_position_caps.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 601,
+      "sha256": "b5864c924e11d51d7dd7d5d805536f77a7a61f39bead40059982ebb4aaff0cd6"
+    },
+    "proof/native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 637,
+      "sha256": "5a8fc38f288e21a4c0b1957e635b1518725f8772d8d747329fbf0dd103ae9a5d"
+    },
+    "proof/noteskin-root-correction.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/noteskin-root-correction.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 454,
+      "sha256": "65d87047d0974aa551399965b6fed4501dae8b125fd160d93173cbb6bd1aadd6"
+    },
+    "proof/previous-1795045666751328793-build.exit": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/previous-1795045666751328793-build.exit",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    "proof/previous-1795045666751474592-build-error.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/previous-1795045666751474592-build-error.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 655,
+      "sha256": "204dfd9beb2841c99ca6558145b324c0a2a3ea2fb46fdd161f4c59a4e3b0d51a"
+    },
+    "proof/previous-1795046038932330128-build.exit": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/previous-1795046038932330128-build.exit",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    "proof/previous-1795046038932483819-build-error.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/previous-1795046038932483819-build-error.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 643,
+      "sha256": "d9d38eb79795c251243905a191b83611e48d7928dc321b45d35f3c09703aad0b"
+    },
+    "proof/python-dependencies.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/python-dependencies.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 294,
+      "sha256": "e875d92ab762434aef12cc43a8fe1c24c102ede1c39fe897fb8adc64f5daca36"
+    },
+    "proof/repair-input.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/repair-input.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 518,
+      "sha256": "fd54983ee946e5199058ea39e8458c4cd3320a68c5679237a60cdcb33eb145ee"
+    },
+    "proof/rustc-version.txt": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/rustc-version.txt",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 198,
+      "sha256": "be69adad9137eaa0bdac1dd07e2fe286b1831fc8bad193ea27806ca0c7c8e7c6"
+    },
+    "proof/rustup.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/rustup.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 320,
+      "sha256": "291ba249eada1c3fa626aed37b51315c5ffa05b0a3428bbfa1fc7d9747b0acb8"
+    },
+    "proof/source-proof.json": {
+      "source": "/opt/song-lua-audit/pass4/clock-control-attempt1/proof/source-proof.json",
+      "role": "failed-fixture-exercise-evidence",
+      "bytes": 1956060,
+      "sha256": "059f8f7aaf9be5d9f91aea06686d631f558e9fc483efb66420e3aaad5fcda6a3"
+    }
+  }
+}

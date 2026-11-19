@@ -1,0 +1,52 @@
+[
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/native-validation/bundle-receipt.json",
+    "bytes": 1345,
+    "sha256": "8c9ee8f4444d8f2858c69676acfe9838e43d884a3d34000ded53c845a5a78542"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/native-validation/validated-capture-evidence.zip",
+    "bytes": 4249991,
+    "sha256": "c3d893b4da1a87a258bfd330768d16a045f99be103ca4e8fb01f3ca31efececf"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/native-validation/validated-manifest.json",
+    "bytes": 27078,
+    "sha256": "390d6f83258a3235b7261e71a9e93053d5152f1a8fe982c91b91998e591a1d0f"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/native-validation/clock-control-failed-exercise.zip",
+    "bytes": 808000,
+    "sha256": "8a0c0246a2cc6038ad8f9abf51e0f66b645aff1b6fc79b3879c37ec436af1d1c"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/native-validation/failed_exercise-manifest.json",
+    "bytes": 19463,
+    "sha256": "bb1dae7a3ee0f5454b4d583cbf900fdc95f3d358828185ba857909ffebc1128b"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/pipeline-baselines/download-receipt.json",
+    "bytes": 16039,
+    "sha256": "d2026a2ea793449217fd4c657b36af6e6bfa8f57f11b8d27b8af2fe391435d2f"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/pipeline-baselines/life-pipeline-evidence.zip",
+    "bytes": 4596805,
+    "sha256": "a61ce8fe9a994639de2adb0a8b9c3f631d6b52abb9f7e84f2bbf84e3c67379ba"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/pipeline-baselines/manifest.json",
+    "bytes": 26926,
+    "sha256": "5353ec257a93711574a3d480097824672c1030a9935ef5fda27bcb6262788720"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/corpus/corpus-manifest.json",
+    "bytes": 5054910,
+    "sha256": "e1cbc6fa4c3b8d848b29ea81adabee2eff090439d6f992bcb162e10d01653480"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/corpus/authored-inventory.json",
+    "bytes": 595312,
+    "sha256": "501da0d6f31b58bee7096161fff8998fc68d3e5589aa2d25fe8af3ab525395e1"
+  }
+]

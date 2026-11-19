@@ -34,3 +34,6 @@
 /full_song_lua/proxmox-pass3-2026-11-16/routine-stats-baseline-replays/**/* -text -whitespace
 /full_song_lua/proxmox-pass3-2026-11-16/routine-stats-replays/**/* -text -whitespace
 /full_song_lua/proxmox-pass3-2026-11-16/routine-fail-controls/**/* -text -whitespace
+
+# Pass 4 receipts and manifests bind the exact bytes of native evidence.
+/full_song_lua/proxmox-pass4-2026-11-19/**/* -text -whitespace

@@ -1,0 +1,650 @@
+{
+  "format_version": 1,
+  "purpose": "Validated Linux native capture and independent gameplay timer controls",
+  "passed": true,
+  "created_at": "2026-11-19T00:23:04.695508+00:00",
+  "pins": {
+    "deadsync": "2da5562bb050d155a90498fd075279a0249ae479",
+    "harness": "9eb6619c0eaf9c3aceabf7348efbb06a7fd37273",
+    "native": "663525dcb86eb570d0ef6a2e209678436660ae26",
+    "theme": "1feda1fd43d96baca951351bb28a35d5e690ebc7",
+    "fixtures": "fdf26ec30d7c3edcd624b82aae24eea4fe3765c7"
+  },
+  "harness_base_revision": "40d89835c4ea85d632eec0ccb2361ff4569c6ac4",
+  "source_proof_sha256": "a01d65ab3cbf5a78f24903ca47805a9af28928c4a574ac880fd04bbf0da84ed8",
+  "binaries": {
+    "harness": {
+      "path": "/opt/song-lua-audit/pass4/bin/itgmania-harness-rs",
+      "sha256": "4868fd245547b55ea554632b2a0dcf61dbaa022c9a6e9f2515c9259983bdec7f",
+      "bytes": 13066928
+    },
+    "native": {
+      "path": "/opt/song-lua-audit/harness-pass4/vendor/itgmania/ITGmania-harness-trace",
+      "sha256": "c03763cac1270c14dbe790cbb055c96ebbced269448d64e0bb705385dc9537a3",
+      "bytes": 103850696
+    },
+    "runner": {
+      "path": "/opt/song-lua-audit/pass4/bin/full_song_lua",
+      "sha256": "100d005699815a5ab6ad67692bb547c3b44049630050688cc977e42a9338f26b",
+      "bytes": 41360048
+    }
+  },
+  "controls": [
+    {
+      "group": "baseline-linux",
+      "name": "harness-unit-tests",
+      "stage": "harness-unit-tests",
+      "started_at": "2026-11-18T23:54:11.760283+00:00",
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "--release",
+        "-j",
+        "4",
+        "--bin",
+        "itgmania-harness-rs"
+      ],
+      "cwd": "/opt/song-lua-audit/harness-pass4",
+      "exit_code": 0,
+      "elapsed_seconds": 52.595,
+      "finished_at": "2026-11-18T23:55:04.356469+00:00"
+    },
+    {
+      "group": "baseline-linux",
+      "name": "native_notefield_capture_includes_models_and_position_caps",
+      "stage": "native_notefield_capture_includes_models_and_position_caps",
+      "started_at": "2026-11-18T23:55:04.357275+00:00",
+      "command": [
+        "xvfb-run",
+        "-a",
+        "-s",
+        "-screen 0 1280x720x24 -nolisten tcp",
+        "cargo",
+        "test",
+        "--locked",
+        "--release",
+        "-j",
+        "4",
+        "--bin",
+        "itgmania-harness-rs",
+        "native_notefield_capture_includes_models_and_position_caps",
+        "--",
+        "--ignored",
+        "--nocapture"
+      ],
+      "cwd": "/opt/song-lua-audit/harness-pass4",
+      "exit_code": 0,
+      "elapsed_seconds": 37.897,
+      "finished_at": "2026-11-18T23:55:42.254586+00:00"
+    },
+    {
+      "group": "baseline-linux",
+      "name": "native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs",
+      "stage": "native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs",
+      "started_at": "2026-11-18T23:55:42.255164+00:00",
+      "command": [
+        "xvfb-run",
+        "-a",
+        "-s",
+        "-screen 0 1280x720x24 -nolisten tcp",
+        "cargo",
+        "test",
+        "--locked",
+        "--release",
+        "-j",
+        "4",
+        "--bin",
+        "itgmania-harness-rs",
+        "native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs",
+        "--",
+        "--ignored",
+        "--nocapture"
+      ],
+      "cwd": "/opt/song-lua-audit/harness-pass4",
+      "exit_code": 0,
+      "elapsed_seconds": 10.924,
+      "finished_at": "2026-11-18T23:55:53.179980+00:00"
+    },
+    {
+      "group": "final",
+      "name": "harness-unit-tests",
+      "stage": "clock-harness-unit-tests",
+      "started_at": "2026-11-19T00:13:08.913426+00:00",
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "--release",
+        "-j",
+        "4",
+        "--bin",
+        "itgmania-harness-rs"
+      ],
+      "cwd": "/opt/song-lua-audit/harness-pass4",
+      "exit_code": 0,
+      "elapsed_seconds": 74.862,
+      "finished_at": "2026-11-19T00:14:23.776030+00:00"
+    },
+    {
+      "group": "final",
+      "name": "native_gameplay_clock_inputs_reproduce_stage_observations",
+      "stage": "clock-native_gameplay_clock_inputs_reproduce_stage_observations",
+      "started_at": "2026-11-19T00:14:23.776941+00:00",
+      "command": [
+        "xvfb-run",
+        "-a",
+        "-s",
+        "-screen 0 1280x720x24 -nolisten tcp",
+        "cargo",
+        "test",
+        "--locked",
+        "--release",
+        "-j",
+        "4",
+        "--bin",
+        "itgmania-harness-rs",
+        "native_gameplay_clock_inputs_reproduce_stage_observations",
+        "--",
+        "--ignored",
+        "--nocapture"
+      ],
+      "cwd": "/opt/song-lua-audit/harness-pass4",
+      "exit_code": 0,
+      "elapsed_seconds": 13.551,
+      "finished_at": "2026-11-19T00:14:37.327958+00:00"
+    },
+    {
+      "group": "final",
+      "name": "native_notefield_capture_includes_models_and_position_caps",
+      "stage": "clock-native_notefield_capture_includes_models_and_position_caps",
+      "started_at": "2026-11-19T00:14:37.328582+00:00",
+      "command": [
+        "xvfb-run",
+        "-a",
+        "-s",
+        "-screen 0 1280x720x24 -nolisten tcp",
+        "cargo",
+        "test",
+        "--locked",
+        "--release",
+        "-j",
+        "4",
+        "--bin",
+        "itgmania-harness-rs",
+        "native_notefield_capture_includes_models_and_position_caps",
+        "--",
+        "--ignored",
+        "--nocapture"
+      ],
+      "cwd": "/opt/song-lua-audit/harness-pass4",
+      "exit_code": 0,
+      "elapsed_seconds": 37.762,
+      "finished_at": "2026-11-19T00:15:15.090994+00:00"
+    },
+    {
+      "group": "final",
+      "name": "native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs",
+      "stage": "clock-native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs",
+      "started_at": "2026-11-19T00:15:15.091611+00:00",
+      "command": [
+        "xvfb-run",
+        "-a",
+        "-s",
+        "-screen 0 1280x720x24 -nolisten tcp",
+        "cargo",
+        "test",
+        "--locked",
+        "--release",
+        "-j",
+        "4",
+        "--bin",
+        "itgmania-harness-rs",
+        "native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs",
+        "--",
+        "--ignored",
+        "--nocapture"
+      ],
+      "cwd": "/opt/song-lua-audit/harness-pass4",
+      "exit_code": 0,
+      "elapsed_seconds": 10.641,
+      "finished_at": "2026-11-19T00:15:25.732658+00:00"
+    }
+  ],
+  "captures": [
+    {
+      "name": "gameplay-clock",
+      "native_path": "/opt/song-lua-audit/harness-pass4/target/gameplay-clock-control-native.json",
+      "fixture": "/tmp/itgmania-gameplay-clock-63454",
+      "frames": 622,
+      "completion": {
+        "next_screen": "ScreenEvaluationStage",
+        "reason": "gameplay-exit",
+        "stage_committed": true,
+        "stages_played_after": 1,
+        "stages_played_before": 0
+      },
+      "semantic_event_replay": null,
+      "native_gameplay_clock_inputs": true
+    },
+    {
+      "name": "notefield",
+      "native_path": "/opt/song-lua-audit/harness-pass4/target/notefield-control-native.json",
+      "fixture": "/tmp/itgmania-notefield-control-63508",
+      "frames": 396,
+      "completion": {
+        "reason": "beat-limit"
+      },
+      "semantic_event_replay": false,
+      "native_gameplay_clock_inputs": true
+    },
+    {
+      "name": "render-random",
+      "native_path": "/tmp/itgmania-render-random-63715/native.json",
+      "fixture": "/tmp/itgmania-render-random-63715",
+      "frames": 278,
+      "completion": {
+        "reason": "beat-limit"
+      },
+      "semantic_event_replay": null,
+      "native_gameplay_clock_inputs": true
+    }
+  ],
+  "files": {
+    "baseline-linux/proof/harness-unit-tests.json": {
+      "source": "/opt/song-lua-audit/pass4/baseline-linux/proof/harness-unit-tests.json",
+      "role": "passed-test-receipt",
+      "bytes": 370,
+      "sha256": "b8483fabe2e9e4c5e459abbfdbd709ca412565aa977422567de910e7efec6b60"
+    },
+    "baseline-linux/logs/harness-unit-tests.log": {
+      "source": "/opt/song-lua-audit/pass4/baseline-linux/logs/harness-unit-tests.log",
+      "role": "passed-test-log",
+      "bytes": 19062,
+      "sha256": "514cec74ed390352a9063ac3383f816b641c350bc684724978df5141b98be10b"
+    },
+    "baseline-linux/proof/native_notefield_capture_includes_models_and_position_caps.json": {
+      "source": "/opt/song-lua-audit/pass4/baseline-linux/proof/native_notefield_capture_includes_models_and_position_caps.json",
+      "role": "passed-test-receipt",
+      "bytes": 601,
+      "sha256": "b5864c924e11d51d7dd7d5d805536f77a7a61f39bead40059982ebb4aaff0cd6"
+    },
+    "baseline-linux/logs/native_notefield_capture_includes_models_and_position_caps.log": {
+      "source": "/opt/song-lua-audit/pass4/baseline-linux/logs/native_notefield_capture_includes_models_and_position_caps.log",
+      "role": "passed-test-log",
+      "bytes": 437,
+      "sha256": "7f3253dff357105a2efc20661fdbb31cf2eac75256aa6669e68a868bdfe4fd9c"
+    },
+    "baseline-linux/proof/native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs.json": {
+      "source": "/opt/song-lua-audit/pass4/baseline-linux/proof/native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs.json",
+      "role": "passed-test-receipt",
+      "bytes": 637,
+      "sha256": "5a8fc38f288e21a4c0b1957e635b1518725f8772d8d747329fbf0dd103ae9a5d"
+    },
+    "baseline-linux/logs/native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs.log": {
+      "source": "/opt/song-lua-audit/pass4/baseline-linux/logs/native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs.log",
+      "role": "passed-test-log",
+      "bytes": 455,
+      "sha256": "751b13c54984e609438dea4dbe01f3d61e83ea79b3ec14b07d8977b33e1883cb"
+    },
+    "final/proof/clock-harness-unit-tests.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/clock-harness-unit-tests.json",
+      "role": "passed-test-receipt",
+      "bytes": 376,
+      "sha256": "5ab9208e4505e1efb93672668db2e38a12ba1acf7b2a37f0cdaa762142d7e94f"
+    },
+    "final/logs/clock-harness-unit-tests.log": {
+      "source": "/opt/song-lua-audit/pass4/logs/clock-harness-unit-tests.log",
+      "role": "passed-test-log",
+      "bytes": 19419,
+      "sha256": "6612cca113bf0352c6fb31048446b8e307208510efb4479e3f5bd323eb6c8a7f"
+    },
+    "final/proof/clock-native_gameplay_clock_inputs_reproduce_stage_observations.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/clock-native_gameplay_clock_inputs_reproduce_stage_observations.json",
+      "role": "passed-test-receipt",
+      "bytes": 605,
+      "sha256": "21bbe6f9f266db355f5ebb1cb74c097a09d3847011a884791eb26ef92e4b3e0e"
+    },
+    "final/logs/clock-native_gameplay_clock_inputs_reproduce_stage_observations.log": {
+      "source": "/opt/song-lua-audit/pass4/logs/clock-native_gameplay_clock_inputs_reproduce_stage_observations.log",
+      "role": "passed-test-log",
+      "bytes": 640,
+      "sha256": "5fd1e5d0a1509174ebb19683497f158b5a0e98b61a1432519d82d92ddc52a7b3"
+    },
+    "final/proof/clock-native_notefield_capture_includes_models_and_position_caps.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/clock-native_notefield_capture_includes_models_and_position_caps.json",
+      "role": "passed-test-receipt",
+      "bytes": 607,
+      "sha256": "4a5d0d05081cef0ca1a90c0c6e70ac23cb51e7ee4983033b0584a8e6012a936b"
+    },
+    "final/logs/clock-native_notefield_capture_includes_models_and_position_caps.log": {
+      "source": "/opt/song-lua-audit/pass4/logs/clock-native_notefield_capture_includes_models_and_position_caps.log",
+      "role": "passed-test-log",
+      "bytes": 437,
+      "sha256": "e6e7a0057998163da8965ab5cdd304171f1a9c266061bb8ecc4fc97c4765f014"
+    },
+    "final/proof/clock-native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/clock-native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs.json",
+      "role": "passed-test-receipt",
+      "bytes": 643,
+      "sha256": "6dfa4a3b26813a33a62763b74623af7b5760b827adfda583151e2ad03562275c"
+    },
+    "final/logs/clock-native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs.log": {
+      "source": "/opt/song-lua-audit/pass4/logs/clock-native_render_random_scopes_preserve_parent_wrapper_and_repeated_draw_inputs.log",
+      "role": "passed-test-log",
+      "bytes": 455,
+      "sha256": "0e77d10a392efac608162a5f392a6066d4b625456a58e86389a91ab1fbf605a4"
+    },
+    "final/proof/source-proof.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/source-proof.json",
+      "role": "source-build-provenance",
+      "bytes": 1955844,
+      "sha256": "a01d65ab3cbf5a78f24903ca47805a9af28928c4a574ac880fd04bbf0da84ed8"
+    },
+    "final/proof/capture-binaries.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/capture-binaries.json",
+      "role": "source-build-provenance",
+      "bytes": 1714,
+      "sha256": "477ee752cfb6b90167313e689466c2bfe885cdd15301f336e321d9e37a7578c5"
+    },
+    "final/proof/build-proof.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/build-proof.json",
+      "role": "source-build-provenance",
+      "bytes": 3124,
+      "sha256": "a48e3be76743ddd2a93b6d1379eb350994c76418214be430d88cf3ea2df5b4f2"
+    },
+    "final/proof/capture-candidate-proof.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/capture-candidate-proof.json",
+      "role": "source-build-provenance",
+      "bytes": 1659,
+      "sha256": "d5374308dc27afd4795ad03350653f12270f917d81801a91966fd8b5b214d63a"
+    },
+    "final/proof/capture-candidate-source-proof.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/capture-candidate-source-proof.json",
+      "role": "source-build-provenance",
+      "bytes": 1956060,
+      "sha256": "7252f0263b66f6d8e75a0044f5aff92a9174d6c2c8de5c0d960de0f1c1935a74"
+    },
+    "final/proof/fixture-support.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/fixture-support.json",
+      "role": "source-build-provenance",
+      "bytes": 471,
+      "sha256": "b730fd575d15f968f22830edd4da8bf032b6ee50f654db1e0f65e13844b7c455"
+    },
+    "baseline-linux/proof/source-proof.json": {
+      "source": "/opt/song-lua-audit/pass4/baseline-linux/proof/source-proof.json",
+      "role": "source-build-provenance",
+      "bytes": 1955659,
+      "sha256": "0f4057354ef3edbf611cd8db370881498e58c515e60c7bf962ef1ee6b003b608"
+    },
+    "baseline-linux/proof/capture-binaries.json": {
+      "source": "/opt/song-lua-audit/pass4/baseline-linux/proof/capture-binaries.json",
+      "role": "source-build-provenance",
+      "bytes": 1010,
+      "sha256": "df028f5ca32b7aaa14c980b34aa13c01c86637650308ee958735d64a874fd9ef"
+    },
+    "baseline-linux/proof/build-proof.json": {
+      "source": "/opt/song-lua-audit/pass4/baseline-linux/proof/build-proof.json",
+      "role": "source-build-provenance",
+      "bytes": 2371,
+      "sha256": "356d4c32987b2b747cb9ef7cadd59ff8482b0ffa8322b2c3e2b5078587bf55e3"
+    },
+    "baseline-linux/proof/fixture-support.json": {
+      "source": "/opt/song-lua-audit/pass4/baseline-linux/proof/fixture-support.json",
+      "role": "source-build-provenance",
+      "bytes": 471,
+      "sha256": "b730fd575d15f968f22830edd4da8bf032b6ee50f654db1e0f65e13844b7c455"
+    },
+    "final/proof/clock-native-configure.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/clock-native-configure.json",
+      "role": "build-receipt-or-log",
+      "bytes": 618,
+      "sha256": "9e954dccd755877ee6c11747068d8e98a948c11dedbf63d23fa757904c7f8b98"
+    },
+    "final/logs/clock-native-configure.log": {
+      "source": "/opt/song-lua-audit/pass4/logs/clock-native-configure.log",
+      "role": "build-receipt-or-log",
+      "bytes": 3549,
+      "sha256": "0859724a1f6941aca7d670f917a9dd1696d3e16bc509bae3b62e36f21e10096a"
+    },
+    "final/proof/clock-native-build.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/clock-native-build.json",
+      "role": "build-receipt-or-log",
+      "bytes": 372,
+      "sha256": "b0d7159116bf777112e110a7a3af22f56364adf4f341b0856fcb77efb7bc318e"
+    },
+    "final/logs/clock-native-build.log": {
+      "source": "/opt/song-lua-audit/pass4/logs/clock-native-build.log",
+      "role": "build-receipt-or-log",
+      "bytes": 2370,
+      "sha256": "03f401c4baca3d39302251824b5f8775aac8f8a5da6c3d96b64f419a0b3deb1b"
+    },
+    "final/proof/clock-harness-build.json": {
+      "source": "/opt/song-lua-audit/pass4/proof/clock-harness-build.json",
+      "role": "build-receipt-or-log",
+      "bytes": 333,
+      "sha256": "9d6ac9ae1228a132260219d887d9558926479879edb9b941e39c22684c8f3999"
+    },
+    "final/logs/clock-harness-build.log": {
+      "source": "/opt/song-lua-audit/pass4/logs/clock-harness-build.log",
+      "role": "build-receipt-or-log",
+      "bytes": 141,
+      "sha256": "34f7316eb9ac5b05c2bc8e7c4052c653713e0bdf85421f454b788941e303076e"
+    },
+    "recipes/prepare_builder.py": {
+      "source": "/opt/song-lua-audit/pass4/prepare_builder.py",
+      "role": "build-or-publication-recipe",
+      "bytes": 17750,
+      "sha256": "8e7f51a166aee51e5cc6249f8127511c280aba6ed010f7f23490426b228361d0"
+    },
+    "recipes/prepare_builder_native_noteskins.py": {
+      "source": "/opt/song-lua-audit/pass4/prepare_builder_native_noteskins.py",
+      "role": "build-or-publication-recipe",
+      "bytes": 17758,
+      "sha256": "425d46a6e13a31d52ba2e5eae9c4a721f446ca75e9e9ce5f0190dfbcf9d36e4c"
+    },
+    "recipes/finalize_capture.py": {
+      "source": "/opt/song-lua-audit/pass4/finalize_capture.py",
+      "role": "build-or-publication-recipe",
+      "bytes": 13731,
+      "sha256": "4c2a68db940dccea805f8968915449c480f9ca31dbf1badefa7d2eaca3debc26"
+    },
+    "recipes/finalize_capture_publish_pathfix.py": {
+      "source": "/opt/song-lua-audit/pass4/finalize_capture_publish_pathfix.py",
+      "role": "build-or-publication-recipe",
+      "bytes": 13780,
+      "sha256": "6aa61207857f1fb38e9abf8b06de20176bfb87f7e38c3f45662db54755371e76"
+    },
+    "inputs/capture-revision.json": {
+      "source": "/opt/song-lua-audit/pass4/inputs/capture-revision.json",
+      "role": "source-input",
+      "bytes": 404,
+      "sha256": "5c7e4ddcf7221d1e02b1944065c6a7d9f3f96e95cc6c6800ec2cbc081b9caf28"
+    },
+    "inputs/gameplay-clock.patch": {
+      "source": "/opt/song-lua-audit/pass4/inputs/gameplay-clock.patch",
+      "role": "source-input",
+      "bytes": 36106,
+      "sha256": "37ae2e46b6818b3e846117874b236d1301509bf94644b1fdb2156cf1d2ab8f58"
+    },
+    "inputs/linux-headless.patch": {
+      "source": "/opt/song-lua-audit/pass4/inputs/linux-headless.patch",
+      "role": "source-input",
+      "bytes": 7993,
+      "sha256": "ed4ac250b920a3e0c10843d3b9b01bb1feb069224a7a4876146674a9f4417011"
+    },
+    "inputs/capture.bundle": {
+      "source": "/opt/song-lua-audit/pass4/inputs/capture.bundle",
+      "role": "source-input",
+      "bytes": 10898,
+      "sha256": "f9779e3e7974cf358f006e0ed6ef708622259e6e14e31f7200486dff1b1876f4"
+    },
+    "inputs/fixture-support-receipt.json": {
+      "source": "/opt/song-lua-audit/pass4/inputs/fixture-support-receipt.json",
+      "role": "source-input",
+      "bytes": 250,
+      "sha256": "0b8786157db2ec743c92ec3dc8c08716ba284f9e4d646530c3c7a7527e68aed8"
+    },
+    "committed-harness/native/trace_adapter.cpp": {
+      "source": "/opt/song-lua-audit/harness-pass4/native/trace_adapter.cpp",
+      "role": "control-and-adapter-source",
+      "bytes": 3662,
+      "sha256": "28a8a3a114112ea12b6e75ef317b8301232e1aa85dc06a95fe61d1f4e6243068"
+    },
+    "committed-harness/native/trace_adapter.cmake": {
+      "source": "/opt/song-lua-audit/harness-pass4/native/trace_adapter.cmake",
+      "role": "control-and-adapter-source",
+      "bytes": 24691,
+      "sha256": "5f8df52884e25910b65bd517851a6c49712e87372ba7a53c17fd62a312641544"
+    },
+    "committed-harness/native/TRACE_ADAPTER.md": {
+      "source": "/opt/song-lua-audit/harness-pass4/native/TRACE_ADAPTER.md",
+      "role": "control-and-adapter-source",
+      "bytes": 14485,
+      "sha256": "3ba2f890ee9f8cf1dc96a146197768ca1dc480f66bb048a67d457514cb75b1b3"
+    },
+    "committed-harness/native/interactive_trace.cpp": {
+      "source": "/opt/song-lua-audit/harness-pass4/native/interactive_trace.cpp",
+      "role": "control-and-adapter-source",
+      "bytes": 32648,
+      "sha256": "c54a45ec44d9a15e28dd3ed2ec78c4592183e9561cad0fa37be0ee642def7027"
+    },
+    "committed-harness/native/interactive_trace.h": {
+      "source": "/opt/song-lua-audit/harness-pass4/native/interactive_trace.h",
+      "role": "control-and-adapter-source",
+      "bytes": 6112,
+      "sha256": "5d8a9bc1d52c41b983da6fb2c827a196c1b4a288e3bb6f0fd2a87b5cfcf8f5b6"
+    },
+    "committed-harness/probe_theme/NotefieldTrace.lua": {
+      "source": "/opt/song-lua-audit/harness-pass4/probe_theme/NotefieldTrace.lua",
+      "role": "control-and-adapter-source",
+      "bytes": 11993,
+      "sha256": "791050f5b3fc4ae41b8e2e350f0d02d8565cfb0bbe62adb8262f8c7cea9750a9"
+    },
+    "committed-harness/probe_theme/SongLuaTrace.lua": {
+      "source": "/opt/song-lua-audit/harness-pass4/probe_theme/SongLuaTrace.lua",
+      "role": "control-and-adapter-source",
+      "bytes": 67973,
+      "sha256": "80e1985df68a142edac58f182e647f585d6d62a70bebf3cec4bccee847ea23f4"
+    },
+    "committed-harness/src/song_lua_runtime.rs": {
+      "source": "/opt/song-lua-audit/harness-pass4/src/song_lua_runtime.rs",
+      "role": "control-and-adapter-source",
+      "bytes": 204761,
+      "sha256": "8949a9103ca12584dd3a580abe90a799631ef2279c52acd1ac00d8307c21878f"
+    },
+    "pinned-native/src/PlayerStageStats.cpp": {
+      "source": "/opt/song-lua-audit/harness-pass4/vendor/itgmania/src/PlayerStageStats.cpp",
+      "role": "native-engine-authority",
+      "bytes": 31037,
+      "sha256": "e067b3bba22adc5d016e32fd6384393d2a03d9a1bbbd2b8fe36216b03b4e7497"
+    },
+    "pinned-native/src/ScreenGameplay.cpp": {
+      "source": "/opt/song-lua-audit/harness-pass4/vendor/itgmania/src/ScreenGameplay.cpp",
+      "role": "native-engine-authority",
+      "bytes": 120464,
+      "sha256": "d6d976f7aa6fb1586f4d7bfa499750adc17b8eef472e3bc824bdca151725c4a0"
+    },
+    "pinned-native/src/StageStats.cpp": {
+      "source": "/opt/song-lua-audit/harness-pass4/vendor/itgmania/src/StageStats.cpp",
+      "role": "native-engine-authority",
+      "bytes": 19967,
+      "sha256": "687a7f5121b3240e863496f3dc66e4fa882e0d759f2730ecc0d7106890d86aca"
+    },
+    "pinned-native/src/arch/LowLevelWindow/LowLevelWindow_X11.cpp": {
+      "source": "/opt/song-lua-audit/harness-pass4/vendor/itgmania/src/arch/LowLevelWindow/LowLevelWindow_X11.cpp",
+      "role": "native-engine-authority",
+      "bytes": 38070,
+      "sha256": "63d30cedcea291dcd0c50067773b8ff227c628cdf7678c9741c56858fb78bc9c"
+    },
+    "controls/gameplay-clock/native.json": {
+      "source": "/opt/song-lua-audit/harness-pass4/target/gameplay-clock-control-native.json",
+      "role": "native-control-capture",
+      "bytes": 543594,
+      "sha256": "30dd265b8cb63026d2f9efb8bb3a00b994c9795b01c410bba6b248ccca3ae734"
+    },
+    "controls/gameplay-clock/fixture/control.sm": {
+      "source": "/tmp/itgmania-gameplay-clock-63454/control.sm",
+      "role": "authored-control-input",
+      "bytes": 225,
+      "sha256": "7f49021d2d343f597089c17fca91ef13baaaa326eb9e6eb983b58f6aa677d65c"
+    },
+    "controls/gameplay-clock/fixture/default.lua": {
+      "source": "/tmp/itgmania-gameplay-clock-63454/default.lua",
+      "role": "authored-control-input",
+      "bytes": 906,
+      "sha256": "6152753847dd13de4459555faa57746ca35bb33596b69565cef39d2167c1b26c"
+    },
+    "controls/gameplay-clock/fixture/silence.wav": {
+      "source": "/tmp/itgmania-gameplay-clock-63454/silence.wav",
+      "role": "authored-control-input",
+      "bytes": 48044,
+      "sha256": "c445f452f82fe49f42255d38b2535a5eddafa9355464e2d4a6f2fa41f4579a0d"
+    },
+    "controls/notefield/native.json": {
+      "source": "/opt/song-lua-audit/harness-pass4/target/notefield-control-native.json",
+      "role": "native-control-capture",
+      "bytes": 18974553,
+      "sha256": "e3a55bff678df4f76e34cde15f6031383ed2251ef5db6b01704a5b0ebbdb1176"
+    },
+    "controls/notefield/fixture/control.ssc": {
+      "source": "/tmp/itgmania-notefield-control-63508/control.ssc",
+      "role": "authored-control-input",
+      "bytes": 459,
+      "sha256": "aa629b6acbcd1b6466b3bc37952111840e8920388b41bd3c7b2a477a6314ec9e"
+    },
+    "controls/notefield/fixture/default.lua": {
+      "source": "/tmp/itgmania-notefield-control-63508/default.lua",
+      "role": "authored-control-input",
+      "bytes": 1637,
+      "sha256": "da3bbfdf1d35734fd54cdbfafb075276c62c4d4bf51177592740c3232ebdd408"
+    },
+    "controls/notefield/fixture/material.txt": {
+      "source": "/tmp/itgmania-notefield-control-63508/material.txt",
+      "role": "authored-control-input",
+      "bytes": 233,
+      "sha256": "514b0a5f19875dacc14b7254bd5ef8cdb3d1a00c797ae497a95dfb152b0b873d"
+    },
+    "controls/notefield/fixture/silence.wav": {
+      "source": "/tmp/itgmania-notefield-control-63508/silence.wav",
+      "role": "authored-control-input",
+      "bytes": 56044,
+      "sha256": "e80337b528d0df32f06dc71f39227c03994176bef5a4ef85c1ff5515eecaa938"
+    },
+    "controls/notefield/fixture/transparent.txt": {
+      "source": "/tmp/itgmania-notefield-control-63508/transparent.txt",
+      "role": "authored-control-input",
+      "bytes": 231,
+      "sha256": "6aff312a3d028ff91cbd2a313378b5bfb23b2f3cc1179b59d19066a7d40746a8"
+    },
+    "controls/render-random/native.json": {
+      "source": "/tmp/itgmania-render-random-63715/native.json",
+      "role": "native-control-capture",
+      "bytes": 526018,
+      "sha256": "c78398eac1a256e2f785e7b5c67cdbbe56f6441b2e6af9d5405eb756b78e545c"
+    },
+    "controls/render-random/fixture/control.sm": {
+      "source": "/tmp/itgmania-render-random-63715/control.sm",
+      "role": "authored-control-input",
+      "bytes": 179,
+      "sha256": "5fb630855d85937fbbc6d41065fca6cdd49e3fbb966005cefd33e1b64a4bbd97"
+    },
+    "controls/render-random/fixture/default.lua": {
+      "source": "/tmp/itgmania-render-random-63715/default.lua",
+      "role": "authored-control-input",
+      "bytes": 958,
+      "sha256": "f31c4f3bb3b65894dfe21cc03de758d8eb69f1f90c390cf836d3c646aad79e72"
+    },
+    "controls/render-random/fixture/silence.wav": {
+      "source": "/tmp/itgmania-render-random-63715/silence.wav",
+      "role": "authored-control-input",
+      "bytes": 32044,
+      "sha256": "aaa520a077ec79fd8a6c5abfa0f6a5593cb843b04a9088316b81849d19c25c87"
+    }
+  },
+  "limitations": [
+    "The notefield render document is separate from whole-song semantic replay.",
+    "The notefield test also checks semantic position clocks and fully dark receptors in memory; its exported native JSON is the first notefield capture.",
+    "Clock-control attempt 1 is retained in a separate failed-exercise archive and is not counted as a passing control."
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "package": {
+    "path": "/opt/song-lua-audit/pass4/evidence/life-pipeline/life-pipeline-evidence.zip",
+    "bytes": 4596805,
+    "sha256": "a61ce8fe9a994639de2adb0a8b9c3f631d6b52abb9f7e84f2bbf84e3c67379ba",
+    "manifest_sha256": "5353ec257a93711574a3d480097824672c1030a9935ef5fda27bcb6262788720",
+    "files": 37,
+    "local": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\life-control-evidence\\life-pipeline-evidence.zip"
+  },
+  "original_archives": {
+    "pilot": {
+      "path": "/opt/song-lua-audit/pass4/results/pilot-20261119T002240Z-c0001/capture-25bc951233ad094e27d1-001/replay-2eb64faf9ca54a9055e6/accepted/e3a62d58bc5b729fceddc30d59271d6380cbbb18db8900cff86dee1996dab6e9.tar.zst",
+      "bytes": 107737471,
+      "sha256": "e3a62d58bc5b729fceddc30d59271d6380cbbb18db8900cff86dee1996dab6e9",
+      "uncompressed_sha256": "81b441a396318a3d8f97f19264f89261aef33bfa1d42509fb498239d4d4a1af1",
+      "local": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\life-control-evidence\\pilot-original-fixture.tar.zst"
+    },
+    "life": {
+      "path": "/opt/song-lua-audit/pass4/results/life-record-life-20261119T002411Z-c0001/capture-1df1f7a8b319446b96f1-001/retained/3a01fcf274d6077cd897b59d6fbe64f62376d8247148b5620de9020f3d4b0194.tar.zst",
+      "bytes": 108315173,
+      "sha256": "3a01fcf274d6077cd897b59d6fbe64f62376d8247148b5620de9020f3d4b0194",
+      "uncompressed_sha256": "83d39a934f1a2c03a08c57d6fbffc867d47db85547ff20ef474154c92a18c91d",
+      "local": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\life-control-evidence\\life-original-fixture.tar.zst"
+    }
+  },
+  "controls": {
+    "pilot": {
+      "comparison": {
+        "diagnostic_only": false,
+        "whole_song_parity_proven": false,
+        "archive_accepted": true,
+        "execution_path": "diagnostic-live-lua",
+        "production_preparation_exercised": false,
+        "production_parity_proven": false,
+        "native_frames": 239,
+        "replayed_frames": 239,
+        "compared_stage_fields": 330,
+        "pending_coverage": [
+          "uncompared song operations: Actor.GetY, Actor.addy",
+          "native drawable state/resources: Quad",
+          "missing captured subscriber identity for ScreenGameplay/2/10/1",
+          "missing captured subscriber identity for ScreenGameplay/2/11",
+          "missing captured subscriber identity for ScreenGameplay/2/14/1",
+          "missing captured subscriber identity for ScreenGameplay/2/7",
+          "missing captured subscriber identity for ScreenGameplay/25",
+          "missing captured subscriber identity for ScreenGameplay/26/1/1",
+          "missing captured subscriber identity for ScreenGameplay/26/1/10",
+          "missing captured subscriber identity for ScreenGameplay/26/1/12",
+          "missing captured subscriber identity for ScreenGameplay/26/1/2",
+          "missing captured subscriber identity for ScreenGameplay/26/1/4",
+          "missing captured subscriber identity for ScreenGameplay/26/1/5",
+          "missing captured subscriber identity for ScreenGameplay/26/1/7",
+          "missing captured subscriber identity for ScreenGameplay/26/1/9",
+          "missing captured subscriber identity for ScreenGameplay/3/1"
+        ],
+        "capture_completed_gameplay": true,
+        "acceptance_basis": "full replay of implemented comparisons",
+        "fixture_sha256": "81b441a396318a3d8f97f19264f89261aef33bfa1d42509fb498239d4d4a1af1",
+        "mismatch_count": 0,
+        "mismatch_fields": {},
+        "first_mismatches": [],
+        "error_count": 0,
+        "errors": []
+      },
+      "native_trace": {
+        "update_frames": 239,
+        "drawable_samples": 40,
+        "drawable_frames": 239,
+        "native_error_events": 0,
+        "dropped": {
+          "dropped_drawable_samples": 0,
+          "dropped_events": 0,
+          "dropped_host_clock_inputs": 0,
+          "dropped_input_events": 0,
+          "dropped_random_reseeds": 0,
+          "dropped_render_random_inputs": 0,
+          "dropped_script_errors": 0,
+          "dropped_stage_samples": 0,
+          "dropped_update_frames": 0
+        },
+        "gameplay_clock_observations": 179,
+        "gameplay_clock_not_called": 60,
+        "active_gameplay_clock_observations": 88,
+        "native_gameplay_clock_inputs": true,
+        "renderer": "opengl",
+        "trace_sha256": "6b27c60babcd1af5df1a9c7556ef46c6cfa6d5634058b1deddff7221b5b96e3a",
+        "trace_member_bytes": 407714
+      },
+      "source_proof_sha256": "a01d65ab3cbf5a78f24903ca47805a9af28928c4a574ac880fd04bbf0da84ed8",
+      "build_proof_sha256": "a48e3be76743ddd2a93b6d1379eb350994c76418214be430d88cf3ea2df5b4f2"
+    },
+    "life": {
+      "comparison": {
+        "diagnostic_only": true,
+        "whole_song_parity_proven": false,
+        "archive_accepted": false,
+        "execution_path": "diagnostic-live-lua",
+        "production_preparation_exercised": false,
+        "production_parity_proven": false,
+        "native_frames": 184,
+        "replayed_frames": 184,
+        "compared_stage_fields": 330,
+        "pending_coverage": [
+          "uncompared song operations: Actor.halign, Actor.valign, Actor.xy, BitmapText.settext, GameState.GetCurMusicSeconds, Player.SetLife, PlayerStageStats.GetLifeRecord",
+          "native drawable state/resources: BitmapText",
+          "missing captured subscriber identity for ScreenGameplay/2/10/1",
+          "missing captured subscriber identity for ScreenGameplay/2/11",
+          "missing captured subscriber identity for ScreenGameplay/2/13/3",
+          "missing captured subscriber identity for ScreenGameplay/2/13/4",
+          "missing captured subscriber identity for ScreenGameplay/2/14/1",
+          "missing captured subscriber identity for ScreenGameplay/2/7",
+          "missing captured subscriber identity for ScreenGameplay/2/9/3",
+          "missing captured subscriber identity for ScreenGameplay/2/9/4",
+          "missing captured subscriber identity for ScreenGameplay/25",
+          "missing captured subscriber identity for ScreenGameplay/26/1/1",
+          "missing captured subscriber identity for ScreenGameplay/26/1/10",
+          "missing captured subscriber identity for ScreenGameplay/26/1/12",
+          "missing captured subscriber identity for ScreenGameplay/26/1/2",
+          "missing captured subscriber identity for ScreenGameplay/26/1/4",
+          "missing captured subscriber identity for ScreenGameplay/26/1/5",
+          "missing captured subscriber identity for ScreenGameplay/26/1/7",
+          "missing captured subscriber identity for ScreenGameplay/26/1/9",
+          "missing captured subscriber identity for ScreenGameplay/3/1"
+        ],
+        "capture_completed_gameplay": true,
+        "acceptance_basis": "full replay of implemented comparisons",
+        "fixture_sha256": "83d39a934f1a2c03a08c57d6fbffc867d47db85547ff20ef474154c92a18c91d",
+        "mismatch_count": 100,
+        "mismatch_fields": {
+          "text": 100
+        },
+        "first_mismatches": [
+          {
+            "field": "text",
+            "actor": "def-0009",
+            "frame": 123,
+            "deadsync": "zero-default100 P1=#1[0.500000*1] P2=#1[0.500000*1]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0011",
+            "frame": 123,
+            "deadsync": "negative-default100 P1=#1[0.500000*1] P2=#1[0.500000*1]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0003",
+            "frame": 124,
+            "deadsync": "default100 P1=#100[0.500000*100] P2=#100[0.500000*100]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0005",
+            "frame": 124,
+            "deadsync": "two P1=#2[0.500000*2] P2=#2[0.500000*2]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0007",
+            "frame": 124,
+            "deadsync": "five P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0009",
+            "frame": 124,
+            "deadsync": "zero-default100 P1=#1[0.500000*1] P2=#1[0.500000*1]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0011",
+            "frame": 124,
+            "deadsync": "negative-default100 P1=#1[0.500000*1] P2=#1[0.500000*1]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0013",
+            "frame": 124,
+            "deadsync": "early-five P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0015",
+            "frame": 124,
+            "deadsync": "P1-first at=0.258027 before P1=#5[0.500000*5] P2=#5[0.500000*5] immediate P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0003",
+            "frame": 125,
+            "deadsync": "default100 P1=#100[0.500000*100] P2=#100[0.500000*100]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0005",
+            "frame": 125,
+            "deadsync": "two P1=#2[0.500000*2] P2=#2[0.500000*2]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0007",
+            "frame": 125,
+            "deadsync": "five P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0009",
+            "frame": 125,
+            "deadsync": "zero-default100 P1=#1[0.500000*1] P2=#1[0.500000*1]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0011",
+            "frame": 125,
+            "deadsync": "negative-default100 P1=#1[0.500000*1] P2=#1[0.500000*1]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0013",
+            "frame": 125,
+            "deadsync": "early-five P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0015",
+            "frame": 125,
+            "deadsync": "P1-first at=0.258027 before P1=#5[0.500000*5] P2=#5[0.500000*5] immediate P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0003",
+            "frame": 126,
+            "deadsync": "default100 P1=#100[0.500000*100] P2=#100[0.500000*100]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0005",
+            "frame": 126,
+            "deadsync": "two P1=#2[0.500000*2] P2=#2[0.500000*2]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0007",
+            "frame": 126,
+            "deadsync": "five P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0009",
+            "frame": 126,
+            "deadsync": "zero-default100 P1=#1[0.500000*1] P2=#1[0.500000*1]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0011",
+            "frame": 126,
+            "deadsync": "negative-default100 P1=#1[0.500000*1] P2=#1[0.500000*1]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0013",
+            "frame": 126,
+            "deadsync": "early-five P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0015",
+            "frame": 126,
+            "deadsync": "P1-first at=0.258027 before P1=#5[0.500000*5] P2=#5[0.500000*5] immediate P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0003",
+            "frame": 127,
+            "deadsync": "default100 P1=#100[0.500000*100] P2=#100[0.500000*100]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0005",
+            "frame": 127,
+            "deadsync": "two P1=#2[0.500000*2] P2=#2[0.500000*2]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0007",
+            "frame": 127,
+            "deadsync": "five P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0009",
+            "frame": 127,
+            "deadsync": "zero-default100 P1=#1[0.500000*1] P2=#1[0.500000*1]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0011",
+            "frame": 127,
+            "deadsync": "negative-default100 P1=#1[0.500000*1] P2=#1[0.500000*1]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0013",
+            "frame": 127,
+            "deadsync": "early-five P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0015",
+            "frame": 127,
+            "deadsync": "P1-first at=0.258027 before P1=#5[0.500000*5] P2=#5[0.500000*5] immediate P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0003",
+            "frame": 128,
+            "deadsync": "default100 P1=#100[0.500000*100] P2=#100[0.500000*100]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0005",
+            "frame": 128,
+            "deadsync": "two P1=#2[0.500000*2] P2=#2[0.500000*2]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0007",
+            "frame": 128,
+            "deadsync": "five P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0009",
+            "frame": 128,
+            "deadsync": "zero-default100 P1=#1[0.500000*1] P2=#1[0.500000*1]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0011",
+            "frame": 128,
+            "deadsync": "negative-default100 P1=#1[0.500000*1] P2=#1[0.500000*1]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0013",
+            "frame": 128,
+            "deadsync": "early-five P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0015",
+            "frame": 128,
+            "deadsync": "P1-first at=0.258027 before P1=#5[0.500000*5] P2=#5[0.500000*5] immediate P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0003",
+            "frame": 129,
+            "deadsync": "default100 P1=#100[0.500000*100] P2=#100[0.500000*100]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0005",
+            "frame": 129,
+            "deadsync": "two P1=#2[0.500000*2] P2=#2[0.500000*2]"
+          },
+          {
+            "field": "text",
+            "actor": "def-0007",
+            "frame": 129,
+            "deadsync": "five P1=#5[0.500000*5] P2=#5[0.500000*5]"
+          }
+        ],
+        "error_count": 0,
+        "errors": []
+      },
+      "native_trace": {
+        "update_frames": 184,
+        "drawable_samples": 671,
+        "drawable_frames": 184,
+        "native_error_events": 0,
+        "dropped": {
+          "dropped_drawable_samples": 0,
+          "dropped_events": 0,
+          "dropped_host_clock_inputs": 0,
+          "dropped_input_events": 0,
+          "dropped_random_reseeds": 0,
+          "dropped_render_random_inputs": 0,
+          "dropped_script_errors": 0,
+          "dropped_stage_samples": 0,
+          "dropped_update_frames": 0
+        },
+        "gameplay_clock_observations": 139,
+        "gameplay_clock_not_called": 45,
+        "active_gameplay_clock_observations": 42,
+        "native_gameplay_clock_inputs": true,
+        "renderer": "opengl",
+        "trace_sha256": "6c8e6276d1c005e27153db3b2dad0904c0c2327647d2f033d5642295c604db2b",
+        "trace_member_bytes": 67515713
+      },
+      "source_proof_sha256": "a01d65ab3cbf5a78f24903ca47805a9af28928c4a574ac880fd04bbf0da84ed8",
+      "build_proof_sha256": "a48e3be76743ddd2a93b6d1379eb350994c76418214be430d88cf3ea2df5b4f2"
+    }
+  }
+}
