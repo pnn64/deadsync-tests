@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "negative_archive_sha256": "ac119aabde1690ae88035995f5459e4c0c5d17123e74238312d228810a43c6c4",
+  "external_manifest_sha256": "4fc7cb5431e383607372117c091eed3012814e79861ec8ba1e40c864494ce36d",
+  "native_revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+  "baseline_harness_revision": "9eb6619c0eaf9c3aceabf7348efbb06a7fd37273",
+  "e2": "Both original rejected captures are retained. Authored outCirc evaluation after beat127.5 produces NaN transforms; numeric local vertices with non-finite clip vertices fail the unchanged drawable validator.",
+  "sequential_dreambox": "All16 native Lua failures preserve the original FastEnd.lua early return followed by a local declaration. Authored charts were not edited.",
+  "candidate_a": "The original candidate failed its14th gate after13 nonzero passing gates; its runner was not promoted. Complete original evidence is retained inside the bundle.",
+  "native_inputs_modified": false,
+  "validation_tolerances_changed": false,
+  "negative_classifications_changed": false,
+  "fleet_completion_claimed": false,
+  "whole_song_parity_proven": false
+}

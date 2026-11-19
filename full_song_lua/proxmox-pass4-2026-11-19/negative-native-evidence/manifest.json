@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-19T04:08:31.615626+00:00",
+  "archive": {
+    "file": "negative-evidence.zip",
+    "bytes": 13588166,
+    "sha256": "ac119aabde1690ae88035995f5459e4c0c5d17123e74238312d228810a43c6c4"
+  },
+  "files": [
+    {
+      "path": "candidate-a/candidate-evidence.zip",
+      "bytes": 2538205,
+      "sha256": "6444a7f8ba28eccf0cc3b903467e564ef9ba49f0f545b6498fd8b3f866908907",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\candidate-evidence\\a4ba8cef7901833c88956c99762f7e5bba4720bdeb2486e1888948307c48def6\\20261119T033615.897444Z\\candidate-evidence.zip"
+    },
+    {
+      "path": "candidate-a/download-receipt.json",
+      "bytes": 16366,
+      "sha256": "b7e3eaffd09948963c9b0ec600dc74dd53b900648674fdb2cab055aa15645395",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\candidate-evidence\\a4ba8cef7901833c88956c99762f7e5bba4720bdeb2486e1888948307c48def6\\20261119T033615.897444Z\\download-receipt.json"
+    },
+    {
+      "path": "candidate-a/evidence-manifest.json",
+      "bytes": 28873,
+      "sha256": "1c54cf3cfe36a7ab557ec3eeee5aff092916e47362ab535e124accf07465da69",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\candidate-evidence\\a4ba8cef7901833c88956c99762f7e5bba4720bdeb2486e1888948307c48def6\\20261119T033615.897444Z\\evidence-manifest.json"
+    },
+    {
+      "path": "candidate-a/summary.json",
+      "bytes": 13864,
+      "sha256": "b870218682b6ea25a7c2ab4a59fe00303c3929162389ce9b85fc9051cdbbd482",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\candidate-evidence\\a4ba8cef7901833c88956c99762f7e5bba4720bdeb2486e1888948307c48def6\\20261119T033615.897444Z\\summary.json"
+    },
+    {
+      "path": "e2/artifact-selection.json",
+      "bytes": 1831,
+      "sha256": "66b3158d00feb5afc5e7b17d1135436c584932a24a303727e0d97837bd230d64",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\artifact-selection.json"
+    },
+    {
+      "path": "e2/capture-results/a328e6a6a680b57a-c0001.capture-result.json",
+      "bytes": 7566,
+      "sha256": "2a39856efc8cdba5f6327ba37d08a1476fca1f298c383e18ef2dbe656d3846e3",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\a328e6a6a680b57a-c0001.capture-result.json"
+    },
+    {
+      "path": "e2/capture-results/c66f9f26050402e8-c0001.capture-result.json",
+      "bytes": 7559,
+      "sha256": "d43298d76e18d3a0822bfe294d43fd8957ae58125f8a9a9cc90819bbf64b3025",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\c66f9f26050402e8-c0001.capture-result.json"
+    },
+    {
+      "path": "e2/diagnosis.json",
+      "bytes": 24299,
+      "sha256": "f317ffb03a94c968a3e21e2b220869dbeb2fa149882cc2e44ef5990acfa19169",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\diagnosis.json"
+    },
+    {
+      "path": "e2/diagnostics/0dbf47eaafc4773ea38efa56eb6ab2b77c4313d9d5fd5fe288d6355eac526673.members.json",
+      "bytes": 977,
+      "sha256": "a66144881af66c08e92e6474dc8ff55db236c713b1434c4f7a420a45ad69a300",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\0dbf47eaafc4773ea38efa56eb6ab2b77c4313d9d5fd5fe288d6355eac526673.members.json"
+    },
+    {
+      "path": "e2/diagnostics/0dbf47eaafc4773ea38efa56eb6ab2b77c4313d9d5fd5fe288d6355eac526673.tar.zst",
+      "bytes": 5113994,
+      "sha256": "0dbf47eaafc4773ea38efa56eb6ab2b77c4313d9d5fd5fe288d6355eac526673",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\0dbf47eaafc4773ea38efa56eb6ab2b77c4313d9d5fd5fe288d6355eac526673.tar.zst"
+    },
+    {
+      "path": "e2/diagnostics/0dbf47eaafc4773ea38efa56eb6ab2b77c4313d9d5fd5fe288d6355eac526673.tar.zst.receipt.json",
+      "bytes": 841,
+      "sha256": "a5263a9b16e6af725d33407bdebd960f817a781b5136c267b495d5d4562c10f7",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\0dbf47eaafc4773ea38efa56eb6ab2b77c4313d9d5fd5fe288d6355eac526673.tar.zst.receipt.json"
+    },
+    {
+      "path": "e2/diagnostics/6578fefa20b27995c97f764f3f9dc8e7da648b0b23e88fcffc81c048015de0fb.members.json",
+      "bytes": 977,
+      "sha256": "5b0e2f651cd2549a8d463a09bf48fab237016a20163cd9cf61c818872b8fb6a7",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\6578fefa20b27995c97f764f3f9dc8e7da648b0b23e88fcffc81c048015de0fb.members.json"
+    },
+    {
+      "path": "e2/diagnostics/6578fefa20b27995c97f764f3f9dc8e7da648b0b23e88fcffc81c048015de0fb.tar.zst",
+      "bytes": 5108673,
+      "sha256": "6578fefa20b27995c97f764f3f9dc8e7da648b0b23e88fcffc81c048015de0fb",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\6578fefa20b27995c97f764f3f9dc8e7da648b0b23e88fcffc81c048015de0fb.tar.zst"
+    },
+    {
+      "path": "e2/diagnostics/6578fefa20b27995c97f764f3f9dc8e7da648b0b23e88fcffc81c048015de0fb.tar.zst.receipt.json",
+      "bytes": 841,
+      "sha256": "10fcdfdbb537cbbd1b4c60360aeb29dc84b64883697cafd28bff2dfec322ff67",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\6578fefa20b27995c97f764f3f9dc8e7da648b0b23e88fcffc81c048015de0fb.tar.zst.receipt.json"
+    },
+    {
+      "path": "e2/drawable-rejections/0dbf47eaafc4773ea38efa56eb6ab2b77c4313d9d5fd5fe288d6355eac526673.json",
+      "bytes": 21140,
+      "sha256": "e8b137bb743feb58519f53a2f2be6a676ff6a54f53f3a5eacd456771609945bc",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\0dbf47eaafc4773ea38efa56eb6ab2b77c4313d9d5fd5fe288d6355eac526673\\drawable-rejection.json"
+    },
+    {
+      "path": "e2/drawable-rejections/6578fefa20b27995c97f764f3f9dc8e7da648b0b23e88fcffc81c048015de0fb.json",
+      "bytes": 21141,
+      "sha256": "e150b63f4cd70d497d57548086b1720b92022d5e831da979e8726be8387c77ad",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\6578fefa20b27995c97f764f3f9dc8e7da648b0b23e88fcffc81c048015de0fb\\drawable-rejection.json"
+    },
+    {
+      "path": "e2/proofs/build-proof.json",
+      "bytes": 3124,
+      "sha256": "a48e3be76743ddd2a93b6d1379eb350994c76418214be430d88cf3ea2df5b4f2",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\candidate-evidence\\a4ba8cef7901833c88956c99762f7e5bba4720bdeb2486e1888948307c48def6\\20261119T033615.897444Z\\candidate\\prior\\build-proof.json"
+    },
+    {
+      "path": "e2/proofs/source-proof.json",
+      "bytes": 1955844,
+      "sha256": "a01d65ab3cbf5a78f24903ca47805a9af28928c4a574ac880fd04bbf0da84ed8",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\candidate-evidence\\a4ba8cef7901833c88956c99762f7e5bba4720bdeb2486e1888948307c48def6\\20261119T033615.897444Z\\published-proof\\source-proof.json"
+    },
+    {
+      "path": "e2/selection.full.json.gz",
+      "bytes": 69882,
+      "sha256": "868ca695ef1e1521a7b93e9e2bea5375bedbb3d9353452aa30859e80a8497679",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\selection.full.json.gz"
+    },
+    {
+      "path": "e2/source-authorities/E2_lua_default.lua",
+      "bytes": 69827,
+      "sha256": "62987b48fb232e37ba6eb9233264a131f44ac3e87aa0f76b289680f267248ffc",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\source-authorities\\E2_lua_default.lua"
+    },
+    {
+      "path": "e2/source-authorities/E2_lua_easing.lua",
+      "bytes": 9554,
+      "sha256": "c1ca37ef394c7e0b73215c9562dd4e41f81ac790499f89c99b51ddf322df64b0",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\source-authorities\\E2_lua_easing.lua"
+    },
+    {
+      "path": "e2/source-authorities/native_interactive_trace.cpp",
+      "bytes": 32648,
+      "sha256": "c54a45ec44d9a15e28dd3ed2ec78c4592183e9561cad0fa37be0ee642def7027",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\source-authorities\\native_interactive_trace.cpp"
+    },
+    {
+      "path": "e2/source-authorities/probe_theme_SongLuaTrace.lua",
+      "bytes": 67973,
+      "sha256": "80e1985df68a142edac58f182e647f585d6d62a70bebf3cec4bccee847ea23f4",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\source-authorities\\probe_theme_SongLuaTrace.lua"
+    },
+    {
+      "path": "e2/source-authorities/src_song_lua_runtime.rs",
+      "bytes": 204761,
+      "sha256": "8949a9103ca12584dd3a580abe90a799631ef2279c52acd1ac00d8307c21878f",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\e2-drawable-evidence\\source-authorities\\src_song_lua_runtime.rs"
+    },
+    {
+      "path": "sequential-dreambox/FastEnd.lua",
+      "bytes": 5240,
+      "sha256": "5ed35e2a21b8e2d12e659d7e42ce5030b0f5ce85dd64696cc88c2a0e42821ce8",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\authored-capture-error-evidence\\sequential-dreambox\\FastEnd.lua"
+    },
+    {
+      "path": "sequential-dreambox/receipt.json",
+      "bytes": 22403,
+      "sha256": "2202cbfe4c93aed0c2f2b934482de26c0bf96601ef2ca2348f267e87684ff8db",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\authored-capture-error-evidence\\sequential-dreambox\\receipt.json"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 5790,
+      "sha256": "1d6b7e13331248f1de9509b94e2b9d54899078acd99bcd55f78e2f92696420ba",
+      "original_local_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\negative-evidence-20261119T040831.615986Z\\verification.json"
+    }
+  ],
+  "verification": {
+    "schema_version": 1,
+    "prepared_at": "2026-11-19T04:08:31.615626+00:00",
+    "scope": "Immutable existing negative evidence only; no new native capture/replay, lifecycle action or acceptance change",
+    "e2": [
+      {
+        "archive_sha256": "0dbf47eaafc4773ea38efa56eb6ab2b77c4313d9d5fd5fe288d6355eac526673",
+        "archive_bytes": 5113994,
+        "decoded_tar_sha256": "35a6d537a58123909ef990deaaf82f56ea9e494365e6a906010b3e055db7d069",
+        "decoded_tar_bytes": 198625280,
+        "native_trace_member": {
+          "path": "song-lua-4294-1795052665116761853-0/Save/itgmania-harness/song-lua-trace.json",
+          "bytes": 102014847,
+          "sha256": "a382d348476515b1848705c9d5518f43a2cbd1e7ce743c6203cb858947b74c05"
+        },
+        "members": [
+          {
+            "path": "song-lua-4294-1795052665116761853-0/Logs/info.txt",
+            "bytes": 8864,
+            "sha256": "9c9ac8c4991a109fb2f1c9aa15ff8cfbfe88681ef0fd76c1800c8546135af0ad"
+          },
+          {
+            "path": "song-lua-4294-1795052665116761853-0/Logs/log.txt",
+            "bytes": 228692,
+            "sha256": "34c11f51b9bb7a5afb085043394da1fd5bf239f6afae85a6bd02f441d4619a75"
+          },
+          {
+            "path": "song-lua-4294-1795052665116761853-0/Logs/userlog.txt",
+            "bytes": 1480,
+            "sha256": "a453b283fb2d4f2f7792ea116ed648b4a852186a75eb3768cf50a735e1c55800"
+          },
+          {
+            "path": "song-lua-4294-1795052665116761853-0/Save/itgmania-harness/song-lua-trace.json",
+            "bytes": 102014847,
+            "sha256": "a382d348476515b1848705c9d5518f43a2cbd1e7ce743c6203cb858947b74c05"
+          },
+          {
+            "path": "song-lua-4294-1795052665116761853-0/Save/itgmania-harness/song-lua-trace.json.events",
+            "bytes": 96340647,
+            "sha256": "a884da5315501b780cfcbb03d7c31e8897d4f375c2f6b6c65822116ab4815d79"
+          },
+          {
+            "path": "song-lua-4294-1795052665116761853-0/Save/Preferences.ini",
+            "bytes": 7580,
+            "sha256": "a58d7e5545d30b581eba63c22645d3eb66bb7bee22c83a32529a68fb1139d968"
+          }
+        ],
+        "all_members_hashed": true,
+        "raw_trace_retained_inside_original_archive": true,
+        "duplicate_extracted_raw_included": false
+      },
+      {
+        "archive_sha256": "6578fefa20b27995c97f764f3f9dc8e7da648b0b23e88fcffc81c048015de0fb",
+        "archive_bytes": 5108673,
+        "decoded_tar_sha256": "962bb56aadcd6620f7b742d316c59c840dde482cbebad4fd0adcf0d17005bec4",
+        "decoded_tar_bytes": 198635520,
+        "native_trace_member": {
+          "path": "song-lua-4003-1795052881796346726-0/Save/itgmania-harness/song-lua-trace.json",
+          "bytes": 101962470,
+          "sha256": "900dd5badc27ff539f79066d28058ac969c872097fdae4bed88f4ed402150e7a"
+        },
+        "members": [
+          {
+            "path": "song-lua-4003-1795052881796346726-0/Logs/info.txt",
+            "bytes": 8864,
+            "sha256": "9e3a9cf2ff42bac2eff579f34943e66211eee62d96966327c37e81c6f30f2d35"
+          },
+          {
+            "path": "song-lua-4003-1795052881796346726-0/Logs/log.txt",
+            "bytes": 228651,
+            "sha256": "6f76398362ef51b6581d380237c825a429983e40e66e3c05ef894cf61163614e"
+          },
+          {
+            "path": "song-lua-4003-1795052881796346726-0/Logs/userlog.txt",
+            "bytes": 1480,
+            "sha256": "a453b283fb2d4f2f7792ea116ed648b4a852186a75eb3768cf50a735e1c55800"
+          },
+          {
+            "path": "song-lua-4003-1795052881796346726-0/Save/itgmania-harness/song-lua-trace.json",
+            "bytes": 101962470,
+            "sha256": "900dd5badc27ff539f79066d28058ac969c872097fdae4bed88f4ed402150e7a"
+          },
+          {
+            "path": "song-lua-4003-1795052881796346726-0/Save/itgmania-harness/song-lua-trace.json.events",
+            "bytes": 96403536,
+            "sha256": "c6cad4a48c46f0d0361d4ed3c338741c32f32780c80df5166857fc4bce215553"
+          },
+          {
+            "path": "song-lua-4003-1795052881796346726-0/Save/Preferences.ini",
+            "bytes": 7580,
+            "sha256": "a58d7e5545d30b581eba63c22645d3eb66bb7bee22c83a32529a68fb1139d968"
+          }
+        ],
+        "all_members_hashed": true,
+        "raw_trace_retained_inside_original_archive": true,
+        "duplicate_extracted_raw_included": false
+      }
+    ],
+    "e2_original_statuses": [
+      {
+        "id": "a328e6a6a680b57a-c0001",
+        "original_status": "capture_error",
+        "original_result_sha256": "55f77b6cb238ecfa642b945e8c16b02c9ee258d787582413d6a5fadc6f4a72fe",
+        "record_is_collected_envelope": true
+      },
+      {
+        "id": "c66f9f26050402e8-c0001",
+        "original_status": "capture_error",
+        "original_result_sha256": "3cf8c0a9765be408d54d51db27038736e8f6eaa0e6307bf407643f7f256c524c",
+        "record_is_collected_envelope": true
+      }
+    ],
+    "sequential_dreambox": {
+      "source_sha256": "5ed35e2a21b8e2d12e659d7e42ce5030b0f5ce85dd64696cc88c2a0e42821ce8",
+      "attempts": 16,
+      "original_status": "native_lua_or_setup_error",
+      "authored_line45": "return t",
+      "authored_line47": "local sTable = GAMESTATE:GetCurrentSong():GetStepsByStepsType( \"StepsType_Dance_Double\" );"
+    },
+    "candidate_a": {
+      "candidate": "a4ba8cef7901833c88956c99762f7e5bba4720bdeb2486e1888948307c48def6",
+      "original_status": "failed",
+      "passed": false,
+      "verified_zip_members": 48,
+      "archive_sha256": "6444a7f8ba28eccf0cc3b903467e564ef9ba49f0f545b6498fd8b3f866908907",
+      "passing_nonzero_gates": 13,
+      "failing_gates": [
+        "test-14"
+      ],
+      "published_build_passed": false,
+      "published_build_proof_sha256": "261b0561e4627186f785285d763fcb6f3cdd2c3ba060241398a11d0bd493e5ae"
+    },
+    "bundle_script_sha256": "f8810c17ef800e41c0e5a017f9f41f857312c6b87ef60426796ee3aee01efb45"
+  },
+  "fixture_repo_modified": false,
+  "omitted_duplicate_extracted_native_traces": [
+    "a382d348476515b1848705c9d5518f43a2cbd1e7ce743c6203cb858947b74c05",
+    "900dd5badc27ff539f79066d28058ac969c872097fdae4bed88f4ed402150e7a"
+  ]
+}

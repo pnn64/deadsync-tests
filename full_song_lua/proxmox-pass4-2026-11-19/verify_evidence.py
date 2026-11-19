@@ -23,17 +23,22 @@ def verify():
         assert digest(data) == item["sha256"], item["path"]
         assert len(data) < 50_000_000, item["path"]
     bundles = [
-        ("native-validation/validated-capture-evidence.zip", "native-validation/validated-manifest.json"),
-        ("native-validation/clock-control-failed-exercise.zip", "native-validation/failed_exercise-manifest.json"),
-        ("pipeline-baselines/life-pipeline-evidence.zip", "pipeline-baselines/manifest.json"),
-        ("native-life-score/life-event-score-evidence.zip", "native-life-score/manifest.json"),
-        ("native-life-score-glx/life-event-score-glx-evidence.zip", "native-life-score-glx/manifest.json"),
-        ("repaired-native-controls/replay-evidence.zip", "repaired-native-controls/manifest.json"),
+        ("native-validation/validated-capture-evidence.zip", "native-validation/validated-manifest.json", True),
+        ("native-validation/clock-control-failed-exercise.zip", "native-validation/failed_exercise-manifest.json", True),
+        ("pipeline-baselines/life-pipeline-evidence.zip", "pipeline-baselines/manifest.json", True),
+        ("native-life-score/life-event-score-evidence.zip", "native-life-score/manifest.json", True),
+        ("native-life-score-glx/life-event-score-glx-evidence.zip", "native-life-score-glx/manifest.json", True),
+        ("repaired-native-controls/replay-evidence.zip", "repaired-native-controls/manifest.json", True),
+        ("negative-native-evidence/negative-evidence.zip", "negative-native-evidence/manifest.json", False),
     ]
     counts = {}
-    for archive_name, manifest_name in bundles:
+    for archive_name, manifest_name, embedded_manifest in bundles:
         manifest_bytes = (ROOT / manifest_name).read_bytes()
         manifest = json.loads(manifest_bytes)
+        if not embedded_manifest:
+            archive_bytes = (ROOT / archive_name).read_bytes()
+            assert len(archive_bytes) == manifest["archive"]["bytes"], archive_name
+            assert digest(archive_bytes) == manifest["archive"]["sha256"], archive_name
         members = manifest["files"]
         if isinstance(members, list):
             indexed = {item["path"]: item for item in members}
@@ -42,9 +47,12 @@ def verify():
         with zipfile.ZipFile(ROOT / archive_name) as archive:
             names = archive.namelist()
             assert len(names) == len(set(names)), "duplicate ZIP members"
-            expected_names = set(members) | {"manifest.json"}
+            expected_names = set(members) | ({"manifest.json"} if embedded_manifest else set())
             assert set(names) == expected_names, (archive_name, set(names) ^ expected_names)
-            assert archive.read("manifest.json") == manifest_bytes, archive_name
+            if embedded_manifest:
+                assert archive.read("manifest.json") == manifest_bytes, archive_name
+            else:
+                assert json.loads(archive.read("verification.json")) == manifest["verification"], archive_name
             for name, expected in members.items():
                 data = archive.read(name)
                 assert len(data) == expected["bytes"], name

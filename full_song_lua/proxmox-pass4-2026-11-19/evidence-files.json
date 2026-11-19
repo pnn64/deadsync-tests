@@ -468,5 +468,30 @@
     "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/retain_played_stage_snapshot.py",
     "bytes": 6909,
     "sha256": "2be727e81e417ff49841beea767344fc95c2ef3e3350b18cff5346ea28718bc8"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/negative-native-evidence/negative-evidence.zip",
+    "bytes": 13588166,
+    "sha256": "ac119aabde1690ae88035995f5459e4c0c5d17123e74238312d228810a43c6c4"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/negative-native-evidence/manifest.json",
+    "bytes": 17164,
+    "sha256": "4fc7cb5431e383607372117c091eed3012814e79861ec8ba1e40c864494ce36d"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/negative-native-evidence/verification.json",
+    "bytes": 5790,
+    "sha256": "1d6b7e13331248f1de9509b94e2b9d54899078acd99bcd55f78e2f92696420ba"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/negative-native-evidence/scope.json",
+    "bytes": 1123,
+    "sha256": "c1a75fb89f73da8543773e5e8b95a4ec27c3a19781a914a9fb6e7cbb829d2330"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/negative-native-evidence/retain_negative_native_evidence.py",
+    "bytes": 5326,
+    "sha256": "baeb903ed2dc462c68982b4d17b025c2696c3d05cb418cb348c3497e28b9fc63"
   }
 ]

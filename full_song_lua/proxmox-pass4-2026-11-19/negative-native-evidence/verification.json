@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-11-19T04:08:31.615626+00:00",
+  "scope": "Immutable existing negative evidence only; no new native capture/replay, lifecycle action or acceptance change",
+  "e2": [
+    {
+      "archive_sha256": "0dbf47eaafc4773ea38efa56eb6ab2b77c4313d9d5fd5fe288d6355eac526673",
+      "archive_bytes": 5113994,
+      "decoded_tar_sha256": "35a6d537a58123909ef990deaaf82f56ea9e494365e6a906010b3e055db7d069",
+      "decoded_tar_bytes": 198625280,
+      "native_trace_member": {
+        "path": "song-lua-4294-1795052665116761853-0/Save/itgmania-harness/song-lua-trace.json",
+        "bytes": 102014847,
+        "sha256": "a382d348476515b1848705c9d5518f43a2cbd1e7ce743c6203cb858947b74c05"
+      },
+      "members": [
+        {
+          "path": "song-lua-4294-1795052665116761853-0/Logs/info.txt",
+          "bytes": 8864,
+          "sha256": "9c9ac8c4991a109fb2f1c9aa15ff8cfbfe88681ef0fd76c1800c8546135af0ad"
+        },
+        {
+          "path": "song-lua-4294-1795052665116761853-0/Logs/log.txt",
+          "bytes": 228692,
+          "sha256": "34c11f51b9bb7a5afb085043394da1fd5bf239f6afae85a6bd02f441d4619a75"
+        },
+        {
+          "path": "song-lua-4294-1795052665116761853-0/Logs/userlog.txt",
+          "bytes": 1480,
+          "sha256": "a453b283fb2d4f2f7792ea116ed648b4a852186a75eb3768cf50a735e1c55800"
+        },
+        {
+          "path": "song-lua-4294-1795052665116761853-0/Save/itgmania-harness/song-lua-trace.json",
+          "bytes": 102014847,
+          "sha256": "a382d348476515b1848705c9d5518f43a2cbd1e7ce743c6203cb858947b74c05"
+        },
+        {
+          "path": "song-lua-4294-1795052665116761853-0/Save/itgmania-harness/song-lua-trace.json.events",
+          "bytes": 96340647,
+          "sha256": "a884da5315501b780cfcbb03d7c31e8897d4f375c2f6b6c65822116ab4815d79"
+        },
+        {
+          "path": "song-lua-4294-1795052665116761853-0/Save/Preferences.ini",
+          "bytes": 7580,
+          "sha256": "a58d7e5545d30b581eba63c22645d3eb66bb7bee22c83a32529a68fb1139d968"
+        }
+      ],
+      "all_members_hashed": true,
+      "raw_trace_retained_inside_original_archive": true,
+      "duplicate_extracted_raw_included": false
+    },
+    {
+      "archive_sha256": "6578fefa20b27995c97f764f3f9dc8e7da648b0b23e88fcffc81c048015de0fb",
+      "archive_bytes": 5108673,
+      "decoded_tar_sha256": "962bb56aadcd6620f7b742d316c59c840dde482cbebad4fd0adcf0d17005bec4",
+      "decoded_tar_bytes": 198635520,
+      "native_trace_member": {
+        "path": "song-lua-4003-1795052881796346726-0/Save/itgmania-harness/song-lua-trace.json",
+        "bytes": 101962470,
+        "sha256": "900dd5badc27ff539f79066d28058ac969c872097fdae4bed88f4ed402150e7a"
+      },
+      "members": [
+        {
+          "path": "song-lua-4003-1795052881796346726-0/Logs/info.txt",
+          "bytes": 8864,
+          "sha256": "9e3a9cf2ff42bac2eff579f34943e66211eee62d96966327c37e81c6f30f2d35"
+        },
+        {
+          "path": "song-lua-4003-1795052881796346726-0/Logs/log.txt",
+          "bytes": 228651,
+          "sha256": "6f76398362ef51b6581d380237c825a429983e40e66e3c05ef894cf61163614e"
+        },
+        {
+          "path": "song-lua-4003-1795052881796346726-0/Logs/userlog.txt",
+          "bytes": 1480,
+          "sha256": "a453b283fb2d4f2f7792ea116ed648b4a852186a75eb3768cf50a735e1c55800"
+        },
+        {
+          "path": "song-lua-4003-1795052881796346726-0/Save/itgmania-harness/song-lua-trace.json",
+          "bytes": 101962470,
+          "sha256": "900dd5badc27ff539f79066d28058ac969c872097fdae4bed88f4ed402150e7a"
+        },
+        {
+          "path": "song-lua-4003-1795052881796346726-0/Save/itgmania-harness/song-lua-trace.json.events",
+          "bytes": 96403536,
+          "sha256": "c6cad4a48c46f0d0361d4ed3c338741c32f32780c80df5166857fc4bce215553"
+        },
+        {
+          "path": "song-lua-4003-1795052881796346726-0/Save/Preferences.ini",
+          "bytes": 7580,
+          "sha256": "a58d7e5545d30b581eba63c22645d3eb66bb7bee22c83a32529a68fb1139d968"
+        }
+      ],
+      "all_members_hashed": true,
+      "raw_trace_retained_inside_original_archive": true,
+      "duplicate_extracted_raw_included": false
+    }
+  ],
+  "e2_original_statuses": [
+    {
+      "id": "a328e6a6a680b57a-c0001",
+      "original_status": "capture_error",
+      "original_result_sha256": "55f77b6cb238ecfa642b945e8c16b02c9ee258d787582413d6a5fadc6f4a72fe",
+      "record_is_collected_envelope": true
+    },
+    {
+      "id": "c66f9f26050402e8-c0001",
+      "original_status": "capture_error",
+      "original_result_sha256": "3cf8c0a9765be408d54d51db27038736e8f6eaa0e6307bf407643f7f256c524c",
+      "record_is_collected_envelope": true
+    }
+  ],
+  "sequential_dreambox": {
+    "source_sha256": "5ed35e2a21b8e2d12e659d7e42ce5030b0f5ce85dd64696cc88c2a0e42821ce8",
+    "attempts": 16,
+    "original_status": "native_lua_or_setup_error",
+    "authored_line45": "return t",
+    "authored_line47": "local sTable = GAMESTATE:GetCurrentSong():GetStepsByStepsType( \"StepsType_Dance_Double\" );"
+  },
+  "candidate_a": {
+    "candidate": "a4ba8cef7901833c88956c99762f7e5bba4720bdeb2486e1888948307c48def6",
+    "original_status": "failed",
+    "passed": false,
+    "verified_zip_members": 48,
+    "archive_sha256": "6444a7f8ba28eccf0cc3b903467e564ef9ba49f0f545b6498fd8b3f866908907",
+    "passing_nonzero_gates": 13,
+    "failing_gates": [
+      "test-14"
+    ],
+    "published_build_passed": false,
+    "published_build_proof_sha256": "261b0561e4627186f785285d763fcb6f3cdd2c3ba060241398a11d0bd493e5ae"
+  },
+  "bundle_script_sha256": "f8810c17ef800e41c0e5a017f9f41f857312c6b87ef60426796ee3aee01efb45"
+}
