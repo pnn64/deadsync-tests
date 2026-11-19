@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "native_authorities": [
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\native\\BitmapText.cpp",
+      "bytes": 36331,
+      "sha256": "9db88dd98d82a88eea8b8544e2d12b7bb4d8d2fea52847c54f9f3e7655b1fc78",
+      "revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "git_path": "src/BitmapText.cpp"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\native\\ActorUtil.cpp",
+      "bytes": 21267,
+      "sha256": "282b2acd5b45b27ff6c55a4ca1b0189f9405818205fd747316f9f82800c56475",
+      "revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "git_path": "src/ActorUtil.cpp"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\native\\XmlFile.h",
+      "bytes": 5675,
+      "sha256": "eb20b8d8396f87c347f222ad520b5a461faa8635bc540a753956c7c7ddcba280",
+      "revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "git_path": "src/XmlFile.h"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\native\\XmlFileUtil.cpp",
+      "bytes": 24396,
+      "sha256": "16a9f026afe47a19c6d963c62169007651b07e9c4f2a297c4b1c00caafc03b49",
+      "revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "git_path": "src/XmlFileUtil.cpp"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\native\\LuaManager.cpp",
+      "bytes": 32808,
+      "sha256": "7c222e45f0b02bc3f30828aed5a682402297000e6d253652ff39504887e8158a",
+      "revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "git_path": "src/LuaManager.cpp"
+    }
+  ],
+  "product_source_snapshot": [
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\product\\text.rs",
+      "bytes": 25195,
+      "sha256": "53a58d1e534bf7676b424d098d43a82f0c233a5ffafc2d99da8461bfe471c648",
+      "git_path": "crates/deadsync-song-lua/src/actors/text.rs"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\product\\bitmap_text.rs",
+      "bytes": 22843,
+      "sha256": "a6b5a261fbcb7bb8e1752bca88c00e3ed27b8590255701abe0a1baa630d7c153",
+      "git_path": "crates/deadsync-song-lua/tests/bitmap_text.rs"
+    }
+  ],
+  "implemented_selection": [
+    "first successful Font file path",
+    "otherwise first successful legacy File file path",
+    "otherwise theme lookup from the first present Font/File attribute"
+  ],
+  "file_scalar_conversion": "The new File lookup converts strings/numbers with the VM conversion; other scalar attributes become empty strings, tables/nil are absent; authored getter errors propagate.",
+  "focused_regression": {
+    "name": "legacy_file_font_paths_precede_theme_aliases",
+    "cases": 13,
+    "modes": [
+      "offline",
+      "live"
+    ],
+    "passed": true
+  },
+  "full_bitmap_target_at_this_checkpoint": {
+    "passed": false,
+    "passing_tests": 9,
+    "failing_tests": [
+      "font_resolution_and_builtin_fallback_match_production",
+      "retained_text_updates_during_live_tweens_and_draw_callbacks"
+    ],
+    "log": {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\bitmap-text-first-corrected.log",
+      "bytes": 2916,
+      "sha256": "1790a3b7bd5a868b99aa648228a1adf4b73ec78aedd831765aa7a56da6ab975b"
+    }
+  },
+  "open_compatibility_limits": [
+    "Existing Font=false/table scalar conversion differs from native XNode conversion; unchanged in this narrow fix and frozen expectations preserved.",
+    "Native ResolvePath accepts directories and may select _Dir/default.lua for empty attributes; this fix reuses the existing file resolver and does not claim empty-directory parity.",
+    "The shared resolver wildcard media filter excludes INI fonts. Numeric conversion controls use exact existing filenames42/43, not missing42/43 matching42.ini/43.ini."
+  ],
+  "diagnostic_control_limit": "Font=Common Header plus File=false is a preservation control under the existing resolver; it is not a claim of native empty-directory loading parity.",
+  "native_case": {
+    "id": "880341a8f13b03d2-c0003",
+    "native_sha256": "66c4670de5b0f83559e7ff23ff2b159c113f8e3d971f9b6df1bc1d27f853d7bc",
+    "actor": "def-0026",
+    "native_factory_path": "1/7/7",
+    "authored_file": "lua/default.lua",
+    "line": 275
+  },
+  "native_archive_replay_pass_claimed": false,
+  "fixture_expectations_modified_by_this_change": false
+}

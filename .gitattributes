@@ -5,6 +5,7 @@
 /regression-expectations/**/*.snap -text
 # This Windows-captured snapshot preserves CRLF as part of its exact bytes.
 /regression-expectations/deadsync-song-lua/a74e87153021edf1.snap whitespace=cr-at-eol
+/regression-expectations/deadsync-song-lua/42b202d737540250.snap whitespace=cr-at-eol
 # Native print output includes an empty tab-separated field.
 /regression-expectations/deadlib-lua/lua51_table_order.txt -whitespace
 # This pinned upstream source is covered by a provenance checksum.

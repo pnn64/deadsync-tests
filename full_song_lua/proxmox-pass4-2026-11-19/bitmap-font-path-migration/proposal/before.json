@@ -1,0 +1,11 @@
+{
+  "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\crates\\deadsync-song-lua\\tests\\bitmap_text.rs",
+  "fixture": "C:\\GitHub\\deadsync-lua-fleet-20261119\\tests\\fixtures\\regression-expectations\\deadsync-song-lua\\42b202d737540250.snap",
+  "head": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+  "fixture_head": "ea94a08090c60c9da30d72995c943796c6a96fca",
+  "source_sha256": "a6b5a261fbcb7bb8e1752bca88c00e3ed27b8590255701abe0a1baa630d7c153",
+  "source_bytes": 22843,
+  "fixture_sha256": "b8d7ed19e6ed6fa8b36a10c430b773037f032a805e45dfd9b08ce51546f1b632",
+  "fixture_bytes": 30601,
+  "source_patch_sha256": "ee90c5ba0d650d34149339d37204147bbb33085f6d8e22f56e2b476c65216fd1"
+}

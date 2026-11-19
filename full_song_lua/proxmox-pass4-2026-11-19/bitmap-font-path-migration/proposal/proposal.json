@@ -1,0 +1,99 @@
+{
+  "format_version": 1,
+  "source_head": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+  "fixture_head": "ea94a08090c60c9da30d72995c943796c6a96fca",
+  "source_before": {
+    "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\crates\\deadsync-song-lua\\tests\\bitmap_text.rs",
+    "fixture": "C:\\GitHub\\deadsync-lua-fleet-20261119\\tests\\fixtures\\regression-expectations\\deadsync-song-lua\\42b202d737540250.snap",
+    "head": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+    "fixture_head": "ea94a08090c60c9da30d72995c943796c6a96fca",
+    "source_sha256": "a6b5a261fbcb7bb8e1752bca88c00e3ed27b8590255701abe0a1baa630d7c153",
+    "source_bytes": 22843,
+    "fixture_sha256": "b8d7ed19e6ed6fa8b36a10c430b773037f032a805e45dfd9b08ce51546f1b632",
+    "fixture_bytes": 30601,
+    "source_patch_sha256": "ee90c5ba0d650d34149339d37204147bbb33085f6d8e22f56e2b476c65216fd1"
+  },
+  "source_after": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\source-after.rs",
+    "bytes": 23458,
+    "sha256": "201993bbaca56b7fc67142784f839df1185dda4a7cec1ac220f5d9704484d6f9"
+  },
+  "source_patch_after": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\source-after.patch",
+    "bytes": 8056,
+    "sha256": "3534eeee6dd878d4ef765c2b9c62ed17ad3342443b568f59de9b5b914e5dc61f"
+  },
+  "snapshot_before": {
+    "sha256": "b8d7ed19e6ed6fa8b36a10c430b773037f032a805e45dfd9b08ce51546f1b632",
+    "bytes": 30601
+  },
+  "snapshot_proposal": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\fixture-proposed.snap",
+    "bytes": 30600,
+    "sha256": "f0844e36a2840e15c8c6ee574848cb8d2808e6ae073ab5f386905e9f05a83b79"
+  },
+  "changes": [
+    {
+      "test": "font_resolution_and_builtin_fallback_match_production",
+      "case": 8,
+      "line": 26,
+      "before": "(\"label.__songlua_script_dir=directory;label.Font='custom.ini'\", BitmapText { font: Some((\"songlua_font:$FIXTURE0/custom.ini\", \"$FIXTURE0\\\\custom.ini\")), text: \"initial\", stroke_color: None, attributes: [] })",
+      "after": "(\"label.__songlua_script_dir=directory;label.Font='custom.ini'\", BitmapText { font: Some((\"songlua_font:$FIXTURE0/custom.ini\", \"$FIXTURE0/custom.ini\")), text: \"initial\", stroke_color: None, attributes: [] })",
+      "field": "BitmapText.font.1 PathBuf debug separator only"
+    }
+  ],
+  "changed_rows": 1,
+  "all_unrelated_snapshot_bytes_equal": true,
+  "all_other_source_bytes_equal": true,
+  "runtime_state_or_payload_mutated": false,
+  "global_normalizer_changed": false,
+  "fixture_written": false,
+  "tests_run": false,
+  "authority": [
+    {
+      "source": "crates/deadlib-lua/src/reference_test.rs",
+      "regions": [
+        [
+          36,
+          72
+        ],
+        [
+          140,
+          149
+        ]
+      ],
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\authority-reference_test.rs",
+      "bytes": 10310,
+      "sha256": "64002ab8a09416d74d13a2c19679f6efb9acf452edc10ef90cfab8e7af1e41e9"
+    },
+    {
+      "source": "crates/deadsync-song-lua/src/actors/assets.rs",
+      "regions": [
+        [
+          31,
+          54
+        ],
+        [
+          157,
+          171
+        ]
+      ],
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\authority-assets.rs",
+      "bytes": 7930,
+      "sha256": "6f2bd55942e9ba83ab4f55f19869037c3d31aad90499981085c11124b2acbbff"
+    },
+    {
+      "source": "crates/deadsync-song-lua/src/files.rs",
+      "regions": [
+        [
+          401,
+          415
+        ]
+      ],
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\authority-files.rs",
+      "bytes": 18624,
+      "sha256": "95beaee65f58b04ecac9813d42231eb200ae73ba4094ca359fa8d30ca5282f65"
+    }
+  ],
+  "reason": "PathBuf.join adds the host separator. Prefix-only fixture normalization leaves that suffix untouched. The test now verifies the observed local physical PathBuf and formats only a copied font PathBuf with existing file_path_string. The sole expected debug spelling uses a portable slash."
+}

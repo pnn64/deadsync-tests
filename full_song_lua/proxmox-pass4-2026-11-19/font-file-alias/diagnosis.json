@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "classification": "missing BitmapText File font compatibility in baseline DeadSync",
+  "scope": "Read-only native and committed source attribution; no replay, product edit, recapture or acceptance upgrade",
+  "failed_cases": [
+    {
+      "vmid": 1504,
+      "id": "880341a8f13b03d2-c0003",
+      "source_simfile": "Genshin Quiz/Megaquiz.ssc",
+      "chart_index": 3,
+      "original_result_path": "results/880341a8f13b03d2-c0003/capture-e222363dd6ff34ac9d0f-001/replay-63e3a458ae9d1cb8dace/result.json",
+      "original_result_sha256": "395f4f466884e526640d3a9d50abbd16263f56a3c7a11abc9822dc3fbb17b1c7"
+    },
+    {
+      "vmid": 1510,
+      "id": "880341a8f13b03d2-c0004",
+      "source_simfile": "Genshin Quiz/Megaquiz.ssc",
+      "chart_index": 4,
+      "original_result_path": "results/880341a8f13b03d2-c0004/capture-e2fcc23768b1b680d8dc-001/replay-414d1c990e8207bb2d9b/result.json",
+      "original_result_sha256": "deab90ee4ae68db1b95c24cfd78460a8301a99fdf95d9c75b84cfabd911b00c7"
+    },
+    {
+      "vmid": 1513,
+      "id": "880341a8f13b03d2-c0002",
+      "source_simfile": "Genshin Quiz/Megaquiz.ssc",
+      "chart_index": 2,
+      "original_result_path": "results/880341a8f13b03d2-c0002/capture-b186419cf3b8f38149b3-001/replay-2093b96a3a7ae7286195/result.json",
+      "original_result_sha256": "0aa12759374c7eb6f0d85ddfc9f1c26903e7845560703dc1b5ac3feca0024515"
+    }
+  ],
+  "original_status": "replay_error",
+  "native_inspected_case": "880341a8f13b03d2-c0003",
+  "native": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\chart3-native.json",
+    "sha256": "66c4670de5b0f83559e7ff23ff2b159c113f8e3d971f9b6df1bc1d27f853d7bc",
+    "bytes": 57286780
+  },
+  "archive": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\cdf8da51e4175dfecba1f8c075f34b83bebe6de9cae04a593949aa0e4299f0c1.tar.zst",
+    "sha256": "cdf8da51e4175dfecba1f8c075f34b83bebe6de9cae04a593949aa0e4299f0c1",
+    "uncompressed_sha256": "478ba7ff963adf39a5db7d9a97e15d87aed80dc1e867e6c7cbacbc00e0ed2752"
+  },
+  "native_identity_evidence": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\chart3-actor26.json",
+    "sha256": "8a46882c9f8d1105c64f1fcdc2aa19d896cf599eeed55d506e131edde1b10858"
+  },
+  "native_construction_evidence": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\chart3-construction.json",
+    "sha256": "1a2ca4f4d642c23b996b469224d20c918670e415df977656b9722e9b37b0b773"
+  },
+  "target_definition": {
+    "children": [],
+    "class": "BitmapText",
+    "commands": [
+      {
+        "last_line": 283,
+        "line": 278,
+        "name": "InitCommand",
+        "source": "song:/lua/default.lua"
+      }
+    ],
+    "id": "def-0026",
+    "line": 275,
+    "properties": {
+      "File": "song:/assets/_tahoma 20px.ini"
+    },
+    "runtime_actors": [
+      "def-0026"
+    ],
+    "source": "song:/lua/default.lua"
+  },
+  "target_creation": [
+    {
+      "actor": "def-0026",
+      "before_seq": 102,
+      "definition_id": "def-0026",
+      "ordinal": 23,
+      "parent": "def-0023",
+      "pointer_hex": "605257ad57c0",
+      "provenance": "native-ActorUtil-before-LoadFromNode",
+      "scene": 1
+    }
+  ],
+  "independent_creation_path": "1/7/7",
+  "first_draw": {
+    "actor": "def-0026",
+    "coordinate_space": "native-projection-before-display-centering",
+    "definition_id": "def-0026",
+    "primitive": "Quads",
+    "render_random_sequences": [],
+    "scene": 1,
+    "state": {
+      "actor_draw_sequence": 56532,
+      "blend": 0,
+      "cull": 2,
+      "native_draw_sequence": 8694,
+      "render_target": 0,
+      "text": "0",
+      "texture_filtering": true,
+      "texture_wrapping": false,
+      "z_bias": 0,
+      "z_test": 0,
+      "z_write": false
+    },
+    "update_sequence": 133,
+    "vertices": [
+      [
+        -8,
+        -13,
+        0,
+        -0.5686182975769043,
+        0.5199999809265137,
+        0,
+        1,
+        0.072265625,
+        0.05078125,
+        1,
+        1,
+        1,
+        0.01568627450980392
+      ],
+      [
+        -8,
+        13,
+        0,
+        -0.5686182975769043,
+        0.3466666340827942,
+        0,
+        1,
+        0.072265625,
+        0.1015625,
+        1,
+        1,
+        1,
+        0.01568627450980392
+      ],
+      [
+        7,
+        13,
+        0,
+        -0.5124121904373169,
+        0.3466666340827942,
+        0,
+        1,
+        0.1015625,
+        0.1015625,
+        1,
+        1,
+        1,
+        0.01568627450980392
+      ],
+      [
+        7,
+        -13,
+        0,
+        -0.5124121904373169,
+        0.5199999809265137,
+        0,
+        1,
+        0.1015625,
+        0.05078125,
+        1,
+        1,
+        1,
+        0.01568627450980392
+      ]
+    ]
+  },
+  "native_draw_count": 1163,
+  "sources": [
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\source-authorities\\song\\Megaquiz.ssc",
+      "bytes": 13749,
+      "sha256": "18e2165ebaceeae2ac466a114d84fa784f6f3f55f4c845404fdf3d05864f558d",
+      "archive_member": "song/Megaquiz.ssc",
+      "provenance": "original captured song archive"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\source-authorities\\song\\assets\\_tahoma 20px.ini",
+      "bytes": 3146,
+      "sha256": "38f7eb68f99b2285dd314d30231dca13e3addc728c628f92fb8bad862635da98",
+      "archive_member": "song/assets/_tahoma 20px.ini",
+      "provenance": "original captured song archive"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\source-authorities\\song\\lua\\default.lua",
+      "bytes": 12908,
+      "sha256": "1d51b918ba1393e4c603aa1c77d5d4bfc6b97692f947dd69e284f57e052b13bb",
+      "archive_member": "song/lua/default.lua",
+      "provenance": "original captured song archive"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\source-authorities\\native\\src\\BitmapText.cpp",
+      "bytes": 36331,
+      "sha256": "9db88dd98d82a88eea8b8544e2d12b7bb4d8d2fea52847c54f9f3e7655b1fc78",
+      "repository": "C:\\GitHub\\itgmania-harness\\vendor\\itgmania",
+      "revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "git_path": "src/BitmapText.cpp",
+      "provenance": "exact committed Git blob",
+      "current_worktree_sha256": "9db88dd98d82a88eea8b8544e2d12b7bb4d8d2fea52847c54f9f3e7655b1fc78",
+      "current_normalized_sha256": "9db88dd98d82a88eea8b8544e2d12b7bb4d8d2fea52847c54f9f3e7655b1fc78"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\source-authorities\\baseline-product\\crates\\deadsync-song-lua\\src\\actors\\text.rs",
+      "bytes": 23442,
+      "sha256": "bf5e50edb4085e9cf37590af7a75dbaeab7223dbc1c1919d42ea31c94c3b7038",
+      "repository": "C:\\GitHub\\deadsync-lua-fleet-20261119",
+      "revision": "2da5562bb050d155a90498fd075279a0249ae479",
+      "git_path": "crates/deadsync-song-lua/src/actors/text.rs",
+      "provenance": "exact committed Git blob",
+      "current_worktree_sha256": "ef4dd914fcbc209f36f13cc037dddc673517c3024eb810c87cbd0a8377a006a0",
+      "current_normalized_sha256": "bf5e50edb4085e9cf37590af7a75dbaeab7223dbc1c1919d42ea31c94c3b7038"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\source-authorities\\baseline-product\\crates\\deadsync-song-lua\\src\\actors\\song_kinds.rs",
+      "bytes": 11482,
+      "sha256": "26c49f75679ec686aa6ad8bc02cb18a5cb84e276f0853db94c6bde02ca83a469",
+      "repository": "C:\\GitHub\\deadsync-lua-fleet-20261119",
+      "revision": "2da5562bb050d155a90498fd075279a0249ae479",
+      "git_path": "crates/deadsync-song-lua/src/actors/song_kinds.rs",
+      "provenance": "exact committed Git blob",
+      "current_worktree_sha256": "cc55aa4362e5b7d4c4af7b48a3b0f112c12691b023139fa92f74dc1436592c37",
+      "current_normalized_sha256": "26c49f75679ec686aa6ad8bc02cb18a5cb84e276f0853db94c6bde02ca83a469"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\source-authorities\\baseline-product\\tests\\song_lua_itgmania_semantic_parity\\interactive.rs",
+      "bytes": 59470,
+      "sha256": "e9c1b83577ab62dc5157a55a6e1ef4f610270d2149fed84f9dcf724927dc7835",
+      "repository": "C:\\GitHub\\deadsync-lua-fleet-20261119",
+      "revision": "2da5562bb050d155a90498fd075279a0249ae479",
+      "git_path": "tests/song_lua_itgmania_semantic_parity/interactive.rs",
+      "provenance": "exact committed Git blob",
+      "current_worktree_sha256": "d50522db0711cc980810bed112bd596c8d8f7fd762ee72f4c5ede8ef744981bb",
+      "current_normalized_sha256": "c37723f597033b2539549b46dde05dce196c744bb38682707f4ddd09a1b19cbc"
+    }
+  ],
+  "findings": [
+    "Authored lua/default.lua:275 creates P1 score BitmapText with File only; InitCommand sets text 0.",
+    "Native factory observes the appended child under quiz frame def-0023, ordinal23, independent path1/7/7; it is not missing from native construction.",
+    "Native BitmapText::LoadFromNode tries Font then File path attributes and accepts File as backward-compatible font spelling.",
+    "Baseline DeadSync actors/text.rs::font reads only Font. actors/song_kinds.rs returns no visual kind when that lookup returns None, leaving no prepared visual slot.",
+    "The earlier question and round text actors use the same File spelling but start empty, so P1 score0 is the first observed missing native drawable.",
+    "No __songlua branch exists in the captured authored source, and the inspected run has no SetCurrentSteps or SetNewScreen event."
+  ],
+  "limits": [
+    "Only chart3 native trace was downloaded and inspected; charts2/4 share the same source and exact failed actor message, retained separately without asserting replay success.",
+    "Fix and regression remain root-owned; this diagnosis does not assert a complete corrected replay."
+  ],
+  "related_unsupported_coverage_preserved": {
+    "family": "unsupported-dance-solo-replay",
+    "count": 1,
+    "assessment": "Rainbow Road chart10 is a valid completed native capture, but the replay session mapping explicitly lacks dance/solo. Preserve it as unsupported replay coverage; do not remove its capture or assignment.",
+    "cases": [
+      {
+        "vmid": 1507,
+        "id": "3ea797a87e1c8d3d-c0010",
+        "source_simfile": "Rainbow Road [chairodactyl] - Cameron Wiggers/Rainbow Road.ssc",
+        "chart_index": 10,
+        "original_result_path": "results/3ea797a87e1c8d3d-c0010/capture-3ba300f7dabb03cbd2d4-001/replay-74fedaf86c350eb60127/result.json",
+        "original_result_sha256": "61b3e2fb4c2558413c69a08a2bf315bd28f801a4fd191f52328ec2b964d55044"
+      }
+    ]
+  }
+}

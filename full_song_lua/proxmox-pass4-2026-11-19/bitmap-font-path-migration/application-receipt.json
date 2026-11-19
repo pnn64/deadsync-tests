@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "fixture_parent": "ea94a08090c60c9da30d72995c943796c6a96fca",
+  "created_at": "20261119T043754Z",
+  "snapshot": {
+    "path": "regression-expectations/deadsync-song-lua/42b202d737540250.snap",
+    "before_sha256": "b8d7ed19e6ed6fa8b36a10c430b773037f032a805e45dfd9b08ce51546f1b632",
+    "after_sha256": "f0844e36a2840e15c8c6ee574848cb8d2808e6ae073ab5f386905e9f05a83b79",
+    "changed_lines": [
+      26
+    ],
+    "changed_test": "font_resolution_and_builtin_fallback_match_production",
+    "changed_case": 8,
+    "all_unrelated_bytes_equal": true,
+    "index_entry_before": "S regression-expectations/deadsync-song-lua/42b202d737540250.snap"
+  },
+  "proposal_receipt_sha256": "0a1e2ebc73acf8463bf4b7f9fdd55545718a09d25d2aba431f590ed28146adc6",
+  "product_before": {
+    "head": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+    "working_patch_sha256": "3534eeee6dd878d4ef765c2b9c62ed17ad3342443b568f59de9b5b914e5dc61f",
+    "index_patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fixture_head": "ea94a08090c60c9da30d72995c943796c6a96fca"
+  },
+  "product_files_modified": false,
+  "retained_files": {
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/authority-assets.rs": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\authority-assets.rs",
+      "bytes": 7930,
+      "sha256": "6f2bd55942e9ba83ab4f55f19869037c3d31aad90499981085c11124b2acbbff"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/authority-files.rs": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\authority-files.rs",
+      "bytes": 18624,
+      "sha256": "95beaee65f58b04ecac9813d42231eb200ae73ba4094ca359fa8d30ca5282f65"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/authority-reference_test.rs": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\authority-reference_test.rs",
+      "bytes": 10310,
+      "sha256": "64002ab8a09416d74d13a2c19679f6efb9acf452edc10ef90cfab8e7af1e41e9"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/before.json": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\before.json",
+      "bytes": 694,
+      "sha256": "2c60129ea3fbaa0cf325b911ad5b2aadbff17d6de3c73ce50f3730907eeda6e5"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/fixture-before.snap": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\fixture-before.snap",
+      "bytes": 30601,
+      "sha256": "b8d7ed19e6ed6fa8b36a10c430b773037f032a805e45dfd9b08ce51546f1b632"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/fixture-proposal.patch": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\fixture-proposal.patch",
+      "bytes": 1755,
+      "sha256": "1b7fe55e7a6a603d0737568bed07ec8f59bc1f1d98384da1fcf3423208e1dbb6"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/fixture-proposed.snap": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\fixture-proposed.snap",
+      "bytes": 30600,
+      "sha256": "f0844e36a2840e15c8c6ee574848cb8d2808e6ae073ab5f386905e9f05a83b79"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/proposal.json": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\proposal.json",
+      "bytes": 4440,
+      "sha256": "0a1e2ebc73acf8463bf4b7f9fdd55545718a09d25d2aba431f590ed28146adc6"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/source-after.patch": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\source-after.patch",
+      "bytes": 8056,
+      "sha256": "3534eeee6dd878d4ef765c2b9c62ed17ad3342443b568f59de9b5b914e5dc61f"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/source-after.rs": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\source-after.rs",
+      "bytes": 23458,
+      "sha256": "201993bbaca56b7fc67142784f839df1185dda4a7cec1ac220f5d9704484d6f9"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/source-before.patch": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\source-before.patch",
+      "bytes": 7059,
+      "sha256": "ee90c5ba0d650d34149339d37204147bbb33085f6d8e22f56e2b476c65216fd1"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/source-before.rs": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\source-before.rs",
+      "bytes": 22843,
+      "sha256": "a6b5a261fbcb7bb8e1752bca88c00e3ed27b8590255701abe0a1baa630d7c153"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/proposal/source-change.patch": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\font-snapshot-path-evidence-20261119T043158Z\\source-change.patch",
+      "bytes": 1048,
+      "sha256": "5c897a7ae17d65ac418c9351c10a35c127bc857367f22a21c793f3ab91389a22"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/prepare_font_path_snapshot_proposal.py": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\prepare_font_path_snapshot_proposal.py",
+      "bytes": 5917,
+      "sha256": "4d15a27f1b537601d34380cac841c3c87985986dd052da378101ab28cd65fad9"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/retain_final_stage_font_stream_evidence.py": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\retain_final_stage_font_stream_evidence.py",
+      "bytes": 17441,
+      "sha256": "1fdc2eba257c8219a3cfdeaf755df0051c9bc95bfeee7fcda3952d48e2b9dfd7"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/played-stage-native/played-stage-native-evidence.zip": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\bd025f6a208c93bc145f22115bb8e91c5307d726dff5e6a77d8b2c1b404acf1e.zip",
+      "bytes": 5529478,
+      "sha256": "bd025f6a208c93bc145f22115bb8e91c5307d726dff5e6a77d8b2c1b404acf1e"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/played-stage-native/manifest.json": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\bd025f6a208c93bc145f22115bb8e91c5307d726dff5e6a77d8b2c1b404acf1e.manifest.json",
+      "bytes": 70491,
+      "sha256": "3e29fe953d8f02344fc19c38900015f5a9bc3435f8e50661d5560ea9478291c3"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/stream-finalization/stream-commit-b2af4f3.zip": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-commit-b2af4f355d827fb0e89aead84b4c75a9b8cccf6c.zip",
+      "bytes": 676017,
+      "sha256": "6d04922f6b5d4737a958a0df96e49b080b556f3cd04f2675d59a820d2e0951c7"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/stream-finalization/manifest.json": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-commit-b2af4f355d827fb0e89aead84b4c75a9b8cccf6c\\manifest.json",
+      "bytes": 17942,
+      "sha256": "7b07bbe02755eaa4584340b6e569de68a77669efda0a8d4a34246cc80b595789"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/stream-finalization/attestation.json": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-commit-b2af4f355d827fb0e89aead84b4c75a9b8cccf6c\\attestation.json",
+      "bytes": 45696,
+      "sha256": "a1876857a2b47c6a3712489ec72a215afedf3dcc6469056fced2946fafb8f37b"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/font-alias-scope/bitmap-text-first-corrected.log": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\bitmap-text-first-corrected.log",
+      "bytes": 2916,
+      "sha256": "1790a3b7bd5a868b99aa648228a1adf4b73ec78aedd831765aa7a56da6ab975b"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/font-alias-scope/native/ActorUtil.cpp": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\native\\ActorUtil.cpp",
+      "bytes": 21267,
+      "sha256": "282b2acd5b45b27ff6c55a4ca1b0189f9405818205fd747316f9f82800c56475"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/font-alias-scope/native/BitmapText.cpp": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\native\\BitmapText.cpp",
+      "bytes": 36331,
+      "sha256": "9db88dd98d82a88eea8b8544e2d12b7bb4d8d2fea52847c54f9f3e7655b1fc78"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/font-alias-scope/native/LuaManager.cpp": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\native\\LuaManager.cpp",
+      "bytes": 32808,
+      "sha256": "7c222e45f0b02bc3f30828aed5a682402297000e6d253652ff39504887e8158a"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/font-alias-scope/native/XmlFile.h": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\native\\XmlFile.h",
+      "bytes": 5675,
+      "sha256": "eb20b8d8396f87c347f222ad520b5a461faa8635bc540a753956c7c7ddcba280"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/font-alias-scope/native/XmlFileUtil.cpp": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\native\\XmlFileUtil.cpp",
+      "bytes": 24396,
+      "sha256": "16a9f026afe47a19c6d963c62169007651b07e9c4f2a297c4b1c00caafc03b49"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/font-alias-scope/product/bitmap_text.rs": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\product\\bitmap_text.rs",
+      "bytes": 22843,
+      "sha256": "a6b5a261fbcb7bb8e1752bca88c00e3ed27b8590255701abe0a1baa630d7c153"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/font-alias-scope/product/text.rs": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\product\\text.rs",
+      "bytes": 25195,
+      "sha256": "53a58d1e534bf7676b424d098d43a82f0c233a5ffafc2d99da8461bfe471c648"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/font-alias-scope/scope.json": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\font-alias-scope\\scope.json",
+      "bytes": 4831,
+      "sha256": "cfeaa932118363abfe4e223d7cf74643154f8ae60665fe0596b11683780ceba6"
+    },
+    "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/diagnosis.json": {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\diagnosis.json",
+      "bytes": 11057,
+      "sha256": "5830609334c4dd66976673bf3a135a8b2cfca67d4d0636b3482c8a6a743d69cb"
+    }
+  },
+  "original_manifests_retained_byte_for_byte": true,
+  "large_native_inputs_copied": false,
+  "acceptance_fields_changed": false,
+  "commit_or_push_performed": false
+}

@@ -1,0 +1,514 @@
+{
+  "files": [
+    {
+      "path": "attest_streaming_commit.py",
+      "sha256": "530e673241a7e9241f7b420252e42cd1e9cb6729ab2382f4278c2373cf40aa7e",
+      "bytes": 9780
+    },
+    {
+      "path": "attestation.json",
+      "sha256": "a1876857a2b47c6a3712489ec72a215afedf3dcc6469056fced2946fafb8f37b",
+      "bytes": 45696
+    },
+    {
+      "path": "bundle-verify.log",
+      "sha256": "7092fef65240dc37b6e70fe1a401494ada8611131ea0361dcb4f1bd53ec67210",
+      "bytes": 360
+    },
+    {
+      "path": "evidence/build-evidence.zip",
+      "sha256": "88129b3256629d27a6453439cc5d866f13cb8ea202f485c6c5652b82d51b7ffe",
+      "bytes": 239087
+    },
+    {
+      "path": "evidence/build-receipt.json",
+      "sha256": "6d525af7a4542af1ce2510b3a2cd8ec96b0269c47be5573139ac13a7c17920ad",
+      "bytes": 4884
+    },
+    {
+      "path": "evidence/control-download.json",
+      "sha256": "f5af8ac759c0a240a98bb76aedfff9c2794da59e254792b063bc501e2a065311",
+      "bytes": 7069
+    },
+    {
+      "path": "evidence/control-evidence.zip",
+      "sha256": "00800df16528123f3673aa2e9e70235a0b9d274709af2d168bebc9ffc73387fb",
+      "bytes": 161939
+    },
+    {
+      "path": "evidence/control-receipt.json",
+      "sha256": "e814cbcf18869d6c1685684ba2c318338173081eb824a3a37bf517773c15b3d3",
+      "bytes": 37834
+    },
+    {
+      "path": "evidence/source-tree.json",
+      "sha256": "8d0627acb62e925babb237cce100a93e31c410f549e9bc366fa338f5e7a43d12",
+      "bytes": 773
+    },
+    {
+      "path": "evidence/verify-source-tree.py",
+      "sha256": "b0f454c268a5c7f1318480770458080131de3648cb47fa9a307ef8e3e89c1050",
+      "bytes": 2645
+    },
+    {
+      "path": "failed-attempts/01/apply-check.log",
+      "sha256": "44ad199473885687eedeca39436fb42dcf5fd46c0d8749a58cd45b3f0087d03e",
+      "bytes": 314
+    },
+    {
+      "path": "failed-attempts/01/build_stream_cli.py",
+      "sha256": "e645caa47a84b9b6b04b4e777f99aa6a6480d3bd6c034096706a7556c7876400",
+      "bytes": 9055
+    },
+    {
+      "path": "failed-attempts/01/completed-status.json",
+      "sha256": "dc166ea4cdb99c0aee8b445de89e3b7eae23bb0c6bb4b5ccd3e8e3df60b6428a",
+      "bytes": 1821
+    },
+    {
+      "path": "failed-attempts/01/final-status.json",
+      "sha256": "1f0cbc3e3a424cdeade393c23cd9ea1e41d99f41908ff3807de7d080a2df0c3d",
+      "bytes": 1821
+    },
+    {
+      "path": "failed-attempts/01/launch.json",
+      "sha256": "52ad0a22f6d77491d80a184033e3ce111399e762c3a87baa28871c3d4681dc86",
+      "bytes": 1705
+    },
+    {
+      "path": "failed-attempts/01/manifest.json",
+      "sha256": "6c40299712383bd24443015456b3319c7bb939e44f725a63078c9d70ecf549a0",
+      "bytes": 1387
+    },
+    {
+      "path": "failed-attempts/01/monitor.jsonl",
+      "sha256": "e21b24492e80ecaf4e6a48e30cf8435c01ec9a599bf42d6eace478f5ba62498a",
+      "bytes": 1633
+    },
+    {
+      "path": "failed-attempts/01/preflight.json",
+      "sha256": "5b1e58a1521e97aaec76a5683f7bc8d16e8d4096b4ea8ffc57b78816b77773ba",
+      "bytes": 1811
+    },
+    {
+      "path": "failed-attempts/01/source-file-names.json",
+      "sha256": "ec7955cb4b35c72db539a5d446571727867c1d57e1af146c94a6bd4d405cf051",
+      "bytes": 20739
+    },
+    {
+      "path": "failed-attempts/01/source.patch",
+      "sha256": "8c6d8dc907533965bfb7ce03e9c4341df09b738718f0129337c6081d40166076",
+      "bytes": 15990
+    },
+    {
+      "path": "failed-attempts/01/staging-diagnosis.json",
+      "sha256": "d69d2a1b21e89ab79307061ebbcd6b828453ca46174ff732a51d57951d05647e",
+      "bytes": 823
+    },
+    {
+      "path": "failed-attempts/01/stream_build_status.py",
+      "sha256": "f4e4ca7e66b5ba9f8566a00a2463a57a84a524776d690c13023a76c1e579895b",
+      "bytes": 3008
+    },
+    {
+      "path": "failed-attempts/02/build_stream_cli.py",
+      "sha256": "df0f6ee974f06d587af6cce01e23ef88cc760ab6551da10e07067d1307818826",
+      "bytes": 9101
+    },
+    {
+      "path": "failed-attempts/02/canonical-base.json",
+      "sha256": "9cf322361e99f13b00d12f6b96722e4e3636e39816baf4be4479b160a03e388a",
+      "bytes": 124
+    },
+    {
+      "path": "failed-attempts/02/completed-status.json",
+      "sha256": "c86a9d8e12e10bb76f96c269252bca92f1496d87d8669ae2a75a6e6d50715d7c",
+      "bytes": 1914
+    },
+    {
+      "path": "failed-attempts/02/final-status.json",
+      "sha256": "e41a876dbb3e3c83e6b1a73f9a1b60ed8f43e0291412dd2639ad05ab5c35bd04",
+      "bytes": 1914
+    },
+    {
+      "path": "failed-attempts/02/launch.json",
+      "sha256": "16ad07f9fc72d4fd51dfa9baf0f6785169856cdd98e4740de035e59914b34c07",
+      "bytes": 1705
+    },
+    {
+      "path": "failed-attempts/02/manifest.json",
+      "sha256": "e243be35b2af27c5ce31aadacf5f2ec9abbf5f80f7cdcce9385c192fdbaedc7a",
+      "bytes": 1538
+    },
+    {
+      "path": "failed-attempts/02/monitor.jsonl",
+      "sha256": "69ea709a53ec84a686dc9c63c8e4a37f3c72948adb06deac69b4ef00a6960dde",
+      "bytes": 21322
+    },
+    {
+      "path": "failed-attempts/02/native-json-equivalence-tail.log",
+      "sha256": "57b51548c46694ade68018030eb80150f07c0ea28662f64d1648b50285f3b663",
+      "bytes": 13870
+    },
+    {
+      "path": "failed-attempts/02/preflight.json",
+      "sha256": "4f689e3a91a9024ef204dcfa3db057bbe9043850ec834e37cc6f186a3d1ca1e6",
+      "bytes": 1811
+    },
+    {
+      "path": "failed-attempts/02/source-file-names.json",
+      "sha256": "ec7955cb4b35c72db539a5d446571727867c1d57e1af146c94a6bd4d405cf051",
+      "bytes": 20739
+    },
+    {
+      "path": "failed-attempts/02/source.patch",
+      "sha256": "8c6d8dc907533965bfb7ce03e9c4341df09b738718f0129337c6081d40166076",
+      "bytes": 15990
+    },
+    {
+      "path": "failed-attempts/02/stream_build_status.py",
+      "sha256": "f4e4ca7e66b5ba9f8566a00a2463a57a84a524776d690c13023a76c1e579895b",
+      "bytes": 3008
+    },
+    {
+      "path": "failed-attempts/03/apply-check.json",
+      "sha256": "020023c999bea210fd3b5568281138679ad972098efbdf29771a98e2ee35069d",
+      "bytes": 684
+    },
+    {
+      "path": "failed-attempts/03/apply-check.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "failed-attempts/03/apply-patch.json",
+      "sha256": "bf04a5c29ebd2da7ef0931244e49d968d3e0a747800a731b821d0c38ac61cb9a",
+      "bytes": 669
+    },
+    {
+      "path": "failed-attempts/03/apply-patch.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "failed-attempts/03/baseline-before.json",
+      "sha256": "c2d56945fcac200452ba12955118389f958c48f50f3dc67c31ddad6ae0333836",
+      "bytes": 994
+    },
+    {
+      "path": "failed-attempts/03/build_stream_cli.py",
+      "sha256": "614f456cb709f8cba25b14357864289adcd8391ba6b3ce77bec15c2b1fe297e3",
+      "bytes": 13067
+    },
+    {
+      "path": "failed-attempts/03/canonical-base.json",
+      "sha256": "ab8fd113e6090dc6edaf12cb748974e49edd1e3a19b80acecba61171fa3d6af6",
+      "bytes": 119
+    },
+    {
+      "path": "failed-attempts/03/completed-status.json",
+      "sha256": "cf848a3298b3daa2d9f1025c747488602f599ab7ac924a41416f65076e9e3998",
+      "bytes": 1914
+    },
+    {
+      "path": "failed-attempts/03/copy-git-cache.json",
+      "sha256": "27d28cdc81f4f597edf69a1e330ac70f57128f772dcb93ac080c83e83758a56f",
+      "bytes": 719
+    },
+    {
+      "path": "failed-attempts/03/copy-git-cache.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "failed-attempts/03/copy-registry-cache.json",
+      "sha256": "bfb19406c0d70fbe18d501d037bd40d4274c8c2e844750100c6c5a84f9fbbe11",
+      "bytes": 739
+    },
+    {
+      "path": "failed-attempts/03/copy-registry-cache.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "failed-attempts/03/copy-target-cache.json",
+      "sha256": "4cb68bc5268d934abbaaf047ae24362c95b67af317b3d1b65a2e9604ccc1434a",
+      "bytes": 736
+    },
+    {
+      "path": "failed-attempts/03/copy-target-cache.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "failed-attempts/03/final-status.json",
+      "sha256": "9a94321c01f1e6c34eea98a1298967720e31989cfab24115e8449e28fd19eeb0",
+      "bytes": 1914
+    },
+    {
+      "path": "failed-attempts/03/launch.json",
+      "sha256": "a4450ff9eaea51f0d8e588e6cb56c0e0e9a1d689b8886c34e5c0bf10c917d488",
+      "bytes": 1705
+    },
+    {
+      "path": "failed-attempts/03/manifest.json",
+      "sha256": "6c787b98dd1c0e8c6695277207fb040df7dde26586292ae7ab0af0f79d5c74b0",
+      "bytes": 1606
+    },
+    {
+      "path": "failed-attempts/03/monitor.jsonl",
+      "sha256": "5dcec235ba0e059ed4da00955fb55e5cbd7c799b71d4de9ae9bf22445214b7c9",
+      "bytes": 11534
+    },
+    {
+      "path": "failed-attempts/03/native-dependencies-before.json",
+      "sha256": "beb939c7a07e09b5b30d6884d8ad0903004614ef0bb35aa490ddc59a68530395",
+      "bytes": 2098
+    },
+    {
+      "path": "failed-attempts/03/native-json-equivalence.json",
+      "sha256": "97515daebef5610e26d412e3fc10c18de3dc8a67710979ede2b1681f434ae0e2",
+      "bytes": 800
+    },
+    {
+      "path": "failed-attempts/03/native-json-equivalence.log",
+      "sha256": "ff5a6609ab2c4c408997718949ebeb7a1799911d3fa234e8373db683bd91b502",
+      "bytes": 20887
+    },
+    {
+      "path": "failed-attempts/03/preflight.json",
+      "sha256": "82fc44816a7d4f9dbce8635fad917bee75f42b41319b0a55b10e22def6e51c66",
+      "bytes": 1811
+    },
+    {
+      "path": "failed-attempts/03/source-file-names.json",
+      "sha256": "ec7955cb4b35c72db539a5d446571727867c1d57e1af146c94a6bd4d405cf051",
+      "bytes": 20739
+    },
+    {
+      "path": "failed-attempts/03/source-files-before.json",
+      "sha256": "839b9900d404b9c4c102a3912cab79bdbc07ef65edea7158229e70b6fe4082e4",
+      "bytes": 48140
+    },
+    {
+      "path": "failed-attempts/03/source.patch",
+      "sha256": "8c6d8dc907533965bfb7ce03e9c4341df09b738718f0129337c6081d40166076",
+      "bytes": 15990
+    },
+    {
+      "path": "failed-attempts/03/state.json",
+      "sha256": "b05162d587da90424f3996f47b0299c8890b76f01bc5c173e778a23f6b8e386a",
+      "bytes": 875
+    },
+    {
+      "path": "failed-attempts/03/stream_build_status.py",
+      "sha256": "f4e4ca7e66b5ba9f8566a00a2463a57a84a524776d690c13023a76c1e579895b",
+      "bytes": 3008
+    },
+    {
+      "path": "failed-attempts/03/theme-source-proof.json",
+      "sha256": "2bf77a10f58631d0ed30dcc9e19dfc7d0e5fb084600b03595a0580adc5162b9a",
+      "bytes": 129132
+    },
+    {
+      "path": "failed-attempts/03/unit.log",
+      "sha256": "42cf2bd7cf996e0ec4283a5508cb47350f2e6e548a5eb2fbf4cfbf711071dba5",
+      "bytes": 2865
+    },
+    {
+      "path": "failed-attempts/04/apply-check.json",
+      "sha256": "0c3f78a983afa66c593f3c7f2360a873cfae73bf09b0bf65a3a783ae571fcff0",
+      "bytes": 684
+    },
+    {
+      "path": "failed-attempts/04/apply-check.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "failed-attempts/04/apply-patch.json",
+      "sha256": "5986ebf42eafa9ac3ce3e6bec17646377c1d86dc7a84d91faaef3480ba5b8de8",
+      "bytes": 669
+    },
+    {
+      "path": "failed-attempts/04/apply-patch.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "failed-attempts/04/baseline-before.json",
+      "sha256": "c00c88556fcc34424064a2bae7fa2b2212565f4c57916929d2f738898445b741",
+      "bytes": 994
+    },
+    {
+      "path": "failed-attempts/04/build_stream_cli.py",
+      "sha256": "1e0feddcd3b69c504074ef0ef4fe7878d63a55d57f1f3bd643018380f997ebda",
+      "bytes": 13657
+    },
+    {
+      "path": "failed-attempts/04/canonical-base.json",
+      "sha256": "ab8fd113e6090dc6edaf12cb748974e49edd1e3a19b80acecba61171fa3d6af6",
+      "bytes": 119
+    },
+    {
+      "path": "failed-attempts/04/completed-status.json",
+      "sha256": "b00a25e03bb4b0b5a4083f0f300f17410ffaf795e16b74d6840895c28bcb367d",
+      "bytes": 1960
+    },
+    {
+      "path": "failed-attempts/04/copy-git-cache.json",
+      "sha256": "c39f3e69c7c45668108f6e7b90cf620d248a2cdadbb6f9d4c6047958213031b2",
+      "bytes": 719
+    },
+    {
+      "path": "failed-attempts/04/copy-git-cache.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "failed-attempts/04/copy-registry-cache.json",
+      "sha256": "26053c755535ce919707c81f9dfb3c2121302a517ec91d4e91a2e87092d04eae",
+      "bytes": 739
+    },
+    {
+      "path": "failed-attempts/04/copy-registry-cache.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "failed-attempts/04/copy-target-cache.json",
+      "sha256": "feb77e52a08cc60b0a8294d56fdcff87e385c14cf940716b280b50797bd387fc",
+      "bytes": 736
+    },
+    {
+      "path": "failed-attempts/04/copy-target-cache.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "failed-attempts/04/final-status.json",
+      "sha256": "40fd3a306c983bb758ef5ca5d2b099707ab46d8480fa980499af07af49ac69b6",
+      "bytes": 1960
+    },
+    {
+      "path": "failed-attempts/04/harness-unit-tests.json",
+      "sha256": "6fc231ee974125127a8b229543c35ba93779f9cf60ad97568860f599dfc2a6a3",
+      "bytes": 770
+    },
+    {
+      "path": "failed-attempts/04/harness-unit-tests.log",
+      "sha256": "e93fafa2ee1ebf6060e06dbdaaad0011bd8a951df1ac39a5852f8e8ddef6a27e",
+      "bytes": 20616
+    },
+    {
+      "path": "failed-attempts/04/launch.json",
+      "sha256": "a35863006bc80180ce0fec64d54a941f10972264f146e79807d215ebb52b4c91",
+      "bytes": 1705
+    },
+    {
+      "path": "failed-attempts/04/manifest.json",
+      "sha256": "ef742faa7e758a41a3578dada633845f168e173e4724f7456b208f7aa07e59f8",
+      "bytes": 1606
+    },
+    {
+      "path": "failed-attempts/04/monitor.jsonl",
+      "sha256": "f3ddf1e3c705daf36a996a40fc329f932dbf78275585ad9ddce17c23522fc0f5",
+      "bytes": 53245
+    },
+    {
+      "path": "failed-attempts/04/native-dependencies-before.json",
+      "sha256": "beb939c7a07e09b5b30d6884d8ad0903004614ef0bb35aa490ddc59a68530395",
+      "bytes": 2098
+    },
+    {
+      "path": "failed-attempts/04/native-json-equivalence.json",
+      "sha256": "dc9d702898619d0b7d9f67ac3bb72fc42ac8ab60dd53f3e71176fb400808461a",
+      "bytes": 798
+    },
+    {
+      "path": "failed-attempts/04/native-json-equivalence.log",
+      "sha256": "fcba9122352bdfcb220487fbd465f077ed8c0502864572ca1a53b6ee43c1709c",
+      "bytes": 2172
+    },
+    {
+      "path": "failed-attempts/04/preflight.json",
+      "sha256": "77f0514508317ba875e0e8cfbcfb73f624dc46fd4786184848045d87d015084c",
+      "bytes": 1811
+    },
+    {
+      "path": "failed-attempts/04/relocated-cmake-caches.json",
+      "sha256": "3b0e81fec0563943ecf8fa84658a938f9ee43339dea8e018caf413b969e6e1e5",
+      "bytes": 2459
+    },
+    {
+      "path": "failed-attempts/04/source-file-names.json",
+      "sha256": "ec7955cb4b35c72db539a5d446571727867c1d57e1af146c94a6bd4d405cf051",
+      "bytes": 20739
+    },
+    {
+      "path": "failed-attempts/04/source-files-before.json",
+      "sha256": "839b9900d404b9c4c102a3912cab79bdbc07ef65edea7158229e70b6fe4082e4",
+      "bytes": 48140
+    },
+    {
+      "path": "failed-attempts/04/source.patch",
+      "sha256": "8c6d8dc907533965bfb7ce03e9c4341df09b738718f0129337c6081d40166076",
+      "bytes": 15990
+    },
+    {
+      "path": "failed-attempts/04/state.json",
+      "sha256": "faa630c764c3041d678a683c385d2d44be7bd68a74dc03d7ab709025d091d890",
+      "bytes": 921
+    },
+    {
+      "path": "failed-attempts/04/stream_build_status.py",
+      "sha256": "f4e4ca7e66b5ba9f8566a00a2463a57a84a524776d690c13023a76c1e579895b",
+      "bytes": 3008
+    },
+    {
+      "path": "failed-attempts/04/theme-source-proof.json",
+      "sha256": "2bf77a10f58631d0ed30dcc9e19dfc7d0e5fb084600b03595a0580adc5162b9a",
+      "bytes": 129132
+    },
+    {
+      "path": "failed-attempts/04/unit.log",
+      "sha256": "55e2adc911997c0abb55298d339eeb60c994b61247005d19d118ac9aa8195fc2",
+      "bytes": 3013
+    },
+    {
+      "path": "itgmania-stream-finalization.bundle",
+      "sha256": "4c0ea83755d791c0a2d5ddb7d419ea0a38cbbdbce2ca7a5f03cbdbcad22e45dd",
+      "bytes": 5772
+    },
+    {
+      "path": "source/probe_theme/SongLuaTrace.lua",
+      "sha256": "d26aa53d693bd90359c683c74406eb77f22b383432934bd4d106cca60f9141f9",
+      "bytes": 67125
+    },
+    {
+      "path": "source/probe_theme/TraceJson.lua",
+      "sha256": "d89dc92a3a765095d2b3d817d7bee41778a0f50998859bde39312510a8e68e2b",
+      "bytes": 2791
+    },
+    {
+      "path": "source/src/song_lua_runtime.rs",
+      "sha256": "b6734b57112f2fef38cf36f3e57503239b3a59df524e4ffa301b4aa24b6b1eb7",
+      "bytes": 204922
+    },
+    {
+      "path": "source/tests/fixtures/trace-json-control.lua",
+      "sha256": "8bc143818e66e3cd42cfa676d0481e5e3b8b87dde80960b1039c7b7e8709e931",
+      "bytes": 6263
+    },
+    {
+      "path": "source/tests/oracle_cli.rs",
+      "sha256": "19a1af3c34874019cd1ee342feaa2b6497adf0c2d82179b9d7376598102ddaeb",
+      "bytes": 51931
+    },
+    {
+      "path": "source.patch",
+      "sha256": "8c6d8dc907533965bfb7ce03e9c4341df09b738718f0129337c6081d40166076",
+      "bytes": 15990
+    }
+  ]
+}

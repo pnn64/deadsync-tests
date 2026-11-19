@@ -1,0 +1,2 @@
+regression-expectations/deadsync-song-lua/42b202d737540250.snap:26: trailing whitespace.
++("label.__songlua_script_dir=directory;label.Font='custom.ini'", BitmapText { font: Some(("songlua_font:$FIXTURE0/custom.ini", "$FIXTURE0/custom.ini")), text: "initial", stroke_color: None, attributes: [] })

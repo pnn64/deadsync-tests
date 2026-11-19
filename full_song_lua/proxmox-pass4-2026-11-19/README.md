@@ -189,3 +189,42 @@ fixture repository to perform both checks without extracting the bundles.
 All committed files in this checkpoint are below the fixture repository's
 50,000,000-byte blob limit. Preserve the original files and failed attempts when
 adding corrected captures or candidate replay reports.
+
+
+## Additional committed-stage, font and streaming evidence
+
+`played-stage-native/` retains 181 original evidence members and their external
+manifest. Its final Cold, Vtubers, MODULO and Genshin chart 3 reports all pass
+both production and diagnostic replay with zero mismatches or errors, while
+retaining `whole_song_parity_proven=false` and every pending-coverage limit.
+These reports used DeadSync `23c79b2fb64f2467f0b2afe3e7b3aa1eecf90aa5`, working
+patch SHA-256 `693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6`,
+and fixture revision `0a49b80d8dd1cbc59d86ac764e739537fcc1a79b`. Complete
+statistics and transitions passed 12 and 25 tests respectively. The earlier
+full playback gate passed 233 tests with three existing ignored tests under
+its own retained source identity. The original natural completion failures,
+sampler failures and failed BitmapText snapshot checks remain in the ZIP.
+The reviewed history/reload subset was subsequently committed as
+`4224b3b2eb5dbc0efd15618bf86266bb651af56c`; its staging proof is retained.
+The four large original native archives are identified by exact size and
+SHA-256 in the unchanged external manifest and are not duplicated here.
+
+`font-file-alias/` preserves the original Genshin diagnosis, pinned native
+Font/File selection authority, product source and the first corrected test
+log. Its historical pending replay status is superseded only for chart 3 by
+the final report above; raw glyph geometry and pixel coverage remain pending.
+`bitmap-font-path-migration/` retains the approved test-only presentation
+change and a single expected PathBuf separator change for relative custom.ini.
+The actual local font path is asserted before a copied payload is formatted;
+the runtime, global snapshot normalizer and every unrelated expected byte are
+unchanged. Final Windows and Linux full-target gates remain pending at this
+fixture preparation checkpoint.
+
+`stream-finalization/` preserves committed harness
+`b2af4f355d827fb0e89aead84b4c75a9b8cccf6c`, the original ZIP, its byte-identical
+embedded/external manifest and the separate original attestation. The commit
+matches all 409 compiled source blobs. Its 229 unit tests, native byte/error
+equivalence control and completed Kaboom capture/archive under the unchanged
+6 GiB cap passed. Large Kaboom inputs and outputs remain referenced by their
+exact guest paths and hashes. This evidence does not claim deployment to the
+fleet or completion of candidate B's combined production profile gate.

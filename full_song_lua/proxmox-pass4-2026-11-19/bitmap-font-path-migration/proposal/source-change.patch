@@ -1,0 +1,25 @@
+--- source-before.rs
++++ source-after.rs
+@@ -66,9 +66,21 @@
+         if read_error {
+             assert!(actual.is_err(), "{phase}: Rust read");
+         } else {
++            let actual = actual.unwrap();
++            if let Some((_, path)) = &actual.font
++                && path.starts_with(self._files.path())
++            {
++                assert_eq!(path, &self._files.path().join("custom.ini"), "{phase}");
++            }
++            // Compare the observed physical path above; only its copied debug
++            // presentation uses portable separators in the frozen snapshot.
++            let mut snapshot = actual.clone();
++            if let Some((_, path)) = &mut snapshot.font {
++                *path = deadsync_song_lua::file_path_string(path).into();
++            }
+             reference_test::assert_debug(
+                 "song/tests/rust_bitmap_text.rs::payload",
+-                &(phase, &actual.unwrap()),
++                &(phase, &snapshot),
+             );
+         }
+         let actual = self

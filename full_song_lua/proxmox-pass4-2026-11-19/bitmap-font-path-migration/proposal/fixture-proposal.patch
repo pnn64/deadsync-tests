@@ -1,0 +1,11 @@
+--- fixture-before.snap
++++ fixture-proposed.snap
+@@ -23,7 +23,7 @@
+ ("label.__songlua_script_dir=directory;label.Font='dir/missing.ini'", BitmapText { font: None, text: "initial", stroke_color: None, attributes: [] })
+ ("label.__songlua_script_dir=directory;label.Font='missing.ini'", BitmapText { font: None, text: "initial", stroke_color: None, attributes: [] })
+ ("label.__songlua_script_dir=directory;label.Font=existing", BitmapText { font: Some(("songlua_font:$FIXTURE0/custom.ini", "$FIXTURE0/custom.ini")), text: "initial", stroke_color: None, attributes: [] })
+-("label.__songlua_script_dir=directory;label.Font='custom.ini'", BitmapText { font: Some(("songlua_font:$FIXTURE0/custom.ini", "$FIXTURE0\\custom.ini")), text: "initial", stroke_color: None, attributes: [] })
++("label.__songlua_script_dir=directory;label.Font='custom.ini'", BitmapText { font: Some(("songlua_font:$FIXTURE0/custom.ini", "$FIXTURE0/custom.ini")), text: "initial", stroke_color: None, attributes: [] })
+ ("label.__songlua_script_dir=directory;label.Font='///@theme:F/missing'", BitmapText { font: None, text: "initial", stroke_color: None, attributes: [] })
+ ("label.__songlua_script_dir=directory;label.Font=42", BitmapText { font: Some(("miso", "assets/fonts/miso/_miso light.ini")), text: "initial", stroke_color: None, attributes: [] })
+ ("\n        label.Font='Common Normal';label.__songlua_script_dir=nil\n        local mt=getmetatable(label);local old=mt.__index\n        mt.__index=function(self,key) if key=='__songlua_script_dir' then collectgarbage();log('dir');error('path failure') end return old(self,key) end\n    ", BitmapText { font: Some(("miso", "assets/fonts/miso/_miso light.ini")), text: "initial", stroke_color: None, attributes: [] })

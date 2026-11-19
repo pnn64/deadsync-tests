@@ -1,0 +1,1131 @@
+{
+  "format_version": 1,
+  "created_at": "20261119T042839Z",
+  "archive": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\bd025f6a208c93bc145f22115bb8e91c5307d726dff5e6a77d8b2c1b404acf1e.zip",
+    "filename": "bd025f6a208c93bc145f22115bb8e91c5307d726dff5e6a77d8b2c1b404acf1e.zip",
+    "bytes": 5529478,
+    "sha256": "bd025f6a208c93bc145f22115bb8e91c5307d726dff5e6a77d8b2c1b404acf1e"
+  },
+  "member_count": 181,
+  "uncompressed_bytes": 153674476,
+  "members": [
+    {
+      "archive_path": "README.md",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\README.md",
+      "bytes": 5306,
+      "sha256": "2b4eca5cc47d1eafc166727285e58709ee7beff87f2fe4941b7287f3dd182ab4"
+    },
+    {
+      "archive_path": "authority/commit_stage_history_fix.py",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\commit_stage_history_fix.py",
+      "bytes": 5269,
+      "sha256": "8df32514db10aa7848cb4e93b58e617805aee3d7abe66515e9800fc9e3a5960f"
+    },
+    {
+      "archive_path": "authority/native/src/Actor.cpp",
+      "source_path": "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\Actor.cpp",
+      "bytes": 75839,
+      "sha256": "c5991992c937e7be25147697a4116397743fae547a1046ba96bb28c83482c150"
+    },
+    {
+      "archive_path": "authority/native/src/LuaManager.h",
+      "source_path": "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\LuaManager.h",
+      "bytes": 11675,
+      "sha256": "e20b23acfb112e6b68506d1f7bb158cf01d6bc1655392c5d44ef7dd41542b2c7"
+    },
+    {
+      "archive_path": "authority/native/src/ScreenGameplay.cpp",
+      "source_path": "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\ScreenGameplay.cpp",
+      "bytes": 120464,
+      "sha256": "d6d976f7aa6fb1586f4d7bfa499750adc17b8eef472e3bc824bdca151725c4a0"
+    },
+    {
+      "archive_path": "authority/native/src/Sprite.cpp",
+      "source_path": "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\Sprite.cpp",
+      "bytes": 45696,
+      "sha256": "5e734fbf27ca87b298caa34828e21904323e963a4be370927d6c8dc1411b7385"
+    },
+    {
+      "archive_path": "authority/native/src/StatsManager.cpp",
+      "source_path": "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\StatsManager.cpp",
+      "bytes": 23386,
+      "sha256": "660a65bb98e15395509deee81a47e8ff03175099235e798e544035554b5fc62a"
+    },
+    {
+      "archive_path": "authority/native/src/Transition.cpp",
+      "source_path": "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\Transition.cpp",
+      "bytes": 2902,
+      "sha256": "b8262c86c0656fa5c9c31ecbc95db81c0232d60cbb55add41d297a4e3d5e41f9"
+    },
+    {
+      "archive_path": "authority/played-stage-authority.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-history-evidence\\authority.json",
+      "bytes": 6269,
+      "sha256": "9fced5d21663ab849c5b57493ec5453d6f9500efea57e3d640baaed8f23b93b8"
+    },
+    {
+      "archive_path": "authority/product/gameplay_screen.rs",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\gameplay_screen.rs",
+      "bytes": 4942,
+      "sha256": "6ed2f39da273e855884da1079b0ccdcb304d247475aa940614424b1b79cf8f90"
+    },
+    {
+      "archive_path": "authority/record_played_stage_authority.py",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\record_played_stage_authority.py",
+      "bytes": 3199,
+      "sha256": "aaadb71a7b560311510adc10188a4fd9e2c6850dd4c1525e516f95061b7ace40"
+    },
+    {
+      "archive_path": "authority/reload-and-native-counter-authority.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\modulo-transition-evidence\\authority.json",
+      "bytes": 3509,
+      "sha256": "e84add9292b24e3f071de2244adf4d32ef916b6978f061acd4f3d2e523529212"
+    },
+    {
+      "archive_path": "authority/retain_sampler_authority.py",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\retain_sampler_authority.py",
+      "bytes": 2869,
+      "sha256": "61b0dcaae9d8c834f74c2a0461080bb4fe21bb6bf7ab9645e1b0be561a82488e"
+    },
+    {
+      "archive_path": "authority/sampler-native-authority.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\sampler-native-authority.json",
+      "bytes": 4097,
+      "sha256": "643ca572eb293ee027715284a203892f92b889695592451ed2741e6d7b1eb75e"
+    },
+    {
+      "archive_path": "authority/stage-history-commit-staging.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stage-history-commit-staging.json",
+      "bytes": 2068,
+      "sha256": "8333457879b760692d054359028f8e8a3f34d1e08eb964d3260ad031393d097c"
+    },
+    {
+      "archive_path": "authority/theme/ScreenGameplay-in-default.lua",
+      "source_path": "C:\\GitHub\\itgmania-harness\\vendor\\simply-love\\BGAnimations\\ScreenGameplay in\\default.lua",
+      "bytes": 3986,
+      "sha256": "7ef0a8b27f088636af616a3c59cd6e66989a4c924147acad19caf2e371c6feca"
+    },
+    {
+      "archive_path": "gates/final-statistics-and-genshin/native-genshin-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041927Z\\native-genshin-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/final-statistics-and-genshin/native-genshin-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041927Z\\native-genshin-after-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "gates/final-statistics-and-genshin/native-genshin-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041927Z\\native-genshin-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/final-statistics-and-genshin/native-genshin-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041927Z\\native-genshin-before-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "gates/final-statistics-and-genshin/native-genshin.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041927Z\\native-genshin.log",
+      "bytes": 4594,
+      "sha256": "f9d3622546c10fa315dc4f17ce973cf5716928fe6f48b9739d578c50d61945e6"
+    },
+    {
+      "archive_path": "gates/final-statistics-and-genshin/receipt.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041927Z\\receipt.json",
+      "bytes": 9453,
+      "sha256": "49fef4522fea5527e0b2e74a2c962dff7070950ee2a479bae77df042597017cc"
+    },
+    {
+      "archive_path": "gates/final-statistics-and-genshin/statistics-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041927Z\\statistics-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/final-statistics-and-genshin/statistics-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041927Z\\statistics-after-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "gates/final-statistics-and-genshin/statistics-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041927Z\\statistics-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/final-statistics-and-genshin/statistics-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041927Z\\statistics-before-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "gates/final-statistics-and-genshin/statistics.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041927Z\\statistics.log",
+      "bytes": 1398,
+      "sha256": "eb4ee01e1107767ea837dc8b5b67d47b3a070c2b2816d96173554bd327b608de"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/bitmap-text-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\bitmap-text-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/bitmap-text-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\bitmap-text-after-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/bitmap-text-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\bitmap-text-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/bitmap-text-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\bitmap-text-before-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/bitmap-text.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\bitmap-text.log",
+      "bytes": 2916,
+      "sha256": "1790a3b7bd5a868b99aa648228a1adf4b73ec78aedd831765aa7a56da6ab975b"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/diff-check-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\diff-check-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/diff-check-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\diff-check-after-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/diff-check-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\diff-check-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/diff-check-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\diff-check-before-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/diff-check.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\diff-check.log",
+      "bytes": 152,
+      "sha256": "ca4c0933e229be88872a9bb527b986b7b4f257a90d311cd6e277817aed172973"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/native-archives-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\native-archives-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/native-archives-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\native-archives-after-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/native-archives-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\native-archives-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/native-archives-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\native-archives-before-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/native-archives.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\native-archives.log",
+      "bytes": 14133,
+      "sha256": "006fc6c11a8da0eca3e9733402e153ac351bf73fa5c0c81faedcca0825587151"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/receipt.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\receipt.json",
+      "bytes": 23636,
+      "sha256": "e54445f0a27b5167eccd738f54320a5597c55c948ee54193ca852ef0172892b6"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/transitions-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\transitions-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/transitions-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\transitions-after-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/transitions-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\transitions-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/transitions-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\transitions-before-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "gates/final-transitions-and-font-controls/transitions.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T041051Z\\transitions.log",
+      "bytes": 2748,
+      "sha256": "7941b0ff21b746c7194799b8b0a7712232ef8592a8c934ffc89fb9bebd1b73ea"
+    },
+    {
+      "archive_path": "gates/natural-owner-first-failure/receipt.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040234Z\\receipt.json",
+      "bytes": 2666,
+      "sha256": "1b589eb708f3bc3b4332eec20bd50c263592898c647c8ec7dcbe5a372f90454f"
+    },
+    {
+      "archive_path": "gates/natural-owner-first-failure/transitions-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040234Z\\transitions-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/natural-owner-first-failure/transitions-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040234Z\\transitions-after-source.patch",
+      "bytes": 54890,
+      "sha256": "d1350616e29ffacf5e294682596c8452707c5e1d21f40541fa3df4224f09b933"
+    },
+    {
+      "archive_path": "gates/natural-owner-first-failure/transitions-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040234Z\\transitions-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/natural-owner-first-failure/transitions-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040234Z\\transitions-before-source.patch",
+      "bytes": 54890,
+      "sha256": "d1350616e29ffacf5e294682596c8452707c5e1d21f40541fa3df4224f09b933"
+    },
+    {
+      "archive_path": "gates/natural-owner-first-failure/transitions.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040234Z\\transitions.log",
+      "bytes": 3315,
+      "sha256": "72bfd2421dd9989ab7d8a4433d73f1279715ad9120114959a0d31c8a31534501"
+    },
+    {
+      "archive_path": "gates/natural-owner-tween-proof/bitmap-text-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040648Z\\bitmap-text-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/natural-owner-tween-proof/bitmap-text-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040648Z\\bitmap-text-after-source.patch",
+      "bytes": 60431,
+      "sha256": "342057c8d4f1dc3ab2607a5fc743f340e045be8e7c2f973b2f4b5107db714e53"
+    },
+    {
+      "archive_path": "gates/natural-owner-tween-proof/bitmap-text-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040648Z\\bitmap-text-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/natural-owner-tween-proof/bitmap-text-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040648Z\\bitmap-text-before-source.patch",
+      "bytes": 60431,
+      "sha256": "342057c8d4f1dc3ab2607a5fc743f340e045be8e7c2f973b2f4b5107db714e53"
+    },
+    {
+      "archive_path": "gates/natural-owner-tween-proof/bitmap-text.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040648Z\\bitmap-text.log",
+      "bytes": 3318,
+      "sha256": "a4cc8ac6702198d22eda7d05bcb57522c8f9bc93adfaecf59473f0b4c19d4424"
+    },
+    {
+      "archive_path": "gates/natural-owner-tween-proof/receipt.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040648Z\\receipt.json",
+      "bytes": 5010,
+      "sha256": "f0c8fe924ce57ba5c6c5ac65ab5b6e0eb30f5945ffea141ec13e5666cee4716c"
+    },
+    {
+      "archive_path": "gates/natural-owner-tween-proof/transitions-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040648Z\\transitions-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/natural-owner-tween-proof/transitions-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040648Z\\transitions-after-source.patch",
+      "bytes": 60431,
+      "sha256": "342057c8d4f1dc3ab2607a5fc743f340e045be8e7c2f973b2f4b5107db714e53"
+    },
+    {
+      "archive_path": "gates/natural-owner-tween-proof/transitions-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040648Z\\transitions-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/natural-owner-tween-proof/transitions-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040648Z\\transitions-before-source.patch",
+      "bytes": 60431,
+      "sha256": "342057c8d4f1dc3ab2607a5fc743f340e045be8e7c2f973b2f4b5107db714e53"
+    },
+    {
+      "archive_path": "gates/natural-owner-tween-proof/transitions.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T040648Z\\transitions.log",
+      "bytes": 3774,
+      "sha256": "4437c7a1ca12923505c790cabc9977c073c70a80943d598a7456b17cd76448b5"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/diff-check-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\diff-check-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/diff-check-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\diff-check-after-source.patch",
+      "bytes": 56448,
+      "sha256": "84e6f9459686279455c5bade69d99843a158a9f10f8dd519c77b7bbe6e43454e"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/diff-check-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\diff-check-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/diff-check-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\diff-check-before-source.patch",
+      "bytes": 56448,
+      "sha256": "84e6f9459686279455c5bade69d99843a158a9f10f8dd519c77b7bbe6e43454e"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/diff-check.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\diff-check.log",
+      "bytes": 152,
+      "sha256": "ca4c0933e229be88872a9bb527b986b7b4f257a90d311cd6e277817aed172973"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/live-gameplay-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\live-gameplay-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/live-gameplay-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\live-gameplay-after-source.patch",
+      "bytes": 56448,
+      "sha256": "84e6f9459686279455c5bade69d99843a158a9f10f8dd519c77b7bbe6e43454e"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/live-gameplay-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\live-gameplay-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/live-gameplay-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\live-gameplay-before-source.patch",
+      "bytes": 56448,
+      "sha256": "84e6f9459686279455c5bade69d99843a158a9f10f8dd519c77b7bbe6e43454e"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/live-gameplay.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\live-gameplay.log",
+      "bytes": 1806,
+      "sha256": "fab383410e9d75239879f50e05410e3fa7aa8e6cfb58b3c6cc5c2f3becdcf05f"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/receipt.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\receipt.json",
+      "bytes": 12147,
+      "sha256": "3f5245cca5c113e962429ac35f35c0fc4b58cf61c4420ba6e322e20ac2e09701"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/sampler-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\sampler-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/sampler-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\sampler-after-source.patch",
+      "bytes": 56448,
+      "sha256": "84e6f9459686279455c5bade69d99843a158a9f10f8dd519c77b7bbe6e43454e"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/sampler-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\sampler-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/sampler-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\sampler-before-source.patch",
+      "bytes": 56448,
+      "sha256": "84e6f9459686279455c5bade69d99843a158a9f10f8dd519c77b7bbe6e43454e"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/sampler.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\sampler.log",
+      "bytes": 1301,
+      "sha256": "c7686aaad9cc72dc6e367f9273b8743e001282b52cb3f5941c45bb7e41c96e9e"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/statistics-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\statistics-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/statistics-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\statistics-after-source.patch",
+      "bytes": 56448,
+      "sha256": "84e6f9459686279455c5bade69d99843a158a9f10f8dd519c77b7bbe6e43454e"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/statistics-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\statistics-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/statistics-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\statistics-before-source.patch",
+      "bytes": 56448,
+      "sha256": "84e6f9459686279455c5bade69d99843a158a9f10f8dd519c77b7bbe6e43454e"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/statistics.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\statistics.log",
+      "bytes": 2548,
+      "sha256": "017effcb8bbbdcc0cfacc324b9402957d7b6cc687c6a41f702b221c6b95d0c81"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/transitions-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\transitions-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/transitions-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\transitions-after-source.patch",
+      "bytes": 56448,
+      "sha256": "84e6f9459686279455c5bade69d99843a158a9f10f8dd519c77b7bbe6e43454e"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/transitions-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\transitions-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/transitions-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\transitions-before-source.patch",
+      "bytes": 56448,
+      "sha256": "84e6f9459686279455c5bade69d99843a158a9f10f8dd519c77b7bbe6e43454e"
+    },
+    {
+      "archive_path": "gates/sampler-first-failure/transitions.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T033312Z\\transitions.log",
+      "bytes": 3100,
+      "sha256": "bcb8dac9ae02f71378ec132549b85c612c663f0c1d3271d3046d21a4828bcb15"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/diff-check-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\diff-check-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/diff-check-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\diff-check-after-source.patch",
+      "bytes": 60581,
+      "sha256": "e8789e0569d70a7388c82a12882cd58239d72b17d6192247cd049a7a8ea8566f"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/diff-check-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\diff-check-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/diff-check-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\diff-check-before-source.patch",
+      "bytes": 60581,
+      "sha256": "e8789e0569d70a7388c82a12882cd58239d72b17d6192247cd049a7a8ea8566f"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/diff-check.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\diff-check.log",
+      "bytes": 152,
+      "sha256": "ca4c0933e229be88872a9bb527b986b7b4f257a90d311cd6e277817aed172973"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/playback-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\playback-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/playback-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\playback-after-source.patch",
+      "bytes": 60581,
+      "sha256": "e8789e0569d70a7388c82a12882cd58239d72b17d6192247cd049a7a8ea8566f"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/playback-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\playback-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/playback-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\playback-before-source.patch",
+      "bytes": 60581,
+      "sha256": "e8789e0569d70a7388c82a12882cd58239d72b17d6192247cd049a7a8ea8566f"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/playback.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\playback.log",
+      "bytes": 20917,
+      "sha256": "6751ba6af785998ab7e32b51273339061f4b1345215bdc6d3eb659405a7a562b"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/receipt.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\receipt.json",
+      "bytes": 10136,
+      "sha256": "34a341c171de29f3cb029f6ffe1bee10b672f3edf57e97cbd4db4ba99062409a"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/statistics-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\statistics-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/statistics-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\statistics-after-source.patch",
+      "bytes": 60581,
+      "sha256": "e8789e0569d70a7388c82a12882cd58239d72b17d6192247cd049a7a8ea8566f"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/statistics-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\statistics-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/statistics-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\statistics-before-source.patch",
+      "bytes": 60581,
+      "sha256": "e8789e0569d70a7388c82a12882cd58239d72b17d6192247cd049a7a8ea8566f"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/statistics.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\statistics.log",
+      "bytes": 1398,
+      "sha256": "930d4dcb5e7a7298fc51e71ce4e908afb1108f65f331d5add09ceaf7cc186ad2"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/transitions-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\transitions-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/transitions-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\transitions-after-source.patch",
+      "bytes": 60581,
+      "sha256": "e8789e0569d70a7388c82a12882cd58239d72b17d6192247cd049a7a8ea8566f"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/transitions-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\transitions-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/transitions-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\transitions-before-source.patch",
+      "bytes": 60581,
+      "sha256": "e8789e0569d70a7388c82a12882cd58239d72b17d6192247cd049a7a8ea8566f"
+    },
+    {
+      "archive_path": "gates/sampler-full-playback-pass/transitions.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T035841Z\\transitions.log",
+      "bytes": 2457,
+      "sha256": "3a65bf2f6c033e713a19678917a33090e2e895f61fa39ee4b163af1b277b8ac4"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/diff-check-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\diff-check-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/diff-check-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\diff-check-after-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/diff-check-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\diff-check-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/diff-check-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\diff-check-before-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/diff-check.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\diff-check.log",
+      "bytes": 152,
+      "sha256": "ca4c0933e229be88872a9bb527b986b7b4f257a90d311cd6e277817aed172973"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/native-archives-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\native-archives-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/native-archives-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\native-archives-after-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/native-archives-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\native-archives-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/native-archives-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\native-archives-before-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/native-archives.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\native-archives.log",
+      "bytes": 6249,
+      "sha256": "e7669bbad7fd49d30d9b3b352b7e1f0e43d17e459f8057680fe2c49b3531430f"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/playback-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\playback-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/playback-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\playback-after-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/playback-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\playback-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/playback-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\playback-before-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/playback.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\playback.log",
+      "bytes": 23190,
+      "sha256": "b0bb9e88195f91d56b60a1a1d8c2407fabb0cc927debdaf6a67d77acaae4e6c6"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/receipt.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\receipt.json",
+      "bytes": 17263,
+      "sha256": "85d468b574f187b740278e7113e91302528e7c8580e683f7b156ddc0286a895d"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/sampler-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\sampler-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/sampler-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\sampler-after-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/sampler-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\sampler-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/sampler-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\sampler-before-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/sampler.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\sampler.log",
+      "bytes": 503,
+      "sha256": "e90799d287bb28954ecdc414f3355890961cfb008691284b81f1b74e4b722d6f"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/transitions-after-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\transitions-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/transitions-after-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\transitions-after-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/transitions-before-fixtures.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\transitions-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/transitions-before-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\transitions-before-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "gates/sampler-matrix-and-prior-failures/transitions.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T034114Z\\transitions.log",
+      "bytes": 3330,
+      "sha256": "490dca4bfec05b76b9787d9fa9f06a2d901d11b7e93de3fe19b3bf725dd932f1"
+    },
+    {
+      "archive_path": "native/before-sampler-and-played-stage-fix/cold-report.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T031048Z\\cold-report.json",
+      "bytes": 61681254,
+      "sha256": "5da805938b9a75bae85e457c9e35c14a14c10fe8ef40014459436dee2dc8696c"
+    },
+    {
+      "archive_path": "native/before-sampler-and-played-stage-fix/cold-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T031048Z\\cold-source.patch",
+      "bytes": 213949,
+      "sha256": "43e2d0c2c73467c20a9cfcc7597492b6c314c578818ec363bf2b4e927711c87f"
+    },
+    {
+      "archive_path": "native/before-sampler-and-played-stage-fix/cold.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T031048Z\\cold.log",
+      "bytes": 25487,
+      "sha256": "a71ebbadcb47b8becf88b31f5330a6741fa269c8b5030024229a1f3f6474c50c"
+    },
+    {
+      "archive_path": "native/before-sampler-and-played-stage-fix/modulo-report.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T031048Z\\modulo-report.json",
+      "bytes": 8278130,
+      "sha256": "69e601835e6b0680e60033414b395ccd5f72c8a06867e57c7acef330c3ce8d48"
+    },
+    {
+      "archive_path": "native/before-sampler-and-played-stage-fix/modulo-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T031048Z\\modulo-source.patch",
+      "bytes": 213949,
+      "sha256": "43e2d0c2c73467c20a9cfcc7597492b6c314c578818ec363bf2b4e927711c87f"
+    },
+    {
+      "archive_path": "native/before-sampler-and-played-stage-fix/modulo.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T031048Z\\modulo.log",
+      "bytes": 4636,
+      "sha256": "6c519728a64475a617369cce521124356967d39e42eff6852e89fd6eb18692b8"
+    },
+    {
+      "archive_path": "native/before-sampler-and-played-stage-fix/receipt.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T031048Z\\receipt.json",
+      "bytes": 33787,
+      "sha256": "65a5ef85028f60b56b18f28aad46027ed09af45281433a0e6849f7ae53399e7a"
+    },
+    {
+      "archive_path": "native/final-cold-vtubers-modulo/cold-report.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041242Z\\cold-report.json",
+      "bytes": 61333684,
+      "sha256": "8956e17e385e691850dfdec6091e9cf0c1c4e91b1a1e7c5be30885b270576925"
+    },
+    {
+      "archive_path": "native/final-cold-vtubers-modulo/cold-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041242Z\\cold-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "native/final-cold-vtubers-modulo/cold.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041242Z\\cold.log",
+      "bytes": 6736,
+      "sha256": "ca2dd8405dc5a7ecf389aebb1cfee82467efaeb2c8b786cd14d73a0a7c474ec1"
+    },
+    {
+      "archive_path": "native/final-cold-vtubers-modulo/modulo-report.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041242Z\\modulo-report.json",
+      "bytes": 8277309,
+      "sha256": "d44b4369efff35c69a6ff880c3fe01e590cc061919aaf0b0767a5d4c5c6f5703"
+    },
+    {
+      "archive_path": "native/final-cold-vtubers-modulo/modulo-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041242Z\\modulo-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "native/final-cold-vtubers-modulo/modulo.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041242Z\\modulo.log",
+      "bytes": 3577,
+      "sha256": "d661eda08c992c9b102259aa032671173f2861eaaa9f10f1b6fa0b850eccfdba"
+    },
+    {
+      "archive_path": "native/final-cold-vtubers-modulo/receipt.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041242Z\\receipt.json",
+      "bytes": 24339,
+      "sha256": "67096c7af31be3d651916a0cacd1bd42c92e4956d228c1bf0b904170ec8f39a0"
+    },
+    {
+      "archive_path": "native/final-cold-vtubers-modulo/vtubers-report.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041242Z\\vtubers-report.json",
+      "bytes": 245699,
+      "sha256": "1fd18c9577abf07cec724d51a06d78445c69a297897eb35983407cdce0944015"
+    },
+    {
+      "archive_path": "native/final-cold-vtubers-modulo/vtubers-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041242Z\\vtubers-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "native/final-cold-vtubers-modulo/vtubers.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041242Z\\vtubers.log",
+      "bytes": 2823,
+      "sha256": "b774ede3caf4637e115db7a1a260948dece71cd1b970bdc3453427b797fd532e"
+    },
+    {
+      "archive_path": "native/final-genshin/genshin-report.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041942Z\\genshin-report.json",
+      "bytes": 432893,
+      "sha256": "9cdb13ea7f8416bb3a16a008ba9574ab154a9446ba65256f2424cb2bb5266f54"
+    },
+    {
+      "archive_path": "native/final-genshin/genshin-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041942Z\\genshin-source.patch",
+      "bytes": 61385,
+      "sha256": "693e51d4a7d5ebb8afd0cd11e108ea68e2c6fba3a080908e587b365825a808b6"
+    },
+    {
+      "archive_path": "native/final-genshin/genshin.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041942Z\\genshin.log",
+      "bytes": 3228,
+      "sha256": "6972020a665d882dda0707b406a0f7763b4b6c911e3299c899384a848748a1c0"
+    },
+    {
+      "archive_path": "native/final-genshin/receipt.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T041942Z\\receipt.json",
+      "bytes": 8110,
+      "sha256": "a32a48f722fa034aab3034967b3a8c06c43dc7a136eacf4ee3e99ca29448ccb4"
+    },
+    {
+      "archive_path": "native/first-screen-cold-failure/cold-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T034556Z\\cold-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "native/first-screen-cold-failure/cold.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T034556Z\\cold.log",
+      "bytes": 3283,
+      "sha256": "aaef361eddee355394f684cbba6776e6547afc557df92b8709f7cd89cd337a98"
+    },
+    {
+      "archive_path": "native/first-screen-cold-failure/modulo-report.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T034556Z\\modulo-report.json",
+      "bytes": 8277309,
+      "sha256": "4d67fdec92f8cb957308a0d7d7e3ff81e0fbac4c58b604b85c8ca47ea73ec302"
+    },
+    {
+      "archive_path": "native/first-screen-cold-failure/modulo-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T034556Z\\modulo-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "native/first-screen-cold-failure/modulo.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T034556Z\\modulo.log",
+      "bytes": 3659,
+      "sha256": "89e84f4c69ea53878503114219d9bee202c3e298c8438255b8d2ffc91bb51d4d"
+    },
+    {
+      "archive_path": "native/first-screen-cold-failure/receipt.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T034556Z\\receipt.json",
+      "bytes": 12536,
+      "sha256": "4d556d4c52bdaad721da075a228e8228b814feb15b66c0185df7a25f072f8d8e"
+    },
+    {
+      "archive_path": "native/first-screen-vtubers-failure/receipt.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T035614Z\\receipt.json",
+      "bytes": 4213,
+      "sha256": "d7a02cb91090d3e90c7aefb8c9d4d4d37835219a9979901aba36319a536e29a3"
+    },
+    {
+      "archive_path": "native/first-screen-vtubers-failure/vtubers-source.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T035614Z\\vtubers-source.patch",
+      "bytes": 59501,
+      "sha256": "cd652284efe99eb7391cb935ef82c8fc8d5d4e7f5a6134332c0fc72d90a19568"
+    },
+    {
+      "archive_path": "native/first-screen-vtubers-failure/vtubers.log",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-native-controls-20261119T035614Z\\vtubers.log",
+      "bytes": 1261,
+      "sha256": "3bf9e412b4a591ab4a6fdc69a1e3baa23105d3485f77c102e2507b57249e31c5"
+    },
+    {
+      "archive_path": "provenance/commit-23c79b2fb64f2467f0b2afe3e7b3aa1eecf90aa5.txt",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\23c79b2fb64f2467f0b2afe3e7b3aa1eecf90aa5.txt",
+      "bytes": 579,
+      "sha256": "cf977d244d1f7435409d9a9951250e02a571af3833d4dbbb66953ca82b9b1dca"
+    },
+    {
+      "archive_path": "provenance/commit-4224b3b2eb5dbc0efd15618bf86266bb651af56c.txt",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\4224b3b2eb5dbc0efd15618bf86266bb651af56c.txt",
+      "bytes": 708,
+      "sha256": "45bef78cbe3f8b0ed0fa236a39399a0a2fac5d734079f3c8145cea964078919d"
+    },
+    {
+      "archive_path": "provenance/commit-45da6736ad118301055d1a3b2031ae35dd4d47b4.txt",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\45da6736ad118301055d1a3b2031ae35dd4d47b4.txt",
+      "bytes": 645,
+      "sha256": "69b422413bb6dc5e9aca5e4458d9d0203b4de1f70eecbddb9599213d43deee93"
+    },
+    {
+      "archive_path": "provenance/commit-73a6286b76de524e911d6b2d6120bb427c2e5d56.txt",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\73a6286b76de524e911d6b2d6120bb427c2e5d56.txt",
+      "bytes": 344,
+      "sha256": "d73ff2048011d7138d90720cd453f47aef4b2342b41e029a040533af1ce69188"
+    },
+    {
+      "archive_path": "provenance/committed-2da5562bb0-to-23c79b2fb64f2467f0b2afe3e7b3aa1eecf90aa5.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\23c79b2fb64f2467f0b2afe3e7b3aa1eecf90aa5.patch",
+      "bytes": 246478,
+      "sha256": "6eb739aa164e32d41d4c82f9f0c383acad155475e8deb426e39847829b359066"
+    },
+    {
+      "archive_path": "provenance/committed-2da5562bb0-to-4224b3b2eb5dbc0efd15618bf86266bb651af56c.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\4224b3b2eb5dbc0efd15618bf86266bb651af56c.patch",
+      "bytes": 290360,
+      "sha256": "61ade93f49ec2d4156977efdf851eb247c701390661c9d30ed2cd76f3632a13f"
+    },
+    {
+      "archive_path": "provenance/committed-2da5562bb0-to-45da6736ad118301055d1a3b2031ae35dd4d47b4.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\45da6736ad118301055d1a3b2031ae35dd4d47b4.patch",
+      "bytes": 27676,
+      "sha256": "a1998741fea4a24075cb85d65e0fb83cb5dfd552510968b68c5f4c7c47fe6146"
+    },
+    {
+      "archive_path": "provenance/committed-2da5562bb0-to-73a6286b76de524e911d6b2d6120bb427c2e5d56.patch",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\73a6286b76de524e911d6b2d6120bb427c2e5d56.patch",
+      "bytes": 237513,
+      "sha256": "87e20b3cc48cf8463486666034ea74b00c92811d47b75a23389793648548ffd3"
+    },
+    {
+      "archive_path": "recipes/native-0aa86ba03dede88f594dd3b67d37e546beffbc9f441d72a2524d55ad0079b0ba.py",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\native-recipe-0aa86ba03dede88f594dd3b67d37e546beffbc9f441d72a2524d55ad0079b0ba.py",
+      "bytes": 10899,
+      "sha256": "0aa86ba03dede88f594dd3b67d37e546beffbc9f441d72a2524d55ad0079b0ba"
+    },
+    {
+      "archive_path": "recipes/native-c584418e7150f2dd31161066d2ec9eb4104e2bb85663d6f66d6eb946237f88bf.py",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\native-recipe-c584418e7150f2dd31161066d2ec9eb4104e2bb85663d6f66d6eb946237f88bf.py",
+      "bytes": 10612,
+      "sha256": "c584418e7150f2dd31161066d2ec9eb4104e2bb85663d6f66d6eb946237f88bf"
+    },
+    {
+      "archive_path": "recipes/package_played_stage_native_evidence.py",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\package_played_stage_native_evidence.py",
+      "bytes": 16958,
+      "sha256": "9121f99392fd9ecaa72920f5022a9530aa0c1ad070ad3c7103783c6b2bf53e9b"
+    },
+    {
+      "archive_path": "recipes/post-run-unit-coordinator.py",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\run_corpus_audit_history_checks.py",
+      "bytes": 3631,
+      "sha256": "cab9926a2533cffb20d7d4c71b326d97976393e79e24afac239b3122eb688668"
+    },
+    {
+      "archive_path": "summary.json",
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\played-stage-native-evidence-20261119T042839Z\\generated\\summary.json",
+      "bytes": 74527,
+      "sha256": "3b547ba933b62232391da7a23fed0dde1c40ee6e633d4dafc40c30051eb5ed67"
+    }
+  ],
+  "external_inputs": [
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-parity-artifacts\\5aed0bb71a0e2899c23cbad591d6700c52570ad6bf47a7e6bc5c7a49385589a3.tar.zst",
+      "bytes": 171092157,
+      "sha256": "5aed0bb71a0e2899c23cbad591d6700c52570ad6bf47a7e6bc5c7a49385589a3"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\random-boundary-evidence\\de0ce4430a303dfb-c0001\\6e2f321c3b82b7e3ee3be443a3cf511ac87d99699ef040a871715ad05397fdf8.tar.zst",
+      "bytes": 132589404,
+      "sha256": "6e2f321c3b82b7e3ee3be443a3cf511ac87d99699ef040a871715ad05397fdf8"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-vtubers-artifact\\531707cc01f3c02926333aff5e969e9c8ac856c03a1831040911c551414bf41e.tar.zst",
+      "bytes": 217129189,
+      "sha256": "531707cc01f3c02926333aff5e969e9c8ac856c03a1831040911c551414bf41e"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\genshin-evidence\\cdf8da51e4175dfecba1f8c075f34b83bebe6de9cae04a593949aa0e4299f0c1.tar.zst",
+      "bytes": 120958488,
+      "sha256": "cdf8da51e4175dfecba1f8c075f34b83bebe6de9cae04a593949aa0e4299f0c1"
+    }
+  ],
+  "verified_every_zip_member": true,
+  "verified_every_external_input": true,
+  "history_commit": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+  "tested_source_identities": [
+    "23c79b2fb64f2467f0b2afe3e7b3aa1eecf90aa5",
+    "45da6736ad118301055d1a3b2031ae35dd4d47b4",
+    "73a6286b76de524e911d6b2d6120bb427c2e5d56"
+  ],
+  "native_expectations_changed": false
+}

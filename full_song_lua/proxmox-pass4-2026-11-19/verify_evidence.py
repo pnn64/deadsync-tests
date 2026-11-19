@@ -23,25 +23,29 @@ def verify():
         assert digest(data) == item["sha256"], item["path"]
         assert len(data) < 50_000_000, item["path"]
     bundles = [
-        ("native-validation/validated-capture-evidence.zip", "native-validation/validated-manifest.json", True),
-        ("native-validation/clock-control-failed-exercise.zip", "native-validation/failed_exercise-manifest.json", True),
-        ("pipeline-baselines/life-pipeline-evidence.zip", "pipeline-baselines/manifest.json", True),
-        ("native-life-score/life-event-score-evidence.zip", "native-life-score/manifest.json", True),
-        ("native-life-score-glx/life-event-score-glx-evidence.zip", "native-life-score-glx/manifest.json", True),
-        ("repaired-native-controls/replay-evidence.zip", "repaired-native-controls/manifest.json", True),
-        ("negative-native-evidence/negative-evidence.zip", "negative-native-evidence/manifest.json", False),
+        ("native-validation/validated-capture-evidence.zip", "native-validation/validated-manifest.json", "embedded"),
+        ("native-validation/clock-control-failed-exercise.zip", "native-validation/failed_exercise-manifest.json", "embedded"),
+        ("pipeline-baselines/life-pipeline-evidence.zip", "pipeline-baselines/manifest.json", "embedded"),
+        ("native-life-score/life-event-score-evidence.zip", "native-life-score/manifest.json", "embedded"),
+        ("native-life-score-glx/life-event-score-glx-evidence.zip", "native-life-score-glx/manifest.json", "embedded"),
+        ("repaired-native-controls/replay-evidence.zip", "repaired-native-controls/manifest.json", "embedded"),
+        ("negative-native-evidence/negative-evidence.zip", "negative-native-evidence/manifest.json", "verification"),
+        ("played-stage-native/played-stage-native-evidence.zip", "played-stage-native/manifest.json", "external"),
+        ("stream-finalization/stream-commit-b2af4f3.zip", "stream-finalization/manifest.json", "embedded"),
     ]
     counts = {}
-    for archive_name, manifest_name, embedded_manifest in bundles:
+    for archive_name, manifest_name, layout in bundles:
+        embedded_manifest = layout == "embedded"
         manifest_bytes = (ROOT / manifest_name).read_bytes()
         manifest = json.loads(manifest_bytes)
         if not embedded_manifest:
             archive_bytes = (ROOT / archive_name).read_bytes()
             assert len(archive_bytes) == manifest["archive"]["bytes"], archive_name
             assert digest(archive_bytes) == manifest["archive"]["sha256"], archive_name
-        members = manifest["files"]
+        members = manifest["members"] if layout == "external" else manifest["files"]
+        member_key = "archive_path" if layout == "external" else "path"
         if isinstance(members, list):
-            indexed = {item["path"]: item for item in members}
+            indexed = {item[member_key]: item for item in members}
             assert len(indexed) == len(members), "duplicate manifest members"
             members = indexed
         with zipfile.ZipFile(ROOT / archive_name) as archive:
@@ -51,8 +55,10 @@ def verify():
             assert set(names) == expected_names, (archive_name, set(names) ^ expected_names)
             if embedded_manifest:
                 assert archive.read("manifest.json") == manifest_bytes, archive_name
-            else:
+            elif layout == "verification":
                 assert json.loads(archive.read("verification.json")) == manifest["verification"], archive_name
+            else:
+                assert layout == "external", layout
             for name, expected in members.items():
                 data = archive.read(name)
                 assert len(data) == expected["bytes"], name

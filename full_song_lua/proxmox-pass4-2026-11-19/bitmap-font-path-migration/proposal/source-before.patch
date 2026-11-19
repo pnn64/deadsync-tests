@@ -1,0 +1,151 @@
+diff --git a/crates/deadsync-song-lua/src/actors/assets.rs b/crates/deadsync-song-lua/src/actors/assets.rs
+index 65937b3dc86c692db508db8f026b5a0d6aad37ac..fdb509c3f3050cd9209f5c48ab3c649a15471f1b 100644
+--- a/crates/deadsync-song-lua/src/actors/assets.rs
++++ b/crates/deadsync-song-lua/src/actors/assets.rs
+@@ -156,7 +156,13 @@ fn prefix(base: &Path, path: &Path) -> Option<PathBuf> {
+ // Missing paths are queried again, allowing files written during play.
+ fn present(call: &mut HostCall<'_>, path: &Path) -> Option<PathBuf> {
+     if let Some(found) = call.store_ref().present_paths.get(path) {
+-        return Some(found.clone());
++        // Path keys equate alternate separators. Preserve the caller's exact
++        // spelling on those hits; case aliases still need the physical path.
++        return Some(if found.as_path() == path {
++            path.to_owned()
++        } else {
++            found.clone()
++        });
+     }
+     let found = existing_path(path)?;
+     call.store()
+diff --git a/crates/deadsync-song-lua/src/actors/text.rs b/crates/deadsync-song-lua/src/actors/text.rs
+index ef453a5ac5d9bb33eef4147c706b6ad58a1b0d74..0917fcf22a204c01ede951e0ff6755d79e1624f1 100644
+--- a/crates/deadsync-song-lua/src/actors/text.rs
++++ b/crates/deadsync-song-lua/src/actors/text.rs
+@@ -319,20 +319,43 @@ pub(super) fn font(
+     call: &mut HostCall<'_>,
+     actor: TableId,
+ ) -> Result<Option<(&'static str, PathBuf)>, Error> {
+-    let mut font = None;
+-    if let Some(name) = assets::field(call, actor, b"Font")? {
++    // BitmapText::LoadFromNode resolves Font and legacy File paths before
++    // looking up the first present attribute as a theme font name. In
++    // particular, an existing File path takes precedence over a Font alias.
++    let mut theme_name = None;
++    for key in [b"Font".as_slice(), b"File"] {
++        let name = if key == b"File" {
++            // XNodeLuaValue uses lua_tolstring: non-string scalar attributes
++            // become empty strings; tables are children, not attributes.
++            // Keep lookup errors visible rather than treating them as absence.
++            let key = call.intern_static(b"File")?;
++            let value = call.table_get(Value::Table(actor), key)?;
++            match value {
++                Value::Nil | Value::Table(_) => None,
++                Value::String(_) | Value::Number(_) => Some(assets::text(call, value)?),
++                _ => Some(String::new()),
++            }
++        } else {
++            assets::field(call, actor, key)?
++        };
++        let Some(name) = name else {
++            continue;
++        };
+         let resolved = match assets::resolve(call, actor, &name) {
+             Err(e) if e.kind() == ErrorKind::Runtime => None,
+             result => result?,
+         };
+-        font = if let Some(path) = resolved {
+-            Some((crate::bitmap_font::song_lua_font_name(&path), path))
+-        } else {
+-            crate::bitmap_font::song_lua_builtin_theme_font(&name)
+-                .map(|(name, path)| (name, PathBuf::from(path)))
+-        };
++        if let Some(path) = resolved {
++            return Ok(Some((crate::bitmap_font::song_lua_font_name(&path), path)));
++        }
++        if theme_name.is_none() {
++            theme_name = Some(name);
++        }
+     }
+-    Ok(font)
++    Ok(theme_name.and_then(|name| {
++        crate::bitmap_font::song_lua_builtin_theme_font(&name)
++            .map(|(name, path)| (name, PathBuf::from(path)))
++    }))
+ }
+ pub(super) fn read(call: &mut HostCall<'_>, actor: TableId) -> Result<BitmapText, Error> {
+     let font = font(call, actor)?;
+diff --git a/crates/deadsync-song-lua/tests/bitmap_text.rs b/crates/deadsync-song-lua/tests/bitmap_text.rs
+index 4fc6a543eb9bd41b30df7810db5fde2a4c6a6340..b8c4350db6adec5a2e5c2130394330621bcbb965 100644
+--- a/crates/deadsync-song-lua/tests/bitmap_text.rs
++++ b/crates/deadsync-song-lua/tests/bitmap_text.rs
+@@ -254,6 +254,63 @@ fn font_resolution_and_builtin_fallback_match_production() {
+     "#,false);
+ }
+ 
++#[test]
++fn legacy_file_font_paths_precede_theme_aliases() {
++    let files = tempfile::tempdir().unwrap();
++    for name in ["font.ini", "legacy.ini", "42", "43"] {
++        std::fs::write(files.path().join(name), "[main]\nLineSpacing=12\n").unwrap();
++    }
++    for live in [false, true] {
++        for (font, file, expected) in [
++            ("nil", "legacy", Some("legacy.ini")),
++            ("'font.ini'", "legacy", Some("font.ini")),
++            ("'font.ini'", "false", Some("font.ini")),
++            ("'Common Header'", "legacy", Some("legacy.ini")),
++            ("'Common Header'", "false", Some("theme")),
++            ("'missing.ini'", "legacy", Some("legacy.ini")),
++            ("''", "legacy", Some("legacy.ini")),
++            ("999", "legacy", Some("legacy.ini")),
++            ("42", "legacy", Some("42")),
++            ("nil", "43", Some("43")),
++            ("nil", "'Common Header'", Some("theme")),
++            ("'Common Header'", "'Common Normal'", Some("theme")),
++            ("''", "'Common Header'", None),
++        ] {
++            let mut context = SongLuaCompileContext::new(files.path(), "legacy File font");
++            context.live = live;
++            let mut runtime = SongRuntime::new(&context).unwrap();
++            let definition = execute(
++                &mut runtime,
++                &format!(
++                    "legacy={:?};return Def.BitmapText{{Font={font},File={file},InitCommand=function(self) self:settext('0') end}}",
++                    deadsync_song_lua::file_path_string(&files.path().join("legacy.ini")),
++                ),
++            )[0];
++            let scene = runtime.instantiate_actor(definition).unwrap();
++            let actor = runtime.actor_scene_root(scene).unwrap();
++            runtime.vm_mut().set_global(b"label", actor).unwrap();
++            execute(
++                &mut runtime,
++                &format!(
++                    "label.__songlua_script_dir={:?}",
++                    deadsync_song_lua::file_path_string(files.path()),
++                ),
++            );
++            let payload = runtime.actor_bitmap_text(actor).unwrap();
++            let expected = expected.map(|name| {
++                if name == "theme" {
++                    std::path::PathBuf::from("assets/fonts/wendy/_wendy small.ini")
++                } else {
++                    files.path().join(name)
++                }
++            });
++            assert_eq!(payload.font.map(|(_, path)| path), expected,
++                "Font={font}, File={file}, live={live}");
++            assert_eq!(payload.text.as_ref(), "0");
++        }
++    }
++}
++
+ #[test]
+ fn common_header_font_uses_native_life_meter_glyphs() {
+     use deadlib_assets::FontStore;
+diff --git a/tests/fixtures b/tests/fixtures
+index 0a49b80d8dd1cbc59d86ac764e739537fcc1a79b..ea94a08090c60c9da30d72995c943796c6a96fca 160000
+--- a/tests/fixtures
++++ b/tests/fixtures
+@@ -1 +1 @@
+-Subproject commit 0a49b80d8dd1cbc59d86ac764e739537fcc1a79b
++Subproject commit ea94a08090c60c9da30d72995c943796c6a96fca

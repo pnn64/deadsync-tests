@@ -1,0 +1,40 @@
+# Preserve fixture bytes; never normalize compressed archive parts.
+* text=auto
+*.part -text
+# Regression snapshots must retain the exact bytes captured by the test runner.
+/regression-expectations/**/*.snap -text
+# This Windows-captured snapshot preserves CRLF as part of its exact bytes.
+/regression-expectations/deadsync-song-lua/a74e87153021edf1.snap whitespace=cr-at-eol
+/regression-expectations/deadsync-song-lua/42b202d737540250.snap whitespace=cr-at-eol
+# Native print output includes an empty tab-separated field.
+/regression-expectations/deadlib-lua/lua51_table_order.txt -whitespace
+# This pinned upstream source is covered by a provenance checksum.
+/itgmania-song-lua-micro/actor-definition-source/*.lua -text
+# Native song Lua controls include checksums of their exact source bytes.
+/regression-expectations/song-lua/**/*.lua -text
+/regression-expectations/song-lua/native-actor-parity/*.sm -text
+# Native chart provenance includes the original trailing blank line.
+/itgmania-song-lua-micro/looping-rooms.ssc -text whitespace=-blank-at-eof
+# Chart-selection controls have recorded SHA-256 source identities.
+/full_song_lua/proxmox-pass3-2026-11-16/chart-selector-control/* -text
+/full_song_lua/proxmox-pass3-2026-11-16/style-controls/**/* -text
+*.gz -text
+.githooks/* text eol=lf
+
+# Routine controls retain exact captured source bytes.
+/full_song_lua/proxmox-pass3-2026-11-16/routine-manual-controls/**/* -text
+/full_song_lua/proxmox-pass3-2026-11-16/routine-stats-controls/**/* -text
+/full_song_lua/proxmox-pass3-2026-11-16/native-validation/**/* -text -whitespace
+/full_song_lua/proxmox-pass3-2026-11-16/routine-manual-input-clocks/**/* -text
+
+/full_song_lua/proxmox-pass3-2026-11-16/input-routing-replays/**/* -text -whitespace
+
+/full_song_lua/proxmox-pass3-2026-11-16/routine-life-baselines/**/* -text -whitespace
+/full_song_lua/proxmox-pass3-2026-11-16/routine-life-replays/**/* -text -whitespace
+
+/full_song_lua/proxmox-pass3-2026-11-16/routine-stats-baseline-replays/**/* -text -whitespace
+/full_song_lua/proxmox-pass3-2026-11-16/routine-stats-replays/**/* -text -whitespace
+/full_song_lua/proxmox-pass3-2026-11-16/routine-fail-controls/**/* -text -whitespace
+
+# Pass 4 receipts and manifests bind the exact bytes of native evidence.
+/full_song_lua/proxmox-pass4-2026-11-19/**/* -text -whitespace

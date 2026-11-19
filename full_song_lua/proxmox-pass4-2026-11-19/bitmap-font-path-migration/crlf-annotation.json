@@ -1,0 +1,12 @@
+{
+  "kind": "exact-path-crlf-diff-check-annotation",
+  "path": ".gitattributes",
+  "before_sha256": "e2f209cf549c4ca0d42cdc5c232c3de49b02ac9ce4122c0b30851ed999c553af",
+  "after_sha256": "3596e8e8ecfb3d54efd56178a69f861b83d5f0195dabea01d372a05c4560bd81",
+  "only_added_rule": "/regression-expectations/deadsync-song-lua/42b202d737540250.snap whitespace=cr-at-eol",
+  "snapshot_sha256_unchanged": "f0844e36a2840e15c8c6ee574848cb8d2808e6ae073ab5f386905e9f05a83b79",
+  "original_snapshot_crlf_preserved": true,
+  "global_whitespace_rules_changed": false,
+  "previous_diff_check_exit_code": 2,
+  "previous_diff_check_log_sha256": "1a877c0b5bccfc3604f8f6f3bd06b873e9cb604c7a62e31775519ade511457be"
+}
