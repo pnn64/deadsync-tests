@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "group": "circles-baseline-diagnosis",
+  "scope": "Two baseline Circles variants show a source-backed one-update short-hold scoring/tween phase discrepancy; exact query windows and native/owned source evidence are retained.",
+  "limits": [
+    "The diagnosis did not replay B and did not patch the gap.",
+    "Four variants are distinguished; the file-identity mismatch is a separate repaired comparison issue.",
+    "Large original native fixture archives remain referenced by exact path, bytes and hash."
+  ],
+  "inventory_sha256": "54b7de34aee6bbaa36cbcad6b7017bee1d8d1b30ad43fb7994c2e2b4b6c35ae6",
+  "inventory_cutoff": "2026-11-19T06:06:15.271639+00:00",
+  "packaged_at": "20261119T062444.886838Z",
+  "packaging_product_head": "81c18c105ad9e70e1d6d9a84c610e3a2de477899",
+  "packaging_fixture_head": "11f6edff529423df9ffef9458e93f7726183a646",
+  "candidate_context": "be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858",
+  "reference_only_files": [
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\artifacts\\1467b5bccb06fe84d622d5590f5ee732dfbd6ed0b4fcbf9af7036f37d9b2a38e.tar.zst",
+      "task_relative_path": "circles-query-diagnosis-20261119T052915.449930Z/artifacts/1467b5bccb06fe84d622d5590f5ee732dfbd6ed0b4fcbf9af7036f37d9b2a38e.tar.zst",
+      "bytes": 145986606,
+      "sha256": "1467b5bccb06fe84d622d5590f5ee732dfbd6ed0b4fcbf9af7036f37d9b2a38e"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\artifacts\\aa65e43a02f76f6d19caa5cf442cd41248dca209acd2898ed0ef7d9c44bb8637.tar.zst",
+      "task_relative_path": "circles-query-diagnosis-20261119T052915.449930Z/artifacts/aa65e43a02f76f6d19caa5cf442cd41248dca209acd2898ed0ef7d9c44bb8637.tar.zst",
+      "bytes": 253058755,
+      "sha256": "aa65e43a02f76f6d19caa5cf442cd41248dca209acd2898ed0ef7d9c44bb8637"
+    }
+  ],
+  "files": [
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/artifacts/015b35dc065d6875625b8f499035f1c73a0f710349b72e1b80b9832fcdd197e5.json.zst",
+      "bytes": 676403,
+      "sha256": "015b35dc065d6875625b8f499035f1c73a0f710349b72e1b80b9832fcdd197e5",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\artifacts\\015b35dc065d6875625b8f499035f1c73a0f710349b72e1b80b9832fcdd197e5.json.zst"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/artifacts/015b35dc065d6875625b8f499035f1c73a0f710349b72e1b80b9832fcdd197e5.json.zst.receipt.json",
+      "bytes": 909,
+      "sha256": "768ac82883a81989addfeb8b458c67aeb3694a510c5ec924716f263b94702376",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\artifacts\\015b35dc065d6875625b8f499035f1c73a0f710349b72e1b80b9832fcdd197e5.json.zst.receipt.json"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/artifacts/1467b5bccb06fe84d622d5590f5ee732dfbd6ed0b4fcbf9af7036f37d9b2a38e.tar.zst.receipt.json",
+      "bytes": 881,
+      "sha256": "9db6d954dd47121da2295513b9673b4144e2eadc0aaf6c80cbcf704f36b51a97",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\artifacts\\1467b5bccb06fe84d622d5590f5ee732dfbd6ed0b4fcbf9af7036f37d9b2a38e.tar.zst.receipt.json"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/artifacts/1dd609a40d31d08646072688562dbfb5bc1c1655925a6a654657e71e93dc612d.json.zst",
+      "bytes": 664997,
+      "sha256": "1dd609a40d31d08646072688562dbfb5bc1c1655925a6a654657e71e93dc612d",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\artifacts\\1dd609a40d31d08646072688562dbfb5bc1c1655925a6a654657e71e93dc612d.json.zst"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/artifacts/1dd609a40d31d08646072688562dbfb5bc1c1655925a6a654657e71e93dc612d.json.zst.receipt.json",
+      "bytes": 909,
+      "sha256": "ca5756d291b1168d4f466ce0a59cf0db643237e863c4143e20ca2572122f1713",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\artifacts\\1dd609a40d31d08646072688562dbfb5bc1c1655925a6a654657e71e93dc612d.json.zst.receipt.json"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/artifacts/44103dfe5e1703a205551dd40b208bae181bdcde0fff77344a419d51dde7f358.json.zst",
+      "bytes": 669314,
+      "sha256": "44103dfe5e1703a205551dd40b208bae181bdcde0fff77344a419d51dde7f358",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\artifacts\\44103dfe5e1703a205551dd40b208bae181bdcde0fff77344a419d51dde7f358.json.zst"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/artifacts/44103dfe5e1703a205551dd40b208bae181bdcde0fff77344a419d51dde7f358.json.zst.receipt.json",
+      "bytes": 909,
+      "sha256": "42736933447ac72d82f1fafc83e4163e8a9920f10c0b1817833ded313d823a38",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\artifacts\\44103dfe5e1703a205551dd40b208bae181bdcde0fff77344a419d51dde7f358.json.zst.receipt.json"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/artifacts/aa65e43a02f76f6d19caa5cf442cd41248dca209acd2898ed0ef7d9c44bb8637.tar.zst.receipt.json",
+      "bytes": 881,
+      "sha256": "3f23ebf114b35c9892aa3566f67a04cf89e816844406262bfcbe8e9f86b71918",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\artifacts\\aa65e43a02f76f6d19caa5cf442cd41248dca209acd2898ed0ef7d9c44bb8637.tar.zst.receipt.json"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/capture_source_authority.py",
+      "bytes": 7213,
+      "sha256": "8db9a16aa80fbddf257e46c5e847a08f2bd0032f0d02402a09497cac07e10aca",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\capture_source_authority.py"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/diagnosis.md",
+      "bytes": 7709,
+      "sha256": "e44e791a69ba270c0675c8c677b4fc2f962c45165c55716087d62d146f85d635",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\diagnosis.md"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/extract_query_windows.py",
+      "bytes": 9875,
+      "sha256": "50b5f6482931f1302f7a18ebb7cb6665d9d17c5c3c72fea218663e4af8997bac",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\extract_query_windows.py"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/main-sm-selection.json",
+      "bytes": 1237,
+      "sha256": "e99e9fe8e4fbcdb4951666cc5620e9818ca72e587e2e9335f118020db14e713e",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\main-sm-selection.json"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/query-windows.json",
+      "bytes": 173536,
+      "sha256": "48254d58e7647f2dc96d6dbb7daf7f4d0c8c5d10c05b95329be4dfbf7f92188c",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\query-windows.json"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/selection.json",
+      "bytes": 251118,
+      "sha256": "f7c4f840dbd2706e2ec317c11c279cb56e1a461a58a25599f477ec209dd23028",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\selection.json"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/source-authority.json",
+      "bytes": 55490,
+      "sha256": "c11f7e3cb1ae54cfd9edf93fb4e263468137cfb39974af246ac7f40e59662548",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\source-authority.json"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/transfer-result.json",
+      "bytes": 3869,
+      "sha256": "047d75cc386fd2c529d0229ab9c6ba59f669bdaa95d706f363652a8d07e892ba",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\transfer-result.json"
+    },
+    {
+      "path": "payload/circles-query-diagnosis-20261119T052915.449930Z/manifest.json",
+      "bytes": 4197,
+      "sha256": "37a67de06f82abadb332ba03c2459ec56a075bf8798099bc903234a28a3edd25",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\circles-query-diagnosis-20261119T052915.449930Z\\manifest.json"
+    },
+    {
+      "path": "payload/corpus-audit-artifacts/06e3a401bf6c2cc5978348fdd0d84595ef247f21730d3f950bf4d4b29aee1be5.json.zst",
+      "bytes": 662963,
+      "sha256": "06e3a401bf6c2cc5978348fdd0d84595ef247f21730d3f950bf4d4b29aee1be5",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-artifacts\\06e3a401bf6c2cc5978348fdd0d84595ef247f21730d3f950bf4d4b29aee1be5.json.zst"
+    }
+  ]
+}

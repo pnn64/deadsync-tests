@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "group": "retry-planning-and-authority",
+  "scope": "The reviewed 54-case supplement preserves all 53 original selections, adds one exactly bound journal-proved case, and retains original/projection snapshots and removal ledger; the host authority publication receipt is separate from the unchanged proposal.",
+  "limits": [
+    "The inherited read-only role plan partitions 27+27 and is not a final candidate-bound execution contract.",
+    "No role activation, guest memory change, retry, or restored-queue outcome is inferred from planning/authority publication.",
+    "publication-pending.json remains its original historical proposal; the later receipt establishes actual authority publication."
+  ],
+  "inventory_sha256": "54b7de34aee6bbaa36cbcad6b7017bee1d8d1b30ad43fb7994c2e2b4b6c35ae6",
+  "inventory_cutoff": "2026-11-19T06:06:15.271639+00:00",
+  "packaged_at": "20261119T062444.886838Z",
+  "packaging_product_head": "81c18c105ad9e70e1d6d9a84c610e3a2de477899",
+  "packaging_fixture_head": "11f6edff529423df9ffef9458e93f7726183a646",
+  "candidate_context": "be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858",
+  "reference_only_files": [],
+  "files": [
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/base-plan/capture-jobs.json",
+      "bytes": 58369,
+      "sha256": "adefbc1e74cfa2e5457c1611d28f99e6bcc3f5e52b0d89280f33a2229f029cc4",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\base-plan\\capture-jobs.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/base-plan/missing-stage-receipts.json",
+      "bytes": 19529,
+      "sha256": "99972cc0f77779bdf2f2b1a3264153a49ed731e1167eb476aee09017ed95244e",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\base-plan\\missing-stage-receipts.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/base-plan/plan.json",
+      "bytes": 7222,
+      "sha256": "b4e3ef6948f0db99df79b679d6eabedabaafad98d972d7abbacb699e0d8115fe",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\base-plan\\plan.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/base-plan/replay-jobs.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\base-plan\\replay-jobs.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/base-plan/resources.json",
+      "bytes": 1371,
+      "sha256": "130c12bb25c07ac93dc16bfcf4fec0312fdba9e9bcdb69f4fc21f893e456bd15",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\base-plan\\resources.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/base-plan/selected-attempts.json",
+      "bytes": 727157,
+      "sha256": "a724046a37d8592bbe47e8ca8e01067a4634e8d7e769d636aecbecb489970316",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\base-plan\\selected-attempts.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/capture-jobs.json",
+      "bytes": 59436,
+      "sha256": "e838e5d7b822d10fdd7ea8702afda02b23faa58cfe15e74e0c4ba2129485f9cc",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\capture-jobs.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/manifest.json",
+      "bytes": 3986,
+      "sha256": "7c865a15ea5b1984f8ffc8b2669ac99f904a4e63c762356a037d937bdde983a4",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\manifest.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/missing-stage-receipts.json",
+      "bytes": 19529,
+      "sha256": "99972cc0f77779bdf2f2b1a3264153a49ed731e1167eb476aee09017ed95244e",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\missing-stage-receipts.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/original-result.json",
+      "bytes": 5711,
+      "sha256": "d21a1ba39e9d4aec9d1af3a96b5dfc8b6bd8c02a6dd1cd2c5abe43bff37a9d32",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\original-result.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/plan.json",
+      "bytes": 9781,
+      "sha256": "b6ce1619e570f21a68f0ae7442f9cd84eed6e78bf1524261d65434716ee2b7dd",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\plan.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/publication-pending.json",
+      "bytes": 978,
+      "sha256": "c3dabc20398ecd5539a0a0f90e95b514520792df481265d5a45f59e9e3ac1d1f",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\publication-pending.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/publication-receipt-20261119T055515.664801Z.json",
+      "bytes": 817,
+      "sha256": "953e968aea648452bc5ab8e8f9bc2472853aeeeaf51c901c962d84f4a29b63ce",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\publication-receipt-20261119T055515.664801Z.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/publish-host-authority.py",
+      "bytes": 168687,
+      "sha256": "763d0295b981a4a80cfa582e40aad5ecca1ed8eb97591cf52bf2e5300deb6518",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\publish-host-authority.py"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/replay-jobs.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\replay-jobs.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/resources.json",
+      "bytes": 1371,
+      "sha256": "130c12bb25c07ac93dc16bfcf4fec0312fdba9e9bcdb69f4fc21f893e456bd15",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\resources.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/inspect_retained_role_plan.py",
+      "bytes": 5261,
+      "sha256": "cf5aafc378947613f5194a4ad8aa704e5a8bdf528728d50dde59f027547127e5",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\inspect_retained_role_plan.py"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/plan.json.gz",
+      "bytes": 37516,
+      "sha256": "93cfc8b5b22573b7b1ba078812e38083e5f86fda4b27934c27f0550544ffe8d5",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\plan.json.gz"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/read-only-role-handoff.json",
+      "bytes": 4224,
+      "sha256": "9736af5d6466ed9876fe537a68a0f2cb25083b486493d1a20a385a1f8e27349a",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\read-only-role-handoff.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/summary.json",
+      "bytes": 7851,
+      "sha256": "f2636dfd560bf8d487e938e97334398f652634327f259a0960a7c6b68a92ab01",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\summary.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/vm-1503-before.conf",
+      "bytes": 1587,
+      "sha256": "a1b5c5849eddbd2ccbd73ffd02bf8b6399ca8509109fb62b419080ad14d48f51",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1503-before.conf"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/vm-1503-original-jobs.json",
+      "bytes": 116427,
+      "sha256": "745a445250ac7c43499e19543f10ea4b1b72f3a0cf075617cad0cc7173d320ef",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1503-original-jobs.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/vm-1503-retry-attempts.json",
+      "bytes": 381231,
+      "sha256": "373fbe7de013938e452210b8b546ef05d265fda3fa8c4547f37be48cba59e5cd",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1503-retry-attempts.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/vm-1503-retry-jobs.json",
+      "bytes": 30575,
+      "sha256": "2bb1284e3a053e9383ca7ba4d18796dcb22e9278e53fe39276ca6517595adfef",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1503-retry-jobs.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/vm-1505-before.conf",
+      "bytes": 1587,
+      "sha256": "81b69ec4e6df19c3f2e0daed06a57211f66e14fe73a08d40c115498c81bd86ca",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1505-before.conf"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/vm-1505-original-jobs.json",
+      "bytes": 117231,
+      "sha256": "310c894d321152745bed8d0a88236d2b19863fa1f072d77afd083dc5ec86cacd",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1505-original-jobs.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/vm-1505-retry-attempts.json",
+      "bytes": 377820,
+      "sha256": "64036b6d0f4817b8f935376409a0ddf4964104dd16e6c85e630d73355fd9f17d",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1505-retry-attempts.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/vm-1505-retry-jobs.json",
+      "bytes": 30488,
+      "sha256": "0af553007dac0878996936dabdbbed0dcedd70b75b4a1ad05f9da5a1db35013a",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1505-retry-jobs.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/role-plan-20261119T055450Z/vm-1516-before.conf",
+      "bytes": 1577,
+      "sha256": "66849fbeaf55f4d547ff961fa251695bd8e5c8cb279912283b2aec05041d31dc",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1516-before.conf"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/selected-attempts.json",
+      "bytes": 738527,
+      "sha256": "440812f176e792d687d5d522a8ca25ca2eab80dbef6ac9f5dc89f485c00773fe",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\selected-attempts.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-supplement-33094275-proposal/supplemental-journal-authority.json",
+      "bytes": 125646,
+      "sha256": "0627ea2ef5b79d0aba3b5f7eb8d8ad8b2d9811d3f76d91efaadee7ab600ef4d7",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\supplemental-journal-authority.json"
+    },
+    {
+      "path": "payload/capture-retry-projection-20261119T054020.048384Z/capture-only-planning.json.gz",
+      "bytes": 1731150,
+      "sha256": "fcab8412bd2640ff4a7cdaa11dbe56f69a2a033946a8225398340431002665a4",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\capture-retry-projection-20261119T054020.048384Z\\capture-only-planning.json.gz"
+    },
+    {
+      "path": "payload/capture-retry-projection-20261119T054020.048384Z/projection-manifest.json",
+      "bytes": 1874,
+      "sha256": "63733dc393fff2ba4bb070d53a4981be23d313d60fb8e21952147d71c6fdf361",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\capture-retry-projection-20261119T054020.048384Z\\projection-manifest.json"
+    },
+    {
+      "path": "payload/capture-retry-projection-20261119T054020.048384Z/removed-replay-entries.json",
+      "bytes": 463601,
+      "sha256": "4cc1d6f9a8975fac132e4227f5eb6bb16665d59d8941d2d8479851e51459da70",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\capture-retry-projection-20261119T054020.048384Z\\removed-replay-entries.json"
+    },
+    {
+      "path": "payload/capture-retry-projection-20261119T054020.048384Z/source-full.json.gz",
+      "bytes": 3602815,
+      "sha256": "d1cfd6e88b6ce95e9fc12c378c2d09651efd4d4c5cfdb9d336bcdd2e62d8d915",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\capture-retry-projection-20261119T054020.048384Z\\source-full.json.gz"
+    },
+    {
+      "path": "payload/prepare_missing_stage_supplement.py",
+      "bytes": 19016,
+      "sha256": "293f19b8e3468da551903dd9a0ea590b235b6b908bc3fa4da2859d687c96124f",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\prepare_missing_stage_supplement.py"
+    },
+    {
+      "path": "payload/validate_missing_stage_supplement.py",
+      "bytes": 9656,
+      "sha256": "f0374f439bc238f5005e8554fff56ee8190fbeae307f37ea6b37b252ea824fcb",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\validate_missing_stage_supplement.py"
+    },
+    {
+      "path": "payload/missing-stage-supplement-validation-20261119T055430.800735Z/validation.json",
+      "bytes": 7871,
+      "sha256": "a92265da37fdf510b01b271ab96c476b99ba2415cff06e154d550f8a39738ba7",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-supplement-validation-20261119T055430.800735Z\\validation.json"
+    },
+    {
+      "path": "payload/resource-retry-capture-plan-20261119T054020.048384Z/read-only-planning-handoff.json",
+      "bytes": 4093,
+      "sha256": "2d8f0c78a3ff071bdb97fc0b12dfe761dbb50b5fc59d4b9707bf18946ecec96c",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-plan-20261119T054020.048384Z\\read-only-planning-handoff.json"
+    },
+    {
+      "path": "payload/project_capture_retry_snapshot.py",
+      "bytes": 14617,
+      "sha256": "9d0e49cf806b0d6bb524d682f53eae274aa2fb28be6c8dd70fcc2dca3543c110",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\project_capture_retry_snapshot.py"
+    },
+    {
+      "path": "payload/capture-retry-projection-validation-20261119T052338.099058Z/validation.json",
+      "bytes": 6231,
+      "sha256": "80bb02cd1124aa5235679cedf2afd8e8c8911b3571b7731aa0aff1666ba0f3d2",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\capture-retry-projection-validation-20261119T052338.099058Z\\validation.json"
+    }
+  ]
+}

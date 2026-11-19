@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "group": "cold-b-native",
+  "scope": "Linux B Cold replay passed both paths: 1,586 frames, 157 eligible stage samples, 10,773 stage fields, 9,496 draws and 56,976 vertices per path, with zero errors or mismatches.",
+  "limits": [
+    "whole_song_parity_proven remains false; all original pending-coverage entries and full reports must remain unchanged.",
+    "The duplicate transport evidence.tar is hash-referenced; the selected extracted files preserve every original report and proof.",
+    "Streaming profile validation does not itself establish fleet profile installation."
+  ],
+  "inventory_sha256": "54b7de34aee6bbaa36cbcad6b7017bee1d8d1b30ad43fb7994c2e2b4b6c35ae6",
+  "inventory_cutoff": "2026-11-19T06:06:15.271639+00:00",
+  "packaged_at": "20261119T062444.886838Z",
+  "packaging_product_head": "81c18c105ad9e70e1d6d9a84c610e3a2de477899",
+  "packaging_fixture_head": "11f6edff529423df9ffef9458e93f7726183a646",
+  "candidate_context": "be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858",
+  "reference_only_files": [
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\evidence.tar",
+      "task_relative_path": "cold-B-evidence-20261119T054324.760897Z/evidence.tar",
+      "bytes": 63477760,
+      "sha256": "fe0aa84b35bd7c06f8f1dbb627f68ce800efbffc36e4697c66da43f0786b8e5e"
+    }
+  ],
+  "tested_b_pins": {
+    "runner_sha256": "90abd15f5e2f6e15a23b33faacc83ec81bde13a2f709f095576a10ce0c8405e4",
+    "build_proof_sha256": "610be24222fac61761ca70c5f18f986840ff971566d52417b9bde14726963d1e",
+    "source_proof_sha256": "18f5fe495952a649abaf758df3a20deb62abc8cf49411e1acc3de9affb03e717"
+  },
+  "files": [
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/collect_cold_candidate_evidence.py",
+      "bytes": 19544,
+      "sha256": "25f5300c109549fac66e042a9c7865ac0a1d89cff5774fd888f0b045f28bf1e6",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\collect_cold_candidate_evidence.py"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/collection-receipt.json",
+      "bytes": 4830,
+      "sha256": "538ce28b49164542556af6da19d5c552c0fafdd74d3938fe84756f029b89eb68",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\collection-receipt.json"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/download.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\download.stderr"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/files/build-proof.json",
+      "bytes": 24644,
+      "sha256": "610be24222fac61761ca70c5f18f986840ff971566d52417b9bde14726963d1e",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\files\\build-proof.json"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/files/cold_candidate_replay.py",
+      "bytes": 5408,
+      "sha256": "14e15e7141dba2046206c7ad7bbf41959ded82a979d1c5d872bbf59b15e2c81f",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\files\\cold_candidate_replay.py"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/files/latest-replay.json",
+      "bytes": 214,
+      "sha256": "ea525cf96d460791b3ff8a2b870b8e83ae724068bc9fb9eb3fb5e748dc7bb9d9",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\files\\latest-replay.json"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/files/manifest.json",
+      "bytes": 36181,
+      "sha256": "8545c870b0d17499041ef9f9e33669801d4ca1150d4f4b0e67e420e31592f2ed",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\files\\manifest.json"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/files/receipt.json",
+      "bytes": 4733,
+      "sha256": "e6f86f5308fe0355d0532afe2ff53ff497636d04512a9357a9fead5746e9cf13",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\files\\receipt.json"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/files/replay.log",
+      "bytes": 5116,
+      "sha256": "f6343ce3bcc20c0ec4112270fc9c800e9db5b10ffc0524393c6e990aa3a7fb26",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\files\\replay.log"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/files/report.json",
+      "bytes": 61415386,
+      "sha256": "c1d1e051e824c3ee0b986f4aae5fa5dc754a2746a412424986bdf03e2a22139d",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\files\\report.json"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/files/source-proof.json",
+      "bytes": 1961954,
+      "sha256": "18f5fe495952a649abaf758df3a20deb62abc8cf49411e1acc3de9affb03e717",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\files\\source-proof.json"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/files/unit.log",
+      "bytes": 4419,
+      "sha256": "83d420152a9e725c1a1fc5707a1ae9550e6b98f30a818e76a7720371018c873c",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\files\\unit.log"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/metadata.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\metadata.stderr"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/metadata.stdout",
+      "bytes": 3186,
+      "sha256": "a02004834bef77d002e993d31a28aaf3930d6354464389df66fa9c35ed67b921",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\metadata.stdout"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/remote-manifest.json",
+      "bytes": 3608,
+      "sha256": "6102cd26998275f964d4907bd23b7bbd8e9a9b665e8c815638a80dec56c1e128",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\remote-manifest.json"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/report-summary.json",
+      "bytes": 3420,
+      "sha256": "8750ce27425da4d4ec67d1095cb87c9e68ef4d5493f5f1cbf64d8273a60a578c",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\report-summary.json"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/transport-proof.json",
+      "bytes": 1898,
+      "sha256": "823e2d7a8c7e81951ca4b903d9afab4f73bc5c6391cef3ed0fcbc31fa713c683",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\transport-proof.json"
+    },
+    {
+      "path": "payload/cold-B-evidence-20261119T054324.760897Z/manifest.json",
+      "bytes": 2836,
+      "sha256": "87dd82f2ce9702127ec2d5d845e47430cd93e17d1312290aec446db250eddc02",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\cold-B-evidence-20261119T054324.760897Z\\manifest.json"
+    }
+  ]
+}

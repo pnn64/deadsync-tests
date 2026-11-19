@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "group": "preparation-provenance",
+  "scope": "Exact accepted inventory and local packaging/publication helper sources; publication is not executed by this package.",
+  "limits": [
+    "This package records preparation, not a fixture commit, push, gitlink change or new parity run."
+  ],
+  "inventory_sha256": "54b7de34aee6bbaa36cbcad6b7017bee1d8d1b30ad43fb7994c2e2b4b6c35ae6",
+  "inventory_cutoff": "2026-11-19T06:06:15.271639+00:00",
+  "packaged_at": "20261119T062444.886838Z",
+  "packaging_product_head": "81c18c105ad9e70e1d6d9a84c610e3a2de477899",
+  "packaging_fixture_head": "11f6edff529423df9ffef9458e93f7726183a646",
+  "candidate_context": "be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858",
+  "reference_only_files": [],
+  "files": [
+    {
+      "path": "payload/final-retention-proposal-20261119T060614Z/inventory.json",
+      "bytes": 131757,
+      "sha256": "54b7de34aee6bbaa36cbcad6b7017bee1d8d1b30ad43fb7994c2e2b4b6c35ae6",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-retention-proposal-20261119T060614Z\\inventory.json"
+    },
+    {
+      "path": "payload/final-retention-proposal-20261119T060614Z/proposal.md",
+      "bytes": 5022,
+      "sha256": "74a5220f7aab143a9885c6e0fc86760e6ad975d347d96a085a8d1387288d9eb2",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-retention-proposal-20261119T060614Z\\proposal.md"
+    },
+    {
+      "path": "payload/final-retention-proposal-20261119T060614Z/receipt.json",
+      "bytes": 1659,
+      "sha256": "866c4493f37b45defbb3523b717d3ff056646aa54ebfd27bd16e19d10d12b84b",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-retention-proposal-20261119T060614Z\\receipt.json"
+    },
+    {
+      "path": "payload/prepare_final_retention_packages.py",
+      "bytes": 27409,
+      "sha256": "2e4d31d066644bccf33387796c04359236866ae25dc201257b2e1910d6934017",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\prepare_final_retention_packages.py"
+    },
+    {
+      "path": "payload/apply_final_retention_addendum.py",
+      "bytes": 6606,
+      "sha256": "21e915115fd878a6bb925978acd8a23da58a7aa16499a47e9c879ee0a8e9e1e4",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\apply_final_retention_addendum.py"
+    }
+  ]
+}

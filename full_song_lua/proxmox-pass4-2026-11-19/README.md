@@ -253,3 +253,16 @@ reviewed font subset was committed as 21f47c8783a1fe429a8a5f341ca604d03773601c;
 its original commit receipt and helper are retained. These completed gates
 precede the separate live-visual path registration change and do not claim
 Linux or complete fleet parity.
+
+
+## Final B evidence addendum
+
+final-addendum/ retains the exact Linux B gates, Cold and streaming controls,
+Windows portable visual gate, scoped open diagnoses and resource retry proof.
+Its package index preserves the earlier inventory cutoff and labels the later
+all-worker installation and first B result snapshot separately. Those fleet
+results are incomplete and retain all original coverage limits.
+
+Ten copied evidence artifacts have exact recorded canonical LF Git blobs and
+original CRLF bytes. Both identities are bound to the opaque recovery ZIP;
+no historical evidence row or real test snapshot is rewritten.

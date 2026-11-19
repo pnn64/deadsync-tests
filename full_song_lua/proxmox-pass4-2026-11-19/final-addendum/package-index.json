@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "prepared_at": "20261119T062444.886838Z",
+  "publication_executed": false,
+  "accepted_inventory_sha256": "54b7de34aee6bbaa36cbcad6b7017bee1d8d1b30ad43fb7994c2e2b4b6c35ae6",
+  "accepted_inventory_cutoff_preserved": "2026-11-19T06:06:15.271639+00:00",
+  "product_head": "81c18c105ad9e70e1d6d9a84c610e3a2de477899",
+  "fixture_parent": "11f6edff529423df9ffef9458e93f7726183a646",
+  "candidate": "be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858",
+  "groups": [
+    {
+      "key": "portable-evidence-original-bytes",
+      "claim": "The exact ten original byte sequences are recoverable and match their historical manifest hashes; their committed flat evidence copies differ only by CRLF conversion.",
+      "limits": [
+        "This is an evidence-storage difference, not a changed runtime or test expectation.",
+        "Do not claim the ten canonical Git blobs equal the historical original-byte hashes.",
+        "Preserve the exact original bytes in an opaque ZIP plus the canonical/original hash mapping; any correction of the existing flat evidence layout requires separate review."
+      ],
+      "source_files": 2,
+      "source_bytes": 202454
+    },
+    {
+      "key": "candidate-b-build",
+      "claim": "Exact Linux B build passed all 20 nonzero gates and built the final runner; all gate logs and source/fixture proofs are present.",
+      "limits": [
+        "A build/control pass does not prove the full 1,620-job fleet is complete.",
+        "The fixture payload and runner binaries remain referenced by hash, not duplicated in fixtures."
+      ],
+      "source_files": 4,
+      "source_bytes": 3336583
+    },
+    {
+      "key": "windows-portable-visuals",
+      "claim": "Final Windows diff-check and full live_visuals target passed 13/13; the source patch is bound by the subsequent portable-test commit receipt.",
+      "limits": [
+        "Tested source was 21f47c878 + d24da6c8 patch and fixtures 11f6edf; it must not be relabeled as a test run performed at a later commit.",
+        "Earlier complete Windows bitmap_text and live_gameplay gates are already published under font-file-alias."
+      ],
+      "source_files": 13,
+      "source_bytes": 15129
+    },
+    {
+      "key": "cold-b-native",
+      "claim": "Linux B Cold replay passed both paths: 1,586 frames, 157 eligible stage samples, 10,773 stage fields, 9,496 draws and 56,976 vertices per path, with zero errors or mismatches.",
+      "limits": [
+        "whole_song_parity_proven remains false; all original pending-coverage entries and full reports must remain unchanged.",
+        "The duplicate transport evidence.tar is hash-referenced; the selected extracted files preserve every original report and proof.",
+        "Streaming profile validation does not itself establish fleet profile installation."
+      ],
+      "source_files": 18,
+      "source_bytes": 63497377
+    },
+    {
+      "key": "stream-b-native",
+      "claim": "The separately composed streaming capture profile passed an ordinary retained capture against B in both paths: 228 frames, 16 eligible stage samples, 1,204 fields, 38 draws and 228 vertices per path, with zero errors or mismatches.",
+      "limits": [
+        "whole_song_parity_proven remains false; all original pending-coverage entries and full reports must remain unchanged.",
+        "The duplicate transport evidence.tar is hash-referenced; the selected extracted files preserve every original report and proof.",
+        "Streaming profile validation does not itself establish fleet profile installation."
+      ],
+      "source_files": 51,
+      "source_bytes": 4883129
+    },
+    {
+      "key": "circles-baseline-diagnosis",
+      "claim": "Two baseline Circles variants show a source-backed one-update short-hold scoring/tween phase discrepancy; exact query windows and native/owned source evidence are retained.",
+      "limits": [
+        "The diagnosis did not replay B and did not patch the gap.",
+        "Four variants are distinguished; the file-identity mismatch is a separate repaired comparison issue.",
+        "Large original native fixture archives remain referenced by exact path, bytes and hash."
+      ],
+      "source_files": 18,
+      "source_bytes": 3192410
+    },
+    {
+      "key": "quarantine-one-attempt",
+      "claim": "One retained Quarantine capture has 128 retained native tween-overflow errors and 22 dropped diagnostics; its original capture_error is preserved.",
+      "limits": [
+        "The source-based global-message feedback explanation is an inference for this exact attempt, not proof about all similarly named failures.",
+        "Gameplay exit/stage commitment does not make an errorful capture acceptable.",
+        "The earlier 04:59 exploratory bundle is superseded only for this corrected packaging, not erased."
+      ],
+      "source_files": 2,
+      "source_bytes": 249959
+    },
+    {
+      "key": "missing-stage-primary-proof",
+      "claim": "Exact VM 1515/job 33094275d983528c-c0003 service and kernel records prove a 6 GiB cgroup OOM, including the native PID and killed stop hook.",
+      "limits": [
+        "The original capture_validation_or_infrastructure_error and empty stages stay unchanged.",
+        "The precise allocation or serialization phase is not established.",
+        "Proof of resource termination does not prove a retry will pass."
+      ],
+      "source_files": 23,
+      "source_bytes": 6582619
+    },
+    {
+      "key": "retry-planning-and-authority",
+      "claim": "The reviewed 54-case supplement preserves all 53 original selections, adds one exactly bound journal-proved case, and retains original/projection snapshots and removal ledger; the host authority publication receipt is separate from the unchanged proposal.",
+      "limits": [
+        "The inherited read-only role plan partitions 27+27 and is not a final candidate-bound execution contract.",
+        "No role activation, guest memory change, retry, or restored-queue outcome is inferred from planning/authority publication.",
+        "publication-pending.json remains its original historical proposal; the later receipt establishes actual authority publication."
+      ],
+      "source_files": 41,
+      "source_bytes": 8922422
+    },
+    {
+      "key": "stream-profile-package",
+      "claim": "Root-authorized packaging retained the 409-file runtime closure in a 21,585,920-byte host bundle, with exact package and transport-review receipts.",
+      "limits": [
+        "This selection intentionally covers package-only evidence; later profile freeze/install/activation receipts require a separate status review.",
+        "The host bundle itself remains referenced by the retained package receipt."
+      ],
+      "source_files": 16,
+      "source_bytes": 599610
+    },
+    {
+      "key": "rollout-point-in-time",
+      "claim": "Immutable local drain/install/queue receipts through this inventory's observed cutoff; successful installation and queue launch are distinct from completed fleet replays.",
+      "limits": [
+        "Later receipts must be appended as new immutable evidence.",
+        "A launch receipt is not a completed-job result; no full-corpus acceptance claim is made."
+      ],
+      "source_files": 11,
+      "source_bytes": 100337
+    },
+    {
+      "key": "commit-map-checkpoint",
+      "claim": "The exact 11 product commits map to eight runtime repairs, two comparison/acceptance changes and one portable-test change.",
+      "limits": [
+        "This historical checkpoint predates the later B and Circles evidence; append the new findings rather than rewriting the original checkpoint.",
+        "VANITY host branching, Door Open's unverified fade threshold explanation, Flowers' observed baseline mismatch and dance-solo replay support remain scoped open findings."
+      ],
+      "source_files": 2,
+      "source_bytes": 174610
+    },
+    {
+      "key": "post-cutoff-rollout-and-b-results",
+      "claim": "Separate later checkpoint: all 15 B installs, 13 ordinary queue resumes, held workers 1503/1505, and the first root-frozen B result collection plus a 35-case representative matrix.",
+      "limits": [
+        "The original inventory cutoff remains unchanged.",
+        "The collection is incomplete: 43 B passes, 3 parity failures and 3 running; historical baseline attempts are excluded from B acceptance.",
+        "Door Open's raw native alpha is not observed; the EPSILON causal explanation remains unproven.",
+        "Profile v2 installation and resource-role execution receipts are later additions, not inferred from this checkpoint."
+      ],
+      "source_files": 27,
+      "source_bytes": 9080028
+    },
+    {
+      "key": "preparation-provenance",
+      "claim": "Exact accepted inventory and local packaging/publication helper sources; publication is not executed by this package.",
+      "limits": [
+        "This package records preparation, not a fixture commit, push, gitlink change or new parity run."
+      ],
+      "source_files": 5,
+      "source_bytes": 172453
+    }
+  ],
+  "bundles": [
+    {
+      "archive": "final-addendum/portable-evidence-original-bytes/evidence.zip",
+      "manifest": "final-addendum/portable-evidence-original-bytes/manifest.json",
+      "layout": "embedded",
+      "verified_members": 11,
+      "archive_bytes": 198268,
+      "archive_sha256": "42b777470b0be39339ac3a36f7e9abbce4b9c1aadd0f2ea2ab0b6b7118239cba",
+      "manifest_sha256": "10963583ffc9fdded187c82f73f2c251ffa5b04d7f8afbfcd77bb95a9b238530"
+    },
+    {
+      "archive": "final-addendum/candidate-b-build/candidate-evidence.zip",
+      "manifest": "final-addendum/candidate-b-build/candidate-evidence-manifest.json",
+      "layout": "external",
+      "verified_members": 64,
+      "archive_bytes": 3257888,
+      "archive_sha256": "a31fad4a299caad236e9ed8daec09dc6301053544ebded1ef4ee10db61905c1e",
+      "manifest_sha256": "1f8fda0231ef122e5a036e3bbdf8b2f79505b5f8d9d14d0523cd55d9526dae68"
+    },
+    {
+      "archive": "final-addendum/candidate-b-build/provenance.zip",
+      "manifest": "final-addendum/candidate-b-build/provenance-manifest.json",
+      "layout": "embedded",
+      "verified_members": 4,
+      "archive_bytes": 14582,
+      "archive_sha256": "b8bc654e46e7dea68286513310a663561b94046e6a3f5895c35f024148557b47",
+      "manifest_sha256": "7b7c2373cc73d79d5b20c44b638b952843db67b7427e183dd68e5d3be4b84f6b"
+    },
+    {
+      "archive": "final-addendum/windows-portable-visuals/evidence.zip",
+      "manifest": "final-addendum/windows-portable-visuals/manifest.json",
+      "layout": "embedded",
+      "verified_members": 14,
+      "archive_bytes": 10560,
+      "archive_sha256": "f4b1aea272daa88663d782470fa35d676281b27b06d842f309b7901320f96fb4",
+      "manifest_sha256": "c815ec13cfa8d24970e88ad6bcf3a32eff4e203437ed4b8e2c73331789696a54"
+    },
+    {
+      "archive": "final-addendum/cold-b-native/evidence.zip",
+      "manifest": "final-addendum/cold-b-native/manifest.json",
+      "layout": "embedded",
+      "verified_members": 19,
+      "archive_bytes": 2502384,
+      "archive_sha256": "fce5738d63065cd70637da00ecc59225bd1f521f85895282c57248bacb723dc3",
+      "manifest_sha256": "5a10c343c5dfea3b82e4b214b199a8880d9de13e64fb744b070f025bb3b159a1"
+    },
+    {
+      "archive": "final-addendum/stream-b-native/evidence.zip",
+      "manifest": "final-addendum/stream-b-native/manifest.json",
+      "layout": "embedded",
+      "verified_members": 52,
+      "archive_bytes": 1470231,
+      "archive_sha256": "776409d485481951fc3692684d639deafe7dcc80bfa3b2944caeab0dd7d12768",
+      "manifest_sha256": "934d0a71c53a18b992989ab1456a3697b75878a374c15a13f3cf1a5172cc735c"
+    },
+    {
+      "archive": "final-addendum/circles-baseline-diagnosis/evidence.zip",
+      "manifest": "final-addendum/circles-baseline-diagnosis/manifest.json",
+      "layout": "embedded",
+      "verified_members": 19,
+      "archive_bytes": 2687431,
+      "archive_sha256": "23e0d513a47f2f7671de5916751a00e332245115d135bec91f70d4629e0c85e7",
+      "manifest_sha256": "c4860385a3ee7dbdabb59a36eef7db1fba0453a962c8491e0ad230087e9b29ec"
+    },
+    {
+      "archive": "final-addendum/quarantine-one-attempt/evidence.zip",
+      "manifest": "final-addendum/quarantine-one-attempt/manifest.json",
+      "layout": "embedded",
+      "verified_members": 24,
+      "archive_bytes": 246202,
+      "archive_sha256": "2ab806add5b1d9e7fd2f56232e59c9c8e6a6dc7d21bc26de2c6eae32f569f956",
+      "manifest_sha256": "794aaa23f1b200af623fb1caf2b0eee57d76190679799ddd39c3caf3bb132e58"
+    },
+    {
+      "archive": "final-addendum/missing-stage-primary-proof/evidence.zip",
+      "manifest": "final-addendum/missing-stage-primary-proof/manifest.json",
+      "layout": "embedded",
+      "verified_members": 24,
+      "archive_bytes": 6445219,
+      "archive_sha256": "0e94ef4588e8421508305a8405e1875d6b2dc842a65a79d0c1d71a9bba13675b",
+      "manifest_sha256": "ff93ee129d6a9c14bd9c3f124c552f834d080888c1b298eda2863ce6568783c1"
+    },
+    {
+      "archive": "final-addendum/retry-planning-and-authority/evidence.zip",
+      "manifest": "final-addendum/retry-planning-and-authority/manifest.json",
+      "layout": "embedded",
+      "verified_members": 42,
+      "archive_bytes": 5817535,
+      "archive_sha256": "988313dbe74b8c2fd45405244d96da01600274126e6bbbf15db3fca5e72b73f7",
+      "manifest_sha256": "5cceab71b431225241c6a9d81a7e8a21b91aa9aefe80f76b82d6f5e12063e46f"
+    },
+    {
+      "archive": "final-addendum/stream-profile-package/evidence.zip",
+      "manifest": "final-addendum/stream-profile-package/manifest.json",
+      "layout": "embedded",
+      "verified_members": 17,
+      "archive_bytes": 162588,
+      "archive_sha256": "c02275ef8c4d27f5bd8794b14f3285d7bad6b00b30ef14c64813372c25c4656d",
+      "manifest_sha256": "ce33069744016ff7ac7d5716702ee736254c457ede6f6cd8650a881c1efb2edb"
+    },
+    {
+      "archive": "final-addendum/rollout-point-in-time/evidence.zip",
+      "manifest": "final-addendum/rollout-point-in-time/manifest.json",
+      "layout": "embedded",
+      "verified_members": 12,
+      "archive_bytes": 16462,
+      "archive_sha256": "2f4e9e51e8bcfe48f7496dc33362342dcfa4947463292fd93c592582d9db13fe",
+      "manifest_sha256": "e7a8da4767e41250d7f9a6794aca53e60b521384038b45307bb33f020babba4f"
+    },
+    {
+      "archive": "final-addendum/commit-map-checkpoint/evidence.zip",
+      "manifest": "final-addendum/commit-map-checkpoint/manifest.json",
+      "layout": "embedded",
+      "verified_members": 3,
+      "archive_bytes": 30106,
+      "archive_sha256": "c0bf2e4576b5a9372a804ed85cc84b111de2c50ce1ef097e3204aacf8947a6f0",
+      "manifest_sha256": "9f9c29a2f41c1b0c45d25de0ff24f5688ee7ee8508f60e38b1cab5d5f15d1c65"
+    },
+    {
+      "archive": "final-addendum/post-cutoff-rollout-and-b-results/evidence.zip",
+      "manifest": "final-addendum/post-cutoff-rollout-and-b-results/manifest.json",
+      "layout": "embedded",
+      "verified_members": 28,
+      "archive_bytes": 7869818,
+      "archive_sha256": "06ad00d0e8410e85596532aedcd156368941be58a85ee315b5daa2dea0ab1d26",
+      "manifest_sha256": "d23b1f82fa3764799ac4a705a5a088942eb05b5b8e4583b72d6988efa9c6af97"
+    },
+    {
+      "archive": "final-addendum/preparation-provenance/evidence.zip",
+      "manifest": "final-addendum/preparation-provenance/manifest.json",
+      "layout": "embedded",
+      "verified_members": 6,
+      "archive_bytes": 34071,
+      "archive_sha256": "2748ce30dcd379ce70290cd043f39d3b2c87f89310116a033f8d57e57f782726",
+      "manifest_sha256": "4ca258a08a0bf8e093c29c93a2a6c9a4edf6b4378b0c097c6259ea00fb674540"
+    }
+  ],
+  "historical_canonical_copy_limit": "Only the exact ten documented copied evidence paths may use their recorded canonical LF bytes; original bytes remain verified in the opaque ZIP. Real test snapshots are unchanged."
+}

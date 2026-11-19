@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "group": "missing-stage-primary-proof",
+  "scope": "Exact VM 1515/job 33094275d983528c-c0003 service and kernel records prove a 6 GiB cgroup OOM, including the native PID and killed stop hook.",
+  "limits": [
+    "The original capture_validation_or_infrastructure_error and empty stages stay unchanged.",
+    "The precise allocation or serialization phase is not established.",
+    "Proof of resource termination does not prove a retry will pass."
+  ],
+  "inventory_sha256": "54b7de34aee6bbaa36cbcad6b7017bee1d8d1b30ad43fb7994c2e2b4b6c35ae6",
+  "inventory_cutoff": "2026-11-19T06:06:15.271639+00:00",
+  "packaged_at": "20261119T062444.886838Z",
+  "packaging_product_head": "81c18c105ad9e70e1d6d9a84c610e3a2de477899",
+  "packaging_fixture_head": "11f6edff529423df9ffef9458e93f7726183a646",
+  "candidate_context": "be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858",
+  "reference_only_files": [],
+  "files": [
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/analyze_retained_case.py",
+      "bytes": 5658,
+      "sha256": "89a94f5892b27a6837ce838ef787f07b1959cda57408eff5af07adece9af1772",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\analyze_retained_case.py"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/artifacts/515dec2edf7489ad963d6440465f7656f8b3e287b5ba00cf1627ccf0fcbe1ee1.tar.zst",
+      "bytes": 6370975,
+      "sha256": "515dec2edf7489ad963d6440465f7656f8b3e287b5ba00cf1627ccf0fcbe1ee1",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\artifacts\\515dec2edf7489ad963d6440465f7656f8b3e287b5ba00cf1627ccf0fcbe1ee1.tar.zst"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/artifacts/515dec2edf7489ad963d6440465f7656f8b3e287b5ba00cf1627ccf0fcbe1ee1.tar.zst.receipt.json",
+      "bytes": 887,
+      "sha256": "e5ad9cbaed60d3047d1a2ea397e316ddad8acc49c007b28592269f2915d3944b",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\artifacts\\515dec2edf7489ad963d6440465f7656f8b3e287b5ba00cf1627ccf0fcbe1ee1.tar.zst.receipt.json"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/capture-result.json",
+      "bytes": 5711,
+      "sha256": "d21a1ba39e9d4aec9d1af3a96b5dfc8b6bd8c02a6dd1cd2c5abe43bff37a9d32",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\capture-result.json"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/collection-summary.json",
+      "bytes": 3447,
+      "sha256": "0c54ef138eaaed2ffc27c134a19fdd8ee06b8d4985e78540d1b6ba777a07503f",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\collection-summary.json"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/collector.py",
+      "bytes": 9332,
+      "sha256": "3a55c762f28d86385c891553fcf2d99431d8d18f66c64a93e710d01b59bf6f04",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\collector.py"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/host-stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\host-stderr.log"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/kernel_journal_0.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\kernel_journal_0.stderr"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/kernel_journal_0.stdout",
+      "bytes": 61643,
+      "sha256": "7af10bba82b8bde4a1c2daff24e2f5e855b8d85cc977b04e3471961f7af4b386",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\kernel_journal_0.stdout"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/manifest.json",
+      "bytes": 4004,
+      "sha256": "4ff219174f38963af721bad867c4cccff12a6d4191349c479b8237ed4c9e7912",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\manifest.json"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/README.md",
+      "bytes": 2762,
+      "sha256": "183516836213beb1e2582b3fbfcfadaebbd31955df652955ad3ee3826fa9ccaa",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\README.md"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/remote-evidence.json.gz",
+      "bytes": 27252,
+      "sha256": "4ef3a2288d5f8ed1255960459de13a4d8121af884d859aa8100ae4653efb246f",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\remote-evidence.json.gz"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/selection.json",
+      "bytes": 6810,
+      "sha256": "fefb16cd75dc46785d344d3e899c5679a7bc467634e9be7f7aac0cefaf718610",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\selection.json"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/service_journal.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\service_journal.stderr"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/service_journal.stdout",
+      "bytes": 16380,
+      "sha256": "4936b89f776fc75d2ce49544c2c071c6465b59a4e44a809dfcd1224b3a05f202",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\service_journal.stdout"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/stages/capture/launch.json",
+      "bytes": 2131,
+      "sha256": "a130f286de6d74aec1f4fd6606a6dde57a424119dda4eccc0485399918b27f86",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\stages\\capture\\launch.json"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/stages/capture/output.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\stages\\capture\\output.log"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/stages/capture/spec.json",
+      "bytes": 3147,
+      "sha256": "d21749e88d540a9ba6948329ea9cd24cb3090096c08b31741e73fc6a05f89d65",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\stages\\capture\\spec.json"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/termination-proof.json",
+      "bytes": 62098,
+      "sha256": "3660e7201955c2ab94ddf99aa49e8206e29906f1b01d6a357fa5343f243fbd26",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\termination-proof.json"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/unit_properties.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\unit_properties.stderr"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/unit_properties.stdout",
+      "bytes": 305,
+      "sha256": "ab677267a015bd2f571ef80bb9961b432c37c925e17af18abe7ec6a74fb8186b",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\unit_properties.stdout"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/unit_status.stderr",
+      "bytes": 77,
+      "sha256": "7c1b54292624e7f3f0bc81d611732f9443fd87e70a77d56ab0924c734cf7d7f0",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\unit_status.stderr"
+    },
+    {
+      "path": "payload/missing-stage-33094275-evidence-20261119T054428.425746Z/unit_status.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\missing-stage-33094275-evidence-20261119T054428.425746Z\\unit_status.stdout"
+    }
+  ]
+}

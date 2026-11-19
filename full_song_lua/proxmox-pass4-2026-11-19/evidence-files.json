@@ -953,5 +953,165 @@
     "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/application.json",
     "bytes": 3275,
     "sha256": "55322a4d487999b5807643eae3adc50d871379d0666ac3c55cac0d63a92fe73b"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/candidate-b-build/candidate-evidence-manifest.json",
+    "bytes": 12246,
+    "sha256": "1f8fda0231ef122e5a036e3bbdf8b2f79505b5f8d9d14d0523cd55d9526dae68"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/candidate-b-build/candidate-evidence.zip",
+    "bytes": 3257888,
+    "sha256": "a31fad4a299caad236e9ed8daec09dc6301053544ebded1ef4ee10db61905c1e"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/candidate-b-build/provenance-manifest.json",
+    "bytes": 2708,
+    "sha256": "7b7c2373cc73d79d5b20c44b638b952843db67b7427e183dd68e5d3be4b84f6b"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/candidate-b-build/provenance.zip",
+    "bytes": 14582,
+    "sha256": "b8bc654e46e7dea68286513310a663561b94046e6a3f5895c35f024148557b47"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/circles-baseline-diagnosis/evidence.zip",
+    "bytes": 2687431,
+    "sha256": "23e0d513a47f2f7671de5916751a00e332245115d135bec91f70d4629e0c85e7"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/circles-baseline-diagnosis/manifest.json",
+    "bytes": 10244,
+    "sha256": "c4860385a3ee7dbdabb59a36eef7db1fba0453a962c8491e0ad230087e9b29ec"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/cold-b-native/evidence.zip",
+    "bytes": 2502384,
+    "sha256": "fce5738d63065cd70637da00ecc59225bd1f521f85895282c57248bacb723dc3"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/cold-b-native/manifest.json",
+    "bytes": 8481,
+    "sha256": "5a10c343c5dfea3b82e4b214b199a8880d9de13e64fb744b070f025bb3b159a1"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/commit-map-checkpoint/evidence.zip",
+    "bytes": 30106,
+    "sha256": "c0bf2e4576b5a9372a804ed85cc84b111de2c50ce1ef097e3204aacf8947a6f0"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/commit-map-checkpoint/manifest.json",
+    "bytes": 1739,
+    "sha256": "9f9c29a2f41c1b0c45d25de0ff24f5688ee7ee8508f60e38b1cab5d5f15d1c65"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/missing-stage-primary-proof/evidence.zip",
+    "bytes": 6445219,
+    "sha256": "0e94ef4588e8421508305a8405e1875d6b2dc842a65a79d0c1d71a9bba13675b"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/missing-stage-primary-proof/manifest.json",
+    "bytes": 10558,
+    "sha256": "ff93ee129d6a9c14bd9c3f124c552f834d080888c1b298eda2863ce6568783c1"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/package-index.json",
+    "bytes": 15798,
+    "sha256": "68e340b531fe26037331795ab916c719cce194512ef1d9c4a4e664bfa24f60fa"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/portable-evidence-original-bytes/evidence.zip",
+    "bytes": 198268,
+    "sha256": "42b777470b0be39339ac3a36f7e9abbce4b9c1aadd0f2ea2ab0b6b7118239cba"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/portable-evidence-original-bytes/manifest.json",
+    "bytes": 4186,
+    "sha256": "10963583ffc9fdded187c82f73f2c251ffa5b04d7f8afbfcd77bb95a9b238530"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/post-cutoff-rollout-and-b-results/evidence.zip",
+    "bytes": 7869818,
+    "sha256": "06ad00d0e8410e85596532aedcd156368941be58a85ee315b5daa2dea0ab1d26"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/post-cutoff-rollout-and-b-results/manifest.json",
+    "bytes": 13790,
+    "sha256": "d23b1f82fa3764799ac4a705a5a088942eb05b5b8e4583b72d6988efa9c6af97"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/preparation-provenance/evidence.zip",
+    "bytes": 34071,
+    "sha256": "2748ce30dcd379ce70290cd043f39d3b2c87f89310116a033f8d57e57f782726"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/preparation-provenance/manifest.json",
+    "bytes": 2523,
+    "sha256": "4ca258a08a0bf8e093c29c93a2a6c9a4edf6b4378b0c097c6259ea00fb674540"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/quarantine-one-attempt/evidence.zip",
+    "bytes": 246202,
+    "sha256": "2ab806add5b1d9e7fd2f56232e59c9c8e6a6dc7d21bc26de2c6eae32f569f956"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/quarantine-one-attempt/manifest.json",
+    "bytes": 3757,
+    "sha256": "794aaa23f1b200af623fb1caf2b0eee57d76190679799ddd39c3caf3bb132e58"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/README.md",
+    "bytes": 1385,
+    "sha256": "6b3007f9a81284949c00b4a3ef7e6328a7c004845030112a1c8869ac3a153476"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/retry-planning-and-authority/evidence.zip",
+    "bytes": 5817535,
+    "sha256": "988313dbe74b8c2fd45405244d96da01600274126e6bbbf15db3fca5e72b73f7"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/retry-planning-and-authority/manifest.json",
+    "bytes": 18301,
+    "sha256": "5cceab71b431225241c6a9d81a7e8a21b91aa9aefe80f76b82d6f5e12063e46f"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/rollout-point-in-time/evidence.zip",
+    "bytes": 16462,
+    "sha256": "2f4e9e51e8bcfe48f7496dc33362342dcfa4947463292fd93c592582d9db13fe"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/rollout-point-in-time/manifest.json",
+    "bytes": 4812,
+    "sha256": "e7a8da4767e41250d7f9a6794aca53e60b521384038b45307bb33f020babba4f"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/stream-b-native/evidence.zip",
+    "bytes": 1470231,
+    "sha256": "776409d485481951fc3692684d639deafe7dcc80bfa3b2944caeab0dd7d12768"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/stream-b-native/manifest.json",
+    "bytes": 22119,
+    "sha256": "934d0a71c53a18b992989ab1456a3697b75878a374c15a13f3cf1a5172cc735c"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/stream-profile-package/evidence.zip",
+    "bytes": 162588,
+    "sha256": "c02275ef8c4d27f5bd8794b14f3285d7bad6b00b30ef14c64813372c25c4656d"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/stream-profile-package/manifest.json",
+    "bytes": 7480,
+    "sha256": "ce33069744016ff7ac7d5716702ee736254c457ede6f6cd8650a881c1efb2edb"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/windows-portable-visuals/evidence.zip",
+    "bytes": 10560,
+    "sha256": "f4b1aea272daa88663d782470fa35d676281b27b06d842f309b7901320f96fb4"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/final-addendum/windows-portable-visuals/manifest.json",
+    "bytes": 6002,
+    "sha256": "c815ec13cfa8d24970e88ad6bcf3a32eff4e203437ed4b8e2c73331789696a54"
   }
 ]

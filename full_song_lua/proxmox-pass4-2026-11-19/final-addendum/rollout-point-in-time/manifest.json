@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "group": "rollout-point-in-time",
+  "scope": "Immutable local drain/install/queue receipts through this inventory's observed cutoff; successful installation and queue launch are distinct from completed fleet replays.",
+  "limits": [
+    "Later receipts must be appended as new immutable evidence.",
+    "A launch receipt is not a completed-job result; no full-corpus acceptance claim is made."
+  ],
+  "inventory_sha256": "54b7de34aee6bbaa36cbcad6b7017bee1d8d1b30ad43fb7994c2e2b4b6c35ae6",
+  "inventory_cutoff": "2026-11-19T06:06:15.271639+00:00",
+  "packaged_at": "20261119T062444.886838Z",
+  "packaging_product_head": "81c18c105ad9e70e1d6d9a84c610e3a2de477899",
+  "packaging_fixture_head": "11f6edff529423df9ffef9458e93f7726183a646",
+  "candidate_context": "be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858",
+  "reference_only_files": [],
+  "files": [
+    {
+      "path": "payload/drain-receipts/20261119T055304.465315Z-drain.json",
+      "bytes": 7394,
+      "sha256": "c858fae6d83b01322764e36d2020f2982e2639e64909a670b68208a85b3e5673",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\drain-receipts\\20261119T055304.465315Z-drain.json"
+    },
+    {
+      "path": "payload/drain-receipts/20261119T055351.962414Z-status.json",
+      "bytes": 9715,
+      "sha256": "0483ae5f4cd79e6bda0024866336465fbfdde48462edfaf51d79b851ae26a69d",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\drain-receipts\\20261119T055351.962414Z-status.json"
+    },
+    {
+      "path": "payload/drain-receipts/20261119T055644.789356Z-status.json",
+      "bytes": 5326,
+      "sha256": "e264061d2c06934d0ffce3a1ad33bfd880d2a0034827a9aae97cc684c54127c2",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\drain-receipts\\20261119T055644.789356Z-status.json"
+    },
+    {
+      "path": "payload/drain-receipts/20261119T055905.310045Z-status.json",
+      "bytes": 787,
+      "sha256": "be53a8d096f8075a1e05303f22bf3e5d7b8390c8db72b0e0709a78239333d553",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\drain-receipts\\20261119T055905.310045Z-status.json"
+    },
+    {
+      "path": "payload/rollout-progress/20261119T055752.840872Z.json",
+      "bytes": 40799,
+      "sha256": "8d27d48732638ecfc856bed4cf698f2128badd45c07c8047aec908393c0498f6",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\rollout-progress\\20261119T055752.840872Z.json"
+    },
+    {
+      "path": "payload/rollout-receipts/20261119T055258.949398Z-prepare.json",
+      "bytes": 499,
+      "sha256": "22cfc9e60acd32080b813a776cd6630f235ed8637a7bbd53cfcd09adade117b3",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\rollout-receipts\\20261119T055258.949398Z-prepare.json"
+    },
+    {
+      "path": "payload/rollout-receipts/20261119T055825.859097Z-install.json",
+      "bytes": 15188,
+      "sha256": "e96c28aafb76d99ead24bf6791232c11d1ea073e3798e1d46aabb3a3c6ee794c",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\rollout-receipts\\20261119T055825.859097Z-install.json"
+    },
+    {
+      "path": "payload/rollout-receipts/20261119T055928.144971Z-install.json",
+      "bytes": 4513,
+      "sha256": "f7705dfdeb49b0b3aaa5030d2b0a885dadf9cf2d16061e31833fc02e705e9be5",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\rollout-receipts\\20261119T055928.144971Z-install.json"
+    },
+    {
+      "path": "payload/rollout-receipts/20261119T060003.823887Z-queue.json",
+      "bytes": 11840,
+      "sha256": "d86ab12845182d002d055d876749bbbd749c380a740b772596bab75901a0843d",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\rollout-receipts\\20261119T060003.823887Z-queue.json"
+    },
+    {
+      "path": "payload/rollout-receipts/20261119T060348.533368Z-install.json",
+      "bytes": 2378,
+      "sha256": "d89ff1259b08ec93e59d7231c139c8de482236988210a69eacf028941dff8902",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\rollout-receipts\\20261119T060348.533368Z-install.json"
+    },
+    {
+      "path": "payload/rollout-receipts/20261119T060413.931941Z-queue.json",
+      "bytes": 1898,
+      "sha256": "3db6766e3e751d8c7d57068a05c1461983ffb612c88a6a89f1176de5edd098e6",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\rollout-receipts\\20261119T060413.931941Z-queue.json"
+    }
+  ]
+}

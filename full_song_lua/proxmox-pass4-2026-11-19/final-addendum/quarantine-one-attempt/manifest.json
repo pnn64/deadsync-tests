@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "authored-source-binding.json",
+      "bytes": 856,
+      "sha256": "07e974a4a26288043f901f705f353de9da18a9e106ed190ade8447486129d0c7"
+    },
+    {
+      "path": "diagnosis.json",
+      "bytes": 116568,
+      "sha256": "2b522ee70515f27c93254bee6a1c9bb07629f17dbc5382ff2d021e297310c137"
+    },
+    {
+      "path": "inspect_quarantine_diagnostics.py",
+      "bytes": 8180,
+      "sha256": "4e6c3aaaf4ac07571a9d6ec71768143bbddbaca8c989b69722d57d39bbc91a15"
+    },
+    {
+      "path": "inspection-receipt.json",
+      "bytes": 124779,
+      "sha256": "ba00302bce0ca8e83e33664fe71da4be508a3934b2921116e12f2e82b456bcec"
+    },
+    {
+      "path": "logs/info.txt",
+      "bytes": 54191,
+      "sha256": "a043bf01818da3f8170f817e5c5d298dfc5c2b611d75ec067cedc1c58343e0ad"
+    },
+    {
+      "path": "logs/log.txt",
+      "bytes": 305205,
+      "sha256": "de58cd7e8e4336a2e9e4d522f47323af5095ca40d3f36c90d4a20aae87db9aba"
+    },
+    {
+      "path": "logs/userlog.txt",
+      "bytes": 1574,
+      "sha256": "f45a419f5bfa2aeb085f260f1ce6462c173ab11454eb55647410813579406f61"
+    },
+    {
+      "path": "native-metadata.json",
+      "bytes": 59574,
+      "sha256": "80bc23dbdfe8677d9cc5086145e4cb52eb93f4cce6dc5f158577346d2d145a75"
+    },
+    {
+      "path": "original-capture-result.json",
+      "bytes": 7273,
+      "sha256": "97ca34bc929676875731e657a4407699184fce5555d1f76af9fbd4415442f887"
+    },
+    {
+      "path": "package_quarantine_diagnostics.py",
+      "bytes": 14628,
+      "sha256": "0194a4d7707a7c795a7249066b790e6eb1e2b78dde2675254eb02856e37783d2"
+    },
+    {
+      "path": "quarantine-diagnostics-selection.json.gz",
+      "bytes": 49386,
+      "sha256": "f613568b927e3eaefaf02ec5a9b10111f7fed77a5781abf59050276043dfc104"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3119,
+      "sha256": "c75fd29b8dda480311f0b31922bbb2d059dc49ae14cc71a1a5fc0da7e9e406a8"
+    },
+    {
+      "path": "remote.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "remote.stdout",
+      "bytes": 102845,
+      "sha256": "f512ddc04b33ba3998cd73fe7665dc1ab1966ab98df5e7fc7fe9589b0f6f68a8"
+    },
+    {
+      "path": "source/authored/multitap/Default.lua",
+      "bytes": 54796,
+      "sha256": "488e6fd77c30fd586f447a4156d5cdf39ea47586dd6e3e6a529db9c71e2ad4f2"
+    },
+    {
+      "path": "source/harness/native/interactive_trace.cpp",
+      "bytes": 32648,
+      "sha256": "c54a45ec44d9a15e28dd3ed2ec78c4592183e9561cad0fa37be0ee642def7027"
+    },
+    {
+      "path": "source/harness/native/trace_adapter.cmake",
+      "bytes": 24691,
+      "sha256": "5f8df52884e25910b65bd517851a6c49712e87372ba7a53c17fd62a312641544"
+    },
+    {
+      "path": "source/harness/probe_theme/SongLuaTrace.lua",
+      "bytes": 67973,
+      "sha256": "80e1985df68a142edac58f182e647f585d6d62a70bebf3cec4bccee847ea23f4"
+    },
+    {
+      "path": "source/harness/src/song_lua_runtime.rs",
+      "bytes": 204761,
+      "sha256": "8949a9103ca12584dd3a580abe90a799631ef2279c52acd1ac00d8307c21878f"
+    },
+    {
+      "path": "source/native/src/Actor.cpp",
+      "bytes": 75839,
+      "sha256": "c5991992c937e7be25147697a4116397743fae547a1046ba96bb28c83482c150"
+    },
+    {
+      "path": "source/native/src/LuaManager.cpp",
+      "bytes": 32808,
+      "sha256": "7c222e45f0b02bc3f30828aed5a682402297000e6d253652ff39504887e8158a"
+    },
+    {
+      "path": "source/worker.py",
+      "bytes": 45915,
+      "sha256": "9a5cdeef19a27baf02cede14a525d7acd2689c9b712d0df9d711e44e3e708230"
+    },
+    {
+      "path": "source-authority.json",
+      "bytes": 1924,
+      "sha256": "4ae4945aedbc4fc89e378ce82e094b3a7ef2b15079ed1fa616e74e06d3a3d264"
+    }
+  ]
+}

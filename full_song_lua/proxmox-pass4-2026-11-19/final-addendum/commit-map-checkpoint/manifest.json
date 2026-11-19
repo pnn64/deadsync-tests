@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "group": "commit-map-checkpoint",
+  "scope": "The exact 11 product commits map to eight runtime repairs, two comparison/acceptance changes and one portable-test change.",
+  "limits": [
+    "This historical checkpoint predates the later B and Circles evidence; append the new findings rather than rewriting the original checkpoint.",
+    "VANITY host branching, Door Open's unverified fade threshold explanation, Flowers' observed baseline mismatch and dance-solo replay support remain scoped open findings."
+  ],
+  "inventory_sha256": "54b7de34aee6bbaa36cbcad6b7017bee1d8d1b30ad43fb7994c2e2b4b6c35ae6",
+  "inventory_cutoff": "2026-11-19T06:06:15.271639+00:00",
+  "packaged_at": "20261119T062444.886838Z",
+  "packaging_product_head": "81c18c105ad9e70e1d6d9a84c610e3a2de477899",
+  "packaging_fixture_head": "11f6edff529423df9ffef9458e93f7726183a646",
+  "candidate_context": "be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858",
+  "reference_only_files": [],
+  "files": [
+    {
+      "path": "payload/product-gap-map-20261119T051339.516463Z/commit-gap-map.json",
+      "bytes": 165796,
+      "sha256": "3bdbb5183c33a79acb3f7395dfe2365e4fde4be66db7864d5471ccdf1f3942a5",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\product-gap-map-20261119T051339.516463Z\\commit-gap-map.json"
+    },
+    {
+      "path": "payload/product-gap-map-20261119T051339.516463Z/notes.md",
+      "bytes": 8814,
+      "sha256": "22955bf3a24dbb1c744e418b37f1da28cd2697c4dea76815553f27b1dc12ecc6",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\product-gap-map-20261119T051339.516463Z\\notes.md"
+    }
+  ]
+}

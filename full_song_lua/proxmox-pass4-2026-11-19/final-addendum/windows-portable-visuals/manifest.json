@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "group": "windows-portable-visuals",
+  "scope": "Final Windows diff-check and full live_visuals target passed 13/13; the source patch is bound by the subsequent portable-test commit receipt.",
+  "limits": [
+    "Tested source was 21f47c878 + d24da6c8 patch and fixtures 11f6edf; it must not be relabeled as a test run performed at a later commit.",
+    "Earlier complete Windows bitmap_text and live_gameplay gates are already published under font-file-alias."
+  ],
+  "inventory_sha256": "54b7de34aee6bbaa36cbcad6b7017bee1d8d1b30ad43fb7994c2e2b4b6c35ae6",
+  "inventory_cutoff": "2026-11-19T06:06:15.271639+00:00",
+  "packaged_at": "20261119T062444.886838Z",
+  "packaging_product_head": "81c18c105ad9e70e1d6d9a84c610e3a2de477899",
+  "packaging_fixture_head": "11f6edff529423df9ffef9458e93f7726183a646",
+  "candidate_context": "be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858",
+  "reference_only_files": [],
+  "files": [
+    {
+      "path": "payload/corpus-audit-history-controls-20261119T050153Z/diff-check-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T050153Z\\diff-check-after-fixtures.patch"
+    },
+    {
+      "path": "payload/corpus-audit-history-controls-20261119T050153Z/diff-check-after-source.patch",
+      "bytes": 1356,
+      "sha256": "d24da6c8ddc4edbb0d4ce7f9ddf1977197a4c6cd19c1e8d891314abb5e80ed8d",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T050153Z\\diff-check-after-source.patch"
+    },
+    {
+      "path": "payload/corpus-audit-history-controls-20261119T050153Z/diff-check-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T050153Z\\diff-check-before-fixtures.patch"
+    },
+    {
+      "path": "payload/corpus-audit-history-controls-20261119T050153Z/diff-check-before-source.patch",
+      "bytes": 1356,
+      "sha256": "d24da6c8ddc4edbb0d4ce7f9ddf1977197a4c6cd19c1e8d891314abb5e80ed8d",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T050153Z\\diff-check-before-source.patch"
+    },
+    {
+      "path": "payload/corpus-audit-history-controls-20261119T050153Z/diff-check.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T050153Z\\diff-check.log"
+    },
+    {
+      "path": "payload/corpus-audit-history-controls-20261119T050153Z/live-visuals-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T050153Z\\live-visuals-after-fixtures.patch"
+    },
+    {
+      "path": "payload/corpus-audit-history-controls-20261119T050153Z/live-visuals-after-source.patch",
+      "bytes": 1356,
+      "sha256": "d24da6c8ddc4edbb0d4ce7f9ddf1977197a4c6cd19c1e8d891314abb5e80ed8d",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T050153Z\\live-visuals-after-source.patch"
+    },
+    {
+      "path": "payload/corpus-audit-history-controls-20261119T050153Z/live-visuals-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T050153Z\\live-visuals-before-fixtures.patch"
+    },
+    {
+      "path": "payload/corpus-audit-history-controls-20261119T050153Z/live-visuals-before-source.patch",
+      "bytes": 1356,
+      "sha256": "d24da6c8ddc4edbb0d4ce7f9ddf1977197a4c6cd19c1e8d891314abb5e80ed8d",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T050153Z\\live-visuals-before-source.patch"
+    },
+    {
+      "path": "payload/corpus-audit-history-controls-20261119T050153Z/live-visuals.log",
+      "bytes": 1563,
+      "sha256": "def37be124ba56afa82f53f69b89be208f509fb443a3acc01efc1d2e0dc22e0c",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T050153Z\\live-visuals.log"
+    },
+    {
+      "path": "payload/corpus-audit-history-controls-20261119T050153Z/receipt.json",
+      "bytes": 4363,
+      "sha256": "5a1846ff840c6e095c334b6b245151836c5bcb84ec01b6eb52e485aefceb2db3",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T050153Z\\receipt.json"
+    },
+    {
+      "path": "payload/visual-registration-commit.json",
+      "bytes": 629,
+      "sha256": "54b387f76bd6da36daad93eebfbe6c91299b30a551b6905c1487564d4369a988",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\visual-registration-commit.json"
+    },
+    {
+      "path": "payload/commit_visual_registration_fix.py",
+      "bytes": 3150,
+      "sha256": "c19e3d68dd2f6df104fc539d3a70e287e3deffacb8edc59333b0c74931401bc2",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\commit_visual_registration_fix.py"
+    }
+  ]
+}

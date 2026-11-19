@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "group": "stream-profile-package",
+  "scope": "Root-authorized packaging retained the 409-file runtime closure in a 21,585,920-byte host bundle, with exact package and transport-review receipts.",
+  "limits": [
+    "This selection intentionally covers package-only evidence; later profile freeze/install/activation receipts require a separate status review.",
+    "The host bundle itself remains referenced by the retained package receipt."
+  ],
+  "inventory_sha256": "54b7de34aee6bbaa36cbcad6b7017bee1d8d1b30ad43fb7994c2e2b4b6c35ae6",
+  "inventory_cutoff": "2026-11-19T06:06:15.271639+00:00",
+  "packaged_at": "20261119T062444.886838Z",
+  "packaging_product_head": "81c18c105ad9e70e1d6d9a84c610e3a2de477899",
+  "packaging_fixture_head": "11f6edff529423df9ffef9458e93f7726183a646",
+  "candidate_context": "be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858",
+  "reference_only_files": [],
+  "files": [
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/invocation-plan.json",
+      "bytes": 3471,
+      "sha256": "39db12d9b581763a933fa17d86b45185cd341f3ef2ca54e539dc2f89ac5703d9",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\invocation-plan.json"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/package-request.json",
+      "bytes": 905,
+      "sha256": "de8891de7e13a5d0b1d21470f64325e5afcbd837cb1f5ea01d8cb6ba0cf4fca1",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\package-request.json"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/package-receipt.json",
+      "bytes": 328890,
+      "sha256": "e4b79e0c2acd1505c27958271d4dd4a44d9d58fe5278e0823f3d606271682bb7",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\package-receipt.json"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/package-execution-receipt.json",
+      "bytes": 1263,
+      "sha256": "36e998f2791d005b927c9a07a8361e0d4c935cf4c3c7eedd2caae143c890c749",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\package-execution-receipt.json"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/upload.stdout",
+      "bytes": 851,
+      "sha256": "9389814f2d2738ddf86e744b776c734f99bc086474e0571accebe25929a855e2",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\upload.stdout"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/upload.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\upload.stderr"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/package.stdout",
+      "bytes": 361,
+      "sha256": "943e2d880b1bc8edabf53660116019a3c7e993e8565faa4347694a7d39918d6f",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\package.stdout"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/package.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\package.stderr"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/host-package-only.py",
+      "bytes": 1530,
+      "sha256": "aee297940114d496c515a4c8b6948a0338f9b07d93ed075dbe93d7586d9e6142",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\host-package-only.py"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/host-stage.py",
+      "bytes": 200638,
+      "sha256": "1b49ccce3e71480231247929a1f6aa6171f5f04b14f14767ba6e01101918f9f0",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\host-stage.py"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/run-package-only.py",
+      "bytes": 3371,
+      "sha256": "45b19bc0a46a6bacd3f71732999e26146654e450c4502104f6063ebb5358f69d",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\run-package-only.py"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/read-package-receipt.py",
+      "bytes": 313,
+      "sha256": "8606154a3607353b571410d00872a389fce4be3132a250146b6d37be1cbfd500",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\read-package-receipt.py"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/read-package-receipt.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\read-package-receipt.stderr"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/stream_profile_transport_guest.py",
+      "bytes": 35171,
+      "sha256": "98cdb55324a1f09b43dbe0feb7499c302694fa0abb0d8d1ef22bc9b74a3edfbe",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\stream_profile_transport_guest.py"
+    },
+    {
+      "path": "payload/stream-profile-transport-prepared-20261119T055429.008253Z/stream_profile_transport_host.py",
+      "bytes": 19244,
+      "sha256": "4ba7baf11c7dfd63c1fd988c67f9a3dc0d41d62560961b9de3d26ab2e0ec7fe2",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-prepared-20261119T055429.008253Z\\stream_profile_transport_host.py"
+    },
+    {
+      "path": "payload/stream-profile-transport-independent-review-98cdb553.json",
+      "bytes": 3602,
+      "sha256": "a2331da62fb286fb7a8ede21799f93a6348f87096d1fdbef5f32e23768f3aeeb",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\stream-profile-transport-independent-review-98cdb553.json"
+    }
+  ]
+}

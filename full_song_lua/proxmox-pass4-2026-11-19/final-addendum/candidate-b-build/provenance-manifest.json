@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "group": "candidate-b-build",
+  "scope": "Exact Linux B build passed all 20 nonzero gates and built the final runner; all gate logs and source/fixture proofs are present.",
+  "limits": [
+    "A build/control pass does not prove the full 1,620-job fleet is complete.",
+    "The fixture payload and runner binaries remain referenced by hash, not duplicated in fixtures."
+  ],
+  "inventory_sha256": "54b7de34aee6bbaa36cbcad6b7017bee1d8d1b30ad43fb7994c2e2b4b6c35ae6",
+  "inventory_cutoff": "2026-11-19T06:06:15.271639+00:00",
+  "packaged_at": "20261119T062444.886838Z",
+  "packaging_product_head": "81c18c105ad9e70e1d6d9a84c610e3a2de477899",
+  "packaging_fixture_head": "11f6edff529423df9ffef9458e93f7726183a646",
+  "candidate_context": "be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858",
+  "reference_only_files": [],
+  "tested_b_pins": {
+    "runner_sha256": "90abd15f5e2f6e15a23b33faacc83ec81bde13a2f709f095576a10ce0c8405e4",
+    "build_proof_sha256": "610be24222fac61761ca70c5f18f986840ff971566d52417b9bde14726963d1e",
+    "source_proof_sha256": "18f5fe495952a649abaf758df3a20deb62abc8cf49411e1acc3de9affb03e717"
+  },
+  "files": [
+    {
+      "path": "payload/candidate-evidence/be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858/20261119T053854.154192Z/evidence-manifest.json",
+      "bytes": 38369,
+      "sha256": "f2b61db44e295f70fcddb2a8cb0fa14680d9077b8128282937aa2588f3d0c94f",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\candidate-evidence\\be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858\\20261119T053854.154192Z\\evidence-manifest.json"
+    },
+    {
+      "path": "payload/candidate-evidence/be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858/20261119T053854.154192Z/download-receipt.json",
+      "bytes": 21632,
+      "sha256": "135ade575dff53f2c6502afadcc984cfba1779721554887f90a9129734984a07",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\candidate-evidence\\be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858\\20261119T053854.154192Z\\download-receipt.json"
+    },
+    {
+      "path": "payload/candidate-evidence/be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858/20261119T053854.154192Z/summary.json",
+      "bytes": 18694,
+      "sha256": "b0e2413f6fa4bae1284dadfbc1e3e1c8907a5514463ae7625f02002edfc2abcc",
+      "original_source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\candidate-evidence\\be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858\\20261119T053854.154192Z\\summary.json"
+    }
+  ]
+}
