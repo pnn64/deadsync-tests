@@ -1,0 +1,16 @@
+{
+  "path": "/opt/song-lua-audit/pass4/controls/life-event-score/life-event-score-evidence.zip",
+  "bytes": 9143934,
+  "sha256": "67be0634645d5336761b1325aaa0b16351fa1cda843ce928e5beb0df23fa5bd6",
+  "manifest_sha256": "d4067051459c8e1e57f17ce7e93680e7fae5380f0d7d3ce32a4c6dd46e7fc1cf",
+  "files": 64,
+  "native_trace": {
+    "path": "/opt/song-lua-audit/pass4/controls/life-event-score/attempt-20261119T012450Z/native.json",
+    "bytes": 2139754,
+    "sha256": "e5c52b727279d45ccdaebea518f72eadcb40a92c4689b49fecf75f4cca5cefbf"
+  },
+  "native_frames": 1071,
+  "native_inputs": 36,
+  "local": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\life-event-score-evidence\\life-event-score-evidence.zip",
+  "verified_members": 64
+}

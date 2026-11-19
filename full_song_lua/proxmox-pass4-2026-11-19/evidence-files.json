@@ -98,5 +98,50 @@
     "path": "full_song_lua/proxmox-pass4-2026-11-19/intermediate-controls/manifest.json",
     "bytes": 5990,
     "sha256": "803fe34de153ef529cb5b375d8c347c9925e87b3e321e2afaa486b0eb03d4aab"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/native-life-score/life-event-score-evidence.zip",
+    "bytes": 9143934,
+    "sha256": "67be0634645d5336761b1325aaa0b16351fa1cda843ce928e5beb0df23fa5bd6"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/native-life-score/manifest.json",
+    "bytes": 21472,
+    "sha256": "d4067051459c8e1e57f17ce7e93680e7fae5380f0d7d3ce32a4c6dd46e7fc1cf"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/native-life-score/download-receipt.json",
+    "bytes": 771,
+    "sha256": "e462dcc8690efe92baa086573fac02e011992ff21ac4f2705813bb2a8dcf0f8a"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/native-life-score/scope.json",
+    "bytes": 1185,
+    "sha256": "2f49cd04b949f22d88da1d4b295978e47629fa0bab682089151e69c8bd7feb9d"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/life-callback-expectations/b3a128233dc92ef0.snap.before",
+    "bytes": 6126,
+    "sha256": "43dec67f41489c2a36b1f967cab6a3d45d6e9d54e2298046c214fce81a1b3cb0"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/life-callback-expectations/ecdc77760e108933.snap.before",
+    "bytes": 7153,
+    "sha256": "a91366c3b087c04a0fa9d606dc5e3214ea7968f0f19b44d5e5c96ac919a7b8e2"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/life-callback-expectations/fd5ff024f81a345f.snap.before",
+    "bytes": 1671,
+    "sha256": "2f68d89164b14415b0b7fe1dcd77a89d1aed9fb4e4b5348376bc49bd9557fece"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/life-callback-expectations/lf-receipt.json",
+    "bytes": 1328,
+    "sha256": "5a4fe8ea6e7221aa239697ac5dc4d93e3fadf17a7c304f9b434e2dad84188846"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/life-callback-expectations/receipt.json",
+    "bytes": 3189,
+    "sha256": "006030fa0dfc95a9036b2b5f5b274a63876f8ddcfd232d8cc6071f3c0179fc78"
   }
 ]

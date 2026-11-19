@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "scope": "Independent bounded native callback, history and weighted manual-score control",
+  "native_capture_passed": true,
+  "production_replay_passed": null,
+  "whole_song_parity_proven": false,
+  "completion": {
+    "reason": "beat-limit"
+  },
+  "pins": {
+    "harness": "9eb6619c0eaf9c3aceabf7348efbb06a7fd37273",
+    "native": "663525dcb86eb570d0ef6a2e209678436660ae26",
+    "theme": "1feda1fd43d96baca951351bb28a35d5e690ebc7"
+  },
+  "trace": {
+    "path": "/opt/song-lua-audit/pass4/controls/life-event-score/attempt-20261119T012450Z/native.json",
+    "bytes": 2139754,
+    "sha256": "e5c52b727279d45ccdaebea518f72eadcb40a92c4689b49fecf75f4cca5cefbf"
+  },
+  "native_frames": 1071,
+  "native_input_types": {
+    "InputEventType_FirstPress": 4,
+    "InputEventType_Release": 4,
+    "InputEventType_Repeat": 28
+  },
+  "gameplay_clock_reads": 832,
+  "scripted_life_boundaries_checked": 4,
+  "natural_life_events_checked": 9,
+  "weighted_score_cases_checked": 2,
+  "failed_exercises_retained": true,
+  "note": "Native LifeChanged exposes the changed meter before the new history sample; a zero meter does not commit failure until the later screen phase."
+}

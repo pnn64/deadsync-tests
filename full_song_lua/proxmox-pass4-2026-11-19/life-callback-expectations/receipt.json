@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "purpose": "Reviewed native callback phase and explicitly default metadata; no runtime snapshot capture",
+  "native_source_pin": "663525dcb86eb570d0ef6a2e209678436660ae26",
+  "native_trace_sha256": "e5c52b727279d45ccdaebea518f72eadcb40a92c4689b49fecf75f4cca5cefbf",
+  "reason": [
+    "Player.cpp1979-1992 records previous life, dispatches SetLife, then records new life.",
+    "A bad owned meter reference stops before broadcast and the second history sample; actual meter write still occurred.",
+    "Pair.publish uses default score/current_max_score=None, alive_seconds=0.0, and recorded_max_combo=0.",
+    "Only the two Lua source identities and newly serialized default metadata are updated; output values and writes are retained."
+  ],
+  "source_identities": {
+    "set_life_updates_shared_stats_and_notifies_before_side_effect": {
+      "before": [
+        1245,
+        5505339953682967818
+      ],
+      "after": [
+        1306,
+        14155553551538067681
+      ]
+    },
+    "errors_keep_native_partial_writes_and_clear_recursion_guard": {
+      "before": [
+        1307,
+        10836619759645388654
+      ],
+      "after": [
+        1309,
+        16608457147464932084
+      ]
+    }
+  },
+  "test_source_sha256": "b3a3c0c2ccdec2667fd1ebf6d5bfb541d33a147eea4cb5dfa3e15961528f1beb",
+  "files": [
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\tests\\fixtures\\regression-expectations\\deadsync-song-lua\\b3a128233dc92ef0.snap",
+      "before_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\life-callback-expectation-update\\b3a128233dc92ef0.snap.before",
+      "before_sha256": "43dec67f41489c2a36b1f967cab6a3d45d6e9d54e2298046c214fce81a1b3cb0",
+      "after_sha256": "3782acec9f55f12972468719ee4f6b3b0a39904c0d3b35140c9f7a7ecc92ed98",
+      "before_bytes": 6126,
+      "after_bytes": 6128,
+      "default_player_metadata_updates": 0
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\tests\\fixtures\\regression-expectations\\deadsync-song-lua\\ecdc77760e108933.snap",
+      "before_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\life-callback-expectation-update\\ecdc77760e108933.snap.before",
+      "before_sha256": "a91366c3b087c04a0fa9d606dc5e3214ea7968f0f19b44d5e5c96ac919a7b8e2",
+      "after_sha256": "67ff44f1be5854f8fb54d37250b2de8ce4b64005f9c01a8673931419ce0c446a",
+      "before_bytes": 7153,
+      "after_bytes": 8289,
+      "default_player_metadata_updates": 14
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\tests\\fixtures\\regression-expectations\\deadsync-song-lua\\fd5ff024f81a345f.snap",
+      "before_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\life-callback-expectation-update\\fd5ff024f81a345f.snap.before",
+      "before_sha256": "2f68d89164b14415b0b7fe1dcd77a89d1aed9fb4e4b5348376bc49bd9557fece",
+      "after_sha256": "1be53bc5fdcea73edec9cd9d7b349eaac72bfc46a6c00e99644d5a4c39a119ca",
+      "before_bytes": 1671,
+      "after_bytes": 1673,
+      "default_player_metadata_updates": 0
+    }
+  ]
+}

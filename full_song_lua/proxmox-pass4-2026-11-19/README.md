@@ -60,6 +60,17 @@ The baseline DeadSync runner SHA-256 is
 
 ## Intermediate repaired controls
 
+`native-life-score/` separately retains a clean bounded native control with
+1,071 frames, 832 raw timer reads, four manual presses and releases, and 28
+native repeat events. Its four scripted life boundaries and nine natural
+life notifications establish that LifeChanged sees the changed meter before
+the new life-history sample. The W1 and held-note cases independently confirm
+weighted scoring after a zero-life write, before the screen commits failure.
+The control has no dropped records or native script errors. It completes at
+beat 8, so this evidence does not establish full-song, pixel, or production
+replay parity. Earlier unsuccessful control exercises remain in the bundle,
+identified separately from the clean attempt.
+
 `intermediate-controls/` retains a tested source patch against DeadSync
 `2da5562bb050d155a90498fd075279a0249ae479`, exact command receipts and logs,
 and both complete reports from the new combined production/diagnostic archive

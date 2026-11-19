@@ -26,12 +26,17 @@ def verify():
         ("native-validation/validated-capture-evidence.zip", "native-validation/validated-manifest.json"),
         ("native-validation/clock-control-failed-exercise.zip", "native-validation/failed_exercise-manifest.json"),
         ("pipeline-baselines/life-pipeline-evidence.zip", "pipeline-baselines/manifest.json"),
+        ("native-life-score/life-event-score-evidence.zip", "native-life-score/manifest.json"),
     ]
     counts = {}
     for archive_name, manifest_name in bundles:
         manifest_bytes = (ROOT / manifest_name).read_bytes()
         manifest = json.loads(manifest_bytes)
         members = manifest["files"]
+        if isinstance(members, list):
+            indexed = {item["path"]: item for item in members}
+            assert len(indexed) == len(members), "duplicate manifest members"
+            members = indexed
         with zipfile.ZipFile(ROOT / archive_name) as archive:
             names = archive.namelist()
             assert len(names) == len(set(names)), "duplicate ZIP members"

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "prior_receipt_sha256": "006030fa0dfc95a9036b2b5f5b274a63876f8ddcfd232d8cc6071f3c0179fc78",
+  "reason": "Changed literal snapshots use LF; expected lines and all scalar values are unchanged.",
+  "files": [
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\tests\\fixtures\\regression-expectations\\deadsync-song-lua\\b3a128233dc92ef0.snap",
+      "before_sha256": "3782acec9f55f12972468719ee4f6b3b0a39904c0d3b35140c9f7a7ecc92ed98",
+      "after_sha256": "e7880df025f1e72dad7eb8bc5c7093a1742b70003ed7a39429550c29ad213c8c",
+      "bytes": 6096
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\tests\\fixtures\\regression-expectations\\deadsync-song-lua\\ecdc77760e108933.snap",
+      "before_sha256": "67ff44f1be5854f8fb54d37250b2de8ce4b64005f9c01a8673931419ce0c446a",
+      "after_sha256": "69c8fc5f533aa04bab1a694ebeffdaa86505b51245ad08bc2c34eb02219235bc",
+      "bytes": 8257
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\tests\\fixtures\\regression-expectations\\deadsync-song-lua\\fd5ff024f81a345f.snap",
+      "before_sha256": "1be53bc5fdcea73edec9cd9d7b349eaac72bfc46a6c00e99644d5a4c39a119ca",
+      "after_sha256": "99ae307107f82418f4c6ffeaf7904ae673e5ad0fcfc5d23f34bba0deee495fbe",
+      "bytes": 1641
+    }
+  ]
+}
