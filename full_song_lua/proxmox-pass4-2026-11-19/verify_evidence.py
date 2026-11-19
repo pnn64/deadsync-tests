@@ -27,6 +27,8 @@ def verify():
         ("native-validation/clock-control-failed-exercise.zip", "native-validation/failed_exercise-manifest.json"),
         ("pipeline-baselines/life-pipeline-evidence.zip", "pipeline-baselines/manifest.json"),
         ("native-life-score/life-event-score-evidence.zip", "native-life-score/manifest.json"),
+        ("native-life-score-glx/life-event-score-glx-evidence.zip", "native-life-score-glx/manifest.json"),
+        ("repaired-native-controls/replay-evidence.zip", "repaired-native-controls/manifest.json"),
     ]
     counts = {}
     for archive_name, manifest_name in bundles:

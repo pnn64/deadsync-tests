@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "purpose": "Complete rendered bounded capture; P2 Held evidence; P1 W1 exercise not reached",
+  "capture_completed": true,
+  "requested_exercise_passed": false,
+  "exercise_error": "('before:P1-W1-row', 0)",
+  "complete_final_update": true,
+  "last_update_frame": {
+    "arrow_clock_inputs": {
+      "players": [
+        [],
+        []
+      ],
+      "update_seconds": 17.142731
+    },
+    "beat": 8.0305814743042,
+    "delta": 0.3565309941768646,
+    "gameplay_clock_inputs": {
+      "delta_seconds": 0.3575110137462616,
+      "music_rate": 1,
+      "native_update_frame": 116,
+      "native_update_sequence": 118,
+      "phase": "after-gameplay-actors",
+      "scene": 1,
+      "steps_time_active": false
+    },
+    "native_update_frame": 116,
+    "native_update_sequence": 118,
+    "option_deltas": {
+      "players": [
+        0.35654398798942566,
+        0.3565419912338257
+      ],
+      "song": 0.35654398798942566
+    },
+    "sample_origin": "overlay-probe",
+    "scene": 1,
+    "seconds": 4.032290458679199,
+    "sequence": 116,
+    "song_beat": 8.0305814743042,
+    "visible_beat": 8.0305814743042,
+    "visible_seconds": 4.032290458679199,
+    "wall_seconds": 17.142069
+  },
+  "last_drawable_frame": {
+    "render_random_inputs": 0,
+    "samples": 673,
+    "scene": 1,
+    "update_sequence": 116
+  },
+  "attempt": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z",
+  "files": [
+    {
+      "path": "bounded-glx/build-proof.json",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/build-proof.json",
+      "sha256": "a48e3be76743ddd2a93b6d1379eb350994c76418214be430d88cf3ea2df5b4f2",
+      "bytes": 3124
+    },
+    {
+      "path": "bounded-glx/capture-binaries.json",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/capture-binaries.json",
+      "sha256": "477ee752cfb6b90167313e689466c2bfe885cdd15301f336e321d9e37a7578c5",
+      "bytes": 1714
+    },
+    {
+      "path": "bounded-glx/capture.log",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/capture.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "bounded-glx/capture_control.py",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/capture_control.py",
+      "sha256": "48740e4565a77b000e1fe62bd80c92f103ceecc4d0830465e17a6b58103de1b1",
+      "bytes": 10308
+    },
+    {
+      "path": "bounded-glx/control.lua.diff",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/control.lua.diff",
+      "sha256": "d470415a42f12fda8d3e492330d70d6aaf14f3a7045070d354b00441f1de8a80",
+      "bytes": 481
+    },
+    {
+      "path": "bounded-glx/derivation.json",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/derivation.json",
+      "sha256": "ed3da794f743370e9e5e30d07ab2fa37ab7bcd23fa5fe8072748bfc99d8bf34d",
+      "bytes": 1378
+    },
+    {
+      "path": "bounded-glx/fixture/control.lua",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/fixture/control.lua",
+      "sha256": "ac67724b14ff44cd33d2d82b36b1261254ad63677a4c02ccd27493a217304e13",
+      "bytes": 6628
+    },
+    {
+      "path": "bounded-glx/fixture/control.ssc",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/fixture/control.ssc",
+      "sha256": "8ed6459db2262bae99f4462cfe597a25ee77a18f2d5105f27eab5962daf85bfc",
+      "bytes": 392
+    },
+    {
+      "path": "bounded-glx/fixture/input-script.json",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/fixture/input-script.json",
+      "sha256": "7220a08c5e73eebbabf7d9cf14b920034e541f2fa134f00193bc71233baea1d2",
+      "bytes": 645
+    },
+    {
+      "path": "bounded-glx/fixture/music.wav",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/fixture/music.wav",
+      "sha256": "bff9ae2d1c0defb0f2b9070f43439fcb723621dbeb1cca5e2dbadcd9bfb13c68",
+      "bytes": 64044
+    },
+    {
+      "path": "bounded-glx/native.json",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/native.json",
+      "sha256": "00b8b029335de11264806ad163517b032324240ffa2eaff172651190017d5e85",
+      "bytes": 62918771
+    },
+    {
+      "path": "bounded-glx/observations.json",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/observations.json",
+      "sha256": "9e3bfd5f5c75468ffba188f9d091d3420edb4eaffe50e3f9310ca486bb06d87b",
+      "bytes": 13826
+    },
+    {
+      "path": "bounded-glx/receipt.json",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/receipt.json",
+      "sha256": "74a961efcdd29ea83e0a03a6ce720f1eb6e28e8563bc84c5e55ee54521e643ff",
+      "bytes": 6090
+    },
+    {
+      "path": "bounded-glx/source-proof.json",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/attempt-20261119T023502Z/source-proof.json",
+      "sha256": "a01d65ab3cbf5a78f24903ca47805a9af28928c4a574ac880fd04bbf0da84ed8",
+      "bytes": 1955844
+    },
+    {
+      "path": "unit.log",
+      "source_path": "/opt/song-lua-audit/pass4/controls/life-event-score-glx/unit.log",
+      "sha256": "76ace43d676142271109de6e9910ce1f3faedb1ba839400fed0aabd3b9c95098",
+      "bytes": 168
+    }
+  ]
+}

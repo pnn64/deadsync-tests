@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "source_head": "45da6736ad118301055d1a3b2031ae35dd4d47b4",
+  "full_index_patch_sha256": "ea3359c7722c1b37211c2c2a8ab8fffc7f9c1e8dd76ce53203f30d90b79816e0",
+  "native_revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+  "harness_revision": "9eb6619c0eaf9c3aceabf7348efbb06a7fd37273",
+  "complete_glx_life_control": {
+    "frames_each_path": 116,
+    "stage_fields_each_path": 731,
+    "errors": 0,
+    "mismatches": 0,
+    "complete_final_update": true,
+    "held_note_dance_points_callback_observed": true,
+    "intended_w1_exercise_observed": false,
+    "capture_bounded_at_beat": 8,
+    "archive_accepted": false
+  },
+  "original_null_counterevidence": {
+    "frames_each_path": 1071,
+    "stage_fields_each_path": 3164,
+    "mismatches": 0,
+    "errors_each_path": 1,
+    "archive_accepted": false,
+    "error": "The retained final update lacks a complete raw timer/input phase; it remains rejected.",
+    "w1_score_and_dance_points_before_partial_tail_match": true
+  },
+  "say_something": {
+    "frames_each_path": 1865,
+    "combined_stage_fields": 25138,
+    "errors": 0,
+    "mismatches": 0,
+    "implemented_combined_checks_passed": true
+  },
+  "retained_unresolved_cases": {
+    "MODULO": "scene reload timing and committed-stage counter boundary",
+    "VANITY ANGEL": "native drawable def-0010 lacks an independently identified owned visual slot",
+    "Cold": "default sprite sheet frame width rounds differently; this receipt predates that correction"
+  },
+  "application_build_exercised": false,
+  "whole_song_parity_proven": false,
+  "pixel_parity_proven": false,
+  "fleet_completion_claimed": false,
+  "native_inputs_modified": false
+}

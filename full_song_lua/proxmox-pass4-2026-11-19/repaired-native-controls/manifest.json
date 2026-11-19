@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "schema_version": 1,
+    "source_head": "45da6736ad118301055d1a3b2031ae35dd4d47b4",
+    "full_index_patch_sha256": "ea3359c7722c1b37211c2c2a8ab8fffc7f9c1e8dd76ce53203f30d90b79816e0",
+    "native_revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+    "harness_revision": "9eb6619c0eaf9c3aceabf7348efbb06a7fd37273",
+    "complete_glx_life_control": {
+      "frames_each_path": 116,
+      "stage_fields_each_path": 731,
+      "errors": 0,
+      "mismatches": 0,
+      "complete_final_update": true,
+      "held_note_dance_points_callback_observed": true,
+      "intended_w1_exercise_observed": false,
+      "capture_bounded_at_beat": 8,
+      "archive_accepted": false
+    },
+    "original_null_counterevidence": {
+      "frames_each_path": 1071,
+      "stage_fields_each_path": 3164,
+      "mismatches": 0,
+      "errors_each_path": 1,
+      "archive_accepted": false,
+      "error": "The retained final update lacks a complete raw timer/input phase; it remains rejected.",
+      "w1_score_and_dance_points_before_partial_tail_match": true
+    },
+    "say_something": {
+      "frames_each_path": 1865,
+      "combined_stage_fields": 25138,
+      "errors": 0,
+      "mismatches": 0,
+      "implemented_combined_checks_passed": true
+    },
+    "retained_unresolved_cases": {
+      "MODULO": "scene reload timing and committed-stage counter boundary",
+      "VANITY ANGEL": "native drawable def-0010 lacks an independently identified owned visual slot",
+      "Cold": "default sprite sheet frame width rounds differently; this receipt predates that correction"
+    },
+    "application_build_exercised": false,
+    "whole_song_parity_proven": false,
+    "pixel_parity_proven": false,
+    "fleet_completion_claimed": false,
+    "native_inputs_modified": false
+  },
+  "files": [
+    {
+      "path": "authority-and-recipe/actor-crop-native-authority.json",
+      "bytes": 52162,
+      "sha256": "481d1a07f232319611614798d37182f9cdef57825537ec6d7341586d3082b817"
+    },
+    {
+      "path": "authority-and-recipe/dance-points-callback-authority.json",
+      "bytes": 2576,
+      "sha256": "bbba0ae0b091f87f5a86fd735d33e82b576015e01fa46d2fdfd56252ad683bb5"
+    },
+    {
+      "path": "authority-and-recipe/retain_repaired_native_controls.py",
+      "bytes": 8231,
+      "sha256": "f2c45c90e0b22d824b1083ed39f3fb2697b3bd38dc1057e67e3f35351334f177"
+    },
+    {
+      "path": "authority-and-recipe/vtubers-song-end-authority.json",
+      "bytes": 7194,
+      "sha256": "eb3c930f1a12e9d153d2e2633351621b858c2467b900d8b0a9b3439904637187"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/666-report.json",
+      "bytes": 11125487,
+      "sha256": "17559e882dbc6ac63aa3d1a3fa30d1eac7386f764754d851baf5a08c5d55d760"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/666-source.patch",
+      "bytes": 183750,
+      "sha256": "24fd67131d3a84520673e2945fdeeab3b483838b99bf8535b3df84e6bd2f7a28"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/666.log",
+      "bytes": 3092,
+      "sha256": "8c518c082d605f26f50d89a30fcd786869b48b4eb14ef4e6fbf5de1e6cc8b4a1"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/chewingood-report.json",
+      "bytes": 38274827,
+      "sha256": "79239370a46ccbb3d3286d26b71b12e78122eeb88f1a3ed3881a422d107aa1de"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/chewingood-source.patch",
+      "bytes": 183750,
+      "sha256": "24fd67131d3a84520673e2945fdeeab3b483838b99bf8535b3df84e6bd2f7a28"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/chewingood.log",
+      "bytes": 3639,
+      "sha256": "9f214c3c1ca3efa3daeb2d557e14a3cd48b95f5849420f1017ae1c7917179535"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/clock-report.json",
+      "bytes": 2061,
+      "sha256": "9cd1e53fd7d5efb74dce8de1000f4d54efb426f52d7b938f838401c6aef97019"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/clock-source.patch",
+      "bytes": 183750,
+      "sha256": "24fd67131d3a84520673e2945fdeeab3b483838b99bf8535b3df84e6bd2f7a28"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/clock.log",
+      "bytes": 382,
+      "sha256": "addd1f054c1447e3bc6dc6b0079c48ebb7dc0ed0060bd57a01cb5e28d21ea00b"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/life-diagnostic-report.json",
+      "bytes": 193751,
+      "sha256": "d22dd6ab884232344b8b1ee5fb52363d36fffeb963a4a7e31ea83be3b87ddeb1"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/life-diagnostic-source.patch",
+      "bytes": 183750,
+      "sha256": "24fd67131d3a84520673e2945fdeeab3b483838b99bf8535b3df84e6bd2f7a28"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/life-diagnostic.log",
+      "bytes": 1073,
+      "sha256": "a924cd0f8088d4b78d907516e366c3e361034418a1a38516f6819bcda12dbbc6"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/life-report.json",
+      "bytes": 2447,
+      "sha256": "8ddc6e943403ca41b8ff72131f1aca5844d62090ccf723446722bdb73daada9d"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/life-source.patch",
+      "bytes": 183750,
+      "sha256": "24fd67131d3a84520673e2945fdeeab3b483838b99bf8535b3df84e6bd2f7a28"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/life.log",
+      "bytes": 987,
+      "sha256": "ebf3302f984d60af849d120ea54b9dab43f8509f5e9e7b3c448ba6303790c1df"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/receipt.json",
+      "bytes": 79392,
+      "sha256": "6ced7b463c0110c5d6eaf56ecfaee6b9cadd4531c64e12e79ccc03951ed706b9"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/say-something-report.json",
+      "bytes": 2711496,
+      "sha256": "dbc55341e671c775b092756124ceca3b1aefc19dc2dc99c20157a8d2a84fed0b"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/say-something-source.patch",
+      "bytes": 183750,
+      "sha256": "24fd67131d3a84520673e2945fdeeab3b483838b99bf8535b3df84e6bd2f7a28"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/say-something.log",
+      "bytes": 17886,
+      "sha256": "2f29d355a177744894133fe7b18ee0d1855aa45c2f4e31a5a72d46d155ac6633"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/vtubers-report.json",
+      "bytes": 245164,
+      "sha256": "981ac94a37292519ed38a737c958b43a5d4655ca785d5602831e47cd8531de91"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/vtubers-source.patch",
+      "bytes": 183750,
+      "sha256": "24fd67131d3a84520673e2945fdeeab3b483838b99bf8535b3df84e6bd2f7a28"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T022511Z/vtubers.log",
+      "bytes": 2674,
+      "sha256": "3af30cc4bce86527204f7f06a7b2d212ed7dbbe2e2d96b295dbc229c1ccde986"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/cold-report.json",
+      "bytes": 62293078,
+      "sha256": "60a96bc062267c7e570ae44e22b57665a16a3737a98830b900a8799c02ad1e5d"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/cold-source.patch",
+      "bytes": 203678,
+      "sha256": "ea3359c7722c1b37211c2c2a8ab8fffc7f9c1e8dd76ce53203f30d90b79816e0"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/cold.log",
+      "bytes": 27829,
+      "sha256": "e91c06637cc4842c065f54692a120e6f56f14ec00a35024ea9676966d4269ae0"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/life-glx-diagnostic-report.json",
+      "bytes": 177354,
+      "sha256": "1e18af79ba21c9935a7484842f0f8339ab801909ec24a40e8900d805cae47b96"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/life-glx-diagnostic-source.patch",
+      "bytes": 203678,
+      "sha256": "ea3359c7722c1b37211c2c2a8ab8fffc7f9c1e8dd76ce53203f30d90b79816e0"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/life-glx-diagnostic.log",
+      "bytes": 369,
+      "sha256": "9e4c2544a87bb4c0f5286e3a8d727a85a18d24d6bf0fa9e7bd35cb213102e2cd"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/life-glx-report.json",
+      "bytes": 2088,
+      "sha256": "87cf67962925330d82a9629052a8f6bc7c42de61110b8b23afeed810037ddd1e"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/life-glx-source.patch",
+      "bytes": 203678,
+      "sha256": "ea3359c7722c1b37211c2c2a8ab8fffc7f9c1e8dd76ce53203f30d90b79816e0"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/life-glx.log",
+      "bytes": 352,
+      "sha256": "cb63573d97c9b17224f363526f1b817471b1c881221a038d76373da3e4ba3355"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/modulo-report.json",
+      "bytes": 8293693,
+      "sha256": "36cd1d6fb8924f612f5b99e42deead5d0343aa1f4517917c3eb02ac3fe47d31b"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/modulo-source.patch",
+      "bytes": 203678,
+      "sha256": "ea3359c7722c1b37211c2c2a8ab8fffc7f9c1e8dd76ce53203f30d90b79816e0"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/modulo.log",
+      "bytes": 4786,
+      "sha256": "7742e78c0b139a1de6b23015e5d4611dac273e36f43da8931bc1f3cb3ddb112e"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/receipt.json",
+      "bytes": 85611,
+      "sha256": "f871ecd44df540bce1f0a6ce09fecd1457c70d7772f8bf45312aba561b754e8c"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/say-something-report.json",
+      "bytes": 2438581,
+      "sha256": "5afaeaf176e330f73022eb6936792574c4d6710ae04d100d8d4f1e22b9e79856"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/say-something-source.patch",
+      "bytes": 203678,
+      "sha256": "ea3359c7722c1b37211c2c2a8ab8fffc7f9c1e8dd76ce53203f30d90b79816e0"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/say-something.log",
+      "bytes": 2733,
+      "sha256": "771c648c6b6ac74003b5d36a99df43cedcbf68a24d38a6001de7142ea77fe819"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/vanity-source.patch",
+      "bytes": 203678,
+      "sha256": "ea3359c7722c1b37211c2c2a8ab8fffc7f9c1e8dd76ce53203f30d90b79816e0"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025321Z/vanity.log",
+      "bytes": 1224,
+      "sha256": "d4c07467fe892581f42783a072c32641a40f1165e441756578d2bf52f6fb4b03"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025916Z/life-diagnostic-report.json",
+      "bytes": 193582,
+      "sha256": "334ff2560399e664910adc5b55a8847b491bb81f7c8a1151092bd2c09a8b6970"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025916Z/life-diagnostic-source.patch",
+      "bytes": 203678,
+      "sha256": "ea3359c7722c1b37211c2c2a8ab8fffc7f9c1e8dd76ce53203f30d90b79816e0"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025916Z/life-diagnostic.log",
+      "bytes": 1073,
+      "sha256": "c34a075e5201dbe00a9c5dcad07fa801ad69b9d54003ee83423704a0d0fc1290"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025916Z/life-report.json",
+      "bytes": 2278,
+      "sha256": "d977e4e243bf81ab96eb9b3dc9997fc388a8fe861e6e9daf07aa67faed657b00"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025916Z/life-source.patch",
+      "bytes": 203678,
+      "sha256": "ea3359c7722c1b37211c2c2a8ab8fffc7f9c1e8dd76ce53203f30d90b79816e0"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025916Z/life.log",
+      "bytes": 987,
+      "sha256": "45fafa79deca6e733533af1c68a097b5b1b60152013aee43d4c24cb5daeb59b0"
+    },
+    {
+      "path": "corpus-audit-native-controls-20261119T025916Z/receipt.json",
+      "bytes": 21288,
+      "sha256": "b392b39e0a2f0703da4eff771696e439c6602227df81d92757a6ee24d94f59db"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/actor-methods-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/actor-methods-after-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/actor-methods-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/actor-methods-before-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/actor-methods.log",
+      "bytes": 1695,
+      "sha256": "6c0f63cc9f3539a3faf11a95d6d46274e2a7ff5199fac2de0bfad2a635af478d"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/core-dance-progress-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/core-dance-progress-after-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/core-dance-progress-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/core-dance-progress-before-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/core-dance-progress.log",
+      "bytes": 484,
+      "sha256": "56b133ab87bab080153d073bd16401247ef5918ea2e2b8a951a89e7212fab1f5"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/core-immediate-continue-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/core-immediate-continue-after-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/core-immediate-continue-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/core-immediate-continue-before-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/core-immediate-continue.log",
+      "bytes": 501,
+      "sha256": "a19cb61568c935821b1784520791d65874d46cc762c034393578fc5b732072d2"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/diff-check-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/diff-check-after-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/diff-check-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/diff-check-before-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/diff-check.log",
+      "bytes": 271,
+      "sha256": "24186c17f161ff15295e179978e052021962c58e811ca505c4bff12107ecc6c6"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/live-gameplay-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/live-gameplay-after-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/live-gameplay-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/live-gameplay-before-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/live-gameplay.log",
+      "bytes": 1806,
+      "sha256": "eb68880ecbfd480fb88ebb66279e4fc5bf3017d79afd5b29a28ade5cb8cd8cbe"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/live-visuals-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/live-visuals-after-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/live-visuals-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/live-visuals-before-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/live-visuals.log",
+      "bytes": 2222,
+      "sha256": "379f2e3e0f7c17fd3b2b07ac9ff11482ec477b3b6b433885bbb774fa7ff72b4c"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/masked-render-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/masked-render-after-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/masked-render-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/masked-render-before-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/masked-render.log",
+      "bytes": 13787,
+      "sha256": "2e2ecdc656184d7bbf72bc3fae966ba3e408ab98f3087ed1baf1946cb225ba14"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-draw-batches-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-draw-batches-after-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-draw-batches-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-draw-batches-before-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-draw-batches.log",
+      "bytes": 457,
+      "sha256": "277b92ca951090e0e88e3f7013461ca015f4aeeea312977723af575cd86d8adf"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-random-boundaries-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-random-boundaries-after-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-random-boundaries-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-random-boundaries-before-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-random-boundaries.log",
+      "bytes": 2781,
+      "sha256": "7e3ebca0ec41db6dfb54264abe670ac181d24295b6b9112dc69adb561c1a2862"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-sprite-batches-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-sprite-batches-after-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-sprite-batches-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-sprite-batches-before-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/native-sprite-batches.log",
+      "bytes": 462,
+      "sha256": "15f7d3b70b0f27ce00f879fedc991d032bf36bd28b5df2c89c702fec4aae77fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/receipt.json",
+      "bytes": 26757,
+      "sha256": "07247e4b444ffebbc85f0ec023e2f29364211cadc634acae7e08da41774ef485"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/sprites-after-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/sprites-after-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/sprites-before-fixtures.patch",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/sprites-before-source.patch",
+      "bytes": 210267,
+      "sha256": "7b029932122cda0e7e67df4f2987c29b07702ed984902cff3abbaaefe66177fa"
+    },
+    {
+      "path": "corpus-audit-shared-controls-20261119T023752Z/sprites.log",
+      "bytes": 1030,
+      "sha256": "1a82a14fb67ff2caad416636e25b8dcdfa2cc39c158aa09d68d5a8b5aa87e731"
+    }
+  ]
+}

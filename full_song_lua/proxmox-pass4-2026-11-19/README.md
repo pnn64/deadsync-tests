@@ -60,16 +60,42 @@ The baseline DeadSync runner SHA-256 is
 
 ## Intermediate repaired controls
 
-`native-life-score/` separately retains a clean bounded native control with
+`native-life-score/` separately retains the original bounded native control with
 1,071 frames, 832 raw timer reads, four manual presses and releases, and 28
 native repeat events. Its four scripted life boundaries and nine natural
 life notifications establish that LifeChanged sees the changed meter before
 the new life-history sample. The W1 and held-note cases independently confirm
 weighted scoring after a zero-life write, before the screen commits failure.
-The control has no dropped records or native script errors. It completes at
-beat 8, so this evidence does not establish full-song, pixel, or production
-replay parity. Earlier unsuccessful control exercises remain in the bundle,
-identified separately from the clean attempt.
+The control has no dropped records or native script errors. Later strict replay
+identified an incomplete raw timer/input phase in its final update, 1,071. That
+update remains in the original trace and is rejected. All 3,164 compared stage
+fields in each replay path now match, including the W1 observations before the
+partial tail; the one final timer error prevents acceptance. Earlier
+unsuccessful control exercises remain in the bundle. Its historical capture
+receipt predates this stricter replay diagnosis.
+
+`native-life-score-glx/` retains a second, complete rendered bounded capture and
+its exact inputs, source/build identities, and member hashes. Its final update
+has the raw timer and input phase followed by a draw boundary. Both production
+and diagnostic paths replay all 116 frames and compare 731 stage fields with
+zero errors or mismatches. The held-note callback observes the native five-point
+increase before LifeChanged. The intended P1 W1 exercise was not reached in this
+capture; its failed exercise check remains explicit in the manifest. The older
+control supplies that W1 observation. Neither bounded capture establishes
+full-song, pixel, or application-build parity.
+
+`repaired-native-controls/` retains the complete successful and failed reports,
+commands, logs, source patches, and native authority records for the next set of
+repairs. The frozen source was `45da6736ad118301055d1a3b2031ae35dd4d47b4` plus
+the full-index patch whose SHA-256 is
+`ea3359c7722c1b37211c2c2a8ab8fffc7f9c1e8dd76ce53203f30d90b79816e0`.
+The complete Say something comparison passes both paths over 1,865 frames and
+25,138 combined stage fields. Separate fade submissions are matched only within
+one native actor draw, with ordered geometry submission identities. The same
+bundle preserves the unresolved MODULO reload/counter, VANITY ANGEL visual
+binding, and Cold sprite-size reports at that source revision. Later fixes need
+their own receipts. The bundle also retains earlier controls and failed test
+exercises without promoting their results to the frozen source or full fleet.
 
 `intermediate-controls/` retains a tested source patch against DeadSync
 `2da5562bb050d155a90498fd075279a0249ae479`, exact command receipts and logs,

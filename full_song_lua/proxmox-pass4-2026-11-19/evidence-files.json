@@ -298,5 +298,35 @@
     "path": "full_song_lua/proxmox-pass4-2026-11-19/player-state-schema-migration/validated-migration/strict-collect.log",
     "bytes": 2244,
     "sha256": "7facf689643b7294418ceb1ee866c8fb2d0b3409356f2bfa928cf7c8ded9c1f7"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/native-life-score-glx/life-event-score-glx-evidence.zip",
+    "bytes": 4300150,
+    "sha256": "80a6bcd006c365ff2ed615786a3c7594b9ceb7bd6cf229c7b3cbb6b843d62227"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/native-life-score-glx/manifest.json",
+    "bytes": 5699,
+    "sha256": "8feefe3fa4bbc941609d7b974e1fd6b769ff17b4609e2bcb5b589f93d8522d8f"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/native-life-score-glx/download-receipt.json",
+    "bytes": 889,
+    "sha256": "68a7ecc101a99e013675ff4b4bfbe9b6077cbb4559a99b5dd891286204accbaf"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/repaired-native-controls/replay-evidence.zip",
+    "bytes": 5213820,
+    "sha256": "3fe40fd77622738b2219c87babcb154ab93f39af7de9b28ff8035f8929f2816e"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/repaired-native-controls/manifest.json",
+    "bytes": 23934,
+    "sha256": "20e02944da941a4a28b1b100c12763553aa50f72129ed75f3362920344fac58e"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/repaired-native-controls/scope.json",
+    "bytes": 1681,
+    "sha256": "fd64d532120d8a36a090bbcef4fc6be52ae1c99478fbae71eeee973f648944ff"
   }
 ]
