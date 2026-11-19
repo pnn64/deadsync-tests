@@ -493,5 +493,60 @@
     "path": "full_song_lua/proxmox-pass4-2026-11-19/negative-native-evidence/retain_negative_native_evidence.py",
     "bytes": 5326,
     "sha256": "baeb903ed2dc462c68982b4d17b025c2696c3d05cb418cb348c3497e28b9fc63"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/bitmap-zoom-snapshot-migration/proposal/a9485a8eaeb14743.original.snap",
+    "bytes": 12656,
+    "sha256": "dd009b84b7c3df4ba59e1e2fbb14f708b840ee84787bb62ad970c9562d9f49e0"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/bitmap-zoom-snapshot-migration/proposal/a9485a8eaeb14743.proposed.snap",
+    "bytes": 12654,
+    "sha256": "ae9de3ca4b6a094b506ae6d36577303a056568e8a50dc790810aa87fa307949f"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/bitmap-zoom-snapshot-migration/proposal/corpus-audit-history-controls-20261119T040648Z-bitmap-text.log",
+    "bytes": 3318,
+    "sha256": "a4cc8ac6702198d22eda7d05bcb57522c8f9bc93adfaecf59473f0b4c19d4424"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/bitmap-zoom-snapshot-migration/proposal/corpus-audit-history-controls-20261119T041051Z-bitmap-text.log",
+    "bytes": 2916,
+    "sha256": "1790a3b7bd5a868b99aa648228a1adf4b73ec78aedd831765aa7a56da6ab975b"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/bitmap-zoom-snapshot-migration/proposal/proposal.json",
+    "bytes": 4928,
+    "sha256": "dc0ea95c04de8822c2f2f876f423eb6e896e3ef829ebdb912b9f2cdea39437de"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/bitmap-zoom-snapshot-migration/proposal/source-authorities/draw.rs",
+    "bytes": 22010,
+    "sha256": "be379bec4befbb97025124bc4334fc13586f3081150999c8e76dcfe97684ca6a"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/bitmap-zoom-snapshot-migration/proposal/source-authorities/initial_state.rs",
+    "bytes": 24267,
+    "sha256": "e741e2960bcbcf39cb992151449bb9e0048f8064b17cee4848a9e979343621f8"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/bitmap-zoom-snapshot-migration/application-receipt.json",
+    "bytes": 2734,
+    "sha256": "0abb80b93ba99aec00241dfa9e271d5f92a06c996039b5515b6e0721f229ecb2"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/bitmap-zoom-snapshot-migration/apply_bitmap_zoom_migration.py",
+    "bytes": 7282,
+    "sha256": "9175e83b80093198a726bb8e72a01c39b9df84db6672bcd7cc28ac9e49181cc1"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/bitmap-zoom-snapshot-migration/retain_bitmap_zoom_evidence.py",
+    "bytes": 4200,
+    "sha256": "07961a65d68836aeaf69c2cdd0df57fc9c98abe5c513221b3dd173ffd12db6ea"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/bitmap-zoom-snapshot-migration/scope.json",
+    "bytes": 936,
+    "sha256": "22bf98e3f403e78afbccaf8cd05f22834ffa3de7a6b33b05fcb006a136aeb17b"
   }
 ]

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "status": "proposal-only; fixture repository unchanged",
+  "fixture_revision_at_read": "0a49b80d8dd1cbc59d86ac764e739537fcc1a79b",
+  "fixture_path": "regression-expectations/deadsync-song-lua/a9485a8eaeb14743.snap",
+  "fixture_normalized_bytes_equal_baseline_commit": "fdf26ec30d7c3edcd624b82aae24eea4fe3765c7",
+  "baseline_git_blob_sha256": "dd009b84b7c3df4ba59e1e2fbb14f708b840ee84787bb62ad970c9562d9f49e0",
+  "current_raw_equals_baseline_git_blob": true,
+  "normalization_for_baseline_comparison": "CRLF to LF only; proposed bytes preserve current line endings",
+  "original": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\bitmap-zoom-migration-proposal\\a9485a8eaeb14743.original.snap",
+    "bytes": 12656,
+    "sha256": "dd009b84b7c3df4ba59e1e2fbb14f708b840ee84787bb62ad970c9562d9f49e0"
+  },
+  "proposed": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\bitmap-zoom-migration-proposal\\a9485a8eaeb14743.proposed.snap",
+    "bytes": 12654,
+    "sha256": "ae9de3ca4b6a094b506ae6d36577303a056568e8a50dc790810aa87fa307949f"
+  },
+  "changes": [
+    {
+      "line_one_based": 3,
+      "case_zero_based": 0,
+      "draw_source": "Overlay(0)",
+      "field": "state.zoom",
+      "from": 1.25,
+      "to": 1.0,
+      "axis_zoom_unchanged": 1.25,
+      "parent_zoom_unchanged": 1.0,
+      "before_row_sha256": "1827866ef193a319616ccf3d3bcc8e879932336cbcb7acb0f50cfda799e3296b",
+      "proposed_row_sha256": "2d14d60582febd7e702de5ce942144d627a290682e2fcc5095baeea87d385578"
+    },
+    {
+      "line_one_based": 4,
+      "case_zero_based": 1,
+      "draw_source": "Overlay(0)",
+      "field": "state.zoom",
+      "from": 1.75,
+      "to": 1.0,
+      "axis_zoom_unchanged": 1.75,
+      "parent_zoom_unchanged": 1.0,
+      "before_row_sha256": "7c71482ed163ff396626288ca20e3b7c4c2387ceb2abc621ade2ce5af3512a53",
+      "proposed_row_sha256": "63713cf3e4f898fc3e84618afbd27f89076715edbd52b5f17a31c13a348cebb3"
+    },
+    {
+      "line_one_based": 5,
+      "case_zero_based": 2,
+      "draw_source": "Overlay(0)",
+      "field": "state.zoom",
+      "from": 2.0,
+      "to": 1.0,
+      "axis_zoom_unchanged": 2.0,
+      "parent_zoom_unchanged": 1.0,
+      "before_row_sha256": "c1c392fef6eafe91064f8097364cde5708d4b526657018dfdc21437e47bfafc3",
+      "proposed_row_sha256": "bb372e1c1e66e839e0ea4106b45e774c5fd42426f623d5f19f8db2f98b76a3c2"
+    }
+  ],
+  "all_other_bytes_unchanged": true,
+  "source_authorities": [
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\bitmap-zoom-migration-proposal\\source-authorities\\initial_state.rs",
+      "bytes": 24267,
+      "sha256": "e741e2960bcbcf39cb992151449bb9e0048f8064b17cee4848a9e979343621f8",
+      "revision": "2da5562bb050d155a90498fd075279a0249ae479",
+      "git_path": "crates/deadsync-song-lua/src/actors/initial_state.rs",
+      "current_normalized_equals_baseline": true
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\bitmap-zoom-migration-proposal\\source-authorities\\draw.rs",
+      "bytes": 22010,
+      "sha256": "be379bec4befbb97025124bc4334fc13586f3081150999c8e76dcfe97684ca6a",
+      "revision": "2da5562bb050d155a90498fd075279a0249ae479",
+      "git_path": "crates/deadsync-song-lua/src/actors/draw.rs",
+      "current_normalized_equals_baseline": true
+    }
+  ],
+  "normalization_introduced_in": "a5b4c374ba326708e38e7d9e9cfb6c374cf33a0d",
+  "normalization_is_ancestor_of_fleet_base": true,
+  "failing_logs": [
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\bitmap-zoom-migration-proposal\\corpus-audit-history-controls-20261119T040648Z-bitmap-text.log",
+      "bytes": 3318,
+      "sha256": "a4cc8ac6702198d22eda7d05bcb57522c8f9bc93adfaecf59473f0b4c19d4424"
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\bitmap-zoom-migration-proposal\\corpus-audit-history-controls-20261119T041051Z-bitmap-text.log",
+      "bytes": 2916,
+      "sha256": "1790a3b7bd5a868b99aa648228a1adf4b73ec78aedd831765aa7a56da6ab975b"
+    }
+  ],
+  "reason": "The live draw boundary already neutralizes redundant uniform zoom/basezoom aliases while retaining native absolute per-axis scales. The stored snapshot predates that representation change.",
+  "not_changed": [
+    "x/y/z",
+    "zoom_x/zoom_y/zoom_z",
+    "parent state",
+    "text",
+    "draw order",
+    "other tests",
+    "rendering implementation"
+  ],
+  "required_after_application": "Run the unchanged retained_text_updates_during_live_tweens_and_draw_callbacks test and full bitmap_text target; reject any additional mismatch instead of harvesting it.",
+  "native_parity_claim": false,
+  "scope": "Source-derived migration proposal for an existing debug representation; no replay or fixture update performed"
+}

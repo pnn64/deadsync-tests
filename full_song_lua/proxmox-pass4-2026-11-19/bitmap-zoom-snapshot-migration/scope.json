@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "fixture_base": "866499adb18bf20ad7f102ac401b3df61858fc9f",
+  "snapshot": "regression-expectations/deadsync-song-lua/a9485a8eaeb14743.snap",
+  "before_sha256": "dd009b84b7c3df4ba59e1e2fbb14f708b840ee84787bb62ad970c9562d9f49e0",
+  "after_sha256": "ae9de3ca4b6a094b506ae6d36577303a056568e8a50dc790810aa87fa307949f",
+  "allowed_change": "Only Overlay(0).state.zoom on three existing rows is neutralized to1.0; native axis scales and all other bytes remain unchanged.",
+  "authority": "The unchanged render-boundary normalization already exists in fleet base2da5562 and was introduced by ancestor a5b4c374ba326708e38e7d9e9cfb6c374cf33a0d.",
+  "expected_values_source": "Reviewed source implementation, independently of runtime test output.",
+  "validation_at_publication": "Applied exact reviewed bytes; unchanged full bitmap_text gate will run against this published snapshot.",
+  "native_parity_claim": false
+}

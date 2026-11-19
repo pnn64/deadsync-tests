@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "state": "applied-awaiting-validation",
+  "started_at": "2026-11-19T04:26:04.618895+00:00",
+  "fixture_repo": "C:\\GitHub\\deadsync-fixtures-lua-fleet-20261119",
+  "expected_fixture_head": "866499adb18bf20ad7f102ac401b3df61858fc9f",
+  "path": "regression-expectations/deadsync-song-lua/a9485a8eaeb14743.snap",
+  "before_sha256": "dd009b84b7c3df4ba59e1e2fbb14f708b840ee84787bb62ad970c9562d9f49e0",
+  "proposed_sha256": "ae9de3ca4b6a094b506ae6d36577303a056568e8a50dc790810aa87fa307949f",
+  "changes": [
+    {
+      "line_one_based": 3,
+      "case_zero_based": 0,
+      "draw_source": "Overlay(0)",
+      "field": "state.zoom",
+      "from": 1.25,
+      "to": 1.0,
+      "axis_zoom_unchanged": 1.25,
+      "parent_zoom_unchanged": 1.0,
+      "before_row_sha256": "1827866ef193a319616ccf3d3bcc8e879932336cbcb7acb0f50cfda799e3296b",
+      "proposed_row_sha256": "2d14d60582febd7e702de5ce942144d627a290682e2fcc5095baeea87d385578"
+    },
+    {
+      "line_one_based": 4,
+      "case_zero_based": 1,
+      "draw_source": "Overlay(0)",
+      "field": "state.zoom",
+      "from": 1.75,
+      "to": 1.0,
+      "axis_zoom_unchanged": 1.75,
+      "parent_zoom_unchanged": 1.0,
+      "before_row_sha256": "7c71482ed163ff396626288ca20e3b7c4c2387ceb2abc621ade2ce5af3512a53",
+      "proposed_row_sha256": "63713cf3e4f898fc3e84618afbd27f89076715edbd52b5f17a31c13a348cebb3"
+    },
+    {
+      "line_one_based": 5,
+      "case_zero_based": 2,
+      "draw_source": "Overlay(0)",
+      "field": "state.zoom",
+      "from": 2.0,
+      "to": 1.0,
+      "axis_zoom_unchanged": 2.0,
+      "parent_zoom_unchanged": 1.0,
+      "before_row_sha256": "c1c392fef6eafe91064f8097364cde5708d4b526657018dfdc21437e47bfafc3",
+      "proposed_row_sha256": "bb372e1c1e66e839e0ea4106b45e774c5fd42426f623d5f19f8db2f98b76a3c2"
+    }
+  ],
+  "proposal_sha256": "dc0ea95c04de8822c2f2f876f423eb6e896e3ef829ebdb912b9f2cdea39437de",
+  "source_authorities": [
+    {
+      "path": "crates/deadsync-song-lua/src/actors/initial_state.rs",
+      "normalized_sha256": "e741e2960bcbcf39cb992151449bb9e0048f8064b17cee4848a9e979343621f8"
+    },
+    {
+      "path": "crates/deadsync-song-lua/src/actors/draw.rs",
+      "normalized_sha256": "be379bec4befbb97025124bc4334fc13586f3081150999c8e76dcfe97684ca6a"
+    }
+  ],
+  "script_sha256": "9175e83b80093198a726bb8e72a01c39b9df84db6672bcd7cc28ac9e49181cc1",
+  "tests_executed": false,
+  "native_parity_claim": false,
+  "committed": false,
+  "finished_at": "2026-11-19T04:26:05.016491+00:00",
+  "applied_sha256": "ae9de3ca4b6a094b506ae6d36577303a056568e8a50dc790810aa87fa307949f",
+  "exact_three_field_changes": true,
+  "fixture_status": [
+    " M regression-expectations/deadsync-song-lua/a9485a8eaeb14743.snap"
+  ]
+}

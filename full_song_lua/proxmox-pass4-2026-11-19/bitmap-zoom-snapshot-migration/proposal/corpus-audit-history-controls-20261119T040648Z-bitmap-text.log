@@ -1,0 +1,43 @@
+   Compiling deadsync-song-lua v0.1.0 (C:\GitHub\deadsync-lua-fleet-20261119\crates\deadsync-song-lua)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 14.52s
+     Running tests\bitmap_text.rs (target\debug\build\deadsync-song-lua/03e3634a74972dc0\out\bitmap_text-03e3634a74972dc0.exe)
+
+running 11 tests
+test attributes_dedup_aliases_raw_reads_and_immutable_publication ... ok
+test collecting_getters_reentry_and_failed_reads_leave_no_stale_payload ... ok
+test common_header_font_keeps_local_font_precedence ... ok
+test common_header_font_uses_native_life_meter_glyphs ... ok
+test font_resolution_and_builtin_fallback_match_production ... 
+thread 'font_resolution_and_builtin_fallback_match_production' (38724) panicked at crates\deadsync-song-lua\tests\..\..\deadlib-lua\src\reference_test.rs:166:9:
+regression expectation song/tests/rust_bitmap_text.rs::payload: font_resolution_and_builtin_fallback_match_production case 8, byte 137
+actual: ".ini'\", BitmapText { font: Some((\"songlua_font:$FIXTURE0/custom.ini\", \"$FIXTURE0/custom.ini\")), text: \"initial\", stroke_color: None, attributes: [] })"
+expected: ".ini'\", BitmapText { font: Some((\"songlua_font:$FIXTURE0/custom.ini\", \"$FIXTURE0\\\\custom.ini\")), text: \"initial\", stroke_color: None, attributes: [] })"
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+FAILED
+test legacy_file_font_paths_precede_theme_aliases ... 
+thread 'legacy_file_font_paths_precede_theme_aliases' (40884) panicked at crates\deadsync-song-lua\tests\bitmap_text.rs:306:13:
+assertion `left == right` failed: Font=42, File=legacy, live=false
+  left: Some("C:/Users/PERFEC~1/AppData/Local/Temp/.tmpEOuxUq/legacy.ini")
+ right: Some("C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmpEOuxUq\\42.ini")
+FAILED
+test load_font_templates_concat_composition_and_independent_attributes ... ok
+test native_fixture_inheritance_and_theme_helpers ... ok
+test retained_text_updates_during_live_tweens_and_draw_callbacks ... 
+thread 'retained_text_updates_during_live_tweens_and_draw_callbacks' (39204) panicked at crates\deadsync-song-lua\tests\..\..\deadlib-lua\src\reference_test.rs:166:9:
+regression expectation song/tests/rust_bitmap_text.rs::draw_frames: retained_text_updates_during_live_tweens_and_draw_callbacks case 0, byte 806
+actual: " false, depth_write: false, depth_test_on_fail: false, cull_mode: None, zoom: 1.0, zoom_x: 1.25, zoom_y: 1.25, zoom_z: 1.25, basezoom: 1.0, basezoom_x: 1.0, basezoom_y: 1.0, basezoom_z: 1.0, scale_factors: None, rot_x_deg: 0.0, rot_y_deg: 0"
+expected: " false, depth_write: false, depth_test_on_fail: false, cull_mode: None, zoom: 1.25, zoom_x: 1.25, zoom_y: 1.25, zoom_z: 1.25, basezoom: 1.0, basezoom_x: 1.0, basezoom_y: 1.0, basezoom_z: 1.0, scale_factors: None, rot_x_deg: 0.0, rot_y_deg: "
+FAILED
+test text_conversion_stroke_errors_and_fresh_color_tables ... ok
+test text_layout_strict_flags_fit_bounds_and_zoom_ordering ... ok
+
+failures:
+
+failures:
+    font_resolution_and_builtin_fallback_match_production
+    legacy_file_font_paths_precede_theme_aliases
+    retained_text_updates_during_live_tweens_and_draw_callbacks
+
+test result: FAILED. 8 passed; 3 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.08s
+
+error: test failed, to rerun pass `-p deadsync-song-lua --test bitmap_text`
