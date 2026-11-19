@@ -38,8 +38,16 @@ new oversized snapshots as well as splitting archives.
 
 ## Updating fixtures
 
-1. In DeadSync, create a branch in the submodule with
-   `git -C tests/fixtures switch -c update-fixtures`.
+Fixture updates go directly to `main`; keep this repository on a single branch.
+
+1. From DeadSync, update the submodule's `main` branch:
+
+   ```sh
+   git -C tests/fixtures fetch origin
+   git -C tests/fixtures switch main
+   git -C tests/fixtures merge --ff-only origin/main
+   ```
+
 2. Run capture or maintenance scripts from the DeadSync root. Use
    `python scripts/prepare_test_fixtures.py --split` before adding large archives;
    this creates parts and stages removal of their original files from Git while
@@ -47,7 +55,8 @@ new oversized snapshots as well as splitting archives.
    For example,
    `python -X utf8 scripts/catalog_committed_songs.py` regenerates the catalogs
    from files tracked by this fixture repository (requires `zstandard`).
-3. Commit and push the fixture changes in this repository.
+3. Commit the fixture changes on `main` and publish them with
+   `git -C tests/fixtures push origin main`.
 4. In DeadSync, commit the updated `tests/fixtures` submodule pointer after its
    referenced commit is available on the remote.
 
