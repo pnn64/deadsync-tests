@@ -1,0 +1,81 @@
+{
+  "status": "approved exact application verified; final verifier receipt retained separately",
+  "product_head": "21f47c8783a1fe429a8a5f341ca604d03773601c",
+  "product_fixture_head_unchanged": "d2aa6cfef449e13fd92b7a7264659dec3cb31fdc",
+  "separate_fixture_parent": "d2aa6cfef449e13fd92b7a7264659dec3cb31fdc",
+  "proposal_sha256": "8e65f94804d34d121a39d07773a6f04d4c570f16f743b5e9621ecbac1cd4ba8c",
+  "source": {
+    "path": "crates/deadsync-song-lua/tests/live_visuals.rs",
+    "bytes": 38360,
+    "sha256": "a1c8fc5150d8cc56b1e9956fe63be8f276d53f090b9624f27a0a03149631012a"
+  },
+  "snapshot_replacements": 406,
+  "changed_snapshot_rows": 63,
+  "only_exact_quoted_path_tokens_changed": true,
+  "all_other_snapshot_bytes_and_crlf_preserved": true,
+  "materialized_exact_paths": [
+    {
+      "path": "regression-expectations/deadsync-song-lua/b3216bc62d36e29c.snap",
+      "prior_index_flag": "S regression-expectations/deadsync-song-lua/b3216bc62d36e29c.snap"
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/be88a6d727933ed4.snap",
+      "prior_index_flag": "S regression-expectations/deadsync-song-lua/be88a6d727933ed4.snap"
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/28e74d92d026cc0b.snap",
+      "prior_index_flag": "S regression-expectations/deadsync-song-lua/28e74d92d026cc0b.snap"
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "regression-expectations/deadsync-song-lua/b3216bc62d36e29c.snap",
+      "bytes": 613982,
+      "sha256": "29ccbd20df87537a385adc6007abdc45fe66c57a1644513beed5e706670bbe1c"
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/be88a6d727933ed4.snap",
+      "bytes": 4132824,
+      "sha256": "1f4a20acdbcf933e75a7a9181f435420be29971c81af8347636cc275991b0b38"
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/28e74d92d026cc0b.snap",
+      "bytes": 130625,
+      "sha256": "77241e6c009a63d5a2d98347a7fdbdca61a141be26a2346189c079cb0061f129"
+    }
+  ],
+  "annotations_applied_after_actual_diff_check": true,
+  "actual_diff_checks": {
+    "before": {
+      "exit_code": 2,
+      "stdout_sha256": "21111da6f47ea51972871f0c1539cbed9da561f451827c13c79f597553df99bd",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "after": {
+      "exit_code": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "attributes": {
+    "path": ".gitattributes",
+    "bytes": 2618,
+    "sha256": "938dda7015bbdd6b15df508b59159db0ea9047d70152a4bf82b21a9c72519599"
+  },
+  "global_normalizer_sha256_unchanged": "64002ab8a09416d74d13a2c19679f6efb9acf452edc10ef90cfab8e7af1e41e9",
+  "runtime_changed": false,
+  "cargo_executed": false,
+  "product_index_changed": false,
+  "product_fixture_checkout_changed": false,
+  "pending": [
+    "publish fixture commit",
+    "full Windows live_visuals and diff-check against published fixtures",
+    "Linux candidate B gates"
+  ],
+  "retained_font_gate_receipt_sha256": "bd089e41afe151edd16324c13d952ac823fff15db9e7cfd2e0f325c8680b2569",
+  "retained_font_gate_counts": {
+    "bitmap_text": 11,
+    "live_visuals": 13,
+    "live_gameplay": 17
+  }
+}

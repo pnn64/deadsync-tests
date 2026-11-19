@@ -1,0 +1,226 @@
+{
+  "created_at": "20261119T044549Z",
+  "commands": [
+    {
+      "name": "diff-check",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "source_before": {
+        "source": {
+          "head": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+          "patch_sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+        },
+        "fixtures": {
+          "head": "d2aa6cfef449e13fd92b7a7264659dec3cb31fdc",
+          "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "source_after": {
+        "source": {
+          "head": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+          "patch_sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+        },
+        "fixtures": {
+          "head": "d2aa6cfef449e13fd92b7a7264659dec3cb31fdc",
+          "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "source_unchanged": true,
+      "log": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T044549Z\\diff-check.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result_lines": [],
+      "tail": []
+    },
+    {
+      "name": "bitmap-text",
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "-j",
+        "4",
+        "-p",
+        "deadsync-song-lua",
+        "--features",
+        "test-support",
+        "--test",
+        "bitmap_text",
+        "--",
+        "--test-threads=1",
+        "--nocapture"
+      ],
+      "exit_code": 0,
+      "source_before": {
+        "source": {
+          "head": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+          "patch_sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+        },
+        "fixtures": {
+          "head": "d2aa6cfef449e13fd92b7a7264659dec3cb31fdc",
+          "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "source_after": {
+        "source": {
+          "head": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+          "patch_sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+        },
+        "fixtures": {
+          "head": "d2aa6cfef449e13fd92b7a7264659dec3cb31fdc",
+          "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "source_unchanged": true,
+      "log": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T044549Z\\bitmap-text.log",
+      "log_sha256": "33ebb94d2fa35e8922c42890f3e5cf8894125add53d88dcd18d89f70b9a2f964",
+      "result_lines": [
+        "test result: ok. 11 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.72s"
+      ],
+      "tail": [
+        "test attributes_dedup_aliases_raw_reads_and_immutable_publication ... ok",
+        "test collecting_getters_reentry_and_failed_reads_leave_no_stale_payload ... ok",
+        "test common_header_font_keeps_local_font_precedence ... ok",
+        "test common_header_font_uses_native_life_meter_glyphs ... ok",
+        "test font_resolution_and_builtin_fallback_match_production ... ok",
+        "test legacy_file_font_paths_precede_theme_aliases ... ok",
+        "test load_font_templates_concat_composition_and_independent_attributes ... ok",
+        "test native_fixture_inheritance_and_theme_helpers ... ok",
+        "test retained_text_updates_during_live_tweens_and_draw_callbacks ... ok",
+        "test text_conversion_stroke_errors_and_fresh_color_tables ... ok",
+        "test text_layout_strict_flags_fit_bounds_and_zoom_ordering ... ok",
+        "",
+        "test result: ok. 11 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.72s",
+        ""
+      ]
+    },
+    {
+      "name": "live-visuals",
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "-j",
+        "4",
+        "-p",
+        "deadsync-song-lua",
+        "--features",
+        "test-support",
+        "--test",
+        "live_visuals",
+        "--",
+        "--test-threads=1",
+        "--nocapture"
+      ],
+      "exit_code": 0,
+      "source_before": {
+        "source": {
+          "head": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+          "patch_sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+        },
+        "fixtures": {
+          "head": "d2aa6cfef449e13fd92b7a7264659dec3cb31fdc",
+          "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "source_after": {
+        "source": {
+          "head": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+          "patch_sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+        },
+        "fixtures": {
+          "head": "d2aa6cfef449e13fd92b7a7264659dec3cb31fdc",
+          "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "source_unchanged": true,
+      "log": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T044549Z\\live-visuals.log",
+      "log_sha256": "d1caa1deb6067819712aed535db6bcfd303d8ad8c738b310d8262362756d9a0c",
+      "result_lines": [
+        "test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.39s"
+      ],
+      "tail": [
+        "test invalid_global_bindings_leave_previous_bindings_and_missing_slots_stop_after_prior_writes ... ok",
+        "test late_wrapper_visuals_keep_owned_slots_and_publish_all_layers ... ok",
+        "test live_poses_content_and_tracked_visibility_reach_prepared_slots ... ok",
+        "test mesh_vertices_publish_before_texture_errors_and_empty_meshes_still_read_the_texture ... ok",
+        "test mixed_case_texture_resolves_on_linux_and_preserves_its_logical_path ... ok",
+        "test proxy_actor_identity_resolves_within_each_layer_and_duplicate_bindings_use_the_last_target ... ok",
+        "test scheduled_foreground_on_load_publishes_initially_textureless_sprite ... ok",
+        "test single_use_publication_callbacks_reject_recursive_and_saved_lua_calls ... ok",
+        "test sprite_paths_commit_before_frame_errors_and_unresolved_paths_keep_the_previous_texture ... ok",
+        "test text_and_attribute_publication_preserve_the_native_error_commit_boundaries ... ok",
+        "test unchanged_payload_arcs_are_retained_and_in_place_edits_replace_only_changed_values ... ok",
+        "",
+        "test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.39s",
+        ""
+      ]
+    },
+    {
+      "name": "live-gameplay",
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "-j",
+        "4",
+        "-p",
+        "deadsync-song-lua",
+        "--features",
+        "test-support",
+        "--test",
+        "live_gameplay",
+        "--",
+        "--test-threads=1",
+        "--nocapture"
+      ],
+      "exit_code": 0,
+      "source_before": {
+        "source": {
+          "head": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+          "patch_sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+        },
+        "fixtures": {
+          "head": "d2aa6cfef449e13fd92b7a7264659dec3cb31fdc",
+          "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "source_after": {
+        "source": {
+          "head": "4224b3b2eb5dbc0efd15618bf86266bb651af56c",
+          "patch_sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+        },
+        "fixtures": {
+          "head": "d2aa6cfef449e13fd92b7a7264659dec3cb31fdc",
+          "patch_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "source_unchanged": true,
+      "log": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\corpus-audit-history-controls-20261119T044549Z\\live-gameplay.log",
+      "log_sha256": "8b8f3552328eff0c892ffe2a94df45e01b6f35d6d32c5a951fe120e6315e07d7",
+      "result_lines": [
+        "test result: ok. 17 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.55s"
+      ],
+      "tail": [
+        "test life_changed_failed_exit_records_gameplay_time_without_advancing_steps ... ok",
+        "test life_changed_hold_and_w1_score_before_committed_failure ... ok",
+        "test life_changed_reentrant_set_life_records_final_meter_even_after_listener_error ... ok",
+        "test life_changed_routine_uses_shared_meter_with_independent_player_history ... ok",
+        "test life_changed_row_dance_points_use_committed_failure_after_judgment ... ok",
+        "test life_changed_tap_miss_and_capped_meter_keep_prior_history ... ok",
+        "test missing_tap_handlers_and_invalid_players_keep_native_write_drain_boundaries ... ok",
+        "test pending_output_writes_and_song_fail_policy_follow_current_only_precedence ... ok",
+        "test retained_callbacks_own_the_vm_after_scene_drop_and_release_it_on_teardown ... ok",
+        "test row_judgments_include_current_notes_preceding_holds_and_retained_results ... ok",
+        "test step_messages_refresh_stats_clocks_and_reenter_lua_without_advancing_uptime ... ok",
+        "",
+        "test result: ok. 17 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.55s",
+        ""
+      ]
+    }
+  ],
+  "scope": "Committed-stage, reload and native sampler gates; preserved native inputs."
+}

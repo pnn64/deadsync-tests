@@ -1,0 +1,21 @@
+   Compiling deadsync-song-lua v0.1.0 (C:\GitHub\deadsync-lua-fleet-20261119\crates\deadsync-song-lua)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 45.54s
+     Running tests\live_visuals.rs (target\debug\build\deadsync-song-lua/50598c37b81adc6e\out\live_visuals-50598c37b81adc6e.exe)
+
+running 13 tests
+test collecting_getters_are_read_once_in_native_order_without_font_or_stroke_fallback_reads ... ok
+test immutable_visual_snapshots_survive_gc_and_session_teardown ... ok
+test invalid_global_bindings_leave_previous_bindings_and_missing_slots_stop_after_prior_writes ... ok
+test late_wrapper_visuals_keep_owned_slots_and_publish_all_layers ... ok
+test live_poses_content_and_tracked_visibility_reach_prepared_slots ... ok
+test mesh_vertices_publish_before_texture_errors_and_empty_meshes_still_read_the_texture ... ok
+test mixed_case_texture_resolves_on_linux_and_preserves_its_logical_path ... ok
+test proxy_actor_identity_resolves_within_each_layer_and_duplicate_bindings_use_the_last_target ... ok
+test scheduled_foreground_on_load_publishes_initially_textureless_sprite ... ok
+test single_use_publication_callbacks_reject_recursive_and_saved_lua_calls ... ok
+test sprite_paths_commit_before_frame_errors_and_unresolved_paths_keep_the_previous_texture ... ok
+test text_and_attribute_publication_preserve_the_native_error_commit_boundaries ... ok
+test unchanged_payload_arcs_are_retained_and_in_place_edits_replace_only_changed_values ... ok
+
+test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.39s
+

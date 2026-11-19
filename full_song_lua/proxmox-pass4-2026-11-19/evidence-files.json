@@ -723,5 +723,235 @@
     "path": "full_song_lua/proxmox-pass4-2026-11-19/bitmap-font-path-migration/diff-check-before-attribute.log",
     "bytes": 299,
     "sha256": "1a877c0b5bccfc3604f8f6f3bd06b873e9cb604c7a62e31775519ade511457be"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/proposal.json",
+    "bytes": 34412,
+    "sha256": "8e65f94804d34d121a39d07773a6f04d4c570f16f743b5e9621ecbac1cd4ba8c"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/source.patch",
+    "bytes": 815,
+    "sha256": "155332c86183b3be455589220ec99713294455b0468be344e1260bf55f26b963"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/reference_test.rs",
+    "bytes": 10310,
+    "sha256": "64002ab8a09416d74d13a2c19679f6efb9acf452edc10ef90cfab8e7af1e41e9"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/whitespace-annotation-proof.json",
+    "bytes": 1537,
+    "sha256": "0c4c4ea94d5a58db3f54c4d9c148ef14142d818c51aba9470cba74b995b51af1"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/original/live_visuals.rs",
+    "bytes": 38051,
+    "sha256": "883d52719246b62040bac23f8c001b38644d5914f0ee6268cfc99ece92a15bbd"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/proposed/live_visuals.rs",
+    "bytes": 38360,
+    "sha256": "a1c8fc5150d8cc56b1e9956fe63be8f276d53f090b9624f27a0a03149631012a"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/original/.gitattributes",
+    "bytes": 2357,
+    "sha256": "3596e8e8ecfb3d54efd56178a69f861b83d5f0195dabea01d372a05c4560bd81"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/proposed/.gitattributes",
+    "bytes": 2618,
+    "sha256": "938dda7015bbdd6b15df508b59159db0ea9047d70152a4bf82b21a9c72519599"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/original/28e74d92d026cc0b.snap",
+    "bytes": 130697,
+    "sha256": "f76e3b9717062116f72738e92e7987ed26af3180b6918cfc3a311d97b01f2177"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/proposed/28e74d92d026cc0b.snap",
+    "bytes": 130625,
+    "sha256": "77241e6c009a63d5a2d98347a7fdbdca61a141be26a2346189c079cb0061f129"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/original/b3216bc62d36e29c.snap",
+    "bytes": 614472,
+    "sha256": "5cd3f583ad72136eb6740481c6b5198cb643f66f850e726b6345541c1db95939"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/proposed/b3216bc62d36e29c.snap",
+    "bytes": 613982,
+    "sha256": "29ccbd20df87537a385adc6007abdc45fe66c57a1644513beed5e706670bbe1c"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/original/be88a6d727933ed4.snap",
+    "bytes": 4135980,
+    "sha256": "9103d67356d47f903a68c1b594bbf0a885f280f8317b06b4c42f5e2644f46ed6"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/proposed/be88a6d727933ed4.snap",
+    "bytes": 4132824,
+    "sha256": "1f4a20acdbcf933e75a7a9181f435420be29971c81af8347636cc275991b0b38"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/annotation-control/diff-check-before-annotations.stdout",
+    "bytes": 4881177,
+    "sha256": "21111da6f47ea51972871f0c1539cbed9da561f451827c13c79f597553df99bd"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/annotation-control/diff-check-before-annotations.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/annotation-control/diff-check-after-annotations.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/annotation-control/diff-check-after-annotations.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/propose_live_visual_path_registration.py",
+    "bytes": 8206,
+    "sha256": "72cfa7cd7094928e1f38746f4c5f7ea1383358fa152a459830903a0f2ee1dbe7"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/independent-full24-path-suffix-audit.json",
+    "bytes": 210364,
+    "sha256": "39bfd716b2f2c0ade008b97cdb9681df20c577a39a70625b2302541048175af1"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/independent-full24-encoded-path-audit.json",
+    "bytes": 4306,
+    "sha256": "fe2be6741e0883dc379d8d843c087368d041ea9aff782c5835f2044866f2d2b4"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/prepare_live_visual_path_migration.py",
+    "bytes": 19876,
+    "sha256": "0ed29c03963bbcf9643af6ee7cfa78d8258c57f9dd61dbac9d41c6a68c880fca"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/bitmap-text-after-fixtures.patch",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/bitmap-text-after-source.patch",
+    "bytes": 8056,
+    "sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/bitmap-text-before-fixtures.patch",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/bitmap-text-before-source.patch",
+    "bytes": 8056,
+    "sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/bitmap-text.log",
+    "bytes": 1370,
+    "sha256": "33ebb94d2fa35e8922c42890f3e5cf8894125add53d88dcd18d89f70b9a2f964"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/diff-check-after-fixtures.patch",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/diff-check-after-source.patch",
+    "bytes": 8056,
+    "sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/diff-check-before-fixtures.patch",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/diff-check-before-source.patch",
+    "bytes": 8056,
+    "sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/diff-check.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/live-gameplay-after-fixtures.patch",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/live-gameplay-after-source.patch",
+    "bytes": 8056,
+    "sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/live-gameplay-before-fixtures.patch",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/live-gameplay-before-source.patch",
+    "bytes": 8056,
+    "sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/live-gameplay.log",
+    "bytes": 1806,
+    "sha256": "8b8f3552328eff0c892ffe2a94df45e01b6f35d6d32c5a951fe120e6315e07d7"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/live-visuals-after-fixtures.patch",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/live-visuals-after-source.patch",
+    "bytes": 8056,
+    "sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/live-visuals-before-fixtures.patch",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/live-visuals-before-source.patch",
+    "bytes": 8056,
+    "sha256": "dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/live-visuals.log",
+    "bytes": 1563,
+    "sha256": "d1caa1deb6067819712aed535db6bcfd303d8ad8c738b310d8262362756d9a0c"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/windows-controls-20261119T044549Z/receipt.json",
+    "bytes": 9866,
+    "sha256": "bd089e41afe151edd16324c13d952ac823fff15db9e7cfd2e0f325c8680b2569"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/font-resolution-commit.json",
+    "bytes": 931,
+    "sha256": "97b7b3ee36f8c09c12f76788043dc7f8b1939f2b9aadd1fbccf8e591dbcdcc4f"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/font-file-alias/commit_font_resolution_fix.py",
+    "bytes": 3930,
+    "sha256": "db5fe6cfe704bdf06f856b4fa2dd33b30b27c48e36e6e308361f6b1d1beac07d"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/live-visual-path-migration/application.json",
+    "bytes": 3275,
+    "sha256": "55322a4d487999b5807643eae3adc50d871379d0666ac3c55cac0d63a92fe73b"
   }
 ]

@@ -228,3 +228,28 @@ equivalence control and completed Kaboom capture/archive under the unchanged
 6 GiB cap passed. Large Kaboom inputs and outputs remain referenced by their
 exact guest paths and hashes. This evidence does not claim deployment to the
 fleet or completion of candidate B's combined production profile gate.
+
+
+## Portable live-visual paths and completed font gates
+
+live-visual-path-migration/ preserves the reviewed test-only registration
+of the three known input files before their directory. Distinct tokens
+retain default.lua, art.png and second.png identity on both platforms.
+Exactly 406 quoted path substitutions affect 63 rows in three snapshots;
+all other snapshot bytes and CRLF endings are unchanged. Source-derived
+before/after files, the complete 24-snapshot audit, and exact application
+and whitespace-annotation proofs are retained. Runtime paths and the global
+normalizer are unchanged. The post-publication Windows live_visuals gate
+and Linux candidate B gates remain pending at this preparation checkpoint.
+
+font-file-alias/windows-controls-20261119T044549Z/ retains every original
+log, receipt and before/after patch from the completed Windows font gate.
+BitmapText passed 11 tests, live_visuals 13 and live_gameplay 17, with no
+failed or ignored tests. Source and fixtures remained unchanged throughout:
+DeadSync 4224b3b2eb5dbc0efd15618bf86266bb651af56c plus patch SHA-256
+dae16a7955e018030beef96ff69fcc8527a5f3cf06a30c598e2c8e3dd302aecf,
+using clean fixture d2aa6cfef449e13fd92b7a7264659dec3cb31fdc. The exact
+reviewed font subset was committed as 21f47c8783a1fe429a8a5f341ca604d03773601c;
+its original commit receipt and helper are retained. These completed gates
+precede the separate live-visual path registration change and do not claim
+Linux or complete fleet parity.

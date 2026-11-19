@@ -38,3 +38,6 @@
 
 # Pass 4 receipts and manifests bind the exact bytes of native evidence.
 /full_song_lua/proxmox-pass4-2026-11-19/**/* -text -whitespace
+/regression-expectations/deadsync-song-lua/b3216bc62d36e29c.snap whitespace=cr-at-eol
+/regression-expectations/deadsync-song-lua/be88a6d727933ed4.snap whitespace=cr-at-eol
+/regression-expectations/deadsync-song-lua/28e74d92d026cc0b.snap whitespace=cr-at-eol

@@ -1,0 +1,129 @@
+{
+  "kind": "independent-encoded-placeholder-and-host-drive-audit",
+  "fixture_revision": "d2aa6cfef449e13fd92b7a7264659dec3cb31fdc",
+  "files_scanned": 24,
+  "stats": [
+    {
+      "path": "regression-expectations/deadsync-song-lua/a9485a8eaeb14743.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/61f9a1c2e55ee8cd.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/42b202d737540250.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/d8287a4a334fc59e.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/b3a128233dc92ef0.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/ecdc77760e108933.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/fd5ff024f81a345f.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/97dac8751cf23200.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/379ec9286b1d0849.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/464d35ee6eb239f9.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/3cd17f39db0d07ff.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/72c431600eddf935.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/fce34ddfce05e28f.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/8c75ed8fae09b81d.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/b3216bc62d36e29c.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/5982d708080c45bc.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/28e74d92d026cc0b.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/557ac48dd57c4f55.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/be88a6d727933ed4.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/a74e87153021edf1.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/a9880f4a850c3814.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/3a2bee4b7cf83092.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/80ee6714969cf223.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/c9dc1ea2bbc62e20.snap",
+      "encoded_placeholders": 0,
+      "host_drive_literals": 0
+    }
+  ],
+  "findings": [],
+  "scope": "Search all24 exact required snapshot bytes for already-encoded $FIXTURE tokens and unregistered Windows host drive spellings; complements literal-placeholder suffix enumeration."
+}

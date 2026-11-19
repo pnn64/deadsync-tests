@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "scope": "isolated toy fixture repository; original source/fixtures unchanged",
+  "proposal_sha256": "8e65f94804d34d121a39d07773a6f04d4c570f16f743b5e9621ecbac1cd4ba8c",
+  "crlf_counts": [
+    {
+      "path": "regression-expectations/deadsync-song-lua/b3216bc62d36e29c.snap",
+      "crlf": 21,
+      "lf": 21
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/be88a6d727933ed4.snap",
+      "crlf": 62,
+      "lf": 62
+    },
+    {
+      "path": "regression-expectations/deadsync-song-lua/28e74d92d026cc0b.snap",
+      "crlf": 4,
+      "lf": 4
+    }
+  ],
+  "before_diff_check_exit": 2,
+  "before_warning_count": 63,
+  "before_log_sha256": "21111da6f47ea51972871f0c1539cbed9da561f451827c13c79f597553df99bd",
+  "after_diff_check_exit": 0,
+  "after_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "attributes_before_sha256": "3596e8e8ecfb3d54efd56178a69f861b83d5f0195dabea01d372a05c4560bd81",
+  "attributes_proposed_sha256": "938dda7015bbdd6b15df508b59159db0ea9047d70152a4bf82b21a9c72519599",
+  "only_added_attribute_lines": [
+    "/regression-expectations/deadsync-song-lua/b3216bc62d36e29c.snap whitespace=cr-at-eol",
+    "/regression-expectations/deadsync-song-lua/be88a6d727933ed4.snap whitespace=cr-at-eol",
+    "/regression-expectations/deadsync-song-lua/28e74d92d026cc0b.snap whitespace=cr-at-eol"
+  ],
+  "all_63_warnings_are_existing_crlf_on_exact_changed_rows": true,
+  "runtime_or_global_normalizer_changes": false,
+  "source_or_fixture_mutations": false
+}
