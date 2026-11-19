@@ -138,6 +138,17 @@ The original snapshot, exact failed gate, independent comparison, and native
 source files with their hashes are retained. This checkpoint precedes the final
 transition gate and does not change any native recording or stage counter value.
 
+`played-stage-snapshot-migration/` preserves the original and proposed statistics
+snapshot, its exact Lua inputs, the failed gate, and the pinned native sources.
+Only 28 rows of the complete manager surface test change: an empty played-stage
+history starts at zero, its numeric index follows native argument checking, the
+steps clock starts at zero, and nonpositive life-history sample counts use 100.
+The verifier checks an explicit field allowlist and preserves every unrelated
+row and value. Expectations are derived from the pinned source rather than test
+output. Source receipts distinguish exact file bytes from CRLF-only differences
+in the clean native checkout. The final full statistics gate remains pending at
+this fixture checkpoint.
+
 ## Corpus and capture scope
 
 The frozen corpus combines the current installed Lua songs, distinct older

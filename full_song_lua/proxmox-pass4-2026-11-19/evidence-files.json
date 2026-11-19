@@ -388,5 +388,85 @@
     "path": "full_song_lua/proxmox-pass4-2026-11-19/reload-transition-migration/retain_reload_transition_migration.py",
     "bytes": 4330,
     "sha256": "d47a72d253b27e85190b79e53a48be3668c1d7c48cf60980872b05474f1854e4"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/before.snap",
+    "bytes": 56487,
+    "sha256": "a52e4d833073a6896a57ad341bc6c9e64e2821a25675d53605657ca8ddf8224f"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/after.snap",
+    "bytes": 57296,
+    "sha256": "c7565d21639378ae8df497127efe4e1a0a5293f4190d58a679fd6acd9222650b"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/before-source.rs",
+    "bytes": 22837,
+    "sha256": "dad98f249a0d1f14f628f699296909510c8c54a79a06846d07b44fe8bf96cee6"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/after-source.rs",
+    "bytes": 29040,
+    "sha256": "a9f8fd7c4fce67e25aeae592b292b18390c2a177777768a368fef3b568217c9f"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/receipt.json",
+    "bytes": 31815,
+    "sha256": "408aa2e09d4ca560e0b649fe3e7934b1af57b0f3d5e362a967786a565437590f"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/native-source/src/StatsManager.cpp",
+    "bytes": 23386,
+    "sha256": "660a65bb98e15395509deee81a47e8ff03175099235e798e544035554b5fc62a"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/native-source/src/StageStats.cpp",
+    "bytes": 19967,
+    "sha256": "687a7f5121b3240e863496f3dc66e4fa882e0d759f2730ecc0d7106890d86aca"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/native-source/src/PlayerStageStats.cpp",
+    "bytes": 31037,
+    "sha256": "e067b3bba22adc5d016e32fd6384393d2a03d9a1bbbd2b8fe36216b03b4e7497"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/native-source/src/LuaManager.h",
+    "bytes": 11675,
+    "sha256": "e20b23acfb112e6b68506d1f7bb158cf01d6bc1655392c5d44ef7dd41542b2c7"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/native-source/extern/lua-5.1/src/lauxlib.c",
+    "bytes": 18267,
+    "sha256": "5338d568f26dbc404aba20fd02857b69d38f70c28549309c15686e68f75f3c03"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/native-source/extern/lua-5.1/src/lobject.c",
+    "bytes": 5712,
+    "sha256": "5160a4348317285d003aaa7b4c8db374da89459898b441b06a5aaee395c96226"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/native-source/extern/lua-5.1/src/luaconf.h",
+    "bytes": 23025,
+    "sha256": "d43352db5c311501222d72bcd76a62b0e0bf4a09597795bf4c6cee2f431a49b5"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/prepare_statistics_snapshot_proposal.py",
+    "bytes": 8381,
+    "sha256": "815802d497ec0c7f09794e948ab1294b3fc1bc85961d4442e7603d62afb5f664"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/failed-gate.log",
+    "bytes": 2548,
+    "sha256": "017effcb8bbbdcc0cfacc324b9402957d7b6cc687c6a41f702b221c6b95d0c81"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/independent-verification.json",
+    "bytes": 4081,
+    "sha256": "1c09b7299dd65d8216b526dc5e8dafc1a193d259c21621eafb66061e4f7aa2bf"
+  },
+  {
+    "path": "full_song_lua/proxmox-pass4-2026-11-19/played-stage-snapshot-migration/retain_played_stage_snapshot.py",
+    "bytes": 6909,
+    "sha256": "2be727e81e417ff49841beea767344fc95c2ef3e3350b18cff5346ea28718bc8"
   }
 ]

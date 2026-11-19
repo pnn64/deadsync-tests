@@ -1,0 +1,112 @@
+{
+  "before_sha256": "a52e4d833073a6896a57ad341bc6c9e64e2821a25675d53605657ca8ddf8224f",
+  "after_sha256": "c7565d21639378ae8df497127efe4e1a0a5293f4190d58a679fd6acd9222650b",
+  "changed_lines": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "all_unrelated_rows_byte_equal": true,
+  "changed_field_allowlist_checked": true,
+  "native_sources": [
+    {
+      "path": "src/StatsManager.cpp",
+      "retained_bytes": 23386,
+      "retained_sha256": "660a65bb98e15395509deee81a47e8ff03175099235e798e544035554b5fc62a",
+      "pinned_blob_bytes": 23386,
+      "pinned_blob_sha256": "660a65bb98e15395509deee81a47e8ff03175099235e798e544035554b5fc62a",
+      "raw_bytes_equal": true,
+      "equal_after_crlf_normalization": true,
+      "normalized_sha256": "660a65bb98e15395509deee81a47e8ff03175099235e798e544035554b5fc62a"
+    },
+    {
+      "path": "src/StageStats.cpp",
+      "retained_bytes": 19967,
+      "retained_sha256": "687a7f5121b3240e863496f3dc66e4fa882e0d759f2730ecc0d7106890d86aca",
+      "pinned_blob_bytes": 19967,
+      "pinned_blob_sha256": "687a7f5121b3240e863496f3dc66e4fa882e0d759f2730ecc0d7106890d86aca",
+      "raw_bytes_equal": true,
+      "equal_after_crlf_normalization": true,
+      "normalized_sha256": "687a7f5121b3240e863496f3dc66e4fa882e0d759f2730ecc0d7106890d86aca"
+    },
+    {
+      "path": "src/PlayerStageStats.cpp",
+      "retained_bytes": 31037,
+      "retained_sha256": "e067b3bba22adc5d016e32fd6384393d2a03d9a1bbbd2b8fe36216b03b4e7497",
+      "pinned_blob_bytes": 31037,
+      "pinned_blob_sha256": "e067b3bba22adc5d016e32fd6384393d2a03d9a1bbbd2b8fe36216b03b4e7497",
+      "raw_bytes_equal": true,
+      "equal_after_crlf_normalization": true,
+      "normalized_sha256": "e067b3bba22adc5d016e32fd6384393d2a03d9a1bbbd2b8fe36216b03b4e7497"
+    },
+    {
+      "path": "src/LuaManager.h",
+      "retained_bytes": 11675,
+      "retained_sha256": "e20b23acfb112e6b68506d1f7bb158cf01d6bc1655392c5d44ef7dd41542b2c7",
+      "pinned_blob_bytes": 11675,
+      "pinned_blob_sha256": "e20b23acfb112e6b68506d1f7bb158cf01d6bc1655392c5d44ef7dd41542b2c7",
+      "raw_bytes_equal": true,
+      "equal_after_crlf_normalization": true,
+      "normalized_sha256": "e20b23acfb112e6b68506d1f7bb158cf01d6bc1655392c5d44ef7dd41542b2c7"
+    },
+    {
+      "path": "extern/lua-5.1/src/lauxlib.c",
+      "retained_bytes": 18267,
+      "retained_sha256": "5338d568f26dbc404aba20fd02857b69d38f70c28549309c15686e68f75f3c03",
+      "pinned_blob_bytes": 17607,
+      "pinned_blob_sha256": "2c5a177d4d2402f0e5aa829cde2233800dd0f8d1de55d4082ee268a27eb7a862",
+      "raw_bytes_equal": false,
+      "equal_after_crlf_normalization": true,
+      "normalized_sha256": "2c5a177d4d2402f0e5aa829cde2233800dd0f8d1de55d4082ee268a27eb7a862"
+    },
+    {
+      "path": "extern/lua-5.1/src/lobject.c",
+      "retained_bytes": 5712,
+      "retained_sha256": "5160a4348317285d003aaa7b4c8db374da89459898b441b06a5aaee395c96226",
+      "pinned_blob_bytes": 5498,
+      "pinned_blob_sha256": "d704915c79c721556cc5850d741ed3bef1611221356f0e3a2f0ee5cfd5fd3632",
+      "raw_bytes_equal": false,
+      "equal_after_crlf_normalization": true,
+      "normalized_sha256": "d704915c79c721556cc5850d741ed3bef1611221356f0e3a2f0ee5cfd5fd3632"
+    },
+    {
+      "path": "extern/lua-5.1/src/luaconf.h",
+      "retained_bytes": 23025,
+      "retained_sha256": "d43352db5c311501222d72bcd76a62b0e0bf4a09597795bf4c6cee2f431a49b5",
+      "pinned_blob_bytes": 22263,
+      "pinned_blob_sha256": "6ff033e78de02d724027cb697ed22a28fb1cb4aa4758c90fcb84a787074e44db",
+      "raw_bytes_equal": false,
+      "equal_after_crlf_normalization": true,
+      "normalized_sha256": "6ff033e78de02d724027cb697ed22a28fb1cb4aa4758c90fcb84a787074e44db"
+    }
+  ],
+  "native_files_equal_after_crlf_normalization": true,
+  "source_input_identity_recipe_reviewed": true,
+  "expected_output_harvested_from_run": false,
+  "final_full_statistics_gate_pending": true
+}
