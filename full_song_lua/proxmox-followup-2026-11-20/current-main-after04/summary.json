@@ -1,0 +1,2341 @@
+{
+  "source_commit": "c715e619dd5acba3ecacfaafc99fbc1981b8ec02",
+  "compiled_build_binding": {
+    "build_directory": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\full-replay-and-geometry-build-after04",
+    "build_execution_receipt_sha256": "4c3accd84194557f32b38706a8b2879545f70c2e51cd5ef951163c2311db867f",
+    "cargo_build_jsonl_sha256": "88303ab7d9ae91783b0bb0effed4cfd5cebceee27dc007a7015ae0d350f5772b",
+    "source_identity": {
+      "git_head": "da3505ca1e46de265ff8bf2bcd1fdb4728616566",
+      "git_branch": "main",
+      "tracked_patch_sha256": "477cf75c659fa827061c1319904e9ae23ae7bd97e933ef28b8b2ff0b86391634",
+      "source_files": {
+        "crates/deadlib-present/src/actors.rs": "40b73e54c76cd45ad7bdba50103920e092d2eca1a240d70de21febba3ee01564",
+        "crates/deadlib-present/src/compose.rs": "08843a65aa0b01817e4874891c82abed878f04b36d2607eb8a647503d19b9b69",
+        "crates/deadlib-present/src/compose_native_vertex_colors.rs": "7d10dafccf3ed6a559daab85a2e04cf6b0572ae3fb2c292c98c7bbf0b468c9e0",
+        "crates/deadsync-song-lua/src/actors.rs": "588f69fc23c2a66f14d8489b54ac0d6dd7877e575b15e378fcdab1ec3fa5712e",
+        "crates/deadsync-song-lua/src/actors/capture.rs": "e29ff22180329709f3596ee717e5c51d8b22c8728682cc00848541e1ba162fda",
+        "crates/deadsync-song-lua/src/actors/function_capture.rs": "55e93ef0e754af5439740c944e1c7b1884c1729cb710c35a8566640fdb716556",
+        "crates/deadsync-song-lua/src/actors/lifecycle.rs": "df183df0a410d827a3fc19c54ebda5ab77d6efdff9b0be283517e6d6e0e2971d",
+        "crates/deadsync-song-lua/src/actors/live_scene.rs": "0c84d8db0cd9f4aff93563ebe9d335858b5eacd28881089e7a6668a8ef0ad241",
+        "crates/deadsync-song-lua/src/actors/messages.rs": "284673c424d1645d627e683818e325d3e7035c85d9fdddfe4103bb24b98dc2cc",
+        "crates/deadsync-song-lua/src/actors/wrappers.rs": "012ac9f39507decb75edb78481a07aa55a602161ba2aa4a934ae00ef24f07ded",
+        "crates/deadsync-song-lua/src/live_scene.rs": "3fe49c75da8a36270020dc4f70fc02a373c3d8027c3a0e69b9f4a2a8693224f2",
+        "crates/deadsync-song-lua/src/live_scene/visuals.rs": "8f99adce0d3253265b4a496480beb8de4b7b7bedd1885e2a53af4588385aeebe",
+        "crates/deadsync-song-lua/src/playback.rs": "7636ee829c1e674f649f3689f6692668701b25059d67eb9fa83a76b04f833ceb",
+        "crates/deadsync-song-lua/src/playback/live_topology.rs": "45cd1158386175c90404caf7ec048323fbf1391077c9c6aa9e64a95ce8c6d9f1",
+        "crates/deadsync-song-lua/src/playback/screen_projection_tests.rs": "b3c90333a394c92fbc58bd2683e7bf94f8b2ed451d3c27758bac45b84fccfdd3",
+        "crates/deadsync-song-lua/tests/playback/cases.rs": "d123d3db5f377f38f61cd73132c12241690d7048049940f9d964545e9e18d527",
+        "crates/deadsync-song-lua/tests/playback/native_vertex_colors.rs": "a93eade281c6c11d4c80c997e9df1f72e15283ad243a0de899dd005307dc4afc",
+        "crates/deadsync-song-lua/tests/wrapper_removal.rs": "e68e9a74bcbdf9a56d541723983a5699fb418fcd59df2319fd0bc45129ee0b6b",
+        "crates/deadsync-theme-simply-love/src/screens/components/evaluation/pane_timing.rs": "35a2b8432cc0bdbd4ae7ac6d889d2e5eb891dc06ff3368b6561ba8d489e6fd58",
+        "crates/deadsync-theme-simply-love/src/screens/components/gameplay/gameplay_stats.rs": "1f1da6312a0bae52b2238e7671a4236ab9c84134b513eb450d15d6b3ad4ba1eb",
+        "crates/deadsync-theme-simply-love/src/screens/components/shared/qr_code.rs": "f9f6af3a1c1d475c7d6290d7f32d65c5eb0a40ff27be0735eb7a5928a21232f9",
+        "crates/deadsync-theme-simply-love/src/screens/evaluation.rs": "1b16e6252caba1e54c0663e7cb340e0aa4d79462140efe5d864d9325dbd16190",
+        "crates/deadsync-theme-simply-love/src/screens/gameplay.rs": "e72ee1520ef52a6239775868ed634116eed1b5e5f5821937e097a869fa1eb8df",
+        "crates/deadsync-theme-simply-love/src/screens/practice.rs": "112b2c82e2ebb624f66d66e9f5599a24364da94d853113872e2927d97c291f4e",
+        "crates/deadsync-theme-simply-love/src/screens/select_music.rs": "2d32818207114e0f5006dd2c0b59cc9229f94458b9b523b9d62c5fd466b510d6",
+        "tests/song_lua_itgmania_semantic_parity/interactive.rs": "d3e35b404c51f2fa9669c7570cf65664cfa8a0194981a1731161d4f1bc11e187",
+        "tests/song_lua_itgmania_semantic_parity/native_gameplay.rs": "55eca74b615ff1f2e17e736d93f38b6110a54d7ed0194318637db709547b4736",
+        "tests/song_lua_itgmania_semantic_parity/render_random.rs": "e5a0faf24743fe8541b7d1374e49b0355845ad407d29db444746810231386e4b"
+      },
+      "fixture_git_head": "731e7facabc7c60e827295918459d75880d26542"
+    },
+    "binaries": {
+      "full_song_lua": {
+        "path": "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync\\fc62f38cbb252f56\\out\\full_song_lua-fc62f38cbb252f56.exe",
+        "bytes": 49600000,
+        "sha256": "b466c6211c834f371bca599a2e34bf514e53ab8a2c3b96a8f33bb338def79e41"
+      },
+      "song_lua_itgmania_semantic_parity": {
+        "path": "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync\\51a66e855288c856\\out\\song_lua_itgmania_semantic_parity-51a66e855288c856.exe",
+        "bytes": 69944320,
+        "sha256": "dd661a9c237fc28974e86441d130f5d70a21fb13866b18caebfa592255580097"
+      }
+    }
+  },
+  "scope": "Measured checkpoint; retained failures are not accepted fixtures or complete parity.",
+  "cases": {
+    "interactive": {
+      "exit_code": 0,
+      "runtime_seconds": 2.21804589999374,
+      "binary_sha256": "dd661a9c237fc28974e86441d130f5d70a21fb13866b18caebfa592255580097",
+      "archive_sha256": null,
+      "archive_bytes": null,
+      "timed_out": null,
+      "report_written": false
+    },
+    "typed-aft-uv": {
+      "exit_code": 0,
+      "runtime_seconds": 6.313502999953926,
+      "binary_sha256": "b466c6211c834f371bca599a2e34bf514e53ab8a2c3b96a8f33bb338def79e41",
+      "archive_sha256": "11064b28f2572ca8a90e532e1639f30b416794ae886e7adf7e286c0c91324ac0",
+      "archive_bytes": 113423360,
+      "timed_out": null,
+      "report_sha256": "37a2eea1fe7d8c0377d730e5db4c4d887fadf9eb763d3a88ae28d27c4f82e22e",
+      "comparison": {
+        "native_frames": 537,
+        "replayed_frames": 537,
+        "checked_stage_samples": 17,
+        "compared_stage_fields": 4076,
+        "diagnostic_compared_stage_fields": 2038,
+        "archive_accepted": true,
+        "diagnostic_replay_checks_passed": true,
+        "production_gameplay_checks_passed": true,
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pixel_parity_proven": false,
+        "reported_mismatch_rows": 0,
+        "errors": [],
+        "pending_coverage": [
+          "uncompared song operations: Actor.Draw, Actor.SetSize, Actor.xy, ActorFrame.SetDrawFunction, ActorFrameTexture.Create, ActorFrameTexture.EnableAlphaBuffer, ActorFrameTexture.GetTexture, ActorFrameTexture.SetTextureName, ActorMultiVertex.SetDrawState, ActorMultiVertex.SetTexture, ActorMultiVertex.SetVertices",
+          "native drawable state/resources: ActorFrameTexture, ActorMultiVertex, Quad",
+          "missing captured subscriber identity for ScreenGameplay/2/11/1",
+          "missing captured subscriber identity for ScreenGameplay/2/12",
+          "missing captured subscriber identity for ScreenGameplay/2/15/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+          "missing captured subscriber identity for ScreenGameplay/2/8",
+          "missing captured subscriber identity for ScreenGameplay/25",
+          "missing captured subscriber identity for ScreenGameplay/26/1/1",
+          "missing captured subscriber identity for ScreenGameplay/26/1/10",
+          "missing captured subscriber identity for ScreenGameplay/26/1/12",
+          "missing captured subscriber identity for ScreenGameplay/26/1/2",
+          "missing captured subscriber identity for ScreenGameplay/26/1/4",
+          "missing captured subscriber identity for ScreenGameplay/26/1/5",
+          "missing captured subscriber identity for ScreenGameplay/26/1/7",
+          "missing captured subscriber identity for ScreenGameplay/26/1/9",
+          "missing captured subscriber identity for ScreenGameplay/3/1",
+          "production replay: application build without test-support",
+          "production replay: full-song completion",
+          "production replay: sampled framebuffer pixels",
+          "production replay: production command/query instrumentation",
+          "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+          "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+          "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+        ],
+        "draws": {
+          "input_events_replayed": 0,
+          "draw_samples_compared": 450,
+          "submitted_vertices_compared": 2700,
+          "live_text_samples_compared": 0,
+          "typed_equal_backing_aft_uv_samples_compared": 225,
+          "live_text_comparison": "content only; submitted glyph geometry, textures and RGBA are not compared",
+          "draw_mismatches": 0,
+          "equivalent_offscreen_culls": 0,
+          "batched_native_draw_samples": 0,
+          "draw_mismatch_counts": {},
+          "equivalent_degenerate_culls": 0,
+          "uncompared_owned_immediate_draws": 0,
+          "uncompared_owned_normal_draws": 0,
+          "render_random_inputs_replayed": 0,
+          "render_random_inputs_captured": 0,
+          "unreplayed_render_random_inputs": 0,
+          "draw_vibration_scopes_without_native_inputs": 0,
+          "pixel_parity_proven": false
+        },
+        "mismatch_examples": [],
+        "production": {
+          "native_frames": 537,
+          "replayed_frames": 537,
+          "checked_stage_samples": 17,
+          "compared_stage_fields": 2038,
+          "archive_accepted": false,
+          "production_gameplay_checks_passed": true,
+          "whole_song_parity_proven": false,
+          "production_parity_proven": false,
+          "pixel_parity_proven": false,
+          "reported_mismatch_rows": 0,
+          "errors": [],
+          "pending_coverage": [
+            "application build without test-support",
+            "full-song completion",
+            "sampled framebuffer pixels",
+            "production command/query instrumentation",
+            "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+            "saved statistics getter functions explicitly invoked with another stage's player receiver",
+            "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+          ],
+          "draws": {
+            "input_events_replayed": 0,
+            "draw_samples_compared": 450,
+            "submitted_vertices_compared": 2700,
+            "live_text_samples_compared": 0,
+            "typed_equal_backing_aft_uv_samples_compared": 225,
+            "live_text_comparison": "content only; submitted glyph geometry, textures and RGBA are not compared",
+            "draw_mismatches": 0,
+            "equivalent_offscreen_culls": 0,
+            "batched_native_draw_samples": 0,
+            "draw_mismatch_counts": {},
+            "equivalent_degenerate_culls": 0,
+            "uncompared_owned_immediate_draws": 0,
+            "uncompared_owned_normal_draws": 0,
+            "render_random_inputs_replayed": 0,
+            "render_random_inputs_captured": 0,
+            "unreplayed_render_random_inputs": 0,
+            "draw_vibration_scopes_without_native_inputs": 0,
+            "pixel_parity_proven": false
+          },
+          "mismatch_examples": []
+        }
+      }
+    },
+    "amv-color": {
+      "exit_code": 2,
+      "runtime_seconds": 8.011258400045335,
+      "binary_sha256": "b466c6211c834f371bca599a2e34bf514e53ab8a2c3b96a8f33bb338def79e41",
+      "archive_sha256": "ae2df4b168a8190ecc416828571d0d0bff6d2e43634f9d09c1f041afd9843d4b",
+      "archive_bytes": 118882816,
+      "timed_out": null,
+      "report_sha256": "921651b932c55dfdbc68ec74935f8a4c9c03ad7e44ef3f95065aab42770ce7c6",
+      "comparison": {
+        "native_frames": 559,
+        "replayed_frames": 559,
+        "checked_stage_samples": 17,
+        "compared_stage_fields": 4176,
+        "diagnostic_compared_stage_fields": 2088,
+        "archive_accepted": false,
+        "diagnostic_replay_checks_passed": false,
+        "production_gameplay_checks_passed": false,
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pixel_parity_proven": false,
+        "reported_mismatch_rows": 200,
+        "errors": [],
+        "pending_coverage": [
+          "uncompared song operations: Actor.Draw, Actor.SetSize, Actor.glow, Actor.xy, ActorFrame.SetDrawFunction, ActorFrameTexture.Create, ActorFrameTexture.EnableAlphaBuffer, ActorFrameTexture.GetTexture, ActorFrameTexture.SetTextureName, ActorMultiVertex.SetDrawState, ActorMultiVertex.SetTexture, ActorMultiVertex.SetVertices",
+          "native drawable state/resources: ActorFrameTexture, ActorMultiVertex, Quad",
+          "missing captured subscriber identity for ScreenGameplay/2/11/1",
+          "missing captured subscriber identity for ScreenGameplay/2/12",
+          "missing captured subscriber identity for ScreenGameplay/2/15/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+          "missing captured subscriber identity for ScreenGameplay/2/8",
+          "missing captured subscriber identity for ScreenGameplay/25",
+          "missing captured subscriber identity for ScreenGameplay/26/1/1",
+          "missing captured subscriber identity for ScreenGameplay/26/1/10",
+          "missing captured subscriber identity for ScreenGameplay/26/1/12",
+          "missing captured subscriber identity for ScreenGameplay/26/1/2",
+          "missing captured subscriber identity for ScreenGameplay/26/1/4",
+          "missing captured subscriber identity for ScreenGameplay/26/1/5",
+          "missing captured subscriber identity for ScreenGameplay/26/1/7",
+          "missing captured subscriber identity for ScreenGameplay/26/1/9",
+          "missing captured subscriber identity for ScreenGameplay/3/1",
+          "production replay: application build without test-support",
+          "production replay: full-song completion",
+          "production replay: sampled framebuffer pixels",
+          "production replay: production command/query instrumentation",
+          "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+          "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+          "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+        ],
+        "draws": {
+          "input_events_replayed": 0,
+          "draw_samples_compared": 2380,
+          "submitted_vertices_compared": 8568,
+          "live_text_samples_compared": 0,
+          "typed_equal_backing_aft_uv_samples_compared": 714,
+          "live_text_comparison": "content only; submitted glyph geometry, textures and RGBA are not compared",
+          "draw_mismatches": 1666,
+          "equivalent_offscreen_culls": 0,
+          "batched_native_draw_samples": 0,
+          "draw_mismatch_counts": {
+            "draw_shape_resource_or_depth": 476,
+            "normal_draw_callback_did_not_submit_actor": 476,
+            "submitted_clip_uv_color_or_topology": 714
+          },
+          "equivalent_degenerate_culls": 0,
+          "uncompared_owned_immediate_draws": 0,
+          "uncompared_owned_normal_draws": 0,
+          "render_random_inputs_replayed": 0,
+          "render_random_inputs_captured": 0,
+          "unreplayed_render_random_inputs": 0,
+          "draw_vibration_scopes_without_native_inputs": 0,
+          "pixel_parity_proven": false
+        },
+        "mismatch_examples": [
+          {
+            "field": "submitted_clip_uv_color_or_topology",
+            "actor": "def-0001",
+            "frame": 236,
+            "deadsync": {
+              "example_vertex": [
+                1,
+                [
+                  -0.981264591217041,
+                  1.0,
+                  0.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              "first_actual_triangle": [
+                [
+                  -0.9999999403953552,
+                  1.0,
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  -0.981264591217041,
+                  1.0,
+                  0.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  -0.981264591217041,
+                  0.9666666984558105,
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              "first_native_quad": [
+                [
+                  -0.5,
+                  -0.5,
+                  0,
+                  -1,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  -0.5,
+                  0.5,
+                  0,
+                  -1,
+                  -1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0,
+                  1,
+                  -1,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0.5,
+                  -0.5,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ]
+              ]
+            }
+          },
+          {
+            "field": "submitted_clip_uv_color_or_topology",
+            "actor": "def-0003",
+            "frame": 236,
+            "deadsync": {
+              "example_vertex": [
+                0,
+                [
+                  -0.8126463890075684,
+                  0.5,
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0941176488995552,
+                  0.2980392277240753,
+                  0.658823549747467,
+                  0.0941176488995552
+                ]
+              ],
+              "first_actual_triangle": [
+                [
+                  -0.8126463890075684,
+                  0.5,
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0941176488995552,
+                  0.2980392277240753,
+                  0.658823549747467,
+                  0.0941176488995552
+                ],
+                [
+                  -0.6627634763717651,
+                  0.5,
+                  0.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.6000000238418579,
+                  0.3764705955982208,
+                  0.3960784375667572
+                ],
+                [
+                  -0.6627634763717651,
+                  0.23333331942558289,
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0941176488995552,
+                  0.2980392277240753,
+                  0.658823549747467,
+                  0.0941176488995552
+                ]
+              ],
+              "first_native_quad": [
+                [
+                  0,
+                  0,
+                  0,
+                  -0.8126463890075684,
+                  0.5,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0.08235294117647059,
+                  0.2627450980392157,
+                  0.49411764705882355,
+                  0.08235294117647059
+                ],
+                [
+                  64,
+                  0,
+                  0,
+                  -0.6627634763717651,
+                  0.5,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0.5215686274509804,
+                  0.2823529411764706,
+                  0.34509803921568627
+                ],
+                [
+                  64,
+                  64,
+                  0,
+                  -0.6627634763717651,
+                  0.2333332896232605,
+                  0,
+                  1,
+                  1,
+                  1,
+                  0.08235294117647059,
+                  0.2627450980392157,
+                  0.49411764705882355,
+                  0.08235294117647059
+                ],
+                [
+                  0,
+                  64,
+                  0,
+                  -0.8126463890075684,
+                  0.2333332896232605,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0.5215686274509804,
+                  0.2823529411764706,
+                  0.34509803921568627
+                ]
+              ]
+            }
+          },
+          {
+            "field": "draw_shape_resource_or_depth",
+            "actor": "def-0011",
+            "frame": 236,
+            "deadsync": {
+              "vertices": 12,
+              "expected_vertices": 6,
+              "texture_ok": true,
+              "expected_texture": null,
+              "actual_texture": "<released texture>",
+              "depth_ok": true,
+              "sampler_ok": true,
+              "native_submissions": 1,
+              "extra_ordinary_draw": false,
+              "ops": "[TexturedMesh(TexturedMeshRun { sampler: Some(Override { filter: Linear, wrap: Clamp }), additive_texture: 0, geometry: 0, instance_start: 0, instance_count: 1, blend: Alpha, texture_handle: 9223372036854775810, camera: 0, depth_test: false, depth_write: false, depth_test_on_fail: false, clear_depth: false }), TexturedMesh(TexturedMeshRun { sampler: Some(Override { filter: Linear, wrap: Clamp }), additive_texture: 0, geometry: 1, instance_start: 1, instance_count: 1, blend: Alpha, texture_handle: 9223372036854775810, camera: 0, depth_test: false, depth_write: false, depth_test_on_fail: false, clear_depth: false })]"
+            }
+          },
+          {
+            "field": "normal_draw_callback_did_not_submit_actor",
+            "actor": "def-0011",
+            "frame": 236,
+            "deadsync": {
+              "group": 0,
+              "index": 12
+            }
+          },
+          {
+            "field": "submitted_clip_uv_color_or_topology",
+            "actor": "def-0013",
+            "frame": 236,
+            "deadsync": {
+              "example_vertex": [
+                0,
+                [
+                  -0.4379391670227051,
+                  -0.1666666716337204,
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0941176488995552,
+                  0.2980392277240753,
+                  0.658823549747467,
+                  0.0941176488995552
+                ]
+              ],
+              "first_actual_triangle": [
+                [
+                  -0.4379391670227051,
+                  -0.1666666716337204,
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0941176488995552,
+                  0.2980392277240753,
+                  0.658823549747467,
+                  0.0941176488995552
+                ],
+                [
+                  -0.28805625438690186,
+                  -0.1666666716337204,
+                  0.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.6000000238418579,
+                  0.3764705955982208,
+                  0.3960784375667572
+                ],
+                [
+                  -0.28805625438690186,
+                  -0.4333333373069763,
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0941176488995552,
+                  0.2980392277240753,
+                  0.658823549747467,
+                  0.0941176488995552
+                ]
+              ],
+              "first_native_quad": [
+                [
+                  0,
+                  0,
+                  0,
+                  -0.4379391074180603,
+                  -0.16666674613952637,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0.08235294117647059,
+                  0.2627450980392157,
+                  0.49411764705882355,
+                  0.08235294117647059
+                ],
+                [
+                  64,
+                  0,
+                  0,
+                  -0.28805625438690186,
+                  -0.16666674613952637,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0.5215686274509804,
+                  0.2823529411764706,
+                  0.34509803921568627
+                ],
+                [
+                  64,
+                  64,
+                  0,
+                  -0.28805625438690186,
+                  -0.4333333969116211,
+                  0,
+                  1,
+                  1,
+                  1,
+                  0.08235294117647059,
+                  0.2627450980392157,
+                  0.49411764705882355,
+                  0.08235294117647059
+                ],
+                [
+                  0,
+                  64,
+                  0,
+                  -0.4379391074180603,
+                  -0.4333333969116211,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0.5215686274509804,
+                  0.2823529411764706,
+                  0.34509803921568627
+                ]
+              ]
+            }
+          },
+          {
+            "field": "draw_shape_resource_or_depth",
+            "actor": "def-0015",
+            "frame": 236,
+            "deadsync": {
+              "vertices": 12,
+              "expected_vertices": 6,
+              "texture_ok": true,
+              "expected_texture": null,
+              "actual_texture": "__songlua_native_default_texture.png",
+              "depth_ok": true,
+              "sampler_ok": true,
+              "native_submissions": 1,
+              "extra_ordinary_draw": false,
+              "ops": "[TexturedMesh(TexturedMeshRun { sampler: Some(Override { filter: Linear, wrap: Clamp }), additive_texture: 0, geometry: 0, instance_start: 0, instance_count: 1, blend: Alpha, texture_handle: 2, camera: 0, depth_test: false, depth_write: false, depth_test_on_fail: false, clear_depth: false }), TexturedMesh(TexturedMeshRun { sampler: Some(Override { filter: Linear, wrap: Clamp }), additive_texture: 0, geometry: 1, instance_start: 1, instance_count: 1, blend: Alpha, texture_handle: 2, camera: 0, depth_test: false, depth_write: false, depth_test_on_fail: false, clear_depth: false })]"
+            }
+          },
+          {
+            "field": "normal_draw_callback_did_not_submit_actor",
+            "actor": "def-0015",
+            "frame": 236,
+            "deadsync": {
+              "group": 0,
+              "index": 16
+            }
+          },
+          {
+            "field": "submitted_clip_uv_color_or_topology",
+            "actor": "def-0001",
+            "frame": 237,
+            "deadsync": {
+              "example_vertex": [
+                1,
+                [
+                  -0.981264591217041,
+                  1.0,
+                  0.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              "first_actual_triangle": [
+                [
+                  -0.9999999403953552,
+                  1.0,
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  -0.981264591217041,
+                  1.0,
+                  0.0,
+                  1.0,
+                  1.0,
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                [
+                  -0.981264591217041,
+                  0.9666666984558105,
+                  0.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              ],
+              "first_native_quad": [
+                [
+                  -0.5,
+                  -0.5,
+                  0,
+                  -1,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  -0.5,
+                  0.5,
+                  0,
+                  -1,
+                  -1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0.5,
+                  0.5,
+                  0,
+                  1,
+                  -1,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  0.5,
+                  -0.5,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ]
+              ]
+            }
+          }
+        ],
+        "production": {
+          "native_frames": 559,
+          "replayed_frames": 559,
+          "checked_stage_samples": 17,
+          "compared_stage_fields": 2088,
+          "archive_accepted": false,
+          "production_gameplay_checks_passed": false,
+          "whole_song_parity_proven": false,
+          "production_parity_proven": false,
+          "pixel_parity_proven": false,
+          "reported_mismatch_rows": 100,
+          "errors": [],
+          "pending_coverage": [
+            "application build without test-support",
+            "full-song completion",
+            "sampled framebuffer pixels",
+            "production command/query instrumentation",
+            "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+            "saved statistics getter functions explicitly invoked with another stage's player receiver",
+            "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+          ],
+          "draws": {
+            "input_events_replayed": 0,
+            "draw_samples_compared": 2380,
+            "submitted_vertices_compared": 8568,
+            "live_text_samples_compared": 0,
+            "typed_equal_backing_aft_uv_samples_compared": 714,
+            "live_text_comparison": "content only; submitted glyph geometry, textures and RGBA are not compared",
+            "draw_mismatches": 1666,
+            "equivalent_offscreen_culls": 0,
+            "batched_native_draw_samples": 0,
+            "draw_mismatch_counts": {
+              "draw_shape_resource_or_depth": 476,
+              "normal_draw_callback_did_not_submit_actor": 476,
+              "submitted_clip_uv_color_or_topology": 714
+            },
+            "equivalent_degenerate_culls": 0,
+            "uncompared_owned_immediate_draws": 0,
+            "uncompared_owned_normal_draws": 0,
+            "render_random_inputs_replayed": 0,
+            "render_random_inputs_captured": 0,
+            "unreplayed_render_random_inputs": 0,
+            "draw_vibration_scopes_without_native_inputs": 0,
+            "pixel_parity_proven": false
+          },
+          "mismatch_examples": [
+            {
+              "field": "submitted_clip_uv_color_or_topology",
+              "actor": "def-0001",
+              "frame": 236,
+              "deadsync": {
+                "example_vertex": [
+                  1,
+                  [
+                    -0.981264591217041,
+                    1.0,
+                    0.0,
+                    1.0,
+                    1.0,
+                    0.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                "first_actual_triangle": [
+                  [
+                    -0.9999999403953552,
+                    1.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  [
+                    -0.981264591217041,
+                    1.0,
+                    0.0,
+                    1.0,
+                    1.0,
+                    0.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  [
+                    -0.981264591217041,
+                    0.9666666984558105,
+                    0.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                "first_native_quad": [
+                  [
+                    -0.5,
+                    -0.5,
+                    0,
+                    -1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  [
+                    -0.5,
+                    0.5,
+                    0,
+                    -1,
+                    -1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  [
+                    0.5,
+                    0.5,
+                    0,
+                    1,
+                    -1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  [
+                    0.5,
+                    -0.5,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              }
+            },
+            {
+              "field": "submitted_clip_uv_color_or_topology",
+              "actor": "def-0003",
+              "frame": 236,
+              "deadsync": {
+                "example_vertex": [
+                  0,
+                  [
+                    -0.8126463890075684,
+                    0.5,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0941176488995552,
+                    0.2980392277240753,
+                    0.658823549747467,
+                    0.0941176488995552
+                  ]
+                ],
+                "first_actual_triangle": [
+                  [
+                    -0.8126463890075684,
+                    0.5,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0941176488995552,
+                    0.2980392277240753,
+                    0.658823549747467,
+                    0.0941176488995552
+                  ],
+                  [
+                    -0.6627634763717651,
+                    0.5,
+                    0.0,
+                    1.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.6000000238418579,
+                    0.3764705955982208,
+                    0.3960784375667572
+                  ],
+                  [
+                    -0.6627634763717651,
+                    0.23333331942558289,
+                    0.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.0941176488995552,
+                    0.2980392277240753,
+                    0.658823549747467,
+                    0.0941176488995552
+                  ]
+                ],
+                "first_native_quad": [
+                  [
+                    0,
+                    0,
+                    0,
+                    -0.8126463890075684,
+                    0.5,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0.08235294117647059,
+                    0.2627450980392157,
+                    0.49411764705882355,
+                    0.08235294117647059
+                  ],
+                  [
+                    64,
+                    0,
+                    0,
+                    -0.6627634763717651,
+                    0.5,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0.5215686274509804,
+                    0.2823529411764706,
+                    0.34509803921568627
+                  ],
+                  [
+                    64,
+                    64,
+                    0,
+                    -0.6627634763717651,
+                    0.2333332896232605,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0.08235294117647059,
+                    0.2627450980392157,
+                    0.49411764705882355,
+                    0.08235294117647059
+                  ],
+                  [
+                    0,
+                    64,
+                    0,
+                    -0.8126463890075684,
+                    0.2333332896232605,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0.5215686274509804,
+                    0.2823529411764706,
+                    0.34509803921568627
+                  ]
+                ]
+              }
+            },
+            {
+              "field": "draw_shape_resource_or_depth",
+              "actor": "def-0011",
+              "frame": 236,
+              "deadsync": {
+                "vertices": 12,
+                "expected_vertices": 6,
+                "texture_ok": true,
+                "expected_texture": null,
+                "actual_texture": "<released texture>",
+                "depth_ok": true,
+                "sampler_ok": true,
+                "native_submissions": 1,
+                "extra_ordinary_draw": false,
+                "ops": "[TexturedMesh(TexturedMeshRun { sampler: Some(Override { filter: Linear, wrap: Clamp }), additive_texture: 0, geometry: 0, instance_start: 0, instance_count: 1, blend: Alpha, texture_handle: 9223372036854776288, camera: 0, depth_test: false, depth_write: false, depth_test_on_fail: false, clear_depth: false }), TexturedMesh(TexturedMeshRun { sampler: Some(Override { filter: Linear, wrap: Clamp }), additive_texture: 0, geometry: 1, instance_start: 1, instance_count: 1, blend: Alpha, texture_handle: 9223372036854776288, camera: 0, depth_test: false, depth_write: false, depth_test_on_fail: false, clear_depth: false })]"
+              }
+            },
+            {
+              "field": "normal_draw_callback_did_not_submit_actor",
+              "actor": "def-0011",
+              "frame": 236,
+              "deadsync": {
+                "group": 0,
+                "index": 12
+              }
+            },
+            {
+              "field": "submitted_clip_uv_color_or_topology",
+              "actor": "def-0013",
+              "frame": 236,
+              "deadsync": {
+                "example_vertex": [
+                  0,
+                  [
+                    -0.4379391670227051,
+                    -0.1666666716337204,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0941176488995552,
+                    0.2980392277240753,
+                    0.658823549747467,
+                    0.0941176488995552
+                  ]
+                ],
+                "first_actual_triangle": [
+                  [
+                    -0.4379391670227051,
+                    -0.1666666716337204,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0941176488995552,
+                    0.2980392277240753,
+                    0.658823549747467,
+                    0.0941176488995552
+                  ],
+                  [
+                    -0.28805625438690186,
+                    -0.1666666716337204,
+                    0.0,
+                    1.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.6000000238418579,
+                    0.3764705955982208,
+                    0.3960784375667572
+                  ],
+                  [
+                    -0.28805625438690186,
+                    -0.4333333373069763,
+                    0.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.0941176488995552,
+                    0.2980392277240753,
+                    0.658823549747467,
+                    0.0941176488995552
+                  ]
+                ],
+                "first_native_quad": [
+                  [
+                    0,
+                    0,
+                    0,
+                    -0.4379391074180603,
+                    -0.16666674613952637,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0.08235294117647059,
+                    0.2627450980392157,
+                    0.49411764705882355,
+                    0.08235294117647059
+                  ],
+                  [
+                    64,
+                    0,
+                    0,
+                    -0.28805625438690186,
+                    -0.16666674613952637,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0.5215686274509804,
+                    0.2823529411764706,
+                    0.34509803921568627
+                  ],
+                  [
+                    64,
+                    64,
+                    0,
+                    -0.28805625438690186,
+                    -0.4333333969116211,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0.08235294117647059,
+                    0.2627450980392157,
+                    0.49411764705882355,
+                    0.08235294117647059
+                  ],
+                  [
+                    0,
+                    64,
+                    0,
+                    -0.4379391074180603,
+                    -0.4333333969116211,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0.5215686274509804,
+                    0.2823529411764706,
+                    0.34509803921568627
+                  ]
+                ]
+              }
+            },
+            {
+              "field": "draw_shape_resource_or_depth",
+              "actor": "def-0015",
+              "frame": 236,
+              "deadsync": {
+                "vertices": 12,
+                "expected_vertices": 6,
+                "texture_ok": true,
+                "expected_texture": null,
+                "actual_texture": "__songlua_native_default_texture.png",
+                "depth_ok": true,
+                "sampler_ok": true,
+                "native_submissions": 1,
+                "extra_ordinary_draw": false,
+                "ops": "[TexturedMesh(TexturedMeshRun { sampler: Some(Override { filter: Linear, wrap: Clamp }), additive_texture: 0, geometry: 0, instance_start: 0, instance_count: 1, blend: Alpha, texture_handle: 2, camera: 0, depth_test: false, depth_write: false, depth_test_on_fail: false, clear_depth: false }), TexturedMesh(TexturedMeshRun { sampler: Some(Override { filter: Linear, wrap: Clamp }), additive_texture: 0, geometry: 1, instance_start: 1, instance_count: 1, blend: Alpha, texture_handle: 2, camera: 0, depth_test: false, depth_write: false, depth_test_on_fail: false, clear_depth: false })]"
+              }
+            },
+            {
+              "field": "normal_draw_callback_did_not_submit_actor",
+              "actor": "def-0015",
+              "frame": 236,
+              "deadsync": {
+                "group": 0,
+                "index": 16
+              }
+            },
+            {
+              "field": "submitted_clip_uv_color_or_topology",
+              "actor": "def-0001",
+              "frame": 237,
+              "deadsync": {
+                "example_vertex": [
+                  1,
+                  [
+                    -0.981264591217041,
+                    1.0,
+                    0.0,
+                    1.0,
+                    1.0,
+                    0.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                "first_actual_triangle": [
+                  [
+                    -0.9999999403953552,
+                    1.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  [
+                    -0.981264591217041,
+                    1.0,
+                    0.0,
+                    1.0,
+                    1.0,
+                    0.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  [
+                    -0.981264591217041,
+                    0.9666666984558105,
+                    0.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ]
+                ],
+                "first_native_quad": [
+                  [
+                    -0.5,
+                    -0.5,
+                    0,
+                    -1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  [
+                    -0.5,
+                    0.5,
+                    0,
+                    -1,
+                    -1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  [
+                    0.5,
+                    0.5,
+                    0,
+                    1,
+                    -1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  [
+                    0.5,
+                    -0.5,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "wrapper-removal": {
+      "exit_code": 2,
+      "runtime_seconds": 6.779735999996774,
+      "binary_sha256": "b466c6211c834f371bca599a2e34bf514e53ab8a2c3b96a8f33bb338def79e41",
+      "archive_sha256": "dc4a2bd32a5bee041fb431a1439db9751092b0e293fa0abcf64e1402760f9794",
+      "archive_bytes": 114892288,
+      "timed_out": null,
+      "report_sha256": "ad26915e1c732c8a86a557da05844127f62ce5b621a89fc883e43f97308c161b",
+      "comparison": {
+        "native_frames": 581,
+        "replayed_frames": 581,
+        "checked_stage_samples": 17,
+        "compared_stage_fields": 4316,
+        "diagnostic_compared_stage_fields": 2158,
+        "archive_accepted": false,
+        "diagnostic_replay_checks_passed": false,
+        "production_gameplay_checks_passed": true,
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pixel_parity_proven": false,
+        "reported_mismatch_rows": 8,
+        "errors": [],
+        "pending_coverage": [
+          "uncompared song operations: Actor.AddWrapperState, Actor.GetNumWrapperStates, Actor.GetSecsIntoEffect, Actor.GetWrapperState, Actor.RemoveWrapperState, Actor.setsize, Actor.stopeffect, Actor.xy, Actor.z, Actor.zoomy, GameState.GetSongPosition",
+          "native drawable state/resources: Quad, Sprite",
+          "missing captured subscriber identity for ScreenGameplay/2/11/1",
+          "missing captured subscriber identity for ScreenGameplay/2/12",
+          "missing captured subscriber identity for ScreenGameplay/2/15/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+          "missing captured subscriber identity for ScreenGameplay/2/8",
+          "missing captured subscriber identity for ScreenGameplay/25",
+          "missing captured subscriber identity for ScreenGameplay/26/1/1",
+          "missing captured subscriber identity for ScreenGameplay/26/1/10",
+          "missing captured subscriber identity for ScreenGameplay/26/1/12",
+          "missing captured subscriber identity for ScreenGameplay/26/1/2",
+          "missing captured subscriber identity for ScreenGameplay/26/1/4",
+          "missing captured subscriber identity for ScreenGameplay/26/1/5",
+          "missing captured subscriber identity for ScreenGameplay/26/1/7",
+          "missing captured subscriber identity for ScreenGameplay/26/1/9",
+          "missing captured subscriber identity for ScreenGameplay/3/1",
+          "production replay: application build without test-support",
+          "production replay: full-song completion",
+          "production replay: sampled framebuffer pixels",
+          "production replay: production command/query instrumentation",
+          "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+          "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+          "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+        ],
+        "draws": {
+          "input_events_replayed": 0,
+          "draw_samples_compared": 1300,
+          "submitted_vertices_compared": 7800,
+          "live_text_samples_compared": 0,
+          "typed_equal_backing_aft_uv_samples_compared": 0,
+          "live_text_comparison": "content only; submitted glyph geometry, textures and RGBA are not compared",
+          "draw_mismatches": 0,
+          "equivalent_offscreen_culls": 0,
+          "batched_native_draw_samples": 0,
+          "draw_mismatch_counts": {},
+          "equivalent_degenerate_culls": 0,
+          "uncompared_owned_immediate_draws": 0,
+          "uncompared_owned_normal_draws": 0,
+          "render_random_inputs_replayed": 12,
+          "render_random_inputs_captured": 12,
+          "unreplayed_render_random_inputs": 0,
+          "draw_vibration_scopes_without_native_inputs": 0,
+          "pixel_parity_proven": false
+        },
+        "mismatch_examples": [
+          {
+            "field": "call_trace_error",
+            "deadsync": {
+              "scene": 1,
+              "kind": "trace-error",
+              "operation": "Actor.x",
+              "source": "C:/Users/PERFEC~1/AppData/Local/Temp/.tmp6VH3yh/song/control.lua",
+              "line": 6,
+              "phase": "callback",
+              "beat": 1.484775424003601,
+              "seconds": 0.759387731552124,
+              "error": "actor instance is not owned by this runtime or has been released"
+            }
+          },
+          {
+            "field": "call_trace_error",
+            "deadsync": {
+              "scene": 1,
+              "kind": "trace-error",
+              "operation": "Actor.x",
+              "source": "C:/Users/PERFEC~1/AppData/Local/Temp/.tmp6VH3yh/song/control.lua",
+              "line": 6,
+              "phase": "callback",
+              "beat": 1.484775424003601,
+              "seconds": 0.759387731552124,
+              "error": "actor instance is not owned by this runtime or has been released"
+            }
+          },
+          {
+            "field": "call_trace_error",
+            "deadsync": {
+              "scene": 1,
+              "kind": "trace-error",
+              "operation": "Actor.x",
+              "source": "C:/Users/PERFEC~1/AppData/Local/Temp/.tmp6VH3yh/song/control.lua",
+              "line": 6,
+              "phase": "callback",
+              "beat": 2.592303991317749,
+              "seconds": 1.3131519556045532,
+              "error": "actor instance is not owned by this runtime or has been released"
+            }
+          },
+          {
+            "field": "call_trace_error",
+            "deadsync": {
+              "scene": 1,
+              "kind": "trace-error",
+              "operation": "Actor.x",
+              "source": "C:/Users/PERFEC~1/AppData/Local/Temp/.tmp6VH3yh/song/control.lua",
+              "line": 6,
+              "phase": "callback",
+              "beat": 3.265047788619995,
+              "seconds": 1.6495238542556763,
+              "error": "actor instance is not owned by this runtime or has been released"
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0027",
+              "args": [
+                0
+              ],
+              "beat": 1.484775424003601,
+              "caller": {
+                "line": 6,
+                "source": "song:/control.lua",
+                "tail_call": false
+              },
+              "command": "UpdateCommand",
+              "definition_id": "def-0001",
+              "kind": "call",
+              "line": 6,
+              "operation": "Actor.x",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 0.759387731552124,
+              "seq": 251,
+              "source": "song:/control.lua",
+              "tween_time_left": null
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "trace-error",
+              "operation": "Actor.x",
+              "source": "song:/control.lua",
+              "line": 6,
+              "phase": "callback",
+              "beat": 1.484775424003601,
+              "seconds": 0.759387731552124,
+              "error": "actor instance is not owned by this runtime or has been released",
+              "args": null
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0029",
+              "args": [
+                0
+              ],
+              "beat": 1.484775424003601,
+              "caller": {
+                "line": 6,
+                "source": "song:/control.lua",
+                "tail_call": false
+              },
+              "command": "UpdateCommand",
+              "definition_id": "def-0001",
+              "kind": "call",
+              "line": 6,
+              "operation": "Actor.x",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 0.759387731552124,
+              "seq": 252,
+              "source": "song:/control.lua",
+              "tween_time_left": null
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "trace-error",
+              "operation": "Actor.x",
+              "source": "song:/control.lua",
+              "line": 6,
+              "phase": "callback",
+              "beat": 1.484775424003601,
+              "seconds": 0.759387731552124,
+              "error": "actor instance is not owned by this runtime or has been released",
+              "args": null
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0026",
+              "args": [
+                0
+              ],
+              "beat": 2.592303991317749,
+              "caller": {
+                "line": 6,
+                "source": "song:/control.lua",
+                "tail_call": false
+              },
+              "command": "UpdateCommand",
+              "definition_id": "def-0001",
+              "kind": "call",
+              "line": 6,
+              "operation": "Actor.x",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 1.3131519556045532,
+              "seq": 369,
+              "source": "song:/control.lua",
+              "tween_time_left": null
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "trace-error",
+              "operation": "Actor.x",
+              "source": "song:/control.lua",
+              "line": 6,
+              "phase": "callback",
+              "beat": 2.592303991317749,
+              "seconds": 1.3131519556045532,
+              "error": "actor instance is not owned by this runtime or has been released",
+              "args": null
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0028",
+              "args": [
+                0
+              ],
+              "beat": 3.265047788619995,
+              "caller": {
+                "line": 6,
+                "source": "song:/control.lua",
+                "tail_call": false
+              },
+              "command": "UpdateCommand",
+              "definition_id": "def-0001",
+              "kind": "call",
+              "line": 6,
+              "operation": "Actor.x",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 1.6495238542556763,
+              "seq": 442,
+              "source": "song:/control.lua",
+              "tween_time_left": null
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "trace-error",
+              "operation": "Actor.x",
+              "source": "song:/control.lua",
+              "line": 6,
+              "phase": "callback",
+              "beat": 3.265047788619995,
+              "seconds": 1.6495238542556763,
+              "error": "actor instance is not owned by this runtime or has been released",
+              "args": null
+            }
+          }
+        ],
+        "production": {
+          "native_frames": 581,
+          "replayed_frames": 581,
+          "checked_stage_samples": 17,
+          "compared_stage_fields": 2158,
+          "archive_accepted": false,
+          "production_gameplay_checks_passed": true,
+          "whole_song_parity_proven": false,
+          "production_parity_proven": false,
+          "pixel_parity_proven": false,
+          "reported_mismatch_rows": 0,
+          "errors": [],
+          "pending_coverage": [
+            "application build without test-support",
+            "full-song completion",
+            "sampled framebuffer pixels",
+            "production command/query instrumentation",
+            "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+            "saved statistics getter functions explicitly invoked with another stage's player receiver",
+            "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+          ],
+          "draws": {
+            "input_events_replayed": 0,
+            "draw_samples_compared": 1300,
+            "submitted_vertices_compared": 7800,
+            "live_text_samples_compared": 0,
+            "typed_equal_backing_aft_uv_samples_compared": 0,
+            "live_text_comparison": "content only; submitted glyph geometry, textures and RGBA are not compared",
+            "draw_mismatches": 0,
+            "equivalent_offscreen_culls": 0,
+            "batched_native_draw_samples": 0,
+            "draw_mismatch_counts": {},
+            "equivalent_degenerate_culls": 0,
+            "uncompared_owned_immediate_draws": 0,
+            "uncompared_owned_normal_draws": 0,
+            "render_random_inputs_replayed": 12,
+            "render_random_inputs_captured": 12,
+            "unreplayed_render_random_inputs": 0,
+            "draw_vibration_scopes_without_native_inputs": 0,
+            "pixel_parity_proven": false
+          },
+          "mismatch_examples": []
+        }
+      }
+    },
+    "sharkmode": {
+      "exit_code": 0,
+      "runtime_seconds": 32.69855120003922,
+      "binary_sha256": "b466c6211c834f371bca599a2e34bf514e53ab8a2c3b96a8f33bb338def79e41",
+      "archive_sha256": "c3a143c50fd1efb56e4f590560d157459417a1583f9b2e7db8fb35231fea4ab2",
+      "archive_bytes": 169671168,
+      "timed_out": null,
+      "report_sha256": "84a9906f70df0830eda5b42ee0d0ba2a7cd1da1737230bfc89bbcc4dea1e3d94",
+      "comparison": {
+        "native_frames": 2008,
+        "replayed_frames": 2008,
+        "checked_stage_samples": 149,
+        "compared_stage_fields": 23458,
+        "diagnostic_compared_stage_fields": 11729,
+        "archive_accepted": true,
+        "diagnostic_replay_checks_passed": true,
+        "production_gameplay_checks_passed": true,
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pixel_parity_proven": false,
+        "reported_mismatch_rows": 0,
+        "errors": [],
+        "pending_coverage": [
+          "uncompared song operations: Actor.AddWrapperState, Actor.Draw, Actor.GetNumWrapperStates, Actor.GetWrapperState, Actor.GetX, Actor.GetY, Actor.GetZoom, Actor.GetZoomX, Actor.GetZoomY, Actor.SetSize, Actor.addcommand, Actor.blend, Actor.fadeleft, Actor.faderight, Actor.getrotation, Actor.playcommand, Actor.rotationx, Actor.rotationy, Actor.scale_or_crop_background, Actor.xy, Actor.z, Actor.zoomz, ActorFrame.GetChildren, ActorFrame.SetDrawFunction, ActorFrame.SetFOV, ActorFrame.fov, ActorFrame.vanishpoint, ActorFrameTexture.Create, ActorFrameTexture.EnableAlphaBuffer, ActorFrameTexture.EnableDepthBuffer, ActorFrameTexture.EnableFloat, ActorFrameTexture.EnablePreserveTexture, ActorFrameTexture.GetTexture, ActorMultiVertex.GetTexture, ActorMultiVertex.SetDrawState, ActorMultiVertex.SetTexture, ActorMultiVertex.SetVertices, BitmapText.GetText, GameState.GetSongPosition, PlayerOptions.CMod, PlayerOptions.Distant, PlayerOptions.FromString, PlayerOptions.Hallway, PlayerOptions.Incoming, PlayerOptions.MMod, PlayerOptions.Mini, PlayerOptions.Overhead, PlayerOptions.Space, PlayerOptions.XMod, Song.GetTimingData, Sprite.LoadFromCurrentSongBackground",
+          "native drawable state/resources: ActorFrameTexture, ActorMultiVertex, Quad, Sprite",
+          "missing captured subscriber identity for ScreenGameplay/2/11/1",
+          "missing captured subscriber identity for ScreenGameplay/2/12",
+          "missing captured subscriber identity for ScreenGameplay/2/15/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+          "missing captured subscriber identity for ScreenGameplay/2/8",
+          "missing captured subscriber identity for ScreenGameplay/25",
+          "missing captured subscriber identity for ScreenGameplay/26/1/1",
+          "missing captured subscriber identity for ScreenGameplay/26/1/10",
+          "missing captured subscriber identity for ScreenGameplay/26/1/12",
+          "missing captured subscriber identity for ScreenGameplay/26/1/2",
+          "missing captured subscriber identity for ScreenGameplay/26/1/4",
+          "missing captured subscriber identity for ScreenGameplay/26/1/5",
+          "missing captured subscriber identity for ScreenGameplay/26/1/7",
+          "missing captured subscriber identity for ScreenGameplay/26/1/9",
+          "missing captured subscriber identity for ScreenGameplay/3/1",
+          "production replay: application build without test-support",
+          "production replay: full-song completion",
+          "production replay: sampled framebuffer pixels",
+          "production replay: production command/query instrumentation",
+          "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+          "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+          "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+        ],
+        "draws": {
+          "input_events_replayed": 0,
+          "draw_samples_compared": 5162,
+          "submitted_vertices_compared": 62484,
+          "live_text_samples_compared": 0,
+          "typed_equal_backing_aft_uv_samples_compared": 2626,
+          "live_text_comparison": "content only; submitted glyph geometry, textures and RGBA are not compared",
+          "draw_mismatches": 0,
+          "equivalent_offscreen_culls": 0,
+          "batched_native_draw_samples": 598,
+          "draw_mismatch_counts": {},
+          "equivalent_degenerate_culls": 0,
+          "uncompared_owned_immediate_draws": 0,
+          "uncompared_owned_normal_draws": 0,
+          "render_random_inputs_replayed": 0,
+          "render_random_inputs_captured": 0,
+          "unreplayed_render_random_inputs": 0,
+          "draw_vibration_scopes_without_native_inputs": 0,
+          "pixel_parity_proven": false
+        },
+        "mismatch_examples": [],
+        "production": {
+          "native_frames": 2008,
+          "replayed_frames": 2008,
+          "checked_stage_samples": 149,
+          "compared_stage_fields": 11729,
+          "archive_accepted": false,
+          "production_gameplay_checks_passed": true,
+          "whole_song_parity_proven": false,
+          "production_parity_proven": false,
+          "pixel_parity_proven": false,
+          "reported_mismatch_rows": 0,
+          "errors": [],
+          "pending_coverage": [
+            "application build without test-support",
+            "full-song completion",
+            "sampled framebuffer pixels",
+            "production command/query instrumentation",
+            "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+            "saved statistics getter functions explicitly invoked with another stage's player receiver",
+            "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+          ],
+          "draws": {
+            "input_events_replayed": 0,
+            "draw_samples_compared": 5162,
+            "submitted_vertices_compared": 62484,
+            "live_text_samples_compared": 0,
+            "typed_equal_backing_aft_uv_samples_compared": 2626,
+            "live_text_comparison": "content only; submitted glyph geometry, textures and RGBA are not compared",
+            "draw_mismatches": 0,
+            "equivalent_offscreen_culls": 0,
+            "batched_native_draw_samples": 598,
+            "draw_mismatch_counts": {},
+            "equivalent_degenerate_culls": 0,
+            "uncompared_owned_immediate_draws": 0,
+            "uncompared_owned_normal_draws": 0,
+            "render_random_inputs_replayed": 0,
+            "render_random_inputs_captured": 0,
+            "unreplayed_render_random_inputs": 0,
+            "draw_vibration_scopes_without_native_inputs": 0,
+            "pixel_parity_proven": false
+          },
+          "mismatch_examples": []
+        }
+      }
+    },
+    "pernicious-deed": {
+      "exit_code": 0,
+      "runtime_seconds": 448.4189648000174,
+      "binary_sha256": "b466c6211c834f371bca599a2e34bf514e53ab8a2c3b96a8f33bb338def79e41",
+      "archive_sha256": "e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9",
+      "archive_bytes": 144404616,
+      "timed_out": null,
+      "report_sha256": "949075a69b72fd6756b6955186786eb0e55d3898b3accb5466fed8b555e9bf95",
+      "comparison": {
+        "native_frames": 7447,
+        "replayed_frames": 7447,
+        "checked_stage_samples": 361,
+        "compared_stage_fields": 72488,
+        "diagnostic_compared_stage_fields": 36244,
+        "archive_accepted": true,
+        "diagnostic_replay_checks_passed": true,
+        "production_gameplay_checks_passed": true,
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pixel_parity_proven": false,
+        "reported_mismatch_rows": 0,
+        "errors": [],
+        "pending_coverage": [
+          "uncompared song operations: Actor.AddWrapperState, Actor.GetNumWrapperStates, Actor.GetWrapperState, Actor.GetX, Actor.GetY, Actor.GetZ, Actor.GetZoom, Actor.RemoveWrapperState, Actor.accelerate, Actor.addx, Actor.addy, Actor.addz, Actor.basezoomx, Actor.basezoomy, Actor.blend, Actor.bob, Actor.bouncebegin, Actor.bounceend, Actor.cropbottom, Actor.cropright, Actor.cullmode, Actor.diffuseblink, Actor.diffuseshift, Actor.draworder, Actor.effect_hold_at_full, Actor.effectclock, Actor.effectcolor1, Actor.effectcolor2, Actor.effectoffset, Actor.fadebottom, Actor.glow, Actor.horizalign, Actor.playcommand, Actor.rotationx, Actor.rotationy, Actor.shadowlength, Actor.skewx, Actor.spring, Actor.stopeffect, Actor.stoptweening, Actor.texturetranslate, Actor.vertalign, Actor.z, Actor.zoomy, Actor.zoomz, Actor.ztest, ActorFrame.GetChildren, ActorFrame.fov, ActorFrame.vanishpoint, ActorSound.play, BitmapText.maxwidth, GameState.GetSongPosition, GameState.IsHumanPlayer, PlayerOptions.Beat, PlayerOptions.Bumpy, PlayerOptions.Distant, PlayerOptions.Dizzy, PlayerOptions.Drunk, PlayerOptions.FromString, PlayerOptions.Hallway, PlayerOptions.Invert, PlayerOptions.Mini, PlayerOptions.NoteSkin, PlayerOptions.ScrollSpeed, PlayerOptions.Tipsy, PlayerOptions.Tornado, PlayerOptions.Wave, Sprite.LinearFrames, Sprite.customtexturerect, Sprite.setstate, Sprite.texcoordvelocity",
+          "native drawable state/resources: BitmapText, Model, Quad, Sound, Sprite",
+          "missing captured subscriber identity for ScreenGameplay/2/11/1",
+          "missing captured subscriber identity for ScreenGameplay/2/12",
+          "missing captured subscriber identity for ScreenGameplay/2/15/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+          "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+          "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+          "missing captured subscriber identity for ScreenGameplay/2/8",
+          "missing captured subscriber identity for ScreenGameplay/25",
+          "missing captured subscriber identity for ScreenGameplay/26/1/1",
+          "missing captured subscriber identity for ScreenGameplay/26/1/10",
+          "missing captured subscriber identity for ScreenGameplay/26/1/12",
+          "missing captured subscriber identity for ScreenGameplay/26/1/2",
+          "missing captured subscriber identity for ScreenGameplay/26/1/4",
+          "missing captured subscriber identity for ScreenGameplay/26/1/5",
+          "missing captured subscriber identity for ScreenGameplay/26/1/7",
+          "missing captured subscriber identity for ScreenGameplay/26/1/9",
+          "missing captured subscriber identity for ScreenGameplay/3/1",
+          "production replay: application build without test-support",
+          "production replay: full-song completion",
+          "production replay: sampled framebuffer pixels",
+          "production replay: production command/query instrumentation",
+          "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+          "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+          "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+        ],
+        "draws": {
+          "input_events_replayed": 0,
+          "draw_samples_compared": 224479,
+          "submitted_vertices_compared": 876144,
+          "live_text_samples_compared": 34920,
+          "typed_equal_backing_aft_uv_samples_compared": 0,
+          "live_text_comparison": "content only; submitted glyph geometry, textures and RGBA are not compared",
+          "draw_mismatches": 0,
+          "equivalent_offscreen_culls": 12,
+          "batched_native_draw_samples": 7968,
+          "draw_mismatch_counts": {},
+          "equivalent_degenerate_culls": 43523,
+          "uncompared_owned_immediate_draws": 0,
+          "uncompared_owned_normal_draws": 0,
+          "render_random_inputs_replayed": 496,
+          "render_random_inputs_captured": 496,
+          "unreplayed_render_random_inputs": 0,
+          "draw_vibration_scopes_without_native_inputs": 0,
+          "pixel_parity_proven": false
+        },
+        "mismatch_examples": [],
+        "production": {
+          "native_frames": 7447,
+          "replayed_frames": 7447,
+          "checked_stage_samples": 361,
+          "compared_stage_fields": 36244,
+          "archive_accepted": false,
+          "production_gameplay_checks_passed": true,
+          "whole_song_parity_proven": false,
+          "production_parity_proven": false,
+          "pixel_parity_proven": false,
+          "reported_mismatch_rows": 0,
+          "errors": [],
+          "pending_coverage": [
+            "application build without test-support",
+            "full-song completion",
+            "sampled framebuffer pixels",
+            "production command/query instrumentation",
+            "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+            "saved statistics getter functions explicitly invoked with another stage's player receiver",
+            "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+          ],
+          "draws": {
+            "input_events_replayed": 0,
+            "draw_samples_compared": 224479,
+            "submitted_vertices_compared": 876144,
+            "live_text_samples_compared": 34920,
+            "typed_equal_backing_aft_uv_samples_compared": 0,
+            "live_text_comparison": "content only; submitted glyph geometry, textures and RGBA are not compared",
+            "draw_mismatches": 0,
+            "equivalent_offscreen_culls": 12,
+            "batched_native_draw_samples": 7968,
+            "draw_mismatch_counts": {},
+            "equivalent_degenerate_culls": 43523,
+            "uncompared_owned_immediate_draws": 0,
+            "uncompared_owned_normal_draws": 0,
+            "render_random_inputs_replayed": 496,
+            "render_random_inputs_captured": 496,
+            "unreplayed_render_random_inputs": 0,
+            "draw_vibration_scopes_without_native_inputs": 0,
+            "pixel_parity_proven": false
+          },
+          "mismatch_examples": []
+        }
+      }
+    }
+  },
+  "focused_regressions": {
+    "execution": {
+      "build_receipt_sha256": "4c3accd84194557f32b38706a8b2879545f70c2e51cd5ef951163c2311db867f",
+      "source_identity": {
+        "git_head": "da3505ca1e46de265ff8bf2bcd1fdb4728616566",
+        "git_branch": "main",
+        "tracked_patch_sha256": "477cf75c659fa827061c1319904e9ae23ae7bd97e933ef28b8b2ff0b86391634",
+        "source_files": {
+          "crates/deadlib-present/src/actors.rs": "40b73e54c76cd45ad7bdba50103920e092d2eca1a240d70de21febba3ee01564",
+          "crates/deadlib-present/src/compose.rs": "08843a65aa0b01817e4874891c82abed878f04b36d2607eb8a647503d19b9b69",
+          "crates/deadlib-present/src/compose_native_vertex_colors.rs": "7d10dafccf3ed6a559daab85a2e04cf6b0572ae3fb2c292c98c7bbf0b468c9e0",
+          "crates/deadsync-song-lua/src/actors.rs": "588f69fc23c2a66f14d8489b54ac0d6dd7877e575b15e378fcdab1ec3fa5712e",
+          "crates/deadsync-song-lua/src/actors/capture.rs": "e29ff22180329709f3596ee717e5c51d8b22c8728682cc00848541e1ba162fda",
+          "crates/deadsync-song-lua/src/actors/function_capture.rs": "55e93ef0e754af5439740c944e1c7b1884c1729cb710c35a8566640fdb716556",
+          "crates/deadsync-song-lua/src/actors/lifecycle.rs": "df183df0a410d827a3fc19c54ebda5ab77d6efdff9b0be283517e6d6e0e2971d",
+          "crates/deadsync-song-lua/src/actors/live_scene.rs": "0c84d8db0cd9f4aff93563ebe9d335858b5eacd28881089e7a6668a8ef0ad241",
+          "crates/deadsync-song-lua/src/actors/messages.rs": "284673c424d1645d627e683818e325d3e7035c85d9fdddfe4103bb24b98dc2cc",
+          "crates/deadsync-song-lua/src/actors/wrappers.rs": "012ac9f39507decb75edb78481a07aa55a602161ba2aa4a934ae00ef24f07ded",
+          "crates/deadsync-song-lua/src/live_scene.rs": "3fe49c75da8a36270020dc4f70fc02a373c3d8027c3a0e69b9f4a2a8693224f2",
+          "crates/deadsync-song-lua/src/live_scene/visuals.rs": "8f99adce0d3253265b4a496480beb8de4b7b7bedd1885e2a53af4588385aeebe",
+          "crates/deadsync-song-lua/src/playback.rs": "7636ee829c1e674f649f3689f6692668701b25059d67eb9fa83a76b04f833ceb",
+          "crates/deadsync-song-lua/src/playback/live_topology.rs": "45cd1158386175c90404caf7ec048323fbf1391077c9c6aa9e64a95ce8c6d9f1",
+          "crates/deadsync-song-lua/src/playback/screen_projection_tests.rs": "b3c90333a394c92fbc58bd2683e7bf94f8b2ed451d3c27758bac45b84fccfdd3",
+          "crates/deadsync-song-lua/tests/playback/cases.rs": "d123d3db5f377f38f61cd73132c12241690d7048049940f9d964545e9e18d527",
+          "crates/deadsync-song-lua/tests/playback/native_vertex_colors.rs": "a93eade281c6c11d4c80c997e9df1f72e15283ad243a0de899dd005307dc4afc",
+          "crates/deadsync-song-lua/tests/wrapper_removal.rs": "e68e9a74bcbdf9a56d541723983a5699fb418fcd59df2319fd0bc45129ee0b6b",
+          "crates/deadsync-theme-simply-love/src/screens/components/evaluation/pane_timing.rs": "35a2b8432cc0bdbd4ae7ac6d889d2e5eb891dc06ff3368b6561ba8d489e6fd58",
+          "crates/deadsync-theme-simply-love/src/screens/components/gameplay/gameplay_stats.rs": "1f1da6312a0bae52b2238e7671a4236ab9c84134b513eb450d15d6b3ad4ba1eb",
+          "crates/deadsync-theme-simply-love/src/screens/components/shared/qr_code.rs": "f9f6af3a1c1d475c7d6290d7f32d65c5eb0a40ff27be0735eb7a5928a21232f9",
+          "crates/deadsync-theme-simply-love/src/screens/evaluation.rs": "1b16e6252caba1e54c0663e7cb340e0aa4d79462140efe5d864d9325dbd16190",
+          "crates/deadsync-theme-simply-love/src/screens/gameplay.rs": "e72ee1520ef52a6239775868ed634116eed1b5e5f5821937e097a869fa1eb8df",
+          "crates/deadsync-theme-simply-love/src/screens/practice.rs": "112b2c82e2ebb624f66d66e9f5599a24364da94d853113872e2927d97c291f4e",
+          "crates/deadsync-theme-simply-love/src/screens/select_music.rs": "2d32818207114e0f5006dd2c0b59cc9229f94458b9b523b9d62c5fd466b510d6",
+          "tests/song_lua_itgmania_semantic_parity/interactive.rs": "d3e35b404c51f2fa9669c7570cf65664cfa8a0194981a1731161d4f1bc11e187",
+          "tests/song_lua_itgmania_semantic_parity/native_gameplay.rs": "55eca74b615ff1f2e17e736d93f38b6110a54d7ed0194318637db709547b4736",
+          "tests/song_lua_itgmania_semantic_parity/render_random.rs": "e5a0faf24743fe8541b7d1374e49b0355845ad407d29db444746810231386e4b"
+        },
+        "fixture_git_head": "731e7facabc7c60e827295918459d75880d26542"
+      },
+      "runtime_source_identity": {
+        "git_head": "da3505ca1e46de265ff8bf2bcd1fdb4728616566",
+        "git_branch": "main",
+        "tracked_patch_sha256": "477cf75c659fa827061c1319904e9ae23ae7bd97e933ef28b8b2ff0b86391634",
+        "source_files": {
+          "crates/deadlib-present/src/actors.rs": "40b73e54c76cd45ad7bdba50103920e092d2eca1a240d70de21febba3ee01564",
+          "crates/deadlib-present/src/compose.rs": "08843a65aa0b01817e4874891c82abed878f04b36d2607eb8a647503d19b9b69",
+          "crates/deadlib-present/src/compose_native_vertex_colors.rs": "7d10dafccf3ed6a559daab85a2e04cf6b0572ae3fb2c292c98c7bbf0b468c9e0",
+          "crates/deadsync-song-lua/src/actors.rs": "588f69fc23c2a66f14d8489b54ac0d6dd7877e575b15e378fcdab1ec3fa5712e",
+          "crates/deadsync-song-lua/src/actors/capture.rs": "e29ff22180329709f3596ee717e5c51d8b22c8728682cc00848541e1ba162fda",
+          "crates/deadsync-song-lua/src/actors/function_capture.rs": "55e93ef0e754af5439740c944e1c7b1884c1729cb710c35a8566640fdb716556",
+          "crates/deadsync-song-lua/src/actors/lifecycle.rs": "df183df0a410d827a3fc19c54ebda5ab77d6efdff9b0be283517e6d6e0e2971d",
+          "crates/deadsync-song-lua/src/actors/live_scene.rs": "0c84d8db0cd9f4aff93563ebe9d335858b5eacd28881089e7a6668a8ef0ad241",
+          "crates/deadsync-song-lua/src/actors/messages.rs": "284673c424d1645d627e683818e325d3e7035c85d9fdddfe4103bb24b98dc2cc",
+          "crates/deadsync-song-lua/src/actors/wrappers.rs": "012ac9f39507decb75edb78481a07aa55a602161ba2aa4a934ae00ef24f07ded",
+          "crates/deadsync-song-lua/src/live_scene.rs": "3fe49c75da8a36270020dc4f70fc02a373c3d8027c3a0e69b9f4a2a8693224f2",
+          "crates/deadsync-song-lua/src/live_scene/visuals.rs": "8f99adce0d3253265b4a496480beb8de4b7b7bedd1885e2a53af4588385aeebe",
+          "crates/deadsync-song-lua/src/playback.rs": "7636ee829c1e674f649f3689f6692668701b25059d67eb9fa83a76b04f833ceb",
+          "crates/deadsync-song-lua/src/playback/live_topology.rs": "45cd1158386175c90404caf7ec048323fbf1391077c9c6aa9e64a95ce8c6d9f1",
+          "crates/deadsync-song-lua/src/playback/screen_projection_tests.rs": "b3c90333a394c92fbc58bd2683e7bf94f8b2ed451d3c27758bac45b84fccfdd3",
+          "crates/deadsync-song-lua/tests/playback/cases.rs": "d123d3db5f377f38f61cd73132c12241690d7048049940f9d964545e9e18d527",
+          "crates/deadsync-song-lua/tests/playback/native_vertex_colors.rs": "a93eade281c6c11d4c80c997e9df1f72e15283ad243a0de899dd005307dc4afc",
+          "crates/deadsync-song-lua/tests/wrapper_removal.rs": "e68e9a74bcbdf9a56d541723983a5699fb418fcd59df2319fd0bc45129ee0b6b",
+          "crates/deadsync-theme-simply-love/src/screens/components/evaluation/pane_timing.rs": "35a2b8432cc0bdbd4ae7ac6d889d2e5eb891dc06ff3368b6561ba8d489e6fd58",
+          "crates/deadsync-theme-simply-love/src/screens/components/gameplay/gameplay_stats.rs": "1f1da6312a0bae52b2238e7671a4236ab9c84134b513eb450d15d6b3ad4ba1eb",
+          "crates/deadsync-theme-simply-love/src/screens/components/shared/qr_code.rs": "f9f6af3a1c1d475c7d6290d7f32d65c5eb0a40ff27be0735eb7a5928a21232f9",
+          "crates/deadsync-theme-simply-love/src/screens/evaluation.rs": "1b16e6252caba1e54c0663e7cb340e0aa4d79462140efe5d864d9325dbd16190",
+          "crates/deadsync-theme-simply-love/src/screens/gameplay.rs": "e72ee1520ef52a6239775868ed634116eed1b5e5f5821937e097a869fa1eb8df",
+          "crates/deadsync-theme-simply-love/src/screens/practice.rs": "112b2c82e2ebb624f66d66e9f5599a24364da94d853113872e2927d97c291f4e",
+          "crates/deadsync-theme-simply-love/src/screens/select_music.rs": "2d32818207114e0f5006dd2c0b59cc9229f94458b9b523b9d62c5fd466b510d6",
+          "tests/song_lua_itgmania_semantic_parity/interactive.rs": "d3e35b404c51f2fa9669c7570cf65664cfa8a0194981a1731161d4f1bc11e187",
+          "tests/song_lua_itgmania_semantic_parity/native_gameplay.rs": "55eca74b615ff1f2e17e736d93f38b6110a54d7ed0194318637db709547b4736",
+          "tests/song_lua_itgmania_semantic_parity/render_random.rs": "e5a0faf24743fe8541b7d1374e49b0355845ad407d29db444746810231386e4b"
+        },
+        "fixture_git_head": "731e7facabc7c60e827295918459d75880d26542"
+      },
+      "wrapper_timer_snapshot_sha256": "5bd516caac21324a0b506664be7a0b7cb631550af377ec5586064d16350ed6ab",
+      "results": [
+        {
+          "name": "wrapper_removal",
+          "command": [
+            "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync-song-lua\\fda60cd52040c99d\\out\\wrapper_removal-fda60cd52040c99d.exe",
+            "--test-threads=2"
+          ],
+          "binary_sha256": "f5c2cc15eea3b8538c3b866d3585d8964cae213fa37777a4c51f4b258662dea7",
+          "started_at": "2026-11-20T01:54:21.697920+00:00",
+          "exit_code": 0,
+          "runtime_seconds": 1.501605199999176
+        },
+        {
+          "name": "wrappers",
+          "command": [
+            "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync-song-lua\\15842260ef2a197d\\out\\wrappers-15842260ef2a197d.exe",
+            "--test-threads=2"
+          ],
+          "binary_sha256": "c5cad266ec5a4cebe4ee4ac485938929da6836bab88de2a4c7be46080381446a",
+          "started_at": "2026-11-20T01:54:24.166295+00:00",
+          "exit_code": 0,
+          "runtime_seconds": 1.3118783000390977
+        },
+        {
+          "name": "theme",
+          "command": [
+            "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync-song-lua\\d8966f16deb97f50\\out\\theme-d8966f16deb97f50.exe",
+            "--test-threads=2"
+          ],
+          "binary_sha256": "7bdcd45fbb5efc62807b1e5612f304fb4ad9f932870f4226de1982b5f35defd8",
+          "started_at": "2026-11-20T01:54:26.488000+00:00",
+          "exit_code": 0,
+          "runtime_seconds": 1.5502090000081807
+        },
+        {
+          "name": "live_visuals-late_wrapper",
+          "command": [
+            "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync-song-lua\\f82bec214fe16d9f\\out\\live_visuals-f82bec214fe16d9f.exe",
+            "late_wrapper",
+            "--test-threads=2"
+          ],
+          "binary_sha256": "24a7b6bcea98b3d0f3fa87dc49a791adb760ebca94d211ebcbf8121bebe82994",
+          "started_at": "2026-11-20T01:54:29.078809+00:00",
+          "exit_code": 0,
+          "runtime_seconds": 1.7077709999866784
+        },
+        {
+          "name": "playback-native_vertex_colors",
+          "command": [
+            "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync-song-lua\\5d92e222f246600e\\out\\playback-5d92e222f246600e.exe",
+            "native_vertex_colors",
+            "--test-threads=2"
+          ],
+          "binary_sha256": "92fb030449a9014753e4c56588e7d7bafa783dccb3b7cf6bf7f1d3ddb1565ba6",
+          "started_at": "2026-11-20T01:54:31.918026+00:00",
+          "exit_code": 0,
+          "runtime_seconds": 2.3945271999691613
+        },
+        {
+          "name": "playback-late_wrapper",
+          "command": [
+            "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync-song-lua\\5d92e222f246600e\\out\\playback-5d92e222f246600e.exe",
+            "late_wrapper",
+            "--test-threads=2"
+          ],
+          "binary_sha256": "92fb030449a9014753e4c56588e7d7bafa783dccb3b7cf6bf7f1d3ddb1565ba6",
+          "started_at": "2026-11-20T01:54:34.608098+00:00",
+          "exit_code": 0,
+          "runtime_seconds": 0.0942405000096187
+        },
+        {
+          "name": "playback-actor_multi_vertex",
+          "command": [
+            "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync-song-lua\\5d92e222f246600e\\out\\playback-5d92e222f246600e.exe",
+            "actor_multi_vertex",
+            "--test-threads=2"
+          ],
+          "binary_sha256": "92fb030449a9014753e4c56588e7d7bafa783dccb3b7cf6bf7f1d3ddb1565ba6",
+          "started_at": "2026-11-20T01:54:34.992881+00:00",
+          "exit_code": 0,
+          "runtime_seconds": 0.10002129996428266
+        },
+        {
+          "name": "playback-ancestor_scale",
+          "command": [
+            "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync-song-lua\\5d92e222f246600e\\out\\playback-5d92e222f246600e.exe",
+            "ancestor_scale",
+            "--test-threads=2"
+          ],
+          "binary_sha256": "92fb030449a9014753e4c56588e7d7bafa783dccb3b7cf6bf7f1d3ddb1565ba6",
+          "started_at": "2026-11-20T01:54:35.382696+00:00",
+          "exit_code": 0,
+          "runtime_seconds": 0.09984220005571842
+        }
+      ],
+      "files": {
+        "live_visuals-late_wrapper.stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "live_visuals-late_wrapper.stdout.log": {
+          "bytes": 186,
+          "sha256": "db56378f606d89d67b577549dba26083f90a996a929b152864a9119678ad6c15"
+        },
+        "playback-actor_multi_vertex.stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "playback-actor_multi_vertex.stdout.log": {
+          "bytes": 278,
+          "sha256": "c467a4dbc9274843e3d4fade3e7f839baa7731b15b759cdd4ed3bff141dc6f38"
+        },
+        "playback-ancestor_scale.stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "playback-ancestor_scale.stdout.log": {
+          "bytes": 312,
+          "sha256": "fc987c671bd88bbc46d9651c31d2f74489e7cd93d583e73ab800d5abdd1fddc6"
+        },
+        "playback-late_wrapper.stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "playback-late_wrapper.stdout.log": {
+          "bytes": 307,
+          "sha256": "601a7b731afcc347e253c0d8269a66d043b0d9cd3a380d1ff79d205f365f66f4"
+        },
+        "playback-native_vertex_colors.stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "playback-native_vertex_colors.stdout.log": {
+          "bytes": 1091,
+          "sha256": "bff0993af822291429733e2c1fb482bcab529fed1b29dd20cae993de5fa65928"
+        },
+        "source.patch": {
+          "bytes": 89537,
+          "sha256": "477cf75c659fa827061c1319904e9ae23ae7bd97e933ef28b8b2ff0b86391634"
+        },
+        "theme.stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "theme.stdout.log": {
+          "bytes": 1165,
+          "sha256": "85f8671945f7472a7e027018930d273dababcd5cfa319652e9fd042cd47f2fe0"
+        },
+        "wrappers.stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "wrappers.stdout.log": {
+          "bytes": 714,
+          "sha256": "64c3a71eba6850cf81a1dcde4c6e344d85fd802873a59f8a136dcc7cfe004092"
+        },
+        "wrapper_removal.stderr.log": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "wrapper_removal.stdout.log": {
+          "bytes": 486,
+          "sha256": "ac044027da51c3b669a32dd625586b291cba399460d9f0192490d99b48892b56"
+        }
+      }
+    },
+    "counts": [
+      {
+        "log": "live_visuals-late_wrapper.stdout.log",
+        "results": [
+          [
+            "ok",
+            "1",
+            "0",
+            "0",
+            "0",
+            "13"
+          ]
+        ]
+      },
+      {
+        "log": "playback-actor_multi_vertex.stdout.log",
+        "results": [
+          [
+            "ok",
+            "2",
+            "0",
+            "0",
+            "0",
+            "246"
+          ]
+        ]
+      },
+      {
+        "log": "playback-ancestor_scale.stdout.log",
+        "results": [
+          [
+            "ok",
+            "2",
+            "0",
+            "0",
+            "0",
+            "246"
+          ]
+        ]
+      },
+      {
+        "log": "playback-late_wrapper.stdout.log",
+        "results": [
+          [
+            "ok",
+            "2",
+            "0",
+            "0",
+            "0",
+            "246"
+          ]
+        ]
+      },
+      {
+        "log": "playback-native_vertex_colors.stdout.log",
+        "results": [
+          [
+            "ok",
+            "8",
+            "0",
+            "0",
+            "0",
+            "240"
+          ]
+        ]
+      },
+      {
+        "log": "theme.stdout.log",
+        "results": [
+          [
+            "ok",
+            "13",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "log": "wrapper_removal.stdout.log",
+        "results": [
+          [
+            "ok",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "log": "wrappers.stdout.log",
+        "results": [
+          [
+            "ok",
+            "8",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      }
+    ]
+  }
+}
