@@ -1,0 +1,170 @@
+{
+  "original_references": {
+    "path": "C:\\GitHub\\deadsync-tests\\full_song_lua\\references.json",
+    "bytes": 123052,
+    "sha256": "1a04600cef0f4d8775d72bb977e9e965a54dce6c20632ddd60e7e5993b8c5e0a"
+  },
+  "original_mapping_count": 658,
+  "existing_mappings_preserved": true,
+  "added_mappings": {
+    "tests/fixtures/itgmania-song-archives/dac53f2aef6714b1975b417a262b712212166634a87adb0f533499c72a1be3b6.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+    "tests/fixtures/itgmania-song-archives/ac4854fd3d8e73710127a23aed1996eff0acc3b662919588a492c9a010086aa5.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+    "tests/fixtures/itgmania-song-archives/05ea8362cc43e1fb912e2bc0705699e1cd2717ad7bb575d1b12f0ae8c1596370.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+    "tests/fixtures/itgmania-song-archives/03699650497f8b17a46b4302abb9003299946aba1e8d19e99e93fe37386bd95c.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+    "tests/fixtures/itgmania-song-archives/51076d7653effe9cdec908302b75969c92ef7a5b231cb69768c4d0ec4baff7c9.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+    "tests/fixtures/itgmania-song-archives/04eb6389c65a08fc4711ea7e02466871c65681de0683aa26d1f4b81559bdd156.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+    "tests/fixtures/itgmania-song-archives/6050477bd2736007d998748689bf0cac887c2e19bb0565fb3022e83a459e4dbd.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+    "tests/fixtures/itgmania-song-archives/30525568cc581a65c8b48ae00dc23056490d494e9d715c6fe38c17d8cb63e54d.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst"
+  },
+  "cases": [
+    {
+      "case_id": "ecb7f9f9a8fb340b-c0001",
+      "source_simfile": "[11] Nishi-Shinjuku seisou kyoku (SX) [Scrypts]/nssk-chart.ssc",
+      "aliases": [
+        {
+          "alias": "8d3d240cb4c779869a2c4295590038e7e8aad2989c69f99ddeaf9ae923a58af0.tar.zst",
+          "superseded_primary_archive": "faa7b7d60bf81e0558f74f68d3813d0e329407fe95a1097cbca9d9993ecd0ae8.tar.zst",
+          "existing_mappings": {
+            "tests/fixtures/itgmania-song-archives/8d3d240cb4c779869a2c4295590038e7e8aad2989c69f99ddeaf9ae923a58af0.tar.zst": "e8b2f04707b665c334a8495abac3cb3e719c314283bbe2be17a90f1707bb6d0b.tar.zst"
+          },
+          "added_mappings": {},
+          "action": "preserved-existing-mappings",
+          "existing_target_differs_from_primary": true
+        }
+      ]
+    },
+    {
+      "case_id": "ccfbbe2824310517-c0001",
+      "source_simfile": "Circles/Circles.sm",
+      "aliases": []
+    },
+    {
+      "case_id": "1275a659b0dc21d2-c0001",
+      "source_simfile": "[14] [CRYSTAL_ACCESS] (No CMOD) [SX]/[CRYSTAL_ACCESS].ssc",
+      "aliases": [
+        {
+          "alias": "816536811891d1c40a14cae804cce02a3362a41b3c07ee5672b6355fc1b49150.tar.zst",
+          "superseded_primary_archive": "999b9246bbec77e2eaeeefb0f793290135f018db303cf9e58e8b37f4261cff8e.tar.zst",
+          "existing_mappings": {
+            "tests/fixtures/itgmania-song-archives/816536811891d1c40a14cae804cce02a3362a41b3c07ee5672b6355fc1b49150.tar.zst": "9ebd173d388e4379fcf837a73699ab5adee9f8251613a526ac7111e22c03bd19.tar.zst"
+          },
+          "added_mappings": {},
+          "action": "preserved-existing-mappings",
+          "existing_target_differs_from_primary": true
+        }
+      ]
+    },
+    {
+      "case_id": "abe694267a1522a8-c0001",
+      "source_simfile": "278-MODS-[lv.08] And Drugs/and drugs.ssc",
+      "aliases": [
+        {
+          "alias": "dac53f2aef6714b1975b417a262b712212166634a87adb0f533499c72a1be3b6.tar.zst",
+          "superseded_primary_archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+          "existing_mappings": {},
+          "added_mappings": {
+            "tests/fixtures/itgmania-song-archives/dac53f2aef6714b1975b417a262b712212166634a87adb0f533499c72a1be3b6.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst"
+          },
+          "action": "added-previously-unrecorded-alias"
+        },
+        {
+          "alias": "ac4854fd3d8e73710127a23aed1996eff0acc3b662919588a492c9a010086aa5.tar.zst",
+          "superseded_primary_archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+          "existing_mappings": {},
+          "added_mappings": {
+            "tests/fixtures/itgmania-song-archives/ac4854fd3d8e73710127a23aed1996eff0acc3b662919588a492c9a010086aa5.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst"
+          },
+          "action": "added-previously-unrecorded-alias"
+        },
+        {
+          "alias": "05ea8362cc43e1fb912e2bc0705699e1cd2717ad7bb575d1b12f0ae8c1596370.tar.zst",
+          "superseded_primary_archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+          "existing_mappings": {},
+          "added_mappings": {
+            "tests/fixtures/itgmania-song-archives/05ea8362cc43e1fb912e2bc0705699e1cd2717ad7bb575d1b12f0ae8c1596370.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst"
+          },
+          "action": "added-previously-unrecorded-alias"
+        },
+        {
+          "alias": "03699650497f8b17a46b4302abb9003299946aba1e8d19e99e93fe37386bd95c.tar.zst",
+          "superseded_primary_archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+          "existing_mappings": {},
+          "added_mappings": {
+            "tests/fixtures/itgmania-song-archives/03699650497f8b17a46b4302abb9003299946aba1e8d19e99e93fe37386bd95c.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst"
+          },
+          "action": "added-previously-unrecorded-alias"
+        },
+        {
+          "alias": "51076d7653effe9cdec908302b75969c92ef7a5b231cb69768c4d0ec4baff7c9.tar.zst",
+          "superseded_primary_archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+          "existing_mappings": {},
+          "added_mappings": {
+            "tests/fixtures/itgmania-song-archives/51076d7653effe9cdec908302b75969c92ef7a5b231cb69768c4d0ec4baff7c9.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst"
+          },
+          "action": "added-previously-unrecorded-alias"
+        },
+        {
+          "alias": "04eb6389c65a08fc4711ea7e02466871c65681de0683aa26d1f4b81559bdd156.tar.zst",
+          "superseded_primary_archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+          "existing_mappings": {},
+          "added_mappings": {
+            "tests/fixtures/itgmania-song-archives/04eb6389c65a08fc4711ea7e02466871c65681de0683aa26d1f4b81559bdd156.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst"
+          },
+          "action": "added-previously-unrecorded-alias"
+        },
+        {
+          "alias": "6050477bd2736007d998748689bf0cac887c2e19bb0565fb3022e83a459e4dbd.tar.zst",
+          "superseded_primary_archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+          "existing_mappings": {},
+          "added_mappings": {
+            "tests/fixtures/itgmania-song-archives/6050477bd2736007d998748689bf0cac887c2e19bb0565fb3022e83a459e4dbd.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst"
+          },
+          "action": "added-previously-unrecorded-alias"
+        },
+        {
+          "alias": "30525568cc581a65c8b48ae00dc23056490d494e9d715c6fe38c17d8cb63e54d.tar.zst",
+          "superseded_primary_archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+          "existing_mappings": {},
+          "added_mappings": {
+            "tests/fixtures/itgmania-song-archives/30525568cc581a65c8b48ae00dc23056490d494e9d715c6fe38c17d8cb63e54d.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst"
+          },
+          "action": "added-previously-unrecorded-alias"
+        },
+        {
+          "alias": "864492e69434c2de4a5651110179bfd47dc97fee7d93afa723f1da3098593320.tar.zst",
+          "superseded_primary_archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+          "existing_mappings": {
+            "tests/fixtures/itgmania-song-archives/864492e69434c2de4a5651110179bfd47dc97fee7d93afa723f1da3098593320.tar.zst": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst"
+          },
+          "added_mappings": {},
+          "action": "preserved-existing-mappings",
+          "existing_target_differs_from_primary": false
+        }
+      ]
+    },
+    {
+      "case_id": "cdadde08ea8260ec-c0001",
+      "source_simfile": "[N]TECH SOUP(MASTER) Flying Castle/flying castle.sm",
+      "aliases": [
+        {
+          "alias": "bf1373049476beebf03451c600cd6ac65b92af2069f0867e43a9278e48056012.tar.zst",
+          "superseded_primary_archive": "183cfc30e725d8818d8498e17c0286c65827ab1548e1f5d615f8fd7b64bd2573.tar.zst",
+          "existing_mappings": {
+            "tests/fixtures/itgmania-song-archives/bf1373049476beebf03451c600cd6ac65b92af2069f0867e43a9278e48056012.tar.zst": "cb6422f5f30e65931d09bd34da4ce770604c3eceacb17cfa4b2ca2316d85628d.tar.zst"
+          },
+          "added_mappings": {},
+          "action": "preserved-existing-mappings",
+          "existing_target_differs_from_primary": true
+        }
+      ]
+    }
+  ],
+  "changed_primary_rows": [
+    "278-MODS-[lv.08] And Drugs/and drugs.ssc",
+    "[11] Nishi-Shinjuku seisou kyoku (SX) [Scrypts]/nssk-chart.ssc",
+    "[14] [CRYSTAL_ACCESS] (No CMOD) [SX]/[CRYSTAL_ACCESS].ssc",
+    "[N]TECH SOUP(MASTER) Flying Castle/flying castle.sm",
+    "Circles/Circles.sm"
+  ],
+  "unselected_primary_rows_unchanged": true
+}

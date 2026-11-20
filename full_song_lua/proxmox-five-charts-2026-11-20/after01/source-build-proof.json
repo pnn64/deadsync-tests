@@ -1,0 +1,53 @@
+{
+  "source_commit": "cfc285847c362a079faefc9840dc488223b87ca8",
+  "compiled_source_identity": {
+    "git_head": "6b953a9360358cd360e1ceed54032f16a7d2ed45",
+    "git_branch": "main",
+    "tracked_patch_sha256": "ec4bcb23493700b4c83caf2cfc46e9f72cfc9f90f7798483b0567004b2b0310c",
+    "source_files": {
+      "crates/deadsync-gameplay/src/holds.rs": "510045f84f4ca0d9157ef3bbedb83f6eef0c3b481ac9962ebd58946a95a6a8dc",
+      "crates/deadsync-gameplay/src/runtime_methods.rs": "6c068103d7e23201fb61748683050bb5d6a3d596ac5c6060e59ca685eed6d724",
+      "crates/deadsync-gameplay/src/runtime_regression_tests.rs": "aca56e5f377e8bf8872c85a2a40736337c48b819a78f5f89b34c208365c881a7",
+      "crates/deadsync-gameplay/src/runtime_update.rs": "23767d140a44a98727553eda24587b9ca7e411049798916eaed28bd2bda58b4f",
+      "crates/deadsync-gameplay/src/tests.rs": "8bdc5fbdc0c19a086d714a964281d1ca1fba5dc597acbd14e426a0f6b2011fc2"
+    },
+    "fixture_git_head": "f0c8cdb8951e9c7f8cf743f31285742413610175"
+  },
+  "files": {
+    "crates/deadsync-gameplay/src/holds.rs": {
+      "compiled_sha256": "510045f84f4ca0d9157ef3bbedb83f6eef0c3b481ac9962ebd58946a95a6a8dc",
+      "committed_sha256": "f52e57341fed2b1a62788553bedad8d4b78ab8f308f923444fbf14bc84d841a5",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    },
+    "crates/deadsync-gameplay/src/runtime_methods.rs": {
+      "compiled_sha256": "6c068103d7e23201fb61748683050bb5d6a3d596ac5c6060e59ca685eed6d724",
+      "committed_sha256": "11792de29778df35b86550f93f36215c794a75a563feab751e59ec7d479e9a6c",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    },
+    "crates/deadsync-gameplay/src/runtime_regression_tests.rs": {
+      "compiled_sha256": "aca56e5f377e8bf8872c85a2a40736337c48b819a78f5f89b34c208365c881a7",
+      "committed_sha256": "02338553745462965ce410abbe525cb074b8587b6ea3e06fe39b2d9dc95ccb12",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    },
+    "crates/deadsync-gameplay/src/runtime_update.rs": {
+      "compiled_sha256": "23767d140a44a98727553eda24587b9ca7e411049798916eaed28bd2bda58b4f",
+      "committed_sha256": "a000f1db64c5f0904a19dabb19e36cf73c5467144b9afde8227f053bd6655ee5",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    },
+    "crates/deadsync-gameplay/src/tests.rs": {
+      "compiled_sha256": "8bdc5fbdc0c19a086d714a964281d1ca1fba5dc597acbd14e426a0f6b2011fc2",
+      "committed_sha256": "a826fd5577b927b9611ad2cde7728266947e80d780d39bf5719e822cb3a7bd05",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    }
+  }
+}

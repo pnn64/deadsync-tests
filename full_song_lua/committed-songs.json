@@ -1548,6 +1548,12 @@
     "archive": "3b29f7f3251b6c8ed1e014a79f626cf9f98c68498391ae664ea80ad612507d48.tar.zst"
   },
   {
+    "title": "[14] [CRYSTAL_ACCESS] (No CMOD)",
+    "source_simfile": "[14] [CRYSTAL_ACCESS] (No CMOD) [SX]/[CRYSTAL_ACCESS].ssc",
+    "harness_version": "0.1.110",
+    "archive": "3b87fdca9ee97922dc8367da76f0a3afd446ed5619e2d46201ea83063f808ede.tar.zst"
+  },
+  {
     "title": "Save Your Tears",
     "source_simfile": "Save Your Tears [R.I.G.H.T.S 2]/SaveYourTears.sm",
     "harness_version": "0.1.0",
@@ -2020,6 +2026,12 @@
     "source_simfile": "Tamamo no Mae/Tamamo no Mae.ssc",
     "harness_version": "0.1.0",
     "archive": "4a9de7cb051bcab2b5da182fa371621239e65568c156b372f66d2b046e5903b7.tar.zst"
+  },
+  {
+    "title": "[N]TECH SOUP(MASTER) Flying Castle",
+    "source_simfile": "[N]TECH SOUP(MASTER) Flying Castle/flying castle.sm",
+    "harness_version": "0.1.110",
+    "archive": "4ade2ba25754ca5dcc95d2c376d88ae292c6fd9d64c4926d263c1e622936b971.tar.zst"
   },
   {
     "title": "Riddle",
@@ -3196,6 +3208,12 @@
     "source_simfile": "Young Dumb And Broke/YDB.ssc",
     "harness_version": "0.1.0",
     "archive": "8022849c5f08e058cf3f8d79201fe4b86bec82b04f3ffa51ce7ed7bf5e83ba40.tar.zst"
+  },
+  {
+    "title": "278|MODS|[lv.08] And Drugs↑↑",
+    "source_simfile": "278-MODS-[lv.08] And Drugs/and drugs.ssc",
+    "harness_version": "0.1.110",
+    "archive": "80960bc13d2c0387bfa233beeb0f9bf9eaa5167b4e0c0843a3fd8e9e2a629ccb.tar.zst"
   },
   {
     "title": "Second Edit chart selector control",
@@ -5508,6 +5526,12 @@
     "archive": "e4554a9b96199f0b758716a15a2debcb2f2c54cc54606f41432a8d190dc8a46e.tar.zst"
   },
   {
+    "title": "Episode 15 Circles",
+    "source_simfile": "Circles/Circles.sm",
+    "harness_version": "0.1.110",
+    "archive": "e4d1aca45d3c84303b2349bb9883adb582f7d25300263724c8bc88398c913b62.tar.zst"
+  },
+  {
     "title": "Beauty in Chaos",
     "source_simfile": "Beauty in chaos/Beauty in Chaos.sm",
     "harness_version": "0.1.0",
@@ -5800,6 +5824,12 @@
     "source_simfile": "Ultimate taste/Ultimate taste.ssc",
     "harness_version": "0.1.80",
     "archive": "eeff4b4c46a5ec7d515815df061d309d2711c67325533ac18af16936a6f5c821.tar.zst"
+  },
+  {
+    "title": "[5813] [11] 西新宿清掃曲 (No CMOD)",
+    "source_simfile": "[11] Nishi-Shinjuku seisou kyoku (SX) [Scrypts]/nssk-chart.ssc",
+    "harness_version": "0.1.110",
+    "archive": "efe890f4b87250058592862dd7947ebbb85bcbe8a7b8dabbc9cf35c73b28b83c.tar.zst"
   },
   {
     "title": "[3752] [09] Who the Hell Is Edgar?",

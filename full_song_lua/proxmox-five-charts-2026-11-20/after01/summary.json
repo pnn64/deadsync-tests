@@ -1,0 +1,3877 @@
+{
+  "created_at": "2026-11-20T08:09:13.113715+00:00",
+  "scope": "Five previously failing authored song charts; complete captured production and diagnostic replay.",
+  "source_commit": "cfc285847c362a079faefc9840dc488223b87ca8",
+  "stage": "after01",
+  "harness_commit": "b2af4f355d827fb0e89aead84b4c75a9b8cccf6c",
+  "native_revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+  "harness_sha256": "1780c9e517994285775fa75c98c1975c601be0f94c4ad1a376cab16bd8684e8e",
+  "compression_level": 12,
+  "cases": [
+    {
+      "case_id": "ecb7f9f9a8fb340b-c0001",
+      "label": "Nishi-Shinjuku seisou kyoku",
+      "archive": {
+        "title": "[5813] [11] 西新宿清掃曲 (No CMOD)",
+        "source_simfile": "[11] Nishi-Shinjuku seisou kyoku (SX) [Scrypts]/nssk-chart.ssc",
+        "harness_version": "0.1.110",
+        "archive": "efe890f4b87250058592862dd7947ebbb85bcbe8a7b8dabbc9cf35c73b28b83c.tar.zst",
+        "sha256": "efe890f4b87250058592862dd7947ebbb85bcbe8a7b8dabbc9cf35c73b28b83c",
+        "compressed_bytes": 115662162,
+        "uncompressed_sha256": "0ccdb1a53295397e0925601f0f49dc0196831a98edfd44f7cddf99ce665a505a",
+        "compression_level": 12,
+        "aliases": []
+      },
+      "candidate_sha256": "0ccdb1a53295397e0925601f0f49dc0196831a98edfd44f7cddf99ce665a505a",
+      "source_commit": "cfc285847c362a079faefc9840dc488223b87ca8",
+      "runner_sha256": "8fe05b17d1edc96cf705e7f68477d7c96fce0b5720367d04b7e1c22533e7f06b",
+      "report_sha256": "0c8aeba2fa4ff4f639b8cf8e7258e3cfe55e853879ac15ef72a94b391d669f92",
+      "native_counts": {
+        "update_frames": 2093,
+        "events": 283364,
+        "drawable_samples": 482,
+        "stage_samples": 120,
+        "render_random_inputs": 231
+      },
+      "pending_coverage": [
+        "uncompared song operations: Actor.GetX, Actor.GetY, Actor.GetZ, Actor.SetTextureFiltering, Actor.basezoom, Actor.basezoomx, Actor.basezoomy, Actor.blend, Actor.effectclock, Actor.fadebottom, Actor.hibernate, Actor.rotationx, Actor.rotationy, Actor.skewx, Actor.wag, Actor.z, Actor.zoomz, GameState.IsHumanPlayer, PlayerOptions.FromString, PlayerOptions.Mini, PlayerOptions.Tilt",
+        "native drawable state/resources: Quad, Sprite",
+        "missing captured subscriber identity for ScreenGameplay/2/11/1",
+        "missing captured subscriber identity for ScreenGameplay/2/12",
+        "missing captured subscriber identity for ScreenGameplay/2/15/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/8",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1",
+        "production replay: application build without test-support",
+        "production replay: full-song completion",
+        "production replay: sampled framebuffer pixels",
+        "production replay: production command/query instrumentation",
+        "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+        "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+        "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+      ],
+      "resource_phases": [
+        {
+          "phase": "native-capture-and-archive",
+          "receipt": {
+            "finished_at": "2026-11-20T07:01:51.047328+00:00",
+            "unit": "deadsync-five-29af5276dd430d6e",
+            "service_result": "success",
+            "exit_code": "exited",
+            "exit_status": "0",
+            "spec_sha256": "f9509109c316839c6a29776cc0c99a8af877e9afb665fa4344385c504f782f01",
+            "resource_usage": {
+              "MemoryPeak": "2104893440",
+              "CPUUsageNSec": "151320006000",
+              "CPUQuotaPerSecUSec": "2s",
+              "MemoryMax": "6442450944",
+              "MemorySwapMax": "0"
+            }
+          }
+        }
+      ],
+      "maximum_stage_memory_peak_bytes": 2104893440,
+      "recovery_validation": null,
+      "candidate_source_proof": {
+        "source_folder_sha256": "697a1138861114cef44357c34338b93051b3fb1a1a21f8a0d957d33edb11ed99",
+        "source_simfile_sha256": "61e4676a409a332c159c9580ec5a50cd9a476b6e8165b7158c8e9abbd3da7596",
+        "source_inventory_files": 15,
+        "source_files_checked": 15,
+        "source_and_native_archive_members": {
+          "song/lua/blue.png": {
+            "sha256": "66864318c71ca952ca8b5658b3696e524e4ff3a8c1a1bf902b3e6590eadafc50",
+            "bytes": 102064
+          },
+          "song/lua/car/213-2138100_certified-auto-appraiser-vintage-car-old-cars-clipart.png": {
+            "sha256": "ebf11e66c47d2605a70d57e9311ee88505e34c97fac664fda9f225c412c09208",
+            "bytes": 272876
+          },
+          "song/lua/car/368-3684349_expensive-car-clipart.png": {
+            "sha256": "7c3abc7d1e2dfe50c8cec0ab3f69bbffb38d6538334136c5b5a505410ea8e079",
+            "bytes": 259832
+          },
+          "song/lua/car/78-784835_electric-blue-clipart-lamborghini-aventador-lamborghini-sport-cars.png": {
+            "sha256": "d0e3ce9af351a3763a37f2b35d1012f54af8161ec011dc53b1af7ce0087a8570",
+            "bytes": 180638
+          },
+          "song/lua/car/ocho.png": {
+            "sha256": "34cfdb600a0da12c65a944aa77616de79bfca36817d5cdc24f0950be605cbe35",
+            "bytes": 240773
+          },
+          "song/lua/car/tesla_go.png": {
+            "sha256": "f76116a83550b44b23d25a91904f2918c3b0bf17be60b0457d4d14d3d2c8cd50",
+            "bytes": 148443
+          },
+          "song/lua/default.lua": {
+            "sha256": "7572e3880313a0b68da5456a105adfb05b7991b066fccc9bb31d668c0f18bb6c",
+            "bytes": 23330
+          },
+          "song/lua/easing.lua": {
+            "sha256": "c1ca37ef394c7e0b73215c9562dd4e41f81ac790499f89c99b51ddf322df64b0",
+            "bytes": 9554
+          },
+          "song/lua/explosion 5x5.png": {
+            "sha256": "ae5c874e5b2b922af30ab4b46c735fa2c951b13dc901c22f636e4d7391d99b46",
+            "bytes": 102497
+          },
+          "song/lua/toilettu.mp4": {
+            "sha256": "81bf9937a905c8173d19e0f3d794173b23324f17968cf6f6e5152608ad422ee0",
+            "bytes": 1341208
+          },
+          "song/nssk-audio.ogg": {
+            "sha256": "53cc7f0dbfc60208d081d1b09d8986274c2418f4f7545eec38e4360990870394",
+            "bytes": 2076859
+          },
+          "song/nssk-background.png": {
+            "sha256": "fce2af02d052795ff120dcae1cf343cc4c32dea8f155fa7d82c9de9317b82454",
+            "bytes": 716844
+          },
+          "song/nssk-banner.png": {
+            "sha256": "9c7984b8ab6ead5db8e29e47974155284e5751e310771bc095b590c9c8fbbac9",
+            "bytes": 364651
+          },
+          "song/nssk-chart.ssc": {
+            "sha256": "61e4676a409a332c159c9580ec5a50cd9a476b6e8165b7158c8e9abbd3da7596",
+            "bytes": 6019
+          },
+          "song/scr-cdtitle.png": {
+            "sha256": "798e065088e74a69a0f8695ee3a6bca9ed2c54778e601ba124386ffecb1792f7",
+            "bytes": 145470
+          },
+          "trace/semantic.json": {
+            "sha256": "9f40f05ed96f32e5020cd81cb8d192f87a0cd8d96e1457b8f44de505330bbb26",
+            "bytes": 190097602
+          }
+        },
+        "excluded_source_files": [],
+        "exporter_source": {
+          "harness_commit": "b2af4f355d827fb0e89aead84b4c75a9b8cccf6c",
+          "file": "src/song_lua_archive.rs",
+          "sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+          "anchors": {
+            "selected_simfile": "311-335",
+            "automatic_media": "553-591",
+            "physical_lua": "617-672",
+            "referenced_assets": "351-371,819-969",
+            "runtime_reads_and_listings": "372-418"
+          }
+        },
+        "runtime_dependency_proof": null,
+        "capture_plan_sha256": "3043cf491cf3dcd99d909e7065f564c056f44460c568ede380841da0989cc0f6"
+      },
+      "production_pending_coverage": [
+        "application build without test-support",
+        "full-song completion",
+        "sampled framebuffer pixels",
+        "production command/query instrumentation",
+        "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+        "saved statistics getter functions explicitly invoked with another stage's player receiver",
+        "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+      ],
+      "claim_flags": {
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pixel_parity_proven": false
+      },
+      "prior_recorded_failure": {
+        "receipt": {
+          "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+          "path": "results/ecb7f9f9a8fb340b-c0001/capture-04fbf7260ffc3a6d6f31-001/replay-3f90754b096fb4d94733/result.json",
+          "original_bytes_sha256": "4efa2c4ef407880f122c62464c3648babeec21c9ad4e1475c6f364eedbff6dc9"
+        },
+        "status": "parity_failure",
+        "runner_sha256": "90abd15f5e2f6e15a23b33faacc83ec81bde13a2f709f095576a10ce0c8405e4",
+        "execution_path": "production-and-diagnostic-live-lua",
+        "native_frames": 1648,
+        "replayed_frames": 1648,
+        "mismatch_count": 10,
+        "mismatch_fields": {
+          "command_query_event": 10
+        },
+        "error_count": 0,
+        "errors": [],
+        "first_mismatches": [
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0016",
+              "args": [
+                213.25
+              ],
+              "beat": 28.902996063232422,
+              "caller": {
+                "line": 445,
+                "source": "song:/lua/default.lua",
+                "tail_call": false
+              },
+              "command": "LoopCommand",
+              "definition_id": "def-0001",
+              "detail": {
+                "native_tween_children": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        },
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        }
+                      ],
+                      "commands": {
+                        "Init": {
+                          "last_line": "<nested value retained in full artifact>",
+                          "line": "<nested value retained in full artifact>",
+                          "source": "<nested value retained in full artifact>"
+                        }
+                      },
+                      "name": "Judgment",
+                      "time_left": 0.7945680022239685
+                    }
+                  ],
+                  "commands": [],
+                  "name": "PlayerP1",
+                  "time_left": 0.800000011920929
+                },
+                "native_tween_time_left": 0.800000011920929
+              },
+              "kind": "call",
+              "line": 445,
+              "operation": "Actor.x",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 12.399999618530273,
+              "seq": 33366,
+              "source": "song:/lua/default.lua",
+              "tween_time_left": 0.800000011920929
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.x",
+              "source": "song:/lua/default.lua",
+              "line": 445,
+              "phase": "callback",
+              "beat": 28.902996063232422,
+              "seconds": 12.399999618530273,
+              "args": [
+                213.25
+              ],
+              "results": [
+                {
+                  "actor": "0x7ac2fbfc8260",
+                  "name": "PlayerP1",
+                  "path": "ScreenGameplay/PlayerP1"
+                }
+              ],
+              "tween_time_left": 0.7945680022239685
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0016",
+              "args": [
+                240
+              ],
+              "beat": 28.902996063232422,
+              "caller": {
+                "line": 445,
+                "source": "song:/lua/default.lua",
+                "tail_call": false
+              },
+              "command": "LoopCommand",
+              "definition_id": "def-0001",
+              "detail": {
+                "native_tween_time_left": 0.800000011920929
+              },
+              "kind": "call",
+              "line": 445,
+              "operation": "Actor.y",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 12.399999618530273,
+              "seq": 33367,
+              "source": "song:/lua/default.lua",
+              "tween_time_left": 0.800000011920929
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.y",
+              "source": "song:/lua/default.lua",
+              "line": 445,
+              "phase": "callback",
+              "beat": 28.902996063232422,
+              "seconds": 12.399999618530273,
+              "args": [
+                240
+              ],
+              "results": [
+                {
+                  "actor": "0x7ac2fbfc8260",
+                  "name": "PlayerP1",
+                  "path": "ScreenGameplay/PlayerP1"
+                }
+              ],
+              "tween_time_left": 0.7945680022239685
+            }
+          }
+        ]
+      },
+      "replay_runs": [
+        {
+          "stage": "after01",
+          "archive_sha256": "0ccdb1a53295397e0925601f0f49dc0196831a98edfd44f7cddf99ce665a505a",
+          "binary_sha256": "8fe05b17d1edc96cf705e7f68477d7c96fce0b5720367d04b7e1c22533e7f06b",
+          "exit_code": 0,
+          "fresh_candidate": true,
+          "summary": {
+            "native_frames": 2093,
+            "replayed_frames": 2093,
+            "archive_accepted": true,
+            "diagnostic_replay_checks_passed": true,
+            "production_gameplay_checks_passed": true,
+            "whole_song_parity_proven": false,
+            "production_parity_proven": false,
+            "pixel_parity_proven": false,
+            "checked_stage_samples": 119,
+            "compared_stage_fields": 21436,
+            "diagnostic_compared_stage_fields": 10718,
+            "execution_path": "production-and-diagnostic-live-lua",
+            "production_preparation_exercised": true,
+            "capture_completed_gameplay": true,
+            "mismatch_count": 0,
+            "errors": [],
+            "mismatch_fields": {},
+            "first_mismatches": [],
+            "pending_coverage": [
+              "uncompared song operations: Actor.GetX, Actor.GetY, Actor.GetZ, Actor.SetTextureFiltering, Actor.basezoom, Actor.basezoomx, Actor.basezoomy, Actor.blend, Actor.effectclock, Actor.fadebottom, Actor.hibernate, Actor.rotationx, Actor.rotationy, Actor.skewx, Actor.wag, Actor.z, Actor.zoomz, GameState.IsHumanPlayer, PlayerOptions.FromString, PlayerOptions.Mini, PlayerOptions.Tilt",
+              "native drawable state/resources: Quad, Sprite",
+              "missing captured subscriber identity for ScreenGameplay/2/11/1",
+              "missing captured subscriber identity for ScreenGameplay/2/12",
+              "missing captured subscriber identity for ScreenGameplay/2/15/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+              "missing captured subscriber identity for ScreenGameplay/2/8",
+              "missing captured subscriber identity for ScreenGameplay/25",
+              "missing captured subscriber identity for ScreenGameplay/26/1/1",
+              "missing captured subscriber identity for ScreenGameplay/26/1/10",
+              "missing captured subscriber identity for ScreenGameplay/26/1/12",
+              "missing captured subscriber identity for ScreenGameplay/26/1/2",
+              "missing captured subscriber identity for ScreenGameplay/26/1/4",
+              "missing captured subscriber identity for ScreenGameplay/26/1/5",
+              "missing captured subscriber identity for ScreenGameplay/26/1/7",
+              "missing captured subscriber identity for ScreenGameplay/26/1/9",
+              "missing captured subscriber identity for ScreenGameplay/3/1",
+              "production replay: application build without test-support",
+              "production replay: full-song completion",
+              "production replay: sampled framebuffer pixels",
+              "production replay: production command/query instrumentation",
+              "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+            ],
+            "production_pending_coverage": [
+              "application build without test-support",
+              "full-song completion",
+              "sampled framebuffer pixels",
+              "production command/query instrumentation",
+              "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+            ],
+            "diagnostic_draws": {
+              "draw_samples_compared": 482,
+              "submitted_vertices_compared": 2892,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 231,
+              "render_random_inputs_captured": 231
+            },
+            "production_draws": {
+              "draw_samples_compared": 482,
+              "submitted_vertices_compared": 2892,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 231,
+              "render_random_inputs_captured": 231
+            },
+            "production_stage_fields": 10718,
+            "production_errors": [],
+            "production_mismatch_count": 0,
+            "production_archive_accepted": false,
+            "command_queries": {
+              "compared": true,
+              "native_count": 160000,
+              "actual_count": 160000
+            },
+            "uncompared_queries": 0
+          }
+        },
+        {
+          "stage": "baseline",
+          "archive_sha256": "0ccdb1a53295397e0925601f0f49dc0196831a98edfd44f7cddf99ce665a505a",
+          "binary_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+          "exit_code": 0,
+          "fresh_candidate": true,
+          "summary": {
+            "native_frames": 2093,
+            "replayed_frames": 2093,
+            "archive_accepted": true,
+            "diagnostic_replay_checks_passed": true,
+            "production_gameplay_checks_passed": true,
+            "whole_song_parity_proven": false,
+            "production_parity_proven": false,
+            "pixel_parity_proven": false,
+            "checked_stage_samples": 119,
+            "compared_stage_fields": 21436,
+            "diagnostic_compared_stage_fields": 10718,
+            "execution_path": "production-and-diagnostic-live-lua",
+            "production_preparation_exercised": true,
+            "capture_completed_gameplay": true,
+            "mismatch_count": 0,
+            "errors": [],
+            "mismatch_fields": {},
+            "first_mismatches": [],
+            "pending_coverage": [
+              "uncompared song operations: Actor.GetX, Actor.GetY, Actor.GetZ, Actor.SetTextureFiltering, Actor.basezoom, Actor.basezoomx, Actor.basezoomy, Actor.blend, Actor.effectclock, Actor.fadebottom, Actor.hibernate, Actor.rotationx, Actor.rotationy, Actor.skewx, Actor.wag, Actor.z, Actor.zoomz, GameState.IsHumanPlayer, PlayerOptions.FromString, PlayerOptions.Mini, PlayerOptions.Tilt",
+              "native drawable state/resources: Quad, Sprite",
+              "missing captured subscriber identity for ScreenGameplay/2/11/1",
+              "missing captured subscriber identity for ScreenGameplay/2/12",
+              "missing captured subscriber identity for ScreenGameplay/2/15/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+              "missing captured subscriber identity for ScreenGameplay/2/8",
+              "missing captured subscriber identity for ScreenGameplay/25",
+              "missing captured subscriber identity for ScreenGameplay/26/1/1",
+              "missing captured subscriber identity for ScreenGameplay/26/1/10",
+              "missing captured subscriber identity for ScreenGameplay/26/1/12",
+              "missing captured subscriber identity for ScreenGameplay/26/1/2",
+              "missing captured subscriber identity for ScreenGameplay/26/1/4",
+              "missing captured subscriber identity for ScreenGameplay/26/1/5",
+              "missing captured subscriber identity for ScreenGameplay/26/1/7",
+              "missing captured subscriber identity for ScreenGameplay/26/1/9",
+              "missing captured subscriber identity for ScreenGameplay/3/1",
+              "production replay: application build without test-support",
+              "production replay: full-song completion",
+              "production replay: sampled framebuffer pixels",
+              "production replay: production command/query instrumentation",
+              "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+            ],
+            "production_pending_coverage": [
+              "application build without test-support",
+              "full-song completion",
+              "sampled framebuffer pixels",
+              "production command/query instrumentation",
+              "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+            ],
+            "diagnostic_draws": {
+              "draw_samples_compared": 482,
+              "submitted_vertices_compared": 2892,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 231,
+              "render_random_inputs_captured": 231
+            },
+            "production_draws": {
+              "draw_samples_compared": 482,
+              "submitted_vertices_compared": 2892,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 231,
+              "render_random_inputs_captured": 231
+            },
+            "production_stage_fields": 10718,
+            "production_errors": [],
+            "production_mismatch_count": 0,
+            "production_archive_accepted": false,
+            "command_queries": {
+              "compared": true,
+              "native_count": 160000,
+              "actual_count": 160000
+            },
+            "uncompared_queries": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "ccfbbe2824310517-c0001",
+      "label": "Circles (native title Episode 15)",
+      "archive": {
+        "title": "Episode 15 Circles",
+        "source_simfile": "Circles/Circles.sm",
+        "harness_version": "0.1.110",
+        "archive": "e4d1aca45d3c84303b2349bb9883adb582f7d25300263724c8bc88398c913b62.tar.zst",
+        "sha256": "e4d1aca45d3c84303b2349bb9883adb582f7d25300263724c8bc88398c913b62",
+        "compressed_bytes": 145131074,
+        "uncompressed_sha256": "781f29fa414a7b05877ae7d4c6a29bf374f9459a6ab8758ea68f1a785fabc304",
+        "compression_level": 12,
+        "aliases": []
+      },
+      "candidate_sha256": "781f29fa414a7b05877ae7d4c6a29bf374f9459a6ab8758ea68f1a785fabc304",
+      "source_commit": "cfc285847c362a079faefc9840dc488223b87ca8",
+      "runner_sha256": "8fe05b17d1edc96cf705e7f68477d7c96fce0b5720367d04b7e1c22533e7f06b",
+      "report_sha256": "b27cf7d13e9fb2a519bad7f4eb3e505cadbb51347428cc5e575c3d41faefb88f",
+      "native_counts": {
+        "update_frames": 2822,
+        "events": 111407,
+        "drawable_samples": 19110,
+        "stage_samples": 219,
+        "render_random_inputs": 0
+      },
+      "pending_coverage": [
+        "native drawable state/resources: ActorProxy, Quad, Sprite",
+        "missing captured subscriber identity for ScreenGameplay/2/11/1",
+        "missing captured subscriber identity for ScreenGameplay/2/12",
+        "missing captured subscriber identity for ScreenGameplay/2/15/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/8",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1",
+        "production replay: application build without test-support",
+        "production replay: full-song completion",
+        "production replay: sampled framebuffer pixels",
+        "production replay: production command/query instrumentation",
+        "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+        "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+        "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+      ],
+      "resource_phases": [
+        {
+          "phase": "native-capture-and-archive",
+          "receipt": {
+            "finished_at": "2026-11-20T07:08:54.405003+00:00",
+            "unit": "deadsync-five-0d45acd0df12ceef",
+            "service_result": "success",
+            "exit_code": "exited",
+            "exit_status": "0",
+            "spec_sha256": "193961e4048be061f111f54fce270bbff18b3b4f5fbd9eaec69f71f738ceec02",
+            "resource_usage": {
+              "MemoryPeak": "1196322816",
+              "CPUUsageNSec": "349067492000",
+              "CPUQuotaPerSecUSec": "2s",
+              "MemoryMax": "6442450944",
+              "MemorySwapMax": "0"
+            }
+          }
+        }
+      ],
+      "maximum_stage_memory_peak_bytes": 1196322816,
+      "recovery_validation": null,
+      "candidate_source_proof": {
+        "source_folder_sha256": "0817da2194ea8393acfd5d4c6775f9dc671d3708ec43235563a96ea7fa644c58",
+        "source_simfile_sha256": "c56c02f2f589f4ee8cd855477469e68ce7bbed4e8d37f844954b9eebb0ad95d5",
+        "source_inventory_files": 13,
+        "source_files_checked": 8,
+        "source_and_native_archive_members": {
+          "song/Circles.ogg": {
+            "sha256": "0c7737d7260f2f6d3bfaee8b7a94831e390eb83206fd0ea3716a21b292357ae3",
+            "bytes": 4069023
+          },
+          "song/Circles.sm": {
+            "sha256": "c56c02f2f589f4ee8cd855477469e68ce7bbed4e8d37f844954b9eebb0ad95d5",
+            "bytes": 7774
+          },
+          "song/cdtitle.png": {
+            "sha256": "cb82f42f01e36082120e0a815e6be7fb20714f0b78804bf66e19dcb86ea10798",
+            "bytes": 332058
+          },
+          "song/cdtitle2.png": {
+            "sha256": "28ab776e0d5cb544cc3035c414f26a293c2780e574a30f3efc76f44e97d70889",
+            "bytes": 29035
+          },
+          "song/lua/Wind.mp4": {
+            "sha256": "c252d4eee9329422113123ad6d6e73be59b2ae0b84102fb4abb64e4231531574",
+            "bytes": 3270094
+          },
+          "song/lua/bg2.mp4": {
+            "sha256": "4eb226db7c5bbdf482a8f87a7a482cbf480277bcf66e16790b44e2c3ec995c23",
+            "bytes": 27659189
+          },
+          "song/lua/default.lua": {
+            "sha256": "659414ecf3dbecbc87c61acbe951bee30f626a560f84966f3211f2f5e069a050",
+            "bytes": 13826
+          },
+          "song/lua/rose.png": {
+            "sha256": "32849acf91eeafa4c76f6219a723f7dad7759ee82e88a59949e8daadcb491c65",
+            "bytes": 26718
+          },
+          "trace/semantic.json": {
+            "sha256": "9e941be09ec7b260258889048cf773ba129e14f684f4f099eae022527837385f",
+            "bytes": 116892203
+          }
+        },
+        "excluded_source_files": [
+          {
+            "path": "Circles/Circles.sm.old",
+            "bytes": 7774,
+            "sha256": "c6f8ce86b84f3dd75d3dfb22a5595edba4deee42c5515fb575631e570494b5ff",
+            "archive_member": "song/Circles.sm.old",
+            "reason": "backup",
+            "explanation": "The .old extension is outside automatic media and physical Lua collection; this is not the selected simfile.",
+            "exporter_source_anchors": [
+              "311-335",
+              "553-591",
+              "656-672"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          },
+          {
+            "path": "Circles/Circles.ssc",
+            "bytes": 8173,
+            "sha256": "ebc1974ab7c0c83af9e0255566396f6c5a3c73f4c10590f990acb1035f30b15d",
+            "archive_member": "song/Circles.ssc",
+            "reason": "unselected-simfile",
+            "explanation": "Only the selected simfile is inserted; this alternative .ssc is outside automatic media and Lua collection.",
+            "exporter_source_anchors": [
+              "311-335",
+              "553-591",
+              "656-672"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          },
+          {
+            "path": "Circles/Circles.ssc.old",
+            "bytes": 8173,
+            "sha256": "16552c03e7d009c3a4b6497001053b26ebd885d99157b82a81a63ccf361b24ce",
+            "archive_member": "song/Circles.ssc.old",
+            "reason": "backup",
+            "explanation": "The .old extension is outside automatic media and physical Lua collection; this is not the selected simfile.",
+            "exporter_source_anchors": [
+              "311-335",
+              "553-591",
+              "656-672"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          },
+          {
+            "path": "Circles/desktop.ini",
+            "bytes": 106,
+            "sha256": "204356c2dbf52ab1006ecb8166088761490d8d5e656f2cd44fc6cf8b74706ef5",
+            "archive_member": "song/desktop.ini",
+            "reason": "unreferenced-desktop-metadata",
+            "explanation": "The desktop.ini file is outside automatic media and Lua collection and is not a referenced asset or captured runtime dependency.",
+            "exporter_source_anchors": [
+              "553-591",
+              "656-672",
+              "351-418"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          },
+          {
+            "path": "Circles/lua/desktop.ini",
+            "bytes": 106,
+            "sha256": "204356c2dbf52ab1006ecb8166088761490d8d5e656f2cd44fc6cf8b74706ef5",
+            "archive_member": "song/lua/desktop.ini",
+            "reason": "unreferenced-desktop-metadata",
+            "explanation": "The desktop.ini file is outside automatic media and Lua collection and is not a referenced asset or captured runtime dependency.",
+            "exporter_source_anchors": [
+              "553-591",
+              "656-672",
+              "351-418"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          }
+        ],
+        "exporter_source": {
+          "harness_commit": "b2af4f355d827fb0e89aead84b4c75a9b8cccf6c",
+          "file": "src/song_lua_archive.rs",
+          "sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+          "anchors": {
+            "selected_simfile": "311-335",
+            "automatic_media": "553-591",
+            "physical_lua": "617-672",
+            "referenced_assets": "351-371,819-969",
+            "runtime_reads_and_listings": "372-418"
+          }
+        },
+        "runtime_dependency_proof": {
+          "native_trace_sha256": "9e941be09ec7b260258889048cf773ba129e14f684f4f099eae022527837385f",
+          "file_reads_present": false,
+          "file_reads_count": 0,
+          "directory_queries_present": false,
+          "directory_queries_count": 0,
+          "exporter_source_anchor": "372-418"
+        },
+        "capture_plan_sha256": "3043cf491cf3dcd99d909e7065f564c056f44460c568ede380841da0989cc0f6"
+      },
+      "production_pending_coverage": [
+        "application build without test-support",
+        "full-song completion",
+        "sampled framebuffer pixels",
+        "production command/query instrumentation",
+        "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+        "saved statistics getter functions explicitly invoked with another stage's player receiver",
+        "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+      ],
+      "claim_flags": {
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pixel_parity_proven": false
+      },
+      "prior_recorded_failure": {
+        "receipt": {
+          "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+          "path": "results/ccfbbe2824310517-c0001/capture-4a858b453b124bc37ea8-001/replay-0260f64d58590db02978/result.json",
+          "original_bytes_sha256": "36b0fc27bbfa5bda214d01efce7fa4e9a49a84233c5f6f52269c4decdd42af8e"
+        },
+        "status": "parity_failure",
+        "runner_sha256": "90abd15f5e2f6e15a23b33faacc83ec81bde13a2f709f095576a10ce0c8405e4",
+        "execution_path": "production-and-diagnostic-live-lua",
+        "native_frames": 2483,
+        "replayed_frames": 2483,
+        "mismatch_count": 12,
+        "mismatch_fields": {
+          "command_query_event": 12
+        },
+        "error_count": 0,
+        "errors": [],
+        "first_mismatches": [
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0025",
+              "args": [
+                485.9258758281484
+              ],
+              "beat": 249.89154052734375,
+              "caller": {
+                "line": 287,
+                "source": "song:/lua/default.lua",
+                "tail_call": false
+              },
+              "command": "LoopMessageCommand",
+              "definition_id": "def-0009",
+              "detail": {
+                "native_tween_children": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        },
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        }
+                      ],
+                      "commands": {
+                        "Init": {
+                          "last_line": "<nested value retained in full artifact>",
+                          "line": "<nested value retained in full artifact>",
+                          "source": "<nested value retained in full artifact>"
+                        }
+                      },
+                      "name": "Judgment",
+                      "time_left": 0.7400950193405151
+                    }
+                  ],
+                  "commands": [],
+                  "name": "PlayerP1",
+                  "time_left": 0.800000011920929
+                },
+                "native_tween_time_left": 0.800000011920929
+              },
+              "kind": "call",
+              "line": 287,
+              "operation": "Actor.x",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 125.07977294921875,
+              "seq": 65742,
+              "source": "song:/lua/default.lua",
+              "tween_time_left": 0.800000011920929
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.x",
+              "source": "song:/lua/default.lua",
+              "line": 287,
+              "phase": "callback",
+              "beat": 249.89154052734375,
+              "seconds": 125.07977294921875,
+              "args": [
+                485.9258758281484
+              ],
+              "results": [
+                {
+                  "actor": "0x70bd2fb596a8",
+                  "name": "PlayerP1",
+                  "path": "ScreenGameplay/PlayerP1"
+                }
+              ],
+              "tween_time_left": 0.7400950193405151
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0025",
+              "args": [
+                185.89139478894657
+              ],
+              "beat": 249.89154052734375,
+              "caller": {
+                "line": 287,
+                "source": "song:/lua/default.lua",
+                "tail_call": false
+              },
+              "command": "LoopMessageCommand",
+              "definition_id": "def-0009",
+              "detail": {
+                "native_tween_time_left": 0.800000011920929
+              },
+              "kind": "call",
+              "line": 287,
+              "operation": "Actor.y",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 125.07977294921875,
+              "seq": 65743,
+              "source": "song:/lua/default.lua",
+              "tween_time_left": 0.800000011920929
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.y",
+              "source": "song:/lua/default.lua",
+              "line": 287,
+              "phase": "callback",
+              "beat": 249.89154052734375,
+              "seconds": 125.07977294921875,
+              "args": [
+                185.89139478894657
+              ],
+              "results": [
+                {
+                  "actor": "0x70bd2fb596a8",
+                  "name": "PlayerP1",
+                  "path": "ScreenGameplay/PlayerP1"
+                }
+              ],
+              "tween_time_left": 0.7400950193405151
+            }
+          }
+        ]
+      },
+      "replay_runs": [
+        {
+          "stage": "after01",
+          "archive_sha256": "781f29fa414a7b05877ae7d4c6a29bf374f9459a6ab8758ea68f1a785fabc304",
+          "binary_sha256": "8fe05b17d1edc96cf705e7f68477d7c96fce0b5720367d04b7e1c22533e7f06b",
+          "exit_code": 0,
+          "fresh_candidate": true,
+          "summary": {
+            "native_frames": 2822,
+            "replayed_frames": 2822,
+            "archive_accepted": true,
+            "diagnostic_replay_checks_passed": true,
+            "production_gameplay_checks_passed": true,
+            "whole_song_parity_proven": false,
+            "production_parity_proven": false,
+            "pixel_parity_proven": false,
+            "checked_stage_samples": 218,
+            "compared_stage_fields": 33612,
+            "diagnostic_compared_stage_fields": 16806,
+            "execution_path": "production-and-diagnostic-live-lua",
+            "production_preparation_exercised": true,
+            "capture_completed_gameplay": true,
+            "mismatch_count": 0,
+            "errors": [],
+            "mismatch_fields": {},
+            "first_mismatches": [],
+            "pending_coverage": [
+              "native drawable state/resources: ActorProxy, Quad, Sprite",
+              "missing captured subscriber identity for ScreenGameplay/2/11/1",
+              "missing captured subscriber identity for ScreenGameplay/2/12",
+              "missing captured subscriber identity for ScreenGameplay/2/15/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+              "missing captured subscriber identity for ScreenGameplay/2/8",
+              "missing captured subscriber identity for ScreenGameplay/25",
+              "missing captured subscriber identity for ScreenGameplay/26/1/1",
+              "missing captured subscriber identity for ScreenGameplay/26/1/10",
+              "missing captured subscriber identity for ScreenGameplay/26/1/12",
+              "missing captured subscriber identity for ScreenGameplay/26/1/2",
+              "missing captured subscriber identity for ScreenGameplay/26/1/4",
+              "missing captured subscriber identity for ScreenGameplay/26/1/5",
+              "missing captured subscriber identity for ScreenGameplay/26/1/7",
+              "missing captured subscriber identity for ScreenGameplay/26/1/9",
+              "missing captured subscriber identity for ScreenGameplay/3/1",
+              "production replay: application build without test-support",
+              "production replay: full-song completion",
+              "production replay: sampled framebuffer pixels",
+              "production replay: production command/query instrumentation",
+              "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+            ],
+            "production_pending_coverage": [
+              "application build without test-support",
+              "full-song completion",
+              "sampled framebuffer pixels",
+              "production command/query instrumentation",
+              "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+            ],
+            "diagnostic_draws": {
+              "draw_samples_compared": 19110,
+              "submitted_vertices_compared": 114660,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_draws": {
+              "draw_samples_compared": 19110,
+              "submitted_vertices_compared": 114660,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_stage_fields": 16806,
+            "production_errors": [],
+            "production_mismatch_count": 0,
+            "production_archive_accepted": false,
+            "command_queries": {
+              "compared": true,
+              "native_count": 95277,
+              "actual_count": 95277
+            },
+            "uncompared_queries": 0
+          }
+        },
+        {
+          "stage": "baseline",
+          "archive_sha256": "781f29fa414a7b05877ae7d4c6a29bf374f9459a6ab8758ea68f1a785fabc304",
+          "binary_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+          "exit_code": 0,
+          "fresh_candidate": true,
+          "summary": {
+            "native_frames": 2822,
+            "replayed_frames": 2822,
+            "archive_accepted": true,
+            "diagnostic_replay_checks_passed": true,
+            "production_gameplay_checks_passed": true,
+            "whole_song_parity_proven": false,
+            "production_parity_proven": false,
+            "pixel_parity_proven": false,
+            "checked_stage_samples": 218,
+            "compared_stage_fields": 33612,
+            "diagnostic_compared_stage_fields": 16806,
+            "execution_path": "production-and-diagnostic-live-lua",
+            "production_preparation_exercised": true,
+            "capture_completed_gameplay": true,
+            "mismatch_count": 0,
+            "errors": [],
+            "mismatch_fields": {},
+            "first_mismatches": [],
+            "pending_coverage": [
+              "native drawable state/resources: ActorProxy, Quad, Sprite",
+              "missing captured subscriber identity for ScreenGameplay/2/11/1",
+              "missing captured subscriber identity for ScreenGameplay/2/12",
+              "missing captured subscriber identity for ScreenGameplay/2/15/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+              "missing captured subscriber identity for ScreenGameplay/2/8",
+              "missing captured subscriber identity for ScreenGameplay/25",
+              "missing captured subscriber identity for ScreenGameplay/26/1/1",
+              "missing captured subscriber identity for ScreenGameplay/26/1/10",
+              "missing captured subscriber identity for ScreenGameplay/26/1/12",
+              "missing captured subscriber identity for ScreenGameplay/26/1/2",
+              "missing captured subscriber identity for ScreenGameplay/26/1/4",
+              "missing captured subscriber identity for ScreenGameplay/26/1/5",
+              "missing captured subscriber identity for ScreenGameplay/26/1/7",
+              "missing captured subscriber identity for ScreenGameplay/26/1/9",
+              "missing captured subscriber identity for ScreenGameplay/3/1",
+              "production replay: application build without test-support",
+              "production replay: full-song completion",
+              "production replay: sampled framebuffer pixels",
+              "production replay: production command/query instrumentation",
+              "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+            ],
+            "production_pending_coverage": [
+              "application build without test-support",
+              "full-song completion",
+              "sampled framebuffer pixels",
+              "production command/query instrumentation",
+              "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+            ],
+            "diagnostic_draws": {
+              "draw_samples_compared": 19110,
+              "submitted_vertices_compared": 114660,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_draws": {
+              "draw_samples_compared": 19110,
+              "submitted_vertices_compared": 114660,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_stage_fields": 16806,
+            "production_errors": [],
+            "production_mismatch_count": 0,
+            "production_archive_accepted": false,
+            "command_queries": {
+              "compared": true,
+              "native_count": 95277,
+              "actual_count": 95277
+            },
+            "uncompared_queries": 0
+          }
+        },
+        {
+          "stage": "historical-after01",
+          "archive_sha256": "1467b5bccb06fe84d622d5590f5ee732dfbd6ed0b4fcbf9af7036f37d9b2a38e",
+          "binary_sha256": "8fe05b17d1edc96cf705e7f68477d7c96fce0b5720367d04b7e1c22533e7f06b",
+          "exit_code": 0,
+          "fresh_candidate": false,
+          "summary": {
+            "native_frames": 2483,
+            "replayed_frames": 2483,
+            "archive_accepted": true,
+            "diagnostic_replay_checks_passed": true,
+            "production_gameplay_checks_passed": true,
+            "whole_song_parity_proven": false,
+            "production_parity_proven": false,
+            "pixel_parity_proven": false,
+            "checked_stage_samples": 216,
+            "compared_stage_fields": 31510,
+            "diagnostic_compared_stage_fields": 15755,
+            "execution_path": "production-and-diagnostic-live-lua",
+            "production_preparation_exercised": true,
+            "capture_completed_gameplay": true,
+            "mismatch_count": 0,
+            "errors": [],
+            "mismatch_fields": {},
+            "first_mismatches": [],
+            "pending_coverage": [
+              "native drawable state/resources: ActorProxy, Quad, Sprite",
+              "missing captured subscriber identity for ScreenGameplay/2/11/1",
+              "missing captured subscriber identity for ScreenGameplay/2/12",
+              "missing captured subscriber identity for ScreenGameplay/2/15/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+              "missing captured subscriber identity for ScreenGameplay/2/8",
+              "missing captured subscriber identity for ScreenGameplay/25",
+              "missing captured subscriber identity for ScreenGameplay/26/1/1",
+              "missing captured subscriber identity for ScreenGameplay/26/1/10",
+              "missing captured subscriber identity for ScreenGameplay/26/1/12",
+              "missing captured subscriber identity for ScreenGameplay/26/1/2",
+              "missing captured subscriber identity for ScreenGameplay/26/1/4",
+              "missing captured subscriber identity for ScreenGameplay/26/1/5",
+              "missing captured subscriber identity for ScreenGameplay/26/1/7",
+              "missing captured subscriber identity for ScreenGameplay/26/1/9",
+              "missing captured subscriber identity for ScreenGameplay/3/1",
+              "production replay: application build without test-support",
+              "production replay: full-song completion",
+              "production replay: sampled framebuffer pixels",
+              "production replay: production command/query instrumentation",
+              "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+            ],
+            "production_pending_coverage": [
+              "application build without test-support",
+              "full-song completion",
+              "sampled framebuffer pixels",
+              "production command/query instrumentation",
+              "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+            ],
+            "diagnostic_draws": {
+              "draw_samples_compared": 17519,
+              "submitted_vertices_compared": 105114,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_draws": {
+              "draw_samples_compared": 17519,
+              "submitted_vertices_compared": 105114,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_stage_fields": 15755,
+            "production_errors": [],
+            "production_mismatch_count": 0,
+            "production_archive_accepted": false,
+            "command_queries": {
+              "compared": true,
+              "native_count": 94172,
+              "actual_count": 94172
+            },
+            "uncompared_queries": 0
+          }
+        },
+        {
+          "stage": "historical-baseline",
+          "archive_sha256": "1467b5bccb06fe84d622d5590f5ee732dfbd6ed0b4fcbf9af7036f37d9b2a38e",
+          "binary_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+          "exit_code": 2,
+          "fresh_candidate": false,
+          "summary": {
+            "native_frames": 2483,
+            "replayed_frames": 2483,
+            "archive_accepted": false,
+            "diagnostic_replay_checks_passed": false,
+            "production_gameplay_checks_passed": true,
+            "whole_song_parity_proven": false,
+            "production_parity_proven": false,
+            "pixel_parity_proven": false,
+            "checked_stage_samples": 216,
+            "compared_stage_fields": 31510,
+            "diagnostic_compared_stage_fields": 15755,
+            "execution_path": "production-and-diagnostic-live-lua",
+            "production_preparation_exercised": true,
+            "capture_completed_gameplay": true,
+            "mismatch_count": 12,
+            "errors": [],
+            "mismatch_fields": {
+              "command_query_event": 12
+            },
+            "first_mismatches": [
+              {
+                "field": "command_query_event",
+                "native": {
+                  "actor": "external-0025",
+                  "args": [
+                    485.9258758281484
+                  ],
+                  "beat": 249.89154052734375,
+                  "caller": {
+                    "line": 287,
+                    "source": "song:/lua/default.lua",
+                    "tail_call": false
+                  },
+                  "command": "LoopMessageCommand",
+                  "definition_id": "def-0009",
+                  "detail": {
+                    "native_tween_children": {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [],
+                                  "commands": [],
+                                  "name": "HoldJudgment",
+                                  "time_left": 0.800000011920929
+                                }
+                              ],
+                              "commands": [],
+                              "name": "",
+                              "time_left": 0.800000011920929
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [],
+                                  "commands": [],
+                                  "name": "HoldJudgment",
+                                  "time_left": 0.290041983127594
+                                }
+                              ],
+                              "commands": [],
+                              "name": "",
+                              "time_left": 0.290041983127594
+                            }
+                          ]
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [],
+                              "commands": {
+                                "Init": {
+                                  "last_line": 235,
+                                  "line": 209,
+                                  "source": "@/Themes/itgmania-harness/Graphics/Player judgment.lua"
+                                }
+                              },
+                              "name": "JudgmentWithOffsets",
+                              "time_left": 0.7400950193405151
+                            }
+                          ],
+                          "commands": {
+                            "Init": {
+                              "last_line": 69,
+                              "line": 66,
+                              "source": "@/Themes/itgmania-harness/Graphics/Player judgment.lua"
+                            }
+                          },
+                          "name": "Judgment",
+                          "time_left": 0.7400950193405151
+                        }
+                      ],
+                      "commands": [],
+                      "name": "PlayerP1",
+                      "time_left": 0.800000011920929
+                    },
+                    "native_tween_time_left": 0.800000011920929
+                  },
+                  "kind": "call",
+                  "line": 287,
+                  "operation": "Actor.x",
+                  "phase": "callback",
+                  "scene": 1,
+                  "seconds": 125.07977294921875,
+                  "seq": 65742,
+                  "source": "song:/lua/default.lua",
+                  "tween_time_left": 0.800000011920929
+                },
+                "deadsync": {
+                  "scene": 1,
+                  "kind": "call",
+                  "operation": "Actor.x",
+                  "source": "song:/lua/default.lua",
+                  "line": 287,
+                  "phase": "callback",
+                  "beat": 249.89154052734375,
+                  "seconds": 125.07977294921875,
+                  "args": [
+                    485.9258758281484
+                  ],
+                  "results": [
+                    {
+                      "actor": "0x1a7af690430",
+                      "name": "PlayerP1",
+                      "path": "ScreenGameplay/PlayerP1"
+                    }
+                  ],
+                  "tween_time_left": 0.7400950193405151
+                }
+              },
+              {
+                "field": "command_query_event",
+                "native": {
+                  "actor": "external-0025",
+                  "args": [
+                    185.89139478894657
+                  ],
+                  "beat": 249.89154052734375,
+                  "caller": {
+                    "line": 287,
+                    "source": "song:/lua/default.lua",
+                    "tail_call": false
+                  },
+                  "command": "LoopMessageCommand",
+                  "definition_id": "def-0009",
+                  "detail": {
+                    "native_tween_time_left": 0.800000011920929
+                  },
+                  "kind": "call",
+                  "line": 287,
+                  "operation": "Actor.y",
+                  "phase": "callback",
+                  "scene": 1,
+                  "seconds": 125.07977294921875,
+                  "seq": 65743,
+                  "source": "song:/lua/default.lua",
+                  "tween_time_left": 0.800000011920929
+                },
+                "deadsync": {
+                  "scene": 1,
+                  "kind": "call",
+                  "operation": "Actor.y",
+                  "source": "song:/lua/default.lua",
+                  "line": 287,
+                  "phase": "callback",
+                  "beat": 249.89154052734375,
+                  "seconds": 125.07977294921875,
+                  "args": [
+                    185.89139478894657
+                  ],
+                  "results": [
+                    {
+                      "actor": "0x1a7af690430",
+                      "name": "PlayerP1",
+                      "path": "ScreenGameplay/PlayerP1"
+                    }
+                  ],
+                  "tween_time_left": 0.7400950193405151
+                }
+              },
+              {
+                "field": "command_query_event",
+                "native": {
+                  "actor": "external-0025",
+                  "args": [
+                    -5712.5596618652335
+                  ],
+                  "beat": 249.89154052734375,
+                  "caller": {
+                    "line": 287,
+                    "source": "song:/lua/default.lua",
+                    "tail_call": false
+                  },
+                  "command": "LoopMessageCommand",
+                  "definition_id": "def-0009",
+                  "detail": {
+                    "native_tween_time_left": 0.800000011920929
+                  },
+                  "kind": "call",
+                  "line": 287,
+                  "operation": "Actor.rotationz",
+                  "phase": "callback",
+                  "scene": 1,
+                  "seconds": 125.07977294921875,
+                  "seq": 65744,
+                  "source": "song:/lua/default.lua",
+                  "tween_time_left": 0.800000011920929
+                },
+                "deadsync": {
+                  "scene": 1,
+                  "kind": "call",
+                  "operation": "Actor.rotationz",
+                  "source": "song:/lua/default.lua",
+                  "line": 287,
+                  "phase": "callback",
+                  "beat": 249.89154052734375,
+                  "seconds": 125.07977294921875,
+                  "args": [
+                    -5712.5596618652335
+                  ],
+                  "results": [
+                    {
+                      "actor": "0x1a7af690430",
+                      "name": "PlayerP1",
+                      "path": "ScreenGameplay/PlayerP1"
+                    }
+                  ],
+                  "tween_time_left": 0.7400950193405151
+                }
+              }
+            ],
+            "pending_coverage": [
+              "native drawable state/resources: ActorProxy, Quad, Sprite",
+              "missing captured subscriber identity for ScreenGameplay/2/11/1",
+              "missing captured subscriber identity for ScreenGameplay/2/12",
+              "missing captured subscriber identity for ScreenGameplay/2/15/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+              "missing captured subscriber identity for ScreenGameplay/2/8",
+              "missing captured subscriber identity for ScreenGameplay/25",
+              "missing captured subscriber identity for ScreenGameplay/26/1/1",
+              "missing captured subscriber identity for ScreenGameplay/26/1/10",
+              "missing captured subscriber identity for ScreenGameplay/26/1/12",
+              "missing captured subscriber identity for ScreenGameplay/26/1/2",
+              "missing captured subscriber identity for ScreenGameplay/26/1/4",
+              "missing captured subscriber identity for ScreenGameplay/26/1/5",
+              "missing captured subscriber identity for ScreenGameplay/26/1/7",
+              "missing captured subscriber identity for ScreenGameplay/26/1/9",
+              "missing captured subscriber identity for ScreenGameplay/3/1",
+              "production replay: application build without test-support",
+              "production replay: full-song completion",
+              "production replay: sampled framebuffer pixels",
+              "production replay: production command/query instrumentation",
+              "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+            ],
+            "production_pending_coverage": [
+              "application build without test-support",
+              "full-song completion",
+              "sampled framebuffer pixels",
+              "production command/query instrumentation",
+              "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+            ],
+            "diagnostic_draws": {
+              "draw_samples_compared": 17519,
+              "submitted_vertices_compared": 105114,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_draws": {
+              "draw_samples_compared": 17519,
+              "submitted_vertices_compared": 105114,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_stage_fields": 15755,
+            "production_errors": [],
+            "production_mismatch_count": 0,
+            "production_archive_accepted": false,
+            "command_queries": {
+              "compared": true,
+              "native_count": 94172,
+              "actual_count": 94172
+            },
+            "uncompared_queries": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "1275a659b0dc21d2-c0001",
+      "label": "[CRYSTAL_ACCESS]",
+      "archive": {
+        "title": "[14] [CRYSTAL_ACCESS] (No CMOD)",
+        "source_simfile": "[14] [CRYSTAL_ACCESS] (No CMOD) [SX]/[CRYSTAL_ACCESS].ssc",
+        "harness_version": "0.1.110",
+        "archive": "3b87fdca9ee97922dc8367da76f0a3afd446ed5619e2d46201ea83063f808ede.tar.zst",
+        "sha256": "3b87fdca9ee97922dc8367da76f0a3afd446ed5619e2d46201ea83063f808ede",
+        "compressed_bytes": 117428083,
+        "uncompressed_sha256": "ff5804213dc59bf2ed23a0e1aeb668cb36fdb4f3cbdd459bdf929d2b71034a3d",
+        "compression_level": 12,
+        "aliases": []
+      },
+      "candidate_sha256": "ff5804213dc59bf2ed23a0e1aeb668cb36fdb4f3cbdd459bdf929d2b71034a3d",
+      "source_commit": "cfc285847c362a079faefc9840dc488223b87ca8",
+      "runner_sha256": "8fe05b17d1edc96cf705e7f68477d7c96fce0b5720367d04b7e1c22533e7f06b",
+      "report_sha256": "60fed60f0e45312d05f93d3631ea90eed20c4f415189849769a50e8a3e4d1095",
+      "native_counts": {
+        "update_frames": 2385,
+        "events": 259415,
+        "drawable_samples": 0,
+        "stage_samples": 155,
+        "render_random_inputs": 0
+      },
+      "pending_coverage": [
+        "uncompared song operations: Actor.bob, Actor.effectoffset, Actor.skewx, PlayerOptions.Alternate, PlayerOptions.Brake, PlayerOptions.Confusion, PlayerOptions.Cross, PlayerOptions.Dark, PlayerOptions.Drunk, PlayerOptions.Flip, PlayerOptions.Invert, PlayerOptions.Split, PlayerOptions.Stealth, PlayerOptions.Tipsy, PlayerOptions.Tornado",
+        "missing captured subscriber identity for ScreenGameplay/2/11/1",
+        "missing captured subscriber identity for ScreenGameplay/2/12",
+        "missing captured subscriber identity for ScreenGameplay/2/15/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/8",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1",
+        "production replay: application build without test-support",
+        "production replay: full-song completion",
+        "production replay: sampled framebuffer pixels",
+        "production replay: production command/query instrumentation",
+        "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+        "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+        "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+        "production replay: native capture contains no drawable samples; drawable comparison was not exercised"
+      ],
+      "resource_phases": [
+        {
+          "phase": "native-capture-wrapper-guard-failure",
+          "receipt": {
+            "finished_at": "2026-11-20T07:13:19.718592+00:00",
+            "unit": "deadsync-five-297c2f304de74c02",
+            "service_result": "exit-code",
+            "exit_code": "exited",
+            "exit_status": "1",
+            "spec_sha256": "cc29b4647bae96222d4faefb647d68c8834a8c2ab43a9173c91359adc08db69b",
+            "resource_usage": {
+              "MemoryPeak": "1599619072",
+              "CPUUsageNSec": "182301458000",
+              "CPUQuotaPerSecUSec": "2s",
+              "MemoryMax": "6442450944",
+              "MemorySwapMax": "0"
+            }
+          }
+        },
+        {
+          "phase": "archive-recovery-without-native-recapture",
+          "receipt": {
+            "finished_at": "2026-11-20T07:21:36.970701+00:00",
+            "unit": "deadsync-five-recover-c4f0b821fc0e",
+            "service_result": "success",
+            "exit_code": "exited",
+            "exit_status": "0",
+            "spec_sha256": "f9666086b0f68f73ad1757f7ea853911f8c5ce2ef9fd311aec0fd0e1eba64b1c",
+            "resource_usage": {
+              "MemoryPeak": "1647484928",
+              "CPUUsageNSec": "19747864000",
+              "CPUQuotaPerSecUSec": "2s",
+              "MemoryMax": "6442450944",
+              "MemorySwapMax": "0"
+            }
+          }
+        }
+      ],
+      "maximum_stage_memory_peak_bytes": 1647484928,
+      "recovery_validation": {
+        "validated_at": "2026-11-20T07:21:24.025632+00:00",
+        "reason": "Native drawable sampling permits zero authored drawable submissions.",
+        "native_validator_source": "itgmania-harness/src/song_lua_runtime.rs:1455-1458",
+        "harness_commit": "b2af4f355d827fb0e89aead84b4c75a9b8cccf6c",
+        "native_drawable_vertices": true,
+        "drawable_samples": 0,
+        "drawable_frames": 2385,
+        "authored_actor_definitions": [
+          "ActorFrame",
+          "Actor",
+          "Actor"
+        ],
+        "authored_lua_files": [
+          {
+            "path": "[14] [CRYSTAL_ACCESS] (No CMOD) [SX]/lua/default.lua",
+            "sha256": "a2f305c7aedd4d8c0cea7623773e544b183c9b8d1060df72b1a490470bd091da"
+          },
+          {
+            "path": "[14] [CRYSTAL_ACCESS] (No CMOD) [SX]/lua/easing.lua",
+            "sha256": "c1ca37ef394c7e0b73215c9562dd4e41f81ac790499f89c99b51ddf322df64b0"
+          },
+          {
+            "path": "[14] [CRYSTAL_ACCESS] (No CMOD) [SX]/lua/modhelpers.lua",
+            "sha256": "95137697735498b5573a064ded1a6300d27fc1abe51b6cfc75ec932175ea30e2"
+          },
+          {
+            "path": "[14] [CRYSTAL_ACCESS] (No CMOD) [SX]/lua/mods.lua",
+            "sha256": "75881f3e17ac8decda5b1035f805d0319545d939430182afb2582adf4da25fad"
+          }
+        ],
+        "all_original_capture_guards_rechecked": true,
+        "native_capture_reexecuted": false,
+        "original_capture_result_sha256": "1127c50f0f4fb179b8def9a22f8fe1f66add59ec487ea2cb66d0aea561e2c04e",
+        "original_resource_receipt_sha256": "e855d0ba769d30dec8c422769c9f215681697bff042dddcce52a846336730713",
+        "trace_sha256": "73015e53cfa329a8bdf6d80b5e45493bc4b61ecdfedaf694778d35719afe65c9",
+        "runner_sha256": "c4f0b821fc0e6cf85dd769af05bc3bc24c532f514e8db2039119b919e2f8c263"
+      },
+      "candidate_source_proof": {
+        "source_folder_sha256": "615328c1218e87c6c35973cc55dd51c9e9fae9545d268fb8ba88dcd67ace354c",
+        "source_simfile_sha256": "907eee9b0c94fe8163571613d28d29de75f29fcf968f3ad72686b0329aa25af0",
+        "source_inventory_files": 8,
+        "source_files_checked": 8,
+        "source_and_native_archive_members": {
+          "song/[CRYSTAL_ACCESS].ogg": {
+            "sha256": "258c993782040c4f64bf01e58d9ff10dcaf8e690cafac15f95e19a1e7baa29a2",
+            "bytes": 4150657
+          },
+          "song/[CRYSTAL_ACCESS].ssc": {
+            "sha256": "907eee9b0c94fe8163571613d28d29de75f29fcf968f3ad72686b0329aa25af0",
+            "bytes": 11142
+          },
+          "song/bg.png": {
+            "sha256": "abf4df375d0b2dffd6fd4d7f26e41234ac6b90269a3eb8fe7a7023f52d70fa61",
+            "bytes": 3272646
+          },
+          "song/bn.png": {
+            "sha256": "b7eb96d0010c070a0944c9b461e8a3cee2c386a18c8646cf1fac3dd05de44bf5",
+            "bytes": 675427
+          },
+          "song/lua/default.lua": {
+            "sha256": "a2f305c7aedd4d8c0cea7623773e544b183c9b8d1060df72b1a490470bd091da",
+            "bytes": 24559
+          },
+          "song/lua/easing.lua": {
+            "sha256": "c1ca37ef394c7e0b73215c9562dd4e41f81ac790499f89c99b51ddf322df64b0",
+            "bytes": 9554
+          },
+          "song/lua/modhelpers.lua": {
+            "sha256": "95137697735498b5573a064ded1a6300d27fc1abe51b6cfc75ec932175ea30e2",
+            "bytes": 10756
+          },
+          "song/lua/mods.lua": {
+            "sha256": "75881f3e17ac8decda5b1035f805d0319545d939430182afb2582adf4da25fad",
+            "bytes": 6461
+          },
+          "trace/semantic.json": {
+            "sha256": "73015e53cfa329a8bdf6d80b5e45493bc4b61ecdfedaf694778d35719afe65c9",
+            "bytes": 182044251
+          }
+        },
+        "excluded_source_files": [],
+        "exporter_source": {
+          "harness_commit": "b2af4f355d827fb0e89aead84b4c75a9b8cccf6c",
+          "file": "src/song_lua_archive.rs",
+          "sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+          "anchors": {
+            "selected_simfile": "311-335",
+            "automatic_media": "553-591",
+            "physical_lua": "617-672",
+            "referenced_assets": "351-371,819-969",
+            "runtime_reads_and_listings": "372-418"
+          }
+        },
+        "runtime_dependency_proof": null,
+        "capture_plan_sha256": "3043cf491cf3dcd99d909e7065f564c056f44460c568ede380841da0989cc0f6"
+      },
+      "production_pending_coverage": [
+        "application build without test-support",
+        "full-song completion",
+        "sampled framebuffer pixels",
+        "production command/query instrumentation",
+        "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+        "saved statistics getter functions explicitly invoked with another stage's player receiver",
+        "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+        "native capture contains no drawable samples; drawable comparison was not exercised"
+      ],
+      "claim_flags": {
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pixel_parity_proven": false
+      },
+      "prior_recorded_failure": {
+        "receipt": {
+          "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+          "path": "results/1275a659b0dc21d2-c0001/capture-76dffcce69a7bf72724a-001/replay-f59019ad077f1b02018b/result.json",
+          "original_bytes_sha256": "f1c0343ce1e7365932df7f1d7c32f06e3eb00053a0d2778bb1140bb62fd953b0"
+        },
+        "status": "parity_failure",
+        "runner_sha256": "90abd15f5e2f6e15a23b33faacc83ec81bde13a2f709f095576a10ce0c8405e4",
+        "execution_path": "production-and-diagnostic-live-lua",
+        "native_frames": 1683,
+        "replayed_frames": 1683,
+        "mismatch_count": 20,
+        "mismatch_fields": {
+          "command_query_event": 20
+        },
+        "error_count": 0,
+        "errors": [],
+        "first_mismatches": [
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0010",
+              "args": [
+                1.0227831703345018
+              ],
+              "beat": 199.2499237060547,
+              "caller": {
+                "line": 374,
+                "source": "song:/lua/default.lua",
+                "tail_call": false
+              },
+              "command": "UpdateCommand",
+              "definition_id": "def-0002",
+              "detail": {
+                "native_tween_children": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        },
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        },
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        },
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        }
+                      ],
+                      "commands": {
+                        "Init": {
+                          "last_line": "<nested value retained in full artifact>",
+                          "line": "<nested value retained in full artifact>",
+                          "source": "<nested value retained in full artifact>"
+                        }
+                      },
+                      "name": "Judgment",
+                      "time_left": 0.7480000257492065
+                    }
+                  ],
+                  "commands": [],
+                  "name": "PlayerP1",
+                  "time_left": 0.800000011920929
+                },
+                "native_tween_time_left": 0.800000011920929
+              },
+              "kind": "call",
+              "line": 374,
+              "operation": "Actor.zoomx",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 75.3147201538086,
+              "seq": 75523,
+              "source": "song:/lua/default.lua",
+              "tween_time_left": 0.800000011920929
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.zoomx",
+              "source": "song:/lua/default.lua",
+              "line": 374,
+              "phase": "callback",
+              "beat": 199.2499237060547,
+              "seconds": 75.3147201538086,
+              "args": [
+                1.0227831703345018
+              ],
+              "results": [
+                {
+                  "actor": "0x7a97c4fa8808",
+                  "name": "PlayerP1",
+                  "path": "ScreenGameplay/PlayerP1"
+                }
+              ],
+              "tween_time_left": 0.7480000257492065
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0011",
+              "args": [
+                1.0227831703345018
+              ],
+              "beat": 199.2499237060547,
+              "caller": {
+                "line": 374,
+                "source": "song:/lua/default.lua",
+                "tail_call": false
+              },
+              "command": "UpdateCommand",
+              "definition_id": "def-0002",
+              "detail": {
+                "native_tween_children": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        },
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        },
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        },
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        }
+                      ],
+                      "commands": {
+                        "Init": {
+                          "last_line": "<nested value retained in full artifact>",
+                          "line": "<nested value retained in full artifact>",
+                          "source": "<nested value retained in full artifact>"
+                        }
+                      },
+                      "name": "Judgment",
+                      "time_left": 0.7480000257492065
+                    }
+                  ],
+                  "commands": [],
+                  "name": "PlayerP2",
+                  "time_left": 0.800000011920929
+                },
+                "native_tween_time_left": 0.800000011920929
+              },
+              "kind": "call",
+              "line": 374,
+              "operation": "Actor.zoomx",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 75.3147201538086,
+              "seq": 75524,
+              "source": "song:/lua/default.lua",
+              "tween_time_left": 0.800000011920929
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.zoomx",
+              "source": "song:/lua/default.lua",
+              "line": 374,
+              "phase": "callback",
+              "beat": 199.2499237060547,
+              "seconds": 75.3147201538086,
+              "args": [
+                1.0227831703345018
+              ],
+              "results": [
+                {
+                  "actor": "0x7a97c4e1b998",
+                  "name": "PlayerP2",
+                  "path": "ScreenGameplay/PlayerP2"
+                }
+              ],
+              "tween_time_left": 0.7480000257492065
+            }
+          }
+        ]
+      },
+      "replay_runs": [
+        {
+          "stage": "after01",
+          "archive_sha256": "ff5804213dc59bf2ed23a0e1aeb668cb36fdb4f3cbdd459bdf929d2b71034a3d",
+          "binary_sha256": "8fe05b17d1edc96cf705e7f68477d7c96fce0b5720367d04b7e1c22533e7f06b",
+          "exit_code": 0,
+          "fresh_candidate": true,
+          "summary": {
+            "native_frames": 2385,
+            "replayed_frames": 2385,
+            "archive_accepted": true,
+            "diagnostic_replay_checks_passed": true,
+            "production_gameplay_checks_passed": true,
+            "whole_song_parity_proven": false,
+            "production_parity_proven": false,
+            "pixel_parity_proven": false,
+            "checked_stage_samples": 154,
+            "compared_stage_fields": 25822,
+            "diagnostic_compared_stage_fields": 12911,
+            "execution_path": "production-and-diagnostic-live-lua",
+            "production_preparation_exercised": true,
+            "capture_completed_gameplay": true,
+            "mismatch_count": 0,
+            "errors": [],
+            "mismatch_fields": {},
+            "first_mismatches": [],
+            "pending_coverage": [
+              "uncompared song operations: Actor.bob, Actor.effectoffset, Actor.skewx, PlayerOptions.Alternate, PlayerOptions.Brake, PlayerOptions.Confusion, PlayerOptions.Cross, PlayerOptions.Dark, PlayerOptions.Drunk, PlayerOptions.Flip, PlayerOptions.Invert, PlayerOptions.Split, PlayerOptions.Stealth, PlayerOptions.Tipsy, PlayerOptions.Tornado",
+              "missing captured subscriber identity for ScreenGameplay/2/11/1",
+              "missing captured subscriber identity for ScreenGameplay/2/12",
+              "missing captured subscriber identity for ScreenGameplay/2/15/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+              "missing captured subscriber identity for ScreenGameplay/2/8",
+              "missing captured subscriber identity for ScreenGameplay/25",
+              "missing captured subscriber identity for ScreenGameplay/26/1/1",
+              "missing captured subscriber identity for ScreenGameplay/26/1/10",
+              "missing captured subscriber identity for ScreenGameplay/26/1/12",
+              "missing captured subscriber identity for ScreenGameplay/26/1/2",
+              "missing captured subscriber identity for ScreenGameplay/26/1/4",
+              "missing captured subscriber identity for ScreenGameplay/26/1/5",
+              "missing captured subscriber identity for ScreenGameplay/26/1/7",
+              "missing captured subscriber identity for ScreenGameplay/26/1/9",
+              "missing captured subscriber identity for ScreenGameplay/3/1",
+              "production replay: application build without test-support",
+              "production replay: full-song completion",
+              "production replay: sampled framebuffer pixels",
+              "production replay: production command/query instrumentation",
+              "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+              "production replay: native capture contains no drawable samples; drawable comparison was not exercised"
+            ],
+            "production_pending_coverage": [
+              "application build without test-support",
+              "full-song completion",
+              "sampled framebuffer pixels",
+              "production command/query instrumentation",
+              "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+              "native capture contains no drawable samples; drawable comparison was not exercised"
+            ],
+            "diagnostic_draws": {
+              "draw_samples_compared": 0,
+              "submitted_vertices_compared": 0,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_draws": {
+              "draw_samples_compared": 0,
+              "submitted_vertices_compared": 0,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_stage_fields": 12911,
+            "production_errors": [],
+            "production_mismatch_count": 0,
+            "production_archive_accepted": false,
+            "command_queries": {
+              "compared": true,
+              "native_count": 202052,
+              "actual_count": 202052
+            },
+            "uncompared_queries": 0
+          }
+        },
+        {
+          "stage": "baseline",
+          "archive_sha256": "ff5804213dc59bf2ed23a0e1aeb668cb36fdb4f3cbdd459bdf929d2b71034a3d",
+          "binary_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+          "exit_code": 0,
+          "fresh_candidate": true,
+          "summary": {
+            "native_frames": 2385,
+            "replayed_frames": 2385,
+            "archive_accepted": true,
+            "diagnostic_replay_checks_passed": true,
+            "production_gameplay_checks_passed": true,
+            "whole_song_parity_proven": false,
+            "production_parity_proven": false,
+            "pixel_parity_proven": false,
+            "checked_stage_samples": 154,
+            "compared_stage_fields": 25822,
+            "diagnostic_compared_stage_fields": 12911,
+            "execution_path": "production-and-diagnostic-live-lua",
+            "production_preparation_exercised": true,
+            "capture_completed_gameplay": true,
+            "mismatch_count": 0,
+            "errors": [],
+            "mismatch_fields": {},
+            "first_mismatches": [],
+            "pending_coverage": [
+              "uncompared song operations: Actor.bob, Actor.effectoffset, Actor.skewx, PlayerOptions.Alternate, PlayerOptions.Brake, PlayerOptions.Confusion, PlayerOptions.Cross, PlayerOptions.Dark, PlayerOptions.Drunk, PlayerOptions.Flip, PlayerOptions.Invert, PlayerOptions.Split, PlayerOptions.Stealth, PlayerOptions.Tipsy, PlayerOptions.Tornado",
+              "missing captured subscriber identity for ScreenGameplay/2/11/1",
+              "missing captured subscriber identity for ScreenGameplay/2/12",
+              "missing captured subscriber identity for ScreenGameplay/2/15/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+              "missing captured subscriber identity for ScreenGameplay/2/8",
+              "missing captured subscriber identity for ScreenGameplay/25",
+              "missing captured subscriber identity for ScreenGameplay/26/1/1",
+              "missing captured subscriber identity for ScreenGameplay/26/1/10",
+              "missing captured subscriber identity for ScreenGameplay/26/1/12",
+              "missing captured subscriber identity for ScreenGameplay/26/1/2",
+              "missing captured subscriber identity for ScreenGameplay/26/1/4",
+              "missing captured subscriber identity for ScreenGameplay/26/1/5",
+              "missing captured subscriber identity for ScreenGameplay/26/1/7",
+              "missing captured subscriber identity for ScreenGameplay/26/1/9",
+              "missing captured subscriber identity for ScreenGameplay/3/1",
+              "production replay: application build without test-support",
+              "production replay: full-song completion",
+              "production replay: sampled framebuffer pixels",
+              "production replay: production command/query instrumentation",
+              "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+              "production replay: native capture contains no drawable samples; drawable comparison was not exercised"
+            ],
+            "production_pending_coverage": [
+              "application build without test-support",
+              "full-song completion",
+              "sampled framebuffer pixels",
+              "production command/query instrumentation",
+              "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+              "native capture contains no drawable samples; drawable comparison was not exercised"
+            ],
+            "diagnostic_draws": {
+              "draw_samples_compared": 0,
+              "submitted_vertices_compared": 0,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_draws": {
+              "draw_samples_compared": 0,
+              "submitted_vertices_compared": 0,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_stage_fields": 12911,
+            "production_errors": [],
+            "production_mismatch_count": 0,
+            "production_archive_accepted": false,
+            "command_queries": {
+              "compared": true,
+              "native_count": 202052,
+              "actual_count": 202052
+            },
+            "uncompared_queries": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "abe694267a1522a8-c0001",
+      "label": "And Drugs",
+      "archive": {
+        "title": "278|MODS|[lv.08] And Drugs↑↑",
+        "source_simfile": "278-MODS-[lv.08] And Drugs/and drugs.ssc",
+        "harness_version": "0.1.110",
+        "archive": "80960bc13d2c0387bfa233beeb0f9bf9eaa5167b4e0c0843a3fd8e9e2a629ccb.tar.zst",
+        "sha256": "80960bc13d2c0387bfa233beeb0f9bf9eaa5167b4e0c0843a3fd8e9e2a629ccb",
+        "compressed_bytes": 116182521,
+        "uncompressed_sha256": "b94f9b38db5f78cc13e6442df5b15f83aea2becb89315e2e19539d8111e897a4",
+        "compression_level": 12,
+        "aliases": []
+      },
+      "candidate_sha256": "b94f9b38db5f78cc13e6442df5b15f83aea2becb89315e2e19539d8111e897a4",
+      "source_commit": "cfc285847c362a079faefc9840dc488223b87ca8",
+      "runner_sha256": "8fe05b17d1edc96cf705e7f68477d7c96fce0b5720367d04b7e1c22533e7f06b",
+      "report_sha256": "5813871e878a7e9109c7b0db96737aa131281cc204e2cdfce38493dda29c2615",
+      "native_counts": {
+        "update_frames": 1689,
+        "events": 386126,
+        "drawable_samples": 0,
+        "stage_samples": 139,
+        "render_random_inputs": 0
+      },
+      "pending_coverage": [
+        "uncompared song operations: Actor.rotationx, Actor.zoomy, Actor.zoomz, PlayerOptions.Alternate, PlayerOptions.Beat, PlayerOptions.Brake, PlayerOptions.Cross, PlayerOptions.Dark, PlayerOptions.Dizzy, PlayerOptions.Drunk, PlayerOptions.Flip, PlayerOptions.Invert, PlayerOptions.Split, PlayerOptions.Stealth, PlayerOptions.Sudden, PlayerOptions.SuddenOffset, PlayerOptions.Tipsy",
+        "missing captured subscriber identity for ScreenGameplay/2/11/1",
+        "missing captured subscriber identity for ScreenGameplay/2/12",
+        "missing captured subscriber identity for ScreenGameplay/2/15/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/8",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1",
+        "production replay: application build without test-support",
+        "production replay: full-song completion",
+        "production replay: sampled framebuffer pixels",
+        "production replay: production command/query instrumentation",
+        "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+        "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+        "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+        "production replay: native capture contains no drawable samples; drawable comparison was not exercised"
+      ],
+      "resource_phases": [
+        {
+          "phase": "native-capture-and-archive",
+          "receipt": {
+            "finished_at": "2026-11-20T07:27:37.100867+00:00",
+            "unit": "deadsync-five-591d79fabda3cd02",
+            "service_result": "success",
+            "exit_code": "exited",
+            "exit_status": "0",
+            "spec_sha256": "71359a34b6636071e99c1816ce58f80472aa79bb8fb187f7cad4cb8edc10ad76",
+            "resource_usage": {
+              "MemoryPeak": "2620530688",
+              "CPUUsageNSec": "194425500000",
+              "CPUQuotaPerSecUSec": "2s",
+              "MemoryMax": "6442450944",
+              "MemorySwapMax": "0"
+            }
+          }
+        }
+      ],
+      "maximum_stage_memory_peak_bytes": 2620530688,
+      "recovery_validation": null,
+      "candidate_source_proof": {
+        "source_folder_sha256": "eed37f1da94c0ffcff0d31dda9c44c7ef90fc2e01013f65dbc2d32dec5c4bdf5",
+        "source_simfile_sha256": "48e4abf4b82e6ee6fb5ccd0ac388b76dce1a1b5f4975a66452d264d7f3343ac3",
+        "source_inventory_files": 12,
+        "source_files_checked": 9,
+        "source_and_native_archive_members": {
+          "song/and drugs.ogg": {
+            "sha256": "ce001ff5c8fa5a4a057370970e5066132644abf2e9960841c3f6bd97cc0f459a",
+            "bytes": 3893736
+          },
+          "song/and drugs.ssc": {
+            "sha256": "48e4abf4b82e6ee6fb5ccd0ac388b76dce1a1b5f4975a66452d264d7f3343ac3",
+            "bytes": 7059
+          },
+          "song/bg.png": {
+            "sha256": "77525475ed82ed2c72aeb20249cf51e2f2839f4343b94f561d9c68adcd48bd7f",
+            "bytes": 1917273
+          },
+          "song/bn.png": {
+            "sha256": "a31325a453a8afb4e9c8563350ba8f92acf114971219f6a5c3c42ed33adbc4e7",
+            "bytes": 530671
+          },
+          "song/cdtitle.png": {
+            "sha256": "33d536e18240fb85aaf5c8afc03bb49fb0f761e1adf22ff44267283fb391ac3e",
+            "bytes": 26312
+          },
+          "song/lua/default.lua": {
+            "sha256": "ace0f23d5e92fa5dcfcdafede9c66bacd22322e4ea6bfd114abfb1eb13d03f3d",
+            "bytes": 26759
+          },
+          "song/lua/easing.lua": {
+            "sha256": "4a268b159484408121472883873e3d0fadfd9d0d78adb2815f3a38ab6812488e",
+            "bytes": 9952
+          },
+          "song/lua/modhelpers.lua": {
+            "sha256": "be2e73f42976e31c122671887f0d9827d01f3382e9a989cac8343cf0a91c609a",
+            "bytes": 10953
+          },
+          "song/lua/mods.lua": {
+            "sha256": "d85736d4ec9effdff36773b81c9256080f562fae2ea212aecc1b30039c8ea9d7",
+            "bytes": 7204
+          },
+          "trace/semantic.json": {
+            "sha256": "22629b91531a70c63e7baeebd5edb4093cd8bd35910b8fb8a651e82ee1929104",
+            "bytes": 266182753
+          }
+        },
+        "excluded_source_files": [
+          {
+            "path": "278-MODS-[lv.08] And Drugs/lua/default.xml",
+            "bytes": 26029,
+            "sha256": "ad798a2740156df71fdbfc21a3226e23024dc1601c44e4e0598b2377e5cf2379",
+            "archive_member": "song/lua/default.xml",
+            "reason": "legacy-xml",
+            "explanation": "The .xml extension is outside automatic media and physical .lua collection; this legacy XML is not a resolved Lua or asset dependency.",
+            "exporter_source_anchors": [
+              "553-591",
+              "617-672",
+              "1034-1055"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          },
+          {
+            "path": "278-MODS-[lv.08] And Drugs/lua/easing.xml",
+            "bytes": 9688,
+            "sha256": "7c837cba7f448a43995feee284b1502fa5aa32bdc9441efd9279c89ae5a76b25",
+            "archive_member": "song/lua/easing.xml",
+            "reason": "legacy-xml",
+            "explanation": "The .xml extension is outside automatic media and physical .lua collection; this legacy XML is not a resolved Lua or asset dependency.",
+            "exporter_source_anchors": [
+              "553-591",
+              "617-672",
+              "1034-1055"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          },
+          {
+            "path": "278-MODS-[lv.08] And Drugs/lua/modhelpers.xml",
+            "bytes": 10952,
+            "sha256": "15f5f8f4d2afd6c404c54984c19d27f435a0ac8fd42f1cad4d1dc485d3a30c8d",
+            "archive_member": "song/lua/modhelpers.xml",
+            "reason": "legacy-xml",
+            "explanation": "The .xml extension is outside automatic media and physical .lua collection; this legacy XML is not a resolved Lua or asset dependency.",
+            "exporter_source_anchors": [
+              "553-591",
+              "617-672",
+              "1034-1055"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          }
+        ],
+        "exporter_source": {
+          "harness_commit": "b2af4f355d827fb0e89aead84b4c75a9b8cccf6c",
+          "file": "src/song_lua_archive.rs",
+          "sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+          "anchors": {
+            "selected_simfile": "311-335",
+            "automatic_media": "553-591",
+            "physical_lua": "617-672",
+            "referenced_assets": "351-371,819-969",
+            "runtime_reads_and_listings": "372-418"
+          }
+        },
+        "runtime_dependency_proof": {
+          "native_trace_sha256": "22629b91531a70c63e7baeebd5edb4093cd8bd35910b8fb8a651e82ee1929104",
+          "file_reads_present": false,
+          "file_reads_count": 0,
+          "directory_queries_present": false,
+          "directory_queries_count": 0,
+          "exporter_source_anchor": "372-418"
+        },
+        "capture_plan_sha256": "3043cf491cf3dcd99d909e7065f564c056f44460c568ede380841da0989cc0f6"
+      },
+      "production_pending_coverage": [
+        "application build without test-support",
+        "full-song completion",
+        "sampled framebuffer pixels",
+        "production command/query instrumentation",
+        "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+        "saved statistics getter functions explicitly invoked with another stage's player receiver",
+        "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+        "native capture contains no drawable samples; drawable comparison was not exercised"
+      ],
+      "claim_flags": {
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pixel_parity_proven": false
+      },
+      "prior_recorded_failure": {
+        "receipt": {
+          "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+          "path": "results/abe694267a1522a8-c0001/capture-5f2ded207dce9e868c19-001/replay-be283704d0133ae95229/result.json",
+          "original_bytes_sha256": "d117b95700ecfa63b0755ed05ed0272252e8768f65717c621246c646eafc3924"
+        },
+        "status": "parity_failure",
+        "runner_sha256": "90abd15f5e2f6e15a23b33faacc83ec81bde13a2f709f095576a10ce0c8405e4",
+        "execution_path": "production-and-diagnostic-live-lua",
+        "native_frames": 1493,
+        "replayed_frames": 1493,
+        "mismatch_count": 46,
+        "mismatch_fields": {
+          "command_query_event": 46
+        },
+        "error_count": 0,
+        "errors": [],
+        "first_mismatches": [
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0011",
+              "args": [
+                0.9001415162103458
+              ],
+              "beat": 219.6050567626953,
+              "caller": {
+                "line": 190,
+                "source": "song:/lua/default.lua",
+                "tail_call": false
+              },
+              "command": "UpdateCommand",
+              "definition_id": "def-0003",
+              "detail": {
+                "native_tween_time_left": 0.800000011920929
+              },
+              "kind": "call",
+              "line": 190,
+              "operation": "Actor.zoomx",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 105.42743682861328,
+              "seq": 328219,
+              "source": "song:/lua/default.lua",
+              "tween_time_left": 0.800000011920929
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.zoomx",
+              "source": "song:/lua/default.lua",
+              "line": 190,
+              "phase": "callback",
+              "beat": 219.6050567626953,
+              "seconds": 105.42743682861328,
+              "args": [
+                0.9001415162103458
+              ],
+              "results": [
+                {
+                  "actor": "0x7e52016e7fe8",
+                  "name": "PlayerP1",
+                  "path": "ScreenGameplay/PlayerP1"
+                }
+              ],
+              "tween_time_left": 0.7747710347175598
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0012",
+              "args": [
+                0.9001415162103458
+              ],
+              "beat": 219.6050567626953,
+              "caller": {
+                "line": 190,
+                "source": "song:/lua/default.lua",
+                "tail_call": false
+              },
+              "command": "UpdateCommand",
+              "definition_id": "def-0003",
+              "detail": {
+                "native_tween_time_left": 0.800000011920929
+              },
+              "kind": "call",
+              "line": 190,
+              "operation": "Actor.zoomx",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 105.42743682861328,
+              "seq": 328223,
+              "source": "song:/lua/default.lua",
+              "tween_time_left": 0.800000011920929
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.zoomx",
+              "source": "song:/lua/default.lua",
+              "line": 190,
+              "phase": "callback",
+              "beat": 219.6050567626953,
+              "seconds": 105.42743682861328,
+              "args": [
+                0.9001415162103458
+              ],
+              "results": [
+                {
+                  "actor": "0x7e52015517e8",
+                  "name": "PlayerP2",
+                  "path": "ScreenGameplay/PlayerP2"
+                }
+              ],
+              "tween_time_left": 0.7747710347175598
+            }
+          }
+        ]
+      },
+      "replay_runs": [
+        {
+          "stage": "after01",
+          "archive_sha256": "b94f9b38db5f78cc13e6442df5b15f83aea2becb89315e2e19539d8111e897a4",
+          "binary_sha256": "8fe05b17d1edc96cf705e7f68477d7c96fce0b5720367d04b7e1c22533e7f06b",
+          "exit_code": 0,
+          "fresh_candidate": true,
+          "summary": {
+            "native_frames": 1689,
+            "replayed_frames": 1689,
+            "archive_accepted": true,
+            "diagnostic_replay_checks_passed": true,
+            "production_gameplay_checks_passed": true,
+            "whole_song_parity_proven": false,
+            "production_parity_proven": false,
+            "pixel_parity_proven": false,
+            "checked_stage_samples": 138,
+            "compared_stage_fields": 20550,
+            "diagnostic_compared_stage_fields": 10275,
+            "execution_path": "production-and-diagnostic-live-lua",
+            "production_preparation_exercised": true,
+            "capture_completed_gameplay": true,
+            "mismatch_count": 0,
+            "errors": [],
+            "mismatch_fields": {},
+            "first_mismatches": [],
+            "pending_coverage": [
+              "uncompared song operations: Actor.rotationx, Actor.zoomy, Actor.zoomz, PlayerOptions.Alternate, PlayerOptions.Beat, PlayerOptions.Brake, PlayerOptions.Cross, PlayerOptions.Dark, PlayerOptions.Dizzy, PlayerOptions.Drunk, PlayerOptions.Flip, PlayerOptions.Invert, PlayerOptions.Split, PlayerOptions.Stealth, PlayerOptions.Sudden, PlayerOptions.SuddenOffset, PlayerOptions.Tipsy",
+              "missing captured subscriber identity for ScreenGameplay/2/11/1",
+              "missing captured subscriber identity for ScreenGameplay/2/12",
+              "missing captured subscriber identity for ScreenGameplay/2/15/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+              "missing captured subscriber identity for ScreenGameplay/2/8",
+              "missing captured subscriber identity for ScreenGameplay/25",
+              "missing captured subscriber identity for ScreenGameplay/26/1/1",
+              "missing captured subscriber identity for ScreenGameplay/26/1/10",
+              "missing captured subscriber identity for ScreenGameplay/26/1/12",
+              "missing captured subscriber identity for ScreenGameplay/26/1/2",
+              "missing captured subscriber identity for ScreenGameplay/26/1/4",
+              "missing captured subscriber identity for ScreenGameplay/26/1/5",
+              "missing captured subscriber identity for ScreenGameplay/26/1/7",
+              "missing captured subscriber identity for ScreenGameplay/26/1/9",
+              "missing captured subscriber identity for ScreenGameplay/3/1",
+              "production replay: application build without test-support",
+              "production replay: full-song completion",
+              "production replay: sampled framebuffer pixels",
+              "production replay: production command/query instrumentation",
+              "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+              "production replay: native capture contains no drawable samples; drawable comparison was not exercised"
+            ],
+            "production_pending_coverage": [
+              "application build without test-support",
+              "full-song completion",
+              "sampled framebuffer pixels",
+              "production command/query instrumentation",
+              "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+              "native capture contains no drawable samples; drawable comparison was not exercised"
+            ],
+            "diagnostic_draws": {
+              "draw_samples_compared": 0,
+              "submitted_vertices_compared": 0,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_draws": {
+              "draw_samples_compared": 0,
+              "submitted_vertices_compared": 0,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_stage_fields": 10275,
+            "production_errors": [],
+            "production_mismatch_count": 0,
+            "production_archive_accepted": false,
+            "command_queries": {
+              "compared": true,
+              "native_count": 243793,
+              "actual_count": 243793
+            },
+            "uncompared_queries": 0
+          }
+        },
+        {
+          "stage": "baseline",
+          "archive_sha256": "b94f9b38db5f78cc13e6442df5b15f83aea2becb89315e2e19539d8111e897a4",
+          "binary_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+          "exit_code": 0,
+          "fresh_candidate": true,
+          "summary": {
+            "native_frames": 1689,
+            "replayed_frames": 1689,
+            "archive_accepted": true,
+            "diagnostic_replay_checks_passed": true,
+            "production_gameplay_checks_passed": true,
+            "whole_song_parity_proven": false,
+            "production_parity_proven": false,
+            "pixel_parity_proven": false,
+            "checked_stage_samples": 138,
+            "compared_stage_fields": 20550,
+            "diagnostic_compared_stage_fields": 10275,
+            "execution_path": "production-and-diagnostic-live-lua",
+            "production_preparation_exercised": true,
+            "capture_completed_gameplay": true,
+            "mismatch_count": 0,
+            "errors": [],
+            "mismatch_fields": {},
+            "first_mismatches": [],
+            "pending_coverage": [
+              "uncompared song operations: Actor.rotationx, Actor.zoomy, Actor.zoomz, PlayerOptions.Alternate, PlayerOptions.Beat, PlayerOptions.Brake, PlayerOptions.Cross, PlayerOptions.Dark, PlayerOptions.Dizzy, PlayerOptions.Drunk, PlayerOptions.Flip, PlayerOptions.Invert, PlayerOptions.Split, PlayerOptions.Stealth, PlayerOptions.Sudden, PlayerOptions.SuddenOffset, PlayerOptions.Tipsy",
+              "missing captured subscriber identity for ScreenGameplay/2/11/1",
+              "missing captured subscriber identity for ScreenGameplay/2/12",
+              "missing captured subscriber identity for ScreenGameplay/2/15/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+              "missing captured subscriber identity for ScreenGameplay/2/8",
+              "missing captured subscriber identity for ScreenGameplay/25",
+              "missing captured subscriber identity for ScreenGameplay/26/1/1",
+              "missing captured subscriber identity for ScreenGameplay/26/1/10",
+              "missing captured subscriber identity for ScreenGameplay/26/1/12",
+              "missing captured subscriber identity for ScreenGameplay/26/1/2",
+              "missing captured subscriber identity for ScreenGameplay/26/1/4",
+              "missing captured subscriber identity for ScreenGameplay/26/1/5",
+              "missing captured subscriber identity for ScreenGameplay/26/1/7",
+              "missing captured subscriber identity for ScreenGameplay/26/1/9",
+              "missing captured subscriber identity for ScreenGameplay/3/1",
+              "production replay: application build without test-support",
+              "production replay: full-song completion",
+              "production replay: sampled framebuffer pixels",
+              "production replay: production command/query instrumentation",
+              "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+              "production replay: native capture contains no drawable samples; drawable comparison was not exercised"
+            ],
+            "production_pending_coverage": [
+              "application build without test-support",
+              "full-song completion",
+              "sampled framebuffer pixels",
+              "production command/query instrumentation",
+              "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+              "native capture contains no drawable samples; drawable comparison was not exercised"
+            ],
+            "diagnostic_draws": {
+              "draw_samples_compared": 0,
+              "submitted_vertices_compared": 0,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_draws": {
+              "draw_samples_compared": 0,
+              "submitted_vertices_compared": 0,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_stage_fields": 10275,
+            "production_errors": [],
+            "production_mismatch_count": 0,
+            "production_archive_accepted": false,
+            "command_queries": {
+              "compared": true,
+              "native_count": 243793,
+              "actual_count": 243793
+            },
+            "uncompared_queries": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "cdadde08ea8260ec-c0001",
+      "label": "Flying Castle",
+      "archive": {
+        "title": "[N]TECH SOUP(MASTER) Flying Castle",
+        "source_simfile": "[N]TECH SOUP(MASTER) Flying Castle/flying castle.sm",
+        "harness_version": "0.1.110",
+        "archive": "4ade2ba25754ca5dcc95d2c376d88ae292c6fd9d64c4926d263c1e622936b971.tar.zst",
+        "sha256": "4ade2ba25754ca5dcc95d2c376d88ae292c6fd9d64c4926d263c1e622936b971",
+        "compressed_bytes": 114722721,
+        "uncompressed_sha256": "e04530bff5ee9e952a686bcc94cb74ef72a2070ac51e1d8d9cccd53976780eb8",
+        "compression_level": 12,
+        "aliases": []
+      },
+      "candidate_sha256": "e04530bff5ee9e952a686bcc94cb74ef72a2070ac51e1d8d9cccd53976780eb8",
+      "source_commit": "cfc285847c362a079faefc9840dc488223b87ca8",
+      "runner_sha256": "8fe05b17d1edc96cf705e7f68477d7c96fce0b5720367d04b7e1c22533e7f06b",
+      "report_sha256": "5aea8a4259d1121ae69e2a5ed72c257be409f18655c26831309e0189163035cd",
+      "native_counts": {
+        "update_frames": 1754,
+        "events": 412052,
+        "drawable_samples": 0,
+        "stage_samples": 131,
+        "render_random_inputs": 0
+      },
+      "pending_coverage": [
+        "uncompared song operations: Actor.z, Actor.zoomy, Actor.zoomz, PlayerOptions.Beat, PlayerOptions.Brake, PlayerOptions.Bumpy, PlayerOptions.Centered, PlayerOptions.ConfusionOffset1, PlayerOptions.ConfusionOffset2, PlayerOptions.ConfusionOffset3, PlayerOptions.ConfusionOffset4, PlayerOptions.Dark, PlayerOptions.Dizzy, PlayerOptions.Drunk, PlayerOptions.DrunkOffset, PlayerOptions.Flip, PlayerOptions.Invert, PlayerOptions.MoveX1, PlayerOptions.MoveX2, PlayerOptions.MoveX3, PlayerOptions.MoveX4, PlayerOptions.MoveY1, PlayerOptions.MoveY2, PlayerOptions.MoveY3, PlayerOptions.MoveY4, PlayerOptions.Stealth, PlayerOptions.Tiny, PlayerOptions.Tipsy, PlayerOptions.Tornado",
+        "missing captured subscriber identity for ScreenGameplay/2/11/1",
+        "missing captured subscriber identity for ScreenGameplay/2/12",
+        "missing captured subscriber identity for ScreenGameplay/2/15/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/8",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1",
+        "production replay: application build without test-support",
+        "production replay: full-song completion",
+        "production replay: sampled framebuffer pixels",
+        "production replay: production command/query instrumentation",
+        "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+        "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+        "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+        "production replay: native capture contains no drawable samples; drawable comparison was not exercised"
+      ],
+      "resource_phases": [
+        {
+          "phase": "native-capture-and-archive",
+          "receipt": {
+            "finished_at": "2026-11-20T07:31:27.567783+00:00",
+            "unit": "deadsync-five-3f5faf155fcb43cd",
+            "service_result": "success",
+            "exit_code": "exited",
+            "exit_status": "0",
+            "spec_sha256": "c77188d6a8c52d6443efe86dd4c87b764ac9ca5ed6a32f9cc26abe96a5fc7a1d",
+            "resource_usage": {
+              "MemoryPeak": "2809458688",
+              "CPUUsageNSec": "193005814000",
+              "CPUQuotaPerSecUSec": "2s",
+              "MemoryMax": "6442450944",
+              "MemorySwapMax": "0"
+            }
+          }
+        }
+      ],
+      "maximum_stage_memory_peak_bytes": 2809458688,
+      "recovery_validation": null,
+      "candidate_source_proof": {
+        "source_folder_sha256": "5990c7dc07c40cd6395d9b826691f1818ceb47eee248aac1e77662db1b4ae21c",
+        "source_simfile_sha256": "cf70ef913f956cbec88513251db6e13fa43e0980a598349a8cd82a4bd2765c39",
+        "source_inventory_files": 14,
+        "source_files_checked": 8,
+        "source_and_native_archive_members": {
+          "song/bg.png": {
+            "sha256": "352c8ef32094a9aa289061add01a68bcbc0e155c8ffb9ad06d0c8d150952a107",
+            "bytes": 1315901
+          },
+          "song/bn.png": {
+            "sha256": "8f105f0f13db277a78ed9ff63657190bee1b07298904c46ebb16fa79ecaf2085",
+            "bytes": 604956
+          },
+          "song/flying castle.ogg": {
+            "sha256": "d1e3b9afa6b09300fc2eeb4e8a406f4e2f29ac3704450d6442b20152268ba0f3",
+            "bytes": 3054618
+          },
+          "song/flying castle.sm": {
+            "sha256": "cf70ef913f956cbec88513251db6e13fa43e0980a598349a8cd82a4bd2765c39",
+            "bytes": 10854
+          },
+          "song/lua/default.lua": {
+            "sha256": "b51a0e43804ce93d05aa68b84fd96da5311f6bd13f17579602b6c8cf2b0936aa",
+            "bytes": 38181
+          },
+          "song/lua/easing.lua": {
+            "sha256": "4a268b159484408121472883873e3d0fadfd9d0d78adb2815f3a38ab6812488e",
+            "bytes": 9952
+          },
+          "song/lua/modhelpers.lua": {
+            "sha256": "0f5910705fadd3d043fe182348e93f0b327a0d14b2ad9a7c442638c2adf573cc",
+            "bytes": 11112
+          },
+          "song/lua/mods.lua": {
+            "sha256": "78ce399e3ac91f556f26d59fa2b15ab17154246821ab53db8c62120b5034a293",
+            "bytes": 8201
+          },
+          "trace/semantic.json": {
+            "sha256": "71047d5d24c964c1446fe6044de0d9d93b8f0f0531cdf9619ca31f984398b763",
+            "bytes": 284619661
+          }
+        },
+        "excluded_source_files": [
+          {
+            "path": "[N]TECH SOUP(MASTER) Flying Castle/flying castle.sm.old",
+            "bytes": 9506,
+            "sha256": "0a54c5a77781a5827edc4f2e4d0c087dd2402016b716dbd6823033d8b2103524",
+            "archive_member": "song/flying castle.sm.old",
+            "reason": "backup",
+            "explanation": "The .old extension is outside automatic media and physical Lua collection; this is not the selected simfile.",
+            "exporter_source_anchors": [
+              "311-335",
+              "553-591",
+              "656-672"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          },
+          {
+            "path": "[N]TECH SOUP(MASTER) Flying Castle/flying castle.ssc",
+            "bytes": 11281,
+            "sha256": "9f0becf83418c807c46ec3988b2a9c1c6c5e3d391c8674c85ab1af2cb8865968",
+            "archive_member": "song/flying castle.ssc",
+            "reason": "unselected-simfile",
+            "explanation": "Only the selected simfile is inserted; this alternative .ssc is outside automatic media and Lua collection.",
+            "exporter_source_anchors": [
+              "311-335",
+              "553-591",
+              "656-672"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          },
+          {
+            "path": "[N]TECH SOUP(MASTER) Flying Castle/flying castle.ssc.old",
+            "bytes": 9935,
+            "sha256": "7f6321f4c02c622caa943c2aa13caa9be9b02b381225558f4c430899bca58186",
+            "archive_member": "song/flying castle.ssc.old",
+            "reason": "backup",
+            "explanation": "The .old extension is outside automatic media and physical Lua collection; this is not the selected simfile.",
+            "exporter_source_anchors": [
+              "311-335",
+              "553-591",
+              "656-672"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          },
+          {
+            "path": "[N]TECH SOUP(MASTER) Flying Castle/lua/default.xml",
+            "bytes": 36578,
+            "sha256": "9797f5674a11da827d947bebca9f3fcfcd746813265cd20aa870583e36a81396",
+            "archive_member": "song/lua/default.xml",
+            "reason": "legacy-xml",
+            "explanation": "The .xml extension is outside automatic media and physical .lua collection; this legacy XML is not a resolved Lua or asset dependency.",
+            "exporter_source_anchors": [
+              "553-591",
+              "617-672",
+              "1034-1055"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          },
+          {
+            "path": "[N]TECH SOUP(MASTER) Flying Castle/lua/easing.xml",
+            "bytes": 9688,
+            "sha256": "7c837cba7f448a43995feee284b1502fa5aa32bdc9441efd9279c89ae5a76b25",
+            "archive_member": "song/lua/easing.xml",
+            "reason": "legacy-xml",
+            "explanation": "The .xml extension is outside automatic media and physical .lua collection; this legacy XML is not a resolved Lua or asset dependency.",
+            "exporter_source_anchors": [
+              "553-591",
+              "617-672",
+              "1034-1055"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          },
+          {
+            "path": "[N]TECH SOUP(MASTER) Flying Castle/lua/modhelpers.xml",
+            "bytes": 11813,
+            "sha256": "e93bfe2ae035dec329475477c85ca4608634419aa5b3360a65d446ace9673ad1",
+            "archive_member": "song/lua/modhelpers.xml",
+            "reason": "legacy-xml",
+            "explanation": "The .xml extension is outside automatic media and physical .lua collection; this legacy XML is not a resolved Lua or asset dependency.",
+            "exporter_source_anchors": [
+              "553-591",
+              "617-672",
+              "1034-1055"
+            ],
+            "exporter_source_sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+            "not_in_resolved_asset_or_lua_dependencies": true
+          }
+        ],
+        "exporter_source": {
+          "harness_commit": "b2af4f355d827fb0e89aead84b4c75a9b8cccf6c",
+          "file": "src/song_lua_archive.rs",
+          "sha256": "1232d427b1aa46c53453eebee1d5f4d86eed095da7920edc775f8bd34c73affc",
+          "anchors": {
+            "selected_simfile": "311-335",
+            "automatic_media": "553-591",
+            "physical_lua": "617-672",
+            "referenced_assets": "351-371,819-969",
+            "runtime_reads_and_listings": "372-418"
+          }
+        },
+        "runtime_dependency_proof": {
+          "native_trace_sha256": "71047d5d24c964c1446fe6044de0d9d93b8f0f0531cdf9619ca31f984398b763",
+          "file_reads_present": false,
+          "file_reads_count": 0,
+          "directory_queries_present": false,
+          "directory_queries_count": 0,
+          "exporter_source_anchor": "372-418"
+        },
+        "capture_plan_sha256": "3043cf491cf3dcd99d909e7065f564c056f44460c568ede380841da0989cc0f6"
+      },
+      "production_pending_coverage": [
+        "application build without test-support",
+        "full-song completion",
+        "sampled framebuffer pixels",
+        "production command/query instrumentation",
+        "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+        "saved statistics getter functions explicitly invoked with another stage's player receiver",
+        "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+        "native capture contains no drawable samples; drawable comparison was not exercised"
+      ],
+      "claim_flags": {
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pixel_parity_proven": false
+      },
+      "prior_recorded_failure": {
+        "receipt": {
+          "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+          "path": "results/cdadde08ea8260ec-c0001/capture-9d740a7d0dd4df5fed89-001/replay-8a4adddc15fa5c29fcc8/result.json",
+          "original_bytes_sha256": "c43111c1bc16f65a93256123674d8ae32571af2eae10ff4a19098318d3dec24c"
+        },
+        "status": "parity_failure",
+        "runner_sha256": "90abd15f5e2f6e15a23b33faacc83ec81bde13a2f709f095576a10ce0c8405e4",
+        "execution_path": "production-and-diagnostic-live-lua",
+        "native_frames": 1488,
+        "replayed_frames": 1488,
+        "mismatch_count": 48,
+        "mismatch_fields": {
+          "command_query_event": 48
+        },
+        "error_count": 0,
+        "errors": [],
+        "first_mismatches": [
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0011",
+              "args": [
+                1.0024442776191709
+              ],
+              "beat": 53.67738342285156,
+              "caller": {
+                "line": 198,
+                "source": "song:/lua/default.lua",
+                "tail_call": false
+              },
+              "command": "UpdateCommand",
+              "definition_id": "def-0003",
+              "detail": {
+                "native_tween_children": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        }
+                      ],
+                      "commands": {
+                        "Init": {
+                          "last_line": "<nested value retained in full artifact>",
+                          "line": "<nested value retained in full artifact>",
+                          "source": "<nested value retained in full artifact>"
+                        }
+                      },
+                      "name": "Judgment",
+                      "time_left": 0.5554290413856506
+                    }
+                  ],
+                  "commands": [],
+                  "name": "PlayerP1",
+                  "time_left": 0.800000011920929
+                },
+                "native_tween_time_left": 0.800000011920929
+              },
+              "kind": "call",
+              "line": 198,
+              "operation": "Actor.zoomx",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 19.896440505981445,
+              "seq": 49445,
+              "source": "song:/lua/default.lua",
+              "tween_time_left": 0.800000011920929
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.zoomx",
+              "source": "song:/lua/default.lua",
+              "line": 198,
+              "phase": "callback",
+              "beat": 53.67738342285156,
+              "seconds": 19.896440505981445,
+              "args": [
+                1.0024442776191709
+              ],
+              "results": [
+                {
+                  "actor": "0x79a5fd304768",
+                  "name": "PlayerP1",
+                  "path": "ScreenGameplay/PlayerP1"
+                }
+              ],
+              "tween_time_left": 0.5554290413856506
+            }
+          },
+          {
+            "field": "command_query_event",
+            "native": {
+              "actor": "external-0012",
+              "args": [
+                1.0024442776191709
+              ],
+              "beat": 53.67738342285156,
+              "caller": {
+                "line": 198,
+                "source": "song:/lua/default.lua",
+                "tail_call": false
+              },
+              "command": "UpdateCommand",
+              "definition_id": "def-0003",
+              "detail": {
+                "native_tween_children": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": "<nested value retained in full artifact>",
+                          "commands": "<nested value retained in full artifact>",
+                          "name": "<nested value retained in full artifact>",
+                          "time_left": "<nested value retained in full artifact>"
+                        }
+                      ],
+                      "commands": {
+                        "Init": {
+                          "last_line": "<nested value retained in full artifact>",
+                          "line": "<nested value retained in full artifact>",
+                          "source": "<nested value retained in full artifact>"
+                        }
+                      },
+                      "name": "Judgment",
+                      "time_left": 0.5554290413856506
+                    }
+                  ],
+                  "commands": [],
+                  "name": "PlayerP2",
+                  "time_left": 0.800000011920929
+                },
+                "native_tween_time_left": 0.800000011920929
+              },
+              "kind": "call",
+              "line": 198,
+              "operation": "Actor.zoomx",
+              "phase": "callback",
+              "scene": 1,
+              "seconds": 19.896440505981445,
+              "seq": 49449,
+              "source": "song:/lua/default.lua",
+              "tween_time_left": 0.800000011920929
+            },
+            "deadsync": {
+              "scene": 1,
+              "kind": "call",
+              "operation": "Actor.zoomx",
+              "source": "song:/lua/default.lua",
+              "line": 198,
+              "phase": "callback",
+              "beat": 53.67738342285156,
+              "seconds": 19.896440505981445,
+              "args": [
+                1.0024442776191709
+              ],
+              "results": [
+                {
+                  "actor": "0x79a5fd263748",
+                  "name": "PlayerP2",
+                  "path": "ScreenGameplay/PlayerP2"
+                }
+              ],
+              "tween_time_left": 0.5554290413856506
+            }
+          }
+        ]
+      },
+      "replay_runs": [
+        {
+          "stage": "after01",
+          "archive_sha256": "e04530bff5ee9e952a686bcc94cb74ef72a2070ac51e1d8d9cccd53976780eb8",
+          "binary_sha256": "8fe05b17d1edc96cf705e7f68477d7c96fce0b5720367d04b7e1c22533e7f06b",
+          "exit_code": 0,
+          "fresh_candidate": true,
+          "summary": {
+            "native_frames": 1754,
+            "replayed_frames": 1754,
+            "archive_accepted": true,
+            "diagnostic_replay_checks_passed": true,
+            "production_gameplay_checks_passed": true,
+            "whole_song_parity_proven": false,
+            "production_parity_proven": false,
+            "pixel_parity_proven": false,
+            "checked_stage_samples": 130,
+            "compared_stage_fields": 20320,
+            "diagnostic_compared_stage_fields": 10160,
+            "execution_path": "production-and-diagnostic-live-lua",
+            "production_preparation_exercised": true,
+            "capture_completed_gameplay": true,
+            "mismatch_count": 0,
+            "errors": [],
+            "mismatch_fields": {},
+            "first_mismatches": [],
+            "pending_coverage": [
+              "uncompared song operations: Actor.z, Actor.zoomy, Actor.zoomz, PlayerOptions.Beat, PlayerOptions.Brake, PlayerOptions.Bumpy, PlayerOptions.Centered, PlayerOptions.ConfusionOffset1, PlayerOptions.ConfusionOffset2, PlayerOptions.ConfusionOffset3, PlayerOptions.ConfusionOffset4, PlayerOptions.Dark, PlayerOptions.Dizzy, PlayerOptions.Drunk, PlayerOptions.DrunkOffset, PlayerOptions.Flip, PlayerOptions.Invert, PlayerOptions.MoveX1, PlayerOptions.MoveX2, PlayerOptions.MoveX3, PlayerOptions.MoveX4, PlayerOptions.MoveY1, PlayerOptions.MoveY2, PlayerOptions.MoveY3, PlayerOptions.MoveY4, PlayerOptions.Stealth, PlayerOptions.Tiny, PlayerOptions.Tipsy, PlayerOptions.Tornado",
+              "missing captured subscriber identity for ScreenGameplay/2/11/1",
+              "missing captured subscriber identity for ScreenGameplay/2/12",
+              "missing captured subscriber identity for ScreenGameplay/2/15/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+              "missing captured subscriber identity for ScreenGameplay/2/8",
+              "missing captured subscriber identity for ScreenGameplay/25",
+              "missing captured subscriber identity for ScreenGameplay/26/1/1",
+              "missing captured subscriber identity for ScreenGameplay/26/1/10",
+              "missing captured subscriber identity for ScreenGameplay/26/1/12",
+              "missing captured subscriber identity for ScreenGameplay/26/1/2",
+              "missing captured subscriber identity for ScreenGameplay/26/1/4",
+              "missing captured subscriber identity for ScreenGameplay/26/1/5",
+              "missing captured subscriber identity for ScreenGameplay/26/1/7",
+              "missing captured subscriber identity for ScreenGameplay/26/1/9",
+              "missing captured subscriber identity for ScreenGameplay/3/1",
+              "production replay: application build without test-support",
+              "production replay: full-song completion",
+              "production replay: sampled framebuffer pixels",
+              "production replay: production command/query instrumentation",
+              "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+              "production replay: native capture contains no drawable samples; drawable comparison was not exercised"
+            ],
+            "production_pending_coverage": [
+              "application build without test-support",
+              "full-song completion",
+              "sampled framebuffer pixels",
+              "production command/query instrumentation",
+              "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+              "native capture contains no drawable samples; drawable comparison was not exercised"
+            ],
+            "diagnostic_draws": {
+              "draw_samples_compared": 0,
+              "submitted_vertices_compared": 0,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_draws": {
+              "draw_samples_compared": 0,
+              "submitted_vertices_compared": 0,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_stage_fields": 10160,
+            "production_errors": [],
+            "production_mismatch_count": 0,
+            "production_archive_accepted": false,
+            "command_queries": {
+              "compared": true,
+              "native_count": 319583,
+              "actual_count": 319583
+            },
+            "uncompared_queries": 0
+          }
+        },
+        {
+          "stage": "baseline",
+          "archive_sha256": "e04530bff5ee9e952a686bcc94cb74ef72a2070ac51e1d8d9cccd53976780eb8",
+          "binary_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+          "exit_code": 2,
+          "fresh_candidate": true,
+          "summary": {
+            "native_frames": 1754,
+            "replayed_frames": 1754,
+            "archive_accepted": false,
+            "diagnostic_replay_checks_passed": false,
+            "production_gameplay_checks_passed": true,
+            "whole_song_parity_proven": false,
+            "production_parity_proven": false,
+            "pixel_parity_proven": false,
+            "checked_stage_samples": 130,
+            "compared_stage_fields": 20320,
+            "diagnostic_compared_stage_fields": 10160,
+            "execution_path": "production-and-diagnostic-live-lua",
+            "production_preparation_exercised": true,
+            "capture_completed_gameplay": true,
+            "mismatch_count": 54,
+            "errors": [],
+            "mismatch_fields": {
+              "command_query_event": 54
+            },
+            "first_mismatches": [
+              {
+                "field": "command_query_event",
+                "native": {
+                  "actor": "external-0011",
+                  "args": [
+                    1.018158492307212
+                  ],
+                  "beat": 164.40240478515625,
+                  "caller": {
+                    "line": 198,
+                    "source": "song:/lua/default.lua",
+                    "tail_call": false
+                  },
+                  "command": "UpdateCommand",
+                  "definition_id": "def-0003",
+                  "detail": {
+                    "native_tween_children": {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [],
+                                  "commands": [],
+                                  "name": "HoldJudgment",
+                                  "time_left": 0.800000011920929
+                                }
+                              ],
+                              "commands": [],
+                              "name": "",
+                              "time_left": 0.800000011920929
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [],
+                                  "commands": [],
+                                  "name": "HoldJudgment",
+                                  "time_left": 0.4993550181388855
+                                }
+                              ],
+                              "commands": [],
+                              "name": "",
+                              "time_left": 0.4993550181388855
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [],
+                                  "commands": [],
+                                  "name": "HoldJudgment",
+                                  "time_left": 0.5980730056762695
+                                }
+                              ],
+                              "commands": [],
+                              "name": "",
+                              "time_left": 0.5980730056762695
+                            }
+                          ]
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [],
+                              "commands": {
+                                "Init": {
+                                  "last_line": 235,
+                                  "line": 209,
+                                  "source": "@/Themes/itgmania-harness/Graphics/Player judgment.lua"
+                                }
+                              },
+                              "name": "JudgmentWithOffsets",
+                              "time_left": 0.7958620190620422
+                            }
+                          ],
+                          "commands": {
+                            "Init": {
+                              "last_line": 69,
+                              "line": 66,
+                              "source": "@/Themes/itgmania-harness/Graphics/Player judgment.lua"
+                            }
+                          },
+                          "name": "Judgment",
+                          "time_left": 0.7958620190620422
+                        }
+                      ],
+                      "commands": [],
+                      "name": "PlayerP1",
+                      "time_left": 0.800000011920929
+                    },
+                    "native_tween_time_left": 0.800000011920929
+                  },
+                  "kind": "call",
+                  "line": 198,
+                  "operation": "Actor.zoomx",
+                  "phase": "callback",
+                  "scene": 1,
+                  "seconds": 58.077484130859375,
+                  "seq": 167533,
+                  "source": "song:/lua/default.lua",
+                  "tween_time_left": 0.800000011920929
+                },
+                "deadsync": {
+                  "scene": 1,
+                  "kind": "call",
+                  "operation": "Actor.zoomx",
+                  "source": "song:/lua/default.lua",
+                  "line": 198,
+                  "phase": "callback",
+                  "beat": 164.40240478515625,
+                  "seconds": 58.077484130859375,
+                  "args": [
+                    1.018158492307212
+                  ],
+                  "results": [
+                    {
+                      "actor": "0x20fee8e0e80",
+                      "name": "PlayerP1",
+                      "path": "ScreenGameplay/PlayerP1"
+                    }
+                  ],
+                  "tween_time_left": 0.7958620190620422
+                }
+              },
+              {
+                "field": "command_query_event",
+                "native": {
+                  "actor": "external-0012",
+                  "args": [
+                    1.018158492307212
+                  ],
+                  "beat": 164.40240478515625,
+                  "caller": {
+                    "line": 198,
+                    "source": "song:/lua/default.lua",
+                    "tail_call": false
+                  },
+                  "command": "UpdateCommand",
+                  "definition_id": "def-0003",
+                  "detail": {
+                    "native_tween_children": {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [],
+                                  "commands": [],
+                                  "name": "HoldJudgment",
+                                  "time_left": 0.800000011920929
+                                }
+                              ],
+                              "commands": [],
+                              "name": "",
+                              "time_left": 0.800000011920929
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [],
+                                  "commands": [],
+                                  "name": "HoldJudgment",
+                                  "time_left": 0.4993550181388855
+                                }
+                              ],
+                              "commands": [],
+                              "name": "",
+                              "time_left": 0.4993550181388855
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [],
+                                  "commands": [],
+                                  "name": "HoldJudgment",
+                                  "time_left": 0.5980730056762695
+                                }
+                              ],
+                              "commands": [],
+                              "name": "",
+                              "time_left": 0.5980730056762695
+                            }
+                          ]
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [],
+                              "commands": {
+                                "Init": {
+                                  "last_line": 235,
+                                  "line": 209,
+                                  "source": "@/Themes/itgmania-harness/Graphics/Player judgment.lua"
+                                }
+                              },
+                              "name": "JudgmentWithOffsets",
+                              "time_left": 0.7958620190620422
+                            }
+                          ],
+                          "commands": {
+                            "Init": {
+                              "last_line": 69,
+                              "line": 66,
+                              "source": "@/Themes/itgmania-harness/Graphics/Player judgment.lua"
+                            }
+                          },
+                          "name": "Judgment",
+                          "time_left": 0.7958620190620422
+                        }
+                      ],
+                      "commands": [],
+                      "name": "PlayerP2",
+                      "time_left": 0.800000011920929
+                    },
+                    "native_tween_time_left": 0.800000011920929
+                  },
+                  "kind": "call",
+                  "line": 198,
+                  "operation": "Actor.zoomx",
+                  "phase": "callback",
+                  "scene": 1,
+                  "seconds": 58.077484130859375,
+                  "seq": 167537,
+                  "source": "song:/lua/default.lua",
+                  "tween_time_left": 0.800000011920929
+                },
+                "deadsync": {
+                  "scene": 1,
+                  "kind": "call",
+                  "operation": "Actor.zoomx",
+                  "source": "song:/lua/default.lua",
+                  "line": 198,
+                  "phase": "callback",
+                  "beat": 164.40240478515625,
+                  "seconds": 58.077484130859375,
+                  "args": [
+                    1.018158492307212
+                  ],
+                  "results": [
+                    {
+                      "actor": "0x21008873f38",
+                      "name": "PlayerP2",
+                      "path": "ScreenGameplay/PlayerP2"
+                    }
+                  ],
+                  "tween_time_left": 0.7958620190620422
+                }
+              },
+              {
+                "field": "command_query_event",
+                "native": {
+                  "actor": "external-0011",
+                  "args": [
+                    1.018158492307212
+                  ],
+                  "beat": 164.40240478515625,
+                  "caller": {
+                    "line": 198,
+                    "source": "song:/lua/default.lua",
+                    "tail_call": false
+                  },
+                  "command": "UpdateCommand",
+                  "definition_id": "def-0003",
+                  "detail": {
+                    "native_tween_time_left": 0.800000011920929
+                  },
+                  "kind": "call",
+                  "line": 198,
+                  "operation": "Actor.zoomx",
+                  "phase": "callback",
+                  "scene": 1,
+                  "seconds": 58.077484130859375,
+                  "seq": 167581,
+                  "source": "song:/lua/default.lua",
+                  "tween_time_left": 0.800000011920929
+                },
+                "deadsync": {
+                  "scene": 1,
+                  "kind": "call",
+                  "operation": "Actor.zoomx",
+                  "source": "song:/lua/default.lua",
+                  "line": 198,
+                  "phase": "callback",
+                  "beat": 164.40240478515625,
+                  "seconds": 58.077484130859375,
+                  "args": [
+                    1.018158492307212
+                  ],
+                  "results": [
+                    {
+                      "actor": "0x20fee8e0e80",
+                      "name": "PlayerP1",
+                      "path": "ScreenGameplay/PlayerP1"
+                    }
+                  ],
+                  "tween_time_left": 0.7958620190620422
+                }
+              }
+            ],
+            "pending_coverage": [
+              "uncompared song operations: Actor.z, Actor.zoomy, Actor.zoomz, PlayerOptions.Beat, PlayerOptions.Brake, PlayerOptions.Bumpy, PlayerOptions.Centered, PlayerOptions.ConfusionOffset1, PlayerOptions.ConfusionOffset2, PlayerOptions.ConfusionOffset3, PlayerOptions.ConfusionOffset4, PlayerOptions.Dark, PlayerOptions.Dizzy, PlayerOptions.Drunk, PlayerOptions.DrunkOffset, PlayerOptions.Flip, PlayerOptions.Invert, PlayerOptions.MoveX1, PlayerOptions.MoveX2, PlayerOptions.MoveX3, PlayerOptions.MoveX4, PlayerOptions.MoveY1, PlayerOptions.MoveY2, PlayerOptions.MoveY3, PlayerOptions.MoveY4, PlayerOptions.Stealth, PlayerOptions.Tiny, PlayerOptions.Tipsy, PlayerOptions.Tornado",
+              "missing captured subscriber identity for ScreenGameplay/2/11/1",
+              "missing captured subscriber identity for ScreenGameplay/2/12",
+              "missing captured subscriber identity for ScreenGameplay/2/15/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+              "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+              "missing captured subscriber identity for ScreenGameplay/2/8",
+              "missing captured subscriber identity for ScreenGameplay/25",
+              "missing captured subscriber identity for ScreenGameplay/26/1/1",
+              "missing captured subscriber identity for ScreenGameplay/26/1/10",
+              "missing captured subscriber identity for ScreenGameplay/26/1/12",
+              "missing captured subscriber identity for ScreenGameplay/26/1/2",
+              "missing captured subscriber identity for ScreenGameplay/26/1/4",
+              "missing captured subscriber identity for ScreenGameplay/26/1/5",
+              "missing captured subscriber identity for ScreenGameplay/26/1/7",
+              "missing captured subscriber identity for ScreenGameplay/26/1/9",
+              "missing captured subscriber identity for ScreenGameplay/3/1",
+              "production replay: application build without test-support",
+              "production replay: full-song completion",
+              "production replay: sampled framebuffer pixels",
+              "production replay: production command/query instrumentation",
+              "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+              "production replay: native capture contains no drawable samples; drawable comparison was not exercised"
+            ],
+            "production_pending_coverage": [
+              "application build without test-support",
+              "full-song completion",
+              "sampled framebuffer pixels",
+              "production command/query instrumentation",
+              "complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+              "saved statistics getter functions explicitly invoked with another stage's player receiver",
+              "BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)",
+              "native capture contains no drawable samples; drawable comparison was not exercised"
+            ],
+            "diagnostic_draws": {
+              "draw_samples_compared": 0,
+              "submitted_vertices_compared": 0,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_draws": {
+              "draw_samples_compared": 0,
+              "submitted_vertices_compared": 0,
+              "draw_mismatches": 0,
+              "live_text_samples_compared": 0,
+              "input_events_replayed": 0,
+              "render_random_inputs_replayed": 0,
+              "render_random_inputs_captured": 0
+            },
+            "production_stage_fields": 10160,
+            "production_errors": [],
+            "production_mismatch_count": 0,
+            "production_archive_accepted": false,
+            "command_queries": {
+              "compared": true,
+              "native_count": 319583,
+              "actual_count": 319583
+            },
+            "uncompared_queries": 0
+          }
+        }
+      ]
+    }
+  ],
+  "old_archives_and_alias_bytes_preserved": true,
+  "fixture_base_head": "f0c8cdb8951e9c7f8cf743f31285742413610175",
+  "binary_payloads_retained_separately": [
+    {
+      "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\build-after01\\full_song_lua.exe",
+      "bytes": 49565184,
+      "reason": "binary payload retained separately; evidence records its hash"
+    }
+  ],
+  "post_pack_resource_evidence": {
+    "files": [
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\final-resource-parking\\completed.json",
+        "bytes": 38461,
+        "sha256": "bbdc9cb980c6cf6d2011950192bcb14f7e350d306c80f88448983cacd2494464",
+        "archive_name": "task/final-resource-parking/completed.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\final-resource-parking\\inspect-invocation.json",
+        "bytes": 6534,
+        "sha256": "d44ccb907ec3634e28b1696d7dd270993fd07c9f8766647d10356c25bece448b",
+        "archive_name": "task/final-resource-parking/inspect-invocation.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\final-resource-parking\\inspect-transport.jsonl",
+        "bytes": 35837,
+        "sha256": "e2d0f7045d0b00cc447a681a5eaaf4c0d13afc907f45fd4e17ba501dbb454c49",
+        "archive_name": "task/final-resource-parking/inspect-transport.jsonl"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\final-resource-parking\\inspection.json",
+        "bytes": 38162,
+        "sha256": "798630dc6f793c4cc60eab52c1639b6daa77cbb3571a2ba6bf38e2ede53266c4",
+        "archive_name": "task/final-resource-parking/inspection.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\final-resource-parking\\park-invocation.json",
+        "bytes": 6593,
+        "sha256": "67bcae7847cf5f6432ed0c2363a9bc1bc8e4f475893931a2c180fc477acaa5fa",
+        "archive_name": "task/final-resource-parking/park-invocation.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\final-resource-parking\\park-transport.jsonl",
+        "bytes": 35990,
+        "sha256": "c0b6e5f2131d23af1fe61d55cd030026cd98e6dd2de6ba420cafae41d923c556",
+        "archive_name": "task/final-resource-parking/park-transport.jsonl"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\fixture-attribute-proof.json",
+        "bytes": 1594,
+        "sha256": "d5a419423e7d824672fa75a20793cf453e56728e75bdd9488031e43cd60249a2",
+        "archive_name": "task/fixture-attribute-proof.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\pack-v2-recovery\\guest-inspection-before-local-archive.json",
+        "bytes": 347,
+        "sha256": "26bd8327b02dd6a3fc2f3a3f70e9f827536ec3ca0ebe1ede56c5f3a2f413fd37",
+        "archive_name": "task/pack-v2-recovery/guest-inspection-before-local-archive.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\pack-v2-recovery\\guest-inspection.json",
+        "bytes": 329,
+        "sha256": "078e515c55c4af2c0739eb26aca98add8bef93ff9577d055b587637320038c04",
+        "archive_name": "task/pack-v2-recovery/guest-inspection.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\pack-v2-recovery\\inspect_guest.py",
+        "bytes": 1033,
+        "sha256": "b6cd8d952d01f2f6dc1149e4f72bc60f06b06096bf54c35621d0f921396a40de",
+        "archive_name": "task/pack-v2-recovery/inspect_guest.py"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\pack-v2-recovery\\local-archive-receipt.json",
+        "bytes": 2023,
+        "sha256": "8ec724f311ef29791e9eab8550073e38f089ec31998937ceec68825452a35cd9",
+        "archive_name": "task/pack-v2-recovery/local-archive-receipt.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\pack-v2-recovery\\prior-attempts\\ecb7f9f9a8fb340b-c0001\\acceptance-proof.json",
+        "bytes": 584,
+        "sha256": "64fac35956d3694853300f828e9c9e97fee4d7ef6bbbd57cb79cdd289040f3fb",
+        "archive_name": "task/pack-v2-recovery/prior-attempts/ecb7f9f9a8fb340b-c0001/acceptance-proof.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\pack-v2-recovery\\prior-attempts\\ecb7f9f9a8fb340b-c0001\\pack-execution.json",
+        "bytes": 16921,
+        "sha256": "9964b066760f4f7f404711d077e9325c81589f8a80aedb9490005ab6435af733",
+        "archive_name": "task/pack-v2-recovery/prior-attempts/ecb7f9f9a8fb340b-c0001/pack-execution.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\pack-v2-recovery\\validation.json",
+        "bytes": 2959,
+        "sha256": "b47476c995bbec0f9b67ef4b0a9f0430a34bb63ec42ec34a36a8caccf70165ff",
+        "archive_name": "task/pack-v2-recovery/validation.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\pack_v2_recovery.py",
+        "bytes": 9217,
+        "sha256": "03ecec2271f69dec315884a065d4e149e371d3a31d91e57797e2780e534361be",
+        "archive_name": "task/pack_v2_recovery.py"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\preview-v3-recovery\\relocation-receipt.json",
+        "bytes": 986,
+        "sha256": "3d2310ca8d478f16f1c6816d20b79207ff9c3183d9113028a5d0afa443d5205a",
+        "archive_name": "task/preview-v3-recovery/relocation-receipt.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\preview-v3-recovery\\validation.json",
+        "bytes": 26814,
+        "sha256": "7fd574d8ada05e5a15bbc1f7e887d7732ee259e46a51ea777098797f0f227546",
+        "archive_name": "task/preview-v3-recovery/validation.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\preview_v3_recovery.py",
+        "bytes": 9708,
+        "sha256": "8b46da8f6b0bf28c074c07e1695f654d326cf2ccf932ed55f27e6572d8a18587",
+        "archive_name": "task/preview_v3_recovery.py"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\publication-preview-attempt01.json",
+        "bytes": 1553,
+        "sha256": "0772c61c8d07eefea3fda37f3b6077664e48a0c9a23f95e43eb99f8a9190f5c5",
+        "archive_name": "task/publication-preview-attempt01.json"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\publish_five_v2.py",
+        "bytes": 55661,
+        "sha256": "a4a1e465f15ff08a628e60cc217e40ccc403fc4b8d2cf4adb04418bcc4a951be",
+        "archive_name": "task/publish_five_v2.py"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\publish_five_v3.py",
+        "bytes": 58032,
+        "sha256": "9358f929a9ac5c1d01dd801ea7e3bbb850fb20cbdbdd8ef39b8f563ec8ecb5e5",
+        "archive_name": "task/publish_five_v3.py"
+      },
+      {
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-five-charts-20261120\\record_fixture_attributes.py",
+        "bytes": 1694,
+        "sha256": "beddd3a899699b1c963359120329b02ba2f111dc0f59688ff84ee52403c61848",
+        "archive_name": "task/record_fixture_attributes.py"
+      }
+    ],
+    "excluded_binary_payloads": []
+  }
+}

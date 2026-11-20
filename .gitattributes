@@ -50,3 +50,5 @@
 /regression-expectations/deadsync-song-lua/696f42b0abead8eb.snap whitespace=cr-at-eol
 # Follow-up evidence retains exact captured source, report, and receipt bytes.
 /full_song_lua/proxmox-followup-2026-11-20/**/* -text -whitespace
+# Five-chart evidence is bound by exact file and archive checksums.
+/full_song_lua/proxmox-five-charts-2026-11-20/**/* -text -whitespace

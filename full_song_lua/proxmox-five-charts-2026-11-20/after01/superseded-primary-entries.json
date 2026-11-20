@@ -1,0 +1,66 @@
+{
+  "ecb7f9f9a8fb340b-c0001": {
+    "title": "[5813] [11] 西新宿清掃曲",
+    "source_simfile": "[11] Nishi-Shinjuku seisou kyoku (SX) [Scrypts]/nssk-chart.ssc",
+    "harness_version": "0.1.52",
+    "archive": "faa7b7d60bf81e0558f74f68d3813d0e329407fe95a1097cbca9d9993ecd0ae8.tar.zst",
+    "sha256": "faa7b7d60bf81e0558f74f68d3813d0e329407fe95a1097cbca9d9993ecd0ae8",
+    "compressed_bytes": 2928481,
+    "aliases": [
+      "8d3d240cb4c779869a2c4295590038e7e8aad2989c69f99ddeaf9ae923a58af0.tar.zst"
+    ]
+  },
+  "ccfbbe2824310517-c0001": {
+    "title": "Episode 15 Circles",
+    "source_simfile": "Circles/Circles.sm",
+    "harness_version": "0.1.80",
+    "archive": "a596574fe1fd7aece912b0375d81db0d8b6caeb574ba1a0d5fa896abf72581f8.tar.zst",
+    "sha256": "a596574fe1fd7aece912b0375d81db0d8b6caeb574ba1a0d5fa896abf72581f8",
+    "compressed_bytes": 44254155,
+    "uncompressed_sha256": "52534be29cddb9bdc64bc67463dc101b70246622885d630a527c927e2dc9eff8",
+    "aliases": []
+  },
+  "1275a659b0dc21d2-c0001": {
+    "title": "[14] [CRYSTAL_ACCESS]",
+    "source_simfile": "[14] [CRYSTAL_ACCESS] (No CMOD) [SX]/[CRYSTAL_ACCESS].ssc",
+    "harness_version": "0.1.54",
+    "archive": "999b9246bbec77e2eaeeefb0f793290135f018db303cf9e58e8b37f4261cff8e.tar.zst",
+    "sha256": "999b9246bbec77e2eaeeefb0f793290135f018db303cf9e58e8b37f4261cff8e",
+    "compressed_bytes": 165492,
+    "aliases": [
+      "816536811891d1c40a14cae804cce02a3362a41b3c07ee5672b6355fc1b49150.tar.zst"
+    ]
+  },
+  "abe694267a1522a8-c0001": {
+    "title": "278|MODS|[lv.08] And Drugs↑↑",
+    "source_simfile": "278-MODS-[lv.08] And Drugs/and drugs.ssc",
+    "harness_version": "0.1.31",
+    "archive": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e.tar.zst",
+    "sha256": "39c101576407a7732f3e6fcf46be92a15f338a0f2b89a902026074b6dc97376e",
+    "compressed_bytes": 255524,
+    "uncompressed_sha256": "054d7dcec6f7da33e150d66c4c4d437cdb2a9409ea0245b63af49bca0c4d9726",
+    "compression_level": 12,
+    "aliases": [
+      "dac53f2aef6714b1975b417a262b712212166634a87adb0f533499c72a1be3b6.tar.zst",
+      "ac4854fd3d8e73710127a23aed1996eff0acc3b662919588a492c9a010086aa5.tar.zst",
+      "05ea8362cc43e1fb912e2bc0705699e1cd2717ad7bb575d1b12f0ae8c1596370.tar.zst",
+      "03699650497f8b17a46b4302abb9003299946aba1e8d19e99e93fe37386bd95c.tar.zst",
+      "51076d7653effe9cdec908302b75969c92ef7a5b231cb69768c4d0ec4baff7c9.tar.zst",
+      "04eb6389c65a08fc4711ea7e02466871c65681de0683aa26d1f4b81559bdd156.tar.zst",
+      "6050477bd2736007d998748689bf0cac887c2e19bb0565fb3022e83a459e4dbd.tar.zst",
+      "30525568cc581a65c8b48ae00dc23056490d494e9d715c6fe38c17d8cb63e54d.tar.zst",
+      "864492e69434c2de4a5651110179bfd47dc97fee7d93afa723f1da3098593320.tar.zst"
+    ]
+  },
+  "cdadde08ea8260ec-c0001": {
+    "title": "[N]TECH SOUP(MASTER) Flying Castle",
+    "source_simfile": "[N]TECH SOUP(MASTER) Flying Castle/flying castle.sm",
+    "harness_version": "0.1.54",
+    "archive": "183cfc30e725d8818d8498e17c0286c65827ab1548e1f5d615f8fd7b64bd2573.tar.zst",
+    "sha256": "183cfc30e725d8818d8498e17c0286c65827ab1548e1f5d615f8fd7b64bd2573",
+    "compressed_bytes": 302861,
+    "aliases": [
+      "bf1373049476beebf03451c600cd6ac65b92af2069f0867e43a9278e48056012.tar.zst"
+    ]
+  }
+}
