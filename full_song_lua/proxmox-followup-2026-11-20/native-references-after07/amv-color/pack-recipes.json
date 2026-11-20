@@ -1,0 +1,32 @@
+{
+  "harness_sha256": "1780c9e517994285775fa75c98c1975c601be0f94c4ad1a376cab16bd8684e8e",
+  "harness_commit": "b2af4f355d827fb0e89aead84b4c75a9b8cccf6c",
+  "guest_parent": "/opt/song-lua-audit/parity-20261120/accepted-current-main",
+  "resources": {"cpu_quota_percent": 200, "memory_max_bytes": 6442450944, "memory_swap_max_bytes": 0, "one_job_at_a_time": true},
+  "cases": {
+    "sharkmode": {
+      "local_candidate": "C:/GitHub/deadsync/target/song-lua-parity-20261120/real-song-reference-20261120/download/92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671.tar",
+      "guest_candidate": "/opt/song-lua-audit/parity-20261120/sharkmode-current-b2-attempt01/candidate/92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671.tar",
+      "sha256": "92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671",
+      "bytes": 172256768,
+      "native_evidence": "C:/GitHub/deadsync/target/song-lua-parity-20261120/real-song-reference-20261120/native-capture-evidence.zip",
+      "native_evidence_sha256": "1951e9f27720cb5b81066780b581e2cebb1150667c0413513af0636f25bffd44"
+    },
+    "amv-color": {
+      "local_candidate": "C:/GitHub/itgmania-harness/target/amv-color-20261120/download/ae2df4b168a8190ecc416828571d0d0bff6d2e43634f9d09c1f041afd9843d4b.tar",
+      "guest_candidate": "/opt/song-lua-audit/parity-20261120/amv-color-attempt02/candidate/ae2df4b168a8190ecc416828571d0d0bff6d2e43634f9d09c1f041afd9843d4b.tar",
+      "sha256": "ae2df4b168a8190ecc416828571d0d0bff6d2e43634f9d09c1f041afd9843d4b",
+      "bytes": 118882816,
+      "native_evidence": "C:/GitHub/itgmania-harness/target/amv-color-20261120/download/native-capture-evidence.zip",
+      "native_evidence_sha256": "74b575d00cee36bc70a850caca34bb67881675e719de3299049a2a87ef3e475e"
+    },
+    "wrapper-removal": {
+      "local_candidate": "C:/GitHub/itgmania-harness/target/wrapper-removal-20261120/download/dc4a2bd32a5bee041fb431a1439db9751092b0e293fa0abcf64e1402760f9794.tar",
+      "guest_candidate": "/opt/song-lua-audit/parity-20261120/wrapper-removal-attempt02/candidate/dc4a2bd32a5bee041fb431a1439db9751092b0e293fa0abcf64e1402760f9794.tar",
+      "sha256": "dc4a2bd32a5bee041fb431a1439db9751092b0e293fa0abcf64e1402760f9794",
+      "bytes": 114892288,
+      "native_evidence": "C:/GitHub/itgmania-harness/target/wrapper-removal-20261120/download/native-capture-evidence.zip",
+      "native_evidence_sha256": "dc9ad551ee4b1a1c47f4c9bc3c05a43543d42c801a96e3a4b48b996b4a0fc58f"
+    }
+  }
+}

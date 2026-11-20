@@ -1,0 +1,85 @@
+{
+  "case": "wrapper-removal",
+  "archive": {
+    "download_verified": true,
+    "path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\wrapper-removal-4acbd9eb44de\\7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4.tar.zst",
+    "sha256": "7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4",
+    "bytes": 107795590,
+    "decoded_sha256": "dc4a2bd32a5bee041fb431a1439db9751092b0e293fa0abcf64e1402760f9794",
+    "decoded_bytes": 114892288,
+    "pack_evidence": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\wrapper-removal-4acbd9eb44de\\pack-evidence.zip",
+    "pack_evidence_sha256": "25838cb56975b54f9999f95caabbd07a202ac8a94863cf8b82013e0bce7c78d1",
+    "accepted_report_sha256": "4acbd9eb44de3aa1ca95c5839505e9df98d200265a5520c5723aeb74d3949fce",
+    "source_commit": "af6a6c9e045f5dfb13abe38bd4eb58d7326f2e26",
+    "runner_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+    "native_evidence_sha256": "dc9ad551ee4b1a1c47f4c9bc3c05a43543d42c801a96e3a4b48b996b4a0fc58f"
+  },
+  "accepted_report_sha256": "4acbd9eb44de3aa1ca95c5839505e9df98d200265a5520c5723aeb74d3949fce",
+  "source_commit": "af6a6c9e045f5dfb13abe38bd4eb58d7326f2e26",
+  "runner_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+  "members": {
+    "acceptance-proof.json": {
+      "bytes": 10327,
+      "sha256": "dcffe87f508a44e05d3b646c2f8990b20cf912f41b5a93b9b8f3c2c82a836b15"
+    },
+    "accepted-replay-evidence.zip": {
+      "bytes": 40339,
+      "sha256": "b8a736095abb6d1f8e5e9a70434a5e6bddb0027ed25f293ba2c7f58642369c54"
+    },
+    "baseline-before-fix-evidence.zip": {
+      "bytes": 4202,
+      "sha256": "2908b59a4e82111d9e8c72c27b91538fc6e0fa3d6046ec113f50c58075b05db8"
+    },
+    "coverage-summary.json": {
+      "bytes": 7956,
+      "sha256": "f880594ce7a25c34322216f5dfb015bb52969d87a99e1ef44ecc58297d5e2879"
+    },
+    "native-capture-evidence.zip": {
+      "bytes": 783563,
+      "sha256": "dc9ad551ee4b1a1c47f4c9bc3c05a43543d42c801a96e3a4b48b996b4a0fc58f"
+    },
+    "pack-evidence-members.json": {
+      "bytes": 965,
+      "sha256": "8e0637b9ae59b172d013ace69030e53ae37ffb7c25d4d889c7ed7c873389fb8f"
+    },
+    "pack-evidence.zip": {
+      "bytes": 7641,
+      "sha256": "25838cb56975b54f9999f95caabbd07a202ac8a94863cf8b82013e0bce7c78d1"
+    },
+    "pack-execution.json": {
+      "bytes": 1731,
+      "sha256": "33caa28515345352c82e21f16982f69cc8b50325c0ea840ef81d13282fc8957b"
+    },
+    "pack-recipes.json": {
+      "bytes": 2486,
+      "sha256": "8b65108c7301ba26621fb3ff27058d37b9a9bebadeb4c40a4f439336e58f9c1a"
+    },
+    "pack_accepted.py": {
+      "bytes": 15145,
+      "sha256": "042bbdc368be50797df42680a0560c4bccfa2b65e1dac0fec2273f8ff4ae6be8"
+    },
+    "packed-download-receipt.json": {
+      "bytes": 1080,
+      "sha256": "b04624c52f7c74987016d3344442be3a4f9c7a1d7d160bd79d635aabfb1e2c4c"
+    },
+    "prepared.json": {
+      "bytes": 423,
+      "sha256": "a9b92ab42311280ddce1f21fdaf22511121f3651938a157f39bdbd91721112da"
+    },
+    "README.md": {
+      "bytes": 1045,
+      "sha256": "6774223a6ef75cc376dd4b1b7af5dc0404a745333e9e36331f33a5d976644ad1"
+    },
+    "remote_capture.py": {
+      "bytes": 8072,
+      "sha256": "d6675e60b48efac5366ec5e49529fbbeacac9187fd001389a09a907804dc881f"
+    },
+    "seal_accepted.py": {
+      "bytes": 7484,
+      "sha256": "ef7ffecd333bc036948e558524a375969db262c129992bd29b5fb3888f1c15cc"
+    }
+  },
+  "member_count": 15,
+  "member_bytes": 892459,
+  "no_source_or_fixture_mutations": true
+}

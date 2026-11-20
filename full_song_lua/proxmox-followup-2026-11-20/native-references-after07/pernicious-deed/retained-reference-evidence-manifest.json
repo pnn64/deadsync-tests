@@ -1,0 +1,49 @@
+{
+  "path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\retained-reference-evidence.zip",
+  "bytes": 66054,
+  "sha256": "5206e9491557a8a4879c2ec49f5c9b4e6038c0036293dcd2ca8d92227d4bfe75",
+  "members": {
+    "retained-accepted-references.json": {
+      "bytes": 7123,
+      "sha256": "c434d4bb49aac691cea18371260071a1a4e40dc297049abc9d267e9f45539d35"
+    },
+    "retained-archive-verification.json": {
+      "bytes": 1641,
+      "sha256": "d04bc0d6df2517d664cc722db1bb31792711f8b560e801191687b38403920841"
+    },
+    "source-and-recipe.json": {
+      "bytes": 11883,
+      "sha256": "abe91a0052ee496a1344fe13f22406ed0a3a70647d540b3a037ff9f0f70e6843"
+    },
+    "prepare_inputs.py": {
+      "bytes": 9930,
+      "sha256": "c8050b4c51ee7a130c48727aa12112e08518f57e42fbbac4587df4986b80ab74"
+    },
+    "verify_retained_archives.py": {
+      "bytes": 3819,
+      "sha256": "43a896ac44cdcbeabf6e763a36d6fa67cc583dc8cced2881539fc99bd086d057"
+    },
+    "pernicious-deed-transfer.json": {
+      "bytes": 2089,
+      "sha256": "7770863c45ee190a14886105b0f2e2bdeecad5b97d97f1f04ec969cc7cd53002"
+    },
+    "sharkmode-original-transfer.json": {
+      "bytes": 1241,
+      "sha256": "25e438de5e27c255d483ca375de695dd294296ab55da39044501bc536ee0bf7f"
+    },
+    "sharkmode-original-request.json": {
+      "bytes": 1076,
+      "sha256": "99126b7c35ced91cb96d73f3189bf8d46d7135460e65c8c2ce5a4792891768db"
+    },
+    "sharkmode-selected-capture.json.gz": {
+      "bytes": 52359,
+      "sha256": "84cf22701d210aac26cad9724c05bd73d8b76523fc65e3164b1b9a1ad7715329"
+    }
+  },
+  "disposition": {
+    "pernicious-deed": "exact accepted compressed latest-binary capture; ready for fixture integration",
+    "sharkmode": "retained accepted old-binary baseline; a fresh current-binary capture is in progress"
+  },
+  "no_archive_rewrite": true,
+  "no_acceptance_recomputation": true
+}

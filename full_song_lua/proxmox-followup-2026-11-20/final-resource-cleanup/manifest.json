@@ -1,0 +1,96 @@
+{
+  "scope": "Final released guest1503 gracefully stopped after all packing/download evidence verified; all16task guests stopped with disks retained.",
+  "members": {
+    "control-packs-after07-release.json": {
+      "bytes": 9900,
+      "sha256": "bd9c261608982fc281a4960b2f9979d1c194dffcb34240050c628d8cf9a18df9"
+    },
+    "download-receipt.json": {
+      "bytes": 666,
+      "sha256": "44e6a0fd6ed621a4357dadd23bec54edf40aab725222ce1cb175e43311111e91"
+    },
+    "final-host.json": {
+      "bytes": 3122,
+      "sha256": "e8826324c1b9bcc4d69915542150d54cd1fd36fc1f8d8fbdf6b351fc347f3ba0"
+    },
+    "host-files/completed.json": {
+      "bytes": 5286,
+      "sha256": "8325907700787de72928f793eb9b6da015aebe78a7f5e1f2dcb8390e90e79f55"
+    },
+    "host-files/inspection.json": {
+      "bytes": 2918,
+      "sha256": "8cebf632d8f3f466859949fc4d4556e1ec6cfa2ce2ee2d19bea25934a93339ed"
+    },
+    "host-files/parked-1503.json": {
+      "bytes": 749,
+      "sha256": "e3ec51cd248e21c1f70c065204ae783b416000e6872a3e0b517d1125c67febc1"
+    },
+    "inspection-execution.json": {
+      "bytes": 1028,
+      "sha256": "02e088b5f7c64e9a0f56fb79361c17cd62ee5f1f6801383e4dbb1f8cb777a852"
+    },
+    "inspection.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "inspection.stdout": {
+      "bytes": 386,
+      "sha256": "0dbf4bbbf3d7bda355bf120ac63d20e184c06b76d091cd37d1226cdd17b92143"
+    },
+    "park_final_reference_guest.py": {
+      "bytes": 6374,
+      "sha256": "3dfcb31e020634a73d49475ce2947496109459f5288f38057261400846841944"
+    },
+    "parking-execution.json": {
+      "bytes": 939,
+      "sha256": "ce0c5930295320f25e1212eadd5f25dfd7ac1810c71aa0c578e49e52d7154c8c"
+    },
+    "parking.stderr": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "parking.stdout": {
+      "bytes": 273,
+      "sha256": "31af5c6a13ec71dff2659bdabcaadd86d5632be220319e0410f367058910ebd9"
+    }
+  },
+  "summary": {
+    "downloaded_at": "2026-11-20T03:15:03.995627+00:00",
+    "files": {
+      "inspection.json": {
+        "bytes": 2918,
+        "sha256": "8cebf632d8f3f466859949fc4d4556e1ec6cfa2ce2ee2d19bea25934a93339ed"
+      },
+      "parked-1503.json": {
+        "bytes": 749,
+        "sha256": "e3ec51cd248e21c1f70c065204ae783b416000e6872a3e0b517d1125c67febc1"
+      },
+      "completed.json": {
+        "bytes": 5286,
+        "sha256": "8325907700787de72928f793eb9b6da015aebe78a7f5e1f2dcb8390e90e79f55"
+      }
+    },
+    "all_16_task_guests_stopped": true,
+    "disks_retained": true,
+    "total_configured_memory_gib_released": 136,
+    "current_step_configured_memory_gib_released": 8
+  },
+  "final_host": {
+    "utc": "2026-11-20T03:15:02.636487+00:00",
+    "root_filesystem": {
+      "bytes": 482131607552,
+      "available_bytes": 162675003392,
+      "free_bytes": 183339786240
+    },
+    "memory_bytes": {
+      "MemTotal": 270178029568,
+      "MemAvailable": 208151085056
+    },
+    "qm_list": "      VMID NAME                 STATUS     MEM(MB)    BOOTDISK(GB) PID       \n       203 cloudifi-dhcp-dev    running    8192              50.00 2655448   \n       204 cloudifi-log-dev     running    6144              64.00 2654459   \n       213 cloudifi-dhcp-lab    running    8192              50.00 2722933   \n       214 cloudifi-log-lab     running    6144              64.00 2721924   \n       900 linux-rs-desktop     stopped    128                0.00 0         \n       901 linux-rs-dhcp        stopped    128                0.00 0         \n       902 linux-rs-system      stopped    256                0.00 0         \n       903 deadwindows-dev      stopped    512                0.00 0         \n      1500 deadsync-lua-20261119-builder stopped    32768            160.00 0         \n      1501 deadsync-lua-20261119-01 stopped    8192             160.00 0         \n      1502 deadsync-lua-20261119-02 stopped    8192             160.00 0         \n      1503 deadsync-lua-20261119-03 stopped    8192             160.00 0         \n      1504 deadsync-lua-20261119-04 stopped    8192             160.00 0         \n      1505 deadsync-lua-20261119-05 stopped    8192             160.00 0         \n      1506 deadsync-lua-20261119-06 stopped    8192             160.00 0         \n      1507 deadsync-lua-20261119-07 stopped    8192             160.00 0         \n      1508 deadsync-lua-20261119-08 stopped    8192             160.00 0         \n      1509 deadsync-lua-20261119-09 stopped    8192             160.00 0         \n      1510 deadsync-lua-20261119-10 stopped    8192             160.00 0         \n      1511 deadsync-lua-20261119-11 stopped    8192             160.00 0         \n      1512 deadsync-lua-20261119-12 stopped    8192             160.00 0         \n      1513 deadsync-lua-20261119-13 stopped    8192             160.00 0         \n      1514 deadsync-lua-20261119-14 stopped    8192             160.00 0         \n      1515 deadsync-lua-20261119-15 stopped    8192             160.00 0         \n      1516 deadsync-lua-20261119-build stopped    16384            160.00 0         \n",
+    "pct_list": "VMID       Status     Lock         Name                \n100        running                 samba-x79d8d        \n101        running                 plex                \n102        running                 stamina-db          \n103        running                 stamina-dev         \n104        running                 immich              \n200        running                 cloudifi-front-dev  \n201        running                 cloudifi-redis-dev  \n202        running                 cloudifi-radius-dev \n210        running                 cloudifi-front-lab  \n211        running                 cloudifi-redis-lab  \n212        running                 cloudifi-radius-lab \n"
+  },
+  "archive": {
+    "bytes": 12160,
+    "sha256": "c6279baaa80a36d5a2911f83d483f9fb81246241b3a7bed8008cb850e763e4dd"
+  }
+}

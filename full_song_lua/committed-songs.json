@@ -6,6 +6,12 @@
     "archive": "00b3d2301d7140ae9132978a8a6f4f872cbf5d0ce463e1faf33f7ac0f7caf336.tar.zst"
   },
   {
+    "title": "280|MODS|[MASTER] Sharkmode",
+    "source_simfile": "280-MODS-[MASTER] Sharkmode/Sharkmode.ssc",
+    "harness_version": "0.1.110",
+    "archive": "00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4.tar.zst"
+  },
+  {
     "title": "99+",
     "source_simfile": "99+ [-YOSEFU-]/99+.ssc",
     "harness_version": "0.1.32",
@@ -3126,6 +3132,12 @@
     "archive": "7eb669b57d472cf93f3c951294ed0c8448a2b1bfcbb43293e367c15194d7fd6d.tar.zst"
   },
   {
+    "title": "Wrapper removal native semantics",
+    "source_simfile": "wrapper-removal/control.ssc",
+    "harness_version": "0.1.110",
+    "archive": "7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4.tar.zst"
+  },
+  {
     "title": "[T04] Palette Lab (Hard)",
     "source_simfile": "[T04] Palette Lab (SH)/palette lab.ssc",
     "harness_version": "0.1.0",
@@ -3208,6 +3220,12 @@
     "source_simfile": "Sharkmode [Ky_Dash]/Sharkmode.ssc",
     "harness_version": "0.1.98",
     "archive": "81a02f3ebadfdd0edf0cf8e3134e714ee8596f88270df9cf0ad817f45dcc8dc5.tar.zst"
+  },
+  {
+    "title": "AMV native byte colors",
+    "source_simfile": "amv-color/control.ssc",
+    "harness_version": "0.1.110",
+    "archive": "82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88.tar.zst"
   },
   {
     "title": "Apollo",
@@ -5566,6 +5584,12 @@
     "source_simfile": "Crazy Crazy/Crazy Crazy.ssc",
     "harness_version": "0.1.98",
     "archive": "e8c7a784875a250f25aed1c73b2d70dc43fe3ea7e5e75dc7f5ab26d5090f0987.tar.zst"
+  },
+  {
+    "title": "SRT7 - Pernicious Deed",
+    "source_simfile": "5. deed/deed.sm",
+    "harness_version": "0.1.110",
+    "archive": "e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9.tar.zst"
   },
   {
     "title": "Step Your Game Up (Director's Cut) [Tier 5]",

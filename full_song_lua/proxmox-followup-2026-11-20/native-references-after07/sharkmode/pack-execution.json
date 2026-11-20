@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-11-20T02:22:56.493280+00:00",
+  "finished_at": "2026-11-20T02:23:06.566424+00:00",
+  "exit": 0,
+  "stdout": "{\"stage\": \"pack\", \"exit\": 0, \"receipt\": {\"finished_at\": \"2026-11-20T02:23:07.164744+00:00\", \"unit\": \"deadsync-accepted-pack-a997cd117b2d3652\", \"service_result\": \"success\", \"exit_code\": \"exited\", \"exit_status\": \"0\", \"resource_usage\": {\"MemoryPeak\": \"391798784\", \"CPUUsageNSec\": \"10485628000\", \"CPUQuotaPerSecUSec\": \"2s\", \"MemoryMax\": \"6442450944\", \"MemorySwapMax\": \"0\"}, \"spec_sha256\": \"330760c6f1c6d95bddfa3d01f6f7d6f98894a65f6e68054fad9a893792a1584b\"}}\n{\"packed\": true, \"case\": \"sharkmode\", \"path\": \"/opt/song-lua-audit/parity-20261120/accepted-current-main/sharkmode-64911bb03be0/packed/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4.tar.zst\", \"sha256\": \"00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4\", \"bytes\": 113821186, \"candidate_sha256\": \"92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671\", \"report_sha256\": \"64911bb03be0467717610b03901394c9d2ee8805f47a8ef4fb24a2832d52a0a8\", \"execution_sha256\": \"031cec56378260eeb7bed28d8a1f6f03213930117f3e123f26d8aba0ce91e010\", \"source_commit\": \"c715e619dd5acba3ecacfaafc99fbc1981b8ec02\", \"runner_sha256\": \"b466c6211c834f371bca599a2e34bf514e53ab8a2c3b96a8f33bb338def79e41\", \"harness_sha256\": \"1780c9e517994285775fa75c98c1975c601be0f94c4ad1a376cab16bd8684e8e\", \"candidate_unchanged\": true}\n",
+  "stderr": "",
+  "prepared_sha256": "f948ea264024b48836602f95a00cd2386c48ec1f84cc12675495d4344fa5b92d",
+  "script_sha256": "042bbdc368be50797df42680a0560c4bccfa2b65e1dac0fec2273f8ff4ae6be8"
+}

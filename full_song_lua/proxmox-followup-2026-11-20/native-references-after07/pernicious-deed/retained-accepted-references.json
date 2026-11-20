@@ -1,0 +1,130 @@
+{
+  "sharkmode": {
+    "archive": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\followup-native-controls-input-20261119T100328.353787Z\\sharkmode\\input\\c3a143c50fd1efb56e4f590560d157459417a1583f9b2e7db8fb35231fea4ab2.tar",
+    "sha256": "c3a143c50fd1efb56e4f590560d157459417a1583f9b2e7db8fb35231fea4ab2",
+    "bytes": 169671168,
+    "manifest_sha256": "dbaf4030188e5d22e7ef56c5c14a3ca2f76ad0667dc1f8fc3ae8f67ea26cf6c1",
+    "harness_version": "0.1.110",
+    "native_source": {
+      "source_revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "source_dirty": "false",
+      "execution": "native_gameplay",
+      "launches_executable": true
+    },
+    "capture_binary_sha256": "4868fd245547b55ea554632b2a0dcf61dbaa022c9a6e9f2515c9259983bdec7f",
+    "chart": {
+      "title": "280|MODS|[MASTER] Sharkmode",
+      "source_path": "280-MODS-[MASTER] Sharkmode/Sharkmode.ssc",
+      "simfile": "song/Sharkmode.ssc",
+      "trace": "trace/semantic.json"
+    },
+    "trace": {
+      "path": "trace/semantic.json",
+      "role": "semantic-render-trace",
+      "bytes": 53436335,
+      "sha256": "8db42605c93f23764b4c061ba5df5b6b49c4a0842775e37551a83458b08ab6f4"
+    },
+    "replay_report": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\sharkmode-after04\\report.json",
+    "replay_report_sha256": "84a9906f70df0830eda5b42ee0d0ba2a7cd1da1737230bfc89bbcc4dea1e3d94",
+    "replay_execution": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\sharkmode-after04\\execution.json",
+    "replay_execution_sha256": "52c7312a20c0905613170887102861452c0d9162e051bec84912b61b90506866",
+    "runner_sha256": "b466c6211c834f371bca599a2e34bf514e53ab8a2c3b96a8f33bb338def79e41",
+    "source_commit": "c715e619dd5acba3ecacfaafc99fbc1981b8ec02",
+    "compiled_interactive_source_sha256": "d3e35b404c51f2fa9669c7570cf65664cfa8a0194981a1731161d4f1bc11e187",
+    "compiled_build_binding_sha256": "278d5596bbf6f12c44699d842c2dea73532103b378241241c22051aa1104260c",
+    "archive_accepted": true,
+    "diagnostic_replay_checks_passed": true,
+    "production_gameplay_checks_passed": true,
+    "whole_song_parity_proven": false,
+    "pixel_parity_proven": false,
+    "pending_coverage_count": 35,
+    "disposition": "retained accepted baseline; recapture with current binary before new fixture"
+  },
+  "pernicious-deed": {
+    "archive": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\native\\e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9.tar.zst",
+    "sha256": "e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9",
+    "bytes": 144404616,
+    "manifest_sha256": "74fd74568b77210aff874a0f630bbe855a0f4875a3d0765dd5a34ce3778ef4a2",
+    "harness_version": "0.1.110",
+    "native_source": {
+      "source_revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "source_dirty": "false",
+      "execution": "native_gameplay",
+      "launches_executable": true
+    },
+    "capture_binary_sha256": "1780c9e517994285775fa75c98c1975c601be0f94c4ad1a376cab16bd8684e8e",
+    "chart": {
+      "title": "SRT7 - Pernicious Deed",
+      "source_path": "5. deed/deed.sm",
+      "simfile": "song/deed.sm",
+      "trace": "trace/semantic.json"
+    },
+    "trace": {
+      "path": "trace/semantic.json",
+      "role": "semantic-render-trace",
+      "bytes": 1862228607,
+      "sha256": "108e58221923082d7c310cbe086d411d416823356668d476a6d60be976d0148e"
+    },
+    "replay_report": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\pernicious-deed-after04\\report.json",
+    "replay_report_sha256": "949075a69b72fd6756b6955186786eb0e55d3898b3accb5466fed8b555e9bf95",
+    "replay_execution": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\pernicious-deed-after04\\execution.json",
+    "replay_execution_sha256": "509290473560bf6f9b6a3e17db2008901daa00eabb61f871988dc31a7ad6d932",
+    "runner_sha256": "b466c6211c834f371bca599a2e34bf514e53ab8a2c3b96a8f33bb338def79e41",
+    "source_commit": "c715e619dd5acba3ecacfaafc99fbc1981b8ec02",
+    "compiled_interactive_source_sha256": "d3e35b404c51f2fa9669c7570cf65664cfa8a0194981a1731161d4f1bc11e187",
+    "compiled_build_binding_sha256": "278d5596bbf6f12c44699d842c2dea73532103b378241241c22051aa1104260c",
+    "archive_accepted": true,
+    "diagnostic_replay_checks_passed": true,
+    "production_gameplay_checks_passed": true,
+    "whole_song_parity_proven": false,
+    "pixel_parity_proven": false,
+    "pending_coverage_count": 35,
+    "disposition": "retain exact accepted compressed bytes; already captured with current binary"
+  },
+  "catalog_before": {
+    "path": "C:\\GitHub\\deadsync\\tests\\fixtures\\full_song_lua\\index.json",
+    "sha256": "ca604f2a3555b5f402bff6115438e6d5abb2473203be51598342164692268ab3",
+    "matching_titles": [
+      {
+        "title": "280|MODS|[MASTER] Sharkmode",
+        "source_simfile": "280-MODS-[MASTER] Sharkmode/Sharkmode.ssc",
+        "harness_version": "0.1.96",
+        "archive": "abd922102376397cd0ffea134db835d8e4dac178380e144e631f3863a8d86510.tar.zst",
+        "sha256": "abd922102376397cd0ffea134db835d8e4dac178380e144e631f3863a8d86510",
+        "compressed_bytes": 3085497,
+        "uncompressed_sha256": "ea41294fde00ac52c15c294051fbf738fa24e6a7a642df7e3583a98365b692d6",
+        "aliases": [
+          "2f43fed7122972e6b7d272a1c239ea38058c5e845d49b58ffbe41c0158bcafa9.tar.zst",
+          "32be2d612493e6e58b314257c775bb066e3b51384475a0cf095aaadeff070057.tar.zst",
+          "4b662265ea28526ff3f7bcd09ce1b8a28316d583d9849e2ef25b109da75fbbd7.tar.zst",
+          "b05379b7d12bfb02149e03f166be5d496dc3e7687dcc042f0bf525cc46aa918b.tar.zst",
+          "c0a1741ca9d19cd8b8baf1292402b010423732e0eebad4d371fadb8d6430e85a.tar.zst",
+          "db60b3a89af8957a5e4fb1be2ec3157d09c436a564938536ec91b8ab064afa45.tar.zst",
+          "e657c3259372c4b2925fcdc49177e99fcd0ce6db2ec78b30d6532eabfa10d119.tar.zst",
+          "f7a2d5e8aa6a48c8709ab3e189b1e54cf282029b6109fbc13ca8794bd3125249.tar.zst"
+        ]
+      },
+      {
+        "title": "Sharkmode",
+        "source_simfile": "Sharkmode [Ky_Dash]/Sharkmode.ssc",
+        "harness_version": "0.1.80",
+        "archive": "c0e87ceaf1b5d72eab4c21ebea3e99708582eb20a0b1a0385d076fe8820074fb.tar.zst",
+        "compressed_bytes": 13635371,
+        "sha256": "c0e87ceaf1b5d72eab4c21ebea3e99708582eb20a0b1a0385d076fe8820074fb",
+        "uncompressed_sha256": "4ff6be4b6a6c9b4395217222627ede7550367696785bd94d63bfb3abae0ad5e7",
+        "aliases": []
+      },
+      {
+        "title": "SRT7 - Pernicious Deed",
+        "source_simfile": "5. deed/deed.sm",
+        "harness_version": "0.1.104",
+        "archive": "e346af39b0894f9e5a92713e42d7dc55cddeb3c39b907e4275b17606eb289a67.tar.zst",
+        "sha256": "e346af39b0894f9e5a92713e42d7dc55cddeb3c39b907e4275b17606eb289a67",
+        "compressed_bytes": 136877359,
+        "uncompressed_sha256": "1f11e6d95d4e44895481cb6da1d4592927b6ce986a515fa372678c5aae9adfd2",
+        "aliases": []
+      }
+    ],
+    "exact_candidate_hash_present": false
+  }
+}

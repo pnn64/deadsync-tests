@@ -1,0 +1,30 @@
+{
+  "pack-result.json": {
+    "bytes": 868,
+    "sha256": "5257d3b864fa34657b8e4d43f32644296487bae0087034f48fbb6087cdc0e035"
+  },
+  "acceptance-proof.json": {
+    "bytes": 10327,
+    "sha256": "dcffe87f508a44e05d3b646c2f8990b20cf912f41b5a93b9b8f3c2c82a836b15"
+  },
+  "bounded_stage.py": {
+    "bytes": 4315,
+    "sha256": "e351754bad92f70890a8fc2570ba0832b1d1e9f95aa9e04ae9ed656de14e58e1"
+  },
+  "stages/pack/launch.json": {
+    "bytes": 2136,
+    "sha256": "37ba02bea44811b79072e3871c50219540ae7f4c4f9c527ed242bc4245e0f89b"
+  },
+  "stages/pack/output.log": {
+    "bytes": 196,
+    "sha256": "13bda429dc8d266c55c352b062be4b05eb3117fda28b4dded7165b9ae21b8596"
+  },
+  "stages/pack/receipt.json": {
+    "bytes": 452,
+    "sha256": "3bdb84f2a01f4b1ec971d489569f18ca70d8e086aa20139f360989c0c3a1c692"
+  },
+  "stages/pack/spec.json": {
+    "bytes": 1250,
+    "sha256": "ee93d6a725af15651bdf9a84d1d516466e0629c9023f30b11b899635145ad386"
+  }
+}

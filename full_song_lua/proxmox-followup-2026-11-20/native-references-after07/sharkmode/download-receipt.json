@@ -1,0 +1,43 @@
+{
+  "download_verified": true,
+  "candidate": {
+    "path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\download\\92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671.tar",
+    "sha256": "92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671",
+    "bytes": 172256768
+  },
+  "native_capture_evidence": {
+    "path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\native-capture-evidence.zip",
+    "sha256": "1951e9f27720cb5b81066780b581e2cebb1150667c0413513af0636f25bffd44",
+    "bytes": 659429
+  },
+  "capture": {
+    "capture_validated": true,
+    "finished_at": "2026-11-20T02:17:23.012315+00:00",
+    "vmid": 1503,
+    "candidate": {
+      "path": "/opt/song-lua-audit/parity-20261120/sharkmode-current-b2-attempt01/candidate/92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671.tar",
+      "sha256": "92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671",
+      "bytes": 172256768
+    },
+    "archive_entry": {
+      "title": "280|MODS|[MASTER] Sharkmode",
+      "source_simfile": "280-MODS-[MASTER] Sharkmode/Sharkmode.ssc",
+      "harness_version": "0.1.110",
+      "archive": "92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671.tar",
+      "sha256": "92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671",
+      "compressed_bytes": 172256768
+    },
+    "native_summary_sha256": "e1c7e8e3da4c9a2b7e82ba786935abaa0dbe319c91219d351846e09862f15644",
+    "counts": {
+      "update_frames": 2258,
+      "events": 54263,
+      "drawable_samples": 5190,
+      "stage_samples": 150,
+      "render_random_inputs": 0
+    },
+    "source_folder_sha256": "16ab98842382ea7664d525c844a2124c36b4c277590b2f51f7da9bf679602eef",
+    "parity_accepted": false,
+    "current_main_replay_required": true
+  },
+  "current_main_replay_required": true
+}

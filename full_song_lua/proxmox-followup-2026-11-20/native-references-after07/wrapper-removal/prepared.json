@@ -1,0 +1,8 @@
+{
+  "case": "wrapper-removal",
+  "directory": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\wrapper-removal-4acbd9eb44de",
+  "package_sha256": "b8a736095abb6d1f8e5e9a70434a5e6bddb0027ed25f293ba2c7f58642369c54",
+  "package_bytes": 40339,
+  "acceptance_proof_sha256": "dcffe87f508a44e05d3b646c2f8990b20cf912f41b5a93b9b8f3c2c82a836b15",
+  "packing_executed": false
+}

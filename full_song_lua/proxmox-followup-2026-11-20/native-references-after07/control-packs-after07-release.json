@@ -1,0 +1,216 @@
+{
+  "started_at": "2026-11-20T03:08:41.898289+00:00",
+  "finished_at": "2026-11-20T03:08:42.869627+00:00",
+  "guest_release_check": {
+    "vmid": 1503,
+    "guest_ip": "192.168.1.37",
+    "disk": {
+      "total": 165295407104,
+      "used": 129162104832,
+      "free": 36116525056
+    },
+    "active_jobs": [],
+    "active_parity_services": [
+      "deadsync-lua-pass4-xvfb.service loaded active running DeadSync song Lua audit virtual display"
+    ],
+    "competing_parity_services": []
+  },
+  "remote_exit": 0,
+  "remote_stderr": "",
+  "cases": {
+    "amv-color": {
+      "directory": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\amv-color-2e5f73de162d",
+      "integration_manifest_sha256": "14a32759dcf2dfc2e54f19774f2ed34d5ac631d92a69d20313525433becaa27d",
+      "member_count": 15,
+      "member_bytes": 983380,
+      "archive": {
+        "download_verified": true,
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\amv-color-2e5f73de162d\\82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88.tar.zst",
+        "sha256": "82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88",
+        "bytes": 107818988,
+        "decoded_sha256": "ae2df4b168a8190ecc416828571d0d0bff6d2e43634f9d09c1f041afd9843d4b",
+        "decoded_bytes": 118882816,
+        "pack_evidence": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\amv-color-2e5f73de162d\\pack-evidence.zip",
+        "pack_evidence_sha256": "bdab8ca3a6b200b3929265ebee4c13fe85e23233f904bb60a444ebb94e2e1c72",
+        "accepted_report_sha256": "2e5f73de162d784358262d94e790d9577a34dbc1fb4963b000503eb523d94f24",
+        "source_commit": "af6a6c9e045f5dfb13abe38bd4eb58d7326f2e26",
+        "runner_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+        "native_evidence_sha256": "74b575d00cee36bc70a850caca34bb67881675e719de3299049a2a87ef3e475e"
+      },
+      "report_sha256": "2e5f73de162d784358262d94e790d9577a34dbc1fb4963b000503eb523d94f24",
+      "checks": {
+        "native_frames": 559,
+        "replayed_frames": 559,
+        "checked_stage_samples": 17,
+        "compared_stage_fields": 4176,
+        "diagnostic_compared_stage_fields": 2088,
+        "pending_coverage_count": 35,
+        "error_count": 0,
+        "mismatch_count": 0,
+        "archive_accepted": true,
+        "diagnostic_replay_checks_passed": true,
+        "production_gameplay_checks_passed": true,
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pixel_parity_proven": false,
+        "interactive": {
+          "draw_samples_compared": 2380,
+          "submitted_vertices_compared": 14280,
+          "draw_mismatches": 0,
+          "typed_equal_backing_aft_uv_samples_compared": 714,
+          "batched_native_draw_samples": 476,
+          "live_text_samples_compared": 0,
+          "render_random_inputs_replayed": 0,
+          "render_random_inputs_captured": 0,
+          "unreplayed_render_random_inputs": 0,
+          "draw_vibration_scopes_without_native_inputs": 0,
+          "equivalent_offscreen_culls": 0,
+          "equivalent_degenerate_culls": 0
+        },
+        "production_replay": {
+          "native_frames": 559,
+          "replayed_frames": 559,
+          "checked_stage_samples": 17,
+          "compared_stage_fields": 2088,
+          "pending_coverage_count": 7,
+          "error_count": 0,
+          "mismatch_count": 0,
+          "archive_accepted": false,
+          "production_gameplay_checks_passed": true,
+          "whole_song_parity_proven": false,
+          "production_parity_proven": false,
+          "pixel_parity_proven": false,
+          "interactive": {
+            "draw_samples_compared": 2380,
+            "submitted_vertices_compared": 14280,
+            "draw_mismatches": 0,
+            "typed_equal_backing_aft_uv_samples_compared": 714,
+            "batched_native_draw_samples": 476,
+            "live_text_samples_compared": 0,
+            "render_random_inputs_replayed": 0,
+            "render_random_inputs_captured": 0,
+            "unreplayed_render_random_inputs": 0,
+            "draw_vibration_scopes_without_native_inputs": 0,
+            "equivalent_offscreen_culls": 0,
+            "equivalent_degenerate_culls": 0
+          }
+        }
+      },
+      "pack_resources": {
+        "finished_at": "2026-11-20T03:07:26.106374+00:00",
+        "unit": "deadsync-accepted-pack-6ad4c0f711de7ca6",
+        "service_result": "success",
+        "exit_code": "exited",
+        "exit_status": "0",
+        "resource_usage": {
+          "MemoryPeak": "330899456",
+          "CPUUsageNSec": "7488951000",
+          "CPUQuotaPerSecUSec": "2s",
+          "MemoryMax": "6442450944",
+          "MemorySwapMax": "0"
+        },
+        "spec_sha256": "919bf4b2c0a5b2bc735290c4382f7c4d11b20e4bf2109e8e496a96a8fcd53208"
+      }
+    },
+    "wrapper-removal": {
+      "directory": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\wrapper-removal-4acbd9eb44de",
+      "integration_manifest_sha256": "975a88664e9bfab5474ce06a2656f691a257ce2ffeff787541f79e3e48859499",
+      "member_count": 15,
+      "member_bytes": 892459,
+      "archive": {
+        "download_verified": true,
+        "path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\wrapper-removal-4acbd9eb44de\\7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4.tar.zst",
+        "sha256": "7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4",
+        "bytes": 107795590,
+        "decoded_sha256": "dc4a2bd32a5bee041fb431a1439db9751092b0e293fa0abcf64e1402760f9794",
+        "decoded_bytes": 114892288,
+        "pack_evidence": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\wrapper-removal-4acbd9eb44de\\pack-evidence.zip",
+        "pack_evidence_sha256": "25838cb56975b54f9999f95caabbd07a202ac8a94863cf8b82013e0bce7c78d1",
+        "accepted_report_sha256": "4acbd9eb44de3aa1ca95c5839505e9df98d200265a5520c5723aeb74d3949fce",
+        "source_commit": "af6a6c9e045f5dfb13abe38bd4eb58d7326f2e26",
+        "runner_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+        "native_evidence_sha256": "dc9ad551ee4b1a1c47f4c9bc3c05a43543d42c801a96e3a4b48b996b4a0fc58f"
+      },
+      "report_sha256": "4acbd9eb44de3aa1ca95c5839505e9df98d200265a5520c5723aeb74d3949fce",
+      "checks": {
+        "native_frames": 581,
+        "replayed_frames": 581,
+        "checked_stage_samples": 17,
+        "compared_stage_fields": 4316,
+        "diagnostic_compared_stage_fields": 2158,
+        "pending_coverage_count": 35,
+        "error_count": 0,
+        "mismatch_count": 0,
+        "archive_accepted": true,
+        "diagnostic_replay_checks_passed": true,
+        "production_gameplay_checks_passed": true,
+        "whole_song_parity_proven": false,
+        "production_parity_proven": false,
+        "pixel_parity_proven": false,
+        "interactive": {
+          "draw_samples_compared": 1300,
+          "submitted_vertices_compared": 7800,
+          "draw_mismatches": 0,
+          "typed_equal_backing_aft_uv_samples_compared": 0,
+          "batched_native_draw_samples": 0,
+          "live_text_samples_compared": 0,
+          "render_random_inputs_replayed": 12,
+          "render_random_inputs_captured": 12,
+          "unreplayed_render_random_inputs": 0,
+          "draw_vibration_scopes_without_native_inputs": 0,
+          "equivalent_offscreen_culls": 0,
+          "equivalent_degenerate_culls": 0
+        },
+        "production_replay": {
+          "native_frames": 581,
+          "replayed_frames": 581,
+          "checked_stage_samples": 17,
+          "compared_stage_fields": 2158,
+          "pending_coverage_count": 7,
+          "error_count": 0,
+          "mismatch_count": 0,
+          "archive_accepted": false,
+          "production_gameplay_checks_passed": true,
+          "whole_song_parity_proven": false,
+          "production_parity_proven": false,
+          "pixel_parity_proven": false,
+          "interactive": {
+            "draw_samples_compared": 1300,
+            "submitted_vertices_compared": 7800,
+            "draw_mismatches": 0,
+            "typed_equal_backing_aft_uv_samples_compared": 0,
+            "batched_native_draw_samples": 0,
+            "live_text_samples_compared": 0,
+            "render_random_inputs_replayed": 12,
+            "render_random_inputs_captured": 12,
+            "unreplayed_render_random_inputs": 0,
+            "draw_vibration_scopes_without_native_inputs": 0,
+            "equivalent_offscreen_culls": 0,
+            "equivalent_degenerate_culls": 0
+          }
+        }
+      },
+      "pack_resources": {
+        "finished_at": "2026-11-20T03:08:04.313096+00:00",
+        "unit": "deadsync-accepted-pack-fd5fc7f16c37cea5",
+        "service_result": "success",
+        "exit_code": "exited",
+        "exit_status": "0",
+        "resource_usage": {
+          "MemoryPeak": "331091968",
+          "CPUUsageNSec": "8365731000",
+          "CPUQuotaPerSecUSec": "2s",
+          "MemoryMax": "6442450944",
+          "MemorySwapMax": "0"
+        },
+        "spec_sha256": "ee93d6a725af15651bdf9a84d1d516466e0629c9023f30b11b899635145ad386"
+      }
+    }
+  },
+  "all_integration_member_hashes_verified": true,
+  "all_integration_zip_crc_verified": true,
+  "all_compressed_archive_hashes_verified": true,
+  "guest_ownership_released_to_parent": true,
+  "no_more_guest_actions_planned": true,
+  "source_or_fixture_mutations_by_packing": false
+}

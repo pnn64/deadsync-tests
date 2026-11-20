@@ -1,0 +1,85 @@
+{
+  "case": "amv-color",
+  "archive": {
+    "download_verified": true,
+    "path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\amv-color-2e5f73de162d\\82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88.tar.zst",
+    "sha256": "82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88",
+    "bytes": 107818988,
+    "decoded_sha256": "ae2df4b168a8190ecc416828571d0d0bff6d2e43634f9d09c1f041afd9843d4b",
+    "decoded_bytes": 118882816,
+    "pack_evidence": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\amv-color-2e5f73de162d\\pack-evidence.zip",
+    "pack_evidence_sha256": "bdab8ca3a6b200b3929265ebee4c13fe85e23233f904bb60a444ebb94e2e1c72",
+    "accepted_report_sha256": "2e5f73de162d784358262d94e790d9577a34dbc1fb4963b000503eb523d94f24",
+    "source_commit": "af6a6c9e045f5dfb13abe38bd4eb58d7326f2e26",
+    "runner_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+    "native_evidence_sha256": "74b575d00cee36bc70a850caca34bb67881675e719de3299049a2a87ef3e475e"
+  },
+  "accepted_report_sha256": "2e5f73de162d784358262d94e790d9577a34dbc1fb4963b000503eb523d94f24",
+  "source_commit": "af6a6c9e045f5dfb13abe38bd4eb58d7326f2e26",
+  "runner_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+  "members": {
+    "acceptance-proof.json": {
+      "bytes": 10286,
+      "sha256": "aa967111cb7f8226681d22622b39db312b0d92bad911d3492e169f59c8e99307"
+    },
+    "accepted-replay-evidence.zip": {
+      "bytes": 36468,
+      "sha256": "58fdf995b26784e54c74e6b4bbdd38b3b4d8e5c2cc1bbcd70d4631f5e65aae99"
+    },
+    "baseline-before-fix-evidence.zip": {
+      "bytes": 26995,
+      "sha256": "b269b044c1992d56b72a8d37071087a93bb55aa65587a7ceb4330d0df41f9dba"
+    },
+    "coverage-summary.json": {
+      "bytes": 8052,
+      "sha256": "60fc60195c15a69b3e0b95d5eaf71f1d16a5a6000b12450e655b446ce7d46f21"
+    },
+    "native-capture-evidence.zip": {
+      "bytes": 855567,
+      "sha256": "74b575d00cee36bc70a850caca34bb67881675e719de3299049a2a87ef3e475e"
+    },
+    "pack-evidence-members.json": {
+      "bytes": 965,
+      "sha256": "a2a971c925700a2942bddcf4f71be961c8b94bfd85e2cb7078ff0170c83f9d4c"
+    },
+    "pack-evidence.zip": {
+      "bytes": 7623,
+      "sha256": "bdab8ca3a6b200b3929265ebee4c13fe85e23233f904bb60a444ebb94e2e1c72"
+    },
+    "pack-execution.json": {
+      "bytes": 1719,
+      "sha256": "e8c25449643dcd9af6ad9a7361c9dc5b7c5728e51ff96b69186fb07013775055"
+    },
+    "pack-recipes.json": {
+      "bytes": 2486,
+      "sha256": "8b65108c7301ba26621fb3ff27058d37b9a9bebadeb4c40a4f439336e58f9c1a"
+    },
+    "pack_accepted.py": {
+      "bytes": 15145,
+      "sha256": "042bbdc368be50797df42680a0560c4bccfa2b65e1dac0fec2273f8ff4ae6be8"
+    },
+    "packed-download-receipt.json": {
+      "bytes": 1068,
+      "sha256": "d320fe799d30adc8bb7aeae023356f150b5c13932d92f2f259c3156b47a3ae10"
+    },
+    "prepared.json": {
+      "bytes": 411,
+      "sha256": "8de60045329d1d9603f1fd957fe1987c730328a3d2cbe49571ac03866c1aa2a9"
+    },
+    "README.md": {
+      "bytes": 1039,
+      "sha256": "f808df8f57e3b7601eb7f46c0e42928b5fcf6aac560196c4899583df9f82fe5d"
+    },
+    "remote_capture.py": {
+      "bytes": 8072,
+      "sha256": "d6675e60b48efac5366ec5e49529fbbeacac9187fd001389a09a907804dc881f"
+    },
+    "seal_accepted.py": {
+      "bytes": 7484,
+      "sha256": "ef7ffecd333bc036948e558524a375969db262c129992bd29b5fb3888f1c15cc"
+    }
+  },
+  "member_count": 15,
+  "member_bytes": 983380,
+  "no_source_or_fixture_mutations": true
+}

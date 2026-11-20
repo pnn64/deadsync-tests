@@ -1,0 +1,13 @@
+{
+  "action": "capture-and-archive",
+  "started_at": "2026-11-20T02:14:10.285539+00:00",
+  "finished_at": "2026-11-20T02:17:21.295683+00:00",
+  "vmid": 1503,
+  "guest_root": "/opt/song-lua-audit/parity-20261120/sharkmode-current-b2-attempt01",
+  "exit": 0,
+  "stdout": "{\"stage\": \"capture\", \"exit\": 0, \"receipt\": {\"finished_at\": \"2026-11-20T02:17:16.619835+00:00\", \"unit\": \"deadsync-shark-fresh-capture-e74a6a5766e9707b\", \"service_result\": \"success\", \"exit_code\": \"exited\", \"exit_status\": \"0\", \"resource_usage\": {\"MemoryPeak\": \"448139264\", \"CPUUsageNSec\": \"196987028000\", \"CPUQuotaPerSecUSec\": \"2s\", \"MemoryMax\": \"6442450944\", \"MemorySwapMax\": \"0\"}, \"spec_sha256\": \"9942796b19ea9ba33218f5b443b0fef791f888e9bbfeb38fb3a7ef355677ee2d\"}}\n{\"stage\": \"archive\", \"exit\": 0, \"receipt\": {\"finished_at\": \"2026-11-20T02:17:22.318065+00:00\", \"unit\": \"deadsync-shark-fresh-archive-647b5a6858c48633\", \"service_result\": \"success\", \"exit_code\": \"exited\", \"exit_status\": \"0\", \"resource_usage\": {\"MemoryPeak\": \"519921664\", \"CPUUsageNSec\": \"4314768000\", \"CPUQuotaPerSecUSec\": \"2s\", \"MemoryMax\": \"6442450944\", \"MemorySwapMax\": \"0\"}, \"spec_sha256\": \"1340c7dc8a3bac8c602cd0bdd7226568bd220d7c9a7c9da4264465e91b01b71e\"}}\n{\"capture_validated\": true, \"finished_at\": \"2026-11-20T02:17:23.012315+00:00\", \"vmid\": 1503, \"candidate\": {\"path\": \"/opt/song-lua-audit/parity-20261120/sharkmode-current-b2-attempt01/candidate/92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671.tar\", \"sha256\": \"92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671\", \"bytes\": 172256768}, \"archive_entry\": {\"title\": \"280|MODS|[MASTER] Sharkmode\", \"source_simfile\": \"280-MODS-[MASTER] Sharkmode/Sharkmode.ssc\", \"harness_version\": \"0.1.110\", \"archive\": \"92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671.tar\", \"sha256\": \"92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671\", \"compressed_bytes\": 172256768}, \"native_summary_sha256\": \"e1c7e8e3da4c9a2b7e82ba786935abaa0dbe319c91219d351846e09862f15644\", \"counts\": {\"update_frames\": 2258, \"events\": 54263, \"drawable_samples\": 5190, \"stage_samples\": 150, \"render_random_inputs\": 0}, \"source_folder_sha256\": \"16ab98842382ea7664d525c844a2124c36b4c277590b2f51f7da9bf679602eef\", \"parity_accepted\": false, \"current_main_replay_required\": true}\n",
+  "stderr": "",
+  "run_native_sha256": "63ba8b4ac0e4deb1be16a2682c260895827754d160c02f4bc975cedbf826def7",
+  "bounded_stage_sha256": "4d754f23f324e23b9a7141626a907cff1290b294bdaab0607c4940540ea0d089",
+  "input_package_sha256": "e6b6cd875b13d483dd338c2293e67ba3d607e126ce5e9e739c70d73e864fbca5"
+}

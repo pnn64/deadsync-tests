@@ -1,0 +1,171 @@
+{
+  "case": "amv-color",
+  "candidate": {
+    "local_candidate": "C:/GitHub/itgmania-harness/target/amv-color-20261120/download/ae2df4b168a8190ecc416828571d0d0bff6d2e43634f9d09c1f041afd9843d4b.tar",
+    "guest_candidate": "/opt/song-lua-audit/parity-20261120/amv-color-attempt02/candidate/ae2df4b168a8190ecc416828571d0d0bff6d2e43634f9d09c1f041afd9843d4b.tar",
+    "sha256": "ae2df4b168a8190ecc416828571d0d0bff6d2e43634f9d09c1f041afd9843d4b",
+    "bytes": 118882816,
+    "native_evidence": "C:/GitHub/itgmania-harness/target/amv-color-20261120/download/native-capture-evidence.zip",
+    "native_evidence_sha256": "74b575d00cee36bc70a850caca34bb67881675e719de3299049a2a87ef3e475e"
+  },
+  "accepted_report_path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\amv-color-after07\\report.json",
+  "accepted_report_sha256": "2e5f73de162d784358262d94e790d9577a34dbc1fb4963b000503eb523d94f24",
+  "execution_path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\amv-color-after07\\execution.json",
+  "execution_sha256": "62e94c94117c46b06c02ec9d1e6d435260bb532c717276a121a0bbc029288913",
+  "runner_path": "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync\\fc62f38cbb252f56\\out\\full_song_lua-fc62f38cbb252f56.exe",
+  "runner_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+  "compiled_build_binding_path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\full-replay-and-manual-render-build-after07\\replay-build-binding.json",
+  "compiled_build_binding_sha256": "0c66a543bb450950abd7bdfe03f436da7337f2f4dd2bb0201148196bbc9a3d53",
+  "source_commit": "af6a6c9e045f5dfb13abe38bd4eb58d7326f2e26",
+  "compiled_sources": {
+    "crates/deadlib-present/src/space.rs": {
+      "compiled_sha256": "48453d2bc235340756dacf7a20ef9c31f5fcba56cb169b5ab941686cc309afd1",
+      "committed_sha256": "26f493b22d5973f62a9a7170bb6b360035245d5db408ad8951a8bb2fa024032d",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    },
+    "crates/deadsync-song-lua/src/actors/draw.rs": {
+      "compiled_sha256": "23e9f5fc1e8d7c834e6722036de17cd0f788a64eb6946f127f9ede9671fe5c2e",
+      "committed_sha256": "23e9f5fc1e8d7c834e6722036de17cd0f788a64eb6946f127f9ede9671fe5c2e",
+      "matching_line_endings": [
+        "as_committed"
+      ]
+    },
+    "crates/deadsync-song-lua/src/actors/live_trace.rs": {
+      "compiled_sha256": "7b51a416e567df292b9e999f00aa09beacf760af4737b2422e4d1bf10aa9b8b2",
+      "committed_sha256": "201057ac540650a72400434c8e98ce21cdc805aadf23b4e624ff260f05ed02f8",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    },
+    "crates/deadsync-song-lua/src/draw_commands.rs": {
+      "compiled_sha256": "57d6f3bb96d00c419bd67134c080fea46aafb2f9e506d86870092b1555fa8c02",
+      "committed_sha256": "57d6f3bb96d00c419bd67134c080fea46aafb2f9e506d86870092b1555fa8c02",
+      "matching_line_endings": [
+        "as_committed"
+      ]
+    },
+    "crates/deadsync-song-lua/src/playback.rs": {
+      "compiled_sha256": "ade6615457d487b4ba6293d4ad686b4040feeb643912762f4d37bebc7b632b84",
+      "committed_sha256": "fe41f06d7f7997bff3fd185ee3b39c64c590b588a27942c057fb49bf8569affb",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    },
+    "crates/deadsync-song-lua/src/playback/actor_conformance.rs": {
+      "compiled_sha256": "57c452f3febc9f93bf20019606d75eccb471cd865498db8ceb6721656783035d",
+      "committed_sha256": "99751233605ecd23b589f12772a436010c9422fea535e89275b9e30530e676b9",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    },
+    "crates/deadsync-song-lua/tests/playback/cases.rs": {
+      "compiled_sha256": "929b851637a4e3f6dc0b837c05aa4aefd9c4257a4f8ec08b8f920cb989c8b085",
+      "committed_sha256": "5eecfe03d622d96040949bd9663b9b2976453291cc38751afe9a014fd636e945",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    },
+    "crates/deadsync-song-lua/tests/playback/manual_color_inheritance.rs": {
+      "compiled_sha256": "556859b9b504959620c5154da0df88ebe0eca49f75ceea6194d9b87b9a5ac79a",
+      "committed_sha256": "556859b9b504959620c5154da0df88ebe0eca49f75ceea6194d9b87b9a5ac79a",
+      "matching_line_endings": [
+        "as_committed"
+      ]
+    },
+    "crates/deadsync-song-lua/tests/playback/manual_target_space.rs": {
+      "compiled_sha256": "52ee0b755a757d89c05012c14df77af366b91ed5656a85caf61931b270ebec47",
+      "committed_sha256": "52ee0b755a757d89c05012c14df77af366b91ed5656a85caf61931b270ebec47",
+      "matching_line_endings": [
+        "as_committed"
+      ]
+    },
+    "crates/deadsync-song-lua/tests/playback/native_vertex_colors.rs": {
+      "compiled_sha256": "a08f1648f7ba5a96fde5f4a9f7334ed784f8d98d040aa52ddb948c118f3e6e45",
+      "committed_sha256": "a5ea04138c1e4052fded96940279c9cd3e24ccee18738901e8e0f8336ebd9c92",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    },
+    "tests/song_lua_itgmania_semantic_parity/interactive.rs": {
+      "compiled_sha256": "5c9fb199966b7f04e84ff9864f3bd9880bbe83233e24007fce3b124bca011d0d",
+      "committed_sha256": "87f3e624106ae1540fac2b130ec13058a87987051d9969e97a1ab74dd5879a56",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    },
+    "tests/song_lua_itgmania_semantic_parity/native_gameplay.rs": {
+      "compiled_sha256": "e15a48afe0ed4da92045ac4c1dc7f40dbf5fa7a37aaeaee221512f99e945fb3a",
+      "committed_sha256": "b451e8bb1b48b247739a5f57d7b93e2d235f1a3dd53f305d4d777e4715f8cc99",
+      "matching_line_endings": [
+        "crlf"
+      ]
+    }
+  },
+  "source_identity_at_execution": {
+    "git_head": "392963f590c35ac02ed7f320c3391af813df743e",
+    "git_branch": "main",
+    "tracked_patch_sha256": "0ac14a806bf53b719e848fd69798af8cae9a006fc4475729af4ce8f4ae361347",
+    "source_files": {
+      "crates/deadlib-present/src/space.rs": "48453d2bc235340756dacf7a20ef9c31f5fcba56cb169b5ab941686cc309afd1",
+      "crates/deadsync-song-lua/src/actors/draw.rs": "23e9f5fc1e8d7c834e6722036de17cd0f788a64eb6946f127f9ede9671fe5c2e",
+      "crates/deadsync-song-lua/src/actors/live_trace.rs": "7b51a416e567df292b9e999f00aa09beacf760af4737b2422e4d1bf10aa9b8b2",
+      "crates/deadsync-song-lua/src/draw_commands.rs": "57d6f3bb96d00c419bd67134c080fea46aafb2f9e506d86870092b1555fa8c02",
+      "crates/deadsync-song-lua/src/playback.rs": "ade6615457d487b4ba6293d4ad686b4040feeb643912762f4d37bebc7b632b84",
+      "crates/deadsync-song-lua/src/playback/actor_conformance.rs": "57c452f3febc9f93bf20019606d75eccb471cd865498db8ceb6721656783035d",
+      "crates/deadsync-song-lua/tests/playback/cases.rs": "929b851637a4e3f6dc0b837c05aa4aefd9c4257a4f8ec08b8f920cb989c8b085",
+      "crates/deadsync-song-lua/tests/playback/manual_color_inheritance.rs": "556859b9b504959620c5154da0df88ebe0eca49f75ceea6194d9b87b9a5ac79a",
+      "crates/deadsync-song-lua/tests/playback/manual_target_space.rs": "52ee0b755a757d89c05012c14df77af366b91ed5656a85caf61931b270ebec47",
+      "crates/deadsync-song-lua/tests/playback/native_vertex_colors.rs": "a08f1648f7ba5a96fde5f4a9f7334ed784f8d98d040aa52ddb948c118f3e6e45",
+      "tests/song_lua_itgmania_semantic_parity/interactive.rs": "5c9fb199966b7f04e84ff9864f3bd9880bbe83233e24007fce3b124bca011d0d",
+      "tests/song_lua_itgmania_semantic_parity/native_gameplay.rs": "e15a48afe0ed4da92045ac4c1dc7f40dbf5fa7a37aaeaee221512f99e945fb3a"
+    },
+    "fixture_git_head": "d2f26868ef5e804b23a5d734f6933c092e677590"
+  },
+  "compiled_source_identity": {
+    "git_head": "392963f590c35ac02ed7f320c3391af813df743e",
+    "git_branch": "main",
+    "tracked_patch_sha256": "0ac14a806bf53b719e848fd69798af8cae9a006fc4475729af4ce8f4ae361347",
+    "source_files": {
+      "crates/deadlib-present/src/space.rs": "48453d2bc235340756dacf7a20ef9c31f5fcba56cb169b5ab941686cc309afd1",
+      "crates/deadsync-song-lua/src/actors/draw.rs": "23e9f5fc1e8d7c834e6722036de17cd0f788a64eb6946f127f9ede9671fe5c2e",
+      "crates/deadsync-song-lua/src/actors/live_trace.rs": "7b51a416e567df292b9e999f00aa09beacf760af4737b2422e4d1bf10aa9b8b2",
+      "crates/deadsync-song-lua/src/draw_commands.rs": "57d6f3bb96d00c419bd67134c080fea46aafb2f9e506d86870092b1555fa8c02",
+      "crates/deadsync-song-lua/src/playback.rs": "ade6615457d487b4ba6293d4ad686b4040feeb643912762f4d37bebc7b632b84",
+      "crates/deadsync-song-lua/src/playback/actor_conformance.rs": "57c452f3febc9f93bf20019606d75eccb471cd865498db8ceb6721656783035d",
+      "crates/deadsync-song-lua/tests/playback/cases.rs": "929b851637a4e3f6dc0b837c05aa4aefd9c4257a4f8ec08b8f920cb989c8b085",
+      "crates/deadsync-song-lua/tests/playback/manual_color_inheritance.rs": "556859b9b504959620c5154da0df88ebe0eca49f75ceea6194d9b87b9a5ac79a",
+      "crates/deadsync-song-lua/tests/playback/manual_target_space.rs": "52ee0b755a757d89c05012c14df77af366b91ed5656a85caf61931b270ebec47",
+      "crates/deadsync-song-lua/tests/playback/native_vertex_colors.rs": "a08f1648f7ba5a96fde5f4a9f7334ed784f8d98d040aa52ddb948c118f3e6e45",
+      "tests/song_lua_itgmania_semantic_parity/interactive.rs": "5c9fb199966b7f04e84ff9864f3bd9880bbe83233e24007fce3b124bca011d0d",
+      "tests/song_lua_itgmania_semantic_parity/native_gameplay.rs": "e15a48afe0ed4da92045ac4c1dc7f40dbf5fa7a37aaeaee221512f99e945fb3a"
+    },
+    "fixture_git_head": "d2f26868ef5e804b23a5d734f6933c092e677590"
+  },
+  "harness_commit": "b2af4f355d827fb0e89aead84b4c75a9b8cccf6c",
+  "harness_sha256": "1780c9e517994285775fa75c98c1975c601be0f94c4ad1a376cab16bd8684e8e",
+  "native_counts": {
+    "update_frames": 559,
+    "events": 3196,
+    "drawable_samples": 2380,
+    "stage_samples": 18
+  },
+  "native_trace_sha256": "1245b0f1f9a89499eba16f4852b79883128c00a9839a1a7cf8462cb0e385c0e2",
+  "archive_accepted": true,
+  "diagnostic_replay_checks_passed": true,
+  "production_gameplay_checks_passed": true,
+  "pending_coverage_count": 35,
+  "parity_claim_flags": {
+    "whole_song_parity_proven": false,
+    "production_parity_proven": false,
+    "pixel_parity_proven": false
+  },
+  "guest_root": "/opt/song-lua-audit/parity-20261120/accepted-current-main/amv-color-2e5f73de162d",
+  "resource_budget": {
+    "cpu_quota_percent": 200,
+    "memory_max_bytes": 6442450944,
+    "memory_swap_max_bytes": 0,
+    "one_job_at_a_time": true
+  }
+}

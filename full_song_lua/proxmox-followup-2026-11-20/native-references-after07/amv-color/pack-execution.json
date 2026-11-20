@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-11-20T03:07:17.851835+00:00",
+  "finished_at": "2026-11-20T03:07:25.137434+00:00",
+  "exit": 0,
+  "stdout": "{\"stage\": \"pack\", \"exit\": 0, \"receipt\": {\"finished_at\": \"2026-11-20T03:07:26.106374+00:00\", \"unit\": \"deadsync-accepted-pack-6ad4c0f711de7ca6\", \"service_result\": \"success\", \"exit_code\": \"exited\", \"exit_status\": \"0\", \"resource_usage\": {\"MemoryPeak\": \"330899456\", \"CPUUsageNSec\": \"7488951000\", \"CPUQuotaPerSecUSec\": \"2s\", \"MemoryMax\": \"6442450944\", \"MemorySwapMax\": \"0\"}, \"spec_sha256\": \"919bf4b2c0a5b2bc735290c4382f7c4d11b20e4bf2109e8e496a96a8fcd53208\"}}\n{\"packed\": true, \"case\": \"amv-color\", \"path\": \"/opt/song-lua-audit/parity-20261120/accepted-current-main/amv-color-2e5f73de162d/packed/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88.tar.zst\", \"sha256\": \"82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88\", \"bytes\": 107818988, \"candidate_sha256\": \"ae2df4b168a8190ecc416828571d0d0bff6d2e43634f9d09c1f041afd9843d4b\", \"report_sha256\": \"2e5f73de162d784358262d94e790d9577a34dbc1fb4963b000503eb523d94f24\", \"execution_sha256\": \"62e94c94117c46b06c02ec9d1e6d435260bb532c717276a121a0bbc029288913\", \"source_commit\": \"af6a6c9e045f5dfb13abe38bd4eb58d7326f2e26\", \"runner_sha256\": \"69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691\", \"harness_sha256\": \"1780c9e517994285775fa75c98c1975c601be0f94c4ad1a376cab16bd8684e8e\", \"candidate_unchanged\": true}\n",
+  "stderr": "",
+  "prepared_sha256": "8de60045329d1d9603f1fd957fe1987c730328a3d2cbe49571ac03866c1aa2a9",
+  "script_sha256": "042bbdc368be50797df42680a0560c4bccfa2b65e1dac0fec2273f8ff4ae6be8"
+}

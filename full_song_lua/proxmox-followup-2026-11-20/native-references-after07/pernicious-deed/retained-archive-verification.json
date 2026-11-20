@@ -1,0 +1,34 @@
+{
+  "sharkmode": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\followup-native-controls-input-20261119T100328.353787Z\\sharkmode\\input\\c3a143c50fd1efb56e4f590560d157459417a1583f9b2e7db8fb35231fea4ab2.tar",
+    "compressed": false,
+    "sha256": "c3a143c50fd1efb56e4f590560d157459417a1583f9b2e7db8fb35231fea4ab2",
+    "bytes": 169671168,
+    "decoded_sha256": "c3a143c50fd1efb56e4f590560d157459417a1583f9b2e7db8fb35231fea4ab2",
+    "decoded_bytes": 169671168,
+    "verified_manifest_files": 561,
+    "manifest_sha256": "dbaf4030188e5d22e7ef56c5c14a3ca2f76ad0667dc1f8fc3ae8f67ea26cf6c1",
+    "trace": {
+      "bytes": 53436335,
+      "sha256": "8db42605c93f23764b4c061ba5df5b6b49c4a0842775e37551a83458b08ab6f4"
+    },
+    "source_unchanged": true,
+    "source_mtime_ns": 1795082615095325300
+  },
+  "pernicious-deed": {
+    "path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\native\\e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9.tar.zst",
+    "compressed": true,
+    "sha256": "e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9",
+    "bytes": 144404616,
+    "decoded_sha256": "6edb175e95df37bc926956e9593aa8f95450a74e413e6e43f7fcaad96da0974a",
+    "decoded_bytes": 1990339584,
+    "verified_manifest_files": 622,
+    "manifest_sha256": "74fd74568b77210aff874a0f630bbe855a0f4875a3d0765dd5a34ce3778ef4a2",
+    "trace": {
+      "bytes": 1862228607,
+      "sha256": "108e58221923082d7c310cbe086d411d416823356668d476a6d60be976d0148e"
+    },
+    "source_unchanged": true,
+    "source_mtime_ns": 1795133139905342300
+  }
+}

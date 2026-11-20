@@ -1,0 +1,93 @@
+{
+  "started_at": "2026-11-20T03:12:07.460214+00:00",
+  "finished_at": "2026-11-20T03:13:41.775211+00:00",
+  "old_split_manifest_sha256": "ff809320d2a03def291d045c89fa70299ad8017f5db03c01fa4b54968a19b2f9",
+  "new_split_manifest_sha256": "44bbc843139f809b575e6a42f17ab2716749a36d0e792be22f395f7c2c1f58df",
+  "old_split_entries": 116,
+  "new_split_entries": 120,
+  "existing_entries_unchanged": true,
+  "new_part_count": 13,
+  "catalog_count": 1025,
+  "new_catalog_rows": [
+    {
+      "title": "280|MODS|[MASTER] Sharkmode",
+      "source_simfile": "280-MODS-[MASTER] Sharkmode/Sharkmode.ssc",
+      "harness_version": "0.1.110",
+      "archive": "00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4.tar.zst"
+    },
+    {
+      "title": "Wrapper removal native semantics",
+      "source_simfile": "wrapper-removal/control.ssc",
+      "harness_version": "0.1.110",
+      "archive": "7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4.tar.zst"
+    },
+    {
+      "title": "AMV native byte colors",
+      "source_simfile": "amv-color/control.ssc",
+      "harness_version": "0.1.110",
+      "archive": "82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88.tar.zst"
+    },
+    {
+      "title": "SRT7 - Pernicious Deed",
+      "source_simfile": "5. deed/deed.sm",
+      "harness_version": "0.1.110",
+      "archive": "e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9.tar.zst"
+    }
+  ],
+  "steps": [
+    {
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/prepare_test_fixtures.py",
+        "--split"
+      ],
+      "cwd": "C:\\GitHub\\deadsync",
+      "exit_code": 0,
+      "stdout": "120 split archives; parts are at most 48,000,000 bytes\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "add",
+        "--",
+        ".gitignore",
+        "full_song_lua/split-archives.json",
+        "full_song_lua/archive-parts/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4/000.part",
+        "full_song_lua/archive-parts/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4/001.part",
+        "full_song_lua/archive-parts/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4/002.part",
+        "full_song_lua/archive-parts/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88/000.part",
+        "full_song_lua/archive-parts/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88/001.part",
+        "full_song_lua/archive-parts/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88/002.part",
+        "full_song_lua/archive-parts/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4/000.part",
+        "full_song_lua/archive-parts/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4/001.part",
+        "full_song_lua/archive-parts/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4/002.part",
+        "full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/000.part",
+        "full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/001.part",
+        "full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/002.part",
+        "full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/003.part",
+        "full_song_lua/proxmox-followup-2026-11-20/native-references-after07"
+      ],
+      "cwd": "C:\\GitHub\\deadsync\\tests\\fixtures",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python",
+        "-B",
+        "-X",
+        "utf8",
+        "scripts/catalog_committed_songs.py"
+      ],
+      "cwd": "C:\\GitHub\\deadsync",
+      "exit_code": 0,
+      "stdout": "Cataloged 1025 committed song archives\n",
+      "stderr": ""
+    }
+  ]
+}

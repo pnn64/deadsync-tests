@@ -1,0 +1,14 @@
+{
+  "download_verified": true,
+  "path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\amv-color-2e5f73de162d\\82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88.tar.zst",
+  "sha256": "82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88",
+  "bytes": 107818988,
+  "decoded_sha256": "ae2df4b168a8190ecc416828571d0d0bff6d2e43634f9d09c1f041afd9843d4b",
+  "decoded_bytes": 118882816,
+  "pack_evidence": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\amv-color-2e5f73de162d\\pack-evidence.zip",
+  "pack_evidence_sha256": "bdab8ca3a6b200b3929265ebee4c13fe85e23233f904bb60a444ebb94e2e1c72",
+  "accepted_report_sha256": "2e5f73de162d784358262d94e790d9577a34dbc1fb4963b000503eb523d94f24",
+  "source_commit": "af6a6c9e045f5dfb13abe38bd4eb58d7326f2e26",
+  "runner_sha256": "69fe4fb89667c2a41ac4b80f589b0722b37fb72c197f50ac09948337271ac691",
+  "native_evidence_sha256": "74b575d00cee36bc70a850caca34bb67881675e719de3299049a2a87ef3e475e"
+}

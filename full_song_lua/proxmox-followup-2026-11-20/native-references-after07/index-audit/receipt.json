@@ -1,0 +1,790 @@
+{
+  "schema": "independent-prepared-fixture-audit-after07-v1",
+  "started_at_utc": "2026-11-20T03:19:24.606036+00:00",
+  "finished_at_utc": "2026-11-20T03:19:42.104465+00:00",
+  "integrity_checks_passed": true,
+  "repositories": {
+    "deadsync": {
+      "path": "C:/GitHub/deadsync",
+      "head": "af6a6c9e045f5dfb13abe38bd4eb58d7326f2e26",
+      "branch": "main",
+      "status_before": [
+        " M tests/fixtures"
+      ],
+      "status_after": [
+        " M tests/fixtures"
+      ],
+      "head_after": "af6a6c9e045f5dfb13abe38bd4eb58d7326f2e26"
+    },
+    "fixture_submodule": {
+      "path": "C:/GitHub/deadsync/tests/fixtures",
+      "head": "d2f26868ef5e804b23a5d734f6933c092e677590",
+      "branch": "main",
+      "status_before": [
+        "M  .gitignore",
+        "A  full_song_lua/archive-parts/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4/000.part",
+        "A  full_song_lua/archive-parts/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4/001.part",
+        "A  full_song_lua/archive-parts/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4/002.part",
+        "A  full_song_lua/archive-parts/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4/000.part",
+        "A  full_song_lua/archive-parts/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4/001.part",
+        "A  full_song_lua/archive-parts/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4/002.part",
+        "A  full_song_lua/archive-parts/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88/000.part",
+        "A  full_song_lua/archive-parts/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88/001.part",
+        "A  full_song_lua/archive-parts/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88/002.part",
+        "A  full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/000.part",
+        "A  full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/001.part",
+        "A  full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/002.part",
+        "A  full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/003.part",
+        " M full_song_lua/committed-archives.txt",
+        " M full_song_lua/committed-songs.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/README.md",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/README.md",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/acceptance-proof.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/accepted-replay-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/baseline-before-fix-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/coverage-summary.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/manifest.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/native-capture-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack-evidence-members.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack-execution.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack-recipes.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack_accepted.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/packed-download-receipt.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/prepared.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/remote_capture.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/seal_accepted.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/control-packs-after07-release.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/manifest.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/pernicious-deed/retained-accepted-references.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/pernicious-deed/retained-archive-verification.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/pernicious-deed/retained-reference-evidence-manifest.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/pernicious-deed/retained-reference-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/README.md",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/acceptance-proof.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/accepted-replay-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/capture-execution.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/coverage-summary.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/download-receipt.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/manifest.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/native-capture-evidence-members.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/native-capture-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack-evidence-members.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack-execution.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack-recipes.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack_accepted.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/packed-download-receipt.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/prepared.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/remote_capture.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/seal_accepted.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/source-and-recipe.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/stage_final_native_references.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/README.md",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/acceptance-proof.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/accepted-replay-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/baseline-before-fix-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/coverage-summary.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/manifest.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/native-capture-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack-evidence-members.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack-execution.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack-recipes.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack_accepted.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/packed-download-receipt.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/prepared.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/remote_capture.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/seal_accepted.py",
+        "M  full_song_lua/split-archives.json",
+        "?? full_song_lua/proxmox-followup-2026-11-20/current-main-after07/",
+        "?? full_song_lua/proxmox-followup-2026-11-20/final-resource-cleanup/",
+        "?? full_song_lua/proxmox-followup-2026-11-20/native-references-after07/index-preparation.json"
+      ],
+      "status_after": [
+        "M  .gitignore",
+        "A  full_song_lua/archive-parts/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4/000.part",
+        "A  full_song_lua/archive-parts/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4/001.part",
+        "A  full_song_lua/archive-parts/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4/002.part",
+        "A  full_song_lua/archive-parts/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4/000.part",
+        "A  full_song_lua/archive-parts/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4/001.part",
+        "A  full_song_lua/archive-parts/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4/002.part",
+        "A  full_song_lua/archive-parts/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88/000.part",
+        "A  full_song_lua/archive-parts/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88/001.part",
+        "A  full_song_lua/archive-parts/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88/002.part",
+        "A  full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/000.part",
+        "A  full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/001.part",
+        "A  full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/002.part",
+        "A  full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/003.part",
+        " M full_song_lua/committed-archives.txt",
+        " M full_song_lua/committed-songs.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/README.md",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/README.md",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/acceptance-proof.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/accepted-replay-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/baseline-before-fix-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/coverage-summary.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/manifest.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/native-capture-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack-evidence-members.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack-execution.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack-recipes.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack_accepted.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/packed-download-receipt.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/prepared.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/remote_capture.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/seal_accepted.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/control-packs-after07-release.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/manifest.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/pernicious-deed/retained-accepted-references.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/pernicious-deed/retained-archive-verification.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/pernicious-deed/retained-reference-evidence-manifest.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/pernicious-deed/retained-reference-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/README.md",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/acceptance-proof.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/accepted-replay-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/capture-execution.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/coverage-summary.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/download-receipt.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/manifest.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/native-capture-evidence-members.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/native-capture-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack-evidence-members.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack-execution.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack-recipes.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack_accepted.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/packed-download-receipt.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/prepared.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/remote_capture.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/seal_accepted.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/source-and-recipe.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/stage_final_native_references.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/README.md",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/acceptance-proof.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/accepted-replay-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/baseline-before-fix-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/coverage-summary.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/manifest.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/native-capture-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack-evidence-members.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack-evidence.zip",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack-execution.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack-recipes.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack_accepted.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/packed-download-receipt.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/prepared.json",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/remote_capture.py",
+        "A  full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/seal_accepted.py",
+        "M  full_song_lua/split-archives.json",
+        "?? full_song_lua/proxmox-followup-2026-11-20/current-main-after07/",
+        "?? full_song_lua/proxmox-followup-2026-11-20/final-resource-cleanup/",
+        "?? full_song_lua/proxmox-followup-2026-11-20/native-references-after07/index-preparation.json"
+      ],
+      "head_after": "d2f26868ef5e804b23a5d734f6933c092e677590"
+    },
+    "canonical_deadsync_tests": {
+      "path": "C:/GitHub/deadsync-tests",
+      "head": "d2f26868ef5e804b23a5d734f6933c092e677590",
+      "branch": "main",
+      "status_before": [
+        "?? full_song_lua/127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415.tar.zst",
+        "?? full_song_lua/aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439.tar.zst"
+      ],
+      "status_after": [
+        "?? full_song_lua/127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415.tar.zst",
+        "?? full_song_lua/aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439.tar.zst"
+      ],
+      "head_after": "d2f26868ef5e804b23a5d734f6933c092e677590"
+    }
+  },
+  "manifest": {
+    "path": "C:/GitHub/deadsync/tests/fixtures/full_song_lua/proxmox-followup-2026-11-20/native-references-after07/manifest.json",
+    "bytes": 14455,
+    "sha256": "fbeb5eb591e7d550215882584ced530117e55d876d9aaf862d29dc364644ef65"
+  },
+  "index_preparation": {
+    "path": "C:/GitHub/deadsync/tests/fixtures/full_song_lua/proxmox-followup-2026-11-20/native-references-after07/index-preparation.json",
+    "bytes": 3956,
+    "sha256": "8eb92e42481ca92ab0f58913570183ac8df559f48a7dc839b1ea55c2adc890f7"
+  },
+  "split_manifest": {
+    "old_committed": {
+      "bytes": 114200,
+      "sha256": "f8fe05146545d214e9a190a45ee12bb4c60c0ce13931e4c167ebf454526f0e09"
+    },
+    "old_preparation_sha256": "ff809320d2a03def291d045c89fa70299ad8017f5db03c01fa4b54968a19b2f9",
+    "new_prepared": {
+      "bytes": 121021,
+      "sha256": "44bbc843139f809b575e6a42f17ab2716749a36d0e792be22f395f7c2c1f58df"
+    },
+    "new_staged": {
+      "bytes": 118356,
+      "sha256": "0c10b6112309d58e640ab465f4fe7d714865ee375ba20ef5f3847fdf652cd9c2"
+    },
+    "prepared_and_staged_lf_normalized_bytes_equal": true,
+    "old_entries": 116,
+    "new_entries": 120,
+    "all_old_entries_unchanged": true,
+    "exact_new_archives": 4
+  },
+  "catalog": {
+    "old": {
+      "bytes": 231137,
+      "sha256": "cfd86d03c7a75b71663039e20061dbf6cab64ccae45fefbfcc61d3be0deecb11"
+    },
+    "new_prepared": {
+      "bytes": 238200,
+      "sha256": "7544b6e14c93d4ccad1cb7cf7eac3448dc97dbd2650ad38beade953b3a7fac39"
+    },
+    "old_entries": 1021,
+    "new_entries": 1025,
+    "all_old_rows_and_order_unchanged": true,
+    "new_rows": [
+      {
+        "title": "280|MODS|[MASTER] Sharkmode",
+        "source_simfile": "280-MODS-[MASTER] Sharkmode/Sharkmode.ssc",
+        "harness_version": "0.1.110",
+        "archive": "00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4.tar.zst"
+      },
+      {
+        "title": "Wrapper removal native semantics",
+        "source_simfile": "wrapper-removal/control.ssc",
+        "harness_version": "0.1.110",
+        "archive": "7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4.tar.zst"
+      },
+      {
+        "title": "AMV native byte colors",
+        "source_simfile": "amv-color/control.ssc",
+        "harness_version": "0.1.110",
+        "archive": "82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88.tar.zst"
+      },
+      {
+        "title": "SRT7 - Pernicious Deed",
+        "source_simfile": "5. deed/deed.sm",
+        "harness_version": "0.1.110",
+        "archive": "e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9.tar.zst"
+      }
+    ],
+    "archive_list_matches_catalog": true
+  },
+  "new_staged_archives": [
+    {
+      "archive": "00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4.tar.zst",
+      "bytes": 113821186,
+      "sha256": "00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4",
+      "parts": [
+        {
+          "path": "full_song_lua/archive-parts/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4/000.part",
+          "git_blob_oid": "87dda65472c4bcfe7c40989290278ad17e096884",
+          "bytes": 48000000,
+          "sha256": "484c2d0c98bcd00277089b494face11617ddbc39dec8b631018901f8b4d173ac"
+        },
+        {
+          "path": "full_song_lua/archive-parts/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4/001.part",
+          "git_blob_oid": "eb3b85ba52022015ad1889f07d95a5fd7731fc6b",
+          "bytes": 48000000,
+          "sha256": "882ab27c0d05586b9f5493ba605545801d009bb40754f9a8a80a7504630aaa29"
+        },
+        {
+          "path": "full_song_lua/archive-parts/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4/002.part",
+          "git_blob_oid": "1849fa18d73d3e0f48be7107ca70376475b84128",
+          "bytes": 17821186,
+          "sha256": "ec69d8dd37278d8990f0075a65680d8223508cb4f1fcb77460c4655836b093b9"
+        }
+      ]
+    },
+    {
+      "archive": "7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4.tar.zst",
+      "bytes": 107795590,
+      "sha256": "7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4",
+      "parts": [
+        {
+          "path": "full_song_lua/archive-parts/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4/000.part",
+          "git_blob_oid": "b21b352422e995d24c9c23aa531a79177363ea70",
+          "bytes": 48000000,
+          "sha256": "31b0ee79c554bff5989c57e206aa0857e8bcecf2e1f7a0879a9e1d42a27978f2"
+        },
+        {
+          "path": "full_song_lua/archive-parts/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4/001.part",
+          "git_blob_oid": "dbcc796bde346f3edf3ef7b6e4bdf23d35d76ba6",
+          "bytes": 48000000,
+          "sha256": "3c8b74011bb599e0b86d59d422735f18ceac36f599883d44a20420a702ed501c"
+        },
+        {
+          "path": "full_song_lua/archive-parts/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4/002.part",
+          "git_blob_oid": "d554ff8a15c84e665b4b400cb60f7c88d8466a5f",
+          "bytes": 11795590,
+          "sha256": "ee9f4a808dad73a0277a26272026598d7e54e7d54326e9135575853f4afd2c7a"
+        }
+      ]
+    },
+    {
+      "archive": "82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88.tar.zst",
+      "bytes": 107818988,
+      "sha256": "82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88",
+      "parts": [
+        {
+          "path": "full_song_lua/archive-parts/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88/000.part",
+          "git_blob_oid": "95c4addef127b8f2434747c7990d92ad0982e072",
+          "bytes": 48000000,
+          "sha256": "9446897088224e77f95a4c6443dd6b36c7b232b8f2b2e59032f3a6cf7d1929b1"
+        },
+        {
+          "path": "full_song_lua/archive-parts/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88/001.part",
+          "git_blob_oid": "7e055b0ca063af1b6ec2725231c7f0bdd355b974",
+          "bytes": 48000000,
+          "sha256": "3075720b912db0547426af37292ab9a53e55ffee225e7db04b6c306b83133941"
+        },
+        {
+          "path": "full_song_lua/archive-parts/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88/002.part",
+          "git_blob_oid": "3971fe5c05861927213193a301207df488b6669e",
+          "bytes": 11818988,
+          "sha256": "9dc9bc7b9564e1b5e95e76f0c9db8608d50e172dc596de59c17daa2da627b66f"
+        }
+      ]
+    },
+    {
+      "archive": "e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9.tar.zst",
+      "bytes": 144404616,
+      "sha256": "e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9",
+      "parts": [
+        {
+          "path": "full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/000.part",
+          "git_blob_oid": "2be841ec5f4ab7245a7975e55a65058d2e1e79ec",
+          "bytes": 48000000,
+          "sha256": "9f2adadd8de9896d12626eb462029f0963ec0839bd7a981995c88c97416a29c2"
+        },
+        {
+          "path": "full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/001.part",
+          "git_blob_oid": "d67a6b234d0eb510992c3625ab43feb3fc13a876",
+          "bytes": 48000000,
+          "sha256": "dd10180839bb83565dbde95926bcd3fa1b9079da2f03b2e38692a178d7c18b4d"
+        },
+        {
+          "path": "full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/002.part",
+          "git_blob_oid": "5eec4e147d5b181d2cf86fc4f38a3669f62d3d3a",
+          "bytes": 48000000,
+          "sha256": "0ebdb276bd7c5768a85961e5ac90abfc489bf55946913946da8e905eff02fb83"
+        },
+        {
+          "path": "full_song_lua/archive-parts/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9/003.part",
+          "git_blob_oid": "9e0ea548d452408aa71657f346ad04feb1dd4ec7",
+          "bytes": 404616,
+          "sha256": "cb9ca9b4580e8e021b544809910151e82e9b5bd798477bb7af778363c2898163"
+        }
+      ]
+    }
+  ],
+  "new_staged_part_count": 13,
+  "streamed_part_bytes": 473840380,
+  "manifest_member_blobs_verified": [
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/acceptance-proof.json",
+      "git_blob_oid": "feaee8d0742981148e5eafd0fb4f4bd3f921c964",
+      "bytes": 10286,
+      "sha256": "aa967111cb7f8226681d22622b39db312b0d92bad911d3492e169f59c8e99307"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/accepted-replay-evidence.zip",
+      "git_blob_oid": "8da6e47f586807c33ab17977a772066b998a9824",
+      "bytes": 36468,
+      "sha256": "58fdf995b26784e54c74e6b4bbdd38b3b4d8e5c2cc1bbcd70d4631f5e65aae99"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/baseline-before-fix-evidence.zip",
+      "git_blob_oid": "e9a430c85420cbb1e49470f86d0d6419cae4a01e",
+      "bytes": 26995,
+      "sha256": "b269b044c1992d56b72a8d37071087a93bb55aa65587a7ceb4330d0df41f9dba"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/coverage-summary.json",
+      "git_blob_oid": "ab779101ee78bb271d8528ec25c04b4a2a623322",
+      "bytes": 8052,
+      "sha256": "60fc60195c15a69b3e0b95d5eaf71f1d16a5a6000b12450e655b446ce7d46f21"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/manifest.json",
+      "git_blob_oid": "0241feb947db4f73cc4979884d87c167a4a37eb4",
+      "bytes": 3686,
+      "sha256": "14a32759dcf2dfc2e54f19774f2ed34d5ac631d92a69d20313525433becaa27d"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/native-capture-evidence.zip",
+      "git_blob_oid": "182b435b144684c07eb9d2a5636a356bae496fdb",
+      "bytes": 855567,
+      "sha256": "74b575d00cee36bc70a850caca34bb67881675e719de3299049a2a87ef3e475e"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack-evidence-members.json",
+      "git_blob_oid": "b2811b13c014205cc9c78a8dbe51973a2ff7fd98",
+      "bytes": 965,
+      "sha256": "a2a971c925700a2942bddcf4f71be961c8b94bfd85e2cb7078ff0170c83f9d4c"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack-evidence.zip",
+      "git_blob_oid": "3ccc3cd1e28924dc78a15d6f2d5e9512872e275f",
+      "bytes": 7623,
+      "sha256": "bdab8ca3a6b200b3929265ebee4c13fe85e23233f904bb60a444ebb94e2e1c72"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack-execution.json",
+      "git_blob_oid": "c39a3d0dfa955edb85251ddafdb3637a5b47fa9f",
+      "bytes": 1719,
+      "sha256": "e8c25449643dcd9af6ad9a7361c9dc5b7c5728e51ff96b69186fb07013775055"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack-recipes.json",
+      "git_blob_oid": "6a1b2d941f40cf6065b8dc2aa0186dc57ab906f9",
+      "bytes": 2486,
+      "sha256": "8b65108c7301ba26621fb3ff27058d37b9a9bebadeb4c40a4f439336e58f9c1a"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/pack_accepted.py",
+      "git_blob_oid": "de29ecf8dc6611342ecf650ae8b7c5833f5deb90",
+      "bytes": 15145,
+      "sha256": "042bbdc368be50797df42680a0560c4bccfa2b65e1dac0fec2273f8ff4ae6be8"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/packed-download-receipt.json",
+      "git_blob_oid": "4a38da6ddced1ccae35b788827d275f6a3cb7d1d",
+      "bytes": 1068,
+      "sha256": "d320fe799d30adc8bb7aeae023356f150b5c13932d92f2f259c3156b47a3ae10"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/prepared.json",
+      "git_blob_oid": "5d28eb2517763b3c90ab1513e99e44ce776c9fd1",
+      "bytes": 411,
+      "sha256": "8de60045329d1d9603f1fd957fe1987c730328a3d2cbe49571ac03866c1aa2a9"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/README.md",
+      "git_blob_oid": "101e8eff765e6f20c42c40aab0cc73151143db13",
+      "bytes": 1039,
+      "sha256": "f808df8f57e3b7601eb7f46c0e42928b5fcf6aac560196c4899583df9f82fe5d"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/remote_capture.py",
+      "git_blob_oid": "1d7c5ae80df89bf7f56127365833a4a5c61aa582",
+      "bytes": 8072,
+      "sha256": "d6675e60b48efac5366ec5e49529fbbeacac9187fd001389a09a907804dc881f"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/amv-color/seal_accepted.py",
+      "git_blob_oid": "e5c6a4024d18109e31b262b3cb929ad9fc2a9506",
+      "bytes": 7484,
+      "sha256": "ef7ffecd333bc036948e558524a375969db262c129992bd29b5fb3888f1c15cc"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/control-packs-after07-release.json",
+      "git_blob_oid": "12fa1b639238b119b734d8a9752ac601e62a4cfc",
+      "bytes": 9900,
+      "sha256": "bd9c261608982fc281a4960b2f9979d1c194dffcb34240050c628d8cf9a18df9"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/pernicious-deed/retained-accepted-references.json",
+      "git_blob_oid": "b7b6411daecc64c7c979415b238ca69c62a3b32b",
+      "bytes": 7123,
+      "sha256": "c434d4bb49aac691cea18371260071a1a4e40dc297049abc9d267e9f45539d35"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/pernicious-deed/retained-archive-verification.json",
+      "git_blob_oid": "8cd8d1345b79f321b5d47039ec8a63a4b8a58a47",
+      "bytes": 1641,
+      "sha256": "d04bc0d6df2517d664cc722db1bb31792711f8b560e801191687b38403920841"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/pernicious-deed/retained-reference-evidence-manifest.json",
+      "git_blob_oid": "e8a02d8c28045fdf47008abc8943890b41d00b69",
+      "bytes": 1952,
+      "sha256": "eeabf74ec1e5d8e51757109793dff1f8de18a0b66b87e251f9471d55debc62cc"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/pernicious-deed/retained-reference-evidence.zip",
+      "git_blob_oid": "af79dbdce40cbf0ef087ae6af0376d121633dd39",
+      "bytes": 66054,
+      "sha256": "5206e9491557a8a4879c2ec49f5c9b4e6038c0036293dcd2ca8d92227d4bfe75"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/acceptance-proof.json",
+      "git_blob_oid": "0ebc10e27129c5a358b17ae4d26b35f92440f47a",
+      "bytes": 17732,
+      "sha256": "ef4197a7a66b8c1f927690329eca9e462b90c82c648288891923331b6ff885f9"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/accepted-replay-evidence.zip",
+      "git_blob_oid": "19549f033cd6f13ef9a4d61b6792c8c2b9ac09d0",
+      "bytes": 325492,
+      "sha256": "c02cc6bbc4d9433a2fb4d8065d247df5644a2bc367d8facf9d4db2341ba8aaec"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/capture-execution.json",
+      "git_blob_oid": "bd9e8aa093f6e8d56b68eba3fa3df6f2999fbdb2",
+      "bytes": 2770,
+      "sha256": "1b9a5fe1ee1d83edbe2251c28a8fc193351376728b09b99777571c35be37bb75"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/coverage-summary.json",
+      "git_blob_oid": "74f4893d9f592c59f3f4426500bab9cd14f13c03",
+      "bytes": 8947,
+      "sha256": "a3b215688857a8bcaf23a792dc2757d56cc59dc10842c901c016b89af65cccdc"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/download-receipt.json",
+      "git_blob_oid": "b7842fd8208ad6d0780afcfa7268079e07e2307d",
+      "bytes": 1932,
+      "sha256": "7e2a68b4a37ec845656c978335be6dee5625892b45c6505c828dcaf094c19229"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/manifest.json",
+      "git_blob_oid": "9ae787e2b18032100a969cef5f1b350961a820ab",
+      "bytes": 4132,
+      "sha256": "288ba948248c4187ae83b82299641a10364a172335e266fa1579d92104743d3d"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/native-capture-evidence-members.json",
+      "git_blob_oid": "2d413f4a9e926bf72381f442fc590f497714bf71",
+      "bytes": 2947,
+      "sha256": "ea955c4ee13e294894184fedfb129053865b27aea1e2bbd412773c578fcc7017"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/native-capture-evidence.zip",
+      "git_blob_oid": "e14e5cc7fe0d8d9ce93f6499d6e5b276327a253f",
+      "bytes": 659429,
+      "sha256": "1951e9f27720cb5b81066780b581e2cebb1150667c0413513af0636f25bffd44"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack-evidence-members.json",
+      "git_blob_oid": "4b3ea28835fffa2e20f9ce2c8902ff7b1aec2e4f",
+      "bytes": 965,
+      "sha256": "96c4b862f289995b7f625fb0dc875c63476c84c06a7bd031fe04a213b2400c16"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack-evidence.zip",
+      "git_blob_oid": "79e30e826a574e727a51697f62ac2b0a53298111",
+      "bytes": 9919,
+      "sha256": "d9c189e3660cee2ff06d34b9164230617737b97a40873a5e8224574d38d5a508"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack-execution.json",
+      "git_blob_oid": "4e3189d6516bbe538197a5712e692dcc8092d553",
+      "bytes": 1720,
+      "sha256": "06cca1fc77a8a1a0869ca13678aa5f112d123bc789c32068f250c109d67e6867"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack-recipes.json",
+      "git_blob_oid": "6a1b2d941f40cf6065b8dc2aa0186dc57ab906f9",
+      "bytes": 2486,
+      "sha256": "8b65108c7301ba26621fb3ff27058d37b9a9bebadeb4c40a4f439336e58f9c1a"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/pack_accepted.py",
+      "git_blob_oid": "de29ecf8dc6611342ecf650ae8b7c5833f5deb90",
+      "bytes": 15145,
+      "sha256": "042bbdc368be50797df42680a0560c4bccfa2b65e1dac0fec2273f8ff4ae6be8"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/packed-download-receipt.json",
+      "git_blob_oid": "86b02672e2ee66629e5543f18d3a3dbb044046c7",
+      "bytes": 1068,
+      "sha256": "8196de98a251f3cb94a1219356d94c334c8d1661af9a8896c6460423c666c251"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/prepared.json",
+      "git_blob_oid": "49c28dc5b601908015f32c113c98bc2ec2ad2302",
+      "bytes": 412,
+      "sha256": "f948ea264024b48836602f95a00cd2386c48ec1f84cc12675495d4344fa5b92d"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/README.md",
+      "git_blob_oid": "e77577a4b4108933d67f3c572e5c8b5f42e9f7eb",
+      "bytes": 1039,
+      "sha256": "88c3fe8a15e20146d2ba92122ae91d9565319f126e97b48f8f4be16772fae246"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/remote_capture.py",
+      "git_blob_oid": "1d7c5ae80df89bf7f56127365833a4a5c61aa582",
+      "bytes": 8072,
+      "sha256": "d6675e60b48efac5366ec5e49529fbbeacac9187fd001389a09a907804dc881f"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/seal_accepted.py",
+      "git_blob_oid": "e5c6a4024d18109e31b262b3cb929ad9fc2a9506",
+      "bytes": 7484,
+      "sha256": "ef7ffecd333bc036948e558524a375969db262c129992bd29b5fb3888f1c15cc"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/sharkmode/source-and-recipe.json",
+      "git_blob_oid": "126f92f7129aa68946c373f8431abefd7548e11c",
+      "bytes": 11883,
+      "sha256": "abe91a0052ee496a1344fe13f22406ed0a3a70647d540b3a037ff9f0f70e6843"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/stage_final_native_references.py",
+      "git_blob_oid": "9357a058d28b76a710bcc4aa7deb1fb65904e0ec",
+      "bytes": 7328,
+      "sha256": "e8260ede22c76ae97dda3df4c48b1a934959f8dfc86c9cfc5d0d5aa94cb65789"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/acceptance-proof.json",
+      "git_blob_oid": "85539a2d7d22d461db55e6e2f66d02cf833af88d",
+      "bytes": 10327,
+      "sha256": "dcffe87f508a44e05d3b646c2f8990b20cf912f41b5a93b9b8f3c2c82a836b15"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/accepted-replay-evidence.zip",
+      "git_blob_oid": "99dcf3ed8c9d01cf7061c7652db6be2fb89825b3",
+      "bytes": 40339,
+      "sha256": "b8a736095abb6d1f8e5e9a70434a5e6bddb0027ed25f293ba2c7f58642369c54"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/baseline-before-fix-evidence.zip",
+      "git_blob_oid": "2eb710c3f80e34c3e0baa1ff4887e7be186f0d12",
+      "bytes": 4202,
+      "sha256": "2908b59a4e82111d9e8c72c27b91538fc6e0fa3d6046ec113f50c58075b05db8"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/coverage-summary.json",
+      "git_blob_oid": "b9915c385256fe2c264aa78eedc0327457eb1585",
+      "bytes": 7956,
+      "sha256": "f880594ce7a25c34322216f5dfb015bb52969d87a99e1ef44ecc58297d5e2879"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/manifest.json",
+      "git_blob_oid": "719b1bb166f2b4cffc3db79eddaf63bcaa374003",
+      "bytes": 3703,
+      "sha256": "975a88664e9bfab5474ce06a2656f691a257ce2ffeff787541f79e3e48859499"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/native-capture-evidence.zip",
+      "git_blob_oid": "a76d33e34de8126269773ca45924f44954f6a9ba",
+      "bytes": 783563,
+      "sha256": "dc9ad551ee4b1a1c47f4c9bc3c05a43543d42c801a96e3a4b48b996b4a0fc58f"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack-evidence-members.json",
+      "git_blob_oid": "b1371cf768957f3881cd509f700d08310bb80f67",
+      "bytes": 965,
+      "sha256": "8e0637b9ae59b172d013ace69030e53ae37ffb7c25d4d889c7ed7c873389fb8f"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack-evidence.zip",
+      "git_blob_oid": "a1b93abb211d56669631a7abb19af091b00b59a6",
+      "bytes": 7641,
+      "sha256": "25838cb56975b54f9999f95caabbd07a202ac8a94863cf8b82013e0bce7c78d1"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack-execution.json",
+      "git_blob_oid": "cb9a4d5cf7662902d54e4d6733fcc4a948cad768",
+      "bytes": 1731,
+      "sha256": "33caa28515345352c82e21f16982f69cc8b50325c0ea840ef81d13282fc8957b"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack-recipes.json",
+      "git_blob_oid": "6a1b2d941f40cf6065b8dc2aa0186dc57ab906f9",
+      "bytes": 2486,
+      "sha256": "8b65108c7301ba26621fb3ff27058d37b9a9bebadeb4c40a4f439336e58f9c1a"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/pack_accepted.py",
+      "git_blob_oid": "de29ecf8dc6611342ecf650ae8b7c5833f5deb90",
+      "bytes": 15145,
+      "sha256": "042bbdc368be50797df42680a0560c4bccfa2b65e1dac0fec2273f8ff4ae6be8"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/packed-download-receipt.json",
+      "git_blob_oid": "95c27e0dc91e3e3738698feea97bf146d8af338c",
+      "bytes": 1080,
+      "sha256": "b04624c52f7c74987016d3344442be3a4f9c7a1d7d160bd79d635aabfb1e2c4c"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/prepared.json",
+      "git_blob_oid": "6e736af7acb5d5f2c94d94451ded760f21262662",
+      "bytes": 423,
+      "sha256": "a9b92ab42311280ddce1f21fdaf22511121f3651938a157f39bdbd91721112da"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/README.md",
+      "git_blob_oid": "a8560c7625c1c3f6f4f4fc4dd32b89b9da556f50",
+      "bytes": 1045,
+      "sha256": "6774223a6ef75cc376dd4b1b7af5dc0404a745333e9e36331f33a5d976644ad1"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/remote_capture.py",
+      "git_blob_oid": "1d7c5ae80df89bf7f56127365833a4a5c61aa582",
+      "bytes": 8072,
+      "sha256": "d6675e60b48efac5366ec5e49529fbbeacac9187fd001389a09a907804dc881f"
+    },
+    {
+      "path": "full_song_lua/proxmox-followup-2026-11-20/native-references-after07/wrapper-removal/seal_accepted.py",
+      "git_blob_oid": "e5c6a4024d18109e31b262b3cb929ad9fc2a9506",
+      "bytes": 7484,
+      "sha256": "ef7ffecd333bc036948e558524a375969db262c129992bd29b5fb3888f1c15cc"
+    }
+  ],
+  "gitignore_added_only_expected_archives": [
+    "/full_song_lua/00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4.tar.zst",
+    "/full_song_lua/7eea8d5abc8ed5f7c561ced3271606179476f1148bbba2a9d3fb8091ced9c2a4.tar.zst",
+    "/full_song_lua/82c5efc10d5dcb2ad1b3d78638d43343d69e43b1603dd610a3896789c543da88.tar.zst",
+    "/full_song_lua/e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9.tar.zst"
+  ],
+  "canonical_untracked_archives_preserved": [
+    {
+      "path": "C:/GitHub/deadsync-tests/full_song_lua/127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415.tar.zst",
+      "bytes": 123482511,
+      "sha256": "127c3afbe201fca2ddea72496d2ca7470fa36ab38a5be2d7a297bc3626420415"
+    },
+    {
+      "path": "C:/GitHub/deadsync-tests/full_song_lua/aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439.tar.zst",
+      "bytes": 119750083,
+      "sha256": "aec66908edb4003f13a68a4553049ec2f0147b249bc4c2e7b55a435de0c4c439"
+    }
+  ],
+  "no_unrelated_tracked_changes": true,
+  "prepared_catalog_staging_state": {
+    "full_song_lua/committed-songs.json": {
+      "prepared": {
+        "bytes": 238200,
+        "sha256": "7544b6e14c93d4ccad1cb7cf7eac3448dc97dbd2650ad38beade953b3a7fac39"
+      },
+      "staged": {
+        "bytes": 231137,
+        "sha256": "cfd86d03c7a75b71663039e20061dbf6cab64ccae45fefbfcc61d3be0deecb11"
+      },
+      "prepared_bytes_staged": false,
+      "prepared_content_staged": false
+    },
+    "full_song_lua/committed-archives.txt": {
+      "prepared": {
+        "bytes": 75850,
+        "sha256": "7644d1b83df0cb813909094e34aa280f1ab840c9290546fa324b519f398af91a"
+      },
+      "staged": {
+        "bytes": 74533,
+        "sha256": "8247c284afcbd042c0340fb484aa84a0bf72da77fcfbc656969b5d4bc0e0f868"
+      },
+      "prepared_bytes_staged": false,
+      "prepared_content_staged": false
+    }
+  },
+  "index_preparation_staged": false,
+  "audit_scope": "staged native archive parts and evidence; prepared catalog bytes; parent owns final staging/checkpoint/commit",
+  "actions": {
+    "fixture_edits": 0,
+    "staging_commands": 0,
+    "commits": 0,
+    "builds": 0,
+    "guest_actions": 0
+  },
+  "script": {
+    "path": "C:/GitHub/deadsync/target/fixture-index-audit-after07/audit_fixture_additions_after07.py",
+    "bytes": 15564,
+    "sha256": "24bcc3c5850bfc658edbc96fb41417f21b2e75d7fc97ed2306f15e5e27fdc3a6"
+  },
+  "readme": {
+    "path": "C:/GitHub/deadsync/target/fixture-index-audit-after07/fixture-additions-after07-audit/README.md",
+    "bytes": 1464,
+    "sha256": "acca7bfc991dc07653528969968c59e9a2b5da409f79ba382cf5dfcd605fc319"
+  }
+}

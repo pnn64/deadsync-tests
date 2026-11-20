@@ -1,0 +1,97 @@
+{
+  "case": "sharkmode",
+  "archive": {
+    "download_verified": true,
+    "path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\sharkmode-64911bb03be0\\00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4.tar.zst",
+    "sha256": "00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4",
+    "bytes": 113821186,
+    "decoded_sha256": "92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671",
+    "decoded_bytes": 172256768,
+    "pack_evidence": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\sharkmode-64911bb03be0\\pack-evidence.zip",
+    "pack_evidence_sha256": "d9c189e3660cee2ff06d34b9164230617737b97a40873a5e8224574d38d5a508",
+    "accepted_report_sha256": "64911bb03be0467717610b03901394c9d2ee8805f47a8ef4fb24a2832d52a0a8",
+    "source_commit": "c715e619dd5acba3ecacfaafc99fbc1981b8ec02",
+    "runner_sha256": "b466c6211c834f371bca599a2e34bf514e53ab8a2c3b96a8f33bb338def79e41",
+    "native_evidence_sha256": "1951e9f27720cb5b81066780b581e2cebb1150667c0413513af0636f25bffd44"
+  },
+  "accepted_report_sha256": "64911bb03be0467717610b03901394c9d2ee8805f47a8ef4fb24a2832d52a0a8",
+  "source_commit": "c715e619dd5acba3ecacfaafc99fbc1981b8ec02",
+  "runner_sha256": "b466c6211c834f371bca599a2e34bf514e53ab8a2c3b96a8f33bb338def79e41",
+  "members": {
+    "acceptance-proof.json": {
+      "bytes": 17732,
+      "sha256": "ef4197a7a66b8c1f927690329eca9e462b90c82c648288891923331b6ff885f9"
+    },
+    "accepted-replay-evidence.zip": {
+      "bytes": 325492,
+      "sha256": "c02cc6bbc4d9433a2fb4d8065d247df5644a2bc367d8facf9d4db2341ba8aaec"
+    },
+    "capture-execution.json": {
+      "bytes": 2770,
+      "sha256": "1b9a5fe1ee1d83edbe2251c28a8fc193351376728b09b99777571c35be37bb75"
+    },
+    "coverage-summary.json": {
+      "bytes": 8947,
+      "sha256": "a3b215688857a8bcaf23a792dc2757d56cc59dc10842c901c016b89af65cccdc"
+    },
+    "download-receipt.json": {
+      "bytes": 1932,
+      "sha256": "7e2a68b4a37ec845656c978335be6dee5625892b45c6505c828dcaf094c19229"
+    },
+    "native-capture-evidence-members.json": {
+      "bytes": 2947,
+      "sha256": "ea955c4ee13e294894184fedfb129053865b27aea1e2bbd412773c578fcc7017"
+    },
+    "native-capture-evidence.zip": {
+      "bytes": 659429,
+      "sha256": "1951e9f27720cb5b81066780b581e2cebb1150667c0413513af0636f25bffd44"
+    },
+    "pack-evidence-members.json": {
+      "bytes": 965,
+      "sha256": "96c4b862f289995b7f625fb0dc875c63476c84c06a7bd031fe04a213b2400c16"
+    },
+    "pack-evidence.zip": {
+      "bytes": 9919,
+      "sha256": "d9c189e3660cee2ff06d34b9164230617737b97a40873a5e8224574d38d5a508"
+    },
+    "pack-execution.json": {
+      "bytes": 1720,
+      "sha256": "06cca1fc77a8a1a0869ca13678aa5f112d123bc789c32068f250c109d67e6867"
+    },
+    "pack-recipes.json": {
+      "bytes": 2486,
+      "sha256": "8b65108c7301ba26621fb3ff27058d37b9a9bebadeb4c40a4f439336e58f9c1a"
+    },
+    "pack_accepted.py": {
+      "bytes": 15145,
+      "sha256": "042bbdc368be50797df42680a0560c4bccfa2b65e1dac0fec2273f8ff4ae6be8"
+    },
+    "packed-download-receipt.json": {
+      "bytes": 1068,
+      "sha256": "8196de98a251f3cb94a1219356d94c334c8d1661af9a8896c6460423c666c251"
+    },
+    "prepared.json": {
+      "bytes": 412,
+      "sha256": "f948ea264024b48836602f95a00cd2386c48ec1f84cc12675495d4344fa5b92d"
+    },
+    "README.md": {
+      "bytes": 1039,
+      "sha256": "88c3fe8a15e20146d2ba92122ae91d9565319f126e97b48f8f4be16772fae246"
+    },
+    "remote_capture.py": {
+      "bytes": 8072,
+      "sha256": "d6675e60b48efac5366ec5e49529fbbeacac9187fd001389a09a907804dc881f"
+    },
+    "seal_accepted.py": {
+      "bytes": 7484,
+      "sha256": "ef7ffecd333bc036948e558524a375969db262c129992bd29b5fb3888f1c15cc"
+    },
+    "source-and-recipe.json": {
+      "bytes": 11883,
+      "sha256": "abe91a0052ee496a1344fe13f22406ed0a3a70647d540b3a037ff9f0f70e6843"
+    }
+  },
+  "member_count": 18,
+  "member_bytes": 1079442,
+  "no_source_or_fixture_mutations": true
+}

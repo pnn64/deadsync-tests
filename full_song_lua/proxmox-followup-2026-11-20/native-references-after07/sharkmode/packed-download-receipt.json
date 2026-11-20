@@ -1,0 +1,14 @@
+{
+  "download_verified": true,
+  "path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\sharkmode-64911bb03be0\\00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4.tar.zst",
+  "sha256": "00e130f560f0046d5912608bd823141c108fa24f7a58ef29ade7a8c214c24aa4",
+  "bytes": 113821186,
+  "decoded_sha256": "92e1954ca1beaeb53c69fe3eec41c3b8af769740107bffa0761efd8301e4d671",
+  "decoded_bytes": 172256768,
+  "pack_evidence": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\real-song-reference-20261120\\accepted\\sharkmode-64911bb03be0\\pack-evidence.zip",
+  "pack_evidence_sha256": "d9c189e3660cee2ff06d34b9164230617737b97a40873a5e8224574d38d5a508",
+  "accepted_report_sha256": "64911bb03be0467717610b03901394c9d2ee8805f47a8ef4fb24a2832d52a0a8",
+  "source_commit": "c715e619dd5acba3ecacfaafc99fbc1981b8ec02",
+  "runner_sha256": "b466c6211c834f371bca599a2e34bf514e53ab8a2c3b96a8f33bb338def79e41",
+  "native_evidence_sha256": "1951e9f27720cb5b81066780b581e2cebb1150667c0413513af0636f25bffd44"
+}
