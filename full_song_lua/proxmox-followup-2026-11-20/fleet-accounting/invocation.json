@@ -1,0 +1,306 @@
+{
+  "prepared_only": true,
+  "executed": false,
+  "ready_to_execute": true,
+  "pending": [],
+  "command": [
+    "C:\\Users\\PerfectTaste\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\account_final_jobs_recovery_v2.py",
+    "--fleet",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\collected\\20261120T010040.390586Z-full.json.gz",
+    "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+    "--retry-batch",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\plan.json",
+    "b6ce1619e570f21a68f0ae7442f9cd84eed6e78bf1524261d65434716ee2b7dd",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\selected-attempts.json",
+    "440812f176e792d687d5d522a8ca25ca2eab80dbef6ac9f5dc89f485c00773fe",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\collected\\20261119T054020.048384Z-full.json.gz",
+    "d1cfd6e88b6ce95e9fc12c378c2d09651efd4d4c5cfdb9d336bcdd2e62d8d915",
+    "--retry-batch",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-proposal-20261119T090028.1580915Z\\plan.json",
+    "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-proposal-20261119T090028.1580915Z\\selected-attempts.json",
+    "7538329bd0e2358390294a102a9a895ca2018dfeb51eeddf2cda818c76bb0c2f",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\collected\\20261119T054020.048384Z-full.json.gz",
+    "d1cfd6e88b6ce95e9fc12c378c2d09651efd4d4c5cfdb9d336bcdd2e62d8d915",
+    "--planning-projection",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-partial-20261119T062511-v2\\inputs\\fcab8412bd2640ff4a7cdaa11dbe56f69a2a033946a8225398340431002665a4-capture-only-planning.json.gz",
+    "fcab8412bd2640ff4a7cdaa11dbe56f69a2a033946a8225398340431002665a4",
+    "--role-freeze",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-contracts\\e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3\\freeze-20261119T071238Z.json.gz",
+    "4a58c078bba41a5ea1dd3d34bc22d1c29fcd5d88fdac4b0fbde174a678e737b5",
+    "--role-plan",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\plan.json.gz",
+    "93cfc8b5b22573b7b1ba078812e38083e5f86fda4b27934c27f0550544ffe8d5",
+    "--role-assignment",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1503-retry-attempts.json",
+    "373fbe7de013938e452210b8b546ef05d265fda3fa8c4547f37be48cba59e5cd",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1503-retry-jobs.json",
+    "2bb1284e3a053e9383ca7ba4d18796dcb22e9278e53fe39276ca6517595adfef",
+    "--role-assignment",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1505-retry-attempts.json",
+    "64036b6d0f4817b8f935376409a0ddf4964104dd16e6c85e630d73355fd9f17d",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1505-retry-jobs.json",
+    "0af553007dac0878996936dabdbbed0dcedd70b75b4a1ad05f9da5a1db35013a",
+    "--retry-collection",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-contracts\\e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3\\collect-20261119T082850Z.json.gz",
+    "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+    "--retry-collection",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-contracts\\e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3\\collect-20261119T104609Z.json.gz",
+    "56876de2e55b7c4d4d45a7419b244cabb29f3415819a3cfa6f7fb034bd585ff1",
+    "--recovery-links",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-proposal-20261119T090028.1580915Z\\recovery-links.json",
+    "de36ec73cb8770835343f9b3b292a5be62415915782c742b39d766c902ba4c39",
+    "--recovery-evidence",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\retry-native-startup-retention\\20261119T083125.650458Z\\receipt.json",
+    "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+    "--recovery-evidence",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\retry-display-restoration\\20261119T082732.981050Z\\receipt.json",
+    "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+    "--out",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-role9458-terminal-20261120T010139.145403Z",
+    "--require-complete",
+    "--role-freeze",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-contracts\\9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924\\freeze-20261119T120915Z.json.gz",
+    "3e4b891ec8d2a8f68f1f576cbe70eb0fae87fa0474c220bcda0585bee0a14591",
+    "--role-plan",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\plan.json.gz",
+    "3c46e790679e7b6bf56eacef482cc060899c0e274a3ea87c39cac050d14ee7b9",
+    "--role-assignment",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1501-retry-attempts.json",
+    "f2f9a64881b2518702a778bba8e1a10371712f29242247d4b2258316fa153b46",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1501-retry-jobs.json",
+    "b604b8c4c3827356b38c3d3e7e3109c41fd2abdeefbe5399610fde1a360b5a8e",
+    "--role-assignment",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1504-retry-attempts.json",
+    "1dd8d6b29f039e446435e5a823435b917942fd3ef7c0805dd08d817ddbc453b9",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1504-retry-jobs.json",
+    "241a92d04c45ab51c5da6b4cb2d72b106a23667af140a16589ded676d952cc77",
+    "--role-assignment",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1506-retry-attempts.json",
+    "e0772b816e6c3a73567e7fa67c350edf4bc40641c76def18b0b09c16740c5ecd",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1506-retry-jobs.json",
+    "631d9a7485808fba1370fd799c9ba95c8095cea003f737e2e7cc692ca2905407",
+    "--role-assignment",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1509-retry-attempts.json",
+    "5e0227add3a0b1cc1e155cf9a658ebdfab27882fa7d2841fa674bf307608dede",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1509-retry-jobs.json",
+    "24bc91f49eb79e19e153cf7eb44e23add371d4311d825e55bc07a11583e814c5",
+    "--role-assignment",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1510-retry-attempts.json",
+    "82166f3de6b8aaf6830f95aa9b6f8504f5e1919867586982836e634300dff242",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1510-retry-jobs.json",
+    "371096ba9847bde2142f39befa631bf52223079ae8b5679d13a85e3709065667",
+    "--role-assignment",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1512-retry-attempts.json",
+    "bd4d619616870c2780f5e0af9710c469e68a9082416aa34914430c64fc6e0e4b",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1512-retry-jobs.json",
+    "5b27f6541856327ea72827bec9683a6754d07eaf8b6ef079d46829f76407bae3",
+    "--role-assignment",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1514-retry-attempts.json",
+    "465cbbe01fd2368d046ad3004123928214f492ae744b42bf1cdd897fa0fa2548",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1514-retry-jobs.json",
+    "1f8eef8e54735155ee6a8c57b388b80bee3e445f2beba725744fc121215bfad9",
+    "--retry-collection",
+    "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-contracts\\9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924\\collect-20261119T235645Z.json.gz",
+    "fec62adb9158c3e17efebe2eac3befd42adbc4862cb138ffcfbec849da12ced7"
+  ],
+  "result_directory": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-role9458-terminal-20261120T010139.145403Z",
+  "entry_sha256": "00727d4c40db987122527095a301cbe303361fb6f5d2ac485120cd444a3fe444",
+  "preserved_original_prior_cli": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-partial-20261119T111650-recovery-v2-execution.json",
+    "sha256": "d946b5d3d767fab5177f354c1deba2a8e788f393ce9c51dd5144ed8375cd7213"
+  },
+  "added_role_id": "9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924",
+  "added_role_collection_sha256": "fec62adb9158c3e17efebe2eac3befd42adbc4862cb138ffcfbec849da12ced7",
+  "source_scope": "Old54 predecessors and explicit recovery27 chain retained; no new acceptance logic or evidence changes.",
+  "references": [
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\account_final_jobs_recovery_v2.py",
+      "sha256": "00727d4c40db987122527095a301cbe303361fb6f5d2ac485120cd444a3fe444",
+      "bytes": 24608
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-partial-20261119T111650-recovery-v2-execution.json",
+      "sha256": "d946b5d3d767fab5177f354c1deba2a8e788f393ce9c51dd5144ed8375cd7213",
+      "bytes": 6837
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\plan.json.gz",
+      "sha256": "3c46e790679e7b6bf56eacef482cc060899c0e274a3ea87c39cac050d14ee7b9",
+      "bytes": 450977
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-contracts\\9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924\\collect-20261119T235645Z.json.gz",
+      "sha256": "fec62adb9158c3e17efebe2eac3befd42adbc4862cb138ffcfbec849da12ced7",
+      "bytes": 91745
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\collected\\20261120T010040.390586Z-full.json.gz",
+      "sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+      "bytes": 8713584
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\plan.json",
+      "sha256": "b6ce1619e570f21a68f0ae7442f9cd84eed6e78bf1524261d65434716ee2b7dd",
+      "bytes": 9781
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\selected-attempts.json",
+      "sha256": "440812f176e792d687d5d522a8ca25ca2eab80dbef6ac9f5dc89f485c00773fe",
+      "bytes": 738527
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\collected\\20261119T054020.048384Z-full.json.gz",
+      "sha256": "d1cfd6e88b6ce95e9fc12c378c2d09651efd4d4c5cfdb9d336bcdd2e62d8d915",
+      "bytes": 3602815
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-proposal-20261119T090028.1580915Z\\plan.json",
+      "sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50",
+      "bytes": 4091
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-proposal-20261119T090028.1580915Z\\selected-attempts.json",
+      "sha256": "7538329bd0e2358390294a102a9a895ca2018dfeb51eeddf2cda818c76bb0c2f",
+      "bytes": 365835
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-partial-20261119T062511-v2\\inputs\\fcab8412bd2640ff4a7cdaa11dbe56f69a2a033946a8225398340431002665a4-capture-only-planning.json.gz",
+      "sha256": "fcab8412bd2640ff4a7cdaa11dbe56f69a2a033946a8225398340431002665a4",
+      "bytes": 1731150
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-contracts\\e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3\\freeze-20261119T071238Z.json.gz",
+      "sha256": "4a58c078bba41a5ea1dd3d34bc22d1c29fcd5d88fdac4b0fbde174a678e737b5",
+      "bytes": 393248
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\plan.json.gz",
+      "sha256": "93cfc8b5b22573b7b1ba078812e38083e5f86fda4b27934c27f0550544ffe8d5",
+      "bytes": 37516
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1503-retry-attempts.json",
+      "sha256": "373fbe7de013938e452210b8b546ef05d265fda3fa8c4547f37be48cba59e5cd",
+      "bytes": 381231
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1503-retry-jobs.json",
+      "sha256": "2bb1284e3a053e9383ca7ba4d18796dcb22e9278e53fe39276ca6517595adfef",
+      "bytes": 30575
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1505-retry-attempts.json",
+      "sha256": "64036b6d0f4817b8f935376409a0ddf4964104dd16e6c85e630d73355fd9f17d",
+      "bytes": 377820
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-capture-supplement-33094275-proposal\\role-plan-20261119T055450Z\\vm-1505-retry-jobs.json",
+      "sha256": "0af553007dac0878996936dabdbbed0dcedd70b75b4a1ad05f9da5a1db35013a",
+      "bytes": 30488
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-contracts\\e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3\\collect-20261119T082850Z.json.gz",
+      "sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+      "bytes": 29407
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-contracts\\e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3\\collect-20261119T104609Z.json.gz",
+      "sha256": "56876de2e55b7c4d4d45a7419b244cabb29f3415819a3cfa6f7fb034bd585ff1",
+      "bytes": 67429
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-proposal-20261119T090028.1580915Z\\recovery-links.json",
+      "sha256": "de36ec73cb8770835343f9b3b292a5be62415915782c742b39d766c902ba4c39",
+      "bytes": 19072
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\retry-native-startup-retention\\20261119T083125.650458Z\\receipt.json",
+      "sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "bytes": 82137
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\retry-display-restoration\\20261119T082732.981050Z\\receipt.json",
+      "sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "bytes": 2634
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-contracts\\9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924\\freeze-20261119T120915Z.json.gz",
+      "sha256": "3e4b891ec8d2a8f68f1f576cbe70eb0fae87fa0474c220bcda0585bee0a14591",
+      "bytes": 5064414
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1501-retry-attempts.json",
+      "sha256": "f2f9a64881b2518702a778bba8e1a10371712f29242247d4b2258316fa153b46",
+      "bytes": 55625
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1501-retry-jobs.json",
+      "sha256": "b604b8c4c3827356b38c3d3e7e3109c41fd2abdeefbe5399610fde1a360b5a8e",
+      "bytes": 4431
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1504-retry-attempts.json",
+      "sha256": "1dd8d6b29f039e446435e5a823435b917942fd3ef7c0805dd08d817ddbc453b9",
+      "bytes": 54957
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1504-retry-jobs.json",
+      "sha256": "241a92d04c45ab51c5da6b4cb2d72b106a23667af140a16589ded676d952cc77",
+      "bytes": 4343
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1506-retry-attempts.json",
+      "sha256": "e0772b816e6c3a73567e7fa67c350edf4bc40641c76def18b0b09c16740c5ecd",
+      "bytes": 53129
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1506-retry-jobs.json",
+      "sha256": "631d9a7485808fba1370fd799c9ba95c8095cea003f737e2e7cc692ca2905407",
+      "bytes": 4427
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1509-retry-attempts.json",
+      "sha256": "5e0227add3a0b1cc1e155cf9a658ebdfab27882fa7d2841fa674bf307608dede",
+      "bytes": 53102
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1509-retry-jobs.json",
+      "sha256": "24bc91f49eb79e19e153cf7eb44e23add371d4311d825e55bc07a11583e814c5",
+      "bytes": 4390
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1510-retry-attempts.json",
+      "sha256": "82166f3de6b8aaf6830f95aa9b6f8504f5e1919867586982836e634300dff242",
+      "bytes": 55097
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1510-retry-jobs.json",
+      "sha256": "371096ba9847bde2142f39befa631bf52223079ae8b5679d13a85e3709065667",
+      "bytes": 4355
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1512-retry-attempts.json",
+      "sha256": "bd4d619616870c2780f5e0af9710c469e68a9082416aa34914430c64fc6e0e4b",
+      "bytes": 56084
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1512-retry-jobs.json",
+      "sha256": "5b27f6541856327ea72827bec9683a6754d07eaf8b6ef079d46829f76407bae3",
+      "bytes": 4510
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1514-retry-attempts.json",
+      "sha256": "465cbbe01fd2368d046ad3004123928214f492ae744b42bf1cdd897fa0fa2548",
+      "bytes": 39695
+    },
+    {
+      "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\x11-recovery-27-parking-plan-20261119T110323.267921Z\\vm-1514-retry-jobs.json",
+      "sha256": "1f8eef8e54735155ee6a8c57b388b80bee3e445f2beba725744fc121215bfad9",
+      "bytes": 3336
+    }
+  ]
+}

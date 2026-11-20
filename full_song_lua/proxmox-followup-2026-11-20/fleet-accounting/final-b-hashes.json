@@ -1,0 +1,14 @@
+{
+  "snapshot": {
+    "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\collected\\20261120T010040.390586Z-full.json.gz",
+    "sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+    "bytes": 8713584
+  },
+  "summary": {
+    "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\collected\\20261120T010040.390586Z-B-summary.json",
+    "sha256": "608beb4df86057dab114c9f36db2fc3243c48b0607c884dd64a0bee153ac0a2c",
+    "bytes": 1210197,
+    "bundle_file": "final-b-summary.json"
+  },
+  "snapshot_retention": "Exact source bytes also retained in accounting result inputs; path/hash catalog below."
+}

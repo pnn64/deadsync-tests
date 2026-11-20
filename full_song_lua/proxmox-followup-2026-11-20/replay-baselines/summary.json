@@ -1,0 +1,547 @@
+{
+  "scope": "Retained pre-AMV/wrapper/Wave-metric fixes; historical B is a separate build.",
+  "cases": [
+    {
+      "directory": "sharkmode-after01",
+      "exit_code": 2,
+      "runtime_seconds": 31.411260600027163,
+      "execution": {
+        "case": "sharkmode",
+        "command": [
+          "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync\\e75a49946a63844a\\out\\full_song_lua-e75a49946a63844a.exe",
+          "--archive",
+          "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\followup-native-controls-input-20261119T100328.353787Z\\sharkmode\\input\\c3a143c50fd1efb56e4f590560d157459417a1583f9b2e7db8fb35231fea4ab2.tar",
+          "--report",
+          "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\sharkmode-after01\\report.json",
+          "--production"
+        ],
+        "cwd": "C:\\GitHub\\deadsync",
+        "started_at": "2026-11-20T00:33:37.168753+00:00",
+        "timeout_seconds": 600,
+        "binary_sha256": "db462d6906c1c904b7a786483e0719d09cc7fb120d73a9bf0df12ed3da7a1e25",
+        "git_head": "0e7e0fb6dfe1981edc02a96664333d33eda1dd03",
+        "interactive_source_sha256": "ff447d60979e8899e61f5042c9fa96cd012ef19c85d220722f6792191cbc7781",
+        "source_diff_sha256": "50ac99bff6dc7caee59457c3f4c78724568965d935f6449ffc1ff3cf060b0425",
+        "archive_sha256": "c3a143c50fd1efb56e4f590560d157459417a1583f9b2e7db8fb35231fea4ab2",
+        "archive_bytes": 169671168,
+        "exit_code": 2,
+        "runtime_seconds": 31.411260600027163,
+        "finished_at": "2026-11-20T00:34:09.431140+00:00",
+        "reports": {
+          "invocation.json": {
+            "bytes": 1122,
+            "sha256": "20857821c2ec967806e016ba0cc922840bde8c92ba6881ba3a141070a6e8a6fd"
+          },
+          "report.json": {
+            "bytes": 12147034,
+            "sha256": "ca5285ba80112a00b768bb4f101f71df17af2148d814514cbec59e2c8c3f3fbc"
+          },
+          "stderr.log": {
+            "bytes": 26258,
+            "sha256": "f1ed8d621bf9c31cdb9f5b13dd4e2c751032448b091ac39eb689c8f2c4bf07d2"
+          },
+          "stdout.log": {
+            "bytes": 14,
+            "sha256": "94ac0752da6fbae9ec0cc822cee0354be894531849eb5ddcf703ea7baee44d73"
+          }
+        }
+      },
+      "report_sha256": "ca5285ba80112a00b768bb4f101f71df17af2148d814514cbec59e2c8c3f3fbc",
+      "scalars": {
+        "diagnostic_only": true,
+        "whole_song_parity_proven": false,
+        "archive_accepted": false,
+        "execution_path": "production-and-diagnostic-live-lua",
+        "production_preparation_exercised": true,
+        "production_parity_proven": false,
+        "source_simfile": "C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmpIRsK5u\\song\\Sharkmode.ssc",
+        "native_trace": "C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmpIRsK5u\\trace/semantic.json",
+        "native_frames": 2008,
+        "replayed_frames": 2008,
+        "startup_scenes": 1,
+        "replayed_scenes": 1,
+        "selected_description": "XMOD MODS BR+\u00a0BRFS+\u00a0FS+ JA BU-\u00a0",
+        "checked_stage_samples": 149,
+        "compared_stage_fields": 23458,
+        "first_domain_navigation_seconds": 140.1737823486328,
+        "continued_after_domain_navigation": false,
+        "frames_after_domain_navigation": 0,
+        "broadcast_params_compared": true,
+        "capture_completed_gameplay": true,
+        "interactive_checks_passed": false,
+        "acceptance_basis": "full diagnostic comparisons and production gameplay checks",
+        "diagnostic_replay_checks_passed": false,
+        "production_gameplay_checks_passed": false,
+        "diagnostic_compared_stage_fields": 11729,
+        "pixel_parity_proven": false,
+        "fixture_sha256": "c3a143c50fd1efb56e4f590560d157459417a1583f9b2e7db8fb35231fea4ab2",
+        "fixture_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\followup-native-controls-input-20261119T100328.353787Z\\sharkmode\\input\\c3a143c50fd1efb56e4f590560d157459417a1583f9b2e7db8fb35231fea4ab2.tar"
+      },
+      "coverage_counts": {},
+      "errors": [],
+      "mismatch_count": 32,
+      "mismatches_by_field": {
+        "submitted_clip_uv_color_or_topology": 32
+      },
+      "mismatches_by_actor": {
+        "def-0004": 16,
+        "def-0006": 16
+      },
+      "first_mismatch": {
+        "field": "submitted_clip_uv_color_or_topology",
+        "actor": "def-0004",
+        "frame": 1709,
+        "deadsync": {
+          "example_vertex": [
+            0,
+            [
+              -1149.314697265625,
+              772.54833984375,
+              771.41943359375,
+              772.5484008789062,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              0.10809415578842163
+            ]
+          ],
+          "first_actual_triangle": [
+            [
+              -1149.314697265625,
+              772.54833984375,
+              771.41943359375,
+              772.5484008789062,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              0.10809415578842163
+            ],
+            [
+              -1149.314697265625,
+              -772.5484619140625,
+              771.41943359375,
+              772.5484008789062,
+              0.0,
+              0.9375,
+              1.0,
+              1.0,
+              1.0,
+              0.10809415578842163
+            ],
+            [
+              -394.8587646484375,
+              -772.5484619140625,
+              771.41943359375,
+              772.5484008789062,
+              0.4072265625,
+              0.9375,
+              1.0,
+              1.0,
+              1.0,
+              0.10809415578842163
+            ]
+          ],
+          "first_native_quad": [
+            [
+              0,
+              0,
+              0,
+              -1149.3145751953125,
+              772.5484008789062,
+              771.41943359375,
+              772.5484008789062,
+              0,
+              0,
+              1,
+              1,
+              1,
+              0.10588235294117647
+            ],
+            [
+              0,
+              480,
+              0,
+              -1149.3145751953125,
+              -772.5484008789062,
+              771.41943359375,
+              772.5484008789062,
+              0,
+              0.9375,
+              1,
+              1,
+              1,
+              0.10588235294117647
+            ],
+            [
+              417,
+              0,
+              0,
+              -394.8587341308594,
+              772.5484008789062,
+              771.41943359375,
+              772.5484008789062,
+              0.4072265625,
+              0,
+              1,
+              1,
+              1,
+              0.10588235294117647
+            ],
+            [
+              417,
+              480,
+              0,
+              -394.8587341308594,
+              -772.5484008789062,
+              771.41943359375,
+              772.5484008789062,
+              0.4072265625,
+              0.9375,
+              1,
+              1,
+              1,
+              0.10588235294117647
+            ]
+          ]
+        }
+      },
+      "pending_coverage": [
+        "uncompared song operations: Actor.AddWrapperState, Actor.Draw, Actor.GetNumWrapperStates, Actor.GetWrapperState, Actor.GetX, Actor.GetY, Actor.GetZoom, Actor.GetZoomX, Actor.GetZoomY, Actor.SetSize, Actor.addcommand, Actor.blend, Actor.fadeleft, Actor.faderight, Actor.getrotation, Actor.playcommand, Actor.rotationx, Actor.rotationy, Actor.scale_or_crop_background, Actor.xy, Actor.z, Actor.zoomz, ActorFrame.GetChildren, ActorFrame.SetDrawFunction, ActorFrame.SetFOV, ActorFrame.fov, ActorFrame.vanishpoint, ActorFrameTexture.Create, ActorFrameTexture.EnableAlphaBuffer, ActorFrameTexture.EnableDepthBuffer, ActorFrameTexture.EnableFloat, ActorFrameTexture.EnablePreserveTexture, ActorFrameTexture.GetTexture, ActorMultiVertex.GetTexture, ActorMultiVertex.SetDrawState, ActorMultiVertex.SetTexture, ActorMultiVertex.SetVertices, BitmapText.GetText, GameState.GetSongPosition, PlayerOptions.CMod, PlayerOptions.Distant, PlayerOptions.FromString, PlayerOptions.Hallway, PlayerOptions.Incoming, PlayerOptions.MMod, PlayerOptions.Mini, PlayerOptions.Overhead, PlayerOptions.Space, PlayerOptions.XMod, Song.GetTimingData, Sprite.LoadFromCurrentSongBackground",
+        "native drawable state/resources: ActorFrameTexture, ActorMultiVertex, Quad, Sprite",
+        "missing captured subscriber identity for ScreenGameplay/2/11/1",
+        "missing captured subscriber identity for ScreenGameplay/2/12",
+        "missing captured subscriber identity for ScreenGameplay/2/15/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/8",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1",
+        "production replay: application build without test-support",
+        "production replay: full-song completion",
+        "production replay: sampled framebuffer pixels",
+        "production replay: production command/query instrumentation",
+        "production replay: complete stage finalization, aggregate/evaluation history and public STATSMAN:Reset",
+        "production replay: saved statistics getter functions explicitly invoked with another stage's player receiver",
+        "production replay: BitmapText submitted glyph geometry, texture bindings and RGBA (live text content is compared)"
+      ]
+    },
+    {
+      "directory": "pernicious-deed-after01",
+      "exit_code": 1,
+      "runtime_seconds": 281.6042431999813,
+      "execution": {
+        "case": "pernicious-deed",
+        "command": [
+          "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync\\e75a49946a63844a\\out\\full_song_lua-e75a49946a63844a.exe",
+          "--archive",
+          "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\native\\e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9.tar.zst",
+          "--report",
+          "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\pernicious-deed-after01\\report.json",
+          "--production"
+        ],
+        "cwd": "C:\\GitHub\\deadsync",
+        "started_at": "2026-11-20T00:34:35.225116+00:00",
+        "timeout_seconds": 900,
+        "binary_sha256": "db462d6906c1c904b7a786483e0719d09cc7fb120d73a9bf0df12ed3da7a1e25",
+        "git_head": "0e7e0fb6dfe1981edc02a96664333d33eda1dd03",
+        "interactive_source_sha256": "ff447d60979e8899e61f5042c9fa96cd012ef19c85d220722f6792191cbc7781",
+        "source_diff_sha256": "50ac99bff6dc7caee59457c3f4c78724568965d935f6449ffc1ff3cf060b0425",
+        "archive_sha256": "e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9",
+        "archive_bytes": 144404616,
+        "exit_code": 1,
+        "runtime_seconds": 281.6042431999813,
+        "finished_at": "2026-11-20T00:39:17.577113+00:00",
+        "reports": {
+          "invocation.json": {
+            "bytes": 1052,
+            "sha256": "f0f28993875a84e13aa05df76be667e6bc995628dc637d0cc4ad4fef04b1b0f2"
+          },
+          "stderr.log": {
+            "bytes": 7547,
+            "sha256": "0a3b342f440023c81ef31aaee51a4010c5aee3a6d63c0275d52c90fa7901529e"
+          },
+          "stdout.log": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        }
+      },
+      "report_written": false
+    },
+    {
+      "directory": "pernicious-deed-before-removal-prefix",
+      "exit_code": 2,
+      "runtime_seconds": 305.7259420999908,
+      "execution": {
+        "case": "pernicious-deed-before-removal-prefix",
+        "binary_identity": {
+          "binary_sha256": "db462d6906c1c904b7a786483e0719d09cc7fb120d73a9bf0df12ed3da7a1e25",
+          "git_head": "0e7e0fb6dfe1981edc02a96664333d33eda1dd03",
+          "interactive_source_sha256": "ff447d60979e8899e61f5042c9fa96cd012ef19c85d220722f6792191cbc7781",
+          "source_diff_sha256": "50ac99bff6dc7caee59457c3f4c78724568965d935f6449ffc1ff3cf060b0425",
+          "source_executable": "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync\\e75a49946a63844a\\out\\full_song_lua-e75a49946a63844a.exe",
+          "retained_executable": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\baseline-before-amv-and-wrapper-fixes\\full_song_lua.exe",
+          "bytes": 49568768,
+          "source_execution_receipt": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\typed-aft-uv-after01\\execution.json",
+          "source_execution_receipt_sha256": "efc00cc7790dc1a059c126b9859b57bde5e4c4fc025bf7eaaec430f048972c74"
+        },
+        "command": [
+          "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\baseline-before-amv-and-wrapper-fixes\\full_song_lua.exe",
+          "--archive",
+          "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\native\\e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9.tar.zst",
+          "--report",
+          "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\pernicious-deed-before-removal-prefix\\report.json",
+          "--through-second",
+          "320"
+        ],
+        "cwd": "C:\\GitHub\\deadsync",
+        "scope": "diagnostic prefix through first recorded frame at or after 320 seconds; cannot accept archive",
+        "archive_sha256": "e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9",
+        "started_at": "2026-11-20T00:46:57.488609+00:00",
+        "timeout_seconds": 900,
+        "exit_code": 2,
+        "runtime_seconds": 305.7259420999908,
+        "finished_at": "2026-11-20T00:52:03.215622+00:00",
+        "files": {
+          "invocation.json": {
+            "bytes": 1766,
+            "sha256": "2569238eda7f80ebcb4ff73d9090b2db51518cfc72561b529a32c7a5776a9342"
+          },
+          "report.json": {
+            "bytes": 101375903,
+            "sha256": "15c9e7d672564dfa487d2476ccc61bf5e542b66752657f40e92d95c2e82a4462"
+          },
+          "stderr.log": {
+            "bytes": 32309,
+            "sha256": "ba7d26d126f707d6e06794f75406028ee4e20a56740f74164bf3a383f877b699"
+          },
+          "stdout.log": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        }
+      },
+      "report_sha256": "15c9e7d672564dfa487d2476ccc61bf5e542b66752657f40e92d95c2e82a4462",
+      "scalars": {
+        "diagnostic_only": true,
+        "whole_song_parity_proven": false,
+        "archive_accepted": false,
+        "execution_path": "diagnostic-live-lua",
+        "production_preparation_exercised": false,
+        "production_parity_proven": false,
+        "scope": "through-second",
+        "through_second": 320.0,
+        "native_trace": "C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmpoKNXKy\\trace/semantic.json",
+        "source_simfile": "C:\\Users\\PERFEC~1\\AppData\\Local\\Temp\\.tmpoKNXKy\\song\\deed.sm",
+        "native_frames": 7447,
+        "replayed_frames": 7073,
+        "replayed_scenes": 1,
+        "checked_stage_samples": 338,
+        "compared_stage_fields": 34309,
+        "fixture_sha256": "e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9",
+        "fixture_path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\native\\e909208ae5d1a021e5cea40158a7cb31a25dfccea3e62bdb9c4106ebc16e58e9.tar.zst"
+      },
+      "coverage_counts": {},
+      "errors": [
+        "scene 1, update 6306: update function for ActorFrame 'luafield_update' at beat 668.385: line 534: [string \"C:/Users/PERFEC~1/AppData/Local/Temp/.tmpoK...\"]:534: attempt to perform arithmetic on upvalue 'wavemodheight' (a nil value)",
+        "scene 1, update 6928: line 1667: [string \"C:/Users/PERFEC~1/AppData/Local/Temp/.tmpoK...\"]:1667: native actor method RemoveWrapperState has no semantic implementation"
+      ],
+      "mismatch_count": 20032,
+      "mismatches_by_field": {
+        "submitted_clip_uv_color_or_topology": 54,
+        "draw_shape_resource_or_depth": 10,
+        "gameplay_seconds": 7,
+        "steps_seconds": 7,
+        "alive_seconds": 14,
+        "command_query_count": 1,
+        "command_query_event": 19939
+      },
+      "mismatches_by_actor": {
+        "def-0322": 20,
+        "def-0341": 10,
+        "def-0335": 8,
+        "def-0008[7]": 11,
+        "def-0008[8]": 11,
+        "def-0139": 1,
+        "def-0140": 1,
+        "def-0141": 1,
+        "def-0142": 1
+      },
+      "first_mismatch": {
+        "field": "submitted_clip_uv_color_or_topology",
+        "actor": "def-0322",
+        "frame": 1821,
+        "deadsync": {
+          "example_vertex": [
+            0,
+            [
+              -0.7589330673217773,
+              -0.4626323878765106,
+              -0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.7019608020782471,
+              0.0,
+              1.0,
+              0.0470588244497776
+            ]
+          ],
+          "first_actual_triangle": [
+            [
+              -0.7589330673217773,
+              -0.4626323878765106,
+              -0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.7019608020782471,
+              0.0,
+              1.0,
+              0.0470588244497776
+            ],
+            [
+              0.724938154220581,
+              0.5821365714073181,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.7019608020782471,
+              0.0,
+              1.0,
+              0.0470588244497776
+            ],
+            [
+              0.7589330673217773,
+              0.42930176854133606,
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              0.7019608020782471,
+              0.0,
+              1.0,
+              0.0470588244497776
+            ]
+          ],
+          "first_native_quad": [
+            [
+              -128,
+              -128,
+              0,
+              -1.0355474948883057,
+              0.0295107364654541,
+              0,
+              1,
+              0,
+              0,
+              0.7019607843137254,
+              0,
+              1,
+              0.047058823529411764
+            ],
+            [
+              -128,
+              128,
+              0,
+              -0.44832366704940796,
+              -0.12332403659820557,
+              0,
+              1,
+              0,
+              1,
+              0.7019607843137254,
+              0,
+              1,
+              0.047058823529411764
+            ],
+            [
+              128,
+              128,
+              0,
+              1.0355474948883057,
+              -0.06284153461456299,
+              0,
+              1,
+              1,
+              1,
+              0.7019607843137254,
+              0,
+              1,
+              0.047058823529411764
+            ],
+            [
+              128,
+              -128,
+              0,
+              0.4483236074447632,
+              0.08999323844909668,
+              0,
+              1,
+              1,
+              0,
+              0.7019607843137254,
+              0,
+              1,
+              0.047058823529411764
+            ]
+          ]
+        }
+      },
+      "pending_coverage": [
+        "complete song frame replay",
+        "uncompared song operations: Actor.AddWrapperState, Actor.GetNumWrapperStates, Actor.GetWrapperState, Actor.GetX, Actor.GetY, Actor.GetZ, Actor.GetZoom, Actor.RemoveWrapperState, Actor.accelerate, Actor.addx, Actor.addy, Actor.addz, Actor.basezoomx, Actor.basezoomy, Actor.blend, Actor.bob, Actor.bouncebegin, Actor.bounceend, Actor.cropbottom, Actor.cropright, Actor.cullmode, Actor.diffuseblink, Actor.diffuseshift, Actor.draworder, Actor.effect_hold_at_full, Actor.effectclock, Actor.effectcolor1, Actor.effectcolor2, Actor.effectoffset, Actor.fadebottom, Actor.glow, Actor.horizalign, Actor.playcommand, Actor.rotationx, Actor.rotationy, Actor.shadowlength, Actor.skewx, Actor.spring, Actor.stopeffect, Actor.stoptweening, Actor.texturetranslate, Actor.vertalign, Actor.z, Actor.zoomy, Actor.zoomz, Actor.ztest, ActorFrame.GetChildren, ActorFrame.fov, ActorFrame.vanishpoint, ActorSound.play, BitmapText.maxwidth, GameState.GetSongPosition, GameState.IsHumanPlayer, PlayerOptions.Beat, PlayerOptions.Bumpy, PlayerOptions.Distant, PlayerOptions.Dizzy, PlayerOptions.Drunk, PlayerOptions.FromString, PlayerOptions.Hallway, PlayerOptions.Invert, PlayerOptions.Mini, PlayerOptions.NoteSkin, PlayerOptions.ScrollSpeed, PlayerOptions.Tipsy, PlayerOptions.Tornado, PlayerOptions.Wave, Sprite.LinearFrames, Sprite.customtexturerect, Sprite.setstate, Sprite.texcoordvelocity",
+        "native drawable state/resources: BitmapText, Model, Quad, Sound, Sprite",
+        "missing captured subscriber identity for ScreenGameplay/2/11/1",
+        "missing captured subscriber identity for ScreenGameplay/2/12",
+        "missing captured subscriber identity for ScreenGameplay/2/15/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/2/6",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/1",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/2",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/3",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/4",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/5",
+        "missing captured subscriber identity for ScreenGameplay/2/5/3/6",
+        "missing captured subscriber identity for ScreenGameplay/2/8",
+        "missing captured subscriber identity for ScreenGameplay/25",
+        "missing captured subscriber identity for ScreenGameplay/26/1/1",
+        "missing captured subscriber identity for ScreenGameplay/26/1/10",
+        "missing captured subscriber identity for ScreenGameplay/26/1/12",
+        "missing captured subscriber identity for ScreenGameplay/26/1/2",
+        "missing captured subscriber identity for ScreenGameplay/26/1/4",
+        "missing captured subscriber identity for ScreenGameplay/26/1/5",
+        "missing captured subscriber identity for ScreenGameplay/26/1/7",
+        "missing captured subscriber identity for ScreenGameplay/26/1/9",
+        "missing captured subscriber identity for ScreenGameplay/3/1"
+      ]
+    }
+  ]
+}

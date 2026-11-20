@@ -1,0 +1,668 @@
+{
+  "schema_version": 1,
+  "local_only": true,
+  "candidate": "be576a51d3f4ea203bb1ef298f01b21c9ad4091d09f77cc371da08b26cb6a858",
+  "required_runner_sha256": "90abd15f5e2f6e15a23b33faacc83ec81bde13a2f709f095576a10ce0c8405e4",
+  "counts": {
+    "original_jobs": 1620,
+    "accounted_jobs": 1620,
+    "final_combined_accepted": 1092,
+    "whole_song_parity_proven": 0,
+    "jobs_with_pending_obligations": 108,
+    "normal_native_complete": 1381,
+    "retry_native_complete": 28,
+    "any_native_complete": 1409,
+    "final_normal_terminal_replays": 1381,
+    "final_normal_parity_failures": 161,
+    "historical_replay_attempts_excluded": 790,
+    "retry_obligations": 54,
+    "retry_obligations_terminal": 54,
+    "retry_outcomes_received": 54,
+    "normal_capture_blocked": 239,
+    "selected_retry_outcomes_received": 54,
+    "retry_attempt_obligations": 81,
+    "retry_attempt_obligations_terminal": 81,
+    "retained_retry_outcome_records": 81,
+    "retained_predecessor_failure_outcomes": 27,
+    "recovered_jobs": 2
+  },
+  "pending_counts": {
+    "resource_retry_not_in_contract": 108
+  },
+  "complete": false,
+  "all_original_jobs_accounted": true,
+  "complete_definition": "All original jobs have terminal evidence, all declared retry worker attempts are terminal, and no later resource failure or conflicting distinct final outcome remains an unplanned obligation. Complete accounting does not mean every comparison passed.",
+  "acceptance_scope": "Implemented combined diagnostic and production checks. Whole-song/pixel parity is separate and remains limited by each report's pending_coverage.",
+  "evidence_scope": "Original snapshot and retry collection receipt bytes are retained. This join performs no remote collection, artifact decompression, capture, replay, queue or VM action.",
+  "accounting_version": 4,
+  "entrypoint_sha256": "00727d4c40db987122527095a301cbe303361fb6f5d2ac485120cd444a3fe444",
+  "accepted_v3_entrypoint_sha256": "ceccb808cda542667cc9e3b0547003647bdaf48f41521394684f7725b3c86244",
+  "acceptance_helper_sha256": "200e38211417ac237496640a8f3a625d6ba3a7d53a5369b0a1b0ecd0a7fd28ab",
+  "original_all_jobs_sha256": "193410646f294890aa870647fce6d324a036a8ba33363366bc20bf5ef406ea4e",
+  "normal_snapshot_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+  "frozen_role_ids": [
+    "9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924",
+    "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3"
+  ],
+  "retry_batch_origins": [
+    {
+      "plan_sha256": "b6ce1619e570f21a68f0ae7442f9cd84eed6e78bf1524261d65434716ee2b7dd",
+      "selected_attempts_sha256": "440812f176e792d687d5d522a8ca25ca2eab80dbef6ac9f5dc89f485c00773fe",
+      "selected_ids": [
+        "4a29fa534ad8bcf0-c0001",
+        "b7d3c53da9a1e2c7-c0004",
+        "eb7d5a89defeeb31-c0004",
+        "10fe9862c1cf88c3-c0001",
+        "33094275d983528c-c0004",
+        "7a0708216dd461ad-c0001",
+        "aaab488db8418699-c0004",
+        "9bb0eb4860a33838-c0004",
+        "b7d3c53da9a1e2c7-c0009",
+        "1785c610a0e603b0-c0001",
+        "bdabd7d478d076be-c0001",
+        "02d24424431a0192-c0002",
+        "33094275d983528c-c0002",
+        "eb7d5a89defeeb31-c0007",
+        "33094275d983528c-c0006",
+        "b926c3deb95e7e71-c0001",
+        "eb7d5a89defeeb31-c0002",
+        "02d24424431a0192-c0005",
+        "33094275d983528c-c0005",
+        "715ba44e314f2f6e-c0002",
+        "b7d3c53da9a1e2c7-c0002",
+        "e94e772c9c642cc1-c0001",
+        "eb7d5a89defeeb31-c0003",
+        "02d24424431a0192-c0004",
+        "4de9b431020a116f-c0001",
+        "6a3e1a6f93bdc9fc-c0002",
+        "7a0708216dd461ad-c0004",
+        "9bb0eb4860a33838-c0009",
+        "dc9e8daaac4c80d4-c0001",
+        "02d24424431a0192-c0003",
+        "2425740743793832-c0004",
+        "6a3e1a6f93bdc9fc-c0001",
+        "7a0708216dd461ad-c0003",
+        "02d24424431a0192-c0006",
+        "02d24424431a0192-c0001",
+        "33094275d983528c-c0001",
+        "715ba44e314f2f6e-c0001",
+        "7a0708216dd461ad-c0005",
+        "ae9d75910258857a-c0001",
+        "d9e2e362f6f34713-c0004",
+        "eb7d5a89defeeb31-c0001",
+        "21eaa41a3c242538-c0001",
+        "7a0708216dd461ad-c0002",
+        "9bb0eb4860a33838-c0002",
+        "ae9d75910258857a-c0002",
+        "cfa9d731a57116f9-c0004",
+        "7a0708216dd461ad-c0006",
+        "e94e772c9c642cc1-c0002",
+        "f66b808b28f70200-c0001",
+        "272cbdbb21a302b2-c0001",
+        "33094275d983528c-c0003",
+        "3f7a546d6574982b-c0002",
+        "67053c6979c0becb-c0001",
+        "6a7674e03615eb2e-c0001"
+      ],
+      "mode": "exact-replay-only-removal-projection",
+      "original_source_sha256": "d1cfd6e88b6ce95e9fc12c378c2d09651efd4d4c5cfdb9d336bcdd2e62d8d915",
+      "planning_source_sha256": "fcab8412bd2640ff4a7cdaa11dbe56f69a2a033946a8225398340431002665a4",
+      "removed_replay_entries": 747,
+      "proof_scope": "Actual original and projection data compared; unrelated ledger metadata is not used for accounting acceptance."
+    },
+    {
+      "plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50",
+      "selected_attempts_sha256": "7538329bd0e2358390294a102a9a895ca2018dfeb51eeddf2cda818c76bb0c2f",
+      "selected_ids": [
+        "4a29fa534ad8bcf0-c0001",
+        "10fe9862c1cf88c3-c0001",
+        "33094275d983528c-c0004",
+        "1785c610a0e603b0-c0001",
+        "02d24424431a0192-c0002",
+        "33094275d983528c-c0002",
+        "33094275d983528c-c0006",
+        "02d24424431a0192-c0005",
+        "33094275d983528c-c0005",
+        "715ba44e314f2f6e-c0002",
+        "02d24424431a0192-c0004",
+        "4de9b431020a116f-c0001",
+        "6a3e1a6f93bdc9fc-c0002",
+        "02d24424431a0192-c0003",
+        "2425740743793832-c0004",
+        "6a3e1a6f93bdc9fc-c0001",
+        "02d24424431a0192-c0006",
+        "02d24424431a0192-c0001",
+        "33094275d983528c-c0001",
+        "715ba44e314f2f6e-c0001",
+        "21eaa41a3c242538-c0001",
+        "7a0708216dd461ad-c0002",
+        "272cbdbb21a302b2-c0001",
+        "33094275d983528c-c0003",
+        "3f7a546d6574982b-c0002",
+        "67053c6979c0becb-c0001",
+        "6a7674e03615eb2e-c0001"
+      ],
+      "mode": "exact-replay-only-removal-projection",
+      "original_source_sha256": "d1cfd6e88b6ce95e9fc12c378c2d09651efd4d4c5cfdb9d336bcdd2e62d8d915",
+      "planning_source_sha256": "fcab8412bd2640ff4a7cdaa11dbe56f69a2a033946a8225398340431002665a4",
+      "removed_replay_entries": 747,
+      "proof_scope": "Actual original and projection data compared; unrelated ledger metadata is not used for accounting acceptance."
+    }
+  ],
+  "role_plan_bindings": [
+    {
+      "role_id": "9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924",
+      "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50",
+      "role_plan_sha256": "3c46e790679e7b6bf56eacef482cc060899c0e274a3ea87c39cac050d14ee7b9"
+    },
+    {
+      "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+      "retry_plan_sha256": "b6ce1619e570f21a68f0ae7442f9cd84eed6e78bf1524261d65434716ee2b7dd",
+      "role_plan_sha256": "93cfc8b5b22573b7b1ba078812e38083e5f86fda4b27934c27f0550544ffe8d5"
+    }
+  ],
+  "planner_assignment_bindings": [
+    {
+      "attempts_sha256": "1dd8d6b29f039e446435e5a823435b917942fd3ef7c0805dd08d817ddbc453b9",
+      "jobs_sha256": "241a92d04c45ab51c5da6b4cb2d72b106a23667af140a16589ded676d952cc77"
+    },
+    {
+      "attempts_sha256": "373fbe7de013938e452210b8b546ef05d265fda3fa8c4547f37be48cba59e5cd",
+      "jobs_sha256": "2bb1284e3a053e9383ca7ba4d18796dcb22e9278e53fe39276ca6517595adfef"
+    },
+    {
+      "attempts_sha256": "465cbbe01fd2368d046ad3004123928214f492ae744b42bf1cdd897fa0fa2548",
+      "jobs_sha256": "1f8eef8e54735155ee6a8c57b388b80bee3e445f2beba725744fc121215bfad9"
+    },
+    {
+      "attempts_sha256": "5e0227add3a0b1cc1e155cf9a658ebdfab27882fa7d2841fa674bf307608dede",
+      "jobs_sha256": "24bc91f49eb79e19e153cf7eb44e23add371d4311d825e55bc07a11583e814c5"
+    },
+    {
+      "attempts_sha256": "64036b6d0f4817b8f935376409a0ddf4964104dd16e6c85e630d73355fd9f17d",
+      "jobs_sha256": "0af553007dac0878996936dabdbbed0dcedd70b75b4a1ad05f9da5a1db35013a"
+    },
+    {
+      "attempts_sha256": "82166f3de6b8aaf6830f95aa9b6f8504f5e1919867586982836e634300dff242",
+      "jobs_sha256": "371096ba9847bde2142f39befa631bf52223079ae8b5679d13a85e3709065667"
+    },
+    {
+      "attempts_sha256": "bd4d619616870c2780f5e0af9710c469e68a9082416aa34914430c64fc6e0e4b",
+      "jobs_sha256": "5b27f6541856327ea72827bec9683a6754d07eaf8b6ef079d46829f76407bae3"
+    },
+    {
+      "attempts_sha256": "e0772b816e6c3a73567e7fa67c350edf4bc40641c76def18b0b09c16740c5ecd",
+      "jobs_sha256": "631d9a7485808fba1370fd799c9ba95c8095cea003f737e2e7cc692ca2905407"
+    },
+    {
+      "attempts_sha256": "f2f9a64881b2518702a778bba8e1a10371712f29242247d4b2258316fa153b46",
+      "jobs_sha256": "b604b8c4c3827356b38c3d3e7e3109c41fd2abdeefbe5399610fde1a360b5a8e"
+    }
+  ],
+  "recovery_policy": "explicit-x11-startup-recovery-v1",
+  "recovery_links": [
+    {
+      "job_id": "4a29fa534ad8bcf0-c0001",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "fcceecac4b5fb60c5c2614aadbd706f23646bb0aa8c7eb80ff5063a1a400c346"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "7139d79e13a7aac4d87e38dd322cbeb7e457cbaf8f722dfb7bdc7d5164f558b8",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "10fe9862c1cf88c3-c0001",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "2cabb47d92cdcaf9c8f2a244a265671663394682940fa0a0b9c5b1e53f105695"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "86f55a87b5c66fd870aa4d71732f23298602fff9af0f2dc36b3819e39db56117",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "33094275d983528c-c0004",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "6a0cc9d27c23f52bbf5868d354a53dc662e4053e9d72657ec2e726973a68f3e8"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "7bf06d427642cab996c9a65f32e27e7199ecb59e04affead5738505fca1c6832",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "1785c610a0e603b0-c0001",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "d957ab98919bc75d1801ecdb79f82449bfccc58649c7e65c45a247e1e76e0c40"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "7852807e71a114a2c325a308cf990598e0976cc7ec4e342d23e68472377a6a14",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "02d24424431a0192-c0002",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "f58445e352bd79f3853cd5639575b6408e7b05f4c7e0118c1c95376889e7465a"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "0d3e5d7dea75b64207f1eee5b91dcf70a6b91f02480e3bddd1ba4d4ffb3501f8",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "33094275d983528c-c0002",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "68b8b589df4e03e018fbb950e01e523605af7ec10d01ee6d5239b81aa048d59f"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "23ea9d30e868c467f557b9f888a011cec2f323f4724c95d50c88745684ff9234",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "33094275d983528c-c0006",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "dd2d424c4a980e6f7efb3cd14a1c33efb0fca5b4875d11ab3ee8fb108371e121"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "f373cdb2dc4371239203e3fa702f738ea54182f5965fb735b07857c4e03bb99e",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "02d24424431a0192-c0005",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "7d46580aab4e6b2f8519fdaf8998ad944928a5bf2cb6ca73c5a282f8c38c9625"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "ed8afbf08d1be768c446b10e1b1f97ac88847a5865cd6d3c385483f393cdada7",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "33094275d983528c-c0005",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "f66f88b12fbf5b9f91ac4629421d3c49535591ac59fbcc9ac7c2dfd90f4d41cc"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "458ecdcf89695bcf4b802a1ddc07e33b7fa45bb6a0eca8d7a66d02c7b5afaabc",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "715ba44e314f2f6e-c0002",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "547ab7852077cc95afe1ffa30acffe93249ea0eaa5002712bdb677a8de63443e"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "2cf4964e86a44c7e5fcdfe52e6800ffebaf43e5202062f8b0670528925a0a817",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "02d24424431a0192-c0004",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "92a4cbd7e6a27519632456464218a80fd487bcb4ac64ecbd88636e8298bf3504"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "17c693f3c6e2ad2741dc63f37ae06185e9983c38dfbced57bae7e550a492d141",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "4de9b431020a116f-c0001",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "a6bd7899114f093daa71948ac3efd824cecdac37593c50f888ea9f9fdafa625d"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "7aa6a1976e6137a28d7f6ab81c358593be36d6308ede3ea0648555b24ce4ed35",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "6a3e1a6f93bdc9fc-c0002",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "ba28d857c30168e06e91b4460e71534f8072733a55144ce61b27a23e6ae3ad5a"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "f6a4eedd481534273aa301ba52362b10333d286ed0af7ce8ea79c0ec497d7cd5",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "02d24424431a0192-c0003",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "1ef6e93e630b4b9f6abb3e4269241275420ddcf8ae819d021040c623a0b8c399"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "2140aa17525342f92fad69130e5fddc54ae94178026bbb7b1d06057769900173",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "2425740743793832-c0004",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "83a1f913f2dc8db8eb9b3eccebd35697143694eeffbd385456fe31353d7e08a1"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "1bf00ee413c34eedaf163e023d0267ed38b4e0460c10e3c7cf0d6d3b1aae136a",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "6a3e1a6f93bdc9fc-c0001",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "db4c36461ba638e8f0edd0ad738e4dac94dcfd89ac88866428a8ee58c0030c05"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "cf4e7a33f3fbf191c31665d6b687e8004377d4596892a1215ab27efa1b278500",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "02d24424431a0192-c0006",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "01ab91252b58f4d67ee8d7bf90ccfaccfbce91cf51c386c965822fe6c099fa21"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "fd516f577c445115b5b7b95a23a0b3aa38ce65f6f798fda8279a477ed1b8f7e3",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "02d24424431a0192-c0001",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "1d11ff0168fe7386d3e9d13919c0b871b2a72c69e9a4225bb889e5873273a8b0"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "2b3a87cf02a3b96d8c61d9126643feb31c0b3c518ff6ca765104c832367ed9d4",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "33094275d983528c-c0001",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "ad85de002199cb5a38b34649336a705d0c895d476d7651a45fd54fb416189817"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "436f28c91b4a538f403786065f7476acfabd439185615e6e2d62d3e0f411dab9",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "715ba44e314f2f6e-c0001",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "5e5832559579629af21aed90abcc3c4bd4102738da4346ad2eb992c7e12927a1"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "481194a951b512fa281fe1ccd16176accf3609c1faefa0250cff8b39f221fb96",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "21eaa41a3c242538-c0001",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "5c47ad15b3bb08b9c77bcc69cd748b072147531872a63a314cb3ef7ef1ac9c98"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "23ec78ece0eded97c28bc0da0b1d82956ce1f5978cf63b5a08ee8541afa4a1de",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "7a0708216dd461ad-c0002",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "2557da685b24492571f46b8d1149a31ca5728cd41defd8657ddff1569f6041c9"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "a2385d88f6fdd726fcff43eb53ef146394e97c64b18fb541d373ee42f88190bc",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "272cbdbb21a302b2-c0001",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "db952b01278f0e386eabf3d85f57bbd8792d2200dd8d4286471c9bb7e0f8d050"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "5cce823f4f017883f9c54e5732123e36019b6f09c958ba1794cedb2b92bd1f82",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "33094275d983528c-c0003",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "bc87363b733d2614fb6bc685b71a6cd4ae91f9e41b1270add65f18c7d1d91f11"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "f05df237176b86459ae5f565b05c25fe6a3f24a835c1eb87ee3e0d805de3f5cd",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "3f7a546d6574982b-c0002",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "0604da730ca26b0b4e84d370cee48098a1c0b7d611b2120328be665065eea3d0"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "199458239a16f8fcb521fbe42050fdc23e786f4c272cd142b2136153e90b9845",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "67053c6979c0becb-c0001",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1503,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "39e690a55be569199eb4d6647231009cecd4be571913b55a6472d723a8938e2a"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "91e13ced104c097df8ee539fa4debcbc058c268277eda9c2240398bc1fcb4c6c",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    },
+    {
+      "job_id": "6a7674e03615eb2e-c0001",
+      "predecessor": {
+        "role_id": "e2d6f0ac5da66363528234ce0a956331d9852d06d2eba16f77d16b3dcc9839e3",
+        "vmid": 1505,
+        "collection_sha256": "ab1dc5c6a921f4696a6428ac1b6d85c97123e69e43cdfc9c41c7807cf3e9967a",
+        "outcome_sha256": "a0987b847046c533526ef3b46fcd48342d64d3b3c7bd3237ad6ebd2a911add7a"
+      },
+      "successor": {
+        "retry_plan_sha256": "5fa750b2b03c58ff41f0543f63d987ffe409e0aa709f8521a3e6cb06e8024d50"
+      },
+      "diagnosis_sha256": "76df60afea3c6e511ce53f29edbc1becf2eb58381b67a27719526bd36cbe347c",
+      "repair_reason_sha256": "1d9d1a4d88fd519509cdfdd68208f4ae130ea235244225f1494e080922c0f0b8",
+      "native_log_sha256": "a05ed761eaf0f1d0712db89aea917da1b634abc46ecf5c2ba91d25d3030e1d56",
+      "scope": "Repair evidence explains the new attempt; it never changes prior outcome bytes or supplies replay acceptance."
+    }
+  ],
+  "retry_outcome_status_counts": {
+    "capture_error": 27,
+    "native_lua_or_setup_error": 20,
+    "replay_resource_limit": 10,
+    "pass": 5,
+    "replay_error": 13,
+    "capture_resource_limit": 4,
+    "capture_validation_or_infrastructure_error": 1,
+    "capture_timeout": 1
+  },
+  "selected_retry_outcome_status_counts": {
+    "replay_error": 13,
+    "native_lua_or_setup_error": 20,
+    "capture_resource_limit": 4,
+    "replay_resource_limit": 10,
+    "pass": 5,
+    "capture_validation_or_infrastructure_error": 1,
+    "capture_timeout": 1
+  },
+  "recovery_scope": "All attempts retain unchanged v3 validation. Only an explicitly linked declared successor selects the final outcome; missing or incomplete successors remain pending. Repair evidence never supplies acceptance.",
+  "recovery_manifest_sha256": "de36ec73cb8770835343f9b3b292a5be62415915782c742b39d766c902ba4c39",
+  "helper_sha256": "200e38211417ac237496640a8f3a625d6ba3a7d53a5369b0a1b0ecd0a7fd28ab",
+  "dependency_sha256": "8b3cd509f79dc71577b44e301a2bd5f5eb4107128e4f840c6e7719a910ff616f",
+  "acceptance_source": {
+    "file": "collect_fleet.py",
+    "sha256": "fa9d5f4fae6da5ae992b74f63d7d6da7b425c157913a211c268e3ff37810bb7d",
+    "predicate": "current_record335-347 and combined acceptance414-425"
+  },
+  "report_sha256": "2a9972a9f6d71644bdd80c8a1201b5f18851cb2809ffd18ffeb6417949237802",
+  "rows": 1620,
+  "retained_inputs": 36
+}

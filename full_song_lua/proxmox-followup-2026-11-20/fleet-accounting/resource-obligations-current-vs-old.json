@@ -1,0 +1,3217 @@
+{
+  "old_checkpoint_ledger": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-partial-20261119T120345-new27-role9458\\accounting.json.gz",
+    "sha256": "4e7103ed37b33a217c90050bcc6e3b835cf5f810807d725007deb86304dc3912",
+    "bytes": 1581680
+  },
+  "current_accounting_ledger": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-role9458-terminal-20261120T010139.145403Z\\accounting.json.gz",
+    "sha256": "2a9972a9f6d71644bdd80c8a1201b5f18851cb2809ffd18ffeb6417949237802"
+  },
+  "old_outside_contract_jobs": 100,
+  "current_outside_contract_jobs": 108,
+  "unchanged_ids": [
+    "05f550917c3e16a7-c0001",
+    "05f550917c3e16a7-c0002",
+    "05f550917c3e16a7-c0003",
+    "05f550917c3e16a7-c0004",
+    "05f550917c3e16a7-c0006",
+    "05f550917c3e16a7-c0007",
+    "05f550917c3e16a7-c0008",
+    "161f4d2f8468456f-c0001",
+    "161f4d2f8468456f-c0002",
+    "199056062f473784-c0001",
+    "1997e5079771b197-c0002",
+    "1e5fae5bb7c02f97-c0001",
+    "2425740743793832-c0001",
+    "2425740743793832-c0003",
+    "2ac31dad727e6303-c0001",
+    "2ac31dad727e6303-c0002",
+    "2ac31dad727e6303-c0003",
+    "2b3fdf8ac5d5ea89-c0001",
+    "2b3fdf8ac5d5ea89-c0002",
+    "2c6a61d8e963a44b-c0001",
+    "2c6a61d8e963a44b-c0002",
+    "2c6a61d8e963a44b-c0003",
+    "2c6a61d8e963a44b-c0004",
+    "34658d32935856e2-c0001",
+    "3ed87baea8fc010d-c0001",
+    "3ed87baea8fc010d-c0002",
+    "3ed87baea8fc010d-c0003",
+    "3ed87baea8fc010d-c0004",
+    "3ed87baea8fc010d-c0005",
+    "3ed87baea8fc010d-c0006",
+    "43d599e70839d1b5-c0001",
+    "49ec0d0c00dfc584-c0001",
+    "4e708b3e9cb3bdda-c0001",
+    "4e708b3e9cb3bdda-c0002",
+    "4f4295d0ebf3f89d-c0001",
+    "51701b0b07bd778e-c0001",
+    "51701b0b07bd778e-c0002",
+    "51701b0b07bd778e-c0004",
+    "5cbc2bfa91cfbe0b-c0001",
+    "5cbc2bfa91cfbe0b-c0004",
+    "5e06cad06be50156-c0001",
+    "5e06cad06be50156-c0002",
+    "5e06cad06be50156-c0003",
+    "5e06cad06be50156-c0004",
+    "5e06cad06be50156-c0005",
+    "5e06cad06be50156-c0006",
+    "5e06cad06be50156-c0008",
+    "5f7ffff1f1a85dec-c0001",
+    "66b88be3e6504487-c0001",
+    "6a232e8676f57129-c0001",
+    "6a232e8676f57129-c0002",
+    "6a3f4f26b2753004-c0001",
+    "6a5cc91dd2a10862-c0001",
+    "6ea6105f433bbd84-c0001",
+    "6ea6105f433bbd84-c0004",
+    "70a79b979b3df07b-c0001",
+    "72ce74211a93b7e2-c0002",
+    "74d97529575b9032-c0001",
+    "750815a1a10fd90a-c0001",
+    "791c76d0271ff9e3-c0001",
+    "791c76d0271ff9e3-c0002",
+    "7fa17005f2a1fbae-c0001",
+    "83dd6e5b0d55c8ae-c0001",
+    "85a120c688e14906-c0001",
+    "85a120c688e14906-c0002",
+    "8b467495833c9923-c0001",
+    "93d4cdfb2970d034-c0006",
+    "9bb0eb4860a33838-c0008",
+    "a8f1f1d4ddf084d6-c0001",
+    "aa110bbb4b97b8a4-c0002",
+    "aaab488db8418699-c0001",
+    "aaab488db8418699-c0003",
+    "ade709b3e4efeb3a-c0001",
+    "af4e305b129581cc-c0002",
+    "b43c3fe283366b02-c0001",
+    "b7d3c53da9a1e2c7-c0008",
+    "c17d988fdfa4949d-c0001",
+    "cdb3faa216e1adfc-c0001",
+    "cdb3faa216e1adfc-c0002",
+    "cdb3faa216e1adfc-c0003",
+    "cfa9d731a57116f9-c0001",
+    "cfa9d731a57116f9-c0003",
+    "d9e2e362f6f34713-c0001",
+    "d9e2e362f6f34713-c0003",
+    "db9513346beb70c8-c0001",
+    "df77da725142dca5-c0003",
+    "df77da725142dca5-c0004",
+    "df77da725142dca5-c0005",
+    "df77da725142dca5-c0006",
+    "e115c0f3019c18b4-c0001",
+    "e381d04b2fe57f84-c0005",
+    "e381d04b2fe57f84-c0006",
+    "e381d04b2fe57f84-c0007",
+    "e45d82d551ea7a28-c0001",
+    "eaa951c92c901721-c0001",
+    "eb7d5a89defeeb31-c0005",
+    "eb7d5a89defeeb31-c0006",
+    "eb7d5a89defeeb31-c0008",
+    "eea1a28876f13bbb-c0001",
+    "f38a2b418ee7b043-c0006"
+  ],
+  "added_ids": [
+    "05f550917c3e16a7-c0005",
+    "1997e5079771b197-c0001",
+    "255308d88d7d6605-c0002",
+    "72ce74211a93b7e2-c0001",
+    "7666d9897cac1286-c0001",
+    "82dbf1390bb50291-c0001",
+    "9a7dc9dd696c05ad-c0001",
+    "d3aa73c0f2f94a22-c0001"
+  ],
+  "resolved_ids": [],
+  "current_rows": [
+    {
+      "job_id": "05f550917c3e16a7-c0001",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1504,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/05f550917c3e16a7-c0001/capture-f0523c509f4ac3ecd356-001/capture-result.json",
+            "original_bytes_sha256": "7501245283dd7c1b0e721304bfbafc6b107afa3cb24ed3e6b3a734ec0b397a63"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0002",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1511,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/05f550917c3e16a7-c0002/capture-783861a37e14b63a283f-001/capture-result.json",
+            "original_bytes_sha256": "1ada8067d6010db0e08b10aba005ec0c2ff6b06fa56e98cf634ef2a6c7041a00"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0003",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1509,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/05f550917c3e16a7-c0003/capture-fccbbc7a708cb001d651-001/capture-result.json",
+            "original_bytes_sha256": "be17be9c996cc1fbb69ab38a11a5aca1ff525ae53ab16d203dbfe497af3159b6"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0004",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1508,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/05f550917c3e16a7-c0004/capture-1711dc04a64ef8ece4cd-001/capture-result.json",
+            "original_bytes_sha256": "9ba39bbb4662beb5d4e8b45acafbba464a9050c5842dd8d1e2129abd86343935"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0005",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1505,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/05f550917c3e16a7-c0005/capture-327640bece790574a9a3-001/capture-result.json",
+            "original_bytes_sha256": "b912f1af9d755ac2164fffd6ce94b16132cfe1717d9f1bd14c342fa93ae38ebe"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0006",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1504,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/05f550917c3e16a7-c0006/capture-0a62f34098e8beb83131-001/capture-result.json",
+            "original_bytes_sha256": "6e81680bba6772548e7dfcacee1aa18f5c08c765a6ab6ba0690f679e91e27ef7"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0007",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1511,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/05f550917c3e16a7-c0007/capture-f7550f3998a95eec2069-001/capture-result.json",
+            "original_bytes_sha256": "c22eed7034dd7d71915c50ba64c22240a551e72467121595ec8667c1457b352a"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0008",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1502,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/05f550917c3e16a7-c0008/capture-1475d91ab62ac37fcf97-001/capture-result.json",
+            "original_bytes_sha256": "804f55c803e9bae497749ac771a0095ff139aacdd99e094aa0f89906f1eacf3f"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "161f4d2f8468456f-c0001",
+      "source_simfile": "Shooting Love/Shooting Love.ssc",
+      "original_vmid": 1510,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/161f4d2f8468456f-c0001/capture-c60cb83ea8dac3786909-001/capture-result.json",
+            "original_bytes_sha256": "2df3c3e0d5d8a3c6c042ab21f9d8601809961231b71762cec1c7803902c55b9e"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/161f4d2f8468456f-c0001/capture-c60cb83ea8dac3786909-001/replay-0d68f5d0c69ebe957564/result.json",
+            "original_bytes_sha256": "313cf288a7c4bf1f247ecc00b20db88b522016a9cc037e975d5b31e789aa0adc"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "161f4d2f8468456f-c0002",
+      "source_simfile": "Shooting Love/Shooting Love.ssc",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/161f4d2f8468456f-c0002/capture-b6b54811124e628270a7-001/capture-result.json",
+            "original_bytes_sha256": "d14d4d3adde72b87fde7dde24ee00feeda03ee4010596afa10fd3dcee4b31fe0"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/161f4d2f8468456f-c0002/capture-b6b54811124e628270a7-001/replay-61d47ea4db9b0bf9f816/result.json",
+            "original_bytes_sha256": "f2a65f5350125aa3b11b0ad105dd4f52d8e98de491c3b3d73bddddf1644899b1"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "199056062f473784-c0001",
+      "source_simfile": "Rayc Fire 2 (SM5)/Rayc Fire 2.sm",
+      "original_vmid": 1509,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/199056062f473784-c0001/capture-05191836e6654a276fab-001/capture-result.json",
+            "original_bytes_sha256": "f6ccd26769e5f4e087e43e62c608009ab3abafeba37e8ca51a88c7f37fe0446f"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/199056062f473784-c0001/capture-05191836e6654a276fab-001/replay-986de935e2b5d309b1bc/result.json",
+            "original_bytes_sha256": "a6e1ec015fcc23a316f567e785b81a4384b5915c0069ae2a196d42c0021f56e8"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "1997e5079771b197-c0001",
+      "source_simfile": "__variants__/rework/Jumper/Jumper.sm",
+      "original_vmid": 1503,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/1997e5079771b197-c0001/capture-f1f269c1d9a5e93b22f2-001/capture-result.json",
+            "original_bytes_sha256": "d50727ea89e9d6e98e42807ea59f4048154e2e9e077c5c14b882e8cf777e91c2"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "1997e5079771b197-c0002",
+      "source_simfile": "__variants__/rework/Jumper/Jumper.sm",
+      "original_vmid": 1506,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/1997e5079771b197-c0002/capture-14a8619803c456e85b4f-001/capture-result.json",
+            "original_bytes_sha256": "82944865b53d526a74d1abfa886f85fd9c12181e75d6a657134b3717899e1e2d"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "1e5fae5bb7c02f97-c0001",
+      "source_simfile": "Chipsqueak/chipsqueak.sm",
+      "original_vmid": 1506,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/1e5fae5bb7c02f97-c0001/capture-47eaf14d011ef616885b-001/capture-result.json",
+            "original_bytes_sha256": "c63e8b8d2beecca6e5861ce2264e2df6c5c29532758e68a87e837992a4720348"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/1e5fae5bb7c02f97-c0001/capture-47eaf14d011ef616885b-001/replay-80623b60efe7f2fa07c1/result.json",
+            "original_bytes_sha256": "d199fb3a8fdc1dfa820f12508ed3c89a9f5c731ea5b37d92170b3ba9f0ebcc97"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2425740743793832-c0001",
+      "source_simfile": "__variants__/rework/kaboooooom!/KABOOOOOM!!!!.sm",
+      "original_vmid": 1511,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2425740743793832-c0001/capture-7f8732edfdec8682996a-001/capture-result.json",
+            "original_bytes_sha256": "a6cfb5ccd9be6336c607a9a7f3a1b580fd5d328294a369d478a7d1c530b83379"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2425740743793832-c0001/capture-7f8732edfdec8682996a-001/replay-4f30b4f26faa90111c3f/result.json",
+            "original_bytes_sha256": "99f6132a5f3d4f0877f664b751afdd921ee4c90f2c00e169926c42f860938560"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2425740743793832-c0003",
+      "source_simfile": "__variants__/rework/kaboooooom!/KABOOOOOM!!!!.sm",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2425740743793832-c0003/capture-5e9fd153fd0df87aa62c-001/capture-result.json",
+            "original_bytes_sha256": "082f663121c89cc6b8269a6e0e789d49b0bd42a058bb0b6c0845741353e63d3f"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2425740743793832-c0003/capture-5e9fd153fd0df87aa62c-001/replay-d7f15cb34c26ce8fe12c/result.json",
+            "original_bytes_sha256": "d355d4371bf27adff8d240a919c6d0ebb048dece2e690b10cddefb3426729f20"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "255308d88d7d6605-c0002",
+      "source_simfile": "Planet Calling/Planet Calling.ssc",
+      "original_vmid": 1505,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/255308d88d7d6605-c0002/capture-44763c01411200d2e3c0-001/capture-result.json",
+            "original_bytes_sha256": "91b6bd2197a070c455ca3baab6288a137c71442f62aaa9b60feca47c400d01a8"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/255308d88d7d6605-c0002/capture-44763c01411200d2e3c0-001/replay-9c61f511713cea84da28/result.json",
+            "original_bytes_sha256": "d1c97c255962c41e9bcf3ca6579e57d597242d08d8e9382211547fc670e5580b"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2ac31dad727e6303-c0001",
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.ssc",
+      "original_vmid": 1506,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2ac31dad727e6303-c0001/capture-8bdee04720e013fac576-001/capture-result.json",
+            "original_bytes_sha256": "4b2412b6a43af06bffab2f420f48b682cdba15e6d17e96390a0d1f4a89c00053"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2ac31dad727e6303-c0001/capture-8bdee04720e013fac576-001/replay-c522711846f2d8e0742d/result.json",
+            "original_bytes_sha256": "647c02420863124d2f262c673b44209d3b5ed266d8800f59c2f5e58bc8288e2d"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2ac31dad727e6303-c0002",
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.ssc",
+      "original_vmid": 1501,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2ac31dad727e6303-c0002/capture-4dd6e1dc1d02369d9e56-001/capture-result.json",
+            "original_bytes_sha256": "3a79d5ad4d9a5a56816ab954f5937ea9e4e6cec2ef37a5aff8e804b4a38121da"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2ac31dad727e6303-c0002/capture-4dd6e1dc1d02369d9e56-001/replay-6abe03759b49a5f11532/result.json",
+            "original_bytes_sha256": "1aecfaf666861d5d6b5c514d110a208600a99b0cb2bb2835ae5a450ead334959"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2ac31dad727e6303-c0003",
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.ssc",
+      "original_vmid": 1502,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2ac31dad727e6303-c0003/capture-85e2be3e47a1a1de9189-001/capture-result.json",
+            "original_bytes_sha256": "98e0c61857acbff1d4a97d6cbedf6425c5820e010d40f4fed3e0a7073a0d10ac"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2ac31dad727e6303-c0003/capture-85e2be3e47a1a1de9189-001/replay-6bdbfd51291e45a1f99b/result.json",
+            "original_bytes_sha256": "119a4dd408691e397ff3cfc6235a4adb0b646405a8af58687e123b0973a86a9a"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2b3fdf8ac5d5ea89-c0001",
+      "source_simfile": "__variants__/rework/Jumper/Jumper.ssc",
+      "original_vmid": 1510,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2b3fdf8ac5d5ea89-c0001/capture-1ba7a54d5985754312ed-001/capture-result.json",
+            "original_bytes_sha256": "d82dd6932ca4280ed4ee0ddd3ae18642b6b7c51fe5817001e9805a5644450f35"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2b3fdf8ac5d5ea89-c0002",
+      "source_simfile": "__variants__/rework/Jumper/Jumper.ssc",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2b3fdf8ac5d5ea89-c0002/capture-dbe5db34c410ad4adab7-001/capture-result.json",
+            "original_bytes_sha256": "56349487b5e8517d458230f686bcb53d4cdce5a7d80580acbcd428375efa55e9"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2c6a61d8e963a44b-c0001",
+      "source_simfile": "I'm sorry/sm.ssc",
+      "original_vmid": 1510,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2c6a61d8e963a44b-c0001/capture-84dcb2196657f435283d-001/capture-result.json",
+            "original_bytes_sha256": "4e8a76bba542a210bfd149bb14ee0ea7a1c77d523c2247feae36dbc06f11cc35"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2c6a61d8e963a44b-c0002",
+      "source_simfile": "I'm sorry/sm.ssc",
+      "original_vmid": 1501,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2c6a61d8e963a44b-c0002/capture-cab8d1f12588428f6d8f-001/capture-result.json",
+            "original_bytes_sha256": "1922f93626c2bfab02e3d72df7fe51d09852c3ecf3a3bb757d65b66c86d6aa5d"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2c6a61d8e963a44b-c0003",
+      "source_simfile": "I'm sorry/sm.ssc",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2c6a61d8e963a44b-c0003/capture-492a3a30d9464c662095-001/capture-result.json",
+            "original_bytes_sha256": "7ccffdfbe2c1721d41dd4bf4fc65b6948ec43df786f76d1ac08124c573baf6f5"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2c6a61d8e963a44b-c0004",
+      "source_simfile": "I'm sorry/sm.ssc",
+      "original_vmid": 1514,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/2c6a61d8e963a44b-c0004/capture-4de73a2a64f10d4b0056-001/capture-result.json",
+            "original_bytes_sha256": "365673be33a3ffb108c6487225cb77ef176b5994b6d38e75086aa769df5a6b93"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "34658d32935856e2-c0001",
+      "source_simfile": "Godspeed [TaroNuke]/godspeed.sm",
+      "original_vmid": 1507,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/34658d32935856e2-c0001/capture-f5ed875bdbdc89602f46-001/capture-result.json",
+            "original_bytes_sha256": "b59f0ad911a3f384c3526435d0b293189fa57014672a0759cc65596655a5802a"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/34658d32935856e2-c0001/capture-f5ed875bdbdc89602f46-001/replay-38df5406c9a1d0e36da9/result.json",
+            "original_bytes_sha256": "63e3afeac892c9df3c3a31b5adb07ed47779d3abb0c93af1b4f3b186e94406ef"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "3ed87baea8fc010d-c0001",
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "original_vmid": 1510,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/3ed87baea8fc010d-c0001/capture-423b1829dcab2c53d189-001/capture-result.json",
+            "original_bytes_sha256": "bd27c0db304664f71afbeabb7436894758f5bd714ee1ad332bf0924db573d201"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/3ed87baea8fc010d-c0001/capture-423b1829dcab2c53d189-001/replay-b9e892a4e8cd2b98cc80/result.json",
+            "original_bytes_sha256": "aeb928946a3f3ba263d0ff627d09ad465465db2044f4c4f92599a1b1719349aa"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "3ed87baea8fc010d-c0002",
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/3ed87baea8fc010d-c0002/capture-78b60caee372bb12a153-001/capture-result.json",
+            "original_bytes_sha256": "1e6e2a4d4dc6b730c6d07a203abcf189077838df84b5a95f54759d7125c6ebc1"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/3ed87baea8fc010d-c0002/capture-78b60caee372bb12a153-001/replay-352e45f8ad1933fbb4ca/result.json",
+            "original_bytes_sha256": "547a83048081bc47bd7025008983f66e7eb9fc4b2d8d3b5498cdb8ff81de82e0"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "3ed87baea8fc010d-c0003",
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "original_vmid": 1506,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/3ed87baea8fc010d-c0003/capture-1c0f2e9a2e7212ea8863-001/capture-result.json",
+            "original_bytes_sha256": "339f7d1926d30a6434d68f46734402701f0e48c3fd8c7d454d9c63e0bb173da7"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/3ed87baea8fc010d-c0003/capture-1c0f2e9a2e7212ea8863-001/replay-bbc2f2008475d3db5ad3/result.json",
+            "original_bytes_sha256": "c0cff8c9684f6776206c3a7ac2a1cdd76032a78da14cc60a4430e5efa48ac059"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "3ed87baea8fc010d-c0004",
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "original_vmid": 1503,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/3ed87baea8fc010d-c0004/capture-522281ffee4bb3f2d584-001/capture-result.json",
+            "original_bytes_sha256": "f71458d0cba08c2931a6c8a86870d1fac6716d7e0eced5d57773b4cfb5df196a"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/3ed87baea8fc010d-c0004/capture-522281ffee4bb3f2d584-001/replay-aebe0dee45b37aae344f/result.json",
+            "original_bytes_sha256": "29cc6029931d8746bb23ba71bae3a758289a9733415ca14a6e1fb03e95c53e5d"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "3ed87baea8fc010d-c0005",
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "original_vmid": 1511,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/3ed87baea8fc010d-c0005/capture-87e7f83b5b4bf508537b-001/capture-result.json",
+            "original_bytes_sha256": "aa3a9bf352d3e2bad744e740ca27390a4fd3a8328d23920a13aada2ad991ee89"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/3ed87baea8fc010d-c0005/capture-87e7f83b5b4bf508537b-001/replay-6aea807196bc9e8a38c4/result.json",
+            "original_bytes_sha256": "9e91f161a66b32e600a0b496d2aa63c4d088dbf5adca021c85caae9eb6372815"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "3ed87baea8fc010d-c0006",
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "original_vmid": 1501,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/3ed87baea8fc010d-c0006/capture-b84e43d165748853ef74-001/capture-result.json",
+            "original_bytes_sha256": "7872db43082f2e98eebbd0af5767a62ab881cceaeed850f8846d27fb2b910cfe"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/3ed87baea8fc010d-c0006/capture-b84e43d165748853ef74-001/replay-fc0639bfacb2d82fa52f/result.json",
+            "original_bytes_sha256": "d698dbb4005dda06433e50560ba74b10dd43ee8f0ddc97c23563f8dcf003857b"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "43d599e70839d1b5-c0001",
+      "source_simfile": "Rayc Fire 2 (SM5)/Rayc Fire 2.ssc",
+      "original_vmid": 1511,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/43d599e70839d1b5-c0001/capture-3efd115aa64f477f2418-001/capture-result.json",
+            "original_bytes_sha256": "21fdd8f35309e33dd46f2aae9569f574c9089c61a7c7fb52f0ddb194a84b8c63"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/43d599e70839d1b5-c0001/capture-3efd115aa64f477f2418-001/replay-33fd779f04be32806417/result.json",
+            "original_bytes_sha256": "be90bed78180fe33a13d83835b7755ed9ad2a813e3da8be410c8de04da9c853f"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "49ec0d0c00dfc584-c0001",
+      "source_simfile": "Shivers/Shivers.ssc",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/49ec0d0c00dfc584-c0001/capture-e028b27cb460c0df1800-001/capture-result.json",
+            "original_bytes_sha256": "77101cb10a54ad90277cd6c748ac86b7b58193912a573f1808fd40819cc5c7c6"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/49ec0d0c00dfc584-c0001/capture-e028b27cb460c0df1800-001/replay-d55f3840ceeaebf3b88b/result.json",
+            "original_bytes_sha256": "b9485cfd19108a0d542d2f32cbd0d8cc4d32dafd643c6c3e67046dbd99951e27"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "4e708b3e9cb3bdda-c0001",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Jumper/Jumper.sm",
+      "original_vmid": 1514,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/4e708b3e9cb3bdda-c0001/capture-a9b55fa7fb07d12d2d28-001/capture-result.json",
+            "original_bytes_sha256": "bf531eb39a14fe2608ed6552d6413f37d31df725584cbdeb144beb965fefb15d"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "4e708b3e9cb3bdda-c0002",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Jumper/Jumper.sm",
+      "original_vmid": 1507,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/4e708b3e9cb3bdda-c0002/capture-bcb15740504a853bbd85-001/capture-result.json",
+            "original_bytes_sha256": "c1a0bb2f4b8a23f3aac3d4e90a05164ff2fa2e51b2c3977e093a631926f9c5e8"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "4f4295d0ebf3f89d-c0001",
+      "source_simfile": "[09] Who the Hell Is Edgar (SX) [Telperion]/Who the Hell Is Edgar.ssc",
+      "original_vmid": 1512,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/4f4295d0ebf3f89d-c0001/capture-fd4658e307578e0cae8b-001/capture-result.json",
+            "original_bytes_sha256": "4c3e51814d324ff778c00f095a1cefc468a0c751c8bddae919b769a0a0e9217c"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/4f4295d0ebf3f89d-c0001/capture-fd4658e307578e0cae8b-001/replay-47b95aea8c8cc4bcb6ba/result.json",
+            "original_bytes_sha256": "b8c15217fc81759b82ac841165ab748c2b7e0b5bb820f67d160660de404a0b2a"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "51701b0b07bd778e-c0001",
+      "source_simfile": "I'm sorry/sm.sm",
+      "original_vmid": 1504,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/51701b0b07bd778e-c0001/capture-6bdf1111324f9641fdbc-001/capture-result.json",
+            "original_bytes_sha256": "9391ed5b3975e87dea5ecf3237fca251b566cbd5f7945d3ff8476391eab4e131"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "51701b0b07bd778e-c0002",
+      "source_simfile": "I'm sorry/sm.sm",
+      "original_vmid": 1513,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/51701b0b07bd778e-c0002/capture-615eca1bc63487bc4a1c-001/capture-result.json",
+            "original_bytes_sha256": "4828a7c366aabb5b711fd111833d856cdf3049a830f380f719f2602186593925"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "51701b0b07bd778e-c0004",
+      "source_simfile": "I'm sorry/sm.sm",
+      "original_vmid": 1511,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/51701b0b07bd778e-c0004/capture-6bdd1946f83661f9b0ed-001/capture-result.json",
+            "original_bytes_sha256": "9f637a583dba40cc3b14842a6a7ed79913a0a980336ba8b0ef6eb5bfa3bc2c4a"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5cbc2bfa91cfbe0b-c0001",
+      "source_simfile": "Bad Trails/Maybe it was fated.sm",
+      "original_vmid": 1509,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/5cbc2bfa91cfbe0b-c0001/capture-1655e9974357e2ef54e4-001/capture-result.json",
+            "original_bytes_sha256": "3992ce36eb1607d5c4cdef6f985401a6a66735ca479c2b06ed37f00033802c3c"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5cbc2bfa91cfbe0b-c0004",
+      "source_simfile": "Bad Trails/Maybe it was fated.sm",
+      "original_vmid": 1501,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/5cbc2bfa91cfbe0b-c0004/capture-032c5e3c4f917ed9d1be-001/capture-result.json",
+            "original_bytes_sha256": "5c4e51a7cb7adb81f3c84003e3fe05b6cdbb42fa6869d28384ac14f894fa84cf"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0001",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1514,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/5e06cad06be50156-c0001/capture-1dd82efd41fdcd9c8bdd-001/capture-result.json",
+            "original_bytes_sha256": "90bef73326c5e0ed05edccf4b8869d21bdf1aa0f5da151bc618b87f62c7d9eba"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0002",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1507,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/5e06cad06be50156-c0002/capture-c24b03e5ce962e6dcf41-001/capture-result.json",
+            "original_bytes_sha256": "6c573f4d343b3ed688743eea5f40f083c510ed7b10724e7209ba375a0799f47a"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0003",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1501,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/5e06cad06be50156-c0003/capture-def31980c9b220ddfad6-001/capture-result.json",
+            "original_bytes_sha256": "f3e3b45e4bff8b91767f25854b064c800d42fe493537bd4f23fc6d1e0aeca077"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0004",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1513,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/5e06cad06be50156-c0004/capture-0924a6f8caf172fe6f71-001/capture-result.json",
+            "original_bytes_sha256": "120482acf5c7df142146e736fce8f5ba919a8f737f7b8c3264747648b4008e52"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0005",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1512,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/5e06cad06be50156-c0005/capture-54d4b8125d939c9419d8-001/capture-result.json",
+            "original_bytes_sha256": "fafbc8c9bd27b68e4a43b5952bbbbb3c32fb6184ab642e092add7f9778b867a8"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0006",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1506,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/5e06cad06be50156-c0006/capture-8ba30838e13c8da5117d-001/capture-result.json",
+            "original_bytes_sha256": "f45138760f0a3eb1d0f667a078fd6a3b0a7ca06d2ce531762bbde859561c9186"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0008",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/5e06cad06be50156-c0008/capture-f2d1c0d83b9974743489-001/capture-result.json",
+            "original_bytes_sha256": "16af629c77faf8dafc4621d96f32a33aab5b0feff78cc8f2db3d8106bec3b561"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5f7ffff1f1a85dec-c0001",
+      "source_simfile": "Chipsqueak/chipsqueak.ssc",
+      "original_vmid": 1512,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/5f7ffff1f1a85dec-c0001/capture-a0ffc89967c2c9e679ec-001/capture-result.json",
+            "original_bytes_sha256": "cd20c2c70bc0611dbee38b14965caa2a0f0bfc9e5fb14e6bc8153768616e6c91"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/5f7ffff1f1a85dec-c0001/capture-a0ffc89967c2c9e679ec-001/replay-2e3c11d4ca850c209fcf/result.json",
+            "original_bytes_sha256": "9d6db46be4817606b49f8cfccad692611068c4eccc14b3b7d58dd64d847f233e"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "66b88be3e6504487-c0001",
+      "source_simfile": "PizzaBoy/PizzaBoy.ssc",
+      "original_vmid": 1513,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/66b88be3e6504487-c0001/capture-9bba2c905c72b7215380-001/capture-result.json",
+            "original_bytes_sha256": "e278b3271fbf6eaf972802fe8381c84f00a811408b556573216c601f04e18b9b"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "6a232e8676f57129-c0001",
+      "source_simfile": "Jumper/Jumper.sm",
+      "original_vmid": 1509,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/6a232e8676f57129-c0001/capture-23e8476d4c6ef80771bb-001/capture-result.json",
+            "original_bytes_sha256": "521b1b6230cb8b4d6b2bea2e876a4c119dd5853067923f53efe62daf74d0ec4a"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "6a232e8676f57129-c0002",
+      "source_simfile": "Jumper/Jumper.sm",
+      "original_vmid": 1508,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/6a232e8676f57129-c0002/capture-35f7e140fbbe56f17321-001/capture-result.json",
+            "original_bytes_sha256": "c6e20481fc40af313ebe3cf9e9067a2dbe7c5e524e3d29ccb18cf5ba5e0af108"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "6a3f4f26b2753004-c0001",
+      "source_simfile": "Shakunetsu2 [TaroNuke]/shakunetsu2.sm",
+      "original_vmid": 1507,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/6a3f4f26b2753004-c0001/capture-4fa3c2881be8576bc29a-001/capture-result.json",
+            "original_bytes_sha256": "4d2fd2d5713d3de09901b1bbcccb9044620fcd108f5aa666e02db5333ce24b94"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/6a3f4f26b2753004-c0001/capture-4fa3c2881be8576bc29a-001/replay-3cbdfae96ba84bddc9b9/result.json",
+            "original_bytes_sha256": "d2ea3ceee900869d573fbd019303561770ac1fc2de42fc9ae8cceb9dc2a7e029"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "6a5cc91dd2a10862-c0001",
+      "source_simfile": "Goodbye/Goodbye.ssc",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/6a5cc91dd2a10862-c0001/capture-c3d3f16403488005ccbd-001/capture-result.json",
+            "original_bytes_sha256": "ea9a2e9939bca428e4b1f4a0c13b3e63db893152fd7772e4b8eb9ae8560e5c57"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/6a5cc91dd2a10862-c0001/capture-c3d3f16403488005ccbd-001/replay-67ac970deaa59cf1e723/result.json",
+            "original_bytes_sha256": "7c93e1d912268726a78edbda741e36f675ba78bdbd42ffc09570f98feaf4723a"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "6ea6105f433bbd84-c0001",
+      "source_simfile": "Bad Trails/Maybe it was fated.ssc",
+      "original_vmid": 1507,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/6ea6105f433bbd84-c0001/capture-a65c8b906d84a08bfab6-001/capture-result.json",
+            "original_bytes_sha256": "4f089ca387f045e062f7b6acdfc42b59c23ca8366bad318befbcac97ec691e86"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "6ea6105f433bbd84-c0004",
+      "source_simfile": "Bad Trails/Maybe it was fated.ssc",
+      "original_vmid": 1512,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/6ea6105f433bbd84-c0004/capture-57055ef80e94d85042a9-001/capture-result.json",
+            "original_bytes_sha256": "4f220c783bc7ec8093ffa17250f01461dc7d5884107c1baa81a8fbfd99bba323"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "70a79b979b3df07b-c0001",
+      "source_simfile": "303-MODS-[lv.memes] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/KABOOOOOM!!!!.ssc",
+      "original_vmid": 1504,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/70a79b979b3df07b-c0001/capture-23d3c13ad870428b7958-001/capture-result.json",
+            "original_bytes_sha256": "56d4791fbd8d9271dd6aae93e91d60c4f5b870cdc1a4a05007b22152d1ea8892"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/70a79b979b3df07b-c0001/capture-23d3c13ad870428b7958-001/replay-75c37f0ca38c6640dc5b/result.json",
+            "original_bytes_sha256": "39f6d66284092dd33e6c454b0361d82cf046c01f63eb1cdae424b407de741919"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "72ce74211a93b7e2-c0001",
+      "source_simfile": "Jumper/Jumper.ssc",
+      "original_vmid": 1503,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/72ce74211a93b7e2-c0001/capture-ee8b467810065982de9e-001/capture-result.json",
+            "original_bytes_sha256": "cedb8eabe96c7956328499c50286ce96134f53f5d0d830aa7c084432cb712836"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "72ce74211a93b7e2-c0002",
+      "source_simfile": "Jumper/Jumper.ssc",
+      "original_vmid": 1506,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/72ce74211a93b7e2-c0002/capture-57b524ef8a3bee799460-001/capture-result.json",
+            "original_bytes_sha256": "961095d04a4b7abb80519e87b0b3f48e5a61b637fc709e1e73bf5e3df531746b"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "74d97529575b9032-c0001",
+      "source_simfile": "Spectrum (Odyssey's Prism Mix) [Telperion]/spectrod.ssc",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/74d97529575b9032-c0001/capture-8e8b6b7ba335dafc357e-001/capture-result.json",
+            "original_bytes_sha256": "1c8502962e1f649fd14c45298ee2eb7c7c34aa368ba4b4610d314ed20c1815d9"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "750815a1a10fd90a-c0001",
+      "source_simfile": "[14] [Zaia] I_m For You/I_m For You.ssc",
+      "original_vmid": 1502,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/750815a1a10fd90a-c0001/capture-6e365d940a8e472b4d8f-001/capture-result.json",
+            "original_bytes_sha256": "324c8e51261755cb30a0c416cdb85746a3480a2da3c592ea5f2423f2d421eec1"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/750815a1a10fd90a-c0001/capture-6e365d940a8e472b4d8f-001/replay-644d8a88b5522298faf2/result.json",
+            "original_bytes_sha256": "c1f2770cf998b87a50f98b8d6938ff7d269b8bd765f0b974b3bbfad82768e093"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "7666d9897cac1286-c0001",
+      "source_simfile": "DREAMING-ING!!/DREAMING-ING!!.ssc",
+      "original_vmid": 1505,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/7666d9897cac1286-c0001/capture-952b79175cb01d633747-001/capture-result.json",
+            "original_bytes_sha256": "9e6a2e54e214f169b83842bace314c4e04a5d82644636fe86eacc849a2746f13"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/7666d9897cac1286-c0001/capture-952b79175cb01d633747-001/replay-8d980d8d8588eb4db771/result.json",
+            "original_bytes_sha256": "577c4153f55824adbc60b1d28f71842d4723a798b8d7782b038864009010b24e"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "791c76d0271ff9e3-c0001",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Jumper/Jumper.ssc",
+      "original_vmid": 1501,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/791c76d0271ff9e3-c0001/capture-f8d592babe6c0b39102e-001/capture-result.json",
+            "original_bytes_sha256": "cfc8763fe221e48024bbca0476ce80b19bc2b1a32c42e2930ca9ea3144a9118f"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "791c76d0271ff9e3-c0002",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Jumper/Jumper.ssc",
+      "original_vmid": 1513,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/791c76d0271ff9e3-c0002/capture-dba8744d9ae4e9331c12-001/capture-result.json",
+            "original_bytes_sha256": "b859f6ba45e2985b7dee84a36c0e79f3f5be0b7aa684e636fea6a5a16d0005f5"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "7fa17005f2a1fbae-c0001",
+      "source_simfile": "What A Wonderful World/WAWW.sm",
+      "original_vmid": 1512,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/7fa17005f2a1fbae-c0001/capture-5fcf0ef1c60c9bb8a2f7-001/capture-result.json",
+            "original_bytes_sha256": "c094219f5a5f332e0c342b6a97c2b05420e62b034256afd99feaca86611403a1"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "82dbf1390bb50291-c0001",
+      "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
+      "original_vmid": 1505,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/82dbf1390bb50291-c0001/capture-43bc50f4ce3c740efbc1-001/capture-result.json",
+            "original_bytes_sha256": "dac7bcf56fd55261fe28be826ec35ab9d3c6aa22410171f793571e7cc9feba84"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "83dd6e5b0d55c8ae-c0001",
+      "source_simfile": "Shivers/Shivers.sm",
+      "original_vmid": 1504,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/83dd6e5b0d55c8ae-c0001/capture-a05dd47bbdb3b0f0ed06-001/capture-result.json",
+            "original_bytes_sha256": "418bbded2e429ddb23f10cd247183b7bacc2298c2e9943be6dd1b510eb2aaa34"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/83dd6e5b0d55c8ae-c0001/capture-a05dd47bbdb3b0f0ed06-001/replay-2a6e856aa871a0bcb99c/result.json",
+            "original_bytes_sha256": "8621e64abf0eabb7f9394dc5660f35d8da940394fb7dd2514269a6b131505a7e"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "85a120c688e14906-c0001",
+      "source_simfile": "Mamono/sm.sm",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/85a120c688e14906-c0001/capture-4f0f66ce279b54df268c-001/capture-result.json",
+            "original_bytes_sha256": "ce7aac700e0dd51b385ef67ec56453899a6371022c95cd083cd6fb2ab1385cbf"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "85a120c688e14906-c0002",
+      "source_simfile": "Mamono/sm.sm",
+      "original_vmid": 1514,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/85a120c688e14906-c0002/capture-3e55c50c56ffe4e42828-001/capture-result.json",
+            "original_bytes_sha256": "e4cf8492fccc8e0122ae423a9eabbb55b9b9c4ec19b1535cb4769be4aa2916f0"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "8b467495833c9923-c0001",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Kodokushi/Kodokushi.ssc",
+      "original_vmid": 1510,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/8b467495833c9923-c0001/capture-e829adac7df67f0d34d7-001/capture-result.json",
+            "original_bytes_sha256": "3d6d7745a8f4fb360ea3c397d93448baa913546c003c0f0fd4b5029f5734eb81"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/8b467495833c9923-c0001/capture-e829adac7df67f0d34d7-001/replay-fd8afe6f91ad9b811211/result.json",
+            "original_bytes_sha256": "c1b4589d95c11ac9be9d22ff1da93698a6cdefde9c321156bbfed71ebae2a3d7"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "93d4cdfb2970d034-c0006",
+      "source_simfile": "Space Creation Theory/space creation theory.ssc",
+      "original_vmid": 1508,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/93d4cdfb2970d034-c0006/capture-538ba4d548b6b341dd24-001/capture-result.json",
+            "original_bytes_sha256": "f252471dd6f1c5026561f91af311f8c57493f7d7e0d4f10122ddd85584593c74"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "9a7dc9dd696c05ad-c0001",
+      "source_simfile": "mr sandman/mr sandman.sm",
+      "original_vmid": 1503,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/9a7dc9dd696c05ad-c0001/capture-7907078944b50fc43918-001/capture-result.json",
+            "original_bytes_sha256": "04efab6dfeb1d45a8e03a3bc42e08c35786dbb177ea0cc2ff994b081332a1fd2"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "9bb0eb4860a33838-c0008",
+      "source_simfile": "Raving With Fire/Raving With Fire.sm",
+      "original_vmid": 1509,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/9bb0eb4860a33838-c0008/capture-01492a3ad27f86195018-001/capture-result.json",
+            "original_bytes_sha256": "a6302e213b3df693889ce50d551778d10419626db810d3a3dde1d5ea70d1a344"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/9bb0eb4860a33838-c0008/capture-01492a3ad27f86195018-001/replay-b7f8026078c1be963141/result.json",
+            "original_bytes_sha256": "31506d16647cd99191cbcedec0ab694d5180a292bf340faaeaaa7c679b46102b"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "a8f1f1d4ddf084d6-c0001",
+      "source_simfile": "TRICKL4SH 220/trick.sm",
+      "original_vmid": 1502,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/a8f1f1d4ddf084d6-c0001/capture-7a7146842eb72b6f3190-001/capture-result.json",
+            "original_bytes_sha256": "ce32632039be46a21a3bdda271aab9c199dbd00a8c01040be24ca870198d1b07"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/a8f1f1d4ddf084d6-c0001/capture-7a7146842eb72b6f3190-001/replay-1cd41c3cd0d8da10f655/result.json",
+            "original_bytes_sha256": "ff05d99e3e6fcb0fbd38253c9e6b3bd8613762c9310e2644545aad2359bd1ba3"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "aa110bbb4b97b8a4-c0002",
+      "source_simfile": "Cloud99 (As Above Mix)/Song.ssc",
+      "original_vmid": 1508,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/aa110bbb4b97b8a4-c0002/capture-a409723045472769fb02-001/capture-result.json",
+            "original_bytes_sha256": "22c361de354a33332d2f82058580e233667b16acad634a54d7e025be6e825771"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "aaab488db8418699-c0001",
+      "source_simfile": "__variants__/rework/kaboooooom!/KABOOOOOM!!!!.ssc",
+      "original_vmid": 1508,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/aaab488db8418699-c0001/capture-ed7940cc5fe9eab93f5c-001/capture-result.json",
+            "original_bytes_sha256": "8ea6ffbbaa42c61d86765213297e94e55f3eb65584167ecfc21ecd8823cdf97a"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/aaab488db8418699-c0001/capture-ed7940cc5fe9eab93f5c-001/replay-5050155b9aa3d6030c20/result.json",
+            "original_bytes_sha256": "61b3dd9b6b57742813d16bb212130a1797446ea9776d04663cd47fe3328e24ec"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "aaab488db8418699-c0003",
+      "source_simfile": "__variants__/rework/kaboooooom!/KABOOOOOM!!!!.ssc",
+      "original_vmid": 1501,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/aaab488db8418699-c0003/capture-f59b3de2be394a0ba589-001/capture-result.json",
+            "original_bytes_sha256": "0e977572dc0eb396f1d3cbb01719859341f3319112ab7bef96941923b19c5bf8"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/aaab488db8418699-c0003/capture-f59b3de2be394a0ba589-001/replay-f98009fd61ffa0c27d26/result.json",
+            "original_bytes_sha256": "70d4732007a2c40d56ed38622110e2841f5449805f97ef56e85cfb44c0676ade"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "ade709b3e4efeb3a-c0001",
+      "source_simfile": "Crazy Crazy/Crazy Crazy.ssc",
+      "original_vmid": 1504,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/ade709b3e4efeb3a-c0001/capture-1200824a8dfae6c0eeba-001/capture-result.json",
+            "original_bytes_sha256": "94825dac40d5bb78f6de12f050644a5a60968ad54733cbf10063b397f76e2e87"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "af4e305b129581cc-c0002",
+      "source_simfile": "(R10) Warp Zone/warp zone.ssc",
+      "original_vmid": 1512,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/af4e305b129581cc-c0002/capture-c7159f686960d47ccd3d-001/capture-result.json",
+            "original_bytes_sha256": "caf0b9d9de29c2b0b48fd2842df5434cac146df2b4304740f10235f68fa96ae5"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/af4e305b129581cc-c0002/capture-c7159f686960d47ccd3d-001/replay-84c2dff861dbad4e3077/result.json",
+            "original_bytes_sha256": "c0f0af6610666e9f66681ea01875ffb45c5e0c88bfee2866f48bad93f1d99277"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "b43c3fe283366b02-c0001",
+      "source_simfile": "Who The Hell Is Edgar/Who the Hell Is Edgar.ssc",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/b43c3fe283366b02-c0001/capture-1bdd39bc3404ebca757a-001/capture-result.json",
+            "original_bytes_sha256": "61d2696b4889216ad2f2ddae16afe22a9d7babe89c734a6e103ec773e240bc01"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "b7d3c53da9a1e2c7-c0008",
+      "source_simfile": "Raving With Fire/Raving With Fire.ssc",
+      "original_vmid": 1504,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/b7d3c53da9a1e2c7-c0008/capture-116de4a676592f1e1406-001/capture-result.json",
+            "original_bytes_sha256": "4b56c28c8fd63f427928988075078647bca6db166beb2033e1eb08352ec51ab2"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/b7d3c53da9a1e2c7-c0008/capture-116de4a676592f1e1406-001/replay-85909925327192999da3/result.json",
+            "original_bytes_sha256": "35ddda7172438aa0765e6cd82a2a2ac6a33357f53fe26a8ab2d6bef534511512"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "c17d988fdfa4949d-c0001",
+      "source_simfile": "[10] flip69 (DX) [Telperion]/flip69.ssc",
+      "original_vmid": 1512,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/c17d988fdfa4949d-c0001/capture-d108c5808e3de3d4bc2c-001/capture-result.json",
+            "original_bytes_sha256": "6e2efe703f294f30d6bba62f504a3924e2793298e523296f5d261d28a2b2155b"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/c17d988fdfa4949d-c0001/capture-d108c5808e3de3d4bc2c-001/replay-e622c386b91ed2b469da/result.json",
+            "original_bytes_sha256": "b327186c08c5454d16f68a9bc8a80b868e1b6715df79de4e74ded24e5a54e8d9"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "cdb3faa216e1adfc-c0001",
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.sm",
+      "original_vmid": 1514,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/cdb3faa216e1adfc-c0001/capture-e9ab0ea5309cb9de6310-001/capture-result.json",
+            "original_bytes_sha256": "2dc493b5295034c6098c1ee8ada071257e7ebf0fb4a70bced324ef9a27151008"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/cdb3faa216e1adfc-c0001/capture-e9ab0ea5309cb9de6310-001/replay-0b6a38208a2c91e9596d/result.json",
+            "original_bytes_sha256": "40f869b30836c9a1f05f59ea16d728392fb90bef02787865d4b4f928ee743ee2"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "cdb3faa216e1adfc-c0002",
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.sm",
+      "original_vmid": 1504,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/cdb3faa216e1adfc-c0002/capture-194b69f5fd00fa9ea56a-001/capture-result.json",
+            "original_bytes_sha256": "092578b7e37fae54ae16f5264cfbf8820fcec9e912d3862cdfc64ab2a7503b56"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/cdb3faa216e1adfc-c0002/capture-194b69f5fd00fa9ea56a-001/replay-e7d48976b6ee7d8982d2/result.json",
+            "original_bytes_sha256": "5a7c19d0d798cd801a8ae7c2fac3c18d1103a804596fe1921f6b90c844c85613"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "cdb3faa216e1adfc-c0003",
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.sm",
+      "original_vmid": 1505,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/cdb3faa216e1adfc-c0003/capture-500b08800482164e0f2d-001/capture-result.json",
+            "original_bytes_sha256": "8b0dbd582d64af78260e76a73f97166e73b24723a7452965d5b203cc6d93bde6"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/cdb3faa216e1adfc-c0003/capture-500b08800482164e0f2d-001/replay-101d04d075b10b6d7c1c/result.json",
+            "original_bytes_sha256": "136d09a4a89866a73452c54c30333d195e22c988f105afda6029ad54988caea5"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "cfa9d731a57116f9-c0001",
+      "source_simfile": "kaboooooom!/KABOOOOOM!!!!.ssc",
+      "original_vmid": 1501,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/cfa9d731a57116f9-c0001/capture-d302548edb38b90e202c-001/capture-result.json",
+            "original_bytes_sha256": "930c4bc74361d0c96858154c1a68a6d575bfc296213aabea287e62d349a3d31e"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/cfa9d731a57116f9-c0001/capture-d302548edb38b90e202c-001/replay-57c327c41fea9d95c83c/result.json",
+            "original_bytes_sha256": "7dc137e5c3350ad11660ddd5ddaaaa732589277da432d143bba09595a725d086"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "cfa9d731a57116f9-c0003",
+      "source_simfile": "kaboooooom!/KABOOOOOM!!!!.ssc",
+      "original_vmid": 1506,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/cfa9d731a57116f9-c0003/capture-16c5f876a4026efcf6f7-001/capture-result.json",
+            "original_bytes_sha256": "9a1c41eec8ba7c3b4df06f36fcd0d21120244431e9f191ef31eb06f18461e8dd"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/cfa9d731a57116f9-c0003/capture-16c5f876a4026efcf6f7-001/replay-17d4b0a3729a0d638509/result.json",
+            "original_bytes_sha256": "eb845b32bc36109ba053e2a11d33ba08163012cbbf0acd3f8028814f3ef9e3ee"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "d3aa73c0f2f94a22-c0001",
+      "source_simfile": "99+ [-YOSEFU-]/99+.ssc",
+      "original_vmid": 1505,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/d3aa73c0f2f94a22-c0001/capture-a256607b54f079027e79-001/capture-result.json",
+            "original_bytes_sha256": "88500e807513619d735dbd8dd29764c2d4e1539814b2f1e31b019cd0e408e941"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/d3aa73c0f2f94a22-c0001/capture-a256607b54f079027e79-001/replay-a617929dec4ebdb77530/result.json",
+            "original_bytes_sha256": "286d996cf837ec074c3883df9644329b689312abd64da403efaf23b3ccff5ba3"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "d9e2e362f6f34713-c0001",
+      "source_simfile": "kaboooooom!/KABOOOOOM!!!!.sm",
+      "original_vmid": 1504,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/d9e2e362f6f34713-c0001/capture-d14f5918bd45a1a5510d-001/capture-result.json",
+            "original_bytes_sha256": "3df9a9043138c5b806523c641cb6e0e4f1d6d254fb68f369e67186ea76f2898c"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/d9e2e362f6f34713-c0001/capture-d14f5918bd45a1a5510d-001/replay-a5fe6f835dd7bc745ddb/result.json",
+            "original_bytes_sha256": "8ce63b13fbf5e97c6f0d888b7115c9c949279768fab6238c15a7035142917470"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "d9e2e362f6f34713-c0003",
+      "source_simfile": "kaboooooom!/KABOOOOOM!!!!.sm",
+      "original_vmid": 1514,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/d9e2e362f6f34713-c0003/capture-826a748db1b067c7fccf-001/capture-result.json",
+            "original_bytes_sha256": "7b498d69777a18216109f19334002fca74011c609d76029ffe946835b2073903"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/d9e2e362f6f34713-c0003/capture-826a748db1b067c7fccf-001/replay-3699858344f6509b6d4e/result.json",
+            "original_bytes_sha256": "8d2cf90708b474b5af6cf5eb6803d6093fde942987c6def6676f70e4e7eae81c"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "db9513346beb70c8-c0001",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Shivers/Shivers.sm",
+      "original_vmid": 1506,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/db9513346beb70c8-c0001/capture-450836e6a5f338991f05-001/capture-result.json",
+            "original_bytes_sha256": "cbd96fe9491ce0555bb611e93bdbc254e36730b2d35995f2f6fb0369c1863692"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/db9513346beb70c8-c0001/capture-450836e6a5f338991f05-001/replay-84136829541552dd6e52/result.json",
+            "original_bytes_sha256": "1b211366e74492ef7876642f0d08c7fd7fdb1257f18b926b5b3a83d40f104b6d"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "df77da725142dca5-c0003",
+      "source_simfile": "feelyourtouch e.d.e.n/feelyourtouch eden.ssc",
+      "original_vmid": 1510,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/df77da725142dca5-c0003/capture-f3cad1d3ead9457c3f60-001/capture-result.json",
+            "original_bytes_sha256": "5f3d2b2f5a240e7ba55fb788938ba0d6ec59ef6fd0617e75f572feffe61a8901"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/df77da725142dca5-c0003/capture-f3cad1d3ead9457c3f60-001/replay-9cc828f3d97672cc9125/result.json",
+            "original_bytes_sha256": "b013931065a5ce979ff1aafe2f463efcdc792e67f5b783396efe2657a0debc69"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "df77da725142dca5-c0004",
+      "source_simfile": "feelyourtouch e.d.e.n/feelyourtouch eden.ssc",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/df77da725142dca5-c0004/capture-84df07b77b48cbe932a6-001/capture-result.json",
+            "original_bytes_sha256": "fcc0f113d00b5062f3499fde2a89151ac09cc790b4226a84a6d6596770d13707"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/df77da725142dca5-c0004/capture-84df07b77b48cbe932a6-001/replay-3950c5fbf7dab0bd51fb/result.json",
+            "original_bytes_sha256": "6f7c965e1d3a81cd41b633fe86101439a572fcb0ad596a33316392dff4dfc915"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "df77da725142dca5-c0005",
+      "source_simfile": "feelyourtouch e.d.e.n/feelyourtouch eden.ssc",
+      "original_vmid": 1512,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/df77da725142dca5-c0005/capture-34bb5dbe0a23631031d2-001/capture-result.json",
+            "original_bytes_sha256": "5db227fc6e2cb54a5ce511b7c390b2ef29f3f097e2f9857e601bfee8196226ad"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/df77da725142dca5-c0005/capture-34bb5dbe0a23631031d2-001/replay-556536c3b32ede16be48/result.json",
+            "original_bytes_sha256": "770821a053690674f5ad48e137f16fec584f1f89c3d2137d4bd0e3b58352c447"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "df77da725142dca5-c0006",
+      "source_simfile": "feelyourtouch e.d.e.n/feelyourtouch eden.ssc",
+      "original_vmid": 1509,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/df77da725142dca5-c0006/capture-9468d18d0ff4b2c4e817-001/capture-result.json",
+            "original_bytes_sha256": "40097c4f5dbedb666ea58d288ec9c534fee9d36c6d7de447125c7c0a88aebd05"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/df77da725142dca5-c0006/capture-9468d18d0ff4b2c4e817-001/replay-1aa91cac9ca7e56aeb5b/result.json",
+            "original_bytes_sha256": "4defeb810af764c56bdb0d959bc6719fa6c85d0daf0a95e70f95f82c4171b828"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "e115c0f3019c18b4-c0001",
+      "source_simfile": "fof_guys/fof.ssc",
+      "original_vmid": 1511,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/e115c0f3019c18b4-c0001/capture-fe422e1fe46edd61b9c3-001/capture-result.json",
+            "original_bytes_sha256": "0b1a20766b6c91f62db2de7b0d973b6addfc8a7322bf31b6827986be8f126666"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "e381d04b2fe57f84-c0005",
+      "source_simfile": "Gangu Kyousou Kyoku -Shuuen-/chart.ssc",
+      "original_vmid": 1508,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/e381d04b2fe57f84-c0005/capture-d7aea809c1cb88e9c6e8-001/capture-result.json",
+            "original_bytes_sha256": "9dfc71522c78267b2284b808f40ffe836a5874d32ba91a06a2d45e3a7fdc436c"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/e381d04b2fe57f84-c0005/capture-d7aea809c1cb88e9c6e8-001/replay-44c2472e7c309102e174/result.json",
+            "original_bytes_sha256": "c55eda1154a7783a1179b0907cb131fe1e6b357a8bcb8e329894f6b54a019624"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "e381d04b2fe57f84-c0006",
+      "source_simfile": "Gangu Kyousou Kyoku -Shuuen-/chart.ssc",
+      "original_vmid": 1513,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/e381d04b2fe57f84-c0006/capture-301b0a7ef9c8468baec7-001/capture-result.json",
+            "original_bytes_sha256": "10f9704ea32762a6153bc4c532b759d6a18f3fdbcb79289dbc78ca66bd3e5b2b"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/e381d04b2fe57f84-c0006/capture-301b0a7ef9c8468baec7-001/replay-72e83531b8e941aa3382/result.json",
+            "original_bytes_sha256": "f53d161717b77f99ae64afa0fed1e97f5995eb79c20a353f082c964cadcc51fe"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "e381d04b2fe57f84-c0007",
+      "source_simfile": "Gangu Kyousou Kyoku -Shuuen-/chart.ssc",
+      "original_vmid": 1503,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/e381d04b2fe57f84-c0007/capture-d1eca693cc9364bd4aef-001/capture-result.json",
+            "original_bytes_sha256": "64f74d39a8e0be0ce45670919a94c486e9f14a4138d5d904334239190f006341"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/e381d04b2fe57f84-c0007/capture-d1eca693cc9364bd4aef-001/replay-f1a9da6613fa97200a2b/result.json",
+            "original_bytes_sha256": "f7a354d2620d7383ec1e069fec56cf1b43f931b3dad0548fb57fbbf4966e6094"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "e45d82d551ea7a28-c0001",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Kodokushi/Kodokushi.sm",
+      "original_vmid": 1509,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/e45d82d551ea7a28-c0001/capture-b78d6e174b02a2198903-001/capture-result.json",
+            "original_bytes_sha256": "cec95d54450d4842e7af090737b189326f97ec5cc1b1917181c18b88afb423a8"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/e45d82d551ea7a28-c0001/capture-b78d6e174b02a2198903-001/replay-138cdef6f40482ab4181/result.json",
+            "original_bytes_sha256": "ade41b8d1b47bd0de26167a5a43caafee7321dadfba904cdd881cd98a9fa8c9e"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "eaa951c92c901721-c0001",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Shivers/Shivers.ssc",
+      "original_vmid": 1501,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/eaa951c92c901721-c0001/capture-e11ca6ff108954a5d58c-001/capture-result.json",
+            "original_bytes_sha256": "b40a8ff6b8f555906352e6b25a25cb03ce3f1671f1faa5ec0faa321305cbb861"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/eaa951c92c901721-c0001/capture-e11ca6ff108954a5d58c-001/replay-2b212b3ee7af902eb064/result.json",
+            "original_bytes_sha256": "dcac070833d4dcdbcd9f77e18c67097967ca11ce46268581d9cd5c47d5030a6d"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "eb7d5a89defeeb31-c0005",
+      "source_simfile": "Butterfly by DDR/buttchew.ssc",
+      "original_vmid": 1502,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/eb7d5a89defeeb31-c0005/capture-009c3fb1769423fc6422-001/capture-result.json",
+            "original_bytes_sha256": "16b60a9e69d98fa28aadff18d7eb21efb19be3b8672bc4868000d7bc9bcdd0e7"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "eb7d5a89defeeb31-c0006",
+      "source_simfile": "Butterfly by DDR/buttchew.ssc",
+      "original_vmid": 1515,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/eb7d5a89defeeb31-c0006/capture-678a915e3853a765b0ed-001/capture-result.json",
+            "original_bytes_sha256": "867e00fa82d32ee3dfc53911b6527a128f3d943ef120d17bbaa550af6a4eb5d7"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "eb7d5a89defeeb31-c0008",
+      "source_simfile": "Butterfly by DDR/buttchew.ssc",
+      "original_vmid": 1511,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "capture_resource_limit",
+          "terminal": true,
+          "native_complete": false,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/eb7d5a89defeeb31-c0008/capture-bc398444cf6de9608b5f-001/capture-result.json",
+            "original_bytes_sha256": "6c88f733ec71cdc0a0560ec5e4067940c79f18650ab68f7e54daaf32d9ca26ff"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "eea1a28876f13bbb-c0001",
+      "source_simfile": "Scorpion King [TaroNuke]/scorpion.sm",
+      "original_vmid": 1507,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/eea1a28876f13bbb-c0001/capture-bee4052ad8a512fc6ddc-001/capture-result.json",
+            "original_bytes_sha256": "9a3e7d81f0aa41659c136ba8e480fff7d78df42bb718cbe1f569f5ade2d6f6c1"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/eea1a28876f13bbb-c0001/capture-bee4052ad8a512fc6ddc-001/replay-112d98c631fdfeb428df/result.json",
+            "original_bytes_sha256": "bee7a76267a779f66fc551dbee59d8401753e4a19c046682eb9be3d26f895e09"
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "f38a2b418ee7b043-c0006",
+      "source_simfile": "Loop/loop.ssc",
+      "original_vmid": 1510,
+      "original_stage_memory": "6G",
+      "pending_obligations": [
+        "resource_retry_not_in_contract"
+      ],
+      "current_attempts": [
+        {
+          "kind": "normal_capture",
+          "status": "complete",
+          "terminal": true,
+          "native_complete": true,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/f38a2b418ee7b043-c0006/capture-419a101f9c6d41ff13b8-001/capture-result.json",
+            "original_bytes_sha256": "c6bbd1fae71dfa68769287fbf007c017eab1aafced5091ea9cfb33634c97e30a"
+          }
+        },
+        {
+          "kind": "normal_replay",
+          "status": "replay_resource_limit",
+          "terminal": true,
+          "native_complete": null,
+          "evidence": {
+            "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+            "path": "results/f38a2b418ee7b043-c0006/capture-419a101f9c6d41ff13b8-001/replay-e77f264478c2b49e7ab4/result.json",
+            "original_bytes_sha256": "feabf05adf9cbb7d69b2ed273464b3695a3d283f5b373a48a9959d957db6a550"
+          }
+        }
+      ]
+    }
+  ],
+  "separate_terminal_role9458_replay_resource_failures": [
+    {
+      "job_id": "33094275d983528c-c0004",
+      "retry_vmid": 1501,
+      "source_simfile": "mawaru6/mawaru6.sm",
+      "outcome_path": "/opt/song-lua-audit/pass4/retries/roles/9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924/1501/case-outcomes/33094275d983528c-c0004.json",
+      "outcome_sha256": "66da4a4f7738d4886b90c7afd73c9e42f311377b0a518b96136d0e9f836effad",
+      "memory_limit": "12G",
+      "service_result": "oom-kill",
+      "exit": 137,
+      "elapsed_seconds": 124.238,
+      "resource_usage": {
+        "MemoryPeak": 12884901888,
+        "CPUUsageNSec": 123146759000
+      }
+    },
+    {
+      "job_id": "33094275d983528c-c0005",
+      "retry_vmid": 1504,
+      "source_simfile": "mawaru6/mawaru6.sm",
+      "outcome_path": "/opt/song-lua-audit/pass4/retries/roles/9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924/1504/case-outcomes/33094275d983528c-c0005.json",
+      "outcome_sha256": "bd7033be931354de2a89cec719e847befe52eb299fffe57193b79683b3f59d25",
+      "memory_limit": "12G",
+      "service_result": "oom-kill",
+      "exit": 137,
+      "elapsed_seconds": 121.952,
+      "resource_usage": {
+        "MemoryPeak": 12884901888,
+        "CPUUsageNSec": 121056868000
+      }
+    },
+    {
+      "job_id": "33094275d983528c-c0001",
+      "retry_vmid": 1506,
+      "source_simfile": "mawaru6/mawaru6.sm",
+      "outcome_path": "/opt/song-lua-audit/pass4/retries/roles/9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924/1506/case-outcomes/33094275d983528c-c0001.json",
+      "outcome_sha256": "9581de0b50a863c0f43065def5e589c753214424788653a9687aa9da83b831b7",
+      "memory_limit": "12G",
+      "service_result": "oom-kill",
+      "exit": 137,
+      "elapsed_seconds": 123.627,
+      "resource_usage": {
+        "MemoryPeak": 12884901888,
+        "CPUUsageNSec": 122521400000
+      }
+    },
+    {
+      "job_id": "33094275d983528c-c0006",
+      "retry_vmid": 1506,
+      "source_simfile": "mawaru6/mawaru6.sm",
+      "outcome_path": "/opt/song-lua-audit/pass4/retries/roles/9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924/1506/case-outcomes/33094275d983528c-c0006.json",
+      "outcome_sha256": "e20a29358eb0cd15fa9410a05579f97f30ab77ce3ffe9b425e36f205450dc4a8",
+      "memory_limit": "12G",
+      "service_result": "oom-kill",
+      "exit": 137,
+      "elapsed_seconds": 102.166,
+      "resource_usage": {
+        "MemoryPeak": 12884901888,
+        "CPUUsageNSec": 101071902000
+      }
+    },
+    {
+      "job_id": "33094275d983528c-c0002",
+      "retry_vmid": 1512,
+      "source_simfile": "mawaru6/mawaru6.sm",
+      "outcome_path": "/opt/song-lua-audit/pass4/retries/roles/9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924/1512/case-outcomes/33094275d983528c-c0002.json",
+      "outcome_sha256": "a2ba9af1e263b00e8c0ab360d1d059feb48860e47d865f8718b46483ce004008",
+      "memory_limit": "12G",
+      "service_result": "oom-kill",
+      "exit": 137,
+      "elapsed_seconds": 124.861,
+      "resource_usage": {
+        "MemoryPeak": 12884901888,
+        "CPUUsageNSec": 123851909000
+      }
+    },
+    {
+      "job_id": "33094275d983528c-c0003",
+      "retry_vmid": 1514,
+      "source_simfile": "mawaru6/mawaru6.sm",
+      "outcome_path": "/opt/song-lua-audit/pass4/retries/roles/9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924/1514/case-outcomes/33094275d983528c-c0003.json",
+      "outcome_sha256": "8b66ab5f01a29df018db73cb6e7baf02f889a2aaf88e4c9c60c5fef9f3352224",
+      "memory_limit": "12G",
+      "service_result": "oom-kill",
+      "exit": 137,
+      "elapsed_seconds": 124.361,
+      "resource_usage": {
+        "MemoryPeak": 12884901888,
+        "CPUUsageNSec": 123008312000
+      }
+    },
+    {
+      "job_id": "6a3e1a6f93bdc9fc-c0002",
+      "retry_vmid": 1514,
+      "source_simfile": "Paint the Town Red/PaintTheTownRed.ssc",
+      "outcome_path": "/opt/song-lua-audit/pass4/retries/roles/9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924/1514/case-outcomes/6a3e1a6f93bdc9fc-c0002.json",
+      "outcome_sha256": "7cee6f0ebbe1ad75c604f5c758c680f01515ce4bca600b5570e0723c6e10edc0",
+      "memory_limit": "12G",
+      "service_result": "oom-kill",
+      "exit": 137,
+      "elapsed_seconds": 75.486,
+      "resource_usage": {
+        "MemoryPeak": 12884901888,
+        "CPUUsageNSec": 74369147000
+      }
+    }
+  ],
+  "scope": "Original outside-contract obligations and declared role9458 retry-stage OOMs remain separate; no job is launched and no contract is changed."
+}

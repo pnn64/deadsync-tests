@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "cleanup-completed.json",
+      "sha256": "3c4c3d606f9610081f9ca3c8e9b9786e1f84c63548340df33e41ceca9c43f71d",
+      "bytes": 1672
+    },
+    {
+      "path": "cleanup-inspected.json",
+      "sha256": "47a82a29aceebfc49f72dc6aae8d6d3122c2c6ae0f5f93c12f1b0a8a9196ebb7",
+      "bytes": 1451
+    },
+    {
+      "path": "idle-worker-parking-evidence.zip",
+      "sha256": "7caeb6447ab1cc37f88562ddfefe46c82c1fe81ee45a28a8581693a12db50006",
+      "bytes": 18828
+    },
+    {
+      "path": "README.md",
+      "sha256": "f3e38e74c29c9e1bffcd5e8b3e771eee7acab95f4d5cb296413720bb34949f7a",
+      "bytes": 1565
+    }
+  ]
+}

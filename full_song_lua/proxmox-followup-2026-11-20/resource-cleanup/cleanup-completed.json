@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-19T23:57:30.035340+00:00",
+  "reason": "Obsolete pass3 transfer copies; exact retained guest binaries verified; no process has either transfer open. Current pass4 binaries and all capture evidence preserved.",
+  "candidates": [
+    {
+      "obsolete_transfer_copy": "/root/deadsync-pass3-20261116/full_song_lua-pass3-pump-game",
+      "bytes": 489390224,
+      "allocated_bytes": 489398272,
+      "sha256": "4bd87a05f51ef60ac48f83b66bf0c47d175e30790adfbb738ff11a983a467d4f",
+      "mtime_ns": 1794802801887259187,
+      "retained_vmid": 1503,
+      "retained": {
+        "path": "/opt/song-lua-audit/bin/full_song_lua-pass3-pump-game",
+        "bytes": 489390224,
+        "sha256": "4bd87a05f51ef60ac48f83b66bf0c47d175e30790adfbb738ff11a983a467d4f"
+      },
+      "open_processes": [],
+      "deleted": true
+    },
+    {
+      "obsolete_transfer_copy": "/root/deadsync-pass3-20261116/velvet-transfer-itgmania-harness-pass3-r1",
+      "bytes": 8871400,
+      "allocated_bytes": 8871936,
+      "sha256": "7b26e8402a14639e3954f66e1eb4bc29d52c37055d6650adcc0dcaee2884039b",
+      "mtime_ns": 1794791969921018826,
+      "retained_vmid": 1503,
+      "retained": {
+        "path": "/opt/song-lua-audit/bin/itgmania-harness-pass3-r1",
+        "bytes": 8871400,
+        "sha256": "7b26e8402a14639e3954f66e1eb4bc29d52c37055d6650adcc0dcaee2884039b"
+      },
+      "open_processes": [],
+      "deleted": true
+    }
+  ],
+  "verified_duplicate_bytes": 498261624,
+  "deleted": true,
+  "completed_at": "2026-11-19T23:58:03.953545+00:00",
+  "allocated_bytes_released": 498270208,
+  "root_available_before": 162188857344,
+  "root_available_after": 162687127552
+}

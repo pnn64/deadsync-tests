@@ -1,0 +1,78 @@
+{
+  "members": {
+    "sharkmode-after01/execution.json": {
+      "bytes": 1807,
+      "sha256": "ffcfd5c8d956a42a6490f001c47fc8fcc0087c265d59591640e419d60e568a29"
+    },
+    "sharkmode-after01/invocation.json": {
+      "bytes": 1122,
+      "sha256": "20857821c2ec967806e016ba0cc922840bde8c92ba6881ba3a141070a6e8a6fd"
+    },
+    "sharkmode-after01/report.json": {
+      "bytes": 12147034,
+      "sha256": "ca5285ba80112a00b768bb4f101f71df17af2148d814514cbec59e2c8c3f3fbc"
+    },
+    "sharkmode-after01/stderr.log": {
+      "bytes": 26258,
+      "sha256": "f1ed8d621bf9c31cdb9f5b13dd4e2c751032448b091ac39eb689c8f2c4bf07d2"
+    },
+    "sharkmode-after01/stdout.log": {
+      "bytes": 14,
+      "sha256": "94ac0752da6fbae9ec0cc822cee0354be894531849eb5ddcf703ea7baee44d73"
+    },
+    "pernicious-deed-after01/execution.json": {
+      "bytes": 1594,
+      "sha256": "c6a52559d7c040c6eb757decdc84da5e97e2be07df2515048bf8a1dac9d93316"
+    },
+    "pernicious-deed-after01/invocation.json": {
+      "bytes": 1052,
+      "sha256": "f0f28993875a84e13aa05df76be667e6bc995628dc637d0cc4ad4fef04b1b0f2"
+    },
+    "pernicious-deed-after01/stderr.log": {
+      "bytes": 7547,
+      "sha256": "0a3b342f440023c81ef31aaee51a4010c5aee3a6d63c0275d52c90fa7901529e"
+    },
+    "pernicious-deed-after01/stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "pernicious-deed-before-removal-prefix/execution.json": {
+      "bytes": 2448,
+      "sha256": "e4e23fe15a54f50fe8495119a62469c333972a04b4bd9f45114cdd59c3d7bdc8"
+    },
+    "pernicious-deed-before-removal-prefix/invocation.json": {
+      "bytes": 1766,
+      "sha256": "2569238eda7f80ebcb4ff73d9090b2db51518cfc72561b529a32c7a5776a9342"
+    },
+    "pernicious-deed-before-removal-prefix/report.json": {
+      "bytes": 101375903,
+      "sha256": "15c9e7d672564dfa487d2476ccc61bf5e542b66752657f40e92d95c2e82a4462"
+    },
+    "pernicious-deed-before-removal-prefix/stderr.log": {
+      "bytes": 32309,
+      "sha256": "ba7d26d126f707d6e06794f75406028ee4e20a56740f74164bf3a383f877b699"
+    },
+    "pernicious-deed-before-removal-prefix/stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "retained-binary-identity.json": {
+      "bytes": 881,
+      "sha256": "100896bf681af6cf3083a76c67a86ae4eab58b05695dc050ed59321d3a9bb61f"
+    }
+  },
+  "files": {
+    "evidence.zip": {
+      "bytes": 2280271,
+      "sha256": "cef93d081c23faab0bc156718f82ddd1efe3732b885f89031a1de8e69f97ad19"
+    },
+    "README.md": {
+      "bytes": 1102,
+      "sha256": "e5170919acad6c878d3f0588281e69a5b2df0c45165833c56ebe39bd9a956e6d"
+    },
+    "summary.json": {
+      "bytes": 24666,
+      "sha256": "f2ba2514c787118f9b0d705279a634cc13a578740f6fb72f9a8e147449ca42e9"
+    }
+  }
+}

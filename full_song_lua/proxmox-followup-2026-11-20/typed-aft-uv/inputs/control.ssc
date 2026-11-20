@@ -1,0 +1,25 @@
+#VERSION:0.83;
+#TITLE:Typed AFT padded UV;
+#ARTIST:DeadSync native parity control;
+#MUSIC:music.wav;
+#OFFSET:0;
+#BPMS:0=120;
+#LASTSECONDHINT:6;
+#FGCHANGES:0=control.lua=1=0=0=0;
+#NOTEDATA:;
+#STEPSTYPE:dance-single;
+#DESCRIPTION:Typed render-target UV coordinates;
+#DIFFICULTY:Challenge;
+#METER:1;
+#RADARVALUES:0,0,0,0,0;
+#NOTES:
+1000
+0000
+0100
+0000
+,
+0010
+0000
+0001
+0000
+;

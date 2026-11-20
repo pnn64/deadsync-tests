@@ -1,0 +1,78 @@
+{
+  "accepted": false,
+  "reason": "No native draw submissions: Foreground::Update ended a root with zero tween duration before drawing.",
+  "native_counts": {
+    "update_frames": 593,
+    "events": 22,
+    "drawable_samples": 0,
+    "stage_samples": 18
+  },
+  "native_trace_sha256": "a74169b9d5d22c83b736fd7c72c6a931dfa5d8ad50cf7f92552b04b5a3f5a14e",
+  "preserved_remote_directory": "/opt/song-lua-audit/parity-20261120/typed-aft-uv-attempt01",
+  "source_sha256": "5a5e3509c2722d5605b1afc9ac2dc575912d61728d85eba0de412acaf200f991",
+  "capture_spec": {
+    "started_at": "2026-11-20T00:00:26.289013+00:00",
+    "command": [
+      "/opt/song-lua-audit/pass4/capture-profiles/d5e531147bbe2b44ae64ea19efb9c8087f0de503b9de340ccd2a872c09920911/bin/itgmania-harness-rs",
+      "song-lua-trace",
+      "/opt/song-lua-audit/parity-20261120/typed-aft-uv-attempt01/input/Songs/typed-aft-uv/control.ssc",
+      "--itgmania-bin",
+      "/opt/song-lua-audit/harness-pass4/vendor/itgmania/ITGmania-harness-trace",
+      "--fallback-theme",
+      "Harness Simply Love",
+      "--game",
+      "dance",
+      "--style",
+      "versus",
+      "--capture-fps",
+      "60",
+      "--max-events",
+      "200000",
+      "--timeout",
+      "120",
+      "--random-seed",
+      "1",
+      "--autoplay",
+      "1",
+      "--out",
+      "/opt/song-lua-audit/parity-20261120/typed-aft-uv-attempt01/traces/native.json",
+      "--until-gameplay-end",
+      "--headless",
+      "--drawable-samples",
+      "--chart-index",
+      "1",
+      "--difficulty",
+      "Challenge"
+    ],
+    "environment": {
+      "DISPLAY": ":99",
+      "LIBGL_ALWAYS_SOFTWARE": "1",
+      "GALLIUM_DRIVER": "llvmpipe",
+      "LP_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "TMPDIR": "/opt/song-lua-audit/parity-20261120/typed-aft-uv-attempt01/tmp",
+      "ITGMANIA_SONG_LUA_NOTESKIN_ROOT": "/opt/song-lua-audit/harness-pass4/vendor/itgmania/NoteSkins"
+    },
+    "working_directory": "/opt/song-lua-audit/parity-20261120/typed-aft-uv-attempt01",
+    "memory_max_bytes": 6442450944,
+    "cpu_quota_percent": 200,
+    "timeout_seconds": 150,
+    "unit": "deadsync-typed-aft-capture-66e80aea8e72421f"
+  },
+  "capture_receipt": {
+    "finished_at": "2026-11-20T00:00:44.936087+00:00",
+    "unit": "deadsync-typed-aft-capture-66e80aea8e72421f",
+    "service_result": "success",
+    "exit_code": "exited",
+    "exit_status": "0",
+    "resource_usage": {
+      "MemoryPeak": "270675968",
+      "CPUUsageNSec": "18501890000",
+      "CPUQuotaPerSecUSec": "2s",
+      "MemoryMax": "6442450944",
+      "MemorySwapMax": "0"
+    },
+    "spec_sha256": "02c33085752de316bbc9e32144547fb210f02c58171518182b6b3c3a2c2fb80d"
+  },
+  "source_difference": "--- attempt01/control.lua\n+++ attempt02/control.lua\n@@ -10,6 +10,8 @@\n return Def.ActorFrame {\n     Name = \"TypedAftUvControl\",\n     OnCommand = function(self)\n+        -- Foreground::Update derives visibility duration from this tween time.\n+        self:sleep(6)\n         local target = self:GetChild(\"Target\")\n         local mesh = self:GetChild(\"Mesh\")\n         target:SetSize(854, 480):SetTextureName(\"TypedAftUvTarget\")\n"
+}

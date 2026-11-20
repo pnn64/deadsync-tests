@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "native_observations_verified": true,
+  "replay_acceptance": "accepted by full diagnostic comparisons and production gameplay checks",
+  "harness_revision": "b2af4f355d827fb0e89aead84b4c75a9b8cccf6c",
+  "harness_binary_sha256": "1780c9e517994285775fa75c98c1975c601be0f94c4ad1a376cab16bd8684e8e",
+  "native_revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+  "native_binary_sha256": "c03763cac1270c14dbe790cbb055c96ebbced269448d64e0bb705385dc9537a3",
+  "theme_revision": "1feda1fd43d96baca951351bb28a35d5e690ebc7",
+  "trace_sha256": "8251da45a1b6bd832e5492d93e372d89e43e1bf6a028dbfaccda92dd0e745a38",
+  "typed_texture_binding": {
+    "actor": "def-0003",
+    "args": [
+      {
+        "type": "RageTextureRenderTarget"
+      }
+    ],
+    "beat": 0.18645352125167847,
+    "caller": {
+      "line": 12,
+      "source": "song:/control.lua",
+      "tail_call": false
+    },
+    "command": "OnCommand",
+    "definition_id": "def-0004",
+    "detail": {
+      "native_tween_time_left": 0
+    },
+    "kind": "call",
+    "line": 12,
+    "operation": "ActorMultiVertex.SetTexture",
+    "phase": "callback",
+    "scene": 1,
+    "seconds": 0.11022675782442093,
+    "seq": 19,
+    "source": "song:/control.lua"
+  },
+  "mesh_native_samples": 225,
+  "mesh_native_draw_calls": 225,
+  "sample_frames": [
+    228,
+    452
+  ],
+  "image_dimensions": [
+    854,
+    480
+  ],
+  "backing_dimensions": [
+    1024,
+    512
+  ],
+  "native_maximum_uv": [
+    0.833984375,
+    0.9375
+  ],
+  "candidate": {
+    "path": "/opt/song-lua-audit/parity-20261120/typed-aft-uv-attempt02/candidate/11064b28f2572ca8a90e532e1639f30b416794ae886e7adf7e286c0c91324ac0.tar",
+    "sha256": "11064b28f2572ca8a90e532e1639f30b416794ae886e7adf7e286c0c91324ac0",
+    "bytes": 113423360
+  },
+  "scope": "Manual native ActorMultiVertex submissions after one typed AFT texture binding; no framebuffer pixel claim.",
+  "ordered_call_sample_pairing": {
+    "verified_pairs": 225,
+    "all_call_sequences_strictly_after_binding": true,
+    "all_calls_match_sample_frame_clock": true,
+    "first_draw_shares_binding_clock": true,
+    "first_two_pairs": [
+      {
+        "draw_event_sequence": 25,
+        "draw_seconds": 0.11022675782442093,
+        "sample_update_sequence": 228,
+        "sample_frame_seconds": 0.11022675782442093
+      },
+      {
+        "draw_event_sequence": 27,
+        "draw_seconds": 0.23342403769493103,
+        "sample_update_sequence": 229,
+        "sample_frame_seconds": 0.23342403769493103
+      }
+    ],
+    "last_pair": {
+      "draw_event_sequence": 473,
+      "draw_seconds": 6.012721061706543,
+      "sample_update_sequence": 452,
+      "sample_frame_seconds": 6.012721061706543
+    }
+  },
+  "replay_report_sha256": "5431ce026d06f1a8dabfdd31f4dc2fb829c90452043ef1a52767992c51cc5ad5",
+  "replay_binary_sha256": "db462d6906c1c904b7a786483e0719d09cc7fb120d73a9bf0df12ed3da7a1e25",
+  "replay_source_commit": "a29b55646dd492dc8503335be72b91488fb82290",
+  "packed_archive": {
+    "filename": "bc906861bee61bfd9cb364c6cafe9dff54e9c852a7c477ffa8a9ef785fbd3c0d.tar.zst",
+    "sha256": "bc906861bee61bfd9cb364c6cafe9dff54e9c852a7c477ffa8a9ef785fbd3c0d",
+    "bytes": 107774338
+  },
+  "whole_song_parity_proven": false,
+  "production_parity_proven": false,
+  "pixel_parity_proven": false
+}

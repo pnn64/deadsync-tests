@@ -1,0 +1,13 @@
+{
+  "kind": "strict frozen-B fleet accounting with preserved old54 and recovery27 provenance",
+  "accounting_result_available": true,
+  "actual_exit_code": 2,
+  "accounting_failed_before_report": false,
+  "complete": false,
+  "pending_counts": {
+    "resource_retry_not_in_contract": 108
+  },
+  "coverage": "Implemented combined diagnostic and production comparisons only; this bundle performs no replay.",
+  "limits": "Current-main fixes, whole-song parity and framebuffer pixels are not certified by frozen-B accounting.",
+  "retention": "Exact compact reports are copied. Full retained inputs remain at their immutable absolute paths with hashes."
+}

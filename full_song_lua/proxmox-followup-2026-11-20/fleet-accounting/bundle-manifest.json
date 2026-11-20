@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-20T01:23:45.622329+00:00",
+  "files": [
+    {
+      "file": "invocation.json",
+      "sha256": "39c06ac6ca0934fe8953322a895efade4a932070f838d7324e963b7f85f8c66d",
+      "bytes": 21630,
+      "source_path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\fleet-accounting-prepared-20261120T010139.145403Z\\invocation.json",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "execution.json",
+      "sha256": "fa039462ff103d4d855bb2ebd38b619f484657d92c85423d7ef849af2af33518",
+      "bytes": 12097,
+      "source_path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\fleet-accounting-execution-20261120T010143.820808Z\\execution.json",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "execution-stdout.txt",
+      "sha256": "d9fbda69e4c235925ff7bef0c9c91e9120cd02274049756a9aaa46bc16b38256",
+      "bytes": 1113,
+      "source_path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\fleet-accounting-execution-20261120T010143.820808Z\\stdout.txt",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "execution-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\fleet-accounting-execution-20261120T010143.820808Z\\stderr.txt",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "terminal-role9458-collection.json.gz",
+      "sha256": "fec62adb9158c3e17efebe2eac3befd42adbc4862cb138ffcfbec849da12ced7",
+      "bytes": 91745,
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\resource-retry-contracts\\9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924\\collect-20261119T235645Z.json.gz",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "final-b-summary.json",
+      "sha256": "608beb4df86057dab114c9f36db2fc3243c48b0607c884dd64a0bee153ac0a2c",
+      "bytes": 1210197,
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\collected\\20261120T010040.390586Z-B-summary.json",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "final-b-hashes.json",
+      "sha256": "9940e2116667fd5915073b20758de1fec9d2feb03e504134810f643e35a68cbc",
+      "bytes": 701,
+      "source_path": null,
+      "copy_kind": "derived custody metadata"
+    },
+    {
+      "file": "recovery-evidence-01.zip",
+      "sha256": "f916f460cfc35fb540c615529e861999787539415c23b4232e4c7d67a1642d84",
+      "bytes": 58658,
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\transport-recovery-20261120\\recovery-evidence-01.zip",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "restoration-terminal-evidence-01.zip",
+      "sha256": "b4dd551a4d5c4f6007675e082dd14dbd3bcefc6455f2d426f980c65f4b811e5f",
+      "bytes": 43389,
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\transport-recovery-20261120\\restoration-terminal-evidence-01.zip",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "restoration-terminal-evidence-01.json",
+      "sha256": "17a1854fbbf8570cf164843cd23db5c147b313b02ac7d36cbb3de5aee265df29",
+      "bytes": 2186,
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\transport-recovery-20261120\\terminal-evidence-01.json",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "final108-resource-obligations-audit.json",
+      "sha256": "28f41ceaaae408c34df3e67528adf9967b1415d24a707e04f87463428fc970b9",
+      "bytes": 159328,
+      "source_path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\final108-resource-obligations-audit.json",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "accounting-summary.json",
+      "sha256": "c52fc8d04efa7886377264f4085aa7fc2b39e295191ee0f160f92b9689529209",
+      "bytes": 35468,
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-role9458-terminal-20261120T010139.145403Z\\summary.json",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "accounting.json.gz",
+      "sha256": "2a9972a9f6d71644bdd80c8a1201b5f18851cb2809ffd18ffeb6417949237802",
+      "bytes": 1617870,
+      "source_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-role9458-terminal-20261120T010139.145403Z\\accounting.json.gz",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "old-checkpoint-100-resource-obligations.json",
+      "sha256": "8ce70d7d2d1196657eb984f506e56f2c23119bf498e2dd11b0c06a8716b129b5",
+      "bytes": 311535,
+      "source_path": "C:\\GitHub\\deadsync\\target\\song-lua-parity-20261120\\old100-resource-obligations-audit.json",
+      "copy_kind": "exact bytes"
+    },
+    {
+      "file": "resource-obligations-current-vs-old.json",
+      "sha256": "e059369c0425f7d9a5a9679403873fe5aa69675ab4845582493a4de7ef475d6e",
+      "bytes": 123924,
+      "source_path": null,
+      "copy_kind": "derived custody metadata"
+    },
+    {
+      "file": "input-hashes.json",
+      "sha256": "58a7d502c9ca17117e1002ffeede585b6b539469632f5953262a916d5f07e2c2",
+      "bytes": 37239,
+      "source_path": null,
+      "copy_kind": "derived custody metadata"
+    },
+    {
+      "file": "scope.json",
+      "sha256": "526c84a1a8594c259438d098c6843674098d150f38e784d7155e1ae48c942170",
+      "bytes": 653,
+      "source_path": null,
+      "copy_kind": "derived custody metadata"
+    }
+  ],
+  "retained_result_directory": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-role9458-terminal-20261120T010139.145403Z",
+  "scope": {
+    "kind": "strict frozen-B fleet accounting with preserved old54 and recovery27 provenance",
+    "accounting_result_available": true,
+    "actual_exit_code": 2,
+    "accounting_failed_before_report": false,
+    "complete": false,
+    "pending_counts": {
+      "resource_retry_not_in_contract": 108
+    },
+    "coverage": "Implemented combined diagnostic and production comparisons only; this bundle performs no replay.",
+    "limits": "Current-main fixes, whole-song parity and framebuffer pixels are not certified by frozen-B accounting.",
+    "retention": "Exact compact reports are copied. Full retained inputs remain at their immutable absolute paths with hashes."
+  }
+}

@@ -1,0 +1,340 @@
+# Working directory: C:/GitHub/deadsync
+# Command: $env:CARGO_TARGET_DIR='C:/GitHub/deadsync/target'; $env:CARGO_BUILD_JOBS='2'; cargo test -p deadsync-song-lua --features test-support --test gameplay_underlay --test gameplay_score
+# Completed session: 21692; exit_code: 0
+    Blocking waiting for file lock on package cache
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.27
+   Compiling quote v1.0.47
+   Compiling cfg-if v1.0.5
+   Compiling libm v0.2.16
+   Compiling autocfg v1.5.1
+   Compiling num-traits v0.2.19
+   Compiling syn v2.0.119
+   Compiling windows-link v0.2.1
+   Compiling syn v3.0.10
+   Compiling log v0.4.35
+   Compiling bitflags v2.13.2
+   Compiling memchr v2.8.3
+   Compiling smallvec v1.16.5
+   Compiling getrandom v0.4.3
+   Compiling find-msvc-tools v0.1.15
+   Compiling jobserver v0.1.35
+   Compiling shlex v2.0.1
+   Compiling cc v1.11.2
+   Compiling bytemuck_derive v1.12.1
+   Compiling cfg_aliases v0.2.2
+   Compiling bytemuck v1.25.2
+   Compiling windows-sys v0.61.2
+   Compiling num-integer v0.1.47
+   Compiling serde_core v1.0.229
+   Compiling raw-window-handle v0.6.2
+   Compiling libc v0.2.191
+   Compiling arrayvec v0.7.8
+   Compiling windows-implement v0.60.2
+   Compiling windows-interface v0.59.3
+   Compiling windows-result v0.4.1
+   Compiling windows-strings v0.5.1
+   Compiling pkg-config v0.3.34
+   Compiling thiserror v2.0.21
+   Compiling windows-core v0.62.2
+   Compiling thiserror-impl v2.0.21
+   Compiling windows_x86_64_msvc v0.52.6
+   Compiling equivalent v1.0.3
+   Compiling foldhash v0.2.0
+   Compiling allocator-api2 v0.2.21
+   Compiling windows-threading v0.2.1
+   Compiling zerocopy v0.8.63
+   Compiling utf8parse v0.2.2
+   Compiling once_cell_polyfill v1.70.2
+   Compiling anstyle v1.0.14
+   Compiling crossbeam-utils v0.8.23
+   Compiling crc32fast v1.5.5
+   Compiling anstyle-wincon v3.0.11
+   Compiling anstyle-parse v1.0.0
+   Compiling windows-future v0.3.2
+   Compiling windows-targets v0.52.6
+   Compiling windows-numerics v0.3.1
+   Compiling windows-collections v0.3.2
+   Compiling anstyle-query v1.1.5
+   Compiling zerocopy-derive v0.8.63
+   Compiling colorchoice v1.0.5
+   Compiling simd-adler32 v0.3.10
+   Compiling is_terminal_polyfill v1.70.2
+   Compiling crossbeam-epoch v0.9.21
+   Compiling anstream v1.0.0
+   Compiling windows v0.62.2
+   Compiling windows-sys v0.52.0
+   Compiling hashbrown v0.17.1
+   Compiling tracing-core v0.1.36
+   Compiling pin-project-lite v0.2.17
+   Compiling crossbeam-deque v0.8.8
+   Compiling tracing v0.1.44
+   Compiling indexmap v2.14.2
+   Compiling half v2.7.1
+   Compiling winit v0.30.13
+   Compiling aho-corasick v1.1.5
+   Compiling adler2 v2.0.1
+   Compiling rayon-core v1.13.0
+   Compiling regex-syntax v0.8.11
+   Compiling regex-automata v0.4.18
+   Compiling equator-macro v0.4.2
+   Compiling profiling-procmacros v1.0.18
+   Compiling num-complex v0.4.6
+   Compiling smol_str v0.2.2
+   Compiling cursor-icon v1.2.0
+   Compiling unicode-segmentation v1.13.3
+   Compiling dpi v0.1.2
+   Compiling profiling v1.0.18
+   Compiling equator v0.4.2
+   Compiling regex v1.13.1
+   Compiling cmake v0.1.58
+   Compiling jiff-core v0.1.8
+   Compiling serde v1.0.229
+   Compiling either v1.19.0
+   Compiling khronos_api v3.1.0
+   Compiling anyhow v1.0.104
+   Compiling rustc-hash v2.1.3
+   Compiling option-ext v0.2.0
+   Compiling dirs-sys v0.5.0 (C:\GitHub\deadsync\vendor\dirs-sys-win7)
+   Compiling jiff v0.2.46
+   Compiling env_filter v2.0.0
+   Compiling aligned-vec v0.6.4
+   Compiling miniz_oxide v0.9.1
+   Compiling num-bigint v0.4.8
+   Compiling serde_derive v1.0.229
+   Compiling chrono v0.4.45
+   Compiling stable_deref_trait v1.2.1
+   Compiling target-features v0.1.6
+   Compiling as-slice v0.2.1
+   Compiling env_logger v0.11.11
+   Compiling num-rational v0.4.2
+   Compiling flate2 v1.1.11
+   Compiling v_frame v0.3.9
+   Compiling directories v6.0.0
+   Compiling rayon v1.12.0
+   Compiling miniz_oxide v0.8.9
+   Compiling paste v1.0.15
+   Compiling built v0.8.0
+   Compiling xml-rs v0.8.29
+   Compiling av-scenechange v0.14.1
+   Compiling rav1e v0.8.1
+   Compiling gl_generator v0.14.0
+   Compiling deadlib-platform v0.1.0 (C:\GitHub\deadsync\crates\deadlib-platform)
+   Compiling aligned v0.4.3
+   Compiling fdeflate v0.3.7
+   Compiling nom v8.0.0
+   Compiling no_std_io2 v0.9.4
+   Compiling arg_enum_proc_macro v0.3.4
+   Compiling lazy_static v1.5.1
+   Compiling quick-error v2.0.1
+   Compiling y4m v0.8.0
+   Compiling pastey v0.1.1
+   Compiling symphonia-core v0.6.1
+   Compiling av1-grain v0.2.5
+   Compiling bitstream-io v4.10.0
+   Compiling png v0.18.1
+   Compiling multiversion-macros v0.8.1
+   Compiling maybe-rayon v0.1.1
+   Compiling itertools v0.14.0
+   Compiling num-derive v0.4.2
+   Compiling libloading v0.8.9
+   Compiling simd_helpers v0.1.0
+   Compiling noop_proc_macro v0.3.0
+   Compiling imgref v1.12.3
+   Compiling rand_core v0.10.1
+   Compiling new_debug_unreachable v1.0.6
+   Compiling zune-core v0.5.3
+   Compiling weezl v0.1.12
+   Compiling zune-jpeg v0.5.15
+   Compiling loop9 v0.1.5
+   Compiling multiversion v0.8.1
+   Compiling zune-inflate v0.2.54
+   Compiling avif-serialize v0.8.9
+   Compiling pxfm v0.1.30
+   Compiling regex-lite v0.1.9
+   Compiling rgb v0.8.53
+   Compiling fax v0.2.7
+   Compiling bit_field v0.10.4
+   Compiling color_quant v1.1.0
+   Compiling lebe v0.5.3
+   Compiling byteorder-lite v0.1.0
+   Compiling exr v1.74.3
+   Compiling image-webp v0.2.4
+   Compiling gif v0.14.2
+   Compiling tiff v0.11.3
+   Compiling ravif v0.13.0
+   Compiling moxcms v0.8.1
+   Compiling symphonia-metadata v0.6.1
+   Compiling qoi v0.4.1
+   Compiling once_cell v1.21.4
+   Compiling zmij v1.0.23
+   Compiling ash v0.38.0+1.3.281
+   Compiling image v0.25.10
+   Compiling symphonia-common v0.6.1
+   Compiling glutin_wgl_sys v0.6.1
+   Compiling cpufeatures v0.3.1
+   Compiling serde_json v1.0.154
+   Compiling strength_reduce v0.2.4
+   Compiling rustc-hash v1.1.0
+   Compiling naga-types v30.0.2
+   Compiling transpose v0.2.3
+   Compiling chacha20 v0.10.2
+   Compiling primal-check v0.3.4
+   Compiling link-cplusplus v1.0.12
+   Compiling naga v30.0.2
+   Compiling bit-vec v0.9.1
+   Compiling itoa v1.0.19
+   Compiling unicode-width v0.2.3
+   Compiling parking_lot_core v0.9.12
+   Compiling codespan-reporting v0.13.1
+   Compiling bit-set v0.10.0
+   Compiling rustfft v6.4.1
+   Compiling rand v0.10.4
+   Compiling spirv v0.4.0+sdk-1.4.341.0
+   Compiling scopeguard v1.2.0
+   Compiling roxmltree v0.20.0
+   Compiling static_assertions v1.1.0
+   Compiling khronos-egl v6.0.0
+   Compiling shaderc-sys v0.10.1
+   Compiling wgpu-types v30.0.2
+   Compiling lock_api v0.4.14
+   Compiling twox-hash v2.1.5
+   Compiling symphonia-format-ogg v0.6.1
+   Compiling symphonia-codec-vorbis v0.6.1
+   Compiling symphonia-bundle-flac v0.6.1
+   Compiling symphonia-bundle-mp3 v0.6.1
+   Compiling hashbrown v0.16.1
+   Compiling wgpu-hal v30.0.2
+   Compiling glam v0.34.3
+   Compiling presser v0.3.1
+   Compiling gpu-allocator v0.28.0
+   Compiling symphonia v0.6.1
+   Compiling wgpu-naga-bridge v30.0.2
+   Compiling parking_lot v0.12.5
+   Compiling deadlib-render-core v0.1.0 (C:\GitHub\deadsync\crates\deadlib-render-core)
+   Compiling zstd-sys v2.1.3+zstd.1.5.7
+   Compiling ordered-float v5.4.0
+   Compiling renderdoc-sys v1.1.0
+   Compiling glow v0.17.0
+   Compiling deadsync-core v0.1.0 (C:\GitHub\deadsync\crates\deadsync-core)
+   Compiling deadlib-bincode-derive v2.0.1 (C:\GitHub\deadsync\crates\deadlib-bincode\derive)
+   Compiling range-alloc v0.1.5
+   Compiling deadlib-bincode v2.0.1 (C:\GitHub\deadsync\crates\deadlib-bincode)
+   Compiling glutin_egl_sys v0.7.1
+   Compiling opusic-sys v0.7.5 (C:\GitHub\deadsync\vendor\opusic-sys)
+   Compiling wgpu-core v30.0.2
+   Compiling litrs v1.0.1
+   Compiling audio-codec-algorithms v0.8.1
+   Compiling audioadapter-sample v5.2.0
+   Compiling document-features v0.2.12
+   Compiling wgpu-core-deps-windows-linux-android v30.0.2
+   Compiling deadsync-rules v0.1.0 (C:\GitHub\deadsync\crates\deadsync-rules)
+   Compiling glutin v0.32.3
+   Compiling wgpu v30.0.2
+   Compiling audioadapter v5.0.0
+   Compiling audioadapter-buffers v5.2.0
+   Compiling deadsync-chart v0.1.0 (C:\GitHub\deadsync\crates\deadsync-chart)
+   Compiling realfft v3.5.1
+   Compiling visibility v0.1.1
+   Compiling windowfunctions v0.1.1
+   Compiling byteorder v1.5.0
+   Compiling ogg v0.9.2
+   Compiling rubato v5.1.0
+   Compiling opusic-c v1.6.1
+   Compiling ash-window v0.13.0
+   Compiling softbuffer v0.4.8
+   Compiling pollster v1.0.1
+   Compiling glow v0.18.0
+   Compiling deadlib-render-backend-gl v0.1.0 (C:\GitHub\deadsync\crates\deadlib-render-backend-gl)
+   Compiling deadlib-render-backend-wgpu v0.1.0 (C:\GitHub\deadsync\crates\deadlib-render-backend-wgpu)
+   Compiling deadlib-render-backend-software v0.1.0 (C:\GitHub\deadsync\crates\deadlib-render-backend-software)
+   Compiling deadlib-audio-decode v0.1.0 (C:\GitHub\deadsync\crates\deadlib-audio-decode)
+   Compiling deadsync-input v0.1.0 (C:\GitHub\deadsync\crates\deadsync-input)
+   Compiling hidapi v2.6.7 (C:\GitHub\deadsync\vendor\hidapi-win7)
+   Compiling zstd-safe v7.4.1
+   Compiling dasp_sample v0.11.0
+   Compiling ebur128 v0.1.11
+   Compiling dasp_frame v0.11.0
+   Compiling deadsync-gameplay v0.1.0 (C:\GitHub\deadsync\crates\deadsync-gameplay)
+   Compiling deadsync-score v0.1.0 (C:\GitHub\deadsync\crates\deadsync-score)
+   Compiling deadlib-present v0.1.0 (C:\GitHub\deadsync\crates\deadlib-present)
+   Compiling deadlib-video v0.1.0 (C:\GitHub\deadsync\crates\deadlib-video)
+   Compiling winapi-util v0.1.11
+   Compiling rssp-core v0.4.291 (https://github.com/pnn64/rssp?branch=main#5b0284ee)
+   Compiling rtrb v0.4.1
+   Compiling clap_lex v1.1.1
+   Compiling strsim v0.11.1
+   Compiling heck v0.5.0
+   Compiling bitflags v1.3.2
+   Compiling clap_derive v4.6.7
+   Compiling clap_builder v4.6.7
+   Compiling deadlib-audio-core v0.1.0 (C:\GitHub\deadsync\crates\deadlib-audio-core)
+   Compiling rssp v0.4.291 (https://github.com/pnn64/rssp?branch=main#5b0284ee)
+   Compiling same-file v1.0.6
+   Compiling null-or-die-audio v0.1.3 (https://github.com/pnn64/null-or-die?branch=main#5304c8c5)
+   Compiling null-or-die-core v0.1.3 (https://github.com/pnn64/null-or-die?branch=main#5304c8c5)
+   Compiling null-or-die-rssp v0.1.3 (https://github.com/pnn64/null-or-die?branch=main#5304c8c5)
+   Compiling zstd v0.13.5
+   Compiling walkdir v2.5.0
+   Compiling deadlib-audio-backend-wasapi v0.1.0 (C:\GitHub\deadsync\crates\deadlib-audio-backend-wasapi)
+   Compiling clap v4.6.7
+   Compiling deadsync-audio-analysis v0.1.0 (C:\GitHub\deadsync\crates\deadsync-audio-analysis)
+   Compiling md5 v0.8.1
+   Compiling deadlib-lua v0.1.0 (C:\GitHub\deadsync\crates\deadlib-lua)
+   Compiling null-or-die-cli v0.1.3 (https://github.com/pnn64/null-or-die?branch=main#5304c8c5)
+   Compiling deadsync-audio-replaygain v0.1.0 (C:\GitHub\deadsync\crates\deadsync-audio-replaygain)
+   Compiling deadlib-audio v0.1.0 (C:\GitHub\deadsync\crates\deadlib-audio)
+   Compiling rustmaniax-sdk v2.1.1
+   Compiling deadlib-input-native v0.1.0 (C:\GitHub\deadsync\crates\deadlib-input-native)
+   Compiling sha1_smol v1.0.1
+   Compiling uuid v1.29.2
+   Compiling deadsync-smx v0.1.0 (C:\GitHub\deadsync\crates\deadsync-smx)
+   Compiling deadsync-audio-stream v0.1.0 (C:\GitHub\deadsync\crates\deadsync-audio-stream)
+   Compiling null-or-die v0.1.3 (https://github.com/pnn64/null-or-die?branch=main#5304c8c5)
+   Compiling deadsync-lights v0.1.0 (C:\GitHub\deadsync\crates\deadsync-lights)
+   Compiling deadsync-noteskin v0.1.0 (C:\GitHub\deadsync\crates\deadsync-noteskin)
+   Compiling shaderc v0.10.1
+   Compiling deadlib-render-backend-vulkan v0.1.0 (C:\GitHub\deadsync\crates\deadlib-render-backend-vulkan)
+   Compiling deadlib-render v0.1.0 (C:\GitHub\deadsync\crates\deadlib-render)
+   Compiling deadlib-assets v0.1.0 (C:\GitHub\deadsync\crates\deadlib-assets)
+   Compiling deadsync-theme v0.1.0 (C:\GitHub\deadsync\crates\deadsync-theme)
+   Compiling deadsync-config v0.1.0 (C:\GitHub\deadsync\crates\deadsync-config)
+   Compiling deadsync-song-lua v0.1.0 (C:\GitHub\deadsync\crates\deadsync-song-lua)
+   Compiling deadsync-notefield v0.1.0 (C:\GitHub\deadsync\crates\deadsync-notefield)
+   Compiling zstd-safe v8.3.0
+   Compiling deadsync-profile v0.1.0 (C:\GitHub\deadsync\crates\deadsync-profile)
+   Compiling deadsync-simfile v0.1.0 (C:\GitHub\deadsync\crates\deadsync-simfile)
+   Compiling fastrand v2.5.0
+   Compiling tempfile v3.27.0
+   Compiling deadsync-assets v0.1.0 (C:\GitHub\deadsync\crates\deadsync-assets)
+   Compiling deadsync-profile-gameplay v0.1.0 (C:\GitHub\deadsync\crates\deadsync-profile-gameplay)
+   Compiling zstd v0.14.4
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 18m 21s
+     Running tests\gameplay_score.rs (target\debug\build\deadsync-song-lua/10f1887a513d1d70\out\gameplay_score-10f1887a513d1d70.exe)
+
+running 1 test
+test score_redraws_follow_fed_statistics_without_cancelling_authored_tweens ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.48s
+
+     Running tests\gameplay_underlay.rs (target\debug\build\deadsync-song-lua/9a549f39d9b23ecd\out\gameplay_underlay-9a549f39d9b23ecd.exe)
+
+running 15 tests
+test required_numeric_color_and_time_helpers_preserve_native_coercion_and_values ... ok
+test player_enum_and_other_player_tables_keep_native_aliases_and_reverse_identity ... ok
+test required_brightness_and_alignment_keep_native_values_and_partial_writes ... ok
+test underlay_startup_queues_wait_until_the_original_discovery_boundary ... ok
+test step_statistics_loads_its_real_shared_environment_and_nested_resources ... ok
+test versus_statistics::shared_versus_statistics_release_with_their_screen ... ok
+test underlay_loaders_preserve_shared_writes_relative_paths_and_missing_resource_errors ... ok
+test failed_underlay_on_keeps_partial_construction_owned_until_screen_release ... ok
+test versus_statistics::shared_versus_statistics_keep_native_children_messages_and_layout ... ok
+test retained_underlay_messages_keep_danger_state_and_title_after_collection ... ok
+test screen_release_relinquishes_loaded_underlay_callback_owners ... ok
+test note_field_error_bar_variants_use_relative_environments_and_actual_layouts ... ok
+test complete_underlay_keeps_native_tree_order_options_and_initial_song_message ... ok
+test optional_note_field_widgets_use_existing_chart_and_turn_helpers ... ok
+test versus_statistics::shared_versus_statistics_follow_native_style_screen_and_player_options ... ok
+
+test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.40s
+

@@ -1,0 +1,20 @@
+{
+  "kind": "typed-aft-padded-uv-native-control-inputs",
+  "files": [
+    {
+      "path": "input/Songs/typed-aft-uv/control.lua",
+      "bytes": 1660,
+      "sha256": "bfb63694e7a10f691d4cbb4d88b20121ae096ef0734748e92c2387fa4962bee5"
+    },
+    {
+      "path": "input/Songs/typed-aft-uv/control.ssc",
+      "bytes": 373,
+      "sha256": "d5e182eda301299633bdccac9007029bd2e2b46788253180653f1a1494089bd1"
+    },
+    {
+      "path": "input/Songs/typed-aft-uv/music.wav",
+      "bytes": 529244,
+      "sha256": "c263760de082d12fd4a983296b361d1c29c0567f354b01a44149fe24e9609977"
+    }
+  ]
+}

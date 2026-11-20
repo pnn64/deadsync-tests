@@ -1,0 +1,24 @@
+{
+  "baseline_only": true,
+  "exit": 1,
+  "runner_sha256": "90abd15f5e2f6e15a23b33faacc83ec81bde13a2f709f095576a10ce0c8405e4",
+  "report_path": "/opt/song-lua-audit/parity-20261120/typed-aft-uv-attempt02/historical-baseline-replay/report.json",
+  "receipt": {
+    "finished_at": "2026-11-20T00:05:07.310122+00:00",
+    "unit": "deadsync-typed-aft-baseline-eaf846f318341a73",
+    "service_result": "exit-code",
+    "exit_code": "exited",
+    "exit_status": "1",
+    "resource_usage": {
+      "MemoryPeak": "156745728",
+      "CPUUsageNSec": "2151899000",
+      "CPUQuotaPerSecUSec": "2s",
+      "MemoryMax": "6442450944",
+      "MemorySwapMax": "0"
+    },
+    "spec_sha256": "05e877fb647a8b05c2fa4d0c1ede433b5e20abe724993ffe6afa4f75fbe5875b"
+  },
+  "failure_log": "[0.0s] replaying every native gameplay frame\n\nthread 'full-song-lua-replay' (8033) panicked at tests/song_lua_itgmania_semantic_parity/whole_song_archives.rs:1563:35:\nnative gameplay replay failed: unsupported native primitive in draw comparison\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace\n",
+  "interpretation": "Historical baseline stopped before producing a report because that runner lacks QuadStrip comparison support; this is not a measurement of the UV mismatch and not acceptance on current main.",
+  "evidence_zip_sha256": "d464f4b046eccb0ccdd741a773b96ddc8ac2bf7821561465fe56747ad91d3736"
+}

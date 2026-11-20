@@ -1,0 +1,4482 @@
+{
+  "kind": "final frozen-B outside-contract resource obligations",
+  "ledger": {
+    "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-role9458-terminal-20261120T010139.145403Z\\accounting.json.gz",
+    "sha256": "2a9972a9f6d71644bdd80c8a1201b5f18851cb2809ffd18ffeb6417949237802"
+  },
+  "source_snapshots": [
+    {
+      "source": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\collected\\20261120T010040.390586Z-full.json.gz",
+      "retained": "inputs/546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35-20261120T010040.390586Z-full.json.gz",
+      "sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+      "bytes": 8713584,
+      "retained_absolute_path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\final-accounting-role9458-terminal-20261120T010139.145403Z\\inputs\\546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35-20261120T010040.390586Z-full.json.gz"
+    }
+  ],
+  "unchanged_jobs": 100,
+  "resolved_ids": [],
+  "added_ids": [
+    "05f550917c3e16a7-c0005",
+    "1997e5079771b197-c0001",
+    "255308d88d7d6605-c0002",
+    "72ce74211a93b7e2-c0001",
+    "7666d9897cac1286-c0001",
+    "82dbf1390bb50291-c0001",
+    "9a7dc9dd696c05ad-c0001",
+    "d3aa73c0f2f94a22-c0001"
+  ],
+  "counts": {
+    "jobs": 108,
+    "all_terminal": true,
+    "native_complete": 55
+  },
+  "failure_stage_breakdown": [
+    {
+      "status": "capture_resource_limit",
+      "stage": "capture",
+      "memory_limit": "6G",
+      "service_result": "oom-kill",
+      "exit": 137,
+      "cases": 53
+    },
+    {
+      "status": "replay_resource_limit",
+      "stage": "replay",
+      "memory_limit": "6G",
+      "service_result": "oom-kill",
+      "exit": 137,
+      "cases": 55
+    }
+  ],
+  "cases": [
+    {
+      "job_id": "05f550917c3e16a7-c0001",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1504,
+      "attempt_vmid": 1504,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/05f550917c3e16a7-c0001/capture-f0523c509f4ac3ecd356-001/capture-result.json",
+        "original_bytes_sha256": "7501245283dd7c1b0e721304bfbafc6b107afa3cb24ed3e6b3a734ec0b397a63"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-6c01b2a9e8b6e34ffd21",
+          "started_at": "2026-11-19T08:37:27.783676+00:00",
+          "finished_at": "2026-11-19T08:41:23.578478+00:00",
+          "elapsed_seconds": 235.795,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 232761334000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0002",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1511,
+      "attempt_vmid": 1511,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/05f550917c3e16a7-c0002/capture-783861a37e14b63a283f-001/capture-result.json",
+        "original_bytes_sha256": "1ada8067d6010db0e08b10aba005ec0c2ff6b06fa56e98cf634ef2a6c7041a00"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-19cf06c71243cbae81be",
+          "started_at": "2026-11-19T09:02:30.629954+00:00",
+          "finished_at": "2026-11-19T09:06:24.409730+00:00",
+          "elapsed_seconds": 233.78,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 230528761000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0003",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1509,
+      "attempt_vmid": 1509,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/05f550917c3e16a7-c0003/capture-fccbbc7a708cb001d651-001/capture-result.json",
+        "original_bytes_sha256": "be17be9c996cc1fbb69ab38a11a5aca1ff525ae53ab16d203dbfe497af3159b6"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-205a3248634fbc87d398",
+          "started_at": "2026-11-19T08:37:06.921080+00:00",
+          "finished_at": "2026-11-19T08:40:59.159874+00:00",
+          "elapsed_seconds": 232.239,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 232651697000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0004",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1508,
+      "attempt_vmid": 1508,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/05f550917c3e16a7-c0004/capture-1711dc04a64ef8ece4cd-001/capture-result.json",
+        "original_bytes_sha256": "9ba39bbb4662beb5d4e8b45acafbba464a9050c5842dd8d1e2129abd86343935"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-359b69ff3d1c0cf994e1",
+          "started_at": "2026-11-19T08:55:10.407417+00:00",
+          "finished_at": "2026-11-19T08:59:08.059851+00:00",
+          "elapsed_seconds": 237.652,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 235417483000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0005",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1505,
+      "attempt_vmid": 1505,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": true,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/05f550917c3e16a7-c0005/capture-327640bece790574a9a3-001/capture-result.json",
+        "original_bytes_sha256": "b912f1af9d755ac2164fffd6ce94b16132cfe1717d9f1bd14c342fa93ae38ebe"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-2fbed11454370a212edf",
+          "started_at": "2026-11-19T12:43:31.550048+00:00",
+          "finished_at": "2026-11-19T12:47:15.610469+00:00",
+          "elapsed_seconds": 224.06,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 224583955000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0006",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1504,
+      "attempt_vmid": 1504,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/05f550917c3e16a7-c0006/capture-0a62f34098e8beb83131-001/capture-result.json",
+        "original_bytes_sha256": "6e81680bba6772548e7dfcacee1aa18f5c08c765a6ab6ba0690f679e91e27ef7"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-5527e5f682fbe303389f",
+          "started_at": "2026-11-19T08:41:24.036670+00:00",
+          "finished_at": "2026-11-19T08:45:14.937720+00:00",
+          "elapsed_seconds": 230.901,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 232382562000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0007",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1511,
+      "attempt_vmid": 1511,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/05f550917c3e16a7-c0007/capture-f7550f3998a95eec2069-001/capture-result.json",
+        "original_bytes_sha256": "c22eed7034dd7d71915c50ba64c22240a551e72467121595ec8667c1457b352a"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-fa793d636cdfcab06b8f",
+          "started_at": "2026-11-19T09:06:24.824041+00:00",
+          "finished_at": "2026-11-19T09:10:15.345388+00:00",
+          "elapsed_seconds": 230.521,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 231957951000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "05f550917c3e16a7-c0008",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.ssc",
+      "original_vmid": 1502,
+      "attempt_vmid": 1502,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/05f550917c3e16a7-c0008/capture-1475d91ab62ac37fcf97-001/capture-result.json",
+        "original_bytes_sha256": "804f55c803e9bae497749ac771a0095ff139aacdd99e094aa0f89906f1eacf3f"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-84526e2e82a171a0cb49",
+          "started_at": "2026-11-19T09:07:46.921689+00:00",
+          "finished_at": "2026-11-19T09:11:42.691899+00:00",
+          "elapsed_seconds": 235.77,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 232011388000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "161f4d2f8468456f-c0001",
+      "title": "Shooting Love",
+      "source_simfile": "Shooting Love/Shooting Love.ssc",
+      "original_vmid": 1510,
+      "attempt_vmid": 1510,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/161f4d2f8468456f-c0001/capture-c60cb83ea8dac3786909-001/replay-0d68f5d0c69ebe957564/result.json",
+        "original_bytes_sha256": "313cf288a7c4bf1f247ecc00b20db88b522016a9cc037e975d5b31e789aa0adc"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-9015dd26786c7d669dcd",
+          "started_at": "2026-11-19T08:41:01.282078+00:00",
+          "finished_at": "2026-11-19T08:42:33.497498+00:00",
+          "elapsed_seconds": 92.215,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 91907896000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "161f4d2f8468456f-c0002",
+      "title": "Shooting Love",
+      "source_simfile": "Shooting Love/Shooting Love.ssc",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/161f4d2f8468456f-c0002/capture-b6b54811124e628270a7-001/replay-61d47ea4db9b0bf9f816/result.json",
+        "original_bytes_sha256": "f2a65f5350125aa3b11b0ad105dd4f52d8e98de491c3b3d73bddddf1644899b1"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-f8ca836a458eb5447d89",
+          "started_at": "2026-11-19T09:52:52.193991+00:00",
+          "finished_at": "2026-11-19T09:54:08.438458+00:00",
+          "elapsed_seconds": 76.244,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 75960536000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "199056062f473784-c0001",
+      "title": "Rayc Fire 2",
+      "source_simfile": "Rayc Fire 2 (SM5)/Rayc Fire 2.sm",
+      "original_vmid": 1509,
+      "attempt_vmid": 1509,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/199056062f473784-c0001/capture-05191836e6654a276fab-001/replay-986de935e2b5d309b1bc/result.json",
+        "original_bytes_sha256": "a6e1ec015fcc23a316f567e785b81a4384b5915c0069ae2a196d42c0021f56e8"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-618e1e7f696488701ad7",
+          "started_at": "2026-11-19T09:09:36.684897+00:00",
+          "finished_at": "2026-11-19T09:10:24.690822+00:00",
+          "elapsed_seconds": 48.006,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 47335777000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "1997e5079771b197-c0001",
+      "title": "Jumper",
+      "source_simfile": "__variants__/rework/Jumper/Jumper.sm",
+      "original_vmid": 1503,
+      "attempt_vmid": 1503,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": true,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/1997e5079771b197-c0001/capture-f1f269c1d9a5e93b22f2-001/capture-result.json",
+        "original_bytes_sha256": "d50727ea89e9d6e98e42807ea59f4048154e2e9e077c5c14b882e8cf777e91c2"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-fc4224018b0d64374b24",
+          "started_at": "2026-11-19T12:37:17.133134+00:00",
+          "finished_at": "2026-11-19T12:41:05.327125+00:00",
+          "elapsed_seconds": 228.194,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 229299359000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "1997e5079771b197-c0002",
+      "title": "Jumper",
+      "source_simfile": "__variants__/rework/Jumper/Jumper.sm",
+      "original_vmid": 1506,
+      "attempt_vmid": 1506,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/1997e5079771b197-c0002/capture-14a8619803c456e85b4f-001/capture-result.json",
+        "original_bytes_sha256": "82944865b53d526a74d1abfa886f85fd9c12181e75d6a657134b3717899e1e2d"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-6937f57e50ea1bc241f5",
+          "started_at": "2026-11-19T08:35:20.212561+00:00",
+          "finished_at": "2026-11-19T08:39:24.807786+00:00",
+          "elapsed_seconds": 244.595,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 247447575000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "1e5fae5bb7c02f97-c0001",
+      "title": "Chipsqueak",
+      "source_simfile": "Chipsqueak/chipsqueak.sm",
+      "original_vmid": 1506,
+      "attempt_vmid": 1506,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/1e5fae5bb7c02f97-c0001/capture-47eaf14d011ef616885b-001/replay-80623b60efe7f2fa07c1/result.json",
+        "original_bytes_sha256": "d199fb3a8fdc1dfa820f12508ed3c89a9f5c731ea5b37d92170b3ba9f0ebcc97"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-be960e8bdc3ba19de26f",
+          "started_at": "2026-11-19T08:57:17.274752+00:00",
+          "finished_at": "2026-11-19T08:57:49.026138+00:00",
+          "elapsed_seconds": 31.751,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 31567262000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2425740743793832-c0001",
+      "title": "KABOOOOOM!!!!",
+      "source_simfile": "__variants__/rework/kaboooooom!/KABOOOOOM!!!!.sm",
+      "original_vmid": 1511,
+      "attempt_vmid": 1511,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/2425740743793832-c0001/capture-7f8732edfdec8682996a-001/replay-4f30b4f26faa90111c3f/result.json",
+        "original_bytes_sha256": "99f6132a5f3d4f0877f664b751afdd921ee4c90f2c00e169926c42f860938560"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-d5e67b6088b09625d9d5",
+          "started_at": "2026-11-19T06:11:56.438937+00:00",
+          "finished_at": "2026-11-19T06:12:46.499002+00:00",
+          "elapsed_seconds": 50.06,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 37249700000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2425740743793832-c0003",
+      "title": "KABOOOOOM!!!!",
+      "source_simfile": "__variants__/rework/kaboooooom!/KABOOOOOM!!!!.sm",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/2425740743793832-c0003/capture-5e9fd153fd0df87aa62c-001/replay-d7f15cb34c26ce8fe12c/result.json",
+        "original_bytes_sha256": "d355d4371bf27adff8d240a919c6d0ebb048dece2e690b10cddefb3426729f20"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-b76ee985718e252a4ef7",
+          "started_at": "2026-11-19T06:20:01.649543+00:00",
+          "finished_at": "2026-11-19T06:21:11.919259+00:00",
+          "elapsed_seconds": 70.27,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 34519409000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "255308d88d7d6605-c0002",
+      "title": "Planet Calling",
+      "source_simfile": "Planet Calling/Planet Calling.ssc",
+      "original_vmid": 1505,
+      "attempt_vmid": 1505,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": true,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/255308d88d7d6605-c0002/capture-44763c01411200d2e3c0-001/replay-9c61f511713cea84da28/result.json",
+        "original_bytes_sha256": "d1c97c255962c41e9bcf3ca6579e57d597242d08d8e9382211547fc670e5580b"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-cd710bc458593663d694",
+          "started_at": "2026-11-19T12:07:36.342642+00:00",
+          "finished_at": "2026-11-19T12:08:51.154177+00:00",
+          "elapsed_seconds": 74.812,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 74565768000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2ac31dad727e6303-c0001",
+      "title": "THE WORLD REVOLVING",
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.ssc",
+      "original_vmid": 1506,
+      "attempt_vmid": 1506,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/2ac31dad727e6303-c0001/capture-8bdee04720e013fac576-001/replay-c522711846f2d8e0742d/result.json",
+        "original_bytes_sha256": "647c02420863124d2f262c673b44209d3b5ed266d8800f59c2f5e58bc8288e2d"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-97c27418631704773b42",
+          "started_at": "2026-11-19T07:10:46.914629+00:00",
+          "finished_at": "2026-11-19T07:11:21.643294+00:00",
+          "elapsed_seconds": 34.729,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 31412719000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2ac31dad727e6303-c0002",
+      "title": "THE WORLD REVOLVING",
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.ssc",
+      "original_vmid": 1501,
+      "attempt_vmid": 1501,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/2ac31dad727e6303-c0002/capture-4dd6e1dc1d02369d9e56-001/replay-6abe03759b49a5f11532/result.json",
+        "original_bytes_sha256": "1aecfaf666861d5d6b5c514d110a208600a99b0cb2bb2835ae5a450ead334959"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-72fc66e037224f74614e",
+          "started_at": "2026-11-19T07:26:15.027722+00:00",
+          "finished_at": "2026-11-19T07:27:01.648665+00:00",
+          "elapsed_seconds": 46.621,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 45457535000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2ac31dad727e6303-c0003",
+      "title": "THE WORLD REVOLVING",
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.ssc",
+      "original_vmid": 1502,
+      "attempt_vmid": 1502,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/2ac31dad727e6303-c0003/capture-85e2be3e47a1a1de9189-001/replay-6bdbfd51291e45a1f99b/result.json",
+        "original_bytes_sha256": "119a4dd408691e397ff3cfc6235a4adb0b646405a8af58687e123b0973a86a9a"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-171cf98e4b282d8c88bc",
+          "started_at": "2026-11-19T07:46:22.662201+00:00",
+          "finished_at": "2026-11-19T07:47:18.576904+00:00",
+          "elapsed_seconds": 55.915,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 50436268000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2b3fdf8ac5d5ea89-c0001",
+      "title": "Jumper",
+      "source_simfile": "__variants__/rework/Jumper/Jumper.ssc",
+      "original_vmid": 1510,
+      "attempt_vmid": 1510,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/2b3fdf8ac5d5ea89-c0001/capture-1ba7a54d5985754312ed-001/capture-result.json",
+        "original_bytes_sha256": "d82dd6932ca4280ed4ee0ddd3ae18642b6b7c51fe5817001e9805a5644450f35"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-950ddac9c5a26f01fde1",
+          "started_at": "2026-11-19T08:54:18.102082+00:00",
+          "finished_at": "2026-11-19T08:58:19.529998+00:00",
+          "elapsed_seconds": 241.428,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 241025801000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2b3fdf8ac5d5ea89-c0002",
+      "title": "Jumper",
+      "source_simfile": "__variants__/rework/Jumper/Jumper.ssc",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/2b3fdf8ac5d5ea89-c0002/capture-dbe5db34c410ad4adab7-001/capture-result.json",
+        "original_bytes_sha256": "56349487b5e8517d458230f686bcb53d4cdce5a7d80580acbcd428375efa55e9"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-35147383e1bd1d42fc9c",
+          "started_at": "2026-11-19T10:04:54.525415+00:00",
+          "finished_at": "2026-11-19T10:08:47.051811+00:00",
+          "elapsed_seconds": 232.526,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 231963260000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2c6a61d8e963a44b-c0001",
+      "title": "TETRIS",
+      "source_simfile": "I'm sorry/sm.ssc",
+      "original_vmid": 1510,
+      "attempt_vmid": 1510,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/2c6a61d8e963a44b-c0001/capture-84dcb2196657f435283d-001/capture-result.json",
+        "original_bytes_sha256": "4e8a76bba542a210bfd149bb14ee0ea7a1c77d523c2247feae36dbc06f11cc35"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-783f4d5e0600fff94b86",
+          "started_at": "2026-11-19T09:16:36.458831+00:00",
+          "finished_at": "2026-11-19T09:20:03.801765+00:00",
+          "elapsed_seconds": 207.343,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 203792334000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2c6a61d8e963a44b-c0002",
+      "title": "TETRIS",
+      "source_simfile": "I'm sorry/sm.ssc",
+      "original_vmid": 1501,
+      "attempt_vmid": 1501,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/2c6a61d8e963a44b-c0002/capture-cab8d1f12588428f6d8f-001/capture-result.json",
+        "original_bytes_sha256": "1922f93626c2bfab02e3d72df7fe51d09852c3ecf3a3bb757d65b66c86d6aa5d"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-9d113340fc1f483b81f4",
+          "started_at": "2026-11-19T09:12:30.364514+00:00",
+          "finished_at": "2026-11-19T09:15:50.707676+00:00",
+          "elapsed_seconds": 200.343,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 202597451000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2c6a61d8e963a44b-c0003",
+      "title": "TETRIS",
+      "source_simfile": "I'm sorry/sm.ssc",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/2c6a61d8e963a44b-c0003/capture-492a3a30d9464c662095-001/capture-result.json",
+        "original_bytes_sha256": "7ccffdfbe2c1721d41dd4bf4fc65b6948ec43df786f76d1ac08124c573baf6f5"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-a69ee70711cafc9d2d01",
+          "started_at": "2026-11-19T10:24:36.924069+00:00",
+          "finished_at": "2026-11-19T10:27:43.587463+00:00",
+          "elapsed_seconds": 186.663,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 187991538000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "2c6a61d8e963a44b-c0004",
+      "title": "TETRIS",
+      "source_simfile": "I'm sorry/sm.ssc",
+      "original_vmid": 1514,
+      "attempt_vmid": 1514,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/2c6a61d8e963a44b-c0004/capture-4de73a2a64f10d4b0056-001/capture-result.json",
+        "original_bytes_sha256": "365673be33a3ffb108c6487225cb77ef176b5994b6d38e75086aa769df5a6b93"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-18a5ca7f406e3af19b39",
+          "started_at": "2026-11-19T08:52:08.929533+00:00",
+          "finished_at": "2026-11-19T08:55:27.239385+00:00",
+          "elapsed_seconds": 198.31,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 200367283000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "34658d32935856e2-c0001",
+      "title": "Godspeed",
+      "source_simfile": "Godspeed [TaroNuke]/godspeed.sm",
+      "original_vmid": 1507,
+      "attempt_vmid": 1507,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/34658d32935856e2-c0001/capture-f5ed875bdbdc89602f46-001/replay-38df5406c9a1d0e36da9/result.json",
+        "original_bytes_sha256": "63e3afeac892c9df3c3a31b5adb07ed47779d3abb0c93af1b4f3b186e94406ef"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-5302011bc0f5578f6125",
+          "started_at": "2026-11-19T08:07:20.446047+00:00",
+          "finished_at": "2026-11-19T08:08:08.706493+00:00",
+          "elapsed_seconds": 48.26,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 47662055000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "3ed87baea8fc010d-c0001",
+      "title": "MAWARU! SETSUGETSUKA!",
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "original_vmid": 1510,
+      "attempt_vmid": 1510,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/3ed87baea8fc010d-c0001/capture-423b1829dcab2c53d189-001/replay-b9e892a4e8cd2b98cc80/result.json",
+        "original_bytes_sha256": "aeb928946a3f3ba263d0ff627d09ad465465db2044f4c4f92599a1b1719349aa"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-10ac47ac770f6126ca1d",
+          "started_at": "2026-11-19T06:20:42.346460+00:00",
+          "finished_at": "2026-11-19T06:21:35.764066+00:00",
+          "elapsed_seconds": 53.418,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 35440839000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "3ed87baea8fc010d-c0002",
+      "title": "MAWARU! SETSUGETSUKA!",
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/3ed87baea8fc010d-c0002/capture-78b60caee372bb12a153-001/replay-352e45f8ad1933fbb4ca/result.json",
+        "original_bytes_sha256": "547a83048081bc47bd7025008983f66e7eb9fc4b2d8d3b5498cdb8ff81de82e0"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-773c3df508d2d46f7ea5",
+          "started_at": "2026-11-19T06:39:38.181866+00:00",
+          "finished_at": "2026-11-19T06:40:26.418586+00:00",
+          "elapsed_seconds": 48.237,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 35862670000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "3ed87baea8fc010d-c0003",
+      "title": "MAWARU! SETSUGETSUKA!",
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "original_vmid": 1506,
+      "attempt_vmid": 1506,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/3ed87baea8fc010d-c0003/capture-1c0f2e9a2e7212ea8863-001/replay-bbc2f2008475d3db5ad3/result.json",
+        "original_bytes_sha256": "c0cff8c9684f6776206c3a7ac2a1cdd76032a78da14cc60a4430e5efa48ac059"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-0805764de4424667f964",
+          "started_at": "2026-11-19T06:28:25.428074+00:00",
+          "finished_at": "2026-11-19T06:29:28.971770+00:00",
+          "elapsed_seconds": 63.544,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 39860552000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "3ed87baea8fc010d-c0004",
+      "title": "MAWARU! SETSUGETSUKA!",
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "original_vmid": 1503,
+      "attempt_vmid": 1503,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/3ed87baea8fc010d-c0004/capture-522281ffee4bb3f2d584-001/replay-aebe0dee45b37aae344f/result.json",
+        "original_bytes_sha256": "29cc6029931d8746bb23ba71bae3a758289a9733415ca14a6e1fb03e95c53e5d"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-d8662bed794ab9b6afbc",
+          "started_at": "2026-11-19T11:04:09.823939+00:00",
+          "finished_at": "2026-11-19T11:04:59.072485+00:00",
+          "elapsed_seconds": 49.249,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 40983266000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "3ed87baea8fc010d-c0005",
+      "title": "MAWARU! SETSUGETSUKA!",
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "original_vmid": 1511,
+      "attempt_vmid": 1511,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/3ed87baea8fc010d-c0005/capture-87e7f83b5b4bf508537b-001/replay-6aea807196bc9e8a38c4/result.json",
+        "original_bytes_sha256": "9e91f161a66b32e600a0b496d2aa63c4d088dbf5adca021c85caae9eb6372815"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-443c0d03264beae038ed",
+          "started_at": "2026-11-19T06:24:03.863252+00:00",
+          "finished_at": "2026-11-19T06:24:43.826639+00:00",
+          "elapsed_seconds": 39.963,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 33919647000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "3ed87baea8fc010d-c0006",
+      "title": "MAWARU! SETSUGETSUKA!",
+      "source_simfile": "mawaru8/mawaru8.sm",
+      "original_vmid": 1501,
+      "attempt_vmid": 1501,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/3ed87baea8fc010d-c0006/capture-b84e43d165748853ef74-001/replay-fc0639bfacb2d82fa52f/result.json",
+        "original_bytes_sha256": "d698dbb4005dda06433e50560ba74b10dd43ee8f0ddc97c23563f8dcf003857b"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-9f5fc7dca7b4ebe1c119",
+          "started_at": "2026-11-19T06:29:10.638910+00:00",
+          "finished_at": "2026-11-19T06:30:06.968931+00:00",
+          "elapsed_seconds": 56.33,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 34623248000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "43d599e70839d1b5-c0001",
+      "title": "Rayc Fire 2",
+      "source_simfile": "Rayc Fire 2 (SM5)/Rayc Fire 2.ssc",
+      "original_vmid": 1511,
+      "attempt_vmid": 1511,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/43d599e70839d1b5-c0001/capture-3efd115aa64f477f2418-001/replay-33fd779f04be32806417/result.json",
+        "original_bytes_sha256": "be90bed78180fe33a13d83835b7755ed9ad2a813e3da8be410c8de04da9c853f"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-eb0e8acb18417ac362dc",
+          "started_at": "2026-11-19T09:45:07.150902+00:00",
+          "finished_at": "2026-11-19T09:45:53.042768+00:00",
+          "elapsed_seconds": 45.892,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 44666850000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "49ec0d0c00dfc584-c0001",
+      "title": "Episode 10",
+      "source_simfile": "Shivers/Shivers.ssc",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/49ec0d0c00dfc584-c0001/capture-e028b27cb460c0df1800-001/replay-d55f3840ceeaebf3b88b/result.json",
+        "original_bytes_sha256": "b9485cfd19108a0d542d2f32cbd0d8cc4d32dafd643c6c3e67046dbd99951e27"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-d167c46296facef82a36",
+          "started_at": "2026-11-19T06:31:49.887645+00:00",
+          "finished_at": "2026-11-19T06:32:37.124127+00:00",
+          "elapsed_seconds": 47.236,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 34599601000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "4e708b3e9cb3bdda-c0001",
+      "title": "Jumper",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Jumper/Jumper.sm",
+      "original_vmid": 1514,
+      "attempt_vmid": 1514,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/4e708b3e9cb3bdda-c0001/capture-a9b55fa7fb07d12d2d28-001/capture-result.json",
+        "original_bytes_sha256": "bf531eb39a14fe2608ed6552d6413f37d31df725584cbdeb144beb965fefb15d"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-19dc23a86587015eb067",
+          "started_at": "2026-11-19T08:32:20.452175+00:00",
+          "finished_at": "2026-11-19T08:36:41.352829+00:00",
+          "elapsed_seconds": 260.901,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 245100372000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "4e708b3e9cb3bdda-c0002",
+      "title": "Jumper",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Jumper/Jumper.sm",
+      "original_vmid": 1507,
+      "attempt_vmid": 1507,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/4e708b3e9cb3bdda-c0002/capture-bcb15740504a853bbd85-001/capture-result.json",
+        "original_bytes_sha256": "c1a0bb2f4b8a23f3aac3d4e90a05164ff2fa2e51b2c3977e093a631926f9c5e8"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-e4b6437867ce41684916",
+          "started_at": "2026-11-19T08:56:27.055426+00:00",
+          "finished_at": "2026-11-19T09:00:20.399031+00:00",
+          "elapsed_seconds": 233.344,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 236006834000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "4f4295d0ebf3f89d-c0001",
+      "title": "[3752] [09] Who the Hell Is Edgar?",
+      "source_simfile": "[09] Who the Hell Is Edgar (SX) [Telperion]/Who the Hell Is Edgar.ssc",
+      "original_vmid": 1512,
+      "attempt_vmid": 1512,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/4f4295d0ebf3f89d-c0001/capture-fd4658e307578e0cae8b-001/replay-47b95aea8c8cc4bcb6ba/result.json",
+        "original_bytes_sha256": "b8c15217fc81759b82ac841165ab748c2b7e0b5bb820f67d160660de404a0b2a"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-c270530f8459c3c0decd",
+          "started_at": "2026-11-19T08:56:01.270086+00:00",
+          "finished_at": "2026-11-19T08:56:38.965342+00:00",
+          "elapsed_seconds": 37.695,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 37009846000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "51701b0b07bd778e-c0001",
+      "title": "TETRIS",
+      "source_simfile": "I'm sorry/sm.sm",
+      "original_vmid": 1504,
+      "attempt_vmid": 1504,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/51701b0b07bd778e-c0001/capture-6bdf1111324f9641fdbc-001/capture-result.json",
+        "original_bytes_sha256": "9391ed5b3975e87dea5ecf3237fca251b566cbd5f7945d3ff8476391eab4e131"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-3251022ad827f0247b4b",
+          "started_at": "2026-11-19T09:17:29.629134+00:00",
+          "finished_at": "2026-11-19T09:21:03.928358+00:00",
+          "elapsed_seconds": 214.299,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 203477757000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "51701b0b07bd778e-c0002",
+      "title": "TETRIS",
+      "source_simfile": "I'm sorry/sm.sm",
+      "original_vmid": 1513,
+      "attempt_vmid": 1513,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/51701b0b07bd778e-c0002/capture-615eca1bc63487bc4a1c-001/capture-result.json",
+        "original_bytes_sha256": "4828a7c366aabb5b711fd111833d856cdf3049a830f380f719f2602186593925"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-9623c170e2363038f678",
+          "started_at": "2026-11-19T09:31:27.104770+00:00",
+          "finished_at": "2026-11-19T09:35:00.900197+00:00",
+          "elapsed_seconds": 213.795,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 205312015000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "51701b0b07bd778e-c0004",
+      "title": "TETRIS",
+      "source_simfile": "I'm sorry/sm.sm",
+      "original_vmid": 1511,
+      "attempt_vmid": 1511,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/51701b0b07bd778e-c0004/capture-6bdd1946f83661f9b0ed-001/capture-result.json",
+        "original_bytes_sha256": "9f637a583dba40cc3b14842a6a7ed79913a0a980336ba8b0ef6eb5bfa3bc2c4a"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-ac79ecf52d66648757ec",
+          "started_at": "2026-11-19T09:46:05.379530+00:00",
+          "finished_at": "2026-11-19T09:49:21.962743+00:00",
+          "elapsed_seconds": 196.583,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 198230052000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5cbc2bfa91cfbe0b-c0001",
+      "title": "Bad Trails",
+      "source_simfile": "Bad Trails/Maybe it was fated.sm",
+      "original_vmid": 1509,
+      "attempt_vmid": 1509,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/5cbc2bfa91cfbe0b-c0001/capture-1655e9974357e2ef54e4-001/capture-result.json",
+        "original_bytes_sha256": "3992ce36eb1607d5c4cdef6f985401a6a66735ca479c2b06ed37f00033802c3c"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-ddfc30cfbbce7a2b4d67",
+          "started_at": "2026-11-19T09:21:18.371765+00:00",
+          "finished_at": "2026-11-19T09:25:16.064588+00:00",
+          "elapsed_seconds": 237.693,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 220247425000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5cbc2bfa91cfbe0b-c0004",
+      "title": "Bad Trails",
+      "source_simfile": "Bad Trails/Maybe it was fated.sm",
+      "original_vmid": 1501,
+      "attempt_vmid": 1501,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/5cbc2bfa91cfbe0b-c0004/capture-032c5e3c4f917ed9d1be-001/capture-result.json",
+        "original_bytes_sha256": "5c4e51a7cb7adb81f3c84003e3fe05b6cdbb42fa6869d28384ac14f894fa84cf"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-50dbbdedf688f0d526a5",
+          "started_at": "2026-11-19T09:24:37.769626+00:00",
+          "finished_at": "2026-11-19T09:28:00.480044+00:00",
+          "elapsed_seconds": 202.71,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 203786923000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0001",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1514,
+      "attempt_vmid": 1514,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/5e06cad06be50156-c0001/capture-1dd82efd41fdcd9c8bdd-001/capture-result.json",
+        "original_bytes_sha256": "90bef73326c5e0ed05edccf4b8869d21bdf1aa0f5da151bc618b87f62c7d9eba"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-205dfe1c5f9aaefafac4",
+          "started_at": "2026-11-19T08:25:52.568631+00:00",
+          "finished_at": "2026-11-19T08:29:54.305787+00:00",
+          "elapsed_seconds": 241.737,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 232966280000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0002",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1507,
+      "attempt_vmid": 1507,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/5e06cad06be50156-c0002/capture-c24b03e5ce962e6dcf41-001/capture-result.json",
+        "original_bytes_sha256": "6c573f4d343b3ed688743eea5f40f083c510ed7b10724e7209ba375a0799f47a"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-828726d3ab17ca26076c",
+          "started_at": "2026-11-19T08:50:11.968124+00:00",
+          "finished_at": "2026-11-19T08:54:01.392692+00:00",
+          "elapsed_seconds": 229.425,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 231091330000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0003",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1501,
+      "attempt_vmid": 1501,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/5e06cad06be50156-c0003/capture-def31980c9b220ddfad6-001/capture-result.json",
+        "original_bytes_sha256": "f3e3b45e4bff8b91767f25854b064c800d42fe493537bd4f23fc6d1e0aeca077"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-ea427bd28ba29b47e895",
+          "started_at": "2026-11-19T08:39:51.454542+00:00",
+          "finished_at": "2026-11-19T08:43:40.946351+00:00",
+          "elapsed_seconds": 229.492,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 231924562000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0004",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1513,
+      "attempt_vmid": 1513,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/5e06cad06be50156-c0004/capture-0924a6f8caf172fe6f71-001/capture-result.json",
+        "original_bytes_sha256": "120482acf5c7df142146e736fce8f5ba919a8f737f7b8c3264747648b4008e52"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-7c3b76ff9222477ccf08",
+          "started_at": "2026-11-19T08:59:24.095015+00:00",
+          "finished_at": "2026-11-19T09:03:11.657837+00:00",
+          "elapsed_seconds": 227.563,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 229608681000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0005",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1512,
+      "attempt_vmid": 1512,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/5e06cad06be50156-c0005/capture-54d4b8125d939c9419d8-001/capture-result.json",
+        "original_bytes_sha256": "fafbc8c9bd27b68e4a43b5952bbbbb3c32fb6184ab642e092add7f9778b867a8"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-3a37cc1513001cdf3c7c",
+          "started_at": "2026-11-19T09:02:20.108313+00:00",
+          "finished_at": "2026-11-19T09:06:10.403609+00:00",
+          "elapsed_seconds": 230.295,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 231515577000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0006",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1506,
+      "attempt_vmid": 1506,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/5e06cad06be50156-c0006/capture-8ba30838e13c8da5117d-001/capture-result.json",
+        "original_bytes_sha256": "f45138760f0a3eb1d0f667a078fd6a3b0a7ca06d2ce531762bbde859561c9186"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-9ccd88a0aa9f9ee14ff3",
+          "started_at": "2026-11-19T08:28:17.306467+00:00",
+          "finished_at": "2026-11-19T08:32:09.515520+00:00",
+          "elapsed_seconds": 232.209,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 233607293000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5e06cad06be50156-c0008",
+      "title": "Cardstone",
+      "source_simfile": "cards/sm.sm",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/5e06cad06be50156-c0008/capture-f2d1c0d83b9974743489-001/capture-result.json",
+        "original_bytes_sha256": "16af629c77faf8dafc4621d96f32a33aab5b0feff78cc8f2db3d8106bec3b561"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-02bf783d63ca8ddaa292",
+          "started_at": "2026-11-19T09:58:26.194131+00:00",
+          "finished_at": "2026-11-19T10:02:13.253903+00:00",
+          "elapsed_seconds": 227.06,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 227587948000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "5f7ffff1f1a85dec-c0001",
+      "title": "Chipsqueak",
+      "source_simfile": "Chipsqueak/chipsqueak.ssc",
+      "original_vmid": 1512,
+      "attempt_vmid": 1512,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/5f7ffff1f1a85dec-c0001/capture-a0ffc89967c2c9e679ec-001/replay-2e3c11d4ca850c209fcf/result.json",
+        "original_bytes_sha256": "9d6db46be4817606b49f8cfccad692611068c4eccc14b3b7d58dd64d847f233e"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-9feef57085c944603683",
+          "started_at": "2026-11-19T09:40:53.698181+00:00",
+          "finished_at": "2026-11-19T09:42:17.812386+00:00",
+          "elapsed_seconds": 84.114,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 51419813000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "66b88be3e6504487-c0001",
+      "title": "Pizza Boy",
+      "source_simfile": "PizzaBoy/PizzaBoy.ssc",
+      "original_vmid": 1513,
+      "attempt_vmid": 1513,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/66b88be3e6504487-c0001/capture-9bba2c905c72b7215380-001/capture-result.json",
+        "original_bytes_sha256": "e278b3271fbf6eaf972802fe8381c84f00a811408b556573216c601f04e18b9b"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-f632eed08d6d3d73ec6b",
+          "started_at": "2026-11-19T09:36:37.729220+00:00",
+          "finished_at": "2026-11-19T09:39:53.692866+00:00",
+          "elapsed_seconds": 195.964,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 196711525000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "6a232e8676f57129-c0001",
+      "title": "Jumper",
+      "source_simfile": "Jumper/Jumper.sm",
+      "original_vmid": 1509,
+      "attempt_vmid": 1509,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/6a232e8676f57129-c0001/capture-23e8476d4c6ef80771bb-001/capture-result.json",
+        "original_bytes_sha256": "521b1b6230cb8b4d6b2bea2e876a4c119dd5853067923f53efe62daf74d0ec4a"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-a8e7cec240a3f7031828",
+          "started_at": "2026-11-19T08:50:23.798576+00:00",
+          "finished_at": "2026-11-19T08:54:43.329938+00:00",
+          "elapsed_seconds": 259.531,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 261508074000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "6a232e8676f57129-c0002",
+      "title": "Jumper",
+      "source_simfile": "Jumper/Jumper.sm",
+      "original_vmid": 1508,
+      "attempt_vmid": 1508,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/6a232e8676f57129-c0002/capture-35f7e140fbbe56f17321-001/capture-result.json",
+        "original_bytes_sha256": "c6e20481fc40af313ebe3cf9e9067a2dbe7c5e524e3d29ccb18cf5ba5e0af108"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-1db2d14fb31896da190a",
+          "started_at": "2026-11-19T09:06:18.067030+00:00",
+          "finished_at": "2026-11-19T09:10:28.495866+00:00",
+          "elapsed_seconds": 250.429,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 246663157000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "6a3f4f26b2753004-c0001",
+      "title": "Shakunetsu pt. II",
+      "source_simfile": "Shakunetsu2 [TaroNuke]/shakunetsu2.sm",
+      "original_vmid": 1507,
+      "attempt_vmid": 1507,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/6a3f4f26b2753004-c0001/capture-4fa3c2881be8576bc29a-001/replay-3cbdfae96ba84bddc9b9/result.json",
+        "original_bytes_sha256": "d2ea3ceee900869d573fbd019303561770ac1fc2de42fc9ae8cceb9dc2a7e029"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-e750b08acecdf55a2f72",
+          "started_at": "2026-11-19T07:08:57.372491+00:00",
+          "finished_at": "2026-11-19T07:09:43.678544+00:00",
+          "elapsed_seconds": 46.306,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 36430406000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "6a5cc91dd2a10862-c0001",
+      "title": "Goodbye",
+      "source_simfile": "Goodbye/Goodbye.ssc",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/6a5cc91dd2a10862-c0001/capture-c3d3f16403488005ccbd-001/replay-67ac970deaa59cf1e723/result.json",
+        "original_bytes_sha256": "7c93e1d912268726a78edbda741e36f675ba78bdbd42ffc09570f98feaf4723a"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-ea256c186bea5a9fc30c",
+          "started_at": "2026-11-19T06:25:48.648240+00:00",
+          "finished_at": "2026-11-19T06:26:38.620768+00:00",
+          "elapsed_seconds": 49.973,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 32988413000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "6ea6105f433bbd84-c0001",
+      "title": "Bad Trails",
+      "source_simfile": "Bad Trails/Maybe it was fated.ssc",
+      "original_vmid": 1507,
+      "attempt_vmid": 1507,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/6ea6105f433bbd84-c0001/capture-a65c8b906d84a08bfab6-001/capture-result.json",
+        "original_bytes_sha256": "4f089ca387f045e062f7b6acdfc42b59c23ca8366bad318befbcac97ec691e86"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-dd69f7eb0e2990af119e",
+          "started_at": "2026-11-19T09:27:56.819866+00:00",
+          "finished_at": "2026-11-19T09:31:37.883885+00:00",
+          "elapsed_seconds": 221.064,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 219678155000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "6ea6105f433bbd84-c0004",
+      "title": "Bad Trails",
+      "source_simfile": "Bad Trails/Maybe it was fated.ssc",
+      "original_vmid": 1512,
+      "attempt_vmid": 1512,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/6ea6105f433bbd84-c0004/capture-57055ef80e94d85042a9-001/capture-result.json",
+        "original_bytes_sha256": "4f220c783bc7ec8093ffa17250f01461dc7d5884107c1baa81a8fbfd99bba323"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-f0f89b7007c6910baf08",
+          "started_at": "2026-11-19T09:42:37.662240+00:00",
+          "finished_at": "2026-11-19T09:46:00.952601+00:00",
+          "elapsed_seconds": 203.29,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 204010398000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "70a79b979b3df07b-c0001",
+      "title": "303|MODS|[lv.memes] KABOOOOOM!!!!",
+      "source_simfile": "303-MODS-[lv.memes] [Tech Spectrum Super - _TRUE GAMERS CLICK HERE - EXTRA CHARTS]/KABOOOOOM!!!!.ssc",
+      "original_vmid": 1504,
+      "attempt_vmid": 1504,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/70a79b979b3df07b-c0001/capture-23d3c13ad870428b7958-001/replay-75c37f0ca38c6640dc5b/result.json",
+        "original_bytes_sha256": "39f6d66284092dd33e6c454b0361d82cf046c01f63eb1cdae424b407de741919"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-d9685d49027d7bdcaf99",
+          "started_at": "2026-11-19T06:23:47.458907+00:00",
+          "finished_at": "2026-11-19T06:24:42.723677+00:00",
+          "elapsed_seconds": 55.265,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 33891629000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "72ce74211a93b7e2-c0001",
+      "title": "Jumper",
+      "source_simfile": "Jumper/Jumper.ssc",
+      "original_vmid": 1503,
+      "attempt_vmid": 1503,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": true,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/72ce74211a93b7e2-c0001/capture-ee8b467810065982de9e-001/capture-result.json",
+        "original_bytes_sha256": "cedb8eabe96c7956328499c50286ce96134f53f5d0d830aa7c084432cb712836"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-1675876d7d47df670b69",
+          "started_at": "2026-11-19T12:41:05.807782+00:00",
+          "finished_at": "2026-11-19T12:44:56.537879+00:00",
+          "elapsed_seconds": 230.73,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 232103116000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "72ce74211a93b7e2-c0002",
+      "title": "Jumper",
+      "source_simfile": "Jumper/Jumper.ssc",
+      "original_vmid": 1506,
+      "attempt_vmid": 1506,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/72ce74211a93b7e2-c0002/capture-57b524ef8a3bee799460-001/capture-result.json",
+        "original_bytes_sha256": "961095d04a4b7abb80519e87b0b3f48e5a61b637fc709e1e73bf5e3df531746b"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-26012b496bd6ad6ca4d2",
+          "started_at": "2026-11-19T08:39:26.709120+00:00",
+          "finished_at": "2026-11-19T08:43:50.939468+00:00",
+          "elapsed_seconds": 264.23,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 265952648000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "74d97529575b9032-c0001",
+      "title": "Spectrum",
+      "source_simfile": "Spectrum (Odyssey's Prism Mix) [Telperion]/spectrod.ssc",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/74d97529575b9032-c0001/capture-8e8b6b7ba335dafc357e-001/capture-result.json",
+        "original_bytes_sha256": "1c8502962e1f649fd14c45298ee2eb7c7c34aa368ba4b4610d314ed20c1815d9"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-ada056c784f98c2dd1a7",
+          "started_at": "2026-11-19T07:49:02.163299+00:00",
+          "finished_at": "2026-11-19T07:54:13.421327+00:00",
+          "elapsed_seconds": 311.258,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 355917480000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "750815a1a10fd90a-c0001",
+      "title": "[14] I'm For You",
+      "source_simfile": "[14] [Zaia] I_m For You/I_m For You.ssc",
+      "original_vmid": 1502,
+      "attempt_vmid": 1502,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/750815a1a10fd90a-c0001/capture-6e365d940a8e472b4d8f-001/replay-644d8a88b5522298faf2/result.json",
+        "original_bytes_sha256": "c1f2770cf998b87a50f98b8d6938ff7d269b8bd765f0b974b3bbfad82768e093"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-c4857792b957d4b2828b",
+          "started_at": "2026-11-19T06:34:21.819527+00:00",
+          "finished_at": "2026-11-19T06:35:58.795068+00:00",
+          "elapsed_seconds": 96.976,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 83199642000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "7666d9897cac1286-c0001",
+      "title": "DREAMING-ING!!",
+      "source_simfile": "DREAMING-ING!!/DREAMING-ING!!.ssc",
+      "original_vmid": 1505,
+      "attempt_vmid": 1505,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": true,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/7666d9897cac1286-c0001/capture-952b79175cb01d633747-001/replay-8d980d8d8588eb4db771/result.json",
+        "original_bytes_sha256": "577c4153f55824adbc60b1d28f71842d4723a798b8d7782b038864009010b24e"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-5cfd7c790726a00e9583",
+          "started_at": "2026-11-19T13:23:30.388226+00:00",
+          "finished_at": "2026-11-19T13:25:08.268419+00:00",
+          "elapsed_seconds": 97.88,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 97666533000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "791c76d0271ff9e3-c0001",
+      "title": "Jumper",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Jumper/Jumper.ssc",
+      "original_vmid": 1501,
+      "attempt_vmid": 1501,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/791c76d0271ff9e3-c0001/capture-f8d592babe6c0b39102e-001/capture-result.json",
+        "original_bytes_sha256": "cfc8763fe221e48024bbca0476ce80b19bc2b1a32c42e2930ca9ea3144a9118f"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-03abe26a3e76e84946fc",
+          "started_at": "2026-11-19T08:46:01.642482+00:00",
+          "finished_at": "2026-11-19T08:50:17.152499+00:00",
+          "elapsed_seconds": 255.51,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 246926771000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "791c76d0271ff9e3-c0002",
+      "title": "Jumper",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Jumper/Jumper.ssc",
+      "original_vmid": 1513,
+      "attempt_vmid": 1513,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/791c76d0271ff9e3-c0002/capture-dba8744d9ae4e9331c12-001/capture-result.json",
+        "original_bytes_sha256": "b859f6ba45e2985b7dee84a36c0e79f3f5be0b7aa684e636fea6a5a16d0005f5"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-44d8d498d1afb0061013",
+          "started_at": "2026-11-19T09:05:35.091951+00:00",
+          "finished_at": "2026-11-19T09:10:15.170290+00:00",
+          "elapsed_seconds": 280.078,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 263681583000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "7fa17005f2a1fbae-c0001",
+      "title": "What a Wonderful World",
+      "source_simfile": "What A Wonderful World/WAWW.sm",
+      "original_vmid": 1512,
+      "attempt_vmid": 1512,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/7fa17005f2a1fbae-c0001/capture-5fcf0ef1c60c9bb8a2f7-001/capture-result.json",
+        "original_bytes_sha256": "c094219f5a5f332e0c342b6a97c2b05420e62b034256afd99feaca86611403a1"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-e39699787ca611d28bee",
+          "started_at": "2026-11-19T05:46:23.384894+00:00",
+          "finished_at": "2026-11-19T05:52:12.494148+00:00",
+          "elapsed_seconds": 349.109,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 340923537000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "82dbf1390bb50291-c0001",
+      "title": "A Dramatic Irony",
+      "source_simfile": "A Dramatic Irony/A Dramatic Irony.ssc",
+      "original_vmid": 1505,
+      "attempt_vmid": 1505,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": true,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/82dbf1390bb50291-c0001/capture-43bc50f4ce3c740efbc1-001/capture-result.json",
+        "original_bytes_sha256": "dac7bcf56fd55261fe28be826ec35ab9d3c6aa22410171f793571e7cc9feba84"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-dfadc82015a88c8f54a6",
+          "started_at": "2026-11-19T12:27:38.772561+00:00",
+          "finished_at": "2026-11-19T12:43:03.111551+00:00",
+          "elapsed_seconds": 924.339,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 928971179000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "83dd6e5b0d55c8ae-c0001",
+      "title": "Episode 10",
+      "source_simfile": "Shivers/Shivers.sm",
+      "original_vmid": 1504,
+      "attempt_vmid": 1504,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/83dd6e5b0d55c8ae-c0001/capture-a05dd47bbdb3b0f0ed06-001/replay-2a6e856aa871a0bcb99c/result.json",
+        "original_bytes_sha256": "8621e64abf0eabb7f9394dc5660f35d8da940394fb7dd2514269a6b131505a7e"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-7a5174c8c6811a4dbb35",
+          "started_at": "2026-11-19T06:40:19.895653+00:00",
+          "finished_at": "2026-11-19T06:41:12.341235+00:00",
+          "elapsed_seconds": 52.446,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 32586036000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "85a120c688e14906-c0001",
+      "title": "Hustle Beach",
+      "source_simfile": "Mamono/sm.sm",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/85a120c688e14906-c0001/capture-4f0f66ce279b54df268c-001/capture-result.json",
+        "original_bytes_sha256": "ce7aac700e0dd51b385ef67ec56453899a6371022c95cd083cd6fb2ab1385cbf"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-91e32a833dca06a2e130",
+          "started_at": "2026-11-19T10:41:00.540079+00:00",
+          "finished_at": "2026-11-19T10:45:07.110306+00:00",
+          "elapsed_seconds": 246.57,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 248016289000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "85a120c688e14906-c0002",
+      "title": "Hustle Beach",
+      "source_simfile": "Mamono/sm.sm",
+      "original_vmid": 1514,
+      "attempt_vmid": 1514,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/85a120c688e14906-c0002/capture-3e55c50c56ffe4e42828-001/capture-result.json",
+        "original_bytes_sha256": "e4cf8492fccc8e0122ae423a9eabbb55b9b9c4ec19b1535cb4769be4aa2916f0"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-d5af633ceb4d5d28edb3",
+          "started_at": "2026-11-19T09:11:14.747904+00:00",
+          "finished_at": "2026-11-19T09:15:37.951002+00:00",
+          "elapsed_seconds": 263.203,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 265791395000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "8b467495833c9923-c0001",
+      "title": "Kodokushi (\u5b64\u72ec\u6b7b)",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Kodokushi/Kodokushi.ssc",
+      "original_vmid": 1510,
+      "attempt_vmid": 1510,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/8b467495833c9923-c0001/capture-e829adac7df67f0d34d7-001/replay-fd8afe6f91ad9b811211/result.json",
+        "original_bytes_sha256": "c1b4589d95c11ac9be9d22ff1da93698a6cdefde9c321156bbfed71ebae2a3d7"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-fae46aaa45fc7a93a917",
+          "started_at": "2026-11-19T07:13:31.626844+00:00",
+          "finished_at": "2026-11-19T07:14:38.385366+00:00",
+          "elapsed_seconds": 66.759,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 66441233000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "93d4cdfb2970d034-c0006",
+      "title": "\u7a7a\u9593\u5275\u9020\u7406\u8ad6",
+      "source_simfile": "Space Creation Theory/space creation theory.ssc",
+      "original_vmid": 1508,
+      "attempt_vmid": 1508,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/93d4cdfb2970d034-c0006/capture-538ba4d548b6b341dd24-001/capture-result.json",
+        "original_bytes_sha256": "f252471dd6f1c5026561f91af311f8c57493f7d7e0d4f10122ddd85584593c74"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-7031590d4010fa456267",
+          "started_at": "2026-11-19T08:45:45.018048+00:00",
+          "finished_at": "2026-11-19T08:50:31.473781+00:00",
+          "elapsed_seconds": 286.456,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 285531180000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "9a7dc9dd696c05ad-c0001",
+      "title": "Mr. Sandman",
+      "source_simfile": "mr sandman/mr sandman.sm",
+      "original_vmid": 1503,
+      "attempt_vmid": 1503,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": true,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/9a7dc9dd696c05ad-c0001/capture-7907078944b50fc43918-001/capture-result.json",
+        "original_bytes_sha256": "04efab6dfeb1d45a8e03a3bc42e08c35786dbb177ea0cc2ff994b081332a1fd2"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-6f853cd9046749e36c60",
+          "started_at": "2026-11-19T13:13:49.413200+00:00",
+          "finished_at": "2026-11-19T13:19:50.629824+00:00",
+          "elapsed_seconds": 361.217,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 364270601000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "9bb0eb4860a33838-c0008",
+      "title": "Raving With Fire",
+      "source_simfile": "Raving With Fire/Raving With Fire.sm",
+      "original_vmid": 1509,
+      "attempt_vmid": 1509,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/9bb0eb4860a33838-c0008/capture-01492a3ad27f86195018-001/replay-b7f8026078c1be963141/result.json",
+        "original_bytes_sha256": "31506d16647cd99191cbcedec0ab694d5180a292bf340faaeaaa7c679b46102b"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-9189dc841f4c4ada7981",
+          "started_at": "2026-11-19T06:46:09.662505+00:00",
+          "finished_at": "2026-11-19T06:47:00.840286+00:00",
+          "elapsed_seconds": 51.178,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 33513105000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "a8f1f1d4ddf084d6-c0001",
+      "title": "TRICKL4SH 220",
+      "source_simfile": "TRICKL4SH 220/trick.sm",
+      "original_vmid": 1502,
+      "attempt_vmid": 1502,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/a8f1f1d4ddf084d6-c0001/capture-7a7146842eb72b6f3190-001/replay-1cd41c3cd0d8da10f655/result.json",
+        "original_bytes_sha256": "ff05d99e3e6fcb0fbd38253c9e6b3bd8613762c9310e2644545aad2359bd1ba3"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-3d3f4ce4f483326a2423",
+          "started_at": "2026-11-19T09:56:40.145600+00:00",
+          "finished_at": "2026-11-19T09:57:57.192888+00:00",
+          "elapsed_seconds": 77.047,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 76369060000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "aa110bbb4b97b8a4-c0002",
+      "title": "Cloud99",
+      "source_simfile": "Cloud99 (As Above Mix)/Song.ssc",
+      "original_vmid": 1508,
+      "attempt_vmid": 1508,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/aa110bbb4b97b8a4-c0002/capture-a409723045472769fb02-001/capture-result.json",
+        "original_bytes_sha256": "22c361de354a33332d2f82058580e233667b16acad634a54d7e025be6e825771"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-6059f986220556a5ff78",
+          "started_at": "2026-11-19T09:43:11.536413+00:00",
+          "finished_at": "2026-11-19T09:51:26.036870+00:00",
+          "elapsed_seconds": 494.5,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 479428517000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "aaab488db8418699-c0001",
+      "title": "KABOOOOOM!!!!",
+      "source_simfile": "__variants__/rework/kaboooooom!/KABOOOOOM!!!!.ssc",
+      "original_vmid": 1508,
+      "attempt_vmid": 1508,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/aaab488db8418699-c0001/capture-ed7940cc5fe9eab93f5c-001/replay-5050155b9aa3d6030c20/result.json",
+        "original_bytes_sha256": "61b3dd9b6b57742813d16bb212130a1797446ea9776d04663cd47fe3328e24ec"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-63d6fef9b7f78b511835",
+          "started_at": "2026-11-19T06:16:41.429960+00:00",
+          "finished_at": "2026-11-19T06:17:45.006363+00:00",
+          "elapsed_seconds": 63.576,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 34184480000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "aaab488db8418699-c0003",
+      "title": "KABOOOOOM!!!!",
+      "source_simfile": "__variants__/rework/kaboooooom!/KABOOOOOM!!!!.ssc",
+      "original_vmid": 1501,
+      "attempt_vmid": 1501,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/aaab488db8418699-c0003/capture-f59b3de2be394a0ba589-001/replay-f98009fd61ffa0c27d26/result.json",
+        "original_bytes_sha256": "70d4732007a2c40d56ed38622110e2841f5449805f97ef56e85cfb44c0676ade"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-df69d92ff6f03445d268",
+          "started_at": "2026-11-19T06:14:36.029238+00:00",
+          "finished_at": "2026-11-19T06:15:15.928146+00:00",
+          "elapsed_seconds": 39.899,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 35128483000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "ade709b3e4efeb3a-c0001",
+      "title": "\u30af\u30ec\u30a4\u30b8\u30fc\u30af\u30ec\u30a4\u30b8\u30fc",
+      "source_simfile": "Crazy Crazy/Crazy Crazy.ssc",
+      "original_vmid": 1504,
+      "attempt_vmid": 1504,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/ade709b3e4efeb3a-c0001/capture-1200824a8dfae6c0eeba-001/capture-result.json",
+        "original_bytes_sha256": "94825dac40d5bb78f6de12f050644a5a60968ad54733cbf10063b397f76e2e87"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-4671e45a7fdd0ab65546",
+          "started_at": "2026-11-19T08:07:47.465198+00:00",
+          "finished_at": "2026-11-19T08:13:56.119548+00:00",
+          "elapsed_seconds": 368.654,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 367267040000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "af4e305b129581cc-c0002",
+      "title": "Warp Zone",
+      "source_simfile": "(R10) Warp Zone/warp zone.ssc",
+      "original_vmid": 1512,
+      "attempt_vmid": 1512,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/af4e305b129581cc-c0002/capture-c7159f686960d47ccd3d-001/replay-84c2dff861dbad4e3077/result.json",
+        "original_bytes_sha256": "c0f0af6610666e9f66681ea01875ffb45c5e0c88bfee2866f48bad93f1d99277"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-37d01bee44a500bda6a1",
+          "started_at": "2026-11-19T06:45:25.434837+00:00",
+          "finished_at": "2026-11-19T06:46:38.697055+00:00",
+          "elapsed_seconds": 73.262,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 68953997000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "b43c3fe283366b02-c0001",
+      "title": "Who the Hell Is Edgar?",
+      "source_simfile": "Who The Hell Is Edgar/Who the Hell Is Edgar.ssc",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/b43c3fe283366b02-c0001/capture-1bdd39bc3404ebca757a-001/capture-result.json",
+        "original_bytes_sha256": "61d2696b4889216ad2f2ddae16afe22a9d7babe89c734a6e103ec773e240bc01"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-f9976c88ca35e459ba1a",
+          "started_at": "2026-11-19T08:16:30.769211+00:00",
+          "finished_at": "2026-11-19T08:21:03.116090+00:00",
+          "elapsed_seconds": 272.347,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 273568269000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "b7d3c53da9a1e2c7-c0008",
+      "title": "Raving With Fire",
+      "source_simfile": "Raving With Fire/Raving With Fire.ssc",
+      "original_vmid": 1504,
+      "attempt_vmid": 1504,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/b7d3c53da9a1e2c7-c0008/capture-116de4a676592f1e1406-001/replay-85909925327192999da3/result.json",
+        "original_bytes_sha256": "35ddda7172438aa0765e6cd82a2a2ac6a33357f53fe26a8ab2d6bef534511512"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-da569603c98b5a229704",
+          "started_at": "2026-11-19T07:09:36.403982+00:00",
+          "finished_at": "2026-11-19T07:10:15.025213+00:00",
+          "elapsed_seconds": 38.621,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 34678771000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "c17d988fdfa4949d-c0001",
+      "title": "[5604] [10] flip69",
+      "source_simfile": "[10] flip69 (DX) [Telperion]/flip69.ssc",
+      "original_vmid": 1512,
+      "attempt_vmid": 1512,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/c17d988fdfa4949d-c0001/capture-d108c5808e3de3d4bc2c-001/replay-e622c386b91ed2b469da/result.json",
+        "original_bytes_sha256": "b327186c08c5454d16f68a9bc8a80b868e1b6715df79de4e74ded24e5a54e8d9"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-2bd8c92021a433e6c80e",
+          "started_at": "2026-11-19T07:51:26.824414+00:00",
+          "finished_at": "2026-11-19T07:52:48.457125+00:00",
+          "elapsed_seconds": 81.633,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 81121141000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "cdb3faa216e1adfc-c0001",
+      "title": "THE WORLD REVOLVING",
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.sm",
+      "original_vmid": 1514,
+      "attempt_vmid": 1514,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/cdb3faa216e1adfc-c0001/capture-e9ab0ea5309cb9de6310-001/replay-0b6a38208a2c91e9596d/result.json",
+        "original_bytes_sha256": "40f869b30836c9a1f05f59ea16d728392fb90bef02787865d4b4f928ee743ee2"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-3daf147053ccced326c1",
+          "started_at": "2026-11-19T07:09:40.231214+00:00",
+          "finished_at": "2026-11-19T07:10:23.105990+00:00",
+          "elapsed_seconds": 42.875,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 32534626000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "cdb3faa216e1adfc-c0002",
+      "title": "THE WORLD REVOLVING",
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.sm",
+      "original_vmid": 1504,
+      "attempt_vmid": 1504,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/cdb3faa216e1adfc-c0002/capture-194b69f5fd00fa9ea56a-001/replay-e7d48976b6ee7d8982d2/result.json",
+        "original_bytes_sha256": "5a7c19d0d798cd801a8ae7c2fac3c18d1103a804596fe1921f6b90c844c85613"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-626e07832463f3b8d1d5",
+          "started_at": "2026-11-19T07:22:57.645955+00:00",
+          "finished_at": "2026-11-19T07:23:44.136943+00:00",
+          "elapsed_seconds": 46.491,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 46106043000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "cdb3faa216e1adfc-c0003",
+      "title": "THE WORLD REVOLVING",
+      "source_simfile": "THE WORLD REVOLVING [TaroNuke]/steps.sm",
+      "original_vmid": 1505,
+      "attempt_vmid": 1505,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/cdb3faa216e1adfc-c0003/capture-500b08800482164e0f2d-001/replay-101d04d075b10b6d7c1c/result.json",
+        "original_bytes_sha256": "136d09a4a89866a73452c54c30333d195e22c988f105afda6029ad54988caea5"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-819c15c6349169ae69de",
+          "started_at": "2026-11-19T11:25:33.613323+00:00",
+          "finished_at": "2026-11-19T11:26:23.507339+00:00",
+          "elapsed_seconds": 49.894,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 49543999000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "cfa9d731a57116f9-c0001",
+      "title": "KABOOOOOM!!!!",
+      "source_simfile": "kaboooooom!/KABOOOOOM!!!!.ssc",
+      "original_vmid": 1501,
+      "attempt_vmid": 1501,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/cfa9d731a57116f9-c0001/capture-d302548edb38b90e202c-001/replay-57c327c41fea9d95c83c/result.json",
+        "original_bytes_sha256": "7dc137e5c3350ad11660ddd5ddaaaa732589277da432d143bba09595a725d086"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-db2bc55fc4c19ed68089",
+          "started_at": "2026-11-19T06:09:33.774092+00:00",
+          "finished_at": "2026-11-19T06:10:29.575028+00:00",
+          "elapsed_seconds": 55.801,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 33512191000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "cfa9d731a57116f9-c0003",
+      "title": "KABOOOOOM!!!!",
+      "source_simfile": "kaboooooom!/KABOOOOOM!!!!.ssc",
+      "original_vmid": 1506,
+      "attempt_vmid": 1506,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/cfa9d731a57116f9-c0003/capture-16c5f876a4026efcf6f7-001/replay-17d4b0a3729a0d638509/result.json",
+        "original_bytes_sha256": "eb845b32bc36109ba053e2a11d33ba08163012cbbf0acd3f8028814f3ef9e3ee"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-1e93c57445c3c6e18396",
+          "started_at": "2026-11-19T06:11:11.665979+00:00",
+          "finished_at": "2026-11-19T06:12:20.722719+00:00",
+          "elapsed_seconds": 69.057,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 35249940000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "d3aa73c0f2f94a22-c0001",
+      "title": "99+",
+      "source_simfile": "99+ [-YOSEFU-]/99+.ssc",
+      "original_vmid": 1505,
+      "attempt_vmid": 1505,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": true,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/d3aa73c0f2f94a22-c0001/capture-a256607b54f079027e79-001/replay-a617929dec4ebdb77530/result.json",
+        "original_bytes_sha256": "286d996cf837ec074c3883df9644329b689312abd64da403efaf23b3ccff5ba3"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-69c999feb0d1b4e753cb",
+          "started_at": "2026-11-19T13:44:19.742693+00:00",
+          "finished_at": "2026-11-19T13:44:54.146017+00:00",
+          "elapsed_seconds": 34.403,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 34091126000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "d9e2e362f6f34713-c0001",
+      "title": "KABOOOOOM!!!!",
+      "source_simfile": "kaboooooom!/KABOOOOOM!!!!.sm",
+      "original_vmid": 1504,
+      "attempt_vmid": 1504,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/d9e2e362f6f34713-c0001/capture-d14f5918bd45a1a5510d-001/replay-a5fe6f835dd7bc745ddb/result.json",
+        "original_bytes_sha256": "8ce63b13fbf5e97c6f0d888b7115c9c949279768fab6238c15a7035142917470"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-35d477fb7d9081f372b1",
+          "started_at": "2026-11-19T06:32:10.012149+00:00",
+          "finished_at": "2026-11-19T06:33:01.644055+00:00",
+          "elapsed_seconds": 51.632,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 33036121000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "d9e2e362f6f34713-c0003",
+      "title": "KABOOOOOM!!!!",
+      "source_simfile": "kaboooooom!/KABOOOOOM!!!!.sm",
+      "original_vmid": 1514,
+      "attempt_vmid": 1514,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/d9e2e362f6f34713-c0003/capture-826a748db1b067c7fccf-001/replay-3699858344f6509b6d4e/result.json",
+        "original_bytes_sha256": "8d2cf90708b474b5af6cf5eb6803d6093fde942987c6def6676f70e4e7eae81c"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-0254186a7b8c3133e5ed",
+          "started_at": "2026-11-19T06:15:36.712675+00:00",
+          "finished_at": "2026-11-19T06:16:35.998485+00:00",
+          "elapsed_seconds": 59.286,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 34334737000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "db9513346beb70c8-c0001",
+      "title": "Episode 10",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Shivers/Shivers.sm",
+      "original_vmid": 1506,
+      "attempt_vmid": 1506,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/db9513346beb70c8-c0001/capture-450836e6a5f338991f05-001/replay-84136829541552dd6e52/result.json",
+        "original_bytes_sha256": "1b211366e74492ef7876642f0d08c7fd7fdb1257f18b926b5b3a83d40f104b6d"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-d1733d4e1c961bc5aa73",
+          "started_at": "2026-11-19T06:20:04.115871+00:00",
+          "finished_at": "2026-11-19T06:21:11.579929+00:00",
+          "elapsed_seconds": 67.464,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 35097275000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "df77da725142dca5-c0003",
+      "title": "\u200b#feelyourtouch e.d.e.n",
+      "source_simfile": "feelyourtouch e.d.e.n/feelyourtouch eden.ssc",
+      "original_vmid": 1510,
+      "attempt_vmid": 1510,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/df77da725142dca5-c0003/capture-f3cad1d3ead9457c3f60-001/replay-9cc828f3d97672cc9125/result.json",
+        "original_bytes_sha256": "b013931065a5ce979ff1aafe2f463efcdc792e67f5b783396efe2657a0debc69"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-c41bd8fc4ca926785027",
+          "started_at": "2026-11-19T08:02:46.005035+00:00",
+          "finished_at": "2026-11-19T08:03:19.765813+00:00",
+          "elapsed_seconds": 33.761,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 33589309000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "df77da725142dca5-c0004",
+      "title": "\u200b#feelyourtouch e.d.e.n",
+      "source_simfile": "feelyourtouch e.d.e.n/feelyourtouch eden.ssc",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/df77da725142dca5-c0004/capture-84df07b77b48cbe932a6-001/replay-3950c5fbf7dab0bd51fb/result.json",
+        "original_bytes_sha256": "6f7c965e1d3a81cd41b633fe86101439a572fcb0ad596a33316392dff4dfc915"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-aa6caa7d15d5ae7de97d",
+          "started_at": "2026-11-19T09:01:43.653515+00:00",
+          "finished_at": "2026-11-19T09:12:51.397441+00:00",
+          "elapsed_seconds": 667.744,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 111615718000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "df77da725142dca5-c0005",
+      "title": "\u200b#feelyourtouch e.d.e.n",
+      "source_simfile": "feelyourtouch e.d.e.n/feelyourtouch eden.ssc",
+      "original_vmid": 1512,
+      "attempt_vmid": 1512,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/df77da725142dca5-c0005/capture-34bb5dbe0a23631031d2-001/replay-556536c3b32ede16be48/result.json",
+        "original_bytes_sha256": "770821a053690674f5ad48e137f16fec584f1f89c3d2137d4bd0e3b58352c447"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-e9f4d8edc664625d083d",
+          "started_at": "2026-11-19T08:07:24.495810+00:00",
+          "finished_at": "2026-11-19T08:08:03.044418+00:00",
+          "elapsed_seconds": 38.549,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 37701457000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "df77da725142dca5-c0006",
+      "title": "\u200b#feelyourtouch e.d.e.n",
+      "source_simfile": "feelyourtouch e.d.e.n/feelyourtouch eden.ssc",
+      "original_vmid": 1509,
+      "attempt_vmid": 1509,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/df77da725142dca5-c0006/capture-9468d18d0ff4b2c4e817-001/replay-1aa91cac9ca7e56aeb5b/result.json",
+        "original_bytes_sha256": "4defeb810af764c56bdb0d959bc6719fa6c85d0daf0a95e70f95f82c4171b828"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-681fc128b89ad54fb448",
+          "started_at": "2026-11-19T07:56:54.143268+00:00",
+          "finished_at": "2026-11-19T07:57:30.502557+00:00",
+          "elapsed_seconds": 36.359,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 35597578000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "e115c0f3019c18b4-c0001",
+      "title": "Fof Guys",
+      "source_simfile": "fof_guys/fof.ssc",
+      "original_vmid": 1511,
+      "attempt_vmid": 1511,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/e115c0f3019c18b4-c0001/capture-fe422e1fe46edd61b9c3-001/capture-result.json",
+        "original_bytes_sha256": "0b1a20766b6c91f62db2de7b0d973b6addfc8a7322bf31b6827986be8f126666"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-baf2a2d37ad7af3f6f56",
+          "started_at": "2026-11-19T08:29:38.859250+00:00",
+          "finished_at": "2026-11-19T08:37:43.372219+00:00",
+          "elapsed_seconds": 484.513,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 490543109000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "e381d04b2fe57f84-c0005",
+      "title": "\u73a9\u5177\u72c2\u594f\u66f2 -\u7d42\u7109-",
+      "source_simfile": "Gangu Kyousou Kyoku -Shuuen-/chart.ssc",
+      "original_vmid": 1508,
+      "attempt_vmid": 1508,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/e381d04b2fe57f84-c0005/capture-d7aea809c1cb88e9c6e8-001/replay-44c2472e7c309102e174/result.json",
+        "original_bytes_sha256": "c55eda1154a7783a1179b0907cb131fe1e6b357a8bcb8e329894f6b54a019624"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-9d97235609806cce8b26",
+          "started_at": "2026-11-19T07:46:13.085296+00:00",
+          "finished_at": "2026-11-19T07:47:27.184259+00:00",
+          "elapsed_seconds": 74.099,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 72269053000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "e381d04b2fe57f84-c0006",
+      "title": "\u73a9\u5177\u72c2\u594f\u66f2 -\u7d42\u7109-",
+      "source_simfile": "Gangu Kyousou Kyoku -Shuuen-/chart.ssc",
+      "original_vmid": 1513,
+      "attempt_vmid": 1513,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/e381d04b2fe57f84-c0006/capture-301b0a7ef9c8468baec7-001/replay-72e83531b8e941aa3382/result.json",
+        "original_bytes_sha256": "f53d161717b77f99ae64afa0fed1e97f5995eb79c20a353f082c964cadcc51fe"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-72e6a96f3954fbaf006e",
+          "started_at": "2026-11-19T07:59:43.430597+00:00",
+          "finished_at": "2026-11-19T08:00:54.616422+00:00",
+          "elapsed_seconds": 71.186,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 70508446000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "e381d04b2fe57f84-c0007",
+      "title": "\u73a9\u5177\u72c2\u594f\u66f2 -\u7d42\u7109-",
+      "source_simfile": "Gangu Kyousou Kyoku -Shuuen-/chart.ssc",
+      "original_vmid": 1503,
+      "attempt_vmid": 1503,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/e381d04b2fe57f84-c0007/capture-d1eca693cc9364bd4aef-001/replay-f1a9da6613fa97200a2b/result.json",
+        "original_bytes_sha256": "f7a354d2620d7383ec1e069fec56cf1b43f931b3dad0548fb57fbbf4966e6094"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-881032ae45b4a4223f83",
+          "started_at": "2026-11-19T11:33:11.037838+00:00",
+          "finished_at": "2026-11-19T11:34:18.211205+00:00",
+          "elapsed_seconds": 67.173,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 66798246000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "e45d82d551ea7a28-c0001",
+      "title": "Kodokushi (\u5b64\u72ec\u6b7b)",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Kodokushi/Kodokushi.sm",
+      "original_vmid": 1509,
+      "attempt_vmid": 1509,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/e45d82d551ea7a28-c0001/capture-b78d6e174b02a2198903-001/replay-138cdef6f40482ab4181/result.json",
+        "original_bytes_sha256": "ade41b8d1b47bd0de26167a5a43caafee7321dadfba904cdd881cd98a9fa8c9e"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-dc6242df4a4ff3a7853b",
+          "started_at": "2026-11-19T07:03:48.559423+00:00",
+          "finished_at": "2026-11-19T07:04:48.362411+00:00",
+          "elapsed_seconds": 59.803,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 43449912000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "eaa951c92c901721-c0001",
+      "title": "Episode 10",
+      "source_simfile": "__variants__/debug-pack/Cringle Culmination/Shivers/Shivers.ssc",
+      "original_vmid": 1501,
+      "attempt_vmid": 1501,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/eaa951c92c901721-c0001/capture-e11ca6ff108954a5d58c-001/replay-2b212b3ee7af902eb064/result.json",
+        "original_bytes_sha256": "dcac070833d4dcdbcd9f77e18c67097967ca11ce46268581d9cd5c47d5030a6d"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-01d5fdb3a0a3d655c667",
+          "started_at": "2026-11-19T06:20:40.275244+00:00",
+          "finished_at": "2026-11-19T06:21:18.355877+00:00",
+          "elapsed_seconds": 38.081,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 32520840000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "eb7d5a89defeeb31-c0005",
+      "title": "Butterfly",
+      "source_simfile": "Butterfly by DDR/buttchew.ssc",
+      "original_vmid": 1502,
+      "attempt_vmid": 1502,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/eb7d5a89defeeb31-c0005/capture-009c3fb1769423fc6422-001/capture-result.json",
+        "original_bytes_sha256": "16b60a9e69d98fa28aadff18d7eb21efb19be3b8672bc4868000d7bc9bcdd0e7"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-688debdd95757e98b575",
+          "started_at": "2026-11-19T05:37:32.747849+00:00",
+          "finished_at": "2026-11-19T05:44:17.314187+00:00",
+          "elapsed_seconds": 404.566,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 407605824000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "eb7d5a89defeeb31-c0006",
+      "title": "Butterfly",
+      "source_simfile": "Butterfly by DDR/buttchew.ssc",
+      "original_vmid": 1515,
+      "attempt_vmid": 1515,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/eb7d5a89defeeb31-c0006/capture-678a915e3853a765b0ed-001/capture-result.json",
+        "original_bytes_sha256": "867e00fa82d32ee3dfc53911b6527a128f3d943ef120d17bbaa550af6a4eb5d7"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-adb020f34665afd0514b",
+          "started_at": "2026-11-19T07:26:40.620048+00:00",
+          "finished_at": "2026-11-19T07:32:18.366715+00:00",
+          "elapsed_seconds": 337.747,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 341455270000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "eb7d5a89defeeb31-c0008",
+      "title": "Butterfly",
+      "source_simfile": "Butterfly by DDR/buttchew.ssc",
+      "original_vmid": 1511,
+      "attempt_vmid": 1511,
+      "status": "capture_resource_limit",
+      "terminal": true,
+      "native_complete": false,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/eb7d5a89defeeb31-c0008/capture-bc398444cf6de9608b5f-001/capture-result.json",
+        "original_bytes_sha256": "6c88f733ec71cdc0a0560ec5e4067940c79f18650ab68f7e54daaf32d9ca26ff"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "capture",
+          "unit": "song-lua-pass4-capture-d9638b5847a44fadc03a",
+          "started_at": "2026-11-19T05:39:18.059797+00:00",
+          "finished_at": "2026-11-19T05:45:25.679978+00:00",
+          "elapsed_seconds": 367.62,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1290,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 367768386000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "eea1a28876f13bbb-c0001",
+      "title": "Scorpion King",
+      "source_simfile": "Scorpion King [TaroNuke]/scorpion.sm",
+      "original_vmid": 1507,
+      "attempt_vmid": 1507,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/eea1a28876f13bbb-c0001/capture-bee4052ad8a512fc6ddc-001/replay-112d98c631fdfeb428df/result.json",
+        "original_bytes_sha256": "bee7a76267a779f66fc551dbee59d8401753e4a19c046682eb9be3d26f895e09"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-744c85db381b4d926ccb",
+          "started_at": "2026-11-19T08:14:42.705861+00:00",
+          "finished_at": "2026-11-19T08:15:19.702434+00:00",
+          "elapsed_seconds": 36.997,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 34918344000
+          }
+        }
+      ]
+    },
+    {
+      "job_id": "f38a2b418ee7b043-c0006",
+      "title": "LOOP",
+      "source_simfile": "Loop/loop.ssc",
+      "original_vmid": 1510,
+      "attempt_vmid": 1510,
+      "status": "replay_resource_limit",
+      "terminal": true,
+      "native_complete": true,
+      "new_since_old_checkpoint": false,
+      "retry_obligation": null,
+      "evidence": {
+        "source_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+        "path": "results/f38a2b418ee7b043-c0006/capture-419a101f9c6d41ff13b8-001/replay-e77f264478c2b49e7ab4/result.json",
+        "original_bytes_sha256": "feabf05adf9cbb7d69b2ed273464b3695a3d283f5b373a48a9959d957db6a550"
+      },
+      "job_budget": {
+        "stage_memory": "6G",
+        "capture_timeout": 1200,
+        "replay_timeout": 1800
+      },
+      "failed_stages": [
+        {
+          "stage": "replay",
+          "unit": "song-lua-pass4-replay-fd6bb04c53c86b6205cc",
+          "started_at": "2026-11-19T10:06:09.475113+00:00",
+          "finished_at": "2026-11-19T10:06:45.924226+00:00",
+          "elapsed_seconds": 36.449,
+          "exit": 137,
+          "service_result": "oom-kill",
+          "exit_code": "killed",
+          "exit_status": "KILL",
+          "memory_limit": "6G",
+          "timeout_seconds": 1800,
+          "resource_usage": {
+            "MemoryPeak": 6442450944,
+            "CPUUsageNSec": 34426904000
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "This audit describes the final retained frozen-B normal-job receipts, not current-main replays. Declared retry outcomes (including the separate seven 12 GiB replay OOMs) are outside this 108-case set. No job or contract is changed."
+}

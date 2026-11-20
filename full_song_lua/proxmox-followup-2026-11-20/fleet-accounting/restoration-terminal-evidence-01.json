@@ -1,0 +1,56 @@
+{
+  "path": "C:\\GitHub\\deadsync-lua-fleet-20261119\\target\\proxmox-song-lua-20261119\\transport-recovery-20261120\\restoration-terminal-evidence-01.zip",
+  "bytes": 43389,
+  "sha256": "b4dd551a4d5c4f6007675e082dd14dbd3bcefc6455f2d426f980c65f4b811e5f",
+  "manifest": {
+    "captured_at": "2026-11-20T01:02:18.640932+00:00",
+    "role_id": "9458d11fa29552a3ce70c276ba44e6b80fa0896374ecdd370af1962674baf924",
+    "terminal_state_verified": true,
+    "final_all15_snapshot_sha256": "546c9b576e4a90023530d0be5deeb2fe52ef8667f95d8375508ec7a100010e35",
+    "all15_observation_scope": "The validated final B snapshot read all15 guests after terminal restoration; later authorized parking does not alter that retained proof.",
+    "files": [
+      {
+        "path": "state.json",
+        "bytes": 314871,
+        "sha256": "03249e0f2ee49087ab4fe88517ce8c01fa83fb28bb6f031c9bf54c7708d6c550"
+      },
+      {
+        "path": "completed-host-role-marker.json",
+        "bytes": 167,
+        "sha256": "3e7a76e36606215265f97208a57c72d494b9064e089ff5dea35cddfd2f29e8ac"
+      },
+      {
+        "path": "resumed-unit-journal.jsonl",
+        "bytes": 155422,
+        "sha256": "e37fe699e4a8a6f8b74fb3c9be20b1c873860478c6591ab2475eaa82b01e22a3"
+      },
+      {
+        "path": "lifecycle.log",
+        "bytes": 2246,
+        "sha256": "61e6ffd6e70e891197bfa3a3524da2ca29ff5a722e1b9c9ffeb3d2632400dc92"
+      },
+      {
+        "path": "fleet.json",
+        "bytes": 6813,
+        "sha256": "f6916091b30ad36b55362f8f8e7695561f6521f47b440922e8571d31aab062b0"
+      },
+      {
+        "path": "fleet-known-hosts",
+        "bytes": 1860,
+        "sha256": "9ee3e95ba05328e92939c485f07e22d91efaaf6b08932012cfdd0ec605e0ff21"
+      },
+      {
+        "path": "build-worker.json",
+        "bytes": 387,
+        "sha256": "8bfcb3bb3544f89fd4e3bac79b6f5d18a4e612c89a9cd3685bd0d1d58cb10856"
+      },
+      {
+        "path": "build-worker-known-hosts",
+        "bytes": 127,
+        "sha256": "eb7132b6889d5f7a7757020dc113899baec67d6ce411a6dcefc1feec5495c307"
+      }
+    ]
+  },
+  "restoration_complete": true,
+  "builder_transport_ip": "192.168.1.42"
+}

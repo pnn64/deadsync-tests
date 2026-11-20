@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "working_directory": "C:/GitHub/deadsync",
+  "deadsync_base_commit": "7d13d080adfd2b1fe55ea73d8af059826b5f1010",
+  "fixture_base_commit": "cb5db133a2ed1594064eb10b15c0ad0b5ecf8645",
+  "command": "$env:CARGO_TARGET_DIR='C:/GitHub/deadsync/target'; $env:CARGO_BUILD_JOBS='2'; cargo test -p deadsync-song-lua --features test-support --test gameplay_underlay --test gameplay_score",
+  "environment": {
+    "CARGO_TARGET_DIR": "C:/GitHub/deadsync/target",
+    "CARGO_BUILD_JOBS": "2",
+    "rustflags_source": ".cargo/config.toml: Windows MSVC target-feature=+crt-static",
+    "profile": "test (default)"
+  },
+  "completed_session_id": 21692,
+  "exit_code": 0,
+  "build_duration_reported": "18m 21s",
+  "tests": [
+    {
+      "binary": "gameplay_score",
+      "passed": 1,
+      "failed": 0,
+      "ignored": 0,
+      "filtered_out": 0,
+      "duration_seconds": 0.48
+    },
+    {
+      "binary": "gameplay_underlay",
+      "passed": 15,
+      "failed": 0,
+      "ignored": 0,
+      "filtered_out": 0,
+      "duration_seconds": 1.4
+    }
+  ],
+  "totals": {
+    "passed": 16,
+    "failed": 0,
+    "ignored": 0,
+    "filtered_out": 0
+  },
+  "fixture": {
+    "path": "tests/fixtures/regression-expectations/deadsync-song-lua/6ee922da149d0483.snap",
+    "sha256_before": "51014b6f3fd5eb435a126f624f540dc5229d0813431bbb19303640604647e0d8",
+    "sha256_after": "ac9f1e5da59be81fb16efae3746b94076a39152f3c2002e82b72d367edb5d1de",
+    "changed_rows": 14,
+    "changed_score_segments": 16,
+    "changes": "P1/P2 score segments only: native position, zoom 0.5, text 0.00 instead of obsolete placeholder 0.00%.",
+    "unaffected_bytes_verified": "Reversing only the 16 score segment substitutions reproduces the HEAD blob byte-for-byte.",
+    "line_endings": "All 118 existing CRLF endings preserved.",
+    "whitespace_check": {
+      "command": "git -c core.whitespace=cr-at-eol diff --check -- regression-expectations/deadsync-song-lua/6ee922da149d0483.snap",
+      "exit_code": 0
+    }
+  },
+  "reference_sources": [
+    {
+      "path": "C:/GitHub/itgmania-harness/vendor/simply-love/BGAnimations/ScreenGameplay underlay/PerPlayer/Score.lua",
+      "sha256": "74bcc7cae175d34dbb44bd7f5037596faec3ce701f8673d7796e7cdd1b31b6a8"
+    },
+    {
+      "path": "C:/GitHub/deadsync/crates/deadsync-song-lua/assets/simply-love/BGAnimations/ScreenGameplay underlay/PerPlayer/Score.lua",
+      "sha256": "74bcc7cae175d34dbb44bd7f5037596faec3ce701f8673d7796e7cdd1b31b6a8"
+    }
+  ],
+  "source_evidence": "Byte-identical native/bundled Score.lua: initial text line86, zoom line90, player positions lines28-30 applied at line116, percent sign removed at line172.",
+  "output_log": "underlay-validation.log",
+  "output_provenance": "Retained completed session 21692 output replayed without rerunning the command."
+}

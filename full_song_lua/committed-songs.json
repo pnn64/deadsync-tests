@@ -4608,6 +4608,12 @@
     "archive": "bc49b78df2ac37878f512689bc65ede287386ae29d08313dd1e4e6396b2b1f80.tar.zst"
   },
   {
+    "title": "Typed AFT padded UV",
+    "source_simfile": "typed-aft-uv/control.ssc",
+    "harness_version": "0.1.110",
+    "archive": "bc906861bee61bfd9cb364c6cafe9dff54e9c852a7c477ffa8a9ef785fbd3c0d.tar.zst"
+  },
+  {
     "title": "It's Showtime!",
     "source_simfile": "It's Showtime/mettaton.ssc",
     "harness_version": "0.1.80",
