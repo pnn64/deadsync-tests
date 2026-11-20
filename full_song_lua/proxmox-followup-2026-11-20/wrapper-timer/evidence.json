@@ -1,0 +1,397 @@
+{
+  "schema": "deadsync.wrapper_timer_snapshot_correction.v1",
+  "status": "applied and verified: all eight wrapper regressions passed",
+  "test": "callback_wrapper_creation_invalidates_next_plan_and_keeps_gc_roots",
+  "snapshot": "regression-expectations/deadsync-song-lua/9bff049c34306da7.snap",
+  "fixture_commit_before": "731e7facabc7c60e827295918459d75880d26542",
+  "before_sha256": "d24523cad448146f2ac196440f21dc718c4380ffd4cae90d2db477299ec482e8",
+  "after_sha256": "5bd516caac21324a0b506664be7a0b7cb631550af377ec5586064d16350ed6ab",
+  "line_endings": "CRLF",
+  "line_count": 46,
+  "changed_rows": 4,
+  "changed_timer_segments": [
+    {
+      "line": 5,
+      "event_index": 14,
+      "wrapper": "late",
+      "before": "0.25",
+      "after": "0"
+    },
+    {
+      "line": 6,
+      "event_index": 14,
+      "wrapper": "late",
+      "before": "0.25",
+      "after": "0"
+    },
+    {
+      "line": 6,
+      "event_index": 38,
+      "wrapper": "nested",
+      "before": "0.5",
+      "after": "0"
+    },
+    {
+      "line": 7,
+      "event_index": 14,
+      "wrapper": "late",
+      "before": "0.25",
+      "after": "0"
+    },
+    {
+      "line": 7,
+      "event_index": 38,
+      "wrapper": "nested",
+      "before": "0.5",
+      "after": "0"
+    },
+    {
+      "line": 8,
+      "event_index": 14,
+      "wrapper": "late",
+      "before": "0.25",
+      "after": "0"
+    },
+    {
+      "line": 8,
+      "event_index": 38,
+      "wrapper": "nested",
+      "before": "0.5",
+      "after": "0"
+    }
+  ],
+  "all_other_bytes_unchanged": true,
+  "source_contract": "Actor.cpp:114 initializes the timer to zero; 875-879 updates existing wrappers before owner UpdateInternal; 896 adds the delivered actor delta; 972-975 constructs a fresh ActorFrame. Actor.h:597 returns the timer directly. Foreground.cpp:104-110 supplies song-clock advance divided by music rate.",
+  "native_source_hashes": {
+    "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\Actor.cpp": "c5991992c937e7be25147697a4116397743fae547a1046ba96bb28c83482c150",
+    "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\Actor.h": "76ff31b0dad5cc1198d01dbe735fed769aac40d309017fbb501bcdcef958219b",
+    "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\ActorFrame.cpp": "6dd9ea82229994cf1406dce363ce58a4414d429320fc75da0d1c543696ebf1ac",
+    "C:\\GitHub\\itgmania-harness\\vendor\\itgmania\\src\\Foreground.cpp": "04655fe3db304e08f8d424ac6a928858b74182f74ba14ceb658b709324153847"
+  },
+  "native": {
+    "harness_capture_passed": true,
+    "fixture_parity_accepted": false,
+    "capture_finished_at": "2026-11-20T01:38:12.988849+00:00",
+    "harness_commit": "b2af4f355d827fb0e89aead84b4c75a9b8cccf6c",
+    "harness_version": "0.1.110",
+    "native_commit": "663525dcb86eb570d0ef6a2e209678436660ae26",
+    "trace_path": "C:\\GitHub\\itgmania-harness\\target\\wrapper-removal-20261120\\download\\native\\traces\\native.json",
+    "trace_sha256": "eac64cf1ff4db1b90b64f7cfae9158592653ce90e880f5f3b0b3c64e2cbf1212",
+    "trace_bytes": 3209460,
+    "candidate_archive": {
+      "path": "/opt/song-lua-audit/parity-20261120/wrapper-removal-attempt02/candidate/dc4a2bd32a5bee041fb431a1439db9751092b0e293fa0abcf64e1402760f9794.tar",
+      "sha256": "dc4a2bd32a5bee041fb431a1439db9751092b0e293fa0abcf64e1402760f9794",
+      "bytes": 114892288
+    },
+    "authored_lua": "C:\\GitHub\\itgmania-harness\\target\\wrapper-removal-20261120\\download\\native\\input\\Songs\\wrapper-removal\\control.lua",
+    "authored_lua_sha256": "389d5146772b9db3c7fa66bf6533d744004b8802fa715f219803875ab92c65b3",
+    "input_manifest_sha256": "72f55d5a39c9b2efe7dfa613ecba37aebd61fc29d8507923cabbe484f97f8d8f",
+    "capture_result_path": "C:\\GitHub\\itgmania-harness\\target\\wrapper-removal-20261120\\download\\native\\capture-result.json",
+    "capture_result_sha256": "d9ba93d518ca3a35347e1b3cf3c3233398a53e2a378dec0e26aafe1536d5b9d7",
+    "native_summary_path": "C:\\GitHub\\itgmania-harness\\target\\wrapper-removal-20261120\\download\\native\\native-summary.json",
+    "native_summary_sha256": "618a45bd318858802c646ad1d744ef0f9146f7adf918d9f9097ee07ea0566f11",
+    "timer_event_count": 34,
+    "timer_event_counts_by_actor": {
+      "external-0026": 1,
+      "external-0029": 17,
+      "external-0027": 16
+    },
+    "creation_seconds": 0.3526303768157959,
+    "immediate_zero_sequences": [
+      113,
+      114
+    ],
+    "progression_matches_foreground_elapsed_since_creation_exactly": true,
+    "progression_clock_note": "Foreground.cpp104-110 supplies foreground song-clock advance divided by music rate; the generic gameplay update_frames.delta is a different clock.",
+    "observations": [
+      {
+        "seq": 113,
+        "actor": "external-0026",
+        "seconds": 0.3526303768157959,
+        "timer": 0
+      },
+      {
+        "seq": 114,
+        "actor": "external-0029",
+        "seconds": 0.3526303768157959,
+        "timer": 0
+      },
+      {
+        "seq": 138,
+        "actor": "external-0029",
+        "seconds": 0.3865532875061035,
+        "timer": 0.03392291069030762
+      },
+      {
+        "seq": 139,
+        "actor": "external-0027",
+        "seconds": 0.3865532875061035,
+        "timer": 0.03392291069030762
+      },
+      {
+        "seq": 145,
+        "actor": "external-0029",
+        "seconds": 0.412335604429245,
+        "timer": 0.0597052276134491
+      },
+      {
+        "seq": 146,
+        "actor": "external-0027",
+        "seconds": 0.412335604429245,
+        "timer": 0.0597052276134491
+      },
+      {
+        "seq": 152,
+        "actor": "external-0029",
+        "seconds": 0.4362131655216217,
+        "timer": 0.0835827887058258
+      },
+      {
+        "seq": 153,
+        "actor": "external-0027",
+        "seconds": 0.4362131655216217,
+        "timer": 0.0835827887058258
+      },
+      {
+        "seq": 159,
+        "actor": "external-0029",
+        "seconds": 0.46047618985176086,
+        "timer": 0.10784581303596497
+      },
+      {
+        "seq": 160,
+        "actor": "external-0027",
+        "seconds": 0.46047618985176086,
+        "timer": 0.10784581303596497
+      },
+      {
+        "seq": 166,
+        "actor": "external-0029",
+        "seconds": 0.4846031665802002,
+        "timer": 0.1319727897644043
+      },
+      {
+        "seq": 167,
+        "actor": "external-0027",
+        "seconds": 0.4846031665802002,
+        "timer": 0.1319727897644043
+      },
+      {
+        "seq": 173,
+        "actor": "external-0029",
+        "seconds": 0.5084353685379028,
+        "timer": 0.15580499172210693
+      },
+      {
+        "seq": 174,
+        "actor": "external-0027",
+        "seconds": 0.5084353685379028,
+        "timer": 0.15580499172210693
+      },
+      {
+        "seq": 180,
+        "actor": "external-0029",
+        "seconds": 0.5321995615959167,
+        "timer": 0.17956918478012085
+      },
+      {
+        "seq": 181,
+        "actor": "external-0027",
+        "seconds": 0.5321995615959167,
+        "timer": 0.17956918478012085
+      },
+      {
+        "seq": 187,
+        "actor": "external-0029",
+        "seconds": 0.5565986633300781,
+        "timer": 0.20396828651428223
+      },
+      {
+        "seq": 188,
+        "actor": "external-0027",
+        "seconds": 0.5565986633300781,
+        "timer": 0.20396828651428223
+      },
+      {
+        "seq": 194,
+        "actor": "external-0029",
+        "seconds": 0.5808616876602173,
+        "timer": 0.2282313108444214
+      },
+      {
+        "seq": 195,
+        "actor": "external-0027",
+        "seconds": 0.5808616876602173,
+        "timer": 0.2282313108444214
+      },
+      {
+        "seq": 201,
+        "actor": "external-0029",
+        "seconds": 0.6070748567581177,
+        "timer": 0.2544444799423218
+      },
+      {
+        "seq": 202,
+        "actor": "external-0027",
+        "seconds": 0.6070748567581177,
+        "timer": 0.2544444799423218
+      },
+      {
+        "seq": 208,
+        "actor": "external-0029",
+        "seconds": 0.6312471628189087,
+        "timer": 0.2786167860031128
+      },
+      {
+        "seq": 209,
+        "actor": "external-0027",
+        "seconds": 0.6312471628189087,
+        "timer": 0.2786167860031128
+      },
+      {
+        "seq": 215,
+        "actor": "external-0029",
+        "seconds": 0.6554875373840332,
+        "timer": 0.3028571605682373
+      },
+      {
+        "seq": 216,
+        "actor": "external-0027",
+        "seconds": 0.6554875373840332,
+        "timer": 0.3028571605682373
+      },
+      {
+        "seq": 222,
+        "actor": "external-0029",
+        "seconds": 0.6816553473472595,
+        "timer": 0.3290249705314636
+      },
+      {
+        "seq": 223,
+        "actor": "external-0027",
+        "seconds": 0.6816553473472595,
+        "timer": 0.3290249705314636
+      },
+      {
+        "seq": 229,
+        "actor": "external-0029",
+        "seconds": 0.7079818844795227,
+        "timer": 0.3553515076637268
+      },
+      {
+        "seq": 230,
+        "actor": "external-0027",
+        "seconds": 0.7079818844795227,
+        "timer": 0.3553515076637268
+      },
+      {
+        "seq": 236,
+        "actor": "external-0029",
+        "seconds": 0.7333787083625793,
+        "timer": 0.38074833154678345
+      },
+      {
+        "seq": 237,
+        "actor": "external-0027",
+        "seconds": 0.7333787083625793,
+        "timer": 0.38074833154678345
+      },
+      {
+        "seq": 243,
+        "actor": "external-0029",
+        "seconds": 0.759387731552124,
+        "timer": 0.4067573547363281
+      },
+      {
+        "seq": 244,
+        "actor": "external-0027",
+        "seconds": 0.759387731552124,
+        "timer": 0.4067573547363281
+      }
+    ],
+    "completion": {
+      "next_screen": "ScreenEvaluationStage",
+      "reason": "gameplay-exit",
+      "stage_committed": true,
+      "stages_played_after": 1,
+      "stages_played_before": 0
+    },
+    "script_errors": [],
+    "transition_script_errors": [],
+    "dropped": {
+      "dropped_drawable_samples": 0,
+      "dropped_events": 0,
+      "dropped_host_clock_inputs": 0,
+      "dropped_input_events": 0,
+      "dropped_random_reseeds": 0,
+      "dropped_render_random_inputs": 0,
+      "dropped_script_errors": 0,
+      "dropped_stage_samples": 0,
+      "dropped_update_frames": 0
+    },
+    "local_actor_cpp_matches_captured_source_hash": true
+  },
+  "native_complete_observation_proof_sha256": "4e318531d04bfe415ece973d26735b6686edda8abed556f89c5563ce811a6cb2",
+  "validation": {
+    "build": "full-replay-and-geometry-build-after04",
+    "source_identity": {
+      "git_head": "da3505ca1e46de265ff8bf2bcd1fdb4728616566",
+      "git_branch": "main",
+      "tracked_patch_sha256": "477cf75c659fa827061c1319904e9ae23ae7bd97e933ef28b8b2ff0b86391634",
+      "source_files": {
+        "crates/deadlib-present/src/actors.rs": "40b73e54c76cd45ad7bdba50103920e092d2eca1a240d70de21febba3ee01564",
+        "crates/deadlib-present/src/compose.rs": "08843a65aa0b01817e4874891c82abed878f04b36d2607eb8a647503d19b9b69",
+        "crates/deadlib-present/src/compose_native_vertex_colors.rs": "7d10dafccf3ed6a559daab85a2e04cf6b0572ae3fb2c292c98c7bbf0b468c9e0",
+        "crates/deadsync-song-lua/src/actors.rs": "588f69fc23c2a66f14d8489b54ac0d6dd7877e575b15e378fcdab1ec3fa5712e",
+        "crates/deadsync-song-lua/src/actors/capture.rs": "e29ff22180329709f3596ee717e5c51d8b22c8728682cc00848541e1ba162fda",
+        "crates/deadsync-song-lua/src/actors/function_capture.rs": "55e93ef0e754af5439740c944e1c7b1884c1729cb710c35a8566640fdb716556",
+        "crates/deadsync-song-lua/src/actors/lifecycle.rs": "df183df0a410d827a3fc19c54ebda5ab77d6efdff9b0be283517e6d6e0e2971d",
+        "crates/deadsync-song-lua/src/actors/live_scene.rs": "0c84d8db0cd9f4aff93563ebe9d335858b5eacd28881089e7a6668a8ef0ad241",
+        "crates/deadsync-song-lua/src/actors/messages.rs": "284673c424d1645d627e683818e325d3e7035c85d9fdddfe4103bb24b98dc2cc",
+        "crates/deadsync-song-lua/src/actors/wrappers.rs": "012ac9f39507decb75edb78481a07aa55a602161ba2aa4a934ae00ef24f07ded",
+        "crates/deadsync-song-lua/src/live_scene.rs": "3fe49c75da8a36270020dc4f70fc02a373c3d8027c3a0e69b9f4a2a8693224f2",
+        "crates/deadsync-song-lua/src/live_scene/visuals.rs": "8f99adce0d3253265b4a496480beb8de4b7b7bedd1885e2a53af4588385aeebe",
+        "crates/deadsync-song-lua/src/playback.rs": "7636ee829c1e674f649f3689f6692668701b25059d67eb9fa83a76b04f833ceb",
+        "crates/deadsync-song-lua/src/playback/live_topology.rs": "45cd1158386175c90404caf7ec048323fbf1391077c9c6aa9e64a95ce8c6d9f1",
+        "crates/deadsync-song-lua/src/playback/screen_projection_tests.rs": "b3c90333a394c92fbc58bd2683e7bf94f8b2ed451d3c27758bac45b84fccfdd3",
+        "crates/deadsync-song-lua/tests/playback/cases.rs": "d123d3db5f377f38f61cd73132c12241690d7048049940f9d964545e9e18d527",
+        "crates/deadsync-song-lua/tests/playback/native_vertex_colors.rs": "a93eade281c6c11d4c80c997e9df1f72e15283ad243a0de899dd005307dc4afc",
+        "crates/deadsync-song-lua/tests/wrapper_removal.rs": "e68e9a74bcbdf9a56d541723983a5699fb418fcd59df2319fd0bc45129ee0b6b",
+        "crates/deadsync-theme-simply-love/src/screens/components/evaluation/pane_timing.rs": "35a2b8432cc0bdbd4ae7ac6d889d2e5eb891dc06ff3368b6561ba8d489e6fd58",
+        "crates/deadsync-theme-simply-love/src/screens/components/gameplay/gameplay_stats.rs": "1f1da6312a0bae52b2238e7671a4236ab9c84134b513eb450d15d6b3ad4ba1eb",
+        "crates/deadsync-theme-simply-love/src/screens/components/shared/qr_code.rs": "f9f6af3a1c1d475c7d6290d7f32d65c5eb0a40ff27be0735eb7a5928a21232f9",
+        "crates/deadsync-theme-simply-love/src/screens/evaluation.rs": "1b16e6252caba1e54c0663e7cb340e0aa4d79462140efe5d864d9325dbd16190",
+        "crates/deadsync-theme-simply-love/src/screens/gameplay.rs": "e72ee1520ef52a6239775868ed634116eed1b5e5f5821937e097a869fa1eb8df",
+        "crates/deadsync-theme-simply-love/src/screens/practice.rs": "112b2c82e2ebb624f66d66e9f5599a24364da94d853113872e2927d97c291f4e",
+        "crates/deadsync-theme-simply-love/src/screens/select_music.rs": "2d32818207114e0f5006dd2c0b59cc9229f94458b9b523b9d62c5fd466b510d6",
+        "tests/song_lua_itgmania_semantic_parity/interactive.rs": "d3e35b404c51f2fa9669c7570cf65664cfa8a0194981a1731161d4f1bc11e187",
+        "tests/song_lua_itgmania_semantic_parity/native_gameplay.rs": "55eca74b615ff1f2e17e736d93f38b6110a54d7ed0194318637db709547b4736",
+        "tests/song_lua_itgmania_semantic_parity/render_random.rs": "e5a0faf24743fe8541b7d1374e49b0355845ad407d29db444746810231386e4b"
+      },
+      "fixture_git_head": "731e7facabc7c60e827295918459d75880d26542"
+    },
+    "runtime_wrapper_snapshot_sha256": "5bd516caac21324a0b506664be7a0b7cb631550af377ec5586064d16350ed6ab",
+    "focused_execution_sha256": "b5a89418fb7a4dce75e8e6f56a763f3219404f4b42ae86cc85e2b0aca972bb47",
+    "result": {
+      "name": "wrappers",
+      "command": [
+        "C:\\GitHub\\deadsync\\target\\debug\\build\\deadsync-song-lua\\15842260ef2a197d\\out\\wrappers-15842260ef2a197d.exe",
+        "--test-threads=2"
+      ],
+      "binary_sha256": "c5cad266ec5a4cebe4ee4ac485938929da6836bab88de2a4c7be46080381446a",
+      "started_at": "2026-11-20T01:54:24.166295+00:00",
+      "exit_code": 0,
+      "runtime_seconds": 1.3118783000390977
+    },
+    "files": {
+      "wrappers.stdout.log": {
+        "bytes": 714,
+        "sha256": "64c3a71eba6850cf81a1dcde4c6e344d85fd802873a59f8a136dcc7cfe004092"
+      },
+      "wrappers.stderr.log": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  }
+}
