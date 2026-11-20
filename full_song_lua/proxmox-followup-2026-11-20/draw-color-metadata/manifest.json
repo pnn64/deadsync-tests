@@ -1,0 +1,145 @@
+{
+  "scope": "Three existing internal scalar aliases corrected with source proof, followed by exact metadata-only insertion; all12 original draw tests pass.",
+  "members": {
+    "attempt01-failed/capture_draw_snapshot.py": {
+      "bytes": 9756,
+      "sha256": "37a4a60c779b263a491f5ba2fbd56e9963cd7374e349694ec781fdbff139506a"
+    },
+    "attempt01-failed/draw-capture-build.stderr.log": {
+      "bytes": 339,
+      "sha256": "ed5e3cde27ef81e4c1d48e52519b5ab336a006bb43a03f0d14b5e02390976a4f"
+    },
+    "attempt01-failed/draw-capture-build.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attempt01-failed/draw-metadata-observations.tsv": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attempt01-failed/draw_capture.rs": {
+      "bytes": 13862,
+      "sha256": "cd0d3fe35318fc431adf7d161bf8bb146a48f3898280d624dc51471f7ac4f678"
+    },
+    "attempt01-failed/failure-receipt.json": {
+      "bytes": 4672,
+      "sha256": "50f7b33bf3f6a1a832d83e80c2aec35b81d1e2816eddff24e75a9efbcda9a8ca"
+    },
+    "attempt02-captured-mismatch/capture_draw_snapshot.py": {
+      "bytes": 12152,
+      "sha256": "fafcec3233513764f46671fc172bd21b963efe0e6b5ac7c6e38f758afa45214a"
+    },
+    "attempt02-captured-mismatch/draw-capture-attempt.json": {
+      "bytes": 49409,
+      "sha256": "181095df9bcec5721584aa18224ad0455bf4b0990d5581c27a533ac2b9508f6a"
+    },
+    "attempt02-captured-mismatch/draw-capture-build.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attempt02-captured-mismatch/draw-capture-build.stdout.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attempt02-captured-mismatch/draw-capture-rustc.args": {
+      "bytes": 36710,
+      "sha256": "cd4a4ff3067e0f57953b8ef3c2ae3818eec26ec8749767cd623d54c24ba35c6d"
+    },
+    "attempt02-captured-mismatch/draw-capture.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attempt02-captured-mismatch/draw-capture.stdout.log": {
+      "bytes": 1017,
+      "sha256": "a43618dbd96e1af151f8e0a33b1429924cbaddb03e39ac08814f306543bfd34c"
+    },
+    "attempt02-captured-mismatch/draw-metadata-observations.tsv": {
+      "bytes": 5290818,
+      "sha256": "47a600f1b49bfda11ccf42b20d5cb69a5029d581dc3a6821fdf718d497f26155"
+    },
+    "attempt02-captured-mismatch/draw_capture.rs": {
+      "bytes": 13862,
+      "sha256": "cd0d3fe35318fc431adf7d161bf8bb146a48f3898280d624dc51471f7ac4f678"
+    },
+    "attempt02-captured-mismatch/migration-failure-receipt.json": {
+      "bytes": 3953,
+      "sha256": "30baf624ee655fc39c12c4b8d47a7cd09b0beaab301256d82e251477a52f466a"
+    },
+    "attempt02-captured-mismatch/scalar-normalization-source-proof.json": {
+      "bytes": 5122,
+      "sha256": "1f5e0d9ff42c090439ff56b3e6be32f00d4041f090a594fa82bf24a271f6b9dd"
+    },
+    "capture-helper/capture_draw_snapshot.py": {
+      "bytes": 12152,
+      "sha256": "fafcec3233513764f46671fc172bd21b963efe0e6b5ac7c6e38f758afa45214a"
+    },
+    "capture-helper/implementation-handoff.json": {
+      "bytes": 2700,
+      "sha256": "efdaec22a0e51aaf5d9cd19c4c7f65b8e9def9cd6433e633b3d908b9f16df2fb"
+    },
+    "native-glow-default-test-correction/manual_color_inheritance.before.rs": {
+      "bytes": 25878,
+      "sha256": "8c846a0f582d59247d90dab4a89329d538cb5c8eec5df593c97730a389cdaee3"
+    },
+    "native-glow-default-test-correction/proof.json": {
+      "bytes": 4814,
+      "sha256": "299fd0ff37401d125afc97fa48e2d519d847fb98c4c3222f693e02f0ed39dd59"
+    },
+    "native-glow-default-test-correction/test-only-correction.patch": {
+      "bytes": 2279,
+      "sha256": "9972c749eb47fb15a07bfe438ae2692ba98fbac0d6cceaf9136af846f5b03a8c"
+    },
+    "snapshot-two-stage/applied-receipt.json": {
+      "bytes": 834,
+      "sha256": "d98f5298ba91807d467ef98b180fbf65d678b1082c259fe54701291ad8ef5e64"
+    },
+    "snapshot-two-stage/draw-metadata-proposed.patch": {
+      "bytes": 5238534,
+      "sha256": "89f9f357ff60a948e4c423c5f9f094d506d0600a75014d72fb8f2d472bce6435"
+    },
+    "snapshot-two-stage/draw-metadata-proposed.snap": {
+      "bytes": 2644751,
+      "sha256": "3ca0c5793d8b5716b2bfa71f22407c2ba29461866f47eb916962e4fbf2ae3078"
+    },
+    "snapshot-two-stage/draw-original.snap": {
+      "bytes": 2594983,
+      "sha256": "bcf047f942017c98341a0b3f91f32e2c1d2fc51e4c31cb31bf10a952b40a6694"
+    },
+    "snapshot-two-stage/draw-scalars-proposed.patch": {
+      "bytes": 117054,
+      "sha256": "c008c4934b93e0d15bcc9d454df049eb33e503d8e5393bbdec462e6e7147ec54"
+    },
+    "snapshot-two-stage/draw-scalars-proposed.snap": {
+      "bytes": 2594981,
+      "sha256": "10113c497b75b3ff069f071c2ab5190d23304ec1143d76b969211e0d21b1e347"
+    },
+    "snapshot-two-stage/two-stage-receipt.json": {
+      "bytes": 11294,
+      "sha256": "a1f3b479a04640a88b941affe2443aac77e389d7338a879d5db55c132a088efb"
+    },
+    "verified-draw-tests/draw.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "verified-draw-tests/draw.stdout.log": {
+      "bytes": 1017,
+      "sha256": "9a896d2ae0daa931a6569a959cbd4ad61ede8c1a49178baa3bd08d77a20fc195"
+    },
+    "verified-draw-tests/execution.json": {
+      "bytes": 5061,
+      "sha256": "b0eda638fb4e78cefabbcbab6db797e533c1d2298716f0961c678f57c01093db"
+    },
+    "verified-draw-tests/source.patch": {
+      "bytes": 86442,
+      "sha256": "38d5a943d923f2f037f57b94183641d467233a86241d5bf67756b0755f89153a"
+    }
+  },
+  "test_summary": [
+    "test result: ok. 12 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.38s"
+  ],
+  "fixture_sha256": "3ca0c5793d8b5716b2bfa71f22407c2ba29461866f47eb916962e4fbf2ae3078",
+  "archive": {
+    "bytes": 220775,
+    "sha256": "a378a37ab3196cbb269726199b48eb629df3d20edd13d27c9f38664c4c95163b"
+  }
+}
