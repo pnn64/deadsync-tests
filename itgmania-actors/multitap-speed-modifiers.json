@@ -1,0 +1,1762 @@
+{
+  "schema_version": 1,
+  "kind": "itgmania_multitap_speed_and_field_reference",
+  "scope": "Direct native ArrowEffects.GetYOffset and Player/NoteField getter observations. These are native executable samples, not the embedded semantic host's timing-only GetYOffset.",
+  "provenance": {
+    "execution": "native_executable",
+    "harness_version": "0.1.110",
+    "itgmania_version": "1.2.0-BETA-git-663525d",
+    "native_source": {
+      "actor_sha256": "c5991992c937e7be25147697a4116397743fae547a1046ba96bb28c83482c150",
+      "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+      "modified_src": false,
+      "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+      "random_numbers_header_sha256": "776cb7c63bca1b731a6dcebf37055a828d0ac1dc937ce7e5d5ef7e9624d86b13",
+      "random_numbers_sha256": "7ff37771f9209cc3e16a65a6d374015265f0b7afc8cd180dbb2f55d977d33edf",
+      "receptor_arrow_row_sha256": "b70ec8a2fd965669ce93d775ba9bf0350ade0df4c70cb8c2dc6ec94591e9f8cb",
+      "revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "screen_gameplay_sha256": "d6d976f7aa6fb1586f4d7bfa499750adc17b8eef472e3bc824bdca151725c4a0"
+    },
+    "native_executable_sha256": "adb6a1f11b33b93ded087e57fb3c202a46b52fe4261a93f8b33710487e8ed9d7",
+    "capture_binary_sha256": "56acfb69c6f8381b22618db24b81cfcd4a2ab7cf315622ed262f779acc20b9e0",
+    "native_arrow_effects_sha256": "31e6b200d05430099cf4ed2bac8a6111cab961d5cc93ff8d41d5029ecbb681e8",
+    "native_player_sha256": "586e453f4db801a59e1ca0a4fa38c60bd16421c99e733f074bbb9869e1dcbf39",
+    "observer_sha256": "0a940c28e78dece13be87cf84d46b14b6a2a074c7963cfb66ba107b3738d5ccd",
+    "hash_encoding": "SHA-256 of original file bytes",
+    "reference_sources": [
+      "vendor/itgmania/src/ArrowEffects.cpp:GetYOffset",
+      "vendor/itgmania/src/PlayerOptions.cpp:XMod/MMod",
+      "vendor/itgmania/src/Player.cpp:Update/PlayerNoteFieldPositioner",
+      "vendor/itgmania/src/Actor.cpp:Draw"
+    ],
+    "audited_primary_revision": "704cdd5624155f743b59b8b64fedeb0588dae067",
+    "primary_source_comparison": "The relevant MMod denominator and Player update/draw operations match the pinned executable source. Source line offsets differ."
+  },
+  "preferences": {
+    "default_sync_offset": "SyncOffset_ITG",
+    "global_offset_seconds": -0.00800000037997961,
+    "music_rate": 1,
+    "visual_delay_seconds": 0
+  },
+  "query_deltas": [
+    -5,
+    -2,
+    0,
+    1,
+    2,
+    4,
+    10
+  ],
+  "captures": [
+    {
+      "display_bpm": 240,
+      "chart_offset": 0,
+      "bpms": [
+        [
+          0,
+          120
+        ],
+        [
+          8,
+          240
+        ]
+      ],
+      "song_display_bpms": [
+        240,
+        240
+      ],
+      "steps_display_bpms": [
+        240,
+        240
+      ],
+      "sample_clock": {
+        "game_beat": 6.011714458465576,
+        "game_bps": 2,
+        "game_seconds": 3.022857189178467,
+        "game_visible_beat": 6.011714458465576,
+        "game_visible_seconds": 3.022857189178467,
+        "player_beat": 6.011714458465576,
+        "player_bps": 2,
+        "player_seconds": 3.022857189178467,
+        "player_visible_beat": 6.011714458465576,
+        "player_visible_seconds": 3.022857189178467
+      },
+      "provenance": {
+        "command_workdir": "itgmania-harness",
+        "command": [
+          "target/debug/itgmania-harness-rs.exe",
+          "song-lua-trace",
+          "target/multitap-native-probe-20261121-worker1/songs/read240/control.ssc",
+          "--itgmania-bin",
+          "target/native-pinned-source/Program/ITGmania-harness-trace.exe",
+          "--headless",
+          "--notefield-samples",
+          "--scene-draws",
+          "--style",
+          "single",
+          "--difficulty",
+          "Challenge",
+          "--fallback-theme",
+          "Harness Simply Love",
+          "--player-options",
+          "m600, 60% mini, 50% distant, cel",
+          "--fast-note-rendering",
+          "0",
+          "--drawable-from-beat",
+          "0",
+          "--until-beat",
+          "6.5",
+          "--capture-fps",
+          "60",
+          "--timeout",
+          "35",
+          "--keep-run-dir",
+          "--out",
+          "target/multitap-native-probe-20261121-worker1/trace-read240.json"
+        ],
+        "output": "target/multitap-native-probe-20261121-worker1/trace-read240.json",
+        "output_sha256": "01e0203a7ff15c2eeed91d2bd09cd13746a4bb6649aaad79a9606923ae1a50f7",
+        "raw_engine_trace": "target/multitap-native-probe-20261121-worker1/tmp/itgmania-harness-rs/song-lua-43816-1795288630744069300-0/Save/itgmania-harness/song-lua-trace.json",
+        "raw_engine_trace_sha256": "cd04cdcbd7ea0d2876c158759d44b6ba4abd99df3b90f956a9372bef1cebf68c",
+        "raw_direct_observations": "target/multitap-native-probe-20261121-worker1/tmp/itgmania-harness-rs/song-lua-43816-1795288630744069300-0/Save/itgmania-harness/multitap-native-probe.json",
+        "raw_direct_observations_sha256": "d8158f5518a221d1bd401e57944f822925c28f738910bdeecd0d5e728950622e",
+        "simfile_sha256": "1ad1d578aec837b61551ec6061dae37c97cb64a9678566550354e76bf4133e52",
+        "probe_lua_sha256": "c7eda7774f67ac05df9a7171ca0d688c0e048884f972730d78220dfb71affba6"
+      },
+      "validation": {
+        "exit_code": 0,
+        "complete": true,
+        "script_errors": [],
+        "dropped_script_errors": 0,
+        "headless_graphics": true,
+        "window_visible": false
+      },
+      "speed_samples": [
+        {
+          "mode": "MMod",
+          "amount": 600,
+          "rate": 1,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 1,
+          "cmod": null,
+          "mmod": 600,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 600,
+          "time_spacing": 0,
+          "y_offsets": [
+            -800,
+            -320,
+            0,
+            160,
+            320.00006103515625,
+            640.0000610351562,
+            1600
+          ]
+        },
+        {
+          "mode": "XMod",
+          "amount": 3,
+          "rate": 1,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 3,
+          "cmod": null,
+          "mmod": null,
+          "scroll_speed": 3,
+          "max_scroll_bpm": 0,
+          "time_spacing": 0,
+          "y_offsets": [
+            -960,
+            -384,
+            0,
+            192,
+            384.0000915527344,
+            768.0001220703125,
+            1920
+          ]
+        },
+        {
+          "mode": "CMod",
+          "amount": 600,
+          "rate": 1,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": null,
+          "cmod": 600,
+          "mmod": null,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 0,
+          "time_spacing": 1,
+          "y_offsets": [
+            -1597.0819091796875,
+            -637.0819091796875,
+            2.9180908203125,
+            322.9180908203125,
+            639.5846557617188,
+            959.5846557617188,
+            1919.5843505859375
+          ]
+        },
+        {
+          "mode": "MMod",
+          "amount": 600,
+          "rate": 1.5,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 1,
+          "cmod": null,
+          "mmod": 600,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 600,
+          "time_spacing": 0,
+          "y_offsets": [
+            -533.3333129882812,
+            -213.3333282470703,
+            0,
+            106.66666412353516,
+            213.3333740234375,
+            426.6667175292969,
+            1066.6666259765625
+          ]
+        },
+        {
+          "mode": "XMod",
+          "amount": 3,
+          "rate": 1.5,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 3,
+          "cmod": null,
+          "mmod": null,
+          "scroll_speed": 3,
+          "max_scroll_bpm": 0,
+          "time_spacing": 0,
+          "y_offsets": [
+            -960,
+            -384,
+            0,
+            192,
+            384.0000915527344,
+            768.0001220703125,
+            1920
+          ]
+        },
+        {
+          "mode": "CMod",
+          "amount": 600,
+          "rate": 1.5,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": null,
+          "cmod": 600,
+          "mmod": null,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 0,
+          "time_spacing": 1,
+          "y_offsets": [
+            -1063.0146484375,
+            -423.0145263671875,
+            3.6521401405334473,
+            216.9854736328125,
+            428.09649658203125,
+            641.4298095703125,
+            1281.4295654296875
+          ]
+        },
+        {
+          "mode": "MMod",
+          "amount": 600,
+          "rate": 2,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 1,
+          "cmod": null,
+          "mmod": 600,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 600,
+          "time_spacing": 0,
+          "y_offsets": [
+            -400,
+            -160,
+            0,
+            80,
+            160.00003051757812,
+            320.0000305175781,
+            800
+          ]
+        },
+        {
+          "mode": "XMod",
+          "amount": 3,
+          "rate": 2,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 3,
+          "cmod": null,
+          "mmod": null,
+          "scroll_speed": 3,
+          "max_scroll_bpm": 0,
+          "time_spacing": 0,
+          "y_offsets": [
+            -960,
+            -384,
+            0,
+            192,
+            384.0000915527344,
+            768.0001220703125,
+            1920
+          ]
+        },
+        {
+          "mode": "CMod",
+          "amount": 600,
+          "rate": 2,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": null,
+          "cmod": 600,
+          "mmod": null,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 0,
+          "time_spacing": 1,
+          "y_offsets": [
+            -795.98095703125,
+            -315.98089599609375,
+            4.0190887451171875,
+            164.0190887451172,
+            322.352294921875,
+            482.352294921875,
+            962.3521728515625
+          ]
+        },
+        {
+          "mode": "MMod",
+          "amount": 350,
+          "rate": 1.5,
+          "wave": 0.4000000059604645,
+          "wave_period": 0.20000000298023224,
+          "xmod": 1,
+          "cmod": null,
+          "mmod": 350,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 350,
+          "time_spacing": 0,
+          "y_offsets": [
+            -311.1111145019531,
+            -124.44444274902344,
+            0,
+            69.89141845703125,
+            126.9984359741211,
+            244.064208984375,
+            629.9595336914062
+          ]
+        }
+      ],
+      "note_beats": [
+        1.0117144584655762,
+        4.011714458465576,
+        6.011714458465576,
+        7.011714458465576,
+        8.011714458465576,
+        10.011714458465576,
+        16.011714458465576
+      ]
+    },
+    {
+      "display_bpm": 480,
+      "chart_offset": 0,
+      "bpms": [
+        [
+          0,
+          120
+        ],
+        [
+          8,
+          240
+        ]
+      ],
+      "song_display_bpms": [
+        480,
+        480
+      ],
+      "steps_display_bpms": [
+        480,
+        480
+      ],
+      "sample_clock": {
+        "game_beat": 6.0335283279418945,
+        "game_bps": 2,
+        "game_seconds": 3.033764123916626,
+        "game_visible_beat": 6.0335283279418945,
+        "game_visible_seconds": 3.033764123916626,
+        "player_beat": 6.0335283279418945,
+        "player_bps": 2,
+        "player_seconds": 3.033764123916626,
+        "player_visible_beat": 6.0335283279418945,
+        "player_visible_seconds": 3.033764123916626
+      },
+      "provenance": {
+        "command_workdir": "itgmania-harness",
+        "command": [
+          "target/debug/itgmania-harness-rs.exe",
+          "song-lua-trace",
+          "target/multitap-native-probe-20261121-worker1/songs/read480/control.ssc",
+          "--itgmania-bin",
+          "target/native-pinned-source/Program/ITGmania-harness-trace.exe",
+          "--headless",
+          "--notefield-samples",
+          "--scene-draws",
+          "--style",
+          "single",
+          "--difficulty",
+          "Challenge",
+          "--fallback-theme",
+          "Harness Simply Love",
+          "--player-options",
+          "m600, 60% mini, 50% distant, cel",
+          "--fast-note-rendering",
+          "0",
+          "--drawable-from-beat",
+          "0",
+          "--until-beat",
+          "6.5",
+          "--capture-fps",
+          "60",
+          "--timeout",
+          "35",
+          "--keep-run-dir",
+          "--out",
+          "target/multitap-native-probe-20261121-worker1/trace-read480.json"
+        ],
+        "output": "target/multitap-native-probe-20261121-worker1/trace-read480.json",
+        "output_sha256": "7684ee89cef4b185ba760c3e089fc0a6810534e418977abf5adb7655335d0cfc",
+        "raw_engine_trace": "target/multitap-native-probe-20261121-worker1/tmp/itgmania-harness-rs/song-lua-18448-1795288755799385000-0/Save/itgmania-harness/song-lua-trace.json",
+        "raw_engine_trace_sha256": "af3d95bdca6f882cdd335428153f28be96109daaaaaa209935cdb10f3f55dfb7",
+        "raw_direct_observations": "target/multitap-native-probe-20261121-worker1/tmp/itgmania-harness-rs/song-lua-18448-1795288755799385000-0/Save/itgmania-harness/multitap-native-probe.json",
+        "raw_direct_observations_sha256": "2c9db9da6376b0990a2fe104cb30667c0bc09e4f1413f1c31d7b49b9ceb8de07",
+        "simfile_sha256": "cbecae67f04543eb8610339e6056a76effcbf7570f18dc5b7b1e67fa7865cfb5",
+        "probe_lua_sha256": "d6ef1005429d4e392090b956c1e4e8459bb40328164e1ca3537f756755d307aa"
+      },
+      "validation": {
+        "exit_code": 0,
+        "complete": true,
+        "script_errors": [],
+        "dropped_script_errors": 0,
+        "headless_graphics": true,
+        "window_visible": false
+      },
+      "speed_samples": [
+        {
+          "mode": "MMod",
+          "amount": 600,
+          "rate": 1,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 1,
+          "cmod": null,
+          "mmod": 600,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 600,
+          "time_spacing": 0,
+          "y_offsets": [
+            -400,
+            -160,
+            0,
+            80,
+            160,
+            320,
+            799.9999389648438
+          ]
+        },
+        {
+          "mode": "XMod",
+          "amount": 3,
+          "rate": 1,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 3,
+          "cmod": null,
+          "mmod": null,
+          "scroll_speed": 3,
+          "max_scroll_bpm": 0,
+          "time_spacing": 0,
+          "y_offsets": [
+            -960,
+            -384,
+            0,
+            192,
+            384,
+            768,
+            1919.999755859375
+          ]
+        },
+        {
+          "mode": "CMod",
+          "amount": 600,
+          "rate": 1,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": null,
+          "cmod": 600,
+          "mmod": null,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 0,
+          "time_spacing": 1,
+          "y_offsets": [
+            -1597.3956298828125,
+            -637.395751953125,
+            2.604217529296875,
+            322.6042175292969,
+            635.9373779296875,
+            955.9373779296875,
+            1915.9376220703125
+          ]
+        },
+        {
+          "mode": "MMod",
+          "amount": 600,
+          "rate": 1.5,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 1,
+          "cmod": null,
+          "mmod": 600,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 600,
+          "time_spacing": 0,
+          "y_offsets": [
+            -266.6666564941406,
+            -106.66666412353516,
+            0,
+            53.33333206176758,
+            106.66666412353516,
+            213.3333282470703,
+            533.333251953125
+          ]
+        },
+        {
+          "mode": "XMod",
+          "amount": 3,
+          "rate": 1.5,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 3,
+          "cmod": null,
+          "mmod": null,
+          "scroll_speed": 3,
+          "max_scroll_bpm": 0,
+          "time_spacing": 0,
+          "y_offsets": [
+            -960,
+            -384,
+            0,
+            192,
+            384,
+            768,
+            1919.999755859375
+          ]
+        },
+        {
+          "mode": "CMod",
+          "amount": 600,
+          "rate": 1.5,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": null,
+          "cmod": 600,
+          "mmod": null,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 0,
+          "time_spacing": 1,
+          "y_offsets": [
+            -1063.2237548828125,
+            -423.2237548828125,
+            3.4428913593292236,
+            216.77621459960938,
+            425.66497802734375,
+            638.998291015625,
+            1278.99853515625
+          ]
+        },
+        {
+          "mode": "MMod",
+          "amount": 600,
+          "rate": 2,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 1,
+          "cmod": null,
+          "mmod": 600,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 600,
+          "time_spacing": 0,
+          "y_offsets": [
+            -200,
+            -80,
+            0,
+            40,
+            80,
+            160,
+            399.9999694824219
+          ]
+        },
+        {
+          "mode": "XMod",
+          "amount": 3,
+          "rate": 2,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 3,
+          "cmod": null,
+          "mmod": null,
+          "scroll_speed": 3,
+          "max_scroll_bpm": 0,
+          "time_spacing": 0,
+          "y_offsets": [
+            -960,
+            -384,
+            0,
+            192,
+            384,
+            768,
+            1919.999755859375
+          ]
+        },
+        {
+          "mode": "CMod",
+          "amount": 600,
+          "rate": 2,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": null,
+          "cmod": 600,
+          "mmod": null,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 0,
+          "time_spacing": 1,
+          "y_offsets": [
+            -796.1378173828125,
+            -316.1378479003906,
+            3.862152099609375,
+            163.86215209960938,
+            320.52862548828125,
+            480.52862548828125,
+            960.52880859375
+          ]
+        },
+        {
+          "mode": "MMod",
+          "amount": 350,
+          "rate": 1.5,
+          "wave": 0.4000000059604645,
+          "wave_period": 0.20000000298023224,
+          "xmod": 1,
+          "cmod": null,
+          "mmod": 350,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 350,
+          "time_spacing": 0,
+          "y_offsets": [
+            -155.55555725097656,
+            -62.22222137451172,
+            0,
+            34.945709228515625,
+            63.49920654296875,
+            122.03208923339844,
+            314.979736328125
+          ]
+        }
+      ],
+      "note_beats": [
+        1.0335283279418945,
+        4.0335283279418945,
+        6.0335283279418945,
+        7.0335283279418945,
+        8.033528327941895,
+        10.033528327941895,
+        16.033528327941895
+      ]
+    },
+    {
+      "display_bpm": 60,
+      "chart_offset": 0.125,
+      "bpms": [
+        [
+          0,
+          120
+        ]
+      ],
+      "song_display_bpms": [
+        60,
+        60
+      ],
+      "steps_display_bpms": [
+        60,
+        60
+      ],
+      "sample_clock": {
+        "game_beat": 6.012961387634277,
+        "game_bps": 2,
+        "game_seconds": 2.8984806537628174,
+        "game_visible_beat": 6.012961387634277,
+        "game_visible_seconds": 2.8984806537628174,
+        "player_beat": 6.012961387634277,
+        "player_bps": 2,
+        "player_seconds": 2.8984806537628174,
+        "player_visible_beat": 6.012961387634277,
+        "player_visible_seconds": 2.8984806537628174
+      },
+      "provenance": {
+        "command_workdir": "itgmania-harness",
+        "command": [
+          "target/debug/itgmania-harness-rs.exe",
+          "song-lua-trace",
+          "target/multitap-native-probe-20261121-worker1/songs/read60/control.ssc",
+          "--itgmania-bin",
+          "target/native-pinned-source/Program/ITGmania-harness-trace.exe",
+          "--headless",
+          "--notefield-samples",
+          "--scene-draws",
+          "--style",
+          "single",
+          "--difficulty",
+          "Challenge",
+          "--fallback-theme",
+          "Harness Simply Love",
+          "--player-options",
+          "m600, 60% mini, 50% distant, cel",
+          "--fast-note-rendering",
+          "0",
+          "--drawable-from-beat",
+          "0",
+          "--until-beat",
+          "6.5",
+          "--capture-fps",
+          "60",
+          "--timeout",
+          "35",
+          "--keep-run-dir",
+          "--out",
+          "target/multitap-native-probe-20261121-worker1/trace-read60.json"
+        ],
+        "output": "target/multitap-native-probe-20261121-worker1/trace-read60.json",
+        "output_sha256": "9f77ea643dbfa2b134aec4a6a19fa15588ab59df47b724d27c89ad4ad165f493",
+        "raw_engine_trace": "target/multitap-native-probe-20261121-worker1/tmp/itgmania-harness-rs/song-lua-35108-1795288869767159500-0/Save/itgmania-harness/song-lua-trace.json",
+        "raw_engine_trace_sha256": "98053444a5dd38b2be1f4c2841f8c7815aca462579dbb320693f524330cbb46a",
+        "raw_direct_observations": "target/multitap-native-probe-20261121-worker1/tmp/itgmania-harness-rs/song-lua-35108-1795288869767159500-0/Save/itgmania-harness/multitap-native-probe.json",
+        "raw_direct_observations_sha256": "2153d80732506571595f6bf30b9d22f0302d2f2f5e618cdffeb4193e04697073",
+        "simfile_sha256": "964a4888d702a5b34e64fbc15eef367df12218c68c5d369e76218457744a4373",
+        "probe_lua_sha256": "503e4182db2d23543ed0c49768ea9136f1987447e55c1bdd930594a6374a9999"
+      },
+      "validation": {
+        "exit_code": 0,
+        "complete": true,
+        "script_errors": [],
+        "dropped_script_errors": 0,
+        "headless_graphics": true,
+        "window_visible": false
+      },
+      "speed_samples": [
+        {
+          "mode": "MMod",
+          "amount": 600,
+          "rate": 1,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 1,
+          "cmod": null,
+          "mmod": 600,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 600,
+          "time_spacing": 0,
+          "y_offsets": [
+            -3200,
+            -1280,
+            0,
+            640,
+            1280,
+            2560,
+            6400.00048828125
+          ]
+        },
+        {
+          "mode": "XMod",
+          "amount": 3,
+          "rate": 1,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 3,
+          "cmod": null,
+          "mmod": null,
+          "scroll_speed": 3,
+          "max_scroll_bpm": 0,
+          "time_spacing": 0,
+          "y_offsets": [
+            -960,
+            -384,
+            0,
+            192,
+            384,
+            768,
+            1920.000244140625
+          ]
+        },
+        {
+          "mode": "CMod",
+          "amount": 600,
+          "rate": 1,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": null,
+          "cmod": 600,
+          "mmod": null,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 0,
+          "time_spacing": 1,
+          "y_offsets": [
+            -1597.48095703125,
+            -637.4808349609375,
+            2.519073486328125,
+            322.5190734863281,
+            642.5189208984375,
+            1282.518798828125,
+            3202.51904296875
+          ]
+        },
+        {
+          "mode": "MMod",
+          "amount": 600,
+          "rate": 1.5,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 1,
+          "cmod": null,
+          "mmod": 600,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 600,
+          "time_spacing": 0,
+          "y_offsets": [
+            -2133.333251953125,
+            -853.3333129882812,
+            0,
+            426.6666564941406,
+            853.3333129882812,
+            1706.6666259765625,
+            4266.6669921875
+          ]
+        },
+        {
+          "mode": "XMod",
+          "amount": 3,
+          "rate": 1.5,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 3,
+          "cmod": null,
+          "mmod": null,
+          "scroll_speed": 3,
+          "max_scroll_bpm": 0,
+          "time_spacing": 0,
+          "y_offsets": [
+            -960,
+            -384,
+            0,
+            192,
+            384,
+            768,
+            1920.000244140625
+          ]
+        },
+        {
+          "mode": "CMod",
+          "amount": 600,
+          "rate": 1.5,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": null,
+          "cmod": 600,
+          "mmod": null,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 0,
+          "time_spacing": 1,
+          "y_offsets": [
+            -1063.2806396484375,
+            -423.28057861328125,
+            3.3861286640167236,
+            216.71945190429688,
+            430.05267333984375,
+            856.71923828125,
+            2136.719482421875
+          ]
+        },
+        {
+          "mode": "MMod",
+          "amount": 600,
+          "rate": 2,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 1,
+          "cmod": null,
+          "mmod": 600,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 600,
+          "time_spacing": 0,
+          "y_offsets": [
+            -1600,
+            -640,
+            0,
+            320,
+            640,
+            1280,
+            3200.000244140625
+          ]
+        },
+        {
+          "mode": "XMod",
+          "amount": 3,
+          "rate": 2,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": 3,
+          "cmod": null,
+          "mmod": null,
+          "scroll_speed": 3,
+          "max_scroll_bpm": 0,
+          "time_spacing": 0,
+          "y_offsets": [
+            -960,
+            -384,
+            0,
+            192,
+            384,
+            768,
+            1920.000244140625
+          ]
+        },
+        {
+          "mode": "CMod",
+          "amount": 600,
+          "rate": 2,
+          "wave": 0,
+          "wave_period": 0,
+          "xmod": null,
+          "cmod": 600,
+          "mmod": null,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 0,
+          "time_spacing": 1,
+          "y_offsets": [
+            -796.1804809570312,
+            -316.180419921875,
+            3.819580078125,
+            163.819580078125,
+            323.81951904296875,
+            643.8193359375,
+            1603.819580078125
+          ]
+        },
+        {
+          "mode": "MMod",
+          "amount": 350,
+          "rate": 1.5,
+          "wave": 0.4000000059604645,
+          "wave_period": 0.20000000298023224,
+          "xmod": 1,
+          "cmod": null,
+          "mmod": 350,
+          "scroll_speed": 1,
+          "max_scroll_bpm": 350,
+          "time_spacing": 0,
+          "y_offsets": [
+            -1244.4444580078125,
+            -497.77777099609375,
+            0,
+            279.565673828125,
+            507.99365234375,
+            976.2567138671875,
+            2519.83837890625
+          ]
+        }
+      ],
+      "note_beats": [
+        1.0129613876342773,
+        4.012961387634277,
+        6.012961387634277,
+        7.012961387634277,
+        8.012961387634277,
+        10.012961387634277,
+        16.012961387634277
+      ]
+    }
+  ],
+  "field_transform_capture_display_bpm": 240,
+  "field_transform_phases": [
+    {
+      "point": "song-init",
+      "case_name": "initial",
+      "native_update_sequence": 2,
+      "player_visible_beat": 0,
+      "player_visible_seconds": 0,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": false,
+      "player_visible": null,
+      "notefield_present": false,
+      "notefield_visible": null,
+      "notefield_position": null,
+      "notefield_zoom": null,
+      "notefield_rotation": null
+    },
+    {
+      "point": "song-on-before-mutation",
+      "case_name": "initial",
+      "native_update_sequence": 313,
+      "player_visible_beat": 0.0035510193556547165,
+      "player_visible_seconds": 0.018775509670376778,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.699999988079071,
+        0.699999988079071,
+        0.699999988079071
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-gameplay-actors",
+      "case_name": "initial-mini60-tilt-positive",
+      "native_update_sequence": 313,
+      "player_visible_beat": 0.0035510193556547165,
+      "player_visible_seconds": 0.018775509670376778,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.699999988079071,
+        0.699999988079071,
+        0.699999988079071
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-native-screen-draw",
+      "case_name": "initial-mini60-tilt-positive",
+      "native_update_sequence": 313,
+      "player_visible_beat": 0.0035510193556547165,
+      "player_visible_seconds": 0.018775509670376778,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.6649999618530273,
+        0.6649999618530273,
+        0.6649999618530273
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-gameplay-actors",
+      "case_name": "mini60-tilt-negative",
+      "native_update_sequence": 314,
+      "player_visible_beat": 0.038879819214344025,
+      "player_visible_seconds": 0.036439910531044006,
+      "mini": 0.6000000238418579,
+      "tilt": -0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.699999988079071,
+        0.699999988079071,
+        0.699999988079071
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-native-screen-draw",
+      "case_name": "mini60-tilt-negative",
+      "native_update_sequence": 314,
+      "player_visible_beat": 0.038879819214344025,
+      "player_visible_seconds": 0.036439910531044006,
+      "mini": 0.6000000238418579,
+      "tilt": -0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.6649999618530273,
+        0.6649999618530273,
+        0.6649999618530273
+      ],
+      "notefield_rotation": [
+        15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-gameplay-actors",
+      "case_name": "mini60-tilt-negative-reverse",
+      "native_update_sequence": 315,
+      "player_visible_beat": 0.07330158352851868,
+      "player_visible_seconds": 0.05365079268813133,
+      "mini": 0.6000000238418579,
+      "tilt": -0.5,
+      "skew": 0,
+      "reverse": 1,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.699999988079071,
+        0.699999988079071,
+        0.699999988079071
+      ],
+      "notefield_rotation": [
+        15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-native-screen-draw",
+      "case_name": "mini60-tilt-negative-reverse",
+      "native_update_sequence": 315,
+      "player_visible_beat": 0.07330158352851868,
+      "player_visible_seconds": 0.05365079268813133,
+      "mini": 0.6000000238418579,
+      "tilt": -0.5,
+      "skew": 0,
+      "reverse": 1,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.6649999618530273,
+        0.6649999618530273,
+        0.6649999618530273
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-gameplay-actors",
+      "case_name": "hidden-player",
+      "native_update_sequence": 316,
+      "player_visible_beat": 0.10731519013643265,
+      "player_visible_seconds": 0.07065759599208832,
+      "mini": 0.20000000298023224,
+      "tilt": 0.800000011920929,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": false,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.8999999761581421,
+        0.8999999761581421,
+        0.8999999761581421
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-native-screen-draw",
+      "case_name": "hidden-player",
+      "native_update_sequence": 316,
+      "player_visible_beat": 0.10731519013643265,
+      "player_visible_seconds": 0.07065759599208832,
+      "mini": 0.20000000298023224,
+      "tilt": 0.800000011920929,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": false,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.8999999761581421,
+        0.8999999761581421,
+        0.8999999761581421
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-gameplay-actors",
+      "case_name": "hidden-notefield",
+      "native_update_sequence": 317,
+      "player_visible_beat": 0.14128345251083374,
+      "player_visible_seconds": 0.08764172345399857,
+      "mini": 0.20000000298023224,
+      "tilt": 0.800000011920929,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": false,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.8999999761581421,
+        0.8999999761581421,
+        0.8999999761581421
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-native-screen-draw",
+      "case_name": "hidden-notefield",
+      "native_update_sequence": 317,
+      "player_visible_beat": 0.14128345251083374,
+      "player_visible_seconds": 0.08764172345399857,
+      "mini": 0.20000000298023224,
+      "tilt": 0.800000011920929,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": false,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.8279999494552612,
+        0.8279999494552612,
+        0.8279999494552612
+      ],
+      "notefield_rotation": [
+        -24,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-gameplay-actors",
+      "case_name": "hibernating-player",
+      "native_update_sequence": 318,
+      "player_visible_beat": 0.17747393250465393,
+      "player_visible_seconds": 0.10573696345090866,
+      "mini": 0.4000000059604645,
+      "tilt": -0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929
+      ],
+      "notefield_rotation": [
+        -24,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-native-screen-draw",
+      "case_name": "hibernating-player",
+      "native_update_sequence": 318,
+      "player_visible_beat": 0.17747393250465393,
+      "player_visible_seconds": 0.10573696345090866,
+      "mini": 0.4000000059604645,
+      "tilt": -0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929
+      ],
+      "notefield_rotation": [
+        -24,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-gameplay-actors",
+      "case_name": "visible-baseline",
+      "native_update_sequence": 319,
+      "player_visible_beat": 0.21547845005989075,
+      "player_visible_seconds": 0.12473922967910767,
+      "mini": 0,
+      "tilt": 0,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        1,
+        1,
+        1
+      ],
+      "notefield_rotation": [
+        -24,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "after-native-screen-draw",
+      "case_name": "visible-baseline",
+      "native_update_sequence": 319,
+      "player_visible_beat": 0.21547845005989075,
+      "player_visible_seconds": 0.12473922967910767,
+      "mini": 0,
+      "tilt": 0,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        1,
+        1,
+        1
+      ],
+      "notefield_rotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "initial_field_capture_display_bpm": 60,
+  "initial_field_observations": [
+    {
+      "point": "song-init",
+      "case_name": "initial",
+      "native_update_sequence": 2,
+      "player_visible_beat": 0,
+      "player_visible_seconds": 0,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": false,
+      "player_visible": null,
+      "notefield_present": false,
+      "notefield_visible": null,
+      "notefield_position": null,
+      "notefield_zoom": null,
+      "notefield_rotation": null
+    },
+    {
+      "point": "first-observable-after-native-screen-draw",
+      "case_name": "initial",
+      "native_update_sequence": 2,
+      "player_visible_beat": -10.99996280670166,
+      "player_visible_seconds": -5.6079816818237305,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        1,
+        1,
+        1
+      ],
+      "notefield_rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "initial-after-native-screen-draw-pose-change",
+      "case_name": "initial",
+      "native_update_sequence": 2,
+      "player_visible_beat": -10.99996280670166,
+      "player_visible_seconds": -5.6079816818237305,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        1,
+        1,
+        1
+      ],
+      "notefield_rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "initial-before-screen-update",
+      "case_name": "initial",
+      "native_update_sequence": 3,
+      "player_visible_beat": 0.23214511573314667,
+      "player_visible_seconds": 0.008072562515735626,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        1,
+        1,
+        1
+      ],
+      "notefield_rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "initial-after-native-screen-draw-pose-change",
+      "case_name": "initial",
+      "native_update_sequence": 3,
+      "player_visible_beat": -10.802230834960938,
+      "player_visible_seconds": -5.509115695953369,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.6649999618530273,
+        0.6649999618530273,
+        0.6649999618530273
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "initial-before-screen-update",
+      "case_name": "initial",
+      "native_update_sequence": 4,
+      "player_visible_beat": -10.802230834960938,
+      "player_visible_seconds": -5.509115695953369,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.6649999618530273,
+        0.6649999618530273,
+        0.6649999618530273
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "initial-before-screen-update",
+      "case_name": "initial",
+      "native_update_sequence": 5,
+      "player_visible_beat": -10.60486125946045,
+      "player_visible_seconds": -5.410430908203125,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.6649999618530273,
+        0.6649999618530273,
+        0.6649999618530273
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "first-observable-after-gameplay-actors",
+      "case_name": "initial",
+      "native_update_sequence": 102,
+      "player_visible_beat": -7.330348968505859,
+      "player_visible_seconds": -3.773174524307251,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.699999988079071,
+        0.699999988079071,
+        0.699999988079071
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    },
+    {
+      "point": "song-on-before-mutation",
+      "case_name": "initial",
+      "native_update_sequence": 309,
+      "player_visible_beat": 0.0054784417152404785,
+      "player_visible_seconds": -0.10526077449321747,
+      "mini": 0.6000000238418579,
+      "tilt": 0.5,
+      "skew": 0,
+      "reverse": 0,
+      "player_present": true,
+      "player_visible": true,
+      "notefield_present": true,
+      "notefield_visible": true,
+      "notefield_position": [
+        0,
+        10,
+        0
+      ],
+      "notefield_zoom": [
+        0.699999988079071,
+        0.699999988079071,
+        0.699999988079071
+      ],
+      "notefield_rotation": [
+        -15,
+        0,
+        0
+      ]
+    }
+  ],
+  "verification": {
+    "m600_native_offsets_checked": 63,
+    "m350_wave_native_offsets_checked": 21,
+    "exact_f32_formula_mismatches": 0
+  },
+  "notes": [
+    "Within each capture, note_beats and each speed sample's y_offsets use the same indices as top-level query_deltas. sample_clock is shared unchanged by every speed query in that capture.",
+    "XMod() and MMod() both return numbers when MMod is active: the native MaxScrollBPM override wins. The music-rate multiplication occurs inside the f32 denominator.",
+    "Actual sampled clocks and note-beat arguments are preserved. Cast both note and current beat to f32 before subtracting; requested deltas can round when note beats cross an f32 exponent boundary.",
+    "The M350/read60/rate1.5 sample at requested delta10 is 2519.83837890625 because native f32 subtraction produces 10.000000953674316. A fixed current beat2/note beat12 uses delta10 exactly and gives 2519.838134765625.",
+    "Native CMod controls also depend on captured sync/global offset preferences. MusicRate is changed for each query and restored without advancing the native clock.",
+    "Player Update writes mini-only NoteField zoom. Player draw writes mini*tilt zoom and tilt rotation, then restores NoteField Y only. Rotation therefore persists across the next update.",
+    "Hidden or hibernating Player prevents draw-time publication; hidden NoteField alone does not. Mini updates continue in those observed cases.",
+    "Initial observations bracket the first mini/tilt publication; the native gameplay-clock callback starts later than the first Player update. OnCommand already sees rotation from preroll draws.",
+    "Scene geometry remains in the retained full captures. This compact fixture records direct native Lua return values and actor getter state, not a raster result."
+  ],
+  "reproduction": {
+    "probe_lua": "local cfg = ITGMANIA_HARNESS_CONFIG\nlocal levels = {\"ModsLevel_Preferred\", \"ModsLevel_Stage\", \"ModsLevel_Song\", \"ModsLevel_Current\"}\nlocal cases = {\n  {name=\"initial-mini60-tilt-positive\", mini=0.6, tilt=0.5, reverse=0},\n  {name=\"mini60-tilt-negative\", mini=0.6, tilt=-0.5, reverse=0},\n  {name=\"mini60-tilt-negative-reverse\", mini=0.6, tilt=-0.5, reverse=1},\n  {name=\"hidden-player\", mini=0.2, tilt=0.8, reverse=0, hide_player=true},\n  {name=\"hidden-notefield\", mini=0.2, tilt=0.8, reverse=0, hide_field=true},\n  {name=\"hibernating-player\", mini=0.4, tilt=-0.5, reverse=0, hibernate=0.5},\n  {name=\"visible-baseline\", mini=0, tilt=0, reverse=0},\n}\nlocal result = {schema=1, native_source=ITGMANIA_HARNESS_NATIVE_SOURCE,\n  speed_samples={}, transforms={}, phases=cases}\nlocal phase, update_recorded, draw_recorded = 0, 0, 0\nlocal have_speed = false\nlocal function actors()\n  local screen = SCREENMAN:GetTopScreen()\n  local player = screen and screen:GetChild(\"PlayerP1\")\n  return player, player and player:GetChild(\"NoteField\")\nend\nlocal function clocks()\n  local ps = GAMESTATE:GetPlayerState(PLAYER_1)\n  local pp, gp = ps:GetSongPosition(), GAMESTATE:GetSongPosition()\n  return {\n    player_beat=pp:GetSongBeat(), player_visible_beat=pp:GetSongBeatVisible(),\n    player_seconds=pp:GetMusicSeconds(), player_visible_seconds=pp:GetMusicSecondsVisible(),\n    player_bps=pp:GetCurBPS(),\n    game_beat=gp:GetSongBeat(), game_visible_beat=gp:GetSongBeatVisible(),\n    game_seconds=gp:GetMusicSeconds(), game_visible_seconds=gp:GetMusicSecondsVisible(),\n    game_bps=gp:GetCurBPS()\n  }\nend\nlocal function pose(actor)\n  if not actor then return {present=false} end\n  return {present=true, name=actor:GetName(), visible=actor:GetVisible(),\n    x=actor:GetX(), y=actor:GetY(), z=actor:GetZ(),\n    zoom=actor:GetZoom(), zoom_x=actor:GetZoomX(), zoom_y=actor:GetZoomY(), zoom_z=actor:GetZoomZ(),\n    rotation_x=actor:GetRotationX(), rotation_y=actor:GetRotationY(), rotation_z=actor:GetRotationZ()}\nend\nlocal function observe(label)\n  local player, field = actors()\n  local po = GAMESTATE:GetPlayerState(PLAYER_1):GetPlayerOptions(\"ModsLevel_Current\")\n  result.transforms[#result.transforms+1] = {\n    point=label, case_index=phase, case_name=cases[phase] and cases[phase].name or \"initial\",\n    native_update_sequence=ITGMANIA_HARNESS_NATIVE_UPDATE_SEQUENCE(), clocks=clocks(),\n    mini=po:Mini(), tilt=po:Tilt(), skew=po:Skew(), reverse=po:Reverse(),\n    player=pose(player), notefield=pose(field)\n  }\nend\nlocal function publish()\n  local file=RageFileUtil:CreateRageFile()\n  assert(file:Open(\"/Save/itgmania-harness/multitap-native-probe.json\",2))\n  file:Write(JsonEncode(result))\n  file:Close()\n  file:destroy()\nend\nlocal function apply_case(index)\n  local row=cases[index]\n  phase=index\n  for _,level in ipairs(levels) do\n    local po=GAMESTATE:GetPlayerState(PLAYER_1):GetPlayerOptions(level)\n    po:Mini(row.mini)\n    po:Tilt(row.tilt)\n    po:Skew(0)\n    po:Reverse(row.reverse)\n  end\n  local player,field=actors()\n  player:visible(not row.hide_player)\n  player:hibernate(row.hibernate or 0)\n  field:visible(not row.hide_field)\nend\nlocal function speed_samples()\n  local ps=GAMESTATE:GetPlayerState(PLAYER_1)\n  local po=ps:GetPlayerOptions(\"ModsLevel_Current\")\n  local so=GAMESTATE:GetSongOptionsObject(\"ModsLevel_Current\")\n  local original_rate=so:MusicRate()\n  result.sample_clock=clocks()\n  result.song_display_bpms=GAMESTATE:GetCurrentSong():GetDisplayBpms()\n  result.steps_display_bpms=GAMESTATE:GetCurrentSteps(PLAYER_1):GetDisplayBpms()\n  result.timing_bpms=GAMESTATE:GetCurrentSteps(PLAYER_1):GetTimingData():GetBPMs()\n  local deltas={-5,-2,0,1,2,4,10}\n  local function sample(label, rate, amount, wave, period)\n    so:MusicRate(rate)\n    po:Wave(wave or 0)\n    po:WavePeriod(period or 0)\n    if label==\"MMod\" then po:MMod(amount)\n    elseif label==\"XMod\" then po:XMod(amount)\n    elseif label==\"CMod\" then po:CMod(amount)\n    else error(\"unknown mode\") end\n    local beat=ps:GetSongPosition():GetSongBeatVisible()\n    local row={mode=label, rate=so:MusicRate(), amount=amount, wave=po:Wave(), wave_period=po:WavePeriod(),\n      xmod=po:XMod(), cmod=po:CMod(), mmod=po:MMod(), scroll_speed=po:ScrollSpeed(),\n      max_scroll_bpm=po:MaxScrollBPM(), time_spacing=po:TimeSpacing(), clock=clocks(), offsets={}}\n    for _,delta in ipairs(deltas) do\n      local note_beat=beat+delta\n      row.offsets[#row.offsets+1]={delta=delta,note_beat=note_beat,y_offset=ArrowEffects.GetYOffset(ps,1,note_beat)}\n    end\n    result.speed_samples[#result.speed_samples+1]=row\n  end\n  for _,rate in ipairs({1,1.5,2}) do\n    sample(\"MMod\",rate,600,0,0)\n    sample(\"XMod\",rate,3,0,0)\n    sample(\"CMod\",rate,600,0,0)\n  end\n  sample(\"MMod\",1.5,350,0.4,0.2)\n  po:MMod(600)\n  po:Wave(0)\n  po:WavePeriod(0)\n  so:MusicRate(original_rate)\n  have_speed=true\n  result.complete=true\nend\nreturn Def.ActorFrame {\n  Name=\"MultitapNativeProbe\",\n  InitCommand=function(self)\n    observe(\"song-init\")\n    local earliest_update,earliest_draw=false,false\n    local initial_pose_signature=nil\n    local initial_before_updates=0\n    local initial_before=ITGMANIA_HARNESS_BEFORE_SCREEN_UPDATE\n    ITGMANIA_HARNESS_BEFORE_SCREEN_UPDATE=function(delta)\n      if initial_before then initial_before(delta) end\n      local player,field=actors()\n      if phase==0 and player and field and initial_before_updates<3 then\n        observe(\"initial-before-screen-update\")\n        initial_before_updates=initial_before_updates+1\n        publish()\n      end\n    end\n    local initial_clock=ITGMANIA_HARNESS_GAMEPLAY_CLOCK_INPUTS\n    ITGMANIA_HARNESS_GAMEPLAY_CLOCK_INPUTS=function(inputs)\n      if initial_clock then initial_clock(inputs) end\n      local player,field=actors()\n      if player and field and not earliest_update then\n        observe(\"first-observable-after-gameplay-actors\")\n        earliest_update=true\n        publish()\n      end\n    end\n    local initial_draw=ITGMANIA_HARNESS_AFTER_SCREEN_DRAW\n    ITGMANIA_HARNESS_AFTER_SCREEN_DRAW=function()\n      local player,field=actors()\n      if player and field and not earliest_draw then\n        observe(\"first-observable-after-native-screen-draw\")\n        earliest_draw=true\n        publish()\n      end\n      if phase==0 and player and field then\n        local signature=tostring(field:GetZoom())..\":\"..tostring(field:GetRotationX())\n        if signature~=initial_pose_signature then\n          observe(\"initial-after-native-screen-draw-pose-change\")\n          initial_pose_signature=signature\n          publish()\n        end\n      end\n      if initial_draw then initial_draw() end\n    end\n  end,\n  OnCommand=function(self)\n    observe(\"song-on-before-mutation\")\n    apply_case(1)\n    local previous_clock=ITGMANIA_HARNESS_GAMEPLAY_CLOCK_INPUTS\n    ITGMANIA_HARNESS_GAMEPLAY_CLOCK_INPUTS=function(inputs)\n      if previous_clock then previous_clock(inputs) end\n      if phase>update_recorded then\n        observe(\"after-gameplay-actors\")\n        update_recorded=phase\n      end\n      if not have_speed and GAMESTATE:GetPlayerState(PLAYER_1):GetSongPosition():GetSongBeatVisible()>=6 then\n        speed_samples()\n        publish()\n      end\n    end\n    local previous_draw=ITGMANIA_HARNESS_AFTER_SCREEN_DRAW\n    ITGMANIA_HARNESS_AFTER_SCREEN_DRAW=function()\n      if phase>draw_recorded and phase<=update_recorded then\n        observe(\"after-native-screen-draw\")\n        draw_recorded=phase\n        publish()\n        if phase<#cases then apply_case(phase+1) end\n      end\n      if previous_draw then previous_draw() end\n    end\n  end\n}\n",
+    "probe_lua_note": "This latest observation-only probe adds early lifecycle hooks. The 240/480 captures used earlier hook variants identified by their retained probe hashes; speed sampling and transform case mutations are identical.",
+    "simfiles": [
+      {
+        "display_bpm": 240,
+        "text": "#VERSION:0.83;\n#TITLE:Multitap native oracle 240;\n#MUSIC:silence.wav;\n#OFFSET:0;\n#BPMS:0=120,8=240;\n#DISPLAYBPM:240;\n#LASTSECONDHINT:8;\n#FGCHANGES:0=default.lua=1=0=0=1;\n#NOTEDATA:;\n#STEPSTYPE:dance-single;\n#DESCRIPTION:Native scratch observation;\n#DIFFICULTY:Challenge;\n#METER:1;\n#DISPLAYBPM:240;\n#NOTES:\n0000\n1000\n0100\n0010\n,\n0001\n1000\n0100\n0010\n,\n0001\n1000\n0100\n0010\n,\n0001\n0000\n0000\n0000\n;\n"
+      },
+      {
+        "display_bpm": 480,
+        "text": "#VERSION:0.83;\n#TITLE:Multitap native oracle 480;\n#MUSIC:silence.wav;\n#OFFSET:0;\n#BPMS:0=120,8=240;\n#DISPLAYBPM:480;\n#LASTSECONDHINT:8;\n#FGCHANGES:0=default.lua=1=0=0=1;\n#NOTEDATA:;\n#STEPSTYPE:dance-single;\n#DESCRIPTION:Native scratch observation;\n#DIFFICULTY:Challenge;\n#METER:1;\n#DISPLAYBPM:480;\n#NOTES:\n0000\n1000\n0100\n0010\n,\n0001\n1000\n0100\n0010\n,\n0001\n1000\n0100\n0010\n,\n0001\n0000\n0000\n0000\n;\n"
+      },
+      {
+        "display_bpm": 60,
+        "text": "#VERSION:0.83;\n#TITLE:Multitap native oracle 60;\n#MUSIC:silence.wav;\n#OFFSET:0.125;\n#BPMS:0=120;\n#DISPLAYBPM:60;\n#LASTSECONDHINT:8;\n#FGCHANGES:0=default.lua=1=0=0=1;\n#NOTEDATA:;\n#STEPSTYPE:dance-single;\n#DESCRIPTION:Native scratch observation;\n#DIFFICULTY:Challenge;\n#METER:1;\n#DISPLAYBPM:60;\n#NOTES:\n0000\n1000\n0100\n0010\n,\n0001\n1000\n0100\n0010\n,\n0001\n1000\n0100\n0010\n,\n0001\n0000\n0000\n0000\n;\n"
+      }
+    ],
+    "audio": "10 seconds of silent PCM WAV, mono 8000 Hz, unsigned 8-bit samples set to128. Audio is used only to advance the native clock.",
+    "output_root": "target/multitap-native-probe-20261121-worker1",
+    "temporary_environment": "Run the existing harness with TEMP and TMP inside the output root; use --keep-run-dir to preserve original traces. Native live-clock capture times may vary on regeneration."
+  }
+}
