@@ -42,3 +42,14 @@ suffixes, return arity and all non-path observations remain compared exactly.
 Tests do not load another Lua runtime or regenerate expected data. The
 historical implementation is used only in a separate ignored capture tool;
 workspace manifests and normal test runs have no dependency on it.
+
+The analytic multitap observations in `2847cff40c51479c.snap` and
+`f9ba82ef4568137f.snap` include a reviewed orientation correction. The authored
+[`multitap-factory.lua`](../../song-lua/multitap-factory.lua) calls
+`baserotationz(lane_rotation[lperm])` for replacement arrows and explosions;
+arrows receive their ordinary rotation separately from `ArrowEffects`.
+The numbered factory, double factory, and analytic update-stage cases therefore
+store their existing lane angles in `base_rotation`. This migrates 32 endpoint
+field pairs in 16 ease records, derived from the original expectations and the
+authored factory rather than regenerated from Rust output. Decoration rotations
+remain independent animation values.
