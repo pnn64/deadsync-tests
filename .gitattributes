@@ -52,3 +52,5 @@
 /full_song_lua/proxmox-followup-2026-11-20/**/* -text -whitespace
 # Five-chart evidence is bound by exact file and archive checksums.
 /full_song_lua/proxmox-five-charts-2026-11-20/**/* -text -whitespace
+# Peach Summer Splash fixtures pin the original chart and Lua bytes.
+/itgmania-song-lua-micro/peach-summer-splash/inputs/**/* -text -whitespace

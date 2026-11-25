@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "harness": {
+    "version": "0.1.111",
+    "working_tree_build": false,
+    "executable": {
+      "bytes": 6602752,
+      "sha256": "20dd81723a83c8f0a301ffb8143300cc85cfe2829e295841c1ef7c35cfe2dd03"
+    },
+    "sources": {
+      "native/interactive_trace.cpp": "534c7fd1c4de7e277aa745364eaeca659a5dde9a77f03a4f09d82e6bfedadbb6",
+      "native/interactive_trace.h": "608e8153be626ff983af85b93bc8be602f9b4afc84b6ebc67d21fb091d5a7621",
+      "native/trace_adapter.cmake": "b3d138aaae7350c09f0b7f58afb90ae3d8c58e90e6498431134b3d40c02ae0a8",
+      "probe_theme/SongLuaTrace.lua": "f983fc075bc511328e7017ffa00456c62aeffdb2bb1eb43e6f52b2027960aed4",
+      "probe_theme/NotefieldTrace.lua": "791050f5b3fc4ae41b8e2e350f0d02d8565cfb0bbe62adb8262f8c7cea9750a9",
+      "src/main.rs": "656b0e6171ab72092b4190789b7f7158739d3d16a72b59fbdad6ca52a0c4b598",
+      "src/song_lua_runtime.rs": "3e754a1523bacc06c2a3348991e3e04c2556c31262c5a53a3b069a85aa8cdbc5"
+    },
+    "revision": "7422e343aae202f6bba278e2ddb5d744bace43e3",
+    "source_hash_encoding": "git-blob"
+  },
+  "native": {
+    "version": "1.2.0-BETA-git-663525d",
+    "executable": {
+      "bytes": 13235712,
+      "sha256": "b303c8563c06361e918dc4fa2460b40986c416fcf94768acada2bd0a50d20ade"
+    },
+    "source": {
+      "actor_sha256": "c5991992c937e7be25147697a4116397743fae547a1046ba96bb28c83482c150",
+      "cubic_spline_sha256": "93f6dcdd083f6da7a311449d89cf2f29be219590718e4e978e70c365f842eac3",
+      "modified_src": false,
+      "note_display_sha256": "89b00566561cb16a80b277037d4089b7438510b202b241a099d62cd26bdd72e0",
+      "random_numbers_header_sha256": "776cb7c63bca1b731a6dcebf37055a828d0ac1dc937ce7e5d5ef7e9624d86b13",
+      "random_numbers_sha256": "7ff37771f9209cc3e16a65a6d374015265f0b7afc8cd180dbb2f55d977d33edf",
+      "receptor_arrow_row_sha256": "b70ec8a2fd965669ce93d775ba9bf0350ade0df4c70cb8c2dc6ec94591e9f8cb",
+      "render_target_sha256": "d5911060381d914e43562fc84968ac11398303acd245803e6939a098bbe41ff8",
+      "revision": "663525dcb86eb570d0ef6a2e209678436660ae26",
+      "screen_gameplay_sha256": "d6d976f7aa6fb1586f4d7bfa499750adc17b8eef472e3bc824bdca151725c4a0"
+    }
+  },
+  "profile": {
+    "chart_index": 1,
+    "game": "dance",
+    "style": "single",
+    "difficulty": "Challenge",
+    "renderer": "opengl",
+    "headless": true,
+    "display": {
+      "width": 854,
+      "height": 480
+    },
+    "fallback_theme": "Harness Simply Love",
+    "fallback_metrics_sha256": "221b449c94e5ed38bbdfb4cee157582f20c85ffa8e234398309768945b370a80",
+    "player_options": "2x, cel",
+    "observed_sandbox_players": [
+      {
+        "mini": 0,
+        "noteskin": "cel",
+        "options_string": "NoHideLights, 2x, Overhead",
+        "player": "PlayerNumber_P1",
+        "preferred_visual_delay_seconds": 0
+      }
+    ],
+    "autoplay": true,
+    "fast_note_rendering": false,
+    "random_seed": 1
+  },
+  "fixtures": {
+    "original_aft": {
+      "trace": "original-aft-native.json.zst",
+      "compressed": {
+        "bytes": 683987,
+        "sha256": "93efa6a781b0660cc61f9c96d277ad4fd056829c7bab6fb61336743a9a17fbf4"
+      },
+      "uncompressed": {
+        "bytes": 21934076,
+        "sha256": "206335c802dc4d15a2b0edd436d59901c704eaa31736863c328fadb3add846eb"
+      },
+      "arguments": [
+        "song-lua-trace",
+        "inputs/original/Peach Summer Splash.ssc",
+        "--itgmania-bin",
+        "../../../itgmania-harness/target/native-pinned-source/Program/ITGmania-harness-trace.exe",
+        "--headless",
+        "--game",
+        "dance",
+        "--style",
+        "single",
+        "--difficulty",
+        "Challenge",
+        "--chart-index",
+        "1",
+        "--fallback-theme",
+        "Harness Simply Love",
+        "--player-options",
+        "2x, cel",
+        "--fast-note-rendering",
+        "0",
+        "--random-seed",
+        "1",
+        "--autoplay",
+        "1",
+        "--capture-fps",
+        "60",
+        "--timeout",
+        "75",
+        "--drawable-samples",
+        "--render-target-passes",
+        "--until-beat",
+        "0.4",
+        "--out",
+        "original-aft-native.json"
+      ],
+      "inputs": {
+        "inputs/original/lua/default.lua": {
+          "bytes": 52894,
+          "sha256": "474780a8ae3899cd76134e5b042c088f6ab3f891cf8906f8a75b45f7ac385f16"
+        },
+        "inputs/original/lua/easing.lua": {
+          "bytes": 9952,
+          "sha256": "4a268b159484408121472883873e3d0fadfd9d0d78adb2815f3a38ab6812488e"
+        },
+        "inputs/original/lua/modhelpers.lua": {
+          "bytes": 10953,
+          "sha256": "be2e73f42976e31c122671887f0d9827d01f3382e9a989cac8343cf0a91c609a"
+        },
+        "inputs/original/lua/mods.lua": {
+          "bytes": 7204,
+          "sha256": "d85736d4ec9effdff36773b81c9256080f562fae2ea212aecc1b30039c8ea9d7"
+        },
+        "inputs/original/lua/pause.png": {
+          "bytes": 14146,
+          "sha256": "84d02f17b62f0371aba2f986235aa7def448c672de7d6a92c7d5224f9cfe1065"
+        },
+        "inputs/original/Peach Summer Splash.ogg": {
+          "bytes": 3957815,
+          "sha256": "da704a34aff9c40080d6c2180cd14909b885345d3046030acac8455236244909"
+        },
+        "inputs/original/Peach Summer Splash.ssc": {
+          "bytes": 5241,
+          "sha256": "5643e545a11f5e9c5ec567f9b6dda7bc6e64ab04bce685fa779cf8ba06b81a1e"
+        }
+      },
+      "clocks": {
+        "mode": "native-variable",
+        "observer_frame_period_seconds": 0.01666666666666667,
+        "frame_count": 119,
+        "update_frames_sha256": "e59b3ee775bffd3fabbfd83ad99aa09df65127c13a0dbca56e8b3e0af531151f",
+        "first": {
+          "native_update_sequence": 3,
+          "song_beat": -4.256202697753906,
+          "seconds": -1.9999773502349854,
+          "visible_beat": -4.256202697753906,
+          "visible_seconds": -1.9999773502349854
+        },
+        "end_position": {
+          "beat": 0.6054752469062805,
+          "seconds": 0.3336281180381775,
+          "song_beat": 0.6054752469062805,
+          "visible_beat": 0.6054752469062805,
+          "visible_seconds": 0.3336281180381775
+        },
+        "preferences": {
+          "default_sync_offset": "SyncOffset_ITG",
+          "global_offset_seconds": -0.00800000037997961,
+          "music_rate": 1,
+          "visual_delay_seconds": 0
+        }
+      },
+      "coverage": {
+        "authored_startup_draws": [
+          {
+            "event": 1767,
+            "actor": "ScreenTex",
+            "command": "OnCommand",
+            "source": "song:/lua/default.lua",
+            "line": 1273
+          },
+          {
+            "event": 5452,
+            "actor": "BlurTex",
+            "command": "OnCommand",
+            "source": "song:/lua/default.lua",
+            "line": 1387
+          }
+        ],
+        "startup_passes": [
+          {
+            "begin_event": 1,
+            "end_event": 2,
+            "target": "ScreenTex",
+            "native_update_sequence": 119,
+            "draw_phase": "during_update",
+            "first_retained_submission": 7271,
+            "last_retained_submission": 7991,
+            "retained_submissions": 721
+          },
+          {
+            "begin_event": 3,
+            "end_event": 4,
+            "target": "BlurTex",
+            "native_update_sequence": 119,
+            "draw_phase": "during_update",
+            "first_retained_submission": 7992,
+            "last_retained_submission": 8016,
+            "retained_submissions": 25
+          }
+        ],
+        "first_regular_draw_passes": [
+          {
+            "begin_event": 5,
+            "end_event": 6,
+            "target": "ScreenTex",
+            "native_update_sequence": 119,
+            "draw_phase": "screen_draw",
+            "first_retained_submission": 8076,
+            "last_retained_submission": 8844,
+            "retained_submissions": 719
+          },
+          {
+            "begin_event": 7,
+            "end_event": 8,
+            "target": "BlurTex",
+            "native_update_sequence": 119,
+            "draw_phase": "screen_draw",
+            "first_retained_submission": 8845,
+            "last_retained_submission": 8869,
+            "retained_submissions": 25
+          }
+        ],
+        "first_screen_blur_consumer": {
+          "update_sequence": 117,
+          "native_draw_sequence": 8871
+        },
+        "render_target_boundaries": 16,
+        "drawable_samples": 3317
+      }
+    },
+    "sandbox_offset": {
+      "trace": "sandbox-offset-native.json.zst",
+      "compressed": {
+        "bytes": 479248,
+        "sha256": "961b322bc5541357d107036ba1c79910ff3da1f7c3bf7c398fbd7a449e8deeaf"
+      },
+      "uncompressed": {
+        "bytes": 33003781,
+        "sha256": "44ccc8412f067cf9921c663b418bf5cbaa4b976df3786f0a2f4c9e792f9735d3"
+      },
+      "arguments": [
+        "song-lua-trace",
+        "inputs/sandbox/Peach Summer Splash.ssc",
+        "--itgmania-bin",
+        "../../../itgmania-harness/target/native-pinned-source/Program/ITGmania-harness-trace.exe",
+        "--headless",
+        "--game",
+        "dance",
+        "--style",
+        "single",
+        "--difficulty",
+        "Challenge",
+        "--chart-index",
+        "1",
+        "--fallback-theme",
+        "Harness Simply Love",
+        "--player-options",
+        "2x, cel",
+        "--fast-note-rendering",
+        "0",
+        "--random-seed",
+        "1",
+        "--autoplay",
+        "1",
+        "--capture-fps",
+        "60",
+        "--timeout",
+        "75",
+        "--notefield-samples",
+        "--drawable-from-beat",
+        "30.5",
+        "--until-beat",
+        "37",
+        "--out",
+        "sandbox-offset-native.json"
+      ],
+      "inputs": {
+        "inputs/sandbox/lua/default.lua": {
+          "bytes": 10687,
+          "sha256": "21cf6b2396582d2b20939c3697c792bbe387b010f268935c1ad07b500a937db6"
+        },
+        "inputs/sandbox/Peach Summer Splash.ogg": {
+          "bytes": 3957815,
+          "sha256": "da704a34aff9c40080d6c2180cd14909b885345d3046030acac8455236244909"
+        },
+        "inputs/sandbox/Peach Summer Splash.ssc": {
+          "bytes": 6269,
+          "sha256": "3741554c70559c6ffb4ee98440b1eeaef9fa3ecf808d199f69eec13a55db2922"
+        }
+      },
+      "clocks": {
+        "mode": "native-variable",
+        "observer_frame_period_seconds": 0.01666666666666667,
+        "frame_count": 1115,
+        "update_frames_sha256": "cfcec0e6d4819a93d942bada184e07ed4517747f59d2ffdac29b53799a2c6625",
+        "first": {
+          "native_update_sequence": 2,
+          "song_beat": -4.256202697753906,
+          "seconds": -1.9999773502349854,
+          "visible_beat": -4.256202697753906,
+          "visible_seconds": -1.9999773502349854
+        },
+        "end_position": {
+          "beat": 37.01449203491211,
+          "seconds": 17.809955596923828,
+          "song_beat": 37.01449203491211,
+          "visible_beat": 37.01449203491211,
+          "visible_seconds": 17.809955596923828
+        },
+        "preferences": {
+          "default_sync_offset": "SyncOffset_ITG",
+          "global_offset_seconds": -0.00800000037997961,
+          "music_rate": 1,
+          "visual_delay_seconds": 0
+        }
+      },
+      "coverage": {
+        "offset_wrap": {
+          "note_beat": 34,
+          "player": 0,
+          "column": 0,
+          "samples": [
+            {
+              "update_sequence": 970,
+              "native_draw_sequence": 1153,
+              "draw_beat": 31.55535125732422,
+              "first_anchor_y_ndc": -0.7829846915605888
+            },
+            {
+              "update_sequence": 971,
+              "native_draw_sequence": 1197,
+              "draw_beat": 31.592103958129883,
+              "first_anchor_y_ndc": 0.3032912546734276
+            }
+          ]
+        },
+        "first_tap_after_reset": {
+          "reset_beat": 35.875,
+          "note_beat": 36,
+          "player": 0,
+          "column": 0,
+          "samples": [
+            {
+              "update_sequence": 1084,
+              "native_draw_sequence": 6385,
+              "draw_beat": 35.855003356933594,
+              "first_anchor_y_ndc": 0.45300042925442946
+            },
+            {
+              "update_sequence": 1085,
+              "native_draw_sequence": 6432,
+              "draw_beat": 35.893314361572266,
+              "first_anchor_y_ndc": 0.4639345503711363
+            }
+          ]
+        },
+        "hold_crossing_bend": {
+          "bend_beat": 31.875,
+          "head_beat": 31.25,
+          "tail_beat": 32,
+          "player": 0,
+          "column": 1,
+          "body_samples": [
+            {
+              "update_sequence": 978,
+              "native_draw_sequence": 1530,
+              "draw_beat": 31.854007720947266,
+              "vertices": 9
+            },
+            {
+              "update_sequence": 979,
+              "native_draw_sequence": 1577,
+              "draw_beat": 31.890762329101562,
+              "vertices": 6
+            }
+          ]
+        },
+        "geometry_frames": 172,
+        "model_submissions": 6302,
+        "hold_strip_submissions": 1612,
+        "receptor_visits": 688
+      }
+    }
+  }
+}
