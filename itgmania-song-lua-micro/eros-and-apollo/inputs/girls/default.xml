@@ -1,0 +1,190 @@
+<ActorFrame OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;fov,100;rotationx,0;sleep,2.006;linear,1;rotationx,0;wag;effectmagnitude,40,0,0;effectclock,bgm;effectperiod,8;sleep,0.3;decelerate,5;zoomz,5;zoomx,0;zoomy,0;rotationz,0;"><children>
+
+<ActorFrame OnCommand="x,0;y,0;wag;effectmagnitude,0,40,0;effectperiod,8;effectclock,bgm;effectoffset,2;"><children>
+
+
+
+<!-------- 1 ------>
+
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.0;diffusealpha,1;x,-180;y,30;;z,-150;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.2;diffusealpha,1;x,-180;y,30;;z,-120;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.4;diffusealpha,1;x,-180;y,30;;z,-90;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.6;diffusealpha,1;x,-180;y,30;;z,-60;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.8;diffusealpha,1;x,-180;y,30;z,-30;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="girl.sprite"
+		OnCommand="hibernate,0.006;bob;effectmagnitude,0,0,0;effectclock,bgm;diffusealpha,1;x,-180;y,30;z,0;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+<!-------- 2 ------>
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.0;diffusealpha,1;x,-90;y,30;;z,-150;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.2;diffusealpha,1;x,-90;y,30;;z,-120;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.4;diffusealpha,1;x,-90;y,30;;z,-90;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.6;diffusealpha,1;x,-90;y,30;;z,-60;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.8;diffusealpha,1;x,-90;y,30;z,-30;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="girl.sprite"
+		OnCommand="hibernate,0.006;bob;effectmagnitude,0,0,0;effectclock,bgm;diffusealpha,1;x,-90;y,30;z,0;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+<!-------- 3 ------>
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.0;diffusealpha,1;x,-0;y,30;;z,-150;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.2;diffusealpha,1;x,-0;y,30;;z,-120;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.4;diffusealpha,1;x,-0;y,30;;z,-90;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.6;diffusealpha,1;x,-0;y,30;;z,-60;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.8;diffusealpha,1;x,-0;y,30;z,-30;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="girl.sprite"
+		OnCommand="hibernate,0.006;bob;effectmagnitude,0,0,0;effectclock,bgm;diffusealpha,1;x,-0;y,30;;z,0;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+
+<!-------- 4 ------>
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.0;diffusealpha,1;x,+90;y,30;;z,-150;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.2;diffusealpha,1;x,+90;y,30;;z,-120;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.4;diffusealpha,1;x,+90;y,30;;z,-90;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.6;diffusealpha,1;x,+90;y,30;;z,-60;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.8;diffusealpha,1;x,+90;y,30;z,-30;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="girl.sprite"
+		OnCommand="hibernate,0.006;bob;effectmagnitude,0,0,0;effectclock,bgm;diffusealpha,1;x,+90;y,30;;z,0;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+<!-------- 5 ------>
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.0;diffusealpha,1;x,+180;y,30;;z,-150;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.2;diffusealpha,1;x,+180;y,30;;z,-120;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.4;diffusealpha,1;x,+180;y,30;;z,-90;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.6;diffusealpha,1;x,+180;y,30;;z,-60;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="wgirl.sprite"
+		OnCommand="hibernate,0.006;rainbow;effectclock,bgm;effectoffset,0.8;diffusealpha,1;x,+180;y,30;z,-30;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="girl.sprite"
+		OnCommand="hibernate,0.006;bob;effectmagnitude,0,0,0;effectclock,bgm;diffusealpha,1;x,+180;y,30;;z,0;zoom,0.6;diffusealpha,0;linear,0.5;diffusealpha,1;sleep,10;diffusealpha,0;"
+	/>
+
+
+</children></ActorFrame>
+</children></ActorFrame>

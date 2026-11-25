@@ -1,0 +1,282 @@
+
+
+<ActorFrame OnCommand="fov,120;x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;"><children>
+
+<ActorFrame OnCommand="x,0;y,0;wag;effectmagnitude,0,50,0;effectclock,bgm;effectperiod,8;"><children>
+
+
+
+
+</children></ActorFrame>
+
+
+<ActorFrame OnCommand="x,0;y,0;fov,30;"><children>
+
+<ActorFrame OnCommand="zoomz,0.0;sleep,1.2;linear,2;zoomz,1;addy,-21;sleep,4;linear,2;zoomz,0;addy,21"><children>
+
+
+
+
+<!----- PLAYFIELD 0.37 0.247 0.124 --->
+
+	<Layer
+		File="RED/r.model"
+		OnCommand="hibernate,0.994;rotationz,90;x,-90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,1.364;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="BLUE/b.model"
+		OnCommand="hibernate,1.740;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="RED/r.model"
+		OnCommand="hibernate,1.982;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,2.352;rotationz,90;x,-90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="BLUE/b.model"
+		OnCommand="hibernate,2.740;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,3.092;rotationz,90;x,-90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="RED/R.model"
+		OnCommand="hibernate,3.462;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,3.842;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="RED/R.model"
+		OnCommand="hibernate,3.963;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,4.340;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="BLUE/b.model"
+		OnCommand="hibernate,4.703;rotationz,-90;x,90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+<!--- Round 2 --->
+
+	<Layer
+		File="RED/r.model"
+		OnCommand="hibernate,4.949;rotationz,90;x,-90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,5.322;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="BLUE/b.model"
+		OnCommand="hibernate,5.659;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="RED/r.model"
+		OnCommand="hibernate,5.939;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,6.306;rotationz,90;x,-90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="BLUE/b.model"
+		OnCommand="hibernate,6.676;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,7.046;rotationz,90;x,-90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="RED/R.model"
+		OnCommand="hibernate,7.420;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,7.786;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="RED/R.model"
+		OnCommand="hibernate,7.920;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,8.28;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="BLUE/b.model"
+		OnCommand="hibernate,8.65;rotationz,-90;x,90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+
+
+<!----- ROUND 3 ----->
+<!--
+	<Layer
+		File="RED/r.model"
+		OnCommand="hibernate,8.897;rotationz,90;x,-90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,9.267;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="BLUE/b.model"
+		OnCommand="hibernate,9.637;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="RED/r.model"
+		OnCommand="hibernate,9.884;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,10.254;rotationz,90;x,-90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="BLUE/b.model"
+		OnCommand="hibernate,10.624;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,10.994;rotationz,90;x,-90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="RED/R.model"
+		OnCommand="hibernate,11.364;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,11.734;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="RED/R.model"
+		OnCommand="hibernate,11.858;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,12.228;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="BLUE/b.model"
+		OnCommand="hibernate,12.598;rotationz,-90;x,90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+
+
+	<Layer
+		File="RED/r.model"
+		OnCommand="hibernate,12.845;rotationz,90;x,-90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,13.215;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="BLUE/b.model"
+		OnCommand="hibernate,13.585;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="RED/r.model"
+		OnCommand="hibernate,13.832;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,14.202;rotationz,90;x,-90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="BLUE/b.model"
+		OnCommand="hibernate,14.572;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,14.942;;rotationz,90;x,-90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="RED/r.model"
+		OnCommand="hibernate,15.312;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,15.682;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="RED/r.model"
+		OnCommand="hibernate,15.809;rotationz,180;x,30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="GREEN/g.model"
+		OnCommand="hibernate,16.179;rotationz,0;x,-30;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="BLUE/b.model"
+		OnCommand="hibernate,16.549;rotationz,-90;x,90;y,+300;z,0;zoom,1;linear,1.3;addy,-420;rotationy,361;bob;effectmagnitude,0,0,300;effectperiod,0.5;sleep,0;diffusealpha,0;"
+	/> -->
+
+
+</children></ActorFrame>
+
+</children></ActorFrame>
+
+
+<!---- Here ends the file ---->
+
+</children></ActorFrame>

@@ -1,0 +1,80 @@
+<ActorFrame OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;zoom,2;sleep,0.0;decelerate,2;zoom,1;sleep,4;decelerate,2;zoom,2;"><children>
+
+				<!------ LEFT ------>
+
+<ActorFrame OnCommand="x,0-180;y,0+50;zoom,0.8;"><children>
+
+<ActorFrame><children>
+	<Layer
+		File="senorita1.png"
+		OnCommand="hibernate,0.0;diffusealpha,0;x,0;y,0;z,0;zoom,0.8;linear,1;diffusealpha,1;sleep,2;linear,2;diffusealpha,0"
+	/>
+
+
+</children></ActorFrame>
+
+
+<ActorFrame OnCommand="x,0+15;y,0+185;wag;effectclock,bgm;effectperiod,8;effectoffset,4;"><children>
+
+	<Layer
+		File="arm1.png"
+		OnCommand="hibernate,0.0;diffusealpha,0;x,60;y,-80;z,0;zoom,0.8;linear,1;diffusealpha,1;sleep,2;linear,2;diffusealpha,0;sleep,1;"
+	/>
+
+<ActorFrame OnCommand="fov,20;x,90;y,-150;wag;effectclock,bgm;effectmagnitude,20,0,0;effectperiod,1;"><children>
+
+
+	<Layer
+		File="fan1.png"
+		OnCommand="hibernate,0.0;diffusealpha,0;x,0;y,-50;z,0;zoom,0.8;linear,1;diffusealpha,1;sleep,2;linear,2;diffusealpha,0;sleep,1"
+	/>
+
+
+</children></ActorFrame>
+
+</children></ActorFrame>
+
+
+</children></ActorFrame>
+
+
+
+					<!------ RIGHT ------>
+
+<ActorFrame OnCommand="x,0+180;y,0+50;rotationy,180;zoom,0.8;"><children>
+
+<ActorFrame><children>
+	<Layer
+		File="senorita1.png"
+		OnCommand="hibernate,0.0;diffusealpha,0;x,0;y,0;z,0;zoom,0.8;linear,1;diffusealpha,1;sleep,2;linear,2;diffusealpha,0;sleep,1"
+	/>
+
+
+</children></ActorFrame>
+
+
+<ActorFrame OnCommand="x,0+15;y,0+185;wag;effectclock,bgm;effectperiod,8;"><children>
+
+	<Layer
+		File="arm1.png"
+		OnCommand="hibernate,0.0;diffusealpha,0;x,60;y,-80;z,0;zoom,0.8;linear,1;diffusealpha,1;sleep,2;linear,2;diffusealpha,0;sleep,1;"
+	/>
+
+<ActorFrame OnCommand="fov,20;x,90;y,-150;wag;effectclock,bgm;effectmagnitude,20,0,0;effectperiod,1;"><children>
+
+
+	<Layer
+		File="fan1.png"
+		OnCommand="hibernate,0.0;diffusealpha,0;x,0;y,-50;z,0;zoom,0.8;linear,1;diffusealpha,1;sleep,2;linear,2;diffusealpha,0;sleep,1"
+	/>
+
+
+</children></ActorFrame>
+
+</children></ActorFrame>
+
+
+</children></ActorFrame>
+
+
+</children></ActorFrame>

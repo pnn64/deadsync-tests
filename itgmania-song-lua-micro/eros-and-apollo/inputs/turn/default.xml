@@ -1,0 +1,23 @@
+<ActorFrame><children>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hidden,1"
+		InitCommand="sleep,16"
+	/>
+
+
+	<Layer
+		File="dix.mpg"
+		OnCommand="x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y-0;diffuse,#FF3D8B;zoom,1.4;blend,add;sleep,13;linear,1;diffusealpha,0"
+	/>
+
+	<Layer
+		File="dix.mpg"
+		OnCommand="x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y-0;diffuse,#FF3D8B;zoom,1.4;blend,add;sleep,13;linear,1;diffusealpha,0"
+	/> 
+
+
+</children></ActorFrame>

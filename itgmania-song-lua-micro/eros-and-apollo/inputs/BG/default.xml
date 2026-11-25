@@ -1,0 +1,624 @@
+<ActorFrame OnCommand="fov,90"> <children>
+
+
+
+
+<ActorFrame><children>
+	<Layer
+	File="bg.png"
+	OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;zoom,1;diffuse,#000000;sleep,200"
+
+	/>
+
+<!--	<Layer
+	File="hearts1.png"
+	OnCommand="x,SCREEN_CENTER_X-120;y,SCREEN_CENTER_Y;customtexturerect,0,0,2,2;texcoordvelocity,0.5,-0.0;diffusealpha,1;zoomx,1.5;zoomy,1.0;rotationx,-0;rotationy,-70;fadeleft,0.2;faderight,0.2;"
+
+	/>
+
+
+
+	<Layer
+	File="hearts1.png"
+	OnCommand="x,SCREEN_CENTER_X+120;y,SCREEN_CENTER_Y;customtexturerect,0,0,2,2;texcoordvelocity,-0.5,-0.0;diffusealpha,1;zoomx,1.5;zoomy,1.0;rotationx,-0;rotationy,70;fadeleft,0.2;faderight,0.2;"
+
+	/>
+
+	<Layer
+	File="hearts1.png"
+	OnCommand="x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y-120;customtexturerect,0,0,2,2;texcoordvelocity,0.0,0.5;diffusealpha,1;zoomx,1.0;zoomy,1.5;rotationx,-80;rotationy,0;rotationz,180;fadeleft,0.2;faderight,0.2;cropleft,0.1;cropright,0.1;"
+
+	/>
+
+	<Layer
+	File="hearts1.png"
+	OnCommand="x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y+120;customtexturerect,0,0,2,2;texcoordvelocity,0.0,0.5;diffusealpha,1;zoomx,1.0;zoomy,1.5;rotationx,80;rotationy,0;rotationz,0;fadeleft,0.2;faderight,0.2;"
+
+	/> -->
+
+
+
+	
+	<Layer
+		File="hearts1.png"
+		OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;diffusealpha,1;customtexturerect,0,0,1,1;texcoordvelocity,0,-1;zoomx,0.3;linear,0;rotationx,80;rotationz,0;linear,0;addy,-90;;fadeleft,0.2;faderight,0.2;"
+	/>
+
+
+	<Layer
+		File="hearts1.png"
+		OnCommand=";x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;diffusealpha,1;customtexturerect,0,0,1,1;texcoordvelocity,0,0.5;zoomx,0.1;linear,0;rotationx,80;rotationy,10;linear,0;addy,-80;addx,70;addz,-50;fadeleft,0.2;faderight,0.2;"
+	/>
+
+
+	<Layer
+		File="hearts1.png"
+		OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;diffusealpha,1;customtexturerect,0,0,1,1;texcoordvelocity,0,0.5;zoomx,0.01;linear,0;rotationx,80;rotationy,40;linear,0;addy,100;addx,90;rotationz,0;;fadeleft,0.2;faderight,0.2;"
+	/>
+
+	<Layer
+		File="hearts13.png"
+		OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;diffusealpha,1;customtexturerect,0,0,1,1;texcoordvelocity,0,0.5;zoomx,0.3;linear,0;rotationx,80;rotationy,-20;linear,0;addy,150;addx,30;;fadeleft,0.2;faderight,0.2;"
+	/>
+
+
+
+<Layer
+		File="hearts1.png"
+		OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;diffusealpha,1;customtexturerect,0,0,1,1;texcoordvelocity,0,0.5;zoomx,0.3;linear,0;rotationx,80;rotationy,20;linear,0;addy,60;addx,-90;addz,0;;fadeleft,0.2;faderight,0.2;"
+	/>
+
+	<Layer
+		File="hearts14.png"
+		OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;diffusealpha,1;customtexturerect,0,0,1,1;texcoordvelocity,0,0.5;zoomx,0.3;linear,0;rotationx,80;rotationy,0;linear,0;addy,140;addx,0;addz,-60;;fadeleft,0.2;faderight,0.2;"
+	/>
+
+	<Layer
+		File="hearts1.png"
+		OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;diffusealpha,1;customtexturerect,0,0,1,1;texcoordvelocity,0,0.5;zoomx,0.01;linear,0;rotationx,80;rotationy,40;linear,0;addy,-90;addx,-90;rotationz,0;;fadeleft,0.2;faderight,0.2;"
+	/>
+
+	<Layer
+		File="hearts1.png"
+		OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;diffusealpha,1;customtexturerect,0,0,1,1;texcoordvelocity,0,0.5;zoomx,0.1;linear,0;rotationx,73;rotationy,-10;linear,0;addy,-75;addx,-70;addz,0;fadeleft,0.2;faderight,0.2;"
+	/>
+
+	<Layer
+		File="hearts12.png"
+		OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;diffusealpha,1;customtexturerect,0,0,1,1;texcoordvelocity,0,0.5;zoomx,0.3;linear,0;rotationx,80;rotationz,0;linear,0;addy,-90;;fadeleft,0.2;faderight,0.2;"
+	/>
+
+
+
+	<Layer
+		File="void.png"
+		OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y+40;zoom,1;sleep,20;"
+	/>
+
+	<Layer
+		Type="Quad"
+		OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y+40;zoom,0;sleep,20;diffusealpha,0"
+	/>
+
+	<Layer
+		File="void.png"
+		OnCommand="x,SCREEN_CENTER_X+350;y,SCREEN_CENTER_Y+250;zoom,1;sleep,20;"
+	/>
+
+
+
+	<Layer
+	File="bg.png"
+	OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;zoom,1;diffuse,#000000;linear,3;diffusealpha,0;sleep,12;linear,3;diffusealpha,1;"
+
+	/>
+
+</children></ActorFrame>
+
+<ActorFrame OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;sleep,0;linear,0;rotationx,-80;zoom,0.9;addy,130;sleep,20;linear,14;addx,-140;sleep,0.5;zoom,0;"> <children>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0+700;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0+600;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0+500;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0+400;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0+300;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0+200;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0+100;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0-100;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0-200;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0-300;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0-400;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,0-500;y,0;zoomx,50;zoomy,200;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+
+
+</children> </ActorFrame>
+
+<ActorFrame OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;sleep,0;linear,0;zoom,1;sleep,20;linear,14;addx,-140;sleep,0.5;zoom,0;"> <children>
+
+<!---- pixel stars --->
+
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,0;x,-300;y,0;zoomx,20;zoomy,20;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,0;x,-300;y,0;zoomx,18;zoomy,18;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+<!-- -->
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,0.3;x,-200;y,0;zoomx,20;zoomy,20;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,0.3;x,-200;y,0;zoomx,18;zoomy,18;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+<!-- -->
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,0.6;x,0-100;y,0;zoomx,20;zoomy,20;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,0.6;x,0-100;y,0;zoomx,18;zoomy,18;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+<!-- -->
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,0.9;x,0;y,0;zoomx,20;zoomy,20;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,0.9;x,0;y,0;zoomx,18;zoomy,18;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+<!-- -->
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,1.2;x,100;y,0;zoomx,20;zoomy,20;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;x,100;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,1.2;y,0;zoomx,18;zoomy,18;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+<!-- -->
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,1.5;x,200;y,0;zoomx,20;zoomy,20;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,1.5;x,200;y,0;zoomx,18;zoomy,18;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+<!-- -->
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,1.8;x,300;y,0;zoomx,20;zoomy,20;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,1.8;x,300;y,0;zoomx,18;zoomy,18;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+<!-- -->
+
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,2.1;x,400;y,0;zoomx,20;zoomy,20;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,19;;bob;effectmagnitude,0,20,0;effectclock,bgm;effectperiod,3.0;effectoffset,2.1;x,400;y,0;zoomx,18;zoomy,18;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+
+
+
+</children> </ActorFrame>
+
+
+
+<ActorFrame OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y+60;sleep,0;linear,0;rotationx,-80;zoom,1.0;"> <children>
+
+<!--	<Layer
+	Type="Quad"
+	OnCommand="hibernate,36;x,0;y,0;zoomx,480;zoomy,180;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,36;x,0;y,0;zoomx,460;zoomy,150;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/> -->
+
+	<Layer
+	File="stage.png"
+	OnCommand="hibernate,36;x,0;y,0;diffuseramp;effectcolor1,#696969;effectcolor2,#FFFFFF;effectclock,bgm;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+<!--
+	<Layer
+	File="stage.png"
+	OnCommand="hibernate,36;x,0;y,0;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,0.1"
+
+	/> -->
+
+	<Layer
+	File="killers.png"
+	OnCommand="hibernate,36;x,0;y,0;zoomx,1;zoomy,1;rotationz,0;diffusealpha,0;diffuse,#000000;linear,1;diffusealpha,1"
+
+	/>
+
+
+</children> </ActorFrame>
+
+
+<ActorFrame OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y+190;sleep,0;linear,0;rotationx,-0;zoom,1.0;"> <children>
+
+<!--	<Layer
+	Type="Quad"
+	OnCommand="hibernate,36;x,0;y,0;zoomx,640;zoomy,180;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,36;x,0;y,0;zoomx,620;zoomy,150;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/> -->
+
+
+
+
+
+</children> </ActorFrame>
+
+
+<ActorFrame OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y-80;sleep,0;linear,0;rotationx,-0;zoom,0.8;"> <children>
+
+<!--	<Layer
+	Type="Quad"
+	OnCommand="hibernate,36;x,0;y,0;zoomx,480;zoomy,300;diffuse,#969696;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+	<Layer
+	Type="Quad"
+	OnCommand="hibernate,36;x,0;y,0;zoomx,475;zoomy,290;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/> -->
+
+	<Layer
+	File="killers.png"
+	OnCommand="hibernate,36;x,0;y,0;diffuseramp;effectcolor1,#696969;effectcolor2,#FFFFFF;effectclock,bgm;diffusealpha,0;linear,1;diffusealpha,1"
+
+	/>
+
+
+
+</children> </ActorFrame>
+
+<ActorFrame OnCommand="x,0;y,0;sleep,0;"> <children>
+
+	<Layer
+		File="mink1.sprite"
+		OnCommand="hibernate,36.25;x,SCREEN_CENTER_X+200;y,SCREEN_CENTER_Y-400;diffuse,#8e8e8e;zoom,0.7;bounceend,1;addy,400;addx,-50;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="mink1.sprite"
+		OnCommand="hibernate,36.2;x,SCREEN_CENTER_X+200;y,SCREEN_CENTER_Y-400;diffuse,#7f8d93;zoom,0.5;bounceend,1;addy,400;addx,-50;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="mink1.sprite"
+		OnCommand="hibernate,36.15;x,SCREEN_CENTER_X+200;y,SCREEN_CENTER_Y-400;diffuse,#6f8994;zoom,0.7;bounceend,1;addy,400;addx,-50;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="mink1.sprite"
+		OnCommand="hibernate,36.1;x,SCREEN_CENTER_X+200;y,SCREEN_CENTER_Y-400;diffuse,#6b98ab;zoom,0.7;bounceend,1;addy,400;addx,-50;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="mink1.sprite"
+		OnCommand="hibernate,36.05;x,SCREEN_CENTER_X+200;y,SCREEN_CENTER_Y-400;diffuse,#65a1ba;zoom,0.7;bounceend,1;addy,400;addx,-50;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="mink.sprite"
+		OnCommand="hibernate,36;x,SCREEN_CENTER_X+200;y,SCREEN_CENTER_Y-400;diffuseramp;effectcolor1,#969696;effectcolor2,#969696;effectclock,bgm;zoom,0.7;bounceend,1;addy,400;addx,-50"
+	/>
+
+	<Layer
+		File="mink1.sprite"
+		OnCommand="hibernate,36;x,SCREEN_CENTER_X+200;y,SCREEN_CENTER_Y-400;diffuseramp;effectcolor1,#696969;effectcolor2,#FFFFFF;diffusealpha,0.5;effectclock,bgm;zoom,0.7;bounceend,1;addy,400;addx,-50"
+	/>
+
+
+<!---- FOX ---->
+
+	<Layer
+		File="fox1.sprite"
+		OnCommand="hibernate,36.25;x,SCREEN_CENTER_X-200;y,SCREEN_CENTER_Y-400;diffuse,#8e8e8e;zoom,0.7;bounceend,1;addy,400;addx,50;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="fox1.sprite"
+		OnCommand="hibernate,36.2;x,SCREEN_CENTER_X-200;y,SCREEN_CENTER_Y-400;diffuse,#b1a48e;zoom,0.7;bounceend,1;addy,400;addx,50;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="fox1.sprite"
+		OnCommand="hibernate,36.15;x,SCREEN_CENTER_X-200;y,SCREEN_CENTER_Y-400;diffuse,#b8a179;zoom,0.7;bounceend,1;addy,400;addx,50;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="fox1.sprite"
+		OnCommand="hibernate,36.1;x,SCREEN_CENTER_X-200;y,SCREEN_CENTER_Y-400;diffuse,#c3a36d;zoom,0.7;bounceend,1;addy,400;addx,50;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="fox1.sprite"
+		OnCommand="hibernate,36.05;x,SCREEN_CENTER_X-200;y,SCREEN_CENTER_Y-400;diffuse,#d0a861;zoom,0.7;bounceend,1;addy,400;addx,50;sleep,0;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="fox.sprite"
+		OnCommand="hibernate,36;x,SCREEN_CENTER_X-200;y,SCREEN_CENTER_Y-400;diffuseramp;effectcolor1,#969696;effectcolor2,#969696;effectclock,bgm;zoom,0.7;bounceend,1;addy,400;addx,50"
+	/>
+
+	<Layer
+		File="fox1.sprite"
+		OnCommand="hibernate,36;x,SCREEN_CENTER_X-200;y,SCREEN_CENTER_Y-400;diffuseramp;effectcolor1,#696969;effectcolor2,#FFFFFF;diffusealpha,0.5;effectclock,bgm;zoom,0.7;bounceend,1;addy,400;addx,50"
+	/>
+
+	<Layer
+	File="bg.png"
+	OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;zoom,1;diffuse,#000000;diffusealpha,0;sleep,43;linear,1;diffusealpha,1"
+
+	/>
+</children> </ActorFrame>
+
+<!---- TUNNEL 2 ---->
+
+<ActorFrame OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y-0;sleep,0;fov,90;spin;effectclock,bgm;effectmagnitude,0,0,-30;zoom,1"> <children>
+
+	<Layer
+		File="hearts1.png"
+		OnCommand="hibernate,47.1;x,0;y,0;diffusealpha,0;customtexturerect,0,0,1,1;texcoordvelocity,0,-0.3;zoomx,0.3;linear,0;rotationx,80;rotationz,0;linear,0;addy,-90;fadeleft,0.2;faderight,0.2;diffuse,#ffebf3;sleep,30;linear,1;diffusealpha,0;sleep,25;linear,1;diffusealpha,1"
+	/>
+
+
+	<Layer
+		File="hearts1.png"
+		OnCommand="hibernate,47.1;x,0;y,0;diffusealpha,0;customtexturerect,0,0,1,1;texcoordvelocity,0,-0.3;zoomx,0.1;linear,0;rotationx,80;rotationy,10;linear,0;addy,-80;addx,70;addz,-50;fadeleft,0.2;faderight,0.2;diffuse,#ffebf3;sleep,30;linear,1;diffusealpha,0;sleep,25;linear,1;diffusealpha,1"
+	/>
+
+
+	<Layer
+		File="hearts1.png"
+		OnCommand="hibernate,47.1;x,0;y,0;diffusealpha,0;customtexturerect,0,0,1,1;texcoordvelocity,0,-0.3;zoomx,0.01;linear,0;rotationx,80;rotationy,40;linear,0;addy,100;addx,90;rotationz,0;;fadeleft,0.2;faderight,0.2;diffuse,#ffebf3;sleep,30;linear,1;diffusealpha,0;sleep,25;linear,1;diffusealpha,1"
+	/>
+
+	<Layer
+		File="hearts13.png"
+		OnCommand="hibernate,47.1;x,0;y,0;diffusealpha,0;customtexturerect,0,0,1,1;texcoordvelocity,0,-0.3;zoomx,0.3;linear,0;rotationx,80;rotationy,-20;linear,0;addy,150;addx,30;;fadeleft,0.2;faderight,0.2;diffuse,#ffebf3;sleep,30;linear,1;diffusealpha,0;sleep,25;linear,1;diffusealpha,1"
+	/>
+
+
+
+<Layer
+		File="hearts1.png"
+		OnCommand="hibernate,47.1;x,0;y,0;diffusealpha,0;customtexturerect,0,0,1,1;texcoordvelocity,0,-0.3;zoomx,0.3;linear,0;rotationx,80;rotationy,20;linear,0;addy,60;addx,-90;addz,0;;fadeleft,0.2;faderight,0.2;diffuse,#ffebf3;sleep,30;linear,1;diffusealpha,0;sleep,25;linear,1;diffusealpha,1"
+	/>
+
+<!--	<Layer
+		File="hearts14.png"
+		OnCommand="x,0;y,0;rainbow;diffusealpha,1;customtexturerect,0,0,1,1;texcoordvelocity,0,-0.5;zoomx,0.3;linear,0;rotationx,80;rotationy,0;linear,0;addy,140;addx,0;addz,-60;;fadeleft,0.2;faderight,0.2;diffuse,#ffebf3;sleep,30;linear,1;diffusealpha,0;sleep,25;linear,1;diffusealpha,1"
+	/> -->
+
+	<Layer
+		File="hearts1.png"
+		OnCommand="hibernate,47.1;x,0;y,0;diffusealpha,0;customtexturerect,0,0,1,1;texcoordvelocity,0,-0.3;zoomx,0.01;linear,0;rotationx,80;rotationy,40;linear,0;addy,-90;addx,-90;rotationz,0;;fadeleft,0.2;faderight,0.2;diffuse,#ffebf3;sleep,30;linear,1;diffusealpha,0;sleep,25;linear,1;diffusealpha,1"
+	/>
+
+	<Layer
+		File="hearts1.png"
+		OnCommand="hibernate,47.1;x,0;y,0;diffusealpha,0;customtexturerect,0,0,1,1;texcoordvelocity,0,-0.3;zoomx,0.1;linear,0;rotationx,73;rotationy,-10;linear,0;addy,-75;addx,-70;addz,0;fadeleft,0.2;faderight,0.2;diffuse,#ffebf3;sleep,30;linear,1;diffusealpha,0;sleep,25;linear,1;diffusealpha,1"
+	/>
+
+	<Layer
+		File="hearts12.png"
+		OnCommand="hibernate,47.1;x,0;y,0;diffusealpha,0;customtexturerect,0,0,1,1;texcoordvelocity,0,-0.3;zoomx,0.3;linear,0;rotationx,80;rotationz,0;linear,0;addy,-90;;fadeleft,0.2;faderight,0.2;diffuse,#ffebf3;sleep,30;linear,1;diffusealpha,0;sleep,25;linear,1;diffusealpha,1"
+	/>
+
+
+
+	<Layer
+		File="void.png"
+		OnCommand="hibernate,47.1;x,0;y,40;zoom,1;sleep,30;linear,1;diffusealpha,0;"
+	/>
+
+	<Layer
+		Type="Quad"
+		OnCommand="x,0;y,40;zoom,0;sleep,20;diffusealpha,0"
+	/>
+
+	<Layer
+		File="void.png"
+		OnCommand="hibernate,47.1;x,350;y,250;zoom,1;sleep,30;linear,1;diffusealpha,0;"
+	/>
+
+
+
+</children> </ActorFrame>
+
+<!--- path --->
+
+<ActorFrame OnCommand="fov,90;x,SCREEN_CENTER_X-240;y,SCREEN_CENTER_Y;rotationx,-70;rotationz,-60"><children>
+	<Layer
+		File="glowing.png"
+		OnCommand="hibernate,86.2;diffuse,#e87238;diffusealpha,0;x,0;y,400;zoom,0.4;sleep,1;linear,1;diffusealpha,1;sleep,4;linear,1;diffusealpha,0;"
+	/>
+
+
+	<Layer
+		File="glowing.png"
+		OnCommand="hibernate,86.4;diffuse,#e87238;diffusealpha,0;x,0;y,300;zoom,0.4;sleep,1;linear,1;diffusealpha,1;sleep,4.5;linear,1;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="glowing.png"
+		OnCommand="hibernate,86.6;diffuse,#e87238;diffusealpha,0;x,0;y,200;zoom,0.4;sleep,1;linear,1;diffusealpha,1;sleep,5;linear,1;diffusealpha,0;"
+	/>
+	
+		<Layer
+		File="glowing.png"
+		OnCommand="hibernate,86.8;diffuse,#e87238;diffusealpha,0;x,0;y,100;zoom,0.4;sleep,1;linear,1;diffusealpha,1;sleep,5.5;linear,1;diffusealpha,0;"
+	/>
+	
+			<Layer
+		File="glowing.png"
+		OnCommand="hibernate,87.0;diffuse,#e87238;diffusealpha,0;x,0;y,0;zoom,0.4;sleep,1;linear,1;diffusealpha,1;sleep,5.8;linear,1;diffusealpha,0;"
+	/>
+	
+			<Layer
+		File="glowing.png"
+		OnCommand="hibernate,87.2;diffuse,#e87238;diffusealpha,0;x,0;y,-100;zoom,0.4;sleep,1;linear,1;diffusealpha,1;sleep,6;linear,1;diffusealpha,0;"
+	/>
+	
+			<Layer
+		File="glowing.png"
+		OnCommand="hibernate,87.4;diffuse,#e87238;diffusealpha,0;x,0;y,-200;zoom,0.4;sleep,1;linear,1;diffusealpha,1;sleep,6.3;linear,1;diffusealpha,0;"
+	/>
+	
+			<Layer
+		File="glowing.png"
+		OnCommand="hibernate,87.6;diffuse,#e87238;diffusealpha,0;x,0;y,-300;zoom,0.4;sleep,1;linear,1;diffusealpha,1;sleep,6.6;linear,1;diffusealpha,0;"
+	/>
+
+			<Layer
+		File="glowing.png"
+		OnCommand="hibernate,87.8;diffuse,#e87238;diffusealpha,0;x,0;y,-400;zoom,0.4;sleep,1;linear,1;diffusealpha,1;sleep,6.7;linear,1;diffusealpha,0;"
+	/>
+	
+</children> </ActorFrame>
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,191.605;x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;zoom,2000;diffuse,#000000;diffusealpha,0;linear,1;diffusealpha,1;"
+	/>
+
+</children> </ActorFrame>
+

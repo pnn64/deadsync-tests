@@ -54,3 +54,5 @@
 /full_song_lua/proxmox-five-charts-2026-11-20/**/* -text -whitespace
 # Peach Summer Splash fixtures pin the original chart and Lua bytes.
 /itgmania-song-lua-micro/peach-summer-splash/inputs/**/* -text -whitespace
+# Eros and Apollo pins original XML, model and simfile bytes.
+/itgmania-song-lua-micro/eros-and-apollo/inputs/**/* -text -whitespace

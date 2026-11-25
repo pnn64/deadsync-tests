@@ -1,0 +1,13 @@
+<ActorFrame><children>
+
+
+
+
+	<Layer
+		File="lights.mpg"
+		OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;fadetop,0.1;fadebottom,0.1;diffusealpha,0;blend,add;linear,1;diffusealpha,1;sleep,5;linear,1;diffusealpha,0;"
+	/>
+
+
+
+</children></ActorFrame>

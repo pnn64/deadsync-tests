@@ -1,0 +1,662 @@
+<ActorFrame OnCommand="fov,40;x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y+100;rotationy,180;sleep,1;linear,4;rotationx,70;addy,-100;"
+InitCommand="hidden,0"><children>
+
+<ActorFrame OnCommand="x,200;y,-100;zoom,0.6;sleep,5.745;zoom,0"><children>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-19;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-18;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-17;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-16;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-15;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-14;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-13;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-12;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-11;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-10;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-9;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-8;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-7;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-6;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-5;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-4;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-3;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-2;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,-1;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,1.050;x,0;y,0;z,0;zoom,1;sleep,10"
+	/>
+
+</children></ActorFrame>
+
+
+
+
+		<!------------------      HEARTS     -------------------->
+<ActorFrame OnCommand="x,100;y,-100;zoom,0.6;sleep,5.085;zoom,0"><children>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-19;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-18;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-17;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-16;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-15;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-14;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-13;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-12;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-11;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-10;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-9;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-8;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-7;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-6;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-5;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-4;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-3;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-2;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,-1;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.850;x,0;y,0;z,0;zoom,1;sleep,10"
+	/>
+
+</children></ActorFrame>
+
+
+		<!------------------      HEARTS     -------------------->
+<ActorFrame OnCommand="x,0;y,-100;zoom,0.6;sleep,4.459;zoom,0"><children>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-19;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-18;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-17;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-16;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-15;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-14;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-13;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-12;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-11;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-10;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-9;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-8;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-7;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-6;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-5;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-4;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-3;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-2;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,-1;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.650;x,0;y,0;z,0;zoom,1;sleep,10"
+	/>
+
+</children></ActorFrame>
+
+
+
+		<!------------------      HEARTS     -------------------->
+<ActorFrame OnCommand="x,-100;y,-100;zoom,0.6;sleep,3.790;zoom,0"><children>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-19;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-18;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-17;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-16;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-15;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-14;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-13;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-12;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-11;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-10;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-9;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-8;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-7;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-6;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-5;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-4;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-3;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-2;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,-1;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.450;x,0;y,0;z,0;zoom,1;sleep,10"
+	/>
+
+</children></ActorFrame>
+
+		<!------------------      HEARTS     -------------------->
+<ActorFrame OnCommand="x,-200;y,-100;zoom,0.6;sleep,3.091;zoom,0"><children>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-19;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-18;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-17;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-16;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-15;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-14;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-13;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-12;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-11;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-10;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-9;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-8;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-7;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-6;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-5;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-4;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-3;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-2;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,-1;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="heart.sprite"
+		OnCommand="hibernate,0.250;x,0;y,0;z,0;zoom,1;sleep,10"
+	/>
+
+</children></ActorFrame>
+
+
+<!---------- 3D PACMAN ----->
+
+
+<ActorFrame OnCommand=";zoom,1.0;x,-400;y,-100;sleep,1.691;linear,6;addx,900"><children>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-19;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-18;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-17;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-16;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-15;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-14;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-13;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-12;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-11;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-10;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-9;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-8;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-7;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-6;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-5;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-4;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-3;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-2;zoom,1;sleep,10"
+	/>
+
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,-1;zoom,1;sleep,10"
+	/>
+
+	<Layer
+		File="pacman.sprite"
+		OnCommand="hibernate,1;x,0;y,0;z,0;zoom,1;sleep,10"
+	/>
+
+</children></ActorFrame>
+
+
+</children></ActorFrame>
+

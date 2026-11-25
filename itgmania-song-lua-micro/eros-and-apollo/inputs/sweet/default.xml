@@ -1,0 +1,24 @@
+<ActorFrame OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;wag;effectclock,bgm;effectmagnitude,0,0,25;effectperiod,8"><children>
+
+	<Layer
+		File="fall.sprite"
+		OnCommand="hibernate,0.011;x,0;y,-400;wag;effectclock,bgm;effectmagnitude,0,0,-45;effectperiod,8;diffusealpha,1;zoom,1;linear,4;addy,900"
+	/>
+
+
+	<Layer
+		File="fall.sprite"
+		OnCommand="hibernate,0.899;x,-100;y,-400;wag;effectclock,bgm;effectmagnitude,0,0,-45;effectperiod,8;diffusealpha,1;zoom,0.5;linear,4;addy,900"
+	/>
+
+	<Layer
+		File="fall.sprite"
+		OnCommand="hibernate,1.886;x,+100;y,-400;wag;effectclock,bgm;effectmagnitude,0,0,-45;effectperiod,8;diffusealpha,1;zoom,0.8;linear,4;addy,900"
+	/>
+
+	<Layer
+		File="fall.sprite"
+		OnCommand="hibernate,2.974;x,0;y,-400;wag;effectclock,bgm;effectmagnitude,0,0,-45;effectperiod,8;diffusealpha,1;zoom,1;linear,4;addy,900"
+	/>
+
+</children></ActorFrame>

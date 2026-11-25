@@ -1,0 +1,2638 @@
+<ActorFrame
+OnCommand="%function(self)
+
+	songName = GAMESTATE:GetCurrentSong():GetSongDir();
+	
+	for i=0, 3 do
+	_G['receptor_rotationx_'..i] = 0;
+	_G['receptor_rotationy_'..i] = 0;
+	_G['receptor_rotationz_'..i] = 0;
+	_G['receptor_x_'..i] = 0;
+	_G['receptor_y_'..i] = 0;
+	_G['receptor_z_'..i] = 0;
+	_G['receptor_zoom_'..i] = 1;
+	_G['receptor_zoomx_'..i] = 1;
+	_G['receptor_zoomy_'..i] = 1;
+	_G['receptor_zoomtowidth_'..i] = nil;
+	_G['receptor_zoomtoheight_'..i] = nil;
+	_G['receptor_tint_'..i] = nil;
+	_G['receptor_fade_'..i] = nil;
+	_G['receptor_effect_'..i] = 'pulse';
+	_G['receptor_effectset_'..i] = false;
+	_G['receptor_effectcontrol_'..i] = {1,1,0,0,'bgm'};
+	-------
+	_G['noteskin_rotationx_'..i] = 0;
+	_G['noteskin_rotationy_'..i] = 0;
+	_G['noteskin_rotationz_'..i] = 0;
+	_G['noteskin_x_'..i] = 0;
+	_G['noteskin_y_'..i] = 0;
+	_G['noteskin_z_'..i] = 0;
+	_G['noteskin_zoom_'..i] = 1;
+	_G['noteskin_zoomx_'..i] = 1;
+	_G['noteskin_zoomy_'..i] = 1;
+	_G['noteskin_zoomtowidth_'..i] = nil;
+	_G['noteskin_zoomtoheight_'..i] = nil;
+	_G['noteskin_tint_'..i] = nil;
+	_G['noteskin_fade_'..i] = nil;
+	_G['noteskin_effect_'..i] = 'pulse';
+	_G['noteskin_effectset_'..i] = false;
+	_G['noteskin_effectcontrol_'..i] = {1,1,0,0,'bgm'};
+	end
+	
+end"
+><children>
+
+	<Layer
+		Type="Quad"
+		InitCommand="hidden,1"
+		OnCommand="sleep,1000"
+	/>
+	
+				<!-------------------------------------- FG ANIMS -------------------------------------->
+				
+<ActorFrame><children>
+
+
+<!--- BOY WALK 2 --->
+<ActorFrame OnCommand="addx,400;addy,0;zoom,2;sleep,85;linear,12;addx,-800;zoom,0.5"><children>
+
+
+<ActorFrame OnCommand="x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y-70;rotationy,180;spin"><children>
+	<Layer
+		File="flare.png"
+		OnCommand="hibernate,86;diffusealpha,0;x,0;y,0;diffusealpha,0;zoom,1;diffusealpha,0;sleep,0.5;linear,0;diffusealpha,0.01;linear,1;diffusealpha,0.5;"
+	/>
+
+	<Layer
+		File="flare.png"
+		OnCommand="hibernate,86;diffusealpha,0;x,0;y,0;rotationz,45;diffusealpha,0;zoom,1;diffusealpha,0;sleep,0.5;linear,0;diffusealpha,0.01;linear,1;diffusealpha,0.5;"
+	/>
+
+</children></ActorFrame>
+
+	<Layer
+		File="head.png"
+		OnCommand="hibernate,86;diffusealpha,1;x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y-70;"
+	/>
+
+
+
+	<Layer
+		File="boy1.sprite"
+		OnCommand="hibernate,86;diffusealpha,1;x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y-0;rotationy,180;zoom,0.5;sleep,1;diffusealpha,1;"
+	/>
+
+</children></ActorFrame>
+<!----- RKS ---->
+
+
+	
+	<Layer
+		File="mink.sprite"
+		OnCommand="hibernate,35;x,SCREEN_CENTER_X+200;y,SCREEN_CENTER_Y-400;diffuseramp;effectcolor1,#FFFFFF;effectcolor2,#FFFFFF;effectclock,bgm;zoom,1.5;diffusealpha,0;bounceend,1;addy,400;sleep,1.3;linear,1;diffusealpha,0.5;addx,-50;linear,1;addx,-50;diffusealpha,0"
+	/>
+
+
+	<Layer
+		File="fox.sprite"
+		OnCommand="hibernate,36;x,SCREEN_CENTER_X-200;y,SCREEN_CENTER_Y-400;diffuseramp;effectcolor1,#FFFFFF;effectcolor2,#FFFFFF;effectclock,bgm;zoom,1.5;diffusealpha,0;bounceend,1;addy,400;sleep,1.3;linear,1;diffusealpha,0.5;addx,+50;linear,1;addx,+50;diffusealpha,0"
+	/> 
+
+
+
+<!---- END GIRLS --->
+
+
+<!---- FOLLOW ----->
+
+<ActorFrame OnCommand="x,SCREEN_CENTER_X-400;y,SCREEN_CENTER_Y;fov,20;zoom,0.6;diffuse,#666666;sleep,25;linear,10;addx,1000;"><children>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;ztest,1;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;zoom,0.6;z,0;x,-240;y,100;linear,8;addx,0;"
+	/>
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;ztest,1;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.2;zoom,0.6;z,0;x,-180;y,100;linear,8;addx,20;"
+	/>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;ztest,1;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.4;zoom,0.6;z,0;x,-120;y,100;linear,8;addx,40;"
+	/>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;ztest,1;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.6;zoom,0.6;z,0;x,-60;y,100;linear,8;addx,60;"
+	/>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;ztest,1;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.8;;zoom,0.6;x,0;y,100;linear,8;addx,80"
+	/>
+
+
+
+</children></ActorFrame>
+
+<ActorFrame OnCommand="x,SCREEN_CENTER_X-400;y,SCREEN_CENTER_Y;fov,20;zoom,0.8;diffuse,#888888;sleep,25;linear,9;addx,1000;"><children>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;ztest,1;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;zoom,0.6;z,0;x,-240;y,100;linear,8;addx,0;"
+	/>
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;ztest,1;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.2;zoom,0.6;z,0;x,-180;y,100;linear,8;addx,20;"
+	/>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;ztest,1;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.4;zoom,0.6;z,0;x,-120;y,100;linear,8;addx,40;"
+	/>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;ztest,1;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.6;zoom,0.6;z,0;x,-60;y,100;linear,8;addx,60;"
+	/>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;ztest,1;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.8;;zoom,0.6;x,0;y,100;linear,8;addx,80"
+	/>
+
+
+
+</children></ActorFrame>
+
+
+<ActorFrame OnCommand="x,SCREEN_CENTER_X-400;y,SCREEN_CENTER_Y;fov,20;rotationy,0;diffuse,#969696;sleep,25;linear,8;addx,1000;"><children>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;zoom,0.6;z,0;x,-240;y,100;linear,8;addx,0;"
+	/>
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.2;zoom,0.6;z,0;x,-180;y,100;linear,8;addx,20;"
+	/>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.4;zoom,0.6;z,0;x,-120;y,100;linear,8;addx,40;"
+	/>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.6;zoom,0.6;z,0;x,-60;y,100;linear,8;addx,60;"
+	/>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.8;;zoom,0.6;x,0;y,100;linear,8;addx,80"
+	/>
+
+
+
+</children></ActorFrame>
+
+
+<ActorFrame OnCommand="x,SCREEN_CENTER_X-400;y,SCREEN_CENTER_Y;fov,20;rotationy,0;zoom,1.2;diffuse,#FFFFFF;sleep,25;linear,9;addx,1300;"><children>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;zoom,0.6;z,0;x,-240;y,100;linear,8;addx,0;"
+	/>
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.2;zoom,0.6;z,0;x,-180;y,100;linear,8;addx,20;"
+	/>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.4;zoom,0.6;z,0;x,-120;y,100;linear,8;addx,40;"
+	/>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.6;zoom,0.6;z,0;x,-60;y,100;linear,8;addx,60;"
+	/>
+
+
+	<Layer
+		File="follow.sprite"
+		OnCommand="hibernate,22.444;bounce;effectmagnitude,0,-10,0;effectperiod,1;effectclock,bgm;effectoffset,0.8;;zoom,0.6;x,0;y,100;linear,8;addx,80"
+	/>
+
+
+
+</children></ActorFrame>
+
+<ActorFrame OnCommand="addy,100;addx,-160;sleep,20.247;linear,10;addx,600"><children>
+
+<!---- BOY --->
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-6;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,0.05;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,0.10;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,0.15;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-10;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,0.20;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+10;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,0.25;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-9;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,0.30;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-6;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,0.35;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+3;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,0.40;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+1;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,0.45;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,0.50;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,0.55;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+9;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,0.60;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+<!----- asf ----->
+
+<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-6;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,0.65;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,0.70;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,0.75;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-10;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,0.80;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+10;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,0.85;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-9;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,0.90;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-6;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,0.95;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+3;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,1.00;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+1;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,1.05;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,1.15;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,1.20;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+9;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,1.25;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+<!---- asdfg ------>
+
+<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,1.30;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,1.35;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-10;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,1.40;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+10;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,1.45;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-9;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,1.50;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-6;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,1.55;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+3;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,1.60;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+1;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,1.65;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,1.70;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,1.75;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+9;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,1.80;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+<!---- asdfg ------>
+
+<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,1.85;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,1.90;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-10;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,1.95;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+10;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.00;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-9;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#4751ff;sleep,2.05;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-6;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.15;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+3;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,2.20;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+1;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.25;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.30;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#cdfe3a;sleep,2.35;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+9;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.40;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+<!---- asdfg ------>
+
+<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.45;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.50;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-3;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.55;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+4;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.60;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+6;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.65;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-6;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.70;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+3;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.75;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+1;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.80;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.85;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.90;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+8;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,2.95;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+<!---- asdfg ------>
+
+<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.00;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.05;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-3;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.10;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+4;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.15;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+6;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.20;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-6;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.25;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+3;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.30;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+1;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.35;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.40;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.45;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+8;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.5;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+<!---- asdfg ------>
+
+<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.55;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.6;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-3;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.650;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+4;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.7;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+6;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.750;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-6;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.8;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+3;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.850;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+1;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.9;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+5;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,3.950;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X-2;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,4.0;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,14;x,SCREEN_CENTER_X+8;y,SCREEN_CENTER_Y+100;zoom,4;diffuse,#3b3639;sleep,4.05;linear,0.5;addy,-150;sleep,0;diffusealpha,0"
+	/>
+
+<ActorFrame OnCommand="x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y-70;spin"><children>
+	<Layer
+		File="flare.png"
+		OnCommand="hibernate,17;diffusealpha,0;x,0;y,0;diffusealpha,0;zoom,1;diffusealpha,0;sleep,0.5;linear,0;diffusealpha,0.01;linear,1;diffusealpha,0.5;"
+	/>
+
+	<Layer
+		File="flare.png"
+		OnCommand="hibernate,17;diffusealpha,0;x,0;y,0;rotationz,45;diffusealpha,0;zoom,1;diffusealpha,0;sleep,0.5;linear,0;diffusealpha,0.01;linear,1;diffusealpha,0.5;"
+	/>
+
+</children></ActorFrame>
+
+	<Layer
+		File="head.png"
+		OnCommand="hibernate,16;diffusealpha,1;x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y-70;diffusealpha,0;zoom,1;diffusealpha,0;sleep,1.5;linear,1;diffusealpha,1;"
+	/>
+
+
+
+	<Layer
+		File="boy_front.png"
+		OnCommand="hibernate,14;diffusealpha,1;x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y-0;rotationy,0;zoom,0.5;cropbottom,1;sleep,0.5;linear,4;cropbottom,0;sleep,1.5;diffusealpha,0;"
+	/>
+
+	<Layer
+		File="boy1.sprite"
+		OnCommand="hibernate,20;diffusealpha,1;x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y-0;rotationy,0;zoom,0.5;sleep,1;diffusealpha,1;"
+	/>
+
+
+</children></ActorFrame>
+
+
+<!----- BUBBLES ---->
+
+	<Layer
+		File="bubble.png"
+		OnCommand="hibernate,32.311;bob;effectclock,bgm;effectmagnitude,10,0,0;effectperiod,2;diffusealpha,1;x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y+300;rotationy,0;zoom,0.25;linear,4;addy,-700;"
+	/>
+
+
+	<Layer
+		File="bubble.png"
+		OnCommand="hibernate,32.411;bob;effectclock,bgm;effectmagnitude,10,0,0;effectoffset,0.5;effectperiod,2;diffusealpha,1;x,SCREEN_CENTER_X-100;y,SCREEN_CENTER_Y+300;rotationy,0;zoom,0.25;linear,4;addy,-700;"
+	/>
+
+	<Layer
+		File="bubble.png"
+		OnCommand="hibernate,32.481;bob;effectclock,bgm;effectmagnitude,-10,0,0;effectoffset,0.5;effectperiod,2;diffusealpha,1;x,SCREEN_CENTER_X-200;y,SCREEN_CENTER_Y+300;rotationy,0;zoom,0.25;linear,4;addy,-700;"
+	/>
+
+
+	<Layer
+		File="bubble.png"
+		OnCommand="hibernate,32.511;bob;effectclock,bgm;effectmagnitude,10,0,0;effectoffset,1.0;effectperiod,2;diffusealpha,1;x,SCREEN_CENTER_X+100;y,SCREEN_CENTER_Y+300;rotationy,0;zoom,0.25;linear,4;addy,-700;"
+	/>
+
+	<Layer
+		File="bubble.png"
+		OnCommand="hibernate,32.581;bob;effectclock,bgm;effectmagnitude,-10,0,0;effectoffset,1.0;effectperiod,2;diffusealpha,1;x,SCREEN_CENTER_X+200;y,SCREEN_CENTER_Y+300;rotationy,0;zoom,0.25;linear,4;addy,-700;"
+	/>
+
+	<Layer
+		File="bubble.png"
+		OnCommand="hibernate,32.611;bob;effectclock,bgm;effectmagnitude,10,0,0;effectoffset,1.5;effectperiod,2;diffusealpha,1;x,SCREEN_CENTER_X+50;y,SCREEN_CENTER_Y+300;rotationy,0;zoom,0.25;linear,4;addy,-700;"
+	/>
+
+
+	<Layer
+		File="bubble.png"
+		OnCommand="hibernate,32.711;bob;effectclock,bgm;effectmagnitude,10,0,0;effectoffset,1.5;effectperiod,2;diffusealpha,1;x,SCREEN_CENTER_X-50;y,SCREEN_CENTER_Y+300;rotationy,0;zoom,0.25;linear,4;addy,-700;"
+	/>
+
+
+
+<!--- SPIDERS --->
+
+
+
+	<Layer
+		File="spider.sprite"
+		OnCommand="hibernate,33.311;bob;effectclock,bgm;effectmagnitude,20,0,0;effectperiod,1.5;diffusealpha,1;x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y-300;rotationy,0;zoom,0.35;linear,4;addy,600;"
+	/>
+
+
+	<Layer
+		File="spider.sprite"
+		OnCommand="hibernate,33.811;bob;effectclock,bgm;effectmagnitude,20,0,0;effectperiod,1.5;effectoffset,0.5;diffusealpha,1;x,SCREEN_CENTER_X-100;y,SCREEN_CENTER_Y-300;rotationy,0;zoom,0.35;linear,4;addy,600;"
+	/>
+
+
+	<Layer
+		File="spider.sprite"
+		OnCommand="hibernate,34.211;bob;effectclock,bgm;effectmagnitude,20,0,0;effectperiod,1.5;effectoffset,1.0;diffusealpha,1;x,SCREEN_CENTER_X+100;y,SCREEN_CENTER_Y-300;rotationy,0;zoom,0.35;linear,4;addy,600;"
+	/>
+
+
+	<Layer
+		File="spider.sprite"
+		OnCommand="hibernate,34.711;bob;effectclock,bgm;effectmagnitude,20,0,0;effectperiod,1.5;effectoffset,1.5;diffusealpha,1;x,SCREEN_CENTER_X-20;y,SCREEN_CENTER_Y-300;rotationy,0;zoom,0.35;linear,4;addy,600;"
+	/>
+
+<!------ GIGOLOS ----->
+
+
+<ActorFrame OnCommand="Fov,20"><children>
+
+
+<!-- 1 -->
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,31.111;ztest,0;diffusealpha,1;x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y+35;zoomx,900;zoomy,70;diffuse,#D60062;cropleft,0.9;linear,3.4;cropleft,0;sleep,0.0;faderight,0.0;linear,2.5;cropright,1;"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,31.111;ztest,1;diffusealpha,1;x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y+35;zoomx,900;zoomy,70;diffuse,#FF7800;cropleft,0.9;linear,3.4;cropleft,0;sleep,0.0;faderight,0.0;linear,2.5;cropright,1;"
+	/>
+
+
+
+<!-- 2 -->
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,31.111;ztest,0;diffusealpha,1;x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y+175;zoomx,900;zoomy,70;diffuse,#D60062;cropleft,0.9;linear,3.4;cropleft,0;sleep,0.0;faderight,0.0;linear,2;cropright,1;"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,31.111;ztest,1;diffusealpha,1;x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y+175;zoomx,900;zoomy,70;diffuse,#FF7800;cropleft,0.9;linear,3.4;cropleft,0;sleep,0.0;faderight,0.0;linear,2;cropright,1;"
+	/>
+
+
+
+
+
+<!-- 3 -->
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,31.511;ztest,0;diffusealpha,1;x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y-35;zoomx,900;zoomy,70;diffuse,#FF7800;cropright,0.9;linear,3.4;cropright,0;sleep,0.0;faderight,0.0;linear,2;cropleft,1;"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,31.511;ztest,1;diffusealpha,1;x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y-35;zoomx,900;zoomy,70;diffuse,#D60062;cropright,0.9;linear,3.4;cropright,0;sleep,0.0;faderight,0.0;linear,2;cropleft,1;"
+	/>
+
+
+
+<!-- 4 -->
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,31.511;ztest,0;diffusealpha,1;x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y+105;zoomx,900;zoomy,70;diffuse,#FF7800;cropright,0.9;linear,3.4;cropright,0;sleep,0.0;faderight,0.0;linear,2.5;cropleft,1;"
+	/>
+
+
+	<Layer
+		Type="Quad"
+		OnCommand="hibernate,31.511;ztest,1;diffusealpha,1;x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y+105;zoomx,900;zoomy,70;diffuse,#D60062;cropright,0.9;linear,3.4;cropright,0;sleep,0.0;faderight,0.0;linear,2.5;cropleft,1;"
+	/>
+
+
+
+
+
+	<Layer
+		File="gigolo.sprite"
+		OnCommand="hibernate,31.111;diffusealpha,1;x,SCREEN_CENTER_X+350;y,SCREEN_CENTER_Y+35;rotationy,180;zoom,0.4;linear,3;addx,-700;sleep,200"
+	/>
+
+
+	<Layer
+		File="gigolo.sprite"
+		OnCommand="hibernate,31.111;diffusealpha,1;x,SCREEN_CENTER_X+350;y,SCREEN_CENTER_Y+175;rotationy,180;zoom,0.4;linear,3;addx,-700;sleep,200"
+	/>
+
+	<Layer
+		File="gigolo.sprite"
+		OnCommand="hibernate,31.511;diffusealpha,1;x,SCREEN_CENTER_X-350;y,SCREEN_CENTER_Y-35;rotationy,0;zoom,0.4;linear,3;addx,700;sleep,200"
+	/>
+
+
+	<Layer
+		File="gigolo.sprite"
+		OnCommand="hibernate,31.511;diffusealpha,1;x,SCREEN_CENTER_X-350;y,SCREEN_CENTER_Y+105;rotationy,0;zoom,0.4;linear,3;addx,700;sleep,200"
+	/>
+
+
+
+
+</children></ActorFrame>
+
+
+
+<!----- END GIGOLOS ----->
+
+<!------SENORITAS ------>
+
+
+
+
+
+
+<!------- SWEET ----->
+
+
+
+<!---- SENORITAS END --->
+
+
+
+
+
+
+	<Layer
+		Type="Quad"
+		InitCommand="hidden,1"
+		OnCommand="sleep,200"
+	/>
+	
+	
+	
+				<Layer
+		Type="Quad"
+		OnCommand="hibernate,198.272;x,SCREEN_CENTER_X-90;y,SCREEN_CENTER_Y;diffuse,#000000;diffusealpha,0;zoomy,2000;zoomx,200;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.1;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.2;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.3;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.4;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.5;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.6;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.7;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.8;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.9;linear,0.981;diffusealpha,1;sleep,0;"
+	/>
+	
+	
+			<Layer
+		Type="Quad"
+		OnCommand="hibernate,198.519;x,SCREEN_CENTER_X+90;y,SCREEN_CENTER_Y;diffuse,#000000;diffusealpha,0;zoomy,2000;zoomx,200;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.1;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.2;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.3;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.4;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.5;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.6;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.7;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.8;linear,0.981;diffusealpha,1;sleep,0;diffusealpha,0.9;linear,0.981;diffusealpha,1;sleep,0;"
+	/>
+	
+		<Layer
+		File="frame.png"
+		OnCommand="diffusealpha,1;x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y+0;zoom,1;sleep,200"
+	/>
+
+		<!------------------      HEARTS     -------------------->
+
+
+
+
+</children></ActorFrame>
+<!----------------------------------------------------- END FG ANIMS --------------------------------------->
+
+
+	
+	<Layer
+		Type="Quad"
+		InitCommand="hidden,1"
+		OnCommand="%function(self)
+			fgcurcommand = 1;
+			checked = false;
+			self:queuecommand('Update');
+			
+--lua course :D	/ timed mod management	
+curmod = 1;
+--{beat,mod,player}
+mods = {
+
+{0.01,'*1000 0.1x,*200 300 centered,*200 dark,*200 mini,*200 270 distant,*200 stealth,*200 bumpy,*2000 -1000 cover'},
+
+{0.11,'*0.5 80 stealth,*1 no dark'},
+
+
+
+
+{10.00,'*0.5 2.5x,*0.5 no stealth,*0.5 no distant,*0.5 no mini,*0.5 no centered,*0.5 0.5 bumpy'},
+
+{16.00,'*500 200 tipsy,*500 200 drunk,*2000 -100 flip'},
+{16.10,'*0.5 no tipsy,*0.5 no drunk,*0.15 no flip'},
+
+{32.00,'*10 200% beat'},
+
+---first part
+
+{32.50,'*1 mini'},
+
+{33.00,'*1.0 no mini'},
+{33.50,'*1 mini'},
+
+{34.00,'*1.0 no mini'},
+{34.50,'*1 mini'},
+
+{35.00,'*1.0 no mini'},
+{35.50,'*1 mini'},
+
+{36.00,'*1.0 no mini'},
+{36.50,'*1 mini'},
+
+{37.00,'*1.0 no mini'},
+{37.50,'*1 mini'},
+
+{38.00,'*1.0 no mini'},
+{38.50,'*1 mini'},
+
+{39.00,'*1.0 no mini'},
+{39.50,'*1 mini'},
+
+
+{40.00,'*1.0 no mini'},
+{40.50,'*1 mini'},
+
+{41.00,'*1.0 no mini'},
+{41.50,'*1 mini'},
+
+{42.00,'*1.0 no mini'},
+{42.50,'*1 mini'},
+
+{43.00,'*1.0 no mini'},
+{43.50,'*1 mini'},
+
+{44.00,'*1.0 no mini'},
+{44.50,'*1 mini'},
+
+{45.00,'*1.0 no mini'},
+{45.50,'*1 mini'},
+
+{46.00,'*1.0 no mini'},
+{46.50,'*1 mini'},
+
+{47.00,'*1.0 no mini'},
+{47.50,'*1 mini'},
+
+{48.00,'*1.0 no mini'},
+{48.50,'*1 mini'},
+
+{49.00,'*1.0 no mini'},
+{49.50,'*1 mini'},
+
+
+{50.00,'*1.0 no mini'},
+{50.50,'*1 mini'},
+
+{51.00,'*1.0 no mini'},
+{51.50,'*1 mini'},
+
+{52.00,'*1.0 no mini'},
+{52.50,'*1 mini'},
+
+{53.00,'*1.0 no mini'},
+{53.50,'*1 mini'},
+
+{54.00,'*1.0 no mini'},
+{54.50,'*1 mini'},
+
+{55.00,'*1.0 no mini'},
+{55.50,'*1 mini'},
+
+{56.00,'*1.0 no mini'},
+{56.50,'*1 mini'},
+
+{57.00,'*1.0 no mini'},
+{57.50,'*1 mini'},
+
+{58.00,'*1.0 no mini'},
+{58.50,'*1 mini'},
+
+{59.00,'*1.0 no mini'},
+{59.50,'*1 mini'},
+
+
+{60.00,'*1.0 no mini'},
+{60.50,'*1 mini'},
+
+{61.00,'*1.0 no mini'},
+{61.50,'*1 mini'},
+
+{62.00,'*1.0 no mini'},
+{62.50,'*1 mini'},
+
+{63.00,'*1.0 no mini'},
+{63.50,'*1 mini'},
+
+{64.00,'*1.0 no mini'},
+{64.50,'*1 mini'},
+
+{65.00,'*1.0 no mini'},
+{65.50,'*1 mini'},
+
+{66.00,'*1.0 no mini'},
+{66.50,'*1 mini'},
+
+{67.00,'*1.0 no mini'},
+{67.50,'*1 mini'},
+
+{68.00,'*1.0 no mini'},
+{68.50,'*1 mini'},
+
+{69.00,'*1.0 no mini'},
+{69.50,'*1 mini'},
+
+{70.00,'*1.0 no mini'},
+{70.50,'*1 mini'},
+
+{71.00,'*1.0 no mini'},
+{71.50,'*1 mini'},
+
+{72.00,'*1.0 no mini'},
+{72.50,'*1 mini'},
+
+{73.00,'*1.0 no mini,*200 50 stealth'},
+{73.10,'*0.6 stealth'},
+{73.50,'*1 mini'},
+
+{74.00,'*1.0 no mini'},
+{74.50,'*1 mini,*200 50 stealth'},
+{74.60,'*1 stealth'},
+
+{75.00,'*1.0 no mini'},
+{75.50,'*1 mini,*200 50 stealth'},
+{75.60,'*0.6 stealth'},
+
+{76.00,'*1.0 no mini'},
+{76.50,'*1 mini'},
+
+{77.00,'*1.0 no mini,*200 80 stealth'},
+{77.10,'*1 no stealth'},
+{77.50,'*1 mini'},
+
+{78.00,'*1.0 no mini'},
+{78.50,'*1 mini'},
+
+{79.00,'*1.0 no mini'},
+{79.50,'*1 mini'},
+
+
+
+{80.00,'*1.0 no mini'},
+{80.50,'*1 mini'},
+
+{81.00,'*1.0 no mini'},
+{81.50,'*1 mini'},
+
+{82.00,'*1.0 no mini'},
+{82.50,'*1 mini'},
+
+{83.00,'*1.0 no mini'},
+{83.50,'*1 mini'},
+
+{84.00,'*1.0 no mini'},
+{84.50,'*1 mini'},
+
+{85.00,'*1.0 no mini'},
+{85.50,'*1 mini'},
+
+{86.00,'*1.0 no mini'},
+{86.50,'*1 mini'},
+
+{87.00,'*1.0 no mini'},
+{87.50,'*1 mini'},
+
+{88.00,'*1.0 no mini'},
+{88.50,'*1 mini'},
+
+{89.00,'*1.0 no mini,*200 50 stealth'},
+{89.10,'*0.6 0 stealth'},
+
+{90.00,'*1.0 no mini'},
+{90.50,'*1 no mini,*200 50 stealth'},
+{90.60,'*1 stealth'},
+
+{91.00,'*1.0 no mini'},
+{91.50,'*1 no mini,*200 no beat,*200 50 stealth'},
+{91.60,'*1 stealth'},
+
+
+{93,'*200 80 stealth'},
+{93.10,'*1 no stealth'},
+
+
+
+--[[{73.00,'*200 90 stealth'},
+{73.10,'*1 0 stealth'},
+
+{74.50,'*200 90 stealth'},
+{74.60,'*1 0 stealth'},
+
+{75.50,'*200 90 stealth'},
+{75.60,'*1 0 stealth'},
+
+{77.00,'*200 90 stealth'},
+{77.10,'*1 0 stealth'},]]--
+
+--chorus
+
+
+{96.00,'*2.1 mini,*200 200 beat'},
+{96.50,'*2.1 no mini'},
+
+{97.00,'*2.1 mini'},
+{97.50,'*2.1 no mini'},
+
+{98.00,'*2.1 mini'},
+{98.50,'*2.1 no mini'},
+
+{99.00,'*2.1 mini'},
+{99.50,'*2.1 no mini'},
+
+{100.00,'*2.1 mini,*3 no wave'},
+{100.50,'*2.1 no mini'},
+
+{101.00,'*2.1 mini'},
+{101.50,'*2.1 no mini'},
+
+{102.00,'*2.1 mini'},
+{102.50,'*2.1 no mini'},
+
+{103.00,'*2.1 mini'},
+{103.50,'*2.1 no mini'},
+
+{104.00,'*2.1 mini'},
+{104.50,'*2.1 no mini'},
+
+{105.00,'*2.1 mini,*3 no wave'},
+{105.50,'*2.1 no mini'},
+
+{106.00,'*2.1 mini'},
+{106.50,'*2.1 no mini'},
+
+{107.00,'*2.1 mini'},
+{107.50,'*2.1 no mini'},
+
+{108.00,'*2.1 mini'},
+{108.50,'*2.1 no mini'},
+
+{109.00,'*2.1 mini'},
+{109.50,'*2.1 no mini'},
+
+{96.00,'*2.1 mini'},
+{96.50,'*2.1 no mini'},
+
+{110.00,'*2.1 mini,*3 no wave'},
+{110.50,'*2.1 no mini'},
+
+{111.00,'*2.1 mini'},
+{111.50,'*2.1 no mini'},
+
+{112.00,'*2.1 mini'},
+{112.50,'*2.1 no mini'},
+
+{113.00,'*2.1 mini'},
+{113.50,'*2.1 no mini'},
+
+{114.00,'*2.1 mini'},
+{114.50,'*2.1 no mini'},
+
+{115.00,'*2.1 mini,*3 no wave'},
+{115.50,'*2.1 no mini'},
+
+{116.00,'*2.1 mini'},
+{116.50,'*2.1 no mini'},
+
+{117.00,'*2.1 mini'},
+{117.50,'*2.1 no mini'},
+
+{118.00,'*2.1 mini'},
+{118.50,'*2.1 no mini'},
+
+{119.00,'*2.1 mini'},
+{119.50,'*2.1 no mini'},
+
+
+{120.00,'*2.1 mini,*3 no wave'},
+{120.50,'*2.1 no mini'},
+
+{121.00,'*2.1 mini'},
+{121.50,'*2.1 no mini'},
+
+{122.00,'*2.1 mini'},
+{122.50,'*2.1 no mini'},
+
+{123.00,'*2.1 mini'},
+{123.50,'*2.1 no mini'},
+
+{124.00,'*2.1 mini'},
+{124.50,'*2.1 no mini'},
+
+{125.00,'*2.1 mini,*3 no wave'},
+{125.50,'*2.1 no mini'},
+
+{126.00,'*2.1 mini'},
+{126.50,'*2.1 no mini,*5 split'},
+
+{127.00,'*2.1 mini,*5 reverse,*5 no split'},
+{127.50,'*2.1 no mini'},
+
+{128.00,'*2.1 mini'},
+{128.50,'*2.1 no mini'},
+
+{129.00,'*2.1 mini'},
+{129.50,'*2.1 no mini'},
+
+{130.00,'*2.1 mini,*3 no wave'},
+{130.50,'*2.1 no mini'},
+
+{131.00,'*2.1 mini'},
+{131.50,'*2.1 no mini'},
+
+{132.00,'*2.1 mini'},
+{132.50,'*2.1 no mini'},
+
+{133.00,'*2.1 mini'},
+{133.50,'*2.1 no mini'},
+
+{134.00,'*2.1 mini'},
+{134.50,'*2.1 no mini'},
+
+{135.00,'*2.1 mini,*3 no wave'},
+{135.50,'*2.1 no mini'},
+
+{136.00,'*2.1 mini'},
+{136.50,'*2.1 no mini'},
+
+{137.00,'*2.1 mini'},
+{137.50,'*2.1 no mini'},
+
+{138.00,'*2.1 mini'},
+{138.50,'*2.1 no mini'},
+
+{139.00,'*2.1 mini'},
+{139.50,'*2.1 no mini'},
+
+{140.00,'*2.1 mini,*3 no wave'},
+{140.50,'*2.1 no mini'},
+
+{141.00,'*2.1 mini'},
+{141.50,'*2.1 no mini'},
+
+{142.00,'*2.1 mini'},
+{142.50,'*2.1 no mini'},
+
+{143.00,'*2.1 mini'},
+{143.50,'*2.1 no mini'},
+
+{144.00,'*2.1 mini'},
+{144.50,'*2.1 no mini'},
+
+{145.00,'*2.1 mini,*3 no wave'},
+{145.50,'*2.1 no mini'},
+
+{146.00,'*2.1 mini'},
+{146.50,'*2.1 no mini'},
+
+{147.00,'*2.1 mini'},
+{147.50,'*2.1 no mini'},
+
+{148.00,'*2.1 mini'},
+{148.50,'*2.1 no mini'},
+
+{149.00,'*2.1 mini'},
+{149.50,'*2.1 no mini'},
+
+{150.00,'*2.1 mini,*3 no wave'},
+{150.50,'*2.1 no mini'},
+
+{151.00,'*2.1 mini'},
+{151.50,'*2.1 no mini'},
+
+{152.00,'*2.1 mini'},
+{152.50,'*2.1 no mini'},
+
+{153.00,'*2.1 mini'},
+{153.50,'*2.1 no mini'},
+
+{154.00,'*2.1 mini'},
+{154.50,'*2.1 no mini'},
+
+{155.00,'*2.1 mini,*3 no wave'},
+{155.50,'*2.1 no mini'},
+
+{156.00,'*2.1 mini'},
+{156.50,'*2.1 no mini'},
+
+{157.00,'*2.1 mini'},
+{157.50,'*2.1 no mini'},
+
+{158.00,'*2.1 mini'},
+{158.50,'*2.1 no mini'},
+
+
+-- DOMINOES
+
+{158,'*2 80 stealth'},
+
+
+
+{160.5,'*200 15 stealth,*200 no dark'},
+{160.6,'*3 100 stealth,*3 100 dark'},
+
+{161.5,'*200 15 stealth,*200 no dark'},
+{161.6,'*3 100 stealth,*3 100 dark'},
+
+
+{162.5,'*200 15 stealth,*200 no dark'},
+{162.6,'*3 100 stealth,*3 100 dark'},
+
+{163.5,'*200 15 stealth,*200 no dark'},
+{163.6,'*3 100 stealth,*3 100 dark'},
+
+{164.5,'*200 15 stealth,*200 no dark'},
+{164.6,'*3 100 stealth,*3 100 dark'},
+
+{165.5,'*200 15 stealth,*200 no dark'},
+{165.6,'*3 100 stealth,*3 100 dark'},
+
+{166.5,'*200 15 stealth,*200 no dark'},
+{166.6,'*3 100 stealth,*3 100 dark'},
+
+{167.5,'*200 15 stealth,*200 no dark'},
+{167.6,'*3 100 stealth,*3 100 dark'},
+
+{168.5,'*200 15 stealth,*200 no dark'},
+{168.6,'*3 100 stealth,*3 100 dark'},
+
+{169.5,'*200 15 stealth,*200 no dark'},
+{169.6,'*3 100 stealth,*3 100 dark'},
+
+{170.5,'*200 15 stealth,*200 no dark'},
+{170.6,'*3 100 stealth,*3 100 dark'},
+
+{171.5,'*200 15 stealth,*200 no dark'},
+{171.6,'*3 100 stealth,*3 100 dark'},
+
+
+{172.5,'*200 15 stealth,*200 no dark'},
+{172.6,'*3 100 stealth,*3 100 dark'},
+
+{173.5,'*200 15 stealth,*200 no dark'},
+{173.6,'*2 0 stealth'},
+
+{174.5,'*5 split'},
+{175.0,'*5 no split,*5 200 reverse'},
+{175.4,'*5 no split,*100 no reverse'},
+
+-- how
+
+{176.00,'*1.0 no mini,*0.3 200 distant'},
+{176.50,'*1 mini'},
+
+{177.00,'*1.0 no mini'},
+{177.50,'*1 mini'},
+
+{178.00,'*1.0 no mini'},
+{178.50,'*1 mini'},
+
+{179.00,'*1.0 no mini'},
+{179.50,'*1 mini'},
+
+
+
+{180.00,'*1.0 no mini'},
+{180.50,'*1 mini'},
+
+{181.00,'*1.0 no mini'},
+{181.50,'*1 mini'},
+
+{182.00,'*1.0 no mini'},
+{182.50,'*1 mini'},
+
+{183.00,'*1.0 no mini'},
+{183.50,'*1 mini'},
+
+{184.00,'*1.0 no mini'},
+{184.50,'*1 mini'},
+
+{185.00,'*1.0 no mini'},
+{185.50,'*1 mini'},
+
+{186.00,'*1.0 no mini'},
+{186.50,'*1 mini'},
+
+{187.00,'*1.0 no mini'},
+{187.50,'*1 mini'},
+
+{188.00,'*1.0 no mini'},
+{188.50,'*1 mini'},
+
+{189.00,'*1.0 no mini'},
+{189.50,'*1 mini'},
+
+{190.00,'*1.0 no mini'},
+{190.50,'*1 mini'},
+
+{191.00,'*1.0 no mini,*0.3 no distant'},
+{191.50,'*1 mini'},
+
+{192.00,'*1.0 no mini'},
+{192.50,'*1 mini'},
+
+{193.00,'*1.0 no mini'},
+{193.50,'*1 mini'},
+
+{194.00,'*1.0 no mini'},
+{194.50,'*1 mini'},
+
+{195.00,'*1.0 no mini'},
+{195.50,'*1 mini'},
+
+{196.00,'*1.0 no mini'},
+{196.50,'*1 mini'},
+
+{197.00,'*1.0 no mini'},
+{197.50,'*1 mini'},
+
+{198.00,'*1.0 no mini'},
+{198.50,'*1 mini'},
+
+{199.00,'*1.0 no mini'},
+{199.50,'*1 mini'},
+
+
+{200.00,'*1.0 no mini'},
+{200.50,'*1 mini'},
+
+{201.00,'*1.0 no mini'},
+{201.50,'*1 mini'},
+
+{202.00,'*1.0 no mini'},
+{202.50,'*1 mini,*20 no beat'},
+
+{203.00,'*1.0 no mini'},
+
+
+{208.00,'*2.0 no mini,*20 200 beat'},
+{208.50,'*2 mini'},
+
+{209.00,'*2.0 no mini'},
+{209.50,'*2 mini'},
+
+{210.00,'*2.0 no mini'},
+{210.50,'*2 mini'},
+
+{211.00,'*2.0 no mini'},
+{211.50,'*2 mini'},
+
+{212.00,'*2.0 no mini'},
+{212.50,'*2 mini'},
+
+{213.00,'*2.0 no mini'},
+{213.50,'*2 mini'},
+
+{214.00,'*2.0 no mini'},
+{214.50,'*2 mini'},
+
+{215.00,'*2.0 no mini'},
+{215.50,'*2 mini'},
+
+{216.00,'*2.0 no mini'},
+{216.50,'*2 mini'},
+
+{217.00,'*2.0 no mini'},
+{217.50,'*2 mini'},
+
+{218.00,'*2.0 no mini'},
+{218.50,'*2 mini'},
+
+{219.00,'*2.0 no mini'},
+{219.50,'*2 mini'},
+
+{220.00,'*2.0 no mini'},
+{220.50,'*2 mini'},
+
+{221.00,'*2.0 no mini'},
+{221.50,'*2 mini'},
+
+{222.00,'*2.0 no mini'},
+{222.50,'*2 mini'},
+
+{223.00,'*2.0 no mini'},
+{223.50,'*2 mini'},
+
+{224.00,'*2.0 no mini'},
+{224.50,'*2 mini'},
+
+{225.00,'*2.0 no mini'},
+{225.50,'*2 mini'},
+
+{226.00,'*2.0 no mini'},
+{226.50,'*2 mini'},
+
+{227.00,'*2.0 no mini'},
+{227.50,'*2 mini'},
+
+{228.00,'*2.0 no mini'},
+{228.50,'*2 mini'},
+
+{229.00,'*2.0 no mini'},
+{229.50,'*2 mini'},
+
+{230.00,'*2.0 no mini'},
+{230.50,'*2 mini'},
+
+{231.00,'*2.0 no mini'},
+{231.50,'*2 mini'},
+
+{232.00,'*2.0 no mini'},
+{232.50,'*2 mini'},
+
+{233.00,'*2.0 no mini'},
+{233.50,'*2 mini'},
+
+{234.00,'*2.0 no mini'},
+{234.50,'*2 mini'},
+
+{235.00,'*2.0 no mini'},
+{235.50,'*2 mini'},
+
+{236.00,'*2.0 no mini'},
+{236.50,'*2 mini'},
+
+{237.00,'*2.0 no mini'},
+{237.50,'*2 mini,*5 no invert'},
+
+{238.00,'*2.0 no mini,*9 no invert'},
+{238.50,'*2 mini,*9 invert'},
+
+{239.00,'*2.0 no mini,*9 no invert'},
+{239.50,'*2 mini'},
+
+{240.00,'*2.0 no mini'},
+{240.50,'*2 mini'},
+
+{241.00,'*2.0 no mini'},
+{241.50,'*2 mini'},
+
+{242.00,'*2.0 no mini'},
+{242.50,'*2 mini'},
+
+{243.00,'*2.0 no mini'},
+{243.50,'*2 mini'},
+
+{244.00,'*2.0 no mini'},
+{244.50,'*2 mini'},
+
+{245.00,'*2.0 no mini'},
+{245.50,'*2 mini'},
+
+{246.00,'*2.0 no mini'},
+{246.50,'*2 mini'},
+
+{247.00,'*2.0 no mini'},
+{247.50,'*2 mini'},
+
+{248.00,'*2.0 no mini'},
+{248.50,'*2 mini'},
+
+{249.00,'*2.0 no mini'},
+{249.50,'*2 mini'},
+
+{250.00,'*2.0 no mini'},
+{250.50,'*2 mini'},
+
+{251.00,'*2.0 no mini'},
+{251.50,'*2 mini'},
+
+{252.00,'*2.0 no mini'},
+{252.50,'*2 mini'},
+
+{253.00,'*2.0 no mini'},
+{253.50,'*2 mini'},
+
+{254.00,'*2.0 no mini'},
+{254.50,'*2 mini'},
+
+{255.00,'*2.0 no mini'},
+{255.50,'*2 mini'},
+
+{256.00,'*2.0 no mini'},
+{256.50,'*2 mini'},
+
+{257.00,'*2.0 no mini'},
+{257.50,'*2 mini'},
+
+{258.00,'*2.0 no mini'},
+{258.50,'*2 mini'},
+
+{259.00,'*2.0 no mini'},
+{259.50,'*2 mini'},
+
+{260.00,'*2.0 no mini'},
+{260.50,'*2 mini'},
+
+{261.00,'*2.0 no mini'},
+{261.50,'*2 mini'},
+
+{262.00,'*2.0 no mini'},
+{262.50,'*2 mini'},
+
+{263.00,'*2.0 no mini'},
+{263.50,'*2 mini'},
+
+{264.00,'*2.0 no mini'},
+{264.50,'*2 mini'},
+
+{265.00,'*2.0 no mini'},
+{265.50,'*2 mini'},
+
+{266.00,'*2.0 no mini'},
+{266.50,'*2 mini'},
+
+{267.00,'*2.0 no mini'},
+
+
+
+{270.00,'*1.0 250 tornado,*20 2000 dizzy,*1 stealth,*5 no beat'},
+
+{304.00,'*100 250 tornado,*20 2000 dizzy,*1 no stealth,*200 200 brake'},
+{304.10,'*1 0 tornado,*20 0 dizzy,*1 no stealth,*1 0 brake,*2 80 drunk'},
+
+{308.00,'*2.0 no dark,*2.5 -10 split,*2.5 -10 cross,*2.5 -10 alternate,*5 20 reverse'},
+{308.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{308.50,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{308.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{309.00,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{309.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+
+{309.50,'*2.0 no dark,*2.5 -10 split,*2.5 -10 cross,*2.5 -10 alternate,*5 20 reverse'},
+{309.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{310.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{310.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{310.50,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{310.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+
+{311.00,'*2.0 no dark,*2.5 -10 split,*2.5 -10 cross,*2.5 -10 alternate,*5 20 reverse'},
+{311.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{311.50,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{311.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+
+{312.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{312.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{312.50,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{312.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{313.00,'*2.0 no dark,*5 10 split,*5 -10 cross,*5 10 alternate,*5 0 reverse'},
+{313.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{313.50,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{313.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{314.00,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{314.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{314.50,'*2.0 no dark,*5 10 split,*5 -10 cross,*5 10 alternate,*5 0 reverse'},
+{314.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{315.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{315.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{315.50,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{315.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+---asd
+
+
+{316.00,'*2.0 no dark,*2.5 -10 split,*2.5 -10 cross,*2.5 -10 alternate,*5 20 reverse'},
+{316.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{316.50,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{316.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{317.00,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{317.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{317.50,'*2.0 no dark,*2.5 -10 split,*2.5 -10 cross,*2.5 -10 alternate,*5 20 reverse'},
+{317.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{318.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{318.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{318.50,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{318.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{319.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{319.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{319.50,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{319.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+--dd
+
+{320.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{320.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{320.50,'*2.0 no dark,*5 10 split,*5 -10 cross,*5 10 alternate,*5 0 reverse'},
+{320.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{321.00,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{321.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{321.50,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{321.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{322.00,'*2.0 no dark,*5 10 split,*5 -10 cross,*5 10 alternate,*5 0 reverse'},
+{322.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{322.50,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{322.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{323.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{323.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{323.50,'*2.0 no dark,*5 10 split,*5 -10 cross,*5 10 alternate,*5 0 reverse'},
+{323.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+-----second time
+
+{324.00,'*2.0 no dark,*2.5 -10 split,*2.5 -10 cross,*2.5 -10 alternate,*5 20 reverse'},
+{324.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{324.50,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{324.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{325.00,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{325.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+
+{325.50,'*2.0 no dark,*2.5 -10 split,*2.5 -10 cross,*2.5 -10 alternate,*5 20 reverse'},
+{325.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{326.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{326.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{326.50,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{326.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+
+{327.00,'*2.0 no dark,*2.5 -10 split,*2.5 -10 cross,*2.5 -10 alternate,*5 20 reverse'},
+{327.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{327.50,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{327.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+
+{328.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{328.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{328.50,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{328.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{329.00,'*2.0 no dark,*5 10 split,*5 -10 cross,*5 10 alternate,*5 0 reverse'},
+{329.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{329.50,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{329.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{330.00,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{330.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{330.50,'*2.0 no dark,*5 10 split,*5 -10 cross,*5 10 alternate,*5 0 reverse'},
+{330.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{331.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{331.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{331.50,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{331.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+---asd
+
+
+{332.00,'*2.0 no dark,*2.5 -10 split,*2.5 -10 cross,*2.5 -10 alternate,*5 20 reverse'},
+{332.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{332.50,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{332.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{333.00,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{333.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{333.50,'*2.0 no dark,*2.5 -10 split,*2.5 -10 cross,*2.5 -10 alternate,*5 20 reverse'},
+{333.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{334.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{334.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{334.50,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{334.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{335.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{335.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{335.50,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{335.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+--dd
+
+{336.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{336.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{336.50,'*2.0 no dark,*5 10 split,*5 -10 cross,*5 10 alternate,*5 0 reverse'},
+{336.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{337.00,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{337.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{337.50,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{337.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{338.00,'*2.0 no dark,*5 10 split,*5 -10 cross,*5 10 alternate,*5 0 reverse'},
+{338.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+
+--[[
+{338.50,'*2.0 no dark,*5 10 split,*5 10 cross,*5 -10 alternate,*5 0 reverse'},
+{338.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{339.00,'*2.0 no dark,*5 -10 split,*5 10 cross,*5 10 alternate,*5 0 reverse'},
+{339.10,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+
+{339.50,'*2.0 no dark,*5 10 split,*5 -10 cross,*5 10 alternate,*5 0 reverse'},
+{339.60,'*2.0 no dark,*0.5 0 split,*0.5 0 cross,*0.5 0 alternate,*1 0 reverse'},
+]]--
+
+---chorus final
+
+{340.00,'*3.0 no mini,*1 20 drunk'},
+{340.50,'*3 mini'},
+
+{341.00,'*3.0 no mini'},
+{341.50,'*3 mini'},
+
+{342.00,'*3.0 no mini'},
+{342.50,'*3 mini'},
+
+{343.00,'*3.0 no mini'},
+{343.50,'*3 mini'},
+
+{344.00,'*3.0 no mini'},
+{344.50,'*3 mini'},
+
+{345.00,'*3.0 no mini'},
+{345.50,'*3 mini'},
+
+{346.00,'*3.0 no mini'},
+{346.50,'*3 mini'},
+
+{347.00,'*3.0 no mini'},
+{347.50,'*3 mini'},
+
+{348.00,'*3.0 no mini'},
+{348.50,'*3 mini'},
+
+{349.00,'*3.0 no mini'},
+{349.50,'*3 mini'},
+
+{350.00,'*3.0 no mini'},
+{350.50,'*3 mini'},
+
+{351.00,'*3.0 no mini'},
+{351.50,'*3 mini'},
+
+{352.00,'*3.0 no mini'},
+{352.50,'*3 mini'},
+
+{353.00,'*3.0 no mini'},
+{353.50,'*3 mini'},
+
+{354.00,'*3.0 no mini'},
+{354.50,'*3 mini'},
+
+{355.00,'*3.0 no mini'},
+{355.50,'*3 mini'},
+
+{356.00,'*3.0 no mini'},
+{356.50,'*3 mini'},
+
+{357.00,'*3.0 no mini'},
+{357.50,'*3 mini'},
+
+{358.00,'*3.0 no mini'},
+{358.50,'*3 mini'},
+
+{359.00,'*3.0 no mini'},
+{359.50,'*3 mini'},
+
+{360.00,'*3.0 no mini'},
+{360.50,'*3 mini'},
+
+{361.00,'*3.0 no mini'},
+{361.50,'*3 mini'},
+
+{362.00,'*3.0 no mini'},
+{362.50,'*3 mini'},
+
+{363.00,'*3.0 no mini'},
+{363.50,'*3 mini'},
+
+{364.00,'*3.0 no mini'},
+{364.50,'*3 mini'},
+
+{365.00,'*3.0 no mini'},
+{365.50,'*3 mini'},
+
+{366.00,'*3.0 no mini'},
+{366.50,'*3 mini'},
+
+{367.00,'*3.0 no mini'},
+{367.50,'*3 mini'},
+
+{368.00,'*3.0 no mini'},
+{368.50,'*3 mini'},
+
+{369.00,'*3.0 no mini,*1 no drunk,*20 2000 dizzy,*1 stealth'},
+{385.00,'*3.0 no mini,*1 no drunk,*200 0 dizzy,*1 no stealth'},
+
+
+{388.00,'*1 boost,*1 brake,*1 wave'},
+{401.00,'*2 dark,*2 50 stealth,*200 blind'},
+
+
+}
+
+--anything eater / timed object manipulation
+cura = 1;
+aorigin = 0;
+anything = {
+
+{0.01,},
+
+{0,'screen','addy',100},
+
+{0,'P1','x',SCREEN_CENTER_X-0},
+{0,'P1','addy',-100},
+{0,'P1','zoomz',1},
+
+
+{0,'P2','x',SCREEN_CENTER_X+0},
+{0,'P2','addy',-100},
+{0,'P2','zoomz',1},
+
+{0,'songbg','addy',-100},
+
+{0,'songfg','addy',-100},
+
+{0,'jud1','addx',-100},
+{0,'com1','addx',-100},
+
+{0,'jud2','addx',100},
+{0,'com2','addx',100},
+
+
+{32,},
+
+{0,'P1','x',SCREEN_CENTER_X-0},
+{0,'P1','y',SCREEN_CENTER_Y-100},
+
+
+{45.5,},
+
+{0,'P1','wag',},
+{0,'P1','effectmagnitude',0,0,10},
+{0,'P1','effectclock','bgm'},
+{0,'P1','effectperiod',0.2},
+
+{0,'P2','wag',},
+{0,'P2','effectmagnitude',0,0,10},
+{0,'P2','effectclock','bgm'},
+{0,'P2','effectperiod',0.2},
+
+
+{46,},
+
+{0,'P1','stopeffect',},
+
+{0,'P2','stopeffect',},
+
+
+{57,},
+
+{0,'P1','x',SCREEN_CENTER_X-0},
+{0,'P1','y',SCREEN_CENTER_Y-100},
+
+{0,'P1','decelerate',2.5},
+{0,'P1','addx',160},
+
+{0,'P2','decelerate',2.5},
+{0,'P2','addx',160},
+
+
+{61.500,},
+
+
+
+
+{0,'P1','spring',0.5},
+{0,'P1','addx',-160},
+
+{0,'P2','spring',0.5},
+{0,'P2','addx',-160},
+
+{0,'P1','wag',},
+{0,'P1','effectmagnitude',0,0,10},
+{0,'P1','effectclock','bgm'},
+{0,'P1','effectperiod',0.2},
+
+{0,'P2','wag',},
+{0,'P2','effectmagnitude',0,0,10},
+{0,'P2','effectclock','bgm'},
+{0,'P2','effectperiod',0.2},
+
+{62.000,},
+
+{0,'P1','stopeffect',},
+
+{0,'P2','stopeffect',},
+
+
+{77.5,},
+
+{0,'P1','wag',},
+{0,'P1','effectmagnitude',0,0,10},
+{0,'P1','effectclock','bgm'},
+{0,'P1','effectperiod',0.2},
+
+{0,'P2','wag',},
+{0,'P2','effectmagnitude',0,0,10},
+{0,'P2','effectclock','bgm'},
+{0,'P2','effectperiod',0.2},
+
+
+{78,},
+
+{0,'P1','stopeffect',},
+
+{0,'P2','stopeffect',},
+
+
+{91.5,},
+
+{0,'P1','x',SCREEN_CENTER_X-0},
+{0,'P1','y',SCREEN_CENTER_Y-100},
+
+{0,'P1','decelerate',1.5},
+
+{0,'P1','zoomy',1.5},
+{0,'P1','zoomx',0.3},
+
+
+{0,'P2','decelerate',1.5},
+
+{0,'P2','zoomy',1.5},
+{0,'P2','zoomx',0.3},
+
+
+{95,},
+
+{0,'P1','x',SCREEN_CENTER_X-0},
+{0,'P1','y',SCREEN_CENTER_Y-100},
+
+{0,'P1','spring',0.5},
+
+{0,'P1','zoomy',1},
+{0,'P1','zoomx',1},
+
+{0,'P2','spring',0.5},
+
+{0,'P2','zoomy',1},
+{0,'P2','zoomx',1},
+
+{96,},
+
+{0,'P1','wag',},
+{0,'P1','effectmagnitude',0,0,20},
+{0,'P1','effectclock','bgm'},
+{0,'P1','effectperiod',2},
+
+{0,'P2','wag',},
+{0,'P2','effectmagnitude',0,0,20},
+{0,'P2','effectclock','bgm'},
+{0,'P2','effectperiod',2},
+
+
+{131,},
+
+{0,'P1','x',SCREEN_CENTER_X-0},
+{0,'P1','y',SCREEN_CENTER_Y-100},
+
+{0,'P1','decelerate',5},
+{0,'P1','rotationx',-60},
+
+{0,'P2','decelerate',5},
+{0,'P2','rotationx',-60},
+
+
+{144,},
+
+{0,'P1','x',SCREEN_CENTER_X-0},
+{0,'P1','y',SCREEN_CENTER_Y-100},
+
+{0,'P1','decelerate',5},
+{0,'P1','rotationx',0},
+
+{0,'P2','decelerate',5},
+{0,'P2','rotationx',0},
+
+{159,},
+
+{0,'P1','stopeffect',},
+{0,'P2','stopeffect',},
+
+{0,'jud1','stopeffect',},
+{0,'jud2','stopeffect',},
+
+{0,'com1','stopeffect',},
+{0,'com2','stopeffect',},
+
+
+{160.5,},
+
+{0,'P1','bob',},
+{0,'P1','effectmagnitude',20,0,0},
+{0,'P1','effectclock','bgm'},
+{0,'P1','effectperiod',0.2},
+
+{0,'P2','bob',},
+{0,'P2','effectmagnitude',20,0,0},
+{0,'P2','effectclock','bgm'},
+{0,'P2','effectperiod',0.2},
+
+{0,'jud1','bob',},
+{0,'jud1','effectmagnitude',-20,0,0},
+{0,'jud1','effectclock','bgm'},
+{0,'jud1','effectperiod',0.2},
+
+{0,'com1','bob',},
+{0,'com1','effectmagnitude',-20,0,0},
+{0,'com1','effectclock','bgm'},
+{0,'com1','effectperiod',0.2},
+
+
+{0,'jud2','bob',},
+{0,'jud2','effectmagnitude',-20,0,0},
+{0,'jud2','effectclock','bgm'},
+{0,'jud2','effectperiod',0.2},
+
+{0,'com2','bob',},
+{0,'com2','effectmagnitude',-20,0,0},
+{0,'com2','effectclock','bgm'},
+{0,'com2','effectperiod',0.2},
+
+
+{174,},
+
+{0,'P1','stopeffect',},
+{0,'P2','stopeffect',},
+
+{0,'jud1','stopeffect',},
+{0,'jud2','stopeffect',},
+
+{0,'com1','stopeffect',},
+{0,'com2','stopeffect',},
+
+{203.5,},
+
+{0,'P1','x',SCREEN_CENTER_X-0},
+{0,'P1','y',SCREEN_CENTER_Y-100},
+
+{0,'P1','decelerate',2},
+{0,'P1','rotationz',360},
+{0,'P1','sleep',0},
+{0,'P1','rotationz',0},
+
+{0,'P2','decelerate',2},
+{0,'P2','rotationz',360},
+{0,'P2','sleep',0},
+{0,'P2','rotationz',0},
+
+
+{208,},
+
+{0,'P1','wag',},
+{0,'P1','effectmagnitude',0,30,20},
+{0,'P1','effectclock','bgm'},
+{0,'P1','effectperiod',2},
+{0,'P1','effectoffset',0.5},
+
+{0,'P2','wag',},
+{0,'P2','effectmagnitude',0,30,20},
+{0,'P2','effectclock','bgm'},
+{0,'P2','effectperiod',2},
+{0,'P2','effectoffset',0.5},
+
+{267.5,},
+
+{0,'P1','stopeffect',},
+
+{0,'P2','stopeffect',},
+
+{340,},
+
+{0,'P1','x',SCREEN_CENTER_X-0},
+{0,'P1','y',SCREEN_CENTER_Y-100},
+
+{0,'P1','linear',1},
+{0,'P1','zoomz',2},
+
+{0,'P2','linear',1},
+{0,'P2','zoomz',2},
+
+
+{0,'P1','wag',},
+{0,'P1','effectmagnitude',0,30,20},
+{0,'P1','effectclock','bgm'},
+{0,'P1','effectperiod',2},
+{0,'P1','effectoffset',0},
+
+{0,'P2','wag',},
+{0,'P2','effectmagnitude',0,30,20},
+{0,'P2','effectclock','bgm'},
+{0,'P2','effectperiod',2},
+{0,'P2','effectoffset',0},
+
+{369,},
+
+{0,'P1','stopeffect',},
+
+{0,'P2','stopeffect',},
+
+
+}
+
+--choose to skip anything in the previous table
+anythingskip = {
+}
+
+--SCREAMING GUMBALL / timed message broadcaster
+curmessage = 1;
+--{beat,message,ignoreIfAhead}
+messages = {
+}
+			
+		end"
+		
+		UpdateCommand="%function(self)
+
+			if GAMESTATE:GetSongBeat()>=0.1 and not checked then
+				if SCREENMAN:GetTopScreen():GetChild('PlayerP1') then p1on = true; else p1on = false; end
+				if SCREENMAN:GetTopScreen():GetChild('PlayerP2') then p2on = true; else p2on = false; end
+				
+				P1 = SCREENMAN:GetTopScreen():GetChild('PlayerP1');
+				P2 = SCREENMAN:GetTopScreen():GetChild('PlayerP2');
+				
+				if P1 then jud1 = SCREENMAN:GetTopScreen():GetChild('PlayerP1'):GetChild('Judgment'); end				if P2 then jud2 = SCREENMAN:GetTopScreen():GetChild('PlayerP2'):GetChild('Judgment'); end
+				
+				if P1 then com1 = SCREENMAN:GetTopScreen():GetChild('PlayerP1'):GetChild('Combo'); end				if P2 then com2 = SCREENMAN:GetTopScreen():GetChild('PlayerP2'):GetChild('Combo'); end
+				
+				
+				if SCREENMAN:GetTopScreen():GetChild('LifeP1') then LifeP1 = SCREENMAN:GetTopScreen():GetChild('LifeP1') end
+				if SCREENMAN:GetTopScreen():GetChild('LifeP2') then LifeP2 = SCREENMAN:GetTopScreen():GetChild('LifeP2') end
+				if SCREENMAN:GetTopScreen():GetChild('ScoreP1') then ScoreP1 = SCREENMAN:GetTopScreen():GetChild('ScoreP1') end
+				if SCREENMAN:GetTopScreen():GetChild('ScoreP2') then ScoreP2 = SCREENMAN:GetTopScreen():GetChild('ScoreP2') end
+				if SCREENMAN:GetTopScreen():GetChild('BPMDisplay') then BPMDisplay = SCREENMAN:GetTopScreen():GetChild('BPMDisplay') end
+				if SCREENMAN:GetTopScreen():GetChild('LifeFrame') then LifeFrame = SCREENMAN:GetTopScreen():GetChild('LifeFrame') end
+				if SCREENMAN:GetTopScreen():GetChild('ScoreFrame') then ScoreFrame = SCREENMAN:GetTopScreen():GetChild('ScoreFrame') end
+				if SCREENMAN:GetTopScreen():GetChild('Lyrics') then Lyrics = SCREENMAN:GetTopScreen():GetChild('Lyrics') end
+				if SCREENMAN:GetTopScreen():GetChild('SongForeground') then SongForeground = SCREENMAN:GetTopScreen():GetChild('SongForeground') end
+				if SCREENMAN:GetTopScreen():GetChild('SongBackground') then SongBackground = SCREENMAN:GetTopScreen():GetChild('SongBackground') end
+				if SCREENMAN:GetTopScreen():GetChild('Overlay') then Overlay = SCREENMAN:GetTopScreen():GetChild('Overlay') end
+				if SCREENMAN:GetTopScreen():GetChild('Underlay') then Underlay = SCREENMAN:GetTopScreen():GetChild('Underlay') end
+				
+				screen = SCREENMAN:GetTopScreen();
+				songfg = SCREENMAN:GetTopScreen():GetChild('SongForeground')
+				songbg = SCREENMAN:GetTopScreen():GetChild('SongBackground')
+				checked = true;
+			end
+			
+			
+			
+			if GAMESTATE:GetSongBeat()>=0.115 and fgcurcommand == 1 then
+			
+			
+			for i=0, 3 do
+			
+			_G['receptor_rotationz_'..i] = '0';
+				_G['noteskin_rotationz_'..i] = '0';
+				end
+
+				SCREENMAN:GetTopScreen():GetChild('Overlay'):hidden(1);
+
+				if SCREENMAN:GetTopScreen():GetChild('LifeFrame') then
+				SCREENMAN:GetTopScreen():GetChild('LifeFrame'):y(-9999); end
+				if SCREENMAN:GetTopScreen():GetChild('BPMDisplay') then
+				SCREENMAN:GetTopScreen():GetChild('BPMDisplay'):y(-9999); end
+				
+				
+
+					if GAMESTATE:IsHumanPlayer(PLAYER_1) then
+						SCREENMAN:GetTopScreen():GetChild('LifeP1'):hidden(1);
+						SCREENMAN:GetTopScreen():GetChild('ScoreP1'):hidden(1);
+
+					end
+ 
+					if SCREENMAN:GetTopScreen():GetChild('PlayerP2') then
+						SCREENMAN:GetTopScreen():GetChild('LifeP2'):hidden(1);
+						SCREENMAN:GetTopScreen():GetChild('ScoreP2'):hidden(1);
+
+					end
+					fgcurcommand = fgcurcommand + 1;
+				end
+				
+				
+				
+			
+			local beat = GAMESTATE:GetSongBeat()
+			
+---------------------------------------------------------------------------------------
+----------------------DON'T TOUCH IT KIDDO---------------------------------------------
+---------------------------------------------------------------------------------------
+			
+			disable = false;
+			if disable ~= true then
+					
+			--custom mod reader (c) 2012 #taronuke #yolo #swag #swag #amazon.co.jp #teamproofofconcept #swag
+			while curmod<=table.getn(mods) and GAMESTATE:GetSongBeat()>=mods[curmod][1] do
+				if table.getn(mods[curmod]) == 3 then
+					GAMESTATE:ApplyGameCommand('mod,'..mods[curmod][2],mods[curmod][3]);
+				else
+					GAMESTATE:ApplyGameCommand('mod,'..mods[curmod][2]);
+				end
+				curmod = curmod+1;
+			end
+			
+			--SCREAMING GUMBALL
+			while curmessage<=table.getn(messages) and GAMESTATE:GetSongBeat()>=messages[curmessage][1] do
+				if messages[curmessage][3] and GAMESTATE:GetSongBeat()>=messages[curmessage][1]+5 then
+					curmessage = curmessage+1;
+				else
+					MESSAGEMAN:Broadcast(messages[curmessage][2]);
+					curmessage = curmessage+1;
+				end
+			end
+			
+			if anything[cura] and anything[cura][1] and anything[cura][1] > aorigin then aorigin = anything[cura][1]; end
+			
+			--ANYTHING EATER (c) 2013 #taronuke #yolo #swag #swag #amazon.co.jp #teamproofofconcept #swag
+			while checked and cura<=table.getn(anything) and anything[cura] and GAMESTATE:GetSongBeat()>=anything[cura][1] do
+				--SCREENMAN:SystemMessage('run '..anything[cura][3]..' on '..anything[cura][2]);
+				if GAMESTATE:GetSongBeat()>aorigin+5 and anything[cura][2] == 'P1' then
+					cura = cura+1;
+				else
+					if anything[cura][2] == 'SystemMessage' then
+						SCREENMAN:SystemMessage(anything[cura][3]);
+					elseif _G[anything[cura][2]] and anything[cura][3] then
+						
+						if anything[cura][3] == 'sleep' then _G[anything[cura][2]]:sleep(anything[cura][4]); end
+						if anything[cura][3] == 'linear' then _G[anything[cura][2]]:linear(anything[cura][4]); end
+						if anything[cura][3] == 'decelerate' then _G[anything[cura][2]]:decelerate(anything[cura][4]); end
+						if anything[cura][3] == 'accelerate' then _G[anything[cura][2]]:accelerate(anything[cura][4]); end
+						if anything[cura][3] == 'bouncebegin' then _G[anything[cura][2]]:bouncebegin(anything[cura][4]); end
+						if anything[cura][3] == 'bounceend' then _G[anything[cura][2]]:bounceend(anything[cura][4]); end
+						if anything[cura][3] == 'spring' then _G[anything[cura][2]]:spring(anything[cura][4]); end
+					
+						if anything[cura][3] == 'x' then _G[anything[cura][2]]:x(anything[cura][4]); end
+						if anything[cura][3] == 'y' then _G[anything[cura][2]]:y(anything[cura][4]); end
+						if anything[cura][3] == 'z' then _G[anything[cura][2]]:z(anything[cura][4]); end
+						if anything[cura][3] == 'addx' then _G[anything[cura][2]]:addx(anything[cura][4]); end
+						if anything[cura][3] == 'addy' then _G[anything[cura][2]]:addy(anything[cura][4]); end
+						if anything[cura][3] == 'addz' then _G[anything[cura][2]]:addz(anything[cura][4]); end
+						if anything[cura][3] == 'zoom' then _G[anything[cura][2]]:zoom(anything[cura][4]); end
+						if anything[cura][3] == 'zoomx' then _G[anything[cura][2]]:zoomx(anything[cura][4]); end
+						if anything[cura][3] == 'zoomy' then _G[anything[cura][2]]:zoomy(anything[cura][4]); end
+						if anything[cura][3] == 'zoomz' then _G[anything[cura][2]]:zoomz(anything[cura][4]); end
+						if anything[cura][3] == 'zoomtowidth' then _G[anything[cura][2]]:zoomtowidth(anything[cura][4]); end
+						if anything[cura][3] == 'zoomtoheight' then _G[anything[cura][2]]:zoomtoheight(anything[cura][4]); end
+						if anything[cura][3] == 'rotationx' then _G[anything[cura][2]]:rotationx(anything[cura][4]); end
+						if anything[cura][3] == 'rotationy' then _G[anything[cura][2]]:rotationy(anything[cura][4]); end
+						if anything[cura][3] == 'rotationz' then _G[anything[cura][2]]:rotationz(anything[cura][4]); end
+						if anything[cura][3] == 'diffusealpha' then _G[anything[cura][2]]:diffusealpha(anything[cura][4]); end
+						if anything[cura][3] == 'skewx' then _G[anything[cura][2]]:skewx(anything[cura][4]); end
+						
+						if anything[cura][3] == 'croptop' then _G[anything[cura][2]]:croptop(anything[cura][4]); end
+						if anything[cura][3] == 'cropleft' then _G[anything[cura][2]]:cropleft(anything[cura][4]); end
+						if anything[cura][3] == 'cropright' then _G[anything[cura][2]]:cropright(anything[cura][4]); end
+						if anything[cura][3] == 'cropbottom' then _G[anything[cura][2]]:cropbottom(anything[cura][4]); end
+						if anything[cura][3] == 'fadetop' then _G[anything[cura][2]]:fadetop(anything[cura][4]); end
+						if anything[cura][3] == 'fadeleft' then _G[anything[cura][2]]:fadeleft(anything[cura][4]); end
+						if anything[cura][3] == 'faderight' then _G[anything[cura][2]]:faderight(anything[cura][4]); end
+						if anything[cura][3] == 'fadebottom' then _G[anything[cura][2]]:fadebottom(anything[cura][4]); end
+						
+						if anything[cura][3] == 'diffuse' then
+							_G[anything[cura][2]]:diffuse(anything[cura][4],anything[cura][5],anything[cura][6],anything[cura][7]);
+						end
+						if anything[cura][3] == 'glow' then
+							_G[anything[cura][2]]:glow(anything[cura][4],anything[cura][5],anything[cura][6],anything[cura][7]);
+						end
+						
+						if anything[cura][3] == 'wag' then _G[anything[cura][2]]:wag(); end
+						if anything[cura][3] == 'pulse' then _G[anything[cura][2]]:pulse(); end
+						if anything[cura][3] == 'spin' then _G[anything[cura][2]]:spin(); end
+						if anything[cura][3] == 'bounce' then _G[anything[cura][2]]:bounce(); end
+						if anything[cura][3] == 'bob' then _G[anything[cura][2]]:bob(); end
+						if anything[cura][3] == 'vibrate' then _G[anything[cura][2]]:vibrate(); end
+						if anything[cura][3] == 'diffuseshift' then _G[anything[cura][2]]:diffuseshift(); end
+						if anything[cura][3] == 'glowshift' then _G[anything[cura][2]]:glowshift(); end
+						if anything[cura][3] == 'rainbow' then _G[anything[cura][2]]:rainbow(); end
+						
+						if anything[cura][3] == 'effectmagnitude' then
+							_G[anything[cura][2]]:effectmagnitude(anything[cura][4],anything[cura][5],anything[cura][6]);
+						end
+						if anything[cura][3] == 'effectclock' then _G[anything[cura][2]]:effectclock(anything[cura][4]); end
+						if anything[cura][3] == 'effectperiod' then _G[anything[cura][2]]:effectperiod(anything[cura][4]); end
+						if anything[cura][3] == 'effectoffset' then _G[anything[cura][2]]:effectoffset(anything[cura][4]); end
+						if anything[cura][3] == 'effectdelay' then _G[anything[cura][2]]:effectdelay(anything[cura][4]); end
+						if anything[cura][3] == 'effectcolor1' then
+							_G[anything[cura][2]]:effectcolor1(anything[cura][4],anything[cura][5],anything[cura][6],anything[cura][7]);
+						end
+						if anything[cura][3] == 'effectcolor2' then
+							_G[anything[cura][2]]:effectcolor2(anything[cura][4],anything[cura][5],anything[cura][6],anything[cura][7]);
+						end
+						
+						if anything[cura][3] == 'stopeffect' then _G[anything[cura][2]]:stopeffect(); end
+						if anything[cura][3] == 'stoptweening' then _G[anything[cura][2]]:stoptweening(); end
+						if anything[cura][3] == 'finishtweening' then _G[anything[cura][2]]:finishtweening(); end
+						if anything[cura][3] == 'hurrytweening' then _G[anything[cura][2]]:hurrytweening(anything[cura][4]); end
+						
+					end
+					cura = cura+1;
+				end
+			end
+			
+			end
+			
+			self:queuecommand('Update2');
+
+---------------------------------------------------------------------------------------
+----------------------END DON'T TOUCH IT KIDDO-----------------------------------------
+---------------------------------------------------------------------------------------
+			
+		end"
+  
+		Update2Command="%function(self)
+			self:sleep(0.0166666666);
+			self:queuecommand('Update');
+		end"
+		
+	/>
+
+	
+</children></ActorFrame>
+

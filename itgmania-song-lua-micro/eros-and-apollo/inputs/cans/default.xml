@@ -1,0 +1,29 @@
+<ActorFrame OnCommand="fov,20"><children>
+
+
+
+
+	<Layer
+		File="outline_can.txt"
+		OnCommand="x,SCREEN_CENTER_X-300;y,SCREEN_CENTER_Y;z,900;rainbow;diffusealpha,1;rotationx,90;rotationy,45;decelerate,4;zoom,0;addx,320;rotationx,20;rotationy,-450;"
+	/>
+
+
+	<Layer
+		File="outline_can.txt"
+		OnCommand="hibernate,0.2;x,SCREEN_CENTER_X+300;y,SCREEN_CENTER_Y;z,900;rainbow;diffusealpha,1;rotationx,90;rotationy,-45;decelerate,4;zoom,0;addx,-320;rotationx,-20;rotationy,200;"
+	/>
+
+	<Layer
+		File="outline_can.txt"
+		OnCommand="hibernate,0.4;x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y-300;z,900;rainbow;diffusealpha,1;rotationx,90;rotationy,45;decelerate,4;zoom,0;addy,320;rotationz,-360;rotationy,0;"
+	/>
+
+	<Layer
+		File="outline_can.txt"
+		OnCommand="hibernate,0.6;x,SCREEN_CENTER_X+0;y,SCREEN_CENTER_Y+300;z,900;rainbow;diffusealpha,1;rotationx,40;rotationy,45;decelerate,4;zoom,0;addy,-340;rotationz,360;rotationy,0;"
+	/>
+
+
+
+</children></ActorFrame>

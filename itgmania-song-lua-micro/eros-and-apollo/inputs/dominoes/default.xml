@@ -1,0 +1,50 @@
+<ActorFrame OnCommand="fov,130;addy,-20;addx,-120"><children>
+
+
+
+
+	<Layer
+		File="domino.txt"
+		OnCommand="x,SCREEN_CENTER_X-300;y,SCREEN_CENTER_Y-0;z,-200;rotationy,50;rotationx,0;zoom,3;diffusealpha,0;linear,2;diffusealpha,1;sleep,1;accelerate,3;rotationx,360;addy,200;diffusealpha,0"
+	/>
+
+
+	<Layer
+		File="domino.txt"
+		OnCommand="hibernate,0.2;x,SCREEN_CENTER_X-200;y,SCREEN_CENTER_Y-0;z,-150;rotationy,60;rotationx,0;zoom,3;diffusealpha,0;linear,2;diffusealpha,1;sleep,1;accelerate,3;rotationx,360;addy,200;diffusealpha,0"
+	/>
+
+
+	<Layer
+		File="domino.txt"
+		OnCommand="hibernate,0.4;x,SCREEN_CENTER_X-100;y,SCREEN_CENTER_Y-0;z,-100;rotationy,70;rotationx,0;zoom,3;diffusealpha,0;linear,2;diffusealpha,1;sleep,1;accelerate,3;rotationx,360;addy,200;diffusealpha,0"
+	/>
+
+	<Layer
+		File="domino.txt"
+		OnCommand="hibernate,0.6;x,SCREEN_CENTER_X-0;y,SCREEN_CENTER_Y-0;z,-50;rotationy,80;rotationx,0;zoom,3;diffusealpha,0;linear,2;diffusealpha,1;sleep,1;accelerate,3;rotationx,360;addy,200;diffusealpha,0"
+	/>
+
+	<Layer
+		File="domino.txt"
+		OnCommand="hibernate,0.8;x,SCREEN_CENTER_X+100;y,SCREEN_CENTER_Y-0;z,0;rotationy,90;rotationx,0;zoom,3;diffusealpha,0;linear,2;diffusealpha,1;sleep,1;accelerate,3;rotationx,360;addy,200;diffusealpha,0"
+	/>
+
+	<Layer
+		File="domino.txt"
+		OnCommand="hibernate,1;x,SCREEN_CENTER_X+150;y,SCREEN_CENTER_Y-0;z,20;rotationy,92;rotationx,0;zoom,3;diffusealpha,0;linear,2;diffusealpha,1;sleep,1;accelerate,3;rotationx,360;addy,200;diffusealpha,0"
+	/>
+
+	<Layer
+		File="domino.txt"
+		OnCommand="hibernate,1.2;x,SCREEN_CENTER_X+200;y,SCREEN_CENTER_Y-0;z,40;rotationy,100;rotationx,0;zoom,3;diffusealpha,0;linear,2;diffusealpha,1;sleep,1;accelerate,3;rotationx,360;addy,200;diffusealpha,0"
+	/>
+
+	<Layer
+		File="domino.txt"
+		OnCommand="hibernate,1.4;x,SCREEN_CENTER_X+250;y,SCREEN_CENTER_Y-0;z,60;rotationy,120;rotationx,0;zoom,3;diffusealpha,0;linear,2;diffusealpha,1;sleep,1;accelerate,3;rotationx,360;addy,200;diffusealpha,0"
+	/>
+
+
+
+</children></ActorFrame>
